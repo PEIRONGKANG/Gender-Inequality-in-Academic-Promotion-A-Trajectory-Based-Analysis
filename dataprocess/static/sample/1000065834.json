@@ -1,0 +1,2366 @@
+{
+    "@context": "https://api.researchmap.jp/researcher.jsonld",
+    "@id": "https://api.researchmap.jp/read0023654?format=json",
+    "@type": "researchers",
+    "rm:user_id": "1000065834",
+    "rm:creator_id": "1000065834",
+    "rm:creator_type": "myself",
+    "rm:created": "2011-08-07T15:00:00Z",
+    "rm:modifier_id": "R000000240",
+    "rm:modifier_type": "institution",
+    "rm:modified": "2024-08-27T01:36:18Z",
+    "permalink": "read0023654",
+    "family_name": {
+        "ja": "川井",
+        "ja-Kana": "カワイ",
+        "en": "KAWAI"
+    },
+    "given_name": {
+        "ja": "信孝",
+        "ja-Kana": "ノブタカ",
+        "en": "Nobutaka"
+    },
+    "display_name_kana": "disclosed",
+    "display_nickname": "disclosed",
+    "display_image": "disclosed",
+    "display_contact_point": "disclosed",
+    "affiliations": [
+        {
+            "affiliation": {
+                "en": "Saitama Medical University",
+                "ja": "埼玉医科大学"
+            },
+            "section": {
+                "en": "Faculty of Medicine",
+                "ja": "医学部国際医療センター　医療安全管理学"
+            },
+            "job": {
+                "ja": "教授",
+                "en": "Professor"
+            },
+            "display_affiliation": "disclosed",
+            "display_job": "disclosed",
+            "rm:institution_code": "2160001000"
+        }
+    ],
+    "degrees": [
+        {
+            "degree": {
+                "ja": "医学博士"
+            },
+            "degree_institution": {
+                "ja": "埼玉医科大学"
+            },
+            "display_degree": "disclosed",
+            "rm:institution_code": "2160000000"
+        }
+    ],
+    "display_profile": "disclosed",
+    "display_url": "disclosed",
+    "identifiers": {
+        "erad_id": [
+            "10214587"
+        ],
+        "j_global_id": [
+            "200901057085089617"
+        ]
+    },
+    "rm:erad_id_verified": false,
+    "rm:orc_id_verified": false,
+    "display_erad_id": "disclosed",
+    "display_orc_id": "closed",
+    "display_researcher_id": "disclosed",
+    "display_j_global_id": "disclosed",
+    "see_also": [
+        {
+            "label": "j_global",
+            "@id": "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=200901057085089617"
+        }
+    ],
+    "@graph": [
+        {
+            "@id": "https://api.researchmap.jp/read0023654/research_interests",
+            "@type": "research_interests",
+            "@reverse": "https://api.researchmap.jp/read0023654",
+            "total_items": 1,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0023654/research_interests/10743993",
+                    "@type": "research_interests",
+                    "@reverse": "https://api.researchmap.jp/read0023654/research_interests",
+                    "rm:id": "10743993",
+                    "rm:user_id": "1000065834",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-12-11T17:44:16Z",
+                    "rm:modifier_id": "R000000240",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2021-05-27T05:30:02Z",
+                    "keyword": {
+                        "ja": "医療安全管理"
+                    }
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0023654/research_areas",
+            "@type": "research_areas",
+            "@reverse": "https://api.researchmap.jp/read0023654",
+            "total_items": 2,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0023654/research_areas/8648566",
+                    "@type": "research_areas",
+                    "@reverse": "https://api.researchmap.jp/read0023654/research_areas",
+                    "rm:id": "8648566",
+                    "rm:user_id": "1000065834",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-12-11T17:44:16Z",
+                    "rm:modifier_id": "R000000240",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2023-02-01T03:49:09Z",
+                    "discipline_number": "A189",
+                    "item_number": "A54010",
+                    "discipline": {
+                        "ja": "ライフサイエンス",
+                        "en": "Life sciences"
+                    },
+                    "research_field": {
+                        "ja": "血液、腫瘍内科学",
+                        "en": "Hematology and oncology"
+                    },
+                    "research_keyword": {
+                        "ja": "血液内科学"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0023654/research_areas/8648565",
+                    "@type": "research_areas",
+                    "@reverse": "https://api.researchmap.jp/read0023654/research_areas",
+                    "rm:id": "8648565",
+                    "rm:user_id": "1000065834",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-12-11T17:44:16Z",
+                    "rm:modifier_id": "R000000240",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2023-02-01T03:49:09Z",
+                    "discipline_number": "A189",
+                    "item_number": "A58010",
+                    "discipline": {
+                        "ja": "ライフサイエンス",
+                        "en": "Life sciences"
+                    },
+                    "research_field": {
+                        "ja": "医療管理学、医療系社会学",
+                        "en": "Healthcare management, medical sociology"
+                    },
+                    "research_keyword": {
+                        "ja": "医療安全管理学"
+                    }
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0023654/published_papers",
+            "@type": "published_papers",
+            "@reverse": "https://api.researchmap.jp/read0023654",
+            "total_items": 34,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0023654/published_papers/39777964",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0023654/published_papers",
+                    "rm:id": "39777964",
+                    "rm:user_id": "1000065834",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "R000000240",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2022-08-30T02:04:15Z",
+                    "rm:modifier_id": "R000000240",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2023-12-19T00:50:11Z",
+                    "paper_title": {
+                        "en": "Bendamustine-induced rash is associated with a favorable prognosis in patients with indolent B-cell lymphoma.",
+                        "ja": "Bendamustine-induced rash is associated with a favorable prognosis in patients with indolent B-cell lymphoma."
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "Takahashi N"
+                            },
+                            {
+                                "name": "Tsukasaki K"
+                            },
+                            {
+                                "name": "Tanae K"
+                            },
+                            {
+                                "name": "Kohri M"
+                            },
+                            {
+                                "name": "Asou C"
+                            },
+                            {
+                                "name": "Okamura D"
+                            },
+                            {
+                                "name": "Ishikawa M"
+                            },
+                            {
+                                "name": "Maeda T"
+                            },
+                            {
+                                "name": "Kawai N"
+                            },
+                            {
+                                "name": "Akira Matsuda A"
+                            },
+                            {
+                                "name": "Sato T"
+                            },
+                            {
+                                "name": "Kayano H"
+                            },
+                            {
+                                "name": "Arai E"
+                            },
+                            {
+                                "name": "Asou N"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Takahashi N"
+                            },
+                            {
+                                "name": "Tsukasaki K"
+                            },
+                            {
+                                "name": "Tanae K"
+                            },
+                            {
+                                "name": "Kohri M"
+                            },
+                            {
+                                "name": "Asou C"
+                            },
+                            {
+                                "name": "Okamura D"
+                            },
+                            {
+                                "name": "Ishikawa M"
+                            },
+                            {
+                                "name": "Maeda T"
+                            },
+                            {
+                                "name": "Kawai N"
+                            },
+                            {
+                                "name": "Akira Matsuda A"
+                            },
+                            {
+                                "name": "Sato T"
+                            },
+                            {
+                                "name": "Kayano H"
+                            },
+                            {
+                                "name": "Arai E"
+                            },
+                            {
+                                "name": "Asou N"
+                            }
+                        ]
+                    },
+                    "publication_date": "2022-05-09",
+                    "publication_name": {
+                        "en": "Journal of Clinical and Experimental Hematopathology",
+                        "ja": "Journal of Clinical and Experimental Hematopathology"
+                    },
+                    "volume": "62",
+                    "number": "1",
+                    "starting_page": "18",
+                    "ending_page": "24",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "is_international_journal": true,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0023654/published_papers/14128592",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0023654/published_papers",
+                    "rm:id": "14128592",
+                    "rm:user_id": "1000065834",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-12-11T17:44:16Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-08-27T00:55:31Z",
+                    "paper_title": {
+                        "ja": "自作の医療安全教育用DVD作成を終えて ー活動を通じて見えてきたものー",
+                        "en": "Observations from the in-house development of a medical safety education DVD"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Toshiyuki Koremura"
+                            },
+                            {
+                                "name": "Narutoshi Arai"
+                            },
+                            {
+                                "name": "Nobutaka Kawai"
+                            },
+                            {
+                                "name": "Yae Yuzawa"
+                            }
+                        ],
+                        "ja": [
+                            {
+                                "name": "是村利幸"
+                            },
+                            {
+                                "name": "新井成俊"
+                            },
+                            {
+                                "name": "川井信孝"
+                            },
+                            {
+                                "name": "湯澤八江"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "日本医療マネジメント学会",
+                        "en": "Japan society for health care management"
+                    },
+                    "publication_date": "2017-03",
+                    "publication_name": {
+                        "ja": "日本医療マネジメント学会雑誌",
+                        "en": "The journal of japan society for health care management"
+                    },
+                    "volume": "17",
+                    "number": "4",
+                    "starting_page": "197",
+                    "ending_page": "200",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "1881-2503"
+                        ],
+                        "cinii_na_id": [
+                            "40021122424"
+                        ],
+                        "cinii_nc_id": [
+                            "AA12166447"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/40021122424",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_books",
+                            "@id": "http://ci.nii.ac.jp/ncid/AA12166447",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "http://id.ndl.go.jp/bib/028024676",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0023654/published_papers/14128593",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0023654/published_papers",
+                    "rm:id": "14128593",
+                    "rm:user_id": "1000065834",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-12-11T17:44:16Z",
+                    "rm:modifier_id": "R000000240",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2023-12-19T00:50:11Z",
+                    "paper_title": {
+                        "en": "Hematopoietic stem cell transplantation for adult aplastic anemia patient according to guidelines",
+                        "ja": "ガイドラインによる成人造血幹細胞移植"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "川井信孝"
+                            },
+                            {
+                                "name": "別所正美"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Nobutaka Kawai"
+                            },
+                            {
+                                "name": "Masami bessho"
+                            }
+                        ]
+                    },
+                    "published_paper_owner_roles": [
+                        "lead"
+                    ],
+                    "publisher": {
+                        "ja": "日本臨牀社"
+                    },
+                    "publication_date": "2017-01",
+                    "publication_name": {
+                        "ja": "日本臨牀"
+                    },
+                    "volume": "75",
+                    "number": "増刊号1",
+                    "starting_page": "372",
+                    "ending_page": "376",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0023654/published_papers/14128594",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0023654/published_papers",
+                    "rm:id": "14128594",
+                    "rm:user_id": "1000065834",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-12-11T17:44:16Z",
+                    "rm:modifier_id": "R000000240",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2023-12-19T00:50:11Z",
+                    "paper_title": {
+                        "ja": "電子カルテ端末を用いたニアミス・インシデントレポート報告の効果"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "葉秀寿"
+                            },
+                            {
+                                "name": "川井信孝"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "公益財団法人日本医療機能評価機構 認定病院患者安全水深協議会"
+                    },
+                    "publication_date": "2016-11",
+                    "publication_name": {
+                        "ja": "患者安全推進ジャーナル"
+                    },
+                    "number": "45",
+                    "starting_page": "31",
+                    "ending_page": "36",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "cinii_na_id": [
+                            "40020974612"
+                        ],
+                        "cinii_nc_id": [
+                            "AA12317418"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/40020974612",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_books",
+                            "@id": "http://ci.nii.ac.jp/ncid/AA12317418",
+                            "is_downloadable": false
+                        },
+                        {
+                            "@id": "http://id.ndl.go.jp/bib/027682400",
+                            "is_downloadable": false,
+                            "label": "url"
+                        },
+                        {
+                            "@id": "http://search.jamas.or.jp/link/ui/2017008819",
+                            "is_downloadable": false,
+                            "label": "url"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0023654/published_papers/14128595",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0023654/published_papers",
+                    "rm:id": "14128595",
+                    "rm:user_id": "1000065834",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-12-11T17:44:16Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-04-19T08:30:16Z",
+                    "paper_title": {
+                        "en": "Proposal of criteria for dyserythropoiesis in the diagnosis of myelodysplastic syndromes"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Nobutaka Kawai"
+                            },
+                            {
+                                "name": "Akira Matsuda"
+                            },
+                            {
+                                "name": "Itsuro Jinnai"
+                            },
+                            {
+                                "name": "Takaya Ichimura"
+                            },
+                            {
+                                "name": "Hidekazu Kayano"
+                            },
+                            {
+                                "name": "Daisuke Okamura"
+                            },
+                            {
+                                "name": "Maho Ishikawa"
+                            },
+                            {
+                                "name": "Tomoya Maeda"
+                            },
+                            {
+                                "name": "Tomoko Hata"
+                            },
+                            {
+                                "name": "Yasushi Miyazaki"
+                            },
+                            {
+                                "name": "Norio Asou"
+                            },
+                            {
+                                "name": "Masami Bessho"
+                            },
+                            {
+                                "name": "Masao Tomonaga"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "The percentage manifesting dysplasia in bone marrow needed to qualify as significant is a parts per thousand yen10 % in each lineage. However, detailed analyses of this threshold have not been reported. Here, we analyzed dyserythropoiesis (dysE) in 109 myelodysplastic syndromes (MDS) patients with 21 immune thrombocytopenia (ITP)/12 hemolytic anemia (HA) patients as a control. In present study, mild megaloblastic erythroblasts were specifically named 'red cell with abnormal chromatin clumping (RCACC)'. RCACC a parts per thousand yen10 % in erythroblasts was observed in 29 % of ITP patients and 58 % of HA patients. The numbers of MDS patients with RCACC in erythroblasts &lt; 10, 10-19 and a parts per thousand yen20 % were 1, 3, and 105, respectively. We analyzed dysE criteria according to the WHO classification (original WHO dysE). Most of our MDS patients (98 %) had original WHO dysE a parts per thousand yen20 %. The ITP patients with original WHO dysE a parts per thousand yen10 % was 48 %, and there were no ITP patients had original WHO dysE a parts per thousand yen20 %. Sixty-seven percent of HA patients had original WHO dysE a parts per thousand yen10 %, and three patients (25 %) had original WHO dysE a parts per thousand yen20 %. Raising the threshold of the original WHO dysE from 10 to 20 or 30 % may provide more suitable criteria. If RCACC is not included in dysE criteria, we think that '10 %' is a suitable threshold for the determination of dyserythropoiesis."
+                    },
+                    "publisher": {
+                        "en": "SPRINGER JAPAN KK"
+                    },
+                    "publication_date": "2016-02",
+                    "publication_name": {
+                        "en": "INTERNATIONAL JOURNAL OF HEMATOLOGY"
+                    },
+                    "volume": "103",
+                    "number": "2",
+                    "starting_page": "227",
+                    "ending_page": "233",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1007/s12185-015-1916-8"
+                        ],
+                        "issn": [
+                            "0925-5710"
+                        ],
+                        "e_issn": [
+                            "1865-3774"
+                        ],
+                        "wos_id": [
+                            "WOS:000368689400017"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1007/s12185-015-1916-8",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000368689400017&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0023654/published_papers/14128597",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0023654/published_papers",
+                    "rm:id": "14128597",
+                    "rm:user_id": "1000065834",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-12-11T17:44:16Z",
+                    "rm:modifier_id": "R000000240",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2023-12-19T00:50:11Z",
+                    "paper_title": {
+                        "en": "Efficacy and safety of bortezomib-containing induction chemotherapy for autologous stem cell transplantation-eligible Japanese multipale myeloma patients -A phase 2 multicenter trial-",
+                        "ja": "Efficacy and safety of bortezomib-containing induction chemotherapy for autologous stem cell transplantation-eligible Japanese multipale myeloma patients -A phase 2 multicenter trial-"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "Daisuke KUDO"
+                            },
+                            {
+                                "name": "Kazuteru OHASHI"
+                            },
+                            {
+                                "name": "Takuya KOMENO"
+                            },
+                            {
+                                "name": "Yuichi NAKAMURA"
+                            },
+                            {
+                                "name": "Atsushi SHINAGAWA"
+                            },
+                            {
+                                "name": "Chikashi YOSHIDA"
+                            },
+                            {
+                                "name": "Yukitaka KATSURA"
+                            },
+                            {
+                                "name": "Ikuyo OTA"
+                            },
+                            {
+                                "name": "Kazuhiko KAKIHANA"
+                            },
+                            {
+                                "name": "Takeshi KOBAYASHI"
+                            },
+                            {
+                                "name": "Nobutaka KAWAI"
+                            },
+                            {
+                                "name": "Atsushi KATO"
+                            },
+                            {
+                                "name": "Ayako ARAI"
+                            },
+                            {
+                                "name": "Koh YAMAMOTO"
+                            },
+                            {
+                                "name": "Shigeo TOYOTA"
+                            },
+                            {
+                                "name": "Takashi KUMAGAI"
+                            },
+                            {
+                                "name": "Akira OHWADA"
+                            },
+                            {
+                                "name": "Toru MIKI"
+                            },
+                            {
+                                "name": "Mitsuo HORI"
+                            },
+                            {
+                                "name": "Yasushi OKOSHI"
+                            },
+                            {
+                                "name": "Hiroshi KOJIMA"
+                            },
+                            {
+                                "name": "Hisashi SAKAMAKI"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Daisuke KUDO"
+                            },
+                            {
+                                "name": "Kazuteru OHASHI"
+                            },
+                            {
+                                "name": "Takuya KOMENO"
+                            },
+                            {
+                                "name": "Yuichi NAKAMURA"
+                            },
+                            {
+                                "name": "Atsushi SHINAGAWA"
+                            },
+                            {
+                                "name": "Chikashi YOSHIDA"
+                            },
+                            {
+                                "name": "Yukitaka KATSURA"
+                            },
+                            {
+                                "name": "Ikuyo OTA"
+                            },
+                            {
+                                "name": "Kazuhiko KAKIHANA"
+                            },
+                            {
+                                "name": "Takeshi KOBAYASHI"
+                            },
+                            {
+                                "name": "Nobutaka KAWAI"
+                            },
+                            {
+                                "name": "Atsushi KATO"
+                            },
+                            {
+                                "name": "Ayako ARAI"
+                            },
+                            {
+                                "name": "Koh YAMAMOTO"
+                            },
+                            {
+                                "name": "Shigeo TOYOTA"
+                            },
+                            {
+                                "name": "Takashi KUMAGAI"
+                            },
+                            {
+                                "name": "Akira OHWADA"
+                            },
+                            {
+                                "name": "Toru MIKI"
+                            },
+                            {
+                                "name": "Mitsuo HORI"
+                            },
+                            {
+                                "name": "Yasushi OKOSHI"
+                            },
+                            {
+                                "name": "Hiroshi KOJIMA"
+                            },
+                            {
+                                "name": "Hisashi SAKAMAKI"
+                            }
+                        ]
+                    },
+                    "publication_date": "2015-09",
+                    "publication_name": {
+                        "en": "International journal of myeloma",
+                        "ja": "International journal of myeloma"
+                    },
+                    "volume": "5",
+                    "number": "3",
+                    "starting_page": "15",
+                    "ending_page": "21",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0023654/published_papers/14128596",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0023654/published_papers",
+                    "rm:id": "14128596",
+                    "rm:user_id": "1000065834",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-12-11T17:44:16Z",
+                    "rm:modifier_id": "R000000240",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2023-02-01T03:49:09Z",
+                    "paper_title": {
+                        "ja": "The bridge treatment selected at the decision for transplantation did not affect the outcomes in patients with MDS.",
+                        "en": "The bridge treatment selected at the decision for transplantation did not affect the outcomes in patients with MDS."
+                    },
+                    "publisher": {
+                        "ja": "Wiley Online Library",
+                        "en": "Wiley Online Library"
+                    },
+                    "publication_date": "2015-09",
+                    "publication_name": {
+                        "ja": "Hematological Oncology",
+                        "en": "Hematological Oncology"
+                    },
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0023654/published_papers/14128598",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0023654/published_papers",
+                    "rm:id": "14128598",
+                    "rm:user_id": "1000065834",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-12-11T17:44:16Z",
+                    "rm:modifier_id": "R000000240",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2023-02-01T03:49:09Z",
+                    "paper_title": {
+                        "ja": "Effect of the order of TBI and cyclophosphamide administration on the outcome of allogeneic hematopoietic stem cell transplantation",
+                        "en": "Effect of the order of TBI and cyclophosphamide administration on the outcome of allogeneic hematopoietic stem cell transplantation"
+                    },
+                    "publication_date": "2015-07",
+                    "publication_name": {
+                        "ja": "Bone Marrow Transplantation",
+                        "en": "Bone Marrow Transplantation"
+                    },
+                    "starting_page": "1",
+                    "ending_page": "4",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0023654/published_papers/14128599",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0023654/published_papers",
+                    "rm:id": "14128599",
+                    "rm:user_id": "1000065834",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-12-11T17:44:16Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-08-31T21:54:16Z",
+                    "paper_title": {
+                        "en": "Hematologic improvements in a myelodysplastic syndromes with myelofibrosis (MDS-F) patient treated with azacitidine"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Daisuke Okamura"
+                            },
+                            {
+                                "name": "Akira Matsuda"
+                            },
+                            {
+                                "name": "Maho Ishikawa"
+                            },
+                            {
+                                "name": "Tomoya Maeda"
+                            },
+                            {
+                                "name": "Ken Tanae"
+                            },
+                            {
+                                "name": "Mika Kohri"
+                            },
+                            {
+                                "name": "Naoki Takahashi"
+                            },
+                            {
+                                "name": "Nobutaka Kawai"
+                            },
+                            {
+                                "name": "Norio Asou"
+                            },
+                            {
+                                "name": "Masami Bessho"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "Myelodysplastic syndromes with myelofibrosis (MDS-F) is a poor prognostic hematopoietic disorder. Azacitidine was shown to prolong survival of high-risk MDS patients. However, the effects of azacitidine on MDS-F have yet to be elucidated. Azacitidine was administered to a 74-year-old man with MDS-F at a dose of 75mg/m2/daily subcutaneously for 7days every 28days. Hematologic improvements were observed according to the International Working Group 2006 criteria after 8 cycles of the azacitidine treatment, and complete remission was achieved after 14 cycles. The grade of myelofibrosis was also improved. The therapeutic activity of azacitidine was confirmed in our MDS-F patient. © 2014 The Authors."
+                    },
+                    "publisher": {
+                        "en": "Elsevier Ltd"
+                    },
+                    "publication_date": "2014",
+                    "publication_name": {
+                        "en": "Leukemia Research Reports"
+                    },
+                    "volume": "3",
+                    "number": "1",
+                    "starting_page": "24",
+                    "ending_page": "27",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1016/j.lrr.2014.03.002"
+                        ],
+                        "issn": [
+                            "2213-0489"
+                        ],
+                        "scopus_id": [
+                            "84901339318"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1016/j.lrr.2014.03.002",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0023654/published_papers/14128600",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0023654/published_papers",
+                    "rm:id": "14128600",
+                    "rm:user_id": "1000065834",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-12-11T17:44:16Z",
+                    "rm:modifier_id": "R000000240",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2023-12-19T00:50:11Z",
+                    "paper_title": {
+                        "en": "Correlation Between Dysplastic Lineage and Type of Cytopenia in Myelodysplastic Syndromes Patients With Refractory Anemia According to the FAB Classification",
+                        "ja": "Correlation Between Dysplastic Lineage and Type of Cytopenia in Myelodysplastic Syndromes Patients With Refractory Anemia According to the FAB Classification"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "Akira Matsuda"
+                            },
+                            {
+                                "name": "Itsuro Jinnai"
+                            },
+                            {
+                                "name": "Masako Iwanaga"
+                            },
+                            {
+                                "name": "Daisuke Okamura"
+                            },
+                            {
+                                "name": "Maho Ishikawa"
+                            },
+                            {
+                                "name": "Tomoya Maeda"
+                            },
+                            {
+                                "name": "Tomoko Hata"
+                            },
+                            {
+                                "name": "Nobutaka Kawai"
+                            },
+                            {
+                                "name": "Yasushi Miyazaki"
+                            },
+                            {
+                                "name": "Masami Bessho"
+                            },
+                            {
+                                "name": "and Masao Tomonaga"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Akira Matsuda"
+                            },
+                            {
+                                "name": "Itsuro Jinnai"
+                            },
+                            {
+                                "name": "Masako Iwanaga"
+                            },
+                            {
+                                "name": "Daisuke Okamura"
+                            },
+                            {
+                                "name": "Maho Ishikawa"
+                            },
+                            {
+                                "name": "Tomoya Maeda"
+                            },
+                            {
+                                "name": "Tomoko Hata"
+                            },
+                            {
+                                "name": "Nobutaka Kawai"
+                            },
+                            {
+                                "name": "Yasushi Miyazaki"
+                            },
+                            {
+                                "name": "Masami Bessho"
+                            },
+                            {
+                                "name": "and Masao Tomonaga"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "Objectives: To analyze the correlation between dysplastic lineage and type of cytopenia in myelodysplastic syndromes.\nMethods: We analyzed the correlation between dysplasia and cell count using the data set of our previous morphologic study.\nResults: There were no correlations between dysgranulopoiesis of 10% or more and absolute neutrophil count (ANC). Similarly, hyposegmented mature neutrophils (Pelger) of 10% or more were not related to ANC. Interestingly, the platelet count of patients with dysmegakaryopoiesis (dys Mgk) was higher than that of patients without dys Mgk (dys Mgk &gt;= 10% vs &lt;10%, P = .08; dys Mgk &gt;= 40% vs &lt;40%, P = .02; micromegakaryocytes &gt;= 10% vs &lt;10%, P = .004).\nConclusions: Since low cell counts did not correlate with the presence of dysplastic features, we suggest that dysplastic features do not directly relate to apoptosis."
+                    },
+                    "publisher": {
+                        "en": "AMER SOC CLINICAL PATHOLOGY"
+                    },
+                    "publication_date": "2013-08",
+                    "publication_name": {
+                        "en": "American Society for Clinical Patholoby",
+                        "ja": "American Society for Clinical Patholoby"
+                    },
+                    "volume": "140",
+                    "number": "2",
+                    "starting_page": "253-7",
+                    "ending_page": "257",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1309/AJCPJEFPNTMM3KSH"
+                        ],
+                        "issn": [
+                            "0002-9173"
+                        ],
+                        "wos_id": [
+                            "WOS:000322149600018"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1309/AJCPJEFPNTMM3KSH",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000322149600018&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0023654/published_papers/14128601",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0023654/published_papers",
+                    "rm:id": "14128601",
+                    "rm:user_id": "1000065834",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-12-11T17:44:16Z",
+                    "rm:modifier_id": "R000000240",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2023-12-19T00:50:11Z",
+                    "paper_title": {
+                        "en": "Allogeneic hematopoietic stem cell transplantation for adult AML patients with granulocytic sarcoma.",
+                        "ja": "Allogeneic hematopoietic stem cell transplantation for adult AML patients with granulocytic sarcoma."
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "Shimizu H"
+                            },
+                            {
+                                "name": "Saitoh T"
+                            },
+                            {
+                                "name": "Tanaka M"
+                            },
+                            {
+                                "name": "Mori T"
+                            },
+                            {
+                                "name": "Sakura T"
+                            },
+                            {
+                                "name": "Kawai N"
+                            },
+                            {
+                                "name": "Kanda Y"
+                            },
+                            {
+                                "name": "Nakaseko C"
+                            },
+                            {
+                                "name": "Yano S"
+                            },
+                            {
+                                "name": "Fujita H"
+                            },
+                            {
+                                "name": "Fujisawa S"
+                            },
+                            {
+                                "name": "Miyawaki S"
+                            },
+                            {
+                                "name": "Kanamori H"
+                            },
+                            {
+                                "name": "Okamoto S."
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Shimizu H"
+                            },
+                            {
+                                "name": "Saitoh T"
+                            },
+                            {
+                                "name": "Tanaka M"
+                            },
+                            {
+                                "name": "Mori T"
+                            },
+                            {
+                                "name": "Sakura T"
+                            },
+                            {
+                                "name": "Kawai N"
+                            },
+                            {
+                                "name": "Kanda Y"
+                            },
+                            {
+                                "name": "Nakaseko C"
+                            },
+                            {
+                                "name": "Yano S"
+                            },
+                            {
+                                "name": "Fujita H"
+                            },
+                            {
+                                "name": "Fujisawa S"
+                            },
+                            {
+                                "name": "Miyawaki S"
+                            },
+                            {
+                                "name": "Kanamori H"
+                            },
+                            {
+                                "name": "Okamoto S."
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "We recently reported that adult acute myeloid leukemia (AML) patients with granulocytic sarcoma (GS) possessed unique clinical features and poor prognosis. However, the optimal therapeutic strategy for this entity has not been established. Therefore, the aim of this study was to assess the efficacy of allogeneic hematopoietic stem cell transplantation (allo-HSCT) for the management of AML with GS. We retrospectively analyzed 503 consecutive adult AML patients (median age, 44 years; range, 15-73 years) who received allo-HSCT. A total of 44 patients (8.7%) had GS before transplantation. Patients with GS achieved comparable survival to those without GS (5-year overall survival (OS), 47% vs 44%, respectively, P = 0.621). In patients with GS, excellent outcomes were seen in those that underwent allo-HSCT while in complete remission, whereas nine out of ten patients with GS at the time of transplant experienced a relapse within 6 months after allo-HSCT. Local irradiation for GS prior to allo-HSCT and acute and chronic graft-versus-host disease did not affect survival significantly. Multivariate analysis identified age, disease status and the use of myeloablative conditioning as independent prognostic factors for OS. These data suggest that better control of GS prior to allo-HSCT is crucial to improve the outcome of transplantation for those with GS. Leukemia (2012) 26, 2469-2473; doi: 10.1038/leu.2012.156"
+                    },
+                    "publisher": {
+                        "en": "NATURE PUBLISHING GROUP"
+                    },
+                    "publication_date": "2012-12",
+                    "publication_name": {
+                        "en": "Leukemia",
+                        "ja": "Leukemia"
+                    },
+                    "volume": "26",
+                    "number": "12",
+                    "starting_page": "2469-73",
+                    "ending_page": "2473",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1038/leu.2012.156"
+                        ],
+                        "issn": [
+                            "0887-6924"
+                        ],
+                        "wos_id": [
+                            "WOS:000312186000004"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1038/leu.2012.156",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000312186000004&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0023654/published_papers/44023507",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0023654/published_papers",
+                    "rm:id": "44023507",
+                    "rm:user_id": "1000065834",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "R000000240",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2023-11-13T02:30:27Z",
+                    "rm:modifier_id": "R000000240",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2023-11-13T02:30:27Z",
+                    "paper_title": {
+                        "ja": "Aplastic anemia complicated with ulcerative colitis"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "◎Shimada T"
+                            },
+                            {
+                                "name": "Maeda T"
+                            },
+                            {
+                                "name": "Ishikawa M"
+                            },
+                            {
+                                "name": "Okamura D"
+                            },
+                            {
+                                "name": "Ito Y"
+                            },
+                            {
+                                "name": "Wakimoto N"
+                            },
+                            {
+                                "name": "Nakamura Y"
+                            },
+                            {
+                                "name": "<U> Kawai N</U>"
+                            },
+                            {
+                                "name": "Ino H"
+                            },
+                            {
+                                "name": "Jinnai I"
+                            },
+                            {
+                                "name": "Mori S"
+                            },
+                            {
+                                "name": "Matsuda A"
+                            },
+                            {
+                                "name": "Bessho M."
+                            }
+                        ]
+                    },
+                    "publication_date": "2012-02",
+                    "publication_name": {
+                        "ja": "Rinsho Ketsueki"
+                    },
+                    "volume": "53",
+                    "number": "2",
+                    "starting_page": "224-228",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0023654/published_papers/43919965",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0023654/published_papers",
+                    "rm:id": "43919965",
+                    "rm:user_id": "1000065834",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "R000000240",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2023-11-01T00:22:18Z",
+                    "rm:modifier_id": "R000000240",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2023-11-01T00:22:18Z",
+                    "paper_title": {
+                        "ja": "Aplastic anemia complicated with ulcerative colitis"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "◎Shimada T"
+                            },
+                            {
+                                "name": "Maeda T"
+                            },
+                            {
+                                "name": "Ishikawa M"
+                            },
+                            {
+                                "name": "Okamura D"
+                            },
+                            {
+                                "name": "Ito Y"
+                            },
+                            {
+                                "name": "Wakimoto N"
+                            },
+                            {
+                                "name": "Nakamura Y"
+                            },
+                            {
+                                "name": "<U> Kawai N</U>"
+                            },
+                            {
+                                "name": "Ino H"
+                            },
+                            {
+                                "name": "Jinnai I"
+                            },
+                            {
+                                "name": "Mori S"
+                            },
+                            {
+                                "name": "Matsuda A"
+                            },
+                            {
+                                "name": "Bessho M."
+                            }
+                        ]
+                    },
+                    "publication_date": "2012-02",
+                    "publication_name": {
+                        "ja": "Rinsho Ketsueki"
+                    },
+                    "volume": "53",
+                    "number": "2",
+                    "starting_page": "224-228",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0023654/published_papers/43638272",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0023654/published_papers",
+                    "rm:id": "43638272",
+                    "rm:user_id": "1000065834",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "R000000240",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2023-10-02T00:47:21Z",
+                    "rm:modifier_id": "R000000240",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2023-10-02T00:47:21Z",
+                    "paper_title": {
+                        "ja": "Aplastic anemia complicated with ulcerative colitis"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "◎Shimada T"
+                            },
+                            {
+                                "name": "Maeda T"
+                            },
+                            {
+                                "name": "Ishikawa M"
+                            },
+                            {
+                                "name": "Okamura D"
+                            },
+                            {
+                                "name": "Ito Y"
+                            },
+                            {
+                                "name": "Wakimoto N"
+                            },
+                            {
+                                "name": "Nakamura Y"
+                            },
+                            {
+                                "name": "<U> Kawai N</U>"
+                            },
+                            {
+                                "name": "Ino H"
+                            },
+                            {
+                                "name": "Jinnai I"
+                            },
+                            {
+                                "name": "Mori S"
+                            },
+                            {
+                                "name": "Matsuda A"
+                            },
+                            {
+                                "name": "Bessho M."
+                            }
+                        ]
+                    },
+                    "publication_date": "2012-02",
+                    "publication_name": {
+                        "ja": "Rinsho Ketsueki"
+                    },
+                    "volume": "53",
+                    "number": "2",
+                    "starting_page": "224-228",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0023654/published_papers/43466624",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0023654/published_papers",
+                    "rm:id": "43466624",
+                    "rm:user_id": "1000065834",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "R000000240",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2023-09-15T07:07:52Z",
+                    "rm:modifier_id": "R000000240",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2023-09-15T07:07:52Z",
+                    "paper_title": {
+                        "ja": "Aplastic anemia complicated with ulcerative colitis"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "◎Shimada T"
+                            },
+                            {
+                                "name": "Maeda T"
+                            },
+                            {
+                                "name": "Ishikawa M"
+                            },
+                            {
+                                "name": "Okamura D"
+                            },
+                            {
+                                "name": "Ito Y"
+                            },
+                            {
+                                "name": "Wakimoto N"
+                            },
+                            {
+                                "name": "Nakamura Y"
+                            },
+                            {
+                                "name": "<U> Kawai N</U>"
+                            },
+                            {
+                                "name": "Ino H"
+                            },
+                            {
+                                "name": "Jinnai I"
+                            },
+                            {
+                                "name": "Mori S"
+                            },
+                            {
+                                "name": "Matsuda A"
+                            },
+                            {
+                                "name": "Bessho M."
+                            }
+                        ]
+                    },
+                    "publication_date": "2012-02",
+                    "publication_name": {
+                        "ja": "Rinsho Ketsueki"
+                    },
+                    "volume": "53",
+                    "number": "2",
+                    "starting_page": "224-228",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0023654/published_papers/43254565",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0023654/published_papers",
+                    "rm:id": "43254565",
+                    "rm:user_id": "1000065834",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "R000000240",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2023-08-30T07:03:17Z",
+                    "rm:modifier_id": "R000000240",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2023-08-30T07:03:17Z",
+                    "paper_title": {
+                        "ja": "Aplastic anemia complicated with ulcerative colitis"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "◎Shimada T"
+                            },
+                            {
+                                "name": "Maeda T"
+                            },
+                            {
+                                "name": "Ishikawa M"
+                            },
+                            {
+                                "name": "Okamura D"
+                            },
+                            {
+                                "name": "Ito Y"
+                            },
+                            {
+                                "name": "Wakimoto N"
+                            },
+                            {
+                                "name": "Nakamura Y"
+                            },
+                            {
+                                "name": "<U> Kawai N</U>"
+                            },
+                            {
+                                "name": "Ino H"
+                            },
+                            {
+                                "name": "Jinnai I"
+                            },
+                            {
+                                "name": "Mori S"
+                            },
+                            {
+                                "name": "Matsuda A"
+                            },
+                            {
+                                "name": "Bessho M."
+                            }
+                        ]
+                    },
+                    "publication_date": "2012-02",
+                    "publication_name": {
+                        "ja": "Rinsho Ketsueki"
+                    },
+                    "volume": "53",
+                    "number": "2",
+                    "starting_page": "224-228",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0023654/published_papers/42704671",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0023654/published_papers",
+                    "rm:id": "42704671",
+                    "rm:user_id": "1000065834",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "R000000240",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2023-07-04T00:35:03Z",
+                    "rm:modifier_id": "R000000240",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2023-12-19T00:50:11Z",
+                    "paper_title": {
+                        "ja": "Aplastic anemia complicated with ulcerative colitis"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "Shimada T"
+                            },
+                            {
+                                "name": "Maeda T"
+                            },
+                            {
+                                "name": "Ishikawa M"
+                            },
+                            {
+                                "name": "Okamura D"
+                            },
+                            {
+                                "name": "Ito Y"
+                            },
+                            {
+                                "name": "Wakimoto N"
+                            },
+                            {
+                                "name": "Nakamura Y"
+                            },
+                            {
+                                "name": "Kawai N"
+                            },
+                            {
+                                "name": "Ino H"
+                            },
+                            {
+                                "name": "Jinnai I"
+                            },
+                            {
+                                "name": "Mori S"
+                            },
+                            {
+                                "name": "Matsuda A"
+                            },
+                            {
+                                "name": "Bessho M."
+                            }
+                        ]
+                    },
+                    "publication_date": "2012-02",
+                    "publication_name": {
+                        "ja": "Rinsho Ketsueki"
+                    },
+                    "volume": "53",
+                    "number": "2",
+                    "starting_page": "224-228",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0023654/published_papers/42478760",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0023654/published_papers",
+                    "rm:id": "42478760",
+                    "rm:user_id": "1000065834",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "R000000240",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2023-06-07T00:39:16Z",
+                    "rm:modifier_id": "R000000240",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2023-06-07T00:39:16Z",
+                    "paper_title": {
+                        "ja": "Aplastic anemia complicated with ulcerative colitis"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "◎Shimada T"
+                            },
+                            {
+                                "name": "Maeda T"
+                            },
+                            {
+                                "name": "Ishikawa M"
+                            },
+                            {
+                                "name": "Okamura D"
+                            },
+                            {
+                                "name": "Ito Y"
+                            },
+                            {
+                                "name": "Wakimoto N"
+                            },
+                            {
+                                "name": "Nakamura Y"
+                            },
+                            {
+                                "name": "<U> Kawai N</U>"
+                            },
+                            {
+                                "name": "Ino H"
+                            },
+                            {
+                                "name": "Jinnai I"
+                            },
+                            {
+                                "name": "Mori S"
+                            },
+                            {
+                                "name": "Matsuda A"
+                            },
+                            {
+                                "name": "Bessho M."
+                            }
+                        ]
+                    },
+                    "publication_date": "2012-02",
+                    "publication_name": {
+                        "ja": "Rinsho Ketsueki"
+                    },
+                    "volume": "53",
+                    "number": "2",
+                    "starting_page": "224-228",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0023654/published_papers/14128602",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0023654/published_papers",
+                    "rm:id": "14128602",
+                    "rm:user_id": "1000065834",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-12-11T17:44:16Z",
+                    "rm:modifier_id": "R000000240",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2023-02-01T03:49:09Z",
+                    "paper_title": {
+                        "ja": "Aplastic anemia complicated with ulcerative colitis"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "◎Shimada T"
+                            },
+                            {
+                                "name": "Maeda T"
+                            },
+                            {
+                                "name": "Ishikawa M"
+                            },
+                            {
+                                "name": "Okamura D"
+                            },
+                            {
+                                "name": "Ito Y"
+                            },
+                            {
+                                "name": "Wakimoto N"
+                            },
+                            {
+                                "name": "Nakamura Y"
+                            },
+                            {
+                                "name": "<U> Kawai N</U>"
+                            },
+                            {
+                                "name": "Ino H"
+                            },
+                            {
+                                "name": "Jinnai I"
+                            },
+                            {
+                                "name": "Mori S"
+                            },
+                            {
+                                "name": "Matsuda A"
+                            },
+                            {
+                                "name": "Bessho M."
+                            }
+                        ]
+                    },
+                    "publication_date": "2012-02",
+                    "publication_name": {
+                        "ja": "Rinsho Ketsueki"
+                    },
+                    "volume": "53",
+                    "number": "2",
+                    "starting_page": "224-228",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0023654/published_papers/14128603",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0023654/published_papers",
+                    "rm:id": "14128603",
+                    "rm:user_id": "1000065834",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-12-11T17:44:16Z",
+                    "rm:modifier_id": "R000000240",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2023-12-19T00:50:11Z",
+                    "paper_title": {
+                        "en": "Air-leak syndrome following allo-SCT in adult patients: report from the Kanto Study Group for Cell Therapy in Japan",
+                        "ja": "Air-leak syndrome following allo-SCT in adult patients: report from the Kanto Study Group for Cell Therapy in Japan"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "R Sakai"
+                            },
+                            {
+                                "name": "H Kanamori"
+                            },
+                            {
+                                "name": "C Nakaseko"
+                            },
+                            {
+                                "name": "F Yoshida"
+                            },
+                            {
+                                "name": "K Fujimaki"
+                            },
+                            {
+                                "name": "T Sakura"
+                            },
+                            {
+                                "name": "S Fujisawa"
+                            },
+                            {
+                                "name": "N Kawai"
+                            },
+                            {
+                                "name": "M Onoda"
+                            },
+                            {
+                                "name": "T Matsushima"
+                            },
+                            {
+                                "name": "A Maruta"
+                            },
+                            {
+                                "name": "H Sakamaki"
+                            },
+                            {
+                                "name": "and S Okamoto for the Kanto Study Group for Cell Therapy"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "R Sakai"
+                            },
+                            {
+                                "name": "H Kanamori"
+                            },
+                            {
+                                "name": "C Nakaseko"
+                            },
+                            {
+                                "name": "F Yoshida"
+                            },
+                            {
+                                "name": "K Fujimaki"
+                            },
+                            {
+                                "name": "T Sakura"
+                            },
+                            {
+                                "name": "S Fujisawa"
+                            },
+                            {
+                                "name": "N Kawai"
+                            },
+                            {
+                                "name": "M Onoda"
+                            },
+                            {
+                                "name": "T Matsushima"
+                            },
+                            {
+                                "name": "A Maruta"
+                            },
+                            {
+                                "name": "H Sakamaki"
+                            },
+                            {
+                                "name": "and S Okamoto for the Kanto Study Group for Cell Therapy"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "We retrospectively investigated air-leak syndrome (ALS), including pneumothorax and mediastinal/s.c. emphysema, following allogeneic hematopoietic SCT. Eighteen patients (1.2%) developed ALS among 1515 undergoing SCT between 1994 and 2005 at the nine hospitals participating in the Kanto Study Group on Cell Therapy. The median onset of ALS was at 575 days (range: 105-1766) after SCT and 14 patients (77.8%) had experienced late onset noninfectious pulmonary complications (LONIPC) before ALS. Chronic GVHD (cGVHD) was the strongest risk factor for ALS (odds ratio 13.5, P = 0.013 by multivariate analysis). Repeat SCT, male sex and age &lt; 38 years at the time of transplantation were also significant risk factors for ALS. Patients with ALS had a significantly worse survival rate than those without ALS (61.5 vs 14.9% at 3 years; P = 0.000). The main cause of death was respiratory complications in 8 of the 18 patients. In conclusion, ALS is a rare complication of SCT that is more likely to occur in relatively young male patients with cGVHD and/or LONIPC. It is possible that better understanding and treatment of LONIPC may lead to prevention of ALS. Bone Marrow Transplantation (2011) 46, 379-384; doi:10.1038/bmt.2010.129; published online 31 May 2010"
+                    },
+                    "publisher": {
+                        "en": "NATURE PUBLISHING GROUP"
+                    },
+                    "publication_date": "2011-03",
+                    "publication_name": {
+                        "en": "Bone Marrow Transplantation",
+                        "ja": "Bone Marrow Transplantation"
+                    },
+                    "volume": "46",
+                    "number": "3",
+                    "starting_page": "379-384",
+                    "ending_page": "384",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1038/bmt.2010.129"
+                        ],
+                        "issn": [
+                            "0268-3369"
+                        ],
+                        "wos_id": [
+                            "WOS:000288164000010"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1038/bmt.2010.129",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000288164000010&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0023654/books_etc",
+            "@type": "books_etc",
+            "@reverse": "https://api.researchmap.jp/read0023654",
+            "total_items": 2,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0023654/books_etc/41293806",
+                    "@type": "books_etc",
+                    "@reverse": "https://api.researchmap.jp/read0023654/books_etc",
+                    "rm:id": "41293806",
+                    "rm:user_id": "1000065834",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "R000000240",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2023-02-01T03:49:09Z",
+                    "rm:modifier_id": "R000000240",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2023-02-01T03:49:09Z",
+                    "book_title": {
+                        "ja": "「病気が見える」"
+                    },
+                    "publisher": {
+                        "ja": "メディックメディア"
+                    },
+                    "publication_date": "2008-11",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "book_type": "scholarly_book"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0023654/books_etc/33881525",
+                    "@type": "books_etc",
+                    "@reverse": "https://api.researchmap.jp/read0023654/books_etc",
+                    "rm:id": "33881525",
+                    "rm:user_id": "1000065834",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "R000000240",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2021-10-01T08:39:28Z",
+                    "rm:modifier_id": "R000000240",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2021-10-01T08:39:28Z",
+                    "book_title": {
+                        "ja": "病気が見える"
+                    },
+                    "publisher": {
+                        "ja": "メディックメディア"
+                    },
+                    "publication_date": "2008-11",
+                    "book_type": "scholarly_book"
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0023654/presentations",
+            "@type": "presentations",
+            "@reverse": "https://api.researchmap.jp/read0023654",
+            "total_items": 136,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0023654/presentations/43254567",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0023654/presentations",
+                    "rm:id": "43254567",
+                    "rm:user_id": "1000065834",
+                    "display": "disclosed",
+                    "major_achievement": true,
+                    "rm:creator_id": "R000000240",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2023-08-30T07:03:17Z",
+                    "rm:modifier_id": "R000000240",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2023-08-30T07:03:17Z",
+                    "presentation_title": {
+                        "ja": "インスリン製剤・注射用カリウム製剤の適切な管理 ～認定病院患者安全推進協議会 薬剤 安全部会の活動でわかったこと～"
+                    },
+                    "presenters": {
+                        "ja": [
+                            {
+                                "name": "川井 信孝"
+                            },
+                            {
+                                "name": "赤木 晋介"
+                            },
+                            {
+                                "name": "菅野 浩"
+                            },
+                            {
+                                "name": "髙橋 香織"
+                            },
+                            {
+                                "name": "宅和 真由美"
+                            },
+                            {
+                                "name": "佐藤 康弘"
+                            },
+                            {
+                                "name": "横山 容子"
+                            }
+                        ]
+                    },
+                    "event": {
+                        "ja": "第17回医療の質・安全学会学術集会"
+                    },
+                    "publication_date": "2022-11-26",
+                    "invited": false,
+                    "languages": [
+                        "jpn"
+                    ],
+                    "presentation_type": "public_symposium",
+                    "location": {
+                        "ja": "神戸"
+                    },
+                    "is_international_presentation": false,
+                    "rm:is_open_access": false
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0023654/association_memberships",
+            "@type": "association_memberships",
+            "@reverse": "https://api.researchmap.jp/read0023654",
+            "total_items": 5,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0023654/association_memberships/11057822",
+                    "@type": "association_memberships",
+                    "@reverse": "https://api.researchmap.jp/read0023654/association_memberships",
+                    "rm:id": "11057822",
+                    "rm:user_id": "1000065834",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-12-11T17:44:16Z",
+                    "rm:modifier_id": "R000000240",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2023-02-01T03:49:09Z",
+                    "academic_society_name": {
+                        "ja": "医療の質・安全学会",
+                        "en": "Japanese Society for Quality and Safety in Healthcare"
+                    },
+                    "from_date": "2015-06",
+                    "to_date": "9999"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0023654/association_memberships/11057821",
+                    "@type": "association_memberships",
+                    "@reverse": "https://api.researchmap.jp/read0023654/association_memberships",
+                    "rm:id": "11057821",
+                    "rm:user_id": "1000065834",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-12-11T17:44:16Z",
+                    "rm:modifier_id": "R000000240",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2023-02-01T03:49:09Z",
+                    "academic_society_name": {
+                        "ja": "日本造血細胞移植学会"
+                    },
+                    "from_date": "1993",
+                    "to_date": "9999"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0023654/association_memberships/11057820",
+                    "@type": "association_memberships",
+                    "@reverse": "https://api.researchmap.jp/read0023654/association_memberships",
+                    "rm:id": "11057820",
+                    "rm:user_id": "1000065834",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-12-11T17:44:16Z",
+                    "rm:modifier_id": "R000000240",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2023-02-01T03:49:09Z",
+                    "academic_society_name": {
+                        "ja": "日本血液学会"
+                    },
+                    "from_date": "1985",
+                    "to_date": "9999"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0023654/association_memberships/11057819",
+                    "@type": "association_memberships",
+                    "@reverse": "https://api.researchmap.jp/read0023654/association_memberships",
+                    "rm:id": "11057819",
+                    "rm:user_id": "1000065834",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-12-11T17:44:16Z",
+                    "rm:modifier_id": "R000000240",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2023-02-01T03:49:09Z",
+                    "academic_society_name": {
+                        "ja": "日本内科学会"
+                    },
+                    "from_date": "1985",
+                    "to_date": "9999"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0023654/association_memberships/11057823",
+                    "@type": "association_memberships",
+                    "@reverse": "https://api.researchmap.jp/read0023654/association_memberships",
+                    "rm:id": "11057823",
+                    "rm:user_id": "1000065834",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-12-11T17:44:16Z",
+                    "rm:modifier_id": "R000000240",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2022-01-05T01:39:42Z",
+                    "academic_society_name": {
+                        "ja": "日本医療マネジメント学会"
+                    }
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0023654/social_contribution",
+            "@type": "social_contribution",
+            "@reverse": "https://api.researchmap.jp/read0023654",
+            "total_items": 5,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0023654/social_contribution/2943290",
+                    "@type": "social_contribution",
+                    "@reverse": "https://api.researchmap.jp/read0023654/social_contribution",
+                    "rm:id": "2943290",
+                    "rm:user_id": "1000065834",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-12-11T17:44:16Z",
+                    "rm:modifier_id": "R000000240",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-10-07T04:08:59Z",
+                    "social_contribution_title": {
+                        "ja": "骨髄バンクドナーの調整活動"
+                    },
+                    "social_contribution_roles": [
+                        "others"
+                    ],
+                    "from_event_date": "1995-04",
+                    "to_event_date": "9999"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0023654/social_contribution/2943294",
+                    "@type": "social_contribution",
+                    "@reverse": "https://api.researchmap.jp/read0023654/social_contribution",
+                    "rm:id": "2943294",
+                    "rm:user_id": "1000065834",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-12-11T17:44:16Z",
+                    "rm:modifier_id": "R000000240",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-10-07T04:08:59Z",
+                    "social_contribution_title": {
+                        "ja": "血液疾患患者相談会"
+                    },
+                    "social_contribution_roles": [
+                        "others"
+                    ],
+                    "from_event_date": "2011-03",
+                    "to_event_date": "2011-03"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0023654/social_contribution/2943293",
+                    "@type": "social_contribution",
+                    "@reverse": "https://api.researchmap.jp/read0023654/social_contribution",
+                    "rm:id": "2943293",
+                    "rm:user_id": "1000065834",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-12-11T17:44:16Z",
+                    "rm:modifier_id": "R000000240",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-10-07T04:08:59Z",
+                    "social_contribution_title": {
+                        "ja": "血液疾患医療相談会での患者相談"
+                    },
+                    "social_contribution_roles": [
+                        "others"
+                    ],
+                    "from_event_date": "2010-03",
+                    "to_event_date": "2010-03"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0023654/social_contribution/2943292",
+                    "@type": "social_contribution",
+                    "@reverse": "https://api.researchmap.jp/read0023654/social_contribution",
+                    "rm:id": "2943292",
+                    "rm:user_id": "1000065834",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-12-11T17:44:16Z",
+                    "rm:modifier_id": "R000000240",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-10-07T04:08:59Z",
+                    "social_contribution_title": {
+                        "ja": "血液疾患医療相談会での患者相談"
+                    },
+                    "social_contribution_roles": [
+                        "others"
+                    ],
+                    "from_event_date": "2009-02",
+                    "to_event_date": "2009-02"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0023654/social_contribution/2943291",
+                    "@type": "social_contribution",
+                    "@reverse": "https://api.researchmap.jp/read0023654/social_contribution",
+                    "rm:id": "2943291",
+                    "rm:user_id": "1000065834",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-12-11T17:44:16Z",
+                    "rm:modifier_id": "R000000240",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-10-07T04:08:59Z",
+                    "social_contribution_title": {
+                        "ja": "骨髄バンクドナーの調整活動"
+                    },
+                    "social_contribution_roles": [
+                        "others"
+                    ],
+                    "from_event_date": "2004-04",
+                    "to_event_date": "2005-03"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,1903 @@
+{
+    "@context": "https://api.researchmap.jp/researcher.jsonld",
+    "@id": "https://api.researchmap.jp/read0009147?format=json",
+    "@type": "researchers",
+    "rm:user_id": "1000018221",
+    "rm:creator_id": "1000018221",
+    "rm:creator_type": "myself",
+    "rm:created": "2010-12-02T15:00:00Z",
+    "rm:modifier_id": "R000000025",
+    "rm:modifier_type": "institution",
+    "rm:modified": "2024-01-17T05:10:18Z",
+    "permalink": "read0009147",
+    "family_name": {
+        "ja": "上野",
+        "ja-Kana": "ウエノ",
+        "en": "Ueno"
+    },
+    "given_name": {
+        "ja": "誠也",
+        "ja-Kana": "セイヤ",
+        "en": "Seiya"
+    },
+    "display_name_kana": "disclosed",
+    "display_nickname": "closed",
+    "display_image": "disclosed",
+    "display_contact_point": "disclosed",
+    "degrees": [
+        {
+            "degree": {
+                "ja": "工学博士",
+                "en": "Doctor of Engineering"
+            },
+            "degree_institution": {
+                "ja": "東京大学",
+                "en": "The University of Tokyo"
+            },
+            "display_degree": "disclosed",
+            "rm:institution_code": "0172000000"
+        },
+        {
+            "degree": {
+                "ja": "工学修士",
+                "en": "Master of Engineering"
+            },
+            "degree_institution": {
+                "ja": "東京大学",
+                "en": "The University of Tokyo"
+            },
+            "display_degree": "disclosed",
+            "rm:institution_code": "0172000000"
+        }
+    ],
+    "display_profile": "disclosed",
+    "display_url": "disclosed",
+    "identifiers": {
+        "j_global_id": [
+            "200901076555760293"
+        ]
+    },
+    "rm:erad_id_verified": false,
+    "rm:orc_id_verified": false,
+    "display_erad_id": "closed",
+    "display_orc_id": "closed",
+    "display_researcher_id": "disclosed",
+    "display_j_global_id": "disclosed",
+    "see_also": [
+        {
+            "label": "j_global",
+            "@id": "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=200901076555760293"
+        }
+    ],
+    "@graph": [
+        {
+            "@id": "https://api.researchmap.jp/read0009147/research_areas",
+            "@type": "research_areas",
+            "@reverse": "https://api.researchmap.jp/read0009147",
+            "total_items": 3,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0009147/research_areas/7928603",
+                    "@type": "research_areas",
+                    "@reverse": "https://api.researchmap.jp/read0009147/research_areas",
+                    "rm:id": "7928603",
+                    "rm:user_id": "1000018221",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:fzq#WmOR9~4a+*ik",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-02-28T17:41:47Z",
+                    "rm:modifier_id": "client_id:fzq#WmOR9~4a+*ik",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-02-28T17:41:47Z",
+                    "discipline_number": "A689",
+                    "item_number": "A21040",
+                    "discipline": {
+                        "ja": "ものづくり技術（機械・電気電子・化学工学）",
+                        "en": "Manufacturing technology (mechanical, electrical/electronic, chemical engineering)"
+                    },
+                    "research_field": {
+                        "ja": "制御、システム工学",
+                        "en": "Control and systems engineering"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0009147/research_areas/7928602",
+                    "@type": "research_areas",
+                    "@reverse": "https://api.researchmap.jp/read0009147/research_areas",
+                    "rm:id": "7928602",
+                    "rm:user_id": "1000018221",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:fzq#WmOR9~4a+*ik",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-02-28T17:41:47Z",
+                    "rm:modifier_id": "client_id:fzq#WmOR9~4a+*ik",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-02-28T17:41:47Z",
+                    "discipline_number": "A289",
+                    "item_number": "A20010",
+                    "discipline": {
+                        "ja": "情報通信",
+                        "en": "Informatics"
+                    },
+                    "research_field": {
+                        "ja": "機械力学、メカトロニクス",
+                        "en": "Mechanics and mechatronics"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0009147/research_areas/7928601",
+                    "@type": "research_areas",
+                    "@reverse": "https://api.researchmap.jp/read0009147/research_areas",
+                    "rm:id": "7928601",
+                    "rm:user_id": "1000018221",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:fzq#WmOR9~4a+*ik",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-02-28T17:41:47Z",
+                    "rm:modifier_id": "client_id:fzq#WmOR9~4a+*ik",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-02-28T17:41:47Z",
+                    "discipline_number": "A889",
+                    "item_number": "A24010",
+                    "discipline": {
+                        "ja": "フロンティア（航空・船舶）",
+                        "en": "Aerospace, marine, and maritime Engineering"
+                    },
+                    "research_field": {
+                        "ja": "航空宇宙工学",
+                        "en": "Aerospace engineering"
+                    }
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0009147/research_experience",
+            "@type": "research_experience",
+            "@reverse": "https://api.researchmap.jp/read0009147",
+            "total_items": 6,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0009147/research_experience/20066829",
+                    "@type": "research_experience",
+                    "@reverse": "https://api.researchmap.jp/read0009147/research_experience",
+                    "rm:id": "20066829",
+                    "rm:user_id": "1000018221",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:fzq#WmOR9~4a+*ik",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-02-28T17:41:47Z",
+                    "rm:modifier_id": "client_id:fzq#WmOR9~4a+*ik",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-02-28T17:41:47Z",
+                    "from_date": "1988-08",
+                    "to_date": "9999",
+                    "rm:institution_code": "0224000000",
+                    "affiliation": {
+                        "ja": "横浜国立大学",
+                        "en": "Yokohama National University"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0009147/research_experience/20066825",
+                    "@type": "research_experience",
+                    "@reverse": "https://api.researchmap.jp/read0009147/research_experience",
+                    "rm:id": "20066825",
+                    "rm:user_id": "1000018221",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:fzq#WmOR9~4a+*ik",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-02-28T17:41:47Z",
+                    "rm:modifier_id": "client_id:fzq#WmOR9~4a+*ik",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-02-28T17:41:47Z",
+                    "from_date": "2004-04",
+                    "to_date": "2006-03",
+                    "rm:institution_code": "2903001007",
+                    "affiliation": {
+                        "ja": "宇宙航空研究開発機構宇宙科学研究本部 客員教授",
+                        "en": "Sojo University"
+                    },
+                    "section": {
+                        "en": "Faculty of Engineering, Department of Aerospace Systems Engineering"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0009147/research_experience/20066826",
+                    "@type": "research_experience",
+                    "@reverse": "https://api.researchmap.jp/read0009147/research_experience",
+                    "rm:id": "20066826",
+                    "rm:user_id": "1000018221",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:fzq#WmOR9~4a+*ik",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-02-28T17:41:47Z",
+                    "rm:modifier_id": "client_id:fzq#WmOR9~4a+*ik",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-02-28T17:41:47Z",
+                    "from_date": "1999-03",
+                    "to_date": "2003-03",
+                    "rm:institution_code": "9999999999",
+                    "affiliation": {
+                        "ja": "宇宙開発事業団 招聘開発部員"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0009147/research_experience/20066827",
+                    "@type": "research_experience",
+                    "@reverse": "https://api.researchmap.jp/read0009147/research_experience",
+                    "rm:id": "20066827",
+                    "rm:user_id": "1000018221",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:fzq#WmOR9~4a+*ik",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-02-28T17:41:47Z",
+                    "rm:modifier_id": "client_id:fzq#WmOR9~4a+*ik",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-02-28T17:41:47Z",
+                    "from_date": "1997-04",
+                    "to_date": "1997-06",
+                    "rm:institution_code": "9999999999",
+                    "affiliation": {
+                        "ja": "電子総合技術研究所 流動研究員"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0009147/research_experience/20066828",
+                    "@type": "research_experience",
+                    "@reverse": "https://api.researchmap.jp/read0009147/research_experience",
+                    "rm:id": "20066828",
+                    "rm:user_id": "1000018221",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:fzq#WmOR9~4a+*ik",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-02-28T17:41:47Z",
+                    "rm:modifier_id": "client_id:fzq#WmOR9~4a+*ik",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-02-28T17:41:47Z",
+                    "from_date": "1990-04",
+                    "to_date": "1993-03",
+                    "rm:institution_code": "9999999999",
+                    "affiliation": {
+                        "ja": "航空宇宙技術研究所 客員研究官"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0009147/research_experience/20066830",
+                    "@type": "research_experience",
+                    "@reverse": "https://api.researchmap.jp/read0009147/research_experience",
+                    "rm:id": "20066830",
+                    "rm:user_id": "1000018221",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:fzq#WmOR9~4a+*ik",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-02-28T17:41:47Z",
+                    "rm:modifier_id": "client_id:fzq#WmOR9~4a+*ik",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-02-28T17:41:47Z",
+                    "from_date": "1985-04",
+                    "to_date": "1988-07",
+                    "rm:institution_code": "N907000000",
+                    "affiliation": {
+                        "ja": "(株)東芝",
+                        "en": "Toshiba Coorporation"
+                    }
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0009147/education",
+            "@type": "education",
+            "@reverse": "https://api.researchmap.jp/read0009147",
+            "total_items": 3,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0009147/education/16199301",
+                    "@type": "education",
+                    "@reverse": "https://api.researchmap.jp/read0009147/education",
+                    "rm:id": "16199301",
+                    "rm:user_id": "1000018221",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:fzq#WmOR9~4a+*ik",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-02-28T17:41:47Z",
+                    "rm:modifier_id": "client_id:fzq#WmOR9~4a+*ik",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-02-28T17:41:47Z",
+                    "to_date": "1985-03",
+                    "rm:institution_code": "0172000000",
+                    "affiliation": {
+                        "ja": "東京大学",
+                        "en": "The University of Tokyo"
+                    },
+                    "department": {
+                        "ja": "工学系研究科",
+                        "en": "Graduate School, Division of Engineering"
+                    },
+                    "course": {
+                        "ja": "航空学"
+                    },
+                    "address_country": "JPN"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0009147/education/16199302",
+                    "@type": "education",
+                    "@reverse": "https://api.researchmap.jp/read0009147/education",
+                    "rm:id": "16199302",
+                    "rm:user_id": "1000018221",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:fzq#WmOR9~4a+*ik",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-02-28T17:41:47Z",
+                    "rm:modifier_id": "client_id:fzq#WmOR9~4a+*ik",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-02-28T17:41:47Z",
+                    "to_date": "1982-03",
+                    "rm:institution_code": "0172000000",
+                    "affiliation": {
+                        "ja": "東京大学",
+                        "en": "The University of Tokyo"
+                    },
+                    "department": {
+                        "ja": "工学系研究科",
+                        "en": "Graduate School, Division of Engineering"
+                    },
+                    "course": {
+                        "ja": "航空学専攻"
+                    },
+                    "address_country": "JPN"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0009147/education/16199303",
+                    "@type": "education",
+                    "@reverse": "https://api.researchmap.jp/read0009147/education",
+                    "rm:id": "16199303",
+                    "rm:user_id": "1000018221",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:fzq#WmOR9~4a+*ik",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-02-28T17:41:47Z",
+                    "rm:modifier_id": "client_id:fzq#WmOR9~4a+*ik",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-02-28T17:41:47Z",
+                    "to_date": "1980",
+                    "rm:institution_code": "0172504000",
+                    "affiliation": {
+                        "ja": "東京大学",
+                        "en": "The University of Tokyo"
+                    },
+                    "department": {
+                        "ja": "工学部",
+                        "en": "Faculty of Engineering"
+                    },
+                    "course": {
+                        "ja": "航空学科"
+                    },
+                    "address_country": "JPN"
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0009147/committee_memberships",
+            "@type": "committee_memberships",
+            "@reverse": "https://api.researchmap.jp/read0009147",
+            "total_items": 2,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0009147/committee_memberships/6094884",
+                    "@type": "committee_memberships",
+                    "@reverse": "https://api.researchmap.jp/read0009147/committee_memberships",
+                    "rm:id": "6094884",
+                    "rm:user_id": "1000018221",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:fzq#WmOR9~4a+*ik",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-02-28T17:41:47Z",
+                    "rm:modifier_id": "client_id:fzq#WmOR9~4a+*ik",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-02-28T17:41:47Z",
+                    "from_date": "2009-02",
+                    "to_date": "2011-09",
+                    "committee_name": {
+                        "ja": "委員"
+                    },
+                    "association": {
+                        "ja": "総合工学委員会工学基盤における知の統合分科会 自動制御の多分野応用小委員会"
+                    },
+                    "committee_type": "others"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0009147/committee_memberships/6094885",
+                    "@type": "committee_memberships",
+                    "@reverse": "https://api.researchmap.jp/read0009147/committee_memberships",
+                    "rm:id": "6094885",
+                    "rm:user_id": "1000018221",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:fzq#WmOR9~4a+*ik",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-02-28T17:41:47Z",
+                    "rm:modifier_id": "client_id:fzq#WmOR9~4a+*ik",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-02-28T17:41:47Z",
+                    "from_date": "2004-04",
+                    "to_date": "2010-03",
+                    "committee_name": {
+                        "ja": "専門委員"
+                    },
+                    "association": {
+                        "ja": "学位審査会 工学・芸術工学専門委員会"
+                    },
+                    "committee_type": "others"
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0009147/published_papers",
+            "@type": "published_papers",
+            "@reverse": "https://api.researchmap.jp/read0009147",
+            "total_items": 27,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0009147/published_papers/18786653",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0009147/published_papers",
+                    "rm:id": "18786653",
+                    "rm:user_id": "1000018221",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:fzq#WmOR9~4a+*ik",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-02-28T17:41:47Z",
+                    "rm:modifier_id": "client_id:fzq#WmOR9~4a+*ik",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-02-28T17:41:47Z",
+                    "paper_title": {
+                        "ja": "最適制御理論を用いたブローチングの研究"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "牧敦生"
+                            },
+                            {
+                                "name": "梅田直哉"
+                            }
+                        ]
+                    },
+                    "publication_date": "2008-12",
+                    "publication_name": {
+                        "ja": "日本船舶海洋工学会論文集"
+                    },
+                    "volume": "8",
+                    "starting_page": "115-122",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0009147/published_papers/18786654",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0009147/published_papers",
+                    "rm:id": "18786654",
+                    "rm:user_id": "1000018221",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:fzq#WmOR9~4a+*ik",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-02-28T17:41:47Z",
+                    "rm:modifier_id": "client_id:fzq#WmOR9~4a+*ik",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-02-28T17:41:47Z",
+                    "paper_title": {
+                        "ja": "気球を利用した無重力実験のための機体開発とそのフライト結果"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "澤井秀次郎"
+                            },
+                            {
+                                "name": "宙航空研究開発機"
+                            },
+                            {
+                                "name": "宮路幸二"
+                            },
+                            {
+                                "name": "他"
+                            }
+                        ]
+                    },
+                    "publication_date": "2008-07",
+                    "publication_name": {
+                        "ja": "日本航空宇宙学会論文集"
+                    },
+                    "volume": "56",
+                    "number": "654",
+                    "starting_page": "339-346",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0009147/published_papers/18786655",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0009147/published_papers",
+                    "rm:id": "18786655",
+                    "rm:user_id": "1000018221",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:fzq#WmOR9~4a+*ik",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-02-28T17:41:47Z",
+                    "rm:modifier_id": "client_id:fzq#WmOR9~4a+*ik",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-02-28T17:41:47Z",
+                    "paper_title": {
+                        "ja": "追波中保針問題に対する最適制御理論の応用"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "牧敦生"
+                            },
+                            {
+                                "name": "梅田直哉"
+                            }
+                        ]
+                    },
+                    "publication_date": "2008-06",
+                    "publication_name": {
+                        "ja": "日本船舶海洋工学会論文集"
+                    },
+                    "volume": "7",
+                    "starting_page": "207-212",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0009147/published_papers/18786656",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0009147/published_papers",
+                    "rm:id": "18786656",
+                    "rm:user_id": "1000018221",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:fzq#WmOR9~4a+*ik",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-02-28T17:41:47Z",
+                    "rm:modifier_id": "client_id:fzq#WmOR9~4a+*ik",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-02-28T17:41:47Z",
+                    "paper_title": {
+                        "ja": "Three Dimensional Energy Guidance Law for a Future Space Transportation System",
+                        "en": "Three Dimensional Energy Guidance Law for a Future Space Transportation System"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "Shinji Ishimoto"
+                            }
+                        ]
+                    },
+                    "publication_date": "2006-11",
+                    "publication_name": {
+                        "en": "Proceedings of 2006 KSAS-JSASS Joint International Symposium on Aerospace Engineering"
+                    },
+                    "starting_page": "297-300",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "published_paper_type": "international_conference_proceedings",
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0009147/published_papers/18786657",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0009147/published_papers",
+                    "rm:id": "18786657",
+                    "rm:user_id": "1000018221",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:fzq#WmOR9~4a+*ik",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-02-28T17:41:47Z",
+                    "rm:modifier_id": "client_id:fzq#WmOR9~4a+*ik",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-02-28T17:41:47Z",
+                    "paper_title": {
+                        "ja": "Decision Procedure of Maximum Landing Area Applied Homotopy Method",
+                        "en": "Decision Procedure of Maximum Landing Area Applied Homotopy Method"
+                    },
+                    "publication_date": "2006-10",
+                    "publication_name": {
+                        "en": "Proceedings of SICE-ICASE International Joint Conference 2006"
+                    },
+                    "starting_page": "4370-4373",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "published_paper_type": "international_conference_proceedings",
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0009147/published_papers/18786658",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0009147/published_papers",
+                    "rm:id": "18786658",
+                    "rm:user_id": "1000018221",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:fzq#WmOR9~4a+*ik",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-02-28T17:41:47Z",
+                    "rm:modifier_id": "client_id:fzq#WmOR9~4a+*ik",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-02-28T17:41:47Z",
+                    "paper_title": {
+                        "ja": "Study on Optimal Trajectories of the Solar Polar Region Explorers using Electric Propulsion",
+                        "en": "Study on Optimal Trajectories of the Solar Polar Region Explorers using Electric Propulsion"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "R. Maruyam"
+                            }
+                        ]
+                    },
+                    "publication_date": "2006-06",
+                    "publication_name": {
+                        "en": "Proceedings of 25th International Symposium on Space Technology and Science"
+                    },
+                    "starting_page": "ISTS 2006-d-44",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "published_paper_type": "international_conference_proceedings",
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0009147/published_papers/18786659",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0009147/published_papers",
+                    "rm:id": "18786659",
+                    "rm:user_id": "1000018221",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:fzq#WmOR9~4a+*ik",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-02-28T17:41:47Z",
+                    "rm:modifier_id": "client_id:fzq#WmOR9~4a+*ik",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-02-28T17:41:47Z",
+                    "paper_title": {
+                        "ja": "Two Dimensional Energy Guidance Law for a Future Space Transportation System",
+                        "en": "Two Dimensional Energy Guidance Law for a Future Space Transportation System"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "Shinji Ishimoto"
+                            }
+                        ]
+                    },
+                    "publication_date": "2005-11",
+                    "publication_name": {
+                        "en": "Proceedings of 2005 JSASS-KSAS Joint International Symposium on Aerospace Engineerings"
+                    },
+                    "starting_page": "220-223",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "published_paper_type": "international_conference_proceedings",
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0009147/published_papers/18786660",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0009147/published_papers",
+                    "rm:id": "18786660",
+                    "rm:user_id": "1000018221",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:fzq#WmOR9~4a+*ik",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-02-28T17:41:47Z",
+                    "rm:modifier_id": "client_id:fzq#WmOR9~4a+*ik",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-02-28T17:41:47Z",
+                    "paper_title": {
+                        "ja": "Minimum Fuel Three-Dimensional Trajectories for an Asteroid Explorer",
+                        "en": "Minimum Fuel Three-Dimensional Trajectories for an Asteroid Explorer"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "H. Asaoka"
+                            }
+                        ]
+                    },
+                    "publication_date": "2005-10",
+                    "publication_name": {
+                        "en": "Proceedings of 56th InternationalAstronautical Congress"
+                    },
+                    "starting_page": "IAC-05-C1.5.09",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "published_paper_type": "international_conference_proceedings",
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0009147/published_papers/18786662",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0009147/published_papers",
+                    "rm:id": "18786662",
+                    "rm:user_id": "1000018221",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:fzq#WmOR9~4a+*ik",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-02-28T17:41:47Z",
+                    "rm:modifier_id": "client_id:fzq#WmOR9~4a+*ik",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-02-28T17:41:47Z",
+                    "paper_title": {
+                        "ja": "Comparison of Collision Avoidance Control Laws using Risk Functions",
+                        "en": "Comparison of Collision Avoidance Control Laws using Risk Functions"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "Taichi Watanabe"
+                            },
+                            {
+                                "name": "Natsuka Teshim"
+                            }
+                        ]
+                    },
+                    "publication_date": "2004-11",
+                    "publication_name": {
+                        "en": "Proceedings of 2004 KSAS-JSASS Joint Symposium on Aerospace Engineering"
+                    },
+                    "starting_page": "379-382",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "published_paper_type": "international_conference_proceedings",
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0009147/published_papers/18786661",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0009147/published_papers",
+                    "rm:id": "18786661",
+                    "rm:user_id": "1000018221",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:fzq#WmOR9~4a+*ik",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-02-28T17:41:47Z",
+                    "rm:modifier_id": "client_id:fzq#WmOR9~4a+*ik",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-02-28T17:41:47Z",
+                    "paper_title": {
+                        "ja": "Collision Avoidance Control Law for Aircraft under Uncertain Information",
+                        "en": "Collision Avoidance Control Law for Aircraft under Uncertain Information"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "塩入英明"
+                            }
+                        ]
+                    },
+                    "publication_date": "2004-11",
+                    "publication_name": {
+                        "en": "Transaction of the Japan Society for Aeronautical and Space Sciences"
+                    },
+                    "volume": "47",
+                    "number": "157",
+                    "starting_page": "204-215",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0009147/published_papers/18786663",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0009147/published_papers",
+                    "rm:id": "18786663",
+                    "rm:user_id": "1000018221",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:fzq#WmOR9~4a+*ik",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-02-28T17:41:47Z",
+                    "rm:modifier_id": "client_id:fzq#WmOR9~4a+*ik",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-02-28T17:41:47Z",
+                    "paper_title": {
+                        "ja": "２ホイールによる人工衛星の最小エネルギ準最適制御則"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "遠藤達也"
+                            }
+                        ]
+                    },
+                    "publication_date": "2004-03",
+                    "publication_name": {
+                        "ja": "日本航空宇宙学会論文集"
+                    },
+                    "volume": "52",
+                    "number": "602",
+                    "starting_page": "135-140",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0009147/published_papers/18786664",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0009147/published_papers",
+                    "rm:id": "18786664",
+                    "rm:user_id": "1000018221",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:fzq#WmOR9~4a+*ik",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-02-28T17:41:47Z",
+                    "rm:modifier_id": "client_id:fzq#WmOR9~4a+*ik",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-02-28T17:41:47Z",
+                    "paper_title": {
+                        "ja": "Three-Dimensional Collision Avoidance Control Law for Aircraft Using Risk Function and Fuzzy Logic",
+                        "en": "Three-Dimensional Collision Avoidance Control Law for Aircraft Using Risk Function and Fuzzy Logic"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "H. Shioiri"
+                            }
+                        ]
+                    },
+                    "publication_date": "2004-02",
+                    "publication_name": {
+                        "en": "Transaction of Japan Society for Aeronautical and Space Sciences"
+                    },
+                    "volume": "46",
+                    "number": "154",
+                    "starting_page": "253-261",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0009147/published_papers/18786666",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0009147/published_papers",
+                    "rm:id": "18786666",
+                    "rm:user_id": "1000018221",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:fzq#WmOR9~4a+*ik",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-02-28T17:41:47Z",
+                    "rm:modifier_id": "client_id:fzq#WmOR9~4a+*ik",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-02-28T17:41:47Z",
+                    "paper_title": {
+                        "ja": "Minimum Fuel Trajectories to Elliptic Orbits Using Solar Electric Propulsion",
+                        "en": "Minimum Fuel Trajectories to Elliptic Orbits Using Solar Electric Propulsion"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "Y. Aoki"
+                            }
+                        ]
+                    },
+                    "publication_date": "2003-12",
+                    "publication_name": {
+                        "en": "Proceedings of 10th International Space Conference of Pacific-Basin Societies"
+                    },
+                    "starting_page": "C1-14",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "international_conference_proceedings",
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0009147/published_papers/18786665",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0009147/published_papers",
+                    "rm:id": "18786665",
+                    "rm:user_id": "1000018221",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:fzq#WmOR9~4a+*ik",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-02-28T17:41:47Z",
+                    "rm:modifier_id": "client_id:fzq#WmOR9~4a+*ik",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-02-28T17:41:47Z",
+                    "paper_title": {
+                        "ja": "重力傾度ブームによる姿勢精度低下"
+                    },
+                    "publication_date": "2003-12",
+                    "publication_name": {
+                        "ja": "日本航空宇宙学会論文集"
+                    },
+                    "volume": "51",
+                    "number": "599",
+                    "starting_page": "659-666",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0009147/published_papers/18786667",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0009147/published_papers",
+                    "rm:id": "18786667",
+                    "rm:user_id": "1000018221",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:fzq#WmOR9~4a+*ik",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-02-28T17:41:47Z",
+                    "rm:modifier_id": "client_id:fzq#WmOR9~4a+*ik",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-02-28T17:41:47Z",
+                    "paper_title": {
+                        "ja": "2ホイールによる人工衛星の最小エネルギマヌーバ軌道"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "遠藤達也"
+                            }
+                        ]
+                    },
+                    "publication_date": "2003-11",
+                    "publication_name": {
+                        "ja": "日本航空宇宙学会論文集"
+                    },
+                    "volume": "51",
+                    "number": "598",
+                    "starting_page": "613-620",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0009147/published_papers/18786668",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0009147/published_papers",
+                    "rm:id": "18786668",
+                    "rm:user_id": "1000018221",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:fzq#WmOR9~4a+*ik",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-02-28T17:41:47Z",
+                    "rm:modifier_id": "client_id:fzq#WmOR9~4a+*ik",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-02-28T17:41:47Z",
+                    "paper_title": {
+                        "ja": "不確実情報下における航空機の衝突回避制御則"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "塩入英明"
+                            }
+                        ]
+                    },
+                    "publication_date": "2003-08",
+                    "publication_name": {
+                        "ja": "日本航空宇宙学会論文集"
+                    },
+                    "volume": "51",
+                    "number": "595",
+                    "starting_page": "427-432",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0009147/published_papers/18786669",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0009147/published_papers",
+                    "rm:id": "18786669",
+                    "rm:user_id": "1000018221",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:fzq#WmOR9~4a+*ik",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-02-28T17:41:47Z",
+                    "rm:modifier_id": "client_id:fzq#WmOR9~4a+*ik",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-02-28T17:41:47Z",
+                    "paper_title": {
+                        "ja": "危険度とファジィを用いた航空機の3次元衝突回避制御則"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "塩入英明"
+                            }
+                        ]
+                    },
+                    "publication_date": "2003-07",
+                    "publication_name": {
+                        "ja": "日本航空宇宙学会論文集"
+                    },
+                    "volume": "51",
+                    "number": "594",
+                    "starting_page": "346-353",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0009147/published_papers/18786672",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0009147/published_papers",
+                    "rm:id": "18786672",
+                    "rm:user_id": "1000018221",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:fzq#WmOR9~4a+*ik",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-02-28T17:41:47Z",
+                    "rm:modifier_id": "client_id:fzq#WmOR9~4a+*ik",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-02-28T17:41:47Z",
+                    "paper_title": {
+                        "ja": "Optimal Reorientation Maneuver of Satellites by Two Reaction Wheels with Attitude Constraints",
+                        "en": "Optimal Reorientation Maneuver of Satellites by Two Reaction Wheels with Attitude Constraints"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "T. Endo"
+                            }
+                        ]
+                    },
+                    "publication_date": "2002",
+                    "publication_name": {
+                        "en": "Proceeding of 6th International Conference on Motion and Vibration Control"
+                    },
+                    "starting_page": "961-966",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "international_conference_proceedings",
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0009147/published_papers/18786671",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0009147/published_papers",
+                    "rm:id": "18786671",
+                    "rm:user_id": "1000018221",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:fzq#WmOR9~4a+*ik",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-02-28T17:41:47Z",
+                    "rm:modifier_id": "client_id:fzq#WmOR9~4a+*ik",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-02-28T17:41:47Z",
+                    "paper_title": {
+                        "ja": "Minimum Energy Controller for Large Attitude Maneuver by Two Wheels",
+                        "en": "Minimum Energy Controller for Large Attitude Maneuver by Two Wheels"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "T. Endo"
+                            }
+                        ]
+                    },
+                    "publication_date": "2002",
+                    "publication_name": {
+                        "en": "Proceedings of 23rd International Symposium on Space Technology and Science"
+                    },
+                    "starting_page": "965-970",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "international_conference_proceedings",
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0009147/published_papers/18786670",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0009147/published_papers",
+                    "rm:id": "18786670",
+                    "rm:user_id": "1000018221",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:fzq#WmOR9~4a+*ik",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-02-28T17:41:47Z",
+                    "rm:modifier_id": "client_id:fzq#WmOR9~4a+*ik",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-02-28T17:41:47Z",
+                    "paper_title": {
+                        "ja": "Minimum Fuel Trajectories for Sample-Return Mission using Solar Electric Propulsion",
+                        "en": "Minimum Fuel Trajectories for Sample-Return Mission using Solar Electric Propulsion"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "R. Maruyama"
+                            }
+                        ]
+                    },
+                    "publication_date": "2002",
+                    "publication_name": {
+                        "en": "Advances in the Astronautical Sciences 110, Proceedings of 9th International Space Conference of Pacific-Basin Societies"
+                    },
+                    "starting_page": "101-113",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "published_paper_type": "international_conference_proceedings",
+                    "rm:is_open_access": false
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0009147/misc",
+            "@type": "misc",
+            "@reverse": "https://api.researchmap.jp/read0009147",
+            "total_items": 3,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0009147/misc/15213137",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0009147/misc",
+                    "rm:id": "15213137",
+                    "rm:user_id": "1000018221",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:fzq#WmOR9~4a+*ik",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-02-28T17:41:47Z",
+                    "rm:modifier_id": "client_id:fzq#WmOR9~4a+*ik",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-02-28T17:41:47Z",
+                    "paper_title": {
+                        "ja": "航空機の経路最適化問題の解法"
+                    },
+                    "publication_date": "2008-12",
+                    "publication_name": {
+                        "ja": "シミュレーション"
+                    },
+                    "volume": "27",
+                    "number": "4",
+                    "starting_page": "215-220",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "misc_type": "introduction_scientific_journal",
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0009147/misc/15213138",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0009147/misc",
+                    "rm:id": "15213138",
+                    "rm:user_id": "1000018221",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:fzq#WmOR9~4a+*ik",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-02-28T17:41:47Z",
+                    "rm:modifier_id": "client_id:fzq#WmOR9~4a+*ik",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-02-28T17:41:47Z",
+                    "paper_title": {
+                        "ja": "航空宇宙システムの制御系における信頼性",
+                        "en": "Reliability of Control System in Aerospace Field"
+                    },
+                    "publication_date": "2008-07",
+                    "publication_name": {
+                        "ja": "日本信頼性学会誌"
+                    },
+                    "volume": "30",
+                    "number": "5",
+                    "starting_page": "386-391",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "misc_type": "introduction_scientific_journal",
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0009147/misc/15213139",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0009147/misc",
+                    "rm:id": "15213139",
+                    "rm:user_id": "1000018221",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:fzq#WmOR9~4a+*ik",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-02-28T17:41:47Z",
+                    "rm:modifier_id": "client_id:fzq#WmOR9~4a+*ik",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-02-28T17:41:47Z",
+                    "paper_title": {
+                        "ja": "第40回飛行機シンポジウム報告"
+                    },
+                    "publication_date": "2003",
+                    "publication_name": {
+                        "ja": "日本航空宇宙学会誌"
+                    },
+                    "volume": "51",
+                    "number": "590",
+                    "starting_page": "91-93",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "misc_type": "introduction_scientific_journal",
+                    "rm:is_open_access": false
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0009147/books_etc",
+            "@type": "books_etc",
+            "@reverse": "https://api.researchmap.jp/read0009147",
+            "total_items": 1,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0009147/books_etc/13254983",
+                    "@type": "books_etc",
+                    "@reverse": "https://api.researchmap.jp/read0009147/books_etc",
+                    "rm:id": "13254983",
+                    "rm:user_id": "1000018221",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:fzq#WmOR9~4a+*ik",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-02-28T17:41:47Z",
+                    "rm:modifier_id": "client_id:fzq#WmOR9~4a+*ik",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-02-28T17:41:47Z",
+                    "book_title": {
+                        "ja": "航空宇宙工学便覧 -第３版-"
+                    },
+                    "book_owner_role": "joint_work",
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "日本航空宇宙学会編"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "丸善"
+                    },
+                    "publication_date": "2005-10",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "book_type": "scholarly_book"
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0009147/teaching_experience",
+            "@type": "teaching_experience",
+            "@reverse": "https://api.researchmap.jp/read0009147",
+            "total_items": 16,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0009147/teaching_experience/7498090",
+                    "@type": "teaching_experience",
+                    "@reverse": "https://api.researchmap.jp/read0009147/teaching_experience",
+                    "rm:id": "7498090",
+                    "rm:user_id": "1000018221",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:fzq#WmOR9~4a+*ik",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-02-28T17:41:47Z",
+                    "rm:modifier_id": "client_id:fzq#WmOR9~4a+*ik",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-02-28T17:41:47Z",
+                    "subject_name": {
+                        "ja": "航空宇宙工学の基礎"
+                    },
+                    "rm:institution_code": "0224000000",
+                    "institution_name": {
+                        "ja": "横浜国立大学"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0009147/teaching_experience/7498089",
+                    "@type": "teaching_experience",
+                    "@reverse": "https://api.researchmap.jp/read0009147/teaching_experience",
+                    "rm:id": "7498089",
+                    "rm:user_id": "1000018221",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:fzq#WmOR9~4a+*ik",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-02-28T17:41:47Z",
+                    "rm:modifier_id": "client_id:fzq#WmOR9~4a+*ik",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-02-28T17:41:47Z",
+                    "subject_name": {
+                        "ja": "海洋工学と社会"
+                    },
+                    "rm:institution_code": "0224000000",
+                    "institution_name": {
+                        "ja": "横浜国立大学"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0009147/teaching_experience/7498088",
+                    "@type": "teaching_experience",
+                    "@reverse": "https://api.researchmap.jp/read0009147/teaching_experience",
+                    "rm:id": "7498088",
+                    "rm:user_id": "1000018221",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:fzq#WmOR9~4a+*ik",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-02-28T17:41:47Z",
+                    "rm:modifier_id": "client_id:fzq#WmOR9~4a+*ik",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-02-28T17:41:47Z",
+                    "subject_name": {
+                        "ja": "数学力学演習Ⅰ"
+                    },
+                    "rm:institution_code": "0224000000",
+                    "institution_name": {
+                        "ja": "横浜国立大学"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0009147/teaching_experience/7498087",
+                    "@type": "teaching_experience",
+                    "@reverse": "https://api.researchmap.jp/read0009147/teaching_experience",
+                    "rm:id": "7498087",
+                    "rm:user_id": "1000018221",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:fzq#WmOR9~4a+*ik",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-02-28T17:41:47Z",
+                    "rm:modifier_id": "client_id:fzq#WmOR9~4a+*ik",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-02-28T17:41:47Z",
+                    "subject_name": {
+                        "ja": "宇宙航行体制御論"
+                    },
+                    "rm:institution_code": "0224000000",
+                    "institution_name": {
+                        "ja": "横浜国立大学"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0009147/teaching_experience/7498086",
+                    "@type": "teaching_experience",
+                    "@reverse": "https://api.researchmap.jp/read0009147/teaching_experience",
+                    "rm:id": "7498086",
+                    "rm:user_id": "1000018221",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:fzq#WmOR9~4a+*ik",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-02-28T17:41:47Z",
+                    "rm:modifier_id": "client_id:fzq#WmOR9~4a+*ik",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-02-28T17:41:47Z",
+                    "subject_name": {
+                        "ja": "航行制御論"
+                    },
+                    "rm:institution_code": "0224000000",
+                    "institution_name": {
+                        "ja": "横浜国立大学"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0009147/teaching_experience/7498085",
+                    "@type": "teaching_experience",
+                    "@reverse": "https://api.researchmap.jp/read0009147/teaching_experience",
+                    "rm:id": "7498085",
+                    "rm:user_id": "1000018221",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:fzq#WmOR9~4a+*ik",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-02-28T17:41:47Z",
+                    "rm:modifier_id": "client_id:fzq#WmOR9~4a+*ik",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-02-28T17:41:47Z",
+                    "subject_name": {
+                        "ja": "航空機力学"
+                    },
+                    "rm:institution_code": "0224000000",
+                    "institution_name": {
+                        "ja": "横浜国立大学"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0009147/teaching_experience/7498084",
+                    "@type": "teaching_experience",
+                    "@reverse": "https://api.researchmap.jp/read0009147/teaching_experience",
+                    "rm:id": "7498084",
+                    "rm:user_id": "1000018221",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:fzq#WmOR9~4a+*ik",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-02-28T17:41:47Z",
+                    "rm:modifier_id": "client_id:fzq#WmOR9~4a+*ik",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-02-28T17:41:47Z",
+                    "subject_name": {
+                        "ja": "航空宇宙工学概論"
+                    },
+                    "rm:institution_code": "0224000000",
+                    "institution_name": {
+                        "ja": "横浜国立大学"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0009147/teaching_experience/7498083",
+                    "@type": "teaching_experience",
+                    "@reverse": "https://api.researchmap.jp/read0009147/teaching_experience",
+                    "rm:id": "7498083",
+                    "rm:user_id": "1000018221",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:fzq#WmOR9~4a+*ik",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-02-28T17:41:47Z",
+                    "rm:modifier_id": "client_id:fzq#WmOR9~4a+*ik",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-02-28T17:41:47Z",
+                    "subject_name": {
+                        "ja": "極限環境システム論演習"
+                    },
+                    "rm:institution_code": "0224000000",
+                    "institution_name": {
+                        "ja": "横浜国立大学"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0009147/teaching_experience/7498082",
+                    "@type": "teaching_experience",
+                    "@reverse": "https://api.researchmap.jp/read0009147/teaching_experience",
+                    "rm:id": "7498082",
+                    "rm:user_id": "1000018221",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:fzq#WmOR9~4a+*ik",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-02-28T17:41:47Z",
+                    "rm:modifier_id": "client_id:fzq#WmOR9~4a+*ik",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-02-28T17:41:47Z",
+                    "subject_name": {
+                        "ja": "極限環境システム論"
+                    },
+                    "rm:institution_code": "0224000000",
+                    "institution_name": {
+                        "ja": "横浜国立大学"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0009147/teaching_experience/7498081",
+                    "@type": "teaching_experience",
+                    "@reverse": "https://api.researchmap.jp/read0009147/teaching_experience",
+                    "rm:id": "7498081",
+                    "rm:user_id": "1000018221",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:fzq#WmOR9~4a+*ik",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-02-28T17:41:47Z",
+                    "rm:modifier_id": "client_id:fzq#WmOR9~4a+*ik",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-02-28T17:41:47Z",
+                    "subject_name": {
+                        "ja": "極限環境システム学特論演習"
+                    },
+                    "rm:institution_code": "0224000000",
+                    "institution_name": {
+                        "ja": "横浜国立大学"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0009147/teaching_experience/7498080",
+                    "@type": "teaching_experience",
+                    "@reverse": "https://api.researchmap.jp/read0009147/teaching_experience",
+                    "rm:id": "7498080",
+                    "rm:user_id": "1000018221",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:fzq#WmOR9~4a+*ik",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-02-28T17:41:47Z",
+                    "rm:modifier_id": "client_id:fzq#WmOR9~4a+*ik",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-02-28T17:41:47Z",
+                    "subject_name": {
+                        "ja": "極限環境システム学特論"
+                    },
+                    "rm:institution_code": "0224000000",
+                    "institution_name": {
+                        "ja": "横浜国立大学"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0009147/teaching_experience/7498079",
+                    "@type": "teaching_experience",
+                    "@reverse": "https://api.researchmap.jp/read0009147/teaching_experience",
+                    "rm:id": "7498079",
+                    "rm:user_id": "1000018221",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:fzq#WmOR9~4a+*ik",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-02-28T17:41:47Z",
+                    "rm:modifier_id": "client_id:fzq#WmOR9~4a+*ik",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-02-28T17:41:47Z",
+                    "subject_name": {
+                        "ja": "数学・力学演習Ⅰ"
+                    },
+                    "rm:institution_code": "0224000000",
+                    "institution_name": {
+                        "ja": "横浜国立大学"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0009147/teaching_experience/7498078",
+                    "@type": "teaching_experience",
+                    "@reverse": "https://api.researchmap.jp/read0009147/teaching_experience",
+                    "rm:id": "7498078",
+                    "rm:user_id": "1000018221",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:fzq#WmOR9~4a+*ik",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-02-28T17:41:47Z",
+                    "rm:modifier_id": "client_id:fzq#WmOR9~4a+*ik",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-02-28T17:41:47Z",
+                    "subject_name": {
+                        "ja": "宇宙航行体軌道論"
+                    },
+                    "rm:institution_code": "0224000000",
+                    "institution_name": {
+                        "ja": "横浜国立大学"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0009147/teaching_experience/7498077",
+                    "@type": "teaching_experience",
+                    "@reverse": "https://api.researchmap.jp/read0009147/teaching_experience",
+                    "rm:id": "7498077",
+                    "rm:user_id": "1000018221",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:fzq#WmOR9~4a+*ik",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-02-28T17:41:47Z",
+                    "rm:modifier_id": "client_id:fzq#WmOR9~4a+*ik",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-02-28T17:41:47Z",
+                    "subject_name": {
+                        "ja": "宇宙航行体制御特論"
+                    },
+                    "rm:institution_code": "0224000000",
+                    "institution_name": {
+                        "ja": "横浜国立大学"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0009147/teaching_experience/7498076",
+                    "@type": "teaching_experience",
+                    "@reverse": "https://api.researchmap.jp/read0009147/teaching_experience",
+                    "rm:id": "7498076",
+                    "rm:user_id": "1000018221",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:fzq#WmOR9~4a+*ik",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-02-28T17:41:47Z",
+                    "rm:modifier_id": "client_id:fzq#WmOR9~4a+*ik",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-02-28T17:41:47Z",
+                    "subject_name": {
+                        "ja": "宇宙システム設計輪講"
+                    },
+                    "rm:institution_code": "0224000000",
+                    "institution_name": {
+                        "ja": "横浜国立大学"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0009147/teaching_experience/7498075",
+                    "@type": "teaching_experience",
+                    "@reverse": "https://api.researchmap.jp/read0009147/teaching_experience",
+                    "rm:id": "7498075",
+                    "rm:user_id": "1000018221",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:fzq#WmOR9~4a+*ik",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-02-28T17:41:47Z",
+                    "rm:modifier_id": "client_id:fzq#WmOR9~4a+*ik",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-02-28T17:41:47Z",
+                    "subject_name": {
+                        "ja": "基礎振動論"
+                    },
+                    "rm:institution_code": "0224000000",
+                    "institution_name": {
+                        "ja": "横浜国立大学"
+                    }
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0009147/social_contribution",
+            "@type": "social_contribution",
+            "@reverse": "https://api.researchmap.jp/read0009147",
+            "total_items": 1,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0009147/social_contribution/1883614",
+                    "@type": "social_contribution",
+                    "@reverse": "https://api.researchmap.jp/read0009147/social_contribution",
+                    "rm:id": "1883614",
+                    "rm:user_id": "1000018221",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:fzq#WmOR9~4a+*ik",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-02-28T17:41:47Z",
+                    "rm:modifier_id": "client_id:fzq#WmOR9~4a+*ik",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-02-28T17:41:47Z",
+                    "social_contribution_title": {
+                        "ja": "サイエンス・パートナーシップ・プログラム「教員研修」講師"
+                    },
+                    "promoter": {
+                        "ja": "群馬県教育委員会"
+                    },
+                    "from_event_date": "2003-10",
+                    "location": {
+                        "ja": "筑波"
+                    },
+                    "social_contribution_type": "others",
+                    "description": {
+                        "ja": "高校教員に対して宇宙開発の現状を解説する"
+                    }
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0009147/others",
+            "@type": "others",
+            "@reverse": "https://api.researchmap.jp/read0009147",
+            "total_items": 6,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0009147/others/902894",
+                    "@type": "others",
+                    "@reverse": "https://api.researchmap.jp/read0009147/others",
+                    "rm:id": "902894",
+                    "rm:user_id": "1000018221",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:fzq#WmOR9~4a+*ik",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-02-28T17:41:47Z",
+                    "rm:modifier_id": "client_id:fzq#WmOR9~4a+*ik",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-02-28T17:41:47Z",
+                    "other_title": {
+                        "ja": "有人宇宙輸送系の安全性向上に必要な最適帰還軌道生成アルゴリズムの研究"
+                    },
+                    "from_date": "2007-07",
+                    "to_date": "2007-07"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0009147/others/902895",
+                    "@type": "others",
+                    "@reverse": "https://api.researchmap.jp/read0009147/others",
+                    "rm:id": "902895",
+                    "rm:user_id": "1000018221",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:fzq#WmOR9~4a+*ik",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-02-28T17:41:47Z",
+                    "rm:modifier_id": "client_id:fzq#WmOR9~4a+*ik",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-02-28T17:41:47Z",
+                    "other_title": {
+                        "ja": "有人宇宙輸送システムへの適用を目指した緊急時誘導則に関する検討"
+                    },
+                    "from_date": "2006-10",
+                    "to_date": "2006-10"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0009147/others/902896",
+                    "@type": "others",
+                    "@reverse": "https://api.researchmap.jp/read0009147/others",
+                    "rm:id": "902896",
+                    "rm:user_id": "1000018221",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:fzq#WmOR9~4a+*ik",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-02-28T17:41:47Z",
+                    "rm:modifier_id": "client_id:fzq#WmOR9~4a+*ik",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-02-28T17:41:47Z",
+                    "other_title": {
+                        "ja": "再使用型宇宙輸送システムにおける実時間基準軌道生成に関する検討"
+                    },
+                    "from_date": "2004-12",
+                    "to_date": "2004-12"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0009147/others/902897",
+                    "@type": "others",
+                    "@reverse": "https://api.researchmap.jp/read0009147/others",
+                    "rm:id": "902897",
+                    "rm:user_id": "1000018221",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:fzq#WmOR9~4a+*ik",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-02-28T17:41:47Z",
+                    "rm:modifier_id": "client_id:fzq#WmOR9~4a+*ik",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-02-28T17:41:47Z",
+                    "other_title": {
+                        "ja": "有翼飛翔体の最適誘導論理の研究 ㈱IHIエアロスペース"
+                    },
+                    "from_date": "2000",
+                    "to_date": "2000"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0009147/others/902899",
+                    "@type": "others",
+                    "@reverse": "https://api.researchmap.jp/read0009147/others",
+                    "rm:id": "902899",
+                    "rm:user_id": "1000018221",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:fzq#WmOR9~4a+*ik",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-02-28T17:41:47Z",
+                    "rm:modifier_id": "client_id:fzq#WmOR9~4a+*ik",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-02-28T17:41:47Z",
+                    "other_title": {
+                        "ja": "惑星探査ミッション軌道の研究 宇宙開発事業団"
+                    },
+                    "from_date": "1999",
+                    "to_date": "1999"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0009147/others/902898",
+                    "@type": "others",
+                    "@reverse": "https://api.researchmap.jp/read0009147/others",
+                    "rm:id": "902898",
+                    "rm:user_id": "1000018221",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:fzq#WmOR9~4a+*ik",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-02-28T17:41:47Z",
+                    "rm:modifier_id": "client_id:fzq#WmOR9~4a+*ik",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-02-28T17:41:47Z",
+                    "other_title": {
+                        "ja": "プロペラ艇の高速旋回操船性に関する調査 シップ・アンド・オーシャン財団"
+                    },
+                    "from_date": "1999",
+                    "to_date": "1999"
+                }
+            ]
+        }
+    ]
+}

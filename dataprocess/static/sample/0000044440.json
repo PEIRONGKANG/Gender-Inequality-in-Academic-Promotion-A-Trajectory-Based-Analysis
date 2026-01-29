@@ -1,0 +1,3433 @@
+{
+    "@context": "https://api.researchmap.jp/researcher.jsonld",
+    "@id": "https://api.researchmap.jp/read0004841?format=json",
+    "@type": "researchers",
+    "rm:user_id": "0000044440",
+    "rm:creator_id": "0000044440",
+    "rm:creator_type": "myself",
+    "rm:created": "2001-12-10T15:00:00Z",
+    "rm:modifier_id": "0000044440",
+    "rm:modifier_type": "myself",
+    "rm:modified": "2024-09-27T03:56:57Z",
+    "permalink": "read0004841",
+    "family_name": {
+        "ja": "荒井",
+        "ja-Kana": "アライ",
+        "en": "Arai"
+    },
+    "given_name": {
+        "ja": "裕彦",
+        "ja-Kana": "ヒロヒコ",
+        "en": "Hirohiko"
+    },
+    "display_name_kana": "disclosed",
+    "display_nickname": "disclosed",
+    "image": "https://researchmap.jp/read0004841/avatar.jpg",
+    "display_image": "disclosed",
+    "display_contact_point": "disclosed",
+    "display_profile": "disclosed",
+    "see_also": [
+        {
+            "label": "orcid",
+            "@id": "https://orcid.org/0000-0002-5465-5075"
+        },
+        {
+            "label": "j_global",
+            "@id": "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=200901071973187107"
+        },
+        {
+            "@id": "https://staff.aist.go.jp/h.arai/arai_j.html",
+            "label": "url"
+        },
+        {
+            "@id": "https://staff.aist.go.jp/h.arai/arai_e.html",
+            "label": "url_en"
+        }
+    ],
+    "display_url": "disclosed",
+    "identifiers": {
+        "orc_id": [
+            "0000-0002-5465-5075"
+        ],
+        "j_global_id": [
+            "200901071973187107"
+        ]
+    },
+    "rm:erad_id_verified": false,
+    "rm:orc_id_verified": true,
+    "display_erad_id": "closed",
+    "display_orc_id": "disclosed",
+    "display_researcher_id": "disclosed",
+    "display_j_global_id": "disclosed",
+    "@graph": [
+        {
+            "@id": "https://api.researchmap.jp/read0004841/research_interests",
+            "@type": "research_interests",
+            "@reverse": "https://api.researchmap.jp/read0004841",
+            "total_items": 1,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0004841/research_interests/795389",
+                    "@type": "research_interests",
+                    "@reverse": "https://api.researchmap.jp/read0004841/research_interests",
+                    "rm:id": "795389",
+                    "rm:user_id": "0000044440",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000044440",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2011-02-02T15:00:00Z",
+                    "rm:modifier_id": "0000044440",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2011-02-02T15:00:00Z",
+                    "keyword": {
+                        "ja": "スピニング加工 非ホロノミック系 パワーアシスト"
+                    }
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0004841/research_areas",
+            "@type": "research_areas",
+            "@reverse": "https://api.researchmap.jp/read0004841",
+            "total_items": 3,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0004841/research_areas/296521",
+                    "@type": "research_areas",
+                    "@reverse": "https://api.researchmap.jp/read0004841/research_areas",
+                    "rm:id": "296521",
+                    "rm:user_id": "0000044440",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000044440",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2001-12-10T15:00:00Z",
+                    "rm:modifier_id": "0000044440",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2001-12-10T15:00:00Z",
+                    "discipline_number": "A489",
+                    "item_number": "A26050",
+                    "discipline": {
+                        "ja": "ナノテク・材料",
+                        "en": "Nanotechnology/Materials"
+                    },
+                    "research_field": {
+                        "ja": "材料加工、組織制御",
+                        "en": "Material fabrication and microstructure control"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0004841/research_areas/296520",
+                    "@type": "research_areas",
+                    "@reverse": "https://api.researchmap.jp/read0004841/research_areas",
+                    "rm:id": "296520",
+                    "rm:user_id": "0000044440",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000044440",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2001-12-10T15:00:00Z",
+                    "rm:modifier_id": "0000044440",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2001-12-10T15:00:00Z",
+                    "discipline_number": "A289",
+                    "item_number": "A20010",
+                    "discipline": {
+                        "ja": "情報通信",
+                        "en": "Informatics"
+                    },
+                    "research_field": {
+                        "ja": "機械力学、メカトロニクス",
+                        "en": "Mechanics and mechatronics"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0004841/research_areas/296519",
+                    "@type": "research_areas",
+                    "@reverse": "https://api.researchmap.jp/read0004841/research_areas",
+                    "rm:id": "296519",
+                    "rm:user_id": "0000044440",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000044440",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2001-12-10T15:00:00Z",
+                    "rm:modifier_id": "0000044440",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2001-12-10T15:00:00Z",
+                    "discipline_number": "A289",
+                    "item_number": "A20020",
+                    "discipline": {
+                        "ja": "情報通信",
+                        "en": "Informatics"
+                    },
+                    "research_field": {
+                        "ja": "ロボティクス、知能機械システム",
+                        "en": "Robotics and intelligent systems"
+                    }
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0004841/published_papers",
+            "@type": "published_papers",
+            "@reverse": "https://api.researchmap.jp/read0004841",
+            "total_items": 68,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0004841/published_papers/44225989",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0004841/published_papers",
+                    "rm:id": "44225989",
+                    "rm:user_id": "0000044440",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2023-12-11T03:35:51Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2023-12-11T03:35:51Z",
+                    "paper_title": {
+                        "en": "Roller path solver system for multi-objective task-priority control of multipass conventional spinning"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Shiori GONDO"
+                            },
+                            {
+                                "name": "Hirohiko ARAI"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "en": "Japan Society of Mechanical Engineers"
+                    },
+                    "publication_date": "2023",
+                    "publication_name": {
+                        "en": "Mechanical Engineering Journal"
+                    },
+                    "volume": "10",
+                    "number": "5",
+                    "starting_page": "22",
+                    "ending_page": "00253",
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1299/mej.22-00253"
+                        ],
+                        "e_issn": [
+                            "2187-9745"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1299/mej.22-00253",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "https://www.jstage.jst.go.jp/article/mej/10/5/10_22-00253/_pdf",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0004841/published_papers/40878106",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0004841/published_papers",
+                    "rm:id": "40878106",
+                    "rm:user_id": "0000044440",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2022-12-25T03:39:14Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-12-25T03:39:14Z",
+                    "paper_title": {
+                        "en": "Evolution of texture distribution in thickness direction of aluminum sheet in metal spinning"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Shiori Gondo"
+                            },
+                            {
+                                "name": "Hirohiko Arai"
+                            },
+                            {
+                                "name": "Satoshi Kajino"
+                            },
+                            {
+                                "name": "Kotaro Hanada"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "en": "Elsevier BV"
+                    },
+                    "publication_date": "2022-06",
+                    "publication_name": {
+                        "en": "Materials Characterization"
+                    },
+                    "volume": "188",
+                    "starting_page": "111877",
+                    "ending_page": "111877",
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1016/j.matchar.2022.111877"
+                        ],
+                        "issn": [
+                            "1044-5803"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1016/j.matchar.2022.111877",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0004841/published_papers/36350284",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0004841/published_papers",
+                    "rm:id": "36350284",
+                    "rm:user_id": "0000044440",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000044440",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2022-02-14T07:44:31Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-12-19T11:37:04Z",
+                    "paper_title": {
+                        "en": "Effect and control of path parameters on thickness distribution of cylindrical cups formed via multi-pass conventional spinning"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Shiori Gondo"
+                            },
+                            {
+                                "name": "Hirohiko Arai"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "Abstract\n\nIn this study, an artificial neural network (ANN) model was constructed to investigate the relationship between the roller path parameters to form a cylindrical cup in multi-pass conventional spinning and the thickness distribution throughout the height of a workpiece. Furthermore, the path parameters that simultaneously realize multiple target values of the workpiece dimensions were calculated instantly by the iterative solution based on the constructed model. A systematic design of the path parameters for a constant thickness distribution was established as follows. First, the roller path was expressed using 12 parameters. Second, the workpieces were spun under various experimental conditions, which were determined by partial randomization of the orthogonal array based on the Taguchi method. Third, an ANN model was trained by considering seven path parameters as inputs and five forming result values as outputs (cup height, wall thickness at 25%, 50%, and 75% of the cup height, and residual path length). Finally, the path parameters required for realizing a constant thickness were determined using an ANN model with an iterative solution. Although several samples of the training dataset exhibited non-uniform thickness distributions, the workpieces that were spun under the parameters obtained via iteration exhibited a constant thickness distribution. The parameters responsible for stretching the material in the radial direction significantly affected the thickness distribution. The most influential parameter was the increment in the axial start position for each curved pass.\n\n Graphical abstract"
+                    },
+                    "publisher": {
+                        "en": "Springer Science and Business Media {LLC}"
+                    },
+                    "publication_date": "2022-02",
+                    "publication_name": {
+                        "en": "Journal of Intelligent Manufacturing"
+                    },
+                    "volume": "33",
+                    "number": "2",
+                    "starting_page": "617",
+                    "ending_page": "635",
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1007/s10845-021-01886-w"
+                        ],
+                        "issn": [
+                            "0956-5515"
+                        ],
+                        "e_issn": [
+                            "1572-8145"
+                        ],
+                        "orcid_put_cd": [
+                            "106186111"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1007/s10845-021-01886-w",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "https://link.springer.com/content/pdf/10.1007/s10845-021-01886-w.pdf",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "https://link.springer.com/article/10.1007/s10845-021-01886-w/fulltext.html",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0004841/published_papers/43827622",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0004841/published_papers",
+                    "rm:id": "43827622",
+                    "rm:user_id": "0000044440",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_papers",
+                    "rm:creator_type": "coauthor",
+                    "rm:created": "2023-10-20T03:15:17Z",
+                    "rm:modifier_id": "ai:assign_based_papers",
+                    "rm:modifier_type": "coauthor",
+                    "rm:modified": "2023-10-20T03:15:17Z",
+                    "paper_title": {
+                        "en": "Data-driven metal spinning using neural network for obtaining desired dimensions of formed cup"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "S. Gondo"
+                            },
+                            {
+                                "name": "H. Arai"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "en": "Elsevier BV"
+                    },
+                    "publication_date": "2022",
+                    "publication_name": {
+                        "en": "CIRP Annals"
+                    },
+                    "volume": "71",
+                    "number": "1",
+                    "starting_page": "229",
+                    "ending_page": "232",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1016/j.cirp.2022.04.044"
+                        ],
+                        "issn": [
+                            "0007-8506"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1016/j.cirp.2022.04.044",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0004841/published_papers/40878131",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0004841/published_papers",
+                    "rm:id": "40878131",
+                    "rm:user_id": "0000044440",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2022-12-25T03:39:17Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-12-25T03:39:17Z",
+                    "paper_title": {
+                        "en": "Evolution of Strain State of a Rolled Aluminum Sheet in Multi-Pass Conventional Spinning"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Shiori Gondo"
+                            },
+                            {
+                                "name": "Hirohiko Arai"
+                            },
+                            {
+                                "name": "Satoshi Kajino"
+                            },
+                            {
+                                "name": "Shizuka Nakano"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "Abstract\n\n This study clarified the strain state evolution of a cylindrical cup spun from a rolled aluminum sheet in 13 passes. Measurements of radial (ɛr), circumferential (ɛθ), and thickness (ɛt) directional strains as well as forming forces revealed that the strain state evolved as follows: the cup-wall exhibits ɛr &amp;lt; 0 and small |ɛθ| and |ɛt| in early passes and ɛr &amp;gt; 0, ɛθ &amp;lt; 0, and ɛt &amp;lt; 0 in later passes; meanwhile, the cup-edge exhibits ɛr &amp;gt; 0 and small |ɛθ| and |ɛt| in early passes and ɛr &amp;gt; 0, ɛθ &amp;lt; 0, and ɛt &amp;gt; 0 in later passes. The relationship between the strain states and the forming force is interpreted as follows. The normal direction forming force, which pushes into the workpiece in the thickness direction, primarily deforms the workpieces. The radial direction forming force, toward the edge along the workpiece configuration, facilitates elongation in the radial direction of the cup-wall and results in ɛr &amp;gt; 0 during spinning. By contrast, a small radial direction forming force or a forming force whose direction is inverse against the roller movement direction restrains to elongate the material in the radial direction and facilitates shrinkage, thereby resulting in ɛr &amp;lt; 0 in the cup-edge in early passes. Furthermore, the small or inverse directional force facilitates the accumulation of the material to the edge and results in ɛt &amp;gt; 0 in latter passes."
+                    },
+                    "publisher": {
+                        "en": "ASME International"
+                    },
+                    "publication_date": "2021-06-01",
+                    "publication_name": {
+                        "en": "Journal of Manufacturing Science and Engineering"
+                    },
+                    "volume": "143",
+                    "number": "6",
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1115/1.4049476"
+                        ],
+                        "issn": [
+                            "1087-1357"
+                        ],
+                        "e_issn": [
+                            "1528-8935"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1115/1.4049476",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "http://asmedigitalcollection.asme.org/manufacturingscience/article-pdf/doi/10.1115/1.4049476/6626814/manu_143_6_061011.pdf",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0004841/published_papers/36350283",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0004841/published_papers",
+                    "rm:id": "36350283",
+                    "rm:user_id": "0000044440",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000044440",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2022-02-14T07:44:31Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-12-19T11:37:22Z",
+                    "paper_title": {
+                        "en": "Texture Evolution of a Rolled Aluminum Sheet in Multi-Pass Conventional Spinning"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Shiori Gondo"
+                            },
+                            {
+                                "name": "Hirohiko Arai"
+                            },
+                            {
+                                "name": "Satoshi Kajino"
+                            },
+                            {
+                                "name": "Shizuka Nakano"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "This study clarified the evolution of texture in the thickness direction of the cylindrical cup which was spun from a rolled aluminum sheet in 13 passes, using electron backscatter diffraction pattern analysis. The study also obtained the relationship between the strain and layer structure, characterized by the textures. The spun workpiece had three layers in the thickness direction. The layer structure was composed of four types of textures: the Cu texture, “texture-I”, which rotated 20° around &lt;111&gt; from the Cu texture; “texture-II”, which rotated 5° around its &lt;110&gt; from the Cu texture; and “texture-III”, which rotated 10° around its &lt;001&gt; from texture-I. When a blank disk had the sandwich-type layer structure Cu-I-Cu in its thickness direction, the structure changed to the Cu-II-II and Cu-III-III layer structures for the negative and positive thickness directional strains, respectively. A complex-type structure was found in the transition from Cu-I-Cu to Cu-II-II and Cu-III-III."
+                    },
+                    "publisher": {
+                        "en": "{MDPI} {AG}"
+                    },
+                    "publication_date": "2020-06-15",
+                    "publication_name": {
+                        "en": "Metals"
+                    },
+                    "volume": "10",
+                    "number": "6",
+                    "starting_page": "793",
+                    "ending_page": "793",
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.3390/met10060793"
+                        ],
+                        "e_issn": [
+                            "2075-4701"
+                        ],
+                        "orcid_put_cd": [
+                            "75803401"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.3390/met10060793",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "https://www.mdpi.com/2075-4701/10/6/793/pdf",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0004841/published_papers/36350282",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0004841/published_papers",
+                    "rm:id": "36350282",
+                    "rm:user_id": "0000044440",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000044440",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2022-02-14T07:44:31Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-12-19T11:37:22Z",
+                    "paper_title": {
+                        "en": "Oblique/Curved Tube Necking Formed by Synchronous Multipass Spinning"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Hirohiko Arai"
+                            },
+                            {
+                                "name": "Shiori Gondo"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "In this paper, we propose a method of forming a tube into an oblique/curved shape by synchronous multipass spinning, in which the forming roller reciprocates in the radial direction in synchrony with the rotation angle of the spindle while the roller moves back and forth along the workpiece in the axial direction to gradually deform a blank tube into a target shape. The target oblique/curved shape is expressed as a series of inclined circular cross sections. The contact position of the roller and the workpiece is calculated from the inclination angle, center coordinates, and diameter of the cross sections, considering the geometrical shape of the roller. The blank shape and the target shape are interpolated along normalized tool paths to generate the numerical control command of the roller. By this method, we experimentally formed aluminum tubes into curved shapes with various radii of curvature, and the forming accuracy, thickness distribution, and strain distribution are examined. We verified that the curved shapes with the target radii of curvature can be accurately realized."
+                    },
+                    "publisher": {
+                        "en": "{MDPI} {AG}"
+                    },
+                    "publication_date": "2020-06-02",
+                    "publication_name": {
+                        "en": "Metals"
+                    },
+                    "volume": "10",
+                    "number": "6",
+                    "starting_page": "733",
+                    "ending_page": "733",
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.3390/met10060733"
+                        ],
+                        "e_issn": [
+                            "2075-4701"
+                        ],
+                        "orcid_put_cd": [
+                            "75005280"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.3390/met10060733",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "https://www.mdpi.com/2075-4701/10/6/733/pdf",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0004841/published_papers/36350281",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0004841/published_papers",
+                    "rm:id": "36350281",
+                    "rm:user_id": "0000044440",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000044440",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2022-02-14T07:44:31Z",
+                    "rm:modifier_id": "0000044440",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2022-02-14T07:44:31Z",
+                    "paper_title": {
+                        "en": "Noncircular tube spinning based on three-dimensional CAD model"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Hirohiko Arai"
+                            }
+                        ]
+                    },
+                    "publication_date": "2019-09",
+                    "publication_name": {
+                        "en": "International Journal of Machine Tools and Manufacture"
+                    },
+                    "languages": [
+                        "eng"
+                    ],
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1016/j.ijmachtools.2019.103426"
+                        ],
+                        "issn": [
+                            "0890-6955"
+                        ],
+                        "orcid_put_cd": [
+                            "59289458"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1016/j.ijmachtools.2019.103426",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0004841/published_papers/36350280",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0004841/published_papers",
+                    "rm:id": "36350280",
+                    "rm:user_id": "0000044440",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000044440",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2022-02-14T07:44:31Z",
+                    "rm:modifier_id": "0000044440",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2022-02-14T07:44:31Z",
+                    "paper_title": {
+                        "en": "Synchronous multipass spinning of oblique-bottom shape"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Hirohiko Arai"
+                            }
+                        ]
+                    },
+                    "publication_date": "2018-10",
+                    "publication_name": {
+                        "en": "Journal of Materials Processing Technology"
+                    },
+                    "languages": [
+                        "eng"
+                    ],
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1016/j.jmatprotec.2018.04.046"
+                        ],
+                        "issn": [
+                            "0924-0136"
+                        ],
+                        "orcid_put_cd": [
+                            "56482427"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1016/j.jmatprotec.2018.04.046",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0004841/published_papers/37384115",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0004841/published_papers",
+                    "rm:id": "37384115",
+                    "rm:user_id": "0000044440",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2022-06-28T09:54:51Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-06-28T09:54:51Z",
+                    "paper_title": {
+                        "ja": "異形形状が成形できるスピニング加工機の開発",
+                        "en": "Development of Metal Spinning Machines for Noncircular Shapes"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "荒井 裕彦"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Arai Hirohiko"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "一般社団法人 日本ロボット学会",
+                        "en": "The Robotics Society of Japan"
+                    },
+                    "publication_date": "2016",
+                    "publication_name": {
+                        "ja": "日本ロボット学会誌",
+                        "en": "Journal of the Robotics Society of Japan"
+                    },
+                    "volume": "34",
+                    "number": "10",
+                    "starting_page": "666",
+                    "ending_page": "670",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.7210/jrsj.34.666"
+                        ],
+                        "issn": [
+                            "0289-1824"
+                        ],
+                        "cinii_na_id": [
+                            "130005290483"
+                        ],
+                        "cinii_nc_id": [
+                            "AN00141189"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.7210/jrsj.34.666",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/130005290483",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_books",
+                            "@id": "http://ci.nii.ac.jp/ncid/AN00141189",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "http://id.ndl.go.jp/bib/027801745",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0004841/published_papers/11156584",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0004841/published_papers",
+                    "rm:id": "11156584",
+                    "rm:user_id": "0000044440",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000044440",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2018-10-29T09:10:33Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-06-03T17:05:15Z",
+                    "paper_title": {
+                        "en": "Formability in synchronous multipass spinning using simple pass set"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Yoshihiko Sugita"
+                            },
+                            {
+                                "name": "Hirohiko Arai"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "This study is an investigation into the effect of the different parameters of the pass set on the formability in synchronous multipass spinning. Synchronous multipass spinning is a metal spinning method that can produce a noncircular cylindrical shape with a noncircular bottom and vertical walls from a metal sheet. The radial position of the roller tool is synchronized with the spindle rotation while the work piece is formed from a flat disk into the shape of the mandrel step by step along varying trajectories. The tool trajectory is calculated by linear interpolation between the mandrel shape and the blank disk shape along a pass set. Here, a pass is the tool trajectory in the normalized two-dimensional space defined by the radial and axial directions of the mandrel. The aim of this study is to examine the effect of different parameters of the pass set on the formability of two sample shapes, a circular cup and a rectangular box.\nThe formability was experimentally examined using a rotational pass set and a translational pass set as simple tool trajectories. The rotational pass set consists of curved passes with the same start point and a constantly increasing angle inclination. The translational pass set consists of passes with the same inclination and a start point that is moved by a constant amount. The angle of growth of the rotational pass set, the incremental movement of the translational pass set, and the nominal product height are varied for comparison in the experiments. (C) 2014 Elsevier B.V. All rights reserved."
+                    },
+                    "publisher": {
+                        "en": "ELSEVIER SCIENCE SA"
+                    },
+                    "publication_date": "2015-03",
+                    "publication_name": {
+                        "en": "JOURNAL OF MATERIALS PROCESSING TECHNOLOGY"
+                    },
+                    "volume": "217",
+                    "starting_page": "336",
+                    "ending_page": "344",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1016/j.jmatprotec.2014.11.017"
+                        ],
+                        "orcid_put_cd": [
+                            "44534081"
+                        ],
+                        "scopus_id": [
+                            "84914168427"
+                        ],
+                        "issn": [
+                            "0924-0136"
+                        ],
+                        "wos_id": [
+                            "WOS:000347585900035"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1016/j.jmatprotec.2014.11.017",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000347585900035&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        },
+                        {
+                            "@id": "http://www.scopus.com/inward/record.url?eid=2-s2.0-84914168427&partnerID=MN8TOARS",
+                            "is_downloadable": false,
+                            "label": "url"
+                        },
+                        {
+                            "@id": "http://orcid.org/0000-0002-5465-5075",
+                            "is_downloadable": false,
+                            "label": "url"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0004841/published_papers/37402769",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0004841/published_papers",
+                    "rm:id": "37402769",
+                    "rm:user_id": "0000044440",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2022-06-28T12:01:37Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-06-28T12:01:37Z",
+                    "paper_title": {
+                        "ja": "製造業におけるロボット技術についての提言",
+                        "en": "Recommendations on Robotics for Manufacturing"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "荒井 裕彦"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Arai Hirohiko"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "The Robotics Society of Japan",
+                        "en": "The Robotics Society of Japan"
+                    },
+                    "publication_date": "2015",
+                    "publication_name": {
+                        "ja": "日本ロボット学会誌",
+                        "en": "JRSJ"
+                    },
+                    "volume": "33",
+                    "number": "5",
+                    "starting_page": "310",
+                    "ending_page": "313",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.7210/jrsj.33.310"
+                        ],
+                        "issn": [
+                            "0289-1824"
+                        ],
+                        "cinii_na_id": [
+                            "130005088181"
+                        ],
+                        "cinii_nc_id": [
+                            "AN00141189"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.7210/jrsj.33.310",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/130005088181",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_books",
+                            "@id": "http://ci.nii.ac.jp/ncid/AN00141189",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "http://id.ndl.go.jp/bib/026562571",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "https://jlc.jst.go.jp/DN/JLC/20013194862?from=CiNii",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0004841/published_papers/11156585",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0004841/published_papers",
+                    "rm:id": "11156585",
+                    "rm:user_id": "0000044440",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000044440",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2018-10-29T09:10:33Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-04-01T18:53:35Z",
+                    "paper_title": {
+                        "en": "Effect of pass-set shape on formability in synchronous multipass spinning"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Yoshihiko Sugita"
+                            },
+                            {
+                                "name": "Hirohiko Arai"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "Synchronous multi pass spinning is a metal spinning method that can form asymmetric shapes with a noncircular bottom and vertical walls from a metal sheet. In this method, the tool trajectory is calculated by linear interpolation between the mandrel shape and the blank disk shape along a pass set. Here, the pass set corresponds to the tool trajectory in conventional spinning. The aim of this study is to examine the effect of a pass set on the formability of a circular cup shape and a rectangular box shape. We have experimentally examined the formability using various pass sets made by simple rule. The angle growth of the rotational pass set, the incremental movement of the translational pass set, and the nominal product height are varied for comparison in the experiments. (C) 2014 Published by Elsevier Ltd."
+                    },
+                    "publisher": {
+                        "en": "ELSEVIER SCIENCE BV"
+                    },
+                    "publication_date": "2014",
+                    "publication_name": {
+                        "en": "11TH INTERNATIONAL CONFERENCE ON TECHNOLOGY OF PLASTICITY, ICTP 2014"
+                    },
+                    "volume": "81",
+                    "starting_page": "2373",
+                    "ending_page": "2378",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "international_conference_proceedings",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1016/j.proeng.2014.10.336"
+                        ],
+                        "orcid_put_cd": [
+                            "44534082"
+                        ],
+                        "scopus_id": [
+                            "84949146729"
+                        ],
+                        "issn": [
+                            "1877-7058"
+                        ],
+                        "wos_id": [
+                            "WOS:000358994000385"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1016/j.proeng.2014.10.336",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000358994000385&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        },
+                        {
+                            "@id": "http://www.scopus.com/inward/record.url?eid=2-s2.0-84949146729&partnerID=MN8TOARS",
+                            "is_downloadable": false,
+                            "label": "url"
+                        },
+                        {
+                            "@id": "http://orcid.org/0000-0002-5465-5075",
+                            "is_downloadable": false,
+                            "label": "url"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0004841/published_papers/35491628",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0004841/published_papers",
+                    "rm:id": "35491628",
+                    "rm:user_id": "0000044440",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2021-10-27T06:26:03Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2021-10-27T06:26:03Z",
+                    "paper_title": {
+                        "ja": "スピニング加工におけるロボット技術の活用",
+                        "en": "Applications of Robot Technology in Metal Spinning"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "荒井 裕彦"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "ARAI Hirohiko"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "The Japan Society for Technology of Plasticity",
+                        "en": "The Japan Society for Technology of Plasticity"
+                    },
+                    "publication_date": "2013-05-25",
+                    "publication_name": {
+                        "ja": "塑性と加工",
+                        "en": "Journal of the JSTP"
+                    },
+                    "volume": "54",
+                    "number": "628",
+                    "starting_page": "398",
+                    "ending_page": "402",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.9773/sosei.54.398"
+                        ],
+                        "issn": [
+                            "0038-1586"
+                        ],
+                        "cinii_na_id": [
+                            "10031159274"
+                        ],
+                        "cinii_nc_id": [
+                            "AN00135062"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.9773/sosei.54.398",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/10031159274",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_books",
+                            "@id": "http://ci.nii.ac.jp/ncid/AN00135062",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "http://id.ndl.go.jp/bib/024676599",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "https://jlc.jst.go.jp/DN/JALC/10019532386?from=CiNii",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0004841/published_papers/11156586",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0004841/published_papers",
+                    "rm:id": "11156586",
+                    "rm:user_id": "0000044440",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000044440",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2018-10-29T09:10:33Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-08-31T18:58:27Z",
+                    "paper_title": {
+                        "en": "Synchronous multipass spinning with automatic calculation of pass set"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Yoshihiko Sugita"
+                            },
+                            {
+                                "name": "Hirohiko Arai"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "Metal spinning is a plastic forming method for forming shapes with rotational symmetry. In former studies on asymmetric spinning, it was not possible to form shapes such as rectangular boxes. Thus, we have developed a synchronous multipass spinning method. In this method, the tool trajectory is calculated using the mandrel shape, the blank shape and the pass set. However, there is a problem that the pass set setting depends on the programmer's experience in this spinning process. Therefore, we have developed a calculation method for pass sets of multipass spinning and experimentally evaluated several pass sets used to form rectangular box shapes. © 2013 IEEE."
+                    },
+                    "publication_date": "2013",
+                    "publication_name": {
+                        "en": "2013 IEEE International Conference on Mechatronics and Automation, IEEE ICMA 2013"
+                    },
+                    "starting_page": "1646",
+                    "ending_page": "1651",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "international_conference_proceedings",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1109/ICMA.2013.6618162"
+                        ],
+                        "orcid_put_cd": [
+                            "44534097"
+                        ],
+                        "scopus_id": [
+                            "84887892326"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1109/ICMA.2013.6618162",
+                            "is_downloadable": false
+                        },
+                        {
+                            "@id": "http://www.scopus.com/inward/record.url?eid=2-s2.0-84887892326&partnerID=MN8TOARS",
+                            "is_downloadable": false,
+                            "label": "url"
+                        },
+                        {
+                            "@id": "http://orcid.org/0000-0002-5465-5075",
+                            "is_downloadable": false,
+                            "label": "url"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0004841/published_papers/11156589",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0004841/published_papers",
+                    "rm:id": "11156589",
+                    "rm:user_id": "0000044440",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000044440",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2018-10-29T09:10:33Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-05-04T03:02:59Z",
+                    "paper_title": {
+                        "en": "Experimental implementation and analysis of robotic metal spinning with enhanced trajectory tracking algorithms"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Abdullah Oezer"
+                            },
+                            {
+                                "name": "Akio Sekiguchi"
+                            },
+                            {
+                                "name": "Hirohiko Arai"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "Metal spinning is a plastic forming process in which a disk or tube of metal is rotated at high speed and forced onto a mandrel. It is widely used in industry as an efficient, modern and economical production technique. This research proposes to develop a versatile robotic forming method and expand the application areas of robotic manufacturing processes to the metal spinning area. A lathe-type laboratory setup has been built and an industrial robot manipulator has been used to implement the metal spinning process. Experiments have been conducted with enhanced cascaded trajectory tracking algorithms with an add-on vibration suppressor. The potential of the proposed method has been illustrated with extensive case studies using both constant and variable speed trajectory profiles. Analyses for the growth of wrinkles have been performed through the topographical measurements of the products and the forming forces have been inspected. Results indicate that the efficiency of the process can be significantly improved with suitably selected variable speed trajectory profiles and the process parameters. The developed scheme successfully reduces the excessive oscillations of the manipulator during the metal spinning process and it requires no additional hardware to employ. The investigations demonstrate the feasibility of robotic metal spinning using an industrial serial link manipulator. (C) 2012 Elsevier Ltd. All rights reserved."
+                    },
+                    "publisher": {
+                        "en": "PERGAMON-ELSEVIER SCIENCE LTD"
+                    },
+                    "publication_date": "2012-08",
+                    "publication_name": {
+                        "en": "ROBOTICS AND COMPUTER-INTEGRATED MANUFACTURING"
+                    },
+                    "volume": "28",
+                    "number": "4",
+                    "starting_page": "539",
+                    "ending_page": "550",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1016/j.rcim.2011.12.003"
+                        ],
+                        "orcid_put_cd": [
+                            "44534088"
+                        ],
+                        "scopus_id": [
+                            "84859164934"
+                        ],
+                        "issn": [
+                            "0736-5845"
+                        ],
+                        "wos_id": [
+                            "WOS:000303186100010"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1016/j.rcim.2011.12.003",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000303186100010&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        },
+                        {
+                            "@id": "http://www.scopus.com/inward/record.url?eid=2-s2.0-84859164934&partnerID=MN8TOARS",
+                            "is_downloadable": false,
+                            "label": "url"
+                        },
+                        {
+                            "@id": "http://orcid.org/0000-0002-5465-5075",
+                            "is_downloadable": false,
+                            "label": "url"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0004841/published_papers/11156587",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0004841/published_papers",
+                    "rm:id": "11156587",
+                    "rm:user_id": "0000044440",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000044440",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2018-10-29T09:10:33Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-05-05T00:01:57Z",
+                    "paper_title": {
+                        "en": "Control of wall thickness distribution by oblique shear spinning methods"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Akio Sekiguchi"
+                            },
+                            {
+                                "name": "Hirohiko Arai"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "A flexible method of forming circumferentially variant wall thickness distributions on the same shape is attempted using two oblique sheet spinning processes. The fundamental strategy entails the inclination of the flange plane of the workpiece during forming. In one type of synchronous dieless spinning, edge-hemmed aluminum blanks are formed for truncated cone shells, by synchronizing the motion of the spherical head roller in the axial and radial directions with the angle of the general purpose mandrel fixed on a bidirectionally rotating spindle. On the other hand, in the other type of force-controlled shear spinning, flat aluminum discs are formed by feeding perpendicularly to the flange plane of the workpiece and maintaining the thrust force along the plane via the roller tool, exerted onto the rotating truncated-cone-shaped die. The estimated wall-thickness distribution based on a simple shear deformation model nearly conformed to the measured thickness distributions of the products formed at several inclination angles of up to 15 degrees in the forming and both spinning methods. The low-cost value-added forming method seems to be practicable not only for metal spinning but also for other incremental sheet forming processes. (C) 2011 Elsevier B.V. All rights reserved."
+                    },
+                    "publisher": {
+                        "en": "ELSEVIER SCIENCE SA"
+                    },
+                    "publication_date": "2012-04",
+                    "publication_name": {
+                        "en": "JOURNAL OF MATERIALS PROCESSING TECHNOLOGY"
+                    },
+                    "volume": "212",
+                    "number": "4",
+                    "starting_page": "786",
+                    "ending_page": "793",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1016/j.jmatprotec.2011.11.002"
+                        ],
+                        "orcid_put_cd": [
+                            "44534093"
+                        ],
+                        "scopus_id": [
+                            "84855985960"
+                        ],
+                        "issn": [
+                            "0924-0136"
+                        ],
+                        "wos_id": [
+                            "WOS:000303424800006"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1016/j.jmatprotec.2011.11.002",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000303424800006&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        },
+                        {
+                            "@id": "http://www.scopus.com/inward/record.url?eid=2-s2.0-84855985960&partnerID=MN8TOARS",
+                            "is_downloadable": false,
+                            "label": "url"
+                        },
+                        {
+                            "@id": "http://orcid.org/0000-0002-5465-5075",
+                            "is_downloadable": false,
+                            "label": "url"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0004841/published_papers/34906238",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0004841/published_papers",
+                    "rm:id": "34906238",
+                    "rm:user_id": "0000044440",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2021-10-24T05:19:54Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2021-10-24T05:19:54Z",
+                    "paper_title": {
+                        "ja": "仮想非ホロノミック拘束を用いた反力提示機能のあるスピニング加工用教示システムの開発",
+                        "en": "Development of a Force-feedback Teaching System for Metal Spinning Works using Virtual Non-holonomic Constraint"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "関口 明生"
+                            },
+                            {
+                                "name": "荒井 裕彦"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Sekiguchi Akio"
+                            },
+                            {
+                                "name": "Arai Hirohiko"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "ja": "To make an operator feel reactive forces in teaching operations of metal spinning works with in smooth trajectories, a novel manufacturing system is proposed. Metal spinning is a plastic rotary-forming process in which a metal sheet is formed onto a rotating mandrel by forcing with a roller. A teaching device which is composed of a XY table and a handlebar with a force sensor was prototyped, instead of a joystick in common use. To conduct a shear spinning task from aluminum sheets of 0.8[mm] thickness to cone shells, the force-feedback function was implemented using a robotic bilateral master-slave control method based on a virtual internal model. While in a conventional spinning task of hemispherical parts, to smoothly operate the roller, a virtual non-holonomic model was applied, in reference to a kinematical constraint of a tool position in human-powered spinning works. It was verified that the enhanced system is easier to use than the simple bilateral master slave system through the forming experiments.",
+                        "en": "To make an operator feel reactive forces in teaching operations of metal spinning works with in smooth trajectories, a novel manufacturing system is proposed. Metal spinning is a plastic rotary-forming process in which a metal sheet is formed onto a rotating mandrel by forcing with a roller. A teaching device which is composed of a XY table and a handlebar with a force sensor was prototyped, instead of a joystick in common use. To conduct a shear spinning task from aluminum sheets of 0.8[mm] thickness to cone shells, the force-feedback function was implemented using a robotic bilateral master-slave control method based on a virtual internal model. While in a conventional spinning task of hemispherical parts, to smoothly operate the roller, a virtual non-holonomic model was applied, in reference to a kinematical constraint of a tool position in human-powered spinning works. It was verified that the enhanced system is easier to use than the simple bilateral master slave system through the forming experiments."
+                    },
+                    "publisher": {
+                        "ja": "The Robotics Society of Japan",
+                        "en": "The Robotics Society of Japan"
+                    },
+                    "publication_date": "2012",
+                    "publication_name": {
+                        "ja": "日本ロボット学会誌",
+                        "en": "JRSJ"
+                    },
+                    "volume": "30",
+                    "number": "2",
+                    "starting_page": "188",
+                    "ending_page": "194",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.7210/jrsj.30.188"
+                        ],
+                        "issn": [
+                            "0289-1824"
+                        ],
+                        "cinii_na_id": [
+                            "130002152292"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.7210/jrsj.30.188",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/130002152292",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "https://jlc.jst.go.jp/DN/JALC/10000074611?from=CiNii",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0004841/published_papers/11156590",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0004841/published_papers",
+                    "rm:id": "11156590",
+                    "rm:user_id": "0000044440",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000044440",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2018-10-29T09:10:33Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-07-05T22:00:47Z",
+                    "paper_title": {
+                        "ja": "Spinning process using robot technology - Field-based bricolage of manufacturing technology",
+                        "en": "Spinning process using robot technology - Field-based bricolage of manufacturing technology"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Arai H"
+                            }
+                        ],
+                        "ja": [
+                            {
+                                "name": "Arai H"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "ja": "スピニング加工とは、金属素材を回転させながら加工ローラーを押し付けて成形する塑性加工法で、金型コストが低く多品種少量生産に有利である。スピニング加工にロボット技術を導入して、これまでは困難だった異形形状の成形を実現し、加工機メーカーとの連携により実用的な加工機のプロトタイプを開発した。この研究では、実用化の優先を基本的方向性としてボトムアップかつ探索的に進め、現在の状況に応じ目標やシナリオを常時修正した。その場で入手可能な有限のリソースの組み合わせを活用するブリコラージュが研究活動において大きな役割を果たした。現場 · 現物 · 現実を重視する三現主義の立場で意思決定を行った。顧客満足度の向上を価値基準に加え、営業活動も研究のうちに位置づけた。",
+                        "en": "Metal spinning is a plastic forming method in which a rotating metal material is pushed by a roller to form a product. It is suitable for the production of a wide variety of products in small quantities owing to the low cost of forming dies. We have achieved the fabrication of noncircular shapes by using robot technology, which is difficult to realize by conventional methods. A prototype of a practical spinning machine has been developed in collaboration with a spinning machinery manufacturer. In this research, we have basically set our preference for commercial realization over academic contribution. This research was carried out in a bottom-up and trial-and-error manner, and the targets of this research were frequently modified depending on the situation. Bricolage, utilizing the combination of available and limited resources at hand, played a key role in the research activity. Decision-making reflected three-actuals theory, which values the actual field site, actual object, and actual situation. We included increased customer satisfaction in the criteria of value and carried out sales activities as a part of the research."
+                    },
+                    "publisher": {
+                        "ja": "National Institute of Advanced Industrial Science and Technology",
+                        "en": "National Institute of Advanced Industrial Science and Technology"
+                    },
+                    "publication_date": "2012",
+                    "publication_name": {
+                        "ja": "Synthesiology",
+                        "en": "Synthesiology"
+                    },
+                    "volume": "5",
+                    "number": "2",
+                    "starting_page": "126",
+                    "ending_page": "134",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.5571/synth.5.126"
+                        ],
+                        "issn": [
+                            "1883-0978"
+                        ],
+                        "cinii_na_id": [
+                            "130004954017"
+                        ],
+                        "orcid_put_cd": [
+                            "44534060"
+                        ],
+                        "scopus_id": [
+                            "84863743925"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.5571/synth.5.126",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/130004954017",
+                            "is_downloadable": false
+                        },
+                        {
+                            "@id": "http://www.scopus.com/inward/record.url?eid=2-s2.0-84863743925&partnerID=MN8TOARS",
+                            "is_downloadable": false,
+                            "label": "url"
+                        },
+                        {
+                            "@id": "http://orcid.org/0000-0002-5465-5075",
+                            "is_downloadable": false,
+                            "label": "url"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0004841/published_papers/11156588",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0004841/published_papers",
+                    "rm:id": "11156588",
+                    "rm:user_id": "0000044440",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000044440",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2018-10-29T09:10:33Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-08-31T05:29:03Z",
+                    "paper_title": {
+                        "en": "Development of synchronous multipath metal-spinning method for forming nonaxisymmetric shapes"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Yoshihiko Sugita"
+                            },
+                            {
+                                "name": "Hirohiko Arai"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "Metal spinning is a plastic forming process for forming rotational shapes. In this process, a sheet metal blank attached to a rotating mandrel is subjected to a force by a roller tool and formed into a desired shape. This process is more suitable for high-mix low-volume production than press forming. Former studies on forming nonaxisymmetric shapes encountered the problem that the shapes were limited to noncylindrical shapes. In this study, we propose a synchronous multipath metal-spinning method for nonaxisymmetric shapes with vertical sidewalk. The tool trajectory changes from the flat shape of the blank gradually to fit the shape of the mandrel surface. Linear interpolation between the blank and mandrel shape along normalized planar paths, which constitute curved- and straight-path elements, is used to calculate the tool trajectory in three-dimensional space. The cross-section shape of the mandrel is measured by touching it with the roller using force control. It is possible to independently handle the mandrel shape, blank shape, and the paths for interpolation in this method. Cylindrical and rectangular box shapes are successfully formed from thin aluminum sheets in forming experiments. © 2012 The Japan Society of Mechanical Engineers."
+                    },
+                    "publication_date": "2012",
+                    "publication_name": {
+                        "en": "Nihon Kikai Gakkai Ronbunshu, C Hen/Transactions of the Japan Society of Mechanical Engineers, Part C"
+                    },
+                    "volume": "78",
+                    "number": "787",
+                    "starting_page": "1004",
+                    "ending_page": "1012",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1299/kikaic.78.1004"
+                        ],
+                        "orcid_put_cd": [
+                            "44534096"
+                        ],
+                        "scopus_id": [
+                            "84859565366"
+                        ],
+                        "issn": [
+                            "0387-5024"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1299/kikaic.78.1004",
+                            "is_downloadable": false
+                        },
+                        {
+                            "@id": "http://www.scopus.com/inward/record.url?eid=2-s2.0-84859565366&partnerID=MN8TOARS",
+                            "is_downloadable": false,
+                            "label": "url"
+                        },
+                        {
+                            "@id": "http://orcid.org/0000-0002-5465-5075",
+                            "is_downloadable": false,
+                            "label": "url"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0004841/misc",
+            "@type": "misc",
+            "@reverse": "https://api.researchmap.jp/read0004841",
+            "total_items": 70,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0004841/misc/43827624",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0004841/misc",
+                    "rm:id": "43827624",
+                    "rm:user_id": "0000044440",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_papers",
+                    "rm:creator_type": "coauthor",
+                    "rm:created": "2023-10-20T03:15:19Z",
+                    "rm:modifier_id": "ai:assign_based_papers",
+                    "rm:modifier_type": "coauthor",
+                    "rm:modified": "2023-10-20T03:15:19Z",
+                    "paper_title": {
+                        "ja": "データ駆動型絞りスピニング加工による板厚制御",
+                        "en": "Thickness control by data-driven conventional spinning"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "権藤詩織"
+                            },
+                            {
+                                "name": "荒井裕彦"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Shiori Gondo"
+                            },
+                            {
+                                "name": "Hirohiko Arai"
+                            }
+                        ]
+                    },
+                    "publication_date": "2023-07",
+                    "publication_name": {
+                        "ja": "ぷらすとす",
+                        "en": "Bulletin of the JSTP"
+                    },
+                    "volume": "6",
+                    "number": "67",
+                    "starting_page": "402",
+                    "ending_page": "406",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": true,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.32277/plastos.6.67_402"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.32277/plastos.6.67_402",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0004841/misc/43827623",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0004841/misc",
+                    "rm:id": "43827623",
+                    "rm:user_id": "0000044440",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_papers",
+                    "rm:creator_type": "coauthor",
+                    "rm:created": "2023-10-20T03:15:19Z",
+                    "rm:modifier_id": "ai:assign_based_papers",
+                    "rm:modifier_type": "coauthor",
+                    "rm:modified": "2023-10-20T03:15:19Z",
+                    "paper_title": {
+                        "ja": "産業技術総合研究所（つくば）の研究紹介，支援事例－素形材加工研究グループの研究紹介－",
+                        "en": "Introduction of Researches and Supports at AIST -Introduction of Researches at Material Processing Group-"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "梶野智史"
+                            },
+                            {
+                                "name": "荒井裕彦"
+                            },
+                            {
+                                "name": "加藤正仁"
+                            },
+                            {
+                                "name": "権藤詩織"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Satoshi Kajino"
+                            },
+                            {
+                                "name": "Hirohiko Arai"
+                            },
+                            {
+                                "name": "Masato Kato"
+                            },
+                            {
+                                "name": "Shiori Gondo"
+                            }
+                        ]
+                    },
+                    "publication_date": "2021-11",
+                    "publication_name": {
+                        "ja": "ぷらすとす",
+                        "en": "Bulletin of the JSTP"
+                    },
+                    "volume": "4",
+                    "number": "47",
+                    "starting_page": "725",
+                    "ending_page": "730",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.32277/plastos.4.47_725"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.32277/plastos.4.47_725",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0004841/misc/35235253",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0004841/misc",
+                    "rm:id": "35235253",
+                    "rm:user_id": "0000044440",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2021-10-25T19:30:20Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2021-10-25T19:30:20Z",
+                    "paper_title": {
+                        "ja": "1A1-K02 非接触吸着ハンドによる平面ワークの搬送 : 横滑りを抑制する搬送軌道の計画(ロボットハンドの機構と把持戦略(1))",
+                        "en": "1A1-K02 Handling of Flat Object by Non-contact Suction Hand : Planning of Handling Trajectory for Suppressing Sideslip(Robot Hand Mechanism and Grasping Strategy (1))"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "荒井 裕彦"
+                            },
+                            {
+                                "name": "阿部 裕幸"
+                            },
+                            {
+                                "name": "菊島 義弘"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "ARAI Hirohiko"
+                            },
+                            {
+                                "name": "ABE Hiroyuki"
+                            },
+                            {
+                                "name": "KIKUSHIMA Yoshihiro"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "ja": "We propose a trajectory planning method for a robot hand which is composed of non-contact suction devises using a fluid-dynamics phenomenon. As the hand cannot constrain the object in the tangential direction, sideslip occurs due to the inertial force when the object is transferred horizontally. The hand trajectory is planned so that the hand is inclined to suppress the sideslip by balancing the inertial force with the gravity. Experimental results using a linear slider that emulates a 1-dof object show that the proposed method can reduce the sideslip.",
+                        "en": "We propose a trajectory planning method for a robot hand which is composed of non-contact suction devises using a fluid-dynamics phenomenon. As the hand cannot constrain the object in the tangential direction, sideslip occurs due to the inertial force when the object is transferred horizontally. The hand trajectory is planned so that the hand is inclined to suppress the sideslip by balancing the inertial force with the gravity. Experimental results using a linear slider that emulates a 1-dof object show that the proposed method can reduce the sideslip."
+                    },
+                    "publisher": {
+                        "ja": "一般社団法人日本機械学会",
+                        "en": "The Japan Society of Mechanical Engineers"
+                    },
+                    "publication_date": "2013-05-22",
+                    "publication_name": {
+                        "ja": "ロボティクス・メカトロニクス講演会講演概要集"
+                    },
+                    "volume": "2013",
+                    "starting_page": "\"1A1",
+                    "ending_page": "K02(1)\"-\"1A1-K02(3)\"",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "cinii_na_id": [
+                            "110009963721"
+                        ],
+                        "cinii_nc_id": [
+                            "AA11902933"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/110009963721",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_books",
+                            "@id": "http://ci.nii.ac.jp/ncid/AA11902933",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0004841/misc/35233430",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0004841/misc",
+                    "rm:id": "35233430",
+                    "rm:user_id": "0000044440",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2021-10-25T19:18:02Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2021-10-25T19:18:02Z",
+                    "paper_title": {
+                        "ja": "1A1-K04 非接触吸着デバイスの特性(ロボットハンドの機構と把持戦略(1))",
+                        "en": "1A1-K04 Characteristics of non-contact type suction device(Robot Hand Mechanism and Grasping Strategy (1))"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "阿部 裕幸"
+                            },
+                            {
+                                "name": "菊島 義弘"
+                            },
+                            {
+                                "name": "荒井 裕彦"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "ABE Hiroyuki"
+                            },
+                            {
+                                "name": "KIKUSHIMA Yoshihiro"
+                            },
+                            {
+                                "name": "ARAI Hirohiko"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "ja": "This paper describes the experimental study of the characteristics of a non-contact type suction device. The present study has been carried out for handling technology in various environments. We propose a new non-contact type suction device. The jet of nozzle ring flows along surface of device by coanda effect. Eject effect caused by the coanda effect decreases pressure in inside area of nozzle ring. The pressure brings strong suction force. This time, we introduce characteristics of the device and some objects.",
+                        "en": "This paper describes the experimental study of the characteristics of a non-contact type suction device. The present study has been carried out for handling technology in various environments. We propose a new non-contact type suction device. The jet of nozzle ring flows along surface of device by coanda effect. Eject effect caused by the coanda effect decreases pressure in inside area of nozzle ring. The pressure brings strong suction force. This time, we introduce characteristics of the device and some objects."
+                    },
+                    "publisher": {
+                        "ja": "一般社団法人日本機械学会",
+                        "en": "The Japan Society of Mechanical Engineers"
+                    },
+                    "publication_date": "2013-05-22",
+                    "publication_name": {
+                        "ja": "ロボティクス・メカトロニクス講演会講演概要集"
+                    },
+                    "volume": "2013",
+                    "starting_page": "\"1A1",
+                    "ending_page": "K04(1)\"-\"1A1-K04(2)\"",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "cinii_na_id": [
+                            "110009962843"
+                        ],
+                        "cinii_nc_id": [
+                            "AA11902933"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/110009962843",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_books",
+                            "@id": "http://ci.nii.ac.jp/ncid/AA11902933",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0004841/misc/35385745",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0004841/misc",
+                    "rm:id": "35385745",
+                    "rm:user_id": "0000044440",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2021-10-26T14:30:45Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2021-10-26T14:30:45Z",
+                    "paper_title": {
+                        "ja": "2A2-D06 ロボティクスにおけるブリコラージュ : 研究/技術/教育(ものづくり教育・メカトロニクスで遊ぶ(1))",
+                        "en": "2A2-D06 Bricolage in Robotics : Research, Engineering and Education(Manufacturing Education and Mechatronics/Enjoy Mechatronics DIY(1))"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "荒井 裕彦"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "ARAI Hirohiko"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "ja": "Bricolage, which French anthropologist Levi-Strauss firstly raised as a primitive style of creative thinking, means making do with limited and available materials and tools at hand to create new things or to solve problems. It is shown that various forms of bricolage can be widely observed in the field of robotics, based on the author's own experience and several examples, i.e., humanoids using servos for radio control models, robots used in Fukushima nuclear disaster, and constructionism theory in robot education. It is emphasized that bricolage plays a key role at practical scenes of creative activities in robotics.",
+                        "en": "Bricolage, which French anthropologist Levi-Strauss firstly raised as a primitive style of creative thinking, means making do with limited and available materials and tools at hand to create new things or to solve problems. It is shown that various forms of bricolage can be widely observed in the field of robotics, based on the author's own experience and several examples, i.e., humanoids using servos for radio control models, robots used in Fukushima nuclear disaster, and constructionism theory in robot education. It is emphasized that bricolage plays a key role at practical scenes of creative activities in robotics."
+                    },
+                    "publisher": {
+                        "ja": "一般社団法人日本機械学会",
+                        "en": "The Japan Society of Mechanical Engineers"
+                    },
+                    "publication_date": "2012-05-27",
+                    "publication_name": {
+                        "ja": "ロボティクス・メカトロニクス講演会講演概要集"
+                    },
+                    "volume": "2012",
+                    "starting_page": "\"2A2",
+                    "ending_page": "D06(1)\"-\"2A2-D06(4)\"",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "cinii_na_id": [
+                            "110009908790"
+                        ],
+                        "cinii_nc_id": [
+                            "AA11902933"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/110009908790",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_books",
+                            "@id": "http://ci.nii.ac.jp/ncid/AA11902933",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0004841/misc/35430583",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0004841/misc",
+                    "rm:id": "35430583",
+                    "rm:user_id": "0000044440",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2021-10-26T21:19:07Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2021-10-26T21:19:07Z",
+                    "paper_title": {
+                        "ja": "G150034 同期絞りスピニングによる異形断面形状の成形実験([G15003]ロボティクス・メカトロニクス部門一般セッション(3))",
+                        "en": "G150034 Forming experiment of non-axisymmetric shapes by synchronous multi-pass metal spinning"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "杉田 栄彦"
+                            },
+                            {
+                                "name": "荒井 裕彦"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "SUGITA Yoshihiko"
+                            },
+                            {
+                                "name": "ARAI Hirohiko"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "ja": "Metal spinning is a plastic forming process for forming the rotational shapes. In the process, the blank attached on the rotating mandrel is pushed by roller, and formed. This process is more suitable for high-mix low-volume production than press forming. Recently, several studies on forming non-axisymmetric shapes have been published. However, the shapes are limited to non-cylindrical shapes. In this study, synchronous multi-pass metal spinning for non-axisymmetric shapes such as rectangular box shapes is developed. In this method, position of roller is controlled synchronizing with the mandrel shape. To calculate the tool path easily, it uses the measurement of the mandrel shape using impedance control, and linear interpolation between the blank shape and the mandrel shape. This paper reports the forming experiments which made some non-axisymmetric shapes from thin aluminum sheets.",
+                        "en": "Metal spinning is a plastic forming process for forming the rotational shapes. In the process, the blank attached on the rotating mandrel is pushed by roller, and formed. This process is more suitable for high-mix low-volume production than press forming. Recently, several studies on forming non-axisymmetric shapes have been published. However, the shapes are limited to non-cylindrical shapes. In this study, synchronous multi-pass metal spinning for non-axisymmetric shapes such as rectangular box shapes is developed. In this method, position of roller is controlled synchronizing with the mandrel shape. To calculate the tool path easily, it uses the measurement of the mandrel shape using impedance control, and linear interpolation between the blank shape and the mandrel shape. This paper reports the forming experiments which made some non-axisymmetric shapes from thin aluminum sheets."
+                    },
+                    "publisher": {
+                        "ja": "一般社団法人日本機械学会",
+                        "en": "The Japan Society of Mechanical Engineers"
+                    },
+                    "publication_date": "2011-09-11",
+                    "publication_name": {
+                        "ja": "年次大会 : Mechanical Engineering Congress, Japan",
+                        "en": "Mechanical Engineering Congress, Japan"
+                    },
+                    "volume": "2011",
+                    "starting_page": "\"G150034",
+                    "ending_page": "1\"-\"G150034-5\"",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "cinii_na_id": [
+                            "110009758993"
+                        ],
+                        "cinii_nc_id": [
+                            "AA12588255"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/110009758993",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_books",
+                            "@id": "http://ci.nii.ac.jp/ncid/AA12588255",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0004841/misc/35534151",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0004841/misc",
+                    "rm:id": "35534151",
+                    "rm:user_id": "0000044440",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2021-10-27T12:45:14Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2021-10-27T12:45:14Z",
+                    "paper_title": {
+                        "ja": "1A1-F07 加工ローラの協調制御による管のスピニング加工の高速化に関する研究(生産システム・生産機器メカトロニクス)",
+                        "en": "1A1-F07 An Experimental Study for Speeding up of Pipe Spinning by Cooperative Control of Two Rollers(Manufacturing System and Manufacturing Machinery Mechatronics)"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "田村 祥央"
+                            },
+                            {
+                                "name": "荒井 裕彦"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "TAMURA Sho"
+                            },
+                            {
+                                "name": "ARAI Hirohiko"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "ja": "Metal spinning for pipe necking generally takes long production time since the target shape is gradually formed through many tool paths. Metal spinning machines with two roller tools are widely used for pipe spinning in order to balance the forming force of each roller. The two rollers are usually controlled symmetrically. In this study, we investigate a method to cooperatively control the two rollers. We aim to increase the radial feed and reduce the forming time by moving the two rollers asymmetrically. In the experiments, circular pipes are formed into smaller diameter under various conditions, and the forming results of symmetric and asymmetric movement are compared.",
+                        "en": "Metal spinning for pipe necking generally takes long production time since the target shape is gradually formed through many tool paths. Metal spinning machines with two roller tools are widely used for pipe spinning in order to balance the forming force of each roller. The two rollers are usually controlled symmetrically. In this study, we investigate a method to cooperatively control the two rollers. We aim to increase the radial feed and reduce the forming time by moving the two rollers asymmetrically. In the experiments, circular pipes are formed into smaller diameter under various conditions, and the forming results of symmetric and asymmetric movement are compared."
+                    },
+                    "publisher": {
+                        "ja": "一般社団法人日本機械学会",
+                        "en": "The Japan Society of Mechanical Engineers"
+                    },
+                    "publication_date": "2011-05-26",
+                    "publication_name": {
+                        "ja": "ロボティクス・メカトロニクス講演会講演概要集"
+                    },
+                    "volume": "2011",
+                    "starting_page": "\"1A1",
+                    "ending_page": "F07(1)\"-\"1A1-F07(4)\"",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "cinii_na_id": [
+                            "110009690574"
+                        ],
+                        "cinii_nc_id": [
+                            "AA11902933"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/110009690574",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_books",
+                            "@id": "http://ci.nii.ac.jp/ncid/AA11902933",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0004841/misc/35534147",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0004841/misc",
+                    "rm:id": "35534147",
+                    "rm:user_id": "0000044440",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2021-10-27T12:45:10Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2021-10-27T12:45:10Z",
+                    "paper_title": {
+                        "ja": "1A1-F06 異形断面形状の絞りスピニング加工法の開発(生産システム・生産機器メカトロニクス)",
+                        "en": "1A1-F06 Development of conventional metal spinning method for non-axisymmetric shapes(Manufacturing System and Manufacturing Machinery Mechatronics)"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "杉田 栄彦"
+                            },
+                            {
+                                "name": "荒井 裕彦"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "SUGITA Yoshihiko"
+                            },
+                            {
+                                "name": "ARAI Hirohiko"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "ja": "Metal spinning is a plastic forming process which is suited for diverse-types-and-small quantity production. In the process, products are formed into shape of a mandrel pressing a tool against a metal blank. However, product shapes by metal spinning have been inherently limited to axially symmetric shapes. In this study, a conventional metal spinning method for non-axisymmetric shapes is developed. To calculate the tool path easily, it uses the measurement of the mandrel shape and linear interpolation between the blank shape and the mandrel shape. In our forming experiment, rectangular box shape was made from a thin aluminum sheet.",
+                        "en": "Metal spinning is a plastic forming process which is suited for diverse-types-and-small quantity production. In the process, products are formed into shape of a mandrel pressing a tool against a metal blank. However, product shapes by metal spinning have been inherently limited to axially symmetric shapes. In this study, a conventional metal spinning method for non-axisymmetric shapes is developed. To calculate the tool path easily, it uses the measurement of the mandrel shape and linear interpolation between the blank shape and the mandrel shape. In our forming experiment, rectangular box shape was made from a thin aluminum sheet."
+                    },
+                    "publisher": {
+                        "ja": "一般社団法人日本機械学会",
+                        "en": "The Japan Society of Mechanical Engineers"
+                    },
+                    "publication_date": "2011-05-26",
+                    "publication_name": {
+                        "ja": "ロボティクス・メカトロニクス講演会講演概要集"
+                    },
+                    "volume": "2011",
+                    "starting_page": "\"1A1",
+                    "ending_page": "F06(1)\"-\"1A1-F06(4)\"",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "cinii_na_id": [
+                            "110009690573"
+                        ],
+                        "cinii_nc_id": [
+                            "AA11902933"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/110009690573",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_books",
+                            "@id": "http://ci.nii.ac.jp/ncid/AA11902933",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0004841/misc/8070918",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0004841/misc",
+                    "rm:id": "8070918",
+                    "rm:user_id": "0000044440",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000044440",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2018-10-29T09:11:02Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-08-13T01:30:35Z",
+                    "paper_title": {
+                        "ja": "1A2-A18 力覚フィードバックのあるスピニング加工用教示装置の試作",
+                        "en": "1A2-A18 Prototype of Force-feedback Teaching Device for Metal Spinning"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "SEKIGUCHI Akio"
+                            },
+                            {
+                                "name": "ARAI Hirohiko"
+                            }
+                        ],
+                        "ja": [
+                            {
+                                "name": "関口 明生"
+                            },
+                            {
+                                "name": "荒井 裕彦"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "ja": "To make an operator feel the working force in teaching works of metal spinning, a teaching device which is constructed a XY table and a handlebar with a force sensor was prototyped. Metal spinning is a plastic forming process in which a metal sheet is formed on a rotating mandrel using the force of a roller. A teaching device is used to demonstrate a successful tool trajectory of a NC spinning late by an operator. In this paper, the force-feedback was performed using a robotic master-slave control method based on virtual internal models. The basal utility of the forming system was experimentally verified on a shear spinning task from aluminum sheets of 0.8-mm thickness to cone shells. And the working strategy of the roller motion and thrust force to form winkle-less products in a shorter time was deduced from the working data.",
+                        "en": "To make an operator feel the working force in teaching works of metal spinning, a teaching device which is constructed a XY table and a handlebar with a force sensor was prototyped. Metal spinning is a plastic forming process in which a metal sheet is formed on a rotating mandrel using the force of a roller. A teaching device is used to demonstrate a successful tool trajectory of a NC spinning late by an operator. In this paper, the force-feedback was performed using a robotic master-slave control method based on virtual internal models. The basal utility of the forming system was experimentally verified on a shear spinning task from aluminum sheets of 0.8-mm thickness to cone shells. And the working strategy of the roller motion and thrust force to form winkle-less products in a shorter time was deduced from the working data."
+                    },
+                    "publisher": {
+                        "ja": "一般社団法人 日本機械学会",
+                        "en": "The Japan Society of Mechanical Engineers"
+                    },
+                    "publication_date": "2010",
+                    "publication_name": {
+                        "ja": "ロボティクス・メカトロニクス講演会講演概要集",
+                        "en": "Robomech"
+                    },
+                    "volume": "2010",
+                    "number": "0",
+                    "starting_page": "_1A2",
+                    "ending_page": "A18_1-_1A2-A18_4",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "cinii_na_id": [
+                            "110008741289"
+                        ],
+                        "cinii_nc_id": [
+                            "AA11902933"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/110008741289",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_books",
+                            "@id": "http://ci.nii.ac.jp/ncid/AA11902933",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0004841/misc/38775349",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0004841/misc",
+                    "rm:id": "38775349",
+                    "rm:user_id": "0000044440",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2022-07-18T03:22:11Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-07-18T03:22:11Z",
+                    "paper_title": {
+                        "ja": "楕円や多角形も作れるスピニング加工法",
+                        "en": "Metal Spinning of Non-axisymmetric Shapes"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "荒井 裕彦"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "ARAI Hirohiko"
+                            }
+                        ]
+                    },
+                    "publication_date": "2009-06-01",
+                    "publication_name": {
+                        "ja": "自動車技術"
+                    },
+                    "volume": "63",
+                    "number": "6",
+                    "starting_page": "98",
+                    "ending_page": "99",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "0385-7298"
+                        ],
+                        "cinii_na_id": [
+                            "10024764071"
+                        ],
+                        "cinii_nc_id": [
+                            "AN00105899"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/10024764071",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_books",
+                            "@id": "http://ci.nii.ac.jp/ncid/AN00105899",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0004841/misc/8070920",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0004841/misc",
+                    "rm:id": "8070920",
+                    "rm:user_id": "0000044440",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000044440",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2018-10-29T09:11:02Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-08-15T21:03:25Z",
+                    "paper_title": {
+                        "ja": "808 湾曲異形断面形状の同期ダイレススピニング加工(OS15-(2) 新しいロボット技術,オーガナイズドセッション)",
+                        "en": "808 A Synchronous Die-less Spinning of Curved Non-axisymmetric Products"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "SEKIGUCHI Akio"
+                            },
+                            {
+                                "name": "ARAI Hirohiko"
+                            }
+                        ],
+                        "ja": [
+                            {
+                                "name": "関口 明生"
+                            },
+                            {
+                                "name": "荒井 裕彦"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "ja": "Metal spinning is a plastic forming process that forms sheet or tube metal fixed to a rotating mandrel by forcing roller tools. Products formed by metal spinning have been inherently limited to straight-axis and circular-sectional shapes. In this study, we succeeded in making curved-axis and non-axisymmetric shells by synchronizing the roller motion in the axial and radial direction with the rotaion of the spindle axis, and without using forming dies. A numerically-controlled spinning machine moves the spherical head tool along the trajectory which is calculated from the desired shape considering contact with the tool. Products are experimentally formed from aluminum sheet.",
+                        "en": "Metal spinning is a plastic forming process that forms sheet or tube metal fixed to a rotating mandrel by forcing roller tools. Products formed by metal spinning have been inherently limited to straight-axis and circular-sectional shapes. In this study, we succeeded in making curved-axis and non-axisymmetric shells by synchronizing the roller motion in the axial and radial direction with the rotaion of the spindle axis, and without using forming dies. A numerically-controlled spinning machine moves the spherical head tool along the trajectory which is calculated from the desired shape considering contact with the tool. Products are experimentally formed from aluminum sheet."
+                    },
+                    "publisher": {
+                        "ja": "一般社団法人 日本機械学会",
+                        "en": "The Japan Society of Mechanical Engineers"
+                    },
+                    "publication_date": "2009",
+                    "publication_name": {
+                        "ja": "茨城講演会講演論文集",
+                        "en": "The Proceedings of Ibaraki District Conference"
+                    },
+                    "volume": "2009",
+                    "number": "0",
+                    "starting_page": "207",
+                    "ending_page": "208",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "cinii_na_id": [
+                            "110008011962"
+                        ],
+                        "cinii_nc_id": [
+                            "AN10554141"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/110008011962",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_books",
+                            "@id": "http://ci.nii.ac.jp/ncid/AN10554141",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0004841/misc/8070919",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0004841/misc",
+                    "rm:id": "8070919",
+                    "rm:user_id": "0000044440",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000044440",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2018-10-29T09:11:02Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-08-15T01:48:55Z",
+                    "paper_title": {
+                        "ja": "2A1-A19 湾曲同期ダイレススピニング加工法の開発",
+                        "en": "2A1-A19 Develpment of Synchronized Die-less Spinning for Curved Products"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "SEKIGUCHI Akio"
+                            },
+                            {
+                                "name": "ARAI Hirohiko"
+                            }
+                        ],
+                        "ja": [
+                            {
+                                "name": "関口 明生"
+                            },
+                            {
+                                "name": "荒井 裕彦"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "ja": "Metal spinning is a plastic forming process that forms sheet or tube metal fixed to a rotating mandrel by forcing roller tools. Products formed by metal spinning have been inherently limited to straight-axis and circular-sectional shapes. In this study, we succeeded to make curved-axis and non-axisymmetric shells by synchronizing the roller motion in the axial and radial direction with the rotation of the spindle axis, and without using forming dies. A numerically-controlled spinning machine moves the spherical head tool along the trajectory which is calculated from the desired shape considering contact with the tool. Curved-axis cones of various bending angles up to 60 deg. are experimentally formed from aluminum sheet.",
+                        "en": "Metal spinning is a plastic forming process that forms sheet or tube metal fixed to a rotating mandrel by forcing roller tools. Products formed by metal spinning have been inherently limited to straight-axis and circular-sectional shapes. In this study, we succeeded to make curved-axis and non-axisymmetric shells by synchronizing the roller motion in the axial and radial direction with the rotation of the spindle axis, and without using forming dies. A numerically-controlled spinning machine moves the spherical head tool along the trajectory which is calculated from the desired shape considering contact with the tool. Curved-axis cones of various bending angles up to 60 deg. are experimentally formed from aluminum sheet."
+                    },
+                    "publisher": {
+                        "ja": "一般社団法人 日本機械学会",
+                        "en": "The Japan Society of Mechanical Engineers"
+                    },
+                    "publication_date": "2009",
+                    "publication_name": {
+                        "ja": "ロボティクス・メカトロニクス講演会講演概要集",
+                        "en": "Robomech"
+                    },
+                    "volume": "2009",
+                    "number": "0",
+                    "starting_page": "_2A1",
+                    "ending_page": "A19_1-_2A1-A19_4",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "cinii_na_id": [
+                            "110008697812"
+                        ],
+                        "cinii_nc_id": [
+                            "AA11902933"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/110008697812",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_books",
+                            "@id": "http://ci.nii.ac.jp/ncid/AA11902933",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0004841/misc/8070922",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0004841/misc",
+                    "rm:id": "8070922",
+                    "rm:user_id": "0000044440",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000044440",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2018-10-29T09:11:02Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-09-21T04:28:25Z",
+                    "paper_title": {
+                        "ja": "リニアモータを用いた力制御スピニング加工機",
+                        "en": "Force-controlled Metal Spinning Machine using Linear Motors"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "ARAI Hirohiko"
+                            }
+                        ],
+                        "ja": [
+                            {
+                                "name": "荒井 裕彦"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "ja": "Metal spinning is a plastic forming process that forms a metal sheet by forcing the metal onto a rotating mandrel using a roller tool. A novel metal spinning machine was designed in which the roller is directly driven by linear motors. We aim to form non-axisymmetric products by controlling the pushing force of the roller so that the roller can quickly track the changing radius of the mandrel. Our experimental results show that the linear motors substantially improve response of the force control and non-axisymmetric products can be rapidly formed. Open-loop force control without a force sensor was also studied. It exhibited a comparable performance to closed-loop control with regard to the forming time.",
+                        "en": "Metal spinning is a plastic forming process that forms a metal sheet by forcing the metal onto a rotating mandrel using a roller tool. A novel metal spinning machine was designed in which the roller is directly driven by linear motors. We aim to form non-axisymmetric products by controlling the pushing force of the roller so that the roller can quickly track the changing radius of the mandrel. Our experimental results show that the linear motors substantially improve response of the force control and non-axisymmetric products can be rapidly formed. Open-loop force control without a force sensor was also studied. It exhibited a comparable performance to closed-loop control with regard to the forming time."
+                    },
+                    "publisher": {
+                        "ja": "一般社団法人 日本ロボット学会",
+                        "en": "The Robotics Society of Japan"
+                    },
+                    "publication_date": "2007-12-30",
+                    "publication_name": {
+                        "ja": "日本ロボット学会誌 = Journal of Robotics Society of Japan",
+                        "en": "Journal of the Robotics Society of Japan"
+                    },
+                    "volume": "26",
+                    "number": "1",
+                    "starting_page": "49",
+                    "ending_page": "56",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.7210/jrsj.26.49"
+                        ],
+                        "issn": [
+                            "0289-1824"
+                        ],
+                        "cinii_na_id": [
+                            "10020124466"
+                        ],
+                        "cinii_nc_id": [
+                            "AN00141189"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.7210/jrsj.26.49",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/10020124466",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_books",
+                            "@id": "http://ci.nii.ac.jp/ncid/AN00141189",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0004841/misc/8070881",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0004841/misc",
+                    "rm:id": "8070881",
+                    "rm:user_id": "0000044440",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000044440",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2018-10-29T09:11:00Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-09-17T01:54:25Z",
+                    "paper_title": {
+                        "ja": "人・ロボット協調搬送作業のための仮想インピーダンス壁を用いた移動マニピュレータの制御手法",
+                        "en": "A Control Method of Mobile Manipulator Using Virtual Impedance Wall for Human/Robot Collaboration Object Transfer Task"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "TAKUBO Tomohito"
+                            },
+                            {
+                                "name": "ARAI Hirohiko"
+                            },
+                            {
+                                "name": "TANIE Kazuo"
+                            },
+                            {
+                                "name": "ARAI Tatsuo"
+                            }
+                        ],
+                        "ja": [
+                            {
+                                "name": "田窪 朋仁"
+                            },
+                            {
+                                "name": "荒井 裕彦"
+                            },
+                            {
+                                "name": "谷江 和雄"
+                            },
+                            {
+                                "name": "新井 健生"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "ja": "Most of mobile manipulators have a heavy mobile base for stability. Therefore, the slow dynamics of the mobile base deteriorates the system reaction. Thus, we propose a new approach for removing unnecessary movements of the mobile base. In our proposed method, the mobile base dose not move until the manipulator tip goes over the preferred operating region. The area is surrounded by virtual impedance wall. When the manipulator tip or the mobile base reaches the boundary, the mobile base starts to move by the repulsive force from the virtual wall and recovers the system conditions. Simulation and experiment show the validity of the proposed method.",
+                        "en": "Most of mobile manipulators have a heavy mobile base for stability. Therefore, the slow dynamics of the mobile base deteriorates the system reaction. Thus, we propose a new approach for removing unnecessary movements of the mobile base. In our proposed method, the mobile base dose not move until the manipulator tip goes over the preferred operating region. The area is surrounded by virtual impedance wall. When the manipulator tip or the mobile base reaches the boundary, the mobile base starts to move by the repulsive force from the virtual wall and recovers the system conditions. Simulation and experiment show the validity of the proposed method."
+                    },
+                    "publisher": {
+                        "ja": "一般社団法人日本機械学会",
+                        "en": "The Japan Society of Mechanical Engineers"
+                    },
+                    "publication_date": "2007-07-25",
+                    "publication_name": {
+                        "ja": "日本機械学会論文集. C編",
+                        "en": "Transactions of the Japan Society of Mechanical Engineers C"
+                    },
+                    "volume": "73",
+                    "number": "731",
+                    "starting_page": "2115",
+                    "ending_page": "2122",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "0387-5024"
+                        ],
+                        "cinii_na_id": [
+                            "110006367771"
+                        ],
+                        "cinii_nc_id": [
+                            "AN00187463"
+                        ],
+                        "doi": [
+                            "10.1299/kikaic.73.2115"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/110006367771",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_books",
+                            "@id": "http://ci.nii.ac.jp/ncid/AN00187463",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1299/kikaic.73.2115",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0004841/misc/8070923",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0004841/misc",
+                    "rm:id": "8070923",
+                    "rm:user_id": "0000044440",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000044440",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2018-10-29T09:11:02Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-09-14T23:44:08Z",
+                    "paper_title": {
+                        "ja": "非ホロノミック拘束を伴う人間機械系",
+                        "en": "Man-Machine Systems Involving Nonholonomic Constraint Control of Delay Systems : From Fundamentals to Frontiers"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "ARAI Hirohiko"
+                            }
+                        ],
+                        "ja": [
+                            {
+                                "name": "荒井 裕彦"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "公益社団法人 計測自動制御学会",
+                        "en": "The Society of Instrument and Control Engineers"
+                    },
+                    "publication_date": "2006-07-10",
+                    "publication_name": {
+                        "ja": "計測と制御 = Journal of the Society of Instrument and Control Engineers",
+                        "en": "Journal of The Society of Instrument and Control Engineers"
+                    },
+                    "volume": "45",
+                    "number": "7",
+                    "starting_page": "638",
+                    "ending_page": "642",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.11499/sicejl1962.45.638"
+                        ],
+                        "issn": [
+                            "0453-4662"
+                        ],
+                        "cinii_na_id": [
+                            "10018006027"
+                        ],
+                        "cinii_nc_id": [
+                            "AN00072406"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.11499/sicejl1962.45.638",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/10018006027",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_books",
+                            "@id": "http://ci.nii.ac.jp/ncid/AN00072406",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0004841/misc/2137776",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0004841/misc",
+                    "rm:id": "2137776",
+                    "rm:user_id": "0000044440",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000044440",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2011-02-02T15:00:00Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-08-21T22:17:06Z",
+                    "paper_title": {
+                        "ja": "ロボットによるスピニング加工の研究 － 力制御を用いた非軸対称製品の成形 －",
+                        "en": "Robotic Metal Spinning : Forming Non-axisymmetric Products Using Force Control"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "ARAI Hirohiko"
+                            }
+                        ],
+                        "ja": [
+                            {
+                                "name": "荒井 裕彦"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "ja": "Metal spinning is a plastic forming process that forms a metal sheet by forcing the metal onto a rotating mandrel using a roller tool. Products formed by metal spinning have been inherently limited to round shapes. In this paper, we propose metal spinning of non-axisymmetric products by applying hybrid position/force control. The pushing force of the roller is regulated so that the roller can track the changing radius of the mandrel. Our forming experiment demonstrates that a thin aluminum sheet can be formed into a non-axisymmetric shape.",
+                        "en": "Metal spinning is a plastic forming process that forms a metal sheet by forcing the metal onto a rotating mandrel using a roller tool. Products formed by metal spinning have been inherently limited to round shapes. In this paper, we propose metal spinning of non-axisymmetric products by applying hybrid position/force control. The pushing force of the roller is regulated so that the roller can track the changing radius of the mandrel. Our forming experiment demonstrates that a thin aluminum sheet can be formed into a non-axisymmetric shape."
+                    },
+                    "publisher": {
+                        "ja": "一般社団法人 日本ロボット学会",
+                        "en": "一般社団法人 日本ロボット学会"
+                    },
+                    "publication_date": "2006-01-15",
+                    "publication_name": {
+                        "ja": "日本ロボット学会誌",
+                        "en": "Journal of the Robotics Society of Japan"
+                    },
+                    "volume": "24",
+                    "number": "1",
+                    "starting_page": "140",
+                    "ending_page": "145",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.7210/jrsj.24.140"
+                        ],
+                        "issn": [
+                            "0289-1824",
+                            "1884-7145"
+                        ],
+                        "cinii_na_id": [
+                            "10017172130"
+                        ],
+                        "cinii_nc_id": [
+                            "AN00141189"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.7210/jrsj.24.140",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/10017172130",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_books",
+                            "@id": "http://ci.nii.ac.jp/ncid/AN00141189",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0004841/misc/8070924",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0004841/misc",
+                    "rm:id": "8070924",
+                    "rm:user_id": "0000044440",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000044440",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2018-10-29T09:11:03Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-09-10T11:25:55Z",
+                    "paper_title": {
+                        "ja": "ロボットによるへら絞り : ものづくりとロボット技術(<特集>技術の伝承で甦れ!日本・ものづくりの国)",
+                        "en": "Robotic Metal Spinning : Manufacturing Craftsmanship and Robot Technology(<Special Issue>Revive by Succession of Technical Skills, Japan-Country of Manufacturing!)"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "ARAI Hirohiko"
+                            }
+                        ],
+                        "ja": [
+                            {
+                                "name": "荒井 裕彦"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "公益社団法人精密工学会",
+                        "en": "The Japan Society for Precision Engineering"
+                    },
+                    "publication_date": "2006-01-05",
+                    "publication_name": {
+                        "ja": "精密工学会誌",
+                        "en": "Journal of the Japan Society of Precision Engineering"
+                    },
+                    "volume": "72",
+                    "number": "1",
+                    "starting_page": "41",
+                    "ending_page": "45",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.2493/jjspe.72.41"
+                        ],
+                        "issn": [
+                            "0912-0289"
+                        ],
+                        "cinii_na_id": [
+                            "110002975590"
+                        ],
+                        "cinii_nc_id": [
+                            "AN1003250X"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.2493/jjspe.72.41",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/110002975590",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_books",
+                            "@id": "http://ci.nii.ac.jp/ncid/AN1003250X",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0004841/misc/2137775",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0004841/misc",
+                    "rm:id": "2137775",
+                    "rm:user_id": "0000044440",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000044440",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2011-02-02T15:00:00Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-09-23T01:53:16Z",
+                    "paper_title": {
+                        "ja": "ロボットによるスピニング加工の研究 － 力フィードバック制御を用いたしごきスピニング －",
+                        "en": "Robotic Metal Spinning : Shear Spinning Using Force Feedback Control"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "ARAI Hirohiko"
+                            }
+                        ],
+                        "ja": [
+                            {
+                                "name": "荒井 裕彦"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "ja": "Metal spinning is a plastic forming process that forms a metal sheet or tube by forcing the metal onto a rotating mandrel using a roller tool. This is a study on metal spinning applying robot control techniques such as force feedback control with the aim to develop flexible and intelligent forming processes, and to expand a new application area for robot control. An experimental setup was developed for gathering basic data on the forming process. Some results of preliminary experiments are presented. The influence of the clearance between the roller and mandrel is also discussed. The author proposes applying hybrid position/force control for shear spinning, which is free from fine adjustment of the clearance. The effectiveness of the proposed method was experimentally verified.",
+                        "en": "Metal spinning is a plastic forming process that forms a metal sheet or tube by forcing the metal onto a rotating mandrel using a roller tool. This is a study on metal spinning applying robot control techniques such as force feedback control with the aim to develop flexible and intelligent forming processes, and to expand a new application area for robot control. An experimental setup was developed for gathering basic data on the forming process. Some results of preliminary experiments are presented. The influence of the clearance between the roller and mandrel is also discussed. The author proposes applying hybrid position/force control for shear spinning, which is free from fine adjustment of the clearance. The effectiveness of the proposed method was experimentally verified."
+                    },
+                    "publisher": {
+                        "ja": "一般社団法人 日本ロボット学会",
+                        "en": "一般社団法人 日本ロボット学会"
+                    },
+                    "publication_date": "2004-08-29",
+                    "publication_name": {
+                        "ja": "日本ロボット学会誌",
+                        "en": "Journal of the Robotics Society of Japan"
+                    },
+                    "volume": "22",
+                    "number": "6",
+                    "starting_page": "798",
+                    "ending_page": "805",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.7210/jrsj.22.798"
+                        ],
+                        "issn": [
+                            "0289-1824",
+                            "1884-7145"
+                        ],
+                        "cinii_na_id": [
+                            "10013446073"
+                        ],
+                        "cinii_nc_id": [
+                            "AN00141189"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.7210/jrsj.22.798",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/10013446073",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_books",
+                            "@id": "http://ci.nii.ac.jp/ncid/AN00141189",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0004841/misc/2137774",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0004841/misc",
+                    "rm:id": "2137774",
+                    "rm:user_id": "0000044440",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000044440",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2011-02-02T15:00:00Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-09-26T10:01:07Z",
+                    "paper_title": {
+                        "ja": "非ホロノミック系操作のためのヒューマンインターフェース",
+                        "en": "Human Interface for Manenvering Nonholonomic Systems"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "ARAI Hirohiko"
+                            }
+                        ],
+                        "ja": [
+                            {
+                                "name": "荒井 裕彦"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "ja": "Humans can easily maneuver some types of nonholonomic systems, e.g. wheeled vehicles, while other types, e.g. space robots, are difficult to handle intuitively. We propose a human interface to simplify the operation of &amp;ldquo;difficult&amp;rdquo; nonholonomic systems, which utilizes the human ability to maneuver &amp;ldquo;easy&amp;rdquo; systems. The difficult real system is converted into an easy virtual system using coordinate and input transformation. The input from the human operator to the virtual system is converted into input to the real system, while the state of the real system is converted into that of the virtual system which is displayed to the operator. The operator can then steer the real system feeling as if maneuvering the virtual system. Our experiments show that the operating performance is improved by this method.",
+                        "en": "Humans can easily maneuver some types of nonholonomic systems, e.g. wheeled vehicles, while other types, e.g. space robots, are difficult to handle intuitively. We propose a human interface to simplify the operation of &amp;ldquo;difficult&amp;rdquo; nonholonomic systems, which utilizes the human ability to maneuver &amp;ldquo;easy&amp;rdquo; systems. The difficult real system is converted into an easy virtual system using coordinate and input transformation. The input from the human operator to the virtual system is converted into input to the real system, while the state of the real system is converted into that of the virtual system which is displayed to the operator. The operator can then steer the real system feeling as if maneuvering the virtual system. Our experiments show that the operating performance is improved by this method."
+                    },
+                    "publisher": {
+                        "ja": "一般社団法人 日本ロボット学会",
+                        "en": "一般社団法人 日本ロボット学会"
+                    },
+                    "publication_date": "2003-07-15",
+                    "publication_name": {
+                        "ja": "日本ロボット学会誌",
+                        "en": "Journal of the Robotics Society of Japan"
+                    },
+                    "volume": "21",
+                    "number": "5",
+                    "starting_page": "554",
+                    "ending_page": "561",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.7210/jrsj.21.554"
+                        ],
+                        "issn": [
+                            "0289-1824",
+                            "1884-7145"
+                        ],
+                        "cinii_na_id": [
+                            "10011243347"
+                        ],
+                        "cinii_nc_id": [
+                            "AN00141189"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.7210/jrsj.21.554",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/10011243347",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_books",
+                            "@id": "http://ci.nii.ac.jp/ncid/AN00141189",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0004841/misc/8070925",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0004841/misc",
+                    "rm:id": "8070925",
+                    "rm:user_id": "0000044440",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000044440",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2018-10-29T09:11:03Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-08-28T15:45:51Z",
+                    "paper_title": {
+                        "en": "Key technologies of robot; mechanism and control in robotics",
+                        "ja": "ロボットにおける要素技術 : ロボットの機構と制御"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "荒井 裕彦"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Hirohiko Arai"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "en": "Inst. of Image Information and Television Engineers",
+                        "ja": "一般社団法人映像情報メディア学会"
+                    },
+                    "publication_date": "2003",
+                    "publication_name": {
+                        "en": "Kyokai Joho Imeji Zasshi/Journal of the Institute of Image Information and Television Engineers",
+                        "ja": "映像情報メディア学会誌 : 映像情報メディア = The journal of the Institute of Image Information and Television Engineers"
+                    },
+                    "volume": "57",
+                    "number": "1",
+                    "starting_page": "50",
+                    "ending_page": "52",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "cinii_na_id": [
+                            "110003671051"
+                        ],
+                        "doi": [
+                            "10.3169/itej.57.50"
+                        ],
+                        "issn": [
+                            "1342-6907"
+                        ],
+                        "scopus_id": [
+                            "0037230250"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/110003671051",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.3169/itej.57.50",
+                            "is_downloadable": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0004841/association_memberships",
+            "@type": "association_memberships",
+            "@reverse": "https://api.researchmap.jp/read0004841",
+            "total_items": 2,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0004841/association_memberships/394584",
+                    "@type": "association_memberships",
+                    "@reverse": "https://api.researchmap.jp/read0004841/association_memberships",
+                    "rm:id": "394584",
+                    "rm:user_id": "0000044440",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000044440",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2011-02-02T15:00:00Z",
+                    "rm:modifier_id": "0000044440",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2011-02-02T15:00:00Z",
+                    "academic_society_name": {
+                        "ja": "日本機械学会"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0004841/association_memberships/394583",
+                    "@type": "association_memberships",
+                    "@reverse": "https://api.researchmap.jp/read0004841/association_memberships",
+                    "rm:id": "394583",
+                    "rm:user_id": "0000044440",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000044440",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2011-02-02T15:00:00Z",
+                    "rm:modifier_id": "0000044440",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2011-02-02T15:00:00Z",
+                    "academic_society_name": {
+                        "ja": "日本塑性加工学会"
+                    }
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0004841/research_projects",
+            "@type": "research_projects",
+            "@reverse": "https://api.researchmap.jp/read0004841",
+            "total_items": 2,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0004841/research_projects/44740818",
+                    "@type": "research_projects",
+                    "@reverse": "https://api.researchmap.jp/read0004841/research_projects",
+                    "rm:id": "44740818",
+                    "rm:user_id": "0000044440",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2024-01-30T08:04:33Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2024-01-30T08:04:33Z",
+                    "research_project_title": {
+                        "ja": "回転する金型に金属板を押し付けて成形するスピニング加工をロボットにより行う際に、発生する振動を抑制する制御を研究し、軽量なロボットによる大サイズの加工を実現する"
+                    },
+                    "investigators": {
+                        "ja": [
+                            {
+                                "name": "荒井 裕彦"
+                            },
+                            {
+                                "name": "OZER Abdullah"
+                            }
+                        ]
+                    },
+                    "offer_organization": {
+                        "ja": "日本学術振興会"
+                    },
+                    "system_name": {
+                        "ja": "科学研究費助成事業"
+                    },
+                    "category": {
+                        "ja": "特別研究員奨励費"
+                    },
+                    "institution_name": {
+                        "ja": "独立行政法人産業技術総合研究所"
+                    },
+                    "from_date": "2007",
+                    "to_date": "2009",
+                    "overall_grant_amount": {
+                        "total_cost": "2300000",
+                        "direct_cost": "2300000"
+                    },
+                    "description": {
+                        "ja": "本研究では,回転する金型に金属板を押し付けて成形するスピニング加工をロボットにより行う際に発生する振動を抑制する制御方法を研究し,軽量なロボットによる大サイズの製品の加工を実現することを目指す.スピニング加工では従来XYステージ型の直線機構によってローラ工具を駆動しているが,これをより動作範囲の大きなアーム型のロボットに置き換えても実用的な加工が可能かどうかを明らかにする.アーム型ロボットを用いてスピニング加工実験を行い,振動抑制制御の効果を確認した.6軸のロボットアーム(三菱重工PA-10-6C)を用い,スピニング加工用ローラ工具をロボットアームの先端に装着した.ロボット手首部の6軸力覚センサでローラ工具先端の加工力を検出した.制御用パソコンからARCNET経由でロボットアームを位置制御・速度制御した.また円錐形状の金型を簡易旋盤で回転させた.まず,振動整定時の速度符号に応じて位置目標値を偏移させることにより振動エネルギーを吸収する振動抑制制御側をC言語で開発し制御用パソコンに実装した.自由空間内での運動において振動抑制の効果を確認し次いで本制御側を適用して実際にアルミ板のスピニング加工を行った.ローラ工具における加工力の変動やロボット各関節の振動などのデータを収集し,本制御側を用いた場合と用いない場合を比較した.ローラ送り速度,金型回転数などの加工パラメータを変化させ,それらが加工中の振動や成形結果の良否に及ぼす影響を調べた.ローラ送り速度を上げると,フランジ部分にしわが発生しやすくなる.また振動抑制制御側を適用すると加工中の振動が減少する.以上の結果を国際会議論文3件にまとめ発表した."
+                    },
+                    "identifiers": {
+                        "grant_number": [
+                            "07F07769"
+                        ],
+                        "national_grant_number": [
+                            "JP07F07769"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "kaken",
+                            "@id": "https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-07F07769"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0004841/research_projects/531044",
+                    "@type": "research_projects",
+                    "@reverse": "https://api.researchmap.jp/read0004841/research_projects",
+                    "rm:id": "531044",
+                    "rm:user_id": "0000044440",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000044440",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2011-02-02T15:00:00Z",
+                    "rm:modifier_id": "0000044440",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2011-02-02T15:00:00Z",
+                    "research_project_title": {
+                        "ja": "スピニング加工"
+                    },
+                    "overall_grant_amount": {
+                        "indirect_cost": "0",
+                        "total_cost": "0",
+                        "direct_cost": "0"
+                    },
+                    "fund_type": "competitive_research_funding"
+                }
+            ]
+        }
+    ]
+}

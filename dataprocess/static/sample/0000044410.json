@@ -1,0 +1,1985 @@
+{
+    "@context": "https://api.researchmap.jp/researcher.jsonld",
+    "@id": "https://api.researchmap.jp/read0004821?format=json",
+    "@type": "researchers",
+    "rm:user_id": "0000044410",
+    "rm:creator_id": "0000044410",
+    "rm:creator_type": "myself",
+    "rm:created": "1998-02-28T15:00:00Z",
+    "rm:modifier_id": "0000044410",
+    "rm:modifier_type": "myself",
+    "rm:modified": "2022-08-20T00:37:09Z",
+    "permalink": "read0004821",
+    "family_name": {
+        "ja": "大苗",
+        "ja-Kana": "オオナエ",
+        "en": "Onae"
+    },
+    "given_name": {
+        "ja": "敦",
+        "ja-Kana": "アツシ",
+        "en": "Atsushi"
+    },
+    "display_name_kana": "disclosed",
+    "display_nickname": "disclosed",
+    "display_image": "disclosed",
+    "display_contact_point": "disclosed",
+    "affiliations": [
+        {
+            "affiliation": {
+                "ja": "独立行政法人産業技術総合研究所",
+                "en": "National Institute of Advanced Industrial Science and Technology"
+            },
+            "section": {
+                "ja": "計測標準研究部門"
+            },
+            "display_affiliation": "disclosed",
+            "display_job": "disclosed",
+            "rm:institution_code": "A142000000"
+        }
+    ],
+    "degrees": [
+        {
+            "degree": {
+                "ja": "理学博士"
+            },
+            "display_degree": "disclosed",
+            "rm:institution_code": "9999999999"
+        }
+    ],
+    "display_profile": "disclosed",
+    "see_also": [
+        {
+            "label": "j_global",
+            "@id": "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=200901075245361686"
+        },
+        {
+            "label": "url",
+            "@id": "http://www.aist.go.jp/RESEARCHERDB/cgi-bin/worker_detail.cgi?call=namae&rw_id=A83607068"
+        }
+    ],
+    "display_url": "disclosed",
+    "identifiers": {
+        "j_global_id": [
+            "200901075245361686"
+        ]
+    },
+    "rm:erad_id_verified": false,
+    "rm:orc_id_verified": false,
+    "display_erad_id": "closed",
+    "display_orc_id": "closed",
+    "display_researcher_id": "disclosed",
+    "display_j_global_id": "disclosed",
+    "@graph": [
+        {
+            "@id": "https://api.researchmap.jp/read0004821/research_areas",
+            "@type": "research_areas",
+            "@reverse": "https://api.researchmap.jp/read0004821",
+            "total_items": 1,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0004821/research_areas/296500",
+                    "@type": "research_areas",
+                    "@reverse": "https://api.researchmap.jp/read0004821/research_areas",
+                    "rm:id": "296500",
+                    "rm:user_id": "0000044410",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000044410",
+                    "rm:creator_type": "myself",
+                    "rm:created": "1998-02-28T15:00:00Z",
+                    "rm:modifier_id": "0000044410",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "1998-02-28T15:00:00Z",
+                    "discipline_number": "A489",
+                    "item_number": "A30020",
+                    "discipline": {
+                        "ja": "ナノテク・材料",
+                        "en": "Nanotechnology/Materials"
+                    },
+                    "research_field": {
+                        "ja": "光工学、光量子科学",
+                        "en": "Optical engineering and photonics"
+                    }
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0004821/misc",
+            "@type": "misc",
+            "@reverse": "https://api.researchmap.jp/read0004821",
+            "total_items": 27,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0004821/misc/2137599",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0004821/misc",
+                    "rm:id": "2137599",
+                    "rm:user_id": "0000044410",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000044410",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2011-02-02T15:00:00Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-09-01T13:44:28Z",
+                    "paper_title": {
+                        "en": "Displacement metrology with sub-pm resolution in air based on a fs-comb wavelength synthesizer"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "T. R. Schibli"
+                            },
+                            {
+                                "name": "K. Minoshima"
+                            },
+                            {
+                                "name": "Y. Bitou"
+                            },
+                            {
+                                "name": "F. L. Hong"
+                            },
+                            {
+                                "name": "H. Inaba"
+                            },
+                            {
+                                "name": "A. Onae"
+                            },
+                            {
+                                "name": "H. Matsumoto"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "We report on a displacement metrology setup that provides subpm resolution in air. The setup is based on a Fabry-Perot cavity. However, unlike current Fabry-Perot cavity based displacement setups we incorporate a novel fs-laser based arbitrary wavelength synthesizer that provides efficient suppression of atmospheric disturbances while providing very wide and precise tuning of the output wavelength. The wavelength synthesizer provides sub-10 attometer wavelength resolution. The setup provides subpm length stability for integration times of up to one minute and sub-10 pm for up to half an hour without airtight enclosure of the Fabry-Perot cavities. © 2006 Optical Society of America."
+                    },
+                    "publication_date": "2006-06-26",
+                    "publication_name": {
+                        "en": "Optics Express"
+                    },
+                    "volume": "14",
+                    "number": "13",
+                    "starting_page": "5984",
+                    "ending_page": "5993",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1364/OE.14.005984"
+                        ],
+                        "issn": [
+                            "1094-4087"
+                        ],
+                        "scopus_id": [
+                            "85010161431"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1364/OE.14.005984",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0004821/misc/2137600",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0004821/misc",
+                    "rm:id": "2137600",
+                    "rm:user_id": "0000044410",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000044410",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2011-02-02T15:00:00Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-05-17T21:35:08Z",
+                    "paper_title": {
+                        "en": "Optical frequency measurement using chirped-mirror-dispersion-controlled mode-locked TiAl2O3 laser"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "K Sugiyama"
+                            },
+                            {
+                                "name": "FL Hong"
+                            },
+                            {
+                                "name": "J Ishikawa"
+                            },
+                            {
+                                "name": "A Onae"
+                            },
+                            {
+                                "name": "T Ikegami"
+                            },
+                            {
+                                "name": "SN Slyusarev"
+                            },
+                            {
+                                "name": "K Minoshima"
+                            },
+                            {
+                                "name": "H Matsumoto"
+                            },
+                            {
+                                "name": "H Inaba"
+                            },
+                            {
+                                "name": "JC Knight"
+                            },
+                            {
+                                "name": "WJ Wadsworth"
+                            },
+                            {
+                                "name": "PSJ Russell"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "An optical frequency measurement system based on an octave-spanning optical frequency comb generated by a chirped-mirror-dispersion-controlled mode-locked Ti:Al2O3 laser and a photonic-crystal fiber is developed. All of the modes-of the octave-spanning optical frequency comb are frequency-stabilized to a microwave frequency standard, where the carrier-envelope offset frequency is phase-locked with self-referencing of the comb. We investigate the methods of controlling carrier-envelope offset frequency in a chirped-mirror-dispersion-controlled mode-locked laser. The rotation of a pair of chirped mirrors is useful for setting the bias of carrier-envelope offset frequency. Although our mode-locked laser has a low pulse-repetition frequency of 150 MHz, a high signal-to-noise ratio in beats results in the direct measurement of beat frequency with a laser to be measured using a frequency counter, and enables us to phase lock carrier-envelope offset frequency merely by using a mixer analogously without the need for a prescaler, with a servo bandwidth at approximately 500 kHz. The uncertainty of our optical frequency measurement system, besides the uncertainty of microwave reference frequency, is 4 x 10(-14), and is limited by the uncertainty of the rf synthesizer used for phase locking and by that of the beat frequency measurement. Frequency measurements of an iodine-stabilized frequency-doubled Nd:YAG laser at 532 nm, an iodine-stabilized He-Ne laser at 633 nm and a rubidium two-photon-absorption stabilized extended-cavity laser diode at 778 nm are conducted. The results contributed to the revision of the practical realization of the metre adopted by the International Conference on Weights and Measures (CIPM) in 2001."
+                    },
+                    "publisher": {
+                        "en": "INST PURE APPLIED PHYSICS"
+                    },
+                    "publication_date": "2006-06",
+                    "publication_name": {
+                        "en": "JAPANESE JOURNAL OF APPLIED PHYSICS PART 1-REGULAR PAPERS BRIEF COMMUNICATIONS & REVIEW PAPERS"
+                    },
+                    "volume": "45",
+                    "number": "6A",
+                    "starting_page": "5051",
+                    "ending_page": "5062",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1143/JJAP.45.5051"
+                        ],
+                        "issn": [
+                            "0021-4922"
+                        ],
+                        "wos_id": [
+                            "WOS:000238499700035"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1143/JJAP.45.5051",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000238499700035&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0004821/misc/2137598",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0004821/misc",
+                    "rm:id": "2137598",
+                    "rm:user_id": "0000044410",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000044410",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2011-02-02T15:00:00Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-05-16T19:20:05Z",
+                    "paper_title": {
+                        "en": "Long-term measurement of optical frequencies using a simple, robust and low-noise fiber based frequency comb"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "H Inaba"
+                            },
+                            {
+                                "name": "Y Daimon"
+                            },
+                            {
+                                "name": "FL Hong"
+                            },
+                            {
+                                "name": "A Onae"
+                            },
+                            {
+                                "name": "K Minoshima"
+                            },
+                            {
+                                "name": "TR Schibli"
+                            },
+                            {
+                                "name": "H Matsumoto"
+                            },
+                            {
+                                "name": "M Hirano"
+                            },
+                            {
+                                "name": "T Okuno"
+                            },
+                            {
+                                "name": "M Onishi"
+                            },
+                            {
+                                "name": "M Nakazawa"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "We have developed a fiber-based frequency comb system consisting of a simple mode-locked fiber laser and a backward pumping amplifier combined with a highly nonlinear fiber with a short zero-dispersion wavelength. As a result, the signal to noise ratio of the obtained carrier-envelope-offset frequency beat is larger than 45 dB at a bandwidth of 100 kHz. Furthermore, we have succeeded in measuring the optical frequencies of a 1542-nm acetylene-stabilized laser and a 532-nm iodine-stabilized Nd:YAG laser continuously for more than one week using the fiber-based comb system. The long-term measurement revealed that the frequency stability of the iodine-stabilized laser was 5.7 x 10(-15) with 100 000 s averaging. (c) 2006 Optical Society of America."
+                    },
+                    "publisher": {
+                        "en": "OPTICAL SOC AMER"
+                    },
+                    "publication_date": "2006-06",
+                    "publication_name": {
+                        "en": "OPTICS EXPRESS"
+                    },
+                    "volume": "14",
+                    "number": "12",
+                    "starting_page": "5223",
+                    "ending_page": "5231",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1364/OE.14.005223"
+                        ],
+                        "issn": [
+                            "1094-4087"
+                        ],
+                        "wos_id": [
+                            "WOS:000238437800035"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1364/OE.14.005223",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000238437800035&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0004821/misc/2137597",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0004821/misc",
+                    "rm:id": "2137597",
+                    "rm:user_id": "0000044410",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000044410",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2011-02-02T15:00:00Z",
+                    "rm:modifier_id": "B000000004",
+                    "rm:modifier_type": "system",
+                    "rm:modified": "2011-02-02T15:00:00Z",
+                    "paper_title": {
+                        "ja": "Doppler-free spectroscopy using a continuous-wave optical frequency synthesizer"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "INABA Hajime"
+                            },
+                            {
+                                "name": "IKEGAMI Takeshi"
+                            },
+                            {
+                                "name": "HONG Feng-lei"
+                            },
+                            {
+                                "name": "BITOU Youichi"
+                            },
+                            {
+                                "name": "ONAE Atsushi"
+                            },
+                            {
+                                "name": "SCHIBLI Thomas R"
+                            },
+                            {
+                                "name": "MINOSHIMA Kaoru"
+                            },
+                            {
+                                "name": "MATSUMOTO Hirokazu"
+                            }
+                        ]
+                    },
+                    "publication_date": "2006",
+                    "publication_name": {
+                        "ja": "APPLIED OPTICS"
+                    },
+                    "volume": "45",
+                    "number": "20",
+                    "starting_page": "4910",
+                    "ending_page": "4915",
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1364/AO.45.004910"
+                        ],
+                        "issn": [
+                            "0003-6935"
+                        ],
+                        "cinii_na_id": [
+                            "30011714827"
+                        ],
+                        "pm_id": [
+                            "16807599"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1364/AO.45.004910",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/30011714827",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "pubmed",
+                            "@id": "https://www.ncbi.nlm.nih.gov/pubmed/16807599",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0004821/misc/2137595",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0004821/misc",
+                    "rm:id": "2137595",
+                    "rm:user_id": "0000044410",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000044410",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2011-02-02T15:00:00Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-08-29T10:04:29Z",
+                    "paper_title": {
+                        "en": "Phase-locked widely tunable optical single-frequency generator based on a femtosecond comb"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "T. R. Schibli"
+                            },
+                            {
+                                "name": "K. Minoshima"
+                            },
+                            {
+                                "name": "F. L. Hong"
+                            },
+                            {
+                                "name": "H. Inaba"
+                            },
+                            {
+                                "name": "Y. Bitou"
+                            },
+                            {
+                                "name": "A. Onae"
+                            },
+                            {
+                                "name": "H. Matsumoto"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "We present an arbitrary optical single-frequency generator based on a femtosecond optical frequency comb. The functions of this device are comparable to those of a radio-frequency synthesizer. However, this device operates at hundreds of terahertz. The absolute frequency accuracy of this synthesizer is ∼1 kHz at a 282 THz carrier frequency. The stability is ∼2 × 10-14 at 100 s, and the tuning speed exceeds 30 GHz/s. This source demonstrates the integration of a phase-locked optical comb into a versatile and easy-to-use system for the generation of tunable, absolute optical frequencies. By using downconversion, one could generate tunable terahertz frequencies that are phase locked to a microwave reference, such as a Cs atomic clock, and high-precision interferometry could benefit greatly from the stability and accuracy of this widely tunable source. © 2005 Optical Society of America."
+                    },
+                    "publication_date": "2005-09-01",
+                    "publication_name": {
+                        "en": "Optics Letters"
+                    },
+                    "volume": "30",
+                    "number": "17",
+                    "starting_page": "2323",
+                    "ending_page": "2325",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "cinii_na_id": [
+                            "30011699483"
+                        ],
+                        "doi": [
+                            "10.1364/OL.30.002323"
+                        ],
+                        "issn": [
+                            "0146-9592"
+                        ],
+                        "scopus_id": [
+                            "25144525738"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/30011699483",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1364/OL.30.002323",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0004821/misc/2137592",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0004821/misc",
+                    "rm:id": "2137592",
+                    "rm:user_id": "0000044410",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000044410",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2011-02-02T15:00:00Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-05-08T08:56:30Z",
+                    "paper_title": {
+                        "en": "Stability degradation factors evaluated by phase noise measurement in an optical-microwave frequency link using an optical frequency comb"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "H Inaba"
+                            },
+                            {
+                                "name": "S Yanagimachi"
+                            },
+                            {
+                                "name": "FL Hong"
+                            },
+                            {
+                                "name": "A Onae"
+                            },
+                            {
+                                "name": "Y Koga"
+                            },
+                            {
+                                "name": "H Matsumoto"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "We are developing a highly stable optical-microwave frequency link system using an optical frequency comb. We consider the stability degradation factors in the frequency link system to be the synthesis, phase locking, and photo detection system of the repetition frequency. We evaluated these factors by undertaking phase noise measurements and we estimated the stability from these results. These estimations were consistent with experimental results."
+                    },
+                    "publisher": {
+                        "en": "IEEE-INST ELECTRICAL ELECTRONICS ENGINEERS INC"
+                    },
+                    "publication_date": "2005-04",
+                    "publication_name": {
+                        "en": "IEEE TRANSACTIONS ON INSTRUMENTATION AND MEASUREMENT"
+                    },
+                    "volume": "54",
+                    "number": "2",
+                    "starting_page": "763",
+                    "ending_page": "766",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "cinii_na_id": [
+                            "30019932651"
+                        ],
+                        "doi": [
+                            "10.1109/TIM.2004.843113"
+                        ],
+                        "issn": [
+                            "0018-9456"
+                        ],
+                        "e_issn": [
+                            "1557-9662"
+                        ],
+                        "wos_id": [
+                            "WOS:000227747400072"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/30019932651",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1109/TIM.2004.843113",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000227747400072&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0004821/misc/2137594",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0004821/misc",
+                    "rm:id": "2137594",
+                    "rm:user_id": "0000044410",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000044410",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2011-02-02T15:00:00Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-05-08T01:57:21Z",
+                    "paper_title": {
+                        "en": "Frequency measurement of acetylene-stabilized lasers using a femtosecond optical comb without carrier-envelope offset frequency control"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "J Jiang"
+                            },
+                            {
+                                "name": "A Onae"
+                            },
+                            {
+                                "name": "H Matsumoto"
+                            },
+                            {
+                                "name": "FL Hong"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "We have established a frequency measurement system for frequency-stabilized lasers operating in telecommunication wavelength bands, by using a femtosecond optical comb without the need for carrier envelope offset frequency control. This system has been used to measure the frequency of an acetylene-stabilized laser operating at 1542 nm for a period of over 10 hours. The frequency stability of the acetylene-stabilized laser is estimated to be 3 x 10(-12) for a 10-s averaging time, improving toward 1 x 10(-13) after 10000 s. We have measured three acetylene-stabilized lasers, including one commercially available laser, and confirmed that the frequency values are in good agreement (a frequency scatter of 2.1 kHz) with previously measured results reported by different institutes. In addition to the P(16) line of acetylene at 1542 nm, we measured the absolute frequencies of the P(24) line at 1547 nm, the P(1) line at 1534 nm, and the R(5) line at 1530 nm with a view to improving the accuracy of the acetylene frequency atlas. The acetylene-stabilized laser serves as an important optical frequency standard for telecommunication applications. (C) 2005 Optical Society of America."
+                    },
+                    "publisher": {
+                        "en": "OPTICAL SOC AMER"
+                    },
+                    "publication_date": "2005-03",
+                    "publication_name": {
+                        "en": "OPTICS EXPRESS"
+                    },
+                    "volume": "13",
+                    "number": "6",
+                    "starting_page": "1958",
+                    "ending_page": "1965",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1364/OPEX.13.001958"
+                        ],
+                        "issn": [
+                            "1094-4087"
+                        ],
+                        "wos_id": [
+                            "WOS:000227805400024"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1364/OPEX.13.001958",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000227805400024&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0004821/misc/2137596",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0004821/misc",
+                    "rm:id": "2137596",
+                    "rm:user_id": "0000044410",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000044410",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2011-02-02T15:00:00Z",
+                    "rm:modifier_id": "B000000004",
+                    "rm:modifier_type": "system",
+                    "rm:modified": "2011-02-02T15:00:00Z",
+                    "paper_title": {
+                        "ja": "Phase-shifting interferometry with equal phase steps using a frequency-tunable diode laser and a Fabry-Perot cavity"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "BITOU Youichi"
+                            },
+                            {
+                                "name": "INABA Hajime"
+                            },
+                            {
+                                "name": "HONG Feng‐Lei"
+                            },
+                            {
+                                "name": "TAKATSUJI Toshiyuki"
+                            },
+                            {
+                                "name": "ONAE Atsushi"
+                            }
+                        ]
+                    },
+                    "publication_date": "2005",
+                    "publication_name": {
+                        "ja": "APPLIED OPTICS"
+                    },
+                    "volume": "44",
+                    "number": "26",
+                    "starting_page": "5403",
+                    "ending_page": "5407",
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1364/AO.44.005403"
+                        ],
+                        "issn": [
+                            "0003-6935"
+                        ],
+                        "cinii_na_id": [
+                            "80017787226"
+                        ],
+                        "pm_id": [
+                            "16161652"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1364/AO.44.005403",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/80017787226",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "pubmed",
+                            "@id": "https://www.ncbi.nlm.nih.gov/pubmed/16161652",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0004821/misc/2137591",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0004821/misc",
+                    "rm:id": "2137591",
+                    "rm:user_id": "0000044410",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000044410",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2011-02-02T15:00:00Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-04-26T14:55:10Z",
+                    "paper_title": {
+                        "en": "Frequency metrology with a turnkey all-fiber system"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "TR Schibli"
+                            },
+                            {
+                                "name": "K Minoshima"
+                            },
+                            {
+                                "name": "FL Hong"
+                            },
+                            {
+                                "name": "H Inaba"
+                            },
+                            {
+                                "name": "A Onae"
+                            },
+                            {
+                                "name": "H Matsumoto"
+                            },
+                            {
+                                "name": "Hartl, I"
+                            },
+                            {
+                                "name": "ME Fermann"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "The repetition rate and carrier-envelope phase offset frequencies of a turnkey, all-fiber-based continuum generator were phase locked to a hydrogen maser. The frequency of the hydrogen maser was calibrated with a highly stable cesium atomic clock, and therefore a fully phase-locked optical frequency comb with well-defined absolute frequencies was obtained. In contrast with the commonly used Ti:sapphire-laser-based systems, we have accomplished a fully turnkey system with no user-adjustable parts. To evaluate the performance of this novel system, we performed absolute frequency measurements in the telecommunications region and at 1064 nm and compared them with our traditional Ti:sapphire-based comb. (C) 2004 Optical Society of America."
+                    },
+                    "publisher": {
+                        "en": "OPTICAL SOC AMER"
+                    },
+                    "publication_date": "2004-11",
+                    "publication_name": {
+                        "en": "OPTICS LETTERS"
+                    },
+                    "volume": "29",
+                    "number": "21",
+                    "starting_page": "2467",
+                    "ending_page": "2469",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "cinii_na_id": [
+                            "30011698357"
+                        ],
+                        "doi": [
+                            "10.1364/OL.29.002467"
+                        ],
+                        "issn": [
+                            "0146-9592"
+                        ],
+                        "pm_id": [
+                            "15584263"
+                        ],
+                        "wos_id": [
+                            "WOS:000224600000003"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/30011698357",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1364/OL.29.002467",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "pubmed",
+                            "@id": "https://www.ncbi.nlm.nih.gov/pubmed/15584263",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000224600000003&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0004821/misc/2137593",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0004821/misc",
+                    "rm:id": "2137593",
+                    "rm:user_id": "0000044410",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000044410",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2011-02-02T15:00:00Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-04-26T06:21:48Z",
+                    "paper_title": {
+                        "en": "Frequency stabilization of a 1319-nm Nd : YAG laser by saturation spectroscopy of molecular iodine"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "RX Guo"
+                            },
+                            {
+                                "name": "FL Hong"
+                            },
+                            {
+                                "name": "A Onae"
+                            },
+                            {
+                                "name": "ZY Bi"
+                            },
+                            {
+                                "name": "H Matsumoto"
+                            },
+                            {
+                                "name": "K Nakagawa"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "Hyperfine transitions of molecular iodine were observed by use of the frequency-doubled output of a 1319-nm Nd:YAG laser with saturation spectroscopy. The laser frequency was stabilized to the observed hyperfine transition and reached a stability of 6 x 10(-12) for a 1.5-s averaging time, improving toward the 1 x 10(-12) level after 100 s. The iodine-stabilized 1319-nm Nd:YAG laser is an excellent candidate for an optical frequency standard for telecommunication applications. (C) 2004 Optical Society of America."
+                    },
+                    "publisher": {
+                        "en": "OPTICAL SOC AMER"
+                    },
+                    "publication_date": "2004-08",
+                    "publication_name": {
+                        "en": "OPTICS LETTERS"
+                    },
+                    "volume": "29",
+                    "number": "15",
+                    "starting_page": "1733",
+                    "ending_page": "1735",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "cinii_na_id": [
+                            "80016785704"
+                        ],
+                        "doi": [
+                            "10.1364/OL.29.001733"
+                        ],
+                        "issn": [
+                            "0146-9592"
+                        ],
+                        "pm_id": [
+                            "15352353"
+                        ],
+                        "wos_id": [
+                            "WOS:000222712900010"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/80016785704",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1364/OL.29.001733",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "pubmed",
+                            "@id": "https://www.ncbi.nlm.nih.gov/pubmed/15352353",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000222712900010&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0004821/misc/2137586",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0004821/misc",
+                    "rm:id": "2137586",
+                    "rm:user_id": "0000044410",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000044410",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2011-02-02T15:00:00Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-04-27T14:28:15Z",
+                    "paper_title": {
+                        "en": "Phase locking of a continuous-wave optical parametric oscillator to an optical frequency comb for optical frequency synthesis"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "H Inaba"
+                            },
+                            {
+                                "name": "T Ikegami"
+                            },
+                            {
+                                "name": "FL Hong"
+                            },
+                            {
+                                "name": "A Onae"
+                            },
+                            {
+                                "name": "Y Koga"
+                            },
+                            {
+                                "name": "TR Schibli"
+                            },
+                            {
+                                "name": "K Minoshima"
+                            },
+                            {
+                                "name": "H Matsumoto"
+                            },
+                            {
+                                "name": "S Yamadori"
+                            },
+                            {
+                                "name": "O Tohyama"
+                            },
+                            {
+                                "name": "SI Yamaguchi"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "A continuous-wave optical parametric oscillator (OPO) was phase locked to an optical frequency comb in the 830-nm region. The optical frequency of the OPO was controlled by changing the cavity length of the pump laser. The residual phase noise under phase locking was 220 mradrms and the energy concentration to the carrier was 95 Furthermore, the optical frequency fluctuations of a free-running OPO were measured by using an optical frequency comb that was phase locked to an atomic clock. The measured fluctuations were around 10 MHz in an hour."
+                    },
+                    "publisher": {
+                        "en": "IEEE-INST ELECTRICAL ELECTRONICS ENGINEERS INC"
+                    },
+                    "publication_date": "2004-07",
+                    "publication_name": {
+                        "en": "IEEE JOURNAL OF QUANTUM ELECTRONICS"
+                    },
+                    "volume": "40",
+                    "number": "7",
+                    "starting_page": "929",
+                    "ending_page": "936",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "cinii_na_id": [
+                            "30019847483"
+                        ],
+                        "doi": [
+                            "10.1109/JQE.2004.830211"
+                        ],
+                        "issn": [
+                            "0018-9197"
+                        ],
+                        "wos_id": [
+                            "WOS:000222277900013"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/30019847483",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1109/JQE.2004.830211",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000222277900013&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0004821/misc/2137589",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0004821/misc",
+                    "rm:id": "2137589",
+                    "rm:user_id": "0000044410",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000044410",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2011-02-02T15:00:00Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-04-26T20:18:34Z",
+                    "paper_title": {
+                        "en": "Frequency reproducibility of an iodine-stabilized Nd : YAG laser at 532 nm"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "FL Hong"
+                            },
+                            {
+                                "name": "J Ishikawa"
+                            },
+                            {
+                                "name": "Y Zhang"
+                            },
+                            {
+                                "name": "RX Guo"
+                            },
+                            {
+                                "name": "A Onae"
+                            },
+                            {
+                                "name": "H Matsumoto"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "We have established an ensemble of iodine-stabilized Nd:YAG lasers to verify the frequency reproducibility of the laser. The stability, repeatability and several systematic shifts of the laser frequency are investigated by heterodyne beating of the lasers. The frequency dispersion of the ensemble of lasers is evaluated to be 0.5 kHz (corresponding to a relative frequency uncertainty of 8 x 10(-13)). The absolute frequency of one of the lasers (named as Y3) is measured to be 563 260 223 507 897(58) Hz using a femtosecond optical comb, when the laser was stabilized on the a(10) component of the R(56)32-0 transition of I-127(2) for a cold-finger temperature of -10 degreesC. This group of lasers, including one transportable laser, forms an ensemble of optical frequency standards, which serves for many applications such as international comparisons, optical frequency measurements, frequency calibration services and high-resolution spectroscopy. (C) 2004 Elsevier B.V. All rights reserved."
+                    },
+                    "publisher": {
+                        "en": "ELSEVIER SCIENCE BV"
+                    },
+                    "publication_date": "2004-05",
+                    "publication_name": {
+                        "en": "OPTICS COMMUNICATIONS"
+                    },
+                    "volume": "235",
+                    "number": "4-6",
+                    "starting_page": "377",
+                    "ending_page": "385",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1016/j.optcom.2004.02.044"
+                        ],
+                        "issn": [
+                            "0030-4018"
+                        ],
+                        "e_issn": [
+                            "1873-0310"
+                        ],
+                        "wos_id": [
+                            "WOS:000221279100019"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1016/j.optcom.2004.02.044",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000221279100019&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0004821/misc/2137590",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0004821/misc",
+                    "rm:id": "2137590",
+                    "rm:user_id": "0000044410",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000044410",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2011-02-02T15:00:00Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-04-26T18:32:13Z",
+                    "paper_title": {
+                        "en": "Rubidium-stabilized diode laser for high-precision interferometer"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Y Bitou"
+                            },
+                            {
+                                "name": "K Sasaki"
+                            },
+                            {
+                                "name": "H Inaba"
+                            },
+                            {
+                                "name": "FL Hong"
+                            },
+                            {
+                                "name": "A Onae"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "An Rb-stabilized diode laser has been developed for use in a high-precision interferometer. The light source is a commercially available external-cavity tunable diode laser. The laser frequency is stabilized to a Doppler-free absorption line of Rb by the third-harmonic technique. The laser emits an output beam with a high power (more than 7 mW) and fast frequency modulation (10 kHz). The relative optical frequency uncertainty of 4.3 X 10(-10) is achieved for a 0.01-s averaging time. (C) 2004 Society of Photo-Optical Instrumentation Engineers."
+                    },
+                    "publisher": {
+                        "en": "SPIE-INT SOCIETY OPTICAL ENGINEERING"
+                    },
+                    "publication_date": "2004-04",
+                    "publication_name": {
+                        "en": "OPTICAL ENGINEERING"
+                    },
+                    "volume": "43",
+                    "number": "4",
+                    "starting_page": "900",
+                    "ending_page": "903",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "cinii_na_id": [
+                            "30016006219"
+                        ],
+                        "doi": [
+                            "10.1117/1.1666773"
+                        ],
+                        "issn": [
+                            "0091-3286"
+                        ],
+                        "wos_id": [
+                            "WOS:000220968500019"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/30016006219",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1117/1.1666773",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000220968500019&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0004821/misc/2137588",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0004821/misc",
+                    "rm:id": "2137588",
+                    "rm:user_id": "0000044410",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000044410",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2011-02-02T15:00:00Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-04-27T16:00:40Z",
+                    "paper_title": {
+                        "en": "Frequency measurements and hyperfine structure of the R(85)33-0 transition of molecular iodine with a femtosecond optical comb"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "FL Hong"
+                            },
+                            {
+                                "name": "S Diddams"
+                            },
+                            {
+                                "name": "RX Guo"
+                            },
+                            {
+                                "name": "ZY Bi"
+                            },
+                            {
+                                "name": "A Onae"
+                            },
+                            {
+                                "name": "H Inaba"
+                            },
+                            {
+                                "name": "J Ishikawa"
+                            },
+                            {
+                                "name": "K Okumura"
+                            },
+                            {
+                                "name": "D Katsuragi"
+                            },
+                            {
+                                "name": "J Hirata"
+                            },
+                            {
+                                "name": "T Shimizu"
+                            },
+                            {
+                                "name": "T Kurosu"
+                            },
+                            {
+                                "name": "Y Koga"
+                            },
+                            {
+                                "name": "H Matsumoto"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "Absolute frequency measurements of the R(85)33-0 transition of molecular iodine at the blue end of the tuning range of a frequency-doubled Nd:YAG laser are implemented with a femtosecond optical comb based on a mode-locked Ti:sapphire laser. The hyperfine structure of the R(85)33-0 transition is observed by use of high-resolution laser spectroscopy and is measured by the femtosecond optical comb. The observed hyperfine transitions are good frequency references for both frequency-doubled Nd:YAG and Nd:YVO4 lasers in the 532-nm region. High-accuracy hyperfine constants are obtained by our fitting the measured hyperfine splittings to a four-term Hamiltonian, which includes the electric quadrupole, spin-rotation, tensor spin-spin, and scalar spin-spin interactions. (C) 2004 Optical Society of America."
+                    },
+                    "publisher": {
+                        "en": "OPTICAL SOC AMER"
+                    },
+                    "publication_date": "2004-01",
+                    "publication_name": {
+                        "en": "JOURNAL OF THE OPTICAL SOCIETY OF AMERICA B-OPTICAL PHYSICS"
+                    },
+                    "volume": "21",
+                    "number": "1",
+                    "starting_page": "88",
+                    "ending_page": "95",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "cinii_na_id": [
+                            "80016377682"
+                        ],
+                        "doi": [
+                            "10.1364/JOSAB.21.000088"
+                        ],
+                        "issn": [
+                            "0740-3224"
+                        ],
+                        "wos_id": [
+                            "WOS:000187725000014"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/80016377682",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1364/JOSAB.21.000088",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000187725000014&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0004821/misc/2137587",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0004821/misc",
+                    "rm:id": "2137587",
+                    "rm:user_id": "0000044410",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000044410",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2011-02-02T15:00:00Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-04-30T04:50:07Z",
+                    "paper_title": {
+                        "en": "Absolute frequency measurement of an acetylene-stabilized laser at 1542 nm"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "FL Hong"
+                            },
+                            {
+                                "name": "A Onae"
+                            },
+                            {
+                                "name": "J Jiang"
+                            },
+                            {
+                                "name": "RX Guo"
+                            },
+                            {
+                                "name": "H Inaba"
+                            },
+                            {
+                                "name": "K Minoshima"
+                            },
+                            {
+                                "name": "TR Schibli"
+                            },
+                            {
+                                "name": "H Matsumoto"
+                            },
+                            {
+                                "name": "K Nakagawa"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "The absolute frequency of an acetylene-stabilized laser at 1542 nm is measured at its second harmonic (771 nm) by use of a femtosecond optical comb based on a mode-locked Ti:sapphire laser. Frequency stability and reproducibility of the acetylene-stabilized laser are evaluated by the femtosecond comb with a H maser as a frequency reference. The absolute frequency of a laser diode stabilized on the P(16) transition of (C2H2)-C-13 is determined to be 194 369 569 383.6(1.3) kHz. The acetylene-stabilized laser serves as an important optical frequency standard for telecommunication applications. (C) 2003 Optical Society of America."
+                    },
+                    "publisher": {
+                        "en": "OPTICAL SOC AMER"
+                    },
+                    "publication_date": "2003-12",
+                    "publication_name": {
+                        "en": "OPTICS LETTERS"
+                    },
+                    "volume": "28",
+                    "number": "23",
+                    "starting_page": "2324",
+                    "ending_page": "2326",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "cinii_na_id": [
+                            "30029079889"
+                        ],
+                        "doi": [
+                            "10.1364/OL.28.002324"
+                        ],
+                        "issn": [
+                            "0146-9592"
+                        ],
+                        "pm_id": [
+                            "14680170"
+                        ],
+                        "e_issn": [
+                            "1539-4794"
+                        ],
+                        "wos_id": [
+                            "WOS:000186734900014"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/30029079889",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1364/OL.28.002324",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "pubmed",
+                            "@id": "https://www.ncbi.nlm.nih.gov/pubmed/14680170",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000186734900014&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0004821/misc/2137584",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0004821/misc",
+                    "rm:id": "2137584",
+                    "rm:user_id": "0000044410",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000044410",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2011-02-02T15:00:00Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-04-30T14:08:21Z",
+                    "paper_title": {
+                        "en": "Comparison of independent optical frequency measurements using a portable iodine-stabilized Nd : YAG laser"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "FL Hong"
+                            },
+                            {
+                                "name": "J Ishikawa"
+                            },
+                            {
+                                "name": "K Sugiyama"
+                            },
+                            {
+                                "name": "A Onae"
+                            },
+                            {
+                                "name": "H Matsumoto"
+                            },
+                            {
+                                "name": "J Ye"
+                            },
+                            {
+                                "name": "JL Hall"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "A comparison of two independent absolute optical frequency measurements has been carried out between the National Metrology Institute of Japan/National Institute of Advanced Industrial Science and Technology (NMIJ/AIST), Tsukuba, Japan and the JILA (formerly the Joint Institute for Laboratory Astro-physics), Boulder, CO, using a portable iodine-stabilized Nd:YAG laser. The agreement between the two absolute measurements is better than the measurement uncertainty of 6.7 x 10(-13) that can be attributed to the reproducibility limitations of the portable laser. This comparison is used to confirm the measured absolute frequency of an iodine-stabilized Nd:YAG laser at NMIJ/AIST (Y3), which is reported to the Consultative Committee for Length (CCL) for the determination of the absolute frequency value of iodine-stabilized Nd:YAG lasers."
+                    },
+                    "publisher": {
+                        "en": "IEEE-INST ELECTRICAL ELECTRONICS ENGINEERS INC"
+                    },
+                    "publication_date": "2003-04",
+                    "publication_name": {
+                        "en": "IEEE TRANSACTIONS ON INSTRUMENTATION AND MEASUREMENT"
+                    },
+                    "volume": "52",
+                    "number": "2",
+                    "starting_page": "240",
+                    "ending_page": "244",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "cinii_na_id": [
+                            "80015986726"
+                        ],
+                        "doi": [
+                            "10.1109/TIM.2003.811676"
+                        ],
+                        "issn": [
+                            "0018-9456"
+                        ],
+                        "e_issn": [
+                            "1557-9662"
+                        ],
+                        "wos_id": [
+                            "WOS:000183212000005"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/80015986726",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1109/TIM.2003.811676",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000183212000005&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0004821/misc/2137585",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0004821/misc",
+                    "rm:id": "2137585",
+                    "rm:user_id": "0000044410",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000044410",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2011-02-02T15:00:00Z",
+                    "rm:modifier_id": "B000000004",
+                    "rm:modifier_type": "system",
+                    "rm:modified": "2011-02-02T15:00:00Z",
+                    "paper_title": {
+                        "ja": "Broad-spectrum frequency comb generation and carrier-envelope offset frequency measurement using the second harmonic generation of a mode-locked fiber laser"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "HONG F‐L"
+                            },
+                            {
+                                "name": "MINOSHIMA K"
+                            },
+                            {
+                                "name": "ONAE A"
+                            },
+                            {
+                                "name": "INABA H"
+                            },
+                            {
+                                "name": "TAKADA H"
+                            },
+                            {
+                                "name": "HIRAI A"
+                            },
+                            {
+                                "name": "MATSUMOTO H"
+                            },
+                            {
+                                "name": "SUGIURA T"
+                            },
+                            {
+                                "name": "YOSHIDA M"
+                            }
+                        ]
+                    },
+                    "publication_date": "2003",
+                    "publication_name": {
+                        "ja": "OPTICS LETTERS"
+                    },
+                    "volume": "28",
+                    "number": "17",
+                    "starting_page": "1516",
+                    "ending_page": "1518",
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1364/OL.28.001516"
+                        ],
+                        "issn": [
+                            "0146-9592"
+                        ],
+                        "cinii_na_id": [
+                            "80016134853"
+                        ],
+                        "pm_id": [
+                            "12956364"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1364/OL.28.001516",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/80016134853",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "pubmed",
+                            "@id": "https://www.ncbi.nlm.nih.gov/pubmed/12956364",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0004821/misc/2137583",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0004821/misc",
+                    "rm:id": "2137583",
+                    "rm:user_id": "0000044410",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000044410",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2011-02-02T15:00:00Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-05-02T11:27:19Z",
+                    "paper_title": {
+                        "en": "Hyperfine structure and absolute frequency determination of the R(121)35-0 and P(142)37-0 transitions of I-127(2) near 532 nm"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "FL Hong"
+                            },
+                            {
+                                "name": "Y Zhang"
+                            },
+                            {
+                                "name": "J Ishikawa"
+                            },
+                            {
+                                "name": "A Onae"
+                            },
+                            {
+                                "name": "H Matsumoto"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "Hyperfine structures of the R(1 2 1)35-0 and P(1 4 2)37-0 transitions of molecular iodine at the blue end of the tuning range of a frequency-doubled Nd:YAG laser are measured by using two I-2-stabilized lasers. The absolute 4 frequencies of the observed transitions are determined by a frequency link to an optical frequency reference (the R(5 6)32-0:a(10) hyperfine transition), using an optical frequency comb generator. The observed hyperfine transitions are good frequency references for both frequency-doubled Nd:YAG and Nd:YVO4 lasers in the 532 nm region. High-accurate hyperfine constants are obtained for the P(I 4 2)37-0 transition by fitting the measured hyperfine splittings to a four-term Hamiltonian, which includes the electric quadrupole, spin-rotation, tensor spin-spin, and scalar spin-spin interactions. (C) 2002 Elsevier Science B.V. All rights reserved."
+                    },
+                    "publisher": {
+                        "en": "ELSEVIER SCIENCE BV"
+                    },
+                    "publication_date": "2002-10",
+                    "publication_name": {
+                        "en": "OPTICS COMMUNICATIONS"
+                    },
+                    "volume": "212",
+                    "number": "1-3",
+                    "starting_page": "89",
+                    "ending_page": "95",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "cinii_na_id": [
+                            "80015614338"
+                        ],
+                        "doi": [
+                            "10.1016/S0030-4018(02)01997-1"
+                        ],
+                        "issn": [
+                            "0030-4018"
+                        ],
+                        "wos_id": [
+                            "WOS:000178695700013"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/80015614338",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1016/S0030-4018(02)01997-1",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000178695700013&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0004821/misc/2137582",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0004821/misc",
+                    "rm:id": "2137582",
+                    "rm:user_id": "0000044410",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000044410",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2011-02-02T15:00:00Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-05-01T01:44:53Z",
+                    "paper_title": {
+                        "en": "Observation of acetylene molecular absorption line with tunable, single-frequency, and mode-hop-free erbium-doped fiber ring laser"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "H Inaba"
+                            },
+                            {
+                                "name": "A Onae"
+                            },
+                            {
+                                "name": "Y Akimoto"
+                            },
+                            {
+                                "name": "T Komukai"
+                            },
+                            {
+                                "name": "M Nakazawa"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "We succeeded in observing one of the absorption lines of acetylene [P(16)] using an erbium-doped fiber-ring laser, which is the first such observation using a fiber-ring laser. The observed linewidth of the P(16) linear absorption was approximately 450 MHz. Mode competition and mode hopping were suppressed by using an ultra narrow-band fiber Bragg grating and a Fabry-Perot filter in the ring laser, respectively. Wavelength fine-tuning was carried out by. changing the cavity length of the fiber-ring laser; the fine-tuning range was about 850 MHz (0.01 nm). Furthermore,wavelength tuning was achieved by controlling the temperature of the fiber Bragg grating, and the coarse tuning range was about 0.2 nm."
+                    },
+                    "publisher": {
+                        "en": "IEEE-INST ELECTRICAL ELECTRONICS ENGINEERS INC"
+                    },
+                    "publication_date": "2002-10",
+                    "publication_name": {
+                        "en": "IEEE JOURNAL OF QUANTUM ELECTRONICS"
+                    },
+                    "volume": "38",
+                    "number": "10",
+                    "starting_page": "1325",
+                    "ending_page": "1330",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "cinii_na_id": [
+                            "80015563294"
+                        ],
+                        "doi": [
+                            "10.1109/JQE.2002.802959"
+                        ],
+                        "issn": [
+                            "0018-9197"
+                        ],
+                        "e_issn": [
+                            "1558-1713"
+                        ],
+                        "wos_id": [
+                            "WOS:000178281900004"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/80015563294",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1109/JQE.2002.802959",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000178281900004&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0004821/misc/2137581",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0004821/misc",
+                    "rm:id": "2137581",
+                    "rm:user_id": "0000044410",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000044410",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2011-02-02T15:00:00Z",
+                    "rm:modifier_id": "0000044410",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2011-02-02T15:00:00Z",
+                    "paper_title": {
+                        "ja": "Vibration dependence of the tensor spin-spin and scalar spin-spin hyperfine interactions by precision measurement of hyperfine structures of 127I2 near 532 nm"
+                    },
+                    "publication_date": "2002",
+                    "publication_name": {
+                        "ja": "J OPT SOC AM B"
+                    },
+                    "volume": "19",
+                    "number": "5",
+                    "starting_page": "946",
+                    "ending_page": "953",
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0004821/association_memberships",
+            "@type": "association_memberships",
+            "@reverse": "https://api.researchmap.jp/read0004821",
+            "total_items": 3,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0004821/association_memberships/394518",
+                    "@type": "association_memberships",
+                    "@reverse": "https://api.researchmap.jp/read0004821/association_memberships",
+                    "rm:id": "394518",
+                    "rm:user_id": "0000044410",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000044410",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2011-02-02T15:00:00Z",
+                    "rm:modifier_id": "0000044410",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2011-02-02T15:00:00Z",
+                    "academic_society_name": {
+                        "ja": "The Institute of Electrical Engineers of Japan"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0004821/association_memberships/394517",
+                    "@type": "association_memberships",
+                    "@reverse": "https://api.researchmap.jp/read0004821/association_memberships",
+                    "rm:id": "394517",
+                    "rm:user_id": "0000044410",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000044410",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2011-02-02T15:00:00Z",
+                    "rm:modifier_id": "0000044410",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2011-02-02T15:00:00Z",
+                    "academic_society_name": {
+                        "ja": "The Japan Society of Applied Physics"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0004821/association_memberships/394516",
+                    "@type": "association_memberships",
+                    "@reverse": "https://api.researchmap.jp/read0004821/association_memberships",
+                    "rm:id": "394516",
+                    "rm:user_id": "0000044410",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000044410",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2011-02-02T15:00:00Z",
+                    "rm:modifier_id": "0000044410",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2011-02-02T15:00:00Z",
+                    "academic_society_name": {
+                        "ja": "Physical Society of Japan"
+                    }
+                }
+            ]
+        }
+    ]
+}

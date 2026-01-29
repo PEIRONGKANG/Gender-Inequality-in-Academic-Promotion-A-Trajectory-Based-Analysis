@@ -1,0 +1,3132 @@
+{
+    "@context": "https://api.researchmap.jp/researcher.jsonld",
+    "@id": "https://api.researchmap.jp/eishi?format=json",
+    "@type": "researchers",
+    "rm:user_id": "1000044041",
+    "rm:creator_id": "1000044041",
+    "rm:creator_type": "myself",
+    "rm:created": "2008-08-28T15:00:00Z",
+    "rm:modifier_id": "1000044041",
+    "rm:modifier_type": "myself",
+    "rm:modified": "2024-11-25T05:40:14Z",
+    "permalink": "eishi",
+    "family_name": {
+        "ja": "田中",
+        "ja-Kana": "タナカ",
+        "en": "EISHI"
+    },
+    "given_name": {
+        "ja": "英司",
+        "ja-Kana": "エイシ",
+        "en": "TANAKA"
+    },
+    "display_name_kana": "disclosed",
+    "display_nickname": "disclosed",
+    "display_image": "disclosed",
+    "display_contact_point": "disclosed",
+    "affiliations": [
+        {
+            "affiliation": {
+                "ja": "西南学院大学",
+                "en": "Seinan Gakuin University"
+            },
+            "section": {
+                "ja": "法学部法律学科",
+                "en": "Department of Law, Division of Law"
+            },
+            "job": {
+                "ja": "教授",
+                "en": "Professor"
+            },
+            "display_affiliation": "disclosed",
+            "display_job": "disclosed",
+            "rm:institution_code": "2849007001"
+        }
+    ],
+    "degrees": [
+        {
+            "degree": {
+                "ja": "博士（法学）"
+            },
+            "degree_institution": {
+                "ja": "神戸大学"
+            },
+            "display_degree": "disclosed",
+            "rm:institution_code": "0304000000"
+        }
+    ],
+    "display_profile": "disclosed",
+    "display_url": "disclosed",
+    "identifiers": {
+        "erad_id": [
+            "30244031"
+        ],
+        "j_global_id": [
+            "200901007667272443"
+        ]
+    },
+    "rm:erad_id_verified": false,
+    "rm:orc_id_verified": false,
+    "display_erad_id": "disclosed",
+    "display_orc_id": "closed",
+    "display_researcher_id": "disclosed",
+    "display_j_global_id": "disclosed",
+    "see_also": [
+        {
+            "label": "j_global",
+            "@id": "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=200901007667272443"
+        }
+    ],
+    "@graph": [
+        {
+            "@id": "https://api.researchmap.jp/eishi/research_interests",
+            "@type": "research_interests",
+            "@reverse": "https://api.researchmap.jp/eishi",
+            "total_items": 2,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/eishi/research_interests/10413301",
+                    "@type": "research_interests",
+                    "@reverse": "https://api.researchmap.jp/eishi/research_interests",
+                    "rm:id": "10413301",
+                    "rm:user_id": "1000044041",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-10-23T17:41:19Z",
+                    "rm:modifier_id": "R000001240",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2021-09-28T05:08:27Z",
+                    "keyword": {
+                        "ja": "Civil Law",
+                        "en": "Civil Law"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/eishi/research_interests/10413300",
+                    "@type": "research_interests",
+                    "@reverse": "https://api.researchmap.jp/eishi/research_interests",
+                    "rm:id": "10413300",
+                    "rm:user_id": "1000044041",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-10-23T17:41:19Z",
+                    "rm:modifier_id": "R000001240",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2021-09-28T05:08:27Z",
+                    "keyword": {
+                        "ja": "民事法学",
+                        "en": "民事法学"
+                    }
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/eishi/research_areas",
+            "@type": "research_areas",
+            "@reverse": "https://api.researchmap.jp/eishi",
+            "total_items": 1,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/eishi/research_areas/8329054",
+                    "@type": "research_areas",
+                    "@reverse": "https://api.researchmap.jp/eishi/research_areas",
+                    "rm:id": "8329054",
+                    "rm:user_id": "1000044041",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-10-23T17:41:19Z",
+                    "rm:modifier_id": "R000001240",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2021-09-28T05:08:29Z",
+                    "discipline_number": "A900",
+                    "item_number": "A05060",
+                    "discipline": {
+                        "ja": "人文・社会",
+                        "en": "Humanities & social sciences"
+                    },
+                    "research_field": {
+                        "ja": "民事法学",
+                        "en": "Civil law"
+                    },
+                    "research_keyword": {
+                        "ja": "民事法学",
+                        "en": "Civil Law"
+                    }
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/eishi/research_experience",
+            "@type": "research_experience",
+            "@reverse": "https://api.researchmap.jp/eishi",
+            "total_items": 10,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/eishi/research_experience/21354832",
+                    "@type": "research_experience",
+                    "@reverse": "https://api.researchmap.jp/eishi/research_experience",
+                    "rm:id": "21354832",
+                    "rm:user_id": "1000044041",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-10-23T17:41:19Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-10-23T17:41:19Z",
+                    "from_date": "2014-09-20",
+                    "to_date": "2015-08-23",
+                    "rm:institution_code": "9999999999",
+                    "affiliation": {
+                        "ja": "ドイツ連邦共和国ベルリン自由大学法学部客員研究員",
+                        "en": "ドイツ連邦共和国ベルリン自由大学法学部客員研究員"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/eishi/research_experience/21354831",
+                    "@type": "research_experience",
+                    "@reverse": "https://api.researchmap.jp/eishi/research_experience",
+                    "rm:id": "21354831",
+                    "rm:user_id": "1000044041",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-10-23T17:41:19Z",
+                    "rm:modifier_id": "R000001240",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2021-09-28T05:08:26Z",
+                    "from_date": "2008-09",
+                    "to_date": "2009-09",
+                    "rm:institution_code": "9999999999",
+                    "affiliation": {
+                        "ja": "ドイツ連邦共和国ベルリン自由大学法学部客員研究員ならびに客員教授（Einführung in das japanische Rechtと題する連続講義を分担)",
+                        "en": "ドイツ連邦共和国ベルリン自由大学法学部客員研究員ならびに客員教授（Einführung in das japanische Rechtと題する連続講義を分担)"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/eishi/research_experience/21354830",
+                    "@type": "research_experience",
+                    "@reverse": "https://api.researchmap.jp/eishi/research_experience",
+                    "rm:id": "21354830",
+                    "rm:user_id": "1000044041",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-10-23T17:41:19Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-10-23T17:41:19Z",
+                    "from_date": "2003-04-01",
+                    "to_date": "2004-03-31",
+                    "rm:institution_code": "9999999999",
+                    "affiliation": {
+                        "ja": "京都学園大学法学部教授",
+                        "en": "京都学園大学法学部教授"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/eishi/research_experience/21354828",
+                    "@type": "research_experience",
+                    "@reverse": "https://api.researchmap.jp/eishi/research_experience",
+                    "rm:id": "21354828",
+                    "rm:user_id": "1000044041",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-10-23T17:41:19Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-10-23T17:41:19Z",
+                    "from_date": "1997-04-01",
+                    "to_date": "2003-03",
+                    "rm:institution_code": "9999999999",
+                    "affiliation": {
+                        "ja": "京都学園大学法学部助教授",
+                        "en": "京都学園大学法学部助教授"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/eishi/research_experience/21354829",
+                    "@type": "research_experience",
+                    "@reverse": "https://api.researchmap.jp/eishi/research_experience",
+                    "rm:id": "21354829",
+                    "rm:user_id": "1000044041",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-10-23T17:41:19Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-10-23T17:41:19Z",
+                    "from_date": "2001-09-01",
+                    "to_date": "2002-08-31",
+                    "rm:institution_code": "9999999999",
+                    "affiliation": {
+                        "ja": "京都学園大学学外研究員（ドイツ連邦共和国ケルン大学）",
+                        "en": "京都学園大学学外研究員（ドイツ連邦共和国ケルン大学）"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/eishi/research_experience/21354826",
+                    "@type": "research_experience",
+                    "@reverse": "https://api.researchmap.jp/eishi/research_experience",
+                    "rm:id": "21354826",
+                    "rm:user_id": "1000044041",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-10-23T17:41:19Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-10-23T17:41:19Z",
+                    "from_date": "1993-06-01",
+                    "to_date": "1997-03",
+                    "rm:institution_code": "0380012000",
+                    "affiliation": {
+                        "ja": "長崎大学経済学部助教授",
+                        "en": "長崎大学経済学部助教授"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/eishi/research_experience/21354827",
+                    "@type": "research_experience",
+                    "@reverse": "https://api.researchmap.jp/eishi/research_experience",
+                    "rm:id": "21354827",
+                    "rm:user_id": "1000044041",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-10-23T17:41:19Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-10-23T17:41:19Z",
+                    "from_date": "1995-06-01",
+                    "to_date": "1995-11",
+                    "rm:institution_code": "9999999999",
+                    "affiliation": {
+                        "ja": "文部省内地研究員(東京大学社会科学研究所)",
+                        "en": "文部省内地研究員(東京大学社会科学研究所)"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/eishi/research_experience/21354825",
+                    "@type": "research_experience",
+                    "@reverse": "https://api.researchmap.jp/eishi/research_experience",
+                    "rm:id": "21354825",
+                    "rm:user_id": "1000044041",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-10-23T17:41:19Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-10-23T17:41:19Z",
+                    "from_date": "1992-04-01",
+                    "to_date": "1993-05",
+                    "rm:institution_code": "0380012000",
+                    "affiliation": {
+                        "ja": "長崎大学経済学部講師",
+                        "en": "長崎大学経済学部講師"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/eishi/research_experience/30681194",
+                    "@type": "research_experience",
+                    "@reverse": "https://api.researchmap.jp/eishi/research_experience",
+                    "rm:id": "30681194",
+                    "rm:user_id": "1000044041",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "R000001240",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-10-30T09:03:24Z",
+                    "rm:modifier_id": "R000001240",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-10-30T09:03:24Z",
+                    "from_date": "1991-04-01",
+                    "to_date": "1992-03",
+                    "rm:institution_code": "9486000000",
+                    "affiliation": {
+                        "ja": "日本学術振興会特別研究員(ＤＣ)",
+                        "en": "日本学術振興会特別研究員(ＤＣ)"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/eishi/research_experience/21354824",
+                    "@type": "research_experience",
+                    "@reverse": "https://api.researchmap.jp/eishi/research_experience",
+                    "rm:id": "21354824",
+                    "rm:user_id": "1000044041",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-10-23T17:41:19Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-10-23T17:41:19Z",
+                    "from_date": "1991-04-01",
+                    "to_date": "1992-03",
+                    "rm:institution_code": "2677003000",
+                    "affiliation": {
+                        "ja": "姫路獨協大学法学部非常勤講師",
+                        "en": "姫路獨協大学法学部非常勤講師"
+                    }
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/eishi/education",
+            "@type": "education",
+            "@reverse": "https://api.researchmap.jp/eishi",
+            "total_items": 1,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/eishi/education/16835701",
+                    "@type": "education",
+                    "@reverse": "https://api.researchmap.jp/eishi/education",
+                    "rm:id": "16835701",
+                    "rm:user_id": "1000044041",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-10-23T17:41:19Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-10-23T17:41:19Z",
+                    "from_date": "1987-04-01",
+                    "to_date": "1992-03-31",
+                    "rm:institution_code": "0304031000",
+                    "affiliation": {
+                        "ja": "神戸大学大学院",
+                        "en": "Kobe University"
+                    },
+                    "department": {
+                        "ja": "法学研究科",
+                        "en": "Graduate School, Division of Law"
+                    }
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/eishi/published_papers",
+            "@type": "published_papers",
+            "@reverse": "https://api.researchmap.jp/eishi",
+            "total_items": 72,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/eishi/published_papers/48532711",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/eishi/published_papers",
+                    "rm:id": "48532711",
+                    "rm:user_id": "1000044041",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000044041",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2024-11-25T05:39:55Z",
+                    "rm:modifier_id": "1000044041",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2024-11-25T05:40:14Z",
+                    "paper_title": {
+                        "ja": "住居の賃貸借の終了をめぐる利益の比較衡量（十六・完）－ドイツ裁判例研究からの模索－"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "田中 英司"
+                            }
+                        ]
+                    },
+                    "publication_date": "2024-11",
+                    "publication_name": {
+                        "ja": "西南学院大学法学論集"
+                    },
+                    "volume": "57",
+                    "number": "2",
+                    "starting_page": "99",
+                    "ending_page": "200",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/eishi/published_papers/47627493",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/eishi/published_papers",
+                    "rm:id": "47627493",
+                    "rm:user_id": "1000044041",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000044041",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2024-09-03T10:46:20Z",
+                    "rm:modifier_id": "1000044041",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2024-09-03T10:46:46Z",
+                    "paper_title": {
+                        "ja": "住居の賃貸借の終了をめぐる利益の比較衡量（十五）ードイツ裁判例研究からの模索－"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "田中英司"
+                            }
+                        ]
+                    },
+                    "publication_date": "2024-08",
+                    "publication_name": {
+                        "ja": "西南学院大学法学論集"
+                    },
+                    "volume": "57",
+                    "number": "1",
+                    "starting_page": "113",
+                    "ending_page": "169",
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/eishi/published_papers/44343169",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/eishi/published_papers",
+                    "rm:id": "44343169",
+                    "rm:user_id": "1000044041",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000044041",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2023-12-26T05:16:44Z",
+                    "rm:modifier_id": "1000044041",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2024-04-05T07:19:55Z",
+                    "paper_title": {
+                        "ja": "住居の賃貸借の終了をめぐる利益の比較衡量（十四）－ドイツ裁判例研究からの模索－",
+                        "en": "Interessenabwaegung bei der Beendigung des Wohnraummietsverhaeltnisses(14)"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "田中英司"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "TANAKAEishi"
+                            }
+                        ]
+                    },
+                    "publication_date": "2024-03",
+                    "publication_name": {
+                        "ja": "西南学院大学法学論集"
+                    },
+                    "volume": "56",
+                    "number": "4",
+                    "starting_page": "175",
+                    "ending_page": "239",
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/eishi/published_papers/44343140",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/eishi/published_papers",
+                    "rm:id": "44343140",
+                    "rm:user_id": "1000044041",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000044041",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2023-12-26T05:11:16Z",
+                    "rm:modifier_id": "1000044041",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2023-12-26T05:13:42Z",
+                    "paper_title": {
+                        "ja": "住居の賃貸借の終了をめぐる利益の比較衡量（十三）－ドイツ裁判例研究からの模索－",
+                        "en": "Interessenabwaegung bei der Beendigung des Wohnraummietsverhaeltnisses(13)"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "田中英司"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "TANAKAEishi"
+                            }
+                        ]
+                    },
+                    "publication_date": "2023-12",
+                    "publication_name": {
+                        "ja": "西南学院大学法学論集"
+                    },
+                    "volume": "56",
+                    "number": "3",
+                    "starting_page": "99",
+                    "ending_page": "175",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/eishi/published_papers/44343094",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/eishi/published_papers",
+                    "rm:id": "44343094",
+                    "rm:user_id": "1000044041",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000044041",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2023-12-26T05:08:03Z",
+                    "rm:modifier_id": "1000044041",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2023-12-26T05:12:44Z",
+                    "paper_title": {
+                        "ja": "住居の賃貸借の終了をめぐる利益の比較衡量（十二）－ドイツ裁判例研究からの模索－",
+                        "en": "Interessenabwaegung bei der Beendigung des Wohnraummietsverhaeltnisses(12)"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "田中英司"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "TANAKAEishi"
+                            }
+                        ]
+                    },
+                    "publication_date": "2023-10",
+                    "publication_name": {
+                        "ja": "西南学院大学法学論集"
+                    },
+                    "volume": "56",
+                    "number": "1・2",
+                    "starting_page": "145",
+                    "ending_page": "199",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/eishi/published_papers/42631770",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/eishi/published_papers",
+                    "rm:id": "42631770",
+                    "rm:user_id": "1000044041",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "R000001240",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2023-06-29T02:30:29Z",
+                    "rm:modifier_id": "R000001240",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2023-06-30T03:03:22Z",
+                    "paper_title": {
+                        "ja": "住居の賃貸借の終了をめぐる利益の比較衡量（十一） －ドイツ裁判例研究からの模索－",
+                        "en": "住居の賃貸借の終了をめぐる利益の比較衡量（十一） －ドイツ裁判例研究からの模索－"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "TANAKA Eishi"
+                            }
+                        ],
+                        "ja": [
+                            {
+                                "name": "田中英司"
+                            }
+                        ]
+                    },
+                    "publication_date": "2023-03",
+                    "publication_name": {
+                        "ja": "西南学院大学法学論集"
+                    },
+                    "volume": "55",
+                    "number": "4",
+                    "starting_page": "79",
+                    "ending_page": "139",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "published_paper_type": "research_institution",
+                    "is_international_journal": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/eishi/published_papers/42631769",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/eishi/published_papers",
+                    "rm:id": "42631769",
+                    "rm:user_id": "1000044041",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "R000001240",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2023-06-29T02:30:29Z",
+                    "rm:modifier_id": "R000001240",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2023-06-30T03:03:22Z",
+                    "paper_title": {
+                        "ja": "住居の賃貸借の終了をめぐる利益の比較衡量（十） －ドイツ裁判例研究からの模索－",
+                        "en": "住居の賃貸借の終了をめぐる利益の比較衡量（十） －ドイツ裁判例研究からの模索－"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "TANAKA Eishi"
+                            }
+                        ],
+                        "ja": [
+                            {
+                                "name": "田中英司"
+                            }
+                        ]
+                    },
+                    "publication_date": "2023-01",
+                    "publication_name": {
+                        "ja": "西南学院大学法学論集"
+                    },
+                    "volume": "55",
+                    "number": "3",
+                    "starting_page": "131",
+                    "ending_page": "219",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "published_paper_type": "research_institution",
+                    "is_international_journal": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/eishi/published_papers/40277292",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/eishi/published_papers",
+                    "rm:id": "40277292",
+                    "rm:user_id": "1000044041",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "R000001240",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2022-10-18T07:54:12Z",
+                    "rm:modifier_id": "R000001240",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2023-06-29T02:30:29Z",
+                    "paper_title": {
+                        "ja": "住居の賃貸借の終了をめぐる利益の比較衡量（九） －ドイツ裁判例研究からの模索－",
+                        "en": "住居の賃貸借の終了をめぐる利益の比較衡量（九） －ドイツ裁判例研究からの模索－"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "TANAKA Eishi"
+                            }
+                        ],
+                        "ja": [
+                            {
+                                "name": "田中英司"
+                            }
+                        ]
+                    },
+                    "publication_date": "2022-09",
+                    "publication_name": {
+                        "ja": "西南学院大学法学論集",
+                        "en": "西南学院大学法学論集"
+                    },
+                    "volume": "55",
+                    "number": "2",
+                    "starting_page": "147",
+                    "ending_page": "230",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "published_paper_type": "research_institution",
+                    "is_international_journal": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/eishi/published_papers/40277293",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/eishi/published_papers",
+                    "rm:id": "40277293",
+                    "rm:user_id": "1000044041",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "R000001240",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2022-10-18T07:54:12Z",
+                    "rm:modifier_id": "R000001240",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2023-06-29T02:30:29Z",
+                    "paper_title": {
+                        "ja": "住居の賃貸借の終了をめぐる利益の比較衡量（八） －ドイツ裁判例研究からの模索－",
+                        "en": "住居の賃貸借の終了をめぐる利益の比較衡量（八） －ドイツ裁判例研究からの模索－"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "TANAKA Eishi"
+                            }
+                        ],
+                        "ja": [
+                            {
+                                "name": "田中英司"
+                            }
+                        ]
+                    },
+                    "publication_date": "2022-06",
+                    "publication_name": {
+                        "ja": "西南学院大学法学論集",
+                        "en": "西南学院大学法学論集"
+                    },
+                    "volume": "55",
+                    "number": "1",
+                    "starting_page": "129",
+                    "ending_page": "207",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "published_paper_type": "research_institution",
+                    "is_international_journal": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/eishi/published_papers/36857935",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/eishi/published_papers",
+                    "rm:id": "36857935",
+                    "rm:user_id": "1000044041",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "R000001240",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2022-04-28T02:59:00Z",
+                    "rm:modifier_id": "R000001240",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2023-06-30T07:21:36Z",
+                    "paper_title": {
+                        "ja": "原賃貸借の終了を転借人に対抗することの可否と三者間の法律関係",
+                        "en": "原賃貸借の終了を転借人に対抗することの可否と三者間の法律関係"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "田中英司"
+                            }
+                        ],
+                        "ja": [
+                            {
+                                "name": "田中英司"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "日本評論社",
+                        "en": "日本評論社"
+                    },
+                    "publication_date": "2022-03-05",
+                    "publication_name": {
+                        "ja": "法律時報別冊 私法判例リマークス 2022［上］",
+                        "en": "法律時報別冊 私法判例リマークス 2022［上］"
+                    },
+                    "number": "64",
+                    "starting_page": "30",
+                    "ending_page": "33",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": true,
+                    "is_international_journal": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/eishi/published_papers/36857934",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/eishi/published_papers",
+                    "rm:id": "36857934",
+                    "rm:user_id": "1000044041",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "R000001240",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2022-04-28T02:59:00Z",
+                    "rm:modifier_id": "R000001240",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2023-06-29T02:30:29Z",
+                    "paper_title": {
+                        "ja": "住居の賃貸借の終了をめぐる利益の比較衡量（七） －ドイツ裁判例研究からの模索－",
+                        "en": "住居の賃貸借の終了をめぐる利益の比較衡量（七） －ドイツ裁判例研究からの模索－"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "TANAKA Eishi"
+                            }
+                        ],
+                        "ja": [
+                            {
+                                "name": "田中英司"
+                            }
+                        ]
+                    },
+                    "publication_date": "2022-03",
+                    "publication_name": {
+                        "ja": "西南学院大学法学論集",
+                        "en": "西南学院大学法学論集"
+                    },
+                    "volume": "54",
+                    "number": "3・4合併号",
+                    "starting_page": "311",
+                    "ending_page": "382",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "published_paper_type": "research_institution",
+                    "is_international_journal": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/eishi/published_papers/36857937",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/eishi/published_papers",
+                    "rm:id": "36857937",
+                    "rm:user_id": "1000044041",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "R000001240",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2022-04-28T02:59:00Z",
+                    "rm:modifier_id": "R000001240",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2023-06-29T02:30:29Z",
+                    "paper_title": {
+                        "ja": "住居の賃貸借の終了をめぐる利益の比較衡量（六） －ドイツ裁判例研究からの模索－",
+                        "en": "住居の賃貸借の終了をめぐる利益の比較衡量（六） －ドイツ裁判例研究からの模索－"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "TANAKA Eishi"
+                            }
+                        ],
+                        "ja": [
+                            {
+                                "name": "田中英司"
+                            }
+                        ]
+                    },
+                    "publication_date": "2022-01",
+                    "publication_name": {
+                        "ja": "西南学院大学法学論集",
+                        "en": "西南学院大学法学論集"
+                    },
+                    "volume": "54",
+                    "number": "2",
+                    "starting_page": "169",
+                    "ending_page": "274",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "published_paper_type": "research_institution",
+                    "is_international_journal": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/eishi/published_papers/36857936",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/eishi/published_papers",
+                    "rm:id": "36857936",
+                    "rm:user_id": "1000044041",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "R000001240",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2022-04-28T02:59:00Z",
+                    "rm:modifier_id": "R000001240",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2023-06-29T02:30:29Z",
+                    "paper_title": {
+                        "ja": "賃借人の地位の移転に関する一考察 －ドイツの学説と裁判例の序論的考察をもとにして－",
+                        "en": "賃借人の地位の移転に関する一考察 －ドイツの学説と裁判例の序論的考察をもとにして－"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "田中英司"
+                            }
+                        ],
+                        "ja": [
+                            {
+                                "name": "田中英司"
+                            }
+                        ]
+                    },
+                    "publication_date": "2022-01",
+                    "publication_name": {
+                        "ja": "西南学院大学法学論集",
+                        "en": "西南学院大学法学論集"
+                    },
+                    "volume": "54",
+                    "number": "2",
+                    "starting_page": "1",
+                    "ending_page": "39",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "published_paper_type": "research_institution",
+                    "is_international_journal": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/eishi/published_papers/36857938",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/eishi/published_papers",
+                    "rm:id": "36857938",
+                    "rm:user_id": "1000044041",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "R000001240",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2022-04-28T02:59:00Z",
+                    "rm:modifier_id": "R000001240",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2023-06-29T02:30:29Z",
+                    "paper_title": {
+                        "ja": "住居の賃貸借の終了をめぐる利益の比較衡量（五） －ドイツ裁判例研究からの模索－",
+                        "en": "住居の賃貸借の終了をめぐる利益の比較衡量（五） －ドイツ裁判例研究からの模索－"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "TANAKA Eishi"
+                            }
+                        ],
+                        "ja": [
+                            {
+                                "name": "田中英司"
+                            }
+                        ]
+                    },
+                    "publication_date": "2021-10",
+                    "publication_name": {
+                        "ja": "西南学院大学法学論集",
+                        "en": "西南学院大学法学論集"
+                    },
+                    "volume": "54",
+                    "number": "1",
+                    "starting_page": "197",
+                    "ending_page": "258",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "published_paper_type": "research_institution",
+                    "is_international_journal": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/eishi/published_papers/33835071",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/eishi/published_papers",
+                    "rm:id": "33835071",
+                    "rm:user_id": "1000044041",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "R000001240",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2021-09-28T05:08:26Z",
+                    "rm:modifier_id": "R000001240",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2023-06-29T02:30:29Z",
+                    "paper_title": {
+                        "ja": "住居の賃貸借の終了をめぐる利益の比較衡量（四） －ドイツ裁判例研究からの模索－",
+                        "en": "住居の賃貸借の終了をめぐる利益の比較衡量（四） －ドイツ裁判例研究からの模索－"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "TANAKA Eishi"
+                            }
+                        ],
+                        "ja": [
+                            {
+                                "name": "田中英司"
+                            }
+                        ]
+                    },
+                    "publication_date": "2021-03",
+                    "publication_name": {
+                        "ja": "西南学院大学法学論集",
+                        "en": "西南学院大学法学論集"
+                    },
+                    "volume": "53",
+                    "number": "4",
+                    "starting_page": "327",
+                    "ending_page": "389",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "published_paper_type": "research_institution",
+                    "is_international_journal": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/eishi/published_papers/32180373",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/eishi/published_papers",
+                    "rm:id": "32180373",
+                    "rm:user_id": "1000044041",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "R000001240",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2021-04-09T04:40:27Z",
+                    "rm:modifier_id": "R000001240",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2023-06-29T02:30:29Z",
+                    "paper_title": {
+                        "ja": "ドイツにおける「定期賃貸借契約」に関する一考察 －期限づけのための一定の理由の存在という要件を中心に－",
+                        "en": "ドイツにおける「定期賃貸借契約」に関する一考察 －期限づけのための一定の理由の存在という要件を中心に－"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "田中英司"
+                            }
+                        ],
+                        "ja": [
+                            {
+                                "name": "田中英司"
+                            }
+                        ]
+                    },
+                    "publication_date": "2021-01-15",
+                    "publication_name": {
+                        "ja": "西南学院大学法学論集",
+                        "en": "西南学院大学法学論集"
+                    },
+                    "volume": "53",
+                    "number": "2・3合併",
+                    "starting_page": "1",
+                    "ending_page": "25",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "published_paper_type": "research_institution",
+                    "is_international_journal": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/eishi/published_papers/32180374",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/eishi/published_papers",
+                    "rm:id": "32180374",
+                    "rm:user_id": "1000044041",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "R000001240",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2021-04-09T04:40:27Z",
+                    "rm:modifier_id": "R000001240",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2023-06-29T02:30:29Z",
+                    "paper_title": {
+                        "ja": "住居の賃貸借の終了をめぐる利益の比較衡量（三） －ドイツ裁判例研究からの模索－",
+                        "en": "住居の賃貸借の終了をめぐる利益の比較衡量（三） －ドイツ裁判例研究からの模索－"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "TANAKA Eishi"
+                            }
+                        ],
+                        "ja": [
+                            {
+                                "name": "田中英司"
+                            }
+                        ]
+                    },
+                    "publication_date": "2020-09",
+                    "publication_name": {
+                        "ja": "西南学院大学法学論集",
+                        "en": "西南学院大学法学論集"
+                    },
+                    "volume": "53",
+                    "number": "1",
+                    "starting_page": "197",
+                    "ending_page": "253",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "published_paper_type": "research_institution",
+                    "is_international_journal": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/eishi/published_papers/30681064",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/eishi/published_papers",
+                    "rm:id": "30681064",
+                    "rm:user_id": "1000044041",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "R000001240",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-10-30T09:03:22Z",
+                    "rm:modifier_id": "R000001240",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2023-06-29T02:30:29Z",
+                    "paper_title": {
+                        "ja": "住居の賃貸借の終了をめぐる利益の比較衡量（二） －ドイツ裁判例研究からの模索－",
+                        "en": "住居の賃貸借の終了をめぐる利益の比較衡量（二） －ドイツ裁判例研究からの模索－"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "TANAKA Eishi"
+                            }
+                        ],
+                        "ja": [
+                            {
+                                "name": "田中英司"
+                            }
+                        ]
+                    },
+                    "publication_date": "2020-03",
+                    "publication_name": {
+                        "ja": "西南学院大学法学論集",
+                        "en": "西南学院大学法学論集"
+                    },
+                    "volume": "52",
+                    "number": "3・4合併",
+                    "starting_page": "103",
+                    "ending_page": "175",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "published_paper_type": "research_institution",
+                    "is_international_journal": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/eishi/published_papers/30681065",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/eishi/published_papers",
+                    "rm:id": "30681065",
+                    "rm:user_id": "1000044041",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "R000001240",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-10-30T09:03:22Z",
+                    "rm:modifier_id": "R000001240",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2023-06-29T02:30:29Z",
+                    "paper_title": {
+                        "ja": "借家権の存続保護における利益の比較衡量の構造に関する一考察 －ドイツにおける最近の見解を契機として－",
+                        "en": "借家権の存続保護における利益の比較衡量の構造に関する一考察 －ドイツにおける最近の見解を契機として－"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "田中英司"
+                            }
+                        ],
+                        "ja": [
+                            {
+                                "name": "田中英司"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "成文堂",
+                        "en": "成文堂"
+                    },
+                    "publication_date": "2019-12-21",
+                    "publication_name": {
+                        "ja": "『土地住宅の法理論と展開 藤井俊二先生古稀祝賀論文集』（成文堂）",
+                        "en": "『土地住宅の法理論と展開 藤井俊二先生古稀祝賀論文集』（成文堂）"
+                    },
+                    "starting_page": "69",
+                    "ending_page": "91",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": true,
+                    "published_paper_type": "scientific_journal",
+                    "is_international_journal": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/eishi/published_papers/30681066",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/eishi/published_papers",
+                    "rm:id": "30681066",
+                    "rm:user_id": "1000044041",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "R000001240",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-10-30T09:03:22Z",
+                    "rm:modifier_id": "R000001240",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2023-06-29T02:30:29Z",
+                    "paper_title": {
+                        "ja": "研究ノート 短期間の繰り返される「自己必要」を理由とする住居使用賃貸借関係の解約告知 －最近のドイツ連邦通常裁判所の決定について－",
+                        "en": "研究ノート 短期間の繰り返される「自己必要」を理由とする住居使用賃貸借関係の解約告知 －最近のドイツ連邦通常裁判所の決定について－"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "田中英司"
+                            }
+                        ],
+                        "ja": [
+                            {
+                                "name": "田中英司"
+                            }
+                        ]
+                    },
+                    "publication_date": "2019-11-29",
+                    "publication_name": {
+                        "ja": "西南学院大学法学論集",
+                        "en": "西南学院大学法学論集"
+                    },
+                    "volume": "52",
+                    "number": "2",
+                    "starting_page": "137",
+                    "ending_page": "158",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "published_paper_type": "research_institution",
+                    "is_international_journal": false,
+                    "rm:is_open_access": false
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/eishi/misc",
+            "@type": "misc",
+            "@reverse": "https://api.researchmap.jp/eishi",
+            "total_items": 18,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/eishi/misc/40277130",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/eishi/misc",
+                    "rm:id": "40277130",
+                    "rm:user_id": "1000044041",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "R000001240",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2022-10-18T07:54:04Z",
+                    "rm:modifier_id": "R000001240",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2023-06-29T02:32:27Z",
+                    "paper_title": {
+                        "ja": "建物の賃借人に対する建物譲受人からの看板撤去請求と権利濫用",
+                        "en": "建物の賃借人に対する建物譲受人からの看板撤去請求と権利濫用"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "田中英司"
+                            }
+                        ],
+                        "ja": [
+                            {
+                                "name": "田中英司"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "信山社",
+                        "en": "信山社"
+                    },
+                    "publication_date": "2022-06",
+                    "publication_name": {
+                        "ja": "松本・潮見・下村編 判例プラクティス 民法Ⅰ 総則・物権 第２版",
+                        "en": "松本・潮見・下村編 判例プラクティス 民法Ⅰ 総則・物権 第２版"
+                    },
+                    "starting_page": "17",
+                    "ending_page": "17",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": true,
+                    "misc_type": "introduction_commerce_magazine",
+                    "is_international_journal": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/eishi/misc/40277129",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/eishi/misc",
+                    "rm:id": "40277129",
+                    "rm:user_id": "1000044041",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "R000001240",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2022-10-18T07:54:04Z",
+                    "rm:modifier_id": "R000001240",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2023-06-29T02:32:27Z",
+                    "paper_title": {
+                        "ja": "下水管敷設についての受忍請求と権利濫用",
+                        "en": "下水管敷設についての受忍請求と権利濫用"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "田中英司"
+                            }
+                        ],
+                        "ja": [
+                            {
+                                "name": "田中英司"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "信山社",
+                        "en": "信山社"
+                    },
+                    "publication_date": "2022-06",
+                    "publication_name": {
+                        "ja": "松本・潮見・下村編 判例プラクティス 民法Ⅰ 総則・物権 第２版",
+                        "en": "松本・潮見・下村編 判例プラクティス 民法Ⅰ 総則・物権 第２版"
+                    },
+                    "starting_page": "18",
+                    "ending_page": "18",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": true,
+                    "misc_type": "introduction_commerce_magazine",
+                    "is_international_journal": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/eishi/misc/40277128",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/eishi/misc",
+                    "rm:id": "40277128",
+                    "rm:user_id": "1000044041",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "R000001240",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2022-10-18T07:54:04Z",
+                    "rm:modifier_id": "R000001240",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2023-06-29T02:32:27Z",
+                    "paper_title": {
+                        "ja": "悪意の土地譲受人の明渡請求と権利濫用",
+                        "en": "悪意の土地譲受人の明渡請求と権利濫用"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "田中英司"
+                            }
+                        ],
+                        "ja": [
+                            {
+                                "name": "田中英司"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "信山社",
+                        "en": "信山社"
+                    },
+                    "publication_date": "2022-06",
+                    "publication_name": {
+                        "ja": "松本・潮見・下村編 判例プラクティス 民法Ⅰ 総則・物権 第２版",
+                        "en": "松本・潮見・下村編 判例プラクティス 民法Ⅰ 総則・物権 第２版"
+                    },
+                    "starting_page": "19",
+                    "ending_page": "19",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": true,
+                    "misc_type": "introduction_commerce_magazine",
+                    "is_international_journal": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/eishi/misc/40277127",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/eishi/misc",
+                    "rm:id": "40277127",
+                    "rm:user_id": "1000044041",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "R000001240",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2022-10-18T07:54:04Z",
+                    "rm:modifier_id": "R000001240",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2023-06-29T02:32:27Z",
+                    "paper_title": {
+                        "ja": "無断転貸による建物賃貸借契約の解除と権利濫用",
+                        "en": "無断転貸による建物賃貸借契約の解除と権利濫用"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "田中英司"
+                            }
+                        ],
+                        "ja": [
+                            {
+                                "name": "田中英司"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "信山社",
+                        "en": "信山社"
+                    },
+                    "publication_date": "2022-06",
+                    "publication_name": {
+                        "ja": "松本・潮見・下村編 判例プラクティス 民法Ⅰ 総則・物権 第２版",
+                        "en": "松本・潮見・下村編 判例プラクティス 民法Ⅰ 総則・物権 第２版"
+                    },
+                    "starting_page": "21",
+                    "ending_page": "21",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": true,
+                    "misc_type": "introduction_commerce_magazine",
+                    "is_international_journal": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/eishi/misc/32180002",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/eishi/misc",
+                    "rm:id": "32180002",
+                    "rm:user_id": "1000044041",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "R000001240",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2021-04-09T04:40:18Z",
+                    "rm:modifier_id": "R000001240",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2023-06-29T02:32:27Z",
+                    "paper_title": {
+                        "ja": "住居使用賃借権の存続保護に関する最近の二つのドイツ連邦通常裁判所の判決について",
+                        "en": "住居使用賃借権の存続保護に関する最近の二つのドイツ連邦通常裁判所の判決について"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "田中英司"
+                            }
+                        ],
+                        "ja": [
+                            {
+                                "name": "田中英司"
+                            }
+                        ]
+                    },
+                    "publication_date": "2021-01-15",
+                    "publication_name": {
+                        "ja": "西南学院大学法学論集",
+                        "en": "西南学院大学法学論集"
+                    },
+                    "volume": "53",
+                    "number": "2・3合併",
+                    "starting_page": "171",
+                    "ending_page": "225",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "misc_type": "report_research_institution",
+                    "is_international_journal": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/eishi/misc/19014597",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/eishi/misc",
+                    "rm:id": "19014597",
+                    "rm:user_id": "1000044041",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-10-23T17:41:19Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-10-23T17:41:19Z",
+                    "paper_title": {
+                        "ja": "住居の賃貸借と経済的利用の妨げ（八） －ドイツ裁判例研究からの模索－",
+                        "en": "住居の賃貸借と経済的利用の妨げ（八） －ドイツ裁判例研究からの模索－"
+                    },
+                    "publication_date": "2018-07",
+                    "publication_name": {
+                        "ja": "西南学院大学法学論集",
+                        "en": "西南学院大学法学論集"
+                    },
+                    "volume": "51",
+                    "number": "1",
+                    "starting_page": "103-170",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "misc_type": "others",
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/eishi/misc/19014607",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/eishi/misc",
+                    "rm:id": "19014607",
+                    "rm:user_id": "1000044041",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-10-23T17:41:19Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-10-23T17:41:19Z",
+                    "paper_title": {
+                        "ja": "住居の賃貸借と経済的利用の妨げ（六） －ドイツ裁判例研究からの模索－",
+                        "en": "住居の賃貸借と経済的利用の妨げ（六） －ドイツ裁判例研究からの模索－"
+                    },
+                    "publication_date": "2018-01",
+                    "publication_name": {
+                        "ja": "西南学院大学法学論集",
+                        "en": "西南学院大学法学論集"
+                    },
+                    "volume": "50",
+                    "number": "2・3合併",
+                    "starting_page": "248-314",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "misc_type": "others",
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/eishi/misc/19014608",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/eishi/misc",
+                    "rm:id": "19014608",
+                    "rm:user_id": "1000044041",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-10-23T17:41:19Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-08-24T22:59:04Z",
+                    "paper_title": {
+                        "ja": "正当事由条項の構造に関する一考察 －近時のドイツの裁判例と批判的な見解を素材として－",
+                        "en": "正当事由条項の構造に関する一考察 －近時のドイツの裁判例と批判的な見解を素材として－"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "田中 英司"
+                            },
+                            {
+                                "name": "タナカ エイシ"
+                            },
+                            {
+                                "name": "TANAKA EISHI"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "TANAKA EISHI"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "西南学院大学学術研究所"
+                    },
+                    "publication_date": "2015-06-12",
+                    "publication_name": {
+                        "ja": "西南学院大学法学論集",
+                        "en": "西南学院大学法学論集"
+                    },
+                    "volume": "48",
+                    "number": "1",
+                    "starting_page": "59-96",
+                    "ending_page": "96",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "misc_type": "others",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "0286-3286"
+                        ],
+                        "cinii_na_id": [
+                            "120005671968"
+                        ],
+                        "cinii_nc_id": [
+                            "AN00128974"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/120005671968",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_books",
+                            "@id": "http://ci.nii.ac.jp/ncid/AN00128974",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "http://id.ndl.go.jp/bib/026678232",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "http://repository.seinan-gu.ac.jp/handle/123456789/1209",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/eishi/misc/19014609",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/eishi/misc",
+                    "rm:id": "19014609",
+                    "rm:user_id": "1000044041",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-10-23T17:41:19Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-10-23T17:41:19Z",
+                    "paper_title": {
+                        "ja": "通行地役権者が承役地の担保不動産競売による買受人に対し地役権設定登記がなくとも通行地役権を主張することができる場合",
+                        "en": "通行地役権者が承役地の担保不動産競売による買受人に対し地役権設定登記がなくとも通行地役権を主張することができる場合"
+                    },
+                    "publication_date": "2014-04-01",
+                    "publication_name": {
+                        "ja": "判例時報",
+                        "en": "判例時報"
+                    },
+                    "number": "2211",
+                    "starting_page": "146-150",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "misc_type": "others",
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/eishi/misc/19014610",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/eishi/misc",
+                    "rm:id": "19014610",
+                    "rm:user_id": "1000044041",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-10-23T17:41:19Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-07-27T01:30:46Z",
+                    "paper_title": {
+                        "ja": "住居をめぐる所有権と不動産利用権との法的関係の一断面（九・完） －ドイツの裁判例を素材として判断枠組みの再構成を模索する－",
+                        "en": "住居をめぐる所有権と不動産利用権との法的関係の一断面（九・完） －ドイツの裁判例を素材として判断枠組みの再構成を模索する－"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "田中 英司"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "西南学院大学学術研究所"
+                    },
+                    "publication_date": "2012-11-30",
+                    "publication_name": {
+                        "ja": "西南学院大学法学論集",
+                        "en": "西南学院大学法学論集"
+                    },
+                    "volume": "45",
+                    "number": "2",
+                    "starting_page": "1-59",
+                    "ending_page": "59",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "misc_type": "others",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "0286-3286"
+                        ],
+                        "cinii_na_id": [
+                            "40019542728"
+                        ],
+                        "cinii_nc_id": [
+                            "AN00128974"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/40019542728",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_books",
+                            "@id": "http://ci.nii.ac.jp/ncid/AN00128974",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "http://id.ndl.go.jp/bib/024187841",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/eishi/misc/39261503",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/eishi/misc",
+                    "rm:id": "39261503",
+                    "rm:user_id": "1000044041",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2022-07-28T06:37:36Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-07-28T06:37:36Z",
+                    "paper_title": {
+                        "ja": "最新判例批評([2008] 66)1.賃借権の目的である土地と他の土地とにまたがって建築されている建物について、借地権設定者が、借地借家法20条2項、19条3項に基づき、自ら当該建物及び賃借権の譲渡を受ける旨の申立てをすることは許されないものと解された事例((1)事件) 2.賃借権の目的である土地と他の土地とにまたがって建築されている建物について、借地権設定者が、借地借家法19条3項に基づき、自ら当該建物及び賃借権の譲渡を受ける旨の申立てをすることは許されないものと解された事例((2)事件)((1)最三決[平成]19.12.4、(2)最三決[平成]19.12.4) (判例評論(第596号))"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "田中 英司"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "判例時報社"
+                    },
+                    "publication_date": "2008-10-01",
+                    "publication_name": {
+                        "ja": "判例時報"
+                    },
+                    "number": "2011",
+                    "starting_page": "188",
+                    "ending_page": "193",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "0438-5888"
+                        ],
+                        "cinii_na_id": [
+                            "40016245688"
+                        ],
+                        "cinii_nc_id": [
+                            "AN00326901"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/40016245688",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_books",
+                            "@id": "http://ci.nii.ac.jp/ncid/AN00326901",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "http://id.ndl.go.jp/bib/9655317",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/eishi/misc/19014614",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/eishi/misc",
+                    "rm:id": "19014614",
+                    "rm:user_id": "1000044041",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-10-23T17:41:19Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-10-23T17:41:19Z",
+                    "paper_title": {
+                        "ja": "一 賃借権の目的である土地と他の土地とにまたがって建築されている建物について、借地権設定者が、借地借家法二〇条二項、一九条三項に基づき、自ら当該建物及び賃借権の譲渡を受ける旨の申立てをすることは許されないものと解された事例（①事件） 二 賃借権の目的である土地と他の土地とにまたがって建築されている建物について、借地権設定者が、借地借家法一九条三項に基づき、自ら当該建物及び賃借権の譲渡を受ける旨の申立てをすることは許されないものと解された事例（②事件）",
+                        "en": "一 賃借権の目的である土地と他の土地とにまたがって建築されている建物について、借地権設定者が、借地借家法二〇条二項、一九条三項に基づき、自ら当該建物及び賃借権の譲渡を受ける旨の申立てをすることは許されないものと解された事例（①事件） 二 賃借権の目的である土地と他の土地とにまたがって建築されている建物について、借地権設定者が、借地借家法一九条三項に基づき、自ら当該建物及び賃借権の譲渡を受ける旨の申立てをすることは許されないものと解された事例（②事件）"
+                    },
+                    "publication_date": "2008-10",
+                    "publication_name": {
+                        "ja": "判例時報社 判例時報",
+                        "en": "判例時報社 判例時報"
+                    },
+                    "number": "2011",
+                    "starting_page": "188-193",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "misc_type": "others",
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/eishi/misc/19014615",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/eishi/misc",
+                    "rm:id": "19014615",
+                    "rm:user_id": "1000044041",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-10-23T17:41:19Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-08-28T11:08:31Z",
+                    "paper_title": {
+                        "ja": "賃料支払債務の不履行を理由とする借地契約の解除と「借地法」12条2項の「相当ト認ムル」賃料の支払",
+                        "en": "賃料支払債務の不履行を理由とする借地契約の解除と「借地法」12条2項の「相当ト認ムル」賃料の支払"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "田中 英司"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "長崎大学経済学会"
+                    },
+                    "publication_date": "1994",
+                    "publication_name": {
+                        "ja": "経営と経済",
+                        "en": "経営と経済"
+                    },
+                    "volume": "74",
+                    "number": "2",
+                    "starting_page": "83-102",
+                    "ending_page": "102",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "misc_type": "others",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "0286-9101"
+                        ],
+                        "cinii_na_id": [
+                            "40000834967"
+                        ],
+                        "cinii_nc_id": [
+                            "AN00069150"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/40000834967",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_books",
+                            "@id": "http://ci.nii.ac.jp/ncid/AN00069150",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "http://id.ndl.go.jp/bib/3580558",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "http://hdl.handle.net/10069/28898",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/eishi/misc/19014616",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/eishi/misc",
+                    "rm:id": "19014616",
+                    "rm:user_id": "1000044041",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-10-23T17:41:19Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-08-28T11:08:27Z",
+                    "paper_title": {
+                        "ja": "解約申入後における立退料の提供増額と正当事由",
+                        "en": "解約申入後における立退料の提供増額と正当事由"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "田中 英司"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "長崎大学経済学会"
+                    },
+                    "publication_date": "1992",
+                    "publication_name": {
+                        "ja": "経営と経済",
+                        "en": "経営と経済"
+                    },
+                    "volume": "72",
+                    "number": "2",
+                    "starting_page": "113-124",
+                    "ending_page": "124",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "misc_type": "others",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "0286-9101"
+                        ],
+                        "cinii_na_id": [
+                            "40000834902"
+                        ],
+                        "cinii_nc_id": [
+                            "AN00069150"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/40000834902",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_books",
+                            "@id": "http://ci.nii.ac.jp/ncid/AN00069150",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "http://id.ndl.go.jp/bib/3470826",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "http://hdl.handle.net/10069/28603",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/eishi/misc/19014617",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/eishi/misc",
+                    "rm:id": "19014617",
+                    "rm:user_id": "1000044041",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-10-23T17:41:19Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-08-26T04:48:31Z",
+                    "paper_title": {
+                        "ja": "市レヴェルにおける法務担当職員と紛争処理(四)",
+                        "en": "市レヴェルにおける法務担当職員と紛争処理(四)"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "岡本 友子"
+                            },
+                            {
+                                "name": "田中 英司"
+                            },
+                            {
+                                "name": "宮澤 節生"
+                            },
+                            {
+                                "name": "西原 道雄"
+                            },
+                            {
+                                "name": "樫村 志郎"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "神戸大学法学部"
+                    },
+                    "publication_date": "1991",
+                    "publication_name": {
+                        "ja": "神戸法学雑誌",
+                        "en": "神戸法学雑誌"
+                    },
+                    "volume": "40",
+                    "number": "4",
+                    "starting_page": "1029-1261",
+                    "ending_page": "1261",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "misc_type": "others",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.24546/81004759"
+                        ],
+                        "issn": [
+                            "0452-2400"
+                        ],
+                        "cinii_na_id": [
+                            "120005229163"
+                        ],
+                        "cinii_nc_id": [
+                            "AN00086284"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.24546/81004759",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/120005229163",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_books",
+                            "@id": "http://ci.nii.ac.jp/ncid/AN00086284",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "http://www.lib.kobe-u.ac.jp/handle_kernel/81004759",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/eishi/misc/19014618",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/eishi/misc",
+                    "rm:id": "19014618",
+                    "rm:user_id": "1000044041",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-10-23T17:41:19Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-09-03T00:19:44Z",
+                    "paper_title": {
+                        "ja": "市レヴェルにおける法務担当職員と紛争処理(三)",
+                        "en": "市レヴェルにおける法務担当職員と紛争処理(三)"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "岡本 友子(編)"
+                            },
+                            {
+                                "name": "田中 英司(編)"
+                            },
+                            {
+                                "name": "宮澤 節生(編)"
+                            },
+                            {
+                                "name": "西原 道雄(編)"
+                            },
+                            {
+                                "name": "樫村 志郎(編)"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Okamoto Tomoko"
+                            },
+                            {
+                                "name": "Tanaka Eishi"
+                            },
+                            {
+                                "name": "Miyazawa Setsuo"
+                            },
+                            {
+                                "name": "Nishihara Michio"
+                            },
+                            {
+                                "name": "Kashimura Shiro"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "神戸大学",
+                        "en": "Kobe University"
+                    },
+                    "publication_date": "1990",
+                    "publication_name": {
+                        "ja": "神戸法学雑誌",
+                        "en": "神戸法学雑誌"
+                    },
+                    "volume": "39",
+                    "number": "4",
+                    "starting_page": "1097-1265",
+                    "ending_page": "1265",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "misc_type": "others",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "0452-2400"
+                        ],
+                        "cinii_na_id": [
+                            "110000436967"
+                        ],
+                        "cinii_nc_id": [
+                            "AN00086284"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/110000436967",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_books",
+                            "@id": "http://ci.nii.ac.jp/ncid/AN00086284",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "http://id.ndl.go.jp/bib/3333377",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/eishi/misc/19014620",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/eishi/misc",
+                    "rm:id": "19014620",
+                    "rm:user_id": "1000044041",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-10-23T17:41:19Z",
+                    "rm:modifier_id": "R000001240",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2023-06-30T02:13:52Z",
+                    "paper_title": {
+                        "ja": "自治体における損害賠償交渉の機構と過程",
+                        "en": "自治体における損害賠償交渉の機構と過程"
+                    },
+                    "publication_date": "1989",
+                    "publication_name": {
+                        "ja": "判例タイムズ",
+                        "en": "判例タイムズ"
+                    },
+                    "volume": "704",
+                    "starting_page": "4-27",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "misc_type": "others",
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/eishi/misc/19014619",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/eishi/misc",
+                    "rm:id": "19014619",
+                    "rm:user_id": "1000044041",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-10-23T17:41:19Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-09-03T00:19:38Z",
+                    "paper_title": {
+                        "ja": "市レヴェルにおける法務担当職員と紛争処理(二)",
+                        "en": "市レヴェルにおける法務担当職員と紛争処理(二)"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "岡本 友子(編)"
+                            },
+                            {
+                                "name": "田中 英司(編)"
+                            },
+                            {
+                                "name": "宮澤 節生(編)"
+                            },
+                            {
+                                "name": "西原 道雄(編)"
+                            },
+                            {
+                                "name": "樫村 志郎(編)"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Okamoto Tomoko"
+                            },
+                            {
+                                "name": "Tanaka Eiji"
+                            },
+                            {
+                                "name": "Miyazawa Setsuo"
+                            },
+                            {
+                                "name": "Nishihara Michio"
+                            },
+                            {
+                                "name": "Kashimura Shiro"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "神戸大学",
+                        "en": "Kobe University"
+                    },
+                    "publication_date": "1989",
+                    "publication_name": {
+                        "ja": "神戸法学雑誌",
+                        "en": "神戸法学雑誌"
+                    },
+                    "volume": "39",
+                    "number": "3",
+                    "starting_page": "681-816",
+                    "ending_page": "816",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "misc_type": "others",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "0452-2400"
+                        ],
+                        "cinii_na_id": [
+                            "110000436959"
+                        ],
+                        "cinii_nc_id": [
+                            "AN00086284"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/110000436959",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_books",
+                            "@id": "http://ci.nii.ac.jp/ncid/AN00086284",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "http://id.ndl.go.jp/bib/3320217",
+                            "is_downloadable": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/eishi/books_etc",
+            "@type": "books_etc",
+            "@reverse": "https://api.researchmap.jp/eishi",
+            "total_items": 10,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/eishi/books_etc/30681325",
+                    "@type": "books_etc",
+                    "@reverse": "https://api.researchmap.jp/eishi/books_etc",
+                    "rm:id": "30681325",
+                    "rm:user_id": "1000044041",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "R000001240",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-10-30T09:03:26Z",
+                    "rm:modifier_id": "R000001240",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2023-06-29T02:30:38Z",
+                    "book_title": {
+                        "ja": "住居の賃貸借と経済的利用の妨げ －ドイツ裁判例研究からの模索－",
+                        "en": "住居の賃貸借と経済的利用の妨げ －ドイツ裁判例研究からの模索－"
+                    },
+                    "book_owner_role": "single_work",
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "田中英司"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "田中英司"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "日本評論社",
+                        "en": "日本評論社"
+                    },
+                    "publication_date": "2019-11-15",
+                    "total_page": "482",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "book_type": "scholarly_book",
+                    "identifiers": {
+                        "isbn": [
+                            "9784535524477"
+                        ]
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/eishi/books_etc/14098945",
+                    "@type": "books_etc",
+                    "@reverse": "https://api.researchmap.jp/eishi/books_etc",
+                    "rm:id": "14098945",
+                    "rm:user_id": "1000044041",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-10-23T17:41:19Z",
+                    "rm:modifier_id": "R000001240",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-10-30T09:03:26Z",
+                    "book_title": {
+                        "ja": "住居の転貸借をめぐる法規範－ドイツ裁判例研究からの模索－",
+                        "en": "住居の転貸借をめぐる法規範－ドイツ裁判例研究からの模索－"
+                    },
+                    "book_owner_role": "single_work",
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "田中英司"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "田中英司"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "日本評論社",
+                        "en": "日本評論社"
+                    },
+                    "publication_date": "2015-11-25",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "book_type": "scholarly_book"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/eishi/books_etc/14098946",
+                    "@type": "books_etc",
+                    "@reverse": "https://api.researchmap.jp/eishi/books_etc",
+                    "rm:id": "14098946",
+                    "rm:user_id": "1000044041",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-10-23T17:41:19Z",
+                    "rm:modifier_id": "R000001240",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-10-30T09:03:26Z",
+                    "book_title": {
+                        "ja": "住居をめぐる所有権と利用権 －ドイツ裁判例研究からの模索－",
+                        "en": "住居をめぐる所有権と利用権 －ドイツ裁判例研究からの模索－"
+                    },
+                    "book_owner_role": "single_work",
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "田中英司"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "田中英司"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "日本評論社",
+                        "en": "日本評論社"
+                    },
+                    "publication_date": "2013-10-15",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "book_type": "scholarly_book",
+                    "identifiers": {
+                        "isbn": [
+                            "9784535519886"
+                        ]
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/eishi/books_etc/14098947",
+                    "@type": "books_etc",
+                    "@reverse": "https://api.researchmap.jp/eishi/books_etc",
+                    "rm:id": "14098947",
+                    "rm:user_id": "1000044041",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-10-23T17:41:19Z",
+                    "rm:modifier_id": "R000001240",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-10-30T09:03:26Z",
+                    "book_title": {
+                        "ja": "第69条その他の場合における危険の移転",
+                        "en": "第69条その他の場合における危険の移転"
+                    },
+                    "book_owner_role": "joint_editor",
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "甲斐道太郎他編"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "甲斐道太郎他編"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "法律文化社 注釈 国際統一売買法Ⅱ ウィーン売買条約",
+                        "en": "法律文化社 注釈 国際統一売買法Ⅱ ウィーン売買条約"
+                    },
+                    "publication_date": "2003",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "book_type": "scholarly_book"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/eishi/books_etc/14098948",
+                    "@type": "books_etc",
+                    "@reverse": "https://api.researchmap.jp/eishi/books_etc",
+                    "rm:id": "14098948",
+                    "rm:user_id": "1000044041",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-10-23T17:41:19Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-10-23T17:41:19Z",
+                    "book_title": {
+                        "ja": "第4章地上権・第5章永小作権・第6章地役権・第7章入会権",
+                        "en": "第4章地上権・第5章永小作権・第6章地役権・第7章入会権"
+                    },
+                    "book_owner_role": "others",
+                    "publisher": {
+                        "ja": "信山社 民法の世界2 物権法",
+                        "en": "信山社 民法の世界2 物権法"
+                    },
+                    "publication_date": "2002",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "book_type": "textbook"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/eishi/books_etc/14098949",
+                    "@type": "books_etc",
+                    "@reverse": "https://api.researchmap.jp/eishi/books_etc",
+                    "rm:id": "14098949",
+                    "rm:user_id": "1000044041",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-10-23T17:41:19Z",
+                    "rm:modifier_id": "R000001240",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-10-30T09:03:26Z",
+                    "book_title": {
+                        "ja": "ドイツ借地・借家法の比較研究－存続保障・保護をめぐって－",
+                        "en": "ドイツ借地・借家法の比較研究－存続保障・保護をめぐって－"
+                    },
+                    "book_owner_role": "single_work",
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "田中英司"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "田中英司"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "成文堂",
+                        "en": "成文堂"
+                    },
+                    "publication_date": "2001",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "book_type": "scholarly_book"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/eishi/books_etc/14098951",
+                    "@type": "books_etc",
+                    "@reverse": "https://api.researchmap.jp/eishi/books_etc",
+                    "rm:id": "14098951",
+                    "rm:user_id": "1000044041",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-10-23T17:41:19Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-10-23T17:41:19Z",
+                    "book_title": {
+                        "ja": "ドイツにおける地上権に関する立法の展開過程の一考察-「地上権令」の立法過程の段階に関して-",
+                        "en": "ドイツにおける地上権に関する立法の展開過程の一考察-「地上権令」の立法過程の段階に関して-"
+                    },
+                    "book_owner_role": "others",
+                    "publisher": {
+                        "ja": "成文堂 石田喜久夫先生古希記念 民法学の課題と展望",
+                        "en": "成文堂 石田喜久夫先生古希記念 民法学の課題と展望"
+                    },
+                    "publication_date": "2000",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "book_type": "others"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/eishi/books_etc/14098950",
+                    "@type": "books_etc",
+                    "@reverse": "https://api.researchmap.jp/eishi/books_etc",
+                    "rm:id": "14098950",
+                    "rm:user_id": "1000044041",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-10-23T17:41:19Z",
+                    "rm:modifier_id": "R000001240",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-10-30T09:03:26Z",
+                    "book_title": {
+                        "ja": "第31条引渡義務の内容と引渡の場所 第32条物品の運送に関する諸々の義務",
+                        "en": "第31条引渡義務の内容と引渡の場所 第32条物品の運送に関する諸々の義務"
+                    },
+                    "book_owner_role": "joint_editor",
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "甲斐道太郎他編"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "甲斐道太郎他編"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "法律文化社 注釈 国際統一売買法Ⅰ ウィーン売買条約",
+                        "en": "法律文化社 注釈 国際統一売買法Ⅰ ウィーン売買条約"
+                    },
+                    "publication_date": "2000",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "book_type": "scholarly_book"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/eishi/books_etc/14098953",
+                    "@type": "books_etc",
+                    "@reverse": "https://api.researchmap.jp/eishi/books_etc",
+                    "rm:id": "14098953",
+                    "rm:user_id": "1000044041",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-10-23T17:41:19Z",
+                    "rm:modifier_id": "R000001240",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-10-30T09:03:26Z",
+                    "book_title": {
+                        "ja": "建物賃貸借の対抗力",
+                        "en": "建物賃貸借の対抗力"
+                    },
+                    "book_owner_role": "others",
+                    "publisher": {
+                        "ja": "日本評論社 新借地借家法講座 第3巻 借家編",
+                        "en": "日本評論社 新借地借家法講座 第3巻 借家編"
+                    },
+                    "publication_date": "1999",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "book_type": "scholarly_book"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/eishi/books_etc/14098952",
+                    "@type": "books_etc",
+                    "@reverse": "https://api.researchmap.jp/eishi/books_etc",
+                    "rm:id": "14098952",
+                    "rm:user_id": "1000044041",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-10-23T17:41:19Z",
+                    "rm:modifier_id": "R000001240",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-10-30T09:03:26Z",
+                    "book_title": {
+                        "ja": "第三者の範囲 登記請求権・登記の効力",
+                        "en": "第三者の範囲 登記請求権・登記の効力"
+                    },
+                    "book_owner_role": "others",
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "林良平他編"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "林良平他編"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "青林書院 注解判例民法物権法1b",
+                        "en": "青林書院 注解判例民法物権法1b"
+                    },
+                    "publication_date": "1999",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "book_type": "scholarly_book"
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/eishi/presentations",
+            "@type": "presentations",
+            "@reverse": "https://api.researchmap.jp/eishi",
+            "total_items": 3,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/eishi/presentations/15992707",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/eishi/presentations",
+                    "rm:id": "15992707",
+                    "rm:user_id": "1000044041",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-10-23T17:41:19Z",
+                    "rm:modifier_id": "R000001240",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2023-06-29T02:30:53Z",
+                    "presentation_title": {
+                        "ja": "存続保障・保護をめぐる借地・借家の法的関係 －「借地借家法」とドイツ法を対象として－",
+                        "en": "存続保障・保護をめぐる借地・借家の法的関係 －「借地借家法」とドイツ法を対象として－"
+                    },
+                    "event": {
+                        "ja": "日本私法学会",
+                        "en": "日本私法学会"
+                    },
+                    "publication_date": "1993-10",
+                    "from_event_date": "1993-10",
+                    "invited": false,
+                    "languages": [
+                        "jpn"
+                    ],
+                    "presentation_type": "oral_presentation",
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/eishi/presentations/15992708",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/eishi/presentations",
+                    "rm:id": "15992708",
+                    "rm:user_id": "1000044041",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-10-23T17:41:19Z",
+                    "rm:modifier_id": "R000001240",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2023-06-29T02:30:53Z",
+                    "presentation_title": {
+                        "ja": "ドイツにおける住居使用賃借権の存続保護",
+                        "en": "ドイツにおける住居使用賃借権の存続保護"
+                    },
+                    "event": {
+                        "ja": "日本不動産学会",
+                        "en": "日本不動産学会"
+                    },
+                    "publication_date": "1991-11",
+                    "from_event_date": "1991-11",
+                    "invited": false,
+                    "languages": [
+                        "jpn"
+                    ],
+                    "presentation_type": "oral_presentation",
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/eishi/presentations/15992709",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/eishi/presentations",
+                    "rm:id": "15992709",
+                    "rm:user_id": "1000044041",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-10-23T17:41:19Z",
+                    "rm:modifier_id": "R000001240",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2023-06-29T02:30:53Z",
+                    "presentation_title": {
+                        "ja": "市における損害賠償交渉の機構と過程（一）",
+                        "en": "市における損害賠償交渉の機構と過程（一）"
+                    },
+                    "event": {
+                        "ja": "日本法社会学会",
+                        "en": "日本法社会学会"
+                    },
+                    "publication_date": "1989-05",
+                    "from_event_date": "1989-05",
+                    "invited": false,
+                    "languages": [
+                        "jpn"
+                    ],
+                    "presentation_type": "oral_presentation",
+                    "rm:is_open_access": false
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/eishi/association_memberships",
+            "@type": "association_memberships",
+            "@reverse": "https://api.researchmap.jp/eishi",
+            "total_items": 1,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/eishi/association_memberships/10614774",
+                    "@type": "association_memberships",
+                    "@reverse": "https://api.researchmap.jp/eishi/association_memberships",
+                    "rm:id": "10614774",
+                    "rm:user_id": "1000044041",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-10-23T17:41:19Z",
+                    "rm:modifier_id": "R000001240",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2022-04-28T02:59:06Z",
+                    "academic_society_name": {
+                        "ja": "日本私法学会",
+                        "en": "日本私法学会"
+                    }
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/eishi/research_projects",
+            "@type": "research_projects",
+            "@reverse": "https://api.researchmap.jp/eishi",
+            "total_items": 2,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/eishi/research_projects/44736555",
+                    "@type": "research_projects",
+                    "@reverse": "https://api.researchmap.jp/eishi/research_projects",
+                    "rm:id": "44736555",
+                    "rm:user_id": "1000044041",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2024-01-30T07:59:52Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2024-01-30T07:59:52Z",
+                    "research_project_title": {
+                        "ja": "ドイツにおける借地・借家制度の比較研究"
+                    },
+                    "investigators": {
+                        "ja": [
+                            {
+                                "name": "田中 英司"
+                            }
+                        ]
+                    },
+                    "offer_organization": {
+                        "ja": "日本学術振興会"
+                    },
+                    "system_name": {
+                        "ja": "科学研究費助成事業"
+                    },
+                    "category": {
+                        "ja": "奨励研究(A)"
+                    },
+                    "institution_name": {
+                        "ja": "長崎大学"
+                    },
+                    "from_date": "1995",
+                    "to_date": "1995",
+                    "overall_grant_amount": {
+                        "total_cost": "700000",
+                        "direct_cost": "700000"
+                    },
+                    "description": {
+                        "ja": "今年度は、まず、借家法学の領域において、これまでの報告者の比較研究に継続するものとして、ドイツにおける住居使用賃借権の存続保護に関する立法の展開過程の新たな動向につき、研究した。具体的には、1993年4月22日と7月21日に公布された二つの法律により、住居使用賃借権の存続保護に関して、さらに、若干の法改正が行われているのであるが、この1993年の法改正について、背景と目的、および、内容等の概要を明らかにする作業を行った。\n他方、借地法学の領域においては、報告者のこれまでの研究に引き続いて、ドイツの「地上権令」とわが国の「借地借家法」の法規範構造ないし法規範の間に、概括的および個別的な相違点が認められる理由を探り、そこから、わが国における借地法学再構成の方向の示唆を得るという考え方にもとづき、必要とされる多角的な考察のひとつとして、ドイツにおける地上権の立法史に関して、研究を進めた。具体的には、ドイツ民法典(以下、BGB)の段階までさかのぼり、第一に、BGBの立法過程の段階、第二に、BGBのもとでの展開の段階、および、第三に、「地上権令」の立法過程の段階という三つの歴史的段階に分けて、考察を進めた。その際、わが国における既存の研究を踏まえ、可能な限り重複を避けること、また、第一次資料を重視することに留意しつつ、研究を進めた。なお、現在、おおむね、第一段階まで、とりまとめたところである。"
+                    },
+                    "identifiers": {
+                        "grant_number": [
+                            "07720030"
+                        ],
+                        "national_grant_number": [
+                            "JP07720030"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "kaken",
+                            "@id": "https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-07720030"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/eishi/research_projects/44707084",
+                    "@type": "research_projects",
+                    "@reverse": "https://api.researchmap.jp/eishi/research_projects",
+                    "rm:id": "44707084",
+                    "rm:user_id": "1000044041",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2024-01-30T07:29:44Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2024-01-30T07:29:44Z",
+                    "research_project_title": {
+                        "ja": "存続保障・保護をめぐる借地・借家の法的関係"
+                    },
+                    "investigators": {
+                        "ja": [
+                            {
+                                "name": "田中 英司"
+                            }
+                        ]
+                    },
+                    "offer_organization": {
+                        "ja": "日本学術振興会"
+                    },
+                    "system_name": {
+                        "ja": "科学研究費助成事業"
+                    },
+                    "category": {
+                        "ja": "奨励研究(A)"
+                    },
+                    "institution_name": {
+                        "ja": "長崎大学"
+                    },
+                    "from_date": "1994",
+                    "to_date": "1994",
+                    "overall_grant_amount": {
+                        "total_cost": "900000",
+                        "direct_cost": "900000"
+                    },
+                    "description": {
+                        "ja": "今年度は、まず、借地法学の領域については、ドイツにおける地上権制度に関して、若干の基礎理論的考察を行った。具体的には、クノ-テの所説に依拠して、それを整理するような形で、まず、地上権制度の主要な経済的特色について考察し、そのうえで、地上権制度に関する土地所有者と地上権者の利益について考察した。この研究は、地上権制度をめぐる法的・社会的・経済的および政治的諸条件、ならびに、地上権制度の背後に存する土地や都市に関する基本理念ないし哲学などを多角的に考察し、そのような基礎理論的考察を積み重ねる過程において、ドイツの「地上権令」とわが国の「借地借家法」の法規範構造との間に、概括的および個別的な相違点が認められる理由を解きあかしつつ、そこから、借地法学再構成の方向を探るという基本的な考え方にもとづくものであり、そのような研究の一端となるものである。\n他方、借家法学の領域については、これまでの私の比較研究に継続するものとして、ドイツの住居使用賃借権の存続保護に関する立方の展開過程についての新たな動向について、現在研究を続けている。具体的には、1993年4月22日と7月21日に公布された二つの法律により、住居使用賃借権の存続保護に関して、さらに、若干の法改正が行われているのであるが、この1993年の法改正について、背景と目的、および、内容等の概要を明らかにする作業を行っている。\nなお、日本法についてであるが、賃料支払債務の不履行を理由とする借地契約の解除と「借地法」12条2項の「相当ト認ムル」賃料の支払とに関して、判例研究も行った。"
+                    },
+                    "identifiers": {
+                        "grant_number": [
+                            "06720022"
+                        ],
+                        "national_grant_number": [
+                            "JP06720022"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "kaken",
+                            "@id": "https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-06720022"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

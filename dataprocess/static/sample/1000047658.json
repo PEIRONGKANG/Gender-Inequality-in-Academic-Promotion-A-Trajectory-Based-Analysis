@@ -1,0 +1,3307 @@
+{
+    "@context": "https://api.researchmap.jp/researcher.jsonld",
+    "@id": "https://api.researchmap.jp/read0018125?format=json",
+    "@type": "researchers",
+    "rm:user_id": "1000047658",
+    "rm:creator_id": "1000047658",
+    "rm:creator_type": "myself",
+    "rm:created": "2010-12-06T15:00:00Z",
+    "rm:modifier_id": "R000000022",
+    "rm:modifier_type": "institution",
+    "rm:modified": "2024-09-19T07:08:56Z",
+    "permalink": "read0018125",
+    "family_name": {
+        "ja": "守橋",
+        "ja-Kana": "モリハシ",
+        "en": "Morihashi"
+    },
+    "given_name": {
+        "ja": "健二",
+        "ja-Kana": "ケンジ",
+        "en": "Kenji"
+    },
+    "display_name_kana": "disclosed",
+    "display_nickname": "disclosed",
+    "display_image": "disclosed",
+    "display_contact_point": "disclosed",
+    "degrees": [
+        {
+            "degree": {
+                "ja": "理学博士"
+            },
+            "degree_institution": {
+                "ja": "筑波大学"
+            },
+            "display_degree": "disclosed",
+            "rm:institution_code": "0408000000"
+        },
+        {
+            "degree": {
+                "ja": "理学修士"
+            },
+            "display_degree": "disclosed",
+            "rm:institution_code": "9999999999"
+        }
+    ],
+    "display_profile": "disclosed",
+    "display_url": "disclosed",
+    "identifiers": {
+        "j_global_id": [
+            "200901069085532799"
+        ]
+    },
+    "rm:erad_id_verified": false,
+    "rm:orc_id_verified": false,
+    "display_erad_id": "closed",
+    "display_orc_id": "closed",
+    "display_researcher_id": "disclosed",
+    "display_j_global_id": "disclosed",
+    "see_also": [
+        {
+            "label": "j_global",
+            "@id": "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=200901069085532799"
+        }
+    ],
+    "@graph": [
+        {
+            "@id": "https://api.researchmap.jp/read0018125/research_areas",
+            "@type": "research_areas",
+            "@reverse": "https://api.researchmap.jp/read0018125",
+            "total_items": 1,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0018125/research_areas/8883793",
+                    "@type": "research_areas",
+                    "@reverse": "https://api.researchmap.jp/read0018125/research_areas",
+                    "rm:id": "8883793",
+                    "rm:user_id": "1000047658",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-15T17:40:01Z",
+                    "rm:modifier_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-01-15T17:40:01Z",
+                    "discipline_number": "A489",
+                    "item_number": "A32010",
+                    "discipline": {
+                        "ja": "ナノテク・材料",
+                        "en": "Nanotechnology/Materials"
+                    },
+                    "research_field": {
+                        "ja": "基礎物理化学",
+                        "en": "Basic physical chemistry"
+                    }
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0018125/education",
+            "@type": "education",
+            "@reverse": "https://api.researchmap.jp/read0018125",
+            "total_items": 2,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0018125/education/17695704",
+                    "@type": "education",
+                    "@reverse": "https://api.researchmap.jp/read0018125/education",
+                    "rm:id": "17695704",
+                    "rm:user_id": "1000047658",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-15T17:40:01Z",
+                    "rm:modifier_id": "R000000022",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-03-30T23:18:12Z",
+                    "to_date": "1983",
+                    "rm:institution_code": "0408000000",
+                    "affiliation": {
+                        "ja": "筑波大学",
+                        "en": "University of Tsukuba"
+                    },
+                    "department": {
+                        "ja": "化学研究科",
+                        "en": "Graduate School, Division of Chemistry"
+                    },
+                    "course": {
+                        "ja": "化学"
+                    },
+                    "address_country": "JPN"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0018125/education/17695705",
+                    "@type": "education",
+                    "@reverse": "https://api.researchmap.jp/read0018125/education",
+                    "rm:id": "17695705",
+                    "rm:user_id": "1000047658",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-15T17:40:01Z",
+                    "rm:modifier_id": "R000000022",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-03-18T23:56:08Z",
+                    "to_date": "1978",
+                    "rm:institution_code": "0408000000",
+                    "affiliation": {
+                        "ja": "筑波大学",
+                        "en": "University of Tsukuba"
+                    },
+                    "department": {
+                        "ja": "第一学群",
+                        "en": "First Cluster of College"
+                    },
+                    "course": {
+                        "ja": "自然学類・化学"
+                    },
+                    "address_country": "JPN"
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0018125/committee_memberships",
+            "@type": "committee_memberships",
+            "@reverse": "https://api.researchmap.jp/read0018125",
+            "total_items": 1,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0018125/committee_memberships/8181720",
+                    "@type": "committee_memberships",
+                    "@reverse": "https://api.researchmap.jp/read0018125/committee_memberships",
+                    "rm:id": "8181720",
+                    "rm:user_id": "1000047658",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-15T17:40:01Z",
+                    "rm:modifier_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-01-15T17:40:01Z",
+                    "from_date": "2011",
+                    "to_date": "2012",
+                    "committee_name": {
+                        "ja": "日本化学会幹事"
+                    },
+                    "association": {
+                        "ja": "日本化学会"
+                    },
+                    "committee_type": "society"
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0018125/published_papers",
+            "@type": "published_papers",
+            "@reverse": "https://api.researchmap.jp/read0018125",
+            "total_items": 53,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0018125/published_papers/19874182",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0018125/published_papers",
+                    "rm:id": "19874182",
+                    "rm:user_id": "1000047658",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-15T17:40:01Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2021-10-19T22:17:52Z",
+                    "paper_title": {
+                        "en": "Discrimination of Anionic Polysaccharides via Monomer-Excimer Switching and Photo-Induced Colorimetric Reaction of 1-Methyl-3-(<i>N</i>-(1,8-naphthalimidyl)ethyl)imidazolium",
+                        "ja": "Discrimination of Anionic Polysaccharides via Monomer-Excimer Switching and Photo-Induced Colorimetric Reaction of 1-Methyl-3-(N-(1,8-naphthalimidyl)ethyl)imidazolium"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Izawa, Hironori"
+                            },
+                            {
+                                "name": "Wada, Mayuko"
+                            },
+                            {
+                                "name": "Nishino, Shoji"
+                            },
+                            {
+                                "name": "Sumita, Masato"
+                            },
+                            {
+                                "name": "Fujita, Takehiro"
+                            },
+                            {
+                                "name": "Morihashi, Kenji"
+                            },
+                            {
+                                "name": "Ifuku, Shinsuke"
+                            },
+                            {
+                                "name": "Morimoto, Minoru"
+                            },
+                            {
+                                "name": "Saimoto, Hiroyuki"
+                            }
+                        ],
+                        "ja": [
+                            {
+                                "name": "Izawa, Hironori"
+                            },
+                            {
+                                "name": "Wada, Mayuko"
+                            },
+                            {
+                                "name": "Nishino, Shoji"
+                            },
+                            {
+                                "name": "Sumita, Masato"
+                            },
+                            {
+                                "name": "Fujita, Takehiro"
+                            },
+                            {
+                                "name": "Morihashi, Kenji"
+                            },
+                            {
+                                "name": "Ifuku, Shinsuke"
+                            },
+                            {
+                                "name": "Morimoto, Minoru"
+                            },
+                            {
+                                "name": "Saimoto, Hiroyuki"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "1-Methyl-3-(N-(1,8-naphthalimidyl)ethyl)imidazolium can be a discriminator for anionic polysaccharides via monomer-excimer switching and photo-induced calorimetric reaction. In the system, the excimer fluorescence increases remarkably in the presence of sulfated polysaccharides. The degree of enhancement depends on the number of sulfate groups in its structure. In contrast, the degree of excimer enhancement is not significant in the presence of carboxylated polysaccharides probably due to a different photo-induced decay pathway. The solutions containing carboxylated polysaccharides certainly become yellow via a photo-induced colorimetric reaction."
+                    },
+                    "publisher": {
+                        "en": "The Chemical Society of Japan",
+                        "ja": "公益社団法人 日本化学会"
+                    },
+                    "publication_date": "2018-08",
+                    "publication_name": {
+                        "en": "BULLETIN OF THE CHEMICAL SOCIETY OF JAPAN",
+                        "ja": "BULLETIN OF THE CHEMICAL SOCIETY OF JAPAN"
+                    },
+                    "volume": "91",
+                    "number": "8",
+                    "starting_page": "1220",
+                    "ending_page": "1225",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1246/bcsj.20180128"
+                        ],
+                        "issn": [
+                            "0009-2673"
+                        ],
+                        "e_issn": [
+                            "1348-0634"
+                        ],
+                        "wos_id": [
+                            "WOS:000440021700006"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1246/bcsj.20180128",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000440021700006&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0018125/published_papers/19874181",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0018125/published_papers",
+                    "rm:id": "19874181",
+                    "rm:user_id": "1000047658",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-15T17:40:01Z",
+                    "rm:modifier_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-01-15T17:40:01Z",
+                    "paper_title": {
+                        "ja": "Molecular Dynamics and Quantum Chemical Approach for the Estimation of an Intramolecular Hydrogen Bond Strength in Okadaic Acid",
+                        "en": "Molecular Dynamics and Quantum Chemical Approach for the Estimation of an Intramolecular Hydrogen Bond Strength in Okadaic Acid"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "Matsui, Toru"
+                            },
+                            {
+                                "name": "Yamamoto, Kanako"
+                            },
+                            {
+                                "name": "Fujita, Takehiro"
+                            },
+                            {
+                                "name": "Morihashi, Kenji"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Matsui, Toru"
+                            },
+                            {
+                                "name": "Yamamoto, Kanako"
+                            },
+                            {
+                                "name": "Fujita, Takehiro"
+                            },
+                            {
+                                "name": "Morihashi, Kenji"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "AMER CHEMICAL SOC",
+                        "en": "AMER CHEMICAL SOC"
+                    },
+                    "publication_date": "2018-07",
+                    "publication_name": {
+                        "ja": "JOURNAL OF PHYSICAL CHEMISTRY B",
+                        "en": "JOURNAL OF PHYSICAL CHEMISTRY B"
+                    },
+                    "volume": "122",
+                    "number": "29",
+                    "starting_page": "7233",
+                    "ending_page": "7242",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1021/acs.jpcb.8b03272"
+                        ],
+                        "issn": [
+                            "1520-6106"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1021/acs.jpcb.8b03272",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0018125/published_papers/19874180",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0018125/published_papers",
+                    "rm:id": "19874180",
+                    "rm:user_id": "1000047658",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-15T17:40:01Z",
+                    "rm:modifier_id": "R000000022",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-03-18T23:56:49Z",
+                    "paper_title": {
+                        "en": "中等教育で身につけたい化学（科学）リテラシー",
+                        "ja": "中等教育で身につけたい化学（科学）リテラシー"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "守橋,健二"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "守橋,健二"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "<p>現代をより安全で豊かな社会にするために，一般の人すべてが化学のリテラシーを身につける必要がある。本フォーラムでは，日本の化学リテラシーの現状を紹介していただき，化学を様々な観点から工夫し指導することで生徒の化学リテラシーを身につけさせようとする授業の実践例を講演いただいた。</p>",
+                        "ja": "<p>現代をより安全で豊かな社会にするために，一般の人すべてが化学のリテラシーを身につける必要がある。本フォーラムでは，日本の化学リテラシーの現状を紹介していただき，化学を様々な観点から工夫し指導することで生徒の化学リテラシーを身につけさせようとする授業の実践例を講演いただいた。</p>"
+                    },
+                    "publisher": {
+                        "en": "The Chemical Society of Japan",
+                        "ja": "日本化学会"
+                    },
+                    "publication_date": "2018-07",
+                    "publication_name": {
+                        "en": "Chemistry & education",
+                        "ja": "化学と教育 = Chemistry & Education"
+                    },
+                    "volume": "66",
+                    "number": "7",
+                    "starting_page": "320",
+                    "ending_page": "321",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.20665/kakyoshi.66.7_320"
+                        ],
+                        "issn": [
+                            "0386-2151"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.20665/kakyoshi.66.7_320",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0018125/published_papers/19874185",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0018125/published_papers",
+                    "rm:id": "19874185",
+                    "rm:user_id": "1000047658",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-15T17:40:01Z",
+                    "rm:modifier_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-01-15T17:40:01Z",
+                    "paper_title": {
+                        "ja": "Assessment of Methodology and Chemical Group Dependences in the Calculation of the pK(a) for Several Chemical Groups",
+                        "en": "Assessment of Methodology and Chemical Group Dependences in the Calculation of the pK(a) for Several Chemical Groups"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "Matsui, Toru"
+                            },
+                            {
+                                "name": "Shigeta, Yasuteru"
+                            },
+                            {
+                                "name": "Morihashi, Kenji"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Matsui, Toru"
+                            },
+                            {
+                                "name": "Shigeta, Yasuteru"
+                            },
+                            {
+                                "name": "Morihashi, Kenji"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "ja": "We have investigated the dependencies of various computational methods in the calculation of acid dissociation constants (pKa values) of certain chemical groups found in protonatable amino acids based on our previous scheme [ Matsui ; Phys. Chem. Chem. Phys. 2012 , 14 , 4181 - 4187 ]. By changing the quantum chemical (QC) method (Hartree-Fock (HF) and perturbation theory, and composite methods, or exchange-correlation functionals in density functional theory (DFT)), basis sets, solvation models, and the cavities used in the solvent models, we have exhaustively tested about 2,200 combinations to find the best combination for pKa estimation among them. Of the tested parameters, the choice of the basis set and cavity is the most crucial to reproduce experimental values compared to other factors. Concerning the basis set, the inclusion of diffuse functions is quite important for carboxyl, thiol, and phenol groups judging from the mean absolute errors (MAEs) measured from the experimental values. Of the cavity models, between the Pauling, Klamt, and the universal force field (UFF) definitions, the UFF defined cavity is the best choice, resulting in the smallest MAEs. Concerning the QC m",
+                        "en": "We have investigated the dependencies of various computational methods in the calculation of acid dissociation constants (pKa values) of certain chemical groups found in protonatable amino acids based on our previous scheme [ Matsui ; Phys. Chem. Chem. Phys. 2012 , 14 , 4181 - 4187 ]. By changing the quantum chemical (QC) method (Hartree-Fock (HF) and perturbation theory, and composite methods, or exchange-correlation functionals in density functional theory (DFT)), basis sets, solvation models, and the cavities used in the solvent models, we have exhaustively tested about 2,200 combinations to find the best combination for pKa estimation among them. Of the tested parameters, the choice of the basis set and cavity is the most crucial to reproduce experimental values compared to other factors. Concerning the basis set, the inclusion of diffuse functions is quite important for carboxyl, thiol, and phenol groups judging from the mean absolute errors (MAEs) measured from the experimental values. Of the cavity models, between the Pauling, Klamt, and the universal force field (UFF) definitions, the UFF defined cavity is the best choice, resulting in the smallest MAEs. Concerning the QC m"
+                    },
+                    "publisher": {
+                        "ja": "AMER CHEMICAL SOC",
+                        "en": "AMER CHEMICAL SOC"
+                    },
+                    "publication_date": "2017-09",
+                    "publication_name": {
+                        "ja": "Journal of chemical theory and computation",
+                        "en": "Journal of chemical theory and computation"
+                    },
+                    "volume": "13",
+                    "number": "10",
+                    "starting_page": "4791",
+                    "ending_page": "4803",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1021/acs.jctc.7b00587"
+                        ],
+                        "issn": [
+                            "1549-9626"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1021/acs.jctc.7b00587",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0018125/published_papers/19874186",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0018125/published_papers",
+                    "rm:id": "19874186",
+                    "rm:user_id": "1000047658",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-15T17:40:01Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-09-01T17:42:34Z",
+                    "paper_title": {
+                        "en": "A theoretical guideline for designing effective host materials based on 4,4'-Bis(9-carbazolyl)-1,1'-biphenyl derivatives for blue phosphorescent devices",
+                        "ja": "A Theoretical Guideline for Designing Effective Host Materials Based on 4,4′-Bis(9-carbazolyl)-1,1′-biphenyl Derivatives for Blue Phosphorescent Devices"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "Oshiyama, Tomohiro"
+                            },
+                            {
+                                "name": "Yasukawa, Noriko"
+                            },
+                            {
+                                "name": "Kita, Hiroshi"
+                            },
+                            {
+                                "name": "Matsui, Toru"
+                            },
+                            {
+                                "name": "Sumita, Masato"
+                            },
+                            {
+                                "name": "Morihashi, Kenji"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Tomohiro Oshiyama"
+                            },
+                            {
+                                "name": "Noriko Yasukawa"
+                            },
+                            {
+                                "name": "Hiroshi Kita"
+                            },
+                            {
+                                "name": "Toru Matsui"
+                            },
+                            {
+                                "name": "Masato Sumita"
+                            },
+                            {
+                                "name": "Kenji Morihashi"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "Development of host materials is crucial for organic electroluminescent devices. In order to generalize the way to molecular design the host materials, we here present a guideline to design effective host materials for blue phosphorescent devices based on 4,4'-bis(9-carbazolyl)-1,1'-biphenyl (CBP) derivatives, comparing some theoretical parameters of seven CBP derivatives with experimental ones in terms of thermal stability, T1 energy level, and band gap. Although our computation at the density functional theory level could not reproduce the absolute values and phenomena that were experimentally obtained, theoretical relative correlations between different molecules agreed with experimental ones. Indeed, both experimental and theoretical approaches predicted that the same molecule (1,1- bis(4-(9-carbazolyl)-phenyl)cyclohexane) was viable as blue host material among the target molecules in terms of thermal stability, the T1 state with the LE character within carbazole moieties and T1 energy 3.00 eV higher than that of blue emitters. The qualitative guideline we proposed would be potentially helpful to save experimental work to design other hole- or electron-transporting materials.",
+                        "ja": "<p>Development of host materials is crucial for organic electroluminescent devices. In order to generalize the way to molecular design the host materials, we here present a guideline to design effective host materials for blue phosphorescent devices based on 4,4′-bis(9-carbazolyl)-1,1′-biphenyl (CBP) derivatives, comparing some theoretical parameters of seven CBP derivatives with experimental ones in terms of thermal stability, T<sub>1</sub> energy level, and band gap. Although our computation at the density functional theory level could not reproduce the absolute values and phenomena that were experimentally obtained, theoretical relative correlations between different molecules agreed with experimental ones. Indeed, both experimental and theoretical approaches predicted that the same molecule (1,1-bis(4-(9-carbazolyl)-phenyl)cyclohexane) was viable as blue host material among the target molecules in terms of thermal stability, the T<sub>1</sub> state with the LE character within carbazole moieties and T<sub>1</sub> energy 3.00 eV higher than that of blue emitters. The qualitative guideline we proposed would be potentially helpful to save experimental work to design other hole"
+                    },
+                    "publisher": {
+                        "en": "Chemical Society of Japan",
+                        "ja": "公益社団法人 日本化学会"
+                    },
+                    "publication_date": "2017",
+                    "publication_name": {
+                        "en": "Bulletin of the Chemical Society of Japan",
+                        "ja": "Bulletin of the Chemical Society of Japan"
+                    },
+                    "volume": "90",
+                    "number": "2",
+                    "starting_page": "195",
+                    "ending_page": "204",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1246/bcsj.20160345"
+                        ],
+                        "issn": [
+                            "1348-0634",
+                            "0009-2673"
+                        ],
+                        "scopus_id": [
+                            "85026739385"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1246/bcsj.20160345",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0018125/published_papers/19874189",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0018125/published_papers",
+                    "rm:id": "19874189",
+                    "rm:user_id": "1000047658",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-15T17:40:01Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-06-02T23:00:26Z",
+                    "paper_title": {
+                        "en": "Theoretical Study of Singlet Oxygen Molecule Generation via an Exciplex with Valence-Excited Thiophene"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Masato Sumita"
+                            },
+                            {
+                                "name": "Kenji Morihashi"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "Singlet-oxygen [O2((1)Delta(g))] generation by valence-excited thiophene (TPH) has been investigated using multireference Moller-Plesset second-order perturbation (MRMP2) theory of geometries optimized at the complete active space self-consistent field (CASSCF) theory level. Our results indicate that triplet TPH(1(3)B(2)) is produced via photoinduced singlet TPH(2(1)A(1)) because 2(1)A(1) TPH shows a large spin-orbit coupling constant with the first triplet excited state (1(3)B(2)). The relaxed TPH in the 1(3)B(2) state can form an exciplex with O-2(((3)Sigma(-)(g)) because this exciplex is energetically more stable than the relaxed TPH. The formation of the TPH(1(3)B(2)) exciplex with O-2((3)Sigma(-)(g)) whose total spin multiplicity is triplet T-1 state) increases the likelihood of transition from the T-1 state to the singlet ground or first excited singlet state. After the transition, O-2((1)Delta(g)) is emitted easily although the favorable product is that from a 2 + 4 cycloaddition reaction."
+                    },
+                    "publisher": {
+                        "en": "AMER CHEMICAL SOC"
+                    },
+                    "publication_date": "2015-02",
+                    "publication_name": {
+                        "en": "JOURNAL OF PHYSICAL CHEMISTRY A"
+                    },
+                    "volume": "119",
+                    "number": "5",
+                    "starting_page": "876",
+                    "ending_page": "883",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1021/jp5123129"
+                        ],
+                        "issn": [
+                            "1089-5639"
+                        ],
+                        "wos_id": [
+                            "WOS:000349136600008"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1021/jp5123129",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000349136600008&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0018125/published_papers/19874188",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0018125/published_papers",
+                    "rm:id": "19874188",
+                    "rm:user_id": "1000047658",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-15T17:40:01Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-06-04T13:34:36Z",
+                    "paper_title": {
+                        "en": "Theoretical studies of molecular orientation and charge recombination in poly-paraphenylenevinylene light-emitting diodes"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Koharu Aikawa"
+                            },
+                            {
+                                "name": "Masato Sumita"
+                            },
+                            {
+                                "name": "Yasuyo Shimodo"
+                            },
+                            {
+                                "name": "Kenji Morihashi"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "Poly-paraphenylenevinylene (PPV), a material used in organic light-emitting diodes (OLEDs), for which improving the efficiency is an important issue. In general, the molecular orientations of organic compounds in the crystal form are an essential factor determining electron and hole transfer, which are closely related to the efficiency of OLEDs. We have investigated the effects of the rotation of each molecule and the intermolecular distance in the dimer system of PPV, which consists of donor and acceptor molecules, on its charge-recombination process by performing constrained density functional calculations. Starting from the structure of the crystal, it was clarified that the rotation of the donor decreases the charge-recombination factor, to nearly zero, while that of the acceptor increases it to about 106 s(-1). We found that this is caused by the repulsive interaction between the donor and acceptor molecules and the formation of a transport pathway resulting from the acceptor rotation."
+                    },
+                    "publisher": {
+                        "en": "ROYAL SOC CHEMISTRY"
+                    },
+                    "publication_date": "2015",
+                    "publication_name": {
+                        "en": "PHYSICAL CHEMISTRY CHEMICAL PHYSICS"
+                    },
+                    "volume": "17",
+                    "number": "32",
+                    "starting_page": "20923",
+                    "ending_page": "20931",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1039/c5cp03235k"
+                        ],
+                        "issn": [
+                            "1463-9076"
+                        ],
+                        "e_issn": [
+                            "1463-9084"
+                        ],
+                        "wos_id": [
+                            "WOS:000359237800054"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1039/c5cp03235k",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000359237800054&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0018125/published_papers/19874190",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0018125/published_papers",
+                    "rm:id": "19874190",
+                    "rm:user_id": "1000047658",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-15T17:40:01Z",
+                    "rm:modifier_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-01-15T17:40:01Z",
+                    "paper_title": {
+                        "ja": "Photochemistry of arylacetylenyl-substituted stilbenes",
+                        "en": "Photochemistry of arylacetylenyl-substituted stilbenes"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "Morihashi,Kenji"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Morihashi,Kenji"
+                            }
+                        ]
+                    },
+                    "publication_date": "2013-03",
+                    "publication_name": {
+                        "ja": "Journal of Photochemistry and Photobiology",
+                        "en": "Journal of Photochemistry and Photobiology"
+                    },
+                    "volume": "252",
+                    "number": "15",
+                    "starting_page": "203",
+                    "ending_page": "210",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0018125/published_papers/19874191",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0018125/published_papers",
+                    "rm:id": "19874191",
+                    "rm:user_id": "1000047658",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-15T17:40:01Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-05-25T01:00:52Z",
+                    "paper_title": {
+                        "en": "Photochemistry of arylacetylenyl-substituted stilbenes"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Masako Suzuki"
+                            },
+                            {
+                                "name": "Atsuya Momotake"
+                            },
+                            {
+                                "name": "Yoko Kanna"
+                            },
+                            {
+                                "name": "Yoshinobu Nishimura"
+                            },
+                            {
+                                "name": "Kei Hirota"
+                            },
+                            {
+                                "name": "Kenji Morihashi"
+                            },
+                            {
+                                "name": "Tatsuo Arai"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "A series of arylacetylenyl-substituted stilbenes 1-3 were synthesized as pure trans- and cis-isomers and their photochemistry was explored. The fluorescence spectra of trans-1-3 are highly red-shifted and much more intense (Phi(f)=0.66-0.81) compared to that of the parent trans-stilbene (Phi(f)=0.04). The fluorescence lifetime analysis and the low-temperature excitation spectra indicate that both planar and perpendicular conformations at the arylacetylene moiety should exist in the ground state because of free rotation around the single bonds, whereas in the excited singlet state, an immediate structural change to the stable planar conformation takes place that results in efficient fluorescence. Most remarkably, the fluorescence quantum yields are 0.44 and 0.35 for cis-2 and 3, respectively, which are unexpectedly high and more than 3000 times more efficient than that of the parent cis-stilbene (Phi(f)=10(-5)). All isomers exhibited mutual cis-trans photoisomerization. The trans/cis ratios at the photostationary state [trans]/[cis])(pss) are 93/7, 96/4 and 100/0 for 1,2 and 3, respectively, which indicates that 3 undergoes one-way cis-to-trans photoisomerization. The transient absorption spectra suggest that both 2 and 3 undergo intersystem crossing to the triplet state where the planar triplet state ((3)trans* and (3)cis*) and the perpendicular triplet state ((3)p*) are in equilibrium, but the population of the planar triplet state is predominant. Thus, the photoisomerization should proceed partially from the excited triplet state. (C) 2012 Elsevier B.V. All rights reserved."
+                    },
+                    "publisher": {
+                        "en": "ELSEVIER SCIENCE SA"
+                    },
+                    "publication_date": "2013-01",
+                    "publication_name": {
+                        "en": "JOURNAL OF PHOTOCHEMISTRY AND PHOTOBIOLOGY A-CHEMISTRY"
+                    },
+                    "volume": "252",
+                    "number": "15",
+                    "starting_page": "203",
+                    "ending_page": "210",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1016/j.jphotochem.2012.11.019"
+                        ],
+                        "issn": [
+                            "1010-6030"
+                        ],
+                        "wos_id": [
+                            "WOS:000314480800026"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1016/j.jphotochem.2012.11.019",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000314480800026&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0018125/published_papers/19874227",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0018125/published_papers",
+                    "rm:id": "19874227",
+                    "rm:user_id": "1000047658",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-15T17:40:01Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-07-21T00:32:52Z",
+                    "paper_title": {
+                        "ja": "新教育課程における化学教育(ヘッドライン:第19回化学教育フォーラム「新教育課程への期待とその課題」)",
+                        "en": "新教育課程における化学教育(ヘッドライン:第19回化学教育フォーラム「新教育課程への期待とその課題」)"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "MORIHASHI,Kenji"
+                            }
+                        ],
+                        "ja": [
+                            {
+                                "name": "守橋, 健二"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "ja": "大学生の一般教養科目の受講形態を見ると,理系は理系の授業を,文系は文系の科目を取ろうとする傾向が明らかに見られる。このような大学生の傾向は,多分に高校で行われていた現行理科カリキュラムの影響であろうと思われる。高等学校新教育課程で行われる物理,化学,地学,生物の各理科分野のバランスのとれた授業実施により,このような文系と理系の分極化傾向が解消されることを期待したい。また,新教育課程の「化学基礎」「化学」の授業項目を現行の「化学I」「化学II」の内容と比較し,その問題と課題を述べた。社会問題と化学と関わりを生徒に意識させ,生徒にできるだけ能動的な学習態度を身につけさせることが必要である。"
+                    },
+                    "publisher": {
+                        "ja": "社団法人日本化学会",
+                        "en": "The Chemical Society of Japan"
+                    },
+                    "publication_date": "2012-07",
+                    "publication_name": {
+                        "ja": "化学と教育",
+                        "en": "Chemical education"
+                    },
+                    "volume": "60",
+                    "number": "7",
+                    "starting_page": "298",
+                    "ending_page": "299",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.20665/kakyoshi.60.7_298"
+                        ],
+                        "issn": [
+                            "0386-2151"
+                        ],
+                        "cinii_na_id": [
+                            "110009490020"
+                        ],
+                        "cinii_nc_id": [
+                            "AN10033386"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.20665/kakyoshi.60.7_298",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/110009490020",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_books",
+                            "@id": "http://ci.nii.ac.jp/ncid/AN10033386",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0018125/published_papers/19874228",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0018125/published_papers",
+                    "rm:id": "19874228",
+                    "rm:user_id": "1000047658",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-15T17:40:01Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-04-13T07:42:01Z",
+                    "paper_title": {
+                        "en": "Theoretical investigation of hole mobility in 9,10-diphenylanthracene by density functional calculations"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Shotaro Watanabe"
+                            },
+                            {
+                                "name": "Yasuyo Shimodo"
+                            },
+                            {
+                                "name": "Kenji Morihashi"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "The charge transfer property of the 9,10-diphenylanthracene (DPA) single-crystal system was investigated by density functional calculations. The hole mobility of DPA was predicted according to a hopping mechanism and compared with that of two standard organic single-crystal systems, namely, naphthalene and anthracene. The reorganization energy was calculated by the adiabatic potential energy surface method. The electronic coupling matrix elements were calculated by two methods, namely, the energy splitting in dimer (ESD) method and charge transfer integral (CTI) method. Using the coupling matrix calculated by the CTI method, we predicted a hole mobility of 2.15 cm(2)/(Vs) for DPA, whereas the CTI method gives the values of 0.35 and 1.39 cm(2)/(Vs) for naphthalene and anthracene, respectively. It is shown that the electronic coupling calculated by the CTI method gives the qualitatively satisfactory result for the hole mobilities of the three single-crystal systems."
+                    },
+                    "publisher": {
+                        "en": "SPRINGER"
+                    },
+                    "publication_date": "2011-12",
+                    "publication_name": {
+                        "en": "THEORETICAL CHEMISTRY ACCOUNTS"
+                    },
+                    "volume": "130",
+                    "number": "4-6",
+                    "starting_page": "807",
+                    "ending_page": "813",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1007/s00214-011-1042-5"
+                        ],
+                        "issn": [
+                            "1432-881X"
+                        ],
+                        "wos_id": [
+                            "WOS:000297373800018"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1007/s00214-011-1042-5",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000297373800018&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0018125/published_papers/19874226",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0018125/published_papers",
+                    "rm:id": "19874226",
+                    "rm:user_id": "1000047658",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-15T17:40:01Z",
+                    "rm:modifier_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-01-15T17:40:01Z",
+                    "paper_title": {
+                        "ja": "Theoretical investigations of hole mobilities in 9,10-diphenylanthracene by density functional calculation",
+                        "en": "Theoretical investigations of hole mobilities in 9,10-diphenylanthracene by density functional calculation"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "S., Watanabe"
+                            },
+                            {
+                                "name": "Y.Shimodo"
+                            },
+                            {
+                                "name": "K., Morihashi"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "S., Watanabe"
+                            },
+                            {
+                                "name": "Y.Shimodo"
+                            },
+                            {
+                                "name": "K., Morihashi"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "Springer-Verlag",
+                        "en": "Springer-Verlag"
+                    },
+                    "publication_date": "2011-10",
+                    "publication_name": {
+                        "ja": "Theor. Chem. Acc.",
+                        "en": "Theor. Chem. Acc."
+                    },
+                    "volume": "130",
+                    "number": "4-6",
+                    "starting_page": "807-813",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0018125/published_papers/19874229",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0018125/published_papers",
+                    "rm:id": "19874229",
+                    "rm:user_id": "1000047658",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-15T17:40:01Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-04-13T01:21:06Z",
+                    "paper_title": {
+                        "en": "Validity of describing reaction coordinate of intramolecular charge transfer of 1,3-dinitrobenzene anion radical using constrained density functional theory"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Tomofumi Ogawa"
+                            },
+                            {
+                                "name": "Masato Sumita"
+                            },
+                            {
+                                "name": "Yasuyo Shimodo"
+                            },
+                            {
+                                "name": "Kenji Morihashi"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "In this work, we explore the validity of the application of the constrained density functional theory (CDFT) to the study of intramolecular charge transfer reactions. Accordingly, we carry out single-point calculation using CDFT and MRMP2 at each point in the intramolecular charge-transfer reaction coordinate of 1,3-dinitrobenzene anion radical, calculated using the complete active space self-consistent filed theory (CASSCF). We show that the CDFT//CASSCF and MRMP2//CASSCF energy profiles are qualitatively and quantitatively similar. Therefore, we conclude that CDFT is a good tool for studying the intramolecular charge-transfer reactions. (C) 2011 Elsevier B. V. All rights reserved."
+                    },
+                    "publisher": {
+                        "en": "ELSEVIER SCIENCE BV"
+                    },
+                    "publication_date": "2011-08",
+                    "publication_name": {
+                        "en": "CHEMICAL PHYSICS LETTERS"
+                    },
+                    "volume": "511",
+                    "number": "4-6",
+                    "starting_page": "219",
+                    "ending_page": "223",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1016/j.cplett.2011.06.064"
+                        ],
+                        "issn": [
+                            "0009-2614"
+                        ],
+                        "e_issn": [
+                            "1873-4448"
+                        ],
+                        "wos_id": [
+                            "WOS:000293214900009"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1016/j.cplett.2011.06.064",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000293214900009&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0018125/published_papers/19874230",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0018125/published_papers",
+                    "rm:id": "19874230",
+                    "rm:user_id": "1000047658",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-15T17:40:01Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-05-21T22:17:08Z",
+                    "paper_title": {
+                        "en": "Effect of Heme Modification on Oxygen Affinity of Myoglobin and Equilibrium of the Acid-Alkaline Transition in Metmyoglobin"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Tomokazu Shibata"
+                            },
+                            {
+                                "name": "Satoshi Nagao"
+                            },
+                            {
+                                "name": "Masashi Fukaya"
+                            },
+                            {
+                                "name": "Hulin Tai"
+                            },
+                            {
+                                "name": "Shigenori Nagatomo"
+                            },
+                            {
+                                "name": "Kenji Morihashi"
+                            },
+                            {
+                                "name": "Takashi Matsuo"
+                            },
+                            {
+                                "name": "Shun Hirota"
+                            },
+                            {
+                                "name": "Akihiro Suzuki"
+                            },
+                            {
+                                "name": "Kiyohiro Imai"
+                            },
+                            {
+                                "name": "Yasuhiko Yamamoto"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "Functional regulation of myoglobin (Mb) is thought to be achieved through the heme environment furnished by nearby amino acid residues, and subtle tuning of the intrinsic heme Fe reactivity. We have performed substitution of strongly electron-withdrawing perfluoromethyl (CF(3)) group(s) as heme side chain(s) of Mb to obtain large alterations of the heme electronic structure in order to elucidate the relationship between the O(2) affinity of Mb and the electronic properties of heme peripheral side chains. We have utilized the equilibrium constant (pK(a)) of the \"acid-alkaline transition\" in metmyoglobin in order to quantitatively assess the effects of the CF(3) substitutions for the electron density of heme Fe atom (rho(Fe)) of the protein. The pK(a) value of the protein was found to decrease by similar to 1 pH unit upon the introduction of one CF(3) group, and the decrease in the pK(a) value with decreasing the rho(Fe) value was confirmed by density functional theory calculations on some model compounds. The O(2) affinity of Mb was found to correlate well with the pK(a) value in such a manner that the P(50) value, which is the partial pressure of O(2) required to achieve 50% oxygenation, increases by a factor of 2.7 with a decrease of 1 pK(a) unit. Kinetic studies on the proteins revealed that the decrease in O(2) affinity upon the introduction of an electron-withdrawing CF(3) group is due to an increase in the O(2) dissociation rate. Since the introduction of a CF(3) group substitution is thought to prevent further Fe(2+)-O(2) bond polarization and hence formation of a putative Fe(3+)-O(2)(-)-like species of the oxy form of the protein [Maxwell, J. C.; Volpe, J. A.; Barlow, C. H.; Caughey, W. S. Biochem. Biophys. Res. Commun. 1974, 58, 166-171], the O(2) dissociation is expected to be enhanced by the substitution of electron-withdrawing groups as heme side chains. We also found that, in sharp contrast to the case of the O(2) binding to the protein, the CO association and dissociation rates are essentially independent of the rho(Fe) value. As a result, the introduction of electron-withdrawing group(s) enhances the preferential binding of CO to the protein over that of O(2). These findings not only resolve the long-standing issue of the mechanism underlying the subtle tuning of the intrinsic heme Fe reactivity, but also provide new insights into the structure function relationship of the protein."
+                    },
+                    "publisher": {
+                        "en": "AMER CHEMICAL SOC"
+                    },
+                    "publication_date": "2010-05",
+                    "publication_name": {
+                        "en": "JOURNAL OF THE AMERICAN CHEMICAL SOCIETY"
+                    },
+                    "volume": "132",
+                    "number": "17",
+                    "starting_page": "6091",
+                    "ending_page": "6098",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1021/ja909891q"
+                        ],
+                        "issn": [
+                            "0002-7863"
+                        ],
+                        "wos_id": [
+                            "WOS:000277158500044"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1021/ja909891q",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000277158500044&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0018125/published_papers/19874235",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0018125/published_papers",
+                    "rm:id": "19874235",
+                    "rm:user_id": "1000047658",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-15T17:40:01Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-05-16T22:42:11Z",
+                    "paper_title": {
+                        "en": "Examination of numerical accuracy on fragment-DFT calculations with integral values of total electron density functions"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Yasuyo Shimodo"
+                            },
+                            {
+                                "name": "Kenji Morihashi"
+                            },
+                            {
+                                "name": "Tatsuya Nakano"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "Fragment molecular orbital (FMO) method gives a powerful tool to investigate electronic structures for biological substances, and ABINIT-MP program has been developed to implement ab initio FMO calculations effectively. We introduced DFT code into ABINIT-MP and applied fragment-DFT (F-DFT) calculations to model polypeptides. The total accuracy of numerical integrations employed in those calculations was examined by the total numbers of electrons in the molecules. It is shown that the numerical integral of the total density function under the fragment approximation works as an indicator for the numerically total accuracy on the F-DFT implementation. (c) 2006 Published by Elsevier B.V."
+                    },
+                    "publisher": {
+                        "en": "ELSEVIER SCIENCE BV"
+                    },
+                    "publication_date": "2006-09",
+                    "publication_name": {
+                        "en": "JOURNAL OF MOLECULAR STRUCTURE-THEOCHEM"
+                    },
+                    "volume": "770",
+                    "number": "1-3",
+                    "starting_page": "163",
+                    "ending_page": "168",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1016/j.theochem.2006.05.056"
+                        ],
+                        "issn": [
+                            "0166-1280"
+                        ],
+                        "wos_id": [
+                            "WOS:000241243900026"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1016/j.theochem.2006.05.056",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000241243900026&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0018125/published_papers/19874234",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0018125/published_papers",
+                    "rm:id": "19874234",
+                    "rm:user_id": "1000047658",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-15T17:40:01Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-05-09T04:57:50Z",
+                    "paper_title": {
+                        "en": "Liu-Parr-Nagy analysis on density functional theory calculations of spin densities in first-row atoms and diatomic hydrides"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "K Morihashi"
+                            },
+                            {
+                                "name": "Y Shimodo"
+                            },
+                            {
+                                "name": "O Kikuchi"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "The Liu-Parr-Nagy (LPN) analysis was applied to the spin density at a nucleus rho(S)(0), for the first row atoms from carbon to fluorine and the diatomic hydrides, CH, NH, and OR The LPN rho(S)(0) values for these radicals, were obtained with ab initio UHF and DFT calculations. In the DFT calculations, several fundamental exchange- and correlation-functionals were used with their combined or non-combined forms. Furthermore, various basis sets were also used. It can be shown that the LPN analysis presents the clear information to understand the differences of the rho(S)(0) values among the employed functional forms, and among basis sets. (c) 2004 Elsevier B.V. All rights reserved."
+                    },
+                    "publisher": {
+                        "en": "ELSEVIER SCIENCE BV"
+                    },
+                    "publication_date": "2005-05",
+                    "publication_name": {
+                        "en": "JOURNAL OF MOLECULAR STRUCTURE-THEOCHEM"
+                    },
+                    "volume": "722",
+                    "number": "1-3",
+                    "starting_page": "169",
+                    "ending_page": "183",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1016/j.theochem.2004.10.074"
+                        ],
+                        "issn": [
+                            "0166-1280"
+                        ],
+                        "wos_id": [
+                            "WOS:000229847600019"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1016/j.theochem.2004.10.074",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000229847600019&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0018125/published_papers/19874233",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0018125/published_papers",
+                    "rm:id": "19874233",
+                    "rm:user_id": "1000047658",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-15T17:40:01Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-04-28T12:39:44Z",
+                    "paper_title": {
+                        "en": "Applications of the Liu-Parr-Nagy identity to the spin density calculations"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "K Morihashi"
+                            },
+                            {
+                                "name": "Y Shimodo"
+                            },
+                            {
+                                "name": "O Kikuchi"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "The Liu-Parr-Nagy identity was applied to the DFT calculations of the spin densities for the NH radical with several exchange-correlation functional sets. The LPN spin density analyses give the important information to understand the differences of spin density values among the exchange-correlation functionals. (C) 2004 Elsevier B.V. All rights reserved."
+                    },
+                    "publisher": {
+                        "en": "ELSEVIER SCIENCE BV"
+                    },
+                    "publication_date": "2004-10",
+                    "publication_name": {
+                        "en": "CHEMICAL PHYSICS LETTERS"
+                    },
+                    "volume": "397",
+                    "number": "4-6",
+                    "starting_page": "462",
+                    "ending_page": "468",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1016/j.cplett.2004.08.140"
+                        ],
+                        "issn": [
+                            "0009-2614"
+                        ],
+                        "wos_id": [
+                            "WOS:000224541000034"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1016/j.cplett.2004.08.140",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000224541000034&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0018125/published_papers/19874232",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0018125/published_papers",
+                    "rm:id": "19874232",
+                    "rm:user_id": "1000047658",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-15T17:40:01Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-04-27T20:38:54Z",
+                    "paper_title": {
+                        "en": "Calculation of systematic set of bond dissociation enthalpies of polyhalogenated benzenes"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "T Watanabe"
+                            },
+                            {
+                                "name": "ZY Wang"
+                            },
+                            {
+                                "name": "O Takahashi"
+                            },
+                            {
+                                "name": "K Morihashi"
+                            },
+                            {
+                                "name": "O Kikuchi"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "The bond dissociation enthalpies (BDEs) of polyhalogenated benzenes were calculated by using the G2M(CC), B3LYP/6-311G(2dfp), and B3LYP/6-311G(d,p) methods. The BDEs of C-H and C-X (X = F, Cl, and Br) calculated by these three methods well reproduced the experimental BDEs, within 1.2, 2.3, and 4.5 kcal/mol, respectively. The analysis of the basis set dependence of the BDEs showed that the BDEs calculated by the B3LYP/6-311G(d,p) method are sufficient for the quantitative discussion. An accurate and systematic set of the BDEs of polyhalogenated benzenes was thus obtained by B3LY-P/6-311G(d,p) calculations. The substitution effects on the BDEs of polyhalogenated benzenes were analyzed by using a linear scheme with and without the correction terms for steric effect. The resulting regression equation for the C-F BDEs well reproduced the calculated C-F BDEs even without the correction term for steric effect, but the regression equations for the C-Cl and C-Br BDEs needs the correction term for steric effect. (C) 2004 Elsevier B.V. All rights reserved."
+                    },
+                    "publisher": {
+                        "en": "ELSEVIER SCIENCE BV"
+                    },
+                    "publication_date": "2004-08",
+                    "publication_name": {
+                        "en": "JOURNAL OF MOLECULAR STRUCTURE-THEOCHEM"
+                    },
+                    "volume": "682",
+                    "number": "1-3",
+                    "starting_page": "63",
+                    "ending_page": "72",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1016/j.theochem.2004.05.024"
+                        ],
+                        "issn": [
+                            "0166-1280"
+                        ],
+                        "wos_id": [
+                            "WOS:000223803200008"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1016/j.theochem.2004.05.024",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000223803200008&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0018125/published_papers/19874231",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0018125/published_papers",
+                    "rm:id": "19874231",
+                    "rm:user_id": "1000047658",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-15T17:40:01Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-04-28T03:56:22Z",
+                    "paper_title": {
+                        "en": "MC/MO SOC-SCF calculation of parity-violating energy of L-alanine zwitterion in aqueous solution"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "T Watanabe"
+                            },
+                            {
+                                "name": "K Morihashi"
+                            },
+                            {
+                                "name": "O Takahashi"
+                            },
+                            {
+                                "name": "T Kitayama"
+                            },
+                            {
+                                "name": "T Yagi"
+                            },
+                            {
+                                "name": "O Kikuchi"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "A combination of Monte Carlo (MC) simulation and ab initio spin-orbit coupling SCF (SOC-SCF) method was used to evaluate parity-violating energy, E-pv, of L-alanine zwitterion (L-ALAZ) in aqueous solution. In the MC simulation, the effective pair potential functions, which include the effect of the polarization of L-ALAZ caused by salvation were determined and employed. The 100 solution structures were picked up at every 1 M steps of the MC simulation of the L-ALAZ aqueous solution, and the Epv energy was calculated for the L-ALA-Z-(H2O), (n = 1-10) clusters in each solution structure by the SOC-SCF/6-31G method. The mean deviation of E-pv for the L-ALAZ-(H2O)(10) clusters was large, 2 x 10(-20) hartree, and this comes from the fact the coordination of H2O at the CO2 site brings about large effect on E-pv. Although, the small change in the orientation of H2O to the CO2 group may change the sign of Epv, the expectation value of E-pv of L-ALAZ is positive for thermally stable conformations in aqueous solution at 298 K. The present MC/MO calculations have shown that the E-pv value of L-ALAZ is positive when the solvent effect is introduced by explicit H2O molecules. This is same as that observed in previous calculations with the continuum model of solvation. The present calculations provide support for the destabilization of L-ALAZ compared to D-ALAZ at thermally accessible conformations in aqueous solution. (C) 2004 Elsevier B.V. All rights reserved."
+                    },
+                    "publisher": {
+                        "en": "ELSEVIER SCIENCE BV"
+                    },
+                    "publication_date": "2004-02",
+                    "publication_name": {
+                        "en": "JOURNAL OF MOLECULAR STRUCTURE-THEOCHEM"
+                    },
+                    "volume": "671",
+                    "number": "1-3",
+                    "starting_page": "119",
+                    "ending_page": "123",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1016/j.theochem.2003.10.060"
+                        ],
+                        "issn": [
+                            "0166-1280"
+                        ],
+                        "wos_id": [
+                            "WOS:000221491100016"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1016/j.theochem.2003.10.060",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000221491100016&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0018125/published_papers/19874225",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0018125/published_papers",
+                    "rm:id": "19874225",
+                    "rm:user_id": "1000047658",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-15T17:40:01Z",
+                    "rm:modifier_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-01-15T17:40:01Z",
+                    "paper_title": {
+                        "ja": "Ab initio spin-orbit coupling SCF calculation of parity-violating energy of chiral molecules",
+                        "en": "Ab initio spin-orbit coupling SCF calculation of parity-violating energy of chiral molecules"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "T., Kitayama"
+                            },
+                            {
+                                "name": "H., Kiyonaga"
+                            },
+                            {
+                                "name": "K., Morihashi"
+                            },
+                            {
+                                "name": "O., Takahashi"
+                            },
+                            {
+                                "name": "O., Kikuchi"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "T., Kitayama"
+                            },
+                            {
+                                "name": "H., Kiyonaga"
+                            },
+                            {
+                                "name": "K., Morihashi"
+                            },
+                            {
+                                "name": "O., Takahashi"
+                            },
+                            {
+                                "name": "O., Kikuchi"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "Elsevier",
+                        "en": "Elsevier"
+                    },
+                    "publication_date": "2002-01",
+                    "publication_name": {
+                        "ja": "J. Mol. Struct. (THEOCHEM)",
+                        "en": "J. Mol. Struct. (THEOCHEM)"
+                    },
+                    "volume": "589-590",
+                    "starting_page": "183-193",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0018125/books_etc",
+            "@type": "books_etc",
+            "@reverse": "https://api.researchmap.jp/read0018125",
+            "total_items": 1,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0018125/books_etc/15545893",
+                    "@type": "books_etc",
+                    "@reverse": "https://api.researchmap.jp/read0018125/books_etc",
+                    "rm:id": "15545893",
+                    "rm:user_id": "1000047658",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-15T17:40:01Z",
+                    "rm:modifier_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-01-15T17:40:01Z",
+                    "book_title": {
+                        "ja": "現代人のための統合科学ービックバンから生物多様性までー",
+                        "en": "Integarated Science for Students of Today"
+                    },
+                    "book_owner_role": "contributor",
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "守橋,健二"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "守橋,健二"
+                            }
+                        ]
+                    },
+                    "book_owner_range": {
+                        "ja": "12章 オゾンの化学とオゾンホール、13章 大気の化学と地球温暖化、15章 水の分子論、16章 化学エネルギーと持続可能な社会",
+                        "en": "12章 オゾンの化学とオゾンホール、13章 大気の化学と地球温暖化、15章 水の分子論、16章 化学エネルギーと持続可能な社会"
+                    },
+                    "publisher": {
+                        "ja": "筑波大学出版会",
+                        "en": "筑波大学出版会"
+                    },
+                    "publication_date": "2012-11",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "book_type": "scholarly_book"
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0018125/presentations",
+            "@type": "presentations",
+            "@reverse": "https://api.researchmap.jp/read0018125",
+            "total_items": 24,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0018125/presentations/2492728",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0018125/presentations",
+                    "rm:id": "2492728",
+                    "rm:user_id": "1000047658",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-15T17:40:01Z",
+                    "rm:modifier_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-01-15T17:40:01Z",
+                    "presentation_title": {
+                        "ja": "Examination of electron transfer reaction rate by modified Marcus equation",
+                        "en": "Examination of electron transfer reaction rate by modified Marcus equation"
+                    },
+                    "presenters": {
+                        "ja": [
+                            {
+                                "name": "MORIHASHI, Kenji"
+                            },
+                            {
+                                "name": "KUBOTA, Takumi"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "MORIHASHI, Kenji"
+                            },
+                            {
+                                "name": "KUBOTA, Takumi"
+                            }
+                        ]
+                    },
+                    "presenters_text": {
+                        "ja": "MORIHASHI, Kenji;KUBOTA, Takumi",
+                        "en": "MORIHASHI, Kenji;KUBOTA, Takumi"
+                    },
+                    "event": {
+                        "ja": "日本化学会第99回春季年会",
+                        "en": "日本化学会第99回春季年会"
+                    },
+                    "publication_date": "2019-03-16",
+                    "invited": false,
+                    "languages": [
+                        "jpn"
+                    ],
+                    "presentation_type": "oral_presentation",
+                    "is_international_presentation": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0018125/presentations/2492727",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0018125/presentations",
+                    "rm:id": "2492727",
+                    "rm:user_id": "1000047658",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-15T17:40:01Z",
+                    "rm:modifier_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-01-15T17:40:01Z",
+                    "presentation_title": {
+                        "ja": "Pyramidanes: Study of the Electronic Structures of Pyramidal Compounds and their NMR Properties",
+                        "en": "Pyramidanes: Study of the Electronic Structures of Pyramidal Compounds and their NMR Properties"
+                    },
+                    "presenters": {
+                        "ja": [
+                            {
+                                "name": "TAKEMURA, Fumihide"
+                            },
+                            {
+                                "name": "LEE, Vladimir Ya"
+                            },
+                            {
+                                "name": "MORIHASHI, Kenji"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "TAKEMURA, Fumihide"
+                            },
+                            {
+                                "name": "LEE, Vladimir Ya"
+                            },
+                            {
+                                "name": "MORIHASHI, Kenji"
+                            }
+                        ]
+                    },
+                    "presenters_text": {
+                        "ja": "TAKEMURA, Fumihide;LEE, Vladimir Ya;MORIHASHI, Kenji",
+                        "en": "TAKEMURA, Fumihide;LEE, Vladimir Ya;MORIHASHI, Kenji"
+                    },
+                    "event": {
+                        "ja": "日本化学会第99回春季年会",
+                        "en": "日本化学会第99回春季年会"
+                    },
+                    "publication_date": "2019-03-16",
+                    "invited": false,
+                    "languages": [
+                        "jpn"
+                    ],
+                    "presentation_type": "oral_presentation",
+                    "is_international_presentation": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0018125/presentations/2492726",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0018125/presentations",
+                    "rm:id": "2492726",
+                    "rm:user_id": "1000047658",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-15T17:40:01Z",
+                    "rm:modifier_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-01-15T17:40:01Z",
+                    "presentation_title": {
+                        "ja": "Theoretical analysis of hydrogen bond between anthracene-urea derivative and acetate anion",
+                        "en": "Theoretical analysis of hydrogen bond between anthracene-urea derivative and acetate anion"
+                    },
+                    "presenters": {
+                        "ja": [
+                            {
+                                "name": "ONOZAWA, Shu"
+                            },
+                            {
+                                "name": "MORIHASHI, Kenji"
+                            },
+                            {
+                                "name": "MATSUI, Toru"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "ONOZAWA, Shu"
+                            },
+                            {
+                                "name": "MORIHASHI, Kenji"
+                            },
+                            {
+                                "name": "MATSUI, Toru"
+                            }
+                        ]
+                    },
+                    "presenters_text": {
+                        "ja": "ONOZAWA, Shu;MORIHASHI, Kenji;MATSUI, Toru",
+                        "en": "ONOZAWA, Shu;MORIHASHI, Kenji;MATSUI, Toru"
+                    },
+                    "event": {
+                        "ja": "日本化学会第99回春季年会",
+                        "en": "日本化学会第99回春季年会"
+                    },
+                    "publication_date": "2019-03-16",
+                    "invited": false,
+                    "languages": [
+                        "jpn"
+                    ],
+                    "presentation_type": "oral_presentation",
+                    "is_international_presentation": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0018125/presentations/2492725",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0018125/presentations",
+                    "rm:id": "2492725",
+                    "rm:user_id": "1000047658",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-15T17:40:01Z",
+                    "rm:modifier_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-01-15T17:40:01Z",
+                    "presentation_title": {
+                        "ja": "Determination of the range separation parameter in LC-ω PBE using machine learning",
+                        "en": "Determination of the range separation parameter in LC-ω PBE using machine learning"
+                    },
+                    "presenters": {
+                        "ja": [
+                            {
+                                "name": "OSAKI, Yamato"
+                            },
+                            {
+                                "name": "FUJITA, Takehiro"
+                            },
+                            {
+                                "name": "MATSUI, Toru"
+                            },
+                            {
+                                "name": "SUMITA, Masato"
+                            },
+                            {
+                                "name": "MORIHASHI, Kenji"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "OSAKI, Yamato"
+                            },
+                            {
+                                "name": "FUJITA, Takehiro"
+                            },
+                            {
+                                "name": "MATSUI, Toru"
+                            },
+                            {
+                                "name": "SUMITA, Masato"
+                            },
+                            {
+                                "name": "MORIHASHI, Kenji"
+                            }
+                        ]
+                    },
+                    "presenters_text": {
+                        "ja": "OSAKI, Yamato;FUJITA, Takehiro;MATSUI, Toru;SUMITA, Masato;MORIHASHI, Kenji",
+                        "en": "OSAKI, Yamato;FUJITA, Takehiro;MATSUI, Toru;SUMITA, Masato;MORIHASHI, Kenji"
+                    },
+                    "event": {
+                        "ja": "日本化学会第99回春季年会",
+                        "en": "日本化学会第99回春季年会"
+                    },
+                    "publication_date": "2019-03-16",
+                    "invited": false,
+                    "languages": [
+                        "jpn"
+                    ],
+                    "presentation_type": "oral_presentation",
+                    "is_international_presentation": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0018125/presentations/2492729",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0018125/presentations",
+                    "rm:id": "2492729",
+                    "rm:user_id": "1000047658",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-15T17:40:01Z",
+                    "rm:modifier_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-01-15T17:40:01Z",
+                    "presentation_title": {
+                        "ja": "分子動力学法によるクエン酸のプロトン化状態の解析",
+                        "en": "分子動力学法によるクエン酸のプロトン化状態の解析"
+                    },
+                    "presenters": {
+                        "ja": [
+                            {
+                                "name": "田中良拓"
+                            },
+                            {
+                                "name": "松井亨"
+                            },
+                            {
+                                "name": "守橋, 健二"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "田中良拓"
+                            },
+                            {
+                                "name": "松井亨"
+                            },
+                            {
+                                "name": "守橋, 健二"
+                            }
+                        ]
+                    },
+                    "presenters_text": {
+                        "ja": "田中良拓;松井亨;守橋, 健二",
+                        "en": "田中良拓;松井亨;守橋, 健二"
+                    },
+                    "event": {
+                        "ja": "第12回分子科学討論会",
+                        "en": "第12回分子科学討論会"
+                    },
+                    "publication_date": "2018-09-10",
+                    "invited": false,
+                    "languages": [
+                        "jpn"
+                    ],
+                    "presentation_type": "oral_presentation",
+                    "is_international_presentation": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0018125/presentations/2492724",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0018125/presentations",
+                    "rm:id": "2492724",
+                    "rm:user_id": "1000047658",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-15T17:40:01Z",
+                    "rm:modifier_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-01-15T17:40:01Z",
+                    "presentation_title": {
+                        "ja": "1-メチル-3-(N-(1,8-ナフタルイミジル)エチル)イミダゾリウム塩の発光・呈色推定モデル",
+                        "en": "1-メチル-3-(N-(1,8-ナフタルイミジル)エチル)イミダゾリウム塩の発光・呈色推定モデル"
+                    },
+                    "presenters": {
+                        "ja": [
+                            {
+                                "name": "藤田, 健宏"
+                            },
+                            {
+                                "name": "寺山, 慧"
+                            },
+                            {
+                                "name": "隅田, 真人"
+                            },
+                            {
+                                "name": "井澤, 浩明"
+                            },
+                            {
+                                "name": "守橋, 健二"
+                            },
+                            {
+                                "name": "津田, 宏冶"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "藤田, 健宏"
+                            },
+                            {
+                                "name": "寺山, 慧"
+                            },
+                            {
+                                "name": "隅田, 真人"
+                            },
+                            {
+                                "name": "井澤, 浩明"
+                            },
+                            {
+                                "name": "守橋, 健二"
+                            },
+                            {
+                                "name": "津田, 宏冶"
+                            }
+                        ]
+                    },
+                    "presenters_text": {
+                        "ja": "藤田, 健宏;寺山, 慧;隅田, 真人;井澤, 浩明;守橋, 健二;津田, 宏冶",
+                        "en": "藤田, 健宏;寺山, 慧;隅田, 真人;井澤, 浩明;守橋, 健二;津田, 宏冶"
+                    },
+                    "event": {
+                        "ja": "第12回分子科学討論会",
+                        "en": "第12回分子科学討論会"
+                    },
+                    "publication_date": "2018-09-10",
+                    "invited": false,
+                    "languages": [
+                        "jpn"
+                    ],
+                    "presentation_type": "oral_presentation",
+                    "is_international_presentation": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0018125/presentations/2492732",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0018125/presentations",
+                    "rm:id": "2492732",
+                    "rm:user_id": "1000047658",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-15T17:40:01Z",
+                    "rm:modifier_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-01-15T17:40:01Z",
+                    "presentation_title": {
+                        "ja": "カルボン酸塩・ナフタルイミド化合物の光誘起過程の理論的解析",
+                        "en": "カルボン酸塩・ナフタルイミド化合物の光誘起過程の理論的解析"
+                    },
+                    "presenters": {
+                        "ja": [
+                            {
+                                "name": "大高, 秀仁"
+                            },
+                            {
+                                "name": "大塚, 教雄"
+                            },
+                            {
+                                "name": "隅田, 真人"
+                            },
+                            {
+                                "name": "井澤, 浩則"
+                            },
+                            {
+                                "name": "松井, 亨"
+                            },
+                            {
+                                "name": "守橋, 健二"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "大高, 秀仁"
+                            },
+                            {
+                                "name": "大塚, 教雄"
+                            },
+                            {
+                                "name": "隅田, 真人"
+                            },
+                            {
+                                "name": "井澤, 浩則"
+                            },
+                            {
+                                "name": "松井, 亨"
+                            },
+                            {
+                                "name": "守橋, 健二"
+                            }
+                        ]
+                    },
+                    "presenters_text": {
+                        "ja": "大高, 秀仁;大塚, 教雄;隅田, 真人;井澤, 浩則;松井, 亨;守橋, 健二",
+                        "en": "大高, 秀仁;大塚, 教雄;隅田, 真人;井澤, 浩則;松井, 亨;守橋, 健二"
+                    },
+                    "event": {
+                        "ja": "日本化学会 第９８回春季年会(2018)",
+                        "en": "日本化学会 第９８回春季年会(2018)"
+                    },
+                    "publication_date": "2018-03-20",
+                    "invited": false,
+                    "languages": [
+                        "jpn"
+                    ],
+                    "presentation_type": "poster_presentation",
+                    "is_international_presentation": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0018125/presentations/2492731",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0018125/presentations",
+                    "rm:id": "2492731",
+                    "rm:user_id": "1000047658",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-15T17:40:01Z",
+                    "rm:modifier_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-01-15T17:40:01Z",
+                    "presentation_title": {
+                        "ja": "カルボン酸塩・ナフタルイミド化合物錯体の光誘起過程の理論的解析",
+                        "en": "カルボン酸塩・ナフタルイミド化合物錯体の光誘起過程の理論的解析"
+                    },
+                    "presenters": {
+                        "ja": [
+                            {
+                                "name": "大高, 秀仁"
+                            },
+                            {
+                                "name": "大塚, 教雄"
+                            },
+                            {
+                                "name": "隅田, 真人"
+                            },
+                            {
+                                "name": "井澤, 浩則"
+                            },
+                            {
+                                "name": "松井亨"
+                            },
+                            {
+                                "name": "守橋, 健二"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "大高, 秀仁"
+                            },
+                            {
+                                "name": "大塚, 教雄"
+                            },
+                            {
+                                "name": "隅田, 真人"
+                            },
+                            {
+                                "name": "井澤, 浩則"
+                            },
+                            {
+                                "name": "松井亨"
+                            },
+                            {
+                                "name": "守橋, 健二"
+                            }
+                        ]
+                    },
+                    "presenters_text": {
+                        "ja": "大高, 秀仁;大塚, 教雄;隅田, 真人;井澤, 浩則;松井亨;守橋, 健二",
+                        "en": "大高, 秀仁;大塚, 教雄;隅田, 真人;井澤, 浩則;松井亨;守橋, 健二"
+                    },
+                    "event": {
+                        "ja": "第31回 分子シミュレーション討論会",
+                        "en": "第31回 分子シミュレーション討論会"
+                    },
+                    "publication_date": "2017-11-29",
+                    "invited": false,
+                    "languages": [
+                        "jpn"
+                    ],
+                    "presentation_type": "poster_presentation",
+                    "is_international_presentation": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0018125/presentations/2492730",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0018125/presentations",
+                    "rm:id": "2492730",
+                    "rm:user_id": "1000047658",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-15T17:40:01Z",
+                    "rm:modifier_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-01-15T17:40:01Z",
+                    "presentation_title": {
+                        "ja": "有機薄膜太陽電池材料の電荷移動状態の安定性と反応速度定数についての理論的研究",
+                        "en": "有機薄膜太陽電池材料の電荷移動状態の安定性と反応速度定数についての理論的研究"
+                    },
+                    "presenters": {
+                        "ja": [
+                            {
+                                "name": "藤田, 健宏"
+                            },
+                            {
+                                "name": "松井, 亨"
+                            },
+                            {
+                                "name": "守橋, 健二"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "藤田, 健宏"
+                            },
+                            {
+                                "name": "松井, 亨"
+                            },
+                            {
+                                "name": "守橋, 健二"
+                            }
+                        ]
+                    },
+                    "presenters_text": {
+                        "ja": "藤田, 健宏;松井, 亨;守橋, 健二",
+                        "en": "藤田, 健宏;松井, 亨;守橋, 健二"
+                    },
+                    "event": {
+                        "ja": "第11回 分子科学討論会 (仙台)",
+                        "en": "第11回 分子科学討論会 (仙台)"
+                    },
+                    "publication_date": "2017-09-15",
+                    "invited": false,
+                    "languages": [
+                        "jpn"
+                    ],
+                    "presentation_type": "poster_presentation",
+                    "is_international_presentation": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0018125/presentations/2492736",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0018125/presentations",
+                    "rm:id": "2492736",
+                    "rm:user_id": "1000047658",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-15T17:40:01Z",
+                    "rm:modifier_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-01-15T17:40:01Z",
+                    "presentation_title": {
+                        "ja": "制限付き密度汎関数理論を用いた有機太陽電池材料の電荷分離状態の安定性と電子移動速度定数の研究",
+                        "en": "制限付き密度汎関数理論を用いた有機太陽電池材料の電荷分離状態の安定性と電子移動速度定数の研究"
+                    },
+                    "presenters": {
+                        "ja": [
+                            {
+                                "name": "Morihashi, Kenji"
+                            },
+                            {
+                                "name": "藤田 健宏"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Morihashi, Kenji"
+                            },
+                            {
+                                "name": "藤田 健宏"
+                            }
+                        ]
+                    },
+                    "presenters_text": {
+                        "ja": "Morihashi, Kenji;藤田　健宏",
+                        "en": "Morihashi, Kenji;藤田　健宏"
+                    },
+                    "event": {
+                        "ja": "日本化学会 第９７回春季年会",
+                        "en": "日本化学会 第９７回春季年会"
+                    },
+                    "publication_date": "2017-03-16",
+                    "invited": false,
+                    "languages": [
+                        "jpn"
+                    ],
+                    "presentation_type": "poster_presentation",
+                    "is_international_presentation": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0018125/presentations/2492735",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0018125/presentations",
+                    "rm:id": "2492735",
+                    "rm:user_id": "1000047658",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-15T17:40:01Z",
+                    "rm:modifier_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-01-15T17:40:01Z",
+                    "presentation_title": {
+                        "ja": "オカダ酸における分子内水素結合の環境依存性に関する理論的研究",
+                        "en": "オカダ酸における分子内水素結合の環境依存性に関する理論的研究"
+                    },
+                    "presenters": {
+                        "ja": [
+                            {
+                                "name": "山本, 夏菜子"
+                            },
+                            {
+                                "name": "松井, 亨"
+                            },
+                            {
+                                "name": "Morihashi, Kenji"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "山本, 夏菜子"
+                            },
+                            {
+                                "name": "松井, 亨"
+                            },
+                            {
+                                "name": "Morihashi, Kenji"
+                            }
+                        ]
+                    },
+                    "presenters_text": {
+                        "ja": "山本, 夏菜子;松井, 亨;Morihashi, Kenji",
+                        "en": "山本, 夏菜子;松井, 亨;Morihashi, Kenji"
+                    },
+                    "event": {
+                        "ja": "日本化学会 第９７回春季年会",
+                        "en": "日本化学会 第９７回春季年会"
+                    },
+                    "publication_date": "2017-03-16",
+                    "invited": false,
+                    "languages": [
+                        "jpn"
+                    ],
+                    "presentation_type": "poster_presentation",
+                    "is_international_presentation": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0018125/presentations/2492734",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0018125/presentations",
+                    "rm:id": "2492734",
+                    "rm:user_id": "1000047658",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-15T17:40:01Z",
+                    "rm:modifier_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-01-15T17:40:01Z",
+                    "presentation_title": {
+                        "ja": "OPV3誘導体の正孔移動度についての理論的研究",
+                        "en": "OPV3誘導体の正孔移動度についての理論的研究"
+                    },
+                    "presenters": {
+                        "ja": [
+                            {
+                                "name": "藤澤, 弘明"
+                            },
+                            {
+                                "name": "松井, 亨"
+                            },
+                            {
+                                "name": "Morihashi, Kenji"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "藤澤, 弘明"
+                            },
+                            {
+                                "name": "松井, 亨"
+                            },
+                            {
+                                "name": "Morihashi, Kenji"
+                            }
+                        ]
+                    },
+                    "presenters_text": {
+                        "ja": "藤澤, 弘明;松井, 亨;Morihashi, Kenji",
+                        "en": "藤澤, 弘明;松井, 亨;Morihashi, Kenji"
+                    },
+                    "event": {
+                        "ja": "日本化学会 第９７回春季年会",
+                        "en": "日本化学会 第９７回春季年会"
+                    },
+                    "publication_date": "2017-03-16",
+                    "invited": false,
+                    "languages": [
+                        "jpn"
+                    ],
+                    "presentation_type": "poster_presentation",
+                    "is_international_presentation": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0018125/presentations/2492733",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0018125/presentations",
+                    "rm:id": "2492733",
+                    "rm:user_id": "1000047658",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-15T17:40:01Z",
+                    "rm:modifier_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-01-15T17:40:01Z",
+                    "presentation_title": {
+                        "ja": "QM/MM計算によるクラスA βラクタマーゼとベンジルペニシリンのアシル化反応における塩橋内プロトン移動を考慮した反応経路の提案",
+                        "en": "QM/MM計算によるクラスA βラクタマーゼとベンジルペニシリンのアシル化反応における塩橋内プロトン移動を考慮した反応経路の提案"
+                    },
+                    "presenters": {
+                        "ja": [
+                            {
+                                "name": "駒井, 美保"
+                            },
+                            {
+                                "name": "松井, 亨"
+                            },
+                            {
+                                "name": "Morihashi, Kenji"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "駒井, 美保"
+                            },
+                            {
+                                "name": "松井, 亨"
+                            },
+                            {
+                                "name": "Morihashi, Kenji"
+                            }
+                        ]
+                    },
+                    "presenters_text": {
+                        "ja": "駒井, 美保;松井, 亨;Morihashi, Kenji",
+                        "en": "駒井, 美保;松井, 亨;Morihashi, Kenji"
+                    },
+                    "event": {
+                        "ja": "日本化学会 第９７回春季年会",
+                        "en": "日本化学会 第９７回春季年会"
+                    },
+                    "publication_date": "2017-03-16",
+                    "invited": false,
+                    "languages": [
+                        "jpn"
+                    ],
+                    "presentation_type": "poster_presentation",
+                    "is_international_presentation": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0018125/presentations/2492741",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0018125/presentations",
+                    "rm:id": "2492741",
+                    "rm:user_id": "1000047658",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-15T17:40:01Z",
+                    "rm:modifier_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-01-15T17:40:01Z",
+                    "presentation_title": {
+                        "ja": "制約密度汎関数法を用いたPPVの三重項電子移動過程の解析",
+                        "en": "制約密度汎関数法を用いたPPVの三重項電子移動過程の解析"
+                    },
+                    "presenters": {
+                        "ja": [
+                            {
+                                "name": "守橋,健二"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "守橋,健二"
+                            }
+                        ]
+                    },
+                    "presenters_text": {
+                        "ja": "守橋,健二",
+                        "en": "守橋,健二"
+                    },
+                    "event": {
+                        "ja": "日本化学会第９３回春季年会",
+                        "en": "日本化学会第９３回春季年会"
+                    },
+                    "publication_date": "2013-03-22",
+                    "invited": false,
+                    "languages": [
+                        "jpn"
+                    ],
+                    "presentation_type": "poster_presentation",
+                    "location": {
+                        "ja": "琵琶湖・草津",
+                        "en": "琵琶湖・草津"
+                    },
+                    "is_international_presentation": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0018125/presentations/2492740",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0018125/presentations",
+                    "rm:id": "2492740",
+                    "rm:user_id": "1000047658",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-15T17:40:01Z",
+                    "rm:modifier_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-01-15T17:40:01Z",
+                    "presentation_title": {
+                        "ja": "CDFT計算による極性溶媒中の分子内電子移動過程",
+                        "en": "CDFT計算による極性溶媒中の分子内電子移動過程"
+                    },
+                    "presenters": {
+                        "ja": [
+                            {
+                                "name": "守橋,健二"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "守橋,健二"
+                            }
+                        ]
+                    },
+                    "presenters_text": {
+                        "ja": "守橋,健二",
+                        "en": "守橋,健二"
+                    },
+                    "event": {
+                        "ja": "日本化学会第９３回春季年会",
+                        "en": "日本化学会第９３回春季年会"
+                    },
+                    "publication_date": "2013-03-22",
+                    "invited": false,
+                    "languages": [
+                        "jpn"
+                    ],
+                    "presentation_type": "poster_presentation",
+                    "location": {
+                        "ja": "琵琶湖・草津",
+                        "en": "琵琶湖・草津"
+                    },
+                    "is_international_presentation": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0018125/presentations/2492739",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0018125/presentations",
+                    "rm:id": "2492739",
+                    "rm:user_id": "1000047658",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-15T17:40:01Z",
+                    "rm:modifier_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-01-15T17:40:01Z",
+                    "presentation_title": {
+                        "ja": "HIVプロテアーゼ複合体におけるQM/MM計算による構造最適化",
+                        "en": "HIVプロテアーゼ複合体におけるQM/MM計算による構造最適化"
+                    },
+                    "presenters": {
+                        "ja": [
+                            {
+                                "name": "守橋,健二"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "守橋,健二"
+                            }
+                        ]
+                    },
+                    "presenters_text": {
+                        "ja": "守橋,健二",
+                        "en": "守橋,健二"
+                    },
+                    "event": {
+                        "ja": "日本化学会第９３回春季年会",
+                        "en": "日本化学会第９３回春季年会"
+                    },
+                    "publication_date": "2013-03-22",
+                    "invited": false,
+                    "languages": [
+                        "jpn"
+                    ],
+                    "presentation_type": "oral_presentation",
+                    "location": {
+                        "ja": "琵琶湖・草津",
+                        "en": "琵琶湖・草津"
+                    },
+                    "is_international_presentation": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0018125/presentations/2492737",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0018125/presentations",
+                    "rm:id": "2492737",
+                    "rm:user_id": "1000047658",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-15T17:40:01Z",
+                    "rm:modifier_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-01-15T17:40:01Z",
+                    "presentation_title": {
+                        "ja": "結晶場を考慮したルブレンの正孔移動度の予測",
+                        "en": "結晶場を考慮したルブレンの正孔移動度の予測"
+                    },
+                    "presenters": {
+                        "ja": [
+                            {
+                                "name": "守橋,健二"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "守橋,健二"
+                            }
+                        ]
+                    },
+                    "presenters_text": {
+                        "ja": "守橋,健二",
+                        "en": "守橋,健二"
+                    },
+                    "event": {
+                        "ja": "日本化学会第９３回春季年会",
+                        "en": "日本化学会第９３回春季年会"
+                    },
+                    "publication_date": "2013-03-22",
+                    "invited": false,
+                    "languages": [
+                        "jpn"
+                    ],
+                    "presentation_type": "oral_presentation",
+                    "location": {
+                        "ja": "琵琶湖・草津",
+                        "en": "琵琶湖・草津"
+                    },
+                    "is_international_presentation": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0018125/presentations/2492747",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0018125/presentations",
+                    "rm:id": "2492747",
+                    "rm:user_id": "1000047658",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-15T17:40:01Z",
+                    "rm:modifier_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-01-15T17:40:01Z",
+                    "presentation_title": {
+                        "ja": "Transition Structures on DNA-chain Elongation Process",
+                        "en": "Transition Structures on DNA-chain Elongation Process"
+                    },
+                    "presenters": {
+                        "ja": [
+                            {
+                                "name": "Morihashi,Kenji"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Morihashi,Kenji"
+                            }
+                        ]
+                    },
+                    "presenters_text": {
+                        "ja": "Morihashi,Kenji",
+                        "en": "Morihashi,Kenji"
+                    },
+                    "event": {
+                        "ja": "3rd International Symposium on Creation of Functional Materials",
+                        "en": "3rd International Symposium on Creation of Functional Materials"
+                    },
+                    "publication_date": "2012-12-10",
+                    "invited": true,
+                    "languages": [
+                        "eng"
+                    ],
+                    "presentation_type": "oral_presentation",
+                    "location": {
+                        "ja": "Tsukuba",
+                        "en": "Tsukuba"
+                    },
+                    "is_international_presentation": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0018125/presentations/2492748",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0018125/presentations",
+                    "rm:id": "2492748",
+                    "rm:user_id": "1000047658",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-15T17:40:01Z",
+                    "rm:modifier_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-01-15T17:40:01Z",
+                    "presentation_title": {
+                        "ja": "制約密度汎関数法による有機半導体正孔移動度の予測",
+                        "en": "制約密度汎関数法による有機半導体正孔移動度の予測"
+                    },
+                    "presenters": {
+                        "ja": [
+                            {
+                                "name": "守橋,健二"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "守橋,健二"
+                            }
+                        ]
+                    },
+                    "presenters_text": {
+                        "ja": "守橋,健二",
+                        "en": "守橋,健二"
+                    },
+                    "event": {
+                        "ja": "近畿化学協会コンピュータ化学部会",
+                        "en": "近畿化学協会コンピュータ化学部会"
+                    },
+                    "publication_date": "2012-11-06",
+                    "invited": true,
+                    "languages": [
+                        "jpn"
+                    ],
+                    "presentation_type": "oral_presentation",
+                    "location": {
+                        "ja": "大阪",
+                        "en": "大阪"
+                    },
+                    "is_international_presentation": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0018125/presentations/2492744",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0018125/presentations",
+                    "rm:id": "2492744",
+                    "rm:user_id": "1000047658",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-15T17:40:01Z",
+                    "rm:modifier_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-01-15T17:40:01Z",
+                    "presentation_title": {
+                        "ja": "異分子間正孔移動の解析",
+                        "en": "異分子間正孔移動の解析"
+                    },
+                    "presenters": {
+                        "ja": [
+                            {
+                                "name": "守橋,健二"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "守橋,健二"
+                            }
+                        ]
+                    },
+                    "presenters_text": {
+                        "ja": "守橋,健二",
+                        "en": "守橋,健二"
+                    },
+                    "event": {
+                        "ja": "第6回分子科学討論会",
+                        "en": "第6回分子科学討論会"
+                    },
+                    "publication_date": "2012-09-18",
+                    "invited": false,
+                    "languages": [
+                        "jpn"
+                    ],
+                    "presentation_type": "poster_presentation",
+                    "location": {
+                        "ja": "東京",
+                        "en": "東京"
+                    },
+                    "is_international_presentation": false,
+                    "rm:is_open_access": false
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0018125/association_memberships",
+            "@type": "association_memberships",
+            "@reverse": "https://api.researchmap.jp/read0018125",
+            "total_items": 2,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0018125/association_memberships/11397468",
+                    "@type": "association_memberships",
+                    "@reverse": "https://api.researchmap.jp/read0018125/association_memberships",
+                    "rm:id": "11397468",
+                    "rm:user_id": "1000047658",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-15T17:40:01Z",
+                    "rm:modifier_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-01-15T17:40:01Z",
+                    "academic_society_name": {
+                        "ja": "分子科学会",
+                        "en": "JAPAN SOCIETY FOR MOLECULAR SCIENCE"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0018125/association_memberships/11397467",
+                    "@type": "association_memberships",
+                    "@reverse": "https://api.researchmap.jp/read0018125/association_memberships",
+                    "rm:id": "11397467",
+                    "rm:user_id": "1000047658",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-15T17:40:01Z",
+                    "rm:modifier_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-01-15T17:40:01Z",
+                    "academic_society_name": {
+                        "ja": "日本化学会",
+                        "en": "Chemical Society of Japan"
+                    }
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0018125/research_projects",
+            "@type": "research_projects",
+            "@reverse": "https://api.researchmap.jp/read0018125",
+            "total_items": 5,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0018125/research_projects/14566764",
+                    "@type": "research_projects",
+                    "@reverse": "https://api.researchmap.jp/read0018125/research_projects",
+                    "rm:id": "14566764",
+                    "rm:user_id": "1000047658",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-15T17:40:01Z",
+                    "rm:modifier_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-01-15T17:40:01Z",
+                    "research_project_title": {
+                        "ja": "フラグメント分子軌道法による生体分子計算システムの開発"
+                    },
+                    "investigators": {
+                        "ja": [
+                            {
+                                "name": "田中成典"
+                            }
+                        ]
+                    },
+                    "offer_organization": {
+                        "ja": "独立行政法人科学技術振興機構"
+                    },
+                    "system_name": {
+                        "ja": "出資金による受託研究"
+                    },
+                    "from_date": "2004-10",
+                    "to_date": "2009-09",
+                    "overall_grant_amount": {
+                        "indirect_cost": "0",
+                        "total_cost": "13200000",
+                        "direct_cost": "0"
+                    },
+                    "description": {
+                        "ja": "フラグメント分子軌道法プログラムに密度汎関数計算を組み込み、タンパク質やDNAなどの生体高分子の電子状態に密度汎関数計算を適用できるようにする。"
+                    },
+                    "fund_type": "competitive_research_funding"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0018125/research_projects/14566765",
+                    "@type": "research_projects",
+                    "@reverse": "https://api.researchmap.jp/read0018125/research_projects",
+                    "rm:id": "14566765",
+                    "rm:user_id": "1000047658",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-15T17:40:01Z",
+                    "rm:modifier_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-01-15T17:40:01Z",
+                    "research_project_title": {
+                        "ja": "有機材料の電子移動効率、エネルギー移動効率の理論的解析"
+                    },
+                    "investigators": {
+                        "ja": [
+                            {
+                                "name": "守橋健二"
+                            }
+                        ]
+                    },
+                    "offer_organization": {
+                        "ja": "出光興産株式会社中央研究所"
+                    },
+                    "system_name": {
+                        "ja": "国内共同研究"
+                    },
+                    "from_date": "2007-10",
+                    "to_date": "2009-03",
+                    "research_project_owner_role": "principal_investigator",
+                    "overall_grant_amount": {
+                        "indirect_cost": "0",
+                        "total_cost": "11000000",
+                        "direct_cost": "0"
+                    },
+                    "description": {
+                        "ja": "電子移動に関する有機材料開発に応用できる量子化学計算プログラムを開発する。"
+                    },
+                    "fund_type": "competitive_research_funding"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0018125/research_projects/14566767",
+                    "@type": "research_projects",
+                    "@reverse": "https://api.researchmap.jp/read0018125/research_projects",
+                    "rm:id": "14566767",
+                    "rm:user_id": "1000047658",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-15T17:40:01Z",
+                    "rm:modifier_id": "R000000022",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-03-18T23:56:06Z",
+                    "research_project_title": {
+                        "ja": "電子移動材料についての密度汎関数計算による解析",
+                        "en": "DFT analysis on electron-transfer systems"
+                    },
+                    "institution_name": {
+                        "ja": "筑波大学",
+                        "en": "University of Tsukuba."
+                    },
+                    "from_date": "2005-04",
+                    "overall_grant_amount": {
+                        "indirect_cost": "0",
+                        "total_cost": "0",
+                        "direct_cost": "0"
+                    },
+                    "description": {
+                        "ja": "正孔―電子輸送材料の電子状態を計算して、移動度の高い安定な材料開発を理論的に支援する。"
+                    },
+                    "fund_type": "competitive_research_funding"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0018125/research_projects/14566768",
+                    "@type": "research_projects",
+                    "@reverse": "https://api.researchmap.jp/read0018125/research_projects",
+                    "rm:id": "14566768",
+                    "rm:user_id": "1000047658",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-15T17:40:01Z",
+                    "rm:modifier_id": "R000000022",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-03-18T23:56:06Z",
+                    "research_project_title": {
+                        "ja": "イオンラジカルの電子状態",
+                        "en": "Electronic Structures of Ionic Radicals"
+                    },
+                    "system_name": {
+                        "ja": "科学研究費補助金",
+                        "en": "Grant-in-Aid for Scientific Research"
+                    },
+                    "institution_name": {
+                        "ja": "筑波大学",
+                        "en": "University of Tsukuba."
+                    },
+                    "from_date": "1985",
+                    "overall_grant_amount": {
+                        "indirect_cost": "0",
+                        "total_cost": "0",
+                        "direct_cost": "0"
+                    },
+                    "description": {
+                        "ja": "イオンラジカルの磁気的物性をDFT計算より予測する。"
+                    },
+                    "fund_type": "competitive_research_funding"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0018125/research_projects/14566766",
+                    "@type": "research_projects",
+                    "@reverse": "https://api.researchmap.jp/read0018125/research_projects",
+                    "rm:id": "14566766",
+                    "rm:user_id": "1000047658",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-15T17:40:01Z",
+                    "rm:modifier_id": "R000000022",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-03-18T23:56:06Z",
+                    "research_project_title": {
+                        "ja": "生体高分子の電子状態に対するDFT計算の応用",
+                        "en": "Application of Density Functional Theory to large biomolecules"
+                    },
+                    "institution_name": {
+                        "ja": "筑波大学",
+                        "en": "University of Tsukuba."
+                    },
+                    "overall_grant_amount": {
+                        "indirect_cost": "0",
+                        "total_cost": "0",
+                        "direct_cost": "0"
+                    },
+                    "description": {
+                        "ja": "タンパク質やDNAのような大きな生体分子と阻害剤となる分子間の相互作用を明らかにするために密度汎関数(DFT)計算を応用する。大規模な分子系に対して応用可能なDFT計算プログラムを開発する。"
+                    },
+                    "fund_type": "competitive_research_funding"
+                }
+            ]
+        }
+    ]
+}

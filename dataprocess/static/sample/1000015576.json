@@ -1,0 +1,2609 @@
+{
+    "@context": "https://api.researchmap.jp/researcher.jsonld",
+    "@id": "https://api.researchmap.jp/read0008333?format=json",
+    "@type": "researchers",
+    "rm:user_id": "1000015576",
+    "rm:creator_id": "1000015576",
+    "rm:creator_type": "myself",
+    "rm:created": "2010-12-06T15:00:00Z",
+    "rm:modifier_id": "R000000022",
+    "rm:modifier_type": "institution",
+    "rm:modified": "2024-07-22T02:27:45Z",
+    "permalink": "read0008333",
+    "family_name": {
+        "ja": "加藤",
+        "ja-Kana": "カトウ",
+        "en": "KATO"
+    },
+    "given_name": {
+        "ja": "毅",
+        "ja-Kana": "タケシ",
+        "en": "Takeshi"
+    },
+    "display_name_kana": "disclosed",
+    "display_nickname": "closed",
+    "display_image": "disclosed",
+    "display_contact_point": "researchers_only",
+    "affiliations": [
+        {
+            "affiliation": {
+                "en": "University of Tsukuba",
+                "ja": "筑波大学"
+            },
+            "section": {
+                "en": "University of Tsukuba",
+                "ja": "筑波大学"
+            },
+            "job": {
+                "ja": "准教授",
+                "en": "Associate Professor"
+            },
+            "display_affiliation": "disclosed",
+            "display_job": "disclosed",
+            "rm:institution_code": "0408000000"
+        }
+    ],
+    "display_profile": "researchers_only",
+    "display_url": "closed",
+    "identifiers": {
+        "j_global_id": [
+            "200901088326390278"
+        ]
+    },
+    "rm:erad_id_verified": false,
+    "rm:orc_id_verified": false,
+    "display_erad_id": "closed",
+    "display_orc_id": "closed",
+    "display_researcher_id": "disclosed",
+    "display_j_global_id": "disclosed",
+    "see_also": [
+        {
+            "label": "j_global",
+            "@id": "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=200901088326390278"
+        }
+    ],
+    "@graph": [
+        {
+            "@id": "https://api.researchmap.jp/read0008333/research_areas",
+            "@type": "research_areas",
+            "@reverse": "https://api.researchmap.jp/read0008333",
+            "total_items": 1,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0008333/research_areas/8883722",
+                    "@type": "research_areas",
+                    "@reverse": "https://api.researchmap.jp/read0008333/research_areas",
+                    "rm:id": "8883722",
+                    "rm:user_id": "1000015576",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-15T17:40:01Z",
+                    "rm:modifier_id": "R000000022",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2021-05-27T08:05:32Z",
+                    "discipline_number": "A900",
+                    "item_number": "A09020",
+                    "discipline": {
+                        "ja": "人文・社会",
+                        "en": "Humanities & social sciences"
+                    },
+                    "research_field": {
+                        "ja": "教育社会学",
+                        "en": "Sociology of education"
+                    }
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0008333/education",
+            "@type": "education",
+            "@reverse": "https://api.researchmap.jp/read0008333",
+            "total_items": 2,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0008333/education/17695653",
+                    "@type": "education",
+                    "@reverse": "https://api.researchmap.jp/read0008333/education",
+                    "rm:id": "17695653",
+                    "rm:user_id": "1000015576",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-15T17:40:01Z",
+                    "rm:modifier_id": "R000000022",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-09-30T23:18:55Z",
+                    "to_date": "1991",
+                    "rm:institution_code": "0192050000",
+                    "affiliation": {
+                        "ja": "東京工業大学",
+                        "en": "Tokyo Institute of Technology"
+                    },
+                    "department": {
+                        "ja": "理工学研究科",
+                        "en": "Graduate School, Division of Science and Engineering"
+                    },
+                    "course": {
+                        "ja": "社会工学"
+                    },
+                    "address_country": "JPN"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008333/education/17695652",
+                    "@type": "education",
+                    "@reverse": "https://api.researchmap.jp/read0008333/education",
+                    "rm:id": "17695652",
+                    "rm:user_id": "1000015576",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-15T17:40:01Z",
+                    "rm:modifier_id": "R000000022",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-09-30T23:18:55Z",
+                    "to_date": "1989",
+                    "rm:institution_code": "0192005000",
+                    "affiliation": {
+                        "ja": "東京工業大学",
+                        "en": "Tokyo Institute of Technology"
+                    },
+                    "department": {
+                        "ja": "工学部",
+                        "en": "Faculty of Engineering"
+                    },
+                    "course": {
+                        "ja": "社会工学"
+                    },
+                    "address_country": "JPN"
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0008333/published_papers",
+            "@type": "published_papers",
+            "@reverse": "https://api.researchmap.jp/read0008333",
+            "total_items": 60,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0008333/published_papers/46959150",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0008333/published_papers",
+                    "rm:id": "46959150",
+                    "rm:user_id": "1000015576",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "R000000022",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2024-07-04T04:06:40Z",
+                    "rm:modifier_id": "R000000022",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2024-07-04T04:06:40Z",
+                    "paper_title": {
+                        "ja": "生成AIと協調する社会調査法",
+                        "en": "生成AIと協調する社会調査法"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "加藤, 毅"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "加藤, 毅"
+                            }
+                        ]
+                    },
+                    "publication_date": "2024-03",
+                    "publication_name": {
+                        "ja": "大学経営政策研究",
+                        "en": "大学経営政策研究"
+                    },
+                    "number": "14",
+                    "starting_page": "183",
+                    "ending_page": "197",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": true,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008333/published_papers/42861034",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0008333/published_papers",
+                    "rm:id": "42861034",
+                    "rm:user_id": "1000015576",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "R000000022",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2023-07-20T06:54:02Z",
+                    "rm:modifier_id": "R000000022",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2024-07-04T04:06:40Z",
+                    "paper_title": {
+                        "en": "近未来の大学経営と経営人材養成",
+                        "ja": "近未来の大学経営と経営人材養成"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "加藤, 毅"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "加藤, 毅"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "en": "大学教育学会",
+                        "ja": "大学教育学会"
+                    },
+                    "publication_date": "2023-07",
+                    "publication_name": {
+                        "en": "Journal of Japan Association for College and University Education",
+                        "ja": "大学教育学会誌"
+                    },
+                    "volume": "45",
+                    "number": "1",
+                    "starting_page": "56",
+                    "ending_page": "61",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": true,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "1344-2449"
+                        ]
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008333/published_papers/42861035",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0008333/published_papers",
+                    "rm:id": "42861035",
+                    "rm:user_id": "1000015576",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "R000000022",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2023-07-20T06:54:02Z",
+                    "rm:modifier_id": "R000000022",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2023-07-20T06:54:02Z",
+                    "paper_title": {
+                        "ja": "激変した高等教育政策",
+                        "en": "激変した高等教育政策"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "加藤, 毅"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "加藤, 毅"
+                            }
+                        ]
+                    },
+                    "publication_date": "2022-11",
+                    "publication_name": {
+                        "ja": "大学マネジメント",
+                        "en": "大学マネジメント"
+                    },
+                    "number": "209",
+                    "starting_page": "39",
+                    "ending_page": "42",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008333/published_papers/42861036",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0008333/published_papers",
+                    "rm:id": "42861036",
+                    "rm:user_id": "1000015576",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "R000000022",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2023-07-20T06:54:02Z",
+                    "rm:modifier_id": "R000000022",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2023-07-20T06:54:02Z",
+                    "paper_title": {
+                        "ja": "近未来の大学DX",
+                        "en": "近未来の大学DX"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "加藤, 毅"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "加藤, 毅"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "大学マネジメント研究会",
+                        "en": "大学マネジメント研究会"
+                    },
+                    "publication_date": "2022-09",
+                    "publication_name": {
+                        "ja": "大学マネジメント",
+                        "en": "大学マネジメント"
+                    },
+                    "number": "207",
+                    "starting_page": "2",
+                    "ending_page": "6",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008333/published_papers/38242502",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0008333/published_papers",
+                    "rm:id": "38242502",
+                    "rm:user_id": "1000015576",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "R000000022",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2022-07-07T00:30:55Z",
+                    "rm:modifier_id": "R000000022",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2022-07-07T00:30:55Z",
+                    "paper_title": {
+                        "ja": "IRのための社会調査法",
+                        "en": "IRのための社会調査法"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "加藤, 毅"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "加藤, 毅"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "大学マネジメント研究会",
+                        "en": "大学マネジメント研究会"
+                    },
+                    "publication_date": "2022-04",
+                    "publication_name": {
+                        "ja": "大学マネジメント",
+                        "en": "大学マネジメント"
+                    },
+                    "volume": "18",
+                    "number": "1",
+                    "starting_page": "38",
+                    "ending_page": "45",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": true,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "1882-4633"
+                        ]
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008333/published_papers/33033437",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0008333/published_papers",
+                    "rm:id": "33033437",
+                    "rm:user_id": "1000015576",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "R000000022",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2021-07-07T07:46:02Z",
+                    "rm:modifier_id": "R000000022",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2021-07-07T07:46:02Z",
+                    "paper_title": {
+                        "ja": "ICTおよびデータ革命が駆動する大学の解放と開放 ー大学マネジメントに対する新型感染症対策のインパクトー",
+                        "en": "ICTおよびデータ革命が駆動する大学の解放と開放 ー大学マネジメントに対する新型感染症対策のインパクトー"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "加藤,毅"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "加藤,毅"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "筑波大学大学研究センター",
+                        "en": "Research Center for University Studies, University of TSUKUBA"
+                    },
+                    "publication_date": "2021-03",
+                    "publication_name": {
+                        "ja": "大学研究",
+                        "en": "University Studies"
+                    },
+                    "number": "47",
+                    "starting_page": "21",
+                    "ending_page": "32",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": true,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008333/published_papers/28762797",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0008333/published_papers",
+                    "rm:id": "28762797",
+                    "rm:user_id": "1000015576",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "R000000022",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-07-08T23:26:46Z",
+                    "rm:modifier_id": "R000000022",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-07-08T23:26:46Z",
+                    "paper_title": {
+                        "ja": "マネジメント課題としての大学職員養成",
+                        "en": "University Manager Development as Management Issue"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "加藤,毅"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "加藤,毅"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "筑波大学",
+                        "en": "University of Tsukuba"
+                    },
+                    "publication_date": "2020-03",
+                    "publication_name": {
+                        "ja": "大学研究",
+                        "en": "University studies"
+                    },
+                    "number": "46",
+                    "starting_page": "3",
+                    "ending_page": "28",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "0916-0264"
+                        ]
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008333/published_papers/28762796",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0008333/published_papers",
+                    "rm:id": "28762796",
+                    "rm:user_id": "1000015576",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "R000000022",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-07-08T23:26:46Z",
+                    "rm:modifier_id": "R000000022",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-07-08T23:26:46Z",
+                    "paper_title": {
+                        "ja": "数値による成果主義とIR アウトプット指標の効用とその先に広がるIRの豊穣",
+                        "en": "数値による成果主義とIR アウトプット指標の効用とその先に広がるIRの豊穣"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "加藤,毅"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "加藤,毅"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "大正大学エンロールメント・マネジメント研究所",
+                        "en": "大正大学エンロールメント・マネジメント研究所"
+                    },
+                    "publication_date": "2020-03",
+                    "publication_name": {
+                        "ja": "エンロールメント・マネジメントとIR",
+                        "en": "エンロールメント・マネジメントとIR"
+                    },
+                    "number": "1",
+                    "starting_page": "31",
+                    "ending_page": "41",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "research_institution",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "2435-1628"
+                        ]
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008333/published_papers/28762795",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0008333/published_papers",
+                    "rm:id": "28762795",
+                    "rm:user_id": "1000015576",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "R000000022",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-07-08T23:26:46Z",
+                    "rm:modifier_id": "R000000022",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-07-08T23:26:46Z",
+                    "paper_title": {
+                        "ja": "建学の精神に導かれる大学マネジメント",
+                        "en": "建学の精神に導かれる大学マネジメント"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "加藤,毅"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "加藤,毅"
+                            }
+                        ]
+                    },
+                    "publication_date": "2019-11",
+                    "publication_name": {
+                        "ja": "教育学術新聞",
+                        "en": "教育学術新聞"
+                    },
+                    "number": "2789",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "published_paper_type": "research_society",
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008333/published_papers/19819678",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0008333/published_papers",
+                    "rm:id": "19819678",
+                    "rm:user_id": "1000015576",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-15T17:40:01Z",
+                    "rm:modifier_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-01-15T17:40:01Z",
+                    "paper_title": {
+                        "ja": "大学職員の成長モデルと育成枠組み",
+                        "en": "大学職員の成長モデルと育成枠組み"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "加藤,毅"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "加藤,毅"
+                            }
+                        ]
+                    },
+                    "publication_date": "2018-01",
+                    "publication_name": {
+                        "ja": "大学研究",
+                        "en": "大学研究"
+                    },
+                    "number": "44",
+                    "starting_page": "3",
+                    "ending_page": "19",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008333/published_papers/19819679",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0008333/published_papers",
+                    "rm:id": "19819679",
+                    "rm:user_id": "1000015576",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-15T17:40:01Z",
+                    "rm:modifier_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-01-15T17:40:01Z",
+                    "paper_title": {
+                        "ja": "共創する大学マネジメント ―社会調査研究の可能性を求めて―",
+                        "en": "共創する大学マネジメント ―社会調査研究の可能性を求めて―"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "加藤,毅"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "加藤,毅"
+                            }
+                        ]
+                    },
+                    "publication_date": "2017-10",
+                    "publication_name": {
+                        "ja": "『大学研究』",
+                        "en": "University Research"
+                    },
+                    "number": "43",
+                    "starting_page": "3",
+                    "ending_page": "23",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008333/published_papers/19819686",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0008333/published_papers",
+                    "rm:id": "19819686",
+                    "rm:user_id": "1000015576",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-15T17:40:01Z",
+                    "rm:modifier_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-01-15T17:40:01Z",
+                    "paper_title": {
+                        "ja": "大学職員が拓く教育マネジメント 序論",
+                        "en": "大学職員が拓く教育マネジメント 序論"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "Kato,Takeshi"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Kato,Takeshi"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "マネジメント研究会",
+                        "en": "マネジメント研究会"
+                    },
+                    "publication_date": "2017-04",
+                    "publication_name": {
+                        "ja": "大学マネジメント",
+                        "en": "University & college management"
+                    },
+                    "volume": "13",
+                    "number": "1",
+                    "starting_page": "2",
+                    "ending_page": "3",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "1882-4633"
+                        ]
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008333/published_papers/19819680",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0008333/published_papers",
+                    "rm:id": "19819680",
+                    "rm:user_id": "1000015576",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-15T17:40:01Z",
+                    "rm:modifier_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-01-15T17:40:01Z",
+                    "paper_title": {
+                        "ja": "大学職員に期待される教育マネジメントの地平",
+                        "en": "大学職員に期待される教育マネジメントの地平"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "Kato,Takeshi"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Kato,Takeshi"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "マネジメント研究会",
+                        "en": "マネジメント研究会"
+                    },
+                    "publication_date": "2017-04",
+                    "publication_name": {
+                        "ja": "大学マネジメント",
+                        "en": "University & college management"
+                    },
+                    "volume": "13",
+                    "number": "1",
+                    "starting_page": "14",
+                    "ending_page": "22",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "1882-4633"
+                        ]
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008333/published_papers/19819685",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0008333/published_papers",
+                    "rm:id": "19819685",
+                    "rm:user_id": "1000015576",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-15T17:40:01Z",
+                    "rm:modifier_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-01-15T17:40:01Z",
+                    "paper_title": {
+                        "ja": "大学職員の仕事の構造",
+                        "en": "大学職員の仕事の構造"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "Kato,Takeshi"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Kato,Takeshi"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "広島大学高等教育研究開発センター",
+                        "en": "広島大学高等教育研究開発センター"
+                    },
+                    "publication_date": "2017-03",
+                    "publication_name": {
+                        "ja": "高等教育研究叢書",
+                        "en": "高等教育研究叢書"
+                    },
+                    "number": "136",
+                    "starting_page": "1",
+                    "ending_page": "17",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008333/published_papers/19819684",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0008333/published_papers",
+                    "rm:id": "19819684",
+                    "rm:user_id": "1000015576",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-15T17:40:01Z",
+                    "rm:modifier_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-01-15T17:40:01Z",
+                    "paper_title": {
+                        "ja": "大学職員のプロファイル",
+                        "en": "大学職員のプロファイル"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "Kato,Takeshi"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Kato,Takeshi"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "広島大学高等教育研究開発センター",
+                        "en": "広島大学高等教育研究開発センター"
+                    },
+                    "publication_date": "2017-03",
+                    "publication_name": {
+                        "ja": "高等教育研究叢書",
+                        "en": "高等教育研究叢書"
+                    },
+                    "number": "136",
+                    "starting_page": "19",
+                    "ending_page": "26",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008333/published_papers/19819683",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0008333/published_papers",
+                    "rm:id": "19819683",
+                    "rm:user_id": "1000015576",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-15T17:40:01Z",
+                    "rm:modifier_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-01-15T17:40:01Z",
+                    "paper_title": {
+                        "ja": "大学職員による個人的取組みの展開",
+                        "en": "大学職員による個人的取組みの展開"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "Kato,Takeshi"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Kato,Takeshi"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "広島大学高等教育研究開発センター",
+                        "en": "広島大学高等教育研究開発センター"
+                    },
+                    "publication_date": "2017-03",
+                    "publication_name": {
+                        "ja": "高等教育研究叢書",
+                        "en": "高等教育研究叢書"
+                    },
+                    "number": "136",
+                    "starting_page": "27",
+                    "ending_page": "42",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008333/published_papers/19819682",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0008333/published_papers",
+                    "rm:id": "19819682",
+                    "rm:user_id": "1000015576",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-15T17:40:01Z",
+                    "rm:modifier_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-01-15T17:40:01Z",
+                    "paper_title": {
+                        "ja": "新規高度課題における知識調達と蓄積",
+                        "en": "新規高度課題における知識調達と蓄積"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "Kato,Takeshi"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Kato,Takeshi"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "広島大学高等教育研究開発センター",
+                        "en": "広島大学高等教育研究開発センター"
+                    },
+                    "publication_date": "2017-03",
+                    "publication_name": {
+                        "ja": "高等教育研究叢書",
+                        "en": "高等教育研究叢書"
+                    },
+                    "number": "136",
+                    "starting_page": "43",
+                    "ending_page": "52",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008333/published_papers/19819681",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0008333/published_papers",
+                    "rm:id": "19819681",
+                    "rm:user_id": "1000015576",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-15T17:40:01Z",
+                    "rm:modifier_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-01-15T17:40:01Z",
+                    "paper_title": {
+                        "ja": "職場における学習支援体制と成果",
+                        "en": "職場における学習支援体制と成果"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "Kato,Takeshi"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Kato,Takeshi"
+                            }
+                        ]
+                    },
+                    "publication_date": "2017-03",
+                    "publication_name": {
+                        "ja": "高等教育研究叢書",
+                        "en": "広島大学高等教育研究開発センター"
+                    },
+                    "number": "136",
+                    "starting_page": "53",
+                    "ending_page": "63",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008333/published_papers/19819687",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0008333/published_papers",
+                    "rm:id": "19819687",
+                    "rm:user_id": "1000015576",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-15T17:40:01Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-08-27T11:18:58Z",
+                    "paper_title": {
+                        "ja": "大学院における大学職員養成プログラムの可能性",
+                        "en": "大学院における大学職員養成プログラムの可能性"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "加藤,毅"
+                            }
+                        ],
+                        "ja": [
+                            {
+                                "name": "加藤,毅"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "筑波大学大学研究センター"
+                    },
+                    "publication_date": "2013-03",
+                    "publication_name": {
+                        "ja": "大学研究",
+                        "en": "大学研究"
+                    },
+                    "number": "39",
+                    "starting_page": "19",
+                    "ending_page": "29",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "0916-0264"
+                        ],
+                        "cinii_na_id": [
+                            "120005317390"
+                        ],
+                        "cinii_nc_id": [
+                            "AN1001681X"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/120005317390",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_books",
+                            "@id": "http://ci.nii.ac.jp/ncid/AN1001681X",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "http://id.ndl.go.jp/bib/024835174",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "http://hdl.handle.net/2241/119632",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008333/published_papers/19819688",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0008333/published_papers",
+                    "rm:id": "19819688",
+                    "rm:user_id": "1000015576",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-15T17:40:01Z",
+                    "rm:modifier_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-01-15T17:40:01Z",
+                    "paper_title": {
+                        "ja": "成長する職員が大学を動かす",
+                        "en": "成長する職員が大学を動かす"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "加藤, 毅"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "加藤, 毅"
+                            }
+                        ]
+                    },
+                    "publication_date": "2011-11",
+                    "publication_name": {
+                        "ja": "IDE－現代の高等教育",
+                        "en": "IDE－現代の高等教育"
+                    },
+                    "number": "535",
+                    "starting_page": "10-14頁",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0008333/books_etc",
+            "@type": "books_etc",
+            "@reverse": "https://api.researchmap.jp/read0008333",
+            "total_items": 6,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0008333/books_etc/33033431",
+                    "@type": "books_etc",
+                    "@reverse": "https://api.researchmap.jp/read0008333/books_etc",
+                    "rm:id": "33033431",
+                    "rm:user_id": "1000015576",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "R000000022",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2021-07-07T07:45:59Z",
+                    "rm:modifier_id": "R000000022",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2023-03-09T03:32:00Z",
+                    "book_title": {
+                        "ja": "政策課題としての大学マネジメント人材養成",
+                        "en": "University Manager Development as a Policy Issue"
+                    },
+                    "book_owner_role": "single_work",
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "加藤,毅"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "加藤,毅"
+                            }
+                        ]
+                    },
+                    "book_owner_range": {
+                        "ja": "政策課題としての大学マネジメント人材養成",
+                        "en": "University Manager Development as a Policy Issue"
+                    },
+                    "publisher": {
+                        "ja": "広島大学高等教育研究開発センター",
+                        "en": "広島大学高等教育研究開発センター"
+                    },
+                    "publication_date": "2021-03",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "book_type": "scholarly_book",
+                    "identifiers": {
+                        "isbn": [
+                            "9784866370309"
+                        ]
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008333/books_etc/15524893",
+                    "@type": "books_etc",
+                    "@reverse": "https://api.researchmap.jp/read0008333/books_etc",
+                    "rm:id": "15524893",
+                    "rm:user_id": "1000015576",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-15T17:40:01Z",
+                    "rm:modifier_id": "R000000022",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-10-14T23:27:37Z",
+                    "book_title": {
+                        "ja": "教育社会学事典",
+                        "en": "教育社会学事典"
+                    },
+                    "book_owner_role": "contributor",
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "加藤,毅"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "加藤,毅"
+                            }
+                        ]
+                    },
+                    "book_owner_range": {
+                        "ja": "アカデミーとジャーナリズム",
+                        "en": "アカデミーとジャーナリズム"
+                    },
+                    "publication_date": "2018-01",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "book_type": "scholarly_book",
+                    "identifiers": {
+                        "isbn": [
+                            "9784621302330"
+                        ]
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008333/books_etc/15524897",
+                    "@type": "books_etc",
+                    "@reverse": "https://api.researchmap.jp/read0008333/books_etc",
+                    "rm:id": "15524897",
+                    "rm:user_id": "1000015576",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-15T17:40:01Z",
+                    "rm:modifier_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-01-15T17:40:01Z",
+                    "book_title": {
+                        "ja": "リーディングス日本の高等教育8 大学とマネー",
+                        "en": "リーディングス日本の高等教育8 大学とマネー"
+                    },
+                    "book_owner_role": "single_work",
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "島一則, 他"
+                            },
+                            {
+                                "name": "加藤, 毅"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "島一則, 他"
+                            },
+                            {
+                                "name": "加藤, 毅"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "玉川大学出版部",
+                        "en": "玉川大学出版部"
+                    },
+                    "publication_date": "2011-02",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "book_type": "scholarly_book"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008333/books_etc/15524896",
+                    "@type": "books_etc",
+                    "@reverse": "https://api.researchmap.jp/read0008333/books_etc",
+                    "rm:id": "15524896",
+                    "rm:user_id": "1000015576",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-15T17:40:01Z",
+                    "rm:modifier_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-01-15T17:40:01Z",
+                    "book_title": {
+                        "ja": "民間助成イノベーション",
+                        "en": "民間助成イノベーション"
+                    },
+                    "book_owner_role": "single_work",
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "加藤, 毅"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "加藤, 毅"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "助成財団センター",
+                        "en": "助成財団センター"
+                    },
+                    "publication_date": "2007-01",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "book_type": "scholarly_book"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008333/books_etc/15524895",
+                    "@type": "books_etc",
+                    "@reverse": "https://api.researchmap.jp/read0008333/books_etc",
+                    "rm:id": "15524895",
+                    "rm:user_id": "1000015576",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-15T17:40:01Z",
+                    "rm:modifier_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-01-15T17:40:01Z",
+                    "book_title": {
+                        "ja": "日本の大学教授市場",
+                        "en": "日本の大学教授市場"
+                    },
+                    "book_owner_role": "single_work",
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "加藤, 毅"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "加藤, 毅"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "玉川大学出版部",
+                        "en": "玉川大学出版部"
+                    },
+                    "publication_date": "2007-01",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "book_type": "scholarly_book"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008333/books_etc/15524894",
+                    "@type": "books_etc",
+                    "@reverse": "https://api.researchmap.jp/read0008333/books_etc",
+                    "rm:id": "15524894",
+                    "rm:user_id": "1000015576",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-15T17:40:01Z",
+                    "rm:modifier_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-01-15T17:40:01Z",
+                    "book_title": {
+                        "ja": "生活時間の社会学",
+                        "en": "Sociology of Time Budgets"
+                    },
+                    "book_owner_role": "single_work",
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "加藤, 毅"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "加藤, 毅"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "東京大学出版会",
+                        "en": "東京大学出版会"
+                    },
+                    "publication_date": "1995-12",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "book_type": "scholarly_book"
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0008333/presentations",
+            "@type": "presentations",
+            "@reverse": "https://api.researchmap.jp/read0008333",
+            "total_items": 22,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0008333/presentations/46958855",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0008333/presentations",
+                    "rm:id": "46958855",
+                    "rm:user_id": "1000015576",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "R000000022",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2024-07-04T04:06:29Z",
+                    "rm:modifier_id": "R000000022",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2024-07-04T04:06:29Z",
+                    "presentation_title": {
+                        "ja": "大学教育におけるSDGsの推進に関する研究",
+                        "en": "大学教育におけるSDGsの推進に関する研究"
+                    },
+                    "presenters": {
+                        "ja": [
+                            {
+                                "name": "加藤, 毅"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "加藤, 毅"
+                            }
+                        ]
+                    },
+                    "event": {
+                        "ja": "大学教育学会",
+                        "en": "大学教育学会"
+                    },
+                    "from_event_date": "2024-06-08",
+                    "to_event_date": "2024-06-09",
+                    "invited": false,
+                    "promoter": {
+                        "ja": "大学教育学会"
+                    },
+                    "location": {
+                        "ja": "神戸"
+                    },
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008333/presentations/46958854",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0008333/presentations",
+                    "rm:id": "46958854",
+                    "rm:user_id": "1000015576",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "R000000022",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2024-07-04T04:06:29Z",
+                    "rm:modifier_id": "R000000022",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2024-07-04T04:06:29Z",
+                    "presentation_title": {
+                        "ja": "大学マネジメント人材養成の課題",
+                        "en": "大学マネジメント人材養成の課題"
+                    },
+                    "presenters": {
+                        "ja": [
+                            {
+                                "name": "加藤, 毅"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "加藤, 毅"
+                            }
+                        ]
+                    },
+                    "event": {
+                        "ja": "日本高等教育学会第27回大会",
+                        "en": "日本高等教育学会第27回大会"
+                    },
+                    "from_event_date": "2024-05-25",
+                    "to_event_date": "2024-05-26",
+                    "invited": false,
+                    "promoter": {
+                        "ja": "日本高等教育学会"
+                    },
+                    "location": {
+                        "ja": "神奈川"
+                    },
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008333/presentations/42860880",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0008333/presentations",
+                    "rm:id": "42860880",
+                    "rm:user_id": "1000015576",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "R000000022",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2023-07-20T06:54:01Z",
+                    "rm:modifier_id": "R000000022",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2023-07-20T06:54:01Z",
+                    "presentation_title": {
+                        "ja": "二元化した大学院博士施策の行方 -近年の大学院博士施策の展開と課題-",
+                        "en": "二元化した大学院博士施策の行方 -近年の大学院博士施策の展開と課題-"
+                    },
+                    "presenters": {
+                        "ja": [
+                            {
+                                "name": "加藤, 毅"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "加藤, 毅"
+                            }
+                        ]
+                    },
+                    "event": {
+                        "ja": "日本高等教育学会第26回大会",
+                        "en": "日本高等教育学会第26回大会"
+                    },
+                    "from_event_date": "2023-06-10",
+                    "to_event_date": "2023-06-11",
+                    "invited": false,
+                    "location": {
+                        "ja": "千葉大学"
+                    },
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008333/presentations/42860881",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0008333/presentations",
+                    "rm:id": "42860881",
+                    "rm:user_id": "1000015576",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "R000000022",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2023-07-20T06:54:01Z",
+                    "rm:modifier_id": "R000000022",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2023-07-20T06:54:01Z",
+                    "presentation_title": {
+                        "ja": "近未来の大学経営と経営人材養成",
+                        "en": "近未来の大学経営と経営人材養成"
+                    },
+                    "presenters": {
+                        "ja": [
+                            {
+                                "name": "加藤, 毅"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "加藤, 毅"
+                            }
+                        ]
+                    },
+                    "event": {
+                        "ja": "大学教育学会2022年度課題研究集会",
+                        "en": "大学教育学会2022年度課題研究集会"
+                    },
+                    "from_event_date": "2022-11-26",
+                    "to_event_date": "2022-11-27",
+                    "invited": false,
+                    "location": {
+                        "ja": "東京都立大学"
+                    },
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008333/presentations/42860882",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0008333/presentations",
+                    "rm:id": "42860882",
+                    "rm:user_id": "1000015576",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "R000000022",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2023-07-20T06:54:01Z",
+                    "rm:modifier_id": "R000000022",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2023-07-20T06:54:01Z",
+                    "presentation_title": {
+                        "ja": "我が国における博士課程教育の再評価と課題",
+                        "en": "我が国における博士課程教育の再評価と課題"
+                    },
+                    "presenters": {
+                        "ja": [
+                            {
+                                "name": "加藤, 毅"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "加藤, 毅"
+                            }
+                        ]
+                    },
+                    "event": {
+                        "ja": "研究イノベーション学会第37回年次学術大会",
+                        "en": "研究イノベーション学会第37回年次学術大会"
+                    },
+                    "from_event_date": "2022-10-29",
+                    "to_event_date": "2022-10-30",
+                    "invited": false,
+                    "location": {
+                        "ja": "オンライン開催"
+                    },
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008333/presentations/41670313",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0008333/presentations",
+                    "rm:id": "41670313",
+                    "rm:user_id": "1000015576",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "R000000022",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2023-03-09T03:32:02Z",
+                    "rm:modifier_id": "R000000022",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2023-03-09T03:32:02Z",
+                    "presentation_title": {
+                        "ja": "加速するデジタル構造改革と大学",
+                        "en": "加速するデジタル構造改革と大学"
+                    },
+                    "presenters": {
+                        "ja": [
+                            {
+                                "name": "加藤, 毅"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "加藤, 毅"
+                            }
+                        ]
+                    },
+                    "event": {
+                        "ja": "大学マネジメントイノベーション研究会",
+                        "en": "大学マネジメントイノベーション研究会"
+                    },
+                    "from_event_date": "2022-06-21",
+                    "to_event_date": "2022-06-21",
+                    "invited": false,
+                    "promoter": {
+                        "ja": "大学マネジメントイノベーション研究会"
+                    },
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008333/presentations/41670312",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0008333/presentations",
+                    "rm:id": "41670312",
+                    "rm:user_id": "1000015576",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "R000000022",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2023-03-09T03:32:02Z",
+                    "rm:modifier_id": "R000000022",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2023-03-09T03:32:02Z",
+                    "presentation_title": {
+                        "ja": "DX導入が直面する課題の克服に向けて",
+                        "en": "DX導入が直面する課題の克服に向けて"
+                    },
+                    "presenters": {
+                        "ja": [
+                            {
+                                "name": "加藤, 毅"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "加藤, 毅"
+                            }
+                        ]
+                    },
+                    "event": {
+                        "ja": "第42回大学職員セミナー",
+                        "en": "第42回大学職員セミナー"
+                    },
+                    "from_event_date": "2021-11-20",
+                    "to_event_date": "2021-11-20",
+                    "invited": false,
+                    "promoter": {
+                        "ja": "大学セミナーハウス"
+                    },
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008333/presentations/38242497",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0008333/presentations",
+                    "rm:id": "38242497",
+                    "rm:user_id": "1000015576",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "R000000022",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2022-07-07T00:30:16Z",
+                    "rm:modifier_id": "R000000022",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2023-03-09T03:32:02Z",
+                    "presentation_title": {
+                        "ja": "マネジメントシステムに依存する大学IR",
+                        "en": "マネジメントシステムに依存する大学IR"
+                    },
+                    "presenters": {
+                        "ja": [
+                            {
+                                "name": "加藤, 毅"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "加藤, 毅"
+                            }
+                        ]
+                    },
+                    "event": {
+                        "ja": "第10回大学マネジメントイノベーション研究会",
+                        "en": "第10回大学マネジメントイノベーション研究会"
+                    },
+                    "publication_date": "2021-03-10",
+                    "from_event_date": "2021-03-10",
+                    "to_event_date": "2021-03-10",
+                    "invited": false,
+                    "languages": [
+                        "jpn"
+                    ],
+                    "presentation_type": "oral_presentation",
+                    "promoter": {
+                        "ja": "大学マネジメントイノベーション研究会",
+                        "en": "大学マネジメントイノベーション研究会"
+                    },
+                    "is_international_presentation": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008333/presentations/33033433",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0008333/presentations",
+                    "rm:id": "33033433",
+                    "rm:user_id": "1000015576",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "R000000022",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2021-07-07T07:46:00Z",
+                    "rm:modifier_id": "R000000022",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2023-03-09T03:32:02Z",
+                    "presentation_title": {
+                        "ja": "大学マネジメントの中核を担うURAの可能性",
+                        "en": "大学マネジメントの中核を担うURAの可能性"
+                    },
+                    "presenters": {
+                        "ja": [
+                            {
+                                "name": "加藤,毅"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "加藤,毅"
+                            }
+                        ]
+                    },
+                    "event": {
+                        "ja": "日本高等教育学会第23回大会",
+                        "en": "日本高等教育学会第23回大会"
+                    },
+                    "publication_date": "2020-05-30",
+                    "from_event_date": "2020-05-30",
+                    "to_event_date": "2020-05-31",
+                    "invited": false,
+                    "languages": [
+                        "jpn"
+                    ],
+                    "presentation_type": "oral_presentation",
+                    "promoter": {
+                        "ja": "日本高等教育学会",
+                        "en": "日本高等教育学会"
+                    },
+                    "location": {
+                        "ja": "東京家政大学",
+                        "en": "日本 東京家政大学"
+                    },
+                    "is_international_presentation": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008333/presentations/33033432",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0008333/presentations",
+                    "rm:id": "33033432",
+                    "rm:user_id": "1000015576",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "R000000022",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2021-07-07T07:46:00Z",
+                    "rm:modifier_id": "R000000022",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2021-07-07T07:46:00Z",
+                    "presentation_title": {
+                        "ja": "大学マネジメントの中核を担うURAの可能性",
+                        "en": "大学マネジメントの中核を担うURAの可能性"
+                    },
+                    "presenters": {
+                        "ja": [
+                            {
+                                "name": "加藤,毅"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "加藤,毅"
+                            }
+                        ]
+                    },
+                    "event": {
+                        "ja": "日本高等教育学会第23回大会",
+                        "en": "日本高等教育学会第23回大会"
+                    },
+                    "publication_date": "2020-05-30",
+                    "invited": false,
+                    "languages": [
+                        "jpn"
+                    ],
+                    "presentation_type": "oral_presentation",
+                    "promoter": {
+                        "ja": "日本高等教育学会",
+                        "en": "日本高等教育学会"
+                    },
+                    "location": {
+                        "ja": "日本 東京家政大学",
+                        "en": "日本 東京家政大学"
+                    },
+                    "is_international_presentation": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008333/presentations/2442539",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0008333/presentations",
+                    "rm:id": "2442539",
+                    "rm:user_id": "1000015576",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-15T17:40:01Z",
+                    "rm:modifier_id": "R000000022",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2023-03-09T03:32:02Z",
+                    "presentation_title": {
+                        "ja": "マネジメント課題としての大学職員養成",
+                        "en": "マネジメント課題としての大学職員養成"
+                    },
+                    "presenters": {
+                        "ja": [
+                            {
+                                "name": "加藤,毅"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "加藤,毅"
+                            }
+                        ]
+                    },
+                    "presenters_text": {
+                        "ja": "加藤,毅",
+                        "en": "加藤,毅"
+                    },
+                    "event": {
+                        "ja": "日本高等教育学会第22回大会",
+                        "en": "日本高等教育学会第22回大会"
+                    },
+                    "publication_date": "2019-06-08",
+                    "from_event_date": "2019-06-08",
+                    "to_event_date": "2019-06-09",
+                    "invited": false,
+                    "languages": [
+                        "jpn"
+                    ],
+                    "presentation_type": "oral_presentation",
+                    "promoter": {
+                        "ja": "日本高等教育学会",
+                        "en": "日本高等教育学会"
+                    },
+                    "location": {
+                        "ja": "石川県金沢市",
+                        "en": "日本 石川県金沢市"
+                    },
+                    "description": {
+                        "ja": "日本高等教育学会第22回大会発表要旨収録（金沢大学）54-55頁",
+                        "en": "日本高等教育学会第22回大会発表要旨収録（金沢大学）54-55頁"
+                    },
+                    "is_international_presentation": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008333/presentations/2442540",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0008333/presentations",
+                    "rm:id": "2442540",
+                    "rm:user_id": "1000015576",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-15T17:40:01Z",
+                    "rm:modifier_id": "R000000022",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2023-03-09T03:32:02Z",
+                    "presentation_title": {
+                        "ja": "学問のライフサイクルからみた高等教育研究",
+                        "en": "学問のライフサイクルからみた高等教育研究"
+                    },
+                    "presenters": {
+                        "ja": [
+                            {
+                                "name": "加藤,毅"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "加藤,毅"
+                            }
+                        ]
+                    },
+                    "presenters_text": {
+                        "ja": "加藤,毅",
+                        "en": "加藤,毅"
+                    },
+                    "event": {
+                        "ja": "日本高等教育学会第21回大会",
+                        "en": "日本高等教育学会第21回大会"
+                    },
+                    "publication_date": "2018-06-02",
+                    "from_event_date": "2018-06-02",
+                    "to_event_date": "2018-06-03",
+                    "invited": true,
+                    "languages": [
+                        "jpn"
+                    ],
+                    "presentation_type": "oral_presentation",
+                    "promoter": {
+                        "ja": "日本高等教育学会",
+                        "en": "日本高等教育学会"
+                    },
+                    "location": {
+                        "ja": "桜美林大学（東京都町田市）",
+                        "en": "日本 桜美林大学（東京都町田市）"
+                    },
+                    "description": {
+                        "ja": "日本高等教育学会第21回大会発表要旨収録（桜美林大学）188-189頁",
+                        "en": "日本高等教育学会第21回大会発表要旨収録（桜美林大学）188-189頁"
+                    },
+                    "is_international_presentation": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008333/presentations/2442541",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0008333/presentations",
+                    "rm:id": "2442541",
+                    "rm:user_id": "1000015576",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-15T17:40:01Z",
+                    "rm:modifier_id": "R000000022",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2023-03-09T03:32:02Z",
+                    "presentation_title": {
+                        "ja": "職員主導による大学マネジメント改革の起点となるSD",
+                        "en": "職員主導による大学マネジメント改革の起点となるSD"
+                    },
+                    "presenters": {
+                        "ja": [
+                            {
+                                "name": "Kato,Takeshi"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Kato,Takeshi"
+                            }
+                        ]
+                    },
+                    "presenters_text": {
+                        "ja": "Kato,Takeshi",
+                        "en": "Kato,Takeshi"
+                    },
+                    "event": {
+                        "ja": "大学行政管理学会20周年記念シンポジウム",
+                        "en": "大学行政管理学会20周年記念シンポジウム"
+                    },
+                    "publication_date": "2017-07-15",
+                    "from_event_date": "2017-07-15",
+                    "to_event_date": "2017-07-15",
+                    "invited": true,
+                    "languages": [
+                        "jpn"
+                    ],
+                    "presentation_type": "nominated_symposium",
+                    "location": {
+                        "ja": "早稲田大学",
+                        "en": "早稲田大学"
+                    },
+                    "is_international_presentation": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008333/presentations/2442542",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0008333/presentations",
+                    "rm:id": "2442542",
+                    "rm:user_id": "1000015576",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-15T17:40:01Z",
+                    "rm:modifier_id": "R000000022",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2023-03-09T03:32:02Z",
+                    "presentation_title": {
+                        "ja": "大学マネジメントを担う高度人材の養成",
+                        "en": "大学マネジメントを担う高度人材の養成"
+                    },
+                    "presenters": {
+                        "ja": [
+                            {
+                                "name": "Kato,Takeshi"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Kato,Takeshi"
+                            }
+                        ]
+                    },
+                    "presenters_text": {
+                        "ja": "Kato,Takeshi",
+                        "en": "Kato,Takeshi"
+                    },
+                    "event": {
+                        "ja": "筑波大学大学研究センター 第60回公開研究会",
+                        "en": "筑波大学大学研究センター 第60回公開研究会"
+                    },
+                    "publication_date": "2017-02-28",
+                    "from_event_date": "2017-02-28",
+                    "to_event_date": "2017-02-28",
+                    "invited": false,
+                    "languages": [
+                        "jpn"
+                    ],
+                    "presentation_type": "nominated_symposium",
+                    "promoter": {
+                        "ja": "筑波大学大学研究センター",
+                        "en": "筑波大学大学研究センター"
+                    },
+                    "is_international_presentation": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008333/presentations/41670314",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0008333/presentations",
+                    "rm:id": "41670314",
+                    "rm:user_id": "1000015576",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "R000000022",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2023-03-09T03:32:02Z",
+                    "rm:modifier_id": "R000000022",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2023-03-09T03:32:02Z",
+                    "presentation_title": {
+                        "ja": "大学マネジメント人材養成に向けたシステム構想",
+                        "en": "大学マネジメント人材養成に向けたシステム構想"
+                    },
+                    "presenters": {
+                        "ja": [
+                            {
+                                "name": "Kato,Takeshi"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Kato,Takeshi"
+                            }
+                        ]
+                    },
+                    "event": {
+                        "ja": "平成28年度私立大学庶務課長会合宿研修",
+                        "en": "平成28年度私立大学庶務課長会合宿研修"
+                    },
+                    "from_event_date": "2016-11-11",
+                    "invited": false,
+                    "promoter": {
+                        "ja": "私立大学庶務課長会"
+                    },
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008333/presentations/41670315",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0008333/presentations",
+                    "rm:id": "41670315",
+                    "rm:user_id": "1000015576",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "R000000022",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2023-03-09T03:32:02Z",
+                    "rm:modifier_id": "R000000022",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2023-03-09T03:32:02Z",
+                    "presentation_title": {
+                        "ja": "教学マネジメントを担う大学職員の可能性",
+                        "en": "教学マネジメントを担う大学職員の可能性"
+                    },
+                    "presenters": {
+                        "ja": [
+                            {
+                                "name": "Kato,Takeshi"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Kato,Takeshi"
+                            }
+                        ]
+                    },
+                    "event": {
+                        "ja": "法政大学第16回FDワークショップ",
+                        "en": "法政大学第16回FDワークショップ"
+                    },
+                    "from_event_date": "2016-09-02",
+                    "to_event_date": "2016-09-02",
+                    "invited": false,
+                    "promoter": {
+                        "ja": "法政大学"
+                    },
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008333/presentations/2442543",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0008333/presentations",
+                    "rm:id": "2442543",
+                    "rm:user_id": "1000015576",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-15T17:40:01Z",
+                    "rm:modifier_id": "R000000022",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2023-03-09T03:32:02Z",
+                    "presentation_title": {
+                        "ja": "大学職員の職務特性と育成環境 -データでみる大学職員の働き方-",
+                        "en": "大学職員の職務特性と育成環境 -データでみる大学職員の働き方-"
+                    },
+                    "presenters": {
+                        "ja": [
+                            {
+                                "name": "Kato,Takeshi"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Kato,Takeshi"
+                            }
+                        ]
+                    },
+                    "presenters_text": {
+                        "ja": "Kato,Takeshi",
+                        "en": "Kato,Takeshi"
+                    },
+                    "event": {
+                        "ja": "大学職員の成長を実現するために何ができるか",
+                        "en": "大学職員の成長を実現するために何ができるか"
+                    },
+                    "publication_date": "2016-07-07",
+                    "from_event_date": "2016-07-07",
+                    "to_event_date": "2016-07-07",
+                    "invited": false,
+                    "languages": [
+                        "jpn"
+                    ],
+                    "presentation_type": "nominated_symposium",
+                    "promoter": {
+                        "ja": "筑波大学大学研究センター",
+                        "en": "筑波大学大学研究センター"
+                    },
+                    "is_international_presentation": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008333/presentations/41670317",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0008333/presentations",
+                    "rm:id": "41670317",
+                    "rm:user_id": "1000015576",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "R000000022",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2023-03-09T03:32:02Z",
+                    "rm:modifier_id": "R000000022",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2023-03-09T03:32:02Z",
+                    "presentation_title": {
+                        "ja": "高等教育学会はニューカマーとどのように向き合うか",
+                        "en": "高等教育学会はニューカマーとどのように向き合うか"
+                    },
+                    "presenters": {
+                        "ja": [
+                            {
+                                "name": "加藤,毅"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "加藤,毅"
+                            }
+                        ]
+                    },
+                    "event": {
+                        "ja": "日本高等教育学会研究交流集会",
+                        "en": "日本高等教育学会研究交流集会"
+                    },
+                    "from_event_date": "2013-01-14",
+                    "invited": true,
+                    "promoter": {
+                        "ja": "日本高等教育学会"
+                    },
+                    "location": {
+                        "ja": "九州大学"
+                    },
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008333/presentations/2442546",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0008333/presentations",
+                    "rm:id": "2442546",
+                    "rm:user_id": "1000015576",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-15T17:40:01Z",
+                    "rm:modifier_id": "R000000022",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2023-03-09T03:32:02Z",
+                    "presentation_title": {
+                        "ja": "躍進する日本型インスティテューショナル・リサーチ",
+                        "en": "躍進する日本型インスティテューショナル・リサーチ"
+                    },
+                    "presenters": {
+                        "ja": [
+                            {
+                                "name": "加藤,毅"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "加藤,毅"
+                            }
+                        ]
+                    },
+                    "presenters_text": {
+                        "ja": "加藤,毅",
+                        "en": "加藤,毅"
+                    },
+                    "event": {
+                        "ja": "日本高等教育学会第14回大会",
+                        "en": "日本高等教育学会第14回大会"
+                    },
+                    "publication_date": "2011-05-29",
+                    "from_event_date": "2011-05-29",
+                    "invited": true,
+                    "languages": [
+                        "jpn"
+                    ],
+                    "presentation_type": "oral_presentation",
+                    "location": {
+                        "ja": "名城大学",
+                        "en": "名城大学"
+                    },
+                    "is_international_presentation": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008333/presentations/2442545",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0008333/presentations",
+                    "rm:id": "2442545",
+                    "rm:user_id": "1000015576",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-15T17:40:01Z",
+                    "rm:modifier_id": "R000000022",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2023-03-09T03:32:02Z",
+                    "presentation_title": {
+                        "ja": "スタッフ・ディベロップメントの現状と課題 −新たなSDプログラム開発に向けて−",
+                        "en": "スタッフ・ディベロップメントの現状と課題 −新たなSDプログラム開発に向けて−"
+                    },
+                    "presenters": {
+                        "ja": [
+                            {
+                                "name": "加藤,毅"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "加藤,毅"
+                            }
+                        ]
+                    },
+                    "presenters_text": {
+                        "ja": "加藤,毅",
+                        "en": "加藤,毅"
+                    },
+                    "event": {
+                        "ja": "日本高等教育学会第13回大会",
+                        "en": "日本高等教育学会第13回大会"
+                    },
+                    "publication_date": "2010-05-29",
+                    "from_event_date": "2010-05-29",
+                    "invited": false,
+                    "languages": [
+                        "jpn"
+                    ],
+                    "presentation_type": "oral_presentation",
+                    "location": {
+                        "ja": "関西国際大学",
+                        "en": "関西国際大学"
+                    },
+                    "is_international_presentation": false,
+                    "rm:is_open_access": false
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0008333/association_memberships",
+            "@type": "association_memberships",
+            "@reverse": "https://api.researchmap.jp/read0008333",
+            "total_items": 4,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0008333/association_memberships/11397292",
+                    "@type": "association_memberships",
+                    "@reverse": "https://api.researchmap.jp/read0008333/association_memberships",
+                    "rm:id": "11397292",
+                    "rm:user_id": "1000015576",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-15T17:40:01Z",
+                    "rm:modifier_id": "R000000022",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2023-03-09T03:32:25Z",
+                    "academic_society_name": {
+                        "ja": "日本教育社会学会",
+                        "en": "THE JAPAN SOCIETY OF EDUCATIONAL SOCIOLOGY"
+                    },
+                    "to_date": "9999"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008333/association_memberships/11397291",
+                    "@type": "association_memberships",
+                    "@reverse": "https://api.researchmap.jp/read0008333/association_memberships",
+                    "rm:id": "11397291",
+                    "rm:user_id": "1000015576",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-15T17:40:01Z",
+                    "rm:modifier_id": "R000000022",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2023-03-09T03:32:25Z",
+                    "academic_society_name": {
+                        "ja": "日本高等教育学会",
+                        "en": "Japan Association of Higher Education Research"
+                    },
+                    "to_date": "9999"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008333/association_memberships/11397290",
+                    "@type": "association_memberships",
+                    "@reverse": "https://api.researchmap.jp/read0008333/association_memberships",
+                    "rm:id": "11397290",
+                    "rm:user_id": "1000015576",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-15T17:40:01Z",
+                    "rm:modifier_id": "R000000022",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2023-03-09T03:32:25Z",
+                    "academic_society_name": {
+                        "ja": "日本行動計量学会",
+                        "en": "The Behaviormetric Society of Japan"
+                    },
+                    "to_date": "9999"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008333/association_memberships/11397289",
+                    "@type": "association_memberships",
+                    "@reverse": "https://api.researchmap.jp/read0008333/association_memberships",
+                    "rm:id": "11397289",
+                    "rm:user_id": "1000015576",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-15T17:40:01Z",
+                    "rm:modifier_id": "R000000022",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2023-03-09T03:32:25Z",
+                    "academic_society_name": {
+                        "ja": "研究・技術計画学会",
+                        "en": "THE JAPAN SOCIETY FOR SCIENCE POLICY AND RESEARCH MANAGEMENT"
+                    },
+                    "to_date": "9999"
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0008333/research_projects",
+            "@type": "research_projects",
+            "@reverse": "https://api.researchmap.jp/read0008333",
+            "total_items": 2,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0008333/research_projects/14543476",
+                    "@type": "research_projects",
+                    "@reverse": "https://api.researchmap.jp/read0008333/research_projects",
+                    "rm:id": "14543476",
+                    "rm:user_id": "1000015576",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-15T17:40:01Z",
+                    "rm:modifier_id": "R000000022",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2021-12-16T00:00:47Z",
+                    "research_project_title": {
+                        "ja": "若手研究者養成システムに関する政策研究",
+                        "en": "Policy study on the training for Younger Researchers"
+                    },
+                    "institution_name": {
+                        "ja": "筑波大学",
+                        "en": "University of Tsukuba."
+                    },
+                    "overall_grant_amount": {
+                        "indirect_cost": "0",
+                        "total_cost": "0",
+                        "direct_cost": "0"
+                    },
+                    "fund_type": "competitive_research_funding"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008333/research_projects/14543475",
+                    "@type": "research_projects",
+                    "@reverse": "https://api.researchmap.jp/read0008333/research_projects",
+                    "rm:id": "14543475",
+                    "rm:user_id": "1000015576",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-15T17:40:01Z",
+                    "rm:modifier_id": "R000000022",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2021-12-16T00:00:47Z",
+                    "research_project_title": {
+                        "ja": "芸術文化政策",
+                        "en": "Policy Study on the management of fine Arts."
+                    },
+                    "institution_name": {
+                        "ja": "筑波大学",
+                        "en": "University of Tsukuba."
+                    },
+                    "overall_grant_amount": {
+                        "indirect_cost": "0",
+                        "total_cost": "0",
+                        "direct_cost": "0"
+                    },
+                    "fund_type": "competitive_research_funding"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,3093 @@
+{
+    "@context": "https://api.researchmap.jp/researcher.jsonld",
+    "@id": "https://api.researchmap.jp/read0010642?format=json",
+    "@type": "researchers",
+    "rm:user_id": "1000022022",
+    "rm:creator_id": "1000022022",
+    "rm:creator_type": "myself",
+    "rm:created": "2011-03-23T15:00:00Z",
+    "rm:modifier_id": "client_id:4soeP_GynCAqaBkY",
+    "rm:modifier_type": "institution",
+    "rm:modified": "2024-01-30T22:19:46Z",
+    "permalink": "read0010642",
+    "family_name": {
+        "ja": "久保",
+        "ja-Kana": "クボ",
+        "en": "KUBO"
+    },
+    "given_name": {
+        "ja": "浩義",
+        "ja-Kana": "ヒロヨシ",
+        "en": "HIROYOSHI"
+    },
+    "display_name_kana": "disclosed",
+    "display_nickname": "disclosed",
+    "display_image": "disclosed",
+    "display_contact_point": "disclosed",
+    "affiliations": [
+        {
+            "affiliation": {
+                "en": "Shinshu University",
+                "ja": "信州大学"
+            },
+            "section": {
+                "en": "Faculty of Science　Department of Science　Course of Biology",
+                "ja": "理学部　理学科　生物学コース"
+            },
+            "job": {
+                "ja": "教授",
+                "en": "Professor"
+            },
+            "display_affiliation": "disclosed",
+            "display_job": "disclosed",
+            "rm:institution_code": "0248019011"
+        }
+    ],
+    "display_profile": "disclosed",
+    "display_url": "disclosed",
+    "identifiers": {
+        "j_global_id": [
+            "200901035094057538"
+        ]
+    },
+    "rm:erad_id_verified": false,
+    "rm:orc_id_verified": false,
+    "display_erad_id": "closed",
+    "display_orc_id": "closed",
+    "display_researcher_id": "disclosed",
+    "display_j_global_id": "disclosed",
+    "see_also": [
+        {
+            "label": "j_global",
+            "@id": "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=200901035094057538"
+        }
+    ],
+    "@graph": [
+        {
+            "@id": "https://api.researchmap.jp/read0010642/research_areas",
+            "@type": "research_areas",
+            "@reverse": "https://api.researchmap.jp/read0010642",
+            "total_items": 1,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0010642/research_areas/30288117",
+                    "@type": "research_areas",
+                    "@reverse": "https://api.researchmap.jp/read0010642/research_areas",
+                    "rm:id": "30288117",
+                    "rm:user_id": "1000022022",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000022022",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2020-10-06T00:26:24Z",
+                    "rm:modifier_id": "1000022022",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2020-10-06T00:26:24Z",
+                    "discipline_number": "A189",
+                    "item_number": "A44030",
+                    "discipline": {
+                        "ja": "ライフサイエンス",
+                        "en": "Life sciences"
+                    },
+                    "research_field": {
+                        "ja": "植物分子、生理科学",
+                        "en": "Plants: molecular biology and physiology"
+                    }
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0010642/published_papers",
+            "@type": "published_papers",
+            "@reverse": "https://api.researchmap.jp/read0010642",
+            "total_items": 27,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0010642/published_papers/42107746",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0010642/published_papers",
+                    "rm:id": "42107746",
+                    "rm:user_id": "1000022022",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_papers",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2023-04-22T00:53:38Z",
+                    "rm:modifier_id": "ai:assign_based_papers",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2023-04-22T00:53:38Z",
+                    "paper_title": {
+                        "en": "A polyphenol oxidase catalyzes aurone synthesis in <i>Marchantia polymorpha<i>"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Hiraku Furudate"
+                            },
+                            {
+                                "name": "Misaki Manabe"
+                            },
+                            {
+                                "name": "Haruka Oshikiri"
+                            },
+                            {
+                                "name": "Ayako Matsushita"
+                            },
+                            {
+                                "name": "Bunta Watanabe"
+                            },
+                            {
+                                "name": "Toshiyuki Waki"
+                            },
+                            {
+                                "name": "Toru Nakayama"
+                            },
+                            {
+                                "name": "Hiroyoshi Kubo"
+                            },
+                            {
+                                "name": "Kojiro Takanashi"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "Abstract\n\n Aurones constitute one of the major classes of flavonoids, with a characteristic furanone structure that acts as the C-ring of flavonoids. Members of various enzyme families are involved in aurone biosynthesis in different higher plants, suggesting that, during evolution, plants acquired the ability to biosynthesize aurones independently and convergently. Bryophytes also produce aurones, but the biosynthetic pathways and enzymes involved have not been determined. The present study describes the identification and characterization of a polyphenol oxidase that acts as an aureusidin synthase (MpAS1) in the model liverwort, Marchantia polymorpha. Crude enzyme assays using an M. polymorpha line overexpressing MpMYB14 with high accumulation of aureusidin showed that aureusidin was biosynthesized from naringenin chalcone and converted to riccionidin A. This activity was inhibited by N-phenylthiourea, an inhibitor specific to enzymes of the polyphenol oxidase family. Of the six polyphenol oxidases highly induced in the line overexpressing MpMyb14, one, MpAS1 was found to biosynthesize aureusidin from naringenin chalcone when expressed in Saccharomyces cerevisiae. MpAS1 also recognized eriodictyol chalcone, isoliquiritigenin and butein, showing the highest activity for eriodictyol chalcone. Members of the polyphenol oxidase family in M. polymorpha evolved independently from polyphenol oxidases in higher plants, indicating that aureusidin synthases evolved in parallel in land plants."
+                    },
+                    "publisher": {
+                        "en": "Oxford University Press (OUP)"
+                    },
+                    "publication_date": "2023-03-22",
+                    "publication_name": {
+                        "en": "Plant Cell Physiol."
+                    },
+                    "referee": true,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1093/pcp/pcad024"
+                        ],
+                        "issn": [
+                            "0032-0781"
+                        ],
+                        "e_issn": [
+                            "1471-9053"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1093/pcp/pcad024",
+                            "is_downloadable": false
+                        },
+                        {
+                            "@id": "https://academic.oup.com/pcp/advance-article-pdf/doi/10.1093/pcp/pcad024/49597230/pcad024.pdf",
+                            "label": "url",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010642/published_papers/27372399",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0010642/published_papers",
+                    "rm:id": "27372399",
+                    "rm:user_id": "1000022022",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_papers",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-05-27T04:25:35Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2021-10-25T18:24:56Z",
+                    "paper_title": {
+                        "en": "GEMMA CUP-ASSOCIATED MYB1, an Ortholog of Axillary Meristem Regulators, Is Essential in Vegetative Reproduction in Marchantia polymorpha.",
+                        "ja": "GEMMA CUP-ASSOCIATED MYB1, an Ortholog of Axillary Meristem Regulators, Is Essential in Vegetative Reproduction in Marchantia polymorpha."
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Yasui Y"
+                            },
+                            {
+                                "name": "Tsukamoto S"
+                            },
+                            {
+                                "name": "Sugaya T"
+                            },
+                            {
+                                "name": "Nishihama R"
+                            },
+                            {
+                                "name": "Wang Q"
+                            },
+                            {
+                                "name": "Kato H"
+                            },
+                            {
+                                "name": "Yamato KT"
+                            },
+                            {
+                                "name": "Fukaki H"
+                            },
+                            {
+                                "name": "Mimura T"
+                            },
+                            {
+                                "name": "Kubo H"
+                            },
+                            {
+                                "name": "Theres K"
+                            },
+                            {
+                                "name": "Kohchi T"
+                            },
+                            {
+                                "name": "Ishizaki K"
+                            }
+                        ],
+                        "ja": [
+                            {
+                                "name": "Yasui Y"
+                            },
+                            {
+                                "name": "Tsukamoto S"
+                            },
+                            {
+                                "name": "Sugaya T"
+                            },
+                            {
+                                "name": "Nishihama R"
+                            },
+                            {
+                                "name": "Wang Q"
+                            },
+                            {
+                                "name": "Kato H"
+                            },
+                            {
+                                "name": "Yamato KT"
+                            },
+                            {
+                                "name": "Fukaki H"
+                            },
+                            {
+                                "name": "Mimura T"
+                            },
+                            {
+                                "name": "Kubo H"
+                            },
+                            {
+                                "name": "Theres K"
+                            },
+                            {
+                                "name": "Kohchi T"
+                            },
+                            {
+                                "name": "Ishizaki K"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "en": "Elsevier BV"
+                    },
+                    "publication_date": "2019-12",
+                    "publication_name": {
+                        "en": "Current Biology",
+                        "ja": "Current Biology"
+                    },
+                    "volume": "29",
+                    "number": "23",
+                    "starting_page": "3987",
+                    "ending_page": "3995",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1016/j.cub.2019.10.004"
+                        ],
+                        "issn": [
+                            "0960-9822"
+                        ],
+                        "pm_id": [
+                            "31708390"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1016/j.cub.2019.10.004",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "pubmed",
+                            "@id": "https://www.ncbi.nlm.nih.gov/pubmed/31708390",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010642/published_papers/1265024",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0010642/published_papers",
+                    "rm:id": "1265024",
+                    "rm:user_id": "1000022022",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000022022",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2019-10-04T03:58:10Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-03-24T12:53:10Z",
+                    "paper_title": {
+                        "en": "Physiological function of photoreceptor UVR8 in UV-B tolerance in the liverwort Marchantia polymorpha."
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Youichi Kondou"
+                            },
+                            {
+                                "name": "Yuta Miyagi"
+                            },
+                            {
+                                "name": "Takeshi Morito"
+                            },
+                            {
+                                "name": "Kenta Fujihira"
+                            },
+                            {
+                                "name": "Wataru Miyauchi"
+                            },
+                            {
+                                "name": "Asami Moriyama"
+                            },
+                            {
+                                "name": "Takuya Terasawa"
+                            },
+                            {
+                                "name": "Sakiko Ishida"
+                            },
+                            {
+                                "name": "Kosei Iwabuchi"
+                            },
+                            {
+                                "name": "Hiroyoshi Kubo"
+                            },
+                            {
+                                "name": "Ryuichi Nishihama"
+                            },
+                            {
+                                "name": "Kimitsune Ishizaki"
+                            },
+                            {
+                                "name": "Takayuki Kohchi"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "MAIN CONCLUSION: The physiological importance of MpUVR8 in UV-B resistance and translocation in a UV-B-dependent manner from the cytosol into the nucleus is characterized in Marchantia polymorpha. UV RESISTANCE LOCUS 8 (UVR8) is an ultraviolet-B (UV-B) light receptor functioning for UV-B sensing and tolerance in Arabidopsis thaliana and other species. It is unclear whether UVR8 physiologically functions in UV-B-induced defense responses in Marchantia polymorpha, which belongs to the earliest diverging group of embryophyte lineages. Here, we demonstrate that UVR8 has a physiological function in UV-B tolerance and that there is a UVR8-dependent pathway involved. In addition, a UVR8-independent pathway is revealed. We examine the tissue-specific expression pattern of M. polymorpha UVR8 (MpUVR8), showing that it is highly expressed in the apical notch in thalli and gametangiophores, as well as in antheridial and archegonial heads. Furthermore, Mpuvr8KO plant transformants, in which the MpUVR8 locus was disrupted, were produced and analyzed to understand the physiological and molecular function of MpUVR8. Analysis using these plants indicates the important roles of MpUVR8 and MpUVR8-regulated genes, and of MpUVR8-independent pathways in UV-B tolerance. Subcellular localization of Citrine-fused MpUVR8 in M. polymorpha cells was also investigated. It was found to translocate from the cytosol into the nucleus in response to UV-B irradiation. Our findings indicate strong conservation of the physiological function of UVR8 and the molecular mechanisms for UVR8-dependent signal transduction through regulation of gene expression in embryophytes."
+                    },
+                    "publication_date": "2019-05",
+                    "publication_name": {
+                        "en": "Planta"
+                    },
+                    "volume": "249",
+                    "number": "5",
+                    "starting_page": "1349",
+                    "ending_page": "1364",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "is_international_journal": true,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1007/s00425-019-03090-w"
+                        ],
+                        "issn": [
+                            "0032-0935"
+                        ],
+                        "wos_id": [
+                            "WOS:000464898700007"
+                        ],
+                        "pm_id": [
+                            "30840176"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1007/s00425-019-03090-w",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000464898700007&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "pubmed",
+                            "@id": "https://www.ncbi.nlm.nih.gov/pubmed/30840176",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010642/published_papers/22239944",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0010642/published_papers",
+                    "rm:id": "22239944",
+                    "rm:user_id": "1000022022",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:#L4c2kCEt3esu+FZ",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-07-26T17:45:52Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-09-01T22:05:16Z",
+                    "paper_title": {
+                        "en": "Biosynthesis of riccionidins and marchantins is regulated by R2R3-MYB transcription factors in Marchantia polymorpha"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Hiroyoshi Kubo"
+                            },
+                            {
+                                "name": "Shunsuke Nozawa"
+                            },
+                            {
+                                "name": "Takuma Hiwatashi"
+                            },
+                            {
+                                "name": "Youichi Kondou"
+                            },
+                            {
+                                "name": "Ryo Nakabayashi"
+                            },
+                            {
+                                "name": "Tetsuya Mori"
+                            },
+                            {
+                                "name": "Kazuki Saito"
+                            },
+                            {
+                                "name": "Kojiro Takanashi"
+                            },
+                            {
+                                "name": "Takayuki Kohchi"
+                            },
+                            {
+                                "name": "Kimitsune Ishizaki"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "R2R3-MYB transcription factors constitute the largest gene family among plant transcription factor families. They became largely divergent during the evolution of land plants and regulate various biological processes. The functions of R2R3-MYBs are mostly characterized in seed plants but are poorly understood in non-seed plants. Here, we examined the function of two R2R3-MYB genes of Marchantia polymorpha (Mapoly0073s0038 and Mapoly0006s0226) that are closely related to subgroup 4 of the R2R3-MYB family. We performed LC/MS/MS metabolomics, RNA-seq analysis and expression analysis in overexpressors and knockout mutants of MpMYB14 and MpMYB02. Overexpression of MpMYB14 remarkably increased the amount of riccionidins, which are specific anthocyanins in liverworts and a few flowering plants. In contrast, overexpression of MpMYB02 increased the amount of several marchantins, which are characteristic cyclic bis (bibenzyl ether) compounds in M. polymorpha and related liverworts. Knockouts of MpMYB14 and MpMYB02 abolished the accumulation of riccionidins and marchantins, respectively. The expression of MpMYB14 was up-regulated by UV-B irradiation, N deficiency, and NaCl treatment, whereas the expression of MpMYB02 was down-regulated by NaCl treatment. Our results suggest that the regulatory framework of phenolic metabolism by R2R3-MYB was already established in early land plants."
+                    },
+                    "publisher": {
+                        "en": "Springer Tokyo"
+                    },
+                    "publication_date": "2018-05-29",
+                    "publication_name": {
+                        "en": "Journal of Plant Research"
+                    },
+                    "starting_page": "1",
+                    "ending_page": "16",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1007/s10265-018-1044-7"
+                        ],
+                        "issn": [
+                            "0918-9440"
+                        ],
+                        "scopus_id": [
+                            "85047662271"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1007/s10265-018-1044-7",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010642/published_papers/1265025",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0010642/published_papers",
+                    "rm:id": "1265025",
+                    "rm:user_id": "1000022022",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000022022",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2019-10-04T03:58:10Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-04-19T23:20:04Z",
+                    "paper_title": {
+                        "en": "Soil properties affecting adsorption of plasmid DNA and its transformation efficiency in Escherichia coli"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Takashi Kunito"
+                            },
+                            {
+                                "name": "Yasutaka Ihyo"
+                            },
+                            {
+                                "name": "Hiromu Miyahara"
+                            },
+                            {
+                                "name": "Ryo Seta"
+                            },
+                            {
+                                "name": "Seishi Yoshida"
+                            },
+                            {
+                                "name": "Hiroyoshi Kubo"
+                            },
+                            {
+                                "name": "Kazunari Nagaoka"
+                            },
+                            {
+                                "name": "Masao Sakai"
+                            },
+                            {
+                                "name": "Kazutoshi Saeki"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "We examined the soil properties affecting adsorption of plasmid DNA and its transformation efficiency using competent Escherichia coli cells in sterile forested Andosols (n=2), arable Andosols (n=3), arable Cambisols (n=2), and humic acid. Organic matter-removed soil samples were also prepared by subjecting each soil to ignition treatment. The amount of plasmid DNA adsorbed was influenced by individual soil properties rather than soil types and fertilizer management practices. Among the soil properties determined, organic matter content and pH appeared to have the greatest influence on the amount of DNA adsorbed onto soil samples. Adsorption of plasmid DNA greatly repressed the transformation efficiency of E. coli relative to free DNA. Decreased transformation efficiency was observed in samples showing high binding affinity for plasmid DNA, and the affinity appeared to be affected by exchangeable Ca, soil texture, and humic acid."
+                    },
+                    "publisher": {
+                        "en": "SPRINGER"
+                    },
+                    "publication_date": "2016-02",
+                    "publication_name": {
+                        "en": "BIOLOGY AND FERTILITY OF SOILS"
+                    },
+                    "volume": "52",
+                    "number": "2",
+                    "starting_page": "223",
+                    "ending_page": "231",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1007/s00374-015-1068-2"
+                        ],
+                        "issn": [
+                            "0178-2762"
+                        ],
+                        "wos_id": [
+                            "WOS:000373441100009"
+                        ],
+                        "e_issn": [
+                            "1432-0789"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1007/s00374-015-1068-2",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000373441100009&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010642/published_papers/1265026",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0010642/published_papers",
+                    "rm:id": "1265026",
+                    "rm:user_id": "1000022022",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000022022",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2019-10-04T03:58:10Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-05-04T05:06:34Z",
+                    "paper_title": {
+                        "en": "Asexual reproductive organ-specific expression of the glyceraldehyde-3-phosphate dehydrogenase 2 gene of Pilobolus crystallinus"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Hiroyoshi Kubo"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "Pilobolus crystallinus has three putative glyceraldehyde-3-phosphate dehydrogenase (gapdh) genes (pcgapdh1, pcgapdh2 and pcgapdh3). The results of this study demonstrate that expression of pcgapdh2 was increased by irradiation and that this increased expression was correlated with the formation of asexual reproductive organs (trophocysts). Interestingly, expression of pcgapdh2 was restricted to trophocysts. The formation of trophocysts was likely promoted by light, and the expression of pcgapdh2 was increased as a result of trophocyst formation. This is the first report that shows the regulation of a gapdh gene in an organ-specific manner in fungi."
+                    },
+                    "publisher": {
+                        "en": "SPRINGER TOKYO"
+                    },
+                    "publication_date": "2012-03",
+                    "publication_name": {
+                        "en": "MYCOSCIENCE"
+                    },
+                    "volume": "53",
+                    "number": "2",
+                    "starting_page": "147",
+                    "ending_page": "151",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1007/s10267-011-0143-2"
+                        ],
+                        "issn": [
+                            "1340-3540"
+                        ],
+                        "wos_id": [
+                            "WOS:000301638800009"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1007/s10267-011-0143-2",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000301638800009&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010642/published_papers/1265027",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0010642/published_papers",
+                    "rm:id": "1265027",
+                    "rm:user_id": "1000022022",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000022022",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2019-10-04T03:58:10Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-05-04T04:09:16Z",
+                    "paper_title": {
+                        "en": "Cloning of FLOWERING LOCUS C ortholog in Wasabia japonica (Matsum.)"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Hiroyoshi Kubo"
+                            },
+                            {
+                                "name": "Kiyoshi Yoshida"
+                            },
+                            {
+                                "name": "Masayuki Nozue"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "Wasabi (Wasabia japonica) is a commercially important crop in Japan. We isolated a FLC ortholog from wasabi and named as WjFLC. Predicted amino acid sequence encoded by WjFLC showed 89% identity with FLC of arabidopsis and conserved the MADS box motif. WjFLC was expressed in young and mature leaves, apical region of lateral bud, rhizome, and root. The expression of WjFLC was high in October and reduced in November when flower buds are formed in wasabi. WjFLC may be useful in monitoring the flowering response in wasabi."
+                    },
+                    "publisher": {
+                        "en": "SPRINGER INDIA"
+                    },
+                    "publication_date": "2012-01",
+                    "publication_name": {
+                        "en": "JOURNAL OF PLANT BIOCHEMISTRY AND BIOTECHNOLOGY"
+                    },
+                    "volume": "21",
+                    "number": "1",
+                    "starting_page": "117",
+                    "ending_page": "120",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1007/s13562-011-0062-5"
+                        ],
+                        "issn": [
+                            "0971-7811"
+                        ],
+                        "wos_id": [
+                            "WOS:000298228500015"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1007/s13562-011-0062-5",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000298228500015&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010642/published_papers/1265028",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0010642/published_papers",
+                    "rm:id": "1265028",
+                    "rm:user_id": "1000022022",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000022022",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2019-10-04T03:58:10Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-04-14T15:58:39Z",
+                    "paper_title": {
+                        "en": "Cloning of a FLOWERING LOCUS T Ortholog in Wasabia japonica (Matsum)"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Hiroyoshi Kubo"
+                            },
+                            {
+                                "name": "Kiyoshi Yoshida"
+                            },
+                            {
+                                "name": "Masayuki Nozue"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "A FLOWERING LOCUS T ortholog (WjFT) was identified in Wasabia japonica. Heterologous expression of WjFT remarkably promoted the flowering of Arabidopsis. The expression of WjFT was examined in field-grown wasabi in October and November of 2009, and February of 2010 because the differentiation of flower buds occurs in autumn in field-grown wasabi. No expression of WjFT was detected in October, it was slightly increased in November, and highly increased in February. WjFT might be useful for examining the flowering response of wasabi."
+                    },
+                    "publisher": {
+                        "en": "TAYLOR & FRANCIS LTD"
+                    },
+                    "publication_date": "2011-09",
+                    "publication_name": {
+                        "en": "BIOSCIENCE BIOTECHNOLOGY AND BIOCHEMISTRY"
+                    },
+                    "volume": "75",
+                    "number": "9",
+                    "starting_page": "1823",
+                    "ending_page": "1825",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1271/bbb.110100"
+                        ],
+                        "issn": [
+                            "0916-8451"
+                        ],
+                        "wos_id": [
+                            "WOS:000295554400031"
+                        ],
+                        "e_issn": [
+                            "1347-6947"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1271/bbb.110100",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000295554400031&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010642/published_papers/1265030",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0010642/published_papers",
+                    "rm:id": "1265030",
+                    "rm:user_id": "1000022022",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000022022",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2019-10-04T03:58:10Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-04-12T15:05:26Z",
+                    "paper_title": {
+                        "en": "Characterization of root cells of anl2 mutant in Arabidopsis thaliana"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Hiroyoshi Kubo"
+                            },
+                            {
+                                "name": "Kenji Hayashi"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "A mutation in the ANTHOCYANINLESS2 (ANL2) gene of Arabidopsis thaliana causes the formation of several extra cells called intervening cells (IV cells) between the cortical and epidermal layers of the primary root. The origin and character of IV cells were examined. Microscopic observation of serial sections of the root tissue showed that IV cells developed from epidermal cells, and the outer cells overlying the epidermal cells developed into epidermal-like cells. The IV cells expressed the marker gene for cortical cells, which indicated that the IV cells were cortical in nature. IV cells were primarily observed in a cleft between two cortical cells or between a cortical and an IV cell, which suggests the involvement of positional information between cortical and epidermal cells. Ectopic root hairs were formed, and the expression patterns of P-glucuronidase driven by the GL2 and CPC promoters were irregular in the primary root of the anl2 mutant. These results indicate that ANL2 is required for the maintenance of epidermal cell lineage. (C) 2011 Elsevier Ireland Ltd. All rights reserved."
+                    },
+                    "publisher": {
+                        "en": "ELSEVIER IRELAND LTD"
+                    },
+                    "publication_date": "2011-03",
+                    "publication_name": {
+                        "en": "PLANT SCIENCE"
+                    },
+                    "volume": "180",
+                    "number": "5",
+                    "starting_page": "679",
+                    "ending_page": "685",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1016/j.plantsci.2011.01.012"
+                        ],
+                        "issn": [
+                            "0168-9452"
+                        ],
+                        "wos_id": [
+                            "WOS:000289339200003"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1016/j.plantsci.2011.01.012",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000289339200003&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010642/published_papers/1265029",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0010642/published_papers",
+                    "rm:id": "1265029",
+                    "rm:user_id": "1000022022",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000022022",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2019-10-04T03:58:10Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-04-12T02:39:42Z",
+                    "paper_title": {
+                        "en": "Cloning and expression analysis of putative glyceraldehyde-3-phosphate dehydrogenase genes in Pilobolus crystallinus"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Hiroyoshi Kubo"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "Putative glyceraldehyde-3-phosphate dehydrogenase (gapdh) genes were cloned from Pilobolus crystallinus with degenerated primers designed from conserved sequences in many GAPDHs. P. crystallinus had three gapdh homologue genes, named pcgapdh1, pcgapdh2, and pcgapdh3. Deduced amino acid sequences for PCGAPDH1, PCGAPDH2, and PCGAPDH3 showed highest similarity with GPD3, GPD1, and GPD2, respectively, of Mucor circinelloides, indicating that these three gapdh genes had diverged before Pilobolus and Mucor were separated. The expression patterns of the gapdh genes, however, were quite different between P. crystallinus and M. circinelloides. All the three pcgapdh genes were expressed, and the expression of pcgapdh2 was suppressed by glucose and sodium acetate. These results indicate that the function of these orthologous genes was changed after Pilobolus and Mucor were separated."
+                    },
+                    "publisher": {
+                        "en": "SPRINGER TOKYO"
+                    },
+                    "publication_date": "2011-03",
+                    "publication_name": {
+                        "en": "MYCOSCIENCE"
+                    },
+                    "volume": "52",
+                    "number": "2",
+                    "starting_page": "99",
+                    "ending_page": "106",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1007/s10267-010-0073-4"
+                        ],
+                        "issn": [
+                            "1340-3540"
+                        ],
+                        "wos_id": [
+                            "WOS:000288256100003"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1007/s10267-010-0073-4",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000288256100003&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010642/published_papers/1265031",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0010642/published_papers",
+                    "rm:id": "1265031",
+                    "rm:user_id": "1000022022",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000022022",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2019-10-04T03:58:10Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-05-31T09:25:15Z",
+                    "paper_title": {
+                        "en": "Isolation of madA homologs in Pilobolus crystallinus"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Hiroyoshi Kubo"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "Pilobolus crystallinus shows unique photoresponses at various growing stages. cDNAs for putative photoreceptors were cloned from this fungus. Three genes named pcmada1, pcmada2, and pcmada3 were identified from the PCR fragments, and amplified with degenerated primers for the LOV domain, which is conserved in many blue-light receptors. Deduced amino acid sequences for PCMADA1, PCMADA2, and PCMADA3 had one light-oxygen-voltage (LOV)-sensing and two PER-ARNT-SIM (PAS) domains. A zinc finger DNA-binding motif was conserved in the C-terminals of PCMADA1 and PCMADA3. However, PCMADA2 lacked the zinc finger motif. Expression of pcmada1 was suppressed by blue light whereas that of pcmada3 was promoted by blue-light irradiation."
+                    },
+                    "publisher": {
+                        "en": "SPRINGER TOKYO"
+                    },
+                    "publication_date": "2009-09",
+                    "publication_name": {
+                        "en": "MYCOSCIENCE"
+                    },
+                    "volume": "50",
+                    "number": "5",
+                    "starting_page": "400",
+                    "ending_page": "406",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1007/s10267-009-0496-y"
+                        ],
+                        "issn": [
+                            "1340-3540"
+                        ],
+                        "wos_id": [
+                            "WOS:000269928800009"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1007/s10267-009-0496-y",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000269928800009&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010642/published_papers/1265021",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0010642/published_papers",
+                    "rm:id": "1265021",
+                    "rm:user_id": "1000022022",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000022022",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2019-10-04T03:58:10Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-06-08T07:56:49Z",
+                    "paper_title": {
+                        "en": "Expression analysis of ANTHOCYANINLESS2 gene in Arabidopsis"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Hiroyoshi Kubo"
+                            },
+                            {
+                                "name": "Mutsumi Kishi"
+                            },
+                            {
+                                "name": "Koji Goto"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "The ANTHOCYANINLESS2 (ANL2) gene of Arabidopsis thaliana affects the accumulation of anthocyanin in subepidermal cells and the organization of cells in the primary root, suggesting that this homeobox gene determines the nature of epidermis and/or subepidermis. In situ hybridization showed that ANL2 mRNA accumulated in peripheral region of young leaves, flower meristems, anthers and pistils. Promoter activity of ANL2 was also examined by using uidA as a reporter. beta-Glucuronidase (GUS) was expressed in the shoot apex, young leaves, root tips, anthers and ovules. In rosette leaves, subepidermal tissues showed strong GUS expression, while epidermal cells including guard cells and trichome had weak GUS expression. In the primary root, GUS was expressed in epidermal and lateral root cap cells. In the rosette leaf, the pattern of GUS expression was correlated with the pattern of anthocyanin accumulation in the subepidermis but not in epidermis. The expression of ANL2 was not affected by irradiation and the defects in TFG1. (c) 2008 Elsevier Ireland Ltd. All rights reserved"
+                    },
+                    "publisher": {
+                        "en": "ELSEVIER IRELAND LTD"
+                    },
+                    "publication_date": "2008-12",
+                    "publication_name": {
+                        "en": "PLANT SCIENCE"
+                    },
+                    "volume": "175",
+                    "number": "6",
+                    "starting_page": "853",
+                    "ending_page": "857",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1016/j.plantsci.2008.08.006"
+                        ],
+                        "issn": [
+                            "0168-9452"
+                        ],
+                        "wos_id": [
+                            "WOS:000261081300015"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1016/j.plantsci.2008.08.006",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000261081300015&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010642/published_papers/1265022",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0010642/published_papers",
+                    "rm:id": "1265022",
+                    "rm:user_id": "1000022022",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000022022",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2019-10-04T03:58:10Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-05-12T18:14:10Z",
+                    "paper_title": {
+                        "en": "Promoter activity of phenylalanine ammonia-lyase gene of Pharbitis nil in Arabidopsis"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Hiroyoshi Kubo"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "Promoter activity of phenylalanine ammonia-lyase (PAL) gene of Pharbitis nil was examined by introducing a PAL:GUS construct into Arabidopsis. GUS staining was observed in vascular bundles of hypocotyl and cotyledons, endodermal cells of the primary root, hydathodes, stigma and pollens of mature flower, abscission zones of petals and sepals and inner layer of seed coat. Light induced GUS expression in cotyledons and the upper part of hypocotyl in which anthocyanin was accumulated. Wounding also induced GUS expression. Endogenous PAL activity increased earlier than the GUS activity directed by the PAL promoter."
+                    },
+                    "publisher": {
+                        "en": "SOC PLANT BIOCHEM BIOTECH"
+                    },
+                    "publication_date": "2007-07",
+                    "publication_name": {
+                        "en": "JOURNAL OF PLANT BIOCHEMISTRY AND BIOTECHNOLOGY"
+                    },
+                    "volume": "16",
+                    "number": "2",
+                    "starting_page": "109",
+                    "ending_page": "111",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1007/BF03321983"
+                        ],
+                        "issn": [
+                            "0971-7811"
+                        ],
+                        "wos_id": [
+                            "WOS:000249112400006"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1007/BF03321983",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000249112400006&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010642/published_papers/1265023",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0010642/published_papers",
+                    "rm:id": "1265023",
+                    "rm:user_id": "1000022022",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000022022",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2019-10-04T03:58:10Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-05-11T00:44:23Z",
+                    "paper_title": {
+                        "en": "Anthocyaninless1 gene of Arabidopsis thaliana encodes a UDP-glucose : flavonoid-3-O-glucosyltransferase"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Hiroyoshi Kubo"
+                            },
+                            {
+                                "name": "Nobuaki Nawa"
+                            },
+                            {
+                                "name": "Simona Angheluta Lupsea"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "We isolated several mutants of Arabidopsis thaliana (L.) Heynh. that accumulated less anthocyanin in the plant tissues, but had seeds with a brown color similar to the wild-type. These mutants were allelic with the anthocyaninless1 (anl1) mutant that has been mapped at 15.0 cM of chromosome 5. We performed fine mapping of the anl1 locus and determined that ANL1 is located between the nga106 marker and a marker corresponding to the MKP11 clone. About 70 genes are located between these two markers, including three UDP-glucose:flavonoid-3-O-glucosyltransferase-like genes and a glutathione transferase gene (TT19). A mutant of one of the glucosyltransferase genes (At5g17050) was unable to complement the anl1 phenotype, showing that the ANL1 gene encodes UDP-glucose:flavonoid-3-O-glucosyltransferase. ANL1 was expressed in all tissues examined, including rosette leaves, stems, flower buds and roots. ANL1 was not regulated by TTG1."
+                    },
+                    "publisher": {
+                        "en": "SPRINGER TOKYO"
+                    },
+                    "publication_date": "2007-05",
+                    "publication_name": {
+                        "en": "JOURNAL OF PLANT RESEARCH"
+                    },
+                    "volume": "120",
+                    "number": "3",
+                    "starting_page": "445",
+                    "ending_page": "449",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1007/s10265-006-0067-7"
+                        ],
+                        "issn": [
+                            "0918-9440"
+                        ],
+                        "wos_id": [
+                            "WOS:000246388500013"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1007/s10265-006-0067-7",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000246388500013&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010642/published_papers/30289589",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0010642/published_papers",
+                    "rm:id": "30289589",
+                    "rm:user_id": "1000022022",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000022022",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2020-10-06T00:49:29Z",
+                    "rm:modifier_id": "1000022022",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2020-10-06T01:03:31Z",
+                    "paper_title": {
+                        "en": "cAMP promotes hyphal branching in Mucor globosus."
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Kubo H"
+                            },
+                            {
+                                "name": "Mihara H"
+                            }
+                        ]
+                    },
+                    "published_paper_owner_roles": [
+                        "lead"
+                    ],
+                    "publication_date": "2007",
+                    "publication_name": {
+                        "en": "Mycoscience"
+                    },
+                    "volume": "48",
+                    "starting_page": "187",
+                    "ending_page": "189",
+                    "referee": true,
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010642/published_papers/30289607",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0010642/published_papers",
+                    "rm:id": "30289607",
+                    "rm:user_id": "1000022022",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000022022",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2020-10-06T00:51:40Z",
+                    "rm:modifier_id": "1000022022",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2020-10-06T00:51:40Z",
+                    "paper_title": {
+                        "en": "VP24 found in anthocyanic vacuolar inclusions (AVIs) of sweet potato cells is a member of a metalloprotease family."
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Nozue M"
+                            },
+                            {
+                                "name": "Baba S"
+                            },
+                            {
+                                "name": "Kitamura Y"
+                            },
+                            {
+                                "name": "Xu W"
+                            },
+                            {
+                                "name": "Kubo H"
+                            },
+                            {
+                                "name": "Nogawa M"
+                            },
+                            {
+                                "name": "Shioiri H"
+                            },
+                            {
+                                "name": "Kojima M"
+                            }
+                        ]
+                    },
+                    "publication_date": "2003",
+                    "publication_name": {
+                        "en": "Biochem. Eng. J."
+                    },
+                    "volume": "14",
+                    "starting_page": "199",
+                    "ending_page": "205",
+                    "referee": true,
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010642/published_papers/30289631",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0010642/published_papers",
+                    "rm:id": "30289631",
+                    "rm:user_id": "1000022022",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000022022",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2020-10-06T00:53:30Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-07-13T01:57:41Z",
+                    "paper_title": {
+                        "ja": "Expression Pattern and Gene Structure of Phenylalanine Ammonia-Lyase in Pharbitis nil",
+                        "en": "Expression pattern and gene strucuture of phenylalanine ammonia-lyase in Pharbitis nil."
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "Nakazawa Ayami"
+                            },
+                            {
+                                "name": "Nozue Masayuki"
+                            },
+                            {
+                                "name": "Yasuda Hitoshi"
+                            },
+                            {
+                                "name": "TAKEDA Go"
+                            },
+                            {
+                                "name": "KUBO Hiroyoshi"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Nakazawa, A"
+                            },
+                            {
+                                "name": "Nozue, M"
+                            },
+                            {
+                                "name": "Yasuda, H"
+                            },
+                            {
+                                "name": "Takeba, G"
+                            },
+                            {
+                                "name": "Kubo, H"
+                            }
+                        ]
+                    },
+                    "published_paper_owner_roles": [
+                        "corresponding"
+                    ],
+                    "publisher": {
+                        "ja": "Springer-Verlag Tokyo"
+                    },
+                    "publication_date": "2001",
+                    "publication_name": {
+                        "ja": "Journal of plant research",
+                        "en": "J. Plant Res."
+                    },
+                    "volume": "114",
+                    "number": "1115",
+                    "starting_page": "323",
+                    "ending_page": "328",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "0918-9440"
+                        ],
+                        "cinii_na_id": [
+                            "10006908325"
+                        ],
+                        "cinii_nc_id": [
+                            "AA10900218"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/10006908325",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_books",
+                            "@id": "http://ci.nii.ac.jp/ncid/AA10900218",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "http://id.ndl.go.jp/bib/6469390",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010642/published_papers/30289666",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0010642/published_papers",
+                    "rm:id": "30289666",
+                    "rm:user_id": "1000022022",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000022022",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2020-10-06T00:54:37Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-07-18T22:40:46Z",
+                    "paper_title": {
+                        "ja": "Effects of Temperature on the Pattern of Anthocyanin Accumulation in Seedlings of Polygonum cuspidatum",
+                        "en": "Effects of temperature on the pattern of anthocyanin accumulation in seedlings of Polygonum cuspidatum."
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "Yamaguchi Fumiyasu"
+                            },
+                            {
+                                "name": "Nozue Masayuki"
+                            },
+                            {
+                                "name": "Yasuda Hitoshi"
+                            },
+                            {
+                                "name": "KUBO Hiroyoshi"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Yamaguchi, F"
+                            },
+                            {
+                                "name": "Nozue, M"
+                            },
+                            {
+                                "name": "Yasuda, H"
+                            },
+                            {
+                                "name": "Kubo, H"
+                            }
+                        ]
+                    },
+                    "published_paper_owner_roles": [
+                        "corresponding"
+                    ],
+                    "publisher": {
+                        "ja": "Botanical Society of Japan"
+                    },
+                    "publication_date": "2000",
+                    "publication_name": {
+                        "ja": "Journal of plant research",
+                        "en": "J. Plant Res."
+                    },
+                    "volume": "113",
+                    "number": "1109",
+                    "starting_page": "71",
+                    "ending_page": "77",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "0918-9440"
+                        ],
+                        "cinii_na_id": [
+                            "10004488947"
+                        ],
+                        "cinii_nc_id": [
+                            "AA10900218"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/10004488947",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_books",
+                            "@id": "http://ci.nii.ac.jp/ncid/AA10900218",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "http://id.ndl.go.jp/bib/5428776",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010642/published_papers/30289505",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0010642/published_papers",
+                    "rm:id": "30289505",
+                    "rm:user_id": "1000022022",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000022022",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2020-10-06T00:40:28Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-07-12T23:32:07Z",
+                    "paper_title": {
+                        "ja": "ANTHOCYANINLESS2, a homeobox gene affecting anthocyanin distribution and root development in Arabidopsis",
+                        "en": "ANTHOCYANINLESS2, A Homeobox Gene Affecting Anthocyanin Distributions and Root Development in Arabidopsis."
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "KUBO H"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Kubo, H"
+                            },
+                            {
+                                "name": "Peeters, A. J. M"
+                            },
+                            {
+                                "name": "Aarts, M. G. M"
+                            },
+                            {
+                                "name": "Pereira, A"
+                            },
+                            {
+                                "name": "Koornneef, M"
+                            }
+                        ]
+                    },
+                    "publication_date": "1999",
+                    "publication_name": {
+                        "ja": "Plant Cell",
+                        "en": "Plant Cell"
+                    },
+                    "volume": "11",
+                    "starting_page": "1065",
+                    "ending_page": "1072",
+                    "referee": true,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "cinii_na_id": [
+                            "20001670860"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/20001670860",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010642/published_papers/27029846",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0010642/published_papers",
+                    "rm:id": "27029846",
+                    "rm:user_id": "1000022022",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_papers",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-05-01T07:41:35Z",
+                    "rm:modifier_id": "ai:assign_based_papers",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-05-01T07:41:35Z",
+                    "paper_title": {
+                        "ja": "Expression of a vacuolar protein (VP24) in anthocyanin-producing cells of sweet potato in suspension culture",
+                        "en": "Expression of a vacular protein(VP24)in anthocyanin-producing cells of sweet potato in suspension culture."
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "Masayuki Nozue"
+                            },
+                            {
+                                "name": "Kenji Yamada"
+                            },
+                            {
+                                "name": "Kenji Yamada"
+                            },
+                            {
+                                "name": "Takahiro Nakamura"
+                            },
+                            {
+                                "name": "Hiroyoshi Kubo"
+                            },
+                            {
+                                "name": "Maki Kondo"
+                            },
+                            {
+                                "name": "Mikio Nishimura"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Masayuki Nozue"
+                            },
+                            {
+                                "name": "Kenji Yamada"
+                            },
+                            {
+                                "name": "Kenji Yamada"
+                            },
+                            {
+                                "name": "Takahiro Nakamura"
+                            },
+                            {
+                                "name": "Hiroyoshi Kubo"
+                            },
+                            {
+                                "name": "Maki Kondo"
+                            },
+                            {
+                                "name": "Mikio Nishimura"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "ja": "VP24, an abundant protein of 24 kD, was found to accumulate in the anthocyanin-containing vacuoles of cells of sweet potato (Ipomoea batatas) in suspension culture. Light-induced expression of VP24 was analyzed by immunoblotting in three different cell lines that produced anthocyanins at different rates. The expression of VP24 was closely correlated with the accumulation of anthocyanin in these cell lines. Immunocytochemical detection of VP24 with specific antibodies on thin sections showed that VP24 was localized in the intravacuolar pigmented globules (cyanoplasts) in the anthocyanin-containing vacuoles and not in the tonoplast. No VP24 immunogold labeling was detected in the vacuoles of the cell line that does not produce anthocyanin. We suggest that VP24 may be involved in the formation of the cyanoplast via an interaction with anthocyanin, and that it may play an important role in the trapping in vacuoles of large amounts of anthocyanins that have been transported into these vacuoles.",
+                        "en": "VP24, an abundant protein of 24 kD, was found to accumulate in the anthocyanin-containing vacuoles of cells of sweet potato (Ipomoea batatas) in suspension culture. Light-induced expression of VP24 was analyzed by immunoblotting in three different cell lines that produced anthocyanins at different rates. The expression of VP24 was closely correlated with the accumulation of anthocyanin in these cell lines. Immunocytochemical detection of VP24 with specific antibodies on thin sections showed that VP24 was localized in the intravacuolar pigmented globules (cyanoplasts) in the anthocyanin-containing vacuoles and not in the tonoplast. No VP24 immunogold labeling was detected in the vacuoles of the cell line that does not produce anthocyanin. We suggest that VP24 may be involved in the formation of the cyanoplast via an interaction with anthocyanin, and that it may play an important role in the trapping in vacuoles of large amounts of anthocyanins that have been transported into these vacuoles."
+                    },
+                    "publication_date": "1997-01-01",
+                    "publication_name": {
+                        "ja": "Plant Physiology",
+                        "en": "Plant Physiol."
+                    },
+                    "volume": "115",
+                    "number": "3",
+                    "starting_page": "1065",
+                    "ending_page": "1072",
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1104/pp.115.3.1065"
+                        ],
+                        "issn": [
+                            "0032-0889"
+                        ],
+                        "cinii_na_id": [
+                            "30019358804"
+                        ],
+                        "pm_id": [
+                            "9390439"
+                        ],
+                        "scopus_id": [
+                            "0031277453"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1104/pp.115.3.1065",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/30019358804",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "pubmed",
+                            "@id": "https://www.ncbi.nlm.nih.gov/pubmed/9390439",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=0031277453&origin=inward",
+                            "is_downloadable": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0010642/misc",
+            "@type": "misc",
+            "@reverse": "https://api.researchmap.jp/read0010642",
+            "total_items": 11,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0010642/misc/37554031",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0010642/misc",
+                    "rm:id": "37554031",
+                    "rm:user_id": "1000022022",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2022-06-29T12:00:33Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-06-29T12:00:33Z",
+                    "paper_title": {
+                        "ja": "オーロンを経由するゼニゴケの新規赤色色素生合成経路",
+                        "en": "A novel biosynthesis pathway of red pigments via aurone in Marchantia polymorpha."
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "押切春佳"
+                            },
+                            {
+                                "name": "松下紋子"
+                            },
+                            {
+                                "name": "渡辺文太"
+                            },
+                            {
+                                "name": "久保浩義"
+                            },
+                            {
+                                "name": "久保浩義"
+                            },
+                            {
+                                "name": "高梨功次郎"
+                            },
+                            {
+                                "name": "高梨功次郎"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "押切春佳"
+                            },
+                            {
+                                "name": "松下紋子"
+                            },
+                            {
+                                "name": "渡辺文太"
+                            },
+                            {
+                                "name": "久保浩義"
+                            },
+                            {
+                                "name": "久保浩義"
+                            },
+                            {
+                                "name": "高梨功次郎"
+                            },
+                            {
+                                "name": "高梨功次郎"
+                            }
+                        ]
+                    },
+                    "publication_date": "2020",
+                    "publication_name": {
+                        "ja": "日本農芸化学会大会講演要旨集(Web)",
+                        "en": "日本農芸化学会大会講演要旨集(Web)"
+                    },
+                    "volume": "2020",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "2186-7976"
+                        ],
+                        "j_global_id": [
+                            "202002216042100307"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "j_global",
+                            "@id": "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=202002216042100307",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010642/misc/30628111",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0010642/misc",
+                    "rm:id": "30628111",
+                    "rm:user_id": "1000022022",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000022022",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2020-10-28T06:36:48Z",
+                    "rm:modifier_id": "1000022022",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2020-10-28T06:36:48Z",
+                    "paper_title": {
+                        "ja": "ゼニゴケのアントシアニジン輸送の生化学的解析"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "石川 智章"
+                            },
+                            {
+                                "name": "有坂 亮汰"
+                            },
+                            {
+                                "name": "井上 健太郎"
+                            },
+                            {
+                                "name": "久保 浩義"
+                            },
+                            {
+                                "name": "高梨功次郎"
+                            }
+                        ]
+                    },
+                    "publication_date": "2019-09",
+                    "publication_name": {
+                        "ja": "日本植物学会第83回大会"
+                    },
+                    "referee": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010642/misc/30628054",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0010642/misc",
+                    "rm:id": "30628054",
+                    "rm:user_id": "1000022022",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000022022",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2020-10-28T06:32:36Z",
+                    "rm:modifier_id": "1000022022",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2020-10-28T06:32:36Z",
+                    "paper_title": {
+                        "ja": "ゼニゴケのディリジェント様タンパク質をコードする遺伝子の解析"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "久保浩義"
+                            },
+                            {
+                                "name": "川村祥雲"
+                            },
+                            {
+                                "name": "高原涼"
+                            },
+                            {
+                                "name": "高梨功次郎"
+                            }
+                        ]
+                    },
+                    "publication_date": "2019-09",
+                    "publication_name": {
+                        "ja": "日本植物学会第83回大会"
+                    },
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010642/misc/30627942",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0010642/misc",
+                    "rm:id": "30627942",
+                    "rm:user_id": "1000022022",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000022022",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2020-10-28T06:24:55Z",
+                    "rm:modifier_id": "1000022022",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2020-10-28T06:26:12Z",
+                    "paper_title": {
+                        "en": "Function of dirigent-like proteins of Marchantia polymorpha."
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Hiroyoshi Kubo"
+                            },
+                            {
+                                "name": "Shou-un Kawamura"
+                            },
+                            {
+                                "name": "Ryou Takahara"
+                            },
+                            {
+                                "name": "Kojiro Takanashi"
+                            }
+                        ]
+                    },
+                    "published_paper_owner_roles": [
+                        "lead"
+                    ],
+                    "publication_date": "2019-09",
+                    "publication_name": {
+                        "en": "Marchantia Workshop 2019"
+                    },
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010642/misc/37554008",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0010642/misc",
+                    "rm:id": "37554008",
+                    "rm:user_id": "1000022022",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2022-06-29T12:00:30Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-06-29T12:00:30Z",
+                    "paper_title": {
+                        "ja": "ゼニゴケのアントシアン輸送能の生化学的解析"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "有坂亮汰"
+                            },
+                            {
+                                "name": "井上健太郎"
+                            },
+                            {
+                                "name": "渡辺文太"
+                            },
+                            {
+                                "name": "久保浩義"
+                            },
+                            {
+                                "name": "高梨功次郎"
+                            },
+                            {
+                                "name": "高梨功次郎"
+                            }
+                        ]
+                    },
+                    "publication_date": "2018",
+                    "publication_name": {
+                        "ja": "日本農芸化学会大会講演要旨集(Web)"
+                    },
+                    "volume": "2018",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "2186-7976"
+                        ],
+                        "j_global_id": [
+                            "201802230922063617"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "j_global",
+                            "@id": "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=201802230922063617",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010642/misc/37554059",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0010642/misc",
+                    "rm:id": "37554059",
+                    "rm:user_id": "1000022022",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2022-06-29T12:00:35Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-06-29T12:00:35Z",
+                    "paper_title": {
+                        "ja": "ゼニゴケのフェノール性化合物蓄積に関わるR2R3-MYB遺伝子の発現解析"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "久保浩義"
+                            },
+                            {
+                                "name": "野澤俊介"
+                            },
+                            {
+                                "name": "近藤陽一"
+                            },
+                            {
+                                "name": "石崎公庸"
+                            },
+                            {
+                                "name": "高梨功次郎"
+                            },
+                            {
+                                "name": "河内孝之"
+                            }
+                        ]
+                    },
+                    "publication_date": "2016",
+                    "publication_name": {
+                        "ja": "日本植物学会大会研究発表記録"
+                    },
+                    "volume": "80th",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "j_global_id": [
+                            "201602215273556844"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "j_global",
+                            "@id": "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=201602215273556844",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010642/misc/26692997",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0010642/misc",
+                    "rm:id": "26692997",
+                    "rm:user_id": "1000022022",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_papers",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-04-22T15:12:35Z",
+                    "rm:modifier_id": "ai:assign_based_papers",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-04-22T15:12:35Z",
+                    "paper_title": {
+                        "ja": "ゼニゴケにUV‐B耐性をもたらすUV‐B吸収色素とその制御系の解析"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "藤平健太"
+                            },
+                            {
+                                "name": "西浜竜一"
+                            },
+                            {
+                                "name": "森山亜沙美"
+                            },
+                            {
+                                "name": "石崎公庸"
+                            },
+                            {
+                                "name": "森戸健"
+                            },
+                            {
+                                "name": "久保浩義"
+                            },
+                            {
+                                "name": "宮城祐太"
+                            },
+                            {
+                                "name": "河内孝之"
+                            },
+                            {
+                                "name": "近藤陽一"
+                            }
+                        ]
+                    },
+                    "publication_date": "2016",
+                    "publication_name": {
+                        "ja": "関東学院大学理工/建築・環境学会研究発表講演論文集"
+                    },
+                    "volume": "2016",
+                    "starting_page": "182‐183",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "j_global_id": [
+                            "201602280334103208"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "j_global",
+                            "@id": "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=201602280334103208",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "http://jglobal.jst.go.jp/public/201602280334103208",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010642/misc/37491451",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0010642/misc",
+                    "rm:id": "37491451",
+                    "rm:user_id": "1000022022",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2022-06-29T08:33:41Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-06-29T08:33:41Z",
+                    "paper_title": {
+                        "ja": "3-1-1 土壌に吸着したプラスミドDNAの形質転換効率と土壌特性との関係(3-1 土壌生物の生態と機能,2015年度京都大会)"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "國頭 恭"
+                            },
+                            {
+                                "name": "井表 靖貴"
+                            },
+                            {
+                                "name": "宮原 大夢"
+                            },
+                            {
+                                "name": "瀬田 亮"
+                            },
+                            {
+                                "name": "吉田 清志"
+                            },
+                            {
+                                "name": "久保 浩義"
+                            },
+                            {
+                                "name": "長岡 一成"
+                            },
+                            {
+                                "name": "境 雅夫"
+                            },
+                            {
+                                "name": "佐伯 和利"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "一般社団法人日本土壌肥料学会"
+                    },
+                    "publication_date": "2015-09-09",
+                    "publication_name": {
+                        "ja": "日本土壌肥料学会講演要旨集"
+                    },
+                    "number": "61",
+                    "starting_page": "29",
+                    "ending_page": "29",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "0288-5840"
+                        ],
+                        "cinii_na_id": [
+                            "110010020587"
+                        ],
+                        "cinii_nc_id": [
+                            "AN00195778"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/110010020587",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_books",
+                            "@id": "http://ci.nii.ac.jp/ncid/AN00195778",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010642/misc/26693003",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0010642/misc",
+                    "rm:id": "26693003",
+                    "rm:user_id": "1000022022",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_papers",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-04-22T15:12:36Z",
+                    "rm:modifier_id": "ai:assign_based_papers",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-04-22T15:12:36Z",
+                    "paper_title": {
+                        "ja": "ゼニゴケの杯状体形成を制御するGCAM1の機能解析"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "塚本成幸"
+                            },
+                            {
+                                "name": "菅谷友美"
+                            },
+                            {
+                                "name": "大和勝幸"
+                            },
+                            {
+                                "name": "西浜竜一"
+                            },
+                            {
+                                "name": "久保浩義"
+                            },
+                            {
+                                "name": "深城英弘"
+                            },
+                            {
+                                "name": "三村徹郎"
+                            },
+                            {
+                                "name": "河内孝之"
+                            },
+                            {
+                                "name": "石崎公庸"
+                            }
+                        ]
+                    },
+                    "publication_date": "2015-09-01",
+                    "publication_name": {
+                        "ja": "日本植物学会大会研究発表記録"
+                    },
+                    "volume": "79th",
+                    "starting_page": "223",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "j_global_id": [
+                            "201502208992232447"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "j_global",
+                            "@id": "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=201502208992232447",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "http://jglobal.jst.go.jp/public/201502208992232447",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010642/misc/26693006",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0010642/misc",
+                    "rm:id": "26693006",
+                    "rm:user_id": "1000022022",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_papers",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-04-22T15:12:38Z",
+                    "rm:modifier_id": "ai:assign_based_papers",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-04-22T15:12:38Z",
+                    "paper_title": {
+                        "ja": "R2R3‐MYB型転写因子GCAM1は苔類ゼニゴケの杯状体形成を制御する"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "塚本成幸"
+                            },
+                            {
+                                "name": "菅谷友美"
+                            },
+                            {
+                                "name": "大和勝幸"
+                            },
+                            {
+                                "name": "西浜竜一"
+                            },
+                            {
+                                "name": "久保浩義"
+                            },
+                            {
+                                "name": "七條千津子"
+                            },
+                            {
+                                "name": "深城英弘"
+                            },
+                            {
+                                "name": "三村徹郎"
+                            },
+                            {
+                                "name": "河内孝之"
+                            },
+                            {
+                                "name": "石崎公庸"
+                            }
+                        ]
+                    },
+                    "publication_date": "2015-03-09",
+                    "publication_name": {
+                        "ja": "日本植物生理学会年会要旨集"
+                    },
+                    "volume": "56th",
+                    "starting_page": "313",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "j_global_id": [
+                            "201502276653452599"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "j_global",
+                            "@id": "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=201502276653452599",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "http://jglobal.jst.go.jp/public/201502276653452599",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010642/misc/26693010",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0010642/misc",
+                    "rm:id": "26693010",
+                    "rm:user_id": "1000022022",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_papers",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-04-22T15:12:40Z",
+                    "rm:modifier_id": "ai:assign_based_papers",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-04-22T15:12:40Z",
+                    "paper_title": {
+                        "ja": "ゼニゴケの栄養繁殖器官で発現するR2R3型MYB遺伝子の単離と機能解析"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "塚本成幸"
+                            },
+                            {
+                                "name": "菅谷友美"
+                            },
+                            {
+                                "name": "大和勝幸"
+                            },
+                            {
+                                "name": "山口勝司"
+                            },
+                            {
+                                "name": "重信秀治"
+                            },
+                            {
+                                "name": "西浜竜一"
+                            },
+                            {
+                                "name": "七條千津子"
+                            },
+                            {
+                                "name": "久保浩義"
+                            },
+                            {
+                                "name": "河内孝之"
+                            },
+                            {
+                                "name": "深城英弘"
+                            },
+                            {
+                                "name": "三村徹郎"
+                            },
+                            {
+                                "name": "石崎公庸"
+                            }
+                        ]
+                    },
+                    "publication_date": "2014-09-01",
+                    "publication_name": {
+                        "ja": "日本植物学会大会研究発表記録"
+                    },
+                    "volume": "78th",
+                    "starting_page": "167",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "j_global_id": [
+                            "201402219436697140"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "j_global",
+                            "@id": "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=201402219436697140",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "http://jglobal.jst.go.jp/public/201402219436697140",
+                            "is_downloadable": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0010642/presentations",
+            "@type": "presentations",
+            "@reverse": "https://api.researchmap.jp/read0010642",
+            "total_items": 3,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0010642/presentations/39824505",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0010642/presentations",
+                    "rm:id": "39824505",
+                    "rm:user_id": "1000022022",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000022022",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2022-09-02T05:50:35Z",
+                    "rm:modifier_id": "1000022022",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2022-09-02T05:50:35Z",
+                    "presentation_title": {
+                        "ja": "ゼニゴケのオーロン生合成経路"
+                    },
+                    "presenters": {
+                        "ja": [
+                            {
+                                "name": "古舘拓来"
+                            },
+                            {
+                                "name": "松下紋子"
+                            },
+                            {
+                                "name": "押切春佳"
+                            },
+                            {
+                                "name": "渡辺文太"
+                            },
+                            {
+                                "name": "和氣駿之"
+                            },
+                            {
+                                "name": "中山亨"
+                            },
+                            {
+                                "name": "久保浩義"
+                            },
+                            {
+                                "name": "高梨功次郎"
+                            }
+                        ]
+                    },
+                    "event": {
+                        "ja": "植物バイオテクノロジ学会"
+                    },
+                    "publication_date": "2021-09",
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010642/presentations/39824482",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0010642/presentations",
+                    "rm:id": "39824482",
+                    "rm:user_id": "1000022022",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000022022",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2022-09-02T05:48:00Z",
+                    "rm:modifier_id": "1000022022",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2022-09-02T05:48:00Z",
+                    "presentation_title": {
+                        "ja": "ゼニゴケのフラボン7位グルクロン酸転移酵素"
+                    },
+                    "presenters": {
+                        "ja": [
+                            {
+                                "name": "徳江創太郎、渡辺文太、中山亨、久保浩義、高梨功次郎"
+                            }
+                        ]
+                    },
+                    "event": {
+                        "ja": "植物バイオテクノロジ学会"
+                    },
+                    "publication_date": "2021-09",
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010642/presentations/39824434",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0010642/presentations",
+                    "rm:id": "39824434",
+                    "rm:user_id": "1000022022",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000022022",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2022-09-02T05:45:32Z",
+                    "rm:modifier_id": "1000022022",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2022-09-02T05:45:32Z",
+                    "presentation_title": {
+                        "ja": "ゼニゴケのディリジェント様タンパク質をコードする遺伝⼦の機能解析"
+                    },
+                    "presenters": {
+                        "ja": [
+                            {
+                                "name": "池上羽紋"
+                            },
+                            {
+                                "name": "高梨功次郎"
+                            },
+                            {
+                                "name": "久保浩義"
+                            }
+                        ]
+                    },
+                    "event": {
+                        "ja": "日本植物学会"
+                    },
+                    "publication_date": "2021-09",
+                    "presentation_type": "poster_presentation",
+                    "rm:is_open_access": false
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0010642/research_projects",
+            "@type": "research_projects",
+            "@reverse": "https://api.researchmap.jp/read0010642",
+            "total_items": 7,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0010642/research_projects/45355306",
+                    "@type": "research_projects",
+                    "@reverse": "https://api.researchmap.jp/read0010642/research_projects",
+                    "rm:id": "45355306",
+                    "rm:user_id": "1000022022",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2024-01-30T22:19:46Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2024-01-30T22:19:46Z",
+                    "research_project_title": {
+                        "ja": "植物工場におけるワサビ種子周年生産のための効率的花成誘導法の確立",
+                        "en": "Establishment of an efficient flowering induction system in a plant factory for a year-round wasabi seed production"
+                    },
+                    "investigators": {
+                        "ja": [
+                            {
+                                "name": "野末 雅之"
+                            },
+                            {
+                                "name": "久保 浩義"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "NOZUE Masayuki"
+                            },
+                            {
+                                "name": "KUBO Hiroyoshi"
+                            }
+                        ]
+                    },
+                    "offer_organization": {
+                        "ja": "日本学術振興会",
+                        "en": "Japan Society for the Promotion of Science"
+                    },
+                    "system_name": {
+                        "ja": "科学研究費助成事業",
+                        "en": "Grants-in-Aid for Scientific Research"
+                    },
+                    "category": {
+                        "ja": "基盤研究(C)",
+                        "en": "Grant-in-Aid for Scientific Research (C)"
+                    },
+                    "institution_name": {
+                        "ja": "信州大学",
+                        "en": "Shinshu University"
+                    },
+                    "from_date": "2012-04-01",
+                    "to_date": "2015-03-31",
+                    "overall_grant_amount": {
+                        "total_cost": "5590000",
+                        "direct_cost": "4300000",
+                        "indirect_cost": "1290000"
+                    },
+                    "description": {
+                        "ja": "植物工場で効率的なワサビの花成誘導法を確立するために、人工環境下で成育段階、日長および光質の影響を調べた。その結果、定植後4ヶ月以上育成したワサビ植物を1ヶ月間低温（4～8℃）下で、14時間以上のLED白色光に曝すことで花芽形成を効率的に誘導できることがわかった。LEDの光質（赤、青および遠赤色光）は花成誘導に影響しなかった。その原因として、この誘導条件下ではFT発現に日周性がみられず恒常的に発現していることが考えられた。",
+                        "en": "Effects of growth stage, day length and light quality on flower-bud formation in wasabi (Wasabia japonica) were examined to establish an efficient flowering induction system in a plant factory for a year-round stable seed production. We showed that flower-bud formation occurs effectively in wasabi plant cultivated more than 4 months after planting by low-temperature treatment at 4-8°C for one month and over 14 hours in the light period using LED white light (RGB). Light quality (blue, far-red and red light) has little influence on flower-bud formation, and FT, one of the essential flowering genes constitutively expressed in both light and dark periods under the above conditions."
+                    },
+                    "identifiers": {
+                        "grant_number": [
+                            "24580367"
+                        ],
+                        "national_grant_number": [
+                            "JP24580367"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "kaken",
+                            "@id": "https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-24580367"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010642/research_projects/45005198",
+                    "@type": "research_projects",
+                    "@reverse": "https://api.researchmap.jp/read0010642/research_projects",
+                    "rm:id": "45005198",
+                    "rm:user_id": "1000022022",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2024-01-30T13:39:43Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2024-01-30T13:39:43Z",
+                    "research_project_title": {
+                        "ja": "シロイヌナズナの花成誘導におけるホメオパックス遺伝子ANL2ホモログの機能",
+                        "en": "Effect of ANL2 homolog (A2H) on flowering in Arabidopsis."
+                    },
+                    "investigators": {
+                        "ja": [
+                            {
+                                "name": "久保 浩義"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "KUBO Hiroyoshi"
+                            }
+                        ]
+                    },
+                    "offer_organization": {
+                        "ja": "日本学術振興会",
+                        "en": "Japan Society for the Promotion of Science"
+                    },
+                    "system_name": {
+                        "ja": "科学研究費助成事業",
+                        "en": "Grants-in-Aid for Scientific Research"
+                    },
+                    "category": {
+                        "ja": "基盤研究(C)",
+                        "en": "Grant-in-Aid for Scientific Research (C)"
+                    },
+                    "institution_name": {
+                        "ja": "信州大学",
+                        "en": "Shinshu University"
+                    },
+                    "from_date": "2004",
+                    "to_date": "2005",
+                    "overall_grant_amount": {
+                        "total_cost": "2800000",
+                        "direct_cost": "2800000"
+                    },
+                    "description": {
+                        "ja": "シロイヌナズナのANL2ホモログ遺伝子の花成における働きと発現を調べた。a2h変異体では若干花成が促進された。a2h、anl2変異体で、各種花成関連遺伝子の発現を調べたが、FCAやSOC1で若干差が見られたがそれほど顕著なものではなかった。各種花成反応変異体でA2Hの発現を調べたが、いずれも野生型との差は見られなかった。A2Hの完全長cDNA、ホメオドメイン領域、STARTドメイン領域、3'末端付近の保存された領域のみをそれぞれ恒常的に発現させ、花成への影響を調べたところ、A2Hの完全長cDNA、HD-ZIP領域やSTARTドメインのみを恒常的に発現させた場合、野生型よりも若干花成の促進が見られ、花成の早い植物ではFTのmRNA量が野生型にくらべ若干増加していた。A2Hの完全長cDNAを発現させた場合の結果は予想と反していたが、発現させたA2Hタンパクが安定に存在しているかどうかの検討が必要である。短日条件で花成が顕著に早い植物が見られ、A2H以外にも第5染色体上部の遺伝子の関与が示唆されたが、それを明らかにするにはいたらなかった。また、ANL2およびANL2ホモログ(A2H)の発現をGUSをレポーターとして調べた。A2Hは葉で強く発現した。ANL2は、葉では表皮直下の組織、根では表皮組織で強く発現した。いずれも約2kbのプロモーター領域のみでは十分な発現が見られず、転写開始点より下流の配列も発現に重要であった。ANL2の場合L1boxとHD-GL2ファミリーに保存された配列を含む領域が適切な発現に重要であった。",
+                        "en": "We isolated a a2h mutant from a tagging line and examined the phenotype of the a2h mutant. The a2h mutant accumulated reduced amount of anthocyanin but the celluar organization of the primary root is normal. The a2h mutant showed a slight early flowering phenotype. Expression of A2H was not affected in several late-flowering mutants and tfl1. Overexpression of whole region of A2H, HD-ZIP domain, START domain of A2H caused slight early flowering. The result for overexpression of A2H was unexpected and further examination is required. Another gene located on upper part of chromosome5 was suggested to be involved in early flowering phenotype of a2h mutant.\nNext, we examined the promoter activity of A2H and ANL2 using uidA as a reporter. The 2kb promoter region of A2H and ANL2 did not direct proper GUS expression. When a posterior region of these genes was added downstream of the nos terminator of uidA, proper GUS expression was observed. GUS expression was observed in leaf, root and stamen in plants harboring A2H::GUS construct. In plants harboring ANL2::GUS construct, GUS expression was observed in the shoot apex and root tip where ANL2 expression is expected from the phenotype of anl2 mutant. Strong GUS expression was observed in the shoot apex, young leaves, root tips, anthers and ovules. In young tissues of shoot, GUS expressed in epidermal and subepidermal tissues. In situ hybridization revealed that ANL2 mRNA was confined to epidermis and subepidermis of shoot and flower meristems. In rosette leaves, subepidermal tissues showed much strong GUS expression, while epidermal cells including guard cells and trichome showed weak GUS expression. In the primary root, GUS was expressed in cells in the epidermis and lateral root cap that are derived from the initial cells in the root epidermis, indicating that ANL2 functions in the epidermis of root and determines its nature. A conserved motif in the HD-GL2 group (HD-GL2 motif) was essential for GUS expression, indicating that it is necessary for transcriptional regulation of ANL2."
+                    },
+                    "identifiers": {
+                        "grant_number": [
+                            "16570171"
+                        ],
+                        "national_grant_number": [
+                            "JP16570171"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "kaken",
+                            "@id": "https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-16570171"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010642/research_projects/44753836",
+                    "@type": "research_projects",
+                    "@reverse": "https://api.researchmap.jp/read0010642/research_projects",
+                    "rm:id": "44753836",
+                    "rm:user_id": "1000022022",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2024-01-30T08:18:09Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2024-01-30T08:18:09Z",
+                    "research_project_title": {
+                        "ja": "Col E2 プラスミドの複製開始頻度の調節機構",
+                        "en": "CONTROL OF INITIATION FREQUENCY OF COLE2 REPLICATION"
+                    },
+                    "investigators": {
+                        "ja": [
+                            {
+                                "name": "伊藤 建夫"
+                            },
+                            {
+                                "name": "久保 浩義"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "ITOH Tateo"
+                            },
+                            {
+                                "name": "KUBO Hiroyoshi"
+                            }
+                        ]
+                    },
+                    "offer_organization": {
+                        "ja": "日本学術振興会",
+                        "en": "Japan Society for the Promotion of Science"
+                    },
+                    "system_name": {
+                        "ja": "科学研究費助成事業",
+                        "en": "Grants-in-Aid for Scientific Research"
+                    },
+                    "category": {
+                        "ja": "基盤研究(B)",
+                        "en": "Grant-in-Aid for Scientific Research (B)"
+                    },
+                    "institution_name": {
+                        "ja": "信州大学",
+                        "en": "SHINSHU UNIVERSITY"
+                    },
+                    "from_date": "1996",
+                    "to_date": "1998",
+                    "overall_grant_amount": {
+                        "total_cost": "7700000",
+                        "direct_cost": "7700000"
+                    },
+                    "description": {
+                        "ja": "CoLE2プラスミドの複製開始蛋白(Rep)は複製開始部位(Ori)に特異的なプライメースである.Rep蛋白の合成量は、mRNAに対するアンチセンスRNA(RNAI)の負の調節作用により、一定に保たれている.Rep蛋白はトランスにも作用し得るので、DNA複製開始の頻度を効率よく調節する機構は不明である.本研究では,以下のような成果を得た.(1)欠失変異を利用してRep蛋白mRNAの開始コドンからはるか上流の非翻駅領域および翻訳領域内の配列が翻駅開始に重要な役割をもつことを示した.これらの領域に塩基置換変異をもつものが得られている.(2)フットプリント実験の結果,Rep蛋白がOri部位中の約30塩基対の領域をDNA鎖の片側から覆うように結合し,プライマー合成部位とその下流領域にDNA構造の変化を引き起こすことが示された.(3)Ori部位の最小領域内の各位置に塩基置換を導入し,それらの性質を詳細に調べた.Ori部位が少なくとも3つの領域に分けられることが示された.Repタンパク結合が低下した変異Ori部位をもつ自立複製プラスミドは野性型のもよりコピー数が高く,Repタンパクの安定な結合が過剰複製を抑えている可能性が示唆された.複製開始頻度を一定に保つ仕組の一つであるかも知れない.(4)Rep蛋白のC末端側117アミノ酸の領域に相当するペプチド(RepC117)がOri部位特異的なDNA結合活性を保持していることを示した,(5)ランダムな塩基配列をもつオリゴヌクレオチドからRep117特異的に結合するものを選択,増幅した結果,Ori部位の左半分の領域に当たる共通配列が見い出された.その領域の大きさから判断してRep117中には複数のDNA結合ドメインが存在する可能性が考えられる.",
+                        "en": "The ColE2 Rep protein is unique among many essential initiator proteins in that it is a plasmid-specified primase specific for initiation of DNA replication in the origin by DNA polymerase I.Expression of the Rep protein is kept constant through negative regulation by a small antisense RNA (RNAI). RNAl is entirely complementary to the 5' nontranslated region of the Rep mRNA.Since the Rep protein is trans-acting, it is not so obvious how the initiation frequency can be kept constant.\nAnalyses of various derivatives of the ColE2 origin carrying deletions or single-base substitutions showed that the region may be divided into three subregions : one important for stable binding of the Rep protein, another important for binding and for replication and another important for replication but apparently not for binding. Transformation frequency of the autonomously replicating plasmids carrying deletions in the first region is lower and nevertheless the copy numbers of them in hostbacteria are higher as compared with the wild-type plasmid. The Rep protein might inhibit over-replication or re-replication of newly replicated daughter molecules by stable binding to the origin. This might be important to keep the initiation frequency at a constant level.\nThe 5' nontranslated region of the Rep mRNA far upstream of the initiation codon and another region in the coding region near the initiation codon are important for efficient expression of the Rep protein. Partial digestion with various RNases in the presence or absence of RNAI suggested that binding of RNAI to the Rep mRNA causes changes in the secondary structure of the region containing the initiation codon. Mutant plasmids carrying base substitutions in the upstream and downstream regions of the initiation codon of the Rep mRNA have been isolated. Some of the mutations abolished or decreased expression of the Rep protein."
+                    },
+                    "identifiers": {
+                        "grant_number": [
+                            "08458217"
+                        ],
+                        "national_grant_number": [
+                            "JP08458217"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "kaken",
+                            "@id": "https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-08458217"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010642/research_projects/44736984",
+                    "@type": "research_projects",
+                    "@reverse": "https://api.researchmap.jp/read0010642/research_projects",
+                    "rm:id": "44736984",
+                    "rm:user_id": "1000022022",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2024-01-30T08:00:21Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2024-01-30T08:00:21Z",
+                    "research_project_title": {
+                        "ja": "トランスポゾンタギングによるシロイヌナズナのアントシアニン関連遺伝子の単離"
+                    },
+                    "investigators": {
+                        "ja": [
+                            {
+                                "name": "久保 浩義"
+                            }
+                        ]
+                    },
+                    "offer_organization": {
+                        "ja": "日本学術振興会"
+                    },
+                    "system_name": {
+                        "ja": "科学研究費助成事業"
+                    },
+                    "category": {
+                        "ja": "奨励研究(A)"
+                    },
+                    "institution_name": {
+                        "ja": "信州大学"
+                    },
+                    "from_date": "1995",
+                    "to_date": "1995",
+                    "overall_grant_amount": {
+                        "total_cost": "1000000",
+                        "direct_cost": "1000000"
+                    },
+                    "description": {
+                        "ja": "トランスポゾンタギング法は突然変異体から変異を起こした遺伝子を単離するのに非常に効果的な方法であり、トウモロコシやキンギョソウにおいてトランスポゾンタギング法を用いて多くのアントシアニン生合成系の構造遺伝子および調節遺伝子が単離されている。本研究では、トウモロコシのトランスポゾンEn-Iを導入したシロイヌナズナから見つかったアントシアニンがふ入り状になる突然変異体(an12)を用い、この挿入変異体からアントシアニン合成に関与する遺伝子の単離を行った。サザンハイブリダイゼーションの結果から約4.5kbpのHindIII断片に目的の遺伝子があることを確かめ、さらにIPCR法により挿入されたI-エレメントに隣接する遺伝子の一部を増幅し、それをプローブに用いcDNAライブラリーおよびゲノミックライブラリーをスクリーニングした。スクリーニングの結果、一種類のクローンをcDNAライブラリーから、また互いにオーバーラップする二種類のクローンをゲノミックライブラリーから得た。これらの塩基配列を調べたところ、ANL2遺伝子は一部まだ不明の部分が残っているが約10個のエクソンからなる事が明らかとなった。また、転写産物は約3kbpの大きさで、その塩基配列をデータベースで検索したところ、シロイヌナズナの表皮の毛の形成に関与しているGL2遺伝子とホモロジーがあることが明らかとなった。GL2遺伝子はホメオドメインをもった調節遺伝子であることが指摘されており、このANL2にも良く似たホメオドメインが存在することから、ANL2もアントシアニン合成に関係した調節遺伝子であることが強く示唆される。"
+                    },
+                    "identifiers": {
+                        "grant_number": [
+                            "07740614"
+                        ],
+                        "national_grant_number": [
+                            "JP07740614"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "kaken",
+                            "@id": "https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-07740614"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010642/research_projects/44660263",
+                    "@type": "research_projects",
+                    "@reverse": "https://api.researchmap.jp/read0010642/research_projects",
+                    "rm:id": "44660263",
+                    "rm:user_id": "1000022022",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2024-01-30T06:31:15Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2024-01-30T06:31:15Z",
+                    "research_project_title": {
+                        "ja": "アントシアニンの蓄積と同調して発現してくる液胞タンパク質に関する研究"
+                    },
+                    "investigators": {
+                        "ja": [
+                            {
+                                "name": "久保 浩義"
+                            }
+                        ]
+                    },
+                    "offer_organization": {
+                        "ja": "日本学術振興会"
+                    },
+                    "system_name": {
+                        "ja": "科学研究費助成事業"
+                    },
+                    "category": {
+                        "ja": "奨励研究(A)"
+                    },
+                    "institution_name": {
+                        "ja": "信州大学"
+                    },
+                    "from_date": "1992",
+                    "to_date": "1992",
+                    "overall_grant_amount": {
+                        "total_cost": "900000",
+                        "direct_cost": "900000"
+                    },
+                    "identifiers": {
+                        "grant_number": [
+                            "04740373"
+                        ],
+                        "national_grant_number": [
+                            "JP04740373"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "kaken",
+                            "@id": "https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-04740373"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010642/research_projects/44610763",
+                    "@type": "research_projects",
+                    "@reverse": "https://api.researchmap.jp/read0010642/research_projects",
+                    "rm:id": "44610763",
+                    "rm:user_id": "1000022022",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2024-01-30T05:44:04Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2024-01-30T05:44:04Z",
+                    "research_project_title": {
+                        "ja": "植物細胞の液胞および液胞内小胞における二次代謝産物の集積機構"
+                    },
+                    "investigators": {
+                        "ja": [
+                            {
+                                "name": "野末 雅之"
+                            },
+                            {
+                                "name": "臼田 信光"
+                            },
+                            {
+                                "name": "久保 浩義"
+                            }
+                        ]
+                    },
+                    "offer_organization": {
+                        "ja": "日本学術振興会"
+                    },
+                    "system_name": {
+                        "ja": "科学研究費助成事業"
+                    },
+                    "category": {
+                        "ja": "重点領域研究"
+                    },
+                    "institution_name": {
+                        "ja": "信州大学"
+                    },
+                    "from_date": "1990",
+                    "to_date": "1990",
+                    "overall_grant_amount": {
+                        "total_cost": "1800000",
+                        "direct_cost": "1800000"
+                    },
+                    "description": {
+                        "ja": "液胞は、植物特有の生命活動の維持に重要な機能を持つオルガネラであり、二次代謝物の主要な集積部位としても重要な機能を担っている。本研究では、アントシアニン色素の液胞への集積機構を明らかにすることを目的とし、その集積に関係すると考えられる液胞内タンパク質およびアントシアニンを高濃度に含む液胞内小胞(アントシアノプラスト)の形成機構について検討を行い、以下の知見を得た。1.アントシアニン生成、集積に関連して発現する液胞内タンパク質(25KD)の存在が明らかになった。このタンパク質は、以下特徴を持つ。(1)液胞の主要なタンパク質として存在する。(2)光照射によりアントシアニン生成を誘導した細胞でのみで確認され、暗所では発現せず、アントシアニン生成もみられない。(3)2,4ーD(最終濃度1mg/1)添加により、アントシアニン生成が抑制されるが、このタンパク質の発現も顕著に抑制される。(4)アントシアニン非生産性サツマイモ培養細胞株では、このタンパク質は発現しない。(5)サツマイモ塊根組織の貯蔵タンパク質のスポラミン(分子量約25KD)とは異なる。アントシアニンは細胞質で生合成されるので、このタンパク質は、アントシアニン液胞内への輸送、あるいは集積に関与している可能性が示唆される。現在、このタンパク質の機能、液胞内での存在部位および発現様式を調べるため、アミノ酸配列の決定、cDNA、特異抗体の調製を行っている。2.アントシアノプラストは、アントシアニンの集積に関係していることが明らかになった。電子顕微鏡観察等によりアントシアノプラストは、液胞内に輸送されたアントシアニンが、液胞内の化合物(例えばタンパク質)に吸着され、コロイド状の構造物を形成したものと考えられる。アントシアノプラストが形成されることにより、液胞内の可溶化したアントシアニンの濃度が高くなるのが抑えられ、最終的に液胞のアントシアニン集積能を高めていると思われる。"
+                    },
+                    "identifiers": {
+                        "grant_number": [
+                            "02261209"
+                        ],
+                        "national_grant_number": [
+                            "JP02261209"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "kaken",
+                            "@id": "https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-02261209"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010642/research_projects/13417443",
+                    "@type": "research_projects",
+                    "@reverse": "https://api.researchmap.jp/read0010642/research_projects",
+                    "rm:id": "13417443",
+                    "rm:user_id": "1000022022",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:#L4c2kCEt3esu+FZ",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-07-26T17:45:52Z",
+                    "rm:modifier_id": "client_id:4soeP_GynCAqaBkY",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2023-07-03T06:36:08Z",
+                    "research_project_title": {
+                        "ja": "シロイヌナズナのホメオボックス遺伝子ＡＮＬ２の機能解析"
+                    },
+                    "overall_grant_amount": {
+                        "direct_cost": "0",
+                        "indirect_cost": "0",
+                        "total_cost": "0"
+                    },
+                    "description": {
+                        "ja": "シロイヌナズナのホメオボックス遺伝子ＡＮＬ２の機能解析"
+                    },
+                    "fund_type": "competitive_research_funding"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,2309 @@
+{
+    "@context": "https://api.researchmap.jp/researcher.jsonld",
+    "@id": "https://api.researchmap.jp/read0019559?format=json",
+    "@type": "researchers",
+    "rm:user_id": "1000052604",
+    "rm:creator_id": "1000052604",
+    "rm:creator_type": "myself",
+    "rm:created": "2010-12-06T15:00:00Z",
+    "rm:modifier_id": "R000000022",
+    "rm:modifier_type": "institution",
+    "rm:modified": "2024-06-24T02:44:46Z",
+    "permalink": "read0019559",
+    "family_name": {
+        "ja": "松本",
+        "ja-Kana": "マツモト",
+        "en": "Matsumoto"
+    },
+    "given_name": {
+        "ja": "紳",
+        "ja-Kana": "マコト",
+        "en": "Makoto"
+    },
+    "display_name_kana": "disclosed",
+    "display_nickname": "disclosed",
+    "display_image": "disclosed",
+    "display_contact_point": "disclosed",
+    "degrees": [
+        {
+            "display_degree": "disclosed",
+            "degree": {
+                "ja": "工学博士",
+                "en": "Doctor of Engineering"
+            },
+            "degree_institution": {
+                "ja": "慶應義塾大学",
+                "en": "Keio University"
+            },
+            "rm:institution_code": "2197000000"
+        },
+        {
+            "display_degree": "disclosed",
+            "degree": {
+                "ja": "工学修士",
+                "en": "Master of Engineering"
+            },
+            "degree_institution": {
+                "ja": "慶應義塾大学",
+                "en": "Keio University"
+            },
+            "rm:institution_code": "2197000000"
+        }
+    ],
+    "display_profile": "disclosed",
+    "display_url": "disclosed",
+    "identifiers": {
+        "j_global_id": [
+            "200901015591525420"
+        ]
+    },
+    "rm:erad_id_verified": false,
+    "rm:orc_id_verified": false,
+    "display_erad_id": "closed",
+    "display_orc_id": "closed",
+    "display_researcher_id": "disclosed",
+    "display_j_global_id": "disclosed",
+    "see_also": [
+        {
+            "label": "j_global",
+            "@id": "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=200901015591525420"
+        }
+    ],
+    "@graph": [
+        {
+            "@id": "https://api.researchmap.jp/read0019559/research_areas",
+            "@type": "research_areas",
+            "@reverse": "https://api.researchmap.jp/read0019559",
+            "total_items": 1,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0019559/research_areas/8884004",
+                    "@type": "research_areas",
+                    "@reverse": "https://api.researchmap.jp/read0019559/research_areas",
+                    "rm:id": "8884004",
+                    "rm:user_id": "1000052604",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-15T17:49:25Z",
+                    "rm:modifier_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-01-15T17:49:25Z",
+                    "discipline_number": "A1000",
+                    "item_number": "A13030",
+                    "discipline": {
+                        "ja": "自然科学一般",
+                        "en": "Natural sciences"
+                    },
+                    "research_field": {
+                        "ja": "磁性、超伝導、強相関系",
+                        "en": "Magnetism, superconductivity, and strongly correlated systems"
+                    }
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0019559/published_papers",
+            "@type": "published_papers",
+            "@reverse": "https://api.researchmap.jp/read0019559",
+            "total_items": 60,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0019559/published_papers/20157256",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0019559/published_papers",
+                    "rm:id": "20157256",
+                    "rm:user_id": "1000052604",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-15T17:49:25Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-06-02T05:25:06Z",
+                    "paper_title": {
+                        "en": "Reconstruction of magnetic domain structure using the reverse Monte Carlo method with an extended Fourier image"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Maki Tokii"
+                            },
+                            {
+                                "name": "Eiji Kita"
+                            },
+                            {
+                                "name": "Chiharu Mitsumata"
+                            },
+                            {
+                                "name": "Kanta Ono"
+                            },
+                            {
+                                "name": "Hideto Yanagihara"
+                            },
+                            {
+                                "name": "Makoto Matsumoto"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "Visualization of the magnetic domain structure is indispensable to the investigation of magnetization processes and the coercivity mechanism. It is necessary to develop a reconstruction method from the reciprocal-space image to the real-space image. For this purpose, it is necessary to solve the problem of missing phase information in the reciprocal-space image. We propose the method of extend Fourier image with mean-value padding to compensate for the phase information. We visualized the magnetic domain structure using the Reverse Monte Carlo method with simulated annealing to accelerate the calculation. With this technique, we demonstrated the restoration of the magnetic domain structure, obtained magnetization and magnetic domain width, and reproduced the characteristic form that constitutes a magnetic domain. (C) 2015 AIP Publishing LLC."
+                    },
+                    "publisher": {
+                        "en": "AMER INST PHYSICS"
+                    },
+                    "publication_date": "2015-05",
+                    "publication_name": {
+                        "en": "JOURNAL OF APPLIED PHYSICS"
+                    },
+                    "volume": "117",
+                    "number": "17",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1063/1.4918955"
+                        ],
+                        "issn": [
+                            "0021-8979"
+                        ],
+                        "e_issn": [
+                            "1089-7550"
+                        ],
+                        "wos_id": [
+                            "WOS:000354984100372"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1063/1.4918955",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000354984100372&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0019559/published_papers/20157299",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0019559/published_papers",
+                    "rm:id": "20157299",
+                    "rm:user_id": "1000052604",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-15T17:49:25Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-05-03T12:38:20Z",
+                    "paper_title": {
+                        "en": "Compton profiles and nesting of Fermi surfaces for B2-TiNi and B2-TiPd"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Hua Li"
+                            },
+                            {
+                                "name": "Maki Tokii"
+                            },
+                            {
+                                "name": "Makoto Matsumoto"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "The band structures of the shape memory alloys B2-TiNi and B2-TiPd are calculated by the full potential linearized augmented plane wave method with the local density approximation. The theoretical Compton profiles for B2-TiNi and B2-TiPd are calculated. In addition, the three-dimensional (3D) occupation number densities obtained by Lock-Crisp-West (LCW) analysis are presented for the first time. These 3D occupation number densities are in good agreement with the Compton scattering experiment for TiNi. Both shape memory alloys are based on martensitic transformation, which is caused by soft phonons. The charge-density wave is created by nesting of Fermi surfaces, which leads to phonon softening. To examine the nesting vectors quantitatively, we calculate the generalized susceptibility chi (q) . chi (q) shows peaks at 0.315[110]2 pi/a = and 0.4[111]2 pi/a for TiNi and at 0.275[110]2 pi/a and 0.395[1110]2 pi/a for TiPd. Although the nesting vector in the [110] direction agrees with that from the phonon experiment, the nesting vector in the [111] direction differs from that in the experimental results."
+                    },
+                    "publisher": {
+                        "en": "IOP PUBLISHING LTD"
+                    },
+                    "publication_date": "2012-01",
+                    "publication_name": {
+                        "en": "JOURNAL OF PHYSICS-CONDENSED MATTER"
+                    },
+                    "volume": "24",
+                    "number": "1",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1088/0953-8984/24/1/015501"
+                        ],
+                        "issn": [
+                            "0953-8984"
+                        ],
+                        "wos_id": [
+                            "WOS:000298542500014"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1088/0953-8984/24/1/015501",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000298542500014&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0019559/published_papers/20157298",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0019559/published_papers",
+                    "rm:id": "20157298",
+                    "rm:user_id": "1000052604",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-15T17:49:25Z",
+                    "rm:modifier_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-01-15T17:49:25Z",
+                    "paper_title": {
+                        "ja": "22aGD-1 形状記憶合金TiNiとTiPdの運動量密度分布(22aGD 準結晶・金属一般,領域6(金属,超低温,超伝導・密度波))",
+                        "en": "22aGD-1 The momentum density distribution of shape memory alloys for TiNi and TiPd"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "李, 華"
+                            },
+                            {
+                                "name": "時井, 真紀"
+                            },
+                            {
+                                "name": "松本, 紳"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Lee,H"
+                            },
+                            {
+                                "name": "Tokii,M"
+                            },
+                            {
+                                "name": "Matsumoto,M"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "社団法人日本物理学会",
+                        "en": "The Physical Society of Japan (JPS)"
+                    },
+                    "publication_date": "2011-08",
+                    "publication_name": {
+                        "ja": "日本物理学会講演概要集",
+                        "en": "Meeting abstracts of the Physical Society of Japan"
+                    },
+                    "volume": "66",
+                    "number": "2",
+                    "starting_page": "803",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "1342-8349"
+                        ]
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0019559/published_papers/20157300",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0019559/published_papers",
+                    "rm:id": "20157300",
+                    "rm:user_id": "1000052604",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-15T17:49:25Z",
+                    "rm:modifier_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-01-15T17:49:25Z",
+                    "paper_title": {
+                        "ja": "筑波大学情報学群知識情報・図書館学類について : 人材養成を中心に",
+                        "en": "Curriculum of College of Knowledge and Library Sciences, School of Informatics, University of Tsukuba, Kasuga learning commons (KLC)"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "松本, 紳"
+                            },
+                            {
+                                "name": "逸村, 裕"
+                            },
+                            {
+                                "name": "歳森, 敦"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Matsumoto,Makoto"
+                            },
+                            {
+                                "name": "Itsumura,Hiroshi"
+                            },
+                            {
+                                "name": "Toshimori,Atsushi"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "大学図書館研究編集委員会",
+                        "en": "Editorial Committee of the Journal of College and University Libraries"
+                    },
+                    "publication_date": "2011-03",
+                    "publication_name": {
+                        "ja": "大学図書館研究",
+                        "en": "Journal of college and university libraries"
+                    },
+                    "volume": "91",
+                    "starting_page": "9",
+                    "ending_page": "14",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "published_paper_type": "research_society",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "0386-0507"
+                        ]
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0019559/published_papers/20157315",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0019559/published_papers",
+                    "rm:id": "20157315",
+                    "rm:user_id": "1000052604",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-15T17:49:25Z",
+                    "rm:modifier_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-01-15T17:49:25Z",
+                    "paper_title": {
+                        "ja": "23aPS-11 Ti系合金のマルテンサイト変態過程における全エネルギーの変化(23aPS 領域8ポスターセッション(低温I(鉄系超伝導,銅酸化物など)),領域8(強相関系:高温超伝導,強相関f電子系など))",
+                        "en": "23aPS-11 The change of the total energy for Ti system alloys in the martensitic transformation path"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "李, 華"
+                            },
+                            {
+                                "name": "時井, 真紀"
+                            },
+                            {
+                                "name": "松本, 紳"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Lee,H"
+                            },
+                            {
+                                "name": "Tokii,M"
+                            },
+                            {
+                                "name": "Matsumoto,M"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "社団法人日本物理学会",
+                        "en": "The Physical Society of Japan (JPS)"
+                    },
+                    "publication_date": "2010-08",
+                    "publication_name": {
+                        "ja": "日本物理学会講演概要集",
+                        "en": "Meeting abstracts of the Physical Society of Japan"
+                    },
+                    "volume": "65",
+                    "number": "2",
+                    "starting_page": "462",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "1342-8349"
+                        ]
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0019559/published_papers/20157257",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0019559/published_papers",
+                    "rm:id": "20157257",
+                    "rm:user_id": "1000052604",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-15T17:49:25Z",
+                    "rm:modifier_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-01-15T17:49:25Z",
+                    "paper_title": {
+                        "ja": "Ideas for the International Collaboration in the LIS Education and Research at Tsukuba",
+                        "en": "Ideas for the International Collaboration in the LIS Education and Research at Tsukuba"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "C., Mizoue"
+                            },
+                            {
+                                "name": "N., Nakayama"
+                            },
+                            {
+                                "name": "Ishii, Hirotoyo"
+                            },
+                            {
+                                "name": "H., Joho"
+                            },
+                            {
+                                "name": "M., Matsumoto"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "C., Mizoue"
+                            },
+                            {
+                                "name": "N., Nakayama"
+                            },
+                            {
+                                "name": "Ishii, Hirotoyo"
+                            },
+                            {
+                                "name": "H., Joho"
+                            },
+                            {
+                                "name": "M., Matsumoto"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "Queensland, Australia",
+                        "en": "Queensland, Australia"
+                    },
+                    "publication_date": "2010-06",
+                    "publication_name": {
+                        "ja": "Workshop on Global Collaboration of Infomation Schools (WIS2010)",
+                        "en": "Workshop on Global Collaboration of Infomation Schools (WIS2010)"
+                    },
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "international_conference_proceedings",
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0019559/published_papers/20157314",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0019559/published_papers",
+                    "rm:id": "20157314",
+                    "rm:user_id": "1000052604",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-15T17:49:25Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-08-06T23:34:51Z",
+                    "paper_title": {
+                        "ja": "20aPS-118 Ti系合金のマルテンサイト変態におけるフェルミ面とネスティングの変化(20aPS 領域8ポスターセッション(低温I(遷移金属化合物,炭化・硼化物など)),領域8(強相関系:高温超伝導,強相関f電子系など))",
+                        "en": "20aPS-118 The nesting of the Fermi surfaces for Ti system alloys in the martensitic transformation"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Lee,H"
+                            },
+                            {
+                                "name": "Tokii,M"
+                            },
+                            {
+                                "name": "Matsumoto,M"
+                            }
+                        ],
+                        "ja": [
+                            {
+                                "name": "李, 華"
+                            },
+                            {
+                                "name": "時井, 真紀"
+                            },
+                            {
+                                "name": "松本, 紳"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "社団法人日本物理学会",
+                        "en": "The Physical Society of Japan (JPS)"
+                    },
+                    "publication_date": "2010-03",
+                    "publication_name": {
+                        "ja": "日本物理学会講演概要集",
+                        "en": "Meeting abstracts of the Physical Society of Japan"
+                    },
+                    "volume": "65",
+                    "number": "1",
+                    "starting_page": "548",
+                    "ending_page": "548",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "1342-8349"
+                        ],
+                        "cinii_na_id": [
+                            "110007655728"
+                        ],
+                        "cinii_nc_id": [
+                            "AA11439205"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/110007655728",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_books",
+                            "@id": "http://ci.nii.ac.jp/ncid/AA11439205",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0019559/published_papers/20157297",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0019559/published_papers",
+                    "rm:id": "20157297",
+                    "rm:user_id": "1000052604",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-15T17:49:25Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-08-31T03:42:43Z",
+                    "paper_title": {
+                        "en": "Curriculum reform in library and information science education by evidence-based decision making"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Atsushi Toshimori"
+                            },
+                            {
+                                "name": "Chieko Mizoue"
+                            },
+                            {
+                                "name": "Makoto Matsumoto"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "The student surveys are conducted to better understand the student's views and help restructure curriculum. This article explored characteristics of students of the College of Knowledge and Library Sciences (KLIS) at the University of Tsukuba in Japan. The KLIS conducted two kinds of student surveys in 2009 and 2010: a) a standardized survey and b) internal surveys. The results of the surveys showed many students attended the KLIS to major in library and information sciences. Students expressed a high level of satisfaction with the academic program and the general quality of classes provided. While few of the younger students were aware of the importance of computer competency, the importance of computer courses becomes more apparent in more senior years, indicated by lower dissatisfaction in higher grades. Based on these student surveys, the KLIS has already reformed its curriculum started in 2007. The authors hope their ideas will progress by combining a standardized student survey with a specialized one. This will lead to a better understanding of who the students are and what they want, and such efforts can maintain the students' high satisfaction levels and their assessment of the high quality of classes. © 2010/2011 - IOS Press and the authors. All rights reserved."
+                    },
+                    "publisher": {
+                        "en": "IOP press"
+                    },
+                    "publication_date": "2010",
+                    "publication_name": {
+                        "en": "Education for Information"
+                    },
+                    "volume": "28",
+                    "number": "2-4",
+                    "starting_page": "305",
+                    "ending_page": "314",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.3233/EFI-2010-0913"
+                        ],
+                        "issn": [
+                            "0167-8329"
+                        ],
+                        "scopus_id": [
+                            "84255192703"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.3233/EFI-2010-0913",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0019559/published_papers/20157313",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0019559/published_papers",
+                    "rm:id": "20157313",
+                    "rm:user_id": "1000052604",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-15T17:49:25Z",
+                    "rm:modifier_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-01-15T17:49:25Z",
+                    "paper_title": {
+                        "ja": "25aPS-108 TiNiのマルテンサイト変態におけるB2、B19、B19'、BCOのバンド構造とフェルミ面(領域8ポスターセッション(f電子系等),領域8,強相関系:高温超伝導,強相関f電子系など)",
+                        "en": "25aPS-108 The Band structures and the Fermi surfaces of B2, B19, B19' and BCO TiNi in the martensitic transformation"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "李, 華"
+                            },
+                            {
+                                "name": "時井, 真紀"
+                            },
+                            {
+                                "name": "松本, 紳"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Lee,H"
+                            },
+                            {
+                                "name": "Tokii,M"
+                            },
+                            {
+                                "name": "Matsumoto,M"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "社団法人日本物理学会",
+                        "en": "The Physical Society of Japan (JPS)"
+                    },
+                    "publication_date": "2009-08",
+                    "publication_name": {
+                        "ja": "日本物理学会講演概要集",
+                        "en": "Meeting abstracts of the Physical Society of Japan"
+                    },
+                    "volume": "64",
+                    "number": "2",
+                    "starting_page": "440",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "1342-8349"
+                        ]
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0019559/published_papers/20157312",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0019559/published_papers",
+                    "rm:id": "20157312",
+                    "rm:user_id": "1000052604",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-15T17:49:25Z",
+                    "rm:modifier_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-01-15T17:49:25Z",
+                    "paper_title": {
+                        "ja": "27aPS-137 マルテンサイト相B19'-TiNiの電子構造と一般化帯磁率(27aPS 領域3ポスターセッション(遍歴磁性体・化合物磁性体・f電子系・磁性一般),領域3(磁性,磁気共鳴))",
+                        "en": "27aPS-137 Electronic structure of the martensitic phase B19' TiNi"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "李, 華"
+                            },
+                            {
+                                "name": "時井, 真紀"
+                            },
+                            {
+                                "name": "松本, 紳"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Lee,H"
+                            },
+                            {
+                                "name": "Tokii,M"
+                            },
+                            {
+                                "name": "Matsumoto,M"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "社団法人日本物理学会",
+                        "en": "The Physical Society of Japan (JPS)"
+                    },
+                    "publication_date": "2009-03",
+                    "publication_name": {
+                        "ja": "日本物理学会講演概要集",
+                        "en": "Meeting abstracts of the Physical Society of Japan"
+                    },
+                    "volume": "64",
+                    "number": "1",
+                    "starting_page": "445",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "1342-8349"
+                        ]
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0019559/published_papers/20157296",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0019559/published_papers",
+                    "rm:id": "20157296",
+                    "rm:user_id": "1000052604",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-15T17:49:25Z",
+                    "rm:modifier_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-01-15T17:49:25Z",
+                    "paper_title": {
+                        "ja": "Restructuring Library and Information Science Education Toward Knowledge Informatics Education: A Case of the Undergraduate Program at the University of Tsukuba",
+                        "en": "Restructuring Library and Information Science Education Toward Knowledge Informatics Education: A Case of the Undergraduate Program at the University of Tsukuba"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "Hirotoyo,Ishii"
+                            },
+                            {
+                                "name": "Chieko,Mizoue"
+                            },
+                            {
+                                "name": "Atsushi,Toshimori"
+                            },
+                            {
+                                "name": "Norihiko,Uda"
+                            },
+                            {
+                                "name": "Hidehiko,Hasegawa"
+                            },
+                            {
+                                "name": "Makoto,Matsumoto"
+                            },
+                            {
+                                "name": "Nakayama,Shin-ichi"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Hirotoyo,Ishii"
+                            },
+                            {
+                                "name": "Chieko,Mizoue"
+                            },
+                            {
+                                "name": "Atsushi,Toshimori"
+                            },
+                            {
+                                "name": "Norihiko,Uda"
+                            },
+                            {
+                                "name": "Hidehiko,Hasegawa"
+                            },
+                            {
+                                "name": "Makoto,Matsumoto"
+                            },
+                            {
+                                "name": "Nakayama,Shin-ichi"
+                            }
+                        ]
+                    },
+                    "publication_date": "2009-03",
+                    "publication_name": {
+                        "ja": "Proceedings of the Asia-Pacific Conference on Library & Information Education and Practice (A-LIEP 2009)",
+                        "en": "Proceedings of the Asia-Pacific Conference on Library & Information Education and Practice (A-LIEP 2009)"
+                    },
+                    "starting_page": "145",
+                    "ending_page": "151",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "international_conference_proceedings",
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0019559/published_papers/20157295",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0019559/published_papers",
+                    "rm:id": "20157295",
+                    "rm:user_id": "1000052604",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-15T17:49:25Z",
+                    "rm:modifier_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-01-15T17:49:25Z",
+                    "paper_title": {
+                        "ja": "古地図研究支援システムの試作",
+                        "en": "Development of the historical map study support system"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "杉山和毅"
+                            },
+                            {
+                                "name": "時井真紀"
+                            },
+                            {
+                                "name": "松本紳"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Kazyki Sugiyama"
+                            },
+                            {
+                                "name": "Maki Tokii"
+                            },
+                            {
+                                "name": "Makoto Matsumoto"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "情報処理学会",
+                        "en": "情報処理学会"
+                    },
+                    "publication_date": "2008-12",
+                    "publication_name": {
+                        "ja": "人文科学とコンピュータシンポジウム",
+                        "en": "IPSJ Symposium Series"
+                    },
+                    "volume": "2008",
+                    "number": "15",
+                    "starting_page": "235-240",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0019559/published_papers/20157294",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0019559/published_papers",
+                    "rm:id": "20157294",
+                    "rm:user_id": "1000052604",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-15T17:49:25Z",
+                    "rm:modifier_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-01-15T17:49:25Z",
+                    "paper_title": {
+                        "ja": "風景画「近江八景」の図像研究における画像のデータベース化及びGoogle Earthの利用",
+                        "en": "Building a Database and Using Google Earth for The Study of Oumi-Hakkei"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "石立裕子"
+                            },
+                            {
+                                "name": "綿抜豊昭"
+                            },
+                            {
+                                "name": "時井真紀"
+                            },
+                            {
+                                "name": "松本紳"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Hiroko Ishidate"
+                            },
+                            {
+                                "name": "Toyoaki Watanuki"
+                            },
+                            {
+                                "name": "Maki Tokii"
+                            },
+                            {
+                                "name": "Makoto Matsumoto"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "情報処理学会",
+                        "en": "情報処理学会"
+                    },
+                    "publication_date": "2008-12",
+                    "publication_name": {
+                        "ja": "人文科学とコンピュータシンポジウム論文集",
+                        "en": "IPSJ Symposium Series"
+                    },
+                    "volume": "2008",
+                    "number": "15",
+                    "starting_page": "297-304",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0019559/published_papers/20157311",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0019559/published_papers",
+                    "rm:id": "20157311",
+                    "rm:user_id": "1000052604",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-15T17:49:25Z",
+                    "rm:modifier_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-01-15T17:49:25Z",
+                    "paper_title": {
+                        "ja": "20pPSA-37 CaVO_3のフェルミ面(20pPSA 領域8ポスターセッション(低温:Mn酸化物,V酸化物,鉄オキシニクタイドなど),領域8(強相関系:高温超伝導,強相関f電子系など))",
+                        "en": "20pPSA-37 Fermi Surfaces of CaVO_3"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "大内, 真一"
+                            },
+                            {
+                                "name": "時井, 真紀"
+                            },
+                            {
+                                "name": "松本, 紳"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Ohuchi,S"
+                            },
+                            {
+                                "name": "Tokii,M"
+                            },
+                            {
+                                "name": "Matsumoto,M"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "社団法人日本物理学会",
+                        "en": "The Physical Society of Japan (JPS)"
+                    },
+                    "publication_date": "2008-08",
+                    "publication_name": {
+                        "ja": "日本物理学会講演概要集",
+                        "en": "Meeting abstracts of the Physical Society of Japan"
+                    },
+                    "volume": "63",
+                    "number": "2",
+                    "starting_page": "467",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "1342-8349"
+                        ]
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0019559/published_papers/20157310",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0019559/published_papers",
+                    "rm:id": "20157310",
+                    "rm:user_id": "1000052604",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-15T17:49:25Z",
+                    "rm:modifier_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-01-15T17:49:25Z",
+                    "paper_title": {
+                        "ja": "24aPS-73 Ti_<52>Ni_<48>のコンプトン・プロフィール(24aPS ポスターセッション(低温),領域8(強相関係:高温超伝導,強相関f電子系など))",
+                        "en": "24aPS-73 Compton profiles of Ti_<52>Ni_<48>"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "李, 華"
+                            },
+                            {
+                                "name": "時井, 真紀"
+                            },
+                            {
+                                "name": "松本, 紳"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Lee,H"
+                            },
+                            {
+                                "name": "Tokii,M"
+                            },
+                            {
+                                "name": "Matsumoto,M"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "社団法人日本物理学会",
+                        "en": "The Physical Society of Japan (JPS)"
+                    },
+                    "publication_date": "2008-02",
+                    "publication_name": {
+                        "ja": "日本物理学会講演概要集",
+                        "en": "Meeting abstracts of the Physical Society of Japan"
+                    },
+                    "volume": "63",
+                    "number": "1",
+                    "starting_page": "587",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "1342-8349"
+                        ]
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0019559/published_papers/20157309",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0019559/published_papers",
+                    "rm:id": "20157309",
+                    "rm:user_id": "1000052604",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-15T17:49:25Z",
+                    "rm:modifier_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-01-15T17:49:25Z",
+                    "paper_title": {
+                        "ja": "24aPS-74 CaVO_3のコンプトンプロファイルII(24aPS ポスターセッション(低温),領域8(強相関係:高温超伝導,強相関f電子系など))",
+                        "en": "24aPS-74 Compton Profiles of CaVO_3 II"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "大内, 真一"
+                            },
+                            {
+                                "name": "時井, 真紀"
+                            },
+                            {
+                                "name": "松本, 紳"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Ohuchi,S"
+                            },
+                            {
+                                "name": "Tokii,M"
+                            },
+                            {
+                                "name": "Matsumoto,M"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "社団法人日本物理学会",
+                        "en": "The Physical Society of Japan (JPS)"
+                    },
+                    "publication_date": "2008-02",
+                    "publication_name": {
+                        "ja": "日本物理学会講演概要集",
+                        "en": "Meeting abstracts of the Physical Society of Japan"
+                    },
+                    "volume": "63",
+                    "number": "1",
+                    "starting_page": "587",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "1342-8349"
+                        ]
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0019559/published_papers/20157308",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0019559/published_papers",
+                    "rm:id": "20157308",
+                    "rm:user_id": "1000052604",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-15T17:49:25Z",
+                    "rm:modifier_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-01-15T17:49:25Z",
+                    "paper_title": {
+                        "ja": "22aPS-52 CaVO_3のコンプトンプロフィール(領域3ポスターセッション(f電子,遍歴,化合物,酸化物,磁性一般,表面・界面),領域3,磁性,磁気共鳴)",
+                        "en": "22aPS-52 Compton Profiles of CaVO_3"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "大内, 真一"
+                            },
+                            {
+                                "name": "時井, 真紀"
+                            },
+                            {
+                                "name": "松本, 紳"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Ohuchi,S"
+                            },
+                            {
+                                "name": "Tokii,M"
+                            },
+                            {
+                                "name": "Matsumoto,M"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "社団法人日本物理学会",
+                        "en": "The Physical Society of Japan (JPS)"
+                    },
+                    "publication_date": "2007-08",
+                    "publication_name": {
+                        "ja": "日本物理学会講演概要集",
+                        "en": "Meeting abstracts of the Physical Society of Japan"
+                    },
+                    "volume": "62",
+                    "number": "2",
+                    "starting_page": "472",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "1342-8349"
+                        ]
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0019559/published_papers/20157307",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0019559/published_papers",
+                    "rm:id": "20157307",
+                    "rm:user_id": "1000052604",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-15T17:49:25Z",
+                    "rm:modifier_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-01-15T17:49:25Z",
+                    "paper_title": {
+                        "ja": "22aPS-53 TiNiのLDA+Uによるフェルミ面の変化(領域3ポスターセッション(f電子,遍歴,化合物,酸化物,磁性一般,表面・界面),領域3,磁性,磁気共鳴)",
+                        "en": "22aPS-53 Change in Fermi Surfaces of TiNi by LDA+U"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "李, 華"
+                            },
+                            {
+                                "name": "時井, 真紀"
+                            },
+                            {
+                                "name": "松本, 紳"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Lee,H"
+                            },
+                            {
+                                "name": "Tokii,M"
+                            },
+                            {
+                                "name": "Matsumoto,M"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "社団法人日本物理学会",
+                        "en": "The Physical Society of Japan (JPS)"
+                    },
+                    "publication_date": "2007-08",
+                    "publication_name": {
+                        "ja": "日本物理学会講演概要集",
+                        "en": "Meeting abstracts of the Physical Society of Japan"
+                    },
+                    "volume": "62",
+                    "number": "2",
+                    "starting_page": "472",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "1342-8349"
+                        ]
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0019559/published_papers/20157306",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0019559/published_papers",
+                    "rm:id": "20157306",
+                    "rm:user_id": "1000052604",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-15T17:49:25Z",
+                    "rm:modifier_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-01-15T17:49:25Z",
+                    "paper_title": {
+                        "ja": "18aPS-135 TiNiのフェルミ面とコンプトン・プロフィール II(18aPS 領域3ポスターセッション(磁性),領域3(磁性,磁気共鳴))",
+                        "en": "18aPS-135 Fermi surfaces and Compton profiles of TiNi II"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "李, 華"
+                            },
+                            {
+                                "name": "時井, 美紀"
+                            },
+                            {
+                                "name": "松本, 紳"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Lee,H"
+                            },
+                            {
+                                "name": "Tokii,M"
+                            },
+                            {
+                                "name": "Matsumoto,M"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "社団法人日本物理学会",
+                        "en": "The Physical Society of Japan (JPS)"
+                    },
+                    "publication_date": "2007-02",
+                    "publication_name": {
+                        "ja": "日本物理学会講演概要集",
+                        "en": "Meeting abstracts of the Physical Society of Japan"
+                    },
+                    "volume": "62",
+                    "number": "1",
+                    "starting_page": "434",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "1342-8349"
+                        ]
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0019559/published_papers/20157305",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0019559/published_papers",
+                    "rm:id": "20157305",
+                    "rm:user_id": "1000052604",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-15T17:49:25Z",
+                    "rm:modifier_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-01-15T17:49:25Z",
+                    "paper_title": {
+                        "ja": "18aPS-136 fcc Niの磁気コンプトンプロファイル(18aPS 領域3ポスターセッション(磁性),領域3(磁性,磁気共鳴))",
+                        "en": "18aPS-136 Magnetic Compton Profiles of fcc Ni"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "時井, 真紀"
+                            },
+                            {
+                                "name": "松本, 紳"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Tokii,M"
+                            },
+                            {
+                                "name": "Matsumoto,M"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "社団法人日本物理学会",
+                        "en": "The Physical Society of Japan (JPS)"
+                    },
+                    "publication_date": "2007-02",
+                    "publication_name": {
+                        "ja": "日本物理学会講演概要集",
+                        "en": "Meeting abstracts of the Physical Society of Japan"
+                    },
+                    "volume": "62",
+                    "number": "1",
+                    "starting_page": "434",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "1342-8349"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0019559/books_etc",
+            "@type": "books_etc",
+            "@reverse": "https://api.researchmap.jp/read0019559",
+            "total_items": 5,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0019559/books_etc/15555916",
+                    "@type": "books_etc",
+                    "@reverse": "https://api.researchmap.jp/read0019559/books_etc",
+                    "rm:id": "15555916",
+                    "rm:user_id": "1000052604",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-15T17:49:25Z",
+                    "rm:modifier_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-01-15T17:49:25Z",
+                    "book_title": {
+                        "ja": "マルチメディアビギナーズテキスト第二版",
+                        "en": "Multimedia beginners Text 2nd edition"
+                    },
+                    "book_owner_role": "single_work",
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "松本, 紳"
+                            },
+                            {
+                                "name": "小高和己"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "松本, 紳"
+                            },
+                            {
+                                "name": "小高和己"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "東京電機大学出版局 東京電機大学出版局",
+                        "en": "東京電機大学出版局 東京電機大学出版局"
+                    },
+                    "publication_date": "2001-01",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "book_type": "scholarly_book"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0019559/books_etc/15555915",
+                    "@type": "books_etc",
+                    "@reverse": "https://api.researchmap.jp/read0019559/books_etc",
+                    "rm:id": "15555915",
+                    "rm:user_id": "1000052604",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-15T17:49:25Z",
+                    "rm:modifier_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-01-15T17:49:25Z",
+                    "book_title": {
+                        "ja": "Mathematicaによる量子物理学",
+                        "en": "Mathematicaによる量子物理学"
+                    },
+                    "book_owner_role": "single_work",
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "松本, 紳"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "松本, 紳"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "東京電機大学出版局 東京電機大学出版局",
+                        "en": "東京電機大学出版局 東京電機大学出版局"
+                    },
+                    "publication_date": "2000-01",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "book_type": "scholarly_book"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0019559/books_etc/15555914",
+                    "@type": "books_etc",
+                    "@reverse": "https://api.researchmap.jp/read0019559/books_etc",
+                    "rm:id": "15555914",
+                    "rm:user_id": "1000052604",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-15T17:49:25Z",
+                    "rm:modifier_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-01-15T17:49:25Z",
+                    "book_title": {
+                        "ja": "物理学と図書館",
+                        "en": "物理学と図書館"
+                    },
+                    "book_owner_role": "single_work",
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "松本, 紳"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "松本, 紳"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "図書館を使う[図書館・情報メディア双書12] 図書館を使う[図書館・情報メディア双書12] 勉誠出版",
+                        "en": "図書館を使う[図書館・情報メディア双書12] 図書館を使う[図書館・情報メディア双書12] 勉誠出版"
+                    },
+                    "publication_date": "1999-01",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "book_type": "scholarly_book"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0019559/books_etc/15555913",
+                    "@type": "books_etc",
+                    "@reverse": "https://api.researchmap.jp/read0019559/books_etc",
+                    "rm:id": "15555913",
+                    "rm:user_id": "1000052604",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-15T17:49:25Z",
+                    "rm:modifier_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-01-15T17:49:25Z",
+                    "book_title": {
+                        "ja": "マルチメディアビギナーズテキスト",
+                        "en": "マルチメディアビギナーズテキスト"
+                    },
+                    "book_owner_role": "single_work",
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "松本, 紳"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "松本, 紳"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "東京電機大学出版局 東京電機大学出版局",
+                        "en": "東京電機大学出版局 東京電機大学出版局"
+                    },
+                    "publication_date": "1997-01",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "book_type": "scholarly_book"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0019559/books_etc/15555912",
+                    "@type": "books_etc",
+                    "@reverse": "https://api.researchmap.jp/read0019559/books_etc",
+                    "rm:id": "15555912",
+                    "rm:user_id": "1000052604",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-15T17:49:25Z",
+                    "rm:modifier_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-01-15T17:49:25Z",
+                    "book_title": {
+                        "ja": "Theory of Magnetocrystalline Anisotropy",
+                        "en": "Theory of Magnetocrystalline Anisotropy"
+                    },
+                    "book_owner_role": "single_work",
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "J.B.Staunton"
+                            },
+                            {
+                                "name": "P.Strange"
+                            },
+                            {
+                                "name": "G.L.Gyorffy"
+                            },
+                            {
+                                "name": "M.Matsumoto"
+                            },
+                            {
+                                "name": "J.Poulter"
+                            },
+                            {
+                                "name": "H.Ebert"
+                            },
+                            {
+                                "name": "N.P.Archibald"
+                            },
+                            {
+                                "name": "松本, 紳"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "J.B.Staunton"
+                            },
+                            {
+                                "name": "P.Strange"
+                            },
+                            {
+                                "name": "G.L.Gyorffy"
+                            },
+                            {
+                                "name": "M.Matsumoto"
+                            },
+                            {
+                                "name": "J.Poulter"
+                            },
+                            {
+                                "name": "H.Ebert"
+                            },
+                            {
+                                "name": "N.P.Archibald"
+                            },
+                            {
+                                "name": "松本, 紳"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "The Effects of Relativity in Atoms, Molecules, and the Solid State Plenum Press The Effects of Relativity in Atoms, Molecules, and the Solid State Plenum Press Plenum Press",
+                        "en": "The Effects of Relativity in Atoms, Molecules, and the Solid State Plenum Press The Effects of Relativity in Atoms, Molecules, and the Solid State Plenum Press Plenum Press"
+                    },
+                    "publication_date": "1991-01",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "book_type": "scholarly_book"
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0019559/presentations",
+            "@type": "presentations",
+            "@reverse": "https://api.researchmap.jp/read0019559",
+            "total_items": 5,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0019559/presentations/24725545",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0019559/presentations",
+                    "rm:id": "24725545",
+                    "rm:user_id": "1000052604",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "R000000022",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-03-19T00:34:19Z",
+                    "rm:modifier_id": "R000000022",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-03-19T00:34:19Z",
+                    "presentation_title": {
+                        "ja": "コンプトン散乱測定による重い電子系化合物CeIn3 の反強磁性相における電子構造の研究",
+                        "en": "コンプトン散乱測定による重い電子系化合物CeIn3 の反強磁性相における電子構造の研究"
+                    },
+                    "presenters": {
+                        "ja": [
+                            {
+                                "name": "小泉昭久"
+                            },
+                            {
+                                "name": "松本紳"
+                            },
+                            {
+                                "name": "時井真紀"
+                            },
+                            {
+                                "name": "片山大地"
+                            },
+                            {
+                                "name": "Jumaeda Jatmica"
+                            },
+                            {
+                                "name": "小林寿夫"
+                            },
+                            {
+                                "name": "辻成希"
+                            },
+                            {
+                                "name": "筒井智嗣"
+                            },
+                            {
+                                "name": "海老原孝雄"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "小泉昭久"
+                            },
+                            {
+                                "name": "松本紳"
+                            },
+                            {
+                                "name": "時井真紀"
+                            },
+                            {
+                                "name": "片山大地"
+                            },
+                            {
+                                "name": "Jumaeda Jatmica"
+                            },
+                            {
+                                "name": "小林寿夫"
+                            },
+                            {
+                                "name": "辻成希"
+                            },
+                            {
+                                "name": "筒井智嗣"
+                            },
+                            {
+                                "name": "海老原孝雄"
+                            }
+                        ]
+                    },
+                    "event": {
+                        "ja": "日本物理学会第75回年次大会",
+                        "en": "日本物理学会第75回年次大会"
+                    },
+                    "publication_date": "2020-03-16",
+                    "invited": false,
+                    "languages": [
+                        "jpn"
+                    ],
+                    "presentation_type": "poster_presentation",
+                    "promoter": {
+                        "ja": "日本物理学会",
+                        "en": "日本物理学会"
+                    },
+                    "location": {
+                        "ja": "名古屋大学",
+                        "en": "名古屋大学"
+                    },
+                    "is_international_presentation": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0019559/presentations/2755831",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0019559/presentations",
+                    "rm:id": "2755831",
+                    "rm:user_id": "1000052604",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-15T17:49:25Z",
+                    "rm:modifier_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-01-15T17:49:25Z",
+                    "presentation_title": {
+                        "ja": "Reverse Monte Carlo analysis for magnetic domain structure",
+                        "en": "Reverse Monte Carlo analysis for magnetic domain structure"
+                    },
+                    "presenters": {
+                        "ja": [
+                            {
+                                "name": "M.Tokii"
+                            },
+                            {
+                                "name": "E.Kita"
+                            },
+                            {
+                                "name": "C.Mitsumata"
+                            },
+                            {
+                                "name": "K.Ono"
+                            },
+                            {
+                                "name": "E.Yanagihara"
+                            },
+                            {
+                                "name": "M.Matsumoto"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "M.Tokii"
+                            },
+                            {
+                                "name": "E.Kita"
+                            },
+                            {
+                                "name": "C.Mitsumata"
+                            },
+                            {
+                                "name": "K.Ono"
+                            },
+                            {
+                                "name": "E.Yanagihara"
+                            },
+                            {
+                                "name": "M.Matsumoto"
+                            }
+                        ]
+                    },
+                    "presenters_text": {
+                        "ja": "M.Tokii;E.Kita;C.Mitsumata;K.Ono;E.Yanagihara;M.Matsumoto",
+                        "en": "M.Tokii;E.Kita;C.Mitsumata;K.Ono;E.Yanagihara;M.Matsumoto"
+                    },
+                    "event": {
+                        "ja": "58th Annual Conference on Magnetism and Magnetic Materials(MMM)",
+                        "en": "58th Annual Conference on Magnetism and Magnetic Materials(MMM)"
+                    },
+                    "publication_date": "2013-11-04",
+                    "invited": false,
+                    "languages": [
+                        "eng"
+                    ],
+                    "presentation_type": "oral_presentation",
+                    "location": {
+                        "ja": "USA Denver",
+                        "en": "USA Denver"
+                    },
+                    "is_international_presentation": true,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0019559/presentations/2755834",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0019559/presentations",
+                    "rm:id": "2755834",
+                    "rm:user_id": "1000052604",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-15T17:49:25Z",
+                    "rm:modifier_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-01-15T17:49:25Z",
+                    "presentation_title": {
+                        "ja": "LSDA+Uによる遷移金属の電子構造III",
+                        "en": "LSDA+Uによる遷移金属の電子構造III"
+                    },
+                    "presenters": {
+                        "ja": [
+                            {
+                                "name": "時井真紀"
+                            },
+                            {
+                                "name": "松本紳"
+                            },
+                            {
+                                "name": "和光信也"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "時井真紀"
+                            },
+                            {
+                                "name": "松本紳"
+                            },
+                            {
+                                "name": "和光信也"
+                            }
+                        ]
+                    },
+                    "presenters_text": {
+                        "ja": "時井真紀;松本紳;和光信也",
+                        "en": "時井真紀;松本紳;和光信也"
+                    },
+                    "event": {
+                        "ja": "日本物理学会 第59回年次大会____",
+                        "en": "____"
+                    },
+                    "publication_date": "2004-03",
+                    "invited": true,
+                    "languages": [
+                        "jpn"
+                    ],
+                    "presentation_type": "oral_presentation",
+                    "is_international_presentation": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0019559/presentations/2755833",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0019559/presentations",
+                    "rm:id": "2755833",
+                    "rm:user_id": "1000052604",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-15T17:49:25Z",
+                    "rm:modifier_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-01-15T17:49:25Z",
+                    "presentation_title": {
+                        "ja": "LSDA+Uによる遷移金属の電子構造II",
+                        "en": "LSDA+Uによる遷移金属の電子構造II"
+                    },
+                    "presenters": {
+                        "ja": [
+                            {
+                                "name": "時井真紀"
+                            },
+                            {
+                                "name": "松本紳"
+                            },
+                            {
+                                "name": "和光信也"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "時井真紀"
+                            },
+                            {
+                                "name": "松本紳"
+                            },
+                            {
+                                "name": "和光信也"
+                            }
+                        ]
+                    },
+                    "presenters_text": {
+                        "ja": "時井真紀;松本紳;和光信也",
+                        "en": "時井真紀;松本紳;和光信也"
+                    },
+                    "event": {
+                        "ja": "日本物理学会 第58回年次大会____",
+                        "en": "____"
+                    },
+                    "publication_date": "2003-03",
+                    "invited": true,
+                    "languages": [
+                        "jpn"
+                    ],
+                    "presentation_type": "oral_presentation",
+                    "is_international_presentation": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0019559/presentations/2755832",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0019559/presentations",
+                    "rm:id": "2755832",
+                    "rm:user_id": "1000052604",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-15T17:49:25Z",
+                    "rm:modifier_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-01-15T17:49:25Z",
+                    "presentation_title": {
+                        "ja": "CaVO3のコンプトンプロファイルの計算",
+                        "en": "CaVO3のコンプトンプロファイルの計算"
+                    },
+                    "presenters": {
+                        "ja": [
+                            {
+                                "name": "時井真紀"
+                            },
+                            {
+                                "name": "松本紳"
+                            },
+                            {
+                                "name": "和光信也"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "時井真紀"
+                            },
+                            {
+                                "name": "松本紳"
+                            },
+                            {
+                                "name": "和光信也"
+                            }
+                        ]
+                    },
+                    "presenters_text": {
+                        "ja": "時井真紀;松本紳;和光信也",
+                        "en": "時井真紀;松本紳;和光信也"
+                    },
+                    "event": {
+                        "ja": "日本物理学会 2002秋季大会____",
+                        "en": "____"
+                    },
+                    "publication_date": "2002-09",
+                    "invited": true,
+                    "languages": [
+                        "jpn"
+                    ],
+                    "presentation_type": "oral_presentation",
+                    "is_international_presentation": false,
+                    "rm:is_open_access": false
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0019559/association_memberships",
+            "@type": "association_memberships",
+            "@reverse": "https://api.researchmap.jp/read0019559",
+            "total_items": 5,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0019559/association_memberships/11398091",
+                    "@type": "association_memberships",
+                    "@reverse": "https://api.researchmap.jp/read0019559/association_memberships",
+                    "rm:id": "11398091",
+                    "rm:user_id": "1000052604",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-15T17:49:25Z",
+                    "rm:modifier_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-01-15T17:49:25Z",
+                    "academic_society_name": {
+                        "ja": "日本磁気学会",
+                        "en": "THE MAGNETICS SOCIETY OF JAPAN"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0019559/association_memberships/11398090",
+                    "@type": "association_memberships",
+                    "@reverse": "https://api.researchmap.jp/read0019559/association_memberships",
+                    "rm:id": "11398090",
+                    "rm:user_id": "1000052604",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-15T17:49:25Z",
+                    "rm:modifier_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-01-15T17:49:25Z",
+                    "academic_society_name": {
+                        "ja": "情報知識学会",
+                        "en": "JAPAN SOCIETY OF INFORMATION AND KNOWLEDGE"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0019559/association_memberships/11398089",
+                    "@type": "association_memberships",
+                    "@reverse": "https://api.researchmap.jp/read0019559/association_memberships",
+                    "rm:id": "11398089",
+                    "rm:user_id": "1000052604",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-15T17:49:25Z",
+                    "rm:modifier_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-01-15T17:49:25Z",
+                    "academic_society_name": {
+                        "ja": "情報メディア学会",
+                        "en": "Japan Society for Information and Media Studies"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0019559/association_memberships/11398088",
+                    "@type": "association_memberships",
+                    "@reverse": "https://api.researchmap.jp/read0019559/association_memberships",
+                    "rm:id": "11398088",
+                    "rm:user_id": "1000052604",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-15T17:49:25Z",
+                    "rm:modifier_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-01-15T17:49:25Z",
+                    "academic_society_name": {
+                        "ja": "日本物理学会",
+                        "en": "THE PHYSICAL SOCIETY OF JAPAN"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0019559/association_memberships/11398087",
+                    "@type": "association_memberships",
+                    "@reverse": "https://api.researchmap.jp/read0019559/association_memberships",
+                    "rm:id": "11398087",
+                    "rm:user_id": "1000052604",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-15T17:49:25Z",
+                    "rm:modifier_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-01-15T17:49:25Z",
+                    "academic_society_name": {
+                        "ja": "日本陽電子科学会",
+                        "en": "Japanese Positron Science Sciety"
+                    }
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0019559/research_projects",
+            "@type": "research_projects",
+            "@reverse": "https://api.researchmap.jp/read0019559",
+            "total_items": 2,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0019559/research_projects/14567718",
+                    "@type": "research_projects",
+                    "@reverse": "https://api.researchmap.jp/read0019559/research_projects",
+                    "rm:id": "14567718",
+                    "rm:user_id": "1000052604",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-15T17:49:25Z",
+                    "rm:modifier_id": "R000000022",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-03-19T00:34:12Z",
+                    "research_project_title": {
+                        "ja": "スピン偏極相対論的多重散乱理論による磁性の研究",
+                        "en": "Study of magnetism by using the spin polarized relativistic multiple scattering theory"
+                    },
+                    "institution_name": {
+                        "ja": "筑波大学",
+                        "en": "University of Tsukuba."
+                    },
+                    "overall_grant_amount": {
+                        "indirect_cost": "0",
+                        "total_cost": "0",
+                        "direct_cost": "0"
+                    },
+                    "fund_type": "competitive_research_funding"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0019559/research_projects/14567717",
+                    "@type": "research_projects",
+                    "@reverse": "https://api.researchmap.jp/read0019559/research_projects",
+                    "rm:id": "14567717",
+                    "rm:user_id": "1000052604",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:roKHITOC~ZNv2$Ri",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-15T17:49:25Z",
+                    "rm:modifier_id": "R000000022",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-03-19T00:34:12Z",
+                    "research_project_title": {
+                        "ja": "コンプトンプロフィールならびに陽電子消滅2次元角相関に関する研究",
+                        "en": "Study on the Compton profile and the positron annihilation 2D ACAR."
+                    },
+                    "institution_name": {
+                        "ja": "筑波大学",
+                        "en": "University of Tsukuba."
+                    },
+                    "overall_grant_amount": {
+                        "indirect_cost": "0",
+                        "total_cost": "0",
+                        "direct_cost": "0"
+                    },
+                    "fund_type": "competitive_research_funding"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,2118 @@
+{
+    "@context": "https://api.researchmap.jp/researcher.jsonld",
+    "@id": "https://api.researchmap.jp/read0000649?format=json",
+    "@type": "researchers",
+    "rm:user_id": "0000004895",
+    "rm:creator_id": "0000004895",
+    "rm:creator_type": "myself",
+    "rm:created": "1998-05-31T15:00:00Z",
+    "rm:modifier_id": "0000004895",
+    "rm:modifier_type": "myself",
+    "rm:modified": "2022-10-02T01:46:46Z",
+    "permalink": "read0000649",
+    "family_name": {
+        "ja": "笠島",
+        "ja-Kana": "カサシマ",
+        "en": "Kasashima"
+    },
+    "given_name": {
+        "ja": "永吉",
+        "ja-Kana": "ナガヨシ",
+        "en": "Nagayoshi"
+    },
+    "display_name_kana": "disclosed",
+    "display_nickname": "disclosed",
+    "display_image": "disclosed",
+    "display_contact_point": "disclosed",
+    "affiliations": [
+        {
+            "affiliation": {
+                "ja": "独立行政法人産業技術総合研究所",
+                "en": "National Institute of Advanced Industrial Science and Technology"
+            },
+            "section": {
+                "ja": "先進製造プロセス研究部門 積層加工システム研究グループ",
+                "en": "Additive processes and systems group"
+            },
+            "job": {
+                "ja": "主任研究員",
+                "en": "Senior researcher"
+            },
+            "display_affiliation": "disclosed",
+            "display_job": "disclosed",
+            "rm:institution_code": "A142000000"
+        }
+    ],
+    "display_profile": "disclosed",
+    "see_also": [
+        {
+            "label": "j_global",
+            "@id": "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=200901065369227249"
+        },
+        {
+            "label": "url",
+            "@id": "http://www.aist.go.jp/RESEARCHERDB/cgi-bin/worker_detail.cgi?call=namae&rw_id=N20181983"
+        }
+    ],
+    "display_url": "disclosed",
+    "identifiers": {
+        "j_global_id": [
+            "200901065369227249"
+        ]
+    },
+    "rm:erad_id_verified": false,
+    "rm:orc_id_verified": true,
+    "display_erad_id": "closed",
+    "display_orc_id": "closed",
+    "display_researcher_id": "disclosed",
+    "display_j_global_id": "disclosed",
+    "@graph": [
+        {
+            "@id": "https://api.researchmap.jp/read0000649/research_areas",
+            "@type": "research_areas",
+            "@reverse": "https://api.researchmap.jp/read0000649",
+            "total_items": 1,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0000649/research_areas/33908410",
+                    "@type": "research_areas",
+                    "@reverse": "https://api.researchmap.jp/read0000649/research_areas",
+                    "rm:id": "33908410",
+                    "rm:user_id": "0000004895",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000004895",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2021-10-04T07:42:32Z",
+                    "rm:modifier_id": "0000004895",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2021-10-04T07:42:32Z",
+                    "discipline_number": "A689",
+                    "item_number": "A21040",
+                    "discipline": {
+                        "ja": "ものづくり技術（機械・電気電子・化学工学）",
+                        "en": "Manufacturing technology (mechanical, electrical/electronic, chemical engineering)"
+                    },
+                    "research_field": {
+                        "ja": "制御、システム工学",
+                        "en": "Control and systems engineering"
+                    }
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0000649/published_papers",
+            "@type": "published_papers",
+            "@reverse": "https://api.researchmap.jp/read0000649",
+            "total_items": 21,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0000649/published_papers/33908758",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0000649/published_papers",
+                    "rm:id": "33908758",
+                    "rm:user_id": "0000004895",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000004895",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2021-10-04T08:15:21Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-09-30T00:22:59Z",
+                    "paper_title": {
+                        "ja": "磁界のパターンマッチングを応用した球面モータ回転子の姿勢計測",
+                        "en": "磁界のパターンマッチングを応用した球面モータ回転子の姿勢計測"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "瀬田 大地"
+                            },
+                            {
+                                "name": "五福 明夫"
+                            },
+                            {
+                                "name": "矢野 智昭"
+                            },
+                            {
+                                "name": "笠島 永吉"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "大地 瀬田"
+                            },
+                            {
+                                "name": "明夫 五福"
+                            },
+                            {
+                                "name": "智昭 矢野"
+                            },
+                            {
+                                "name": "永吉 笠島"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "ja": "<p> This paper proposes a rotor posturę measurement method applying pattern matching of magnetic field for a spherical motor driven by electro-magnetic forces. The proposed method estimates the relative position of a permanent magnet arranged on the rotor by pattern matching of the outputs of arrayed Hall sensors with their output patterns measured and stored beforehand. This study develops a program to measure the rotor poture by the proposed method. The applicability of the proposed method is confirmed from the results of rotor posture measurement experiments for the rotation around x, y, and z axes. The measurement performance is compared with the method studied in a previous study. The measurement accuracy increases for the rotation around z axis. However, there are still some problems to improve the measurement performance.</p>",
+                        "en": "<p> This paper proposes a rotor posturę measurement method applying pattern matching of magnetic field for a spherical motor driven by electro-magnetic forces. The proposed method estimates the relative position of a permanent magnet arranged on the rotor by pattern matching of the outputs of arrayed Hall sensors with their output patterns measured and stored beforehand. This study develops a program to measure the rotor poture by the proposed method. The applicability of the proposed method is confirmed from the results of rotor posture measurement experiments for the rotation around x, y, and z axes. The measurement performance is compared with the method studied in a previous study. The measurement accuracy increases for the rotation around z axis. However, there are still some problems to improve the measurement performance.</p>"
+                    },
+                    "publisher": {
+                        "ja": "日本AEM学会",
+                        "en": "The Japan Society of Applied Electromagnetics and Mechanics"
+                    },
+                    "publication_date": "2021",
+                    "publication_name": {
+                        "ja": "日本AEM学会誌",
+                        "en": "日本AEM学会誌"
+                    },
+                    "volume": "29",
+                    "number": "2",
+                    "starting_page": "434",
+                    "ending_page": "439",
+                    "languages": [
+                        "eng"
+                    ],
+                    "published_paper_type": "scientific_journal",
+                    "is_international_journal": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.14243/jsaem.29.434"
+                        ],
+                        "issn": [
+                            "0919-4452"
+                        ],
+                        "cinii_na_id": [
+                            "130008082785"
+                        ],
+                        "cinii_nc_id": [
+                            "AN10457520"
+                        ],
+                        "orcid_put_cd": [
+                            "100923816"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.14243/jsaem.29.434",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/130008082785",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_books",
+                            "@id": "http://ci.nii.ac.jp/ncid/AN10457520",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "http://id.ndl.go.jp/bib/031596202",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0000649/published_papers/33908757",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0000649/published_papers",
+                    "rm:id": "33908757",
+                    "rm:user_id": "0000004895",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000004895",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2021-10-04T08:15:21Z",
+                    "rm:modifier_id": "0000004895",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2021-10-04T08:15:21Z",
+                    "paper_title": {
+                        "en": "球面モータ回転子の姿勢計測装置の性能評価"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "拓実 家本"
+                            },
+                            {
+                                "name": "明夫 五福"
+                            },
+                            {
+                                "name": "直人 横満"
+                            },
+                            {
+                                "name": "永吉 笠島"
+                            },
+                            {
+                                "name": "智昭 矢野"
+                            }
+                        ]
+                    },
+                    "publication_date": "2021",
+                    "publication_name": {
+                        "en": "日本AEM学会誌"
+                    },
+                    "published_paper_type": "scientific_journal",
+                    "is_international_journal": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.14243/jsaem.29.85"
+                        ],
+                        "orcid_put_cd": [
+                            "100923809"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.14243/jsaem.29.85",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0000649/published_papers/33908756",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0000649/published_papers",
+                    "rm:id": "33908756",
+                    "rm:user_id": "0000004895",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000004895",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2021-10-04T08:15:21Z",
+                    "rm:modifier_id": "0000004895",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2021-10-04T08:15:21Z",
+                    "paper_title": {
+                        "en": "揺動回転する五相交流駆動の球面モータの開発"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "利行 石田"
+                            },
+                            {
+                                "name": "明夫 五福"
+                            },
+                            {
+                                "name": "智昭 矢野"
+                            },
+                            {
+                                "name": "永吉 笠島"
+                            }
+                        ]
+                    },
+                    "publication_date": "2021",
+                    "publication_name": {
+                        "en": "日本AEM学会誌"
+                    },
+                    "published_paper_type": "scientific_journal",
+                    "is_international_journal": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.14243/jsaem.29.440"
+                        ],
+                        "orcid_put_cd": [
+                            "100923818"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.14243/jsaem.29.440",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0000649/published_papers/33908755",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0000649/published_papers",
+                    "rm:id": "33908755",
+                    "rm:user_id": "0000004895",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000004895",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2021-10-04T08:15:21Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-09-30T00:22:58Z",
+                    "paper_title": {
+                        "ja": "全方向に均一に減速可能な球面減速機の開発",
+                        "en": "全方向に均一に減速可能な球面減速機の開発"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "利根川 浩一"
+                            },
+                            {
+                                "name": "五福 明夫"
+                            },
+                            {
+                                "name": "笠島 永吉"
+                            },
+                            {
+                                "name": "柴田 光宣"
+                            },
+                            {
+                                "name": "矢野 智昭"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "浩一 利根川"
+                            },
+                            {
+                                "name": "明夫 五福"
+                            },
+                            {
+                                "name": "永吉 笠島"
+                            },
+                            {
+                                "name": "光宣 柴田"
+                            },
+                            {
+                                "name": "智昭 矢野"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "ja": "<p> In order to construct a multiple-degrees-of-freedom system by using the motors with one degree of freedom, the same number of motors as the degree of freedom is required. On the other hand, a spherical motor has three degrees of freedom. It is possible to realize a system with three degrees of freedom by one spherical motor and, therefore, it can reduce the size of the system. In order to transmit the output torque by a spherical motor, a spherical speed reducer that can also change the rotation speed and output torque is required. This study develops a new mechanism for spherical speed reducer using intermediate small balls that their rotations are restricted in two rotation axes. This paper describes the mechanism of the proposed spherical speed reducer, theoretical rotation transmission model between the rotor of a spherical motor and the output sphere of the spherical speed reducer. The theoretical transmission model is confirmed by the results of the spherical speed reduction experiments using a prototype spherical speed reducer.</p>",
+                        "en": "<p> In order to construct a multiple-degrees-of-freedom system by using the motors with one degree of freedom, the same number of motors as the degree of freedom is required. On the other hand, a spherical motor has three degrees of freedom. It is possible to realize a system with three degrees of freedom by one spherical motor and, therefore, it can reduce the size of the system. In order to transmit the output torque by a spherical motor, a spherical speed reducer that can also change the rotation speed and output torque is required. This study develops a new mechanism for spherical speed reducer using intermediate small balls that their rotations are restricted in two rotation axes. This paper describes the mechanism of the proposed spherical speed reducer, theoretical rotation transmission model between the rotor of a spherical motor and the output sphere of the spherical speed reducer. The theoretical transmission model is confirmed by the results of the spherical speed reduction experiments using a prototype spherical speed reducer.</p>"
+                    },
+                    "publisher": {
+                        "ja": "日本AEM学会",
+                        "en": "The Japan Society of Applied Electromagnetics and Mechanics"
+                    },
+                    "publication_date": "2021",
+                    "publication_name": {
+                        "ja": "日本AEM学会誌",
+                        "en": "日本AEM学会誌"
+                    },
+                    "volume": "29",
+                    "number": "2",
+                    "starting_page": "401",
+                    "ending_page": "407",
+                    "languages": [
+                        "eng"
+                    ],
+                    "published_paper_type": "scientific_journal",
+                    "is_international_journal": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.14243/jsaem.29.401"
+                        ],
+                        "issn": [
+                            "0919-4452"
+                        ],
+                        "cinii_na_id": [
+                            "130008082868"
+                        ],
+                        "cinii_nc_id": [
+                            "AN10457520"
+                        ],
+                        "orcid_put_cd": [
+                            "100923814"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.14243/jsaem.29.401",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/130008082868",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_books",
+                            "@id": "http://ci.nii.ac.jp/ncid/AN10457520",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "http://id.ndl.go.jp/bib/031596177",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0000649/published_papers/27104879",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0000649/published_papers",
+                    "rm:id": "27104879",
+                    "rm:user_id": "0000004895",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_papers",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-05-04T17:51:06Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-10-01T23:42:06Z",
+                    "paper_title": {
+                        "en": "Prediction of Surface Roughness in CNC Turning by Model-Assisted Response Surface Method",
+                        "ja": "Prediction of Surface Roughness in CNC Turning by Model-Assisted Response Surface Method"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Takashi Misaka"
+                            },
+                            {
+                                "name": "Jonny Herwan"
+                            },
+                            {
+                                "name": "Seisuke Kano"
+                            },
+                            {
+                                "name": "Ryabov Oleg"
+                            },
+                            {
+                                "name": "Hiroyuki Sawada"
+                            },
+                            {
+                                "name": "Nagayoshi Kasashima"
+                            },
+                            {
+                                "name": "Yoshiyuki Furukawa"
+                            }
+                        ],
+                        "ja": [
+                            {
+                                "name": "Takashi Misaka"
+                            },
+                            {
+                                "name": "Jonny Herwan"
+                            },
+                            {
+                                "name": "Seisuke Kano"
+                            },
+                            {
+                                "name": "Ryabov Oleg"
+                            },
+                            {
+                                "name": "Hiroyuki Sawada"
+                            },
+                            {
+                                "name": "Nagayoshi Kasashima"
+                            },
+                            {
+                                "name": "Yoshiyuki Furukawa"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "Various statistical approaches such as classical regression and modern machine learning methods have been applied to measurement data for estimating the status of manufacturing processes, which is now boosted by the movement of Internet of Things (IoT). In this study, we attempt to integrate an analytical tool model of surface roughness and measurement data of CNC turning to develop a modeling approach which does not depend too much on data, but also effectively uses existing analytical models. As in previous researches, we use cutting speed, feed rate, depth of cut and three acceleration components from an accelerometer to predict surface roughness. Co-Kriging method is employed to integrate the above measurements and a well-known model of surface roughness in turning. It was confirmed that the approach improved the prediction accuracy when only small amount of data is available for model construction. Meanwhile, the accuracy of ordinary Kriging method, which only depends on data, is suitable when measurement data sufficiently spans the parameter space, being expected that it may be rare in actual operations. We also attempted to detect outlier of measurements using the Co-Kriging method, which might be a non-trivial task when there is no additional information to evaluate the validity of the measurement data."
+                    },
+                    "publisher": {
+                        "en": "ELSEVIER SCIENCE INC"
+                    },
+                    "publication_date": "2019-12",
+                    "publication_name": {
+                        "en": "Precision Engineering",
+                        "ja": "Precision Engineering"
+                    },
+                    "volume": "62",
+                    "starting_page": "196",
+                    "ending_page": "203",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1016/j.precisioneng.2019.12.004"
+                        ],
+                        "issn": [
+                            "0141-6359"
+                        ],
+                        "e_issn": [
+                            "1873-2372"
+                        ],
+                        "wos_id": [
+                            "WOS:000528674300022"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1016/j.precisioneng.2019.12.004",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000528674300022&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0000649/published_papers/38296099",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0000649/published_papers",
+                    "rm:id": "38296099",
+                    "rm:user_id": "0000004895",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_papers",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2022-07-07T13:24:33Z",
+                    "rm:modifier_id": "ai:assign_based_papers",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-07-07T13:24:33Z",
+                    "paper_title": {
+                        "ja": "Retrofitting Old CNC Turning with an Accelerometer at a Remote Location Towards Industry 4.0",
+                        "en": "Retrofitting Old CNC Turning with an Accelerometer at a Remote Location Towards Industry 4.0"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "Jonny Herwan"
+                            },
+                            {
+                                "name": "Seisuke Kano"
+                            },
+                            {
+                                "name": "Oleg Ryabov"
+                            },
+                            {
+                                "name": "Hiroyuki Sawada"
+                            },
+                            {
+                                "name": "Nagayoshi Kasashima"
+                            },
+                            {
+                                "name": "Takashi Misaka"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Jonny Herwan"
+                            },
+                            {
+                                "name": "Seisuke Kano"
+                            },
+                            {
+                                "name": "Oleg Ryabov"
+                            },
+                            {
+                                "name": "Hiroyuki Sawada"
+                            },
+                            {
+                                "name": "Nagayoshi Kasashima"
+                            },
+                            {
+                                "name": "Takashi Misaka"
+                            }
+                        ]
+                    },
+                    "publication_date": "2019",
+                    "publication_name": {
+                        "ja": "Manufacturing Letters",
+                        "en": "Manufacturing Letters"
+                    },
+                    "volume": "21",
+                    "starting_page": "56",
+                    "ending_page": "59",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1016/j.mfglet.2019.08.001"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1016/j.mfglet.2019.08.001",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0000649/published_papers/39158479",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0000649/published_papers",
+                    "rm:id": "39158479",
+                    "rm:user_id": "0000004895",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2022-07-25T08:02:37Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-07-25T08:02:37Z",
+                    "paper_title": {
+                        "en": "Optimization of Driving Currents of Electromagnets to Rotate Spherical Motors"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Akio Gofuku"
+                            },
+                            {
+                                "name": "Yu Yamamoto"
+                            },
+                            {
+                                "name": "Tomoaki Yano"
+                            },
+                            {
+                                "name": "Nagayoshi Kasashima"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "A spherical motor has advantageous features to construct a mechanism with multi-degree of freedom because it can rotate in any direction and the rotation center coincides with its geometrical center. This paper deals with a spherical motor such that permanent magnets are arranged on the surface of its rotor and electromagnets are arranged in the stator. When more than three linear-independent electromagnets are installed in this type of spherical motor, an optimization problem should be solved under some constraint conditions and an objective function. This paper proposes a technique to solve the optimization problem in order to calculate the currents to electromagnets for each relative rotation angle between the rotor and the stator by applying the generalized reduced gradient method. The technique makes possible to use a convex function as the objective function. The applicability of the proposed technique is demonstrated by an example to calculate the currents to electromagnets for a spherical motor that twelve permanent magnets and ten electromagnets are installed."
+                    },
+                    "publication_date": "2018-08-23",
+                    "publication_name": {
+                        "en": "SPEEDAM 2018 - Proceedings: International Symposium on Power Electronics, Electrical Drives, Automation and Motion"
+                    },
+                    "starting_page": "1172",
+                    "ending_page": "1177",
+                    "published_paper_type": "international_conference_proceedings",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1109/SPEEDAM.2018.8445374"
+                        ],
+                        "isbn": [
+                            "9781538649411"
+                        ],
+                        "scopus_id": [
+                            "85053828530"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1109/SPEEDAM.2018.8445374",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "scopus",
+                            "@id": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85053828530&origin=inward",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "scopus_citedby",
+                            "@id": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85053828530&origin=inward",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0000649/published_papers/33908761",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0000649/published_papers",
+                    "rm:id": "33908761",
+                    "rm:user_id": "0000004895",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000004895",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2021-10-04T08:15:22Z",
+                    "rm:modifier_id": "0000004895",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2021-10-04T08:15:22Z",
+                    "paper_title": {
+                        "en": "電磁型球面モータの凸計画問題を適用したトルクマップ制御手法"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "明夫 五福"
+                            },
+                            {
+                                "name": "悠 山本"
+                            },
+                            {
+                                "name": "永吉 笠島"
+                            },
+                            {
+                                "name": "智昭 矢野"
+                            }
+                        ]
+                    },
+                    "publication_date": "2018",
+                    "publication_name": {
+                        "en": "日本AEM学会誌"
+                    },
+                    "published_paper_type": "scientific_journal",
+                    "is_international_journal": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.14243/jsaem.26.305"
+                        ],
+                        "orcid_put_cd": [
+                            "100923798"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.14243/jsaem.26.305",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0000649/published_papers/33908760",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0000649/published_papers",
+                    "rm:id": "33908760",
+                    "rm:user_id": "0000004895",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000004895",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2021-10-04T08:15:22Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-10-02T01:46:46Z",
+                    "paper_title": {
+                        "ja": "球面減速機構におけるトルク伝達用小球の回転モデルの導出に関する検討",
+                        "en": "球面減速機構におけるトルク伝達用小球の回転モデルの導出に関する検討"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "角南 尚幸"
+                            },
+                            {
+                                "name": "五福 明夫"
+                            },
+                            {
+                                "name": "笠島 永吉"
+                            },
+                            {
+                                "name": "矢野 智昭"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "尚幸 角南"
+                            },
+                            {
+                                "name": "明夫 五福"
+                            },
+                            {
+                                "name": "永吉 笠島"
+                            },
+                            {
+                                "name": "智昭 矢野"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "In order to construct a system with multi-degree of freedom by only using the motors with one degree of freedom, the same number of motors as the degree of freedom is required. On the other hand, in a spherical motor with three degrees of freedom, it is possible to realize a system with three degrees of freedom by only one spherical motor, and it is possible to reduce the size of the system. However, in many spherical motors driven by electromagnets, a spherical speed reducer is required as a device to extract and transmit the output torque. The spherical speed reducer considered in this study is composed of an output ball and two small balls transmitting torque. Each of the small balls is supported by two small ball casters. The mechanism of the spherical speed reducer requires a model of rotation transmission to control suitably the rotor for a desirable rotation of the output ball. The purpose of this study is to measure angular velocities of the small balls in the case that the output ball is not mounted as the first step to derive a rotation transmission model. From the measurement results, the arrangement of two small ball casters is focused on, and a valid rotation transmission model is derived."
+                    },
+                    "publisher": {
+                        "ja": "日本AEM学会",
+                        "en": "The Japan Society of Applied Electromagnetics and Mechanics"
+                    },
+                    "publication_date": "2018",
+                    "publication_name": {
+                        "ja": "日本AEM学会誌",
+                        "en": "日本AEM学会誌"
+                    },
+                    "volume": "26",
+                    "number": "1",
+                    "starting_page": "244",
+                    "ending_page": "249",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "published_paper_type": "scientific_journal",
+                    "is_international_journal": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.14243/jsaem.26.244"
+                        ],
+                        "issn": [
+                            "0919-4452"
+                        ],
+                        "e_issn": [
+                            "2187-9257"
+                        ],
+                        "cinii_na_id": [
+                            "130007378324"
+                        ],
+                        "cinii_nc_id": [
+                            "AN10457520"
+                        ],
+                        "cinii_cr_id": [
+                            "1390001288035816832"
+                        ],
+                        "orcid_put_cd": [
+                            "100923792"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.14243/jsaem.26.244",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_books",
+                            "@id": "http://ci.nii.ac.jp/ncid/AN10457520",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_research",
+                            "@id": "https://cir.nii.ac.jp/crid/1390001288035816832?lang=ja",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "https://www.jstage.jst.go.jp/article/jsaem/26/1/26_244/_pdf",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "http://id.ndl.go.jp/bib/029009677",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0000649/published_papers/33908759",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0000649/published_papers",
+                    "rm:id": "33908759",
+                    "rm:user_id": "0000004895",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000004895",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2021-10-04T08:15:21Z",
+                    "rm:modifier_id": "0000004895",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2021-10-04T08:15:21Z",
+                    "paper_title": {
+                        "en": "小球を一つ用いた球面減速機の出力球の回転計測"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "尚幸 角南"
+                            },
+                            {
+                                "name": "明夫 五福"
+                            },
+                            {
+                                "name": "智昭 矢野"
+                            },
+                            {
+                                "name": "永吉 笠島"
+                            }
+                        ]
+                    },
+                    "publication_date": "2018",
+                    "publication_name": {
+                        "en": "日本AEM学会誌"
+                    },
+                    "published_paper_type": "scientific_journal",
+                    "is_international_journal": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.14243/jsaem.26.387"
+                        ],
+                        "orcid_put_cd": [
+                            "100923802"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.14243/jsaem.26.387",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0000649/published_papers/38048014",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0000649/published_papers",
+                    "rm:id": "38048014",
+                    "rm:user_id": "0000004895",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_papers",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2022-07-03T12:57:33Z",
+                    "rm:modifier_id": "ai:assign_based_papers",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-07-03T12:57:33Z",
+                    "paper_title": {
+                        "en": "Torque Control Method of an Electromagnetic Spherical Motor Using Torque Map"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Nagayoshi Kasashima"
+                            },
+                            {
+                                "name": "Kiwamu Ashida"
+                            },
+                            {
+                                "name": "Tomoaki Yano"
+                            },
+                            {
+                                "name": "Akio Gofuku"
+                            },
+                            {
+                                "name": "Mitsunobu Shibata"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "This paper describes a new method for driving electromagnetic type spherical motors that has arranged permanent magnets on a rotor and arranged electromagnets on a stator. The most significant feature of this method is, in principle, applicable to any permanent magnets arrangement and electromagnets arrangement, and it can generate torque to any direction from any rotor attitude. In the spherical motor, cogging torque between permanent magnets and electromagnets causes not only instability of rotation but also causes rotor attitude error because the rotor has three degrees of freedom. The method of canceling the cogging torque is introduced. In the case of arranging four or more electromagnets, the combination of the electric current supply becomes infinite in number and generally not determined uniquely. However, we have developed a method for deciding the electric current distribution that generates maximum torque under the limited supply of each electromagnet. In the experiment of open-loop control, it was confirmed that the rotor was able to rotate about the axes that had been set by the calculation."
+                    },
+                    "publisher": {
+                        "en": "IEEE-INST ELECTRICAL ELECTRONICS ENGINEERS INC"
+                    },
+                    "publication_date": "2016-08",
+                    "publication_name": {
+                        "en": "IEEE-ASME TRANSACTIONS ON MECHATRONICS"
+                    },
+                    "volume": "21",
+                    "number": "4",
+                    "starting_page": "2050",
+                    "ending_page": "2060",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1109/TMECH.2016.2541679"
+                        ],
+                        "issn": [
+                            "1083-4435"
+                        ],
+                        "wos_id": [
+                            "WOS:000380028200024"
+                        ],
+                        "e_issn": [
+                            "1941-014X"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1109/TMECH.2016.2541679",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000380028200024&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0000649/published_papers/33908762",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0000649/published_papers",
+                    "rm:id": "33908762",
+                    "rm:user_id": "0000004895",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000004895",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2021-10-04T08:15:22Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-09-24T10:59:56Z",
+                    "paper_title": {
+                        "ja": "球面モータの開発（第２報：ロータの姿勢検出とフィードバック制御）",
+                        "en": "Development of spherical motor (2nd report, Rotor posture detection and feed-back control)"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "KASASHIMA Nagayoshi"
+                            },
+                            {
+                                "name": "YANO Tomoaki"
+                            },
+                            {
+                                "name": "ASHIDA Kiwamu"
+                            }
+                        ],
+                        "ja": [
+                            {
+                                "name": "永吉 笠島"
+                            },
+                            {
+                                "name": "智昭 矢野"
+                            },
+                            {
+                                "name": "極 芦田"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "ja": "Spherical motor is a multi-degrees of freedom actuator which can be rotated in various directions. However, the control method of the completely arbitrary direction was not fully established in the conventional research. This study develops a controlling method of a spherical motor that can rotate to all directions and can be fixed to arbitrary postures. In the 1st. report, the torque generating method to the arbitrary directions from arbitrary rotor postures that used a torque-map was shown. However, in order to generate the torque towards the desired direction from arbitrary postures and to stop with a target posture, monitoring of the present rotor posture is indispensable. In this report, the rotor posture detecting system using the information of two optical mouse sensors is shown. The detection technique of the rotor posture using the information from the sensors installed in the arbitrary position is described in detail. The experimental results of the mouse sensor system are shown. Based on this current rotor posture and the target posture, the feedback control algorithm that can position the rotor into the target posture is also explained. And experimental results of the feedback control are shown. The experiment shows that the rotor can be moved and positioned to the target posture by using the feedback control.",
+                        "en": "Spherical motor is a multi-degrees of freedom actuator which can be rotated in various directions. However, the control method of the completely arbitrary direction was not fully established in the conventional research. This study develops a controlling method of a spherical motor that can rotate to all directions and can be fixed to arbitrary postures. In the 1st. report, the torque generating method to the arbitrary directions from arbitrary rotor postures that used a torque-map was shown. However, in order to generate the torque towards the desired direction from arbitrary postures and to stop with a target posture, monitoring of the present rotor posture is indispensable. In this report, the rotor posture detecting system using the information of two optical mouse sensors is shown. The detection technique of the rotor posture using the information from the sensors installed in the arbitrary position is described in detail. The experimental results of the mouse sensor system are shown. Based on this current rotor posture and the target posture, the feedback control algorithm that can position the rotor into the target posture is also explained. And experimental results of the feedback control are shown. The experiment shows that the rotor can be moved and positioned to the target posture by using the feedback control."
+                    },
+                    "publisher": {
+                        "ja": "The Japan Society of Mechanical Engineers",
+                        "en": "The Japan Society of Mechanical Engineers"
+                    },
+                    "publication_date": "2014",
+                    "publication_name": {
+                        "ja": "日本機械学会論文集",
+                        "en": "TRANSACTIONS OF THE JAPAN SOCIETY OF MECHANICAL ENGINEERS Series A"
+                    },
+                    "volume": "80",
+                    "number": "809",
+                    "starting_page": "DR0011",
+                    "ending_page": "DR0011",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "published_paper_type": "scientific_journal",
+                    "is_international_journal": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1299/transjsme.2014dr0011"
+                        ],
+                        "issn": [
+                            "2187-9761"
+                        ],
+                        "cinii_na_id": [
+                            "130005004847"
+                        ],
+                        "orcid_put_cd": [
+                            "100923734"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1299/transjsme.2014dr0011",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/130005004847",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "https://jlc.jst.go.jp/DN/JALC/10027904748?from=CiNii",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0000649/published_papers/33908763",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0000649/published_papers",
+                    "rm:id": "33908763",
+                    "rm:user_id": "0000004895",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000004895",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2021-10-04T08:15:22Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-08-05T01:49:31Z",
+                    "paper_title": {
+                        "ja": "Development of a Posture Sensor for the Spherical Motor",
+                        "en": "Development of a Posture Sensor for the Spherical Motor"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "YANO Tomoaki"
+                            },
+                            {
+                                "name": "KASASHIMA Nagayoshi"
+                            },
+                            {
+                                "name": "ASHIDA Kiwamu"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Tomoaki YANO"
+                            },
+                            {
+                                "name": "Nagayoshi KASASHIMA"
+                            },
+                            {
+                                "name": "Kiwamu ASHIDA"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "ja": "When a spherical motor with multi degrees of freedom like a human shoulder joint is in practical use, a lot of systems with multi degrees of freedom will be compact, lightweight, and high performance. However, the motors are controlled by open-loop, as there are no good rotor posture sensors. This paper reports the basic experimental results of a developed posture sensor with two mouse sensing devices. The basis transformation matrix is used to represent the rotor posture. At first, researches of the posture sensors for the spherical motor are reviewed. Among the previous work, select a posture sensor with two mouse sensing devices. Show the advantages of using the basis transformation matrix to represent the rotor posture. The basic ideas for getting the posture from the data of two mouse sensing devices are presented. A posture sensor with two mouse sensors is developed and tested.",
+                        "en": "When a spherical motor with multi degrees of freedom like a human shoulder joint is in practical use, a lot of systems with multi degrees of freedom will be compact, lightweight, and high performance. However, the motors are controlled by open-loop, as there are no good rotor posture sensors. This paper reports the basic experimental results of a developed posture sensor with two mouse sensing devices. The basis transformation matrix is used to represent the rotor posture. At first, researches of the posture sensors for the spherical motor are reviewed. Among the previous work, select a posture sensor with two mouse sensing devices. Show the advantages of using the basis transformation matrix to represent the rotor posture. The basic ideas for getting the posture from the data of two mouse sensing devices are presented. A posture sensor with two mouse sensors is developed and tested."
+                    },
+                    "publisher": {
+                        "ja": "The Japan Society of Applied Electromagnetics and Mechanics",
+                        "en": "The Japan Society of Applied Electromagnetics and Mechanics"
+                    },
+                    "publication_date": "2013",
+                    "publication_name": {
+                        "ja": "日本AEM学会誌 = Journal of the Japan Society of Applied Electromagnetics",
+                        "en": "日本AEM学会誌"
+                    },
+                    "volume": "21",
+                    "number": "3",
+                    "starting_page": "458",
+                    "ending_page": "463",
+                    "languages": [
+                        "eng"
+                    ],
+                    "published_paper_type": "scientific_journal",
+                    "is_international_journal": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.14243/jsaem.21.458"
+                        ],
+                        "issn": [
+                            "0919-4452"
+                        ],
+                        "cinii_na_id": [
+                            "10031192118"
+                        ],
+                        "cinii_nc_id": [
+                            "AN10457520"
+                        ],
+                        "orcid_put_cd": [
+                            "100923701"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.14243/jsaem.21.458",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/10031192118",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_books",
+                            "@id": "http://ci.nii.ac.jp/ncid/AN10457520",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "http://id.ndl.go.jp/bib/024901109",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "https://jlc.jst.go.jp/DN/JALC/10029010621?from=CiNii",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0000649/published_papers/28635045",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0000649/published_papers",
+                    "rm:id": "28635045",
+                    "rm:user_id": "0000004895",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-07-06T21:22:03Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-07-06T21:22:03Z",
+                    "paper_title": {
+                        "en": "Laser and electrochemical complex machining of micro-stent with on-machine three-dimensional measurement"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Nagayoshi Kasashima"
+                            },
+                            {
+                                "name": "Tsuneo Kurita"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "In the micro-fabrication, small installation misalignment and deformation of the workpiece cause fatal damage. On-machine measurement is one of the efficient methods to prevent this damage. Our system performs the laser machining and the three-dimensional measurement of the workpiece position using only one laser. Based on the measurement result, the position error of the workpiece is automatically corrected and laser-machined. Electrochemical machining (ECM) is also done on the same machining system. In this paper, the configuration of the system is explained. Measurement and error correcting techniques are described in detail. And the experimental results that made stent shape using the micro-tube of diameter 120 mu m and 210 mu m are shown. (C) 2011 Elsevier Ltd. All rights reserved."
+                    },
+                    "publisher": {
+                        "en": "ELSEVIER SCI LTD"
+                    },
+                    "publication_date": "2012-03",
+                    "publication_name": {
+                        "en": "OPTICS AND LASERS IN ENGINEERING"
+                    },
+                    "volume": "50",
+                    "number": "3",
+                    "starting_page": "354",
+                    "ending_page": "358",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1016/j.optlaseng.2011.10.022"
+                        ],
+                        "issn": [
+                            "0143-8166"
+                        ],
+                        "e_issn": [
+                            "1873-0302"
+                        ],
+                        "wos_id": [
+                            "WOS:000300268600010"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1016/j.optlaseng.2011.10.022",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000300268600010&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0000649/published_papers/33908764",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0000649/published_papers",
+                    "rm:id": "33908764",
+                    "rm:user_id": "0000004895",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000004895",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2021-10-04T08:15:22Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-07-05T00:24:29Z",
+                    "paper_title": {
+                        "ja": "球面モータの開発（任意姿勢における任意トルクの発生法）",
+                        "en": "Development of Spherical Motor (Torque Generating Method to the Arbitrary Direction in an Arbitrary Posture)"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "KASASHIMA Nagayoshi"
+                            },
+                            {
+                                "name": "YANO Tomoaki"
+                            },
+                            {
+                                "name": "ASHIDA Kiwamu"
+                            }
+                        ],
+                        "ja": [
+                            {
+                                "name": "永吉 笠島"
+                            },
+                            {
+                                "name": "智昭 矢野"
+                            },
+                            {
+                                "name": "極 芦田"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "ja": "Spherical motor is a multi-degrees of freedom actuator which can be rotated in various directions. However, the control method of the completely arbitrary direction was not fully established in the conventional research. Usually, there were limitation of an angle and a problem of accuracy. In this paper, the general theory which generates torque in the arbitrary direction is proposed using a rotor which has arbitrarily arranged magnets, and a stator which has arbitrarily arranged coils. The theory uses the torque map which included the influence of all the magnets of the rotor. Desired torque is generated by resultant of the torque vector which the coils generate. Therefore, strict control is possible however complicated the pattern of the magnetic field is. First, the technique of the torque generation in the arbitrary direction and the creation method of a torque map are explained. Then, the basic experimental result in the case of the spherical motor with the hexahedron based rotor and the octahedron based stator is reported.",
+                        "en": "Spherical motor is a multi-degrees of freedom actuator which can be rotated in various directions. However, the control method of the completely arbitrary direction was not fully established in the conventional research. Usually, there were limitation of an angle and a problem of accuracy. In this paper, the general theory which generates torque in the arbitrary direction is proposed using a rotor which has arbitrarily arranged magnets, and a stator which has arbitrarily arranged coils. The theory uses the torque map which included the influence of all the magnets of the rotor. Desired torque is generated by resultant of the torque vector which the coils generate. Therefore, strict control is possible however complicated the pattern of the magnetic field is. First, the technique of the torque generation in the arbitrary direction and the creation method of a torque map are explained. Then, the basic experimental result in the case of the spherical motor with the hexahedron based rotor and the octahedron based stator is reported."
+                    },
+                    "publisher": {
+                        "ja": "The Japan Society of Mechanical Engineers",
+                        "en": "The Japan Society of Mechanical Engineers"
+                    },
+                    "publication_date": "2012",
+                    "publication_name": {
+                        "ja": "日本機械学会論文集Ｃ編",
+                        "en": "TRANSACTIONS OF THE JAPAN SOCIETY OF MECHANICAL ENGINEERS Series A"
+                    },
+                    "volume": "78",
+                    "number": "792",
+                    "starting_page": "2860",
+                    "ending_page": "2869",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "published_paper_type": "scientific_journal",
+                    "is_international_journal": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1299/kikaic.78.2860"
+                        ],
+                        "issn": [
+                            "0387-5024"
+                        ],
+                        "cinii_na_id": [
+                            "130002051531"
+                        ],
+                        "orcid_put_cd": [
+                            "100923634"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1299/kikaic.78.2860",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/130002051531",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "https://jlc.jst.go.jp/DN/JALC/10008083462?from=CiNii",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0000649/published_papers/28310211",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0000649/published_papers",
+                    "rm:id": "28310211",
+                    "rm:user_id": "0000004895",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-07-02T19:05:28Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-07-02T19:05:28Z",
+                    "paper_title": {
+                        "en": "Development of a New Micro-machining Technique and its Eco-efficiency Evaluation"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "N. Mishima"
+                            },
+                            {
+                                "name": "T. Kurita"
+                            },
+                            {
+                                "name": "N. Kasashima"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "Approximately 10 years ago, a team at National Institute of Advanced Industrial Science and Technology (AIST) that included the present authors, proposed the concept of a micro-manufacturing system, referred to as the microfactory, and demonstrated the micro-mechanical fabrication ability of the microfactory. Such micro manufacturing systems are though to be capable of providing eco-efficient diverse-type, small-quantity production, if the system configuration is designed properly. However, the eco-efficiency of such micro manufacturing systems has not been examined quantitatively. A number of studies have been carried out to clarify the eco-efficiency of micro-manufacturing systems using the total performance indicator (TPI), which is a newly proposed eco-efficiency index. In the present paper, we describe the progression from microfactory development and to eco-efficiency evaluation. In addition, we introduce a new micro-machining technique and evaluate its eco-efficiency compared with those of conventional methods. Based on the results of these evaluations, micro-manufacturing systems are demonstrated to provide an eco-efficient option for micro machining."
+                    },
+                    "publisher": {
+                        "en": "RESEARCH PUBLISHING SERVICES"
+                    },
+                    "publication_date": "2011",
+                    "publication_name": {
+                        "en": "PROCEEDINGS OF THE 7TH INTERNATIONAL CONFERENCE ON MULTI-MATERIAL MICRO MANUFACTURE (4M 2010)"
+                    },
+                    "starting_page": "15",
+                    "ending_page": "23",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "international_conference_proceedings",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.3850/978-981-08-6555-9_IN-004"
+                        ],
+                        "wos_id": [
+                            "WOS:000394060400003"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.3850/978-981-08-6555-9_IN-004",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000394060400003&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0000649/published_papers/29023642",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0000649/published_papers",
+                    "rm:id": "29023642",
+                    "rm:user_id": "0000004895",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-07-13T09:33:43Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-07-13T09:33:43Z",
+                    "paper_title": {
+                        "en": "On-machine three-dimensional monitoring technique using machining laser"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Nagayoshi Kasashima"
+                            },
+                            {
+                                "name": "Tsuneo Kurita"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "An on-machine three-dimensional monitoring system has been developed that uses machining YAG laser as a source of light for monitoring. In the monitoring stage, the output of the laser is decreased. The reflected light from a workpiece is taken out with a beam sampler on the way of the optical system, and observed by CMOS image sensor. This system can measure both Z-direction depth and the position of X-Y-direction. Because the same laser and the optical system are used, the system has no gap of an optical axis between the measurement and the machining and also has no limitation of viewing angle Every three,. dimensional shape which can be machined by laser beam can be measured. In this paper, system configuration, monitoring technique and the experimental results are described. (c) 2008 Elsevier B.V. All rights reserved."
+                    },
+                    "publisher": {
+                        "en": "ELSEVIER SCIENCE SA"
+                    },
+                    "publication_date": "2009-01",
+                    "publication_name": {
+                        "en": "JOURNAL OF MATERIALS PROCESSING TECHNOLOGY"
+                    },
+                    "volume": "209",
+                    "number": "2",
+                    "starting_page": "657",
+                    "ending_page": "663",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1016/j.jmatprotec.2008.02.072"
+                        ],
+                        "issn": [
+                            "0924-0136"
+                        ],
+                        "wos_id": [
+                            "WOS:000262135900004"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1016/j.jmatprotec.2008.02.072",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000262135900004&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0000649/published_papers/33908765",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0000649/published_papers",
+                    "rm:id": "33908765",
+                    "rm:user_id": "0000004895",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000004895",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2021-10-04T08:15:22Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-08-20T00:30:45Z",
+                    "paper_title": {
+                        "ja": "ウェーブレット変換と線形判別関数を用いた小径ドリルの折損予知",
+                        "en": "Prediction of Small Drill Bit Breakage Using the Discrete Wavelet Transforms and Linear Discriminant Functions."
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "笠島 永吉"
+                            },
+                            {
+                                "name": "森 和男"
+                            },
+                            {
+                                "name": "FU J.C."
+                            },
+                            {
+                                "name": "TROY C."
+                            },
+                            {
+                                "name": "竹保 義博"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "永吉 笠島"
+                            },
+                            {
+                                "name": "和男 森"
+                            },
+                            {
+                                "name": "FU J.C."
+                            },
+                            {
+                                "name": "TROY C."
+                            },
+                            {
+                                "name": "義博 竹保"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "ja": "Though the Discrete Wavelet Transform (DWT) has gained attention in the field of machining monitoring, the potential use of DWT-based classification techniques has not yet been fully explored. In this paper, linear discriminant analysis is used to post-process DWT output for on-line prediction of small drill bit breakage. Bit failure is characterized by two types of transients (\"sawtooth\" and \"screeching\") in the cutting force signal. To detect these transients, instead of traditional Fourier based methods the DWT is used, which is better suited to analysis of time-localized phenomena. Three index functions (\"energy\", \"waviness\" and \"irregularity\") are adopted to test for the presence of transients in the DWT expansion. The indices are used to perform linear discriminant analysis, thereby classifying the input signals by state (normal or prefailure). Experiments showed that the DWT-based linear discriminant analysis method can accurately identify impending breakage about 1-3 cycles prior to failure even when the cutting conditions change.",
+                        "en": "Though the Discrete Wavelet Transform (DWT) has gained attention in the field of machining monitoring, the potential use of DWT-based classification techniques has not yet been fully explored. In this paper, linear discriminant analysis is used to post-process DWT output for on-line prediction of small drill bit breakage. Bit failure is characterized by two types of transients (\"sawtooth\" and \"screeching\") in the cutting force signal. To detect these transients, instead of traditional Fourier based methods the DWT is used, which is better suited to analysis of time-localized phenomena. Three index functions (\"energy\", \"waviness\" and \"irregularity\") are adopted to test for the presence of transients in the DWT expansion. The indices are used to perform linear discriminant analysis, thereby classifying the input signals by state (normal or prefailure). Experiments showed that the DWT-based linear discriminant analysis method can accurately identify impending breakage about 1-3 cycles prior to failure even when the cutting conditions change."
+                    },
+                    "publisher": {
+                        "ja": "公益社団法人精密工学会",
+                        "en": "The Japan Society for Precision Engineering"
+                    },
+                    "publication_date": "1999",
+                    "publication_name": {
+                        "ja": "精密工学会誌",
+                        "en": "精密工学会誌"
+                    },
+                    "volume": "65",
+                    "number": "4",
+                    "starting_page": "598",
+                    "ending_page": "603",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "published_paper_type": "scientific_journal",
+                    "is_international_journal": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.2493/jjspe.65.598"
+                        ],
+                        "issn": [
+                            "0912-0289"
+                        ],
+                        "cinii_na_id": [
+                            "110001372678"
+                        ],
+                        "cinii_nc_id": [
+                            "AN1003250X"
+                        ],
+                        "orcid_put_cd": [
+                            "100923503"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.2493/jjspe.65.598",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/110001372678",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_books",
+                            "@id": "http://ci.nii.ac.jp/ncid/AN1003250X",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "http://id.ndl.go.jp/bib/4703268",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "https://jlc.jst.go.jp/DN/JALC/00060176073?from=CiNii",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0000649/published_papers/28485811",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0000649/published_papers",
+                    "rm:id": "28485811",
+                    "rm:user_id": "0000004895",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-07-04T16:12:03Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-07-04T16:12:03Z",
+                    "paper_title": {
+                        "en": "Laser displacement meter application for milling diagnostics"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "O Ryabov"
+                            },
+                            {
+                                "name": "K Mori"
+                            },
+                            {
+                                "name": "N Kasashima"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "This paper presents the application of a laser displacement meter for direct multi-purpose sensing of milling tool conditions. Using a laser displacement meter, a laser beam is projected onto the cutting tool and subsequently reflected. The intensity as well as the angle of the reflected beam are measured. The signals are interpreted for identification of tool geometry, tool whirling, or vibration. Signal processing and analysis depend on the application. A prototype system has been developed to demonstrate the feasibility of various applications, namely (1) tool setting evaluation, (2) in-process measurement of milling cutter geometry and detection of tool failure, (3) continuous monitoring of milling cutter deterioration, (4) detection and measurement of chatter in milling, (5) measurement of milling tool bending and (6) thermal expansion. (C) 1998 Elsevier Science Ltd. All rights reserved."
+                    },
+                    "publisher": {
+                        "en": "ELSEVIER SCI LTD"
+                    },
+                    "publication_date": "1998-09",
+                    "publication_name": {
+                        "en": "OPTICS AND LASERS IN ENGINEERING"
+                    },
+                    "volume": "30",
+                    "number": "3-4",
+                    "starting_page": "251",
+                    "ending_page": "263",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "0143-8166"
+                        ],
+                        "wos_id": [
+                            "WOS:000076974700002"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000076974700002&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0000649/published_papers/33908767",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0000649/published_papers",
+                    "rm:id": "33908767",
+                    "rm:user_id": "0000004895",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000004895",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2021-10-04T08:15:23Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-08-20T00:19:18Z",
+                    "paper_title": {
+                        "ja": "離散ウェーブレット変換を応用した転がり軸受の剥離発生予知",
+                        "en": "Prediction of Spalling on a Rolling Bearing Using the Discrete Wavelet Transform."
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "上野 吉史"
+                            },
+                            {
+                                "name": "森 和男"
+                            },
+                            {
+                                "name": "笠島 永吉"
+                            },
+                            {
+                                "name": "吉岡 武雄"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "吉史 上野"
+                            },
+                            {
+                                "name": "和男 森"
+                            },
+                            {
+                                "name": "永吉 笠島"
+                            },
+                            {
+                                "name": "武雄 吉岡"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "ja": "機械システムの性能や機能に重大な支障を与える転がり軸受の剥離の発生予知が,離散ウェーブレット変換を導入することにより,今までは困難であった軸受の振動信号の観測から行えることを示した.得られた主な結果は以下のとおりである.<BR>(1)剥離が発生する直前の転がり軸受の振動信号には,インパルス的な非定常振動が含まれる.離散ウェーブレット変換を用いると,この非定常振動を感度良く検出することが可能である.<BR>(2)非定常振動に関するウェーブレット係数値は,剥離発生に近づくに従って大きくなる.さらに,この係数値の平均値推移を求めることにより剥離の発生を予知することが可能である.<BR>本報告で用いた離散ウェーブレヅト変換は,高速変換が可能で複雑な処理装置を必要としない.したがって,本論文の手法を容易にインプロセス異常診断システムへ展開できるものと考える.",
+                        "en": "Since the spalling of rolling bearings seriously degrades operating conditions in machine systems, in-process methods for predicting spalling are needed to keep the machine systems running properly. In this paper, the Discrete Wavelet Transform (DWT) is applied to vibration signals to predict the occurrence of spalling. The DWT yields information on both the time and frequency characteristics of the input signal, and is particularly helpful in detecting subtle time localized changes. In this paper, experiments are conducted by analyzing the vibration signals generated by spalling in dented thrust ball bearing. By applying the DWT to the vibration signals and comparing the DWT coefficient at various resolutions, the transient effect of spalling can be effectively and sensitively identified. Prediction of spalling is possible through inspecting the trends of the coefficient values."
+                    },
+                    "publisher": {
+                        "ja": "公益社団法人精密工学会",
+                        "en": "The Japan Society for Precision Engineering"
+                    },
+                    "publication_date": "1995",
+                    "publication_name": {
+                        "ja": "精密工学会誌",
+                        "en": "精密工学会誌"
+                    },
+                    "volume": "61",
+                    "number": "4",
+                    "starting_page": "521",
+                    "ending_page": "526",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "published_paper_type": "scientific_journal",
+                    "is_international_journal": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.2493/jjspe.61.521"
+                        ],
+                        "issn": [
+                            "0912-0289"
+                        ],
+                        "cinii_na_id": [
+                            "110001371844"
+                        ],
+                        "cinii_nc_id": [
+                            "AN1003250X"
+                        ],
+                        "orcid_put_cd": [
+                            "100923330"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.2493/jjspe.61.521",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/110001371844",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_books",
+                            "@id": "http://ci.nii.ac.jp/ncid/AN1003250X",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "http://id.ndl.go.jp/bib/3611891",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "https://jlc.jst.go.jp/DN/JALC/00032299960?from=CiNii",
+                            "is_downloadable": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0000649/misc",
+            "@type": "misc",
+            "@reverse": "https://api.researchmap.jp/read0000649",
+            "total_items": 4,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0000649/misc/39579528",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0000649/misc",
+                    "rm:id": "39579528",
+                    "rm:user_id": "0000004895",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_papers",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2022-08-09T13:16:11Z",
+                    "rm:modifier_id": "ai:assign_based_papers",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-08-09T13:16:11Z",
+                    "paper_title": {
+                        "ja": "中間球の回転軸を一軸拘束した球面減速機の提案と回転伝達モデルの構築",
+                        "en": "Proposal of Spherical Speed Reducer that Constraints Rotation Axis of Intermediate Balls and Construction of Theoretical Rotation Transmission Model for the Reducer"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "古川 拓夢"
+                            },
+                            {
+                                "name": "笠島 永吉"
+                            },
+                            {
+                                "name": "五福 明夫"
+                            },
+                            {
+                                "name": "矢野 智昭"
+                            },
+                            {
+                                "name": "柴田 光宣"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "FURUKAWA Hiromu"
+                            },
+                            {
+                                "name": "KASASHIMA Nagayoshi"
+                            },
+                            {
+                                "name": "GOFUKU Akio"
+                            },
+                            {
+                                "name": "YANO Tomoaki"
+                            },
+                            {
+                                "name": "SHIBATA Mitsunobu"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "Common multiple-degrees-of-freedom system consist of some uniaxial motors. In contrast, a spherical motor that has a spherical rotor realizes the motion of three degrees of freedom by the motor itself. So, a system by a spherical motor can reduce its size and has advantages such as shorter control time than the system combining uniaxial motors. Most of spherical motors driven by electromagnetic forces have a problem that it is difficult to generate high output torque. So, the development of a spherical speed reducer is required to increase the output. In the development of a spherical speed reducer, it is necessary to construct a rotation transfer model to generate required rotation of the output sphere. This study proposes a spherical speed reducer that the rotation axis of the small spheres, that are intermediate spheres, is constrained not to rotate around an axis in a fixed three-dimensional orthogonal coordinates system. A rotation transmission model from the rotor to the output sphere is constructed using the fact that the rotation of a small sphere is simplified by constraining the rotation around one axis. From the experimental results, the applicability of the rotation transmission model is confirmed."
+                    },
+                    "publisher": {
+                        "ja": "日本AEM学会",
+                        "en": "The Japan Society of Applied Electromagnetics and Mechanics"
+                    },
+                    "publication_date": "2021",
+                    "publication_name": {
+                        "ja": "日本AEM学会誌",
+                        "en": "Journal of the Japan Society of Applied Electromagnetics and Mechanics"
+                    },
+                    "volume": "29",
+                    "number": "3",
+                    "starting_page": "544",
+                    "ending_page": "550",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "0919-4452"
+                        ],
+                        "j_global_id": [
+                            "202202262856860474"
+                        ],
+                        "doi": [
+                            "10.14243/jsaem.29.544"
+                        ],
+                        "e_issn": [
+                            "2187-9257"
+                        ],
+                        "cinii_na_id": [
+                            "130008142883"
+                        ],
+                        "cinii_nc_id": [
+                            "AN10457520"
+                        ],
+                        "cinii_cr_id": [
+                            "1390290780263361408"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "j_global",
+                            "@id": "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=202202262856860474",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.14243/jsaem.29.544",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_books",
+                            "@id": "http://ci.nii.ac.jp/ncid/AN10457520",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_research",
+                            "@id": "https://cir.nii.ac.jp/crid/1390290780263361408?lang=ja",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "https://www.jstage.jst.go.jp/article/jsaem/29/3/29_544/_pdf",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "http://id.ndl.go.jp/bib/031875614",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0000649/misc/33958335",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0000649/misc",
+                    "rm:id": "33958335",
+                    "rm:user_id": "0000004895",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000004895",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2021-10-08T02:20:43Z",
+                    "rm:modifier_id": "0000004895",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2021-10-08T02:20:43Z",
+                    "paper_title": {
+                        "ja": "レーザ加工を用いたIC開封技術=反射率の検出による加工除去量制御の試み="
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "笠島永吉"
+                            },
+                            {
+                                "name": "栗田恒雄"
+                            },
+                            {
+                                "name": "小林信敏"
+                            }
+                        ]
+                    },
+                    "publication_date": "2011",
+                    "publication_name": {
+                        "ja": "光アライアンス"
+                    },
+                    "volume": "22",
+                    "number": "1",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "0917-026X"
+                        ],
+                        "j_global_id": [
+                            "201102284736569696"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "j_global",
+                            "@id": "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=201102284736569696",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0000649/misc/1001525",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0000649/misc",
+                    "rm:id": "1001525",
+                    "rm:user_id": "0000004895",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000004895",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2011-02-02T15:00:00Z",
+                    "rm:modifier_id": "0000004895",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2011-02-02T15:00:00Z",
+                    "paper_title": {
+                        "ja": "A basic research of precise three-dimensional shape machining with Q-switched YAG laser"
+                    },
+                    "publication_date": "2003",
+                    "publication_name": {
+                        "ja": "INTELLIGENCE IN A MATERIAL WORLD"
+                    },
+                    "volume": "847-853",
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0000649/misc/1001524",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0000649/misc",
+                    "rm:id": "1001524",
+                    "rm:user_id": "0000004895",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000004895",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2011-02-02T15:00:00Z",
+                    "rm:modifier_id": "0000004895",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2011-02-02T15:00:00Z",
+                    "paper_title": {
+                        "ja": "A study of Measurement and Evaluation of Micro Geometrical Surface"
+                    },
+                    "publication_date": "2003",
+                    "publication_name": {
+                        "ja": "INTERNATIONAL PROGRESS ON ADVANCED OPTICS AND SENSORS"
+                    },
+                    "volume": "67-72",
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false
+                }
+            ]
+        }
+    ]
+}

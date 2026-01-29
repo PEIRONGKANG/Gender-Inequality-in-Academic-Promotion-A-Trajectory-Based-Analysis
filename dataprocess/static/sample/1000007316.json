@@ -1,0 +1,2051 @@
+{
+    "@context": "https://api.researchmap.jp/researcher.jsonld",
+    "@id": "https://api.researchmap.jp/read0169256?format=json",
+    "@type": "researchers",
+    "rm:user_id": "1000007316",
+    "rm:creator_id": "1000007316",
+    "rm:creator_type": "myself",
+    "rm:created": "2011-08-07T15:00:00Z",
+    "rm:modifier_id": "R000000106",
+    "rm:modifier_type": "institution",
+    "rm:modified": "2024-01-17T05:10:16Z",
+    "permalink": "read0169256",
+    "family_name": {
+        "ja": "水戸部",
+        "en": "Mitobe"
+    },
+    "given_name": {
+        "ja": "和久",
+        "en": "Kazuhisa"
+    },
+    "display_name_kana": "researchers_only",
+    "display_nickname": "closed",
+    "display_image": "disclosed",
+    "display_contact_point": "researchers_only",
+    "display_profile": "researchers_only",
+    "display_url": "researchers_only",
+    "identifiers": {
+        "j_global_id": [
+            "200901033568670322"
+        ]
+    },
+    "rm:erad_id_verified": false,
+    "rm:orc_id_verified": false,
+    "display_erad_id": "closed",
+    "display_orc_id": "closed",
+    "display_researcher_id": "closed",
+    "display_j_global_id": "disclosed",
+    "see_also": [
+        {
+            "label": "j_global",
+            "@id": "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=200901033568670322"
+        }
+    ],
+    "@graph": [
+        {
+            "@id": "https://api.researchmap.jp/read0169256/research_interests",
+            "@type": "research_interests",
+            "@reverse": "https://api.researchmap.jp/read0169256",
+            "total_items": 2,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0169256/research_interests/10853068",
+                    "@type": "research_interests",
+                    "@reverse": "https://api.researchmap.jp/read0169256/research_interests",
+                    "rm:id": "10853068",
+                    "rm:user_id": "1000007316",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:hkZ1lVgY~rHUby37",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-06T17:40:25Z",
+                    "rm:modifier_id": "R000000106",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2021-10-25T23:58:16Z",
+                    "keyword": {
+                        "ja": "ロボット工学，制御工学",
+                        "en": "robotics and control engineering"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0169256/research_interests/10853069",
+                    "@type": "research_interests",
+                    "@reverse": "https://api.researchmap.jp/read0169256/research_interests",
+                    "rm:id": "10853069",
+                    "rm:user_id": "1000007316",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:hkZ1lVgY~rHUby37",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-06T17:40:25Z",
+                    "rm:modifier_id": "client_id:hkZ1lVgY~rHUby37",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-01-06T17:40:25Z",
+                    "keyword": {
+                        "ja": "制御工学"
+                    }
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0169256/research_areas",
+            "@type": "research_areas",
+            "@reverse": "https://api.researchmap.jp/read0169256",
+            "total_items": 2,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0169256/research_areas/8722761",
+                    "@type": "research_areas",
+                    "@reverse": "https://api.researchmap.jp/read0169256/research_areas",
+                    "rm:id": "8722761",
+                    "rm:user_id": "1000007316",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:hkZ1lVgY~rHUby37",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-06T17:40:25Z",
+                    "rm:modifier_id": "R000000106",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2021-10-25T23:58:12Z",
+                    "discipline_number": "A289",
+                    "item_number": "A20020",
+                    "discipline": {
+                        "ja": "情報通信",
+                        "en": "Informatics"
+                    },
+                    "research_field": {
+                        "ja": "ロボティクス、知能機械システム",
+                        "en": "Robotics and intelligent systems"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0169256/research_areas/8722762",
+                    "@type": "research_areas",
+                    "@reverse": "https://api.researchmap.jp/read0169256/research_areas",
+                    "rm:id": "8722762",
+                    "rm:user_id": "1000007316",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:hkZ1lVgY~rHUby37",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-06T17:40:25Z",
+                    "rm:modifier_id": "R000000106",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2021-10-25T23:58:12Z",
+                    "discipline_number": "A289",
+                    "item_number": "A20010",
+                    "discipline": {
+                        "ja": "情報通信",
+                        "en": "Informatics"
+                    },
+                    "research_field": {
+                        "ja": "機械力学、メカトロニクス",
+                        "en": "Mechanics and mechatronics"
+                    }
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0169256/education",
+            "@type": "education",
+            "@reverse": "https://api.researchmap.jp/read0169256",
+            "total_items": 2,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0169256/education/17474532",
+                    "@type": "education",
+                    "@reverse": "https://api.researchmap.jp/read0169256/education",
+                    "rm:id": "17474532",
+                    "rm:user_id": "1000007316",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:hkZ1lVgY~rHUby37",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-06T17:40:25Z",
+                    "rm:modifier_id": "R000000106",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2021-01-07T02:59:35Z",
+                    "to_date": "1988-03",
+                    "rm:institution_code": "0228000000",
+                    "affiliation": {
+                        "ja": "新潟大学",
+                        "en": "Niigata University"
+                    },
+                    "department": {
+                        "ja": "工学研究科",
+                        "en": "Graduate School, Division of Engineering"
+                    },
+                    "course": {
+                        "ja": "精密工学"
+                    },
+                    "address_country": "JPN"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0169256/education/17474531",
+                    "@type": "education",
+                    "@reverse": "https://api.researchmap.jp/read0169256/education",
+                    "rm:id": "17474531",
+                    "rm:user_id": "1000007316",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:hkZ1lVgY~rHUby37",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-06T17:40:25Z",
+                    "rm:modifier_id": "R000000106",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2021-01-07T02:59:35Z",
+                    "to_date": "1986-03",
+                    "rm:institution_code": "0228009000",
+                    "affiliation": {
+                        "ja": "新潟大学",
+                        "en": "Niigata University"
+                    },
+                    "department": {
+                        "ja": "工学部",
+                        "en": "Faculty of Engineering"
+                    },
+                    "course": {
+                        "ja": "精密工学科"
+                    },
+                    "address_country": "JPN"
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0169256/published_papers",
+            "@type": "published_papers",
+            "@reverse": "https://api.researchmap.jp/read0169256",
+            "total_items": 63,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0169256/published_papers/41850360",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0169256/published_papers",
+                    "rm:id": "41850360",
+                    "rm:user_id": "1000007316",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "R000000106",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2023-03-28T07:38:23Z",
+                    "rm:modifier_id": "R000000106",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2023-03-28T07:38:23Z",
+                    "paper_title": {
+                        "ja": "柔軟関節をもつ腱駆動2リンクロボットアームの関節変数を用いない制御"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "邵 超"
+                            },
+                            {
+                                "name": "小宮 僚太郎"
+                            },
+                            {
+                                "name": "水戸部 和久"
+                            }
+                        ]
+                    },
+                    "publication_date": "2022-06-18",
+                    "publication_name": {
+                        "ja": "日本ロボット学会誌"
+                    },
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "is_international_journal": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.7210/jrsj.40.431"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.7210/jrsj.40.431",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0169256/published_papers/16776788",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0169256/published_papers",
+                    "rm:id": "16776788",
+                    "rm:user_id": "1000007316",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:hkZ1lVgY~rHUby37",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-06T17:40:25Z",
+                    "rm:modifier_id": "client_id:hkZ1lVgY~rHUby37",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-01-06T17:40:25Z",
+                    "paper_title": {
+                        "ja": "Force Control Using No Joint Variables for Elastic Tendon Robot",
+                        "en": "Force Control Using No Joint Variables for Elastic Tendon Robot"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "Chao Shao"
+                            },
+                            {
+                                "name": "Tomoya Suzuki"
+                            },
+                            {
+                                "name": "Takumi Watanabe"
+                            },
+                            {
+                                "name": "Hiromitsu Nishikata"
+                            },
+                            {
+                                "name": "Tsubasa Sato"
+                            },
+                            {
+                                "name": "Kazuhisa Mitobe"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Chao Shao"
+                            },
+                            {
+                                "name": "Tomoya Suzuki"
+                            },
+                            {
+                                "name": "Takumi Watanabe"
+                            },
+                            {
+                                "name": "Hiromitsu Nishikata"
+                            },
+                            {
+                                "name": "Tsubasa Sato"
+                            },
+                            {
+                                "name": "Kazuhisa Mitobe"
+                            }
+                        ]
+                    },
+                    "publication_date": "2019-03",
+                    "publication_name": {
+                        "ja": "SAMCON 2019, IS2-1",
+                        "en": "SAMCON 2019, IS2-1"
+                    },
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "international_conference_proceedings",
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0169256/published_papers/16776787",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0169256/published_papers",
+                    "rm:id": "16776787",
+                    "rm:user_id": "1000007316",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:hkZ1lVgY~rHUby37",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-06T17:40:25Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2021-10-21T14:58:04Z",
+                    "paper_title": {
+                        "en": "Utilizing the Nonlinearity of Tendon Elasticity for Compensation of Unknown Gravity of Payload",
+                        "ja": "Utilizing the Nonlinearity of Tendon Elasticity for Compensation of Unknown Gravity of Payload"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Shao Chao"
+                            },
+                            {
+                                "name": "Togashi Junki"
+                            },
+                            {
+                                "name": "Mitobe Kazuhisa"
+                            },
+                            {
+                                "name": "Capi Genci"
+                            }
+                        ],
+                        "ja": [
+                            {
+                                "name": "Shao Chao"
+                            },
+                            {
+                                "name": "Togashi Junki"
+                            },
+                            {
+                                "name": "Mitobe Kazuhisa"
+                            },
+                            {
+                                "name": "Capi Genci"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "© 2018, Fuji Technology Press. All rights reserved. This paper discusses the positioning control of an elastic tendon-driven robot arm under gravity. The robot is driven by rubber string tendons and winding drums attached on the outside frames. Low-cost rubber strings that are available commercially are used as tendons. The goal is to utilize the nonlinear nature of the rubber materials to control a low-cost and soft robot arm. Theoretically, a mathematical model with accurate parameters and accurate measurement of the payload weight is necessary for rigorous gravity compensation. However, the necessity for the information of the robot parameters is hindering easy adaptability, versatility, and cost-efficiency. This paper presents an iterative estimation and compensation method for unknown payloads based on the steady-state position error and the nominal stiffness coefficient. Owing to the nonlinearity of the actual rubber strings, the position error remains after a single operation of the gravity compensation. However, experiments indicate that the error reduces by a simple iteration of the same compensation operation. Considering the nonlinearity in rubber strings, the mechanism of the error reduction is analyzed theoretically. Although the iterative process is time consuming, the method requires less prior information. In addition, it is cost effective because a sophisticated force sensor is not required. As the mechanism of error reduction applies to typical rubber string materials, it is useful for significant costreduction and reconfigurable robotics."
+                    },
+                    "publication_date": "2018-12",
+                    "publication_name": {
+                        "en": "JOURNAL OF ROBOTICS AND MECHATRONICS",
+                        "ja": "JOURNAL OF ROBOTICS AND MECHATRONICS"
+                    },
+                    "volume": "30",
+                    "number": "6",
+                    "starting_page": "873",
+                    "ending_page": "879",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.20965/jrm.2018.p0873"
+                        ],
+                        "issn": [
+                            "0915-3942"
+                        ],
+                        "e_issn": [
+                            "1883-8049"
+                        ],
+                        "scopus_id": [
+                            "85063509262"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.20965/jrm.2018.p0873",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "scopus",
+                            "@id": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85063509262&origin=inward",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "scopus_citedby",
+                            "@id": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85063509262&origin=inward",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0169256/published_papers/31418631",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0169256/published_papers",
+                    "rm:id": "31418631",
+                    "rm:user_id": "1000007316",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "R000000106",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2021-01-07T03:00:32Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-07-28T21:10:24Z",
+                    "paper_title": {
+                        "ja": "腱の非線形性を考慮した弾性腱駆動ロボットアームの制御システムと重力補償",
+                        "en": "Control system and gravity compensation method of the elastic tendon-driven robot arm considering tendon nonlinearity"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "SUZUKI Tomoya"
+                            },
+                            {
+                                "name": "TOGASHI Junki"
+                            },
+                            {
+                                "name": "MITOBE Kazuhisa"
+                            }
+                        ],
+                        "ja": [
+                            {
+                                "name": "鈴木 智也"
+                            },
+                            {
+                                "name": "冨樫 淳輝"
+                            },
+                            {
+                                "name": "水戸部 和久"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "ja": "<p>This paper discusses on the control system and stability of the marionette style elastic tendon driven robot arm. The idea of this robot arm is a light weighted and easily customizable structure by using low-cost materials for the links and tendons. Due to the lower rigidity of the positioning action through tendons, positioning error when carrying an unknown load is an important issue. In this paper, we show an iterative compensation method of the gravity force, based on the static relation of forces. A criterion of the error reduction, considering the nonlinearity of the tendon elasticity. Experimental results using a prototype robot arm are shown to demonstrate the basic behavior, and confirm the proposed gravity compensation method.</p>",
+                        "en": "<p>This paper discusses on the control system and stability of the marionette style elastic tendon driven robot arm. The idea of this robot arm is a light weighted and easily customizable structure by using low-cost materials for the links and tendons. Due to the lower rigidity of the positioning action through tendons, positioning error when carrying an unknown load is an important issue. In this paper, we show an iterative compensation method of the gravity force, based on the static relation of forces. A criterion of the error reduction, considering the nonlinearity of the tendon elasticity. Experimental results using a prototype robot arm are shown to demonstrate the basic behavior, and confirm the proposed gravity compensation method.</p>"
+                    },
+                    "publisher": {
+                        "ja": "一般社団法人 日本機械学会",
+                        "en": "The Japan Society of Mechanical Engineers"
+                    },
+                    "publication_date": "2017",
+                    "publication_name": {
+                        "ja": "ロボティクス・メカトロニクス講演会講演概要集",
+                        "en": "The Proceedings of JSME annual Conference on Robotics and Mechatronics (Robomec)"
+                    },
+                    "volume": "2017",
+                    "number": "0",
+                    "starting_page": "1P2",
+                    "ending_page": "H10",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1299/jsmermd.2017.1P2-H10"
+                        ],
+                        "cinii_na_id": [
+                            "130006220584"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1299/jsmermd.2017.1P2-H10",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/130006220584",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0169256/published_papers/16776786",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0169256/published_papers",
+                    "rm:id": "16776786",
+                    "rm:user_id": "1000007316",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:hkZ1lVgY~rHUby37",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-06T17:40:25Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2021-10-21T14:58:10Z",
+                    "paper_title": {
+                        "en": "Control of Low-Cost Customizable Robot Arm Actuated by Elastic Tendons",
+                        "ja": "Control of Low-Cost Customizable Robot Arm Actuated by Elastic Tendons"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Junki Togashi"
+                            },
+                            {
+                                "name": "Kazuhisa Mitobe"
+                            },
+                            {
+                                "name": "Genci Capi"
+                            }
+                        ],
+                        "ja": [
+                            {
+                                "name": "Junki Togashi"
+                            },
+                            {
+                                "name": "Kazuhisa Mitobe"
+                            },
+                            {
+                                "name": "Genci Capi"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "© 2016, Journal of Robotics and Mechatronics. All rights reserved. This paper presents a low-cost, lightweight robot arm with very low stiffness actuated by elastic tendons. To simplify the string tension control, a new winding device was developed. Small pulleys were incorporated into the winding drum to reduce friction between the tendon and the drum. A marionette-style two-link robot arm with compliant joints was prototyped. Because the armand winding devices were separate from each other, the cost and weight of the robot were reduced. The links are made with lightweight wood connected by simple shaft joints. The robot design can be easily modified by the user because the mechanical parts do not require high machining accuracy. This robot is intended for implementation in tasks that do not require high positioning accuracy using a simple force control under environmental constraints. Because of its low stiffness, simple and sensor-less force control can be easily implemented based on the relationship between forces under static conditions. The proposed simple control method was evaluated experimentally by conducting position, static force, and hybrid position/force control tasks and was shown to perform well. The results also demonstrate that employing additional sensors, such as a camera, improves the accuracy of the controller."
+                    },
+                    "publisher": {
+                        "en": "富士技術出版",
+                        "ja": "富士技術出版"
+                    },
+                    "publication_date": "2016",
+                    "publication_name": {
+                        "en": "Journal of Robotics and Mechatronics",
+                        "ja": "Journal of Robotics and Mechatronics"
+                    },
+                    "volume": "28",
+                    "number": "4",
+                    "starting_page": "509",
+                    "ending_page": "522",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.20965/jrm.2016.p0509"
+                        ],
+                        "issn": [
+                            "0915-3942"
+                        ],
+                        "e_issn": [
+                            "1883-8049"
+                        ],
+                        "scopus_id": [
+                            "84983472755"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.20965/jrm.2016.p0509",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "scopus",
+                            "@id": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=84983472755&origin=inward",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "scopus_citedby",
+                            "@id": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=84983472755&origin=inward",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0169256/published_papers/16776784",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0169256/published_papers",
+                    "rm:id": "16776784",
+                    "rm:user_id": "1000007316",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:hkZ1lVgY~rHUby37",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-06T17:40:25Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-06-02T07:25:24Z",
+                    "paper_title": {
+                        "en": "Development of the intake system for the SnowEater robot"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Ernesto Rivas"
+                            },
+                            {
+                                "name": "Kazuhisa Mitobe"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "The development of the intake system for the SnowEater robot is presented in this paper. The SnowEater robot is a small, lightweight and low powered autonomous machine, designed to remove and compact snow from small areas (less than 30 m(2)). Its design includes four interacting systems to accomplish the task. These systems are the intake, crawler, compressing and navigation system. This paper focuses on the intake system and its cooperative control with the crawler system. The intake system has three screws to collect the snow. The used control encloses the screw alternating motion and the tracked robot motion; the stable autonomous operation under different snow conditions is designed considering the snow income and its processing speed. Furthermore, an altitude mechanism is presented to enhance the mobility in deep snow conditions. (C) 2015 Elsevier Ltd. All rights reserved."
+                    },
+                    "publisher": {
+                        "en": "PERGAMON-ELSEVIER SCIENCE LTD"
+                    },
+                    "publication_date": "2015-06",
+                    "publication_name": {
+                        "en": "MECHATRONICS"
+                    },
+                    "volume": "28",
+                    "starting_page": "27",
+                    "ending_page": "34",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1016/j.mechatronics.2015.03.002"
+                        ],
+                        "issn": [
+                            "0957-4158"
+                        ],
+                        "wos_id": [
+                            "WOS:000357223500004"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1016/j.mechatronics.2015.03.002",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000357223500004&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0169256/published_papers/16776785",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0169256/published_papers",
+                    "rm:id": "16776785",
+                    "rm:user_id": "1000007316",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:hkZ1lVgY~rHUby37",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-06T17:40:25Z",
+                    "rm:modifier_id": "client_id:hkZ1lVgY~rHUby37",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-01-06T17:40:25Z",
+                    "paper_title": {
+                        "ja": "Using a Low-Cost Onboard Camera for Sliding Mode Control of a Mobile Robot in Slippery Environments",
+                        "en": "Using a Low-Cost Onboard Camera for Sliding Mode Control of a Mobile Robot in Slippery Environments"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "Ernesto Rivas"
+                            },
+                            {
+                                "name": "Koutaro Komagome"
+                            },
+                            {
+                                "name": "Kazuhisa Mitobe"
+                            },
+                            {
+                                "name": "Genci Capi"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Ernesto Rivas"
+                            },
+                            {
+                                "name": "Koutaro Komagome"
+                            },
+                            {
+                                "name": "Kazuhisa Mitobe"
+                            },
+                            {
+                                "name": "Genci Capi"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "富士技術出版",
+                        "en": "富士技術出版"
+                    },
+                    "publication_date": "2015",
+                    "publication_name": {
+                        "ja": "Journal of Robotics and Mechatronics",
+                        "en": "Journal of Robotics and Mechatronics"
+                    },
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.20965/jrm.2015.p0535(2015)"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.20965/jrm.2015.p0535(2015)",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0169256/published_papers/16776783",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0169256/published_papers",
+                    "rm:id": "16776783",
+                    "rm:user_id": "1000007316",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:hkZ1lVgY~rHUby37",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-06T17:40:25Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2021-10-21T14:58:58Z",
+                    "paper_title": {
+                        "en": "Image-Based Navigation for the SnowEater Robot Using a Low-Resolution USB Camera",
+                        "ja": "Image-Based Navigation for the SnowEater Robot Using a Low-Resolution USB Camera"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Rivas, E"
+                            },
+                            {
+                                "name": "Komagome, K"
+                            },
+                            {
+                                "name": "Mitobe, K"
+                            },
+                            {
+                                "name": "Capi, G"
+                            }
+                        ],
+                        "ja": [
+                            {
+                                "name": "Rivas, E"
+                            },
+                            {
+                                "name": "Komagome, K"
+                            },
+                            {
+                                "name": "Mitobe, K"
+                            },
+                            {
+                                "name": "Capi, G"
+                            }
+                        ]
+                    },
+                    "publication_date": "2015",
+                    "publication_name": {
+                        "en": "Robotics",
+                        "ja": "Robotics"
+                    },
+                    "volume": "4",
+                    "number": "2",
+                    "starting_page": "120",
+                    "ending_page": "140",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.3390/robotics4020120"
+                        ],
+                        "dblp_id": [
+                            "journals/robotics/RivasKMC15"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.3390/robotics4020120",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "DBLP",
+                            "@id": "https://dblp.uni-trier.de/rec/journals/robotics/RivasKMC15",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "https://dblp.uni-trier.de/db/journals/robotics/robotics4.html#RivasKMC15",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0169256/published_papers/31418630",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0169256/published_papers",
+                    "rm:id": "31418630",
+                    "rm:user_id": "1000007316",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "R000000106",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2021-01-07T03:00:32Z",
+                    "rm:modifier_id": "R000000106",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2021-10-25T23:59:58Z",
+                    "paper_title": {
+                        "en": "1A1-C07 Force control of an elastic tendon driven robot arm(Mechanism and Control for Wire Actuation System)",
+                        "ja": "1A1-C07 大幅に柔軟な腱を用いたロボットアームによる力制御(ワイヤ駆動系の機構と制御)"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "冨樫 淳輝"
+                            },
+                            {
+                                "name": "水戸部 和久"
+                            },
+                            {
+                                "name": "松田 司"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "TOGASHI Junki"
+                            },
+                            {
+                                "name": "MITOBE Kazuhiro"
+                            },
+                            {
+                                "name": "MATSUDA Tsukasa"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "This paper presents an elastic tendon driven robot arm with its tendon composed of soft rubber strings. Our goal is to expand the field of robotic applications to the welfare robotics and agricultural robotics by the significant elasticity and its potential advantages in cost and safety. This paper describes: (1) the stiffness relationship between the task space and tendon space, from the viewpoint of designing the stiffness at end effector, (2) a force control method based on the static mechanics and force sensor feedback with integral compensation. Experimental evaluations on these control methods are shown.",
+                        "ja": "This paper presents an elastic tendon driven robot arm with its tendon composed of soft rubber strings. Our goal is to expand the field of robotic applications to the welfare robotics and agricultural robotics by the significant elasticity and its potential advantages in cost and safety. This paper describes: (1) the stiffness relationship between the task space and tendon space, from the viewpoint of designing the stiffness at end effector, (2) a force control method based on the static mechanics and force sensor feedback with integral compensation. Experimental evaluations on these control methods are shown."
+                    },
+                    "publisher": {
+                        "en": "The Japan Society of Mechanical Engineers",
+                        "ja": "一般社団法人 日本機械学会"
+                    },
+                    "publication_date": "2014",
+                    "publication_name": {
+                        "en": "The Proceedings of JSME annual Conference on Robotics and Mechatronics (Robomec)",
+                        "ja": "ロボティクス・メカトロニクス講演会講演概要集"
+                    },
+                    "volume": "2014",
+                    "number": "0",
+                    "starting_page": "_1A1",
+                    "ending_page": "C07_1-_1A1-C07_4",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1299/jsmermd.2014._1A1-C07_1"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1299/jsmermd.2014._1A1-C07_1",
+                            "is_downloadable": false
+                        },
+                        {
+                            "@id": "https://ci.nii.ac.jp/naid/110009968618",
+                            "is_downloadable": false,
+                            "label": "url"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0169256/published_papers/16776782",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0169256/published_papers",
+                    "rm:id": "16776782",
+                    "rm:user_id": "1000007316",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:hkZ1lVgY~rHUby37",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-06T17:40:25Z",
+                    "rm:modifier_id": "client_id:hkZ1lVgY~rHUby37",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-01-06T17:40:25Z",
+                    "paper_title": {
+                        "ja": "イメージの変化からみる技術者倫理におけるグループワークの効果"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "安原 薫"
+                            },
+                            {
+                                "name": "水戸部 和久"
+                            },
+                            {
+                                "name": "大町 竜哉"
+                            },
+                            {
+                                "name": "菊池 武士"
+                            }
+                        ]
+                    },
+                    "publication_date": "2013",
+                    "publication_name": {
+                        "ja": "工学教育"
+                    },
+                    "volume": "61",
+                    "number": "6",
+                    "starting_page": "54",
+                    "ending_page": "59",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0169256/published_papers/16776781",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0169256/published_papers",
+                    "rm:id": "16776781",
+                    "rm:user_id": "1000007316",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:hkZ1lVgY~rHUby37",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-06T17:40:25Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-09-04T04:43:46Z",
+                    "paper_title": {
+                        "ja": "磁気粘性流体ブレーキを搭載したインテリジェント制御型歩行車",
+                        "en": "Intelligently Controllable Walker with Magnetorheological Fluid Brake"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "KIKUCHI Takehito"
+                            },
+                            {
+                                "name": "TANIDA Sosuke"
+                            },
+                            {
+                                "name": "TANAKA Toshimasa"
+                            },
+                            {
+                                "name": "KOBAYASHI Keigo"
+                            },
+                            {
+                                "name": "MITOBE Kazuhisa"
+                            }
+                        ],
+                        "ja": [
+                            {
+                                "name": "菊池武士"
+                            },
+                            {
+                                "name": "谷田惣亮"
+                            },
+                            {
+                                "name": "田中利昌"
+                            },
+                            {
+                                "name": "小林慧吾"
+                            },
+                            {
+                                "name": "水戸部和久"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "計測自動制御学会"
+                    },
+                    "publication_date": "2012",
+                    "publication_name": {
+                        "ja": "計測自動制御学会論文集"
+                    },
+                    "volume": "48",
+                    "number": "1",
+                    "starting_page": "37",
+                    "ending_page": "44",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "0453-4654"
+                        ],
+                        "cinii_na_id": [
+                            "10030165850"
+                        ],
+                        "cinii_nc_id": [
+                            "AN00072392"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/10030165850",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_books",
+                            "@id": "http://ci.nii.ac.jp/ncid/AN00072392",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "http://id.ndl.go.jp/bib/023515822",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0169256/published_papers/31418629",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0169256/published_papers",
+                    "rm:id": "31418629",
+                    "rm:user_id": "1000007316",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "R000000106",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2021-01-07T03:00:32Z",
+                    "rm:modifier_id": "R000000106",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2021-10-25T23:59:58Z",
+                    "paper_title": {
+                        "en": "2P1-E06 Development of the 2nd-generation of the intelligently controllable walker (i-Walker2) : Assessment experiment of walking assistance performance of i-Walker 2(Welfare Robotics and Mechatronics(1))",
+                        "ja": "2P1-E06 インテリジェント制御型歩行車2号機(i-Walker2)の開発に関する基礎研究 : i-Walker2の歩行補助性能の評価実験(福祉ロボティクス・メカトロニクス(1))"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "田中 利昌"
+                            },
+                            {
+                                "name": "菊池 武士"
+                            },
+                            {
+                                "name": "小林 慧吾"
+                            },
+                            {
+                                "name": "水戸部 和久"
+                            },
+                            {
+                                "name": "山野 光裕"
+                            },
+                            {
+                                "name": "鈴川 裕一"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "TANAKA Toshimasa"
+                            },
+                            {
+                                "name": "KIKUCHI Takehito"
+                            },
+                            {
+                                "name": "KOBAYASHI Keigo"
+                            },
+                            {
+                                "name": "MITOBE Kazuhisa"
+                            },
+                            {
+                                "name": "Yamano Mitsuhiro"
+                            },
+                            {
+                                "name": "SUZUKAWA Yuichi"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "The walking ability is very important for the life and living. Losing walking ability causes a decline in the Quality of Life (QOL). The walking assistant system named the intelligently controllable walker \"i-Walker\" is studied and developed in this paper. The i-Walker uses a MR fluid to brake the left and/or right wheels of the walker controlling walking speed and direction. The previous study has developed the 1st-generation of the i-Walker (i-Walker1) and several experiments were conducted. This study has developed the 2nd-generation of the i-walker (i-Walker2), and conducted several experiments for i-Walker1 and 2. First, the line-tracing algorithm is changed from previous study. Second, the control-box for i-Walker2 is loaded in the machine. Third, the new controllable wheels using a compact MR fluid brake is developed. Finally, the experimental comparison between i-Walker2 and i-Walker1 through motion capture system (Arena) is made.",
+                        "ja": "The walking ability is very important for the life and living. Losing walking ability causes a decline in the Quality of Life (QOL). The walking assistant system named the intelligently controllable walker \"i-Walker\" is studied and developed in this paper. The i-Walker uses a MR fluid to brake the left and/or right wheels of the walker controlling walking speed and direction. The previous study has developed the 1st-generation of the i-Walker (i-Walker1) and several experiments were conducted. This study has developed the 2nd-generation of the i-walker (i-Walker2), and conducted several experiments for i-Walker1 and 2. First, the line-tracing algorithm is changed from previous study. Second, the control-box for i-Walker2 is loaded in the machine. Third, the new controllable wheels using a compact MR fluid brake is developed. Finally, the experimental comparison between i-Walker2 and i-Walker1 through motion capture system (Arena) is made."
+                    },
+                    "publisher": {
+                        "en": "The Japan Society of Mechanical Engineers",
+                        "ja": "一般社団法人 日本機械学会"
+                    },
+                    "publication_date": "2011",
+                    "publication_name": {
+                        "en": "The Proceedings of JSME annual Conference on Robotics and Mechatronics (Robomec)",
+                        "ja": "ロボティクス・メカトロニクス講演会講演概要集"
+                    },
+                    "volume": "2011",
+                    "number": "0",
+                    "starting_page": "_2P1",
+                    "ending_page": "E06_1-_2P1-E06_4",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1299/jsmermd.2011._2P1-E06_1"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1299/jsmermd.2011._2P1-E06_1",
+                            "is_downloadable": false
+                        },
+                        {
+                            "@id": "https://ci.nii.ac.jp/naid/110009711452",
+                            "is_downloadable": false,
+                            "label": "url"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0169256/published_papers/31418628",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0169256/published_papers",
+                    "rm:id": "31418628",
+                    "rm:user_id": "1000007316",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "R000000106",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2021-01-07T03:00:32Z",
+                    "rm:modifier_id": "R000000106",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2021-10-25T23:59:58Z",
+                    "paper_title": {
+                        "en": "1203 Snow sweeper mechanism and attitude control mechanism of an Autonomous Snow Eater Robot",
+                        "ja": "1203 小型除雪ロボットの雪取り込み及び姿勢制御装置(GS1-1 一般セッションI,GS1 一般セッション)"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "笠松 龍一朗"
+                            },
+                            {
+                                "name": "RIVAS Ernesto"
+                            },
+                            {
+                                "name": "渡邉 紘平"
+                            },
+                            {
+                                "name": "水戸部 和久"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "KASAMATSU Ryuichiro"
+                            },
+                            {
+                                "name": "RIVAS Ernesto"
+                            },
+                            {
+                                "name": "WATANABE Kouhei"
+                            },
+                            {
+                                "name": "MITOBE Kazuhisa"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "This paper discusses on the design issues in an autonomous snow eater robot. Our design purpose is a small and light mechanism for the robot, which helps the snow removing task in residences of snowy areas. Based on the performance evaluation in the prototype robot, screw layout in the sweeper mechanism is modified with the purpose of a low snow pressure during the snow removal task. A height control unit for the screw shaft position is additionally developed in order for the altitude control on the snow covered ground. Improvements in the modified mechanism are shown by drawings and pictures.",
+                        "ja": "This paper discusses on the design issues in an autonomous snow eater robot. Our design purpose is a small and light mechanism for the robot, which helps the snow removing task in residences of snowy areas. Based on the performance evaluation in the prototype robot, screw layout in the sweeper mechanism is modified with the purpose of a low snow pressure during the snow removal task. A height control unit for the screw shaft position is additionally developed in order for the altitude control on the snow covered ground. Improvements in the modified mechanism are shown by drawings and pictures."
+                    },
+                    "publisher": {
+                        "en": "The Japan Society of Mechanical Engineers",
+                        "ja": "一般社団法人 日本機械学会"
+                    },
+                    "publication_date": "2011",
+                    "publication_name": {
+                        "en": "The Proceedings of Design & Systems Conference",
+                        "ja": "設計工学・システム部門講演会講演論文集"
+                    },
+                    "volume": "2011",
+                    "number": "0",
+                    "starting_page": "64",
+                    "ending_page": "67",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1299/jsmedsd.2011.21.64"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1299/jsmedsd.2011.21.64",
+                            "is_downloadable": false
+                        },
+                        {
+                            "@id": "https://ci.nii.ac.jp/naid/110009689661",
+                            "is_downloadable": false,
+                            "label": "url"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0169256/published_papers/16776780",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0169256/published_papers",
+                    "rm:id": "16776780",
+                    "rm:user_id": "1000007316",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:hkZ1lVgY~rHUby37",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-06T17:40:25Z",
+                    "rm:modifier_id": "R000000106",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2023-09-08T00:46:56Z",
+                    "paper_title": {
+                        "en": "A ZMP Controlling Mechanism by Using a Spring Mass System and Its Application to a Powered Passive Walking Robot(Mechanical Systems)",
+                        "ja": "バネ-質点系によるZMP制御およびその準受動歩行ロボットへの応用(機械力学,計測,自動制御)"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "後藤 篤祉"
+                            },
+                            {
+                                "name": "木田 智晃"
+                            },
+                            {
+                                "name": "水戸部 和久"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "GOTO Atsushi"
+                            },
+                            {
+                                "name": "KIDA Tomoaki"
+                            },
+                            {
+                                "name": "MITOBE Kazuhisa"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "On the purpose of achieving a human-like high energy efficient walking robot, many research projects use actuators attached on the waist or ankle joints of passive dynamic walking mechanisms. While on the other hand, we developed another type of semi-passive walking robot that is driven by the harmonic oscillation of a spring-mass system. In the mechanism, spring forces are generated at both sides of the robot by the simple harmonic motion of a spring-mass system which is oscillated by a small sized servo motor. The spring forces control the ZMP (Zero Moment Point) in the lateral direction, in sync with the swing leg, which is generated by the same forces as well. Choosing the gait cycle at the resonance frequency, significant decrease of the motor power and energy consumption is possible. Gyros, micro switches and wire displacement sensors are attached to the robot for measuring the angle of the legs, foot contact and spring extension. Gait cycle, spring forces, ZMP in the lateral direction are analyzed based on the measurements.",
+                        "ja": "On the purpose of achieving a human-like high energy efficient walking robot, many research projects use actuators attached on the waist or ankle joints of passive dynamic walking mechanisms. While on the other hand, we developed another type of semi-passive walking robot that is driven by the harmonic oscillation of a spring-mass system. In the mechanism, spring forces are generated at both sides of the robot by the simple harmonic motion of a spring-mass system which is oscillated by a small sized servo motor. The spring forces control the ZMP (Zero Moment Point) in the lateral direction, in sync with the swing leg, which is generated by the same forces as well. Choosing the gait cycle at the resonance frequency, significant decrease of the motor power and energy consumption is possible. Gyros, micro switches and wire displacement sensors are attached to the robot for measuring the angle of the legs, foot contact and spring extension. Gait cycle, spring forces, ZMP in the lateral direction are analyzed based on the measurements."
+                    },
+                    "publisher": {
+                        "en": "The Japan Society of Mechanical Engineers",
+                        "ja": "一般社団法人 日本機械学会"
+                    },
+                    "publication_date": "2009",
+                    "publication_name": {
+                        "en": "TRANSACTIONS OF THE JAPAN SOCIETY OF MECHANICAL ENGINEERS Series C",
+                        "ja": "日本機械学会論文集 C編"
+                    },
+                    "volume": "75",
+                    "number": "760",
+                    "starting_page": "3253",
+                    "ending_page": "3260",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1299/kikaic.75.3253"
+                        ],
+                        "issn": [
+                            "0387-5024"
+                        ],
+                        "scopus_id": [
+                            "77949367861"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1299/kikaic.75.3253",
+                            "is_downloadable": false
+                        },
+                        {
+                            "@id": "https://ci.nii.ac.jp/naid/110007503924",
+                            "is_downloadable": false,
+                            "label": "url"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0169256/published_papers/31418627",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0169256/published_papers",
+                    "rm:id": "31418627",
+                    "rm:user_id": "1000007316",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "R000000106",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2021-01-07T03:00:32Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2021-10-21T14:58:33Z",
+                    "paper_title": {
+                        "ja": "遺伝的アルゴリズムを用いた筋骨格ロボットアームの軌道生成に関する研究",
+                        "en": "Trajectory generation of a musculoskeletal robot arm using the genetic algorithm"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "kato motomi"
+                            },
+                            {
+                                "name": "Genci Capi"
+                            },
+                            {
+                                "name": "mitobe kazuhisa"
+                            }
+                        ],
+                        "ja": [
+                            {
+                                "name": "加藤 主視"
+                            },
+                            {
+                                "name": "ゲンチ チャピ"
+                            },
+                            {
+                                "name": "水戸部 和久"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "ja": "この論文は遺伝的アルゴリズムを用いて筋骨格ロボットアームに適した制御方法を提示します．筋に粘弾性を持つ筋骨格アームは高剛性のアームのような制御方法では特徴を生かすことが困難です．また遺伝的アルゴリズムを使いアームの制御方法を模索することは，生物が経験と学習能力から手足の動きを模索することに似ています. そこで筋に粘弾性を持つ筋骨格アームの特徴を生かす制御方法を作成し実験を行いその有用性を確認しました．"
+                    },
+                    "publisher": {
+                        "ja": "自動制御連合講演会",
+                        "en": "The Japan Joint Automatic Control Conference"
+                    },
+                    "publication_date": "2008",
+                    "publication_name": {
+                        "ja": "自動制御連合講演会講演論文集",
+                        "en": "Proceedings of the Japan Joint Automatic Control Conference"
+                    },
+                    "volume": "51",
+                    "number": "0",
+                    "starting_page": "94",
+                    "ending_page": "94",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.11511/jacc.51.0.94.0"
+                        ],
+                        "cinii_na_id": [
+                            "130005025279"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.11511/jacc.51.0.94.0",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/130005025279",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0169256/published_papers/31418626",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0169256/published_papers",
+                    "rm:id": "31418626",
+                    "rm:user_id": "1000007316",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "R000000106",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2021-01-07T03:00:32Z",
+                    "rm:modifier_id": "R000000106",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2021-10-25T23:59:58Z",
+                    "paper_title": {
+                        "en": "Development and Control of Snow Feeding Mechanism of a Snow removing Robot",
+                        "ja": "小型除雪ロボットの雪取り込み装置開発および制御"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "佐藤 賢"
+                            },
+                            {
+                                "name": "関口 修"
+                            },
+                            {
+                                "name": "水戸部 和久"
+                            },
+                            {
+                                "name": "山野 光裕"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Sato Ken"
+                            },
+                            {
+                                "name": "Sekiguchi Osamu"
+                            },
+                            {
+                                "name": "Mitobe Kazuhisa"
+                            },
+                            {
+                                "name": "Yamano Mitsuhiro"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "ja": "本研究は小型除雪ロボットの開発に関するものである．ロボットのコンセプトは長時間自律作業させることで放置運転を可能とし，誰でも取り回しが容易となるよう小型・軽量・安価なロボットを開発することである．研究の内容は，基本ユニットとなる雪取り込み機構の開発である．小動力で低速運転しているため円滑に走行，雪の取り込みが行えるように装置を設計・製作している．ロボットはクローラ走行し，雪の取り込みはスクリュによって行っている．"
+                    },
+                    "publisher": {
+                        "en": "The Japan Society for Precision Engineering",
+                        "ja": "公益社団法人 精密工学会"
+                    },
+                    "publication_date": "2008",
+                    "publication_name": {
+                        "en": "Proceedings of JSPE Semestrial Meeting",
+                        "ja": "精密工学会学術講演会講演論文集"
+                    },
+                    "volume": "2008",
+                    "number": "0",
+                    "starting_page": "597",
+                    "ending_page": "598",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.11522/pscjspe.2008A.0.597.0"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.11522/pscjspe.2008A.0.597.0",
+                            "is_downloadable": false
+                        },
+                        {
+                            "@id": "https://ci.nii.ac.jp/naid/130004658729",
+                            "is_downloadable": false,
+                            "label": "url"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0169256/published_papers/31418625",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0169256/published_papers",
+                    "rm:id": "31418625",
+                    "rm:user_id": "1000007316",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "R000000106",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2021-01-07T03:00:32Z",
+                    "rm:modifier_id": "R000000106",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2021-10-25T23:59:58Z",
+                    "paper_title": {
+                        "en": "Snow removing process of a small sized snow removing robot",
+                        "ja": "小型除雪ロボットの雪処理実験"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "関口 修"
+                            },
+                            {
+                                "name": "佐藤 賢"
+                            },
+                            {
+                                "name": "水戸部 和久"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "SEKIGUCHI OSAMU"
+                            },
+                            {
+                                "name": "SATOU KEN"
+                            },
+                            {
+                                "name": "MITOBE KAZUHISA"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "ja": "本研究で開発する小型除雪ロボットは，自律稼動のメリットを活かすための小型低速作業を目指し，低速回転のスクリュー組み合わせにより雪を取り込む構造となっている．雪取り込み作業時にはスクリューに作用する負荷や前方からの抵抗を検出し，動作に反映することで運行制御を行う．また取り込んだ雪の扱いについては圧縮形成機構でブロック状にし，処理する構想をしている．"
+                    },
+                    "publisher": {
+                        "en": "The Japan Joint Automatic Control Conference",
+                        "ja": "自動制御連合講演会"
+                    },
+                    "publication_date": "2008",
+                    "publication_name": {
+                        "en": "Proceedings of the Japan Joint Automatic Control Conference",
+                        "ja": "自動制御連合講演会講演論文集"
+                    },
+                    "volume": "51",
+                    "number": "0",
+                    "starting_page": "110",
+                    "ending_page": "110",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.11511/jacc.51.0.110.0"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.11511/jacc.51.0.110.0",
+                            "is_downloadable": false
+                        },
+                        {
+                            "@id": "https://ci.nii.ac.jp/naid/130005024982",
+                            "is_downloadable": false,
+                            "label": "url"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0169256/published_papers/31418624",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0169256/published_papers",
+                    "rm:id": "31418624",
+                    "rm:user_id": "1000007316",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "R000000106",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2021-01-07T03:00:32Z",
+                    "rm:modifier_id": "R000000106",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2021-10-25T23:59:58Z",
+                    "paper_title": {
+                        "en": "A humanoid robot control system using microcomputer",
+                        "ja": "マイコンを用いたヒューマノイドロボット制御システムの構築"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "落合 章裕"
+                            },
+                            {
+                                "name": "鈴川 裕一"
+                            },
+                            {
+                                "name": "山野 光裕"
+                            },
+                            {
+                                "name": "水戸部 和久"
+                            },
+                            {
+                                "name": "那須 康雄"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Ochiai Akihiro"
+                            },
+                            {
+                                "name": "Suzukawa Yuichi"
+                            },
+                            {
+                                "name": "Yamano Mitsuhiro"
+                            },
+                            {
+                                "name": "Mitobe Kazuhisa"
+                            },
+                            {
+                                "name": "Nasu Yasuo"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "ja": "本研究ではヒューマノイドロボットに応用できる制御システムの構築を行う．小型で安価なdsPICを用いることにより，低コストで制御システムの構築が可能であり，ハードウェアやソフトウェアの追加や変更が容易なものとなる．また，dsPIC間及びdsPICとPC間で通信させることにより処理を分散させることが可能となる．このような特徴を踏まえた上で，ヒューマノイドロボットに最適な構成について論じる．"
+                    },
+                    "publisher": {
+                        "en": "The Japan Joint Automatic Control Conference",
+                        "ja": "自動制御連合講演会"
+                    },
+                    "publication_date": "2008",
+                    "publication_name": {
+                        "en": "Proceedings of the Japan Joint Automatic Control Conference",
+                        "ja": "自動制御連合講演会講演論文集"
+                    },
+                    "volume": "51",
+                    "number": "0",
+                    "starting_page": "95",
+                    "ending_page": "95",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.11511/jacc.51.0.95.0"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.11511/jacc.51.0.95.0",
+                            "is_downloadable": false
+                        },
+                        {
+                            "@id": "https://ci.nii.ac.jp/naid/130005025280",
+                            "is_downloadable": false,
+                            "label": "url"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0169256/published_papers/31418623",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0169256/published_papers",
+                    "rm:id": "31418623",
+                    "rm:user_id": "1000007316",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "R000000106",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2021-01-07T03:00:32Z",
+                    "rm:modifier_id": "R000000106",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2021-10-25T23:59:58Z",
+                    "paper_title": {
+                        "en": "A Semi-Passive Walking Robot Exploiting Harmonic Oscillation of a Spring-Mass System",
+                        "ja": "バネ質点系の振動を利用した準受動歩行ロボット"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "木田 智晃"
+                            },
+                            {
+                                "name": "後藤 篤祉"
+                            },
+                            {
+                                "name": "福田 彬人"
+                            },
+                            {
+                                "name": "水戸部 和久"
+                            },
+                            {
+                                "name": "山野 光裕"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Kida Tomoaki"
+                            },
+                            {
+                                "name": "Goto Atsushi"
+                            },
+                            {
+                                "name": "Fukuda Akihito"
+                            },
+                            {
+                                "name": "Mitobe Kazuhisa"
+                            },
+                            {
+                                "name": "Yamano Mitsuhiro"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "ja": "2足歩行ロボットの問題点として，人間の歩行と比較してエネルギー効率が悪く，動作が振動的になることが挙げられる．これらの問題の解決策として，受動運動を利用した歩行ロボットが注目されている．本研究では水平面上での継続した歩行の実現のため，バネ質点系の振動によってエネルギーを与える準受動歩行ロボットを開発し，歩行実験と力学解析を行うことで歩行動作の様子を解明する．"
+                    },
+                    "publisher": {
+                        "en": "The Japan Society for Precision Engineering",
+                        "ja": "公益社団法人 精密工学会"
+                    },
+                    "publication_date": "2008",
+                    "publication_name": {
+                        "en": "Proceedings of JSPE Semestrial Meeting",
+                        "ja": "精密工学会学術講演会講演論文集"
+                    },
+                    "volume": "2008",
+                    "number": "0",
+                    "starting_page": "615",
+                    "ending_page": "616",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.11522/pscjspe.2008A.0.615.0"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.11522/pscjspe.2008A.0.615.0",
+                            "is_downloadable": false
+                        },
+                        {
+                            "@id": "https://ci.nii.ac.jp/naid/130004658739",
+                            "is_downloadable": false,
+                            "label": "url"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0169256/published_papers/31418622",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0169256/published_papers",
+                    "rm:id": "31418622",
+                    "rm:user_id": "1000007316",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "R000000106",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2021-01-07T03:00:32Z",
+                    "rm:modifier_id": "R000000106",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2021-10-25T23:59:58Z",
+                    "paper_title": {
+                        "en": "A semi-passive walking robot using the spring-mass system for controlling ZMP.",
+                        "ja": "ばね質点系の振動によりZMPを制御する準受動歩行ロボット"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "後藤 篤祉"
+                            },
+                            {
+                                "name": "木田 智晃"
+                            },
+                            {
+                                "name": "水戸部 和久"
+                            },
+                            {
+                                "name": "山野 光裕"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Goto Atsushi"
+                            },
+                            {
+                                "name": "Kida Tomoaki"
+                            },
+                            {
+                                "name": "mitobe kazuhisa"
+                            },
+                            {
+                                "name": "Yamano Mitsuhiro"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "ja": "受動歩行ロボットに小型のアクチュエータを搭載した準受動歩行ロボットは、歩行ロボットのエネルギー効率の改善、運動制御の観点から研究が行われている。本研究では、水平面を継続歩行させるためのエネルギー源として、ばね‐質点系の振動を利用した準受動歩行ロボットを開発し、ZMPなどの歩行中のパラメータの解析をすることで、歩行原理の解明を行う。またおもりの小型化を行い、より効率的な歩行を実現する。"
+                    },
+                    "publisher": {
+                        "en": "The Japan Joint Automatic Control Conference",
+                        "ja": "自動制御連合講演会"
+                    },
+                    "publication_date": "2008",
+                    "publication_name": {
+                        "en": "Proceedings of the Japan Joint Automatic Control Conference",
+                        "ja": "自動制御連合講演会講演論文集"
+                    },
+                    "volume": "51",
+                    "number": "0",
+                    "starting_page": "91",
+                    "ending_page": "91",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.11511/jacc.51.0.91.0"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.11511/jacc.51.0.91.0",
+                            "is_downloadable": false
+                        },
+                        {
+                            "@id": "https://ci.nii.ac.jp/naid/130005025276",
+                            "is_downloadable": false,
+                            "label": "url"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0169256/association_memberships",
+            "@type": "association_memberships",
+            "@reverse": "https://api.researchmap.jp/read0169256",
+            "total_items": 6,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0169256/association_memberships/11196933",
+                    "@type": "association_memberships",
+                    "@reverse": "https://api.researchmap.jp/read0169256/association_memberships",
+                    "rm:id": "11196933",
+                    "rm:user_id": "1000007316",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:hkZ1lVgY~rHUby37",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-06T17:40:25Z",
+                    "rm:modifier_id": "R000000106",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2021-10-25T23:59:33Z",
+                    "academic_society_name": {
+                        "ja": "IEEE"
+                    },
+                    "from_date": "1992-04",
+                    "to_date": "9999"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0169256/association_memberships/11196932",
+                    "@type": "association_memberships",
+                    "@reverse": "https://api.researchmap.jp/read0169256/association_memberships",
+                    "rm:id": "11196932",
+                    "rm:user_id": "1000007316",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:hkZ1lVgY~rHUby37",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-06T17:40:25Z",
+                    "rm:modifier_id": "R000000106",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2021-10-25T23:59:33Z",
+                    "academic_society_name": {
+                        "ja": "精密工学会"
+                    },
+                    "from_date": "1992-04",
+                    "to_date": "9999"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0169256/association_memberships/11196931",
+                    "@type": "association_memberships",
+                    "@reverse": "https://api.researchmap.jp/read0169256/association_memberships",
+                    "rm:id": "11196931",
+                    "rm:user_id": "1000007316",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:hkZ1lVgY~rHUby37",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-06T17:40:25Z",
+                    "rm:modifier_id": "R000000106",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2021-10-25T23:59:33Z",
+                    "academic_society_name": {
+                        "ja": "日本機械学会"
+                    },
+                    "from_date": "1991-04",
+                    "to_date": "9999"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0169256/association_memberships/11196930",
+                    "@type": "association_memberships",
+                    "@reverse": "https://api.researchmap.jp/read0169256/association_memberships",
+                    "rm:id": "11196930",
+                    "rm:user_id": "1000007316",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:hkZ1lVgY~rHUby37",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-06T17:40:25Z",
+                    "rm:modifier_id": "R000000106",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2021-10-25T23:59:33Z",
+                    "academic_society_name": {
+                        "ja": "日本ロボット学会"
+                    },
+                    "from_date": "1990-04",
+                    "to_date": "9999"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0169256/association_memberships/11196928",
+                    "@type": "association_memberships",
+                    "@reverse": "https://api.researchmap.jp/read0169256/association_memberships",
+                    "rm:id": "11196928",
+                    "rm:user_id": "1000007316",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:hkZ1lVgY~rHUby37",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-06T17:40:25Z",
+                    "rm:modifier_id": "R000000106",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2021-10-25T23:59:33Z",
+                    "academic_society_name": {
+                        "ja": "計測自動制御学会"
+                    },
+                    "from_date": "1988-04",
+                    "to_date": "9999"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0169256/association_memberships/11196929",
+                    "@type": "association_memberships",
+                    "@reverse": "https://api.researchmap.jp/read0169256/association_memberships",
+                    "rm:id": "11196929",
+                    "rm:user_id": "1000007316",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:hkZ1lVgY~rHUby37",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-06T17:40:25Z",
+                    "rm:modifier_id": "client_id:hkZ1lVgY~rHUby37",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-01-06T17:40:25Z",
+                    "academic_society_name": {
+                        "ja": "システム制御情報学会"
+                    }
+                }
+            ]
+        }
+    ]
+}

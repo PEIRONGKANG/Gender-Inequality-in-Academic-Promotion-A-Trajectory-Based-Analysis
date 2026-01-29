@@ -1,0 +1,3603 @@
+{
+    "@context": "https://api.researchmap.jp/researcher.jsonld",
+    "@id": "https://api.researchmap.jp/read0001491?format=json",
+    "@type": "researchers",
+    "rm:user_id": "0000010293",
+    "rm:creator_id": "0000010293",
+    "rm:creator_type": "myself",
+    "rm:created": "2010-04-04T15:00:00Z",
+    "rm:modifier_id": "0000010293",
+    "rm:modifier_type": "myself",
+    "rm:modified": "2024-11-30T08:02:31Z",
+    "permalink": "read0001491",
+    "family_name": {
+        "ja": "高橋",
+        "ja-Kana": "タカハシ",
+        "en": "Takahashi"
+    },
+    "given_name": {
+        "ja": "元秀",
+        "ja-Kana": "モトヒデ",
+        "en": "Motohide"
+    },
+    "display_name_kana": "disclosed",
+    "nickname": {
+        "en": [
+            "taka"
+        ]
+    },
+    "display_nickname": "disclosed",
+    "display_image": "disclosed",
+    "display_contact_point": "disclosed",
+    "affiliations": [
+        {
+            "affiliation": {
+                "ja": "熊本保健科学大学",
+                "en": "Kumamoto Health Science University"
+            },
+            "section": {
+                "ja": "生物毒素・抗毒素共同研究講座",
+                "en": "Toxin & Antitoxins Research Laboratory"
+            },
+            "job": {
+                "ja": "教授",
+                "en": "Professor"
+            },
+            "job_title": {
+                "ja": "特命教授"
+            },
+            "display_affiliation": "disclosed",
+            "display_job": "disclosed",
+            "rm:institution_code": "2909000000"
+        }
+    ],
+    "display_profile": "disclosed",
+    "display_url": "disclosed",
+    "identifiers": {
+        "j_global_id": [
+            "200901072150468450"
+        ]
+    },
+    "rm:erad_id_verified": false,
+    "rm:orc_id_verified": false,
+    "display_erad_id": "closed",
+    "display_orc_id": "closed",
+    "display_researcher_id": "disclosed",
+    "display_j_global_id": "disclosed",
+    "see_also": [
+        {
+            "label": "j_global",
+            "@id": "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=200901072150468450"
+        }
+    ],
+    "@graph": [
+        {
+            "@id": "https://api.researchmap.jp/read0001491/research_areas",
+            "@type": "research_areas",
+            "@reverse": "https://api.researchmap.jp/read0001491",
+            "total_items": 1,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0001491/research_areas/48135776",
+                    "@type": "research_areas",
+                    "@reverse": "https://api.researchmap.jp/read0001491/research_areas",
+                    "rm:id": "48135776",
+                    "rm:user_id": "0000010293",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000010293",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2024-10-08T03:02:13Z",
+                    "rm:modifier_id": "0000010293",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2024-10-08T03:02:13Z",
+                    "discipline_number": "A189",
+                    "item_number": "A49050",
+                    "discipline": {
+                        "ja": "ライフサイエンス",
+                        "en": "Life sciences"
+                    },
+                    "research_field": {
+                        "ja": "細菌学",
+                        "en": "Bacteriology"
+                    }
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0001491/published_papers",
+            "@type": "published_papers",
+            "@reverse": "https://api.researchmap.jp/read0001491",
+            "total_items": 60,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0001491/published_papers/48135811",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0001491/published_papers",
+                    "rm:id": "48135811",
+                    "rm:user_id": "0000010293",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000010293",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2024-10-08T03:07:27Z",
+                    "rm:modifier_id": "0000010293",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2024-10-08T03:07:27Z",
+                    "paper_title": {
+                        "en": "Comparative pathogenomic analysis reveals a highly tetanus toxin-producing clade of Clostridium tetani isolates in Japan."
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Chie Shitada"
+                            },
+                            {
+                                "name": "Tsuyoshi Sekizuka"
+                            },
+                            {
+                                "name": "Akihiko Yamamoto"
+                            },
+                            {
+                                "name": "Chiyomi Sakamoto"
+                            },
+                            {
+                                "name": "Masanori Hashino"
+                            },
+                            {
+                                "name": "Makoto Kuroda"
+                            },
+                            {
+                                "name": "Motohide Takahashi"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "C. tetani is a spore-forming, anaerobic bacterium that produces a toxin causing muscle stiffness and paralysis. Tetanus is preventable with the toxoid vaccine, but it remains a significant public health threat in regions with low vaccine coverage. However, there are relatively few isolates and limited genomic information available worldwide. In Japan, about 100 cases are reported each year, but there have been no nationwide surveys of isolates, and no genomic information from Japanese isolates has been published. In our study, we analyzed the genomes of 151 strains from a limited survey of soil in Kumamoto, Japan. Our findings revealed a high degree of genetic diversity, and we also identified a subset of strains that produced significantly more toxin, which provides new insights into the pathogenesis of tetanus. Our findings lay the foundation for future studies to investigate the distribution and evolution of C. tetani in Japan and neighboring countries."
+                    },
+                    "publication_date": "2023-12-20",
+                    "publication_name": {
+                        "en": "mSphere"
+                    },
+                    "volume": "8",
+                    "number": "6",
+                    "starting_page": "e0036923",
+                    "languages": [
+                        "eng"
+                    ],
+                    "published_paper_type": "scientific_journal",
+                    "is_international_journal": true,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1128/msphere.00369-23"
+                        ],
+                        "pm_id": [
+                            "38009947"
+                        ],
+                        "pmc_id": [
+                            "PMC10732020"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1128/msphere.00369-23",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "pubmed",
+                            "@id": "https://www.ncbi.nlm.nih.gov/pubmed/38009947",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "pmc",
+                            "@id": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10732020",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0001491/published_papers/48135812",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0001491/published_papers",
+                    "rm:id": "48135812",
+                    "rm:user_id": "0000010293",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000010293",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2024-10-08T03:07:27Z",
+                    "rm:modifier_id": "0000010293",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2024-10-08T03:07:27Z",
+                    "paper_title": {
+                        "en": "Clinical Characteristics of Corynebacterium ulcerans Infection, Japan."
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Akihiko Yamamoto"
+                            },
+                            {
+                                "name": "Toru Hifumi"
+                            },
+                            {
+                                "name": "Manabu Ato"
+                            },
+                            {
+                                "name": "Masaaki Iwaki"
+                            },
+                            {
+                                "name": "Mitsutoshi Senoh"
+                            },
+                            {
+                                "name": "Akio Hatanaka"
+                            },
+                            {
+                                "name": "Shinichi Nureki"
+                            },
+                            {
+                                "name": "Yoshihiro Noguchi"
+                            },
+                            {
+                                "name": "Tomoko Hirose"
+                            },
+                            {
+                                "name": "Yukihiro Yoshimura"
+                            },
+                            {
+                                "name": "Takaaki Urakawa"
+                            },
+                            {
+                                "name": "Shiro Hori"
+                            },
+                            {
+                                "name": "Hiroto Nakada"
+                            },
+                            {
+                                "name": "Tomomasa Terada"
+                            },
+                            {
+                                "name": "Tomoko Ishifuji"
+                            },
+                            {
+                                "name": "Hisayo Matsuyama"
+                            },
+                            {
+                                "name": "Takahiro Kinebuchi"
+                            },
+                            {
+                                "name": "Atsuhito Fukushima"
+                            },
+                            {
+                                "name": "Koji Wake"
+                            },
+                            {
+                                "name": "Ken Otsuji"
+                            },
+                            {
+                                "name": "Takeru Endo"
+                            },
+                            {
+                                "name": "Hirokazu Toyoshima"
+                            },
+                            {
+                                "name": "Ikkoh Yasuda"
+                            },
+                            {
+                                "name": "Takeshi Tanaka"
+                            },
+                            {
+                                "name": "Naoki Takahashi"
+                            },
+                            {
+                                "name": "Kensaku Okada"
+                            },
+                            {
+                                "name": "Toshimasa Hayashi"
+                            },
+                            {
+                                "name": "Taizo Kusano"
+                            },
+                            {
+                                "name": "Minami Koriyama"
+                            },
+                            {
+                                "name": "Norio Otani"
+                            },
+                            {
+                                "name": "Motohide Takahashi"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "Corynebacterium ulcerans is a closely related bacterium to the diphtheria bacterium C. diphtheriae, and some C. ulcerans strains produce toxins that are similar to diphtheria toxin. C. ulcerans is widely distributed in the environment and is considered one of the most harmful pathogens to livestock and wildlife. Infection with C. ulcerans can cause respiratory or nonrespiratory symptoms in patients. Recently, the microorganism has been increasingly recognized as an emerging zoonotic agent of diphtheria-like illness in Japan. To clarify the overall clinical characteristics, treatment-related factors, and outcomes of C. ulcerans infection, we analyzed 34 cases of C. ulcerans that occurred in Japan during 2001-2020. During 2010-2020, the incidence rate of C. ulcerans infection increased markedly, and the overall mortality rate was 5.9%. It is recommended that adults be vaccinated with diphtheria toxoid vaccine to prevent the spread of this infection."
+                    },
+                    "publication_date": "2023-08",
+                    "publication_name": {
+                        "en": "Emerging infectious diseases"
+                    },
+                    "volume": "29",
+                    "number": "8",
+                    "starting_page": "1505",
+                    "ending_page": "15",
+                    "languages": [
+                        "eng"
+                    ],
+                    "published_paper_type": "scientific_journal",
+                    "is_international_journal": true,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.3201/eid2908.220058"
+                        ],
+                        "pm_id": [
+                            "37486266"
+                        ],
+                        "pmc_id": [
+                            "PMC10370844"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.3201/eid2908.220058",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "pubmed",
+                            "@id": "https://www.ncbi.nlm.nih.gov/pubmed/37486266",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "pmc",
+                            "@id": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10370844",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0001491/published_papers/48135813",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0001491/published_papers",
+                    "rm:id": "48135813",
+                    "rm:user_id": "0000010293",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000010293",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2024-10-08T03:07:27Z",
+                    "rm:modifier_id": "0000010293",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2024-10-08T03:07:27Z",
+                    "paper_title": {
+                        "en": "Rhabdophis tigrinus (Yamakagashi) Bites in Japan Over the Last 50 Years: A Retrospective Survey."
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Toru Hifumi"
+                            },
+                            {
+                                "name": "Atsushi Sakai"
+                            },
+                            {
+                                "name": "Akihiko Yamamoto"
+                            },
+                            {
+                                "name": "Kazunori Morokuma"
+                            },
+                            {
+                                "name": "Norio Otani"
+                            },
+                            {
+                                "name": "Motohide Takahashi"
+                            },
+                            {
+                                "name": "Manabu Ato"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "Introduction:Rhabdophis snakes, which include 27 species, are rear-fanged venomous snakes that are widely distributed from India to East Asia and Russia. Severe envenomation by R. tigrinus (Yamakagashi snake) in Japan and R. subminiatus in Southeast Asia has been reported. The epidemiology of R. tigrinus bites, such as geographical features, the incidence, and changes in the number of bites over time have not been comprehensively examined. Hence, we intended to clarify the epidemiological features of R. tigrinus bites through a careful review of scientific data over the last 50 years in Japan. Methods: Patient records of R. tigrinus bites between 1971 and 2020 at the Japan Snake Institute were examined retrospectively. The following were ascertained: patient characteristics, clinical symptoms, laboratory data, treatment-related factors, and hospital mortality. These variables were compared in the antivenom and the without-antivenom groups. Results: Over the 50-year study period, 43 R. tigrinus bites, including five fatal cases, were encountered. Severe cases of R. tigrinus bites have been treated with antivenom since 1985; however, fatalities occurred in 2006 and 2020. R. tigrinus bite cases have been well-distributed in the western part of Japan since 2000. The mortality rate in the antivenom group was significantly lower in the patient group that was not administered the antivenom (0 vs. 23.8%, p = 0.048). Conclusion: This study clarified the epidemiology of R. tigrinus bites in Japan over a 50-year period. Almost all severe cases of R. tigrinus bites have been treated with the antivenom in the current situation, and fatalities occurred in cases not treated with the antivenom. It is important to diagnose R. tigrinus bites in the early phase of the clinical course. The antivenom, the definitive treatment for R. tigrinus bites, is an unapproved drug. Hence, approval needs to be obtained for the drug."
+                    },
+                    "publication_date": "2021",
+                    "publication_name": {
+                        "en": "Frontiers in public health"
+                    },
+                    "volume": "9",
+                    "starting_page": "775458",
+                    "ending_page": "775458",
+                    "languages": [
+                        "eng"
+                    ],
+                    "published_paper_type": "scientific_journal",
+                    "is_international_journal": true,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.3389/fpubh.2021.775458"
+                        ],
+                        "pm_id": [
+                            "35083190"
+                        ],
+                        "pmc_id": [
+                            "PMC8785397"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.3389/fpubh.2021.775458",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "pubmed",
+                            "@id": "https://www.ncbi.nlm.nih.gov/pubmed/35083190",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "pmc",
+                            "@id": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8785397",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0001491/published_papers/48135814",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0001491/published_papers",
+                    "rm:id": "48135814",
+                    "rm:user_id": "0000010293",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000010293",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2024-10-08T03:07:27Z",
+                    "rm:modifier_id": "0000010293",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2024-10-08T03:07:27Z",
+                    "paper_title": {
+                        "en": "Freeze-dried equine-derived redback spider antivenom: a local irritation study by intramuscular injection in rabbits and a repeated-dose toxicity study in rats."
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Akihiko Yamamoto"
+                            },
+                            {
+                                "name": "Satomi Harano"
+                            },
+                            {
+                                "name": "Noriko Shinya"
+                            },
+                            {
+                                "name": "Ayataka Nagano"
+                            },
+                            {
+                                "name": "Yoshinobu Miyatsu"
+                            },
+                            {
+                                "name": "Kyouko Sawabe"
+                            },
+                            {
+                                "name": "Takayuki Matsumura"
+                            },
+                            {
+                                "name": "Manabu Ato"
+                            },
+                            {
+                                "name": "Motohide Takahashi"
+                            },
+                            {
+                                "name": "Hisashi Taki"
+                            },
+                            {
+                                "name": "Toru Hifumi"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "The redback spider (Latrodectus hasseltii) is nonindigenous to Japan but has now spread throughout the country. Bites to humans are rare but can be fatal. We prepared freeze-dried redback spider antivenom for therapeutic use against bites in Japan by immunization of horse plasma. This study included two nonclinical tests of the antivenom: a local irritation study involving a single intramuscular administration to rabbits (with injections of physiological saline and an existing freeze-dried diphtheria antitoxin as control and comparison substances, respectively) and a 2-week repeated intermittent intravenous-dose toxicity study in rats. The irritation study showed the antivenom's irritancy to be comparable with that of the saline and the existing antitoxin preparations under the test conditions. In a repeated-dose toxicity study, no toxicity change was found in male or female rats, and the no-observed-adverse-effect level (NOAEL) was judged to be a dose volume of 20 mL/kg (1082 units/kg antivenom activity) in both male and female rats. In addition, there was no toxicological difference between proteinaceous diphtheria antitoxin and redback spider antivenom prepared to have the same protein content and the same additive composition. Based on these findings, we will further advance our research towards clinical application of the redback spider antivenom. This research was supported by the Research Program on Emerging and Re-emerging Infectious Disease of the Japan Agency for Medical Research and Development."
+                    },
+                    "publication_date": "2018-04",
+                    "publication_name": {
+                        "en": "Journal of toxicologic pathology"
+                    },
+                    "volume": "31",
+                    "number": "2",
+                    "starting_page": "105",
+                    "ending_page": "112",
+                    "languages": [
+                        "eng"
+                    ],
+                    "published_paper_type": "scientific_journal",
+                    "is_international_journal": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1293/tox.2017-0053"
+                        ],
+                        "pm_id": [
+                            "29749999"
+                        ],
+                        "pmc_id": [
+                            "PMC5938211"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1293/tox.2017-0053",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "pubmed",
+                            "@id": "https://www.ncbi.nlm.nih.gov/pubmed/29749999",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "pmc",
+                            "@id": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5938211",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0001491/published_papers/48135815",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0001491/published_papers",
+                    "rm:id": "48135815",
+                    "rm:user_id": "0000010293",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000010293",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2024-10-08T03:07:27Z",
+                    "rm:modifier_id": "0000010293",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2024-10-08T03:07:27Z",
+                    "paper_title": {
+                        "en": "Venom and Antivenom of the Redback Spider (Latrodectus hasseltii) in Japan. Part I. Venom Extraction, Preparation, and Laboratory Testing."
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Takayuki Matsumura"
+                            },
+                            {
+                                "name": "Reona Mashiko"
+                            },
+                            {
+                                "name": "Tomomi Sato"
+                            },
+                            {
+                                "name": "Kentaro Itokawa"
+                            },
+                            {
+                                "name": "Yoshihide Maekawa"
+                            },
+                            {
+                                "name": "Kohei Ogawa"
+                            },
+                            {
+                                "name": "Haruhiko Isawa"
+                            },
+                            {
+                                "name": "Akihiko Yamamoto"
+                            },
+                            {
+                                "name": "Shigemi Mori"
+                            },
+                            {
+                                "name": "Akira Horita"
+                            },
+                            {
+                                "name": "Akihiro Ginnaga"
+                            },
+                            {
+                                "name": "Yoshinobu Miyatsu"
+                            },
+                            {
+                                "name": "Motohide Takahashi"
+                            },
+                            {
+                                "name": "Hisashi Taki"
+                            },
+                            {
+                                "name": "Toru Hifumi"
+                            },
+                            {
+                                "name": "Kyoko Sawabe"
+                            },
+                            {
+                                "name": "Manabu Ato"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "The redback spider (Latrodectus hasseltii Thorell) reportedly invaded Japan in September 1995. To date, 84 redback spider bite cases have been reported; 7 of these cases employed the antivenom. Antivenom has been imported from Australia in the past, but because of restrictions on exportation it was evident that nearly all of the antivenom present in Japan would expire during 2014. In 2014, a plan was proposed to experimentally manufacture and stockpile a horse antiserum for ourselves, using redback spiders indigenous to Japan. A total of 11,403 female spiders were captured alive: 1,217 from the vicinity of Nishinomiya City, Hyogo prefecture, and 10,186 from Osaka prefecture. Of these, 10,007 females were dissected, and the venom was extracted from the venom glands of individuals and subjected to crude purification to yield 4 lots, of which the majority was α-latrotoxin. Among them, a large amount of single lots with an estimated protein content of 236 mg is subsequently scheduled to be used for immunizing horses. We also determined lethal toxicity of the venom (LD50: 9.17 μg per mouse), and established the assay for the determination of an anti-lethal titer of antivenom in mice."
+                    },
+                    "publication_date": "2018-03-22",
+                    "publication_name": {
+                        "en": "Japanese journal of infectious diseases"
+                    },
+                    "volume": "71",
+                    "number": "2",
+                    "starting_page": "116",
+                    "ending_page": "121",
+                    "languages": [
+                        "eng"
+                    ],
+                    "published_paper_type": "scientific_journal",
+                    "is_international_journal": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.7883/yoken.JJID.2017.291"
+                        ],
+                        "pm_id": [
+                            "29491237"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.7883/yoken.JJID.2017.291",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "pubmed",
+                            "@id": "https://www.ncbi.nlm.nih.gov/pubmed/29491237",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0001491/published_papers/48135816",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0001491/published_papers",
+                    "rm:id": "48135816",
+                    "rm:user_id": "0000010293",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000010293",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2024-10-08T03:07:27Z",
+                    "rm:modifier_id": "0000010293",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2024-10-08T03:07:27Z",
+                    "paper_title": {
+                        "en": "Combined therapy with gas gangrene antitoxin and recombinant human soluble thrombomodulin for Clostridium perfringens sepsis in a rat model."
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Toru Hifumi"
+                            },
+                            {
+                                "name": "Daisuke Nakano"
+                            },
+                            {
+                                "name": "Joe Chiba"
+                            },
+                            {
+                                "name": "Motohide Takahashi"
+                            },
+                            {
+                                "name": "Akihiko Yamamoto"
+                            },
+                            {
+                                "name": "Yoshihide Fujisawa"
+                            },
+                            {
+                                "name": "Kenya Kawakita"
+                            },
+                            {
+                                "name": "Yasuhiro Kuroda"
+                            },
+                            {
+                                "name": "Akira Nishiyama"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "Cases of Clostridium perfringens septicemia, such as liver abscess, often develop a rapidly progressive intravascular hemolysis and coagulation; the mortality rate with current standard care including antibiotics and surgery is high. Herein, we firstly investigated the effects of gas gangrene antitoxin (GGA) (antitoxin against C. perfringens) and recombinant human soluble thrombomodulin (rTM) on the hemolysis, coagulation status, inflammatory process, and mortality in α-toxin-treated rats. Male 11-week-old Sprague Dawley rats were randomly divided into five groups: control group, α-toxin group, GGA group, rTM group, and combined GGA and rTM (combination group). After α-toxin injection, mortality and platelet counts, and hemolysis were observed for 6 h. The fibrin/fibrinogen degradation products (FDP), and plasma high-mobility group box 1 (HMGB1) were also measured at 6 h. The combination group demonstrated 100% survival compared with 50% survival in the α-toxin group and demonstrated significantly improved hemolysis, platelet counts, and lactate levels compared with those in the α-toxin group (p < .01). The FDP and HMGB1 levels in the combination therapy group were significantly lower than those in the α-toxin group (p < .05). Combination therapy with GGA and rTM administration is applicable as adjunct therapy for fatal C. perfringens sepsis."
+                    },
+                    "publication_date": "2018-01",
+                    "publication_name": {
+                        "en": "Toxicon : official journal of the International Society on Toxinology"
+                    },
+                    "volume": "141",
+                    "starting_page": "112",
+                    "ending_page": "117",
+                    "languages": [
+                        "eng"
+                    ],
+                    "published_paper_type": "scientific_journal",
+                    "is_international_journal": true,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1016/j.toxicon.2017.12.043"
+                        ],
+                        "pm_id": [
+                            "29246581"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1016/j.toxicon.2017.12.043",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "pubmed",
+                            "@id": "https://www.ncbi.nlm.nih.gov/pubmed/29246581",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0001491/published_papers/48135817",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0001491/published_papers",
+                    "rm:id": "48135817",
+                    "rm:user_id": "0000010293",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000010293",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2024-10-08T03:07:27Z",
+                    "rm:modifier_id": "0000010293",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2024-10-08T03:07:27Z",
+                    "paper_title": {
+                        "en": "Venom and Antivenom of the Redback Spider (Latrodectus hasseltii) in Japan. Part II. Experimental Production of Equine Antivenom against the Redback Spider."
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Shigemi Mori"
+                            },
+                            {
+                                "name": "Akira Horita"
+                            },
+                            {
+                                "name": "Akihiro Ginnaga"
+                            },
+                            {
+                                "name": "Yoshinobu Miyatsu"
+                            },
+                            {
+                                "name": "Kyoko Sawabe"
+                            },
+                            {
+                                "name": "Takayuki Matsumura"
+                            },
+                            {
+                                "name": "Manabu Ato"
+                            },
+                            {
+                                "name": "Akihiko Yamamoto"
+                            },
+                            {
+                                "name": "Keigo Shibayama"
+                            },
+                            {
+                                "name": "Satoru Arai"
+                            },
+                            {
+                                "name": "Takuya Yamagishi"
+                            },
+                            {
+                                "name": "Motohide Takahashi"
+                            },
+                            {
+                                "name": "Hisashi Taki"
+                            },
+                            {
+                                "name": "Toru Hifumi"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "This is the first report on large-scale experimental production of an equine antivenom against the redback spider (Latrodectus hasseltii) lived in Japan. We captured 10,000 redback spiders in Japan and prepared the toxoids of crude venom extract, mixed the toxoids with a mineral oil adjuvant, and immunized healthy horses repeatedly over a period of several weeks. Thereafter, we separated the horse plasma, purified the γ-globulin fraction, and stocked it as a purified antivenom concentrate. Consequently, we manufactured approximately 6,500 vials of a single-dose freeze-dried test lot from a portion of the purified γ-globulin fraction, equivalent to the extract derived from 520 spiders. This test lot had an antitoxin titer comparable to that of a similar drug commercially available overseas (a liquid preparation), and the other quality met all quality reference specifications based on the Minimum Requirements for Biological Products and other guidelines relevant to existing antivenom drug products in Japan."
+                    },
+                    "publication_date": "2017-11-22",
+                    "publication_name": {
+                        "en": "Japanese journal of infectious diseases"
+                    },
+                    "volume": "70",
+                    "number": "6",
+                    "starting_page": "635",
+                    "ending_page": "641",
+                    "languages": [
+                        "eng"
+                    ],
+                    "published_paper_type": "scientific_journal",
+                    "is_international_journal": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.7883/yoken.JJID.2017.125"
+                        ],
+                        "pm_id": [
+                            "29093316"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.7883/yoken.JJID.2017.125",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "pubmed",
+                            "@id": "https://www.ncbi.nlm.nih.gov/pubmed/29093316",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0001491/published_papers/48135818",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0001491/published_papers",
+                    "rm:id": "48135818",
+                    "rm:user_id": "0000010293",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000010293",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2024-10-08T03:07:27Z",
+                    "rm:modifier_id": "0000010293",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2024-10-08T03:07:27Z",
+                    "paper_title": {
+                        "en": "Clinical Study of New Tetravalent (Type A, B, E, and F) Botulinum Toxoid Vaccine Derived from M Toxin in Japan."
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Yasushi Torii"
+                            },
+                            {
+                                "name": "Nakaba Sugimoto"
+                            },
+                            {
+                                "name": "Tomoko Kohda"
+                            },
+                            {
+                                "name": "Shunji Kozaki"
+                            },
+                            {
+                                "name": "Kazunori Morokuma"
+                            },
+                            {
+                                "name": "Yoshikane Horikawa"
+                            },
+                            {
+                                "name": "Akihiro Ginnaga"
+                            },
+                            {
+                                "name": "Akihiko Yamamoto"
+                            },
+                            {
+                                "name": "Motohide Takahashi"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "Botulinum toxin is the most poisonous substance known, and is believed to be a highly lethal as a biological weapon; researchers of the toxin are exposed to this hazard. Botulinum toxoid vaccines have been produced and used in Japan. However, since clinical studies involving these vaccines were conducted before establishment of the Ethical Guidelines for Clinical Research in Japan, their immunogenicity and safety were not systematically assessed. In this study, we produced a new tetravalent (type A, B, E, and F) botulinum toxoid vaccine, the first ever to be derived from M toxin, and conducted quality control tests with reference to the Minimum Requirements in Japan for adsorbed tetanus toxoid vaccine. Subsequently, a clinical study using the new vaccine in 48 healthy adult volunteers was conducted according to the guidelines in Japan. No clinically serious adverse event was noted. Neutralizing antibody titers for each type of toxin in the participants' sera, 1 month after the 4th injection were more than 0.25 IU/mL, indicating sufficient protection. This study demonstrated that the vaccine has marked immunogenicity and is safe for use in humans."
+                    },
+                    "publication_date": "2017-07-24",
+                    "publication_name": {
+                        "en": "Japanese journal of infectious diseases"
+                    },
+                    "volume": "70",
+                    "number": "4",
+                    "starting_page": "423",
+                    "ending_page": "429",
+                    "languages": [
+                        "eng"
+                    ],
+                    "published_paper_type": "scientific_journal",
+                    "is_international_journal": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.7883/yoken.JJID.2016.360"
+                        ],
+                        "pm_id": [
+                            "28250257"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.7883/yoken.JJID.2016.360",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "pubmed",
+                            "@id": "https://www.ncbi.nlm.nih.gov/pubmed/28250257",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0001491/published_papers/48135819",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0001491/published_papers",
+                    "rm:id": "48135819",
+                    "rm:user_id": "0000010293",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000010293",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2024-10-08T03:07:28Z",
+                    "rm:modifier_id": "0000010293",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2024-10-08T03:07:28Z",
+                    "paper_title": {
+                        "en": "Toxigenic Corynebacterium ulcerans isolated from a hunting dog and its diphtheria toxin antibody titer."
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Chihiro Katsukawa"
+                            },
+                            {
+                                "name": "Takako Komiya"
+                            },
+                            {
+                                "name": "Kaoru Umeda"
+                            },
+                            {
+                                "name": "Minami Goto"
+                            },
+                            {
+                                "name": "Tokuma Yanai"
+                            },
+                            {
+                                "name": "Motohide Takahashi"
+                            },
+                            {
+                                "name": "Akihiko Yamamoto"
+                            },
+                            {
+                                "name": "Masaaki Iwaki"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "Toxigenic Corynebacterium ulcerans is a zoonotic pathogen that produces diphtheria toxin and causes a diphtheria-like illness in humans. The organism is known to infect and circulate among dogs, which can then transmit it to humans. Furthermore, previous studies have found that C. ulcerans is carried by wild animals, including game animals. In the present study, we tested hunting and companion dogs for the presence of toxigenic C. ulcerans and succeeded in isolating the bacterium from a hunting dog. Moreover, several hunting dogs had serum diphtheria antitoxin titers that were higher than the titers required for protection in humans, suggesting a history of exposure to toxigenic Corynebacterium strains. Notably, ribotyping, pulsed-field gel electrophoresis and tox gene sequencing demonstrated that the isolate from the hunting dog clustered with previously characterized C. ulcerans strains isolated from wild animals, as opposed to groups of isolates from humans and companion dogs. Interestingly, the wild animal cluster also contains an isolate from an outdoor breeding dog, which could have formed a bridge between isolates from wild animals and those from companion dogs. The results presented herein provide insight into the mechanism by which the zoonotic pathogen C. ulcerans circulates among wild animals, hunting and companion dogs, and humans."
+                    },
+                    "publication_date": "2016-03",
+                    "publication_name": {
+                        "en": "Microbiology and immunology"
+                    },
+                    "volume": "60",
+                    "number": "3",
+                    "starting_page": "177",
+                    "ending_page": "86",
+                    "languages": [
+                        "eng"
+                    ],
+                    "published_paper_type": "scientific_journal",
+                    "is_international_journal": true,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1111/1348-0421.12364"
+                        ],
+                        "pm_id": [
+                            "26853714"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1111/1348-0421.12364",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "pubmed",
+                            "@id": "https://www.ncbi.nlm.nih.gov/pubmed/26853714",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0001491/published_papers/48135820",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0001491/published_papers",
+                    "rm:id": "48135820",
+                    "rm:user_id": "0000010293",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000010293",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2024-10-08T03:07:28Z",
+                    "rm:modifier_id": "0000010293",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2024-10-08T03:07:28Z",
+                    "paper_title": {
+                        "en": "Retrospective survey to evaluate the safety and efficacy of Japanese botulinum antitoxin therapy in Japan."
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Keita Mottate"
+                            },
+                            {
+                                "name": "Hiroyuki Yokote"
+                            },
+                            {
+                                "name": "Shigemi Mori"
+                            },
+                            {
+                                "name": "Akira Horita"
+                            },
+                            {
+                                "name": "Yoshinobu Miyatsu"
+                            },
+                            {
+                                "name": "Yasushi Torii"
+                            },
+                            {
+                                "name": "Shunji Kozaki"
+                            },
+                            {
+                                "name": "Masaaki Iwaki"
+                            },
+                            {
+                                "name": "Motohide Takahashi"
+                            },
+                            {
+                                "name": "Akihiro Ginnaga"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "Japanese botulinum antitoxins have been used for more than 50 years; however, their safety and therapeutic efficacy are not clear. In order to analyze the available data on botulinum antitoxin therapy in Japan, we surveyed published reports about botulism cases in which botulinum antitoxins were used, and retrospectively analyzed the safety and efficacy of the therapy. A total of 134 patients administered botulinum antitoxins were identified from published reports. Two cases of side effects (1.5%) were detected after antitoxin administration, both not fatal. The fatality rate was 9.4%, and more than 70% of the patients showed improvement in their symptoms and better clinical conditions than those not treated with antitoxins. These data suggest that the therapy with Japanese antitoxins is safe and highly effective."
+                    },
+                    "publication_date": "2016-02",
+                    "publication_name": {
+                        "en": "Toxicon : official journal of the International Society on Toxinology"
+                    },
+                    "volume": "110",
+                    "starting_page": "12",
+                    "ending_page": "8",
+                    "languages": [
+                        "eng"
+                    ],
+                    "published_paper_type": "scientific_journal",
+                    "is_international_journal": true,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1016/j.toxicon.2015.11.010"
+                        ],
+                        "pm_id": [
+                            "26615088"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1016/j.toxicon.2015.11.010",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "pubmed",
+                            "@id": "https://www.ncbi.nlm.nih.gov/pubmed/26615088",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0001491/published_papers/48135821",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0001491/published_papers",
+                    "rm:id": "48135821",
+                    "rm:user_id": "0000010293",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000010293",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2024-10-08T03:07:28Z",
+                    "rm:modifier_id": "0000010293",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2024-10-08T03:07:28Z",
+                    "paper_title": {
+                        "en": "Genetic characterization and comparison of Clostridium botulinum isolates from botulism cases in Japan between 2006 and 2011."
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Tsuyoshi Kenri"
+                            },
+                            {
+                                "name": "Tsuyoshi Sekizuka"
+                            },
+                            {
+                                "name": "Akihiko Yamamoto"
+                            },
+                            {
+                                "name": "Masaaki Iwaki"
+                            },
+                            {
+                                "name": "Takako Komiya"
+                            },
+                            {
+                                "name": "Takashi Hatakeyama"
+                            },
+                            {
+                                "name": "Hiroshi Nakajima"
+                            },
+                            {
+                                "name": "Motohide Takahashi"
+                            },
+                            {
+                                "name": "Makoto Kuroda"
+                            },
+                            {
+                                "name": "Keigo Shibayama"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "Genetic characterization was performed for 10 group I Clostridium botulinum strains isolated from botulism cases in Japan between 2006 and 2011. Of these, 1 was type A, 2 were type B, and 7 were type A(B) {carrying a silent bont/B [bont/(B)] gene} serotype strains, based on botulinum neurotoxin (BoNT) production. The type A strain harbored the subtype A1 BoNT gene (bont/A1), which is associated with the ha gene cluster. The type B strains carried bont/B5 or bont/B6 subtype genes. The type A(B) strains carried bont/A1 identical to that of type A(B) strain NCTC2916. However, bont/(B) genes in these strains showed single-nucleotide polymorphisms (SNPs) among strains. SNPs at 2 nucleotide positions of bont/(B) enabled classification of the type A(B) strains into 3 groups. Pulsed-field gel electrophoresis (PFGE) and multiple-locus variable-number tandem-repeat analysis (MLVA) also provided consistent separation results. In addition, the type A(B) strains were separated into 2 lineages based on their plasmid profiles. One lineage carried a small plasmid (5.9 kb), and another harbored 21-kb plasmids. To obtain more detailed genetic information about the 10 strains, we sequenced their genomes and compared them with 13 group I C. botulinum genomes in a database using whole-genome SNP analysis. This analysis provided high-resolution strain discrimination and enabled us to generate a refined phylogenetic tree that provides effective traceability of botulism cases, as well as bioterrorism materials. In the phylogenetic tree, the subtype B6 strains, Okayama2011 and Osaka05, were distantly separated from the other strains, indicating genomic divergence of subtype B6 strains among group I strains."
+                    },
+                    "publication_date": "2014-11",
+                    "publication_name": {
+                        "en": "Applied and environmental microbiology"
+                    },
+                    "volume": "80",
+                    "number": "22",
+                    "starting_page": "6954",
+                    "ending_page": "64",
+                    "languages": [
+                        "eng"
+                    ],
+                    "published_paper_type": "scientific_journal",
+                    "is_international_journal": true,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1128/AEM.02134-14"
+                        ],
+                        "pm_id": [
+                            "25192986"
+                        ],
+                        "pmc_id": [
+                            "PMC4249013"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1128/AEM.02134-14",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "pubmed",
+                            "@id": "https://www.ncbi.nlm.nih.gov/pubmed/25192986",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "pmc",
+                            "@id": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4249013",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0001491/published_papers/48135822",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0001491/published_papers",
+                    "rm:id": "48135822",
+                    "rm:user_id": "0000010293",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000010293",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2024-10-08T03:07:28Z",
+                    "rm:modifier_id": "0000010293",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2024-10-08T03:07:28Z",
+                    "paper_title": {
+                        "en": "A national reference for inactivated polio vaccine derived from Sabin strains in Japan."
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Haruko Shirato"
+                            },
+                            {
+                                "name": "Yuichi Someya"
+                            },
+                            {
+                                "name": "Masaki Ochiai"
+                            },
+                            {
+                                "name": "Yoshinobu Horiuchi"
+                            },
+                            {
+                                "name": "Motohide Takahashi"
+                            },
+                            {
+                                "name": "Naokazu Takeda"
+                            },
+                            {
+                                "name": "Kengo Wakabayashi"
+                            },
+                            {
+                                "name": "Yasumitsu Ouchi"
+                            },
+                            {
+                                "name": "Yoshihiro Ota"
+                            },
+                            {
+                                "name": "Yoshio Tano"
+                            },
+                            {
+                                "name": "Shinobu Abe"
+                            },
+                            {
+                                "name": "Shudo Yamazaki"
+                            },
+                            {
+                                "name": "Takaji Wakita"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "As one aspect of its campaign to eradicate poliomyelitis, the World Health Organization (WHO) has encouraged development of the inactivated polio vaccine (IPV) derived from the Sabin strains (sIPV) as an option for an affordable polio vaccine, especially in low-income countries. The Japan Poliomyelitis Research Institute (JPRI) inactivated three serotypes of the Sabin strains and made sIPV preparations, including serotypes 1, 2 and 3 D-antigens in the ratio of 3:100:100. The National Institute of Infectious Diseases, Japan, assessed the immunogenic stability of these sIPV preparations in a rat potency test, according to an evaluation method recommended by the WHO. The immunogenicity of the three serotypes was maintained for at least 4 years when properly stored under -70°C. Based on these data, the sIPV preparations made by JPRI have been approved as national reference vaccines by the Japanese national control authority and used for the quality control of the tetracomponent sIPV-containing diphtheria-tetanus-acellular pertussis combination vaccines that were licensed for a routine polio immunization in Japan."
+                    },
+                    "publication_date": "2014-09-08",
+                    "publication_name": {
+                        "en": "Vaccine"
+                    },
+                    "volume": "32",
+                    "number": "40",
+                    "starting_page": "5163",
+                    "ending_page": "9",
+                    "languages": [
+                        "eng"
+                    ],
+                    "published_paper_type": "scientific_journal",
+                    "is_international_journal": true,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1016/j.vaccine.2014.07.065"
+                        ],
+                        "pm_id": [
+                            "25090648"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1016/j.vaccine.2014.07.065",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "pubmed",
+                            "@id": "https://www.ncbi.nlm.nih.gov/pubmed/25090648",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0001491/published_papers/48135823",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0001491/published_papers",
+                    "rm:id": "48135823",
+                    "rm:user_id": "0000010293",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000010293",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2024-10-08T03:07:28Z",
+                    "rm:modifier_id": "0000010293",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2024-10-08T03:07:28Z",
+                    "paper_title": {
+                        "en": "Considerations for tetanus infection in an adult with a protective tetanus antibody level."
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Toru Hifumi"
+                            },
+                            {
+                                "name": "Akihiko Yamamoto"
+                            },
+                            {
+                                "name": "Motohide Takahashi"
+                            },
+                            {
+                                "name": "Yuichi Koido"
+                            },
+                            {
+                                "name": "Kenya Kawakita"
+                            },
+                            {
+                                "name": "Yasuhiro Kuroda"
+                            }
+                        ]
+                    },
+                    "publication_date": "2014-09",
+                    "publication_name": {
+                        "en": "The American journal of emergency medicine"
+                    },
+                    "volume": "32",
+                    "number": "9",
+                    "starting_page": "1125",
+                    "ending_page": "1125",
+                    "languages": [
+                        "eng"
+                    ],
+                    "is_international_journal": true,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1016/j.ajem.2014.06.008"
+                        ],
+                        "pm_id": [
+                            "25027203"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1016/j.ajem.2014.06.008",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "pubmed",
+                            "@id": "https://www.ncbi.nlm.nih.gov/pubmed/25027203",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0001491/published_papers/48135824",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0001491/published_papers",
+                    "rm:id": "48135824",
+                    "rm:user_id": "0000010293",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000010293",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2024-10-08T03:07:28Z",
+                    "rm:modifier_id": "0000010293",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2024-10-08T03:07:28Z",
+                    "paper_title": {
+                        "en": "Seroprevalence of tetanus toxoid antibody and booster vaccination efficacy in Japanese travelers."
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Yasutaka Mizuno"
+                            },
+                            {
+                                "name": "Akihiko Yamamoto"
+                            },
+                            {
+                                "name": "Takako Komiya"
+                            },
+                            {
+                                "name": "Nozomi Takeshita"
+                            },
+                            {
+                                "name": "Motohide Takahashi"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "Tetanus can be prevented by vaccination, which is especially important for overseas travelers. However, despite booster vaccination every 10 years being recommended, most Japanese adults do not receive it in the absence of physical injury or overseas travel. We aimed to investigate the level of protective immunity against tetanus among Japanese travelers, which may provide valuable information for formulating booster vaccination recommendations. 113 Japanese travelers given tetanus toxoid were recruited. The collected samples included paired samples prior to and 3-5 weeks after receiving the booster vaccination. Travelers who did not return and those lacking sample collection at the second visit were excluded. Finally, 96 paired blood samples were collected. History of immunization against tetanus, including DPT and DT vaccines, was determined from interviews or immunization records. The pre-vaccination geometric mean titer for the 96 participants was 1.07 IU/mL; 76% had a protective antitoxin level (>0.1 IU/mL), and 50% had a long-term protective antitoxin level (>1.0 IU/mL). Most participants <40 years old had protective immunity without receiving booster vaccination, whereas only 30.8% of those >50 years of age had protective immunity. Among the 23 participants without protective antitoxin levels (<0.1 IU/mL), booster vaccination was efficient in 100% of those <40 years but in only 28.6% of those >50 years of age. Although the tetanus antitoxin level decreases with age, booster vaccination helped to achieve an adequate protective antitoxin levels in Japanese travelers <40 years of age. Furthermore, the individuals who have never been vaccinated against tetanus especially in those >50 years old need to obtain protective immunity against tetanus according to a basic immunization schedule to prevent tetanus in travelers and residents of Japan."
+                    },
+                    "publication_date": "2014-01",
+                    "publication_name": {
+                        "en": "Journal of infection and chemotherapy : official journal of the Japan Society of Chemotherapy"
+                    },
+                    "volume": "20",
+                    "number": "1",
+                    "starting_page": "35",
+                    "ending_page": "7",
+                    "languages": [
+                        "eng"
+                    ],
+                    "published_paper_type": "scientific_journal",
+                    "is_international_journal": true,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1016/j.jiac.2013.11.003"
+                        ],
+                        "pm_id": [
+                            "24462422"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1016/j.jiac.2013.11.003",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "pubmed",
+                            "@id": "https://www.ncbi.nlm.nih.gov/pubmed/24462422",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0001491/published_papers/48135825",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0001491/published_papers",
+                    "rm:id": "48135825",
+                    "rm:user_id": "0000010293",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000010293",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2024-10-08T03:07:28Z",
+                    "rm:modifier_id": "0000010293",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2024-10-08T03:07:28Z",
+                    "paper_title": {
+                        "en": "Differences in immunological responses of polyclonal botulinum A1 and A2 antitoxin against A1 and A2 toxin."
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Yasushi Torii"
+                            },
+                            {
+                                "name": "Miho Shinmura"
+                            },
+                            {
+                                "name": "Tomoko Kohda"
+                            },
+                            {
+                                "name": "Shunji Kozaki"
+                            },
+                            {
+                                "name": "Motohide Takahashi"
+                            },
+                            {
+                                "name": "Akihiro Ginnaga"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "Botulinum type A antitoxin in standard and therapeutic preparation is a polyclonal antibody purified from immunized sera with subtype A1 toxin. To investigate the difference between immunological responses of antitoxin against toxin among different subtypes, we examined the response of polyclonal A1 and A2 antitoxins with A1 and A2 toxins. In the mouse neutralization test, the A1 antitoxin had equivalent potency against both the A1 and A2 toxins. However, the neutralization titer of the A2 antitoxin was 4-9 fold higher against the A2 toxin than against the A1 toxin. Since the titers of the antitoxins were calculated relative to the standard antitoxin, we assumed that the difference between the antibody titers against the test toxins was due the standard antitoxin having different reactivities with the toxins. The binding volume of the A2 toxin against the standard and A1 antitoxins was 3-4% of the binding volume of the A1 toxin. The neutralization curve of the standard antitoxin was parallel against both the A1 and A2 toxins. However, the curve of the A2 antitoxin was not parallel against the A1 and A2 toxins. Furthermore, binding analysis comparing these antitoxins and toxins showed that the A1 antitoxin had a higher binding affinity and slower dissociation speed with the A1 toxin than with the A2 toxin. In contrast, the A2 antitoxin showed a higher binding affinity with the A2 toxin than with the A1 toxin. These findings indicated that antitoxin reacted strongly against the same subtype, and showed a weak response against the toxin of different subtypes. We propose that the existing standard type A antitoxin should be used for reaction with A1 toxins, and that it is necessary to establish a new standard antitoxin for each subtype of toxin."
+                    },
+                    "publication_date": "2013-10",
+                    "publication_name": {
+                        "en": "Toxicon : official journal of the International Society on Toxinology"
+                    },
+                    "volume": "73",
+                    "starting_page": "9",
+                    "ending_page": "16",
+                    "languages": [
+                        "eng"
+                    ],
+                    "published_paper_type": "scientific_journal",
+                    "is_international_journal": true,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1016/j.toxicon.2013.06.020"
+                        ],
+                        "pm_id": [
+                            "23834917"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1016/j.toxicon.2013.06.020",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "pubmed",
+                            "@id": "https://www.ncbi.nlm.nih.gov/pubmed/23834917",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0001491/published_papers/48135826",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0001491/published_papers",
+                    "rm:id": "48135826",
+                    "rm:user_id": "0000010293",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000010293",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2024-10-08T03:07:28Z",
+                    "rm:modifier_id": "0000010293",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2024-10-08T03:07:28Z",
+                    "paper_title": {
+                        "en": "Isolation and characterization of toxigenic Corynebacterium ulcerans from 2 closed colonies of cynomolgus macaques (Macaca fascicularis) in Japan."
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Asuka Hirai-Yuki"
+                            },
+                            {
+                                "name": "Takako Komiya"
+                            },
+                            {
+                                "name": "Yuriko Suzaki"
+                            },
+                            {
+                                "name": "Yasushi Ami"
+                            },
+                            {
+                                "name": "Chihiro Katsukawa"
+                            },
+                            {
+                                "name": "Motohide Takahashi"
+                            },
+                            {
+                                "name": "Akihiko Yamamoto"
+                            },
+                            {
+                                "name": "Yasuko K Yamada"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "The aim of the present study was to determine the prevalence of infection by toxigenic Corynebacterium ulcerans in cynomolgus macaques (Macaca fascicularis) housed in an animal facility in Japan. Samples from the pharynges of animals from 2 closed colonies (colony A, n = 47; colony B, n = 21) were cultured. C. ulcerans grew from 43% and 47% of the samples from colonies A and B, respectively. The toxigenicity of these isolates was assessed by using PCR analysis for the diphtheria toxin gene and the Elek test and Vero cytotoxicity assay to detect diphtheria toxin. The proportion of macaques harboring toxigenic C. ulcerans was 6% in colony A and 29% in colony B. Analysis of diphtheria antitoxin neutralization titers in the sera revealed that 23% and 33% of macaques from colonies A and B, respectively, had a history of infection with toxigenic C. ulcerans. Pulsed-field gel electrophoresis of the toxigenic isolates showed that all of those recovered from macaques in colony B showed an identical genotype, suggesting that transmission of the organism occurred within the colony. However, isolates from colony A macaques showed 3 different genotypes, one of which was identical to the isolate from colony B. Additional studies evaluating the prevalence and transmission of toxigenic C. ulcerans within colonies of nonhuman primates are necessary to help control the spread of the infection. The current study is the first description of the isolation and characterization of toxigenic C. ulcerans from nonhuman primates in Japan."
+                    },
+                    "publication_date": "2013-06",
+                    "publication_name": {
+                        "en": "Comparative medicine"
+                    },
+                    "volume": "63",
+                    "number": "3",
+                    "starting_page": "272",
+                    "ending_page": "8",
+                    "languages": [
+                        "eng"
+                    ],
+                    "published_paper_type": "scientific_journal",
+                    "is_international_journal": true,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "e_issn": [
+                            "2769-819X"
+                        ],
+                        "pm_id": [
+                            "23759530"
+                        ],
+                        "pmc_id": [
+                            "PMC3690433"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "pubmed",
+                            "@id": "https://www.ncbi.nlm.nih.gov/pubmed/23759530",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "pmc",
+                            "@id": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3690433",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0001491/published_papers/48135827",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0001491/published_papers",
+                    "rm:id": "48135827",
+                    "rm:user_id": "0000010293",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000010293",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2024-10-08T03:07:29Z",
+                    "rm:modifier_id": "0000010293",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2024-10-08T03:07:29Z",
+                    "paper_title": {
+                        "en": "Antitoxin treatment for liver abscess caused by Clostridium perfringens."
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Toru Hifumi"
+                            },
+                            {
+                                "name": "Yuichi Koido"
+                            },
+                            {
+                                "name": "Motohide Takahashi"
+                            },
+                            {
+                                "name": "Akihiko Yamamoto"
+                            }
+                        ]
+                    },
+                    "publication_date": "2013-03",
+                    "publication_name": {
+                        "en": "Clinical and molecular hepatology"
+                    },
+                    "volume": "19",
+                    "number": "1",
+                    "starting_page": "97",
+                    "ending_page": "8",
+                    "languages": [
+                        "eng"
+                    ],
+                    "is_international_journal": true,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.3350/cmh.2013.19.1.97"
+                        ],
+                        "pm_id": [
+                            "23593617"
+                        ],
+                        "pmc_id": [
+                            "PMC3622863"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.3350/cmh.2013.19.1.97",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "pubmed",
+                            "@id": "https://www.ncbi.nlm.nih.gov/pubmed/23593617",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "pmc",
+                            "@id": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3622863",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0001491/published_papers/48135830",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0001491/published_papers",
+                    "rm:id": "48135830",
+                    "rm:user_id": "0000010293",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000010293",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2024-10-08T03:07:29Z",
+                    "rm:modifier_id": "0000010293",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2024-10-08T03:07:29Z",
+                    "paper_title": {
+                        "en": "Clinical efficacy of antivenom and cepharanthine for the treatment of Mamushi (Gloydius blomhoffii) bites in tertiary care centers in Japan."
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Toru Hifumi"
+                            },
+                            {
+                                "name": "Akihiko Yamamoto"
+                            },
+                            {
+                                "name": "Kazunori Morokuma"
+                            },
+                            {
+                                "name": "Ichiro Okada"
+                            },
+                            {
+                                "name": "Nobuaki Kiriu"
+                            },
+                            {
+                                "name": "Tomoko Ogasawara"
+                            },
+                            {
+                                "name": "Eijyu Hasegawa"
+                            },
+                            {
+                                "name": "Hiroshi Kato"
+                            },
+                            {
+                                "name": "Junichi Inoue"
+                            },
+                            {
+                                "name": "Yuichi Koido"
+                            },
+                            {
+                                "name": "Motohide Takahashi"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "To our knowledge, no one has conducted a multi-center trial evaluating the efficacy of antivenom and cepharanthine (CEP) for the treatment of mamushi (Gloydius blomhoffii) bites. Thus, we conducted a large-scale survey among tertiary care centers in Japan from November 2009 to October 2010 to evaluate the efficacy of antivenom and CEP for the treatment of mamushi bites. We divided the therapeutic interventions received by patients into 4 groups: CEP, antivenom, both CEP and antivenom, and neither CEP nor antivenom. We collected data on age, sex, comorbidities, laboratory measurements, length of hospital stay, and grades of mamushi bites (indication of bite severity ranged from I [mild] to V [severe]). We sent questionnaires to 219 tertiary care centers, of which 114 (52.1%) returned completed questionnaires. Two hundred and thirty-four cases of mamushi bites were reported. Among the severe cases (grades of mamushi bites III, IV, and V), patients administered antivenom had a significantly shorter length of hospital stay than those administered CEP (P = 0.024). In contrast, there was no significant difference in the length of hospital stay between mild cases (grades of mamushi bites I and II) (P = 0.77). Our results show that antivenom is effective in reducing the length of hospital stay in patients with severe mamushi bites."
+                    },
+                    "publication_date": "2013",
+                    "publication_name": {
+                        "en": "Japanese journal of infectious diseases"
+                    },
+                    "volume": "66",
+                    "number": "1",
+                    "starting_page": "26",
+                    "ending_page": "31",
+                    "languages": [
+                        "eng"
+                    ],
+                    "published_paper_type": "scientific_journal",
+                    "is_international_journal": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "e_issn": [
+                            "1884-2836"
+                        ],
+                        "pm_id": [
+                            "23429081"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "pubmed",
+                            "@id": "https://www.ncbi.nlm.nih.gov/pubmed/23429081",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0001491/published_papers/48135829",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0001491/published_papers",
+                    "rm:id": "48135829",
+                    "rm:user_id": "0000010293",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000010293",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2024-10-08T03:07:29Z",
+                    "rm:modifier_id": "0000010293",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2024-10-08T03:07:29Z",
+                    "paper_title": {
+                        "en": "Effects of simultaneous immunization of Haemophilus influenzae type b conjugate vaccine and diphtheria-tetanus-acellular pertussis vaccine on anti-tetanus potencies in mice, guinea pigs, and rats."
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Tadashi Fukuda"
+                            },
+                            {
+                                "name": "Masaaki Iwaki"
+                            },
+                            {
+                                "name": "Takako Komiya"
+                            },
+                            {
+                                "name": "Keigo Shibayama"
+                            },
+                            {
+                                "name": "Motohide Takahashi"
+                            },
+                            {
+                                "name": "Hideki Nakashima"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "Haemophilus influenzae type b vaccine conjugated with tetanus toxoid (HibT) was licensed for use in childhood immunization in Japan in 2007. As adsorbed diphtheria-tetanus-acellular pertussis (DTaP) combined with HibT vaccine has not been introduced in Japan, DTaP and HibT vaccines are injected at separate sites with a similar immunization schedule. There are various interfering or stimulatory effects between components of combined vaccines contained in DTaP and HibT vaccines. In this study, we investigated the effect of HibT containing combination vaccines on anti-tetanus potencies by using animal models (mouse, guinea pig, and rat). HibT vaccine and HibT components of imported DTaP-HibT vaccine alone showed comparable or higher anti-tetanus potency than DTaP vaccine and DTaP-containing components of combination vaccines. Mixing these components before injection resulted in potencies greater than the sum of individual potencies. Injecting individual components at separate sites in animals resulted in potency roughly equivalent to the sum of the individual potencies. These results provide useful information regarding the use of HibT-containing multivalent vaccines in childhood immunization."
+                    },
+                    "publication_date": "2013",
+                    "publication_name": {
+                        "en": "Japanese journal of infectious diseases"
+                    },
+                    "volume": "66",
+                    "number": "1",
+                    "starting_page": "41",
+                    "ending_page": "5",
+                    "languages": [
+                        "eng"
+                    ],
+                    "published_paper_type": "scientific_journal",
+                    "is_international_journal": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "e_issn": [
+                            "1884-2836"
+                        ],
+                        "pm_id": [
+                            "23429084"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "pubmed",
+                            "@id": "https://www.ncbi.nlm.nih.gov/pubmed/23429084",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0001491/published_papers/48135828",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0001491/published_papers",
+                    "rm:id": "48135828",
+                    "rm:user_id": "0000010293",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000010293",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2024-10-08T03:07:29Z",
+                    "rm:modifier_id": "0000010293",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2024-10-08T03:07:29Z",
+                    "paper_title": {
+                        "en": "Production of a neutralizing mouse-human chimeric antibody against botulinum neurotoxin serotype E."
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Masafumi Mukamoto"
+                            },
+                            {
+                                "name": "Hiroaki Maeda"
+                            },
+                            {
+                                "name": "Tomoko Kohda"
+                            },
+                            {
+                                "name": "Chikateru Nozaki"
+                            },
+                            {
+                                "name": "Motohide Takahashi"
+                            },
+                            {
+                                "name": "Shunji Kozaki"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "A mouse-human chimeric antibody that can neutralize botulinum neurotoxin serotype E (BoNT/E) was developed. Variable regions of heavy and light chains obtained using a mouse hybridoma clone (E9-4) cDNA, which was selected on the basis of neutralizing activity against BoNT/E, were fused with the upstream regions of the constant counterparts of human kappa light and gamma 1 heavy chain genes, respectively. CHO-DG44 cells were transfected with these plasmids and a mouse-human chimeric antibody (EC94) was purified to examine binding and neutralizing activity against BoNT/E. EC94 exhibited the same levels of binding activities against BoNT/E as those of a parent mouse monoclonal antibody and neutralized more than 4,000 LD(50)/mg antibody. This chimeric antibody seems to be a useful candidate for infant botulism in which the use of passive immunotherapy is not planned so as to avoid serious events such as anaphylactic shock. We designed shuffling chimeric antibodies with replacement of V(H) or V(L) of EC94 with that of a chimeric antibody (AC24) that possessed neutralizing activity against BoNT/A. These shuffling antibodies did not exhibit neutralizing activity against either BoNT/E or BoNT/A."
+                    },
+                    "publication_date": "2013",
+                    "publication_name": {
+                        "en": "Japanese journal of infectious diseases"
+                    },
+                    "volume": "66",
+                    "number": "1",
+                    "starting_page": "46",
+                    "ending_page": "50",
+                    "languages": [
+                        "eng"
+                    ],
+                    "published_paper_type": "scientific_journal",
+                    "is_international_journal": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "e_issn": [
+                            "1884-2836"
+                        ],
+                        "pm_id": [
+                            "23429085"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "pubmed",
+                            "@id": "https://www.ncbi.nlm.nih.gov/pubmed/23429085",
+                            "is_downloadable": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0001491/misc",
+            "@type": "misc",
+            "@reverse": "https://api.researchmap.jp/read0001491",
+            "total_items": 161,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0001491/misc/48135910",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0001491/misc",
+                    "rm:id": "48135910",
+                    "rm:user_id": "0000010293",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000010293",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2024-10-08T03:11:20Z",
+                    "rm:modifier_id": "0000010293",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2024-10-08T03:11:20Z",
+                    "paper_title": {
+                        "ja": "破傷風患者の病原体診断目的で開発したELISA法と破傷風菌の毒素産生能への応用"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "志多田 千恵"
+                            },
+                            {
+                                "name": "坂本 智代美"
+                            },
+                            {
+                                "name": "高橋 元秀"
+                            },
+                            {
+                                "name": "久米田 幸介"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "日臨技九州支部医学検査学会"
+                    },
+                    "publication_date": "2022-11",
+                    "publication_name": {
+                        "ja": "日臨技九州支部医学検査学会"
+                    },
+                    "volume": "56回",
+                    "starting_page": "17",
+                    "ending_page": "17",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "jamas_id": [
+                            "2023098862"
+                        ]
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0001491/misc/48135911",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0001491/misc",
+                    "rm:id": "48135911",
+                    "rm:user_id": "0000010293",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000010293",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2024-10-08T03:11:21Z",
+                    "rm:modifier_id": "0000010293",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2024-10-08T03:11:21Z",
+                    "paper_title": {
+                        "ja": "破傷風診断の一助となる破傷風毒素定量用ELISA法およびイムノクロマト法の開発"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "坂本 智代美"
+                            },
+                            {
+                                "name": "久米田 幸介"
+                            },
+                            {
+                                "name": "志多田 千恵"
+                            },
+                            {
+                                "name": "高橋 元秀"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "(一社)日本臨床検査医学会"
+                    },
+                    "publication_date": "2022-10",
+                    "publication_name": {
+                        "ja": "日本臨床検査医学会誌"
+                    },
+                    "volume": "70",
+                    "number": "補冊",
+                    "starting_page": "157",
+                    "ending_page": "157",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "2436-2727"
+                        ],
+                        "isbn": [
+                            "9784910704104"
+                        ],
+                        "jamas_id": [
+                            "2023061431"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "url",
+                            "@id": "https://search.jamas.or.jp/default/link?pub_year=2022&ichushi_jid=J07482&link_issn=&doc_id=20221108480164&doc_link_id=%2Fco3rinsy%2F2022%2Fs070s1%2F065%2F0157-0157%26dl%3D0&url=https%3A%2F%2Fwww.medicalonline.jp%2Fjamas.php%3FGoodsID%3D%2Fco3rinsy%2F2022%2Fs070s1%2F065%2F0157-0157%26dl%3D0&type=MedicalOnline&icon=https%3A%2F%2Fjk04.jamas.or.jp%2Ficon%2F00004_2.gif",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0001491/misc/48136052",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0001491/misc",
+                    "rm:id": "48136052",
+                    "rm:user_id": "0000010293",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000010293",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2024-10-08T03:13:59Z",
+                    "rm:modifier_id": "0000010293",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2024-10-08T03:13:59Z",
+                    "paper_title": {
+                        "ja": "蛇毒素成分の解析研究の現状および国内の毒蛇咬傷患者治療の実態"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "諸熊 一則"
+                            },
+                            {
+                                "name": "友清 和彦"
+                            },
+                            {
+                                "name": "高橋 元秀"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "ja": "国内外に生息する毒蛇による咬傷患者は重篤な報告例が多く,毒蛇咬傷は感染症対策と同様に公衆衛生上の重要な課題である。蛇毒の成分には多種類の酵素,インヒビター等のタンパク質・ペプチド成分が含まれており,異なる作用物質の混在は,咬傷後は複雑な病態として現れることになる。このことが適切で有効な治療法の開発の妨げとなっており,毒蛇咬傷に対する新規治療用医薬品の開発が急がれる所以である。近年,急速に発展しているタンパク質工学的,分子生物学的分析手法は,蛇毒成分の構造分析,作用解析において多くの成果をもたらしている。本項では,蛇毒成分解析の現状を先行論文のプロテオーム解析結果や毒素成分の構造を整理し,特に血液凝固系に関連した毒成分については解析を追加した。また,ハブ,マムシ及びヤマカガシの国内咬傷被害の実情と咬傷患者への一般的な治療法であるウマ抗毒素製剤の導入や歴史的背景を含めて概説する。さらに抗毒素製剤の品質管理と今後の課題に関して概説する。(著者抄録)"
+                    },
+                    "publisher": {
+                        "ja": "熊本保健科学大学"
+                    },
+                    "publication_date": "2022-03",
+                    "publication_name": {
+                        "ja": "熊本保健科学大学研究誌"
+                    },
+                    "number": "19",
+                    "starting_page": "1",
+                    "ending_page": "17",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "2433-5002"
+                        ],
+                        "jamas_id": [
+                            "2022303640"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "url",
+                            "@id": "https://search.jamas.or.jp/default/link?pub_year=2022&ichushi_jid=J07063&link_issn=&doc_id=20220408590001&doc_link_id=1050010293623056768&url=https%3A%2F%2Fcir.nii.ac.jp%2Fcrid%2F1050010293623056768&type=CiNii&icon=https%3A%2F%2Fjk04.jamas.or.jp%2Ficon%2F00003_2.gif",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "https://search.jamas.or.jp/default/link?pub_year=2022&ichushi_jid=J07063&link_issn=&doc_id=20220408590001&doc_link_id=https%3A%2F%2Fkhsu.repo.nii.ac.jp%2Frecords%2F284&url=https%3A%2F%2Fkhsu.repo.nii.ac.jp%2Frecords%2F284&type=%E7%86%8A%E6%9C%AC%E4%BF%9D%E5%81%A5%E7%A7%91%E5%AD%A6%E5%A4%A7%E5%AD%A6%EF%BC%9A%E7%86%8A%E6%9C%AC%E4%BF%9D%E5%81%A5%E7%A7%91%E5%AD%A6%E5%A4%A7%E5%AD%A6%E5%AD%A6%E8%A1%93%E6%83%85%E5%A0%B1%E3%83%AA%E3%83%9D%E3%82%B8%E3%83%88%E3%83%AA&icon=https%3A%2F%2Fjk04.jamas.or.jp%2Ficon%2F80137_3.gif",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0001491/misc/48135913",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0001491/misc",
+                    "rm:id": "48135913",
+                    "rm:user_id": "0000010293",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000010293",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2024-10-08T03:11:21Z",
+                    "rm:modifier_id": "0000010293",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2024-10-08T03:11:21Z",
+                    "paper_title": {
+                        "ja": "選抜ワークショップ2:遺伝、分類、疫学 熊本県内土壌中の破傷風菌の分布調査と分離菌の細菌学的、遺伝子学的解析"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "志多田 千恵"
+                            },
+                            {
+                                "name": "関塚 剛史"
+                            },
+                            {
+                                "name": "坂本 智代美"
+                            },
+                            {
+                                "name": "黒田 誠"
+                            },
+                            {
+                                "name": "高橋 元秀"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "日本細菌学会"
+                    },
+                    "publication_date": "2022-02",
+                    "publication_name": {
+                        "ja": "日本細菌学雑誌"
+                    },
+                    "volume": "77",
+                    "number": "1",
+                    "starting_page": "45",
+                    "ending_page": "45",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "0021-4930"
+                        ],
+                        "e_issn": [
+                            "1882-4110"
+                        ],
+                        "jamas_id": [
+                            "2022189186"
+                        ]
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0001491/misc/48135912",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0001491/misc",
+                    "rm:id": "48135912",
+                    "rm:user_id": "0000010293",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000010293",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2024-10-08T03:11:21Z",
+                    "rm:modifier_id": "0000010293",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2024-10-08T03:11:21Z",
+                    "paper_title": {
+                        "ja": "熊本県内土壌中の破傷風菌の分布調査と分離菌の細菌学的、遺伝子学的解析"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "志多田 千恵"
+                            },
+                            {
+                                "name": "関塚 剛史"
+                            },
+                            {
+                                "name": "坂本 智代美"
+                            },
+                            {
+                                "name": "黒田 誠"
+                            },
+                            {
+                                "name": "高橋 元秀"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "日本細菌学会"
+                    },
+                    "publication_date": "2022-02",
+                    "publication_name": {
+                        "ja": "日本細菌学雑誌"
+                    },
+                    "volume": "77",
+                    "number": "1",
+                    "starting_page": "61",
+                    "ending_page": "61",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "0021-4930"
+                        ],
+                        "e_issn": [
+                            "1882-4110"
+                        ],
+                        "jamas_id": [
+                            "2022189238"
+                        ]
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0001491/misc/48135914",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0001491/misc",
+                    "rm:id": "48135914",
+                    "rm:user_id": "0000010293",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000010293",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2024-10-08T03:11:21Z",
+                    "rm:modifier_id": "0000010293",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2024-10-08T03:11:21Z",
+                    "paper_title": {
+                        "ja": "破傷風"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "高橋 元秀"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "ja": "共同研究講座での研究調査活動内容の一つとして,破傷風の感染リスクの科学的根拠を示すために熊本県内の数ヶ所の土壌を採取して破傷風菌の分布調査を実施している。講座の志多田大学院生の調査研究の内容について,必要性や今後の研究課題の方向と構想を含めて紹介する。(著者抄録)"
+                    },
+                    "publisher": {
+                        "ja": "熊本保健科学大学"
+                    },
+                    "publication_date": "2021-03",
+                    "publication_name": {
+                        "ja": "熊本保健科学大学研究誌"
+                    },
+                    "number": "18",
+                    "starting_page": "117",
+                    "ending_page": "121",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "2433-5002"
+                        ],
+                        "jamas_id": [
+                            "2021212676"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "url",
+                            "@id": "https://search.jamas.or.jp/default/link?pub_year=2021&ichushi_jid=J07063&link_issn=&doc_id=20210406520012&doc_link_id=1050287907212643328&url=https%3A%2F%2Fcir.nii.ac.jp%2Fcrid%2F1050287907212643328&type=CiNii&icon=https%3A%2F%2Fjk04.jamas.or.jp%2Ficon%2F00003_2.gif",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "https://search.jamas.or.jp/default/link?pub_year=2021&ichushi_jid=J07063&link_issn=&doc_id=20210406520012&doc_link_id=https%3A%2F%2Fkhsu.repo.nii.ac.jp%2Frecords%2F248&url=https%3A%2F%2Fkhsu.repo.nii.ac.jp%2Frecords%2F248&type=%E7%86%8A%E6%9C%AC%E4%BF%9D%E5%81%A5%E7%A7%91%E5%AD%A6%E5%A4%A7%E5%AD%A6%EF%BC%9A%E7%86%8A%E6%9C%AC%E4%BF%9D%E5%81%A5%E7%A7%91%E5%AD%A6%E5%A4%A7%E5%AD%A6%E5%AD%A6%E8%A1%93%E6%83%85%E5%A0%B1%E3%83%AA%E3%83%9D%E3%82%B8%E3%83%88%E3%83%AA&icon=https%3A%2F%2Fjk04.jamas.or.jp%2Ficon%2F80137_3.gif",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0001491/misc/48135915",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0001491/misc",
+                    "rm:id": "48135915",
+                    "rm:user_id": "0000010293",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000010293",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2024-10-08T03:11:21Z",
+                    "rm:modifier_id": "0000010293",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2024-10-08T03:11:21Z",
+                    "paper_title": {
+                        "ja": "破傷風患者の実験室診断"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "高橋 元秀"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "(一社)日本集中治療医学会"
+                    },
+                    "publication_date": "2016-03",
+                    "publication_name": {
+                        "ja": "日本集中治療医学会雑誌"
+                    },
+                    "volume": "23",
+                    "number": "2",
+                    "starting_page": "117",
+                    "ending_page": "119",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "1340-7988"
+                        ],
+                        "e_issn": [
+                            "1882-966X"
+                        ],
+                        "jamas_id": [
+                            "2016229192"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "url",
+                            "@id": "https://search.jamas.or.jp/default/link?pub_year=2016&ichushi_jid=J02874&link_issn=&doc_id=20160426550004&doc_link_id=1390282679421191552&url=https%3A%2F%2Fcir.nii.ac.jp%2Fcrid%2F1390282679421191552&type=CiNii&icon=https%3A%2F%2Fjk04.jamas.or.jp%2Ficon%2F00003_3.gif",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "https://search.jamas.or.jp/default/link?pub_year=2016&ichushi_jid=J02874&link_issn=&doc_id=20160426550004&doc_link_id=10.3918%2Fjsicm.23.117&url=https%3A%2F%2Fdoi.org%2F10.3918%2Fjsicm.23.117&type=J-STAGE&icon=https%3A%2F%2Fjk04.jamas.or.jp%2Ficon%2F00007_3.gif",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "https://search.jamas.or.jp/default/link?pub_year=2016&ichushi_jid=J02874&link_issn=&doc_id=20160426550004&doc_link_id=20160426550013&url=http%3A%2F%2Fsearch.jamas.or.jp%2Flink%2Fbc%2F20160426550013&type=jamaslink&icon=https%3A%2F%2Fjk04.jamas.or.jp%2Ficon%2F99999_1.gif",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0001491/misc/48135970",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0001491/misc",
+                    "rm:id": "48135970",
+                    "rm:user_id": "0000010293",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000010293",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2024-10-08T03:12:13Z",
+                    "rm:modifier_id": "0000010293",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2024-10-08T03:12:13Z",
+                    "paper_title": {
+                        "ja": "ラットを用いた複合筋活動電位測定法によるボツリヌス毒素活性の測定方法"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "鳥居 恭司"
+                            },
+                            {
+                                "name": "小崎 俊司"
+                            },
+                            {
+                                "name": "高橋 元秀"
+                            },
+                            {
+                                "name": "銀永 明弘"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "日本細菌学会"
+                    },
+                    "publication_date": "2016-02",
+                    "publication_name": {
+                        "ja": "日本細菌学雑誌"
+                    },
+                    "volume": "71",
+                    "number": "1",
+                    "starting_page": "108",
+                    "ending_page": "108",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "0021-4930"
+                        ],
+                        "e_issn": [
+                            "1882-4110"
+                        ],
+                        "jamas_id": [
+                            "2017105519"
+                        ]
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0001491/misc/48135971",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0001491/misc",
+                    "rm:id": "48135971",
+                    "rm:user_id": "0000010293",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000010293",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2024-10-08T03:12:13Z",
+                    "rm:modifier_id": "0000010293",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2024-10-08T03:12:13Z",
+                    "paper_title": {
+                        "ja": "わが国のボツリヌス研究の温故知新 阪口先生のご研究に焦点を当てて 日本のボツリヌストキソイドワクチンの開発"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "高橋 元秀"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "日本食品微生物学会"
+                    },
+                    "publication_date": "2015-06",
+                    "publication_name": {
+                        "ja": "日本食品微生物学会雑誌"
+                    },
+                    "volume": "32",
+                    "number": "2",
+                    "starting_page": "110",
+                    "ending_page": "114",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "1340-8267"
+                        ],
+                        "e_issn": [
+                            "1882-5982"
+                        ],
+                        "jamas_id": [
+                            "2015290550"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "url",
+                            "@id": "https://search.jamas.or.jp/default/link?pub_year=2015&ichushi_jid=J02923&link_issn=&doc_id=20150709470005&doc_link_id=1390282679401880448&url=https%3A%2F%2Fcir.nii.ac.jp%2Fcrid%2F1390282679401880448&type=CiNii&icon=https%3A%2F%2Fjk04.jamas.or.jp%2Ficon%2F00003_3.gif",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "https://search.jamas.or.jp/default/link?pub_year=2015&ichushi_jid=J02923&link_issn=&doc_id=20150709470005&doc_link_id=%2Fee5jsofm%2F2015%2F003202%2F006%2F0110-0114%26dl%3D0&url=https%3A%2F%2Fwww.medicalonline.jp%2Fjamas.php%3FGoodsID%3D%2Fee5jsofm%2F2015%2F003202%2F006%2F0110-0114%26dl%3D0&type=MedicalOnline&icon=https%3A%2F%2Fjk04.jamas.or.jp%2Ficon%2F00004_2.gif",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "https://search.jamas.or.jp/default/link?pub_year=2015&ichushi_jid=J02923&link_issn=&doc_id=20150709470005&doc_link_id=10.5803%2Fjsfm.32.110&url=https%3A%2F%2Fdoi.org%2F10.5803%2Fjsfm.32.110&type=J-STAGE&icon=https%3A%2F%2Fjk04.jamas.or.jp%2Ficon%2F00007_3.gif",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0001491/misc/48136086",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0001491/misc",
+                    "rm:id": "48136086",
+                    "rm:user_id": "0000010293",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000010293",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2024-10-08T03:19:01Z",
+                    "rm:modifier_id": "0000010293",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2024-10-08T03:19:01Z",
+                    "paper_title": {
+                        "ja": "国産ボツリヌスウマ抗毒素製剤の安全性ならびに有効性の回顧的評価-患者治療に用いた投与実績報告に基づく-"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "持舘景太"
+                            },
+                            {
+                                "name": "鳥居恭司"
+                            },
+                            {
+                                "name": "小崎俊司"
+                            },
+                            {
+                                "name": "高橋元秀"
+                            },
+                            {
+                                "name": "銀永明弘"
+                            }
+                        ]
+                    },
+                    "publication_date": "2015",
+                    "publication_name": {
+                        "ja": "日本産業動物獣医学会(九州)・日本小動物獣医学会(九州)・日本獣医公衆衛生学会(九州)"
+                    },
+                    "volume": "2015",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "j_global_id": [
+                            "201602219346619049"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "j_global",
+                            "@id": "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=201602219346619049",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0001491/misc/48135973",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0001491/misc",
+                    "rm:id": "48135973",
+                    "rm:user_id": "0000010293",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000010293",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2024-10-08T03:12:14Z",
+                    "rm:modifier_id": "0000010293",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2024-10-08T03:12:14Z",
+                    "paper_title": {
+                        "ja": "M毒素を用いた新規の4価(A,B,E,およびF型)ボツリヌストキソイドワクチンの臨床研究(Clinical study of a new tetravalent (type A, B, E, and F) botulinum M toxoid vaccine)"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "鳥居 恭司"
+                            },
+                            {
+                                "name": "幸田 知子"
+                            },
+                            {
+                                "name": "杉本 央"
+                            },
+                            {
+                                "name": "小崎 俊司"
+                            },
+                            {
+                                "name": "高橋 元秀"
+                            },
+                            {
+                                "name": "銀永 明弘"
+                            },
+                            {
+                                "name": "山本 明彦"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "日本細菌学会"
+                    },
+                    "publication_date": "2014-02",
+                    "publication_name": {
+                        "ja": "日本細菌学雑誌"
+                    },
+                    "volume": "69",
+                    "number": "1",
+                    "starting_page": "246",
+                    "ending_page": "246",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "0021-4930"
+                        ],
+                        "e_issn": [
+                            "1882-4110"
+                        ],
+                        "jamas_id": [
+                            "2014221668"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "url",
+                            "@id": "https://search.jamas.or.jp/default/link?pub_year=2014&ichushi_jid=J01077&link_issn=&doc_id=20140228330572&doc_link_id=%2Fck0saiki%2F2014%2F006901%2F262%2F0246-0246%26dl%3D0&url=https%3A%2F%2Fwww.medicalonline.jp%2Fjamas.php%3FGoodsID%3D%2Fck0saiki%2F2014%2F006901%2F262%2F0246-0246%26dl%3D0&type=MedicalOnline&icon=https%3A%2F%2Fjk04.jamas.or.jp%2Ficon%2F00004_2.gif",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0001491/misc/48135916",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0001491/misc",
+                    "rm:id": "48135916",
+                    "rm:user_id": "0000010293",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000010293",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2024-10-08T03:11:21Z",
+                    "rm:modifier_id": "0000010293",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2024-10-08T03:11:21Z",
+                    "paper_title": {
+                        "ja": "破傷風に対する成人追加ワクチン接種に伴う費用分析"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "一二三 亭"
+                            },
+                            {
+                                "name": "山本 明彦"
+                            },
+                            {
+                                "name": "銀永 明弘"
+                            },
+                            {
+                                "name": "高橋 元秀"
+                            },
+                            {
+                                "name": "霧生 信明"
+                            },
+                            {
+                                "name": "長谷川 栄寿"
+                            },
+                            {
+                                "name": "小笠原 智子"
+                            },
+                            {
+                                "name": "加藤 宏"
+                            },
+                            {
+                                "name": "小井土 雄一"
+                            },
+                            {
+                                "name": "黒田 泰弘"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "(一社)日本救急医学会"
+                    },
+                    "publication_date": "2013-08",
+                    "publication_name": {
+                        "ja": "日本救急医学会雑誌"
+                    },
+                    "volume": "24",
+                    "number": "8",
+                    "starting_page": "589",
+                    "ending_page": "589",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "0915-924X"
+                        ],
+                        "e_issn": [
+                            "1883-3772"
+                        ],
+                        "jamas_id": [
+                            "2014023547"
+                        ]
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0001491/misc/48135974",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0001491/misc",
+                    "rm:id": "48135974",
+                    "rm:user_id": "0000010293",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000010293",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2024-10-08T03:12:14Z",
+                    "rm:modifier_id": "0000010293",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2024-10-08T03:12:14Z",
+                    "paper_title": {
+                        "en": "ボツリヌス神経毒素を強力に中和するヒト型モノクローナル抗体の作製(Development of human monoclonal antibodies effectively neutralizing botulinum neurotoxin)"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "佐々木 薫"
+                            },
+                            {
+                                "name": "松村 拓大"
+                            },
+                            {
+                                "name": "菅原 庸"
+                            },
+                            {
+                                "name": "幸田 知子"
+                            },
+                            {
+                                "name": "小崎 俊司"
+                            },
+                            {
+                                "name": "高橋 元秀"
+                            },
+                            {
+                                "name": "藤永 由佳子"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "en": "日本細菌学会"
+                    },
+                    "publication_date": "2013-02",
+                    "publication_name": {
+                        "en": "日本細菌学雑誌"
+                    },
+                    "volume": "68",
+                    "number": "1",
+                    "starting_page": "159",
+                    "ending_page": "159",
+                    "languages": [
+                        "eng"
+                    ],
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "0021-4930"
+                        ],
+                        "e_issn": [
+                            "1882-4110"
+                        ],
+                        "jamas_id": [
+                            "2013249397"
+                        ]
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0001491/misc/48135972",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0001491/misc",
+                    "rm:id": "48135972",
+                    "rm:user_id": "0000010293",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000010293",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2024-10-08T03:12:13Z",
+                    "rm:modifier_id": "0000010293",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2024-10-08T03:12:13Z",
+                    "paper_title": {
+                        "en": "ボツリヌス神経毒素に対するヒトモノクローナル抗体の開発(Development of human monoclonal antibodies against botulinum neurotoxin)"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "松村 拓大"
+                            },
+                            {
+                                "name": "佐々木 薫"
+                            },
+                            {
+                                "name": "菅原 庸"
+                            },
+                            {
+                                "name": "幸田 知子"
+                            },
+                            {
+                                "name": "小崎 俊司"
+                            },
+                            {
+                                "name": "高橋 元秀"
+                            },
+                            {
+                                "name": "生田 和良"
+                            },
+                            {
+                                "name": "藤永 由佳子"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "en": "(公社)日本生化学会"
+                    },
+                    "publication_date": "2012-12",
+                    "publication_name": {
+                        "en": "日本生化学会大会プログラム・講演要旨集"
+                    },
+                    "volume": "85回",
+                    "starting_page": "3P",
+                    "ending_page": "853",
+                    "languages": [
+                        "eng"
+                    ],
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "jamas_id": [
+                            "2014250086"
+                        ]
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0001491/misc/48135918",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0001491/misc",
+                    "rm:id": "48135918",
+                    "rm:user_id": "0000010293",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000010293",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2024-10-08T03:11:21Z",
+                    "rm:modifier_id": "0000010293",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2024-10-08T03:11:21Z",
+                    "paper_title": {
+                        "ja": "【ワクチンの品質管理】沈降精製百日せきジフテリア破傷風混合ワクチンの品質管理"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "高橋 元秀"
+                            },
+                            {
+                                "name": "岩城 正昭"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "日本臨床ウイルス学会"
+                    },
+                    "publication_date": "2012-12",
+                    "publication_name": {
+                        "ja": "臨床とウイルス"
+                    },
+                    "volume": "40",
+                    "number": "5",
+                    "starting_page": "314",
+                    "ending_page": "326",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "0303-8092"
+                        ],
+                        "jamas_id": [
+                            "2013105646"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "url",
+                            "@id": "https://search.jamas.or.jp/default/link?pub_year=2012&ichushi_jid=J01555&link_issn=&doc_id=20130123040010&doc_link_id=1573950400905482496&url=https%3A%2F%2Fcir.nii.ac.jp%2Fcrid%2F1573950400905482496&type=CiNii&icon=https%3A%2F%2Fjk04.jamas.or.jp%2Ficon%2F00003_1.gif",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "https://search.jamas.or.jp/default/link?pub_year=2012&ichushi_jid=J01555&link_issn=&doc_id=20130123040010&doc_link_id=%2Fdq0cviro%2F2012%2F004005%2F010%2F0314-0326%26dl%3D0&url=https%3A%2F%2Fwww.medicalonline.jp%2Fjamas.php%3FGoodsID%3D%2Fdq0cviro%2F2012%2F004005%2F010%2F0314-0326%26dl%3D0&type=MedicalOnline&icon=https%3A%2F%2Fjk04.jamas.or.jp%2Ficon%2F00004_2.gif",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0001491/misc/48135919",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0001491/misc",
+                    "rm:id": "48135919",
+                    "rm:user_id": "0000010293",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000010293",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2024-10-08T03:11:21Z",
+                    "rm:modifier_id": "0000010293",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2024-10-08T03:11:21Z",
+                    "paper_title": {
+                        "ja": "話題の疾患と治療 震災と破傷風"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "高橋 元秀"
+                            },
+                            {
+                                "name": "山本 明彦"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "ja": "破傷風はClostridium tetaniを起因菌とする創傷性の毒素性細菌感染症である。感染・発症した人や動物から人に伝播する疾病ではなく、大半は個人の創傷部位の皮下組織に菌(芽胞)を含む土壌および異物が混入し、嫌気状況下で感染が成立する単独感染である。破傷風菌(芽胞)は広く世界中の土壌から分離されるために、患者報告に地域性がなく、国に差はなく感染のリスクは高い。菌の発育・増殖に伴い産生された神経毒素により、近傍の筋肉をはじめとして中枢性に強直性麻痺の症状を呈する。毒素をホルマリンで無毒化した破傷風トキソイドが1950年代に開発され、厳しいハードとソフトの品質管理が導入されて、海外製品を上回る品質の製剤が国内で市販されている。乳幼児と学童には定期接種で沈降精製百日せきジフテリア破傷風混合ワクチンおよび沈降ジフテリア破傷風混合トキソイドが接種され、破傷風の発症防御に十分な抗体が誘導され、40代以下の年齢層では発症報告はきわめて稀である。2011年3月の東北地方太平洋沖地震後に報告のあった9名の患者は、すべてが50歳以上であり、幼児・学童時に受けたワクチン抗体が消失していたために感染後、発症したと考える。破傷風はトキソイドワクチンで防ぐことが可能であり、特に震災時、および震災後の復興活動時に受傷する機会が多い抗体をもたない成人には積極的にワクチン接種を指導することが望まれる。(著者抄録)"
+                    },
+                    "publisher": {
+                        "ja": "鳥居薬品(株)"
+                    },
+                    "publication_date": "2012-04",
+                    "publication_name": {
+                        "ja": "感染・炎症・免疫"
+                    },
+                    "volume": "42",
+                    "number": "1",
+                    "starting_page": "79",
+                    "ending_page": "82",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "0387-1010"
+                        ],
+                        "jamas_id": [
+                            "2012316428"
+                        ]
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0001491/misc/48136007",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0001491/misc",
+                    "rm:id": "48136007",
+                    "rm:user_id": "0000010293",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000010293",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2024-10-08T03:13:10Z",
+                    "rm:modifier_id": "0000010293",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2024-10-08T03:13:10Z",
+                    "paper_title": {
+                        "ja": "愛媛県におけるイヌ・ネコのジフテリア毒素原性Corynebacterium ulcelans保菌状況(第2報)"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "烏谷 竜哉"
+                            },
+                            {
+                                "name": "浅野 由紀子"
+                            },
+                            {
+                                "name": "田中 博"
+                            },
+                            {
+                                "name": "岡 裕三"
+                            },
+                            {
+                                "name": "土井 光徳"
+                            },
+                            {
+                                "name": "佐々木 俊哉"
+                            },
+                            {
+                                "name": "木村 琴葉"
+                            },
+                            {
+                                "name": "岩崎 靖"
+                            },
+                            {
+                                "name": "豊嶋 千俊"
+                            },
+                            {
+                                "name": "薦田 洋司"
+                            },
+                            {
+                                "name": "小宮 貴子"
+                            },
+                            {
+                                "name": "高橋 元秀"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "ja": "平成22年5月～12月に愛媛県動物愛護センターに収容されたイヌ124頭、ネコ124頭の咽頭ぬぐいスワブを採取し、分離培養検査を行った。イヌ3頭、ネコ8頭からC.ulcelansを分離した。DTA(ジフテリア毒素A)遺伝子PCRおよびジフテリア毒素原性試験の結果、イヌ3頭、ネコ6頭においてジフテリア毒素原性C.ulcelansの保有が確認された。収容動物の地域や収容時期による保有率の差は認められなかった。また、飼育中のネコ用ケージ床面48件、犬房床面32件、飼育前(洗浄後)のケージ(床面)48件、施設通路など32件から拭き取りスワブを採取し、分離培養検査を行った。ネコ用ケージ床面から6件、犬房床面から1件のC.ulcelansが分離され、7件はいずれもジフテリア毒素原性C.ulcelansであることが確認された。"
+                    },
+                    "publisher": {
+                        "ja": "愛媛県立衛生環境研究所"
+                    },
+                    "publication_date": "2012-02",
+                    "publication_name": {
+                        "ja": "愛媛県立衛生環境研究所年報"
+                    },
+                    "number": "13",
+                    "starting_page": "1",
+                    "ending_page": "6",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "1345-5966"
+                        ],
+                        "jamas_id": [
+                            "2012261595"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "url",
+                            "@id": "https://search.jamas.or.jp/default/link?pub_year=2012&ichushi_jid=J03357&link_issn=&doc_id=20120411440001&doc_link_id=1522543656074179328&url=https%3A%2F%2Fcir.nii.ac.jp%2Fcrid%2F1522543656074179328&type=CiNii&icon=https%3A%2F%2Fjk04.jamas.or.jp%2Ficon%2F00003_1.gif",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0001491/misc/48135920",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0001491/misc",
+                    "rm:id": "48135920",
+                    "rm:user_id": "0000010293",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000010293",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2024-10-08T03:11:22Z",
+                    "rm:modifier_id": "0000010293",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2024-10-08T03:11:22Z",
+                    "paper_title": {
+                        "ja": "瘡蓋より菌の分離された破傷風の一症例"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "栗本 真起子"
+                            },
+                            {
+                                "name": "入江 由美"
+                            },
+                            {
+                                "name": "杉村 悟"
+                            },
+                            {
+                                "name": "山本 明彦"
+                            },
+                            {
+                                "name": "高橋 元秀"
+                            },
+                            {
+                                "name": "大里 絵美"
+                            },
+                            {
+                                "name": "山磨 達郎"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "ja": "症例は80歳男性で、左手を負傷し家で治療していたが開口障害を認め、破傷風の疑いで紹介入院となった。臨床所見より破傷風と診断し、破傷風免疫グロブリン3000単位を静注し、破傷風トキソイド0.5mLを投与した。また、肺炎予防目的でスルバクタム/アンピシリンも投与した。翌日より呼吸困難が進行し、呼吸筋麻痺が考えられ気管切開した。頸部、四肢筋の硬直出現、間欠的な痙攣もみられ、創部のデブリードマン洗浄も行った。入院後1週間で痙攣は治まり、リハビリテーションを開始し、受傷より3ヵ月で退院となった。入院時に血液培養と挫創部の瘡蓋を採取して培養を行った結果、グラム陽性菌を認め、Clostridium tetaniと同定した。"
+                    },
+                    "publisher": {
+                        "ja": "(一社)岡山県臨床検査技師会"
+                    },
+                    "publication_date": "2012-02",
+                    "publication_name": {
+                        "ja": "岡山医学検査"
+                    },
+                    "volume": "49",
+                    "number": "1",
+                    "starting_page": "19",
+                    "ending_page": "22",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "1349-1504"
+                        ],
+                        "jamas_id": [
+                            "2012175071"
+                        ]
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0001491/misc/48135976",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0001491/misc",
+                    "rm:id": "48135976",
+                    "rm:user_id": "0000010293",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000010293",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2024-10-08T03:12:14Z",
+                    "rm:modifier_id": "0000010293",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2024-10-08T03:12:14Z",
+                    "paper_title": {
+                        "ja": "【特殊感染症】ボツリヌス症"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "高橋 元秀"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "ja": "ボツリヌス症は食中毒だけでなく、乳児ボツリヌス、創傷性ボツリヌスおよびバイオテロなどによる患者も想定することが必要で、臨床診断による疑い例は、理学的および細菌学的検査法での確認を推奨する。海外では交通事故後の創傷部位からの感染、または汚染した注射剤による薬物乱用者の感染の報告がある。最近、広範囲領域で使用される治療用ボツリヌス毒素の誤使用による美容整形の医療現場での事故報告もある。国内、米国では乳児ボツリヌス症患者数は、食中毒患者数よりも増加の傾向にある。C.botulinumの産生する毒素により菌はA～Gの7型に分類され、菌は、ほぼ世界中の土壌から分離され、その分布は型により局地性がある。C.botulinum以外にボツリヌス毒素を産生する菌として、E型類似毒素を産生するC.butylicum、F型類似毒素を産生するC.baratiiが報告されている。各型の菌には遺伝子相同性が異なるサブタイプが存在し、複数の毒素を産生することが確認されている。また、1株で複数の毒素(Ab、Af、bF:大文字の毒素型が産生量が多い)を産生する菌も報告されている。国内の東北・北海道の湖沼、海岸の土壌からE型菌は分離され、患者は菌が汚染した魚を原材料とする「いずし」を喫食して発症する。近年、地域衛生機関の「いずし」を作らない、食べない、あげない指導により、患者発生は減少の傾向にある。国内のボツリヌス菌の分布報告はC、DおよびE型菌であり、AまたB型菌が国内の土壌から分離される報告はまれである。A、B型菌による国内事例は菌の分布する国から菌が汚染した輸入食材、食品が原因と推定される。とくに海外産のハチミツはボツリヌス菌(芽胞)の汚染リスクが高く、腸内細菌叢が未熟な12ヵ月未満の乳児には与えない警告がされている。治療には、ICUによる呼吸管理と毒素を中和する抗毒素療法が有効な手段である。(著者抄録)"
+                    },
+                    "publisher": {
+                        "ja": "医学図書出版(株)"
+                    },
+                    "publication_date": "2011-12",
+                    "publication_name": {
+                        "ja": "ICUとCCU"
+                    },
+                    "volume": "35",
+                    "number": "12",
+                    "starting_page": "1073",
+                    "ending_page": "1080",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "0389-1194"
+                        ],
+                        "isbn": [
+                            "9784871514132"
+                        ],
+                        "jamas_id": [
+                            "2012059533"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "url",
+                            "@id": "https://search.jamas.or.jp/default/link?pub_year=2011&ichushi_jid=J00001&link_issn=&doc_id=20120117390002&doc_link_id=%2Faa6icutc%2F2011%2F003512%2F003%2F1073-1080%26dl%3D0&url=https%3A%2F%2Fwww.medicalonline.jp%2Fjamas.php%3FGoodsID%3D%2Faa6icutc%2F2011%2F003512%2F003%2F1073-1080%26dl%3D0&type=MedicalOnline&icon=https%3A%2F%2Fjk04.jamas.or.jp%2Ficon%2F00004_2.gif",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0001491/misc/48135922",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0001491/misc",
+                    "rm:id": "48135922",
+                    "rm:user_id": "0000010293",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000010293",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2024-10-08T03:11:22Z",
+                    "rm:modifier_id": "0000010293",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2024-10-08T03:11:22Z",
+                    "paper_title": {
+                        "ja": "【人と動物の共通感染症最前線8】飼育下ニホンザル(Macaca fuscata)群における破傷風の集団発生"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "中野 朋美"
+                            },
+                            {
+                                "name": "中村 進一"
+                            },
+                            {
+                                "name": "山本 明彦"
+                            },
+                            {
+                                "name": "高橋 元秀"
+                            },
+                            {
+                                "name": "宇根 有美"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "ja": "約60頭のニホンザルを飼育している施設で、2007～2009年までの3年間に28頭のサルが死亡した。特に死亡は、2008年に集中しており、15頭に達し(飼育頭数の25%)、前年比3.8倍増となった。28頭中14頭(2008年では15頭中11頭)に破傷風に特徴的な臨床症状が確認され、微生物学的検査が可能であった1頭のサルの創傷よりClostridium tetaniを分離した。あわせて、施設内の土壌より高率にC.tetaniを分離した。また、破傷風ワクチン接種によりその後の発生はない。以上より、破傷風菌に高度に汚染されている環境下で、繁殖期の闘争などが感染機会を増大し、破傷風の流行が起こったと推察した。(著者抄録)"
+                    },
+                    "publisher": {
+                        "ja": "文永堂出版(株)"
+                    },
+                    "publication_date": "2011-10",
+                    "publication_name": {
+                        "ja": "獣医畜産新報"
+                    },
+                    "volume": "64",
+                    "number": "10",
+                    "starting_page": "809",
+                    "ending_page": "811",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "0447-0192"
+                        ],
+                        "jamas_id": [
+                            "2012024190"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "url",
+                            "@id": "https://search.jamas.or.jp/default/link?pub_year=2011&ichushi_jid=J00625&link_issn=&doc_id=20111007310004&doc_link_id=1523106605103213568&url=https%3A%2F%2Fcir.nii.ac.jp%2Fcrid%2F1523106605103213568&type=CiNii&icon=https%3A%2F%2Fjk04.jamas.or.jp%2Ficon%2F00003_1.gif",
+                            "is_downloadable": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0001491/books_etc",
+            "@type": "books_etc",
+            "@reverse": "https://api.researchmap.jp/read0001491",
+            "total_items": 2,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0001491/books_etc/48135873",
+                    "@type": "books_etc",
+                    "@reverse": "https://api.researchmap.jp/read0001491/books_etc",
+                    "rm:id": "48135873",
+                    "rm:user_id": "0000010293",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000010293",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2024-10-08T03:08:28Z",
+                    "rm:modifier_id": "0000010293",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2024-10-08T03:08:28Z",
+                    "book_title": {
+                        "ja": "ワクチンと予防接種のすべて : 見直されるその威力"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "尾内, 一信"
+                            },
+                            {
+                                "name": "高橋, 元秀"
+                            },
+                            {
+                                "name": "三瀬, 勝利"
+                            },
+                            {
+                                "name": "田中, 慶司"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "金原出版"
+                    },
+                    "publication_date": "2019-10",
+                    "total_page": "xix, 254p",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "identifiers": {
+                        "isbn": [
+                            "9784307170741"
+                        ],
+                        "cinii_nc_id": [
+                            "BB29026448"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_books",
+                            "@id": "http://ci.nii.ac.jp/ncid/BB29026448",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "https://elib.maruzen.co.jp/elib/html/BookDetail/Id/3000121982",
+                            "is_downloadable": true
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0001491/books_etc/48135875",
+                    "@type": "books_etc",
+                    "@reverse": "https://api.researchmap.jp/read0001491/books_etc",
+                    "rm:id": "48135875",
+                    "rm:user_id": "0000010293",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000010293",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2024-10-08T03:08:28Z",
+                    "rm:modifier_id": "0000010293",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2024-10-08T03:08:28Z",
+                    "book_title": {
+                        "ja": "日本のワクチン : 開発と品質管理の歴史的検証"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "倉根, 一郎"
+                            },
+                            {
+                                "name": "石川, 豊数"
+                            },
+                            {
+                                "name": "伊藤, 康明"
+                            },
+                            {
+                                "name": "庵原, 俊昭"
+                            },
+                            {
+                                "name": "大隈, 邦夫"
+                            },
+                            {
+                                "name": "小幡, 朗"
+                            },
+                            {
+                                "name": "城野, 洋一郎"
+                            },
+                            {
+                                "name": "佐々木, 次雄"
+                            },
+                            {
+                                "name": "高杉, 憲一"
+                            },
+                            {
+                                "name": "高橋, 元秀"
+                            },
+                            {
+                                "name": "長井, 正昭"
+                            },
+                            {
+                                "name": "伏見, 環"
+                            },
+                            {
+                                "name": "山崎, 修道"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "医薬ジャーナル社"
+                    },
+                    "publication_date": "2014-03",
+                    "total_page": "335p",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "identifiers": {
+                        "isbn": [
+                            "9784753226542"
+                        ],
+                        "cinii_nc_id": [
+                            "BB15092160"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_books",
+                            "@id": "http://ci.nii.ac.jp/ncid/BB15092160",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "https://elib.maruzen.co.jp/elib/html/BookDetail/Id/3000017338",
+                            "is_downloadable": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0001491/research_projects",
+            "@type": "research_projects",
+            "@reverse": "https://api.researchmap.jp/read0001491",
+            "total_items": 2,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0001491/research_projects/48136066",
+                    "@type": "research_projects",
+                    "@reverse": "https://api.researchmap.jp/read0001491/research_projects",
+                    "rm:id": "48136066",
+                    "rm:user_id": "0000010293",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000010293",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2024-10-08T03:15:35Z",
+                    "rm:modifier_id": "0000010293",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2024-10-08T03:15:35Z",
+                    "research_project_title": {
+                        "ja": "ヒト型モノクローナル抗毒素抗体実用化のための試験的大量生産システムの確立",
+                        "en": "Establishment of a mass production system of human monoclonal anti-toxin antibodies"
+                    },
+                    "investigators": {
+                        "ja": [
+                            {
+                                "name": "杉本 央"
+                            },
+                            {
+                                "name": "小熊 恵二"
+                            },
+                            {
+                                "name": "高橋 元秀"
+                            },
+                            {
+                                "name": "小崎 俊司"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "SUGIMOTO Nakaba"
+                            },
+                            {
+                                "name": "OGUMA Keiji"
+                            },
+                            {
+                                "name": "TAKAHASHI Motohide"
+                            },
+                            {
+                                "name": "KOZAKI Shunji"
+                            }
+                        ]
+                    },
+                    "offer_organization": {
+                        "ja": "日本学術振興会",
+                        "en": "Japan Society for the Promotion of Science"
+                    },
+                    "system_name": {
+                        "ja": "科学研究費助成事業",
+                        "en": "Grants-in-Aid for Scientific Research"
+                    },
+                    "category": {
+                        "ja": "基盤研究(B)",
+                        "en": "Grant-in-Aid for Scientific Research (B)"
+                    },
+                    "institution_name": {
+                        "ja": "大阪大学",
+                        "en": "Osaka University"
+                    },
+                    "from_date": "1999",
+                    "to_date": "2001",
+                    "overall_grant_amount": {
+                        "total_cost": "9300000",
+                        "direct_cost": "9300000"
+                    },
+                    "description": {
+                        "ja": "平成11年の中国側2施設と日本側との合意に基づき、日本側は効率的なモノクローナル抗体の生産方法を実験室レベルで検討することとし、実際のヒト型抗毒素モノクローナル抗体の生産を中国蘭州生物製品研究所で行なうこととした。蘭州生物製品研究所に供与したハイブリドーマ株の無血清培地への馴化が著しく遅れることが予想される事態が生じたために5%ウシ胎児血清添加培地での生産に集中して以下の結果を得た。ホロファイバー培地循環式培養装置で得られたモノクローナル抗体の濃度は約7×10^<-3>IU/ml、1ヶ月半の培養でヒトIgG量にして1.5gの抗体を産生できるようになった。破傷風トキソイドカラムとMono Qカラムの組み合わせによる精製を行なった結果、中国の生物製品基準である90%以上の純度を持つ抗体標品を得ることができた。これらの標品の中和活性は、G2およびG6単独ではIgG100μg当り6.2IUと20.4IUであり、G2とG6等量混合物では42.0IUであった。現在この抗破傷風抗毒素について中国薬品生物製品検定所での検定作業が進められている。\n平成12年度においては、またヒト型モノクローナル抗毒素抗体の治験を実施する地域として中国西北部新彊ウイグル自治区を取り上げ、当該地域における破傷風およびボツリヌス中毒症の発生状況に関する現地調査を実施した。その結果、新生児破傷風の報告は広西省・広東省・貴州省・新彊ウイグル自治区・海南省が上位を占めており、新彊ウイグル自治区は中国国内でも新生児破傷風の報告例数が特に多い地域であるが、新生児破傷風例数の実数すら把握できていないこと、また中国国内で生産されている破傷風ワクチンをWHOの指針通り2回接種することで母体に充分な抗体価の上昇が得られるかどうかについても調査が出来ていない事が判明した。",
+                        "en": "In 1999, Japanese and Chinese researchers had three meetings and agreed that the production of human monoclonal antitoxins would be performed in Lanzhou Institute of Biological Product and that Japanese researchers would support the production by laboratory examination of culture conditions. Because of the delay in adaptation of hybridomas for the production of human anti-tetanus monoclonal antibodies, we focused our effort on the mass culture of the hybridomas in the medium containing 5 % FCS and the way of purification of antibodies from the culture. Perfusion culture of the hybridomas for 1.5 months gave us 1.5 g of IgG in total, and the concentration of the antibodies in the culture was 7X10^<-3> IU/ml. The most effective way of purification was proved to be a combination of an affinity chromatography with tetanus toxoid and an ion-exchange chromatography with Mono Q column. Neutralizing activities of final preparations of G2 and G6 were 6.2 IU and 20.4 IU for 100 μg IgG, respectively. Characteristics of these preparations as biological products are now under investigation in National Institute for the Control of Pharmaceuticals and Biological Products in China."
+                    },
+                    "identifiers": {
+                        "grant_number": [
+                            "11694279"
+                        ],
+                        "national_grant_number": [
+                            "JP11694279"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "kaken",
+                            "@id": "https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-11694279"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0001491/research_projects/48136067",
+                    "@type": "research_projects",
+                    "@reverse": "https://api.researchmap.jp/read0001491/research_projects",
+                    "rm:id": "48136067",
+                    "rm:user_id": "0000010293",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000010293",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2024-10-08T03:15:36Z",
+                    "rm:modifier_id": "0000010293",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2024-10-08T03:15:36Z",
+                    "research_project_title": {
+                        "ja": "ヒト型抗毒素モノクローナル抗体の開発と臨床効果の評価",
+                        "en": "Development of human anti-toxin monoclonal antibodies"
+                    },
+                    "investigators": {
+                        "ja": [
+                            {
+                                "name": "杉本 央"
+                            },
+                            {
+                                "name": "雷 殿良"
+                            },
+                            {
+                                "name": "孟 筱埼"
+                            },
+                            {
+                                "name": "高橋 元秀"
+                            },
+                            {
+                                "name": "小崎 俊司"
+                            },
+                            {
+                                "name": "松田 守弘"
+                            },
+                            {
+                                "name": "橋爪 秀一"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "SUGMOTO Nakaba"
+                            },
+                            {
+                                "name": "TAKAHASHI Motohide"
+                            },
+                            {
+                                "name": "KOZAKI Shunji"
+                            },
+                            {
+                                "name": "MATSUDA Morihiro"
+                            },
+                            {
+                                "name": "XIAOQI Meng"
+                            },
+                            {
+                                "name": "DIANLIANG Lei"
+                            }
+                        ]
+                    },
+                    "offer_organization": {
+                        "ja": "日本学術振興会",
+                        "en": "Japan Society for the Promotion of Science"
+                    },
+                    "system_name": {
+                        "ja": "科学研究費助成事業",
+                        "en": "Grants-in-Aid for Scientific Research"
+                    },
+                    "category": {
+                        "ja": "国際学術研究",
+                        "en": "Grant-in-Aid for international Scientific Research"
+                    },
+                    "institution_name": {
+                        "ja": "大阪大学",
+                        "en": "Osaka University"
+                    },
+                    "from_date": "1997",
+                    "to_date": "1998",
+                    "overall_grant_amount": {
+                        "total_cost": "8100000",
+                        "direct_cost": "8100000"
+                    },
+                    "description": {
+                        "ja": "平成10年度において、本研究費補助金によって中国側から5名の研究者を日本へ招聘するとともに、中国衛生部の費用負担で日本側研究者3名が中国に渡航した。本研究計画に基づく研究の進捗状況に即応した協議を重ねるとともに、今後の研究計画についても詳細な検討を加えることによって、以下の実績を挙げることができた。\n1. 平成9年度に実施した力価検定および特異性検定で、日本の森永生科学研究所で製造したヒト型抗破傷風モノクローナル抗体には問題が無いことが明かになったが、中国国内での使用を目的とする抗毒素抗体については中国国内で製造したものについての再検定が必要であるとの点で合意に到達した。\n2. 中国衛生部蘭州生物製品研究所と森永生科学研究所の間で、ヒト型抗破傷風モノクローナル抗体産生ハイブリドーマ2株と細胞融合用のミエローマ株の譲渡に関する契約が締結された。\n3. 森永生科学研究所から蘭州生物製品研究所へ細胞株が譲渡され、中国国内でのヒト型抗破傷風モノクローナル抗体の試験的生産が着手された。\n4. 日本国内で研究者用に千葉県血清研究所で生産されている多価ボツリヌストキソイドが、蘭州生物製品検定所に譲渡され、細胞融合用のリンパ球を採取するための免疫が開始された。",
+                        "en": "In the financial year of 1997, we sent 5 Japanese researchers to China, and invited 2 Chinese researchers to Japan. In the financial year of 1998. we invited 5 Chinese researchers to Japan, and Chinese Department of Health invited 3 Japanese researchers to China. Fruits of these missions were as follows ;\n1. Chinese Department of Health settles 23 criterions for the application of the monoclonal antibody as a clinical therapeutic agent. Through the discussions held during the missions, we concluded that we should focus our effort on the most important 3 criterions in this project with the limited budget and period. The three are purity, specificity, and potency of anti-tetanus human monoclonal antibodies, of which hybridomas are already established in Japan.\n2. A continuous perfusion culture will be suitable for the production of human monoclonal antibodies in Lanzhou Institute.\n3. Preliminary tests on anti-tetanus human monoclonal antibodies produced in Japan were carried in FDA China in Beijing and Lanzhou Institute independently. The results showed high potencies of these human monoclonal antibodies."
+                    },
+                    "identifiers": {
+                        "grant_number": [
+                            "09044297"
+                        ],
+                        "national_grant_number": [
+                            "JP09044297"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "kaken",
+                            "@id": "https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-09044297"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

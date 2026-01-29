@@ -1,0 +1,2960 @@
+{
+    "@context": "https://api.researchmap.jp/researcher.jsonld",
+    "@id": "https://api.researchmap.jp/read0008958?format=json",
+    "@type": "researchers",
+    "rm:user_id": "1000017459",
+    "rm:creator_id": "1000017459",
+    "rm:creator_type": "myself",
+    "rm:created": "2009-12-21T15:00:00Z",
+    "rm:modifier_id": "1000017459",
+    "rm:modifier_type": "myself",
+    "rm:modified": "2024-05-19T00:05:25Z",
+    "permalink": "read0008958",
+    "family_name": {
+        "ja": "藤間",
+        "ja-Kana": "フジマ",
+        "en": "FUJIMA"
+    },
+    "given_name": {
+        "ja": "昌一",
+        "ja-Kana": "シヨウイチ",
+        "en": "Shoichi"
+    },
+    "display_name_kana": "disclosed",
+    "display_nickname": "disclosed",
+    "display_image": "disclosed",
+    "display_contact_point": "disclosed",
+    "affiliations": [
+        {
+            "affiliation": {
+                "ja": "茨城大学",
+                "en": "Ibaraki University"
+            },
+            "section": {
+                "ja": "理工学研究科（理学野） 数学・情報数理領域",
+                "en": "Graduate School of Science and Engineering (Science) Department of Science (Mathematics and Informatics Course)"
+            },
+            "job": {
+                "ja": "教授",
+                "en": "Professor"
+            },
+            "display_affiliation": "disclosed",
+            "display_job": "disclosed",
+            "rm:institution_code": "0152008003"
+        }
+    ],
+    "degrees": [
+        {
+            "degree": {
+                "en": "Doctor(Science)",
+                "ja": "博士(理学)"
+            },
+            "degree_date": "1997-03",
+            "degree_institution": {
+                "en": "Hiroshima University",
+                "ja": "広島大学"
+            },
+            "display_degree": "disclosed",
+            "rm:institution_code": "0336000000"
+        },
+        {
+            "degree": {
+                "en": "Master of Engineering",
+                "ja": "工学修士"
+            },
+            "degree_date": "1988-03",
+            "degree_institution": {
+                "en": "The University of Electro-Communications",
+                "ja": "電気通信大学"
+            },
+            "display_degree": "disclosed",
+            "rm:institution_code": "0216000000"
+        }
+    ],
+    "display_profile": "disclosed",
+    "display_url": "disclosed",
+    "identifiers": {
+        "erad_id": [
+            "00209082"
+        ],
+        "orc_id": [
+            "0000-0002-4024-0151"
+        ],
+        "j_global_id": [
+            "200901060029540722"
+        ]
+    },
+    "rm:erad_id_verified": false,
+    "rm:orc_id_verified": true,
+    "display_erad_id": "disclosed",
+    "display_orc_id": "disclosed",
+    "display_researcher_id": "disclosed",
+    "display_j_global_id": "disclosed",
+    "see_also": [
+        {
+            "label": "orcid",
+            "@id": "https://orcid.org/0000-0002-4024-0151"
+        },
+        {
+            "label": "j_global",
+            "@id": "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=200901060029540722"
+        }
+    ],
+    "@graph": [
+        {
+            "@id": "https://api.researchmap.jp/read0008958/research_interests",
+            "@type": "research_interests",
+            "@reverse": "https://api.researchmap.jp/read0008958",
+            "total_items": 1,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0008958/research_interests/11124630",
+                    "@type": "research_interests",
+                    "@reverse": "https://api.researchmap.jp/read0008958/research_interests",
+                    "rm:id": "11124630",
+                    "rm:user_id": "1000017459",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:Wz34TjplGVJC#yY5",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-17T18:02:52Z",
+                    "rm:modifier_id": "R000000067",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2021-09-01T02:06:34Z",
+                    "keyword": {
+                        "ja": "計算アルゴリズム",
+                        "en": "Computation algorithm"
+                    }
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0008958/research_areas",
+            "@type": "research_areas",
+            "@reverse": "https://api.researchmap.jp/read0008958",
+            "total_items": 2,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0008958/research_areas/8954342",
+                    "@type": "research_areas",
+                    "@reverse": "https://api.researchmap.jp/read0008958/research_areas",
+                    "rm:id": "8954342",
+                    "rm:user_id": "1000017459",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:Wz34TjplGVJC#yY5",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-17T18:02:52Z",
+                    "rm:modifier_id": "R000000067",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2021-09-01T02:06:34Z",
+                    "discipline_number": "A1000",
+                    "item_number": "A12040",
+                    "discipline": {
+                        "ja": "自然科学一般",
+                        "en": "Natural sciences"
+                    },
+                    "research_field": {
+                        "ja": "応用数学、統計数学",
+                        "en": "Applied mathematics and statistics"
+                    },
+                    "research_keyword": {
+                        "ja": "応用数学",
+                        "en": "Applied Mathematics"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008958/research_areas/8954341",
+                    "@type": "research_areas",
+                    "@reverse": "https://api.researchmap.jp/read0008958/research_areas",
+                    "rm:id": "8954341",
+                    "rm:user_id": "1000017459",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:Wz34TjplGVJC#yY5",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-17T18:02:52Z",
+                    "rm:modifier_id": "client_id:Wz34TjplGVJC#yY5",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-01-17T18:02:52Z",
+                    "discipline_number": "A1000",
+                    "item_number": "A12030",
+                    "discipline": {
+                        "ja": "自然科学一般",
+                        "en": "Natural sciences"
+                    },
+                    "research_field": {
+                        "ja": "数学基礎",
+                        "en": "Basic mathematics"
+                    },
+                    "research_keyword": {
+                        "ja": "応用数学",
+                        "en": "Applied Mathematics"
+                    }
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0008958/research_experience",
+            "@type": "research_experience",
+            "@reverse": "https://api.researchmap.jp/read0008958",
+            "total_items": 7,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0008958/research_experience/29661686",
+                    "@type": "research_experience",
+                    "@reverse": "https://api.researchmap.jp/read0008958/research_experience",
+                    "rm:id": "29661686",
+                    "rm:user_id": "1000017459",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "R000000067",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-08-27T03:18:31Z",
+                    "rm:modifier_id": "R000000067",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2021-09-01T02:06:34Z",
+                    "from_date": "2020-04",
+                    "rm:institution_code": "0152008000",
+                    "affiliation": {
+                        "ja": "茨城大学大学院",
+                        "en": "Ibaraki University"
+                    },
+                    "section": {
+                        "ja": "理工学研究科理学野",
+                        "en": "Graduate School of Science and Engineering"
+                    },
+                    "job": {
+                        "ja": "教授",
+                        "en": "Professor"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008958/research_experience/29661685",
+                    "@type": "research_experience",
+                    "@reverse": "https://api.researchmap.jp/read0008958/research_experience",
+                    "rm:id": "29661685",
+                    "rm:user_id": "1000017459",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "R000000067",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-08-27T03:18:31Z",
+                    "rm:modifier_id": "R000000067",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2021-09-01T02:06:34Z",
+                    "from_date": "2019-04",
+                    "to_date": "2020-03",
+                    "rm:institution_code": "0152008000",
+                    "affiliation": {
+                        "ja": "茨城大学大学院",
+                        "en": "Ibaraki University"
+                    },
+                    "section": {
+                        "ja": "理工学研究科理学野",
+                        "en": "Graduate School of Science and Engineering"
+                    },
+                    "job": {
+                        "ja": "准教授",
+                        "en": "Associate Professor"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008958/research_experience/23178120",
+                    "@type": "research_experience",
+                    "@reverse": "https://api.researchmap.jp/read0008958/research_experience",
+                    "rm:id": "23178120",
+                    "rm:user_id": "1000017459",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:Wz34TjplGVJC#yY5",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-17T18:02:52Z",
+                    "rm:modifier_id": "R000000067",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2023-01-10T03:27:43Z",
+                    "from_date": "2007-04",
+                    "to_date": "2019-03",
+                    "rm:institution_code": "0152000000",
+                    "affiliation": {
+                        "ja": "茨城大学",
+                        "en": "Ibaraki University"
+                    },
+                    "section": {
+                        "ja": "理学部",
+                        "en": "Faculty of Science"
+                    },
+                    "job": {
+                        "ja": "准教授",
+                        "en": "Associate Professor"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008958/research_experience/23178119",
+                    "@type": "research_experience",
+                    "@reverse": "https://api.researchmap.jp/read0008958/research_experience",
+                    "rm:id": "23178119",
+                    "rm:user_id": "1000017459",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:Wz34TjplGVJC#yY5",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-17T18:02:52Z",
+                    "rm:modifier_id": "R000000067",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2023-01-10T03:27:43Z",
+                    "from_date": "1998-03",
+                    "to_date": "2007-03",
+                    "rm:institution_code": "0152000000",
+                    "affiliation": {
+                        "ja": "茨城大学",
+                        "en": "Ibaraki University"
+                    },
+                    "section": {
+                        "ja": "理学部",
+                        "en": "Faculty of Science"
+                    },
+                    "job": {
+                        "ja": "助教授",
+                        "en": "Associate Professor"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008958/research_experience/23178118",
+                    "@type": "research_experience",
+                    "@reverse": "https://api.researchmap.jp/read0008958/research_experience",
+                    "rm:id": "23178118",
+                    "rm:user_id": "1000017459",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:Wz34TjplGVJC#yY5",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-17T18:02:52Z",
+                    "rm:modifier_id": "R000000067",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2023-01-10T03:27:43Z",
+                    "from_date": "1997-04",
+                    "to_date": "1998-02",
+                    "rm:institution_code": "0368034010",
+                    "affiliation": {
+                        "ja": "九州大学",
+                        "en": "Kyushu University"
+                    },
+                    "section": {
+                        "ja": "工学部機械工学科",
+                        "en": "Department of Mechanical Engineering, Faculty of Engineering"
+                    },
+                    "job": {
+                        "ja": "助手",
+                        "en": "Research Associate"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008958/research_experience/23178117",
+                    "@type": "research_experience",
+                    "@reverse": "https://api.researchmap.jp/read0008958/research_experience",
+                    "rm:id": "23178117",
+                    "rm:user_id": "1000017459",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:Wz34TjplGVJC#yY5",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-17T18:02:52Z",
+                    "rm:modifier_id": "R000000067",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2023-01-10T03:27:43Z",
+                    "from_date": "1994-04",
+                    "to_date": "1997-03",
+                    "rm:institution_code": "0336023001",
+                    "affiliation": {
+                        "ja": "広島大学",
+                        "en": "Hiroshima University"
+                    },
+                    "section": {
+                        "ja": "理学部数学科",
+                        "en": "Department of Mathematics, Faculty of Science"
+                    },
+                    "job": {
+                        "ja": "助手",
+                        "en": "Research Associate"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008958/research_experience/23178116",
+                    "@type": "research_experience",
+                    "@reverse": "https://api.researchmap.jp/read0008958/research_experience",
+                    "rm:id": "23178116",
+                    "rm:user_id": "1000017459",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:Wz34TjplGVJC#yY5",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-17T18:02:52Z",
+                    "rm:modifier_id": "R000000067",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2021-09-01T02:06:34Z",
+                    "from_date": "1988-04",
+                    "to_date": "1994-03",
+                    "rm:institution_code": "0216002002",
+                    "affiliation": {
+                        "ja": "電気通信大学",
+                        "en": "University of Electro-Communications"
+                    },
+                    "section": {
+                        "ja": "電気通信学部情報工学科",
+                        "en": "Department of Computer Science and Information Mathematics, Faculty of Electro-Communications"
+                    },
+                    "job": {
+                        "ja": "助手",
+                        "en": "Research Associate"
+                    }
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0008958/committee_memberships",
+            "@type": "committee_memberships",
+            "@reverse": "https://api.researchmap.jp/read0008958",
+            "total_items": 6,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0008958/committee_memberships/8420854",
+                    "@type": "committee_memberships",
+                    "@reverse": "https://api.researchmap.jp/read0008958/committee_memberships",
+                    "rm:id": "8420854",
+                    "rm:user_id": "1000017459",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:Wz34TjplGVJC#yY5",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-17T18:02:52Z",
+                    "rm:modifier_id": "client_id:Wz34TjplGVJC#yY5",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-01-17T18:02:52Z",
+                    "from_date": "2010-10-01",
+                    "to_date": "2012-09-30",
+                    "committee_name": {
+                        "ja": "応用数学分科会委員会委員"
+                    },
+                    "association": {
+                        "ja": "日本数学会"
+                    },
+                    "committee_type": "society"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008958/committee_memberships/8420853",
+                    "@type": "committee_memberships",
+                    "@reverse": "https://api.researchmap.jp/read0008958/committee_memberships",
+                    "rm:id": "8420853",
+                    "rm:user_id": "1000017459",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:Wz34TjplGVJC#yY5",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-17T18:02:52Z",
+                    "rm:modifier_id": "R000000067",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2021-09-01T02:06:34Z",
+                    "from_date": "2010-10",
+                    "to_date": "2012-09",
+                    "committee_name": {
+                        "en": "Member of Comittee for DIvision of Applied Mathematics",
+                        "ja": "応用数学分科会委員会委員"
+                    },
+                    "association": {
+                        "en": "Mathematical Society of Japan",
+                        "ja": "日本数学会"
+                    },
+                    "committee_type": "society"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008958/committee_memberships/8420858",
+                    "@type": "committee_memberships",
+                    "@reverse": "https://api.researchmap.jp/read0008958/committee_memberships",
+                    "rm:id": "8420858",
+                    "rm:user_id": "1000017459",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:Wz34TjplGVJC#yY5",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-17T18:02:52Z",
+                    "rm:modifier_id": "R000000067",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2021-09-01T02:06:34Z",
+                    "from_date": "2004-10",
+                    "to_date": "2009-10",
+                    "committee_name": {
+                        "ja": "欧文論文誌分野補助編集委員",
+                        "en": "associate member of editorial board in Area<2> of Official Journal"
+                    },
+                    "association": {
+                        "ja": "日本応用数理学会",
+                        "en": "The Japanese Society for Industrial and Applied Mathematics"
+                    },
+                    "committee_type": "society"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008958/committee_memberships/8420857",
+                    "@type": "committee_memberships",
+                    "@reverse": "https://api.researchmap.jp/read0008958/committee_memberships",
+                    "rm:id": "8420857",
+                    "rm:user_id": "1000017459",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:Wz34TjplGVJC#yY5",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-17T18:02:52Z",
+                    "rm:modifier_id": "client_id:Wz34TjplGVJC#yY5",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-01-17T18:02:52Z",
+                    "from_date": "2004-10",
+                    "to_date": "2009-10",
+                    "committee_name": {
+                        "en": "associate member of editorial board in Area<2> of Official Journal"
+                    },
+                    "association": {
+                        "en": "The Japanese Society for Industrial and Applied Mathematics"
+                    },
+                    "committee_type": "society"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008958/committee_memberships/8420856",
+                    "@type": "committee_memberships",
+                    "@reverse": "https://api.researchmap.jp/read0008958/committee_memberships",
+                    "rm:id": "8420856",
+                    "rm:user_id": "1000017459",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:Wz34TjplGVJC#yY5",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-17T18:02:52Z",
+                    "rm:modifier_id": "client_id:Wz34TjplGVJC#yY5",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-01-17T18:02:52Z",
+                    "from_date": "2003-04",
+                    "to_date": "2006-03",
+                    "committee_name": {
+                        "ja": "学会誌編集委員"
+                    },
+                    "association": {
+                        "ja": "日本応用数理学会"
+                    },
+                    "committee_type": "society"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008958/committee_memberships/8420855",
+                    "@type": "committee_memberships",
+                    "@reverse": "https://api.researchmap.jp/read0008958/committee_memberships",
+                    "rm:id": "8420855",
+                    "rm:user_id": "1000017459",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:Wz34TjplGVJC#yY5",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-17T18:02:52Z",
+                    "rm:modifier_id": "R000000067",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2021-09-01T02:06:34Z",
+                    "from_date": "2003-04",
+                    "to_date": "2006-03",
+                    "committee_name": {
+                        "en": "member of editorial board for Bulletin",
+                        "ja": "学会誌編集委員"
+                    },
+                    "association": {
+                        "en": "The Japanese Society for Industrial and Applied Mathematics",
+                        "ja": "日本応用数理学会"
+                    },
+                    "committee_type": "society"
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0008958/published_papers",
+            "@type": "published_papers",
+            "@reverse": "https://api.researchmap.jp/read0008958",
+            "total_items": 17,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0008958/published_papers/33509827",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0008958/published_papers",
+                    "rm:id": "33509827",
+                    "rm:user_id": "1000017459",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "R000000067",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2021-09-01T02:06:34Z",
+                    "rm:modifier_id": "1000017459",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2024-05-18T05:19:27Z",
+                    "paper_title": {
+                        "en": "Indivisibility of the class number of a real abelian field of prime conductor"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Shoichi Fujima"
+                            },
+                            {
+                                "name": "Humio Ichimura"
+                            }
+                        ]
+                    },
+                    "published_paper_owner_roles": [
+                        "corresponding"
+                    ],
+                    "publication_date": "2021-04",
+                    "publication_name": {
+                        "en": "Mathematical Journal of Ibaraki University"
+                    },
+                    "volume": "53",
+                    "starting_page": "1",
+                    "ending_page": "16",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "is_international_journal": false,
+                    "is_international_collaboration": false,
+                    "rm:is_open_access": true,
+                    "identifiers": {
+                        "doi": [
+                            "10.5036/mjiu.53.1"
+                        ],
+                        "issn": [
+                            "1343-3636"
+                        ],
+                        "e_issn": [
+                            "1883-4353"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.5036/mjiu.53.1",
+                            "is_downloadable": true
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008958/published_papers/33509828",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0008958/published_papers",
+                    "rm:id": "33509828",
+                    "rm:user_id": "1000017459",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "R000000067",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2021-09-01T02:06:34Z",
+                    "rm:modifier_id": "1000017459",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2024-05-18T05:22:11Z",
+                    "paper_title": {
+                        "en": "Kuratsubo phenomenon of the Fourier series of some radial functions in four dimensions"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Kazuya Ootsubo"
+                            },
+                            {
+                                "name": "Shoichi Fujima"
+                            },
+                            {
+                                "name": "Shigehiko Kuratsubo"
+                            },
+                            {
+                                "name": "Eiichi Nakai"
+                            }
+                        ]
+                    },
+                    "publication_date": "2020-12",
+                    "publication_name": {
+                        "en": "Scientiae Mathematicae Japonicae Online"
+                    },
+                    "volume": "e-2020",
+                    "number": "14",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "is_international_journal": false,
+                    "is_international_collaboration": false,
+                    "rm:is_open_access": false,
+                    "see_also": [
+                        {
+                            "@id": "https://www.jams.jp/notice/scmjol/2020.html",
+                            "label": "url",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008958/published_papers/22463561",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0008958/published_papers",
+                    "rm:id": "22463561",
+                    "rm:user_id": "1000017459",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:Wz34TjplGVJC#yY5",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-17T18:02:52Z",
+                    "rm:modifier_id": "R000000067",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2021-09-01T02:06:34Z",
+                    "paper_title": {
+                        "en": "Note on class number parity of an abelian field of prime conductor",
+                        "ja": "Note on class number parity of an abelian field of prime conductor"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "Shoichi Fujima"
+                            },
+                            {
+                                "name": "Humio Ichimura"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Shoichi Fujima and Humio Ichimura"
+                            }
+                        ]
+                    },
+                    "published_paper_owner_roles": [
+                        "lead"
+                    ],
+                    "publication_date": "2018-07-01",
+                    "publication_name": {
+                        "en": "Mathematical Journal of Ibaraki University",
+                        "ja": "Mathematical Journal of Ibaraki University"
+                    },
+                    "volume": "50",
+                    "starting_page": "15",
+                    "ending_page": "26",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "is_international_journal": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.5036/mjiu.50.15"
+                        ],
+                        "issn": [
+                            "1883-4353"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.5036/mjiu.50.15",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008958/published_papers/22463560",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0008958/published_papers",
+                    "rm:id": "22463560",
+                    "rm:user_id": "1000017459",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:Wz34TjplGVJC#yY5",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-17T18:02:52Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-09-01T09:58:47Z",
+                    "paper_title": {
+                        "en": "Note on the Class Number of the pth Cyclotomic Field, II"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Shoichi Fujima"
+                            },
+                            {
+                                "name": "Humio Ichimura"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "For an odd prime number p, let h − p denote the relative class number of the pth cyclotomic field (Formula presented.). It is conjectured that h − p is odd when p is of the form p = 2ℓ + 1 with an odd prime number ℓ, and it is known that the conjecture is valid if 2 is a primitive root modulo ℓ. In this article, we handle a prime number p of the form p = 2e + 1ℓ + 1 with e ⩾ 1 and an odd prime number ℓ. For 1 ⩽ e ⩽ 4, we prove that h − p is odd whenever 2 is a primitive root modulo ℓ with the help of computer. Without the assumption on ℓ, we compute and find that, in the range e ⩾ 1, ℓ &lt\n 220 and p &lt\n 237, h − p is even only for four exceptional cases, where ℓ happened to be a Mersenne prime number. Further, computing for larger p with a Mersenne prime ℓ, we find one more exception."
+                    },
+                    "publisher": {
+                        "en": "Taylor and Francis Inc."
+                    },
+                    "publication_date": "2018-01-02",
+                    "publication_name": {
+                        "en": "Experimental Mathematics"
+                    },
+                    "volume": "27",
+                    "number": "1",
+                    "starting_page": "111",
+                    "ending_page": "118",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1080/10586458.2016.1230528"
+                        ],
+                        "issn": [
+                            "1944-950X",
+                            "1058-6458"
+                        ],
+                        "scopus_id": [
+                            "84991030340"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1080/10586458.2016.1230528",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008958/published_papers/22463562",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0008958/published_papers",
+                    "rm:id": "22463562",
+                    "rm:user_id": "1000017459",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:Wz34TjplGVJC#yY5",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-17T18:02:52Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-09-01T02:09:40Z",
+                    "paper_title": {
+                        "en": "Note on the class number of the pTH cyclotomic field"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Shoichi Fujima"
+                            },
+                            {
+                                "name": "Humio Ichimura"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "Let p be a prime number of the form p = 2l&lt\nsup&gt\nf&lt\n/sup&gt\n +1 with an odd prime number 1, and h&lt\nsup&gt\n-&lt\n/sup&gt\n&lt\ninf&gt\np&lt\n/inf&gt\n the relative class number of the pth cyclotomic field K = ℚ(ζp). When f = 1, it is conjectured that h&lt\nsup&gt\n-&lt\n/sup&gt\n&lt\ninf&gt\np&lt\n/inf&gt\n is odd, and there are several results related to this conjecture. In this paper, we deal with the case f ≥ 2. For 0 ≤ t ≤ f, let h&lt\nsup&gt\n-&lt\n/sup&gt\n&lt\ninf&gt\np,t&lt\n/inf&gt\n denote the relative class number of the imaginary subfield Kt of K of degree 2l&lt\nsup&gt\nt&lt\n/sup&gt\n over ℚ. We show that the ratio h&lt\nsup&gt\n-&lt\n/sup&gt\n&lt\ninf&gt\np,f&lt\n/inf&gt\n/h&lt\nsup&gt\n-&lt\n/sup&gt\n&lt\ninf&gt\np,f-1&lt\n/inf&gt\n is not divisible by a prime number r if r is a primitive root modulo l&lt\nsup&gt\n2&lt\n/sup&gt\n. Further, when r ≤ 47, we give some computational results on the ratio h&lt\nsup&gt\n-&lt\n/sup&gt\n&lt\ninf&gt\np,t&lt\n/inf&gt\n/h&lt\nsup&gt\n-&lt\n/sup&gt\n&lt\ninf&gt\np,t-1&lt\n/inf&gt\n for 1 ≤ t ≤ f. In the range of our computation, we find that the ratio is divisible by r only in some exceptional cases."
+                    },
+                    "publisher": {
+                        "en": "Adam Mickiewicz University Press"
+                    },
+                    "publication_date": "2015-07-01",
+                    "publication_name": {
+                        "en": "Functiones et Approximatio, Commentarii Mathematici"
+                    },
+                    "volume": "52",
+                    "number": "2",
+                    "starting_page": "299",
+                    "ending_page": "309",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.7169/facm/2015.52.2.8"
+                        ],
+                        "issn": [
+                            "2080-9433",
+                            "0208-6573"
+                        ],
+                        "scopus_id": [
+                            "84934287208"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.7169/facm/2015.52.2.8",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008958/published_papers/22463564",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0008958/published_papers",
+                    "rm:id": "22463564",
+                    "rm:user_id": "1000017459",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:Wz34TjplGVJC#yY5",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-17T18:02:52Z",
+                    "rm:modifier_id": "R000000067",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2022-01-19T06:56:43Z",
+                    "paper_title": {
+                        "en": "Effectiveness of higher-order numerical integration in characteristic finite element methods",
+                        "ja": "Effectiveness of higher-order numerical integration in characteristic finite element methods"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "Shoichi Fujima"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Shoichi Fujima"
+                            }
+                        ]
+                    },
+                    "publication_date": "2008-04",
+                    "publication_name": {
+                        "en": "H. Fujita and M. Nakamura(eds.),,Proceedings of the 4th JSIAM-SIMAI Seminar on Industrial and Applied Mathematics,,(GAKUTO International Series, Mathematical Sciences and Applications, Vol.28)",
+                        "ja": "H. Fujita and M. Nakamura(eds.), Proceedings of the 4th JSIAM-SIMAI Seminar on Industrial and Applied Mathematics, (GAKUTO International Series, Mathematical Sciences and Applications, Vol.28)"
+                    },
+                    "starting_page": "11-20",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008958/published_papers/22463565",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0008958/published_papers",
+                    "rm:id": "22463565",
+                    "rm:user_id": "1000017459",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:Wz34TjplGVJC#yY5",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-17T18:02:52Z",
+                    "rm:modifier_id": "R000000067",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2023-03-02T03:06:35Z",
+                    "paper_title": {
+                        "en": "Robustness of a Characteristic Finite Element Scheme of,Second Order in Time Increment"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Masahisa Tabata"
+                            },
+                            {
+                                "name": "Shoichi Fujima"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "en": "SPRINGER-VERLAG BERLIN"
+                    },
+                    "publication_date": "2006-07",
+                    "publication_name": {
+                        "en": "C. Groth and D.W.Zingg(eds.),,Computational Fluid Dynamics 2004,(Proceedings of the Third International Conference on Computational Fluid Dynamics,,ICCFD3, Toronto, 12-16 July 2004),,Springer-Verlag Berlin Heidelberg"
+                    },
+                    "starting_page": "177-182",
+                    "ending_page": "+",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "wos_id": [
+                            "WOS:000240583500022"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000240583500022&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008958/published_papers/22463563",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0008958/published_papers",
+                    "rm:id": "22463563",
+                    "rm:user_id": "1000017459",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:Wz34TjplGVJC#yY5",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-17T18:02:52Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-04-27T13:08:18Z",
+                    "paper_title": {
+                        "en": "Benchmark problems for numerical schemes to passively transported interface"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "S Fujima"
+                            },
+                            {
+                                "name": "K Ohmori"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "The interface passively transported by a prescribed flow field is considered, which relates to a part of a mathematical model for two-fluid flow. A benchmark problem is proposed. The shape of the interface transported by the flow field in the problem is deformed but analytically computable. One can fully validate the accuracy of this numerical scheme by the benchmark problem. As an example, computations are done using a scheme for which an interface convergence theorem had been proved. The result does not only show optimality of the theorem but also shows effectiveness of the benchmark problem."
+                    },
+                    "publisher": {
+                        "en": "TAYLOR & FRANCIS LTD"
+                    },
+                    "publication_date": "2004-05",
+                    "publication_name": {
+                        "en": "INTERNATIONAL JOURNAL OF COMPUTATIONAL FLUID DYNAMICS"
+                    },
+                    "volume": "18",
+                    "number": "4",
+                    "starting_page": "317",
+                    "ending_page": "322",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1080/1061856031000154793"
+                        ],
+                        "issn": [
+                            "1061-8562"
+                        ],
+                        "wos_id": [
+                            "WOS:000221853700005"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1080/1061856031000154793",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000221853700005&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008958/published_papers/22463566",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0008958/published_papers",
+                    "rm:id": "22463566",
+                    "rm:user_id": "1000017459",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:Wz34TjplGVJC#yY5",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-17T18:02:52Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-09-07T12:52:29Z",
+                    "paper_title": {
+                        "ja": "Convergence analysis of the interface for interfacial transport phenomena",
+                        "en": "Convergence analysis of the interface for interfacial transport phenomena"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Katsushi Ohmori"
+                            },
+                            {
+                                "name": "Shoichi Fujima"
+                            },
+                            {
+                                "name": "Yasuhiro Fujita"
+                            }
+                        ],
+                        "ja": [
+                            {
+                                "name": "Katsushi Ohmori"
+                            },
+                            {
+                                "name": "Shoichi Fujima"
+                            },
+                            {
+                                "name": "Yasuhiro Fujita"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "ja": "In this paper we are concerned with the convergence analysis of the interface for interfacial transport phenomena such as incompressible immiscible two-fluid flows. Some convergence results for the interface are shown by the regularized Heaviside function. In order to validate our convergence results, numerical examples are presented with an original test problem having non-trivial but explicit interface."
+                    },
+                    "publisher": {
+                        "ja": "富山大学",
+                        "en": "Toyama University"
+                    },
+                    "publication_date": "2003",
+                    "publication_name": {
+                        "ja": "Mathematical Journal of Toyama University",
+                        "en": "Mathematical Journal of Toyama University"
+                    },
+                    "volume": "26",
+                    "starting_page": "109-129",
+                    "ending_page": "129",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.15099/00003037"
+                        ],
+                        "issn": [
+                            "0916-6009"
+                        ],
+                        "cinii_na_id": [
+                            "110004679123"
+                        ],
+                        "cinii_nc_id": [
+                            "AA10848810"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.15099/00003037",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/110004679123",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_books",
+                            "@id": "http://ci.nii.ac.jp/ncid/AA10848810",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "http://hdl.handle.net/10110/3136",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008958/published_papers/22463569",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0008958/published_papers",
+                    "rm:id": "22463569",
+                    "rm:user_id": "1000017459",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:Wz34TjplGVJC#yY5",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-17T18:02:52Z",
+                    "rm:modifier_id": "R000000067",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2021-09-01T02:06:34Z",
+                    "paper_title": {
+                        "en": "Parallel computation with domain-decomposition finite element method",
+                        "ja": "領域分割有限要素法による並列計算"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "藤間昌一"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Shoichi Fujima"
+                            }
+                        ]
+                    },
+                    "publication_date": "1998-12-01",
+                    "publication_name": {
+                        "en": "Chikyu Monthly",
+                        "ja": "月刊地球"
+                    },
+                    "volume": "20",
+                    "number": "12",
+                    "starting_page": "748",
+                    "ending_page": "752",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "is_international_journal": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008958/published_papers/22463568",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0008958/published_papers",
+                    "rm:id": "22463568",
+                    "rm:user_id": "1000017459",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:Wz34TjplGVJC#yY5",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-17T18:02:52Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-08-16T00:05:16Z",
+                    "paper_title": {
+                        "ja": "Iso-P2 P1/P1/P1 domain-decomposition/finite element method for the Navier-Stokes equations",
+                        "en": "Iso-P2 P1/P1/P1 domain-decomposition/finite element method for the Navier-Stokes equations"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Shoichi Fujima"
+                            }
+                        ],
+                        "ja": [
+                            {
+                                "name": "Shoichi Fujima"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "en": "American Mathematical Society",
+                        "ja": "American Mathematical Society"
+                    },
+                    "publication_date": "1998",
+                    "publication_name": {
+                        "ja": "Contemporary Mathematics, Domain Decomposition Methods 10",
+                        "en": "Contemporary Mathematics, Domain Decomposition Methods 10"
+                    },
+                    "volume": "218",
+                    "starting_page": "246",
+                    "ending_page": "253",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "is_international_journal": true,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "cinii_na_id": [
+                            "10015778505"
+                        ],
+                        "doi": [
+                            "10.1090/conm/218"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/10015778505",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1090/conm/218",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008958/published_papers/22463567",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0008958/published_papers",
+                    "rm:id": "22463567",
+                    "rm:user_id": "1000017459",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:Wz34TjplGVJC#yY5",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-17T18:02:52Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-04-25T11:37:06Z",
+                    "paper_title": {
+                        "en": "Mortar element method for flow problems in primitive variables form"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "S Fujima"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "Parallel implementation of the finite element method for the Helmholtz equation and the Stokes equations is discussed in the environment of a distributed-memory massively parallel computer where data is shared among the processors by communication procedures called message-passing. For implementation of the finite element methods based on domain decomposition, \"pre-assembly type\" and \"restriction type\" are introduced for data on nodal points. They simplify the implementation and reduce the amount of message-passing between subdomains, In order to reduce this further, the mortar element method is applied to the primitive variables of the Stokes equations. It maintains natural treatment of stress boundary conditions, which is an advantage of the finite element method. Its implementation can be described concisely by the idea of the two data types."
+                    },
+                    "publisher": {
+                        "en": "GORDON BREACH SCI PUBL LTD"
+                    },
+                    "publication_date": "1998",
+                    "publication_name": {
+                        "en": "INTERNATIONAL JOURNAL OF COMPUTATIONAL FLUID DYNAMICS"
+                    },
+                    "volume": "9",
+                    "number": "3-4",
+                    "starting_page": "209",
+                    "ending_page": "219",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1080/10618569808940853"
+                        ],
+                        "issn": [
+                            "1061-8562"
+                        ],
+                        "wos_id": [
+                            "WOS:000074630900003"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1080/10618569808940853",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000074630900003&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008958/published_papers/22463571",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0008958/published_papers",
+                    "rm:id": "22463571",
+                    "rm:user_id": "1000017459",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:Wz34TjplGVJC#yY5",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-17T18:02:52Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-09-13T04:41:10Z",
+                    "paper_title": {
+                        "ja": "有限要素法による流れ問題の数値解析",
+                        "en": "Numerical analysis of flow problem by the finite element method"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Masahisa Tabata and Shoichi Fujima"
+                            }
+                        ],
+                        "ja": [
+                            {
+                                "name": "田端正久"
+                            },
+                            {
+                                "name": "藤間昌一"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "日本数学会",
+                        "en": "Mathematical Society of Japan"
+                    },
+                    "publication_date": "1996",
+                    "publication_name": {
+                        "ja": "数学",
+                        "en": "Mathematics"
+                    },
+                    "volume": "48",
+                    "number": "1",
+                    "starting_page": "22",
+                    "ending_page": "36",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "is_international_journal": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.11429/sugaku1947.48.22"
+                        ],
+                        "issn": [
+                            "0039-470X"
+                        ],
+                        "cinii_na_id": [
+                            "10002851422"
+                        ],
+                        "cinii_nc_id": [
+                            "AN00125036"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.11429/sugaku1947.48.22",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/10002851422",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_books",
+                            "@id": "http://ci.nii.ac.jp/ncid/AN00125036",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "http://id.ndl.go.jp/bib/3915940",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "https://jlc.jst.go.jp/DN/JALC/00384240443?from=CiNii",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008958/published_papers/22463570",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0008958/published_papers",
+                    "rm:id": "22463570",
+                    "rm:user_id": "1000017459",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:Wz34TjplGVJC#yY5",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-17T18:02:52Z",
+                    "rm:modifier_id": "R000000067",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2023-03-02T03:06:35Z",
+                    "paper_title": {
+                        "en": "Air flow computation around an automatic guided vehicle"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Hiroshi KANAYAMA"
+                            },
+                            {
+                                "name": "Kouji TOSHIGAMI"
+                            },
+                            {
+                                "name": "Yukari TASHIRO"
+                            },
+                            {
+                                "name": "Masahisa TABATA"
+                            },
+                            {
+                                "name": "Shoichi FUJIMA"
+                            }
+                        ]
+                    },
+                    "published_paper_owner_roles": [
+                        "last"
+                    ],
+                    "description": {
+                        "en": "An upwind finite element scheme for the incompressible viscous flow at a high Reynolds number was proposed by the fourth and fifth authors, The scheme has the potential to approximate the advection term in third-order accuracy. We apply it to a two-dimensional non-stationary analysis of air flows around an Automated Guided Vehicle (AGV), which starts with constant acceleration, runs at a constant speed and stops with constant deceleration. The results are at least qualitatively good and compatible with experimental ones."
+                    },
+                    "publisher": {
+                        "en": "GORDON BREACH SCI PUBL LTD"
+                    },
+                    "publication_date": "1996",
+                    "publication_name": {
+                        "en": "International Journal of Computational Fluid Dynamics"
+                    },
+                    "volume": "7",
+                    "number": "1-2",
+                    "starting_page": "155",
+                    "ending_page": "162",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "is_international_journal": true,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1080/10618569608940758"
+                        ],
+                        "issn": [
+                            "1061-8562"
+                        ],
+                        "wos_id": [
+                            "WOS:A1996VJ80200011"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1080/10618569608940758",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:A1996VJ80200011&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008958/published_papers/22463572",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0008958/published_papers",
+                    "rm:id": "22463572",
+                    "rm:user_id": "1000017459",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:Wz34TjplGVJC#yY5",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-17T18:02:52Z",
+                    "rm:modifier_id": "R000000067",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2023-03-02T03:06:35Z",
+                    "paper_title": {
+                        "en": "Extension to three-dimensional problems of the upwind finite element scheme based on the choice of up-and downwind points"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Shoichi FUJIMA"
+                            },
+                            {
+                                "name": "Masahisa TABATA"
+                            },
+                            {
+                                "name": "Yasuji FUKASAWA"
+                            }
+                        ]
+                    },
+                    "published_paper_owner_roles": [
+                        "lead",
+                        "corresponding"
+                    ],
+                    "description": {
+                        "en": "A new upwind finite element scheme for the three-dimensional incompressible Navier-Stokes equations at high Reynolds numbers is presented. This three-dimensional scheme is a natural extension of the two-dimensional scheme (M. Tabata and S. Fujima, Internat. J. Numer. Methods Fluids 12 (1991) 305-322), and it has a potential to approximate the convection term in third-order accuracy. Stability domains in terms of a stabilizing parameter and the time increment appearing in the scheme are investigated numerically. The method of decomposition used for a tetrahedral element is also explained. Numerical results of flow problems in a lid-driven square cavity and past a circular cylinder are shown."
+                    },
+                    "publisher": {
+                        "en": "Elsevier"
+                    },
+                    "publication_date": "1994-02",
+                    "publication_name": {
+                        "en": "Computer Methods in Applied Mechanics and Engineering"
+                    },
+                    "volume": "112",
+                    "number": "1-4",
+                    "starting_page": "109",
+                    "ending_page": "131",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "is_international_journal": true,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1016/0045-7825(94)90021-3"
+                        ],
+                        "issn": [
+                            "0045-7825"
+                        ],
+                        "wos_id": [
+                            "WOS:A1994MX76400007"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1016/0045-7825(94)90021-3",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:A1994MX76400007&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008958/published_papers/22463573",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0008958/published_papers",
+                    "rm:id": "22463573",
+                    "rm:user_id": "1000017459",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:Wz34TjplGVJC#yY5",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-17T18:02:52Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-05-28T05:09:01Z",
+                    "paper_title": {
+                        "en": "FINITE-ELEMENT ANALYSIS OF HIGH REYNOLDS-NUMBER FLOWS PAST A CIRCULAR-CYLINDER"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "M TABATA"
+                            },
+                            {
+                                "name": "S FUJIMA"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "Recently we developed a new upwind finite-element scheme for the incompressible Navier-Stokes equations. In this paper we apply the scheme to a problem of high Reynolds number flows past a circular cylinder and discuss the effect of the subdivision of the boundary layer upon flow patterns and drag coefficients."
+                    },
+                    "publisher": {
+                        "en": "ELSEVIER SCIENCE BV"
+                    },
+                    "publication_date": "1991-12",
+                    "publication_name": {
+                        "en": "JOURNAL OF COMPUTATIONAL AND APPLIED MATHEMATICS"
+                    },
+                    "volume": "38",
+                    "number": "1-3",
+                    "starting_page": "411",
+                    "ending_page": "424",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1016/0377-0427(91)90186-N"
+                        ],
+                        "issn": [
+                            "0377-0427"
+                        ],
+                        "wos_id": [
+                            "WOS:A1991GX44800031"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1016/0377-0427(91)90186-N",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:A1991GX44800031&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008958/published_papers/22463574",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0008958/published_papers",
+                    "rm:id": "22463574",
+                    "rm:user_id": "1000017459",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:Wz34TjplGVJC#yY5",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-17T18:02:52Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-08-26T17:50:04Z",
+                    "paper_title": {
+                        "en": "An upwind finite element scheme for high‐Reynolds‐number flows"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Masahisa Tabata"
+                            },
+                            {
+                                "name": "Shoichi Fujima"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "A new upwind finite element scheme for the incompressible Navier‐Stokes equations at high Reynolds number is presented. The idea of the upwind technique is based on the choice of upwind and downwind points. This scheme can approximate the convection term to third‐order accuracy when these points are located at suitable positions. From the practical viewpoint of computation, the algorithm of the pressure Poisson equation procedure is adopted in the framework of the finite element method. Numerical results of flow problems in a cavity and past a circular cylinder show excellent dependence of the solutions on the Reynolds number. The influence of rounding errors causing Karman vortex shedding is also discussed in the latter problem. Copyright © 1991 John Wiley &amp\n Sons, Ltd"
+                    },
+                    "publisher": {
+                        "en": "Wiley"
+                    },
+                    "publication_date": "1991",
+                    "publication_name": {
+                        "en": "International Journal for Numerical Methods in Fluids"
+                    },
+                    "volume": "12",
+                    "number": "4",
+                    "starting_page": "305",
+                    "ending_page": "322",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1002/fld.1650120402"
+                        ],
+                        "issn": [
+                            "1097-0363",
+                            "0271-2091"
+                        ],
+                        "scopus_id": [
+                            "0026111013"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1002/fld.1650120402",
+                            "is_downloadable": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0008958/books_etc",
+            "@type": "books_etc",
+            "@reverse": "https://api.researchmap.jp/read0008958",
+            "total_items": 4,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0008958/books_etc/15909441",
+                    "@type": "books_etc",
+                    "@reverse": "https://api.researchmap.jp/read0008958/books_etc",
+                    "rm:id": "15909441",
+                    "rm:user_id": "1000017459",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:Wz34TjplGVJC#yY5",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-17T18:02:52Z",
+                    "rm:modifier_id": "R000000067",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2021-09-01T02:06:34Z",
+                    "book_title": {
+                        "ja": "第3版有限要素法による流れのシミュレーション",
+                        "en": "Third Edition for Flow SImulation by Finite Element Method"
+                    },
+                    "book_owner_role": "joint_work",
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "樫山和男、野村卓史、田中聖三、長谷部寛、藤間昌一、他14名"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "K. Kashiyama"
+                            },
+                            {
+                                "name": "T. Nomura T"
+                            },
+                            {
+                                "name": "S. Tanaka"
+                            },
+                            {
+                                "name": "H. Hasebe"
+                            },
+                            {
+                                "name": "S. Fujima"
+                            },
+                            {
+                                "name": "... (+14 persons)"
+                            }
+                        ]
+                    },
+                    "book_owner_range": {
+                        "ja": "第2章、付録B",
+                        "en": "Chapter 2 and Appendix B"
+                    },
+                    "publisher": {
+                        "ja": "丸善出版",
+                        "en": "Maruzen Publishing"
+                    },
+                    "description": {
+                        "ja": "「有限要素法による流れのシミュレーション」「続・有限要素法による流れのシミュレーション」に続く、最新の知見をふんだんに盛り込んだ約10年ぶりの全面改訂版である。前半では基本となるGalerkin有限要素法と安定化有限要素法について、その基礎理論からプログラムに至るまでを丁寧に述べている。後半では近年注目を集めているアイソジオメトリック解析手法をはじめ、自由表面流れ、流体ー構造連成問題の解析手法、乱流解析手法等について、最新の成果を含めた応用面に重点をおいて解説した。世界的な権威であるテキサス大学のThomas J. R. Hughes教授とライス大学のTayfun E. Tezduyar教授も執筆陣に加わり、有限要素法による流れ解析に取り組む人のための基礎的にして世界水準の一冊となっている。",
+                        "en": "-"
+                    },
+                    "publication_date": "2017-07-30",
+                    "rep_page": "13-38, 293-300",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "book_type": "scholarly_book",
+                    "identifiers": {
+                        "isbn": [
+                            "9784621301838"
+                        ]
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008958/books_etc/15923463",
+                    "@type": "books_etc",
+                    "@reverse": "https://api.researchmap.jp/read0008958/books_etc",
+                    "rm:id": "15923463",
+                    "rm:user_id": "1000017459",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:Wz34TjplGVJC#yY5",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-17T18:02:52Z",
+                    "rm:modifier_id": "R000000067",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2021-09-01T02:06:34Z",
+                    "book_title": {
+                        "ja": "計算力学理論ハンドブック",
+                        "en": "Encyclopedia of Computational Mechanics, Volume 1 Fundamentals"
+                    },
+                    "book_owner_role": "joint_translation",
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "田端正久、萩原一郎監訳、第34翻訳者、他37名"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Masahisa Tabata and Ichiro Hagiwara (Eds.)"
+                            }
+                        ]
+                    },
+                    "book_owner_range": {
+                        "ja": "第22章「領域分割法と前処理」",
+                        "en": "Chapter 22: Domain Decomposition Method and Preconditioning"
+                    },
+                    "publisher": {
+                        "ja": "朝倉書店",
+                        "en": "Asakura Publishing"
+                    },
+                    "description": {
+                        "ja": "2004年にE.Stein, R. de Borst, T.J.R.Jughesにより編集されたEncyclopedia of Computational Mechanics(計算力学百科事典)全3巻のうち、第1巻「基礎」の邦訳",
+                        "en": "-"
+                    },
+                    "publication_date": "2010-06-25",
+                    "rep_page": "588-615",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "book_type": "scholarly_book",
+                    "identifiers": {
+                        "isbn": [
+                            "9784254231205"
+                        ]
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008958/books_etc/15909442",
+                    "@type": "books_etc",
+                    "@reverse": "https://api.researchmap.jp/read0008958/books_etc",
+                    "rm:id": "15909442",
+                    "rm:user_id": "1000017459",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:Wz34TjplGVJC#yY5",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-17T18:02:52Z",
+                    "rm:modifier_id": "R000000067",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2021-09-01T02:06:34Z",
+                    "book_title": {
+                        "ja": "続・有限要素法による流れのシミュレーション",
+                        "en": "Simulation of Flows by the Finite Element Method, Sequel"
+                    },
+                    "book_owner_role": "joint_work",
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "樫山和男、野村卓史、藤間昌一、奥村弘、田中聖三、桜庭雅明、渡邉浩志、加藤千幸、T.J.R.Hughes"
+                            },
+                            {
+                                "name": "T.E.Tezduyar"
+                            },
+                            {
+                                "name": "大島まり、他10名"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Kazuo Kashiyama"
+                            },
+                            {
+                                "name": "Takashi Nomura"
+                            },
+                            {
+                                "name": "Shoichi Fujima"
+                            },
+                            {
+                                "name": "Hiroshi Okumura"
+                            },
+                            {
+                                "name": "Seizo Tanaka"
+                            },
+                            {
+                                "name": "Masaaki Sakuraba"
+                            },
+                            {
+                                "name": "Hiroshi Watanabe"
+                            },
+                            {
+                                "name": "Chisachi Kato"
+                            },
+                            {
+                                "name": "T.J.R.Hughes"
+                            },
+                            {
+                                "name": "T.E.Tezduyar"
+                            },
+                            {
+                                "name": "Marie Oshima et al."
+                            }
+                        ]
+                    },
+                    "book_owner_range": {
+                        "ja": "第２章「有限要素法の基礎～Poisson方程式～」，付録B「非圧縮条件の安定性」（以上著），第10章「Space-Time有限要素法による流体構造連成のモデリング」（訳）",
+                        "en": "Chapter 2 and Appendix B (translation: Chapter 10)"
+                    },
+                    "publisher": {
+                        "ja": "シュプリンガー・ジャパン株式会社",
+                        "en": "Springer, Japan"
+                    },
+                    "publication_date": "2008-08-23",
+                    "rep_page": "13-40, 277-284 (translation:215-252)",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "book_type": "scholarly_book",
+                    "identifiers": {
+                        "isbn": [
+                            "9784431100331"
+                        ]
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008958/books_etc/15923462",
+                    "@type": "books_etc",
+                    "@reverse": "https://api.researchmap.jp/read0008958/books_etc",
+                    "rm:id": "15923462",
+                    "rm:user_id": "1000017459",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:Wz34TjplGVJC#yY5",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-17T18:02:52Z",
+                    "rm:modifier_id": "R000000067",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2021-09-01T02:06:34Z",
+                    "book_title": {
+                        "ja": "有限要素法による流れのシミュレーション",
+                        "en": "Simulation of Flows by the Finite Element Method"
+                    },
+                    "book_owner_role": "joint_work",
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "川原睦人"
+                            },
+                            {
+                                "name": "奥田洋司"
+                            },
+                            {
+                                "name": "野村卓史"
+                            },
+                            {
+                                "name": "藤間昌一"
+                            },
+                            {
+                                "name": "畑中勝守"
+                            },
+                            {
+                                "name": "水上昭"
+                            },
+                            {
+                                "name": "池川昌弘"
+                            },
+                            {
+                                "name": "T.J.Hughes"
+                            },
+                            {
+                                "name": "大島まり"
+                            },
+                            {
+                                "name": "樫山和男"
+                            },
+                            {
+                                "name": "T.E.Tezduyar"
+                            },
+                            {
+                                "name": "他5名"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "M.Kawahara"
+                            },
+                            {
+                                "name": "Y.Okuda"
+                            },
+                            {
+                                "name": "T.Nomura"
+                            },
+                            {
+                                "name": "S.Fujima"
+                            },
+                            {
+                                "name": "K.Hatanaka"
+                            },
+                            {
+                                "name": "A.Mizukami"
+                            },
+                            {
+                                "name": "M.Ikegawa"
+                            },
+                            {
+                                "name": "T.J.Hughes"
+                            },
+                            {
+                                "name": "M.Oshima"
+                            },
+                            {
+                                "name": "K.Kashiyama"
+                            },
+                            {
+                                "name": "T.E.Tezduyar et al."
+                            }
+                        ]
+                    },
+                    "book_owner_range": {
+                        "ja": "第３章「有限要素法流れ解析の基礎（２）ナビエ・ストークス流れ」",
+                        "en": "Chapter 3"
+                    },
+                    "publisher": {
+                        "ja": "シュプリンガー･フェアラーク東京",
+                        "en": "Springer-Verlag, Tokyo"
+                    },
+                    "description": {
+                        "ja": "有限要素法は、複雑形状への適合性に優れていることを最大の特色とする。CFD（数値流体力学）が多種多様な実用的問題に応用される技術手段として発展しつつある今、きわめて重要な手法である。本書では、有限要素法に基づく流れ解析の基礎的事項からプログラミングの実際にいたるまでを、安定化手法やモデリングの方法、高速計算法などの最新テクニックとともに解説している。CD-ROM付き。",
+                        "en": "-"
+                    },
+                    "publication_date": "1998-11-09",
+                    "rep_page": "47-72",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "book_type": "scholarly_book",
+                    "identifiers": {
+                        "isbn": [
+                            "443170793X"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0008958/presentations",
+            "@type": "presentations",
+            "@reverse": "https://api.researchmap.jp/read0008958",
+            "total_items": 10,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0008958/presentations/7066316",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0008958/presentations",
+                    "rm:id": "7066316",
+                    "rm:user_id": "1000017459",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:Wz34TjplGVJC#yY5",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-17T18:02:52Z",
+                    "rm:modifier_id": "client_id:Wz34TjplGVJC#yY5",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-01-17T18:02:52Z",
+                    "presentation_title": {
+                        "ja": "Reasonable numerical integration formulas in characteristic finite element schemes",
+                        "en": "Reasonable numerical integration formulas in characteristic finite element schemes"
+                    },
+                    "presenters": {
+                        "ja": [
+                            {
+                                "name": "Shoichi Fujima"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Shoichi Fujima"
+                            }
+                        ]
+                    },
+                    "presenters_text": {
+                        "ja": "Shoichi Fujima",
+                        "en": "Shoichi Fujima"
+                    },
+                    "event": {
+                        "ja": "15th International Conference on Finite ELements in Flow Problems",
+                        "en": "15th International Conference on Finite ELements in Flow Problems"
+                    },
+                    "publication_date": "2009-04",
+                    "invited": false,
+                    "languages": [
+                        "eng"
+                    ],
+                    "presentation_type": "oral_presentation",
+                    "location": {
+                        "ja": "Tokyo, Japan",
+                        "en": "Tokyo, Japan"
+                    },
+                    "is_international_presentation": true,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008958/presentations/7066317",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0008958/presentations",
+                    "rm:id": "7066317",
+                    "rm:user_id": "1000017459",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:Wz34TjplGVJC#yY5",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-17T18:02:52Z",
+                    "rm:modifier_id": "client_id:Wz34TjplGVJC#yY5",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-01-17T18:02:52Z",
+                    "presentation_title": {
+                        "ja": "A note on numerical integration formulas in characteristic finite element schemes",
+                        "en": "A note on numerical integration formulas in characteristic finite element schemes"
+                    },
+                    "presenters": {
+                        "ja": [
+                            {
+                                "name": "Shoichi Fujima"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Shoichi Fujima"
+                            }
+                        ]
+                    },
+                    "presenters_text": {
+                        "ja": "Shoichi Fujima",
+                        "en": "Shoichi Fujima"
+                    },
+                    "event": {
+                        "ja": "International Conference on Recent Development of Numerical Schemes for Flow Problems",
+                        "en": "International Conference on Recent Development of Numerical Schemes for Flow Problems"
+                    },
+                    "publication_date": "2007-06",
+                    "invited": false,
+                    "languages": [
+                        "eng"
+                    ],
+                    "presentation_type": "oral_presentation",
+                    "location": {
+                        "ja": "Fukuoka, Japan",
+                        "en": "Fukuoka, Japan"
+                    },
+                    "is_international_presentation": true,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008958/presentations/7066318",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0008958/presentations",
+                    "rm:id": "7066318",
+                    "rm:user_id": "1000017459",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:Wz34TjplGVJC#yY5",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-17T18:02:52Z",
+                    "rm:modifier_id": "R000000067",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2021-09-01T02:06:34Z",
+                    "presentation_title": {
+                        "ja": "An effective solver of a mass-conservative upwind finite element scheme for the density dependent Navier-Stokes equations",
+                        "en": "An effective solver of a mass-conservative upwind finite element scheme for the density dependent Navier-Stokes equations"
+                    },
+                    "presenters": {
+                        "ja": [
+                            {
+                                "name": "Shoichi Fujima"
+                            },
+                            {
+                                "name": "Osamu kawaguchi"
+                            },
+                            {
+                                "name": "Satoshi Kaizu"
+                            },
+                            {
+                                "name": "Masahisa Tabata"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Shoichi Fujima"
+                            },
+                            {
+                                "name": "Osamu kawaguchi"
+                            },
+                            {
+                                "name": "Satoshi Kaizu"
+                            },
+                            {
+                                "name": "Masahisa Tabata"
+                            }
+                        ]
+                    },
+                    "presenters_text": {
+                        "ja": "Shoichi Fujima,Osamu kawaguchi,Satoshi Kaizu,Masahisa Tabata",
+                        "en": "Shoichi Fujima,Osamu kawaguchi,Satoshi Kaizu,Masahisa Tabata"
+                    },
+                    "event": {
+                        "ja": "The 6th World Congress on Computational Mechanics (WCCM) in conjunction with the 2nd Asian-Pacific Congress on Computational Mechanics, Abstract",
+                        "en": "The 6th World Congress on Computational Mechanics (WCCM),in conjunction with the 2nd Asian-Pacific Congress on Computational Mechanics, Abstract"
+                    },
+                    "publication_date": "2004-09-07",
+                    "invited": false,
+                    "languages": [
+                        "eng"
+                    ],
+                    "presentation_type": "oral_presentation",
+                    "location": {
+                        "ja": "Beijing, China",
+                        "en": "Beijing, China"
+                    },
+                    "is_international_presentation": true,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008958/presentations/7066319",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0008958/presentations",
+                    "rm:id": "7066319",
+                    "rm:user_id": "1000017459",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:Wz34TjplGVJC#yY5",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-17T18:02:52Z",
+                    "rm:modifier_id": "client_id:Wz34TjplGVJC#yY5",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-01-17T18:02:52Z",
+                    "presentation_title": {
+                        "ja": "Finite element analysis of transported interface problems and its application to two-fluid flow simulation",
+                        "en": "Finite element analysis of transported interface problems and its application to two-fluid flow simulation"
+                    },
+                    "presenters": {
+                        "ja": [
+                            {
+                                "name": "Shoichi Fujima"
+                            },
+                            {
+                                "name": "Katsushi Ohmori"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Shoichi Fujima"
+                            },
+                            {
+                                "name": "Katsushi Ohmori"
+                            }
+                        ]
+                    },
+                    "presenters_text": {
+                        "ja": "Shoichi Fujima,Katsushi Ohmori",
+                        "en": "Shoichi Fujima,Katsushi Ohmori"
+                    },
+                    "event": {
+                        "ja": "Sixth Japan-US International Symposium on Flow Simulation and Modeling",
+                        "en": "Sixth Japan-US International Symposium on Flow Simulation and Modeling"
+                    },
+                    "publication_date": "2002-05-29",
+                    "invited": true,
+                    "languages": [
+                        "eng"
+                    ],
+                    "presentation_type": "invited_oral_presentation",
+                    "location": {
+                        "ja": "Fukuoka, Japan",
+                        "en": "Fukuoka, Japan"
+                    },
+                    "is_international_presentation": true,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008958/presentations/7066320",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0008958/presentations",
+                    "rm:id": "7066320",
+                    "rm:user_id": "1000017459",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:Wz34TjplGVJC#yY5",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-17T18:02:52Z",
+                    "rm:modifier_id": "R000000067",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2021-09-01T02:06:34Z",
+                    "presentation_title": {
+                        "ja": "On boundary condition of pressure in fractional step methods for incompressible fluid",
+                        "en": "On boundary condition of pressure in fractional step methods for incompressible fluid"
+                    },
+                    "presenters": {
+                        "ja": [
+                            {
+                                "name": "Akira Sasamoto"
+                            },
+                            {
+                                "name": "Katsushi Ohmori"
+                            },
+                            {
+                                "name": "Shoichi Fujima"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Akira Sasamoto"
+                            },
+                            {
+                                "name": "Katsushi Ohmori and Shoichi Fujima"
+                            }
+                        ]
+                    },
+                    "presenters_text": {
+                        "ja": "Akira Sasamoto, Katsushi Ohmori and Shoichi Fujima",
+                        "en": "Akira Sasamoto, Katsushi Ohmori and Shoichi Fujima"
+                    },
+                    "event": {
+                        "ja": "Computational Science Workshop",
+                        "en": "Computational Science Workshop"
+                    },
+                    "publication_date": "2002-01",
+                    "invited": false,
+                    "languages": [
+                        "eng"
+                    ],
+                    "presentation_type": "poster_presentation",
+                    "location": {
+                        "ja": "Shonan, Japan",
+                        "en": "Shonan, Japan"
+                    },
+                    "is_international_presentation": true,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008958/presentations/7066321",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0008958/presentations",
+                    "rm:id": "7066321",
+                    "rm:user_id": "1000017459",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:Wz34TjplGVJC#yY5",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-17T18:02:52Z",
+                    "rm:modifier_id": "client_id:Wz34TjplGVJC#yY5",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-01-17T18:02:52Z",
+                    "presentation_title": {
+                        "ja": "High performance implementation of the upwind finite element scheme based on the choice of up- and downwind paints",
+                        "en": "High performance implementation of the upwind finite element scheme based on the choice of up- and downwind paints"
+                    },
+                    "presenters": {
+                        "ja": [
+                            {
+                                "name": "Shoichi Fujima"
+                            },
+                            {
+                                "name": "Masahisa TABATA"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Shoichi Fujima"
+                            },
+                            {
+                                "name": "Masahisa TABATA"
+                            }
+                        ]
+                    },
+                    "presenters_text": {
+                        "ja": "Shoichi Fujima, Masahisa TABATA",
+                        "en": "Shoichi Fujima, Masahisa TABATA"
+                    },
+                    "event": {
+                        "ja": "The Second European CFD Conferance",
+                        "en": "The Second European CFD Conferance"
+                    },
+                    "publication_date": "1994",
+                    "invited": false,
+                    "languages": [
+                        "eng"
+                    ],
+                    "presentation_type": "oral_presentation",
+                    "is_international_presentation": true,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008958/presentations/7066322",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0008958/presentations",
+                    "rm:id": "7066322",
+                    "rm:user_id": "1000017459",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:Wz34TjplGVJC#yY5",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-17T18:02:52Z",
+                    "rm:modifier_id": "client_id:Wz34TjplGVJC#yY5",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-01-17T18:02:52Z",
+                    "presentation_title": {
+                        "ja": "Numerical simulation of streaklines emerging from the surface of a circular cylinder in high-Reynolds-number flows",
+                        "en": "Numerical simulation of streaklines emerging from the surface of a circular cylinder in high-Reynolds-number flows"
+                    },
+                    "presenters": {
+                        "ja": [
+                            {
+                                "name": "Masahisa TABATA"
+                            },
+                            {
+                                "name": "Shoichi FUJIMA"
+                            },
+                            {
+                                "name": "Kazuhiro ITAKURA"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Masahisa TABATA"
+                            },
+                            {
+                                "name": "Shoichi FUJIMA"
+                            },
+                            {
+                                "name": "Kazuhiro ITAKURA"
+                            }
+                        ]
+                    },
+                    "presenters_text": {
+                        "ja": "Masahisa TABATA, Shoichi FUJIMA, Kazuhiro ITAKURA",
+                        "en": "Masahisa TABATA, Shoichi FUJIMA, Kazuhiro ITAKURA"
+                    },
+                    "event": {
+                        "ja": "The First China-Japan Seminar on Numerical Mathematics",
+                        "en": "The First China-Japan Seminar on Numerical Mathematics"
+                    },
+                    "publication_date": "1993",
+                    "invited": false,
+                    "languages": [
+                        "eng"
+                    ],
+                    "presentation_type": "invited_oral_presentation",
+                    "is_international_presentation": true,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008958/presentations/7066323",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0008958/presentations",
+                    "rm:id": "7066323",
+                    "rm:user_id": "1000017459",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:Wz34TjplGVJC#yY5",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-17T18:02:52Z",
+                    "rm:modifier_id": "client_id:Wz34TjplGVJC#yY5",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-01-17T18:02:52Z",
+                    "presentation_title": {
+                        "ja": "Some applications of the third-order upwind finite element approximation",
+                        "en": "Some applications of the third-order upwind finite element approximation"
+                    },
+                    "presenters": {
+                        "ja": [
+                            {
+                                "name": "Masahisa TABATA"
+                            },
+                            {
+                                "name": "Shoichi FUJIMA"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Masahisa TABATA"
+                            },
+                            {
+                                "name": "Shoichi FUJIMA"
+                            }
+                        ]
+                    },
+                    "presenters_text": {
+                        "ja": "Masahisa TABATA, Shoichi FUJIMA",
+                        "en": "Masahisa TABATA, Shoichi FUJIMA"
+                    },
+                    "event": {
+                        "ja": "The First European CFD Conference",
+                        "en": "The First European CFD Conference"
+                    },
+                    "publication_date": "1992-09-07",
+                    "invited": false,
+                    "languages": [
+                        "eng"
+                    ],
+                    "presentation_type": "oral_presentation",
+                    "is_international_presentation": true,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008958/presentations/7066324",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0008958/presentations",
+                    "rm:id": "7066324",
+                    "rm:user_id": "1000017459",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:Wz34TjplGVJC#yY5",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-17T18:02:52Z",
+                    "rm:modifier_id": "client_id:Wz34TjplGVJC#yY5",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-01-17T18:02:52Z",
+                    "presentation_title": {
+                        "ja": "流体問題の数値計算と丸め誤差",
+                        "en": "流体問題の数値計算と丸め誤差"
+                    },
+                    "presenters": {
+                        "ja": [
+                            {
+                                "name": "藤間昌一"
+                            },
+                            {
+                                "name": "田端正久"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "藤間昌一"
+                            },
+                            {
+                                "name": "田端正久"
+                            }
+                        ]
+                    },
+                    "presenters_text": {
+                        "ja": "藤間昌一,田端正久",
+                        "en": "藤間昌一,田端正久"
+                    },
+                    "event": {
+                        "ja": "京都大学数理解析研究所研究集会「数値解析と科学計算」",
+                        "en": "京都大学数理解析研究所研究集会「数値解析と科学計算」"
+                    },
+                    "publication_date": "1990",
+                    "invited": false,
+                    "languages": [
+                        "jpn"
+                    ],
+                    "presentation_type": "oral_presentation",
+                    "is_international_presentation": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008958/presentations/7066325",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0008958/presentations",
+                    "rm:id": "7066325",
+                    "rm:user_id": "1000017459",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:Wz34TjplGVJC#yY5",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-17T18:02:52Z",
+                    "rm:modifier_id": "client_id:Wz34TjplGVJC#yY5",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-01-17T18:02:52Z",
+                    "presentation_title": {
+                        "ja": "A finite element scheme for the Navier-Stokes equations using a third-order upwind approximation",
+                        "en": "A finite element scheme for the Navier-Stokes equations using a third-order upwind approximation"
+                    },
+                    "presenters": {
+                        "ja": [
+                            {
+                                "name": "Masahisa TABATA"
+                            },
+                            {
+                                "name": "Shoichi FUJIMA"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Masahisa TABATA"
+                            },
+                            {
+                                "name": "Shoichi FUJIMA"
+                            }
+                        ]
+                    },
+                    "presenters_text": {
+                        "ja": "Masahisa TABATA, Shoichi FUJIMA",
+                        "en": "Masahisa TABATA, Shoichi FUJIMA"
+                    },
+                    "event": {
+                        "ja": "The 7th Conference on Finite Element Methods in Flow Problems (FEMIF7)",
+                        "en": "The 7th Conference on Finite Element Methods in Flow Problems (FEMIF7)"
+                    },
+                    "publication_date": "1989-04-03",
+                    "invited": false,
+                    "languages": [
+                        "eng"
+                    ],
+                    "presentation_type": "oral_presentation",
+                    "location": {
+                        "ja": "The University of Alabama in Huntsville, USA",
+                        "en": "The University of Alabama in Huntsville, USA"
+                    },
+                    "is_international_presentation": true,
+                    "rm:is_open_access": false
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0008958/association_memberships",
+            "@type": "association_memberships",
+            "@reverse": "https://api.researchmap.jp/read0008958",
+            "total_items": 4,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0008958/association_memberships/11503323",
+                    "@type": "association_memberships",
+                    "@reverse": "https://api.researchmap.jp/read0008958/association_memberships",
+                    "rm:id": "11503323",
+                    "rm:user_id": "1000017459",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:Wz34TjplGVJC#yY5",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-17T18:02:52Z",
+                    "rm:modifier_id": "R000000067",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2021-09-01T02:06:34Z",
+                    "academic_society_name": {
+                        "ja": "情報処理学会",
+                        "en": "Information Processing Society in Japan"
+                    },
+                    "from_date": "2013-08"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008958/association_memberships/11503322",
+                    "@type": "association_memberships",
+                    "@reverse": "https://api.researchmap.jp/read0008958/association_memberships",
+                    "rm:id": "11503322",
+                    "rm:user_id": "1000017459",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:Wz34TjplGVJC#yY5",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-17T18:02:52Z",
+                    "rm:modifier_id": "R000000067",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2021-09-01T02:06:34Z",
+                    "academic_society_name": {
+                        "ja": "日本計算工学会",
+                        "en": "The Japan Society for Computational Engineering and Science"
+                    },
+                    "from_date": "1996-06"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008958/association_memberships/11503321",
+                    "@type": "association_memberships",
+                    "@reverse": "https://api.researchmap.jp/read0008958/association_memberships",
+                    "rm:id": "11503321",
+                    "rm:user_id": "1000017459",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:Wz34TjplGVJC#yY5",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-17T18:02:52Z",
+                    "rm:modifier_id": "R000000067",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2021-09-01T02:06:34Z",
+                    "academic_society_name": {
+                        "ja": "日本応用数理学会",
+                        "en": "The Japanese Society for Industrial and Applied Mathematics"
+                    },
+                    "from_date": "1990-03"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008958/association_memberships/11503320",
+                    "@type": "association_memberships",
+                    "@reverse": "https://api.researchmap.jp/read0008958/association_memberships",
+                    "rm:id": "11503320",
+                    "rm:user_id": "1000017459",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:Wz34TjplGVJC#yY5",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-17T18:02:52Z",
+                    "rm:modifier_id": "R000000067",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2021-09-01T02:06:34Z",
+                    "academic_society_name": {
+                        "ja": "日本数学会",
+                        "en": "Mathematical Society of Japan"
+                    },
+                    "from_date": "1988-05"
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0008958/research_projects",
+            "@type": "research_projects",
+            "@reverse": "https://api.researchmap.jp/read0008958",
+            "total_items": 1,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0008958/research_projects/46527786",
+                    "@type": "research_projects",
+                    "@reverse": "https://api.researchmap.jp/read0008958/research_projects",
+                    "rm:id": "46527786",
+                    "rm:user_id": "1000017459",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000017459",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2024-05-19T00:05:25Z",
+                    "rm:modifier_id": "1000017459",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2024-05-19T00:05:25Z",
+                    "research_project_title": {
+                        "ja": "平均振動量・増大度が一様でない関数空間の理論と応用"
+                    },
+                    "investigators": {
+                        "ja": [
+                            {
+                                "name": "中井 英一"
+                            },
+                            {
+                                "name": "松岡 勝男"
+                            },
+                            {
+                                "name": "堀内 利郎"
+                            },
+                            {
+                                "name": "貞末 岳"
+                            },
+                            {
+                                "name": "米田 剛"
+                            },
+                            {
+                                "name": "澤野 嘉宏"
+                            },
+                            {
+                                "name": "藤間 昌一"
+                            }
+                        ]
+                    },
+                    "offer_organization": {
+                        "ja": "日本学術振興会"
+                    },
+                    "system_name": {
+                        "ja": "科学研究費助成事業"
+                    },
+                    "category": {
+                        "ja": "基盤研究(C)"
+                    },
+                    "institution_name": {
+                        "ja": "茨城大学"
+                    },
+                    "from_date": "2021-04",
+                    "to_date": "2026-03",
+                    "overall_grant_amount": {
+                        "total_cost": "4160000",
+                        "direct_cost": "3200000",
+                        "indirect_cost": "960000"
+                    },
+                    "description": {
+                        "ja": "今年度は、研究分担者や研究協力者との研究打合せ等は、すべて遠隔で行った。ドイツのアポルダで開催された国際研究集会「International Conference on Function Spaces and Applications」に招待され、遠隔で講演を行った。また、遠隔開催の国際研究集会「9th East Asian Conference in Harmonic Analysis and Applications」で講演を行った。これらにより、海外の研究者とも研究情報の交換を行った。以下、今年度に得られた研究成果を列挙する。\n古典的な関数空間において確立されている H^1-BMO 双対性および VMO(CMO)-H^1 双対性の理論について、昨年度、平均振動量が一様でない関数空間（Campanato 空間）に拡張する理論が完成したが、これに関連して、増大度が一様でない関数空間（Morrey 空間）上での交換子 [b,T] のコンパクト性に関する研究を行った。ここで、T は特異積分作用素や一般化分数べき積分作用素、b は平均振動量が一様でない関数空間（Campanato 空間）の前々双対空間の元を掛ける作用素である。\nユークリッド空間における分数べき積分作用素の L^p-L^q 有界性と同様に、対称マルコフ半群においても分数べき積分作用素の L^p-L^q 有界性が知られていた。そこで、対称マルコフ半群において一般化分数べき積分作用素を導入して、L^p-L^q 有界性を Orlicz 空間上の有界性に拡張した。また、この結果を、ハイゼンベルグ群上の拡散現象に関する半群に応用した。さらに、ホモジニアス型空間上で一般化分数べき積分作用素の Orlicz 空間における有界性の必要十分条件を与えた。"
+                    },
+                    "identifiers": {
+                        "grant_number": [
+                            "21K03304"
+                        ],
+                        "national_grant_number": [
+                            "JP21K03304"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "@id": "https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-21K03304",
+                            "label": "kaken"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0008958/social_contribution",
+            "@type": "social_contribution",
+            "@reverse": "https://api.researchmap.jp/read0008958",
+            "total_items": 1,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0008958/social_contribution/36555132",
+                    "@type": "social_contribution",
+                    "@reverse": "https://api.researchmap.jp/read0008958/social_contribution",
+                    "rm:id": "36555132",
+                    "rm:user_id": "1000017459",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "R000000067",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2022-03-23T09:07:17Z",
+                    "rm:modifier_id": "R000000067",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2022-03-23T09:07:17Z",
+                    "social_contribution_title": {
+                        "ja": "第12回高校生の科学研究発表会@茨城大学"
+                    },
+                    "social_contribution_roles": [
+                        "presenter",
+                        "editor",
+                        "planner"
+                    ],
+                    "promoter": {
+                        "ja": "茨城大学理学部"
+                    },
+                    "from_event_date": "2022-01-08",
+                    "location": {
+                        "ja": "茨城大学講堂"
+                    },
+                    "social_contribution_type": "lecture",
+                    "audience": [
+                        "high_school_students"
+                    ],
+                    "description": {
+                        "ja": "今回も国内外が新型コロナウイルス感染症の影響下にありましたが、高校生の学びを尊重する観点から、 前回に引き続き、十分な感染防止対策を行った上で会場での対面形式での開催を計画し、50 演題(口頭発 表 20 演題，ポスター発表 30 演題)かつ、茨城県内及び隣県の高等学校に制限して募集し、開催しました。 当日は計 132 名(生徒 122 名，高校教員 10 名)の参加があり、51 演題(口頭 19 演題、ポスター32 演題) に活発な議論が展開されました。事務局は理学部学術委員会。"
+                    },
+                    "see_also": [
+                        {
+                            "@id": "https://www.sci.ibaraki.ac.jp/pdf/2022KHreport.pdf",
+                            "label": "url"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0008958/others",
+            "@type": "others",
+            "@reverse": "https://api.researchmap.jp/read0008958",
+            "total_items": 2,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0008958/others/36555133",
+                    "@type": "others",
+                    "@reverse": "https://api.researchmap.jp/read0008958/others",
+                    "rm:id": "36555133",
+                    "rm:user_id": "1000017459",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "R000000067",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2022-03-23T09:07:17Z",
+                    "rm:modifier_id": "R000000067",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2022-03-23T09:07:17Z",
+                    "other_title": {
+                        "ja": "「富岳」試行課題『ガウスの円問題の並列計算の「富岳」上の動作検証と性能評価』代表者"
+                    },
+                    "from_date": "2021-07",
+                    "to_date": "2022-01",
+                    "description": {
+                        "ja": "ガウスの円問題は、解析的整数論の未解決問題の一つで、整数の約数構造に関係し、最新の研究では、多変数フーリエ級数の収束問題とも密接な関係があることがわかっている。本課題では、我々が開発したガウスの円問題の並列計算コードについて、スーパーコンピュータ「富岳」上で動作検証と性能評価を行う。"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008958/others/38230108",
+                    "@type": "others",
+                    "@reverse": "https://api.researchmap.jp/read0008958/others",
+                    "rm:id": "38230108",
+                    "rm:user_id": "1000017459",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "R000000067",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2022-07-06T08:32:08Z",
+                    "rm:modifier_id": "R000000067",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2022-07-06T08:32:08Z",
+                    "other_title": {
+                        "ja": "「理学部研究FD」開催"
+                    },
+                    "from_date": "2021-09",
+                    "description": {
+                        "ja": "学術委員長として研究マネジメントの一環として「理学部研究FD」を開催した。"
+                    }
+                }
+            ]
+        }
+    ]
+}

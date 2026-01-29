@@ -1,0 +1,2042 @@
+{
+    "@context": "https://api.researchmap.jp/researcher.jsonld",
+    "@id": "https://api.researchmap.jp/rmap_kihara?format=json",
+    "@type": "researchers",
+    "rm:user_id": "1000034719",
+    "rm:creator_id": "1000034719",
+    "rm:creator_type": "myself",
+    "rm:created": "2010-01-25T15:00:00Z",
+    "rm:modifier_id": "1000034719",
+    "rm:modifier_type": "myself",
+    "rm:modified": "2024-01-30T19:17:25Z",
+    "permalink": "rmap_kihara",
+    "family_name": {
+        "ja": "木原",
+        "ja-Kana": "キハラ",
+        "en": "Kihara"
+    },
+    "given_name": {
+        "ja": "康孝",
+        "ja-Kana": "ヤスタカ",
+        "en": "Yasutaka"
+    },
+    "display_name_kana": "disclosed",
+    "display_nickname": "disclosed",
+    "display_image": "disclosed",
+    "display_contact_point": "disclosed",
+    "affiliations": [
+        {
+            "affiliation": {
+                "ja": "島根大学",
+                "en": "Shimane University"
+            },
+            "section": {
+                "ja": "生物資源科学部 環境共生科学科 環境共生科学科",
+                "en": "Faculty of Life and Environmental Science, Department of Environmental and Sustainability Sciences"
+            },
+            "job": {
+                "ja": "講師"
+            },
+            "display_affiliation": "disclosed",
+            "display_job": "disclosed",
+            "rm:institution_code": "0512009009"
+        }
+    ],
+    "degrees": [
+        {
+            "degree": {
+                "ja": "農学修士",
+                "en": "(BLANK)"
+            },
+            "degree_institution": {
+                "ja": "京都大学"
+            },
+            "display_degree": "disclosed",
+            "rm:institution_code": "0280000000"
+        }
+    ],
+    "display_profile": "disclosed",
+    "display_url": "disclosed",
+    "identifiers": {
+        "j_global_id": [
+            "200901089817672646"
+        ]
+    },
+    "rm:erad_id_verified": false,
+    "rm:orc_id_verified": false,
+    "display_erad_id": "closed",
+    "display_orc_id": "closed",
+    "display_researcher_id": "disclosed",
+    "display_j_global_id": "disclosed",
+    "see_also": [
+        {
+            "label": "j_global",
+            "@id": "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=200901089817672646"
+        }
+    ],
+    "@graph": [
+        {
+            "@id": "https://api.researchmap.jp/rmap_kihara/research_interests",
+            "@type": "research_interests",
+            "@reverse": "https://api.researchmap.jp/rmap_kihara",
+            "total_items": 2,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/rmap_kihara/research_interests/10717425",
+                    "@type": "research_interests",
+                    "@reverse": "https://api.researchmap.jp/rmap_kihara/research_interests",
+                    "rm:id": "10717425",
+                    "rm:user_id": "1000034719",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-12-03T17:41:21Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-12-03T17:41:21Z",
+                    "keyword": {
+                        "ja": "農業土木学"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/rmap_kihara/research_interests/1391399",
+                    "@type": "research_interests",
+                    "@reverse": "https://api.researchmap.jp/rmap_kihara/research_interests",
+                    "rm:id": "1391399",
+                    "rm:user_id": "1000034719",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000034719",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2010-01-25T15:00:00Z",
+                    "rm:modifier_id": "1000034719",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2010-01-25T15:00:00Z",
+                    "keyword": {
+                        "en": "Soil Physics"
+                    }
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/rmap_kihara/research_areas",
+            "@type": "research_areas",
+            "@reverse": "https://api.researchmap.jp/rmap_kihara",
+            "total_items": 1,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/rmap_kihara/research_areas/849694",
+                    "@type": "research_areas",
+                    "@reverse": "https://api.researchmap.jp/rmap_kihara/research_areas",
+                    "rm:id": "849694",
+                    "rm:user_id": "1000034719",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000034719",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2010-01-25T15:00:00Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2019-12-03T17:41:21Z",
+                    "discipline_number": "A389",
+                    "item_number": "A41040",
+                    "discipline": {
+                        "ja": "環境・農学",
+                        "en": "Environmental science/Agricultural science"
+                    },
+                    "research_field": {
+                        "ja": "農業環境工学、農業情報工学",
+                        "en": "Agricultural environmental and information engineering"
+                    }
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/rmap_kihara/committee_memberships",
+            "@type": "committee_memberships",
+            "@reverse": "https://api.researchmap.jp/rmap_kihara",
+            "total_items": 3,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/rmap_kihara/committee_memberships/7624305",
+                    "@type": "committee_memberships",
+                    "@reverse": "https://api.researchmap.jp/rmap_kihara/committee_memberships",
+                    "rm:id": "7624305",
+                    "rm:user_id": "1000034719",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-12-03T17:41:21Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-12-03T17:41:21Z",
+                    "from_date": "2016",
+                    "to_date": "2019",
+                    "committee_name": {
+                        "ja": "評議委員"
+                    },
+                    "association": {
+                        "ja": "日本雨水資源化システム学会"
+                    },
+                    "description": {
+                        "ja": "日本雨水資源化システム学会"
+                    },
+                    "committee_type": "society"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/rmap_kihara/committee_memberships/7624307",
+                    "@type": "committee_memberships",
+                    "@reverse": "https://api.researchmap.jp/rmap_kihara/committee_memberships",
+                    "rm:id": "7624307",
+                    "rm:user_id": "1000034719",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-12-03T17:41:21Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-12-03T17:41:21Z",
+                    "from_date": "2009",
+                    "to_date": "2011",
+                    "committee_name": {
+                        "ja": "庶務幹事"
+                    },
+                    "association": {
+                        "ja": "土壌物理学会"
+                    },
+                    "description": {
+                        "ja": "土壌物理学会"
+                    },
+                    "committee_type": "society"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/rmap_kihara/committee_memberships/7624306",
+                    "@type": "committee_memberships",
+                    "@reverse": "https://api.researchmap.jp/rmap_kihara/committee_memberships",
+                    "rm:id": "7624306",
+                    "rm:user_id": "1000034719",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-12-03T17:41:21Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-12-03T17:41:21Z",
+                    "from_date": "2010",
+                    "to_date": "2010",
+                    "committee_name": {
+                        "ja": "支部賞審査委員"
+                    },
+                    "association": {
+                        "ja": "農業農村工学会中国四国支部"
+                    },
+                    "description": {
+                        "ja": "農業農村工学会中国四国支部"
+                    },
+                    "committee_type": "society"
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/rmap_kihara/published_papers",
+            "@type": "published_papers",
+            "@reverse": "https://api.researchmap.jp/rmap_kihara",
+            "total_items": 1,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/rmap_kihara/published_papers/34152551",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/rmap_kihara/published_papers",
+                    "rm:id": "34152551",
+                    "rm:user_id": "1000034719",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2021-10-20T03:57:17Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2021-10-20T03:57:17Z",
+                    "paper_title": {
+                        "en": "Impact of agricultural waste on the shrink–swell behavior and cracking dynamics of expansive soils"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Siviwe Odwa Malongweni"
+                            },
+                            {
+                                "name": "Yasutaka Kihara"
+                            },
+                            {
+                                "name": "Kuniaki Sato"
+                            },
+                            {
+                                "name": "Takeo Tokunari"
+                            },
+                            {
+                                "name": "Tabhorbayar Sobuda"
+                            },
+                            {
+                                "name": "Kaya Mrubata"
+                            },
+                            {
+                                "name": "Tsugiyuki Masunaga"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "en": "Springer Science and Business Media LLC"
+                    },
+                    "publication_date": "2019-12",
+                    "publication_name": {
+                        "en": "International Journal of Recycling of Organic Waste in Agriculture"
+                    },
+                    "volume": "8",
+                    "number": "4",
+                    "starting_page": "339",
+                    "ending_page": "349",
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1007/s40093-019-0265-7"
+                        ],
+                        "issn": [
+                            "2195-3228"
+                        ],
+                        "e_issn": [
+                            "2251-7715"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1007/s40093-019-0265-7",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "http://link.springer.com/content/pdf/10.1007/s40093-019-0265-7.pdf",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "http://link.springer.com/article/10.1007/s40093-019-0265-7/fulltext.html",
+                            "is_downloadable": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/rmap_kihara/misc",
+            "@type": "misc",
+            "@reverse": "https://api.researchmap.jp/rmap_kihara",
+            "total_items": 16,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/rmap_kihara/misc/20438433",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/rmap_kihara/misc",
+                    "rm:id": "20438433",
+                    "rm:user_id": "1000034719",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-12-03T17:41:21Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-12-03T17:41:21Z",
+                    "paper_title": {
+                        "ja": "土壌中の不安定な密度勾配から生じる対流の模擬実験に対する線形安定解析"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "深田耕太郎"
+                            },
+                            {
+                                "name": "木原康孝"
+                            }
+                        ]
+                    },
+                    "publication_date": "2017",
+                    "publication_name": {
+                        "ja": "土壌の物理性"
+                    },
+                    "number": "137",
+                    "starting_page": "11",
+                    "ending_page": "18",
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/rmap_kihara/misc/20438434",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/rmap_kihara/misc",
+                    "rm:id": "20438434",
+                    "rm:user_id": "1000034719",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-12-03T17:41:21Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-12-03T17:41:21Z",
+                    "paper_title": {
+                        "ja": "音響測定法に基づいた砂質土壌の連続気相率と通気係数の関係"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "深田耕太郎"
+                            },
+                            {
+                                "name": "木原康孝"
+                            }
+                        ]
+                    },
+                    "publication_date": "2016",
+                    "publication_name": {
+                        "ja": "土壌の物理性"
+                    },
+                    "number": "133",
+                    "starting_page": "5",
+                    "ending_page": "9",
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/rmap_kihara/misc/20438435",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/rmap_kihara/misc",
+                    "rm:id": "20438435",
+                    "rm:user_id": "1000034719",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-12-03T17:41:21Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-12-03T17:41:21Z",
+                    "paper_title": {
+                        "ja": "雨水と土壌水"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "木原康孝"
+                            }
+                        ]
+                    },
+                    "publication_date": "2013",
+                    "publication_name": {
+                        "ja": "日本雨水資源化システム学会"
+                    },
+                    "volume": "18",
+                    "number": "2",
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/rmap_kihara/misc/20438436",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/rmap_kihara/misc",
+                    "rm:id": "20438436",
+                    "rm:user_id": "1000034719",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-12-03T17:41:21Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-09-03T21:01:32Z",
+                    "paper_title": {
+                        "ja": "学会創立80周年記念シンポジウムと中国四国支部60周年記念誌の計画"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "野中資博"
+                            },
+                            {
+                                "name": "木原康孝"
+                            }
+                        ]
+                    },
+                    "publication_date": "2009",
+                    "publication_name": {
+                        "ja": "水土の知"
+                    },
+                    "volume": "77",
+                    "number": "1",
+                    "starting_page": "21",
+                    "ending_page": "22",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "1882-2770"
+                        ],
+                        "cinii_na_id": [
+                            "10024018332"
+                        ],
+                        "cinii_nc_id": [
+                            "AA12221567"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/10024018332",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_books",
+                            "@id": "http://ci.nii.ac.jp/ncid/AA12221567",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/rmap_kihara/misc/12071585",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/rmap_kihara/misc",
+                    "rm:id": "12071585",
+                    "rm:user_id": "1000034719",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000034719",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2010-01-25T15:00:00Z",
+                    "rm:modifier_id": "1000034719",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2010-01-25T15:00:00Z",
+                    "paper_title": {
+                        "en": "Estimating unsaturated hydraulic conductivity of undisturbed Japanese soils by multi-step outflow experiment"
+                    },
+                    "publication_date": "2001",
+                    "publication_name": {
+                        "en": "Trans. JSIDRE,"
+                    },
+                    "volume": "213",
+                    "starting_page": "61",
+                    "ending_page": "68",
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/rmap_kihara/misc/12071584",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/rmap_kihara/misc",
+                    "rm:id": "12071584",
+                    "rm:user_id": "1000034719",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000034719",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2010-01-25T15:00:00Z",
+                    "rm:modifier_id": "1000034719",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2010-01-25T15:00:00Z",
+                    "paper_title": {
+                        "en": "Behavior of soil water and characteristics of consumptive use in the reclaimed agricultural land under film-cover cultivation"
+                    },
+                    "publication_date": "2001",
+                    "publication_name": {
+                        "en": "Trans. JSIDRE,"
+                    },
+                    "volume": "210",
+                    "starting_page": "103",
+                    "ending_page": "109",
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/rmap_kihara/misc/12071583",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/rmap_kihara/misc",
+                    "rm:id": "12071583",
+                    "rm:user_id": "1000034719",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000034719",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2010-01-25T15:00:00Z",
+                    "rm:modifier_id": "B000000004",
+                    "rm:modifier_type": "system",
+                    "rm:modified": "2010-01-25T15:00:00Z",
+                    "paper_title": {
+                        "en": "Behavior of Soil Water and Capillary Supply in Reclaimed Agricultural Land"
+                    },
+                    "publication_date": "2000",
+                    "publication_name": {
+                        "en": "Trans. JSIDRE"
+                    },
+                    "number": "205",
+                    "starting_page": "119",
+                    "ending_page": "129",
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.11408/jsidre1965.2000.119"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.11408/jsidre1965.2000.119",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/rmap_kihara/misc/12071582",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/rmap_kihara/misc",
+                    "rm:id": "12071582",
+                    "rm:user_id": "1000034719",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000034719",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2010-01-25T15:00:00Z",
+                    "rm:modifier_id": "B000000004",
+                    "rm:modifier_type": "system",
+                    "rm:modified": "2010-01-25T15:00:00Z",
+                    "paper_title": {
+                        "en": "A Leaf Bulk Transfer Coefficient Model for Latent Heat Flux and its Application to a Lawn land."
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Reiji KIMURA"
+                            },
+                            {
+                                "name": "Junsei KONDO"
+                            },
+                            {
+                                "name": "Kyoichi OTSUKI"
+                            },
+                            {
+                                "name": "Yasutaka KIHARA"
+                            }
+                        ]
+                    },
+                    "publication_date": "1997",
+                    "publication_name": {
+                        "en": "J. Agric. Meteorol."
+                    },
+                    "volume": "53",
+                    "number": "4",
+                    "starting_page": "307",
+                    "ending_page": "314",
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.2480/agrmet.53.307"
+                        ],
+                        "issn": [
+                            "0021-8588",
+                            "1881-0136"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.2480/agrmet.53.307",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/rmap_kihara/misc/12071581",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/rmap_kihara/misc",
+                    "rm:id": "12071581",
+                    "rm:user_id": "1000034719",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000034719",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2010-01-25T15:00:00Z",
+                    "rm:modifier_id": "1000034719",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2010-01-25T15:00:00Z",
+                    "paper_title": {
+                        "en": "Measurements of Evapotranspiration from Broccoli Fields by Energy Balance and Bowen Ratio Method."
+                    },
+                    "publication_date": "1997",
+                    "number": "10",
+                    "starting_page": "15",
+                    "ending_page": "20",
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/rmap_kihara/misc/12071575",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/rmap_kihara/misc",
+                    "rm:id": "12071575",
+                    "rm:user_id": "1000034719",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000034719",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2010-01-25T15:00:00Z",
+                    "rm:modifier_id": "1000034719",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2010-01-25T15:00:00Z",
+                    "paper_title": {
+                        "en": "Theoretical Investigation on Be Havior of Soil Water and its Cappillar Supply-study on Capillary supply of soil water from lower layer of soil(I)-"
+                    },
+                    "publication_date": "1991",
+                    "publication_name": {
+                        "en": "Trans. JSIDRE"
+                    },
+                    "volume": "155",
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/rmap_kihara/misc/12071574",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/rmap_kihara/misc",
+                    "rm:id": "12071574",
+                    "rm:user_id": "1000034719",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000034719",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2010-01-25T15:00:00Z",
+                    "rm:modifier_id": "1000034719",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2010-01-25T15:00:00Z",
+                    "paper_title": {
+                        "en": "Theoretical Investigation on Be Havior of Soil Water and its Cappillar Supply-study on Capillary supply of soil water from lower layer of soil(II)-"
+                    },
+                    "publication_date": "1991",
+                    "publication_name": {
+                        "en": "Trans. JSIDRE"
+                    },
+                    "volume": "155",
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/rmap_kihara/misc/12071580",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/rmap_kihara/misc",
+                    "rm:id": "12071580",
+                    "rm:user_id": "1000034719",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000034719",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2010-01-25T15:00:00Z",
+                    "rm:modifier_id": "1000034719",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2010-01-25T15:00:00Z",
+                    "paper_title": {
+                        "en": "Change of soicl Structure in Drained Area by Grass Culture(II)-study Case in YASUGI Resion-"
+                    },
+                    "publication_date": "1990",
+                    "publication_name": {
+                        "en": "Bulletin of the Faculty of Agriculture. Shimane University"
+                    },
+                    "volume": "24",
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/rmap_kihara/misc/12071579",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/rmap_kihara/misc",
+                    "rm:id": "12071579",
+                    "rm:user_id": "1000034719",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000034719",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2010-01-25T15:00:00Z",
+                    "rm:modifier_id": "1000034719",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2010-01-25T15:00:00Z",
+                    "paper_title": {
+                        "en": "On the Prevention of the Soil Erosion by Mulching"
+                    },
+                    "publication_date": "1990",
+                    "publication_name": {
+                        "en": "Bulletin of the Faculty of Agriculture. Shimane University"
+                    },
+                    "volume": "24",
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/rmap_kihara/misc/12071577",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/rmap_kihara/misc",
+                    "rm:id": "12071577",
+                    "rm:user_id": "1000034719",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000034719",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2010-01-25T15:00:00Z",
+                    "rm:modifier_id": "1000034719",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2010-01-25T15:00:00Z",
+                    "paper_title": {
+                        "en": "Influence of Adsorption Properties on Cation Transfer"
+                    },
+                    "publication_date": "1990",
+                    "publication_name": {
+                        "en": "Bulletin of the Faculty of Agriculture. Shimane University"
+                    },
+                    "volume": "24",
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/rmap_kihara/misc/12071576",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/rmap_kihara/misc",
+                    "rm:id": "12071576",
+                    "rm:user_id": "1000034719",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000034719",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2010-01-25T15:00:00Z",
+                    "rm:modifier_id": "1000034719",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2010-01-25T15:00:00Z",
+                    "paper_title": {
+                        "en": "Behavior of Soil moisure and its Capillary Supply from Lawer Layer"
+                    },
+                    "publication_date": "1990",
+                    "publication_name": {
+                        "en": "Trans. JSIDRE"
+                    },
+                    "volume": "58",
+                    "number": "11",
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/rmap_kihara/misc/12071578",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/rmap_kihara/misc",
+                    "rm:id": "12071578",
+                    "rm:user_id": "1000034719",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000034719",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2010-01-25T15:00:00Z",
+                    "rm:modifier_id": "1000034719",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2010-01-25T15:00:00Z",
+                    "paper_title": {
+                        "en": "Influence of material Properties on the Relation between Dispersion Coefficient and Pore-Velocity"
+                    },
+                    "publication_date": "1989",
+                    "publication_name": {
+                        "en": "Bulletin of the Faculty of Agriculture. Shimane University"
+                    },
+                    "volume": "23",
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/rmap_kihara/presentations",
+            "@type": "presentations",
+            "@reverse": "https://api.researchmap.jp/rmap_kihara",
+            "total_items": 11,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/rmap_kihara/presentations/19994931",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/rmap_kihara/presentations",
+                    "rm:id": "19994931",
+                    "rm:user_id": "1000034719",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-12-03T17:41:21Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-12-03T17:41:21Z",
+                    "presentation_title": {
+                        "ja": "蒸発により発現する密度流の可視化メカニズムの解明"
+                    },
+                    "event": {
+                        "ja": "平成25年度農業農村工学会大会講演会"
+                    },
+                    "publication_date": "2013",
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/rmap_kihara/presentations/19994934",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/rmap_kihara/presentations",
+                    "rm:id": "19994934",
+                    "rm:user_id": "1000034719",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-12-03T17:41:21Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-12-03T17:41:21Z",
+                    "presentation_title": {
+                        "ja": "蒸発により発現する土壌中の溶液密度の不安定性"
+                    },
+                    "event": {
+                        "ja": "第50回 土壌物理学会講演会"
+                    },
+                    "publication_date": "2008",
+                    "invited": false,
+                    "presentation_type": "poster_presentation",
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/rmap_kihara/presentations/19994933",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/rmap_kihara/presentations",
+                    "rm:id": "19994933",
+                    "rm:user_id": "1000034719",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-12-03T17:41:21Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-12-03T17:41:21Z",
+                    "presentation_title": {
+                        "ja": "山地小流域における水環境モデルの構築に向けて"
+                    },
+                    "event": {
+                        "ja": "第63回 農業農村工学会中国四国支部講演会"
+                    },
+                    "publication_date": "2008",
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/rmap_kihara/presentations/19994932",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/rmap_kihara/presentations",
+                    "rm:id": "19994932",
+                    "rm:user_id": "1000034719",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-12-03T17:41:21Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-12-03T17:41:21Z",
+                    "presentation_title": {
+                        "ja": "Density flow in a porous media caused by salt accumulation"
+                    },
+                    "event": {
+                        "ja": "5th International Conference : Intefaces Against Pollution 2008"
+                    },
+                    "publication_date": "2008",
+                    "invited": false,
+                    "presentation_type": "poster_presentation",
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/rmap_kihara/presentations/19994938",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/rmap_kihara/presentations",
+                    "rm:id": "19994938",
+                    "rm:user_id": "1000034719",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-12-03T17:41:21Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-12-03T17:41:21Z",
+                    "presentation_title": {
+                        "ja": "吉野川下流域における土壌溶液の陽イオン組成と感潮河川との関係"
+                    },
+                    "event": {
+                        "ja": "第60回 農業土木学会中国四国支部講演会"
+                    },
+                    "publication_date": "2005",
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/rmap_kihara/presentations/19994937",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/rmap_kihara/presentations",
+                    "rm:id": "19994937",
+                    "rm:user_id": "1000034719",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-12-03T17:41:21Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-12-03T17:41:21Z",
+                    "presentation_title": {
+                        "ja": "Use of GIS in Prediction of Soil Electrical Conductivity for Water Management agaist Soil Salinity"
+                    },
+                    "event": {
+                        "ja": "Asian Conference on Remoto Sensing"
+                    },
+                    "publication_date": "2005",
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/rmap_kihara/presentations/19994936",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/rmap_kihara/presentations",
+                    "rm:id": "19994936",
+                    "rm:user_id": "1000034719",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-12-03T17:41:21Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-12-03T17:41:21Z",
+                    "presentation_title": {
+                        "ja": "機能融合型屋上緑化における灌水システムの灌水機能"
+                    },
+                    "event": {
+                        "ja": "日本雨水資源化システム学会 第13回研究発表会"
+                    },
+                    "publication_date": "2005",
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/rmap_kihara/presentations/19994935",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/rmap_kihara/presentations",
+                    "rm:id": "19994935",
+                    "rm:user_id": "1000034719",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-12-03T17:41:21Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-12-03T17:41:21Z",
+                    "presentation_title": {
+                        "ja": "吉野川下流域川内地区における土壌塩分環境の特性について"
+                    },
+                    "event": {
+                        "ja": "平成17年度 農業土木学会大会講演会"
+                    },
+                    "publication_date": "2005",
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/rmap_kihara/presentations/19994941",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/rmap_kihara/presentations",
+                    "rm:id": "19994941",
+                    "rm:user_id": "1000034719",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-12-03T17:41:21Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-12-03T17:41:21Z",
+                    "presentation_title": {
+                        "ja": "吉野川下流域における表層土壌の陽イオン特性について"
+                    },
+                    "event": {
+                        "ja": "第59回 農業土木学会中国四国支部講演会"
+                    },
+                    "publication_date": "2004",
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/rmap_kihara/presentations/19994940",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/rmap_kihara/presentations",
+                    "rm:id": "19994940",
+                    "rm:user_id": "1000034719",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-12-03T17:41:21Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-12-03T17:41:21Z",
+                    "presentation_title": {
+                        "ja": "発泡廃ガラス材と毛管補給による屋上緑化システムの水分動態"
+                    },
+                    "event": {
+                        "ja": "日本雨水資源化システム学会 第12回研究発表会"
+                    },
+                    "publication_date": "2004",
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/rmap_kihara/presentations/19994939",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/rmap_kihara/presentations",
+                    "rm:id": "19994939",
+                    "rm:user_id": "1000034719",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-12-03T17:41:21Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-12-03T17:41:21Z",
+                    "presentation_title": {
+                        "ja": "蒸発により発現する水分・塩分の不均一分布"
+                    },
+                    "event": {
+                        "ja": "平成16年度 農業土木学会大会講演会"
+                    },
+                    "publication_date": "2004",
+                    "invited": false,
+                    "rm:is_open_access": false
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/rmap_kihara/association_memberships",
+            "@type": "association_memberships",
+            "@reverse": "https://api.researchmap.jp/rmap_kihara",
+            "total_items": 3,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/rmap_kihara/association_memberships/11006283",
+                    "@type": "association_memberships",
+                    "@reverse": "https://api.researchmap.jp/rmap_kihara/association_memberships",
+                    "rm:id": "11006283",
+                    "rm:user_id": "1000034719",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-12-03T17:41:21Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-12-03T17:41:21Z",
+                    "academic_society_name": {
+                        "ja": "土壌物理学会"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/rmap_kihara/association_memberships/11006282",
+                    "@type": "association_memberships",
+                    "@reverse": "https://api.researchmap.jp/rmap_kihara/association_memberships",
+                    "rm:id": "11006282",
+                    "rm:user_id": "1000034719",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-12-03T17:41:21Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-12-03T17:41:21Z",
+                    "academic_society_name": {
+                        "ja": "農業農村工学会中国四国支部"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/rmap_kihara/association_memberships/11006281",
+                    "@type": "association_memberships",
+                    "@reverse": "https://api.researchmap.jp/rmap_kihara/association_memberships",
+                    "rm:id": "11006281",
+                    "rm:user_id": "1000034719",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-12-03T17:41:21Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-12-03T17:41:21Z",
+                    "academic_society_name": {
+                        "ja": "日本雨水資源化システム学会"
+                    }
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/rmap_kihara/research_projects",
+            "@type": "research_projects",
+            "@reverse": "https://api.researchmap.jp/rmap_kihara",
+            "total_items": 11,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/rmap_kihara/research_projects/45230990",
+                    "@type": "research_projects",
+                    "@reverse": "https://api.researchmap.jp/rmap_kihara/research_projects",
+                    "rm:id": "45230990",
+                    "rm:user_id": "1000034719",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2024-01-30T19:17:25Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2024-01-30T19:17:25Z",
+                    "research_project_title": {
+                        "ja": "中国西北部における砂漠化防止と社会経済構造転換の必要性に関する総合的研究",
+                        "en": "The interdisciplinary study on prevention of desertification and necessity of socio-economic structure reform in China"
+                    },
+                    "investigators": {
+                        "ja": [
+                            {
+                                "name": "保母 武彦"
+                            },
+                            {
+                                "name": "富野 暉一郎"
+                            },
+                            {
+                                "name": "井口 隆史"
+                            },
+                            {
+                                "name": "伊藤 勝久"
+                            },
+                            {
+                                "name": "関 耕平"
+                            },
+                            {
+                                "name": "一戸 俊義"
+                            },
+                            {
+                                "name": "小林 伸雄"
+                            },
+                            {
+                                "name": "米 康充"
+                            },
+                            {
+                                "name": "木原 康孝"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "HOBO Takehiko"
+                            },
+                            {
+                                "name": "TOMINO Kiichirou"
+                            },
+                            {
+                                "name": "IGUCHI Takashi"
+                            },
+                            {
+                                "name": "ITO Katsuhisa"
+                            },
+                            {
+                                "name": "SEKI Kouhei"
+                            },
+                            {
+                                "name": "ICHINOHE Toshiyoshi"
+                            },
+                            {
+                                "name": "KOBAYASHI Nobuo"
+                            },
+                            {
+                                "name": "YONE Yasumichi"
+                            },
+                            {
+                                "name": "KIHARA Yasutaka"
+                            }
+                        ]
+                    },
+                    "offer_organization": {
+                        "ja": "日本学術振興会",
+                        "en": "Japan Society for the Promotion of Science"
+                    },
+                    "system_name": {
+                        "ja": "科学研究費助成事業",
+                        "en": "Grants-in-Aid for Scientific Research"
+                    },
+                    "category": {
+                        "ja": "基盤研究(B)",
+                        "en": "Grant-in-Aid for Scientific Research (B)"
+                    },
+                    "institution_name": {
+                        "ja": "島根大学",
+                        "en": "Shimane University"
+                    },
+                    "from_date": "2009",
+                    "to_date": "2011",
+                    "overall_grant_amount": {
+                        "total_cost": "18200000",
+                        "direct_cost": "14000000",
+                        "indirect_cost": "4200000"
+                    },
+                    "description": {
+                        "ja": "地球上で最も砂漠化が著しい中国の新疆ウイグル自治区,内モンゴル自治区,寧夏回族自治区を対象に,砂漠化と人間行動の悪循環構造の社会科学的解明,人間活動と産業化がもたらす砂漠化圧力の学際的解明を行った.研究成果は, 3地域毎の自然及び社会のデータベースとともに「中国の砂漠化に関する地域別実態報告」として,中国語,日本語,英語の出版物で順次公表する予定である.",
+                        "en": "We had made surveys to elucidate a harmful effect of human activities on the desertification from the view point of social science, and to evaluate extent of leading a desertification due to human activity and industrialization by means of interdisciplinary research. The research areas chosen were the Xinjiang-Uygur Autonomous Region, the Inner Mongolia Autonomous Region and the Ningxia Hui Autonomous Region in China, where the rate and extent of desertification being serious in the world. The research fruits obtained in this project are planned to be published entitled as \"The regional report on desertification entities in China\" with the database of natural and social aspects of the three each area, in Chinese, Japanese and English, respectively."
+                    },
+                    "identifiers": {
+                        "grant_number": [
+                            "21402017"
+                        ],
+                        "national_grant_number": [
+                            "JP21402017"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "kaken",
+                            "@id": "https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-21402017"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/rmap_kihara/research_projects/44998304",
+                    "@type": "research_projects",
+                    "@reverse": "https://api.researchmap.jp/rmap_kihara/research_projects",
+                    "rm:id": "44998304",
+                    "rm:user_id": "1000034719",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2024-01-30T13:31:13Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2024-01-30T13:31:13Z",
+                    "research_project_title": {
+                        "ja": "水田地域における生物生息環境保全のための水土環境診断システム",
+                        "en": "Analytical system on water and soil environment in paddy field areas for animal-habitat conservation"
+                    },
+                    "investigators": {
+                        "ja": [
+                            {
+                                "name": "武田 育郎"
+                            },
+                            {
+                                "name": "森 也寸志"
+                            },
+                            {
+                                "name": "石井 将幸"
+                            },
+                            {
+                                "name": "木原 康孝"
+                            },
+                            {
+                                "name": "宗村 広昭"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "TAKEDA Ikuo"
+                            },
+                            {
+                                "name": "MORI Yasushi"
+                            },
+                            {
+                                "name": "ISHII Masayuki"
+                            },
+                            {
+                                "name": "KIHARA Yasutaka"
+                            },
+                            {
+                                "name": "SOMURA Hiroaki"
+                            }
+                        ]
+                    },
+                    "offer_organization": {
+                        "ja": "日本学術振興会",
+                        "en": "Japan Society for the Promotion of Science"
+                    },
+                    "system_name": {
+                        "ja": "科学研究費助成事業",
+                        "en": "Grants-in-Aid for Scientific Research"
+                    },
+                    "category": {
+                        "ja": "基盤研究(B)",
+                        "en": "Grant-in-Aid for Scientific Research (B)"
+                    },
+                    "institution_name": {
+                        "ja": "島根大学",
+                        "en": "Shimane University"
+                    },
+                    "from_date": "2004",
+                    "to_date": "2007",
+                    "overall_grant_amount": {
+                        "total_cost": "16070000",
+                        "direct_cost": "15800000",
+                        "indirect_cost": "270000"
+                    },
+                    "description": {
+                        "ja": "島根県東部の水田流域や山地流域などを研究対象にして,生物生息環境,水文環境,水質環境,土壌環境などの観点から農山村の環境要素を調査し,GIS解析に用いる環境要素の定量化と,環境解析やモニタリングのためのいくつかの新しい方法の開発を行った。そして,これらの環境要素をGISの手法を応用して統合化することを試みた。特に生物生息環境については,夏季の農業排水路に生息する水生動物の多様性(魚類・水生昆虫類)と,これに影響を与えると考えられる環境因子との関係を考察し,ほ場整備の完了した水田地区において,魚類,水生昆虫類,水質,水路の物理的環境(水深・流速・水路の護岸部・植生被覆率・水面下の土壌占有率・水路幅)に関する調査を行った。その結果,調査対象地点では,魚類に関しては11種,水生昆虫類に関しては14種の生息が確認され,また,それぞれの調査地点において,魚類,水生昆虫類に区分してShannon-Wienerの多様性指数を算出し,水質および物理的環境との間の関係を明らかにした。そして水生昆虫類に関しては,いくつかの水質指標や,植生被覆率,水面下の土壌占有率,水路幅が重要な環境因子であるとの結果が得られた。一方,循環灌漑を行っている水田流域における水質汚濁物質の物質収支の結果より,年間の汚濁負荷特性の変化には水文条件が主に寄与しており,また,水質浄化機能には,水理学的滞留時間の影響が大きいことなどを明らかにした。このような結果と流域における水循環,物質循環,土壌環境などの研究結果も加えて,農山村の環境要素を評価した。そして,これらの環境情報をGISの手法を応用して統合化し,水田地域における生物生息環境保全のための水土環境診断システムに十分な説得力をもたせるために,主要な環境要素を定量評価し,相互関係について考察した。",
+                        "en": "Environmental factors of agricultural and forestry areas were evaluated in the light of hydrology, water quality and soils science in paddy field and forestry areas in the eastern part of Shimane prefect= and other districts. In particular for the environment for animal habits in agricultural areas, the relationship between bio-diversity and environmental factors were evaluated in a paddy-field area in the eastern part of Shimane Prefecture. The parameters were water qualities, fishes, aquatic insects, and physics' environmental factors (breadth of canal, water depth, flow velocity, vegetation coverage, and soil coverage of undersurface) in drainage canals. As a result, eleven species of fishes and fourteen species or family of aquatic insects were observed in the investigation sites and diversity indexes calculated by Shannon-Wiener method were evaluated. Then, it was clarified that the diversity indexes for aquatic insects were affected by some water qualities, breadth of canal and soil coverage of undersurface. On the other hand for the mass balance of pollutants in a paddy field watershed using a circular irrigation system, a long-term investigation on the water quality and hydrology was carried out As a result, the change in annual pollutant loads was primarily attributed to the amount of hydrological water volumes (the annual amount of rainfall or that of rainfall plus irrigation water), and the purification function was related to the hydraulic retention time. By using these results, the environmental factors in agricultural and lineally area were evaluated in the light of material cycles, hydrology, water quality and sail science. Moreover the main factors were quantified and relationships among them were evaluated in other to integrate the GIS based environmental analysis."
+                    },
+                    "identifiers": {
+                        "grant_number": [
+                            "16380221"
+                        ],
+                        "national_grant_number": [
+                            "JP16380221"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "kaken",
+                            "@id": "https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-16380221"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/rmap_kihara/research_projects/44950865",
+                    "@type": "research_projects",
+                    "@reverse": "https://api.researchmap.jp/rmap_kihara/research_projects",
+                    "rm:id": "44950865",
+                    "rm:user_id": "1000034719",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2024-01-30T12:24:32Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2024-01-30T12:24:32Z",
+                    "research_project_title": {
+                        "ja": "資源の有効利用に資する雨水利用および屋上緑化の機能融合型システムの開発",
+                        "en": "Development of Multi-functional system of rainwater utilization and rooftop vegetation to contributes to the effective utilization of resources."
+                    },
+                    "investigators": {
+                        "ja": [
+                            {
+                                "name": "喜多 威知郎"
+                            },
+                            {
+                                "name": "巣山 弘介"
+                            },
+                            {
+                                "name": "木原 康孝"
+                            },
+                            {
+                                "name": "平松 研"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "KITA Ichiro"
+                            },
+                            {
+                                "name": "SUYAMA Kosuke"
+                            },
+                            {
+                                "name": "KIHARA Yasutaka"
+                            }
+                        ]
+                    },
+                    "offer_organization": {
+                        "ja": "日本学術振興会",
+                        "en": "Japan Society for the Promotion of Science"
+                    },
+                    "system_name": {
+                        "ja": "科学研究費助成事業",
+                        "en": "Grants-in-Aid for Scientific Research"
+                    },
+                    "category": {
+                        "ja": "基盤研究(C)",
+                        "en": "Grant-in-Aid for Scientific Research (C)"
+                    },
+                    "institution_name": {
+                        "ja": "島根大学",
+                        "en": "Shimane University"
+                    },
+                    "from_date": "2003",
+                    "to_date": "2005",
+                    "overall_grant_amount": {
+                        "total_cost": "3700000",
+                        "direct_cost": "3700000"
+                    },
+                    "description": {
+                        "ja": "雨水利用,屋上緑化のそれぞれが持つ利点を複合的に利用し,リサイクル資材の有効利用を考慮した小規視機能融合型システムを構築した.本システムは二層化したコンテナから構成され,上部は植栽部として屋上緑化機能,下部は雨水貯留槽として機能した.また,植栽部培土にはガラス廃材から製造される発泡廃ガラスを使用し,資源の有効利用とともに,屋上緑化設置の大きな制約条件である負荷加重を考慮した軽量化も考慮した.実験により本システムの有用性および実用化に当たっての諸課題およびその対応方法について検討した.\n1.リサイクル資材である発泡廃ガラス材を植栽用培土として使用する場合,植物の順調な生育を可能にするために必要とされる諸条件について実験によって検討した結果,堆肥等の有機資材の混入が有効であることが判明した.また,植物の生育に影響をおよぼす土壌中の微生物は発泡廃ガラスを単用した場合は,まったく存在しないために,ピートモス等を混和する必要があり,植物の生育にも影響をおよぼすことが判明した.\n2,緑化システムの管理労力軽減のために,二層化した下部のコンテナに貯留した雨水を不織布の毛管力によって上部の植栽部に水分を補給するするシステムとしたが,十分な潜水能力があることが判明した.また,上部のコンテナには降雨時に下部に速やかに排水できるようにする必要があることが判明した.\n3.夏季を中心に,緑化システムおよび周辺に温度の測点を設定し温度の変動状況について調査した結果,システムの設置によるコンクリート面の表面温度の上昇を抑制に効果かおることが判明した.また,植栽の有無による土壌表面温度については,植栽による効果は大きく,概ね15℃程度の低下が見られた.",
+                        "en": "A small-scale system which has both advantage of rainwater utilization and roof top vegetation and contribution to an effective use of recycling material was developed. It consisted of two containers ; lower container was used for rainwater storage and upper part of container was used for roof top vegetation. Foaming waste glass material that was made from waste glass and was lightweight was used as culture soil in upper container for vegetation to contribute to effective use of recycling material and to meet load resection imposed on rooftop structure.\nIn this research, the advantage of this system and various problems and solutions for practical use were investigated by experiments. The obtained results are as follows :\n1.The addition of organic materials such as the compost was effective for the well growth of the plant, when the recycling material of foaming waste glass was used as culture soil, because no microorganism that assist plant to grow well exists in recycling material after production.\n2.Water was supplied by capillary action to soil in upper container from lower one in the vegetation system in order to reduce labor and cost for watering, which worked well. In the heavy rain, the upper container must rapidly drain rainwater to the lower container not to be filled with rainwater.\n3.The observation point of the temperature was set at replanting system and circumference, and the temperature was measured in the summertime. The observation results show that vegetation system had effect on reducing temperature of concrete at the bottom of system in comparison with temperature of concrete exposed to direct sunlight and that temperature of soil surface in the container with vegetation was lower than without vegetation."
+                    },
+                    "identifiers": {
+                        "grant_number": [
+                            "15580212"
+                        ],
+                        "national_grant_number": [
+                            "JP15580212"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "kaken",
+                            "@id": "https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-15580212"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/rmap_kihara/research_projects/44887002",
+                    "@type": "research_projects",
+                    "@reverse": "https://api.researchmap.jp/rmap_kihara/research_projects",
+                    "rm:id": "44887002",
+                    "rm:user_id": "1000034719",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2024-01-30T11:07:01Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2024-01-30T11:07:01Z",
+                    "research_project_title": {
+                        "ja": "乾燥地の塩集積とリーチングに伴う塩動態解析と最適な土壌管理法と確立",
+                        "en": "Assessment of water and solute transport characteristics during salt accumulation and leaching, and establishment of proper soil management for sustainable agricultural production in arid and semi-arid regions."
+                    },
+                    "investigators": {
+                        "ja": [
+                            {
+                                "name": "井上 光弘"
+                            },
+                            {
+                                "name": "赤江 剛夫"
+                            },
+                            {
+                                "name": "本名 俊正"
+                            },
+                            {
+                                "name": "山本 太平"
+                            },
+                            {
+                                "name": "田熊 勝利"
+                            },
+                            {
+                                "name": "木原 康孝"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "INOUE Mitsuhiro"
+                            },
+                            {
+                                "name": "AKAE Takeo"
+                            },
+                            {
+                                "name": "HONNNA Toshimasa"
+                            },
+                            {
+                                "name": "YAMAMOTO Tahei"
+                            },
+                            {
+                                "name": "TAKUMA Katsutoshi"
+                            },
+                            {
+                                "name": "KIHARA Yasutaka"
+                            }
+                        ]
+                    },
+                    "offer_organization": {
+                        "ja": "日本学術振興会",
+                        "en": "Japan Society for the Promotion of Science"
+                    },
+                    "system_name": {
+                        "ja": "科学研究費助成事業",
+                        "en": "Grants-in-Aid for Scientific Research"
+                    },
+                    "category": {
+                        "ja": "基盤研究(B)",
+                        "en": "Grant-in-Aid for Scientific Research (B)"
+                    },
+                    "institution_name": {
+                        "ja": "鳥取大学",
+                        "en": "Tottori University"
+                    },
+                    "from_date": "2001",
+                    "to_date": "2003",
+                    "overall_grant_amount": {
+                        "total_cost": "14600000",
+                        "direct_cost": "14600000"
+                    },
+                    "description": {
+                        "ja": "本研究は,乾燥地の塩集積とリーチングに伴う塩動態解析を明らかにして,灌漑農業に伴う土壌劣化の進行を防ぐための最適な土壌管理法を確立することを目的としている。研究成果は、(1)大型カラムを用いた蒸発実験を行い,地下水一定条件下の塩集積過程の水分,塩分移動を測定した。(2)様々な水分と塩分集積量の組み合わせにおいてアルベドを測定し,塩集積に伴うアルベドの増加を定量的に検討した。(3)塩集積過程の塩析出の際の塩結晶形成の定量化を試みた。(4)塩集積を軽減するグラベルマルチの実験で、飽和土壌からの蒸発過程でマルチの有無と水蒸気輸送に関する表面抵抗について検討した。(5)リーチングに関する塩動態解析の研究では,リーチング水の水質がソーダ質土壌(アルカリ土壌)の透水性に及ぼす影響と団粒構造の安定性,粘土の分散性の面から検討した。(6)数種の土壌を用いて,塩集積・リーチング過程における土壌中の陽イオン4成分の挙動について検討した。(7)数値シミュレーションに関する研究では,蒸発速度を表層のポテンシャルから予測して,水・塩・熱の同時移動を予測子修正子法で数値計算した。(8)塩集積とリーチング過程の数値シミュレーション結果を視覚的に表現できるソフトウェア(WASH-1D)を開発した。(9)低水分状態の不飽和透水係数を求める方法を提案した。(10)数値シミュレーションの入力データに必要な熱伝導係数の簡易な測定方法を検討し,熱伝導係数の塩濃度依存性について検討した。(11)塩分動態モニタリングシステムを用いて,異なる灌漑スケジューリングでグレインソルガムを栽培して,植物生育期間中における土中の塩分と水分動態を測定し,植物の肥料利用効率を検討した。(12)海岸付近の砂地圃場の実験で,塩水化地下水を有する砂客土畑土壌の水分と塩分の動態を測定し,砂客土による土壌の塩類化回避について検討した。",
+                        "en": "Objective of this study was to clarify solute movement following salt accumulation and leaching in arid areas and to establish proper soil management to prevent soil degradation from over-irrigation. In this study, measurement of water flow and solute transport during evaporation was carried out during salt accumulation process under constant high ground water level using large column. After measuring the relationships among salt content, water content and soil albedo, it was found that the albedo of soil surface increased with increasing mass of accumulated salt. The horizontal distribution of rystallizied soils was investigated using digital analysis of salt crust caused by salt accumulation. Effects of gravel mulch on evaporation with emphasis on resistance to water vapor transfer above and below the soil surface were discussed. Effects of leaching water quality on hydraulic properties of saline soils were also discussed and the aggregate stability of sodic soils was evaluated. Movement of cations under accumulation and leaching processes in soils was discussed. WASH-1D software for one-dimensional numerical simulation of water flow, solute and heat movement in soils was developed in order to simulate salt accumulation with evaporation and leaching due to rainfall. A flux-controlled steady-state evaporation method was proposed for determining unsaturated hydraulic conductivity at low matric pressure head values. A simple method of measuring soil thermal conductivity as well as the influences of water content, solute concentration, and temperature on thermal conductivity of dune sand were discussed. Differences in electrical conductivity of the soil water between continual and intermittent irrigation were observed during grain sorghum cultivation. Dynamics of soil water and salt in sand-dressed upland field with salinized ground water due to sea water intrusion was measured and simulated. It was established that sand dressing was useful to prevent soil salinization."
+                    },
+                    "identifiers": {
+                        "grant_number": [
+                            "13460104"
+                        ],
+                        "national_grant_number": [
+                            "JP13460104"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "kaken",
+                            "@id": "https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-13460104"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/rmap_kihara/research_projects/44782333",
+                    "@type": "research_projects",
+                    "@reverse": "https://api.researchmap.jp/rmap_kihara/research_projects",
+                    "rm:id": "44782333",
+                    "rm:user_id": "1000034719",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2024-01-30T08:53:55Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2024-01-30T08:53:55Z",
+                    "research_project_title": {
+                        "ja": "用水利用実態をふまえた畑地用水計画の体系化",
+                        "en": "The systematization of upland irrigation planning with the consideration the actual situation of water use"
+                    },
+                    "investigators": {
+                        "ja": [
+                            {
+                                "name": "四方田 穆"
+                            },
+                            {
+                                "name": "猿渡 農武也"
+                            },
+                            {
+                                "name": "木原 康孝"
+                            },
+                            {
+                                "name": "大槻 恭一"
+                            },
+                            {
+                                "name": "三浦 健志"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "YOMOTA Atsushi"
+                            },
+                            {
+                                "name": "SARUWATARI Nobuya"
+                            },
+                            {
+                                "name": "KIHARA Yasutaka"
+                            },
+                            {
+                                "name": "OTSUKI Kyoichi"
+                            },
+                            {
+                                "name": "MIURA Takeshi"
+                            }
+                        ]
+                    },
+                    "offer_organization": {
+                        "ja": "日本学術振興会",
+                        "en": "Japan Society for the Promotion of Science"
+                    },
+                    "system_name": {
+                        "ja": "科学研究費助成事業",
+                        "en": "Grants-in-Aid for Scientific Research"
+                    },
+                    "category": {
+                        "ja": "基盤研究(B)",
+                        "en": "Grant-in-Aid for Scientific Research (B)"
+                    },
+                    "institution_name": {
+                        "ja": "岡山大学",
+                        "en": "OKAYAMA UNIVERSITY"
+                    },
+                    "from_date": "1997",
+                    "to_date": "1998",
+                    "overall_grant_amount": {
+                        "total_cost": "8800000",
+                        "direct_cost": "8800000"
+                    },
+                    "description": {
+                        "ja": "本研究の目的は,圃場レベルと地区レベルで,潅水の動機と原因となる気象と蒸発散量,及び使用水量を調査測定し,畑地潅漑地区における用水利用実態と計画値との乖離の原因を究明し,畑地用水計画の体系を検討することにある。\n地区レベルの調査は,東伯農業水利事業実施地区での1993年からの用水使用量のデータから,時間当たり,日当たりの使用水量をファームポンド毎に整理解析した。その結果,夏季の連続干天に使用水量が増大すること,時間使用量においてもピーク値は計画値相当量を示し,また時間使用量は朝夕にピークを持つふた山型を示していることが分かった。\n圃場レベルの調査として,鳥取県大栄町の施設畑や露地畑,鳥取大学乾燥地研究センター内の砂丘畑で微気象,土壌水分動態,潅水量等の測定を実施した。土壌水分量と作物の生育状況により,地表面での放射・熱収支,蒸発散がどのように変化するか整理解析した。また水田においても微気象の測定を実施し,ペンマン蒸発散位と蒸発散量の関係等について検討した。\n圃場で得られたデータをもとに土壌水分動態のシミュレーションを行った。畑地潅漑管理支援のための土壌水分シミュレーションソフトの開発にも着手した。さらには,アメダス気象データCD及び気象庁測定関連気象資料を入手して,ペンマン式により蒸発散位を計算しその分布図描いた。上記の調査観測やシミュレーション結果を踏まえて,計画と実態の乖離の原因を探りながら,畑地用水計画およびそのあり方について検討を行った。\nこれらの成果の一部は公表済みだが,逐次論文として発表していく予定である。",
+                        "en": "The objective of this study was to investigate the system for upland irrigation planning at the field level and the farm level. To achieve it, the meteorological conditions and the evapotranspiration which were the reason of irrigation was measured, and the cause for the difference between the design water requirement and the actual situation of water requirement in a upland irrigation block was investigated.\nThe investigation at farm level was conducted with using the data having been measured from 1993 in the Tohaku Irrigation Project district. The hourly and daily water use at every farm pond were analyzed. As a result, the investigations revealed that the amount of water use increased during long, clear, dry days, and the peak of hourly water use was almost the same amount as the design water requirement, and the peak discharge from the farm ponds was in the morning and evening.\nAs the investigation of field level, the micrometeorological conditions, the soil moisture content and the irrigation amount were measured within and outside the greenhouses at Daiei Town area, Tottori Prefecture, and at a sand dune field at Arid Land Research Center, Tottori University, It was analyzed how the radiation and heat balance and the evapotranspiration were changed by soil water moisture content and the growth conditioned of crops. Also, the micrometeorological conditions were measured in a paddy field, and the relation between Penman's potential evapotranspirations and evapotranspirations was investigated.\nThe water movements was simulated with using the data measured in fields. Also, the development of simulation code for water movements was started. Furthermore, the potential evapotranspiration by Penman's equation was calculated by using the AMeDAS meteorological data and the meteorological materials at the Meteorological Agency, and the distribution map of that was drawn. On the basis of the measurements and simulation results mentioned above, the reasons of the difference between the planning and the actual situation were examined, and the ideal method for the upland irrigation planning were investigated.\nA part of these results have already been published. More papers will be published in the future."
+                    },
+                    "identifiers": {
+                        "grant_number": [
+                            "09556049"
+                        ],
+                        "national_grant_number": [
+                            "JP09556049"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "kaken",
+                            "@id": "https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-09556049"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/rmap_kihara/research_projects/44703118",
+                    "@type": "research_projects",
+                    "@reverse": "https://api.researchmap.jp/rmap_kihara/research_projects",
+                    "rm:id": "44703118",
+                    "rm:user_id": "1000034719",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2024-01-30T07:25:33Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2024-01-30T07:25:33Z",
+                    "research_project_title": {
+                        "ja": "施設畑における水利用の実態と用水計画",
+                        "en": "Investigations of the realities of greenhouse water use for irrigation project planning"
+                    },
+                    "investigators": {
+                        "ja": [
+                            {
+                                "name": "四方田 穆"
+                            },
+                            {
+                                "name": "木原 康孝"
+                            },
+                            {
+                                "name": "三浦 建志"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "YOMOTA Atsushi"
+                            },
+                            {
+                                "name": "KIHARA Yasutaka"
+                            },
+                            {
+                                "name": "MIURA Takeshi"
+                            }
+                        ]
+                    },
+                    "offer_organization": {
+                        "ja": "日本学術振興会",
+                        "en": "Japan Society for the Promotion of Science"
+                    },
+                    "system_name": {
+                        "ja": "科学研究費助成事業",
+                        "en": "Grants-in-Aid for Scientific Research"
+                    },
+                    "category": {
+                        "ja": "一般研究(C)",
+                        "en": "Grant-in-Aid for General Scientific Research (C)"
+                    },
+                    "institution_name": {
+                        "ja": "岡山大学",
+                        "en": "OKAYAMA UNIVERSITY"
+                    },
+                    "from_date": "1994",
+                    "to_date": "1995",
+                    "overall_grant_amount": {
+                        "total_cost": "2000000",
+                        "direct_cost": "2000000"
+                    },
+                    "description": {
+                        "ja": "本研究の目的は,施設畑における水利用の実態を明らかにし施設畑の用水計画を検討することである。そこで用水利用実態を明らかにするために,施設畑及び施設畑を営む普通畑地帯の用水利用実態を調査した。またハウス内外で微気象と土壌水分動態を測定し,用水量を気象データから推定する可能性を探った。\n実施した調査と測定及び成果は以下の通りである。\n1.施設畑(ビニールハウス)として,岡山県総社市(ナス)と鳥取県大栄町(スイカ)のビニールハウスにおいて,ハウス内外の微気象,土壌水分量の変動,潅水量などの測定を実施した。\nその結果,ビニールハウスでは露地に比べ高温,日射の減少等が定量的に確認された。ハウス内気象データからペンマン式により計算した蒸発散位と,水収支式により求めた蒸発散量とがほぼつり合い,ペンマン式をハウス内蒸発散量の推定に適用できる可能性が高いと考えられる。\n2.施設畑と隣接する露地畑(鳥取県東伯町の芝畑と大栄町のブロッコリ畑)において,施設畑と露地畑の対比のもと,微気象と土壌水分動態の測定を行った。\n3.東伯農業水利事業の受益地(施設畑を含む普通畑地帯,鳥取県東伯町,大栄町)において,時間あたりの幹線水路流量とファームポンドへの揚水量のデータを整理して,地区レベルの用水利用実態を,またアンケートを実施し作物別に使用水量の実態を明らかにした。\n用水利用時間が朝夕に集中していること,その時間あたりの使用水量の変動をファームポンドが用水計画通りに巧く吸収している様子が確認できた。また,降雨の状況により使用水量が変動し,とくに干天が続くと使用水量が増加すること,作物により1回あたりの潅水量,潅水頻度,潅水時刻が異なることも分かった。",
+                        "en": "The objective of this study was to investigate the actual situation of greenhouse water use and its implications for irrigation planning. To achieve this actual water use in both the greenhouse and the immediate surrounding uplands fields were examined. The micrometeorological conditions and the soil moisture content within and outside the greenhouse were measured, and from the micrometeorological data the estimation of the water requirements of some plants were estimated.\nThe experiments conducted are as follows :\n1) The micrometeorological conditions within and outside the greenhouse at Soja City area (i.e.Egg Plant), Okayama Prefecture, and Daiei Town area (i.e.water melon), Tottori Prefecture, were measured. Also, the soil moisture content and irrigation amount within the greenhouses was measured.\nIn comparing the results the meteorological measurements, the fact that the temperature was high with solar radiation being low within the greenhouse was confirmed. Using meteorological data of the greenhouse the Penman equation was used to estimate evapotranspiration of the egg plant and water melon. The results obtained compared fairly well with evapotranspiration estimated from the water balance of the greenhouse. It was concluded that the Penman equation can be used to estimate water use in a greenhouse with a fair degree of accuracy.\n2) In this study micrometeorological data was collected at Tohaku town (i.e.lawn field), Tottori Prefecture, and Daiei Town (i.e.Broccoli field). Also, soil moisture content and rainfall amount were measured.\n3) The actual water use situation in the Tohaku Irrigation Project district (i.e.Tohaku town and Daiei town, Tottori Prefecture) was investigated. This involved a comparison between the hourly discharge from farm ponds in the area and the water use at the farm level. Also, a questionnaire was prepared to investigate water use at the farm level in relation to the kind of crop.\nThe investigations revealed that the peak discharge from the farm ponds was in the morning and evening. This, however, did not interfere with the operation and maintenance of the farm ponds. Also, the amount of discharge from the farm pond fluctuated with rainfall amount in which more water was used during long, clear, dry days. The time, amount, and method of water application also differed with respect to the kind of crop, and with respect to whether crops were grown in greenhouses or in the open field."
+                    },
+                    "identifiers": {
+                        "grant_number": [
+                            "06660304"
+                        ],
+                        "national_grant_number": [
+                            "JP06660304"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "kaken",
+                            "@id": "https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-06660304"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/rmap_kihara/research_projects/44671311",
+                    "@type": "research_projects",
+                    "@reverse": "https://api.researchmap.jp/rmap_kihara/research_projects",
+                    "rm:id": "44671311",
+                    "rm:user_id": "1000034719",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2024-01-30T06:45:07Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2024-01-30T06:45:07Z",
+                    "research_project_title": {
+                        "ja": "土壌中の水分・塩分・熱の連成輸送を考慮した蒸発機構のモデル化に関する研究",
+                        "en": "Modeling of Evaporation including simultaneous Transfer of Water, Salt and Heat in Soils"
+                    },
+                    "investigators": {
+                        "ja": [
+                            {
+                                "name": "福桜 盛一"
+                            },
+                            {
+                                "name": "木原 康孝"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "FUKUSAKURA Shigekazu"
+                            },
+                            {
+                                "name": "KIHARA Yasutaka"
+                            }
+                        ]
+                    },
+                    "offer_organization": {
+                        "ja": "日本学術振興会",
+                        "en": "Japan Society for the Promotion of Science"
+                    },
+                    "system_name": {
+                        "ja": "科学研究費助成事業",
+                        "en": "Grants-in-Aid for Scientific Research"
+                    },
+                    "category": {
+                        "ja": "一般研究(A)",
+                        "en": "Grant-in-Aid for General Scientific Research (A)"
+                    },
+                    "institution_name": {
+                        "ja": "島根大学",
+                        "en": "Shimane University"
+                    },
+                    "from_date": "1993",
+                    "to_date": "1994",
+                    "overall_grant_amount": {
+                        "total_cost": "13400000",
+                        "direct_cost": "13400000"
+                    },
+                    "description": {
+                        "ja": "蒸発に伴う土壌中の水分・塩分・熱の連成輸送のメカニズムを、鳥取砂丘砂を用い、恒温恒湿室での精密な実験による結果をもとに検討した。その結果、土壌溶液の塩濃度が蒸発速度の形態に大きな影響を与えていることが明らかになった。\n土壌水が純水の場合、表層で蒸発が生起している恒率乾燥、蒸発面が土壌内部に移行する際の減率乾燥、その後の土壌内部からの恒率乾燥と蒸発形態は変化した。このように、蒸発が生起している位置によって、蒸発形態は規程されている。これより、土壌間隙内での蒸発および水蒸気体による移動量は土壌表面からの蒸発に比べて非常に小さいことが明らかになった。\n一方、土壌水が塩溶液の場合、実験開始時より蒸発速度は徐々に低下し、恒率乾燥は発現せず、蒸発形態は減率乾燥のみであった。土壌水中に塩が存在すると土壌水のポテンシャルは低下する。そして、蒸発の進行により、塩濃度は徐々に上昇し、ポテンシャルも低下する。このため、恒率乾燥になることはなく、蒸発速度が常に減少した。\nまた、表層温度と蒸発速度には高い相関が見られた。これは蒸発による気化熱の影響であり、土壌水が純水の場合には、減率乾燥期に表層温度の急激な上昇がみられたが、塩溶液の場合には、表層温度は蒸発速度と逆に徐々に上昇した。\nこのように水分・塩分・熱は相互に影響しながら移動しており、本質的に連成輸送である蒸発現象を把握するためには、ここの移動のみを考えるのではなく、相互の影響を考慮する必要があることを実証した。",
+                        "en": "An experimental study of simultaneous transfer of water, salt and heat in soils during evaporation is discussed. Many laboratory experiments were performed with controlled temperature and humidity conditions in column of Tottori dune sand. These experiments indicated clearly that salt concentration of soil solution influenced behavior of evaporation rate.\nIn pure soil water, evaporation was characterized by three stages ; (1) the first constant evaporation rate stage in which soil water evaporated at soil surface, (2) falling evaporation rate stage in which evaporation surface moved from soil surface to soil, (3) the second constant evaporation rate stage in which soil water evaporated in soil. Thus, the behavior of evaporation rate was determined by depth at which soil water evaporated. Vapor transfer in soil pores was less than evaporation from soil surface.\nOn the other hand, evaporation rate decreased gradually in salty soil water. The constant evaporation rate didn't happened. The behavior of evaporation was only the falling evaporation rate stage. This reason is why soil water potential was decreased in salty soil solution..\nIn this study, it was clarify that evaporation phenomenon was simultaneous transfer in essential, we had to consider water, salt and heat transfer in interrelationship."
+                    },
+                    "identifiers": {
+                        "grant_number": [
+                            "05402058"
+                        ],
+                        "national_grant_number": [
+                            "JP05402058"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "kaken",
+                            "@id": "https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-05402058"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/rmap_kihara/research_projects/44631962",
+                    "@type": "research_projects",
+                    "@reverse": "https://api.researchmap.jp/rmap_kihara/research_projects",
+                    "rm:id": "44631962",
+                    "rm:user_id": "1000034719",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2024-01-30T06:04:07Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2024-01-30T06:04:07Z",
+                    "research_project_title": {
+                        "ja": "傾斜農地の土・水移動に対するビニールマルチの影響に関する研究",
+                        "en": "Study on effect of vinyl mulching for transfer of soil and water in inclined farmland"
+                    },
+                    "investigators": {
+                        "ja": [
+                            {
+                                "name": "今尾 昭夫"
+                            },
+                            {
+                                "name": "木原 康孝"
+                            },
+                            {
+                                "name": "福桜 盛一"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "IMAO Akio"
+                            },
+                            {
+                                "name": "KIHARA Yasutake"
+                            },
+                            {
+                                "name": "FUKUZAKURA Shigekazu"
+                            }
+                        ]
+                    },
+                    "offer_organization": {
+                        "ja": "日本学術振興会",
+                        "en": "Japan Society for the Promotion of Science"
+                    },
+                    "system_name": {
+                        "ja": "科学研究費助成事業",
+                        "en": "Grants-in-Aid for Scientific Research"
+                    },
+                    "category": {
+                        "ja": "一般研究(B)",
+                        "en": "Grant-in-Aid for General Scientific Research (B)"
+                    },
+                    "institution_name": {
+                        "ja": "島根大学",
+                        "en": "SHIMANE UNIVERSITY"
+                    },
+                    "from_date": "1991",
+                    "to_date": "1993",
+                    "overall_grant_amount": {
+                        "total_cost": "5900000",
+                        "direct_cost": "5900000"
+                    },
+                    "description": {
+                        "ja": "3年間にわたる本研究成果の概要は、以下のようである。\n1.今尾は、作物の有効な裁培手法として多用されているビニールマルチが、傾斜農地の縦畝に利用された場合の土壌侵食の挙動について実証的な検討を行った。実験は自然降雨、及び人工降雨を対象として、既設の野外傾斜土槽(野外実験)と室内可傾式土槽(室内実験)を利用して行い、粒度組成の異なる3種のマサ土を供試した。その主な結果を示せばつぎのようである。\n(1)野外実験の場合:降雨強度が大きくなるとビニールマルチ敷設による土壌侵食防止効果があると言えるが、それが小さい時には畝間の土壌侵食を促進する傾向がある。従って、畝間へ敷きワラ等のマルチングを敷設することが必要である。(2)室内実験の場合:大きな降雨強度の下における実験であるために、(1)と同様な結果を得ているが、細粒部分を多く含む土が土壌侵食量を増加させる傾向を示す。(3)両実験ともに、畝から畝間への土壌飛散、供給土量が予想外に多く、これらは降雨強度、傾斜度、及び粒度組成に密接に関連し、傾斜農地の土壌侵食に影響を与える。\n2.木原・福桜は、畑地におけるマルチングの効果を検証するために必要な土壌中の水分動態を正確に把握することにより、潅水量、及び潅水強度が土壌中への水分の浸潤に与える影響について実験的な検討を行った。その主な結果を示せば次のようである。(1)浸潤過程における水分動態は潅水量が支配的な要因となる。(2)現場圃場における水分動態は、潅水量や降雨量が多い場合、その相当量が下方浸透し、これは長期間継続する。(3)マルチングにより蒸発は抑制されているが、蒸散があるにも拘らず水分減少は僅かで、下層から水分の毛管補給があるためと考えられる。\n主として以上のような研究成果が得られたが、問題点も多く今後の研究にまつところが多い。",
+                        "en": "Summary of research results are as follows : 1. This research is experimental study on the behavior of soil erosion using vinyl mulching in a ridge of inclined farmland. The experiments was usued both of inclined soil tank with field work for natural rainfall and laboratory work for rainfall sumilator. The main point of results are obtained sa follows : (〕SY.encircled1.〔) The quantity of soil erosion from a ridge using vinyl mulching shows a decreace on comparing with bare ridge, but it shows increace a ridge using vinyl mulching in the cace of small rainfall intensity. (〕SY.encircled2.〔) The soil containing a fine grain size shows a increace the quantity of soil erosion. (〕SY.encircled3.〔) The soil quantity by splash and suply from a ridge was a large quantity beyond expectation. And it has direct effect upon soil erosion in inclined farmland. 2. It was necessary to know the behavior of soil water correctly to estimate the mulching effect in inclined farmlands. At first it was investigated that the effect of the amount and the rate of irrigted water on infiltration. As a result of experiments, it was found that the influence of the rate of irrigated water was a little and it became smaller as the amount of irrigated water was bigger. Therefore, the amount of irrigated water was a dominant factor in the infilitration process. Next, the behavior of soil water was mesured in farmland. When the amount of irrigation water or rain was more, it was clearfied that most of the amount of water was percolated to sub-layr. On the other hand, it was supposed that water suply from sub-layr was corresponded to transpiration because the amount of depleted soil water was a little."
+                    },
+                    "identifiers": {
+                        "grant_number": [
+                            "03452272"
+                        ],
+                        "national_grant_number": [
+                            "JP03452272"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "kaken",
+                            "@id": "https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-03452272"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/rmap_kihara/research_projects/1761033",
+                    "@type": "research_projects",
+                    "@reverse": "https://api.researchmap.jp/rmap_kihara/research_projects",
+                    "rm:id": "1761033",
+                    "rm:user_id": "1000034719",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000034719",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2010-01-25T15:00:00Z",
+                    "rm:modifier_id": "1000034719",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2010-01-25T15:00:00Z",
+                    "research_project_title": {
+                        "en": "Study on capillary supply of soil water from Loner Laxer of Soil"
+                    },
+                    "overall_grant_amount": {
+                        "indirect_cost": "0",
+                        "total_cost": "0",
+                        "direct_cost": "0"
+                    },
+                    "fund_type": "competitive_research_funding"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/rmap_kihara/research_projects/1761032",
+                    "@type": "research_projects",
+                    "@reverse": "https://api.researchmap.jp/rmap_kihara/research_projects",
+                    "rm:id": "1761032",
+                    "rm:user_id": "1000034719",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000034719",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2010-01-25T15:00:00Z",
+                    "rm:modifier_id": "1000034719",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2010-01-25T15:00:00Z",
+                    "research_project_title": {
+                        "en": "Study on Coupled Moisture, Solute and Heat Transfer in Soil"
+                    },
+                    "overall_grant_amount": {
+                        "indirect_cost": "0",
+                        "total_cost": "0",
+                        "direct_cost": "0"
+                    },
+                    "fund_type": "competitive_research_funding"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/rmap_kihara/research_projects/14021203",
+                    "@type": "research_projects",
+                    "@reverse": "https://api.researchmap.jp/rmap_kihara/research_projects",
+                    "rm:id": "14021203",
+                    "rm:user_id": "1000034719",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-12-03T17:41:21Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-12-03T17:41:21Z",
+                    "research_project_title": {
+                        "ja": "農業土木学土壌物理学"
+                    },
+                    "overall_grant_amount": {
+                        "indirect_cost": "0",
+                        "total_cost": "0",
+                        "direct_cost": "0"
+                    },
+                    "fund_type": "competitive_research_funding"
+                }
+            ]
+        }
+    ]
+}

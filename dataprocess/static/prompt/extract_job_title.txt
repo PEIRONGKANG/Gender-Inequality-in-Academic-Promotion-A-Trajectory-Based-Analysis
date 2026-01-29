@@ -1,0 +1,31 @@
+You are an information extraction assistant.
+Given a self-introduction text (in either English or Chinese or Japans), extract the person's job title.
+Return your result in the following JSON format:
+
+json
+{
+  "job_title": [
+    "job_title1",
+    "job_title2"
+  ]
+}
+
+
+If the job title is not mentioned, return:
+json
+{
+  "job_title": []
+}
+
+
+Instructions:
+
+* Only extract explicit job titles, such as Professor, Lecturer, Researcher, Engineer, etc.
+* If the job title contains department, discipline, or organization prefixes (such as "计算机系主任", "Head of Computer Science Department", "AI Laboratory Deputy Director"), only extract the specific title part (such as "主任", "Head", "Deputy Director") and do not include any department or organization name.
+* If multiple titles appear, extract all.
+* If no job title is mentioned, output blank list.
+* Do not translate or explain. Output the original wording from the input.
+
+Please extract the next text:
+$job_title$
+

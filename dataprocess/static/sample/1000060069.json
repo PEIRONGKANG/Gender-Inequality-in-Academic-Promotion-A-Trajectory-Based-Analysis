@@ -1,0 +1,2443 @@
+{
+    "@context": "https://api.researchmap.jp/researcher.jsonld",
+    "@id": "https://api.researchmap.jp/read0021896?format=json",
+    "@type": "researchers",
+    "rm:user_id": "1000060069",
+    "rm:creator_id": "1000060069",
+    "rm:creator_type": "myself",
+    "rm:created": "2011-02-07T15:00:00Z",
+    "rm:modifier_id": "client_id:9999999999",
+    "rm:modifier_type": "institution",
+    "rm:modified": "2022-09-03T10:42:56Z",
+    "permalink": "read0021896",
+    "family_name": {
+        "ja": "西川",
+        "ja-Kana": "ニシカワ",
+        "en": "Nishikawa"
+    },
+    "given_name": {
+        "ja": "清之",
+        "ja-Kana": "キヨユキ",
+        "en": "Kiyoyuki"
+    },
+    "display_name_kana": "disclosed",
+    "display_nickname": "disclosed",
+    "display_image": "disclosed",
+    "display_contact_point": "disclosed",
+    "affiliations": [
+        {
+            "affiliation": {
+                "ja": "龍谷大学",
+                "en": "Ryukoku University"
+            },
+            "section": {
+                "ja": "経営学部 経営学科",
+                "en": "Faculty of Business Administration, Department of Business Administration"
+            },
+            "job": {
+                "ja": "教授",
+                "en": "Professor"
+            },
+            "display_affiliation": "disclosed",
+            "display_job": "disclosed",
+            "rm:institution_code": "2553001001"
+        }
+    ],
+    "degrees": [
+        {
+            "degree": {
+                "ja": "経営学修士",
+                "en": "Master of Business Administration"
+            },
+            "degree_institution": {
+                "ja": "北九州市立大学",
+                "en": "The University of Kitakyushu"
+            },
+            "display_degree": "disclosed",
+            "rm:institution_code": "1312000000"
+        }
+    ],
+    "display_profile": "disclosed",
+    "display_url": "disclosed",
+    "identifiers": {
+        "j_global_id": [
+            "200901037596552918"
+        ]
+    },
+    "rm:erad_id_verified": false,
+    "rm:orc_id_verified": false,
+    "display_erad_id": "closed",
+    "display_orc_id": "closed",
+    "display_researcher_id": "disclosed",
+    "display_j_global_id": "disclosed",
+    "see_also": [
+        {
+            "label": "j_global",
+            "@id": "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=200901037596552918"
+        }
+    ],
+    "@graph": [
+        {
+            "@id": "https://api.researchmap.jp/read0021896/research_interests",
+            "@type": "research_interests",
+            "@reverse": "https://api.researchmap.jp/read0021896",
+            "total_items": 2,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0021896/research_interests/7461291",
+                    "@type": "research_interests",
+                    "@reverse": "https://api.researchmap.jp/read0021896/research_interests",
+                    "rm:id": "7461291",
+                    "rm:user_id": "1000060069",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2014-09-12T17:44:10Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2014-09-12T17:44:10Z",
+                    "keyword": {
+                        "ja": "経営学"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0021896/research_interests/7461290",
+                    "@type": "research_interests",
+                    "@reverse": "https://api.researchmap.jp/read0021896/research_interests",
+                    "rm:id": "7461290",
+                    "rm:user_id": "1000060069",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2014-09-12T17:44:09Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2014-09-12T17:44:09Z",
+                    "keyword": {
+                        "en": "Business Administration"
+                    }
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0021896/research_areas",
+            "@type": "research_areas",
+            "@reverse": "https://api.researchmap.jp/read0021896",
+            "total_items": 1,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0021896/research_areas/6061908",
+                    "@type": "research_areas",
+                    "@reverse": "https://api.researchmap.jp/read0021896/research_areas",
+                    "rm:id": "6061908",
+                    "rm:user_id": "1000060069",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2014-09-12T17:44:09Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2014-09-12T17:44:10Z",
+                    "discipline_number": "A900",
+                    "item_number": "A07080",
+                    "discipline": {
+                        "ja": "人文・社会",
+                        "en": "Humanities & social sciences"
+                    },
+                    "research_field": {
+                        "ja": "経営学",
+                        "en": "Business administration"
+                    }
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0021896/education",
+            "@type": "education",
+            "@reverse": "https://api.researchmap.jp/read0021896",
+            "total_items": 2,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0021896/education/13680251",
+                    "@type": "education",
+                    "@reverse": "https://api.researchmap.jp/read0021896/education",
+                    "rm:id": "13680251",
+                    "rm:user_id": "1000060069",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2014-09-12T17:44:10Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2014-09-12T17:44:10Z",
+                    "to_date": "1986",
+                    "rm:institution_code": "2849000000",
+                    "affiliation": {
+                        "ja": "西南学院大学",
+                        "en": "Seinan Gakuin University"
+                    },
+                    "department": {
+                        "ja": "経営学研究科"
+                    },
+                    "course": {
+                        "ja": "経営学"
+                    },
+                    "address_country": "JPN"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0021896/education/13680250",
+                    "@type": "education",
+                    "@reverse": "https://api.researchmap.jp/read0021896/education",
+                    "rm:id": "13680250",
+                    "rm:user_id": "1000060069",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2014-09-12T17:44:09Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2014-09-12T17:44:09Z",
+                    "to_date": "1986",
+                    "rm:institution_code": "2849000000",
+                    "affiliation": {
+                        "ja": "西南学院大学",
+                        "en": "Seinan Gakuin University"
+                    },
+                    "department": {
+                        "en": "Graduate School, Division of Administration"
+                    },
+                    "course": {
+                        "en": "Business Administration"
+                    }
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0021896/committee_memberships",
+            "@type": "committee_memberships",
+            "@reverse": "https://api.researchmap.jp/read0021896",
+            "total_items": 3,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0021896/committee_memberships/3443446",
+                    "@type": "committee_memberships",
+                    "@reverse": "https://api.researchmap.jp/read0021896/committee_memberships",
+                    "rm:id": "3443446",
+                    "rm:user_id": "1000060069",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2014-09-12T17:44:10Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2014-09-12T17:44:10Z",
+                    "from_date": "2007",
+                    "to_date": "2010",
+                    "committee_name": {
+                        "ja": "常任理事"
+                    },
+                    "association": {
+                        "ja": "日本賃金学会"
+                    },
+                    "description": {
+                        "ja": "日本賃金学会"
+                    },
+                    "committee_type": "society"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0021896/committee_memberships/3443445",
+                    "@type": "committee_memberships",
+                    "@reverse": "https://api.researchmap.jp/read0021896/committee_memberships",
+                    "rm:id": "3443445",
+                    "rm:user_id": "1000060069",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2014-09-12T17:44:10Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2014-09-12T17:44:10Z",
+                    "from_date": "2006",
+                    "to_date": "2009",
+                    "committee_name": {
+                        "ja": "労務理論学会誌編集委員"
+                    },
+                    "association": {
+                        "ja": "労務理論学会"
+                    },
+                    "description": {
+                        "ja": "労務理論学会"
+                    },
+                    "committee_type": "society"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0021896/committee_memberships/3443444",
+                    "@type": "committee_memberships",
+                    "@reverse": "https://api.researchmap.jp/read0021896/committee_memberships",
+                    "rm:id": "3443444",
+                    "rm:user_id": "1000060069",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2014-09-12T17:44:10Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2014-09-12T17:44:10Z",
+                    "from_date": "2002",
+                    "to_date": "2005",
+                    "committee_name": {
+                        "ja": "理事"
+                    },
+                    "association": {
+                        "ja": "経営学史学会"
+                    },
+                    "description": {
+                        "ja": "経営学史学会"
+                    },
+                    "committee_type": "society"
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0021896/published_papers",
+            "@type": "published_papers",
+            "@reverse": "https://api.researchmap.jp/read0021896",
+            "total_items": 21,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0021896/published_papers/10734823",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0021896/published_papers",
+                    "rm:id": "10734823",
+                    "rm:user_id": "1000060069",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2014-09-16T17:53:31Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-07-25T21:07:06Z",
+                    "paper_title": {
+                        "ja": "文献紹介：帝国データバンク史料館・産業調査部編『百年続く企業の条件‐老舗は変化を恐れない』朝日新書、2009年"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "西川清之"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "龍谷大学"
+                    },
+                    "publication_date": "2010",
+                    "publication_name": {
+                        "ja": "龍谷大学大学院経営学研究科付置機関・京都産業学センター年報『京都産業学研究』"
+                    },
+                    "volume": "8",
+                    "number": "8",
+                    "starting_page": "120",
+                    "ending_page": "124",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "1883-3160"
+                        ],
+                        "cinii_na_id": [
+                            "110009660002"
+                        ],
+                        "cinii_nc_id": [
+                            "AA12275737"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/110009660002",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_books",
+                            "@id": "http://ci.nii.ac.jp/ncid/AA12275737",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "http://id.ndl.go.jp/bib/10713600",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0021896/published_papers/10734821",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0021896/published_papers",
+                    "rm:id": "10734821",
+                    "rm:user_id": "1000060069",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2014-09-16T17:53:31Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2014-09-16T17:53:31Z",
+                    "paper_title": {
+                        "ja": "雇用形態の多様化と労務管理の変質（単著）"
+                    },
+                    "publication_date": "1999",
+                    "publication_name": {
+                        "ja": "労務理論学会研究年報"
+                    },
+                    "volume": "8,27-32",
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0021896/published_papers/10734832",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0021896/published_papers",
+                    "rm:id": "10734832",
+                    "rm:user_id": "1000060069",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2014-09-16T17:53:31Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2014-09-16T17:53:31Z",
+                    "paper_title": {
+                        "en": "Diversification of Employment Forms and Transformation of Personnel Management"
+                    },
+                    "publication_date": "1998",
+                    "publication_name": {
+                        "en": "The Journal of Business Studies Ryukoku University"
+                    },
+                    "volume": "38",
+                    "number": "3",
+                    "starting_page": "17",
+                    "ending_page": "29",
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0021896/published_papers/10734831",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0021896/published_papers",
+                    "rm:id": "10734831",
+                    "rm:user_id": "1000060069",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2014-09-16T17:53:31Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2014-09-16T17:53:31Z",
+                    "paper_title": {
+                        "en": "The Relationship between Human Resources Management and Career Management : Focusing on the Thomas G. Gutteridge's View"
+                    },
+                    "publication_date": "1998",
+                    "publication_name": {
+                        "en": "The Journal of Business Studies Ryukoku University"
+                    },
+                    "volume": "38",
+                    "number": "1",
+                    "starting_page": "41",
+                    "ending_page": "51",
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0021896/published_papers/10734820",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0021896/published_papers",
+                    "rm:id": "10734820",
+                    "rm:user_id": "1000060069",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2014-09-16T17:53:31Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2014-09-16T17:53:31Z",
+                    "paper_title": {
+                        "ja": "雇用形態の多様化と労務管理の変質（単著）"
+                    },
+                    "publication_date": "1998",
+                    "publication_name": {
+                        "ja": "龍谷大学経営学論集"
+                    },
+                    "volume": "38",
+                    "number": "3",
+                    "starting_page": "17",
+                    "ending_page": "29",
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0021896/published_papers/10734819",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0021896/published_papers",
+                    "rm:id": "10734819",
+                    "rm:user_id": "1000060069",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2014-09-16T17:53:31Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2014-09-16T17:53:31Z",
+                    "paper_title": {
+                        "ja": "人的資源管理とキャリア・マネジメント--T.G.Gutteridgeの所論を中心に--（単著）"
+                    },
+                    "publication_date": "1998",
+                    "publication_name": {
+                        "ja": "龍谷大学経営学論集"
+                    },
+                    "volume": "38",
+                    "number": "1",
+                    "starting_page": "41",
+                    "ending_page": "51",
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0021896/published_papers/10734830",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0021896/published_papers",
+                    "rm:id": "10734830",
+                    "rm:user_id": "1000060069",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2014-09-16T17:53:31Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2014-09-16T17:53:31Z",
+                    "paper_title": {
+                        "en": "A Study on Career Plateaus"
+                    },
+                    "publication_date": "1995",
+                    "publication_name": {
+                        "en": "The Journal of Asahikawa University"
+                    },
+                    "volume": "41,53-68",
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0021896/published_papers/10734818",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0021896/published_papers",
+                    "rm:id": "10734818",
+                    "rm:user_id": "1000060069",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2014-09-16T17:53:31Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2014-09-16T17:53:31Z",
+                    "paper_title": {
+                        "ja": "キャリア・プラトーに関する一考察 -Ference et al.(1977)とSlocum et al.(1987)の所論を中心に-（単著）"
+                    },
+                    "publication_date": "1995",
+                    "publication_name": {
+                        "ja": "旭川大学紀要"
+                    },
+                    "volume": "41,53-68",
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0021896/published_papers/10734829",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0021896/published_papers",
+                    "rm:id": "10734829",
+                    "rm:user_id": "1000060069",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2014-09-16T17:53:31Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2014-09-16T17:53:31Z",
+                    "paper_title": {
+                        "en": "A Trend in the Study of Career Management in the U. S. A."
+                    },
+                    "publication_date": "1994",
+                    "publication_name": {
+                        "en": "The Journal of Asahikawa University"
+                    },
+                    "volume": "39,21-32",
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0021896/published_papers/10734817",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0021896/published_papers",
+                    "rm:id": "10734817",
+                    "rm:user_id": "1000060069",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2014-09-16T17:53:31Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2014-09-16T17:53:31Z",
+                    "paper_title": {
+                        "ja": "アメリカにみる「キャリア・マネジメント」理論の動向-E.H.ScheinとJ.H.Greenhausの所論を中心に-（単著）"
+                    },
+                    "publication_date": "1994",
+                    "publication_name": {
+                        "ja": "旭川大学紀要"
+                    },
+                    "volume": "39,21-32",
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0021896/published_papers/10734828",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0021896/published_papers",
+                    "rm:id": "10734828",
+                    "rm:user_id": "1000060069",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2014-09-16T17:53:31Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2014-09-16T17:53:31Z",
+                    "paper_title": {
+                        "en": "A Review of Organizational Career Stage Models"
+                    },
+                    "publication_date": "1993",
+                    "publication_name": {
+                        "en": "The Journal of Asahikawa University"
+                    },
+                    "volume": "37,225-250",
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0021896/published_papers/10734816",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0021896/published_papers",
+                    "rm:id": "10734816",
+                    "rm:user_id": "1000060069",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2014-09-16T17:53:31Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2014-09-16T17:53:31Z",
+                    "paper_title": {
+                        "ja": "「マネジメントにおけるキャリア・ステージ」モデルの吟味-E.H.Schein,D.T.Hall,J.H.Greenhaus,D.C.Feldmanの所論を中心に-（単著）"
+                    },
+                    "publication_date": "1993",
+                    "publication_name": {
+                        "ja": "旭川大学紀要"
+                    },
+                    "volume": "37,225-250",
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0021896/published_papers/10734827",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0021896/published_papers",
+                    "rm:id": "10734827",
+                    "rm:user_id": "1000060069",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2014-09-16T17:53:31Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2014-09-16T17:53:31Z",
+                    "paper_title": {
+                        "en": "A Research on Economy and Work in the Aged"
+                    },
+                    "publication_date": "1990",
+                    "publication_name": {
+                        "en": "Annual Report of Gerontological Research"
+                    },
+                    "volume": "6,145-160",
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0021896/published_papers/10734815",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0021896/published_papers",
+                    "rm:id": "10734815",
+                    "rm:user_id": "1000060069",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2014-09-16T17:53:31Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2014-09-16T17:53:31Z",
+                    "paper_title": {
+                        "ja": "高令者の経済生活と労働に関する研究（共著）"
+                    },
+                    "publication_date": "1990",
+                    "publication_name": {
+                        "ja": "北海道高令者問題研究協会『高令者問題研究』"
+                    },
+                    "volume": "6,145-160",
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0021896/published_papers/10734826",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0021896/published_papers",
+                    "rm:id": "10734826",
+                    "rm:user_id": "1000060069",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2014-09-16T17:53:31Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2014-09-16T17:53:31Z",
+                    "paper_title": {
+                        "en": "A Technological Innovation and Transformation of Labor in a Process of Manufacture"
+                    },
+                    "publication_date": "1987",
+                    "publication_name": {
+                        "en": "Graduate Studies in Business Administration"
+                    },
+                    "volume": "8,97-118",
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0021896/published_papers/10734814",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0021896/published_papers",
+                    "rm:id": "10734814",
+                    "rm:user_id": "1000060069",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2014-09-16T17:53:31Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2014-09-16T17:53:31Z",
+                    "paper_title": {
+                        "ja": "生産工程における技術革新と労働の変容-R.BlaunerとH.Bravermanの所論を中心に-（単著）"
+                    },
+                    "publication_date": "1987",
+                    "publication_name": {
+                        "ja": "西南学院大学大学院『経営学研究論集』"
+                    },
+                    "volume": "8,97-118",
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0021896/published_papers/10734825",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0021896/published_papers",
+                    "rm:id": "10734825",
+                    "rm:user_id": "1000060069",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2014-09-16T17:53:31Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2014-09-16T17:53:31Z",
+                    "paper_title": {
+                        "en": "A Study on Personnel Administration and Behavioral Science"
+                    },
+                    "publication_date": "1985",
+                    "publication_name": {
+                        "en": "The Annual Report of Economic Science"
+                    },
+                    "volume": "70-80",
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0021896/published_papers/10734813",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0021896/published_papers",
+                    "rm:id": "10734813",
+                    "rm:user_id": "1000060069",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2014-09-16T17:53:31Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2014-09-16T17:53:31Z",
+                    "paper_title": {
+                        "ja": "行動科学的労務管理論への一考察-ストラウス&セイルズの所論を中心に-"
+                    },
+                    "publication_date": "1985",
+                    "publication_name": {
+                        "ja": "九州経済学会年報"
+                    },
+                    "volume": "70-80",
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0021896/published_papers/10734824",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0021896/published_papers",
+                    "rm:id": "10734824",
+                    "rm:user_id": "1000060069",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2014-09-16T17:53:31Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2014-09-16T17:53:31Z",
+                    "paper_title": {
+                        "en": "Japanese Management and Modern Management Idea"
+                    },
+                    "publication_date": "1983",
+                    "publication_name": {
+                        "en": "Graduate Studies in Business Administration"
+                    },
+                    "volume": "2,147-172",
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0021896/published_papers/10734812",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0021896/published_papers",
+                    "rm:id": "10734812",
+                    "rm:user_id": "1000060069",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2014-09-16T17:53:31Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2014-09-16T17:53:31Z",
+                    "paper_title": {
+                        "ja": "「日本的」経営論と現代の経営理念-津田真澂教授の所説を中心に-（単著）"
+                    },
+                    "publication_date": "1983",
+                    "publication_name": {
+                        "ja": "西南学院大学・大学院『経営学研究論集』"
+                    },
+                    "volume": "2,147-172",
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0021896/misc",
+            "@type": "misc",
+            "@reverse": "https://api.researchmap.jp/read0021896",
+            "total_items": 21,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0021896/misc/17047950",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0021896/misc",
+                    "rm:id": "17047950",
+                    "rm:user_id": "1000060069",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2014-09-12T17:44:10Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2014-09-12T17:44:10Z",
+                    "paper_title": {
+                        "ja": "文献紹介：帝国データバンク史料館・産業調査部編『百年続く企業の条件‐老舗は変化を恐れない』朝日新書、2009年"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "西川清之"
+                            }
+                        ]
+                    },
+                    "publication_date": "2010",
+                    "publication_name": {
+                        "ja": "龍谷大学大学院経営学研究科付置機関・京都産業学センター年報『京都産業学研究』"
+                    },
+                    "number": "8",
+                    "starting_page": "120",
+                    "ending_page": "124",
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0021896/misc/17047948",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0021896/misc",
+                    "rm:id": "17047948",
+                    "rm:user_id": "1000060069",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2014-09-12T17:44:10Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2014-09-12T17:44:10Z",
+                    "paper_title": {
+                        "ja": "雇用形態の多様化と労務管理の変質（単著）"
+                    },
+                    "publication_date": "1999",
+                    "publication_name": {
+                        "ja": "労務理論学会研究年報"
+                    },
+                    "volume": "8,27-32",
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0021896/misc/17047947",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0021896/misc",
+                    "rm:id": "17047947",
+                    "rm:user_id": "1000060069",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2014-09-12T17:44:10Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2014-09-12T17:44:10Z",
+                    "paper_title": {
+                        "ja": "雇用形態の多様化と労務管理の変質（単著）"
+                    },
+                    "publication_date": "1998",
+                    "publication_name": {
+                        "ja": "龍谷大学経営学論集"
+                    },
+                    "volume": "38",
+                    "number": "3",
+                    "starting_page": "17",
+                    "ending_page": "29",
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0021896/misc/17047946",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0021896/misc",
+                    "rm:id": "17047946",
+                    "rm:user_id": "1000060069",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2014-09-12T17:44:10Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2014-09-12T17:44:10Z",
+                    "paper_title": {
+                        "ja": "人的資源管理とキャリア・マネジメント--T.G.Gutteridgeの所論を中心に--（単著）"
+                    },
+                    "publication_date": "1998",
+                    "publication_name": {
+                        "ja": "龍谷大学経営学論集"
+                    },
+                    "volume": "38",
+                    "number": "1",
+                    "starting_page": "41",
+                    "ending_page": "51",
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0021896/misc/17047938",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0021896/misc",
+                    "rm:id": "17047938",
+                    "rm:user_id": "1000060069",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2014-09-12T17:44:09Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-09-03T10:42:56Z",
+                    "paper_title": {
+                        "ja": "雇用形態の多様化と労務管理の変質",
+                        "en": "Diversification of Employment Forms and Transformation of Personnel Management"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "西川 清之"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Nishikawa Kiyoyuki"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "龍谷大学",
+                        "en": "Ryukoku University"
+                    },
+                    "publication_date": "1998",
+                    "publication_name": {
+                        "ja": "龍谷大学経営学論集",
+                        "en": "The Journal of Business Studies Ryukoku University"
+                    },
+                    "volume": "38",
+                    "number": "3",
+                    "starting_page": "17",
+                    "ending_page": "29",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "0918-3434"
+                        ],
+                        "cinii_na_id": [
+                            "110000546256"
+                        ],
+                        "cinii_nc_id": [
+                            "AN10399220"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/110000546256",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_books",
+                            "@id": "http://ci.nii.ac.jp/ncid/AN10399220",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "http://id.ndl.go.jp/bib/4649661",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0021896/misc/17047937",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0021896/misc",
+                    "rm:id": "17047937",
+                    "rm:user_id": "1000060069",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2014-09-12T17:44:09Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-09-03T10:42:46Z",
+                    "paper_title": {
+                        "ja": "人的資源管理とキャリア・マネジメント : T.G.Gutteridge の所論を中心に",
+                        "en": "The Relationship between Human Resources Management and Career Management : Focusing on the Thomas G. Gutteridge's View"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "西川 清之"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Nishikawa Kiyoyuki"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "龍谷大学",
+                        "en": "Ryukoku University"
+                    },
+                    "publication_date": "1998",
+                    "publication_name": {
+                        "ja": "龍谷大学経営学論集",
+                        "en": "The Journal of Business Studies Ryukoku University"
+                    },
+                    "volume": "38",
+                    "number": "1",
+                    "starting_page": "41",
+                    "ending_page": "51",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "0918-3434"
+                        ],
+                        "cinii_na_id": [
+                            "110000546244"
+                        ],
+                        "cinii_nc_id": [
+                            "AN10399220"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/110000546244",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_books",
+                            "@id": "http://ci.nii.ac.jp/ncid/AN10399220",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "http://id.ndl.go.jp/bib/4567094",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0021896/misc/17047945",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0021896/misc",
+                    "rm:id": "17047945",
+                    "rm:user_id": "1000060069",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2014-09-12T17:44:10Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2014-09-12T17:44:10Z",
+                    "paper_title": {
+                        "ja": "キャリア・プラトーに関する一考察 -Ference et al.(1977)とSlocum et al.(1987)の所論を中心に-（単著）"
+                    },
+                    "publication_date": "1995",
+                    "publication_name": {
+                        "ja": "旭川大学紀要"
+                    },
+                    "volume": "41,53-68",
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0021896/misc/17047936",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0021896/misc",
+                    "rm:id": "17047936",
+                    "rm:user_id": "1000060069",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2014-09-12T17:44:09Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2014-09-12T17:44:09Z",
+                    "paper_title": {
+                        "en": "A Study on Career Plateaus"
+                    },
+                    "publication_date": "1995",
+                    "publication_name": {
+                        "en": "The Journal of Asahikawa University"
+                    },
+                    "volume": "41,53-68",
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0021896/misc/17047944",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0021896/misc",
+                    "rm:id": "17047944",
+                    "rm:user_id": "1000060069",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2014-09-12T17:44:10Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2014-09-12T17:44:10Z",
+                    "paper_title": {
+                        "ja": "アメリカにみる「キャリア・マネジメント」理論の動向-E.H.ScheinとJ.H.Greenhausの所論を中心に-（単著）"
+                    },
+                    "publication_date": "1994",
+                    "publication_name": {
+                        "ja": "旭川大学紀要"
+                    },
+                    "volume": "39,21-32",
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0021896/misc/17047935",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0021896/misc",
+                    "rm:id": "17047935",
+                    "rm:user_id": "1000060069",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2014-09-12T17:44:09Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2014-09-12T17:44:09Z",
+                    "paper_title": {
+                        "en": "A Trend in the Study of Career Management in the U. S. A."
+                    },
+                    "publication_date": "1994",
+                    "publication_name": {
+                        "en": "The Journal of Asahikawa University"
+                    },
+                    "volume": "39,21-32",
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0021896/misc/17047943",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0021896/misc",
+                    "rm:id": "17047943",
+                    "rm:user_id": "1000060069",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2014-09-12T17:44:10Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2014-09-12T17:44:10Z",
+                    "paper_title": {
+                        "ja": "「マネジメントにおけるキャリア・ステージ」モデルの吟味-E.H.Schein,D.T.Hall,J.H.Greenhaus,D.C.Feldmanの所論を中心に-（単著）"
+                    },
+                    "publication_date": "1993",
+                    "publication_name": {
+                        "ja": "旭川大学紀要"
+                    },
+                    "volume": "37,225-250",
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0021896/misc/17047934",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0021896/misc",
+                    "rm:id": "17047934",
+                    "rm:user_id": "1000060069",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2014-09-12T17:44:09Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2014-09-12T17:44:09Z",
+                    "paper_title": {
+                        "en": "A Review of Organizational Career Stage Models"
+                    },
+                    "publication_date": "1993",
+                    "publication_name": {
+                        "en": "The Journal of Asahikawa University"
+                    },
+                    "volume": "37,225-250",
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0021896/misc/17047942",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0021896/misc",
+                    "rm:id": "17047942",
+                    "rm:user_id": "1000060069",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2014-09-12T17:44:10Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2014-09-12T17:44:10Z",
+                    "paper_title": {
+                        "ja": "高令者の経済生活と労働に関する研究（共著）"
+                    },
+                    "publication_date": "1990",
+                    "publication_name": {
+                        "ja": "北海道高令者問題研究協会『高令者問題研究』"
+                    },
+                    "volume": "6,145-160",
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0021896/misc/17047933",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0021896/misc",
+                    "rm:id": "17047933",
+                    "rm:user_id": "1000060069",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2014-09-12T17:44:09Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2014-09-12T17:44:09Z",
+                    "paper_title": {
+                        "en": "A Research on Economy and Work in the Aged"
+                    },
+                    "publication_date": "1990",
+                    "publication_name": {
+                        "en": "Annual Report of Gerontological Research"
+                    },
+                    "volume": "6,145-160",
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0021896/misc/17047941",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0021896/misc",
+                    "rm:id": "17047941",
+                    "rm:user_id": "1000060069",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2014-09-12T17:44:10Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2014-09-12T17:44:10Z",
+                    "paper_title": {
+                        "ja": "生産工程における技術革新と労働の変容-R.BlaunerとH.Bravermanの所論を中心に-（単著）"
+                    },
+                    "publication_date": "1987",
+                    "publication_name": {
+                        "ja": "西南学院大学大学院『経営学研究論集』"
+                    },
+                    "volume": "8,97-118",
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0021896/misc/17047932",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0021896/misc",
+                    "rm:id": "17047932",
+                    "rm:user_id": "1000060069",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2014-09-12T17:44:09Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2014-09-12T17:44:09Z",
+                    "paper_title": {
+                        "en": "A Technological Innovation and Transformation of Labor in a Process of Manufacture"
+                    },
+                    "publication_date": "1987",
+                    "publication_name": {
+                        "en": "Graduate Studies in Business Administration"
+                    },
+                    "volume": "8,97-118",
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0021896/misc/17047940",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0021896/misc",
+                    "rm:id": "17047940",
+                    "rm:user_id": "1000060069",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2014-09-12T17:44:10Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2014-09-12T17:44:10Z",
+                    "paper_title": {
+                        "ja": "行動科学的労務管理論への一考察-ストラウス&セイルズの所論を中心に-"
+                    },
+                    "publication_date": "1985",
+                    "publication_name": {
+                        "ja": "九州経済学会年報"
+                    },
+                    "volume": "70-80",
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0021896/misc/17047931",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0021896/misc",
+                    "rm:id": "17047931",
+                    "rm:user_id": "1000060069",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2014-09-12T17:44:09Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2014-09-12T17:44:09Z",
+                    "paper_title": {
+                        "en": "A Study on Personnel Administration and Behavioral Science"
+                    },
+                    "publication_date": "1985",
+                    "publication_name": {
+                        "en": "The Annual Report of Economic Science"
+                    },
+                    "volume": "70-80",
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0021896/misc/17047939",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0021896/misc",
+                    "rm:id": "17047939",
+                    "rm:user_id": "1000060069",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2014-09-12T17:44:10Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2014-09-12T17:44:10Z",
+                    "paper_title": {
+                        "ja": "「日本的」経営論と現代の経営理念-津田真澂教授の所説を中心に-（単著）"
+                    },
+                    "publication_date": "1983",
+                    "publication_name": {
+                        "ja": "西南学院大学・大学院『経営学研究論集』"
+                    },
+                    "volume": "2,147-172",
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0021896/misc/17047930",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0021896/misc",
+                    "rm:id": "17047930",
+                    "rm:user_id": "1000060069",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2014-09-12T17:44:09Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2014-09-12T17:44:09Z",
+                    "paper_title": {
+                        "en": "Japanese Management and Modern Management Idea"
+                    },
+                    "publication_date": "1983",
+                    "publication_name": {
+                        "en": "Graduate Studies in Business Administration"
+                    },
+                    "volume": "2,147-172",
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0021896/books_etc",
+            "@type": "books_etc",
+            "@reverse": "https://api.researchmap.jp/read0021896",
+            "total_items": 22,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0021896/books_etc/9986807",
+                    "@type": "books_etc",
+                    "@reverse": "https://api.researchmap.jp/read0021896/books_etc",
+                    "rm:id": "9986807",
+                    "rm:user_id": "1000060069",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2014-09-12T17:44:10Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2014-09-12T17:44:10Z",
+                    "book_title": {
+                        "ja": "（項目執筆）点数法、非金銭的報酬、付加給付（フリンジ・ベネフィット）、報酬（単著）"
+                    },
+                    "publisher": {
+                        "ja": "日本賃金学会編『賃金事典』労働調査会"
+                    },
+                    "publication_date": "2011",
+                    "referee": false,
+                    "identifiers": {
+                        "isbn": [
+                            "9784863191693"
+                        ]
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0021896/books_etc/9986806",
+                    "@type": "books_etc",
+                    "@reverse": "https://api.researchmap.jp/read0021896/books_etc",
+                    "rm:id": "9986806",
+                    "rm:user_id": "1000060069",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2014-09-12T17:44:10Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2014-09-12T17:44:10Z",
+                    "book_title": {
+                        "ja": "人的資源管理論の基礎（単著）"
+                    },
+                    "publisher": {
+                        "ja": "学文社"
+                    },
+                    "publication_date": "2010",
+                    "referee": false,
+                    "identifiers": {
+                        "isbn": [
+                            "9784762020919"
+                        ]
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0021896/books_etc/9986805",
+                    "@type": "books_etc",
+                    "@reverse": "https://api.researchmap.jp/read0021896/books_etc",
+                    "rm:id": "9986805",
+                    "rm:user_id": "1000060069",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2014-09-12T17:44:10Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2014-09-12T17:44:10Z",
+                    "book_title": {
+                        "ja": "人的資源管理論のエッセンス（共訳）"
+                    },
+                    "publisher": {
+                        "ja": "中央経済社"
+                    },
+                    "publication_date": "2008",
+                    "referee": false,
+                    "identifiers": {
+                        "isbn": [
+                            "9784502399909"
+                        ]
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0021896/books_etc/9986804",
+                    "@type": "books_etc",
+                    "@reverse": "https://api.researchmap.jp/read0021896/books_etc",
+                    "rm:id": "9986804",
+                    "rm:user_id": "1000060069",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2014-09-12T17:44:10Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2014-09-12T17:44:10Z",
+                    "book_title": {
+                        "ja": "（項目執筆）年功（序列）型人事、裁量労働制（単著）（経営能力開発センター編）"
+                    },
+                    "publisher": {
+                        "ja": "中央経済社『経営用語・キーワード』"
+                    },
+                    "publication_date": "2007",
+                    "referee": false,
+                    "identifiers": {
+                        "isbn": [
+                            "9784502392405"
+                        ]
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0021896/books_etc/9986803",
+                    "@type": "books_etc",
+                    "@reverse": "https://api.researchmap.jp/read0021896/books_etc",
+                    "rm:id": "9986803",
+                    "rm:user_id": "1000060069",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2014-09-12T17:44:10Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2014-09-12T17:44:10Z",
+                    "book_title": {
+                        "ja": "（項目執筆）NRK従業員態度調査、組織開発（OD）、モラール・サーベイ、E・H・シャイン（単著）（中條編）"
+                    },
+                    "publisher": {
+                        "ja": "ミネルヴァ書房『人事労務管理用語辞典』"
+                    },
+                    "publication_date": "2007",
+                    "referee": false,
+                    "identifiers": {
+                        "isbn": [
+                            "9784623036356"
+                        ]
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0021896/books_etc/9986802",
+                    "@type": "books_etc",
+                    "@reverse": "https://api.researchmap.jp/read0021896/books_etc",
+                    "rm:id": "9986802",
+                    "rm:user_id": "1000060069",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2014-09-12T17:44:10Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2014-09-12T17:44:10Z",
+                    "book_title": {
+                        "ja": "マクレランド、アージリス、トンプソン（単著）（中野裕治・貞松茂・勝部伸夫・嵯峨一郎編著）"
+                    },
+                    "publisher": {
+                        "ja": "ミネルヴァ書房『はじめて学ぶ経営学』"
+                    },
+                    "publication_date": "2007",
+                    "referee": false,
+                    "identifiers": {
+                        "isbn": [
+                            "9784623047536"
+                        ]
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0021896/books_etc/9986801",
+                    "@type": "books_etc",
+                    "@reverse": "https://api.researchmap.jp/read0021896/books_etc",
+                    "rm:id": "9986801",
+                    "rm:user_id": "1000060069",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2014-09-12T17:44:10Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2014-09-12T17:44:10Z",
+                    "book_title": {
+                        "ja": "社員満足と学習環境の整備（単著）（大西謙編著）"
+                    },
+                    "publisher": {
+                        "ja": "晃洋書房『持続的変革をめざして』"
+                    },
+                    "publication_date": "2006",
+                    "referee": false,
+                    "identifiers": {
+                        "isbn": [
+                            "4771017336"
+                        ]
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0021896/books_etc/9986800",
+                    "@type": "books_etc",
+                    "@reverse": "https://api.researchmap.jp/read0021896/books_etc",
+                    "rm:id": "9986800",
+                    "rm:user_id": "1000060069",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2014-09-12T17:44:10Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2014-09-12T17:44:10Z",
+                    "book_title": {
+                        "ja": "（項目執筆）金銭的報酬と非金銭的報酬（単著）（人事マネジメントハンドブック制作委員会編集）"
+                    },
+                    "publisher": {
+                        "ja": "日本労務研究会『人事マネジメント・ハンドブック』"
+                    },
+                    "publication_date": "2004",
+                    "referee": false,
+                    "identifiers": {
+                        "isbn": [
+                            "4889680543"
+                        ]
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0021896/books_etc/9986799",
+                    "@type": "books_etc",
+                    "@reverse": "https://api.researchmap.jp/read0021896/books_etc",
+                    "rm:id": "9986799",
+                    "rm:user_id": "1000060069",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2014-09-12T17:44:10Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2014-09-12T17:44:10Z",
+                    "book_title": {
+                        "ja": "シャインのリーダーシップ論（単著）（渡辺峻・角野信夫・伊藤健市編著）"
+                    },
+                    "publisher": {
+                        "ja": "ミネルヴァ書房『やさしく学ぶマネジメントの学説と思想』"
+                    },
+                    "publication_date": "2003",
+                    "referee": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0021896/books_etc/9986798",
+                    "@type": "books_etc",
+                    "@reverse": "https://api.researchmap.jp/read0021896/books_etc",
+                    "rm:id": "9986798",
+                    "rm:user_id": "1000060069",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2014-09-12T17:44:10Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2014-09-12T17:44:10Z",
+                    "book_title": {
+                        "ja": "経営戦略と人材育成（単著）（石井脩二編著）"
+                    },
+                    "publisher": {
+                        "ja": "中央経済社『知識創造型の人材育成』"
+                    },
+                    "publication_date": "2003",
+                    "referee": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0021896/books_etc/9986797",
+                    "@type": "books_etc",
+                    "@reverse": "https://api.researchmap.jp/read0021896/books_etc",
+                    "rm:id": "9986797",
+                    "rm:user_id": "1000060069",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2014-09-12T17:44:10Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2014-09-12T17:44:10Z",
+                    "book_title": {
+                        "ja": "人的資源の調達・調整と雇用形態／人事制度の役割と改善の方向（単著）（平野文彦・幸田浩文編著）"
+                    },
+                    "publisher": {
+                        "ja": "学文社『人的資源管理』"
+                    },
+                    "publication_date": "2003",
+                    "referee": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0021896/books_etc/9986796",
+                    "@type": "books_etc",
+                    "@reverse": "https://api.researchmap.jp/read0021896/books_etc",
+                    "rm:id": "9986796",
+                    "rm:user_id": "1000060069",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2014-09-12T17:44:10Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2014-09-12T17:44:10Z",
+                    "book_title": {
+                        "ja": "非正規雇用と労働市場（単著）"
+                    },
+                    "publisher": {
+                        "ja": "晃洋書房『現代の雇用問題』（労務理論学会誌）"
+                    },
+                    "publication_date": "2003",
+                    "referee": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0021896/books_etc/9986795",
+                    "@type": "books_etc",
+                    "@reverse": "https://api.researchmap.jp/read0021896/books_etc",
+                    "rm:id": "9986795",
+                    "rm:user_id": "1000060069",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2014-09-12T17:44:10Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2014-09-12T17:44:10Z",
+                    "book_title": {
+                        "ja": "（項目執筆）C・アージリス、労働の人間化、人的資源管理、モティベーション（経営学史学会編）"
+                    },
+                    "publisher": {
+                        "ja": "文眞堂『経営学史事典』"
+                    },
+                    "publication_date": "2002",
+                    "referee": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0021896/books_etc/9986794",
+                    "@type": "books_etc",
+                    "@reverse": "https://api.researchmap.jp/read0021896/books_etc",
+                    "rm:id": "9986794",
+                    "rm:user_id": "1000060069",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2014-09-12T17:44:10Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2014-09-12T17:44:10Z",
+                    "book_title": {
+                        "ja": "経営と人的資源（単著）（三島倫八・阿辻茂夫編著）"
+                    },
+                    "publisher": {
+                        "ja": "文真堂『現代組織の諸相』"
+                    },
+                    "publication_date": "2000",
+                    "referee": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0021896/books_etc/9986788",
+                    "@type": "books_etc",
+                    "@reverse": "https://api.researchmap.jp/read0021896/books_etc",
+                    "rm:id": "9986788",
+                    "rm:user_id": "1000060069",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2014-09-12T17:44:09Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2014-09-12T17:44:09Z",
+                    "book_title": {
+                        "en": "Business Administration and Human Resources"
+                    },
+                    "publication_date": "2000",
+                    "referee": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0021896/books_etc/9986793",
+                    "@type": "books_etc",
+                    "@reverse": "https://api.researchmap.jp/read0021896/books_etc",
+                    "rm:id": "9986793",
+                    "rm:user_id": "1000060069",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2014-09-12T17:44:10Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2014-09-12T17:44:10Z",
+                    "book_title": {
+                        "ja": "人的資源管理とキャリア・マネジメント-T・G・Gutteridgeの所論を中心に-（単著）"
+                    },
+                    "publisher": {
+                        "ja": "日本経営学会編『21世紀の経営』 千倉書房"
+                    },
+                    "publication_date": "1999",
+                    "referee": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0021896/books_etc/9986792",
+                    "@type": "books_etc",
+                    "@reverse": "https://api.researchmap.jp/read0021896/books_etc",
+                    "rm:id": "9986792",
+                    "rm:user_id": "1000060069",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2014-09-12T17:44:10Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2014-09-12T17:44:10Z",
+                    "book_title": {
+                        "ja": "人的資源管理入門（単著）"
+                    },
+                    "publisher": {
+                        "ja": "学文社"
+                    },
+                    "publication_date": "1997",
+                    "referee": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0021896/books_etc/9986787",
+                    "@type": "books_etc",
+                    "@reverse": "https://api.researchmap.jp/read0021896/books_etc",
+                    "rm:id": "9986787",
+                    "rm:user_id": "1000060069",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2014-09-12T17:44:09Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2014-09-12T17:44:09Z",
+                    "book_title": {
+                        "en": "Human Resources Management"
+                    },
+                    "publication_date": "1997",
+                    "referee": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0021896/books_etc/9986791",
+                    "@type": "books_etc",
+                    "@reverse": "https://api.researchmap.jp/read0021896/books_etc",
+                    "rm:id": "9986791",
+                    "rm:user_id": "1000060069",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2014-09-12T17:44:10Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2014-09-12T17:44:10Z",
+                    "book_title": {
+                        "ja": "キャリア・プラトーに関する一考察-Ference et al.(1977)とSlocum et al.(1987)の所論を中心に（単著）"
+                    },
+                    "publisher": {
+                        "ja": "日本経営学会編『日本企業再構築の基本問題』 千倉書房"
+                    },
+                    "publication_date": "1996",
+                    "referee": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0021896/books_etc/9986790",
+                    "@type": "books_etc",
+                    "@reverse": "https://api.researchmap.jp/read0021896/books_etc",
+                    "rm:id": "9986790",
+                    "rm:user_id": "1000060069",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2014-09-12T17:44:10Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2014-09-12T17:44:10Z",
+                    "book_title": {
+                        "ja": "マネジメント入門（単著）"
+                    },
+                    "publisher": {
+                        "ja": "学文社"
+                    },
+                    "publication_date": "1996",
+                    "referee": false
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0021896/presentations",
+            "@type": "presentations",
+            "@reverse": "https://api.researchmap.jp/read0021896",
+            "total_items": 1,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0021896/presentations/10260649",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0021896/presentations",
+                    "rm:id": "10260649",
+                    "rm:user_id": "1000060069",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2014-09-12T17:44:10Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2014-09-12T17:44:10Z",
+                    "presentation_title": {
+                        "ja": "成果主義と人材育成"
+                    },
+                    "event": {
+                        "ja": "日本労務学会関西部会（神戸商科大学）"
+                    },
+                    "publication_date": "2004",
+                    "invited": false,
+                    "rm:is_open_access": false
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0021896/association_memberships",
+            "@type": "association_memberships",
+            "@reverse": "https://api.researchmap.jp/read0021896",
+            "total_items": 14,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0021896/association_memberships/7787873",
+                    "@type": "association_memberships",
+                    "@reverse": "https://api.researchmap.jp/read0021896/association_memberships",
+                    "rm:id": "7787873",
+                    "rm:user_id": "1000060069",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2014-09-12T17:44:10Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2014-09-12T17:44:10Z",
+                    "academic_society_name": {
+                        "ja": "日本賃金学会"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0021896/association_memberships/7787872",
+                    "@type": "association_memberships",
+                    "@reverse": "https://api.researchmap.jp/read0021896/association_memberships",
+                    "rm:id": "7787872",
+                    "rm:user_id": "1000060069",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2014-09-12T17:44:10Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2014-09-12T17:44:10Z",
+                    "academic_society_name": {
+                        "ja": "しごと能力研究学会"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0021896/association_memberships/7787871",
+                    "@type": "association_memberships",
+                    "@reverse": "https://api.researchmap.jp/read0021896/association_memberships",
+                    "rm:id": "7787871",
+                    "rm:user_id": "1000060069",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2014-09-12T17:44:10Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2014-09-12T17:44:10Z",
+                    "academic_society_name": {
+                        "ja": "企業家研究フォーラム"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0021896/association_memberships/7787870",
+                    "@type": "association_memberships",
+                    "@reverse": "https://api.researchmap.jp/read0021896/association_memberships",
+                    "rm:id": "7787870",
+                    "rm:user_id": "1000060069",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2014-09-12T17:44:10Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2014-09-12T17:44:10Z",
+                    "academic_society_name": {
+                        "ja": "人材育成学会"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0021896/association_memberships/7787869",
+                    "@type": "association_memberships",
+                    "@reverse": "https://api.researchmap.jp/read0021896/association_memberships",
+                    "rm:id": "7787869",
+                    "rm:user_id": "1000060069",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2014-09-12T17:44:10Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2014-09-12T17:44:10Z",
+                    "academic_society_name": {
+                        "ja": "経営行動研究学会"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0021896/association_memberships/7787868",
+                    "@type": "association_memberships",
+                    "@reverse": "https://api.researchmap.jp/read0021896/association_memberships",
+                    "rm:id": "7787868",
+                    "rm:user_id": "1000060069",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2014-09-12T17:44:10Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2014-09-12T17:44:10Z",
+                    "academic_society_name": {
+                        "ja": "経営哲学学会"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0021896/association_memberships/7787867",
+                    "@type": "association_memberships",
+                    "@reverse": "https://api.researchmap.jp/read0021896/association_memberships",
+                    "rm:id": "7787867",
+                    "rm:user_id": "1000060069",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2014-09-12T17:44:10Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2014-09-12T17:44:10Z",
+                    "academic_society_name": {
+                        "ja": "アジア経営学会"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0021896/association_memberships/7787866",
+                    "@type": "association_memberships",
+                    "@reverse": "https://api.researchmap.jp/read0021896/association_memberships",
+                    "rm:id": "7787866",
+                    "rm:user_id": "1000060069",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2014-09-12T17:44:10Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2014-09-12T17:44:10Z",
+                    "academic_society_name": {
+                        "ja": "日本労務学会"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0021896/association_memberships/7787865",
+                    "@type": "association_memberships",
+                    "@reverse": "https://api.researchmap.jp/read0021896/association_memberships",
+                    "rm:id": "7787865",
+                    "rm:user_id": "1000060069",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2014-09-12T17:44:10Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2014-09-12T17:44:10Z",
+                    "academic_society_name": {
+                        "ja": "労務理論学会"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0021896/association_memberships/7787864",
+                    "@type": "association_memberships",
+                    "@reverse": "https://api.researchmap.jp/read0021896/association_memberships",
+                    "rm:id": "7787864",
+                    "rm:user_id": "1000060069",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2014-09-12T17:44:10Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2014-09-12T17:44:10Z",
+                    "academic_society_name": {
+                        "ja": "経営学史学会"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0021896/association_memberships/7787863",
+                    "@type": "association_memberships",
+                    "@reverse": "https://api.researchmap.jp/read0021896/association_memberships",
+                    "rm:id": "7787863",
+                    "rm:user_id": "1000060069",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2014-09-12T17:44:10Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2014-09-12T17:44:10Z",
+                    "academic_society_name": {
+                        "ja": "日本経営学会"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0021896/association_memberships/7787862",
+                    "@type": "association_memberships",
+                    "@reverse": "https://api.researchmap.jp/read0021896/association_memberships",
+                    "rm:id": "7787862",
+                    "rm:user_id": "1000060069",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2014-09-12T17:44:09Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2014-09-12T17:44:09Z",
+                    "academic_society_name": {
+                        "en": "Forum for Entrepreneurial Studies"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0021896/association_memberships/7787861",
+                    "@type": "association_memberships",
+                    "@reverse": "https://api.researchmap.jp/read0021896/association_memberships",
+                    "rm:id": "7787861",
+                    "rm:user_id": "1000060069",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2014-09-12T17:44:09Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2014-09-12T17:44:09Z",
+                    "academic_society_name": {
+                        "en": "Japanese Academy of Human Resource Development"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0021896/association_memberships/7787860",
+                    "@type": "association_memberships",
+                    "@reverse": "https://api.researchmap.jp/read0021896/association_memberships",
+                    "rm:id": "7787860",
+                    "rm:user_id": "1000060069",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2014-09-12T17:44:09Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2014-09-12T17:44:09Z",
+                    "academic_society_name": {
+                        "en": "The Japan Academic Society for Wage and Salary Management System"
+                    }
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0021896/research_projects",
+            "@type": "research_projects",
+            "@reverse": "https://api.researchmap.jp/read0021896",
+            "total_items": 4,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0021896/research_projects/10791459",
+                    "@type": "research_projects",
+                    "@reverse": "https://api.researchmap.jp/read0021896/research_projects",
+                    "rm:id": "10791459",
+                    "rm:user_id": "1000060069",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2014-09-12T17:44:10Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2014-09-12T17:44:10Z",
+                    "research_project_title": {
+                        "ja": "キャリア・マネジメントの研究"
+                    },
+                    "from_date": "1993",
+                    "overall_grant_amount": {
+                        "indirect_cost": "0",
+                        "total_cost": "0",
+                        "direct_cost": "0"
+                    },
+                    "fund_type": "competitive_research_funding"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0021896/research_projects/10791457",
+                    "@type": "research_projects",
+                    "@reverse": "https://api.researchmap.jp/read0021896/research_projects",
+                    "rm:id": "10791457",
+                    "rm:user_id": "1000060069",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2014-09-12T17:44:09Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2014-09-12T17:44:09Z",
+                    "research_project_title": {
+                        "en": "Study on Career Management"
+                    },
+                    "from_date": "1993",
+                    "overall_grant_amount": {
+                        "indirect_cost": "0",
+                        "total_cost": "0",
+                        "direct_cost": "0"
+                    },
+                    "fund_type": "competitive_research_funding"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0021896/research_projects/10791460",
+                    "@type": "research_projects",
+                    "@reverse": "https://api.researchmap.jp/read0021896/research_projects",
+                    "rm:id": "10791460",
+                    "rm:user_id": "1000060069",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2014-09-12T17:44:10Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2014-09-12T17:44:10Z",
+                    "research_project_title": {
+                        "ja": "企業における労務管理の研究"
+                    },
+                    "from_date": "1983",
+                    "overall_grant_amount": {
+                        "indirect_cost": "0",
+                        "total_cost": "0",
+                        "direct_cost": "0"
+                    },
+                    "fund_type": "competitive_research_funding"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0021896/research_projects/10791458",
+                    "@type": "research_projects",
+                    "@reverse": "https://api.researchmap.jp/read0021896/research_projects",
+                    "rm:id": "10791458",
+                    "rm:user_id": "1000060069",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2014-09-12T17:44:09Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2014-09-12T17:44:09Z",
+                    "research_project_title": {
+                        "en": "Study on Personnel Administration in Businesses."
+                    },
+                    "from_date": "1983",
+                    "overall_grant_amount": {
+                        "indirect_cost": "0",
+                        "total_cost": "0",
+                        "direct_cost": "0"
+                    },
+                    "fund_type": "competitive_research_funding"
+                }
+            ]
+        }
+    ]
+}

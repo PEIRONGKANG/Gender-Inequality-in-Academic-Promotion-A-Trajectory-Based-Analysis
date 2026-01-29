@@ -1,0 +1,3601 @@
+{
+    "@context": "https://api.researchmap.jp/researcher.jsonld",
+    "@id": "https://api.researchmap.jp/read0001571?format=json",
+    "@type": "researchers",
+    "rm:user_id": "0000010797",
+    "rm:creator_id": "0000010797",
+    "rm:creator_type": "myself",
+    "rm:created": "2001-12-10T15:00:00Z",
+    "rm:modifier_id": "0000010797",
+    "rm:modifier_type": "myself",
+    "rm:modified": "2024-09-24T03:46:27Z",
+    "permalink": "read0001571",
+    "family_name": {
+        "ja": "高津",
+        "ja-Kana": "タカツ",
+        "en": "Takatsu"
+    },
+    "given_name": {
+        "ja": "章子",
+        "ja-Kana": "アキコ",
+        "en": "Akiko"
+    },
+    "display_name_kana": "disclosed",
+    "display_nickname": "disclosed",
+    "display_image": "disclosed",
+    "display_contact_point": "disclosed",
+    "affiliations": [
+        {
+            "affiliation": {
+                "ja": "国立研究開発法人産業技術総合研究所",
+                "en": "National Institute of Advanced Industrial Science and Technology"
+            },
+            "section": {
+                "ja": "計量標準総合センター",
+                "en": "National Metrology Institute of Japan"
+            },
+            "display_affiliation": "disclosed",
+            "display_job": "closed",
+            "rm:institution_code": "A142000000"
+        }
+    ],
+    "display_profile": "disclosed",
+    "see_also": [
+        {
+            "label": "j_global",
+            "@id": "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=200901083776606384"
+        },
+        {
+            "label": "url",
+            "@id": "http://www.aist.go.jp/RESEARCHERDB/cgi-bin/worker_detail.cgi?call=namae&rw_id=A24197229"
+        }
+    ],
+    "display_url": "disclosed",
+    "identifiers": {
+        "j_global_id": [
+            "200901083776606384"
+        ]
+    },
+    "rm:erad_id_verified": false,
+    "rm:orc_id_verified": false,
+    "display_erad_id": "closed",
+    "display_orc_id": "closed",
+    "display_researcher_id": "disclosed",
+    "display_j_global_id": "disclosed",
+    "@graph": [
+        {
+            "@id": "https://api.researchmap.jp/read0001571/research_areas",
+            "@type": "research_areas",
+            "@reverse": "https://api.researchmap.jp/read0001571",
+            "total_items": 1,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0001571/research_areas/159883",
+                    "@type": "research_areas",
+                    "@reverse": "https://api.researchmap.jp/read0001571/research_areas",
+                    "rm:id": "159883",
+                    "rm:user_id": "0000010797",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000010797",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2001-12-10T15:00:00Z",
+                    "rm:modifier_id": "0000010797",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2001-12-10T15:00:00Z",
+                    "discipline_number": "A489",
+                    "item_number": "A34020",
+                    "discipline": {
+                        "ja": "ナノテク・材料",
+                        "en": "Nanotechnology/Materials"
+                    },
+                    "research_field": {
+                        "ja": "分析化学",
+                        "en": "Analytical chemistry"
+                    }
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0001571/published_papers",
+            "@type": "published_papers",
+            "@reverse": "https://api.researchmap.jp/read0001571",
+            "total_items": 102,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0001571/published_papers/38048010",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0001571/published_papers",
+                    "rm:id": "38048010",
+                    "rm:user_id": "0000010797",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_papers",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2022-07-03T12:57:30Z",
+                    "rm:modifier_id": "ai:assign_based_papers",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-07-03T12:57:30Z",
+                    "paper_title": {
+                        "en": "Characterization of scallop midgut gland certified reference material for quantification of diarrhetic shellfish toxins."
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Takashi Yarita"
+                            },
+                            {
+                                "name": "Shinsuke Inagaki"
+                            },
+                            {
+                                "name": "Ayano Miyamoto"
+                            },
+                            {
+                                "name": "Taichi Yamazaki"
+                            },
+                            {
+                                "name": "Migaku Kawaguchi"
+                            },
+                            {
+                                "name": "Hajime Uchida"
+                            },
+                            {
+                                "name": "Akiko Takatsu"
+                            },
+                            {
+                                "name": "Toshiyuki Suzuki"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "A scallop midgut gland certified reference material, NMIJ CRM 7520-a, was developed for validation and quality assurance during the inspection of shellfish for diarrhetic shellfish toxins. The candidate material was prepared by using naturally-toxic and nontoxic boiled midgut glands spiked with okadaic acid (OA). The homogeneity and stability of the material were found to be appropriate. For the characterization of OA and dinophysistoxin-1 (DTX1), nine participants were involved in a co-laboratory study based on the Japanese Official Testing Method, where the compounds were assayed by liquid chromatography-tandem mass spectrometry following alkaline hydrolysis. The analytical values were obtained by the standard addition method with a standard spiking solution calibrated using the standard-solution certified reference materials OA and DTX1. The certified concentrations with expanded uncertainties (coverage factor k = 2, approximate 95% confidence interval) were determined to be (0.205 ± 0.061) mg/kg for OA and (0.45 ± 0.11) mg/kg for DTX1."
+                    },
+                    "publication_date": "2019-11-15",
+                    "publication_name": {
+                        "en": "Food chemistry"
+                    },
+                    "volume": "298",
+                    "starting_page": "125011",
+                    "ending_page": "125011",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "is_international_journal": true,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1016/j.foodchem.2019.125011"
+                        ],
+                        "issn": [
+                            "0308-8146"
+                        ],
+                        "pm_id": [
+                            "31261011"
+                        ],
+                        "wos_id": [
+                            "WOS:000477667200014"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1016/j.foodchem.2019.125011",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "pubmed",
+                            "@id": "https://www.ncbi.nlm.nih.gov/pubmed/31261011",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000477667200014&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0001571/published_papers/39587123",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0001571/published_papers",
+                    "rm:id": "39587123",
+                    "rm:user_id": "0000010797",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_papers",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2022-08-10T10:36:59Z",
+                    "rm:modifier_id": "ai:assign_based_papers",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-08-10T10:36:59Z",
+                    "paper_title": {
+                        "ja": "下痢性貝毒分析用ホタテガイ可食部認証標準物質の開発"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "川口 研"
+                            },
+                            {
+                                "name": "山崎 太一"
+                            },
+                            {
+                                "name": "稲垣 真輔"
+                            },
+                            {
+                                "name": "鎗田 孝"
+                            },
+                            {
+                                "name": "高津 章子"
+                            },
+                            {
+                                "name": "内田 肇"
+                            },
+                            {
+                                "name": "渡邉 龍一"
+                            },
+                            {
+                                "name": "鈴木 敏之"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "(公社)日本食品衛生学会"
+                    },
+                    "publication_date": "2019-09",
+                    "publication_name": {
+                        "ja": "日本食品衛生学会学術講演会講演要旨集"
+                    },
+                    "volume": "115回",
+                    "starting_page": "150",
+                    "ending_page": "150",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "jamas_id": [
+                            "2020118305"
+                        ]
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0001571/published_papers/39521866",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0001571/published_papers",
+                    "rm:id": "39521866",
+                    "rm:user_id": "0000010797",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_papers",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2022-08-05T11:50:29Z",
+                    "rm:modifier_id": "ai:assign_based_papers",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-08-05T11:50:29Z",
+                    "paper_title": {
+                        "en": "Certification and stability assessment of recombinant human growth hormone as a certified reference material for protein quantification"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Thi Thanh Huong Tran"
+                            },
+                            {
+                                "name": "Juok Kim"
+                            },
+                            {
+                                "name": "Nordiana Rosli"
+                            },
+                            {
+                                "name": "Inkyu Mok"
+                            },
+                            {
+                                "name": "Kyong Hwa Oh"
+                            },
+                            {
+                                "name": "Hwashim Lee"
+                            },
+                            {
+                                "name": "Seon-Pyo Hong"
+                            },
+                            {
+                                "name": "You-Xun Jin"
+                            },
+                            {
+                                "name": "Liqing Wu"
+                            },
+                            {
+                                "name": "Jing Wang"
+                            },
+                            {
+                                "name": "Yohei Sakaguchi"
+                            },
+                            {
+                                "name": "Tomoya Kinumi"
+                            },
+                            {
+                                "name": "Akiko Takatsu"
+                            },
+                            {
+                                "name": "Sook-Kyung Kim"
+                            },
+                            {
+                                "name": "Ji-Seon Jeong"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "A certified reference material (CRM) for the quantification of protein, essential to manage quality control and quality assurance in protein-related works, has been developed. Amino acid analysis with conventional acid hydrolysis and isotope dilution HPLC-MS was used to establish an SI-traceable absolute protein quantification method using recombinant human growth hormone (hGH) as a model protein. The certification method was verified by comparative studies between 1) different methods of protein quantification based on microwave assisted hydrolysis, and 2) different labs as part of the Asian Collaboration on Reference Material project with Japan, China, and Korea. Certification, evaluation of measurement uncertainty, homogeneity testing, and stability testing were carried out, after which the candidate CRM for hGH quantification was successfully certified with excellent agreement within the certified value in the two comparative studies. Although the quantification value of hGH by amino acid analysis showed good robustness in various conditions, results of intact protein analysis showed degradation profiles in temperatures higher than 4 degrees C. Consequently, storage and dissemination conditions should be set in accordance with stability tests. Based on the results, this method is believed to be suitable for accurate quantification of hGH. Additionally, it can also be used as a guide to preparation of CRM, and instructions for quality management of protein work for other similar proteins."
+                    },
+                    "publisher": {
+                        "en": "ELSEVIER"
+                    },
+                    "publication_date": "2019-09",
+                    "publication_name": {
+                        "en": "JOURNAL OF CHROMATOGRAPHY B-ANALYTICAL TECHNOLOGIES IN THE BIOMEDICAL AND LIFE SCIENCES"
+                    },
+                    "volume": "1126",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1016/j.jchromb.2019.121732"
+                        ],
+                        "issn": [
+                            "1570-0232"
+                        ],
+                        "e_issn": [
+                            "1873-376X"
+                        ],
+                        "wos_id": [
+                            "WOS:000488136700003"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1016/j.jchromb.2019.121732",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000488136700003&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0001571/published_papers/34461380",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0001571/published_papers",
+                    "rm:id": "34461380",
+                    "rm:user_id": "0000010797",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2021-10-22T10:09:56Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2021-10-22T10:09:56Z",
+                    "paper_title": {
+                        "en": "Development of certified reference material NMIJ CRM 6205-a for the validation of DNA quantification methods: accurate mass concentrations of 600-bp DNA solutions having artificial sequences"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Sachie Shibayama"
+                            },
+                            {
+                                "name": "Shin-ichiro Fujii"
+                            },
+                            {
+                                "name": "Kazumi Inagaki"
+                            },
+                            {
+                                "name": "Taichi Yamazaki"
+                            },
+                            {
+                                "name": "Mariko Yoshioka"
+                            },
+                            {
+                                "name": "Satoko Matsukura"
+                            },
+                            {
+                                "name": "Akira Sasaki"
+                            },
+                            {
+                                "name": "Tetsushi Suyama"
+                            },
+                            {
+                                "name": "Naohiro Noda"
+                            },
+                            {
+                                "name": "Yuji Sekiguchi"
+                            },
+                            {
+                                "name": "Akiko Takatsu"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "en": "Springer Science and Business Media LLC"
+                    },
+                    "publication_date": "2019-09",
+                    "publication_name": {
+                        "en": "Analytical and Bioanalytical Chemistry"
+                    },
+                    "volume": "411",
+                    "number": "23",
+                    "starting_page": "6091",
+                    "ending_page": "6100",
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1007/s00216-019-01992-y"
+                        ],
+                        "issn": [
+                            "1618-2642"
+                        ],
+                        "e_issn": [
+                            "1618-2650"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1007/s00216-019-01992-y",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "http://link.springer.com/content/pdf/10.1007/s00216-019-01992-y.pdf",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "http://link.springer.com/article/10.1007/s00216-019-01992-y/fulltext.html",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0001571/published_papers/34165203",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0001571/published_papers",
+                    "rm:id": "34165203",
+                    "rm:user_id": "0000010797",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2021-10-20T05:43:20Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2021-10-20T05:43:20Z",
+                    "paper_title": {
+                        "en": "Evaluation of the impact of matrix effects in LC/MS measurement on the accurate quantification of neonicotinoid pesticides in food by isotope-dilution mass spectrometry"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Keisuke Nakamura"
+                            },
+                            {
+                                "name": "Takamitsu Otake"
+                            },
+                            {
+                                "name": "Nobuyasu Hanari"
+                            },
+                            {
+                                "name": "Akiko Takatsu"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "The use of isotope-labeled internal standards is the most widely accepted approach to overcome the matrix effects on quantification of pesticides in food by LC/MS. We evaluated the impact of the matrix effects on quantification of six neonicotinoid pesticides, acetamiprid, clothianidin, dinotefuran, imidacloprid, thiacloprid, and thiamethoxam, in food by using deuterated internal standards. The calibration curves for each pesticide were obtained by using matrix-free and matrix-matched calibration solutions with blank brown rice, carrot, and green onion extracts. For brown rice and carrot, the matrix effects were not observed. In contrast, the slopes of calibration curves for each pesticide were influenced by presence of green onion extracts in calibration solutions (variability of the slopes was 4-9%), because the ratios of peak area for native pesticide to those for internal standards were influenced by matrix. The spike-and-recovery test with green onion was also performed. The analytical values obtained by using matrix-free calibration solution were biased from the spiked concentration, whereas those obtained by using matrix-matched calibration solution were comparable to the spiked concentration. These results indicate that matrix-matched calibration solution should be used for accurate quantification of neonicotinoid pesticides in food by LC/MS using deuterated internal standards."
+                    },
+                    "publisher": {
+                        "en": "TAYLOR & FRANCIS INC"
+                    },
+                    "publication_date": "2019-06",
+                    "publication_name": {
+                        "en": "JOURNAL OF ENVIRONMENTAL SCIENCE AND HEALTH PART B-PESTICIDES FOOD CONTAMINANTS AND AGRICULTURAL WASTES"
+                    },
+                    "volume": "54",
+                    "number": "6",
+                    "starting_page": "467",
+                    "ending_page": "474",
+                    "languages": [
+                        "eng"
+                    ],
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1080/03601234.2019.1607134"
+                        ],
+                        "issn": [
+                            "0360-1234"
+                        ],
+                        "e_issn": [
+                            "1532-4109"
+                        ],
+                        "wos_id": [
+                            "WOS:000472031600004"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1080/03601234.2019.1607134",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000472031600004&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0001571/published_papers/47080951",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0001571/published_papers",
+                    "rm:id": "47080951",
+                    "rm:user_id": "0000010797",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2024-07-16T04:50:49Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2024-07-16T04:50:49Z",
+                    "paper_title": {
+                        "en": "Amino Acid Analysis by Hydrophilic Interaction Chromatography Coupled with Isotope Dilution Mass Spectrometry"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Megumi Kato"
+                            },
+                            {
+                                "name": "Akiko Takatsu"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "Here, we describe an amino acid analysis that is based on the use of hydrophilic interaction liquid chromatography coupled with isotope dilution mass spectrometry for the accurate quantification of underivatized amino acids from hydrolyzed peptide/protein. Twelve underivatized amino acids were separated and detected during an 88-min runtime. The absolute limits of detection and limits of quantification (on column) of the four amino acids (isoleucine, phenylalanine, proline, and valine) were in the range of 6–80 and 20–200 fmol, respectively. As little as 25 pmol of peptide or protein hydrolysate is sufficient for determining absolute content."
+                    },
+                    "publisher": {
+                        "en": "Humana Press Inc."
+                    },
+                    "publication_date": "2019",
+                    "publication_name": {
+                        "en": "Methods in Molecular Biology"
+                    },
+                    "volume": "2030",
+                    "starting_page": "111",
+                    "ending_page": "118",
+                    "languages": [
+                        "eng"
+                    ],
+                    "published_paper_type": "in_book",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1007/978-1-4939-9639-1_9"
+                        ],
+                        "issn": [
+                            "1940-6029",
+                            "1064-3745"
+                        ],
+                        "pm_id": [
+                            "31347113"
+                        ],
+                        "scopus_id": [
+                            "85070564793"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1007/978-1-4939-9639-1_9",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "pubmed",
+                            "@id": "https://www.ncbi.nlm.nih.gov/pubmed/31347113",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0001571/published_papers/39445102",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0001571/published_papers",
+                    "rm:id": "39445102",
+                    "rm:user_id": "0000010797",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_papers",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2022-08-03T02:24:21Z",
+                    "rm:modifier_id": "ai:assign_based_papers",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-08-03T02:24:21Z",
+                    "paper_title": {
+                        "en": "Proficiency testing by the National Metrology Institute of Japan for quantification of pesticide residues in grain samples from 2012 to 2018"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Takamitsu Otake"
+                            },
+                            {
+                                "name": "Takashi Yarita"
+                            },
+                            {
+                                "name": "Yoshie Aoyagi"
+                            },
+                            {
+                                "name": "Nobuyasu Hanari"
+                            },
+                            {
+                                "name": "Akiko Takatsu"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "From 2012 to 2018, proficiency testings (PTs) were carried out to support the analytical skill development of participants. Grains were sprayed with various target pesticides and used as material samples for PTs. It was found that 27-56% and 10-43% of participants used the Japanese official multiresidue method and a solid-phase extraction technique with the Quick, Easy, Cheap, Effective, Rugged, and Safe (modified QuEChERS, known as \"STQ\" in Japan) method, respectively. Reported results were evaluated using two types of z-scores: one was based on consensus values calculated from the analytical results reported by the participants, and the other was based on values obtained by the National Metrology Institute of Japan (NMIJ). Acceptable z-scores based on the consensus values and NMIJ reference values were achieved by 78-95% and 67-94% of the participants, respectively. Many laboratories improved their z-scores by continuing participation in our PT. (C) Pesticide Science Society of Japan"
+                    },
+                    "publisher": {
+                        "en": "PESTICIDE SCI SOC JAPAN"
+                    },
+                    "publication_date": "2019",
+                    "publication_name": {
+                        "en": "JOURNAL OF PESTICIDE SCIENCE"
+                    },
+                    "volume": "44",
+                    "number": "3-4",
+                    "starting_page": "192",
+                    "ending_page": "199",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1584/jpestics.D19-031"
+                        ],
+                        "e_issn": [
+                            "1349-0923"
+                        ],
+                        "issn": [
+                            "1348-589X"
+                        ],
+                        "wos_id": [
+                            "WOS:000512216500009"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1584/jpestics.D19-031",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000512216500009&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0001571/published_papers/34165268",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0001571/published_papers",
+                    "rm:id": "34165268",
+                    "rm:user_id": "0000010797",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2021-10-20T05:44:09Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2021-10-20T05:44:09Z",
+                    "paper_title": {
+                        "en": "Development of a certified reference material “NMIJ CRM 4228-a” for the determination of water content in liquids"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Shinsuke Inagaki"
+                            },
+                            {
+                                "name": "Ryoko Iwasawa"
+                            },
+                            {
+                                "name": "Nobuyasu Hanari"
+                            },
+                            {
+                                "name": "Masahiko Numata"
+                            },
+                            {
+                                "name": "Akiko Takatsu"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "© 2018 The Japan Society for Analytical Chemistry. The National Metrology Institute of Japan (NMIJ) has developed and issued a certified reference material (CRM), NMIJ CRM 4228-a, having water content of 1 mg g -1 , in a mixed solution of anisole and diethylene glycol dimethyl ether. The water content of the CRM was determined by coulometric and volumetric Karl Fischer titrations. Standard solutions for calibrations were prepared by the gravimetric mixing of water and the solvents. Both titration methods had valid precision, and the results obtained by them were statistically equivalent. The uncertainties arising from the analytical method, between-method, homogeneity, and stability were evaluated and reflected in the uncertainty of the certified value. The certified value of the CRM was 996 mg kg -1 , its expanded uncertainty, calculated using a coverage factor of k = 2, was 20 mg kg -1 . We have described the measurement procedures and assays of the water contents in relation to the International System of Units (SI) and the technical details of the characterization in this CRM. The newly developed CRM is particularly suitable for quality assurance and method validation for the measurement of water content, especially by coulometric and volumetric Karl Fischer titrations."
+                    },
+                    "publication_date": "2018",
+                    "publication_name": {
+                        "en": "Bunseki Kagaku"
+                    },
+                    "volume": "67",
+                    "number": "10",
+                    "starting_page": "619",
+                    "ending_page": "624",
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": true,
+                    "identifiers": {
+                        "doi": [
+                            "10.2116/bunsekikagaku.67.619"
+                        ],
+                        "issn": [
+                            "0525-1931"
+                        ],
+                        "scopus_id": [
+                            "85061856765"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.2116/bunsekikagaku.67.619",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "scopus",
+                            "@id": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85061856765&origin=inward",
+                            "is_downloadable": true
+                        },
+                        {
+                            "label": "scopus_citedby",
+                            "@id": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85061856765&origin=inward",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0001571/published_papers/27107309",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0001571/published_papers",
+                    "rm:id": "27107309",
+                    "rm:user_id": "0000010797",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_papers",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-05-04T22:58:43Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-10-02T10:02:38Z",
+                    "paper_title": {
+                        "ja": "Interlaboratory comparison of liquid chromatography-tandem mass spectrometry quantification of diarrhetic shellfish toxins in scallop midgut glands",
+                        "en": "Interlaboratory comparison of liquid chromatography-tandem mass spectrometry quantification of diarrhetic shellfish toxins in scallop midgut glands"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Yarita Takashi"
+                            },
+                            {
+                                "name": "Inagaki Shinsuke"
+                            },
+                            {
+                                "name": "Yamazaki Taichi"
+                            },
+                            {
+                                "name": "Kawaguchi Migaku"
+                            },
+                            {
+                                "name": "Uchida Hajime"
+                            },
+                            {
+                                "name": "Takatsu Akiko"
+                            },
+                            {
+                                "name": "Suzuki Toshiyuki"
+                            }
+                        ],
+                        "ja": [
+                            {
+                                "name": "Yarita Takashi"
+                            },
+                            {
+                                "name": "Inagaki Shinsuke"
+                            },
+                            {
+                                "name": "Yamazaki Taichi"
+                            },
+                            {
+                                "name": "Kawaguchi Migaku"
+                            },
+                            {
+                                "name": "Uchida Hajime"
+                            },
+                            {
+                                "name": "Takatsu Akiko"
+                            },
+                            {
+                                "name": "Suzuki Toshiyuki"
+                            }
+                        ]
+                    },
+                    "publication_date": "2018",
+                    "publication_name": {
+                        "ja": "Food Chemistry",
+                        "en": "Food Chemistry"
+                    },
+                    "volume": "252",
+                    "starting_page": "366",
+                    "ending_page": "372",
+                    "referee": true,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "0308-8146"
+                        ],
+                        "j_global_id": [
+                            "201802228886445742"
+                        ],
+                        "doi": [
+                            "10.1016/j.foodchem.2018.01.105"
+                        ],
+                        "orcid_put_cd": [
+                            "45479537"
+                        ],
+                        "wos_id": [
+                            "WOS:000426646500045"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "j_global",
+                            "@id": "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=201802228886445742",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1016/j.foodchem.2018.01.105",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000426646500045&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        },
+                        {
+                            "@id": "http://orcid.org/0000-0002-1225-6252",
+                            "is_downloadable": false,
+                            "label": "url"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0001571/published_papers/39521867",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0001571/published_papers",
+                    "rm:id": "39521867",
+                    "rm:user_id": "0000010797",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_papers",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2022-08-05T11:50:29Z",
+                    "rm:modifier_id": "ai:assign_based_papers",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-08-05T11:50:29Z",
+                    "paper_title": {
+                        "en": "Isotope-dilution liquid chromatography-tandem mass spectrometry for sensitive quantification of human insulin in serum using derivatization-technique"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Yohei Sakaguchi"
+                            },
+                            {
+                                "name": "Tomoya Kinumi"
+                            },
+                            {
+                                "name": "Akiko Takatsu"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "An isotope-dilution mass spectrometry (IDMS) method for measuring insulin levels in human serum was developed using C-terminal-derivatization method coupled with liquid chromatography-tandem mass spectrometry (LC-MS/MS). The carboxyl groups of Glu-C-cleavage products were derivatized with 1-(2-pyrimidinyl)piperazine to increase MS/MS sensitivity and IDMS quantification, resulting in increases in LC-MS/MS peak areas of derivatized Glu-C-cleavage products of human insulin by similar to 23-(A5-17 peptide) to 49-fold(B14-21 peptide), respectively, as compared with results observed in the absence of derivatization. Separation was achieved on a C18 column by gradient elution at 0.3 mL/min, with a mobile phase composed of 0.1% formic acid in acetonitrile and water. Validation studies of target peptides (B1-13 peptide and B14-21 peptide) revealed a linear response in the range of 0.05 ng/mL to 10 ng/mL (regression coefficient, r(2) = 0.9987 and 0.9988, respectively), a relative standard deviation within and between days of <8.6%, and spike and recovery test results indicating mean recoveries ranging from 100.2% to 106.6%. Comparison with an established commercial immunoassay showed high correlation (r(2) = 0.9943 and 0.9944, B1-13 peptide and B14-21 peptide, respectively) at serum concentrations of between 0.20 ng/mL and 1.51 ng/mL. These findings suggested that this IDMS-based approach was able to quantify human. serum insulin with high sensitivity and precision in the reference interval and indicated a potential for determining serum-insulin reference-measurement procedures to allow traceable measurement. (C) 2017 Elsevier Inc. All rights reserved."
+                    },
+                    "publisher": {
+                        "en": "ACADEMIC PRESS INC ELSEVIER SCIENCE"
+                    },
+                    "publication_date": "2017-11",
+                    "publication_name": {
+                        "en": "ANALYTICAL BIOCHEMISTRY"
+                    },
+                    "volume": "537",
+                    "starting_page": "26",
+                    "ending_page": "32",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1016/j.ab.2017.08.019"
+                        ],
+                        "issn": [
+                            "0003-2697"
+                        ],
+                        "e_issn": [
+                            "1096-0309"
+                        ],
+                        "wos_id": [
+                            "WOS:000417116700005"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1016/j.ab.2017.08.019",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000417116700005&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0001571/published_papers/28005434",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0001571/published_papers",
+                    "rm:id": "28005434",
+                    "rm:user_id": "0000010797",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-06-29T13:56:20Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-06-29T13:56:20Z",
+                    "paper_title": {
+                        "en": "Effects of the pH and Concentration on the Stability of Standard Solutions of Proteinogenic Amino Acid Mixtures"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Megumi Kato"
+                            },
+                            {
+                                "name": "Taichi Yamazaki"
+                            },
+                            {
+                                "name": "Hisashi Kato"
+                            },
+                            {
+                                "name": "Noriko Yamanaka"
+                            },
+                            {
+                                "name": "Akiko Takatsu"
+                            },
+                            {
+                                "name": "Toshihide Ihara"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "To prepare metrologically traceable amino acid mixed standard solutions, it is necessary to determine the stability of each amino acid present in the mixed solutions. In the present study, we prepared amino acid mixed solutions using certified reference standards of 17 proteinogenic amino acids, and examined the stability of each of these amino acids in 0.1 N HCl. We found that the concentration of glutamic acid decreased significantly during storage. LC/MS analysis indicated that the instability of glutamic acid was due to the partial degradation of glutamic acid to pyroglutamic acid in 0.1 N Using accelerated degradation tests, we investigated several solvent compositions to improve the stability of glutamic acid in amino acid mixed solution, and determined that the change of the pH by diluting the mixed solution improved the stability of glutamic acid."
+                    },
+                    "publisher": {
+                        "en": "JAPAN SOC ANALYTICAL CHEMISTRY"
+                    },
+                    "publication_date": "2017-11",
+                    "publication_name": {
+                        "en": "ANALYTICAL SCIENCES"
+                    },
+                    "volume": "33",
+                    "number": "11",
+                    "starting_page": "1241",
+                    "ending_page": "1245",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "0910-6340"
+                        ],
+                        "e_issn": [
+                            "1348-2246"
+                        ],
+                        "wos_id": [
+                            "WOS:000417010300007"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000417010300007&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0001571/published_papers/34994985",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0001571/published_papers",
+                    "rm:id": "34994985",
+                    "rm:user_id": "0000010797",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2021-10-24T12:53:17Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2021-10-24T12:53:17Z",
+                    "paper_title": {
+                        "en": "Development of a certified reference material of human serum albumin: certification and value assignment via amino acid analyses"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Tomoya Kinumi"
+                            },
+                            {
+                                "name": "Yohei Sakaguchi"
+                            },
+                            {
+                                "name": "Akiko Takatsu"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "Serum albumin is widely used as the standard material for various protein quantifications. Some commonly used methods to quantify albumin include the bromocresol green and bromocresol purple methods that use bovine serum albumin as a calibrant. To achieve the exact matching of the analyte and calibrant in human serum measurements, human serum albumin (HSA) is the ideal calibrant because it minimizes the measurement bias due to structural difference. Herein we describe the development of a certified reference material (CRM) for the HSA solution, namely NMIJ CRM 6202-a, with SI traceability at the National Metrology Institute of Japan (NMIJ). The certification process involved preparation of the material, homogeneity studies, stability studies, and value-assignment. The certified concentration of the candidate CRM was determined via amino acid analyses using isotope-dilution mass spectrometry with amino acid CRMs as the calibrants. The amino acid analyses were performed using microwave-assisted liquid phase and gas phase hydrolyses with hydrochloric acid under the optimized conditions, followed by measurements using liquid chromatography-mass spectrometry after a pre-column derivatization of the hydrolyzed amino acids. The certified value of this CRM was determined to be (74.3 +/- 2.1) g L-1; the number following +/- represents the expanded uncertainty (k=2)."
+                    },
+                    "publisher": {
+                        "en": "ROYAL SOC CHEMISTRY"
+                    },
+                    "publication_date": "2017-08",
+                    "publication_name": {
+                        "en": "ANALYTICAL METHODS"
+                    },
+                    "volume": "9",
+                    "number": "31",
+                    "starting_page": "4574",
+                    "ending_page": "4580",
+                    "languages": [
+                        "eng"
+                    ],
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1039/c7ay01415e"
+                        ],
+                        "issn": [
+                            "1759-9660"
+                        ],
+                        "e_issn": [
+                            "1759-9679"
+                        ],
+                        "wos_id": [
+                            "WOS:000411506500012"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1039/c7ay01415e",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000411506500012&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0001571/published_papers/27999729",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0001571/published_papers",
+                    "rm:id": "27999729",
+                    "rm:user_id": "0000010797",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-06-29T12:12:30Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-06-29T12:12:30Z",
+                    "paper_title": {
+                        "en": "Concentration Measurement of Amino Acid in Aqueous Solution by Quantitative H-1 NMR Spectroscopy with Internal Standard Method"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Taichi Yamazaki"
+                            },
+                            {
+                                "name": "Sakae Eyama"
+                            },
+                            {
+                                "name": "Akiko Takatsu"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "We describe a procedure to determine concentrations of amino acid standard solutions by quantitative NMR spectroscopy using an internal standard. The measurement samples were prepared by solvent exchange to remove any intense solvent signal in the H-1 NMR spectra. The method was demonstrated on valine aqueous solutions of different concentrations. The accuracy of the measured concentrations that fell well within the range of the expanded uncertainty is also discussed. All of the results are in good agreement with the preparation values. We believe that this approach should be useful to determine the concentrations of standard solutions whose solute components are difficult to weigh because of extremely small amount or hygroscopicity."
+                    },
+                    "publisher": {
+                        "en": "JAPAN SOC ANALYTICAL CHEMISTRY"
+                    },
+                    "publication_date": "2017-03",
+                    "publication_name": {
+                        "en": "ANALYTICAL SCIENCES"
+                    },
+                    "volume": "33",
+                    "number": "3",
+                    "starting_page": "369",
+                    "ending_page": "373",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "0910-6340"
+                        ],
+                        "e_issn": [
+                            "1348-2246"
+                        ],
+                        "wos_id": [
+                            "WOS:000398140400016"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000398140400016&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0001571/published_papers/27524352",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0001571/published_papers",
+                    "rm:id": "27524352",
+                    "rm:user_id": "0000010797",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_papers",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-06-02T02:26:28Z",
+                    "rm:modifier_id": "ai:assign_based_papers",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-06-02T02:26:28Z",
+                    "paper_title": {
+                        "en": "High transport efficiency of nanoparticles through a total-consumption sample introduction system and its beneficial application for particle size evaluation in single-particle ICP-MS"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Shin-ichi Miyashita"
+                            },
+                            {
+                                "name": "Hiroaki Mitsuhashi"
+                            },
+                            {
+                                "name": "Shin-ichiro Fujii"
+                            },
+                            {
+                                "name": "Akiko Takatsu"
+                            },
+                            {
+                                "name": "Kazumi Inagaki"
+                            },
+                            {
+                                "name": "Toshiyuki Fujimoto"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "In order to facilitate reliable and efficient determination of both the particle number concentration (PNC) and the size of nanoparticles (NPs) by single-particle ICP-MS (spICP-MS) without the need to correct for the particle transport efficiency (TE, a possible source of bias in the results), a total-consumption sample introduction system consisting of a large-bore, high-performance concentric nebulizer and a small-volume on-axis cylinder chamber was utilized. Such a system potentially permits a particle TE of 100 %, meaning that there is no need to include a particle TE correction when calculating the PNC and the NP size. When the particle TE through the sample introduction system was evaluated by comparing the frequency of sharp transient signals from the NPs in a measured NP standard of precisely known PNC to the particle frequency for a measured NP suspension, the TE for platinum NPs with a nominal diameter of 70 nm was found to be very high (i.e., 93 %), and showed satisfactory repeatability (relative standard deviation of 1.0 % for four consecutive measurements). These results indicated that employing this total consumption system allows the particle TE correction to be ignored when calculating the PNC. When the particle size was determined using a solution-standard-based calibration approach without an NP standard, the particle diameters of platinum and silver NPs with nominal diameters of 30-100 nm were found to agree well with the particle diameters determined by transmission electron microscopy, regardless of whether a correction was performed for the particle TE. Thus, applying the proposed system enables NP size to be accurately evaluated using a solution-standard-based calibration approach without the need to correct for the particle TE."
+                    },
+                    "publisher": {
+                        "en": "SPRINGER HEIDELBERG"
+                    },
+                    "publication_date": "2017-02",
+                    "publication_name": {
+                        "en": "ANALYTICAL AND BIOANALYTICAL CHEMISTRY"
+                    },
+                    "volume": "409",
+                    "number": "6",
+                    "starting_page": "1531",
+                    "ending_page": "1545",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1007/s00216-016-0089-5"
+                        ],
+                        "orcid_put_cd": [
+                            "45506973"
+                        ],
+                        "wos_id": [
+                            "WOS:000394238300010"
+                        ],
+                        "issn": [
+                            "1618-2642"
+                        ],
+                        "e_issn": [
+                            "1618-2650"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1007/s00216-016-0089-5",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000394238300010&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        },
+                        {
+                            "@id": "http://orcid.org/0000-0002-2762-2147",
+                            "is_downloadable": false,
+                            "label": "url"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0001571/published_papers/34994982",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0001571/published_papers",
+                    "rm:id": "34994982",
+                    "rm:user_id": "0000010797",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2021-10-24T12:53:16Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2021-10-24T12:53:16Z",
+                    "paper_title": {
+                        "en": "Quantification of peptides using N-terminal isotope coding and C-terminal derivatization for sensitive analysis by micro liquid chromatography-tandem mass spectrometry"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Yohei Sakaguchi"
+                            },
+                            {
+                                "name": "Tomoya Kinumi"
+                            },
+                            {
+                                "name": "Akiko Takatsu"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "Stable isotope-coding coupled with mass spectrometry is a popular method for quantitative proteomics and peptide quantification. However, the efficiency of the derivatization reaction at a particular functional group, especially in complex structures, can affect accuracy. Here, we present a dual functional-group derivatization of bioactive peptides followed by micro liquid chromatography-tandem mass spectrometry (LC-MS/MS). By separating the sensitivity-enhancement and isotope-coding derivatization reactions, suitable chemistries can be chosen. The peptide amino groups were reductively alkylated with acetaldehyde or acetaldehyde-d(4) to afford N-alkylated products with different masses. This process is simple, quick and high-yield, and accurate comparative analysis can be achieved for the mass-differentiated peptides. Then, the carboxyl groups were derivatized with 1-(2-pyrimidinyl)piperazine to increase MS/MS sensitivity. Angiotensins I-IV, bradykinin and neurotensin were analyzed after online solid phase extraction by micro LC-MS/MS. In all instances, a greater than 17-fold increase in sensitivity was achieved, compared with the analyses of the underivatized peptides. Furthermore, the values obtained from the present method were in agreement with the result from isotope dilution quantification using isotopically labeled angiotensin I [Asp-Arg-(Val-d(8))-Tyr-Ile-His-Pro-(Phe-d(8))-His-Leu]. Copyright (C) 2016 John Wiley & Sons, Ltd."
+                    },
+                    "publisher": {
+                        "en": "WILEY-BLACKWELL"
+                    },
+                    "publication_date": "2016-12",
+                    "publication_name": {
+                        "en": "JOURNAL OF MASS SPECTROMETRY"
+                    },
+                    "volume": "51",
+                    "number": "12",
+                    "starting_page": "1111",
+                    "ending_page": "1119",
+                    "languages": [
+                        "eng"
+                    ],
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1002/jms.3845"
+                        ],
+                        "issn": [
+                            "1076-5174"
+                        ],
+                        "e_issn": [
+                            "1096-9888"
+                        ],
+                        "wos_id": [
+                            "WOS:000385866400002"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1002/jms.3845",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000385866400002&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0001571/published_papers/39498343",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0001571/published_papers",
+                    "rm:id": "39498343",
+                    "rm:user_id": "0000010797",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_papers",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2022-08-04T07:00:45Z",
+                    "rm:modifier_id": "ai:assign_based_papers",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-08-04T07:00:45Z",
+                    "paper_title": {
+                        "en": "Formic acid hydrolysis/liquid chromatography isotope dilution mass spectrometry: An accurate method for large DNA quantification"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Sachie Shibayama"
+                            },
+                            {
+                                "name": "Shin-ichiro Fujii"
+                            },
+                            {
+                                "name": "Kazumi Inagaki"
+                            },
+                            {
+                                "name": "Taichi Yamazaki"
+                            },
+                            {
+                                "name": "Akiko Takatsu"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "Liquid chromatography-isotope dilution mass spectrometry (LC-IDMS) with formic acid hydrolysis was established for the accurate quantification of DNA. The over-decomposition of nucleobases in formic acid hydrolysis was restricted by optimizing the reaction temperature and the reaction time, and accurately corrected by using deoxynucleotides (dNMPs) and isotope-labeled dNMPs as the calibrator and the internal standard, respectively. The present method could quantify lambda DNA with an expanded uncertainty of 4.6% using 10 fmol of lambda DNA. The analytical results obtained with the present method were validated by comparing with the results of phosphate-base quantification by inductively coupled plasma-mass spectrometry (ICP-MS). The results showed good agreement with each other. We conclude that the formic acid hydrolysis/LC-IDMS method can quantify lambda DNA accurately and is promising as the primary method for the certification of DNA as reference material. (C) 2016 Elsevier B.V. All rights reserved."
+                    },
+                    "publisher": {
+                        "en": "ELSEVIER SCIENCE BV"
+                    },
+                    "publication_date": "2016-10",
+                    "publication_name": {
+                        "en": "JOURNAL OF CHROMATOGRAPHY A"
+                    },
+                    "volume": "1468",
+                    "starting_page": "109",
+                    "ending_page": "115",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1016/j.chroma.2016.09.031"
+                        ],
+                        "issn": [
+                            "0021-9673"
+                        ],
+                        "e_issn": [
+                            "1873-3778"
+                        ],
+                        "wos_id": [
+                            "WOS:000385326500015"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1016/j.chroma.2016.09.031",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000385326500015&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0001571/published_papers/38048007",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0001571/published_papers",
+                    "rm:id": "38048007",
+                    "rm:user_id": "0000010797",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_papers",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2022-07-03T12:57:17Z",
+                    "rm:modifier_id": "ai:assign_based_papers",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-07-03T12:57:17Z",
+                    "paper_title": {
+                        "en": "Quantitative Nuclear Magnetic Resonance Spectroscopy Based on PULCON Methodology: Application to Quantification of Invaluable Marine Toxin, Okadaic Acid"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Ryuichi Watanabe"
+                            },
+                            {
+                                "name": "Chika Sugai"
+                            },
+                            {
+                                "name": "Taichi Yamazaki"
+                            },
+                            {
+                                "name": "Ryoji Matsushima"
+                            },
+                            {
+                                "name": "Hajime Uchida"
+                            },
+                            {
+                                "name": "Masahiro Matsumiya"
+                            },
+                            {
+                                "name": "Akiko Takatsu"
+                            },
+                            {
+                                "name": "Toshiyuki Suzuki"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "ERETIC2 (Electronic Reference To access In vivo Concentrations 2) based on PULCON (Pulse Length-based Concentration determination) methodology is a quantitative NMR (qNMR) using an external standard. The performance of the PULCON method was assessed using maleic acid (MA). Quantification of the diarrhetic shellfish toxin and okadaic acid by PULCON was successfully consistent with that obtained by a conventional internal standard method, demonstrating that the PULCON method is useful for the quantification of invaluable marine toxins without any contaminations by an internal standard."
+                    },
+                    "publisher": {
+                        "en": "MDPI AG"
+                    },
+                    "publication_date": "2016-10",
+                    "publication_name": {
+                        "en": "TOXINS"
+                    },
+                    "volume": "8",
+                    "number": "10",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.3390/toxins8100294"
+                        ],
+                        "issn": [
+                            "2072-6651"
+                        ],
+                        "pm_id": [
+                            "27754382"
+                        ],
+                        "wos_id": [
+                            "WOS:000387347300025"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.3390/toxins8100294",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "pubmed",
+                            "@id": "https://www.ncbi.nlm.nih.gov/pubmed/27754382",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000387347300025&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0001571/published_papers/28169946",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0001571/published_papers",
+                    "rm:id": "28169946",
+                    "rm:user_id": "0000010797",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-07-01T10:48:24Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-07-01T10:48:24Z",
+                    "paper_title": {
+                        "en": "Difference between Consensus Value of Participants' Results and Isotope-Dilution Mass Spectrometric Results in Proficiency Testing for Pesticide Residues in Husked Wheat"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Takashi Yarita"
+                            },
+                            {
+                                "name": "Takamitsu Otake"
+                            },
+                            {
+                                "name": "Yoshie Aoyagi"
+                            },
+                            {
+                                "name": "Masahiko Numata"
+                            },
+                            {
+                                "name": "Akiko Takatsu"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "Proficiency testing was organized by the National Metrology Institute of Japan (NMIJ.) as a measure of analytical competency in the quantification of pesticide residues in husked wheat powder. Seventy-one participants submitted analytical concentrations of the target pesticides (diazinon, fenitrothion, malathion, and etofenprox) along with details of the analytical method employed. Two types of assigned values were obtained for each target pesticide, i.e., the participants' analytical results and the results obtained by NMIJ based on isotope-dilution mass spectrometry (IDMS). The former values were lower than the latter due to the incomplete recovery yield of the target pesticides during the pretreatment process. The discrepancy between the two assigned values was particularly pronounced for malathion because of the longer duration of water-soaking used for the test samples. Two corresponding types of z-scores were then calculated to evaluate the analytical performance of the participants, where the z(1)-score indicates the performance of a participant relative to all participants, and the z(2)-score indicates the relative deviation of the analytical results of the participant from the IDMS value."
+                    },
+                    "publisher": {
+                        "en": "JAPAN SOC ANALYTICAL CHEMISTRY"
+                    },
+                    "publication_date": "2016-05",
+                    "publication_name": {
+                        "en": "ANALYTICAL SCIENCES"
+                    },
+                    "volume": "32",
+                    "number": "5",
+                    "starting_page": "557",
+                    "ending_page": "563",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "0910-6340"
+                        ],
+                        "e_issn": [
+                            "1348-2246"
+                        ],
+                        "wos_id": [
+                            "WOS:000376817400012"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000376817400012&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0001571/published_papers/28142438",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0001571/published_papers",
+                    "rm:id": "28142438",
+                    "rm:user_id": "0000010797",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-07-01T04:00:10Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-07-01T04:00:10Z",
+                    "paper_title": {
+                        "en": "Proficiency Testing for Quantification of Pesticide Residues in Treated Brown Rice Samples: Comparison of Performance of Japanese Official Multiresidue, Modified QuEChERS, and QuEChERS Methods"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Takamitsu Otake"
+                            },
+                            {
+                                "name": "Takashi Yarita"
+                            },
+                            {
+                                "name": "Tomoko Sakamoto"
+                            },
+                            {
+                                "name": "Masahiko Numata"
+                            },
+                            {
+                                "name": "Akiko Takatsu"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "To support analytical skill development, testing of proficiency in pesticide residue analysis in brown rice was conducted for 86 participating Japanese laboratories. Brown rice test samples containing three target pesticides (etofenprox, fenitrothion, and thiamethoxam) were distributed to participants who were free to choose an appropriate analytical method. Reported results were evaluated using a z-score based on the consensus values calculated from the participant analytical results and a z-score based on the high-reliability reference values determined by the National Metrology Institute of Japan (NMIJ). It was found that 80-89 and 82-85% of participants achieved acceptable consensus-value-based and NMIJ-reference-value-based z-scores, respectively. More than 80% of participants reported results obtained using the Japanese official multiresidue method, solid-phase extraction technique with the Quick, Easy, Cheap, Effective, Rugged, and Safe (modified QuEChERS) method or QuEChERS method. We show that the concentrations determined by the NMIJ using these three methods combined with isotope-dilution MS having high reliability agreed well and that the method performances were comparable."
+                    },
+                    "publisher": {
+                        "en": "AOAC INT"
+                    },
+                    "publication_date": "2016-05",
+                    "publication_name": {
+                        "en": "JOURNAL OF AOAC INTERNATIONAL"
+                    },
+                    "volume": "99",
+                    "number": "3",
+                    "starting_page": "821",
+                    "ending_page": "829",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.5740/jaoacint.16-0038"
+                        ],
+                        "issn": [
+                            "1060-3271"
+                        ],
+                        "e_issn": [
+                            "1944-7922"
+                        ],
+                        "wos_id": [
+                            "WOS:000378188700034"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.5740/jaoacint.16-0038",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000378188700034&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0001571/published_papers/34994983",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0001571/published_papers",
+                    "rm:id": "34994983",
+                    "rm:user_id": "0000010797",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2021-10-24T12:53:16Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2021-10-24T12:53:16Z",
+                    "paper_title": {
+                        "en": "Quantification of glycated N-terminal peptide of hemoglobin using derivatization for multiple functional groups of amino acids followed by liquid chromatography/tandem mass spectrometry"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Yohei Sakaguchi"
+                            },
+                            {
+                                "name": "Tomoya Kinumi"
+                            },
+                            {
+                                "name": "Taichi Yamazaki"
+                            },
+                            {
+                                "name": "Akiko Takatsu"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "A novel method of amino acid analysis using derivatization of multiple functional groups (amino, carboxyl, and phenolic hydroxyl groups) was applied to measure glycated amino acids in order to quantify glycated peptides and evaluate the degree of glycation of peptide. Amino and carboxyl groups of amino acids were derivatized with 1-bromobutane so that the hydrophobicities and basicities of the amino acids, including glycated amino acids, were improved. These derivatized amino acids could be detected with high sensitivity using LC-MS/MS. In this study, 1-deoxyfructosyl-VHLTPE and VHLTPE, which are N-terminal peptides of the -chains of hemoglobin, were selected as target compounds. After reducing the peptide sample solution with sodium borohydride, the obtained peptides were hydrolyzed with hydrochloric acid. The released amino acids were then derivatized with 1-bromobutane and analyzed with LC-MS/MS. The derivatized amino acids, including glycated amino acids, could be separated using an octadecyl silylated silica column and good sharp peaks were detected. We show a confirmatory experiment that the proposed method can be applied to evaluate the degree of glycation of peptides, using mixtures of glycated and non-glycated peptide. Copyright (c) 2015 John Wiley & Sons, Ltd."
+                    },
+                    "publisher": {
+                        "en": "WILEY"
+                    },
+                    "publication_date": "2016-02",
+                    "publication_name": {
+                        "en": "BIOMEDICAL CHROMATOGRAPHY"
+                    },
+                    "volume": "30",
+                    "number": "2",
+                    "starting_page": "280",
+                    "ending_page": "284",
+                    "languages": [
+                        "eng"
+                    ],
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1002/bmc.3524"
+                        ],
+                        "issn": [
+                            "0269-3879"
+                        ],
+                        "e_issn": [
+                            "1099-0801"
+                        ],
+                        "wos_id": [
+                            "WOS:000368173500025"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1002/bmc.3524",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000368173500025&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0001571/misc",
+            "@type": "misc",
+            "@reverse": "https://api.researchmap.jp/read0001571",
+            "total_items": 78,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0001571/misc/34760456",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0001571/misc",
+                    "rm:id": "34760456",
+                    "rm:user_id": "0000010797",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2021-10-23T14:43:18Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2021-10-23T14:43:18Z",
+                    "paper_title": {
+                        "ja": "重水素化体を内標準物質として用いたLC/MSによる食品中残留農薬の定量におけるマトリクス効果の評価"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "中村圭介"
+                            },
+                            {
+                                "name": "大竹貴光"
+                            },
+                            {
+                                "name": "羽成修康"
+                            },
+                            {
+                                "name": "高津章子"
+                            }
+                        ]
+                    },
+                    "publication_date": "2018",
+                    "publication_name": {
+                        "ja": "日本分析化学会年会講演要旨集"
+                    },
+                    "volume": "67th",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "j_global_id": [
+                            "201802213038343089"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "j_global",
+                            "@id": "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=201802213038343089",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0001571/misc/37487817",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0001571/misc",
+                    "rm:id": "37487817",
+                    "rm:user_id": "0000010797",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2022-06-29T08:21:38Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-06-29T08:21:38Z",
+                    "paper_title": {
+                        "ja": "2P-229 質量分析を用いた抗体試料中不純物評価技術の開発(バイオプロセス,一般講演)",
+                        "en": "2P-229 Development of analytical methods for impurities in antibody solution using mass spectrometry"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "藤井 紳一郎"
+                            },
+                            {
+                                "name": "絹見 朋也"
+                            },
+                            {
+                                "name": "稲垣 和三"
+                            },
+                            {
+                                "name": "高津 章子"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Fujii Shin-ichiro"
+                            },
+                            {
+                                "name": "Kinumi Tomoya"
+                            },
+                            {
+                                "name": "Inagaki Kazumi"
+                            },
+                            {
+                                "name": "Takatsu Akiko"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "日本生物工学会"
+                    },
+                    "publication_date": "2015",
+                    "publication_name": {
+                        "ja": "日本生物工学会大会講演要旨集"
+                    },
+                    "volume": "67",
+                    "starting_page": "232",
+                    "ending_page": "232",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "cinii_na_id": [
+                            "110010009316"
+                        ],
+                        "cinii_nc_id": [
+                            "AN10549378"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/110010009316",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_books",
+                            "@id": "http://ci.nii.ac.jp/ncid/AN10549378",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "http://dl.ndl.go.jp/info:ndljp/pid/10536004",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "http://search.jamas.or.jp/link/ui/2016232072",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0001571/misc/38424934",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0001571/misc",
+                    "rm:id": "38424934",
+                    "rm:user_id": "0000010797",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_papers",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2022-07-10T09:07:50Z",
+                    "rm:modifier_id": "ai:assign_based_papers",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-07-10T09:07:50Z",
+                    "paper_title": {
+                        "en": "Sputtered nanocarbon film electrode for detecting DNA molecules"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Dai Kato"
+                            },
+                            {
+                                "name": "Shin-ichiro Fujii"
+                            },
+                            {
+                                "name": "Akiko Takatsu"
+                            },
+                            {
+                                "name": "Shigeru Hirono"
+                            },
+                            {
+                                "name": "Osamu Niwa"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "en": "AMER CHEMICAL SOC"
+                    },
+                    "publication_date": "2012-08",
+                    "publication_name": {
+                        "en": "ABSTRACTS OF PAPERS OF THE AMERICAN CHEMICAL SOCIETY"
+                    },
+                    "volume": "244",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "misc_type": "summary_international_conference",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "0065-7727"
+                        ],
+                        "wos_id": [
+                            "WOS:000324621800814"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000324621800814&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0001571/misc/25292694",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0001571/misc",
+                    "rm:id": "25292694",
+                    "rm:user_id": "0000010797",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_papers",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-03-29T17:49:56Z",
+                    "rm:modifier_id": "ai:assign_based_papers",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-03-29T17:49:56Z",
+                    "paper_title": {
+                        "ja": "エピジェネティクス計測評価チップの研究開発(II)DNAメチル化標準試料の分離アッセイ",
+                        "en": "R &amp; D OF BIOCHIP FOR EPIGENETICS (II) ON-CHIP SEPARATION ASSAY OF DIGESTED DNA METHYLATED STANDARD-SAMPLES"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "脇田慎一"
+                            },
+                            {
+                                "name": "宮道隆"
+                            },
+                            {
+                                "name": "藤井紳一郎"
+                            },
+                            {
+                                "name": "高津章子"
+                            },
+                            {
+                                "name": "加藤大"
+                            },
+                            {
+                                "name": "丹羽修"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "WAKIDA SHIN'ICHI"
+                            },
+                            {
+                                "name": "MIYADO TAKASHI"
+                            },
+                            {
+                                "name": "FUJII SHIN'ICHIRO"
+                            },
+                            {
+                                "name": "TAKATSU AKIKO"
+                            },
+                            {
+                                "name": "KATO DAI"
+                            },
+                            {
+                                "name": "NIWA OSAMU"
+                            }
+                        ]
+                    },
+                    "publication_date": "2010-09-02",
+                    "publication_name": {
+                        "ja": "Chem Sens",
+                        "en": "Chem Sens"
+                    },
+                    "volume": "26",
+                    "number": "Supplement B",
+                    "starting_page": "37",
+                    "ending_page": "39",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "j_global_id": [
+                            "201002204686745250"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "j_global",
+                            "@id": "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=201002204686745250",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0001571/misc/39571757",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0001571/misc",
+                    "rm:id": "39571757",
+                    "rm:user_id": "0000010797",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2022-08-09T02:30:40Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-08-09T02:30:40Z",
+                    "paper_title": {
+                        "ja": "エピジェネティクス計測評価チップの研究開発(1)DNAメチル化分離アッセイの基礎検討",
+                        "en": "R & D OF BIOCHIP FOR EPIGENETICS(I) BASIC STUDY ON ON-CHIP SEPARATION OF DNA METHYLATION"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "脇田慎一"
+                            },
+                            {
+                                "name": "宮道隆"
+                            },
+                            {
+                                "name": "藤井紳一郎"
+                            },
+                            {
+                                "name": "高津章子"
+                            },
+                            {
+                                "name": "加藤大"
+                            },
+                            {
+                                "name": "丹羽修"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "脇田慎一"
+                            },
+                            {
+                                "name": "宮道隆"
+                            },
+                            {
+                                "name": "藤井紳一郎"
+                            },
+                            {
+                                "name": "高津章子"
+                            },
+                            {
+                                "name": "加藤大"
+                            },
+                            {
+                                "name": "丹羽修"
+                            }
+                        ]
+                    },
+                    "publication_date": "2010",
+                    "publication_name": {
+                        "ja": "Chemical Sensors",
+                        "en": "Chemical Sensors"
+                    },
+                    "volume": "26",
+                    "number": "Supplement A",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "j_global_id": [
+                            "201002234473228452"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "j_global",
+                            "@id": "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=201002234473228452",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0001571/misc/38224343",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0001571/misc",
+                    "rm:id": "38224343",
+                    "rm:user_id": "0000010797",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2022-07-06T07:02:50Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-07-06T07:02:50Z",
+                    "paper_title": {
+                        "ja": "純物質系標準物質の概要",
+                        "en": "Overview of pure substance type reference materials"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "高津 章子"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "TAKATSU Akiko"
+                            }
+                        ]
+                    },
+                    "publication_date": "2009-10-30",
+                    "publication_name": {
+                        "ja": "臨床化学"
+                    },
+                    "volume": "38",
+                    "number": "4",
+                    "starting_page": "384",
+                    "ending_page": "388",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "0370-5633"
+                        ],
+                        "cinii_na_id": [
+                            "10026445866"
+                        ],
+                        "cinii_nc_id": [
+                            "AN00252758"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/10026445866",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_books",
+                            "@id": "http://ci.nii.ac.jp/ncid/AN00252758",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "http://search.jamas.or.jp/link/ui/2010052636",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0001571/misc/26681742",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0001571/misc",
+                    "rm:id": "26681742",
+                    "rm:user_id": "0000010797",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_papers",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-04-22T11:13:09Z",
+                    "rm:modifier_id": "ai:assign_based_papers",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-04-22T11:13:09Z",
+                    "paper_title": {
+                        "ja": "細胞直接導入/ICP‐MSによる酵母細胞の多元素分析",
+                        "en": "細胞直接導入/ICP‐MSによる酵母細胞の多元素分析"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "稲垣和三"
+                            },
+                            {
+                                "name": "大畑昌輝"
+                            },
+                            {
+                                "name": "藤井紳一郎"
+                            },
+                            {
+                                "name": "高崎裕加"
+                            },
+                            {
+                                "name": "梅村知也"
+                            },
+                            {
+                                "name": "朱彦北"
+                            },
+                            {
+                                "name": "高津章子"
+                            },
+                            {
+                                "name": "千葉光一"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "稲垣和三"
+                            },
+                            {
+                                "name": "大畑昌輝"
+                            },
+                            {
+                                "name": "藤井紳一郎"
+                            },
+                            {
+                                "name": "高崎裕加"
+                            },
+                            {
+                                "name": "梅村知也"
+                            },
+                            {
+                                "name": "朱彦北"
+                            },
+                            {
+                                "name": "高津章子"
+                            },
+                            {
+                                "name": "千葉光一"
+                            }
+                        ]
+                    },
+                    "publication_date": "2009-09-10",
+                    "publication_name": {
+                        "ja": "日本分析化学会年会講演要旨集",
+                        "en": "日本分析化学会年会講演要旨集"
+                    },
+                    "volume": "58th",
+                    "starting_page": "197",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "j_global_id": [
+                            "200902293585608571"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "j_global",
+                            "@id": "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=200902293585608571",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "http://jglobal.jst.go.jp/public/200902293585608571",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0001571/misc/25226801",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0001571/misc",
+                    "rm:id": "25226801",
+                    "rm:user_id": "0000010797",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_papers",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-03-29T09:17:48Z",
+                    "rm:modifier_id": "ai:assign_based_papers",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-03-29T09:17:48Z",
+                    "paper_title": {
+                        "ja": "国際基幹比較(CCQM‐K43.1:魚肉中As,Se,Hg,メチル水銀分析)結果と魚肉粉末標準物質(NMIJ CRM 7403‐a)開発",
+                        "en": "国際基幹比較(CCQM‐K43.1:魚肉中As,Se,Hg,メチル水銀分析)結果と魚肉粉末標準物質(NMIJ CRM 7403‐a)開発"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "黒岩貴芳"
+                            },
+                            {
+                                "name": "稲垣和三"
+                            },
+                            {
+                                "name": "成川知弘"
+                            },
+                            {
+                                "name": "朱彦北"
+                            },
+                            {
+                                "name": "高津章子"
+                            },
+                            {
+                                "name": "鎗田孝"
+                            },
+                            {
+                                "name": "千葉光一"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "黒岩貴芳"
+                            },
+                            {
+                                "name": "稲垣和三"
+                            },
+                            {
+                                "name": "成川知弘"
+                            },
+                            {
+                                "name": "朱彦北"
+                            },
+                            {
+                                "name": "高津章子"
+                            },
+                            {
+                                "name": "鎗田孝"
+                            },
+                            {
+                                "name": "千葉光一"
+                            }
+                        ]
+                    },
+                    "publication_date": "2009-09-10",
+                    "publication_name": {
+                        "ja": "日本分析化学会年会講演要旨集",
+                        "en": "日本分析化学会年会講演要旨集"
+                    },
+                    "volume": "58th",
+                    "starting_page": "340",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "j_global_id": [
+                            "200902244052526777"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "j_global",
+                            "@id": "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=200902244052526777",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "http://jglobal.jst.go.jp/public/200902244052526777",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0001571/misc/38556048",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0001571/misc",
+                    "rm:id": "38556048",
+                    "rm:user_id": "0000010797",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2022-07-14T06:15:44Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-07-14T06:15:44Z",
+                    "paper_title": {
+                        "ja": "同位体希釈質量分析法とその標準物質開発への応用",
+                        "en": "Isotope Dilution Mass Spectrometry and Its Application to Certification of Reference Materials"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "稲垣 和三"
+                            },
+                            {
+                                "name": "高津 章子"
+                            },
+                            {
+                                "name": "千葉 光一"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "INAGAKI Kazumi"
+                            },
+                            {
+                                "name": "TAKATSU Akiko"
+                            },
+                            {
+                                "name": "CHIBA Koichi"
+                            }
+                        ]
+                    },
+                    "publication_date": "2009-07-31",
+                    "publication_name": {
+                        "ja": "臨床化学"
+                    },
+                    "volume": "38",
+                    "number": "3",
+                    "starting_page": "232",
+                    "ending_page": "237",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "0370-5633"
+                        ],
+                        "cinii_na_id": [
+                            "10025633027"
+                        ],
+                        "cinii_nc_id": [
+                            "AN00252758"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/10025633027",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_books",
+                            "@id": "http://ci.nii.ac.jp/ncid/AN00252758",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "http://search.jamas.or.jp/link/ui/2009288554",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0001571/misc/38400897",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0001571/misc",
+                    "rm:id": "38400897",
+                    "rm:user_id": "0000010797",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2022-07-10T02:33:24Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-07-10T02:33:24Z",
+                    "paper_title": {
+                        "ja": "NEDO知的基盤創成・利用促進研究開発事業 : 「臨床検査用標準物質の研究開発」「純物質系標準物質の研究開発」の成果について",
+                        "en": "Report of the NEDO Project \"Research and Development to Promote the Creation and Utilization of an Intellectual Infrastructure : Development of Reference Materials for Laboratory Medicine\" \"Development of Pure Substance-type Certified Reference Materials\""
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "高津 章子"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "TAKATSU Akiko"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "日本臨床検査医学会事務所"
+                    },
+                    "publication_date": "2009-06-25",
+                    "publication_name": {
+                        "ja": "臨床病理",
+                        "en": "The Official journal of Japanese Society of Laboratory Medicine"
+                    },
+                    "volume": "57",
+                    "number": "6",
+                    "starting_page": "563",
+                    "ending_page": "567",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "0047-1860"
+                        ],
+                        "cinii_na_id": [
+                            "10026337245"
+                        ],
+                        "cinii_nc_id": [
+                            "AN00253932"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/10026337245",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_books",
+                            "@id": "http://ci.nii.ac.jp/ncid/AN00253932",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "http://id.ndl.go.jp/bib/10366538",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "http://search.jamas.or.jp/link/ui/2009282799",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0001571/misc/25226812",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0001571/misc",
+                    "rm:id": "25226812",
+                    "rm:user_id": "0000010797",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_papers",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-03-29T09:17:49Z",
+                    "rm:modifier_id": "ai:assign_based_papers",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-03-29T09:17:49Z",
+                    "paper_title": {
+                        "ja": "微少試料導入/ICP‐MSを用いた微小粒子の多元素分析",
+                        "en": "微少試料導入/ICP‐MSを用いた微小粒子の多元素分析"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "稲垣和三"
+                            },
+                            {
+                                "name": "大畑昌輝"
+                            },
+                            {
+                                "name": "藤井紳一郎"
+                            },
+                            {
+                                "name": "高崎裕加"
+                            },
+                            {
+                                "name": "梅村知也"
+                            },
+                            {
+                                "name": "朱彦北"
+                            },
+                            {
+                                "name": "高津章子"
+                            },
+                            {
+                                "name": "千葉光一"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "稲垣和三"
+                            },
+                            {
+                                "name": "大畑昌輝"
+                            },
+                            {
+                                "name": "藤井紳一郎"
+                            },
+                            {
+                                "name": "高崎裕加"
+                            },
+                            {
+                                "name": "梅村知也"
+                            },
+                            {
+                                "name": "朱彦北"
+                            },
+                            {
+                                "name": "高津章子"
+                            },
+                            {
+                                "name": "千葉光一"
+                            }
+                        ]
+                    },
+                    "publication_date": "2009-05-02",
+                    "publication_name": {
+                        "ja": "分析化学討論会講演要旨集",
+                        "en": "分析化学討論会講演要旨集"
+                    },
+                    "volume": "70th",
+                    "starting_page": "123",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "j_global_id": [
+                            "200902253299506476"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "j_global",
+                            "@id": "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=200902253299506476",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "http://jglobal.jst.go.jp/public/200902253299506476",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0001571/misc/38513065",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0001571/misc",
+                    "rm:id": "38513065",
+                    "rm:user_id": "0000010797",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2022-07-13T04:18:15Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-07-13T04:18:15Z",
+                    "paper_title": {
+                        "ja": "日本における国家計量標準とその供給体制 : 物質量・化学",
+                        "en": "Metrology in Chemistry (Amount of Substance)"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "高津 章子"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "TAKATSU Akiko"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "計測自動制御学会"
+                    },
+                    "publication_date": "2009-04-10",
+                    "publication_name": {
+                        "ja": "計測と制御 = Journal of the Society of Instrument and Control Engineers"
+                    },
+                    "volume": "48",
+                    "number": "4",
+                    "starting_page": "355",
+                    "ending_page": "359",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "0453-4662"
+                        ],
+                        "cinii_na_id": [
+                            "10024757133"
+                        ],
+                        "cinii_nc_id": [
+                            "AN00072406"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/10024757133",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_books",
+                            "@id": "http://ci.nii.ac.jp/ncid/AN00072406",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "http://id.ndl.go.jp/bib/10251061",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0001571/misc/25226815",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0001571/misc",
+                    "rm:id": "25226815",
+                    "rm:user_id": "0000010797",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_papers",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-03-29T09:17:49Z",
+                    "rm:modifier_id": "ai:assign_based_papers",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-03-29T09:17:49Z",
+                    "paper_title": {
+                        "ja": "オミックス研究を支援するプラズマ分光分析用高効率微少試料導入系の開発",
+                        "en": "オミックス研究を支援するプラズマ分光分析用高効率微少試料導入系の開発"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "稲垣和三"
+                            },
+                            {
+                                "name": "藤井紳一郎"
+                            },
+                            {
+                                "name": "高津章子"
+                            },
+                            {
+                                "name": "朱彦北"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "稲垣和三"
+                            },
+                            {
+                                "name": "藤井紳一郎"
+                            },
+                            {
+                                "name": "高津章子"
+                            },
+                            {
+                                "name": "朱彦北"
+                            }
+                        ]
+                    },
+                    "publication_date": "2009-03-05",
+                    "publication_name": {
+                        "ja": "日本薬学会年会要旨集",
+                        "en": "日本薬学会年会要旨集"
+                    },
+                    "volume": "129th",
+                    "number": "1",
+                    "starting_page": "162",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "0918-9823"
+                        ],
+                        "j_global_id": [
+                            "200902237234453957"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "j_global",
+                            "@id": "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=200902237234453957",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "http://jglobal.jst.go.jp/public/200902237234453957",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0001571/misc/39354793",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0001571/misc",
+                    "rm:id": "39354793",
+                    "rm:user_id": "0000010797",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2022-07-31T06:37:53Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-07-31T06:37:53Z",
+                    "paper_title": {
+                        "ja": "Miniaturized hollow fiber assisted liquid-phase microextraction and gas chromatography-mass spectrometry for the measurement of progesterone in human serum",
+                        "en": "Miniaturized hollow fiber assisted liquid-phase microextraction and gas chromatography-mass spectrometry for the measurement of progesterone in human serum"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "KAWAGUCHI Migaku"
+                            },
+                            {
+                                "name": "TAKATSU Akiko"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "KAWAGUCHI Migaku"
+                            },
+                            {
+                                "name": "TAKATSU Akiko"
+                            }
+                        ]
+                    },
+                    "publication_date": "2009-01-15",
+                    "publication_name": {
+                        "ja": "Journal of chromatography. B, Analytical technologies in the biomedical and life sciences"
+                    },
+                    "volume": "877",
+                    "number": "3",
+                    "starting_page": "343",
+                    "ending_page": "346",
+                    "languages": [
+                        "eng"
+                    ],
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "1570-0232"
+                        ],
+                        "cinii_na_id": [
+                            "10028012542"
+                        ],
+                        "cinii_nc_id": [
+                            "AA11656178"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/10028012542",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_books",
+                            "@id": "http://ci.nii.ac.jp/ncid/AA11656178",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0001571/misc/29158764",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0001571/misc",
+                    "rm:id": "29158764",
+                    "rm:user_id": "0000010797",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-07-15T11:11:00Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-07-15T11:11:00Z",
+                    "paper_title": {
+                        "en": "Preparation of sulfoxide residue bonded silica stationary phase for separation of polychlorinated biphenyls from mineral oils (vol 79, pg 9211, 2007)"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Masahiko Numata"
+                            },
+                            {
+                                "name": "Yoshie Aoyagi"
+                            },
+                            {
+                                "name": "Yoko Tsuda"
+                            },
+                            {
+                                "name": "Takashi Yarita"
+                            },
+                            {
+                                "name": "Akiko Takatsu"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "en": "AMER CHEMICAL SOC"
+                    },
+                    "publication_date": "2008-01",
+                    "publication_name": {
+                        "en": "ANALYTICAL CHEMISTRY"
+                    },
+                    "volume": "80",
+                    "number": "2",
+                    "starting_page": "509",
+                    "ending_page": "509",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "misc_type": "others",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1021/ac702434g"
+                        ],
+                        "issn": [
+                            "0003-2700"
+                        ],
+                        "wos_id": [
+                            "WOS:000252318200020"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1021/ac702434g",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000252318200020&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0001571/misc/25226822",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0001571/misc",
+                    "rm:id": "25226822",
+                    "rm:user_id": "0000010797",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_papers",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-03-29T09:17:50Z",
+                    "rm:modifier_id": "ai:assign_based_papers",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-03-29T09:17:50Z",
+                    "paper_title": {
+                        "ja": "ICPMS用全量消費型微少試料導入系の開発及び性能評価",
+                        "en": "ICPMS用全量消費型微少試料導入系の開発及び性能評価"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "稲垣和三"
+                            },
+                            {
+                                "name": "鎗田孝"
+                            },
+                            {
+                                "name": "黒岩貴芳"
+                            },
+                            {
+                                "name": "成川知弘"
+                            },
+                            {
+                                "name": "朱彦北"
+                            },
+                            {
+                                "name": "高津章子"
+                            },
+                            {
+                                "name": "千葉光一"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "稲垣和三"
+                            },
+                            {
+                                "name": "鎗田孝"
+                            },
+                            {
+                                "name": "黒岩貴芳"
+                            },
+                            {
+                                "name": "成川知弘"
+                            },
+                            {
+                                "name": "朱彦北"
+                            },
+                            {
+                                "name": "高津章子"
+                            },
+                            {
+                                "name": "千葉光一"
+                            }
+                        ]
+                    },
+                    "publication_date": "2007-09-05",
+                    "publication_name": {
+                        "ja": "日本分析化学会年会講演要旨集",
+                        "en": "日本分析化学会年会講演要旨集"
+                    },
+                    "volume": "56th",
+                    "starting_page": "144",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "j_global_id": [
+                            "200902292059539534"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "j_global",
+                            "@id": "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=200902292059539534",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "http://jglobal.jst.go.jp/public/200902292059539534",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0001571/misc/37442207",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0001571/misc",
+                    "rm:id": "37442207",
+                    "rm:user_id": "0000010797",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2022-06-29T03:32:53Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-06-29T03:32:53Z",
+                    "paper_title": {
+                        "ja": "In Situ Observation of Reduction Behavior of Hemoglobin Molecules Adsorbed on Glass Surface",
+                        "en": "In Situ Observation of Reduction Behavior of Hemoglobin Molecules Adsorbed on Glass Surface"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "MATSUI Masayoshi"
+                            },
+                            {
+                                "name": "NAKAHARA Akiko"
+                            },
+                            {
+                                "name": "TAKATSU Akiko"
+                            },
+                            {
+                                "name": "KATO Kenji"
+                            },
+                            {
+                                "name": "MATSUDA Naoki"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "MATSUI Masayoshi"
+                            },
+                            {
+                                "name": "NAKAHARA Akiko"
+                            },
+                            {
+                                "name": "TAKATSU Akiko"
+                            },
+                            {
+                                "name": "KATO Kenji"
+                            },
+                            {
+                                "name": "MATSUDA Naoki"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "ja": "In situ observation of the adsorption process and reduction behavior of hemoglobin adsorbed on a bare glass surface was studied using slab optical waveguide (SOWG) spectroscopy. The peak position of the absorption band of hemoglobin adsorbed on the glass surface was almost the same as that of hemoglobin in solution. This result agrees with results previously reported by our group. The adsorbed hemoglobin molecules were also reduced by sodium dithionite solution. The adsorbed hemoglobin molecules still maintained their function in this experimental condition.",
+                        "en": "In situ observation of the adsorption process and reduction behavior of hemoglobin adsorbed on a bare glass surface was studied using slab optical waveguide (SOWG) spectroscopy. The peak position of the absorption band of hemoglobin adsorbed on the glass surface was almost the same as that of hemoglobin in solution. This result agrees with results previously reported by our group. The adsorbed hemoglobin molecules were also reduced by sodium dithionite solution. The adsorbed hemoglobin molecules still maintained their function in this experimental condition."
+                    },
+                    "publisher": {
+                        "ja": "一般社団法人電子情報通信学会",
+                        "en": "The Institute of Electronics, Information and Communication Engineers"
+                    },
+                    "publication_date": "2006-12-01",
+                    "publication_name": {
+                        "ja": "IEICE transactions on electronics",
+                        "en": "IEICE Trans. Electron., C"
+                    },
+                    "volume": "89",
+                    "number": "12",
+                    "starting_page": "1741",
+                    "ending_page": "1745",
+                    "languages": [
+                        "eng"
+                    ],
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "0916-8524"
+                        ],
+                        "cinii_na_id": [
+                            "110007538720"
+                        ],
+                        "cinii_nc_id": [
+                            "AA10826283"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/110007538720",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_books",
+                            "@id": "http://ci.nii.ac.jp/ncid/AA10826283",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0001571/misc/39339553",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0001571/misc",
+                    "rm:id": "39339553",
+                    "rm:user_id": "0000010797",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2022-07-31T03:41:49Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-07-31T03:41:49Z",
+                    "paper_title": {
+                        "ja": "臨床検査用標準物質の研究開発 : 純物質系標準物質の開発",
+                        "en": "The Development of the Reference Materials for the Laboratory Medicine : The Development fir the Primary Reference Materials"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "高津 章子"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "TAKATSU Akiko"
+                            }
+                        ]
+                    },
+                    "publication_date": "2006-11-25",
+                    "publication_name": {
+                        "ja": "医学検査 : 日本臨床衛生検査技師会誌 = The Japanese journal of medical technology"
+                    },
+                    "volume": "55",
+                    "number": "11",
+                    "starting_page": "1215",
+                    "ending_page": "1218",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "0915-8669"
+                        ],
+                        "cinii_na_id": [
+                            "10019602778"
+                        ],
+                        "cinii_nc_id": [
+                            "AN10229989"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/10019602778",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_books",
+                            "@id": "http://ci.nii.ac.jp/ncid/AN10229989",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "http://search.jamas.or.jp/link/ui/2007068051",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0001571/misc/1155821",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0001571/misc",
+                    "rm:id": "1155821",
+                    "rm:user_id": "0000010797",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000010797",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2011-02-02T15:00:00Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-05-18T00:16:14Z",
+                    "paper_title": {
+                        "en": "Determination of selenium in sediment by isotope-dilution inductively coupled plasma mass spectrometry with an octapole reaction cell"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "K Inagaki"
+                            },
+                            {
+                                "name": "A Takatsu"
+                            },
+                            {
+                                "name": "A Nakama"
+                            },
+                            {
+                                "name": "S Eyama"
+                            },
+                            {
+                                "name": "T Yarita"
+                            },
+                            {
+                                "name": "K Okamoto"
+                            },
+                            {
+                                "name": "K Chiba"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "A method is described for determination of selenium in sediment by isotope-dilution inductively coupled plasma mass spectrometry with an octapole reaction cell ( ID - ICP - ORCMS). Sediment samples were digested with HNO3, HClO4, and HF, and the digestion included an elaborate evaporation process to remove bromine from the digested solution. Simple strong cation-exchange disk filtration was used to remove rare earth elements (REE) from the digested solution, because REE2+ seriously interfere with Se isotopes (i.e. Gd-156(2+) with Se-78(+), Gd-160(2+) with Se-80(+)). Addition of acetic acid to the filtrate was examined to improve the sensitivity of ICP ORCMS measurement of Se+ by means of a carbon-enhancement effect. The interfering Ar-2(+) for selenium isotopes were almost eliminated by use of H-2 as reaction gas. Interference from BrH+ formed in the reaction cell was negligible because the Br was removed in the evaporation process. Approximately 99.5% of REE were removed by cation-exchange disk filtration yet more than 99% of Se remained in the filtrate solution. The intensity for Se+ was enhanced approximately fourfold by addition of 5% (v/v) of acetic acid whereas that for Ar-2(+) was barely enhanced. Measured Se-80/Se-78 ratios in unspiked digested solutions of the sample were in good agreement with that for an Se standard solution. The analytical results for Se in the certified reference materials MESS-3 and PACS-1 were in good agreement with their certified values, with small uncertainties."
+                    },
+                    "publisher": {
+                        "en": "SPRINGER HEIDELBERG"
+                    },
+                    "publication_date": "2006-05",
+                    "publication_name": {
+                        "en": "ANALYTICAL AND BIOANALYTICAL CHEMISTRY"
+                    },
+                    "volume": "385",
+                    "number": "1",
+                    "starting_page": "67",
+                    "ending_page": "75",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "cinii_na_id": [
+                            "80019169684"
+                        ],
+                        "doi": [
+                            "10.1007/s00216-006-0376-7"
+                        ],
+                        "issn": [
+                            "1618-2642"
+                        ],
+                        "pm_id": [
+                            "16557408"
+                        ],
+                        "wos_id": [
+                            "WOS:000236972000011"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/80019169684",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1007/s00216-006-0376-7",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "pubmed",
+                            "@id": "https://www.ncbi.nlm.nih.gov/pubmed/16557408",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000236972000011&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0001571/misc/1155819",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0001571/misc",
+                    "rm:id": "1155819",
+                    "rm:user_id": "0000010797",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000010797",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2011-02-02T15:00:00Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-05-17T05:24:21Z",
+                    "paper_title": {
+                        "en": "Separation of polychlorinated biphenyls from mineral oil using alkylammonium ion-bonded silica stationary phases"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "M Numata"
+                            },
+                            {
+                                "name": "Y Aoyagi"
+                            },
+                            {
+                                "name": "Y Tsuda"
+                            },
+                            {
+                                "name": "T Yarita"
+                            },
+                            {
+                                "name": "A Takatsu"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "The potential of alkylammonium ion-bonded silica stationary phases for effective and simple pretreatment for determination of polychlorinated biphenyls (PCBs) in mineral oil samples is presented in this paper. The separation between PCBs and aliphatic hydrocarbons by normal phase chromatography was improved by using the alkylammonium ion-bonded silica stationary phases instead of alkylamine-bonded silica or other polar stationary phases. The number of alkyl residues bonded to the nitrogen atom was also an important factor of the separation."
+                    },
+                    "publisher": {
+                        "en": "JAPAN SOC ANALYTICAL CHEMISTRY"
+                    },
+                    "publication_date": "2006-05",
+                    "publication_name": {
+                        "en": "ANALYTICAL SCIENCES"
+                    },
+                    "volume": "22",
+                    "number": "5",
+                    "starting_page": "785",
+                    "ending_page": "788",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "cinii_na_id": [
+                            "10017497982"
+                        ],
+                        "doi": [
+                            "10.2116/analsci.22.785"
+                        ],
+                        "issn": [
+                            "0910-6340"
+                        ],
+                        "wos_id": [
+                            "WOS:000237756100025"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/10017497982",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.2116/analsci.22.785",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000237756100025&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0001571/research_projects",
+            "@type": "research_projects",
+            "@reverse": "https://api.researchmap.jp/read0001571",
+            "total_items": 2,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0001571/research_projects/44557742",
+                    "@type": "research_projects",
+                    "@reverse": "https://api.researchmap.jp/read0001571/research_projects",
+                    "rm:id": "44557742",
+                    "rm:user_id": "0000010797",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2024-01-30T04:44:40Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2024-01-30T04:44:40Z",
+                    "research_project_title": {
+                        "ja": "分子特異的元素を指標としたタンパク質・核酸の高感度分析法の開発",
+                        "en": "Development of sensitive analytical method for protein and nucleic acid using natural elemental tags"
+                    },
+                    "investigators": {
+                        "ja": [
+                            {
+                                "name": "高津 章子"
+                            },
+                            {
+                                "name": "稲垣 和三"
+                            },
+                            {
+                                "name": "藤井 紳一郎"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "TAKATSU Akiko"
+                            },
+                            {
+                                "name": "INAGAKI Kazumi"
+                            },
+                            {
+                                "name": "FUJII Shin-ichiro"
+                            }
+                        ]
+                    },
+                    "offer_organization": {
+                        "ja": "日本学術振興会",
+                        "en": "Japan Society for the Promotion of Science"
+                    },
+                    "system_name": {
+                        "ja": "科学研究費助成事業",
+                        "en": "Grants-in-Aid for Scientific Research"
+                    },
+                    "category": {
+                        "ja": "基盤研究(C)",
+                        "en": "Grant-in-Aid for Scientific Research (C)"
+                    },
+                    "institution_name": {
+                        "ja": "独立行政法人産業技術総合研究所",
+                        "en": "National Institute of Advanced Industrial Science and Technology"
+                    },
+                    "from_date": "2009",
+                    "to_date": "2011",
+                    "overall_grant_amount": {
+                        "total_cost": "4940000",
+                        "direct_cost": "3800000",
+                        "indirect_cost": "1140000"
+                    },
+                    "description": {
+                        "ja": "元素選択的な検出が出来る誘導結合プラズマ(ICP)質量分析装置に低流速で試料を効率よく導入するためのインターフェースを開発し、キャピラリー液体クロマトグラフィー(LC)やキャピラリー電気泳動(CE)とICP質量分析装置を直接接続することを可能にした。この分析システムを用いて、核酸分子を分子種ごとに分離し、リンを検出することで、高感度かつ選択的に検出できることを確認し、生体分子のスクリーニング法としての応用の可能性を明らかにした。",
+                        "en": "A high performance interface device was developed for sample introduction to inductively coupled plasma mass spectrometer(ICP-MS) at low flow rate. Using this interface device, hyphenation of capillary liquid chromatography(LC) or capillary electrophoresis with ICP-MS was achieved. DNA molecules separated with CE or capillary LC were sensitively and selectively detected with ICP-MS in quantification of phosphorus as an elemental tag. We have concluded that this system can provide a fast screening method for various bio-molecules in biological samples."
+                    },
+                    "identifiers": {
+                        "grant_number": [
+                            "21550094"
+                        ],
+                        "national_grant_number": [
+                            "JP21550094"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "kaken",
+                            "@id": "https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-21550094"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0001571/research_projects/285781",
+                    "@type": "research_projects",
+                    "@reverse": "https://api.researchmap.jp/read0001571/research_projects",
+                    "rm:id": "285781",
+                    "rm:user_id": "0000010797",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000010797",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2011-02-02T15:00:00Z",
+                    "rm:modifier_id": "0000010797",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2011-02-02T15:00:00Z",
+                    "research_project_title": {
+                        "ja": "環境分析用組成標準物質"
+                    },
+                    "overall_grant_amount": {
+                        "indirect_cost": "0",
+                        "total_cost": "0",
+                        "direct_cost": "0"
+                    },
+                    "fund_type": "competitive_research_funding"
+                }
+            ]
+        }
+    ]
+}

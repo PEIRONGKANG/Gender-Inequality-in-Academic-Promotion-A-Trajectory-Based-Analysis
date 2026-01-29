@@ -1,0 +1,1837 @@
+{
+    "@context": "https://api.researchmap.jp/researcher.jsonld",
+    "@id": "https://api.researchmap.jp/read0010280?format=json",
+    "@type": "researchers",
+    "rm:user_id": "1000021019",
+    "rm:creator_id": "1000021019",
+    "rm:creator_type": "myself",
+    "rm:created": "2005-01-16T15:00:00Z",
+    "rm:modifier_id": "1000021019",
+    "rm:modifier_type": "myself",
+    "rm:modified": "2022-09-24T00:54:13Z",
+    "permalink": "read0010280",
+    "family_name": {
+        "ja": "澤",
+        "ja-Kana": "サワ",
+        "en": "Sawa"
+    },
+    "given_name": {
+        "ja": "俊行",
+        "ja-Kana": "トシユキ",
+        "en": "Toshiyuki"
+    },
+    "display_name_kana": "disclosed",
+    "display_nickname": "disclosed",
+    "display_image": "disclosed",
+    "display_contact_point": "disclosed",
+    "affiliations": [
+        {
+            "affiliation": {
+                "ja": "広島大学",
+                "en": "Hiroshima University"
+            },
+            "section": {
+                "ja": "大学院工学研究科 機械システム工学専攻 大学院工学研究科 機械システム工学専攻",
+                "en": "Graduate School of Engineering, Mechanical System Engineering, Graduate School of Engineering Mechanical System Engineering"
+            },
+            "job": {
+                "ja": "教授",
+                "en": "Professor"
+            },
+            "display_affiliation": "disclosed",
+            "display_job": "disclosed",
+            "rm:institution_code": "0336049001"
+        }
+    ],
+    "degrees": [
+        {
+            "degree": {
+                "ja": "工学博士",
+                "en": "Ph.D"
+            },
+            "degree_institution": {
+                "ja": "東京工業大学",
+                "en": "Tokyo Institute of Technology"
+            },
+            "display_degree": "disclosed",
+            "rm:institution_code": "0192000000"
+        }
+    ],
+    "display_profile": "disclosed",
+    "display_url": "disclosed",
+    "identifiers": {
+        "j_global_id": [
+            "200901015541014026"
+        ]
+    },
+    "rm:erad_id_verified": false,
+    "rm:orc_id_verified": false,
+    "display_erad_id": "closed",
+    "display_orc_id": "closed",
+    "display_researcher_id": "disclosed",
+    "display_j_global_id": "disclosed",
+    "see_also": [
+        {
+            "label": "j_global",
+            "@id": "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=200901015541014026"
+        }
+    ],
+    "@graph": [
+        {
+            "@id": "https://api.researchmap.jp/read0010280/research_interests",
+            "@type": "research_interests",
+            "@reverse": "https://api.researchmap.jp/read0010280",
+            "total_items": 2,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0010280/research_interests/1202749",
+                    "@type": "research_interests",
+                    "@reverse": "https://api.researchmap.jp/read0010280/research_interests",
+                    "rm:id": "1202749",
+                    "rm:user_id": "1000021019",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000021019",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2005-01-16T15:00:00Z",
+                    "rm:modifier_id": "1000021019",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2005-01-16T15:00:00Z",
+                    "keyword": {
+                        "ja": "機械工学一般"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010280/research_interests/1202748",
+                    "@type": "research_interests",
+                    "@reverse": "https://api.researchmap.jp/read0010280/research_interests",
+                    "rm:id": "1202748",
+                    "rm:user_id": "1000021019",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000021019",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2005-01-16T15:00:00Z",
+                    "rm:modifier_id": "1000021019",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2005-01-16T15:00:00Z",
+                    "keyword": {
+                        "en": "Mechanical engineering in general"
+                    }
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0010280/research_areas",
+            "@type": "research_areas",
+            "@reverse": "https://api.researchmap.jp/read0010280",
+            "total_items": 1,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0010280/research_areas/667732",
+                    "@type": "research_areas",
+                    "@reverse": "https://api.researchmap.jp/read0010280/research_areas",
+                    "rm:id": "667732",
+                    "rm:user_id": "1000021019",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000021019",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2005-01-16T15:00:00Z",
+                    "rm:modifier_id": "1000021019",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2005-01-16T15:00:00Z",
+                    "discipline_number": "A689",
+                    "item_number": "A18010",
+                    "discipline": {
+                        "ja": "ものづくり技術（機械・電気電子・化学工学）",
+                        "en": "Manufacturing technology (mechanical, electrical/electronic, chemical engineering)"
+                    },
+                    "research_field": {
+                        "ja": "材料力学、機械材料",
+                        "en": "Machine materials and mechanics"
+                    }
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0010280/education",
+            "@type": "education",
+            "@reverse": "https://api.researchmap.jp/read0010280",
+            "total_items": 2,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0010280/education/1552307",
+                    "@type": "education",
+                    "@reverse": "https://api.researchmap.jp/read0010280/education",
+                    "rm:id": "1552307",
+                    "rm:user_id": "1000021019",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000021019",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2005-01-16T15:00:00Z",
+                    "rm:modifier_id": "1000021019",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2005-01-16T15:00:00Z",
+                    "to_date": "1976",
+                    "rm:institution_code": "0192050000",
+                    "affiliation": {
+                        "ja": "東京工業大学",
+                        "en": "Tokyo Institute of Technology"
+                    },
+                    "department": {
+                        "ja": "理工学研究科",
+                        "en": "Science of Engineering"
+                    },
+                    "course": {
+                        "ja": "機械物理工学"
+                    },
+                    "address_country": "JPN"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010280/education/1552306",
+                    "@type": "education",
+                    "@reverse": "https://api.researchmap.jp/read0010280/education",
+                    "rm:id": "1552306",
+                    "rm:user_id": "1000021019",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000021019",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2005-01-16T15:00:00Z",
+                    "rm:modifier_id": "1000021019",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2005-01-16T15:00:00Z",
+                    "to_date": "1976",
+                    "rm:institution_code": "0192000000",
+                    "affiliation": {
+                        "ja": "東京工業大学",
+                        "en": "Tokyo Institute of Technology"
+                    },
+                    "department": {
+                        "en": "Graduate School, Division of Science and Engineering"
+                    },
+                    "course": {
+                        "en": "mechanical and physical engineering"
+                    }
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0010280/committee_memberships",
+            "@type": "committee_memberships",
+            "@reverse": "https://api.researchmap.jp/read0010280",
+            "total_items": 7,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0010280/committee_memberships/306714",
+                    "@type": "committee_memberships",
+                    "@reverse": "https://api.researchmap.jp/read0010280/committee_memberships",
+                    "rm:id": "306714",
+                    "rm:user_id": "1000021019",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000021019",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2005-01-16T15:00:00Z",
+                    "rm:modifier_id": "1000021019",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2005-01-16T15:00:00Z",
+                    "from_date": "1998",
+                    "committee_name": {
+                        "ja": "材料力学部門運営委員会第6技術委員会委員長"
+                    },
+                    "association": {
+                        "ja": "日本機械学会"
+                    },
+                    "description": {
+                        "ja": "日本機械学会"
+                    },
+                    "committee_type": "society"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010280/committee_memberships/306716",
+                    "@type": "committee_memberships",
+                    "@reverse": "https://api.researchmap.jp/read0010280/committee_memberships",
+                    "rm:id": "306716",
+                    "rm:user_id": "1000021019",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000021019",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2005-01-16T15:00:00Z",
+                    "rm:modifier_id": "1000021019",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2005-01-16T15:00:00Z",
+                    "from_date": "1997",
+                    "committee_name": {
+                        "ja": "シーリングテクノロジ-委員会委員長"
+                    },
+                    "association": {
+                        "ja": "日本高圧力技術協会"
+                    },
+                    "description": {
+                        "ja": "日本高圧力技術協会"
+                    },
+                    "committee_type": "society"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010280/committee_memberships/306717",
+                    "@type": "committee_memberships",
+                    "@reverse": "https://api.researchmap.jp/read0010280/committee_memberships",
+                    "rm:id": "306717",
+                    "rm:user_id": "1000021019",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000021019",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2005-01-16T15:00:00Z",
+                    "rm:modifier_id": "1000021019",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2005-01-16T15:00:00Z",
+                    "from_date": "1995",
+                    "committee_name": {
+                        "ja": "評議員"
+                    },
+                    "association": {
+                        "ja": "日本接着学会"
+                    },
+                    "description": {
+                        "ja": "日本接着学会"
+                    },
+                    "committee_type": "society"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010280/committee_memberships/306713",
+                    "@type": "committee_memberships",
+                    "@reverse": "https://api.researchmap.jp/read0010280/committee_memberships",
+                    "rm:id": "306713",
+                    "rm:user_id": "1000021019",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000021019",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2005-01-16T15:00:00Z",
+                    "rm:modifier_id": "1000021019",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2005-01-16T15:00:00Z",
+                    "from_date": "1995",
+                    "committee_name": {
+                        "ja": "ISO/TC5/SC10国内委員会委員長"
+                    },
+                    "association": {
+                        "ja": "日本機械学会"
+                    },
+                    "description": {
+                        "ja": "日本機械学会"
+                    },
+                    "committee_type": "society"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010280/committee_memberships/306712",
+                    "@type": "committee_memberships",
+                    "@reverse": "https://api.researchmap.jp/read0010280/committee_memberships",
+                    "rm:id": "306712",
+                    "rm:user_id": "1000021019",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000021019",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2005-01-16T15:00:00Z",
+                    "rm:modifier_id": "1000021019",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2005-01-16T15:00:00Z",
+                    "from_date": "1994",
+                    "committee_name": {
+                        "ja": "JIS管フランジ原案作成委員会委員長"
+                    },
+                    "association": {
+                        "ja": "日本機械学会"
+                    },
+                    "description": {
+                        "ja": "日本機械学会"
+                    },
+                    "committee_type": "society"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010280/committee_memberships/306715",
+                    "@type": "committee_memberships",
+                    "@reverse": "https://api.researchmap.jp/read0010280/committee_memberships",
+                    "rm:id": "306715",
+                    "rm:user_id": "1000021019",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000021019",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2005-01-16T15:00:00Z",
+                    "rm:modifier_id": "1000021019",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2005-01-16T15:00:00Z",
+                    "from_date": "1988",
+                    "committee_name": {
+                        "ja": "PVP divison,Committee of Operation,application and components"
+                    },
+                    "association": {
+                        "ja": "American Society for Mechanical Engineers"
+                    },
+                    "description": {
+                        "ja": "American Society for Mechanical Engineers"
+                    },
+                    "committee_type": "society"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010280/committee_memberships/306711",
+                    "@type": "committee_memberships",
+                    "@reverse": "https://api.researchmap.jp/read0010280/committee_memberships",
+                    "rm:id": "306711",
+                    "rm:user_id": "1000021019",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000021019",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2005-01-16T15:00:00Z",
+                    "rm:modifier_id": "1000021019",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2005-01-16T15:00:00Z",
+                    "from_date": "1988",
+                    "committee_name": {
+                        "en": "PVP divison,Committee of Operation,application and components"
+                    },
+                    "association": {
+                        "en": "American Society for Mechanical Engineers"
+                    },
+                    "description": {
+                        "en": "American Society for Mechanical Engineers"
+                    },
+                    "committee_type": "society"
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0010280/misc",
+            "@type": "misc",
+            "@reverse": "https://api.researchmap.jp/read0010280",
+            "total_items": 14,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0010280/misc/8672717",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0010280/misc",
+                    "rm:id": "8672717",
+                    "rm:user_id": "1000021019",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000021019",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2005-01-16T15:00:00Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-09-24T00:54:13Z",
+                    "paper_title": {
+                        "ja": "複数の負荷作用が超高圧水銀放電灯封止部の破壊に及ぼす影響",
+                        "en": "Influence of Plural Loads on Rupture of the Sealed Parts in Super High Pressure Mercury Discharge Lamps"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Kase Masahiko"
+                            },
+                            {
+                                "name": "Sawa Toshiyuki"
+                            }
+                        ],
+                        "ja": [
+                            {
+                                "name": "加瀬 征彦"
+                            },
+                            {
+                                "name": "沢 俊行"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "ja": "Super high-pressure mercury discharge lamps have been used as the light source for photolithography exposure process. In general, they are used in manufacturing Liquid crystal displays (LCDs), Printed circuit boards (PCBs), semiconductors and other devices. Their working internal pressure is well known to be normally more than 1.0 MPa, and their temperature at the bulb outer is more than 500℃. Therefore, they are required to be secured for rupture, because they are subjected to internal pressure, thermal loadings, and so on in their services. Furthermore, rupture may occur from the sealed parts in the lamps under the loadings mentioned above. Thus, the mechanical characteristics of the sealed parts need to be examined. The objectives of the paper were to examine the safety for rupture from their sealed parts of the working lamps under internal pressure and thermal loadings by the experiments and FEM stress calculations. Rupture tests of lamps were carried out under repeated static water pressure. In addition, experiments were done under thermal loadings. The following results were obtained, l) It was found that the effect of repeated loadings such as internal pressure and thermal loadings were substantial on the strength of the sealed parts in the lamps. 2) Fractures of the sealed parts were observed to be initiated from the interfaces where silica glass and molybdenum foil were joined. 3) From the FEM stress calculations, it was found that the strength of sealed parts was greater in operation than at room temperature. 4) Finally, the authors proposed the limited desirable pressure and temperature for safety design of lamps.",
+                        "en": "Super high-pressure mercury discharge lamps have been used as the light source for photolithography exposure process. In general, they are used in manufacturing Liquid crystal displays (LCDs), Printed circuit boards (PCBs), semiconductors and other devices. Their working internal pressure is well known to be normally more than 1.0 MPa, and their temperature at the bulb outer is more than 500℃. Therefore, they are required to be secured for rupture, because they are subjected to internal pressure, thermal loadings, and so on in their services. Furthermore, rupture may occur from the sealed parts in the lamps under the loadings mentioned above. Thus, the mechanical characteristics of the sealed parts need to be examined. The objectives of the paper were to examine the safety for rupture from their sealed parts of the working lamps under internal pressure and thermal loadings by the experiments and FEM stress calculations. Rupture tests of lamps were carried out under repeated static water pressure. In addition, experiments were done under thermal loadings. The following results were obtained, l) It was found that the effect of repeated loadings such as internal pressure and thermal loadings were substantial on the strength of the sealed parts in the lamps. 2) Fractures of the sealed parts were observed to be initiated from the interfaces where silica glass and molybdenum foil were joined. 3) From the FEM stress calculations, it was found that the strength of sealed parts was greater in operation than at room temperature. 4) Finally, the authors proposed the limited desirable pressure and temperature for safety design of lamps."
+                    },
+                    "publisher": {
+                        "ja": "一般社団法人照明学会",
+                        "en": "The Illuminating Engineering Institute of Japan (IEIJ)"
+                    },
+                    "publication_date": "2004",
+                    "publication_name": {
+                        "ja": "照明学会誌",
+                        "en": "Journal of the Illuminating Engineering Institute of Japan"
+                    },
+                    "volume": "88",
+                    "number": "11",
+                    "starting_page": "853",
+                    "ending_page": "865",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "0019-2341",
+                            "1349-838X",
+                            "2185-1506"
+                        ],
+                        "cinii_na_id": [
+                            "10013394121"
+                        ],
+                        "cinii_nc_id": [
+                            "AN00268860"
+                        ],
+                        "doi": [
+                            "10.2150/jieij.88.853"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/10013394121",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_books",
+                            "@id": "http://ci.nii.ac.jp/ncid/AN00268860",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.2150/jieij.88.853",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "http://id.ndl.go.jp/bib/7136480",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010280/misc/8672716",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0010280/misc",
+                    "rm:id": "8672716",
+                    "rm:user_id": "1000021019",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000021019",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2005-01-16T15:00:00Z",
+                    "rm:modifier_id": "B000000004",
+                    "rm:modifier_type": "system",
+                    "rm:modified": "2005-01-16T15:00:00Z",
+                    "paper_title": {
+                        "ja": "フランジ締付け指針の開発"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "辻裕一"
+                            },
+                            {
+                                "name": "高木知弘"
+                            },
+                            {
+                                "name": "沢俊行"
+                            }
+                        ]
+                    },
+                    "publication_date": "2004",
+                    "publication_name": {
+                        "ja": "圧力技術"
+                    },
+                    "volume": "42",
+                    "number": "6",
+                    "starting_page": "337",
+                    "ending_page": "346",
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.11181/hpi.42.337"
+                        ],
+                        "issn": [
+                            "0387-0154",
+                            "1347-9598"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.11181/hpi.42.337",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010280/misc/8672715",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0010280/misc",
+                    "rm:id": "8672715",
+                    "rm:user_id": "1000021019",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000021019",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2005-01-16T15:00:00Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-09-06T21:49:12Z",
+                    "paper_title": {
+                        "ja": "内圧作用下でのガスケット付管フランジ締結体の応力解析と密封性能評価（ボルト初期締付け力のばらつきの影響）",
+                        "en": "Stress Analysis and Sealing Performance Evaluation of Pipe Flange Connections under Internal Pressure : Effects of Scatter in Bolt Preloads"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "NAGATA Satoshi"
+                            },
+                            {
+                                "name": "MATSUMOTO Mitsuhiro"
+                            },
+                            {
+                                "name": "SAWA Toshiyuki"
+                            }
+                        ],
+                        "ja": [
+                            {
+                                "name": "永田 聡"
+                            },
+                            {
+                                "name": "松本 光広"
+                            },
+                            {
+                                "name": "沢 俊行"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "ja": "The effects of scatter in bolt preloads of pipe flange connections with gaskets subjected to internal pressure are examined. The scatter in the bolt preloads tightened by a torque wrench was measured in the experiments. The contact gasket stress distributions at the interfaces of the pipe flange connections with the gaskets were calculated under the measured bolt preloads using elastoplastic finite element method (FEM) taking into account hysteresis and non-linearity in the stress-strain curves of the gaskets. The effects of the scatter in the bolt preloads on the gas leakage were also exmained using actual pipe flange connections. As the result a difference in an amount of measured gas leakage was found to be substantial between our study and PVRC (ASME) procedure. By using the calculated contact gasket stress distributions in the connections under the internal pressure and the results of the leakage tests, the sealing performance was evaluated. The effect of the scatter in the bolt preloads is found to be substantial on the leakage. It is found that the sealing performance is worse in the actual pipe flange connection than that evaluated by PVRC procedure. The tightening efficiency was proposed taking account the leakage due to the scatter in bolt preloads.",
+                        "en": "The effects of scatter in bolt preloads of pipe flange connections with gaskets subjected to internal pressure are examined. The scatter in the bolt preloads tightened by a torque wrench was measured in the experiments. The contact gasket stress distributions at the interfaces of the pipe flange connections with the gaskets were calculated under the measured bolt preloads using elastoplastic finite element method (FEM) taking into account hysteresis and non-linearity in the stress-strain curves of the gaskets. The effects of the scatter in the bolt preloads on the gas leakage were also exmained using actual pipe flange connections. As the result a difference in an amount of measured gas leakage was found to be substantial between our study and PVRC (ASME) procedure. By using the calculated contact gasket stress distributions in the connections under the internal pressure and the results of the leakage tests, the sealing performance was evaluated. The effect of the scatter in the bolt preloads is found to be substantial on the leakage. It is found that the sealing performance is worse in the actual pipe flange connection than that evaluated by PVRC procedure. The tightening efficiency was proposed taking account the leakage due to the scatter in bolt preloads."
+                    },
+                    "publisher": {
+                        "ja": "一般社団法人日本機械学会",
+                        "en": "The Japan Society of Mechanical Engineers"
+                    },
+                    "publication_date": "2004",
+                    "publication_name": {
+                        "ja": "日本機械学会論文集",
+                        "en": "Transactions of the Japan Society of Mechanical Engineers Series B"
+                    },
+                    "volume": "70",
+                    "number": "699",
+                    "starting_page": "1595",
+                    "ending_page": "1602",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1299/kikaia.70.1595"
+                        ],
+                        "issn": [
+                            "0387-5008",
+                            "1884-8338"
+                        ],
+                        "cinii_na_id": [
+                            "110004998873"
+                        ],
+                        "cinii_nc_id": [
+                            "AN0018742X"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1299/kikaia.70.1595",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/110004998873",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_books",
+                            "@id": "http://ci.nii.ac.jp/ncid/AN0018742X",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "http://id.ndl.go.jp/bib/7166109",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "https://jlc.jst.go.jp/DN/JALC/00245234208?from=CiNii",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010280/misc/8672714",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0010280/misc",
+                    "rm:id": "8672714",
+                    "rm:user_id": "1000021019",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000021019",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2005-01-16T15:00:00Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-08-19T10:15:04Z",
+                    "paper_title": {
+                        "ja": "熱負荷を受ける超高圧水銀放電灯バルブ部の応力解析",
+                        "en": "Stress Analysis of Super High-pressure Mercury Discharge Lamp Bulbs under Thermal Loads"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "KASE Masahiko"
+                            },
+                            {
+                                "name": "IWAMA Yuichiro"
+                            },
+                            {
+                                "name": "SAWA Toshiyuki"
+                            }
+                        ],
+                        "ja": [
+                            {
+                                "name": "加瀬征彦"
+                            },
+                            {
+                                "name": "岩間裕一朗"
+                            },
+                            {
+                                "name": "沢俊行"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "ja": "Super high-pressure mercury discharge lamps have been used as a light source in photolithography. They are applied to manufacturing semiconductors, liquid crystal displays (LCD), printed circuit boards (PCB) and so on. It is well known that their working internal pressure is more than 1.OMPa and their temperature at bulb outer surface is more than 500℃. Therefore, it is essential to be examined whether their safety designs for fracture of the bulbs are enough or not. Because the bulb shapes have been designed empirically, research has yet been carried out on the optimal design of the lamps for preventing the bulb fracture, by using scientific methods such as the theory of elasticity, finite element method and so on. In this study, the Finite Element Method (FEM) is applied to obtain the thermal stress of bulbs in operation, and the effects of the thermal stress on the bulb fracture is examined by comparing the obtained thermal stress with the critical stress of silica glass. As the result, we found that the obtained thermal stress of the bulb was much smaller than the stress, which was occurred under internal pressure at room temperature. In addition, it was observed that the thermal stress distributions in the lamps were varied by due to the restricted condition at the bulb ends. Thus, it can be concluded that designers for bulbs should pay a lot of attention how to fix the bulbs, because the stress in the bulbs increases by the restricted conditions and ruptures of the bulbs may occur due to the stress concentration.",
+                        "en": "Super high-pressure mercury discharge lamps have been used as a light source in photolithography. They are applied to manufacturing semiconductors, liquid crystal displays (LCD), printed circuit boards (PCB) and so on. It is well known that their working internal pressure is more than 1.OMPa and their temperature at bulb outer surface is more than 500℃. Therefore, it is essential to be examined whether their safety designs for fracture of the bulbs are enough or not. Because the bulb shapes have been designed empirically, research has yet been carried out on the optimal design of the lamps for preventing the bulb fracture, by using scientific methods such as the theory of elasticity, finite element method and so on. In this study, the Finite Element Method (FEM) is applied to obtain the thermal stress of bulbs in operation, and the effects of the thermal stress on the bulb fracture is examined by comparing the obtained thermal stress with the critical stress of silica glass. As the result, we found that the obtained thermal stress of the bulb was much smaller than the stress, which was occurred under internal pressure at room temperature. In addition, it was observed that the thermal stress distributions in the lamps were varied by due to the restricted condition at the bulb ends. Thus, it can be concluded that designers for bulbs should pay a lot of attention how to fix the bulbs, because the stress in the bulbs increases by the restricted conditions and ruptures of the bulbs may occur due to the stress concentration."
+                    },
+                    "publisher": {
+                        "ja": "一般社団法人照明学会",
+                        "en": "The Illuminating Engineering Institute of Japan (IEIJ)"
+                    },
+                    "publication_date": "2004",
+                    "publication_name": {
+                        "ja": "照明学会誌",
+                        "en": "Journal of the Illuminating Engineering Institute of Japan"
+                    },
+                    "volume": "88",
+                    "number": "5",
+                    "starting_page": "261",
+                    "ending_page": "273",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "0019-2341",
+                            "1349-838X",
+                            "2185-1506"
+                        ],
+                        "cinii_na_id": [
+                            "110001146435"
+                        ],
+                        "cinii_nc_id": [
+                            "AN00268860"
+                        ],
+                        "doi": [
+                            "10.2150/jieij.88.261"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/110001146435",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_books",
+                            "@id": "http://ci.nii.ac.jp/ncid/AN00268860",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.2150/jieij.88.261",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "http://id.ndl.go.jp/bib/6938766",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010280/misc/8672713",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0010280/misc",
+                    "rm:id": "8672713",
+                    "rm:user_id": "1000021019",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000021019",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2005-01-16T15:00:00Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-08-19T10:15:00Z",
+                    "paper_title": {
+                        "ja": "超高圧水銀放電灯導電箔封止部の耐内圧特性",
+                        "en": "The Characteristics of the Sealed Parts in Super High Pressure Mercury Discharge Lamps"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "KASE Masahiko"
+                            },
+                            {
+                                "name": "IWAMA Yuichiro"
+                            },
+                            {
+                                "name": "SAWA Toshiyuki"
+                            }
+                        ],
+                        "ja": [
+                            {
+                                "name": "加瀬征彦"
+                            },
+                            {
+                                "name": "岩間裕一朗"
+                            },
+                            {
+                                "name": "沢俊行"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "ja": "Super high pressure mercury discharge lamps have been used under conditions of more than 1MPa of internal pressure. They are usually used in exposure processes, such as PCBs patterning, as well as in LCDs and semiconductors. In addition, they must be secured for rupture, because of extreme internal pressure, thermal loads and so on, required by their use. Furthermore, ruptures may occur from the sealed parts in the lamps. Thus, it is necessary to examine the mechanical characteristics of the sealed parts. The objectives of this paper are to examine the sealed parts of the lamps to withstand under internal pressure experimental conditions and to calculate the stress distribution to predict the rupture potential using finite element calculations. We also conducted rupture tests of the lamps under static water pressure conditions. The lamps' stress distributions were observed in the rupture tests by using photoelasticity. As a result, we found the relationship between the shape of sealed parts and their rupture pressure. Ruptures were occurd where the boundaries of the sealed parts were joined by the silica glass and molybdenum foil were joined. We found that the rupture direction agreed with those obtained by FEM. Finally, it is impotant to note the relationship between the shapes of the sealed parts and their resistance to rupture while under internal pressure is important factor in developing an optimum design for the lamps.",
+                        "en": "Super high pressure mercury discharge lamps have been used under conditions of more than 1MPa of internal pressure. They are usually used in exposure processes, such as PCBs patterning, as well as in LCDs and semiconductors. In addition, they must be secured for rupture, because of extreme internal pressure, thermal loads and so on, required by their use. Furthermore, ruptures may occur from the sealed parts in the lamps. Thus, it is necessary to examine the mechanical characteristics of the sealed parts. The objectives of this paper are to examine the sealed parts of the lamps to withstand under internal pressure experimental conditions and to calculate the stress distribution to predict the rupture potential using finite element calculations. We also conducted rupture tests of the lamps under static water pressure conditions. The lamps' stress distributions were observed in the rupture tests by using photoelasticity. As a result, we found the relationship between the shape of sealed parts and their rupture pressure. Ruptures were occurd where the boundaries of the sealed parts were joined by the silica glass and molybdenum foil were joined. We found that the rupture direction agreed with those obtained by FEM. Finally, it is impotant to note the relationship between the shapes of the sealed parts and their resistance to rupture while under internal pressure is important factor in developing an optimum design for the lamps."
+                    },
+                    "publisher": {
+                        "ja": "一般社団法人照明学会",
+                        "en": "The Illuminating Engineering Institute of Japan (IEIJ)"
+                    },
+                    "publication_date": "2004",
+                    "publication_name": {
+                        "ja": "照明学会誌",
+                        "en": "Journal of the Illuminating Engineering Institute of Japan"
+                    },
+                    "volume": "88",
+                    "number": "5",
+                    "starting_page": "247",
+                    "ending_page": "260",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "0019-2341",
+                            "1349-838X",
+                            "2185-1506"
+                        ],
+                        "cinii_na_id": [
+                            "110001146434"
+                        ],
+                        "cinii_nc_id": [
+                            "AN00268860"
+                        ],
+                        "doi": [
+                            "10.2150/jieij.88.247"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/110001146434",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_books",
+                            "@id": "http://ci.nii.ac.jp/ncid/AN00268860",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.2150/jieij.88.247",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "http://id.ndl.go.jp/bib/6938741",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010280/misc/8672722",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0010280/misc",
+                    "rm:id": "8672722",
+                    "rm:user_id": "1000021019",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000021019",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2005-01-16T15:00:00Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-04-28T17:52:12Z",
+                    "paper_title": {
+                        "en": "Three-dimensional finite element stress analysis of single-lap adhesive joints of dissimilar adherends subjected to impact tensile loads"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "T Sawa"
+                            },
+                            {
+                                "name": "Higuchi, I"
+                            },
+                            {
+                                "name": "H Suga"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "The stress-wave propagations and stress distributions in single-lap joints of dissimilar adherends were analyzed using an elastic three-dimensional finite-element method (DYNA3D). An impact tensile load was applied to the single-lap adhesive joint by dropping a weight. One end of the upper adherend in the single-lap adhesive joint was fixed and the other adherend (lower adherend) which was connected to a bar was impacted by the weight. The effects of Young's modulus and the thickness of each adherend on the stress wave propagations and stress distributions at the interfaces were examined. It was found that the maximum value of the maximum principal stress occurred near the edge of the interface of the fixed adherend. The maximum principal stress increased as Young's modulus of the fixed adherend increased. It was also observed that the maximum principal stress increased as the fixed adherend thickness decreased. In addition, strain responses in the single-lap adhesive joints of dissimilar adherends subjected to impact tensile loads were measured using strain gauges. Fairly good agreements were found between the FEM calculations and the experimental measurements."
+                    },
+                    "publisher": {
+                        "en": "VSP BV"
+                    },
+                    "publication_date": "2003",
+                    "publication_name": {
+                        "en": "JOURNAL OF ADHESION SCIENCE AND TECHNOLOGY"
+                    },
+                    "volume": "17",
+                    "number": "16",
+                    "starting_page": "2157",
+                    "ending_page": "2174",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "cinii_na_id": [
+                            "80016442342"
+                        ],
+                        "doi": [
+                            "10.1163/156856103772150760"
+                        ],
+                        "issn": [
+                            "0169-4243"
+                        ],
+                        "wos_id": [
+                            "WOS:000189264500004"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/80016442342",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1163/156856103772150760",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000189264500004&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010280/misc/8672721",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0010280/misc",
+                    "rm:id": "8672721",
+                    "rm:user_id": "1000021019",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000021019",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2005-01-16T15:00:00Z",
+                    "rm:modifier_id": "1000021019",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2005-01-16T15:00:00Z",
+                    "paper_title": {
+                        "ja": "有限要素法による超高圧水銀放電灯バルブの耐内圧特性解析"
+                    },
+                    "publication_date": "2003",
+                    "publication_name": {
+                        "ja": "照明学会誌"
+                    },
+                    "volume": "87",
+                    "number": "8A",
+                    "starting_page": "576",
+                    "ending_page": "583",
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010280/misc/8672720",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0010280/misc",
+                    "rm:id": "8672720",
+                    "rm:user_id": "1000021019",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000021019",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2005-01-16T15:00:00Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-04-30T06:37:54Z",
+                    "paper_title": {
+                        "en": "Stress analysis and strength estimation of butt adhesive joints of dissimilar hollow cylinders under impact tensile loadings"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "T Sawa"
+                            },
+                            {
+                                "name": "Y Suzuki"
+                            },
+                            {
+                                "name": "S Kido"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "The stress variations in butt adhesive joints of dissimilar hollow cylinders subjected to impact tensile loadings are analyzed in elastic and elasto-plastic deformation ranges using a finite element method (FEM). The FEM code name employed is DYNA3D. The effects of Young's modulus ratio between dissimilar adherends and the adhesive thickness on the stress variations at the interfaces are examined. In addition, the process of rupture at the interfaces of the joint is simulated. The stress distributions in the joints under static loadings are also analyzed by FEM. The characteristics of the stress variations in the joints under impact loadings are compared with those in the joints under static loadings. Also, the joint strengths under impact loadings are estimated by elasto-plastic FEM. It is found that the maximum value of the maximum principal stress sigma(1) occurs at the outside edge of the lower interface. It is also found that the maximum principal stress sigma(1) at the lower interface decreases as the adhesive thickness increases. The characteristics of the joints under impact loadings are found to be opposite to those under static loadings. Furthermore, differences in the characteristics of the stress variations are shown between the dissimilar joints and the similar joints. In addition, the experiments were carried out to measure the strain response and strains in the butt adhesive joints under both impact and static loadings using strain gauges. Furthermore, joint strengths under both impact and static loadings were measured. Fairly good agreements are observed between the numerical and the measured results."
+                    },
+                    "publisher": {
+                        "en": "VSP BV"
+                    },
+                    "publication_date": "2003",
+                    "publication_name": {
+                        "en": "JOURNAL OF ADHESION SCIENCE AND TECHNOLOGY"
+                    },
+                    "volume": "17",
+                    "number": "7",
+                    "starting_page": "943",
+                    "ending_page": "965",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "cinii_na_id": [
+                            "80016030021"
+                        ],
+                        "doi": [
+                            "10.1163/156856103322112860"
+                        ],
+                        "issn": [
+                            "0169-4243"
+                        ],
+                        "wos_id": [
+                            "WOS:000184341100003"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/80016030021",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1163/156856103322112860",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000184341100003&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010280/misc/8672719",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0010280/misc",
+                    "rm:id": "8672719",
+                    "rm:user_id": "1000021019",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000021019",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2005-01-16T15:00:00Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-09-03T21:29:24Z",
+                    "paper_title": {
+                        "ja": "内圧を受ける渦巻き型ガスケット付き管フランジ締結体の有限要素法応力解析と特性評価-管呼び径の影響",
+                        "en": "Finite-element Stress Analysis and Characteristic Evaluations of Pipe Flange Connection with Spiral Wound Gasket under Internal Pressure : the effects of the nominal diameters of pipe flanges"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "NAGATA Satoshi"
+                            },
+                            {
+                                "name": "SAWA Toshiyuki"
+                            },
+                            {
+                                "name": "OGATA Naofumi"
+                            },
+                            {
+                                "name": "MATSUMOTO Mitsuhiro"
+                            }
+                        ],
+                        "ja": [
+                            {
+                                "name": "永田聡"
+                            },
+                            {
+                                "name": "沢俊行"
+                            },
+                            {
+                                "name": "尾方尚文"
+                            },
+                            {
+                                "name": "松本光広"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "日本高圧力技術協会"
+                    },
+                    "publication_date": "2003",
+                    "publication_name": {
+                        "ja": "圧力技術",
+                        "en": "Journal of High Pressure Institute of Japan"
+                    },
+                    "volume": "41",
+                    "number": "6",
+                    "starting_page": "292",
+                    "ending_page": "302",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "0387-0154",
+                            "1347-9598"
+                        ],
+                        "cinii_na_id": [
+                            "10012512961"
+                        ],
+                        "cinii_nc_id": [
+                            "AN00011762"
+                        ],
+                        "doi": [
+                            "10.11181/hpi.41.292"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/10012512961",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_books",
+                            "@id": "http://ci.nii.ac.jp/ncid/AN00011762",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.11181/hpi.41.292",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "http://id.ndl.go.jp/bib/6787609",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010280/misc/8672718",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0010280/misc",
+                    "rm:id": "8672718",
+                    "rm:user_id": "1000021019",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000021019",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2005-01-16T15:00:00Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-09-10T00:44:10Z",
+                    "paper_title": {
+                        "ja": "曲げモーメントを受けるガスケット付き管フランジ締結体の有限要素法応力解析と密封性能評価",
+                        "en": "FEM Stress Analysis and Sealing Performance Evaluation in Pipe Flange Connections with Gaskets Subjected to External Bending Moments"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "MATSUMOTO Mitsuhiro"
+                            },
+                            {
+                                "name": "SAWA Toshiyuki"
+                            },
+                            {
+                                "name": "NISHIDA Takahito"
+                            }
+                        ],
+                        "ja": [
+                            {
+                                "name": "松本 光広"
+                            },
+                            {
+                                "name": "沢 俊行"
+                            },
+                            {
+                                "name": "西田 隆仁"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "ja": "The stresses in a pipe flange connection with a gasket subjected to an internal pressure and an external bending moment are analyzed taking account the non-linearity and hysteresis of a spiral wound gasket and a joint sheet gasket by using an elasto-plastic finite element method (FEM). The effects of the internal pressure and the external bending moment on the contact gasket stress distributions are examined. Leakage tests were also conducted using an actual pipe flange connection with a gasket under an external bending moment. As a result, a difference in the new gasket constants is substantial between the PVRC values and the estimated values when the external bending moment is applied to the connection. The hub stress and variation in axial bolt force were also measured. Fairly good agreements are found between the calculated and experimental results. In addition, a method for determining the bolt preload in the pipe flange connection under the external bending moment is demonstrated for a given tightness parameter.",
+                        "en": "The stresses in a pipe flange connection with a gasket subjected to an internal pressure and an external bending moment are analyzed taking account the non-linearity and hysteresis of a spiral wound gasket and a joint sheet gasket by using an elasto-plastic finite element method (FEM). The effects of the internal pressure and the external bending moment on the contact gasket stress distributions are examined. Leakage tests were also conducted using an actual pipe flange connection with a gasket under an external bending moment. As a result, a difference in the new gasket constants is substantial between the PVRC values and the estimated values when the external bending moment is applied to the connection. The hub stress and variation in axial bolt force were also measured. Fairly good agreements are found between the calculated and experimental results. In addition, a method for determining the bolt preload in the pipe flange connection under the external bending moment is demonstrated for a given tightness parameter."
+                    },
+                    "publisher": {
+                        "ja": "一般社団法人日本機械学会",
+                        "en": "The Japan Society of Mechanical Engineers"
+                    },
+                    "publication_date": "2003",
+                    "publication_name": {
+                        "ja": "日本機械学会論文集",
+                        "en": "Transactions of the Japan Society of Mechanical Engineers Series B"
+                    },
+                    "volume": "69",
+                    "number": "681",
+                    "starting_page": "823",
+                    "ending_page": "831",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1299/kikaia.69.823"
+                        ],
+                        "issn": [
+                            "0387-5008",
+                            "1884-8338"
+                        ],
+                        "cinii_na_id": [
+                            "110002370379"
+                        ],
+                        "cinii_nc_id": [
+                            "AN0018742X"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1299/kikaia.69.823",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/110002370379",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_books",
+                            "@id": "http://ci.nii.ac.jp/ncid/AN0018742X",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "http://id.ndl.go.jp/bib/6598244",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "https://jlc.jst.go.jp/DN/JALC/00208632386?from=CiNii",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010280/misc/8672712",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0010280/misc",
+                    "rm:id": "8672712",
+                    "rm:user_id": "1000021019",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000021019",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2005-01-16T15:00:00Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-04-30T06:49:51Z",
+                    "paper_title": {
+                        "en": "Strength and finite element analyses of single-lap joints with adhesively-bonded columns"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "JM Liu"
+                            },
+                            {
+                                "name": "T Sawa"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "This paper introduces a novel approach to increase the loading ability of adhesive joints by incorporating adhesively-bonded columns. Strengths of single-lap adhesive joints with adhesively-bonded columns were measured experimentally. Stress and strain distributions at selective positions in the adhesive layer were analyzed using the Finite Element Method (FEM). Failure mechanisms of the joints were analyzed. It was found that the metal-adhesive columns increased the joint strength and also the joint strength increased with increasing length of the metal-adhesive columns. Therefore, using metal-adhesive columns in adhesive joints is an effective approach for enhancing the strength of bulk adhesive joints."
+                    },
+                    "publisher": {
+                        "en": "VSP BV"
+                    },
+                    "publication_date": "2003",
+                    "publication_name": {
+                        "en": "JOURNAL OF ADHESION SCIENCE AND TECHNOLOGY"
+                    },
+                    "volume": "17",
+                    "number": "13",
+                    "starting_page": "1773",
+                    "ending_page": "1784",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "cinii_na_id": [
+                            "80016351918"
+                        ],
+                        "doi": [
+                            "10.1163/156856103322538679"
+                        ],
+                        "issn": [
+                            "0169-4243"
+                        ],
+                        "wos_id": [
+                            "WOS:000187198200003"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/80016351918",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1163/156856103322538679",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000187198200003&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010280/misc/8672711",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0010280/misc",
+                    "rm:id": "8672711",
+                    "rm:user_id": "1000021019",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000021019",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2005-01-16T15:00:00Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-04-28T17:52:12Z",
+                    "paper_title": {
+                        "en": "Three-dimensional finite element stress analysis of single-lap adhesive joints of dissimilar adherends subjected to impact tensile loads"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "T Sawa"
+                            },
+                            {
+                                "name": "Higuchi, I"
+                            },
+                            {
+                                "name": "H Suga"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "The stress-wave propagations and stress distributions in single-lap joints of dissimilar adherends were analyzed using an elastic three-dimensional finite-element method (DYNA3D). An impact tensile load was applied to the single-lap adhesive joint by dropping a weight. One end of the upper adherend in the single-lap adhesive joint was fixed and the other adherend (lower adherend) which was connected to a bar was impacted by the weight. The effects of Young's modulus and the thickness of each adherend on the stress wave propagations and stress distributions at the interfaces were examined. It was found that the maximum value of the maximum principal stress occurred near the edge of the interface of the fixed adherend. The maximum principal stress increased as Young's modulus of the fixed adherend increased. It was also observed that the maximum principal stress increased as the fixed adherend thickness decreased. In addition, strain responses in the single-lap adhesive joints of dissimilar adherends subjected to impact tensile loads were measured using strain gauges. Fairly good agreements were found between the FEM calculations and the experimental measurements."
+                    },
+                    "publisher": {
+                        "en": "VSP BV"
+                    },
+                    "publication_date": "2003",
+                    "publication_name": {
+                        "en": "JOURNAL OF ADHESION SCIENCE AND TECHNOLOGY"
+                    },
+                    "volume": "17",
+                    "number": "16",
+                    "starting_page": "2157",
+                    "ending_page": "2174",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "cinii_na_id": [
+                            "80016442342"
+                        ],
+                        "doi": [
+                            "10.1163/156856103772150760"
+                        ],
+                        "issn": [
+                            "0169-4243"
+                        ],
+                        "wos_id": [
+                            "WOS:000189264500004"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/80016442342",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1163/156856103772150760",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000189264500004&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010280/misc/8672710",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0010280/misc",
+                    "rm:id": "8672710",
+                    "rm:user_id": "1000021019",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000021019",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2005-01-16T15:00:00Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-04-30T06:37:54Z",
+                    "paper_title": {
+                        "en": "Stress analysis and strength estimation of butt adhesive joints of dissimilar hollow cylinders under impact tensile loadings"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "T Sawa"
+                            },
+                            {
+                                "name": "Y Suzuki"
+                            },
+                            {
+                                "name": "S Kido"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "The stress variations in butt adhesive joints of dissimilar hollow cylinders subjected to impact tensile loadings are analyzed in elastic and elasto-plastic deformation ranges using a finite element method (FEM). The FEM code name employed is DYNA3D. The effects of Young's modulus ratio between dissimilar adherends and the adhesive thickness on the stress variations at the interfaces are examined. In addition, the process of rupture at the interfaces of the joint is simulated. The stress distributions in the joints under static loadings are also analyzed by FEM. The characteristics of the stress variations in the joints under impact loadings are compared with those in the joints under static loadings. Also, the joint strengths under impact loadings are estimated by elasto-plastic FEM. It is found that the maximum value of the maximum principal stress sigma(1) occurs at the outside edge of the lower interface. It is also found that the maximum principal stress sigma(1) at the lower interface decreases as the adhesive thickness increases. The characteristics of the joints under impact loadings are found to be opposite to those under static loadings. Furthermore, differences in the characteristics of the stress variations are shown between the dissimilar joints and the similar joints. In addition, the experiments were carried out to measure the strain response and strains in the butt adhesive joints under both impact and static loadings using strain gauges. Furthermore, joint strengths under both impact and static loadings were measured. Fairly good agreements are observed between the numerical and the measured results."
+                    },
+                    "publisher": {
+                        "en": "VSP BV"
+                    },
+                    "publication_date": "2003",
+                    "publication_name": {
+                        "en": "JOURNAL OF ADHESION SCIENCE AND TECHNOLOGY"
+                    },
+                    "volume": "17",
+                    "number": "7",
+                    "starting_page": "943",
+                    "ending_page": "965",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "cinii_na_id": [
+                            "80016030021"
+                        ],
+                        "doi": [
+                            "10.1163/156856103322112860"
+                        ],
+                        "issn": [
+                            "0169-4243"
+                        ],
+                        "wos_id": [
+                            "WOS:000184341100003"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/80016030021",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1163/156856103322112860",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000184341100003&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010280/misc/8672709",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0010280/misc",
+                    "rm:id": "8672709",
+                    "rm:user_id": "1000021019",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000021019",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2005-01-16T15:00:00Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-04-30T06:49:51Z",
+                    "paper_title": {
+                        "en": "Strength and finite element analyses of single-lap joints with adhesively-bonded columns"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "JM Liu"
+                            },
+                            {
+                                "name": "T Sawa"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "This paper introduces a novel approach to increase the loading ability of adhesive joints by incorporating adhesively-bonded columns. Strengths of single-lap adhesive joints with adhesively-bonded columns were measured experimentally. Stress and strain distributions at selective positions in the adhesive layer were analyzed using the Finite Element Method (FEM). Failure mechanisms of the joints were analyzed. It was found that the metal-adhesive columns increased the joint strength and also the joint strength increased with increasing length of the metal-adhesive columns. Therefore, using metal-adhesive columns in adhesive joints is an effective approach for enhancing the strength of bulk adhesive joints."
+                    },
+                    "publisher": {
+                        "en": "VSP BV"
+                    },
+                    "publication_date": "2003",
+                    "publication_name": {
+                        "en": "JOURNAL OF ADHESION SCIENCE AND TECHNOLOGY"
+                    },
+                    "volume": "17",
+                    "number": "13",
+                    "starting_page": "1773",
+                    "ending_page": "1784",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "cinii_na_id": [
+                            "80016351918"
+                        ],
+                        "doi": [
+                            "10.1163/156856103322538679"
+                        ],
+                        "issn": [
+                            "0169-4243"
+                        ],
+                        "wos_id": [
+                            "WOS:000187198200003"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/80016351918",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1163/156856103322538679",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000187198200003&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0010280/books_etc",
+            "@type": "books_etc",
+            "@reverse": "https://api.researchmap.jp/read0010280",
+            "total_items": 2,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0010280/books_etc/940147",
+                    "@type": "books_etc",
+                    "@reverse": "https://api.researchmap.jp/read0010280/books_etc",
+                    "rm:id": "940147",
+                    "rm:user_id": "1000021019",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000021019",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2005-01-16T15:00:00Z",
+                    "rm:modifier_id": "1000021019",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2005-01-16T15:00:00Z",
+                    "book_title": {
+                        "ja": "ねじ締結ガイドブック"
+                    },
+                    "publisher": {
+                        "ja": "日本ねじ研究協会"
+                    },
+                    "publication_date": "2004",
+                    "referee": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010280/books_etc/940146",
+                    "@type": "books_etc",
+                    "@reverse": "https://api.researchmap.jp/read0010280/books_etc",
+                    "rm:id": "940146",
+                    "rm:user_id": "1000021019",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000021019",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2005-01-16T15:00:00Z",
+                    "rm:modifier_id": "1000021019",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2005-01-16T15:00:00Z",
+                    "book_title": {
+                        "en": "Guidbook for bolted joints"
+                    },
+                    "publisher": {
+                        "en": "The Japan Research Institute for Screw Threads and Fasteners"
+                    },
+                    "publication_date": "2004",
+                    "referee": false
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0010280/association_memberships",
+            "@type": "association_memberships",
+            "@reverse": "https://api.researchmap.jp/read0010280",
+            "total_items": 5,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0010280/association_memberships/936311",
+                    "@type": "association_memberships",
+                    "@reverse": "https://api.researchmap.jp/read0010280/association_memberships",
+                    "rm:id": "936311",
+                    "rm:user_id": "1000021019",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000021019",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2005-01-16T15:00:00Z",
+                    "rm:modifier_id": "1000021019",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2005-01-16T15:00:00Z",
+                    "academic_society_name": {
+                        "ja": "日本接着学会"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010280/association_memberships/936310",
+                    "@type": "association_memberships",
+                    "@reverse": "https://api.researchmap.jp/read0010280/association_memberships",
+                    "rm:id": "936310",
+                    "rm:user_id": "1000021019",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000021019",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2005-01-16T15:00:00Z",
+                    "rm:modifier_id": "1000021019",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2005-01-16T15:00:00Z",
+                    "academic_society_name": {
+                        "ja": "日本高圧力技術協会"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010280/association_memberships/936309",
+                    "@type": "association_memberships",
+                    "@reverse": "https://api.researchmap.jp/read0010280/association_memberships",
+                    "rm:id": "936309",
+                    "rm:user_id": "1000021019",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000021019",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2005-01-16T15:00:00Z",
+                    "rm:modifier_id": "1000021019",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2005-01-16T15:00:00Z",
+                    "academic_society_name": {
+                        "ja": "American Society for Mechanical Engineers"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010280/association_memberships/936308",
+                    "@type": "association_memberships",
+                    "@reverse": "https://api.researchmap.jp/read0010280/association_memberships",
+                    "rm:id": "936308",
+                    "rm:user_id": "1000021019",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000021019",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2005-01-16T15:00:00Z",
+                    "rm:modifier_id": "1000021019",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2005-01-16T15:00:00Z",
+                    "academic_society_name": {
+                        "ja": "日本機械学会"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010280/association_memberships/936307",
+                    "@type": "association_memberships",
+                    "@reverse": "https://api.researchmap.jp/read0010280/association_memberships",
+                    "rm:id": "936307",
+                    "rm:user_id": "1000021019",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000021019",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2005-01-16T15:00:00Z",
+                    "rm:modifier_id": "1000021019",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2005-01-16T15:00:00Z",
+                    "academic_society_name": {
+                        "en": "American Society for Mechanical Engineers"
+                    }
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0010280/research_projects",
+            "@type": "research_projects",
+            "@reverse": "https://api.researchmap.jp/read0010280",
+            "total_items": 2,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0010280/research_projects/1286232",
+                    "@type": "research_projects",
+                    "@reverse": "https://api.researchmap.jp/read0010280/research_projects",
+                    "rm:id": "1286232",
+                    "rm:user_id": "1000021019",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000021019",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2005-01-16T15:00:00Z",
+                    "rm:modifier_id": "1000021019",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2005-01-16T15:00:00Z",
+                    "research_project_title": {
+                        "ja": "1)静的/衝撃荷重下での接着接合の応力解析と強度評価および特性改善, 2)フランジ締結体の応力解析と漏洩防止に関する研究"
+                    },
+                    "system_name": {
+                        "ja": "その他の研究制度"
+                    },
+                    "from_date": "1995",
+                    "to_date": "2010",
+                    "overall_grant_amount": {
+                        "indirect_cost": "0",
+                        "total_cost": "0",
+                        "direct_cost": "0"
+                    },
+                    "fund_type": "competitive_research_funding"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010280/research_projects/1286231",
+                    "@type": "research_projects",
+                    "@reverse": "https://api.researchmap.jp/read0010280/research_projects",
+                    "rm:id": "1286231",
+                    "rm:user_id": "1000021019",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000021019",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2005-01-16T15:00:00Z",
+                    "rm:modifier_id": "1000021019",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2005-01-16T15:00:00Z",
+                    "research_project_title": {
+                        "en": "1)Stress analysis, strength evalustion and improvement of the characteristics of adhesive joints under static and imapcr loadings. 2)Study on stress analysis of pipe flange connctions and to prevent"
+                    },
+                    "system_name": {
+                        "en": "The Other Research Programs"
+                    },
+                    "from_date": "1995",
+                    "to_date": "2010",
+                    "overall_grant_amount": {
+                        "indirect_cost": "0",
+                        "total_cost": "0",
+                        "direct_cost": "0"
+                    },
+                    "fund_type": "competitive_research_funding"
+                }
+            ]
+        }
+    ]
+}

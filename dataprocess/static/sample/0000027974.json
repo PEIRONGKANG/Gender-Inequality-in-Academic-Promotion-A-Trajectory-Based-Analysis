@@ -1,0 +1,3416 @@
+{
+    "@context": "https://api.researchmap.jp/researcher.jsonld",
+    "@id": "https://api.researchmap.jp/read0160078?format=json",
+    "@type": "researchers",
+    "rm:user_id": "0000027974",
+    "rm:creator_id": "0000027974",
+    "rm:creator_type": "myself",
+    "rm:created": "2002-12-08T15:00:00Z",
+    "rm:modifier_id": "0000027974",
+    "rm:modifier_type": "myself",
+    "rm:modified": "2024-11-25T04:03:38Z",
+    "permalink": "read0160078",
+    "family_name": {
+        "ja": "中村",
+        "ja-Kana": "ナカムラ",
+        "en": "Nakamura"
+    },
+    "given_name": {
+        "ja": "圭靖",
+        "ja-Kana": "ヨシヤス",
+        "en": "Yoshiyasu"
+    },
+    "display_name_kana": "disclosed",
+    "display_nickname": "disclosed",
+    "display_image": "disclosed",
+    "display_contact_point": "disclosed",
+    "affiliations": [
+        {
+            "affiliation": {
+                "ja": "神奈川県立がんセンター 臨床研究所",
+                "en": "Kanagawa Cancer Center,Research Institute"
+            },
+            "section": {
+                "ja": "がん分子病態研究学部"
+            },
+            "display_affiliation": "disclosed",
+            "display_job": "disclosed",
+            "rm:institution_code": "E189000000"
+        }
+    ],
+    "display_profile": "disclosed",
+    "display_url": "disclosed",
+    "identifiers": {
+        "j_global_id": [
+            "200901094841154617"
+        ]
+    },
+    "rm:erad_id_verified": false,
+    "rm:orc_id_verified": false,
+    "display_erad_id": "closed",
+    "display_orc_id": "closed",
+    "display_researcher_id": "disclosed",
+    "display_j_global_id": "disclosed",
+    "see_also": [
+        {
+            "label": "j_global",
+            "@id": "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=200901094841154617"
+        }
+    ],
+    "@graph": [
+        {
+            "@id": "https://api.researchmap.jp/read0160078/research_areas",
+            "@type": "research_areas",
+            "@reverse": "https://api.researchmap.jp/read0160078",
+            "total_items": 1,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0160078/research_areas/31771418",
+                    "@type": "research_areas",
+                    "@reverse": "https://api.researchmap.jp/read0160078/research_areas",
+                    "rm:id": "31771418",
+                    "rm:user_id": "0000027974",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000027974",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2021-03-04T08:36:03Z",
+                    "rm:modifier_id": "0000027974",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2021-03-04T08:36:03Z",
+                    "discipline_number": "A189",
+                    "item_number": "A49020",
+                    "discipline": {
+                        "ja": "ライフサイエンス",
+                        "en": "Life sciences"
+                    },
+                    "research_field": {
+                        "ja": "人体病理学",
+                        "en": "Human pathology"
+                    }
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0160078/published_papers",
+            "@type": "published_papers",
+            "@reverse": "https://api.researchmap.jp/read0160078",
+            "total_items": 87,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0160078/published_papers/48530979",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0160078/published_papers",
+                    "rm:id": "48530979",
+                    "rm:user_id": "0000027974",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2024-11-25T04:03:38Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2024-11-25T04:03:38Z",
+                    "paper_title": {
+                        "en": "Clinicopathological Significance of Extranodal Adipose Tissue Invasion in Metastatic Lymph Nodes in Patients With Prostate Cancer."
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Hirotaka Nagasaka"
+                            },
+                            {
+                                "name": "Shinya Sato"
+                            },
+                            {
+                                "name": "Atsuto Suzuki"
+                            },
+                            {
+                                "name": "Hideyuki Terao"
+                            },
+                            {
+                                "name": "Yoshiyasu Nakamura"
+                            },
+                            {
+                                "name": "Mitsuyo Yoshihara"
+                            },
+                            {
+                                "name": "Yoichiro Okubo"
+                            },
+                            {
+                                "name": "Kota Washimi"
+                            },
+                            {
+                                "name": "Tomoyuki Yokose"
+                            },
+                            {
+                                "name": "Takeshi Kishida"
+                            },
+                            {
+                                "name": "Yohei Miyagi"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "BACKGROUND: Lymph node (LN) metastasis is a poor prognostic factor in patients with prostate cancer. Elucidating the mechanisms underlying cancer progression in the metastatic microenvironment of LNs is crucial to establishing novel therapies. Adipocytes interact with cancer cells and regulate cancer progression. In this study, we aimed to clarify the clinicopathological significance of extranodal adipose tissue invasion in metastatic LNs and preoperative adipokine concentration in patients with prostate cancer exhibiting metastatic LNs. METHODS: We examined the pathological findings of primary and metastatic nodes and clinical information of 66 specimens from 46 patients with prostate cancer. A sub-analysis was performed to assess the relationship between preoperative adiponectin/leptin concentrations and clinical/pathological findings in the blood samples of 56 patients with prostate cancer who either did or did not show LN metastasis. RESULTS: The number of metastatic LNs in patients correlated with the involvement of adipose tissue and lymphovascular invasion (p = 0.039 and < 0.001, respectively). Preoperative adiponectin concentration was lower in patients with resected margin-positive and extraprostatic extension-positive primary cancers (p = 0.0071 and 0.02, respectively). Preoperative adiponectin concentrations were significantly lower in patients with metastatic LNs than in patients without LN metastasis (p < 0.001). Moreover, leptin concentrations were significantly higher in patients with metastatic LNs than in patients without LN metastasis (p < 0.001). In patients with metastatic LNs, preoperative adiponectin concentrations were significantly lower in patients with biochemical recurrence than in patients without biochemical recurrence (p = 0.031). There was no correlation between biochemical recurrence and pathological findings. CONCLUSIONS: This is the first report on the detailed histopathological characteristics of prostate cancer with LN metastases and the significance of preoperative adiponectin concentration in predicting the pathological features of primary cancers. Also, adipokines are a significant prediction factor of LN metastases for prostate cancer patients. Adipose tissue and adipose-secreting factors may be involved in the progression of metastatic and primary prostate cancer."
+                    },
+                    "publication_date": "2024-11-20",
+                    "publication_name": {
+                        "en": "The Prostate"
+                    },
+                    "languages": [
+                        "eng"
+                    ],
+                    "published_paper_type": "scientific_journal",
+                    "is_international_journal": true,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1002/pros.24825"
+                        ],
+                        "pm_id": [
+                            "39567857"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1002/pros.24825",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "pubmed",
+                            "@id": "https://www.ncbi.nlm.nih.gov/pubmed/39567857",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0160078/published_papers/46714123",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0160078/published_papers",
+                    "rm:id": "46714123",
+                    "rm:user_id": "0000027974",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2024-06-06T04:02:07Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2024-06-06T04:02:07Z",
+                    "paper_title": {
+                        "en": "がん関連血栓症を含む深部静脈血栓症研究のための下大静脈低灌流による血栓形成マウスモデル(A practical mouse model of thrombosis by hypoperfusion of inferior vena cava for cancer-associated thrombosis research)"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "田所 弘子"
+                            },
+                            {
+                                "name": "太田 幸秀"
+                            },
+                            {
+                                "name": "小井詰 史朗"
+                            },
+                            {
+                                "name": "佐藤 慎哉"
+                            },
+                            {
+                                "name": "吉原 光代"
+                            },
+                            {
+                                "name": "中村 圭靖"
+                            },
+                            {
+                                "name": "宮城 悦子"
+                            },
+                            {
+                                "name": "宮城 洋平"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "en": "(一社)日本癌学会"
+                    },
+                    "publication_date": "2023-09",
+                    "publication_name": {
+                        "en": "日本癌学会総会記事"
+                    },
+                    "volume": "82回",
+                    "starting_page": "169",
+                    "ending_page": "169",
+                    "languages": [
+                        "eng"
+                    ],
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "0546-0476"
+                        ],
+                        "jamas_id": [
+                            "2024118424"
+                        ]
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0160078/published_papers/42386715",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0160078/published_papers",
+                    "rm:id": "42386715",
+                    "rm:user_id": "0000027974",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2023-05-26T03:30:22Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2023-05-26T03:30:22Z",
+                    "paper_title": {
+                        "en": "Bone marrow adipocytes induce cancer-associated fibroblasts and immune evasion, enhancing invasion and drug resistance."
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Shinya Sato"
+                            },
+                            {
+                                "name": "Toru Hiruma"
+                            },
+                            {
+                                "name": "Mitsuyuki Koizumi"
+                            },
+                            {
+                                "name": "Mitsuyo Yoshihara"
+                            },
+                            {
+                                "name": "Yoshiyasu Nakamura"
+                            },
+                            {
+                                "name": "Hiroko Tadokoro"
+                            },
+                            {
+                                "name": "Sadako Motomatsu"
+                            },
+                            {
+                                "name": "Takashi Yamanaka"
+                            },
+                            {
+                                "name": "Kota Washimi"
+                            },
+                            {
+                                "name": "Yoichiro Okubo"
+                            },
+                            {
+                                "name": "Emi Yoshioka"
+                            },
+                            {
+                                "name": "Rika Kasajima"
+                            },
+                            {
+                                "name": "Toshinari Yamashita"
+                            },
+                            {
+                                "name": "Takeshi Kishida"
+                            },
+                            {
+                                "name": "Tomoyuki Yokose"
+                            },
+                            {
+                                "name": "Yohei Miyagi"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "Bone metastasis occurs frequently in cancer patients. Conventional therapies have limited therapeutic outcomes, and thus, exploring the mechanisms of cancer progression in bone metastasis is important to develop new effective therapies. In the bone microenvironment, adipocytes are the major stromal cells that interact with cancer cells during bone metastasis. However, the comprehensive functions of bone marrow adipocytes in cancer progression are not yet fully understood. To address this, we investigated the role of bone marrow adipocytes on cancer cells, by focusing on an invasive front that reflects the direct effects of stromal cells on cancer. In comprehensive histopathological and genetic analysis using bone metastasis specimens, we examined invasive fronts in bone metastasis and compared invasive fronts with adipocyte-rich bone marrow (adipo-BM) to those with hematopoietic cell-rich bone marrow (hemato-BM) as a normal counterpart of adipocytes. We found morphological complexity of the invasive front with adipo-BM was significantly higher than that with hemato-BM. Based on immunohistochemistry, the invasive front with adipo-BM comparatively had a significantly increased cancer-associated fibroblast (CAF) marker-positive area and lower density of CD8+ lymphocytes compared to that with hemato-BM. RNA sequencing analysis of primary and bone metastasis cancer revealed that bone metastasized cancer cells acquired drug resistance-related gene expression phenotypes. Clearly, these findings indicate that bone marrow adipocytes provide a favorable tumor microenvironment for cancer invasion and therapeutic resistance of bone metastasized cancers through CAF induction and immune evasion, providing a potential target for the treatment of bone metastasis."
+                    },
+                    "publication_date": "2023-03-14",
+                    "publication_name": {
+                        "en": "Cancer science"
+                    },
+                    "languages": [
+                        "eng"
+                    ],
+                    "published_paper_type": "scientific_journal",
+                    "is_international_journal": true,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1111/cas.15786"
+                        ],
+                        "pm_id": [
+                            "36916999"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1111/cas.15786",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "pubmed",
+                            "@id": "https://www.ncbi.nlm.nih.gov/pubmed/36916999",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0160078/published_papers/41599092",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0160078/published_papers",
+                    "rm:id": "41599092",
+                    "rm:user_id": "0000027974",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2023-03-02T03:31:47Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2023-03-02T03:31:47Z",
+                    "paper_title": {
+                        "en": "Cancer cell-derived CD69 induced under lipid and oxygen starvation promotes ovarian cancer progression via fibronectin."
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Shiro Koizume"
+                            },
+                            {
+                                "name": "Tomohiko Kanayama"
+                            },
+                            {
+                                "name": "Yayoi Kimura"
+                            },
+                            {
+                                "name": "Hisashi Hirano"
+                            },
+                            {
+                                "name": "Tomoko Takahashi"
+                            },
+                            {
+                                "name": "Yukihide Ota"
+                            },
+                            {
+                                "name": "Kaoru Miyazaki"
+                            },
+                            {
+                                "name": "Mitsuyo Yoshihara"
+                            },
+                            {
+                                "name": "Yoshiyasu Nakamura"
+                            },
+                            {
+                                "name": "Tomoyuki Yokose"
+                            },
+                            {
+                                "name": "Hisamori Kato"
+                            },
+                            {
+                                "name": "Katsuya Takenaka"
+                            },
+                            {
+                                "name": "Shinya Sato"
+                            },
+                            {
+                                "name": "Hiroko Tadokoro"
+                            },
+                            {
+                                "name": "Etsuko Miyagi"
+                            },
+                            {
+                                "name": "Yohei Miyagi"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "Cancer tissues generally have molecular oxygen and serum component deficiencies because of poor vascularization. Recently, we revealed that ICAM1 is strongly activated via lipophagy in ovarian clear cell carcinoma (CCC) cells in response to starvation of long-chain fatty acids and oxygen and confers resistance to apoptosis caused by these harsh conditions. CD69 is a glycoprotein that is synthesized in immune cells and is associated with their activation via cellular signaling pathways. However, the expression and function of CD69 in non-hematological cells is unclear. Here, we report that CD69 is induced in CCC cells as in ICAM1. Mass spectrometry analysis of phosphorylated peptides followed by pathway analysis revealed that CD69 augments CCC cell binding to fibronectin (FN) in association with the phosphorylation of multiple cellular signaling molecules including the focal adhesion pathway. Furthermore, CD69 synthesized in CCC cells could facilitate cell survival because the CD69-FN axis can induce epithelial-mesenchymal transition. Experiments with surgically removed tumor samples revealed that CD69 is predominantly expressed in CCC tumor cells compared with other histological subtypes of epithelial ovarian cancer. Overall, our data suggest that cancer cell-derived CD69 can contribute to CCC progression through FN."
+                    },
+                    "publication_date": "2023-02-28",
+                    "publication_name": {
+                        "en": "Cancer science"
+                    },
+                    "languages": [
+                        "eng"
+                    ],
+                    "published_paper_type": "scientific_journal",
+                    "is_international_journal": true,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1111/cas.15774"
+                        ],
+                        "pm_id": [
+                            "36854451"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1111/cas.15774",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "pubmed",
+                            "@id": "https://www.ncbi.nlm.nih.gov/pubmed/36854451",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0160078/published_papers/45514685",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0160078/published_papers",
+                    "rm:id": "45514685",
+                    "rm:user_id": "0000027974",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2024-02-02T04:02:14Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2024-02-02T04:02:14Z",
+                    "paper_title": {
+                        "en": "Chronological Change in EPHA2 Protein Expression Is Associated With Recurrence of Bladder Cancer."
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Mitsuyuki Koizumi"
+                            },
+                            {
+                                "name": "Shinya Sato"
+                            },
+                            {
+                                "name": "Mitsuyo Yoshihara"
+                            },
+                            {
+                                "name": "Yoshiyasu Nakamura"
+                            },
+                            {
+                                "name": "Hideyuki Terao"
+                            },
+                            {
+                                "name": "Yoichiro Okubo"
+                            },
+                            {
+                                "name": "Kota Washimi"
+                            },
+                            {
+                                "name": "Emi Yoshioka"
+                            },
+                            {
+                                "name": "Tomoyuki Yokose"
+                            },
+                            {
+                                "name": "Takeshi Kishida"
+                            },
+                            {
+                                "name": "Naohiko Koshikawa"
+                            },
+                            {
+                                "name": "Yohei Miyagi"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "BACKGROUND/AIM: Bladder cancer is the most common urinary tract cancer. Patients diagnosed with advanced T-stage/muscle-invasive bladder cancer through transurethral resection of bladder tumors (TURBT) are treated with total radical cystectomy; however, there is a high chance of recurrence. Nevertheless, markers for predicting this recurrence are not currently available. Here, we evaluated the chronological change of ephrin type-A receptor 2 (EPHA2) expression, a molecule known for its role in cell adhesion, to predict bladder cancer recurrence after cystectomy, using TURBT and cystectomy specimens. MATERIALS AND METHODS: An immunostaining evaluation method that combines whole-slide images and image analysis software was developed to quantify and evaluate stainability objectively. We assessed the correlation between EPHA2 expression and bladder cancer recurrence using this novel immunostaining method and chronological changes in target protein expression in TURBT and radical cystectomy samples. RESULTS: In TURBT specimens, the number of cases with a high N-terminal/C-terminal EPHA2 ratio in the group with recurrence was significantly higher than in the non-recurrent group (p=0.019). The number of cases with a high level of C-terminal EPHA2 positivity in the radical cystectomy specimen when compared to the TURBT specimen obtained from the same patient was significantly higher in the recurrent group than in the non-recurrent group (p=0.0034). CONCLUSION: EPHA2 appears to be a promising marker for bladder tumor recurrence after cystectomy and its evaluation may enable the selection of appropriate cases for adjuvant therapy among patients undergoing radical cystectomy. Further studies, including mass-scale analysis, are required to confirm these results."
+                    },
+                    "publication_date": "2022-12",
+                    "publication_name": {
+                        "en": "Anticancer research"
+                    },
+                    "volume": "42",
+                    "number": "12",
+                    "starting_page": "5783",
+                    "ending_page": "5794",
+                    "languages": [
+                        "eng"
+                    ],
+                    "published_paper_type": "scientific_journal",
+                    "is_international_journal": true,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.21873/anticanres.16085"
+                        ],
+                        "pm_id": [
+                            "36456144"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.21873/anticanres.16085",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "pubmed",
+                            "@id": "https://www.ncbi.nlm.nih.gov/pubmed/36456144",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0160078/published_papers/40764071",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0160078/published_papers",
+                    "rm:id": "40764071",
+                    "rm:user_id": "0000027974",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_papers",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2022-12-20T12:00:57Z",
+                    "rm:modifier_id": "ai:assign_based_papers",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-12-20T12:00:57Z",
+                    "paper_title": {
+                        "en": "A practical spatial analysis method for elucidating the biological mechanisms of cancers with abdominal dissemination in vivo"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Yukihide Ota"
+                            },
+                            {
+                                "name": "Shinya Sato"
+                            },
+                            {
+                                "name": "Mitsuyo Yoshihara"
+                            },
+                            {
+                                "name": "Yoshiyasu Nakamura"
+                            },
+                            {
+                                "name": "Etsuko Miyagi"
+                            },
+                            {
+                                "name": "Yohei Miyagi"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "Abstract\n\nElucidation of spatial interactions between cancer and host cells is important for the development of new therapies against disseminated cancers. The aim of this study is to establish easy and useful method for elucidating spatial interactions. In this study, we developed a practical spatial analysis method using a gel-based embedding system and applied it to a murine model of cancer dissemination. After euthanization, every abdominal organ enclosed in the peritoneum was extracted en bloc. We injected agarose gel into the peritoneal cavities to preserve the spatial locations of the organs, including their metastatic niches, and then produced specimens when the gel had solidified. Preservation of the original spatial localization was confirmed by correlating magnetic resonance imaging results with the sectioned specimens. We examined the effects of spatial localization on cancer hypoxia using immunohistochemical hypoxia markers. Finally, we identified the mRNA expression of the specimens and demonstrated the applicability of spatial genetic analysis. In conclusion, we established a practical method for the in vivo investigation of spatial location-specific biological mechanisms in disseminated cancers. Our method can elucidate dissemination mechanisms, find therapeutic targets, and evaluate cancer therapeutic effects."
+                    },
+                    "publisher": {
+                        "en": "Springer Science and Business Media LLC"
+                    },
+                    "publication_date": "2022-11-24",
+                    "publication_name": {
+                        "en": "Scientific Reports"
+                    },
+                    "volume": "12",
+                    "number": "1",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1038/s41598-022-24827-w"
+                        ],
+                        "e_issn": [
+                            "2045-2322"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1038/s41598-022-24827-w",
+                            "is_downloadable": false
+                        },
+                        {
+                            "@id": "https://www.nature.com/articles/s41598-022-24827-w.pdf",
+                            "label": "url",
+                            "is_downloadable": false
+                        },
+                        {
+                            "@id": "https://www.nature.com/articles/s41598-022-24827-w",
+                            "label": "url",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0160078/published_papers/46714136",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0160078/published_papers",
+                    "rm:id": "46714136",
+                    "rm:user_id": "0000027974",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2024-06-06T04:02:08Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2024-06-06T04:02:08Z",
+                    "paper_title": {
+                        "en": "異所性CD69発現はフィブロネクチン依存的に卵巣明細胞がん細胞の上皮間葉転換を促進させる(Ectopic CD69 expression induces epithelial-mesenchymal transition in ovarian clear cell carcinoma cells via fibronectin)"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "小井詰 史朗"
+                            },
+                            {
+                                "name": "太田 幸秀"
+                            },
+                            {
+                                "name": "中村 圭靖"
+                            },
+                            {
+                                "name": "吉原 光代"
+                            },
+                            {
+                                "name": "佐藤 慎哉"
+                            },
+                            {
+                                "name": "田所 弘子"
+                            },
+                            {
+                                "name": "宮城 悦子"
+                            },
+                            {
+                                "name": "宮城 洋平"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "en": "(一社)日本癌学会"
+                    },
+                    "publication_date": "2022-09",
+                    "publication_name": {
+                        "en": "日本癌学会総会記事"
+                    },
+                    "volume": "81回",
+                    "starting_page": "P",
+                    "ending_page": "2288",
+                    "languages": [
+                        "eng"
+                    ],
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "0546-0476"
+                        ],
+                        "jamas_id": [
+                            "2023037000"
+                        ]
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0160078/published_papers/41096732",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0160078/published_papers",
+                    "rm:id": "41096732",
+                    "rm:user_id": "0000027974",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2023-01-11T03:31:49Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2023-01-11T03:31:49Z",
+                    "paper_title": {
+                        "en": "異所性CD69発現はフィブロネクチン依存的に卵巣明細胞がん細胞の上皮間葉転換を促進させる(Ectopic CD69 expression induces epithelial-mesenchymal transition in ovarian clear cell carcinoma cells via fibronectin)"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "小井詰 史朗"
+                            },
+                            {
+                                "name": "太田 幸秀"
+                            },
+                            {
+                                "name": "中村 圭靖"
+                            },
+                            {
+                                "name": "吉原 光代"
+                            },
+                            {
+                                "name": "佐藤 慎哉"
+                            },
+                            {
+                                "name": "田所 弘子"
+                            },
+                            {
+                                "name": "宮城 悦子"
+                            },
+                            {
+                                "name": "宮城 洋平"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "en": "(一社)日本癌学会"
+                    },
+                    "publication_date": "2022-09",
+                    "publication_name": {
+                        "en": "日本癌学会総会記事"
+                    },
+                    "volume": "81回",
+                    "starting_page": "P",
+                    "ending_page": "2288",
+                    "languages": [
+                        "eng"
+                    ],
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "0546-0476"
+                        ],
+                        "jamas_id": [
+                            "WA03481156"
+                        ]
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0160078/published_papers/41096727",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0160078/published_papers",
+                    "rm:id": "41096727",
+                    "rm:user_id": "0000027974",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2023-01-11T03:31:49Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2023-01-11T03:31:49Z",
+                    "paper_title": {
+                        "en": "卵巣明細胞癌細胞による組織因子陽性細胞外小胞の産生とその血液凝固活性(Production and activity of tissue factor-positive extracellular vesicles from ovarian clear cell carcinoma cells)"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "田所 弘子"
+                            },
+                            {
+                                "name": "小井詰 史朗"
+                            },
+                            {
+                                "name": "吉原 光代"
+                            },
+                            {
+                                "name": "中村 圭靖"
+                            },
+                            {
+                                "name": "太田 幸秀"
+                            },
+                            {
+                                "name": "佐藤 慎哉"
+                            },
+                            {
+                                "name": "宮城 洋平"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "en": "(一社)日本癌学会"
+                    },
+                    "publication_date": "2022-09",
+                    "publication_name": {
+                        "en": "日本癌学会総会記事"
+                    },
+                    "volume": "81回",
+                    "starting_page": "P",
+                    "ending_page": "2134",
+                    "languages": [
+                        "eng"
+                    ],
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "0546-0476"
+                        ],
+                        "jamas_id": [
+                            "WA03481271"
+                        ]
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0160078/published_papers/37839872",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0160078/published_papers",
+                    "rm:id": "37839872",
+                    "rm:user_id": "0000027974",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2022-07-01T11:49:50Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-07-01T11:49:50Z",
+                    "paper_title": {
+                        "en": "Lipophagy-ICAM-1 pathway associated with fatty acid and oxygen deficiencies is involved in poor prognoses of ovarian clear cell carcinoma."
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Shiro Koizume"
+                            },
+                            {
+                                "name": "Tomoko Takahashi"
+                            },
+                            {
+                                "name": "Yoshiyasu Nakamura"
+                            },
+                            {
+                                "name": "Mitsuyo Yoshihara"
+                            },
+                            {
+                                "name": "Yukihide Ota"
+                            },
+                            {
+                                "name": "Shinya Sato"
+                            },
+                            {
+                                "name": "Hiroko Tadokoro"
+                            },
+                            {
+                                "name": "Tomoyuki Yokose"
+                            },
+                            {
+                                "name": "Hisamori Kato"
+                            },
+                            {
+                                "name": "Etsuko Miyagi"
+                            },
+                            {
+                                "name": "Yohei Miyagi"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "BACKGROUND: Serum starvation and hypoxia (SSH) mimics a stress condition in tumours. We have shown that intercellular adhesion molecule-1 (ICAM-1) protein is synergistically expressed in ovarian clear cell carcinoma (CCC) cells under SSH in response to an insufficient supply of fatty acids (FAs). This ICAM-1 expression is responsible for resistance against the lethal condition, thereby promoting tumour growth. However, the underlying mechanisms that link SSH-driven ICAM1 gene expression to impaired FA supply and its clinical relevance are unclear. METHODS: The underlying mechanisms of how FA deficiency induces ICAM-1 expression in cooperation with hypoxia were analysed in vitro and in vivo. Clinical significance of CCC cell-derived ICAM-1 and the mechanism associated with the transcriptional synergism were also investigated. RESULTS: ICAM-1 expression was mediated through lipophagy-driven lipid droplet degradation, followed by impaired FA-lipid droplet flow. Lipophagy induced ICAM1 expression through stabilisation of NFκB binding to the promoter region via Sam68 and hTERT. Analyses of clinical specimens revealed that expression of ICAM-1 and LC3B, an autophagy marker associated with lipophagy, significantly correlated with poor prognoses of CCC. CONCLUSIONS: The lipophagy-ICAM-1 pathway induced under a tumour-like stress conditions contributes to CCC progression and is a potential therapeutic target for this aggressive cancer type."
+                    },
+                    "publication_date": "2022-04-21",
+                    "publication_name": {
+                        "en": "British journal of cancer"
+                    },
+                    "languages": [
+                        "eng"
+                    ],
+                    "published_paper_type": "scientific_journal",
+                    "is_international_journal": true,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1038/s41416-022-01808-4"
+                        ],
+                        "pm_id": [
+                            "35449452"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1038/s41416-022-01808-4",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "pubmed",
+                            "@id": "https://www.ncbi.nlm.nih.gov/pubmed/35449452",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0160078/published_papers/46714148",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0160078/published_papers",
+                    "rm:id": "46714148",
+                    "rm:user_id": "0000027974",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2024-06-06T04:02:09Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2024-06-06T04:02:09Z",
+                    "paper_title": {
+                        "en": "リポファジー ICAM-1経路は卵巣明細胞がんの予後不良性と相関する"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "小井詰 史朗"
+                            },
+                            {
+                                "name": "中村 圭靖"
+                            },
+                            {
+                                "name": "吉原 光代"
+                            },
+                            {
+                                "name": "太田 幸秀"
+                            },
+                            {
+                                "name": "佐藤 慎哉"
+                            },
+                            {
+                                "name": "田所 弘子"
+                            },
+                            {
+                                "name": "宮城 悦子"
+                            },
+                            {
+                                "name": "宮城 洋平"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "en": "(一社)日本癌学会"
+                    },
+                    "publication_date": "2021-09",
+                    "publication_name": {
+                        "en": "日本癌学会総会記事"
+                    },
+                    "volume": "80回",
+                    "starting_page": "[J14",
+                    "ending_page": "3]",
+                    "languages": [
+                        "eng"
+                    ],
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "0546-0476"
+                        ],
+                        "jamas_id": [
+                            "2022116469"
+                        ]
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0160078/published_papers/34614424",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0160078/published_papers",
+                    "rm:id": "34614424",
+                    "rm:user_id": "0000027974",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2021-10-23T03:21:51Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2021-10-23T03:21:51Z",
+                    "paper_title": {
+                        "en": "Tissue factor pathway inhibitor‑2 is specifically expressed in ovarian clear cell carcinoma tissues in the nucleus, cytoplasm and extracellular matrix."
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Yukihide Ota"
+                            },
+                            {
+                                "name": "Shiro Koizume"
+                            },
+                            {
+                                "name": "Yoshiyasu Nakamura"
+                            },
+                            {
+                                "name": "Mitsuyo Yoshihara"
+                            },
+                            {
+                                "name": "Tomoko Takahashi"
+                            },
+                            {
+                                "name": "Shinya Sato"
+                            },
+                            {
+                                "name": "Shohei Myoba"
+                            },
+                            {
+                                "name": "Norihisa Ohtake"
+                            },
+                            {
+                                "name": "Hisamori Kato"
+                            },
+                            {
+                                "name": "Tomoyuki Yokose"
+                            },
+                            {
+                                "name": "Etsuko Miyagi"
+                            },
+                            {
+                                "name": "Yohei Miyagi"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "Tissue factor pathway inhibitor‑2 (TFPI‑2) is a promising candidate as a serum biomarker of ovarian clear cell carcinoma (OCCC), a lethal histological subtype of epithelial ovarian cancer (EOC). TFPI‑2 is a secreted serine protease inhibitor that suppresses cancer progression through the inhibition of matrix protease activities. Previous studies have also identified TFPI‑2 in the nucleus, and a possible function of nuclear TFPI‑2 as a transcriptional repressor of matrix metalloproteinase‑2 (MMP‑2) was recently demonstrated. We are currently establishing TFPI‑2 as a serum biomarker for OCCC patients; however, TFPI‑2 expression in OCCC tissues has not been previously investigated. In the present study, we examined TFPI‑2 expression and its localization in 11 OCCC cell lines by western blotting and enzyme‑linked immune assay. Four cell lines expressed TFPI‑2 in the nucleus, cytoplasm and culture plate-attached extracellular fraction, while four other cell lines expressed TFPI‑2 only in the extracellular fraction. In the remaining three cell lines, TFPI‑2 was not identified in any fraction. The amount of secreted soluble TFPI‑2 showed similar trends to that of the plate‑attached fraction. We next investigated the expression levels and distribution of TFPI‑2 in surgically resected EOC tissues by immunohistochemistry. In 52 of the 77 (67.5%) OCCC tumors, TFPI‑2 expression was detected in at least one of the nuclear, cytoplasmic and extracellular matrix fractions. In contrast, we did not identify TFPI‑2 in the other EOC subtypes (n=65). TFPI‑2‑positive expression distinguished CCC from the other EOC tissues with a sensitivity of 67.5% and specificity of 100%. Although the inherent tumor suppressor function, statistical analyses failed to demonstrate correlations between TFPI‑2 expression and clinical parameters, including 5‑year overall survival, except for the patient age. In conclusion, we identified TFPI‑2 expression in the nucleus, cytoplasm and extracellular matrix in OCCC tissues. The high specificity of TFPI‑2 may support its use for diagnosis of OCCC in combination with existing markers."
+                    },
+                    "publication_date": "2021-03",
+                    "publication_name": {
+                        "en": "Oncology reports"
+                    },
+                    "volume": "45",
+                    "number": "3",
+                    "starting_page": "1023",
+                    "ending_page": "1032",
+                    "languages": [
+                        "eng"
+                    ],
+                    "published_paper_type": "scientific_journal",
+                    "is_international_journal": true,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.3892/or.2021.7944"
+                        ],
+                        "pm_id": [
+                            "33650653"
+                        ],
+                        "pmc_id": [
+                            "PMC7859994"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.3892/or.2021.7944",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "pubmed",
+                            "@id": "https://www.ncbi.nlm.nih.gov/pubmed/33650653",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "pmc",
+                            "@id": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7859994",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0160078/published_papers/34864066",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0160078/published_papers",
+                    "rm:id": "34864066",
+                    "rm:user_id": "0000027974",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2021-10-24T01:13:51Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2021-10-24T01:13:51Z",
+                    "paper_title": {
+                        "en": "低酸素CD69発現誘導は卵巣明細胞がん細胞の生存能をインテグリン-フィブロネクチン相互作用依存的に増強させる"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "小井詰 史朗"
+                            },
+                            {
+                                "name": "太田 幸秀"
+                            },
+                            {
+                                "name": "中村 圭靖"
+                            },
+                            {
+                                "name": "吉原 光代"
+                            },
+                            {
+                                "name": "佐藤 慎哉"
+                            },
+                            {
+                                "name": "横瀬 智之"
+                            },
+                            {
+                                "name": "宮城 悦子"
+                            },
+                            {
+                                "name": "宮城 洋平"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "en": "(一社)日本癌学会"
+                    },
+                    "publication_date": "2020-10",
+                    "publication_name": {
+                        "en": "日本癌学会総会記事"
+                    },
+                    "volume": "79回",
+                    "starting_page": "OE14",
+                    "ending_page": "5",
+                    "languages": [
+                        "eng"
+                    ],
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "0546-0476"
+                        ],
+                        "jamas_id": [
+                            "2021166105"
+                        ]
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0160078/published_papers/34864062",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0160078/published_papers",
+                    "rm:id": "34864062",
+                    "rm:user_id": "0000027974",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2021-10-24T01:13:50Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2021-10-24T01:13:50Z",
+                    "paper_title": {
+                        "en": "Tissue factor pathway inhibitor-2(TFPI-2)は卵巣明細胞癌に特異的な免疫組織化学染色マーカーである"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "太田 幸秀"
+                            },
+                            {
+                                "name": "小井詰 史朗"
+                            },
+                            {
+                                "name": "佐藤 慎哉"
+                            },
+                            {
+                                "name": "中村 圭靖"
+                            },
+                            {
+                                "name": "宮城 悦子"
+                            },
+                            {
+                                "name": "宮城 洋平"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "en": "(一社)日本癌学会"
+                    },
+                    "publication_date": "2020-10",
+                    "publication_name": {
+                        "en": "日本癌学会総会記事"
+                    },
+                    "volume": "79回",
+                    "starting_page": "PE14",
+                    "ending_page": "4",
+                    "languages": [
+                        "eng"
+                    ],
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "0546-0476"
+                        ],
+                        "jamas_id": [
+                            "2021166750"
+                        ]
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0160078/published_papers/34542859",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0160078/published_papers",
+                    "rm:id": "34542859",
+                    "rm:user_id": "0000027974",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2021-10-22T20:53:35Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2021-10-22T20:53:35Z",
+                    "paper_title": {
+                        "en": "低酸素CD69発現誘導は卵巣明細胞がん細胞の生存能をインテグリン-フィブロネクチン相互作用依存的に増強させる"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "小井詰 史朗"
+                            },
+                            {
+                                "name": "太田 幸秀"
+                            },
+                            {
+                                "name": "中村 圭靖"
+                            },
+                            {
+                                "name": "吉原 光代"
+                            },
+                            {
+                                "name": "佐藤 慎哉"
+                            },
+                            {
+                                "name": "横瀬 智之"
+                            },
+                            {
+                                "name": "宮城 悦子"
+                            },
+                            {
+                                "name": "宮城 洋平"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "en": "日本癌学会"
+                    },
+                    "publication_date": "2020-10",
+                    "publication_name": {
+                        "en": "日本癌学会総会記事"
+                    },
+                    "volume": "79回",
+                    "starting_page": "OE14",
+                    "ending_page": "5",
+                    "languages": [
+                        "eng"
+                    ],
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "0546-0476"
+                        ],
+                        "jamas_id": [
+                            "UA20460450"
+                        ]
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0160078/published_papers/34542853",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0160078/published_papers",
+                    "rm:id": "34542853",
+                    "rm:user_id": "0000027974",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2021-10-22T20:53:33Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2021-10-22T20:53:33Z",
+                    "paper_title": {
+                        "en": "Tissue factor pathway inhibitor-2(TFPI-2)は卵巣明細胞癌に特異的な免疫組織化学染色マーカーである"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "太田 幸秀"
+                            },
+                            {
+                                "name": "小井詰 史朗"
+                            },
+                            {
+                                "name": "佐藤 慎哉"
+                            },
+                            {
+                                "name": "中村 圭靖"
+                            },
+                            {
+                                "name": "宮城 悦子"
+                            },
+                            {
+                                "name": "宮城 洋平"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "en": "日本癌学会"
+                    },
+                    "publication_date": "2020-10",
+                    "publication_name": {
+                        "en": "日本癌学会総会記事"
+                    },
+                    "volume": "79回",
+                    "starting_page": "PE14",
+                    "ending_page": "4",
+                    "languages": [
+                        "eng"
+                    ],
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "0546-0476"
+                        ],
+                        "jamas_id": [
+                            "UA20461095"
+                        ]
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0160078/published_papers/34408120",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0160078/published_papers",
+                    "rm:id": "34408120",
+                    "rm:user_id": "0000027974",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2021-10-22T01:45:28Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2021-10-22T01:45:28Z",
+                    "paper_title": {
+                        "en": "Galectin-9 expression as a poor prognostic factor in patients with renal cell carcinoma."
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Ryosuke Jikuya"
+                            },
+                            {
+                                "name": "Takeshi Kishida"
+                            },
+                            {
+                                "name": "Masahiko Sakaguchi"
+                            },
+                            {
+                                "name": "Tomoyuki Yokose"
+                            },
+                            {
+                                "name": "Masato Yasui"
+                            },
+                            {
+                                "name": "Akihito Hashizume"
+                            },
+                            {
+                                "name": "Tomoyuki Tatenuma"
+                            },
+                            {
+                                "name": "Nobuhiko Mizuno"
+                            },
+                            {
+                                "name": "Kentaro Muraoka"
+                            },
+                            {
+                                "name": "Susumu Umemoto"
+                            },
+                            {
+                                "name": "Masaki Kawai"
+                            },
+                            {
+                                "name": "Mitsuyo Yoshihara"
+                            },
+                            {
+                                "name": "Yoshiyasu Nakamura"
+                            },
+                            {
+                                "name": "Yohei Miyagi"
+                            },
+                            {
+                                "name": "Tetsuro Sasada"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "Recently, the effectiveness of anti-programmed death 1 (PD-1) antibody therapy in the treatment of renal cell carcinoma (RCC) has been established. Nevertheless, efficacy has been reported to be limited to only 10-30% of patients. To develop more effective immunotherapy for RCC, we analyzed the immunological characteristics in RCC tissues by immunohistochemistry (IHC). We prepared a tissue microarray that consisted of tumor tissue sections (1 mm in diameter) from 83 RCC patients in Kanagawa Cancer Center between 2006 and 2015. IHC analysis was performed with antibodies specific to immune-related (CD8 and Foxp3) and immune checkpoint (programmed death ligand 1 (PD-L1) and 2 (PD-L2), B7-H4 and galectin-9) molecules. The numbers and proportions of positively stained tumor cells or immune cells were determined in each section. From multivariate analysis of all 83 patients, higher galectin-9 expression was detected as a factor associated with worse overall survival (OS) (P = 0.029) and that higher stage and higher B7-H4 expression were associated with worse progression-free survival (PFS) (P < 0.001 and P = 0.021, respectively). Similarly, in multivariate analysis of 69 patients with clear cell RCC, though not statistically significant, there was a trend for association between higher galectin-9 expression and worse OS (P = 0.067), while higher stage was associated with worse PFS (P < 0.001). This study suggests that higher galectin-9 expression is an independent adverse prognostic factor of OS in RCC patients. Therefore, to develop more effective personalized immunotherapy to treat RCC, it may be important to target not only PD-1/PD-L1, but also other immune checkpoint molecules such as galectin-9."
+                    },
+                    "publication_date": "2020-10",
+                    "publication_name": {
+                        "en": "Cancer immunology, immunotherapy : CII"
+                    },
+                    "volume": "69",
+                    "number": "10",
+                    "starting_page": "2041",
+                    "ending_page": "2051",
+                    "languages": [
+                        "eng"
+                    ],
+                    "published_paper_type": "scientific_journal",
+                    "is_international_journal": true,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1007/s00262-020-02608-6"
+                        ],
+                        "pm_id": [
+                            "32424467"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1007/s00262-020-02608-6",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "pubmed",
+                            "@id": "https://www.ncbi.nlm.nih.gov/pubmed/32424467",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0160078/published_papers/47092110",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0160078/published_papers",
+                    "rm:id": "47092110",
+                    "rm:user_id": "0000027974",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2024-07-16T07:58:44Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2024-07-16T07:58:44Z",
+                    "paper_title": {
+                        "en": "Induction of tryptophan hydroxylase in the liver of s.c. tumor model of prostate cancer"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Asami Hagiwara"
+                            },
+                            {
+                                "name": "Yoshiyasu Nakamura"
+                            },
+                            {
+                                "name": "Rumi Nishimoto"
+                            },
+                            {
+                                "name": "Satoko Ueno"
+                            },
+                            {
+                                "name": "Yohei Miyagi"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "Enhanced degradation of tryptophan (Trp) and thus decreased plasma Trp levels are common in several types of cancers. Although it is well known that Trp catabolism is induced in the tumor microenvironment by the enzymes expressed in cancer cells, immune cells, or both, few studies have examined systemic Trp catabolism in cancer pathophysiology. The present study aimed to evaluate Trp catabolism in both tumor and peripheral tissues using tumor-engrafted Copenhagen rats that were s.c. inoculated with AT-2 rat prostate cancer cells negative for expression of Trp catabolic enzymes. Liquid chromatography-tandem mass spectrometry (LC-MS/MS) metabolomics showed significantly decreased plasma Trp levels in AT-2 engrafted rats, accompanied by increased kynurenine/Trp ratios in spleen and thymus and serotonin levels in liver and thymus. Quantitative PCR and enzymatic activity assays showed indoleamine-2, 3-dioxygenase, an inducible enzyme that catalyzes Trp to kynurenine, was increased in tumor tissues, whereas tryptophan-2,3-dioxygenase, a major Trp catabolic enzyme that regulates systemic level of Trp, tended to be increased in the liver of AT-2 engrafted rats. Furthermore, tryptophan hydroxylase-1 (TPH1), an enzyme that catalyzes the reaction of Trp to serotonin, was significantly increased in liver and spleen of AT-2 engrafted rats. Further histochemical analysis revealed that the induction of TPH1 in the liver could be attributed to infiltration of mast cells. A similar phenomenon was observed with nonneoplastic liver samples from colorectal cancer patients. These results suggested that Trp catabolism toward serotonin synthesis might be induced in peripheral remote tissues in cancer, which could have a pathophysiological effect on cancer."
+                    },
+                    "publisher": {
+                        "en": "Blackwell Publishing Ltd"
+                    },
+                    "publication_date": "2020-04-01",
+                    "publication_name": {
+                        "en": "Cancer Science"
+                    },
+                    "volume": "111",
+                    "number": "4",
+                    "starting_page": "1218",
+                    "ending_page": "1227",
+                    "languages": [
+                        "eng"
+                    ],
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1111/cas.14333"
+                        ],
+                        "issn": [
+                            "1349-7006",
+                            "1347-9032"
+                        ],
+                        "pm_id": [
+                            "31997472"
+                        ],
+                        "scopus_id": [
+                            "85080141912"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1111/cas.14333",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "pubmed",
+                            "@id": "https://www.ncbi.nlm.nih.gov/pubmed/31997472",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0160078/published_papers/29531667",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0160078/published_papers",
+                    "rm:id": "29531667",
+                    "rm:user_id": "0000027974",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-08-25T05:09:11Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-08-25T05:09:11Z",
+                    "paper_title": {
+                        "en": "EZH2 and MMSET Were Identified as Potentially Useful Therapeutic Targets in Metaplastic Breast Carcinoma."
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Hirotaka Nakayama"
+                            },
+                            {
+                                "name": "Kae Kawachi"
+                            },
+                            {
+                                "name": "Nobuyasu Suganuma"
+                            },
+                            {
+                                "name": "Tatsuya Yoshida"
+                            },
+                            {
+                                "name": "Toshinari Yamashita"
+                            },
+                            {
+                                "name": "Takashi Yamanaka"
+                            },
+                            {
+                                "name": "Yuka Matsubara"
+                            },
+                            {
+                                "name": "Kaori Kohagura"
+                            },
+                            {
+                                "name": "Soji Toda"
+                            },
+                            {
+                                "name": "Yoshiyasu Nakamura"
+                            },
+                            {
+                                "name": "Yohei Miyagi"
+                            },
+                            {
+                                "name": "Yasushi Rino"
+                            },
+                            {
+                                "name": "Munetaka Masuda"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "BACKGROUND/AIM: Metaplastic breast carcinoma (MBC) is a rare malignancy, which is often triple-negative for the hormone receptors and human epidermal growth factor receptor 2, and thus, does not benefit from targeted therapy. In this study, we examined the expression of methylation and demethylation enzymes by immunostaining MBC and the adjacent normal tissues or triple-negative ductal carcinoma (TNDC), and identified alterations that may be used as therapeutic targets. MATERIALS AND METHODS: We retrospectively studied surgical specimens from 15 patients who underwent surgery for MBC at Kanagawa Cancer Center between 2005 and 2016, and similarly from 14 patients with TNDC. The frequencies of high methylation/demethylation enzyme expression were compared among them. RESULTS: The frequencies of high enhancer of zeste homolog 2 (EZH2) and multiple myeloma SET domain (MMSET) expression were significantly higher in both MBC and TNDC than in normal tissue. CONCLUSION: EZH2 and MMSET may be useful therapeutic targets in MBC."
+                    },
+                    "publication_date": "2020-04",
+                    "publication_name": {
+                        "en": "Anticancer research"
+                    },
+                    "volume": "40",
+                    "number": "4",
+                    "starting_page": "2133",
+                    "ending_page": "2139",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "is_international_journal": true,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.21873/anticanres.14172"
+                        ],
+                        "pm_id": [
+                            "32234906"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.21873/anticanres.14172",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "pubmed",
+                            "@id": "https://www.ncbi.nlm.nih.gov/pubmed/32234906",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0160078/published_papers/25457629",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0160078/published_papers",
+                    "rm:id": "25457629",
+                    "rm:user_id": "0000027974",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_papers",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-03-30T21:16:36Z",
+                    "rm:modifier_id": "ai:assign_based_papers",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-03-30T21:16:36Z",
+                    "paper_title": {
+                        "en": "GPRC5A facilitates cell proliferation through cell cycle regulation and correlates with bone metastasis in prostate cancer"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Sawada, Yuichiro"
+                            },
+                            {
+                                "name": "Kikugawa, Tadahiko"
+                            },
+                            {
+                                "name": "Iio, Hiroyuki"
+                            },
+                            {
+                                "name": "Sakakibara, Iori"
+                            },
+                            {
+                                "name": "Yoshida, Shuhei"
+                            },
+                            {
+                                "name": "Ikedo, Aoi"
+                            },
+                            {
+                                "name": "Yanagihara, Yuta"
+                            },
+                            {
+                                "name": "Saeki, Noritaka"
+                            },
+                            {
+                                "name": "Gyorffy, Balazs"
+                            },
+                            {
+                                "name": "Kishida, Takeshi"
+                            },
+                            {
+                                "name": "Okubo, Yoichiro"
+                            },
+                            {
+                                "name": "Nakamura, Yoshiyasu"
+                            },
+                            {
+                                "name": "Miyagi, Yohei"
+                            },
+                            {
+                                "name": "Saika, Takashi"
+                            },
+                            {
+                                "name": "Imai, Yuuki"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "The prognosis of patients with progressive prostate cancers that are hormone refractory and/or have bone metastasis is poor. Multiple therapeutic targets to improve prostate cancer patient survival have been investigated, including orphan GPCRs. In our study, we identified G Protein-Coupled Receptor Class C Group 5 Member A (GPRC5A) as a candidate therapeutic molecule using integrative gene expression analyses of registered data sets for prostate cancer cell lines. Kaplan-Meier analysis of TCGA data sets revealed that patients who have high GPRC5A expression had significantly shorter overall survival. PC3 prostate cancer cells with CRISPR/Cas9-mediated GPRC5A knockout exhibited significantly reduced cell proliferation both in vitro and in vivo. RNA-seq revealed that GPRC5A KO PC3 cells had dysregulated expression of cell cycle-related genes, leading to cell cycle arrest at the G2/M phase. Furthermore, the registered gene expression profile data set showed that the expression level of GPRC5A in original lesions of prostate cancer patients with bone metastasis was higher than that without bone metastasis. In fact, GPRC5A KO PC3 cells failed to establish bone metastasis in xenograft mice models. In addition, our clinical study revealed that GPRC5A expression levels in prostate cancer patient samples were significantly correlated with bone metastasis as well as the patient's Gleason score (GS). Combined assessment with the immunoreactivity of GPRC5A and GS displayed higher specificity for predicting the occurrence of bone metastasis. Together, our findings indicate that GPRC5A can be a possible therapeutic target and prognostic marker molecule for progressive prostate cancer."
+                    },
+                    "publisher": {
+                        "en": "WILEY"
+                    },
+                    "publication_date": "2020-03",
+                    "publication_name": {
+                        "en": "INTERNATIONAL JOURNAL OF CANCER"
+                    },
+                    "volume": "146",
+                    "number": "5",
+                    "starting_page": "1369",
+                    "ending_page": "1382",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1002/ijc.32554"
+                        ],
+                        "issn": [
+                            "0020-7136"
+                        ],
+                        "e_issn": [
+                            "1097-0215"
+                        ],
+                        "wos_id": [
+                            "WOS:000477511500001"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1002/ijc.32554",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000477511500001&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0160078/misc",
+            "@type": "misc",
+            "@reverse": "https://api.researchmap.jp/read0160078",
+            "total_items": 19,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0160078/misc/41027492",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0160078/misc",
+                    "rm:id": "41027492",
+                    "rm:user_id": "0000027974",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_papers",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2023-01-04T10:20:13Z",
+                    "rm:modifier_id": "ai:assign_based_papers",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2023-01-04T10:20:13Z",
+                    "paper_title": {
+                        "en": "新規抗がん物質PACMA5は卵巣明細胞がん細胞にpyroptosisiを誘導する(The propionic acid carbamoyl methyl amide, PACMA5, induces pyroptosis in ovarian clear cell carcinoma cells)"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "宮城 洋平"
+                            },
+                            {
+                                "name": "室井 敦"
+                            },
+                            {
+                                "name": "澤崎 達也"
+                            },
+                            {
+                                "name": "太田 幸秀"
+                            },
+                            {
+                                "name": "宮城 悦子"
+                            },
+                            {
+                                "name": "横瀬 智之"
+                            },
+                            {
+                                "name": "中村 圭靖"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "en": "(一社)日本癌学会"
+                    },
+                    "publication_date": "2022-09",
+                    "publication_name": {
+                        "en": "日本癌学会総会記事"
+                    },
+                    "volume": "81回",
+                    "starting_page": "P",
+                    "ending_page": "1329",
+                    "languages": [
+                        "eng"
+                    ],
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "0546-0476"
+                        ],
+                        "jamas_id": [
+                            "WA03480640"
+                        ]
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0160078/misc/35096994",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0160078/misc",
+                    "rm:id": "35096994",
+                    "rm:user_id": "0000027974",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2021-10-24T22:46:16Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2021-10-24T22:46:16Z",
+                    "paper_title": {
+                        "en": "Hypoxia-driven CD69 synthesis enhances ovarian clear cell carcinoma cell survival via integrin-fibronectin interaction"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Shiro Koizume"
+                            },
+                            {
+                                "name": "Yukihide Ota"
+                            },
+                            {
+                                "name": "Yoshiyasu Nakamura"
+                            },
+                            {
+                                "name": "Mitsuyo Yoshihara"
+                            },
+                            {
+                                "name": "Shinya Sato"
+                            },
+                            {
+                                "name": "Tomoyuki Yokose"
+                            },
+                            {
+                                "name": "Etsuko Miyagi"
+                            },
+                            {
+                                "name": "Yohei Miyagi"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "en": "WILEY"
+                    },
+                    "publication_date": "2021-02",
+                    "publication_name": {
+                        "en": "CANCER SCIENCE"
+                    },
+                    "volume": "112",
+                    "starting_page": "451",
+                    "ending_page": "451",
+                    "languages": [
+                        "eng"
+                    ],
+                    "misc_type": "summary_international_conference",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "1347-9032"
+                        ],
+                        "e_issn": [
+                            "1349-7006"
+                        ],
+                        "wos_id": [
+                            "WOS:000618060102108"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000618060102108&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0160078/misc/35096989",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0160078/misc",
+                    "rm:id": "35096989",
+                    "rm:user_id": "0000027974",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2021-10-24T22:46:14Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2021-10-24T22:46:14Z",
+                    "paper_title": {
+                        "en": "Tissue factor pathway inhibitor-2 (TFPI-2) is a novel immunohistochemical biomarker in ovarian clear cell carcinoma"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Yukihide Ota"
+                            },
+                            {
+                                "name": "Shiro Koizume"
+                            },
+                            {
+                                "name": "Shinya Sato"
+                            },
+                            {
+                                "name": "Yoshiyasu Nakamura"
+                            },
+                            {
+                                "name": "Etsuko Miyagi"
+                            },
+                            {
+                                "name": "Yohei Miyagi"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "en": "WILEY"
+                    },
+                    "publication_date": "2021-02",
+                    "publication_name": {
+                        "en": "CANCER SCIENCE"
+                    },
+                    "volume": "112",
+                    "starting_page": "770",
+                    "ending_page": "770",
+                    "languages": [
+                        "eng"
+                    ],
+                    "misc_type": "summary_international_conference",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "1347-9032"
+                        ],
+                        "e_issn": [
+                            "1349-7006"
+                        ],
+                        "wos_id": [
+                            "WOS:000618060103344"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000618060103344&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0160078/misc/25436990",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0160078/misc",
+                    "rm:id": "25436990",
+                    "rm:user_id": "0000027974",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_papers",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-03-30T17:35:54Z",
+                    "rm:modifier_id": "ai:assign_based_papers",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-03-30T17:35:54Z",
+                    "paper_title": {
+                        "en": "血清飢餓低酸素環境で発現誘導される酵素とその産物による腫瘍悪性化機序(Cancer progression by an enzyme expression under serum starvation and hypoxia)"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "竹中 克也"
+                            },
+                            {
+                                "name": "小森 由香子"
+                            },
+                            {
+                                "name": "中村 圭靖"
+                            },
+                            {
+                                "name": "小井詰 史朗"
+                            },
+                            {
+                                "name": "宮城 洋平"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "en": "日本癌学会"
+                    },
+                    "publication_date": "2019-09",
+                    "publication_name": {
+                        "en": "日本癌学会総会記事"
+                    },
+                    "volume": "78回",
+                    "starting_page": "P",
+                    "ending_page": "1330",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "misc_type": "summary_national_conference",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "0546-0476"
+                        ],
+                        "jamas_id": [
+                            "TB08600589"
+                        ]
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0160078/misc/25436985",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0160078/misc",
+                    "rm:id": "25436985",
+                    "rm:user_id": "0000027974",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_papers",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-03-30T17:35:53Z",
+                    "rm:modifier_id": "ai:assign_based_papers",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-03-30T17:35:53Z",
+                    "paper_title": {
+                        "en": "転写因子HIF1とSREBP1による共同的GILZ発現増強は卵巣がん細胞の凝固性細胞外小胞生成に重要である(HIF1 and SREBP1 collaborate to induce GILZ expression to produce procoagulant microvesicles in ovarian cancer cells)"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "小井詰 史朗"
+                            },
+                            {
+                                "name": "中村 圭靖"
+                            },
+                            {
+                                "name": "吉原 光代"
+                            },
+                            {
+                                "name": "宮城 悦子"
+                            },
+                            {
+                                "name": "竹中 克也"
+                            },
+                            {
+                                "name": "宮城 洋平"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "en": "日本癌学会"
+                    },
+                    "publication_date": "2019-09",
+                    "publication_name": {
+                        "en": "日本癌学会総会記事"
+                    },
+                    "volume": "78回",
+                    "starting_page": "E",
+                    "ending_page": "1016",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "0546-0476"
+                        ],
+                        "jamas_id": [
+                            "TB08600070"
+                        ]
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0160078/misc/25436988",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0160078/misc",
+                    "rm:id": "25436988",
+                    "rm:user_id": "0000027974",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_papers",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-03-30T17:35:53Z",
+                    "rm:modifier_id": "ai:assign_based_papers",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-03-30T17:35:53Z",
+                    "paper_title": {
+                        "ja": "低酸素で発現誘導されるATP-graspスーパーファミリー酵素(Expression of an ATP-grasp superfamily enzyme under hypoxia)",
+                        "en": "低酸素で発現誘導されるATP-graspスーパーファミリー酵素(Expression of an ATP-grasp superfamily enzyme under hypoxia)"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "竹中 克也"
+                            },
+                            {
+                                "name": "小森 由香子"
+                            },
+                            {
+                                "name": "中村 圭靖"
+                            },
+                            {
+                                "name": "小井詰 史朗"
+                            },
+                            {
+                                "name": "宮城 洋平"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "竹中 克也"
+                            },
+                            {
+                                "name": "小森 由香子"
+                            },
+                            {
+                                "name": "中村 圭靖"
+                            },
+                            {
+                                "name": "小井詰 史朗"
+                            },
+                            {
+                                "name": "宮城 洋平"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "日本癌学会",
+                        "en": "日本癌学会"
+                    },
+                    "publication_date": "2018-09",
+                    "publication_name": {
+                        "ja": "日本癌学会総会記事",
+                        "en": "日本癌学会総会記事"
+                    },
+                    "volume": "77回",
+                    "starting_page": "2217",
+                    "ending_page": "2217",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "misc_type": "summary_national_conference",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "0546-0476"
+                        ],
+                        "jamas_id": [
+                            "S920482073"
+                        ]
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0160078/misc/25436976",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0160078/misc",
+                    "rm:id": "25436976",
+                    "rm:user_id": "0000027974",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_papers",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-03-30T17:35:48Z",
+                    "rm:modifier_id": "ai:assign_based_papers",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-03-30T17:35:48Z",
+                    "paper_title": {
+                        "ja": "異所性CD69発現は卵巣明細胞がん細胞の腹腔内生存に重要である(Ectopic synthesis of CD69 is important for intra-peritoneal survival of ovarian clear cell carcinoma cells)",
+                        "en": "異所性CD69発現は卵巣明細胞がん細胞の腹腔内生存に重要である(Ectopic synthesis of CD69 is important for intra-peritoneal survival of ovarian clear cell carcinoma cells)"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "小井詰 史朗"
+                            },
+                            {
+                                "name": "中村 圭靖"
+                            },
+                            {
+                                "name": "吉原 光代"
+                            },
+                            {
+                                "name": "竹中 克也"
+                            },
+                            {
+                                "name": "宮城 悦子"
+                            },
+                            {
+                                "name": "宮城 洋平"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "小井詰 史朗"
+                            },
+                            {
+                                "name": "中村 圭靖"
+                            },
+                            {
+                                "name": "吉原 光代"
+                            },
+                            {
+                                "name": "竹中 克也"
+                            },
+                            {
+                                "name": "宮城 悦子"
+                            },
+                            {
+                                "name": "宮城 洋平"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "日本癌学会",
+                        "en": "日本癌学会"
+                    },
+                    "publication_date": "2018-09",
+                    "publication_name": {
+                        "ja": "日本癌学会総会記事",
+                        "en": "日本癌学会総会記事"
+                    },
+                    "volume": "77回",
+                    "starting_page": "1148",
+                    "ending_page": "1148",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "0546-0476"
+                        ],
+                        "jamas_id": [
+                            "S920481069"
+                        ]
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0160078/misc/38347507",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0160078/misc",
+                    "rm:id": "38347507",
+                    "rm:user_id": "0000027974",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_papers",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2022-07-08T12:29:11Z",
+                    "rm:modifier_id": "ai:assign_based_papers",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-07-08T12:29:11Z",
+                    "paper_title": {
+                        "en": "Afatinib activity against head-and-neck or esophageal squamous cell carcinoma: Significance of activating oncogenic HER4 mutations in head-and-neck squamous cell carcinoma"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Y. Togashi"
+                            },
+                            {
+                                "name": "Y. Nakamura"
+                            },
+                            {
+                                "name": "S. Tomida"
+                            },
+                            {
+                                "name": "H. Hayashi"
+                            },
+                            {
+                                "name": "M. A. de Velasco"
+                            },
+                            {
+                                "name": "K. Sakai"
+                            },
+                            {
+                                "name": "Y. Fujita"
+                            },
+                            {
+                                "name": "S. Hamada"
+                            },
+                            {
+                                "name": "K. Nishio"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "en": "OXFORD UNIV PRESS"
+                    },
+                    "publication_date": "2015-12",
+                    "publication_name": {
+                        "en": "ANNALS OF ONCOLOGY"
+                    },
+                    "volume": "26",
+                    "starting_page": "97",
+                    "ending_page": "97",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "misc_type": "summary_international_conference",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "0923-7534"
+                        ],
+                        "e_issn": [
+                            "1569-8041"
+                        ],
+                        "wos_id": [
+                            "WOS:000367158700328"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000367158700328&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0160078/misc/28289152",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0160078/misc",
+                    "rm:id": "28289152",
+                    "rm:user_id": "0000027974",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-07-02T14:01:46Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-07-02T14:01:46Z",
+                    "paper_title": {
+                        "en": "The valuable experimental model system \"Cancer Xenopatient\" established in NOG mice"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Tsuyoshi Chijiwa"
+                            },
+                            {
+                                "name": "Kenji Kawai"
+                            },
+                            {
+                                "name": "Akira Noguchi"
+                            },
+                            {
+                                "name": "Hidemitsu Sato"
+                            },
+                            {
+                                "name": "Akimune Hayashi"
+                            },
+                            {
+                                "name": "Haruhiko Cho"
+                            },
+                            {
+                                "name": "Manabu Shiozawa"
+                            },
+                            {
+                                "name": "Takeshi Kishida"
+                            },
+                            {
+                                "name": "Soichiro Morinaga"
+                            },
+                            {
+                                "name": "Tomoyuki Yokose"
+                            },
+                            {
+                                "name": "Makoto Katayama"
+                            },
+                            {
+                                "name": "Nobuo Takenaka"
+                            },
+                            {
+                                "name": "Hiroshi Suemizu"
+                            },
+                            {
+                                "name": "Roppei Yamada"
+                            },
+                            {
+                                "name": "Yoshiyasu Nakamura"
+                            },
+                            {
+                                "name": "Yasuo Takano"
+                            },
+                            {
+                                "name": "Kohzoh Imai"
+                            },
+                            {
+                                "name": "Yohei Miyagi"
+                            },
+                            {
+                                "name": "Masato Nakamura"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "en": "AMER ASSOC CANCER RESEARCH"
+                    },
+                    "publication_date": "2015-08",
+                    "publication_name": {
+                        "en": "CANCER RESEARCH"
+                    },
+                    "volume": "75",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "misc_type": "summary_international_conference",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1158/1538-7445.AM2015-1449"
+                        ],
+                        "issn": [
+                            "0008-5472"
+                        ],
+                        "e_issn": [
+                            "1538-7445"
+                        ],
+                        "wos_id": [
+                            "WOS:000371578502487"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1158/1538-7445.AM2015-1449",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000371578502487&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0160078/misc/28071649",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0160078/misc",
+                    "rm:id": "28071649",
+                    "rm:user_id": "0000027974",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-06-30T08:28:30Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-06-30T08:28:30Z",
+                    "paper_title": {
+                        "en": "Sp1 and HIFs mediate synergistic activation of ICAM1 gene under serum starved hypoxia and promotes growth of ovarian cancer"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Shiro Koizume"
+                            },
+                            {
+                                "name": "Shin Ito"
+                            },
+                            {
+                                "name": "Yoshiyasu Nakamura"
+                            },
+                            {
+                                "name": "Mitsuyo Yoshihara"
+                            },
+                            {
+                                "name": "Yasuo Takano"
+                            },
+                            {
+                                "name": "Yohei Miyagi"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "en": "AMER ASSOC CANCER RESEARCH"
+                    },
+                    "publication_date": "2014-10",
+                    "publication_name": {
+                        "en": "CANCER RESEARCH"
+                    },
+                    "volume": "74",
+                    "number": "19",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "misc_type": "summary_international_conference",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1158/1538-7445.AM2014-502"
+                        ],
+                        "issn": [
+                            "0008-5472"
+                        ],
+                        "e_issn": [
+                            "1538-7445"
+                        ],
+                        "wos_id": [
+                            "WOS:000349906904466"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1158/1538-7445.AM2014-502",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000349906904466&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0160078/misc/24887013",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0160078/misc",
+                    "rm:id": "24887013",
+                    "rm:user_id": "0000027974",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_papers",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-03-24T19:25:44Z",
+                    "rm:modifier_id": "ai:assign_based_papers",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-03-24T19:25:44Z",
+                    "paper_title": {
+                        "ja": "脂質欠乏性ハイポキシアはSp1依存性遺伝子発現誘導を相乗的に増強させて卵巣腫瘍の増殖を促進する(Lipid starvation and hypoxia synergistically activates Sp1-dependent genes to promote growth of ovarian cancer)",
+                        "en": "脂質欠乏性ハイポキシアはSp1依存性遺伝子発現誘導を相乗的に増強させて卵巣腫瘍の増殖を促進する(Lipid starvation and hypoxia synergistically activates Sp1-dependent genes to promote growth of ovarian cancer)"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "小井詰 史朗"
+                            },
+                            {
+                                "name": "伊藤 慎"
+                            },
+                            {
+                                "name": "中村 圭靖"
+                            },
+                            {
+                                "name": "吉原 光代"
+                            },
+                            {
+                                "name": "山田 六平"
+                            },
+                            {
+                                "name": "宮城 悦子"
+                            },
+                            {
+                                "name": "平原 史樹"
+                            },
+                            {
+                                "name": "宮城 洋平"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "小井詰 史朗"
+                            },
+                            {
+                                "name": "伊藤 慎"
+                            },
+                            {
+                                "name": "中村 圭靖"
+                            },
+                            {
+                                "name": "吉原 光代"
+                            },
+                            {
+                                "name": "山田 六平"
+                            },
+                            {
+                                "name": "宮城 悦子"
+                            },
+                            {
+                                "name": "平原 史樹"
+                            },
+                            {
+                                "name": "宮城 洋平"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "日本癌学会",
+                        "en": "日本癌学会"
+                    },
+                    "publication_date": "2014-09",
+                    "publication_name": {
+                        "ja": "日本癌学会総会記事",
+                        "en": "日本癌学会総会記事"
+                    },
+                    "volume": "73回",
+                    "starting_page": "E",
+                    "ending_page": "1004",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "0546-0476"
+                        ],
+                        "jamas_id": [
+                            "2015293061"
+                        ]
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0160078/misc/28036900",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0160078/misc",
+                    "rm:id": "28036900",
+                    "rm:user_id": "0000027974",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-06-29T23:37:42Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-06-29T23:37:42Z",
+                    "paper_title": {
+                        "en": "MicroRNA-21 ISH analysis to predict DFS in pancreatic cancer patients undergoing adjuvant gemcitabine after curative surgery"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Soichiro Morinaga"
+                            },
+                            {
+                                "name": "Yoshiyasu Nakamura"
+                            },
+                            {
+                                "name": "Yusuke Katayama"
+                            },
+                            {
+                                "name": "Sho Sawazaki"
+                            },
+                            {
+                                "name": "Koji Numata"
+                            },
+                            {
+                                "name": "Kosei Higuchi"
+                            },
+                            {
+                                "name": "Teni Godai"
+                            },
+                            {
+                                "name": "Manabu Shiozawa"
+                            },
+                            {
+                                "name": "Yohei Miyagi"
+                            },
+                            {
+                                "name": "Shinichi Ohkawa"
+                            },
+                            {
+                                "name": "Kameda Yoichi"
+                            },
+                            {
+                                "name": "Makoto Akaike"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "en": "AMER SOC CLINICAL ONCOLOGY"
+                    },
+                    "publication_date": "2014-01",
+                    "publication_name": {
+                        "en": "JOURNAL OF CLINICAL ONCOLOGY"
+                    },
+                    "volume": "32",
+                    "number": "3",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "misc_type": "summary_international_conference",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "0732-183X"
+                        ],
+                        "e_issn": [
+                            "1527-7755"
+                        ],
+                        "wos_id": [
+                            "WOS:000333682100237"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000333682100237&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0160078/misc/28214247",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0160078/misc",
+                    "rm:id": "28214247",
+                    "rm:user_id": "0000027974",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-07-01T21:55:47Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-07-01T21:55:47Z",
+                    "paper_title": {
+                        "en": "The clinical significance of S100A10 in pancreatic cancer"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Naoto Yamamoto"
+                            },
+                            {
+                                "name": "Yoshiyasu Nakamura"
+                            },
+                            {
+                                "name": "Soichiro Morinaga"
+                            },
+                            {
+                                "name": "Koji Numata"
+                            },
+                            {
+                                "name": "Sho Sawazaki"
+                            },
+                            {
+                                "name": "Takuo Watanabe"
+                            },
+                            {
+                                "name": "Masakatsu Numata"
+                            },
+                            {
+                                "name": "Hiroshi Tamagawa"
+                            },
+                            {
+                                "name": "Teni Godai"
+                            },
+                            {
+                                "name": "Manabu Shiozawa"
+                            },
+                            {
+                                "name": "Makoto Akaike"
+                            },
+                            {
+                                "name": "Kameda Yocihi"
+                            },
+                            {
+                                "name": "Makoto Ueno"
+                            },
+                            {
+                                "name": "Shinichi Ohkawa"
+                            },
+                            {
+                                "name": "Takashi Oshima"
+                            },
+                            {
+                                "name": "Norio Yukawa"
+                            },
+                            {
+                                "name": "Yasushi Rino"
+                            },
+                            {
+                                "name": "Munetaka Masuda"
+                            },
+                            {
+                                "name": "Yohei Miyagi"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "en": "AMER SOC CLINICAL ONCOLOGY"
+                    },
+                    "publication_date": "2013-02",
+                    "publication_name": {
+                        "en": "JOURNAL OF CLINICAL ONCOLOGY"
+                    },
+                    "volume": "31",
+                    "number": "4",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "misc_type": "summary_international_conference",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "0732-183X"
+                        ],
+                        "e_issn": [
+                            "1527-7755"
+                        ],
+                        "wos_id": [
+                            "WOS:000333679000193"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000333679000193&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0160078/misc/28653179",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0160078/misc",
+                    "rm:id": "28653179",
+                    "rm:user_id": "0000027974",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-07-07T03:51:19Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-07-07T03:51:19Z",
+                    "paper_title": {
+                        "en": "Close association between subsided inflammation and the development of histologically less malignant HCC in HCV-associated LC"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Kazuo Tarao"
+                            },
+                            {
+                                "name": "Kaoru Miyakawa"
+                            },
+                            {
+                                "name": "Satoshi Kobayashi"
+                            },
+                            {
+                                "name": "Makoto Ueno"
+                            },
+                            {
+                                "name": "Shinichi Ohkawa"
+                            },
+                            {
+                                "name": "Soichiro Morinaga"
+                            },
+                            {
+                                "name": "Yoshiyasu Nakamura"
+                            },
+                            {
+                                "name": "Yohei Miyagi"
+                            },
+                            {
+                                "name": "Masahiko Okudaira"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "en": "AMER ASSOC CANCER RESEARCH"
+                    },
+                    "publication_date": "2012-04",
+                    "publication_name": {
+                        "en": "CANCER RESEARCH"
+                    },
+                    "volume": "72",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "misc_type": "summary_international_conference",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1158/1538-7445.AM2012-394"
+                        ],
+                        "issn": [
+                            "0008-5472"
+                        ],
+                        "e_issn": [
+                            "1538-7445"
+                        ],
+                        "wos_id": [
+                            "WOS:000209701505447"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1158/1538-7445.AM2012-394",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000209701505447&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0160078/misc/28637053",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0160078/misc",
+                    "rm:id": "28637053",
+                    "rm:user_id": "0000027974",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-07-06T22:11:59Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-07-06T22:11:59Z",
+                    "paper_title": {
+                        "en": "Functional analysis of annexin A4 and the implication in ovarian clear cell adenocarcinoma (OCCA) phenotypes"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Tae Mogami"
+                            },
+                            {
+                                "name": "Naho Yokota"
+                            },
+                            {
+                                "name": "Mitsuyo Yoshihara"
+                            },
+                            {
+                                "name": "Yoshiyasu Nakamura"
+                            },
+                            {
+                                "name": "Yuji Sakuma"
+                            },
+                            {
+                                "name": "Shiro Koizume"
+                            },
+                            {
+                                "name": "Mikiko Asai-Sato"
+                            },
+                            {
+                                "name": "Etsuko Miyagi"
+                            },
+                            {
+                                "name": "Fumiki Hirahara"
+                            },
+                            {
+                                "name": "Yohei Miyagi"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "en": "AMER ASSOC CANCER RESEARCH"
+                    },
+                    "publication_date": "2012-04",
+                    "publication_name": {
+                        "en": "CANCER RESEARCH"
+                    },
+                    "volume": "72",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "misc_type": "summary_international_conference",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1158/1538-7445.AM2011-1856"
+                        ],
+                        "issn": [
+                            "0008-5472"
+                        ],
+                        "e_issn": [
+                            "1538-7445"
+                        ],
+                        "wos_id": [
+                            "WOS:000209701500069"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1158/1538-7445.AM2011-1856",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000209701500069&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0160078/misc/28305532",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0160078/misc",
+                    "rm:id": "28305532",
+                    "rm:user_id": "0000027974",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-07-02T17:56:07Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-07-02T17:56:07Z",
+                    "paper_title": {
+                        "en": "Hypoxic activation of FVII gene in cancer cells mediated by interaction among HIF2 alpha, Sp1, and HDAC4"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Shiro Koizume"
+                            },
+                            {
+                                "name": "Etsuko Miyagi"
+                            },
+                            {
+                                "name": "Fumiki Hirahara"
+                            },
+                            {
+                                "name": "Yoshiyasu Nakamura"
+                            },
+                            {
+                                "name": "Yasuo Takano"
+                            },
+                            {
+                                "name": "Wolfram Ruf"
+                            },
+                            {
+                                "name": "Yohei Miyagi"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "en": "AMER ASSOC CANCER RESEARCH"
+                    },
+                    "publication_date": "2011-04",
+                    "publication_name": {
+                        "en": "CANCER RESEARCH"
+                    },
+                    "volume": "71",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "misc_type": "summary_international_conference",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1158/1538-7445.AM2011-1512"
+                        ],
+                        "issn": [
+                            "0008-5472"
+                        ],
+                        "e_issn": [
+                            "1538-7445"
+                        ],
+                        "wos_id": [
+                            "WOS:000209701300281"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1158/1538-7445.AM2011-1512",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000209701300281&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0160078/misc/28282129",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0160078/misc",
+                    "rm:id": "28282129",
+                    "rm:user_id": "0000027974",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-07-02T12:23:38Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-07-02T12:23:38Z",
+                    "paper_title": {
+                        "en": "Inflammation in the background cirrhotic tissue might accelerate the promotion in the HCC development from HCV-associated cirrhosis"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Kazuo Tarao"
+                            },
+                            {
+                                "name": "Kaoru Miyakawa"
+                            },
+                            {
+                                "name": "Yuichi Endoh"
+                            },
+                            {
+                                "name": "Satoshi Kobayashi"
+                            },
+                            {
+                                "name": "Makoto Ueno"
+                            },
+                            {
+                                "name": "Shinichi Ohkawa"
+                            },
+                            {
+                                "name": "Soichiro Morinaga"
+                            },
+                            {
+                                "name": "Yoshiyasu Nakamura"
+                            },
+                            {
+                                "name": "Yohei Miyagi"
+                            },
+                            {
+                                "name": "Yoichi Kameda"
+                            },
+                            {
+                                "name": "Masahiko Okudaira"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "en": "AMER ASSOC CANCER RESEARCH"
+                    },
+                    "publication_date": "2011-04",
+                    "publication_name": {
+                        "en": "CANCER RESEARCH"
+                    },
+                    "volume": "71",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "misc_type": "summary_international_conference",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1158/1538-7445.AM2011-2712"
+                        ],
+                        "issn": [
+                            "0008-5472"
+                        ],
+                        "e_issn": [
+                            "1538-7445"
+                        ],
+                        "wos_id": [
+                            "WOS:000209701300234"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1158/1538-7445.AM2011-2712",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000209701300234&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0160078/misc/29014415",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0160078/misc",
+                    "rm:id": "29014415",
+                    "rm:user_id": "0000027974",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-07-13T06:41:04Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-07-13T06:41:04Z",
+                    "paper_title": {
+                        "en": "Curcumin inhibits ectopic human coagulation factor VII synthesis in breast cancer cells by targeting p300/CBP activity"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Shiro Koizume"
+                            },
+                            {
+                                "name": "Naho Yokota"
+                            },
+                            {
+                                "name": "Etsuko Miyagi"
+                            },
+                            {
+                                "name": "Fumiki Hirahara"
+                            },
+                            {
+                                "name": "Yoshiyasu Nakamura"
+                            },
+                            {
+                                "name": "Akira Yoshida"
+                            },
+                            {
+                                "name": "Eiju Tsuchiya"
+                            },
+                            {
+                                "name": "Wolfram Ruf"
+                            },
+                            {
+                                "name": "Yohei Miyagi"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "en": "AMER ASSOC CANCER RESEARCH"
+                    },
+                    "publication_date": "2009-05",
+                    "publication_name": {
+                        "en": "CANCER RESEARCH"
+                    },
+                    "volume": "69",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "misc_type": "summary_international_conference",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "0008-5472"
+                        ],
+                        "e_issn": [
+                            "1538-7445"
+                        ],
+                        "wos_id": [
+                            "WOS:000209701802212"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000209701802212&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0160078/misc/41164707",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0160078/misc",
+                    "rm:id": "41164707",
+                    "rm:user_id": "0000027974",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_papers",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2023-01-16T08:13:16Z",
+                    "rm:modifier_id": "ai:assign_based_papers",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2023-01-16T08:13:16Z",
+                    "paper_title": {
+                        "en": "Identification of CCDC62-2 as a novel cancer/testis antigen and its immunogenicity."
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Domae S"
+                            },
+                            {
+                                "name": "Nakamura Y"
+                            },
+                            {
+                                "name": "Nakamura Y"
+                            },
+                            {
+                                "name": "Uenaka A"
+                            },
+                            {
+                                "name": "Wada H"
+                            },
+                            {
+                                "name": "Nakata M"
+                            },
+                            {
+                                "name": "Oka M"
+                            },
+                            {
+                                "name": "Kishimoto K"
+                            },
+                            {
+                                "name": "Tsukamoto G"
+                            },
+                            {
+                                "name": "Yoshihama Y"
+                            },
+                            {
+                                "name": "Matsuoka J"
+                            },
+                            {
+                                "name": "Gochi A"
+                            },
+                            {
+                                "name": "Kohno S"
+                            },
+                            {
+                                "name": "Saika T"
+                            },
+                            {
+                                "name": "Sasaki A"
+                            },
+                            {
+                                "name": "Nakayama E"
+                            },
+                            {
+                                "name": "Ono T"
+                            }
+                        ]
+                    },
+                    "publication_date": "2002",
+                    "publication_name": {
+                        "en": "International Journal of Cancer"
+                    },
+                    "volume": "124",
+                    "number": "10",
+                    "starting_page": "2347",
+                    "ending_page": "2352",
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1002/ijc.24220"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1002/ijc.24220",
+                            "is_downloadable": false
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

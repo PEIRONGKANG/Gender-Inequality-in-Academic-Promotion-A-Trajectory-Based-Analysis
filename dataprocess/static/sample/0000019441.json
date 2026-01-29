@@ -1,0 +1,3812 @@
+{
+    "@context": "https://api.researchmap.jp/researcher.jsonld",
+    "@id": "https://api.researchmap.jp/zyun_siroma?format=json",
+    "@type": "researchers",
+    "rm:user_id": "0000019441",
+    "rm:creator_id": "0000019441",
+    "rm:creator_type": "myself",
+    "rm:created": "2001-12-10T15:00:00Z",
+    "rm:modifier_id": "0000019441",
+    "rm:modifier_type": "myself",
+    "rm:modified": "2024-07-18T04:01:52Z",
+    "permalink": "zyun_siroma",
+    "family_name": {
+        "ja": "城間",
+        "ja-Kana": "シロマ",
+        "en": "Siroma"
+    },
+    "given_name": {
+        "ja": "純",
+        "ja-Kana": "ジュン",
+        "en": "Zyun"
+    },
+    "display_name_kana": "disclosed",
+    "display_nickname": "closed",
+    "display_image": "disclosed",
+    "display_contact_point": "disclosed",
+    "display_profile": "disclosed",
+    "see_also": [
+        {
+            "label": "j_global",
+            "@id": "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=200901063101413470"
+        },
+        {
+            "label": "url",
+            "@id": "http://www.aist.go.jp/RESEARCHERDB/cgi-bin/worker_detail.cgi?call=namae&rw_id=J26535750"
+        }
+    ],
+    "display_url": "disclosed",
+    "identifiers": {
+        "j_global_id": [
+            "200901063101413470"
+        ]
+    },
+    "rm:erad_id_verified": false,
+    "rm:orc_id_verified": false,
+    "display_erad_id": "closed",
+    "display_orc_id": "closed",
+    "display_researcher_id": "disclosed",
+    "display_j_global_id": "disclosed",
+    "@graph": [
+        {
+            "@id": "https://api.researchmap.jp/zyun_siroma/research_areas",
+            "@type": "research_areas",
+            "@reverse": "https://api.researchmap.jp/zyun_siroma",
+            "total_items": 1,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/zyun_siroma/research_areas/213605",
+                    "@type": "research_areas",
+                    "@reverse": "https://api.researchmap.jp/zyun_siroma/research_areas",
+                    "rm:id": "213605",
+                    "rm:user_id": "0000019441",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000019441",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2001-12-10T15:00:00Z",
+                    "rm:modifier_id": "0000019441",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2001-12-10T15:00:00Z",
+                    "discipline_number": "A489",
+                    "item_number": "A32010",
+                    "discipline": {
+                        "ja": "ナノテク・材料",
+                        "en": "Nanotechnology/Materials"
+                    },
+                    "research_field": {
+                        "ja": "基礎物理化学",
+                        "en": "Basic physical chemistry"
+                    }
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/zyun_siroma/published_papers",
+            "@type": "published_papers",
+            "@reverse": "https://api.researchmap.jp/zyun_siroma",
+            "total_items": 110,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/zyun_siroma/published_papers/47144891",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/zyun_siroma/published_papers",
+                    "rm:id": "47144891",
+                    "rm:user_id": "0000019441",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2024-07-18T04:01:52Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2024-07-18T04:01:52Z",
+                    "paper_title": {
+                        "en": "Nano-etching of carbon nanofiber surface and subsequent Fe–N–C thin film coating for enhancement of oxygen evolution reaction"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Jun Maruyama"
+                            },
+                            {
+                                "name": "Shohei Maruyama"
+                            },
+                            {
+                                "name": "Setsuko Shibuya"
+                            },
+                            {
+                                "name": "Yoshiyuki Nonoguchi"
+                            },
+                            {
+                                "name": "Zyun Siroma"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "The oxygen evolution reaction (OER) is involved in many electrical–chemical energy conversion systems; however, the slow reaction rate of the OER leads to a high overpotential (η) and low energy efficiency. Recently, an extremely low-η OER phenomenon was observed at a carbonaceous Fe–N-doped thin film with enriched step edges on highly oriented pyrolytic graphite and the carbon fiber surface in an alkaline electrolyte, although the activity was limited. In this study, multi-walled carbon nanotubes (MWCNTs) were used as substrates to utilize their high specific surface areas to develop an active OER catalyst. Nanoscale etching of the MWCNT surface was performed by Fe3O4 nanoparticle loading and subsequent heat treatment in an inert atmosphere, followed by acid washing. Afterwards, a carbonaceous thin film containing Fe and N was coated on the surface via sublimation, deposition, and pyrolysis of Fe phthalocyanine (Pc). A roughened surface was observed for the FePc-derived thin film coated on the nano-etched MWCNT, in contrast to the smooth surface observed for the film coated on the MWCNT without nano-etching. The combination of the nano-etching and the thin-film coating enhanced the OER, which was analyzed by parallel Tafel processes."
+                    },
+                    "publication_date": "2024-07-15",
+                    "publication_name": {
+                        "en": "Thin Solid Films"
+                    },
+                    "volume": "800",
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1016/j.tsf.2024.140412"
+                        ],
+                        "issn": [
+                            "0040-6090"
+                        ],
+                        "scopus_id": [
+                            "85195543147"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1016/j.tsf.2024.140412",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "scopus",
+                            "@id": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85195543147&origin=inward",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "scopus_citedby",
+                            "@id": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85195543147&origin=inward",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/zyun_siroma/published_papers/42297473",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/zyun_siroma/published_papers",
+                    "rm:id": "42297473",
+                    "rm:user_id": "0000019441",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_papers",
+                    "rm:creator_type": "coauthor",
+                    "rm:created": "2023-05-15T13:02:46Z",
+                    "rm:modifier_id": "ai:assign_based_papers",
+                    "rm:modifier_type": "coauthor",
+                    "rm:modified": "2023-05-15T13:02:46Z",
+                    "paper_title": {
+                        "en": "Oxygen Evolution Reaction on an Fe–N–C Catalyst Model in Water-in-Salt Electrolytes"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Jun Maruyama"
+                            },
+                            {
+                                "name": "Shohei Maruyama"
+                            },
+                            {
+                                "name": "Setsuko Shibuya"
+                            },
+                            {
+                                "name": "Zyun Siroma"
+                            }
+                        ]
+                    },
+                    "publication_date": "2023-02-02",
+                    "publication_name": {
+                        "en": "The Journal of Physical Chemistry C"
+                    },
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1021/acs.jpcc.2c08303"
+                        ],
+                        "orcid_put_cd": [
+                            "126996341"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1021/acs.jpcc.2c08303",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/zyun_siroma/published_papers/42380198",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/zyun_siroma/published_papers",
+                    "rm:id": "42380198",
+                    "rm:user_id": "0000019441",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2023-05-25T03:32:15Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2023-05-25T03:32:15Z",
+                    "paper_title": {
+                        "en": "Electrochemical Impedance Spectroscopy Part 1: Fundamentals<sup>†</sup>"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Kingo Ariyoshi"
+                            },
+                            {
+                                "name": "Zyun Siroma"
+                            },
+                            {
+                                "name": "Atsushi Mineshige"
+                            },
+                            {
+                                "name": "Mitsuhiro Takeno"
+                            },
+                            {
+                                "name": "Tomokazu Fukutsuka"
+                            },
+                            {
+                                "name": "Takeshi Abe"
+                            },
+                            {
+                                "name": "Satoshi Uchida"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "Electrochemical impedance spectroscopy (EIS) enables the examination of the electrochemical nature of electrodes and electrochemical cells by applying an alternating voltage (or current) and measuring the resulting current (or voltage). The resistance and capacitance components of the electrode can be evaluated by applying an AC voltage and changing the frequency. In particular, analysis using the equivalent circuit can determine important parameters related to the electrochemical reaction of the electrode, such as the charge transfer resistance, electric double-layer capacitance, and Warburg impedance. Moreover, the internal resistance of the cell can be divided into resistances caused by the positive electrode, negative electrode, and electrolyte. Because of these advantages, EIS is a powerful technique used for basic research, such as in identifying the rate-determining step of an electrochemical reaction, and also for applied research, such as characterizing electrochemical devices (e.g., batteries and capacitors). In this paper, the concept of impedance, which represents the relationship between the AC voltage and current, is first explained; then, the AC characteristics of various circuit elements used in equivalent circuits, which are essential for understanding EIS, are described. Finally, treatments of more complex circuits based on transmission-line models (TLMs), which are used to represent equivalent circuits of porous electrodes, are presented. Analyses based on TLMs are the foundation for understanding electrodes for practical applications because porous electrodes are usually used in electrochemical devices."
+                    },
+                    "publication_date": "2022",
+                    "publication_name": {
+                        "en": "Electrochemistry"
+                    },
+                    "volume": "90",
+                    "number": "10",
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": true,
+                    "identifiers": {
+                        "doi": [
+                            "10.5796/electrochemistry.22-66071"
+                        ],
+                        "issn": [
+                            "1344-3542"
+                        ],
+                        "e_issn": [
+                            "2186-2451"
+                        ],
+                        "scopus_id": [
+                            "85143117560"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.5796/electrochemistry.22-66071",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "scopus",
+                            "@id": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85143117560&origin=inward",
+                            "is_downloadable": true
+                        },
+                        {
+                            "label": "scopus_citedby",
+                            "@id": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85143117560&origin=inward",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/zyun_siroma/published_papers/42380195",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/zyun_siroma/published_papers",
+                    "rm:id": "42380195",
+                    "rm:user_id": "0000019441",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2023-05-25T03:32:15Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2023-05-25T03:32:15Z",
+                    "paper_title": {
+                        "en": "Electrochemical Impedance Spectroscopy Part 2: Applications<sup>†</sup>"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Kingo Ariyoshi"
+                            },
+                            {
+                                "name": "Atsushi Mineshige"
+                            },
+                            {
+                                "name": "Mitsuhiro Takeno"
+                            },
+                            {
+                                "name": "Tomokazu Fukutsuka"
+                            },
+                            {
+                                "name": "Takeshi Abe"
+                            },
+                            {
+                                "name": "Satoshi Uchida"
+                            },
+                            {
+                                "name": "Zyun Siroma"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "Electrochemical impedance spectroscopy (EIS) is widely used for the analysis of various electrochemical devices, as it can quantitatively evaluate the main kinetic parameters related to electrochemical phenomena by analysis using equivalent circuits. This paper describes practical applications of EIS, along with EIS measurement and analysis methods for solid electrolytes, Li-ion batteries (LIBs), and electric double-layer capacitors (EDLCs). In all applications, it is necessary to properly measure the impedance data for an adequate equivalent circuit analysis. Therefore, after presenting the backgrounds of EIS applications in the Section 1 (Introduction), the experimental cautions in the measurements are discussed in detail in Sections 2– 4. Section 2 (“EIS for Solid Electrolytes”) presents practical examples of measurements for accurate data, as the EIS analysis of solid electrolytes requires impedance data in the high-frequency range above 1 MHz. Section 3 (“EIS for Lithium-Ion Batteries”) describes a method of separating the internal resistance into the resistances of the positive and negative electrodes and electrolyte resistance, as the output power capabilities of LIBs are frequently evaluated based on an internal resistance. In particular, a symmetrical cell technique enabling measurements of the impedance data only for the positive or negative electrode is demonstrated. As described in Section 4 (“EIS for Electric Double-Layer Capacitors”), the excessive and unwanted impedances arising from instruments and cells must be suppressed as much as possible for appropriately measuring the correct EIS of EDLCs, because the resistance of EDLCs is very small. Therefore, the experimental setup that should be considered in EIS measurements for EDLCs leading to disturbed impedance data is discussed, along with the effects of this scenario on the impedance data. Finally, we summarize our conclusions in Section 5 (Summary)."
+                    },
+                    "publication_date": "2022",
+                    "publication_name": {
+                        "en": "Electrochemistry"
+                    },
+                    "volume": "90",
+                    "number": "10",
+                    "published_paper_type": "international_conference_proceedings",
+                    "rm:is_open_access": true,
+                    "identifiers": {
+                        "doi": [
+                            "10.5796/electrochemistry.22-66080"
+                        ],
+                        "issn": [
+                            "1344-3542"
+                        ],
+                        "e_issn": [
+                            "2186-2451"
+                        ],
+                        "scopus_id": [
+                            "85143129884"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.5796/electrochemistry.22-66080",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "scopus",
+                            "@id": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85143129884&origin=inward",
+                            "is_downloadable": true
+                        },
+                        {
+                            "label": "scopus_citedby",
+                            "@id": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85143129884&origin=inward",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/zyun_siroma/published_papers/34439571",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/zyun_siroma/published_papers",
+                    "rm:id": "34439571",
+                    "rm:user_id": "0000019441",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2021-10-22T06:47:13Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2021-10-22T06:47:13Z",
+                    "paper_title": {
+                        "en": "Multi-rail transmission-line model as an equivalent circuit for electrochemical impedance of a porous electrode"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Zyun Siroma"
+                            },
+                            {
+                                "name": "Naoko Fujiwara"
+                            },
+                            {
+                                "name": "Shin-ichi Yamazaki"
+                            },
+                            {
+                                "name": "Masafumi Asahi"
+                            },
+                            {
+                                "name": "Tsukasa Nagai"
+                            },
+                            {
+                                "name": "Tsutomu Ioroi"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "en": "Elsevier BV"
+                    },
+                    "publication_date": "2020-12",
+                    "publication_name": {
+                        "en": "Journal of Electroanalytical Chemistry"
+                    },
+                    "volume": "878",
+                    "starting_page": "114622",
+                    "ending_page": "114622",
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1016/j.jelechem.2020.114622"
+                        ],
+                        "issn": [
+                            "1572-6657"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1016/j.jelechem.2020.114622",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/zyun_siroma/published_papers/34439595",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/zyun_siroma/published_papers",
+                    "rm:id": "34439595",
+                    "rm:user_id": "0000019441",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2021-10-22T06:47:29Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2021-10-22T06:47:29Z",
+                    "paper_title": {
+                        "en": "Performance of Perovskite-Type Oxides for Oxygen Reduction Reaction in Direct Hydrazine Fuel Cell"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Tsukasa Nagai"
+                            },
+                            {
+                                "name": "Toshikatsu Kojima"
+                            },
+                            {
+                                "name": "Nobuhiko Takeichi"
+                            },
+                            {
+                                "name": "Masafumi Asahi"
+                            },
+                            {
+                                "name": "Shin-ichi Yamazaki"
+                            },
+                            {
+                                "name": "Zyun Siroma"
+                            },
+                            {
+                                "name": "Naoko Fujiwara"
+                            },
+                            {
+                                "name": "Tsutomu Ioroi"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "en": "The Electrochemical Society"
+                    },
+                    "publication_date": "2020-11-28",
+                    "publication_name": {
+                        "en": "Journal of The Electrochemical Society"
+                    },
+                    "volume": "167",
+                    "number": "16",
+                    "starting_page": "164506",
+                    "ending_page": "164506",
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1149/1945-7111/abc76d"
+                        ],
+                        "e_issn": [
+                            "1945-7111"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1149/1945-7111/abc76d",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "https://iopscience.iop.org/article/10.1149/1945-7111/abc76d",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "https://iopscience.iop.org/article/10.1149/1945-7111/abc76d/pdf",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/zyun_siroma/published_papers/47094385",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/zyun_siroma/published_papers",
+                    "rm:id": "47094385",
+                    "rm:user_id": "0000019441",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2024-07-16T08:38:49Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2024-07-16T08:38:49Z",
+                    "paper_title": {
+                        "en": "Electrochemical CO oxidation by a Rh tetraaza[14]annulene-based catalyst"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Shin-ichi Yamazaki"
+                            },
+                            {
+                                "name": "Masafumi Asahi"
+                            },
+                            {
+                                "name": "Zyun Siroma"
+                            },
+                            {
+                                "name": "Tsutomu Ioroi"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "Electrochemical CO oxidation catalyzed by Rh complexes of tetraaza[14]annulene was examined. Rh complexes on carbon black exhibit much higher CO oxidation activity than Rh porphyrins or conventional Pt alloy catalysts. The onset potential for CO oxidation is lower than 0 V vs. a reversible hydrogen electrode. As a result, a combination of electrochemical CO oxidation by Rh tetraaza[14]annulene and proton reduction by Pt catalysts generates slight electricity. The combined overall reaction is a water-gas shift reaction (CO+H2O→CO2+H2). The co-presence of Rh tetraaza[14]annulene catalyst and Pt catalyst promotes the water-gas shift reaction."
+                    },
+                    "publisher": {
+                        "en": "Wiley Blackwell"
+                    },
+                    "publication_date": "2020-05-20",
+                    "publication_name": {
+                        "en": "ChemCatChem"
+                    },
+                    "volume": "12",
+                    "number": "10",
+                    "starting_page": "2717",
+                    "ending_page": "2720",
+                    "languages": [
+                        "eng"
+                    ],
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1002/cctc.202000276"
+                        ],
+                        "issn": [
+                            "1867-3899",
+                            "1867-3880"
+                        ],
+                        "scopus_id": [
+                            "85082930315"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1002/cctc.202000276",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/zyun_siroma/published_papers/47087176",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/zyun_siroma/published_papers",
+                    "rm:id": "47087176",
+                    "rm:user_id": "0000019441",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2024-07-16T06:39:16Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2024-07-16T06:39:16Z",
+                    "paper_title": {
+                        "en": "Lithium electrodeposition in single molten salt with constant lithium-ion concentration at any time and location"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Hikaru Sano"
+                            },
+                            {
+                                "name": "Keigo Kubota"
+                            },
+                            {
+                                "name": "Zyun Siroma"
+                            },
+                            {
+                                "name": "Susumu Kuwabata"
+                            },
+                            {
+                                "name": "Hajime Matsumoto"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "Although the mechanism of lithium dendritic growth is still under discussion, several researchers have reported that insufficient mass transfer causes dendrite formation. Recently, the synthesis of a single lithium molten salt, lithium (fluorosulfonyl)( trifluoromethylsulfonyl)amide (Li[FTA], m.p. 100°C), was reported, which can be used with a lithium electrode (m.p. 180°C). In this study, we focused on lithium electrodeposition from Li[FTA], where the lithium-ion concentration is constant at any time and location, even during electrodeposition, such that the mass transfer is always sufficient. Consequently, the formation of needle-like dendrites was suppressed using this single lithium molten salt. Thus, results imply that using a molten salt, such as Li[FTA], is a potential solution for the dendrite problem."
+                    },
+                    "publisher": {
+                        "en": "Electrochemical Society Inc."
+                    },
+                    "publication_date": "2020",
+                    "publication_name": {
+                        "en": "Journal of the Electrochemical Society"
+                    },
+                    "volume": "167",
+                    "number": "7",
+                    "languages": [
+                        "eng"
+                    ],
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1149/2.0022007JES"
+                        ],
+                        "issn": [
+                            "1945-7111",
+                            "0013-4651"
+                        ],
+                        "scopus_id": [
+                            "85076005586"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1149/2.0022007JES",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/zyun_siroma/published_papers/24935737",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/zyun_siroma/published_papers",
+                    "rm:id": "24935737",
+                    "rm:user_id": "0000019441",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_papers",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-03-25T03:45:52Z",
+                    "rm:modifier_id": "ai:assign_based_papers",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-03-25T03:45:52Z",
+                    "paper_title": {
+                        "ja": "Indirect fuel cell based on a redox-flow battery with a new structure to avoid cross-contamination toward the non-use of noble metals",
+                        "en": "Indirect fuel cell based on a redox-flow battery with a new structure to avoid cross-contamination toward the non-use of noble metals"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "Zyun Siroma"
+                            },
+                            {
+                                "name": "Jun Maruyama"
+                            },
+                            {
+                                "name": "Shin-ichi Yamazaki"
+                            },
+                            {
+                                "name": "Naoko Fujiwara"
+                            },
+                            {
+                                "name": "Masafumi Asahi"
+                            },
+                            {
+                                "name": "Tsukasa Nagai"
+                            },
+                            {
+                                "name": "Tsutomu Ioroi"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Zyun Siroma"
+                            },
+                            {
+                                "name": "Jun Maruyama"
+                            },
+                            {
+                                "name": "Shin-ichi Yamazaki"
+                            },
+                            {
+                                "name": "Naoko Fujiwara"
+                            },
+                            {
+                                "name": "Masafumi Asahi"
+                            },
+                            {
+                                "name": "Tsukasa Nagai"
+                            },
+                            {
+                                "name": "Tsutomu Ioroi"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "Elsevier {BV}",
+                        "en": "Elsevier {BV}"
+                    },
+                    "publication_date": "2019-10",
+                    "publication_name": {
+                        "ja": "International Journal of Hydrogen Energy",
+                        "en": "International Journal of Hydrogen Energy"
+                    },
+                    "volume": "44",
+                    "number": "49",
+                    "starting_page": "27046",
+                    "referee": true,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1016/j.ijhydene.2019.08.135"
+                        ],
+                        "orcid_put_cd": [
+                            "61469414"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1016/j.ijhydene.2019.08.135",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "http://orcid.org/0000-0001-8898-7062",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/zyun_siroma/published_papers/15791159",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/zyun_siroma/published_papers",
+                    "rm:id": "15791159",
+                    "rm:user_id": "0000019441",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000019441",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2018-11-30T01:59:51Z",
+                    "rm:modifier_id": "0000019441",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2018-11-30T02:02:04Z",
+                    "paper_title": {
+                        "ja": "Diffusion of Lithium Cation in Low-Melting Lithium Molten Salts",
+                        "en": "Diffusion of Lithium Cation in Low-Melting Lithium Molten Salts"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "Kubota K"
+                            },
+                            {
+                                "name": "Siroma Z"
+                            },
+                            {
+                                "name": "Sano H"
+                            },
+                            {
+                                "name": "Kuwabata S"
+                            },
+                            {
+                                "name": "Matsumoto H"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Kubota K"
+                            },
+                            {
+                                "name": "Siroma Z"
+                            },
+                            {
+                                "name": "Sano H"
+                            },
+                            {
+                                "name": "Kuwabata S"
+                            },
+                            {
+                                "name": "Matsumoto H"
+                            }
+                        ]
+                    },
+                    "publication_date": "2018",
+                    "publication_name": {
+                        "ja": "Journal of Physical Chemistry C",
+                        "en": "Journal of Physical Chemistry C"
+                    },
+                    "volume": "122",
+                    "number": "8",
+                    "starting_page": "4144",
+                    "ending_page": "4149",
+                    "referee": true,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1021/acs.jpcc.7b11281"
+                        ],
+                        "orcid_put_cd": [
+                            "45516469"
+                        ],
+                        "wos_id": [
+                            "WOS:000426802500004"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1021/acs.jpcc.7b11281",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000426802500004&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "http://orcid.org/0000-0002-3237-4643",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/zyun_siroma/published_papers/15791162",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/zyun_siroma/published_papers",
+                    "rm:id": "15791162",
+                    "rm:user_id": "0000019441",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000019441",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2018-11-30T01:59:51Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-04-22T15:21:13Z",
+                    "paper_title": {
+                        "en": "Electrochemical oxidation of glucose and gluconate by an electrode modified with a carbon-supported Rh phthalocyanine"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Shin-ichi Yamazaki"
+                            },
+                            {
+                                "name": "Zyun Siroma"
+                            },
+                            {
+                                "name": "Naoko Fujiwara"
+                            },
+                            {
+                                "name": "Tsutomu Ioroi"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "A carbon-supported Rh phthalocyanine catalyzed the electro-oxidation of glucose in basic solution. The overpotentials for the oxidation are lower than those with other conventional Co phthalocyanine-based catalysts. This electrocatalytic oxidation is coupled with the redox potential of Rh phthalocyanine. The introduction of an electron-donating group causes negative shift in the redox potential, and decreases the onset potential for the oxidation of glucose. The Rh phthalocyanine catalyst needs activation before the catalytic oxidation of glucose. This activation is achieved by the exposure of the catalyst to negative potentials. This catalyst also oxidizes gluconate, which is a possible 2-electron oxidation product of glucose. Electrolysis of glucose solution shows that glucose undergoes multi-electron (more than 2) oxidation by the Rh phthalocyanine. (C) 2016 Elsevier B.V. All rights reserved."
+                    },
+                    "publisher": {
+                        "en": "ELSEVIER SCIENCE BV"
+                    },
+                    "publication_date": "2016-12",
+                    "publication_name": {
+                        "en": "JOURNAL OF MOLECULAR CATALYSIS A-CHEMICAL"
+                    },
+                    "volume": "425",
+                    "starting_page": "291",
+                    "ending_page": "296",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1016/j.molcata.2016.10.012"
+                        ],
+                        "orcid_put_cd": [
+                            "45516472"
+                        ],
+                        "wos_id": [
+                            "WOS:000390634100033"
+                        ],
+                        "issn": [
+                            "1381-1169"
+                        ],
+                        "e_issn": [
+                            "1873-314X"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1016/j.molcata.2016.10.012",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000390634100033&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        },
+                        {
+                            "@id": "http://orcid.org/0000-0002-3237-4643",
+                            "is_downloadable": false,
+                            "label": "url"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/zyun_siroma/published_papers/15791165",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/zyun_siroma/published_papers",
+                    "rm:id": "15791165",
+                    "rm:user_id": "0000019441",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000019441",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2018-11-30T01:59:51Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-04-20T23:15:09Z",
+                    "paper_title": {
+                        "en": "Removal of CO from CO-contaminated hydrogen gas by carbon-supported rhodium porphyrins using water-soluble electron acceptors"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Shin-ichi Yamazaki"
+                            },
+                            {
+                                "name": "Zyun Siroma"
+                            },
+                            {
+                                "name": "Masafumi Asahi"
+                            },
+                            {
+                                "name": "Tsutomu Ioroi"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "Carbon-supported Rh porphyrins catalyze the oxidation of carbon monoxide by water-soluble electron acceptors. The rate of this reaction is plotted as a function of the redox potential of the electron acceptor. The rate increases with an increase in the redox potential until it reaches a plateau. This profile can be explained in terms of the electrocatalytic CO oxidation activity of the Rh porphyrin. The removal of CO from CO(2%)/H-2 by a solution containing a carbon-supported Rh porphyrin and an electron acceptor is examined. The complete conversion of CO to CO2 is achieved with only a slight amount of Rh porphyrins. Rh porphyrin on carbon black gives higher conversion than that dissolved in solution. This reaction can be used not only to remove CO in anode gas of stationary polymer electrolyte fuel cells but also to regenerate a reductant in indirect CO fuel cell systems. (C) 2016 Elsevier B.V. All rights reserved."
+                    },
+                    "publisher": {
+                        "en": "ELSEVIER SCIENCE BV"
+                    },
+                    "publication_date": "2016-10",
+                    "publication_name": {
+                        "en": "JOURNAL OF POWER SOURCES"
+                    },
+                    "volume": "329",
+                    "starting_page": "88",
+                    "ending_page": "93",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1016/j.jpowsour.2016.08.067"
+                        ],
+                        "orcid_put_cd": [
+                            "45516475"
+                        ],
+                        "wos_id": [
+                            "WOS:000384852800011"
+                        ],
+                        "issn": [
+                            "0378-7753"
+                        ],
+                        "e_issn": [
+                            "1873-2755"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1016/j.jpowsour.2016.08.067",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000384852800011&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        },
+                        {
+                            "@id": "http://orcid.org/0000-0002-3237-4643",
+                            "is_downloadable": false,
+                            "label": "url"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/zyun_siroma/published_papers/15791160",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/zyun_siroma/published_papers",
+                    "rm:id": "15791160",
+                    "rm:user_id": "0000019441",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000019441",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2018-11-30T01:59:51Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-04-22T01:28:55Z",
+                    "paper_title": {
+                        "en": "AC impedance analysis of ionic and electronic conductivities in electrode mixture layers for an all-solid-state lithium-ion battery"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Zyun Siroma"
+                            },
+                            {
+                                "name": "Tomohiro Sato"
+                            },
+                            {
+                                "name": "Tomonari Takeuchi"
+                            },
+                            {
+                                "name": "Ryo Nagai"
+                            },
+                            {
+                                "name": "Akira Ota"
+                            },
+                            {
+                                "name": "Tsutomu Ioroi"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "The ionic and electronic effective conductivities of an electrode mixture layers for all-solid-state lithium ion batteries containing Li2S-P2S5 as a solid electrolyte were investigated by AC impedance measurements and analysis using a transmission-line model (TLM). Samples containing graphite (graphite electrodes) or LiNi0.5Co0.2Mn0.3O2 (NCM electrodes) as the active material were measured under a \"substrate vertical bar sample vertical bar bulk electrolyte vertical bar sample vertical bar substrate\" configuration (ion-electron connection) and a \"substrate vertical bar sample vertical bar substrate\" configuration (electron-electron connection). Theoretically, if the electronic resistance is negligibly small, which is the case with our graphite electrodes, measurement with the ion-electron connection should be effective for evaluating ionic conductivity. However, if the electronic resistance is comparable to the ionic resistance, which is the case with our NCM electrodes, the results with the ion-electron connection may contain some inherent inaccuracy. In this report, we theoretically and practically demonstrate the advantage of analyzing the results with the electron electron connection, which gives both the ionic and electronic conductivities. The similarity of the behavior of ionic conductivity with the graphite and NCM electrodes confirms the reliability of this analysis. (C) 2016 Elsevier B.V. All rights reserved."
+                    },
+                    "publisher": {
+                        "en": "ELSEVIER SCIENCE BV"
+                    },
+                    "publication_date": "2016-06",
+                    "publication_name": {
+                        "en": "JOURNAL OF POWER SOURCES"
+                    },
+                    "volume": "316",
+                    "starting_page": "215",
+                    "ending_page": "223",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1016/j.jpowsour.2016.03.059"
+                        ],
+                        "orcid_put_cd": [
+                            "45516470"
+                        ],
+                        "wos_id": [
+                            "WOS:000375356800022"
+                        ],
+                        "issn": [
+                            "0378-7753"
+                        ],
+                        "e_issn": [
+                            "1873-2755"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1016/j.jpowsour.2016.03.059",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000375356800022&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        },
+                        {
+                            "@id": "http://orcid.org/0000-0002-3237-4643",
+                            "is_downloadable": false,
+                            "label": "url"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/zyun_siroma/published_papers/15791163",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/zyun_siroma/published_papers",
+                    "rm:id": "15791163",
+                    "rm:user_id": "0000019441",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000019441",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2018-11-30T01:59:51Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-04-20T10:19:13Z",
+                    "paper_title": {
+                        "en": "Ionic Conduction in Lithium Ion Battery Composite Electrode Governs Cross-sectional Reaction Distribution"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Yuki Orikasa"
+                            },
+                            {
+                                "name": "Yuma Gogyo"
+                            },
+                            {
+                                "name": "Hisao Yamashige"
+                            },
+                            {
+                                "name": "Misaki Katayama"
+                            },
+                            {
+                                "name": "Kezheng Chen"
+                            },
+                            {
+                                "name": "Takuya Mori"
+                            },
+                            {
+                                "name": "Kentaro Yamamoto"
+                            },
+                            {
+                                "name": "Titus Masese"
+                            },
+                            {
+                                "name": "Yasuhiro Inada"
+                            },
+                            {
+                                "name": "Toshiaki Ohta"
+                            },
+                            {
+                                "name": "Zyun Siroma"
+                            },
+                            {
+                                "name": "Shiro Kato"
+                            },
+                            {
+                                "name": "Hajime Kinoshita"
+                            },
+                            {
+                                "name": "Hajime Arai"
+                            },
+                            {
+                                "name": "Zempachi Ogumi"
+                            },
+                            {
+                                "name": "Yoshiharu Uchimoto"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "Composite electrodes containing active materials, carbon and binder are widely used in lithium-ion batteries. Since the electrode reaction occurs preferentially in regions with lower resistance, reaction distribution can be happened within composite electrodes. We investigate the relationship between the reaction distribution with depth direction and electronic/ionic conductivity in composite electrodes with changing electrode porosities. Two dimensional X-ray absorption spectroscopy shows that the reaction distribution is happened in lower porosity electrodes. Our developed 6-probe method can measure electronic/ionic conductivity in composite electrodes. The ionic conductivity is decreased for lower porosity electrodes, which governs the reaction distribution of composite electrodes and their performances."
+                    },
+                    "publisher": {
+                        "en": "NATURE PUBLISHING GROUP"
+                    },
+                    "publication_date": "2016-05",
+                    "publication_name": {
+                        "en": "SCIENTIFIC REPORTS"
+                    },
+                    "volume": "6",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1038/srep26382"
+                        ],
+                        "orcid_put_cd": [
+                            "45516473"
+                        ],
+                        "wos_id": [
+                            "WOS:000376077100002"
+                        ],
+                        "issn": [
+                            "2045-2322"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1038/srep26382",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000376077100002&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        },
+                        {
+                            "@id": "http://orcid.org/0000-0002-3237-4643",
+                            "is_downloadable": false,
+                            "label": "url"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/zyun_siroma/published_papers/15791161",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/zyun_siroma/published_papers",
+                    "rm:id": "15791161",
+                    "rm:user_id": "0000019441",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000019441",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2018-11-30T01:59:51Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-04-22T13:45:15Z",
+                    "paper_title": {
+                        "en": "Effects of p-substituents on electrochemical CO oxidation by Rh porphyrin-based catalysts (vol 12, pg 8968, 2010)"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Shin-ichi Yamazaki"
+                            },
+                            {
+                                "name": "Yusuke Yamada"
+                            },
+                            {
+                                "name": "Sahori Takeda"
+                            },
+                            {
+                                "name": "Midori Goto"
+                            },
+                            {
+                                "name": "Tsutomu Ioroi"
+                            },
+                            {
+                                "name": "Zyun Siroma"
+                            },
+                            {
+                                "name": "Kazuaki Yasuda"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "en": "ROYAL SOC CHEMISTRY"
+                    },
+                    "publication_date": "2016-05",
+                    "publication_name": {
+                        "en": "PHYSICAL CHEMISTRY CHEMICAL PHYSICS"
+                    },
+                    "volume": "18",
+                    "number": "17",
+                    "starting_page": "12375",
+                    "ending_page": "12375",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1039/c6cp90101h"
+                        ],
+                        "orcid_put_cd": [
+                            "45516471"
+                        ],
+                        "wos_id": [
+                            "WOS:000375623100087"
+                        ],
+                        "issn": [
+                            "1463-9076"
+                        ],
+                        "e_issn": [
+                            "1463-9084"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1039/c6cp90101h",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000375623100087&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        },
+                        {
+                            "@id": "http://orcid.org/0000-0002-3237-4643",
+                            "is_downloadable": false,
+                            "label": "url"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/zyun_siroma/published_papers/15791164",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/zyun_siroma/published_papers",
+                    "rm:id": "15791164",
+                    "rm:user_id": "0000019441",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000019441",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2018-11-30T01:59:51Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-04-19T17:20:00Z",
+                    "paper_title": {
+                        "en": "Non-Precious Metal Catalyst That Combines Perovskite-Type Oxide and Iron Phthalocyanine for Use as a Cathode Catalyst in an Alkaline Fuel Cell"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Tsukasa Nagai"
+                            },
+                            {
+                                "name": "Shin-ichi Yamazaki"
+                            },
+                            {
+                                "name": "Naoko Fujiwara"
+                            },
+                            {
+                                "name": "Masafumi Asahi"
+                            },
+                            {
+                                "name": "Zyun Siroma"
+                            },
+                            {
+                                "name": "Tsutomu Ioroi"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "A non-precious metal catalyst was obtained by combining a perovskite-type oxide-carbon mixture (La0.6Sr0.4MnO3/C, La0.6Sr0.4CoO3/C, and La0.6Sr0.4Mn0.7Co0.3O3/C) and an iron phthalocyanine complex (Fe-Pc) with two-by-two electron O-2 reduction activity. The oxygen reduction reaction (ORR) activities of the Fe-Pc/perovskite/C catalysts were investigated in alkaline media using rotating ring-disk electrode (RRDE) method. Although all of the Fe-Pc/perovskite/C catalysts showed enhanced ORR activities with a positive shift of the onset potential compared to perovskite/C and Fe-Pc/C, the number of electrons during ORR was different due to the HO2- reduction activity of the perovskite/C. Among the prepared catalysts, the Fe-Pc/La0.6Sr0.4Mn0.7Co0.3O3/C catalyst exhibited the highest catalytic activity, which was comparable to that of the Pt/C catalyst. Furthermore, oxygen reduction on this catalyst proceeds thorough an efficient 2 + 2 pathway with the formation of only a very small fraction of HO2- (0.5-3%). (C) 2016 The Electrochemical Society. All rights reserved."
+                    },
+                    "publisher": {
+                        "en": "ELECTROCHEMICAL SOC INC"
+                    },
+                    "publication_date": "2016",
+                    "publication_name": {
+                        "en": "JOURNAL OF THE ELECTROCHEMICAL SOCIETY"
+                    },
+                    "volume": "163",
+                    "number": "5",
+                    "starting_page": "F347",
+                    "ending_page": "F352",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1149/2.0391605jes"
+                        ],
+                        "orcid_put_cd": [
+                            "45516474"
+                        ],
+                        "wos_id": [
+                            "WOS:000370866700082"
+                        ],
+                        "issn": [
+                            "0013-4651"
+                        ],
+                        "e_issn": [
+                            "1945-7111"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1149/2.0391605jes",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000370866700082&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        },
+                        {
+                            "@id": "http://orcid.org/0000-0002-3237-4643",
+                            "is_downloadable": false,
+                            "label": "url"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/zyun_siroma/published_papers/15791168",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/zyun_siroma/published_papers",
+                    "rm:id": "15791168",
+                    "rm:user_id": "0000019441",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000019441",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2018-11-30T01:59:51Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-06-02T01:42:23Z",
+                    "paper_title": {
+                        "en": "Metalloporphyrin-modified perovskite-type oxide for the electroreduction of oxygen"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Tsukasa Nagai"
+                            },
+                            {
+                                "name": "Shin-ichi Yamazaki"
+                            },
+                            {
+                                "name": "Masafumi Asahi"
+                            },
+                            {
+                                "name": "Zyun Siroma"
+                            },
+                            {
+                                "name": "Naoko Fujiwara"
+                            },
+                            {
+                                "name": "Tsutomu Ioroi"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "Perovskite-type oxide-carbon (Vulcan XC72) mixture (La0.6Sr0.4Mn0.6Fe0.4O3/C) was modified by a metalloporphyrin (cobalt octaethylporphyrin: Co-OEP) having two-electron 02 reduction activity, and its electrochemical reduction activity for O-2 (ORR) was investigated in an alkaline solution by rotating ring disk electrode (RRDE) voltammetry. The Co-OEP/La0.6Sr0.4Mn0.6Fe0.4O3/C catalyst showed improved ORR activity, with a positive shift of the onset potential. In addition, a decreased ring current compared to Co-OEP/C suggested that the quasi-four-electron reduction of 02 was also enhanced. Further experiments showed that ORR activity was also enhanced by Co-OEP-modification of other types of carbon (Ketjen-black EC600JD, Denka Black) or perovskite-type oxide (La0.6Ca0.4Mn0.6Fe0.4O3, La0.8Sr0.2Co0.6Fe0.4O3). In the case of the addition of other porphyrin complexes (cobalt tetraphenylporphyrin (Co-TPP), iron octaethylporphyrin (Fe-OEP)) to a La0.6Sr0.4Mn0.6Fe0.4O3/C catalyst, the onset potential did not shift to the positive side due to the lower activity compared to Co-OEP. (C) 2015 Elsevier B.V. All rights reserved."
+                    },
+                    "publisher": {
+                        "en": "ELSEVIER SCIENCE BV"
+                    },
+                    "publication_date": "2015-10",
+                    "publication_name": {
+                        "en": "JOURNAL OF POWER SOURCES"
+                    },
+                    "volume": "293",
+                    "starting_page": "760",
+                    "ending_page": "766",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1016/j.jpowsour.2015.06.004"
+                        ],
+                        "orcid_put_cd": [
+                            "45516478"
+                        ],
+                        "wos_id": [
+                            "WOS:000358809700090"
+                        ],
+                        "issn": [
+                            "0378-7753"
+                        ],
+                        "e_issn": [
+                            "1873-2755"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1016/j.jpowsour.2015.06.004",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000358809700090&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        },
+                        {
+                            "@id": "http://orcid.org/0000-0002-3237-4643",
+                            "is_downloadable": false,
+                            "label": "url"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/zyun_siroma/published_papers/15791166",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/zyun_siroma/published_papers",
+                    "rm:id": "15791166",
+                    "rm:user_id": "0000019441",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000019441",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2018-11-30T01:59:51Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-06-02T16:37:48Z",
+                    "paper_title": {
+                        "en": "Expected Electrochemical Impedance Responses of Porous Electrodes Based on Theoretical Solutions of Transmission-line Models"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Zyun Siroma"
+                            },
+                            {
+                                "name": "Tsutomu Ioroi"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "Based on mathematical solutions of the impedances of one-dimensional transmission-line models, a variety of models of porous electrodes are made to cope with possible actual cases. In the examined models, ionic resistance in pores, faradaic impedance, and electronic resistance are considered. Numerical calculation of the impedance values of each model revealed the effects of each parameters on the behaviors of the Cole-Cole plots. In addition, effects of additional elements set at the both ends of the transmission-line model, which determine the boundary conditions, were also examined. Finally, possibility to extract the impedance at the interface only by reverse-estimation was investigated. Although this attempt has been achieved, it is also demonstrated that inaccuracies of the assumed parameters might deteriorate the estimated values. (C) The Electrochemical Society of Japan, All rights reserved."
+                    },
+                    "publisher": {
+                        "en": "ELECTROCHEMICAL SOC JAPAN"
+                    },
+                    "publication_date": "2015-06",
+                    "publication_name": {
+                        "en": "ELECTROCHEMISTRY"
+                    },
+                    "volume": "83",
+                    "number": "6",
+                    "starting_page": "425",
+                    "ending_page": "433",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.5796/electrochemistry.83.425"
+                        ],
+                        "orcid_put_cd": [
+                            "45516476"
+                        ],
+                        "wos_id": [
+                            "WOS:000356204200006"
+                        ],
+                        "issn": [
+                            "1344-3542"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.5796/electrochemistry.83.425",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000356204200006&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        },
+                        {
+                            "@id": "http://orcid.org/0000-0002-3237-4643",
+                            "is_downloadable": false,
+                            "label": "url"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/zyun_siroma/published_papers/15791195",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/zyun_siroma/published_papers",
+                    "rm:id": "15791195",
+                    "rm:user_id": "0000019441",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000019441",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2018-11-30T02:02:04Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-06-04T03:20:43Z",
+                    "paper_title": {
+                        "en": "Oxygen Reduction Activity on a Nanosized Perovskite-Type Oxide Prepared by Polyvinyl Pyrrolidone Method"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Tsukasa Nagai"
+                            },
+                            {
+                                "name": "Naoko Fujiwara"
+                            },
+                            {
+                                "name": "Mitsunori Kitta"
+                            },
+                            {
+                                "name": "Masafumi Asahi"
+                            },
+                            {
+                                "name": "Shin-ichi Yamazaki"
+                            },
+                            {
+                                "name": "Zyun Siroma"
+                            },
+                            {
+                                "name": "Tsutomu Ioroi"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "A nanosized perovskite-type oxide supported on carbon black (perovskite/C) was prepared by the polyvinyl pyrrolidone (PVP) addition method and subsequent mechanical milling with carbon black. Transmission electron microscope (TEM) observation and scanning transmission electron microscope (STEM)-energy dispersive X-ray (EDX) mapping clearly revealed that the oxide prepared by the PVP method was small (ca. 20 nm) and highly dispersed on the carbon support. The oxygen reduction reaction (ORR) activity on the perovskite/C catalyst was investigated with rotating ring-disk electrode (RRDE) measurement in an alkaline solution at 25 degrees C. The prepared perovskite/C catalyst showed enhanced activity compared to catalysts obtained by the conventional solid state reaction and citrate process; i.e., a positive shift of the onset potential and increased ORR current at a disk electrode. The present catalyst was also associated with decreased ring current."
+                    },
+                    "publisher": {
+                        "en": "ASME"
+                    },
+                    "publication_date": "2015-04",
+                    "publication_name": {
+                        "en": "JOURNAL OF FUEL CELL SCIENCE AND TECHNOLOGY"
+                    },
+                    "volume": "12",
+                    "number": "2",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1115/1.4029424"
+                        ],
+                        "orcid_put_cd": [
+                            "45516479"
+                        ],
+                        "wos_id": [
+                            "WOS:000350495700007"
+                        ],
+                        "issn": [
+                            "1550-624X"
+                        ],
+                        "e_issn": [
+                            "1551-6989"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1115/1.4029424",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000350495700007&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        },
+                        {
+                            "@id": "http://orcid.org/0000-0002-3237-4643",
+                            "is_downloadable": false,
+                            "label": "url"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/zyun_siroma/published_papers/15791167",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/zyun_siroma/published_papers",
+                    "rm:id": "15791167",
+                    "rm:user_id": "0000019441",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000019441",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2018-11-30T01:59:51Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-06-03T19:56:53Z",
+                    "paper_title": {
+                        "en": "Mathematical solutions of comprehensive variations of a transmission-line model of the theoretical impedance of porous electrodes"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Zyun Siroma"
+                            },
+                            {
+                                "name": "Naoko Fujiwara"
+                            },
+                            {
+                                "name": "Shin-ichi Yamazaki"
+                            },
+                            {
+                                "name": "Masafumi Asahi"
+                            },
+                            {
+                                "name": "Tsukasa Nagai"
+                            },
+                            {
+                                "name": "Tsutomu Ioroi"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "Mathematical solutions were obtained for the impedance of one-dimensional transmission-line (TML) models with all possible variations of the boundary conditions and connections to an external circuit. First, three types of connection (Z-type, T-type, and E-type) were considered. A more generalized connection that includes the characteristics of both Z-type and T-type (universal-type) was also considered. All four of the resulting general solutions were versatile, but quite complicated. Next, comprehensive variations of the general solutions depending on specific boundary conditions, which are generally simpler, were also considered. Finally, an equivalent transform from a three-terminal TML model to a simple Y-circuit was calculated. This enables calculation of the serial connection of multiple TML models with different parameters, which represents a multi-layered electrode. (C) 2015 Elsevier Ltd. All rights reserved."
+                    },
+                    "publisher": {
+                        "en": "PERGAMON-ELSEVIER SCIENCE LTD"
+                    },
+                    "publication_date": "2015-04",
+                    "publication_name": {
+                        "en": "ELECTROCHIMICA ACTA"
+                    },
+                    "volume": "160",
+                    "starting_page": "313",
+                    "ending_page": "322",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1016/j.electacta.2015.02.065"
+                        ],
+                        "orcid_put_cd": [
+                            "45516477"
+                        ],
+                        "wos_id": [
+                            "WOS:000351115900042"
+                        ],
+                        "issn": [
+                            "0013-4686"
+                        ],
+                        "e_issn": [
+                            "1873-3859"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1016/j.electacta.2015.02.065",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000351115900042&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        },
+                        {
+                            "@id": "http://orcid.org/0000-0002-3237-4643",
+                            "is_downloadable": false,
+                            "label": "url"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/zyun_siroma/misc",
+            "@type": "misc",
+            "@reverse": "https://api.researchmap.jp/zyun_siroma",
+            "total_items": 77,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/zyun_siroma/misc/47067555",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/zyun_siroma/misc",
+                    "rm:id": "47067555",
+                    "rm:user_id": "0000019441",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2024-07-15T10:12:19Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2024-07-15T10:12:19Z",
+                    "paper_title": {
+                        "en": "Electrocatalysts for PEM Fuel Cells"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Tsutomu Ioroi"
+                            },
+                            {
+                                "name": "Zyun Siroma"
+                            },
+                            {
+                                "name": "Shin-ichi Yamazaki"
+                            },
+                            {
+                                "name": "Kazuaki Yasuda"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "Degradation phenomena of electrocatalysts for proton-exchange membrane fuel cells and their mechanisms are reviewed. Platinum dissolution and redeposition, carbon-support corrosion, inhomogeneity during start-up and cell reversal are discussed as factors that influence the degradation of electrocatalysts with relation to electrode potential. Early research findings at the National Institute of Advanced Industrial Science and Technology (AIST), Japan, are mainly used as a basis of discussion. The development of highly durable electrocatalysts using an oxide support based on the results of degradation studies to suppress electrocatalyst degradation is summarized with a main focus on Pt-deposited Ti4O7 catalysts developed at AIST. The development of high-CO-concentration durable anode electrocatalysts is also reviewed. In particular, an electrocatalyst that uses an organic complex as a co-electrocatalyst with a platinum ruthenium alloy anode electrocatalyst developed at AIST is included as a novel high-CO-concentration durable anode electrocatalyst."
+                    },
+                    "publisher": {
+                        "en": "Wiley-VCH Verlag"
+                    },
+                    "publication_date": "2019-06-19",
+                    "publication_name": {
+                        "en": "Advanced Energy Materials"
+                    },
+                    "volume": "9",
+                    "number": "23",
+                    "languages": [
+                        "eng"
+                    ],
+                    "misc_type": "book_review",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1002/aenm.201801284"
+                        ],
+                        "issn": [
+                            "1614-6840",
+                            "1614-6832"
+                        ],
+                        "scopus_id": [
+                            "85058076282"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1002/aenm.201801284",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/zyun_siroma/misc/29633297",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/zyun_siroma/misc",
+                    "rm:id": "29633297",
+                    "rm:user_id": "0000019441",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-08-26T16:12:32Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-08-26T16:12:32Z",
+                    "paper_title": {
+                        "en": "Synthesis of nano-sized perovskite-type oxide with the use of polyvinyl pyrrolidone"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Tsukasa Nagai"
+                            },
+                            {
+                                "name": "Naoko Fujiwara"
+                            },
+                            {
+                                "name": "Masafumi Asahi"
+                            },
+                            {
+                                "name": "Shin-Ichi Yamazaki"
+                            },
+                            {
+                                "name": "Zyun Siroma"
+                            },
+                            {
+                                "name": "Tsutomu Ioroi"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "A new easy-to-use process for obtaining fine powders of lanthanum-based perovskite-type oxides (La1-xAexMO3: Ae=Ca, Sr, M=Mn, Co, Fe) with a high specific surface area was successfully developed by the use of polyvinyl pyrrolidone (PVP) as a dispersant. This approach made it possible to prepare a single phase of perovskite by calcining at a lower temperature (600°C) compared to conventional synthetic processes such as a solid state reaction and citrate process. SEM observations revealed that the oxide prepared with PVP was ca. 20-30nm in size, while those prepared by the citrate process and solid state reaction were ca. 50nm and 1μm, respectively. Furthermore, the results of a thermal analysis in which we heated the precursors for the different reactions support the idea that PVP plays an important role in the formation of the perovskite phase at low temperature."
+                    },
+                    "publisher": {
+                        "en": "Elsevier B.V."
+                    },
+                    "publication_date": "2014-12-01",
+                    "publication_name": {
+                        "en": "Journal of Asian Ceramic Societies"
+                    },
+                    "volume": "2",
+                    "number": "4",
+                    "starting_page": "329",
+                    "ending_page": "332",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "misc_type": "report_scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1016/j.jascer.2014.08.004"
+                        ],
+                        "issn": [
+                            "2187-0764"
+                        ],
+                        "scopus_id": [
+                            "84930638089"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1016/j.jascer.2014.08.004",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/zyun_siroma/misc/26048624",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/zyun_siroma/misc",
+                    "rm:id": "26048624",
+                    "rm:user_id": "0000019441",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_papers",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-04-08T18:46:24Z",
+                    "rm:modifier_id": "ai:assign_based_papers",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-04-08T18:46:24Z",
+                    "paper_title": {
+                        "ja": "錯体を利用したポロハイドライドの電極酸化触媒",
+                        "en": "錯体を利用したポロハイドライドの電極酸化触媒"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "山崎眞一"
+                            },
+                            {
+                                "name": "妹尾博"
+                            },
+                            {
+                                "name": "八尾勝"
+                            },
+                            {
+                                "name": "城間純"
+                            },
+                            {
+                                "name": "藤原直子"
+                            },
+                            {
+                                "name": "五百蔵勉"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "山崎眞一"
+                            },
+                            {
+                                "name": "妹尾博"
+                            },
+                            {
+                                "name": "八尾勝"
+                            },
+                            {
+                                "name": "城間純"
+                            },
+                            {
+                                "name": "藤原直子"
+                            },
+                            {
+                                "name": "五百蔵勉"
+                            }
+                        ]
+                    },
+                    "publication_date": "2012-03-29",
+                    "publication_name": {
+                        "ja": "電気化学会大会講演要旨集",
+                        "en": "電気化学会大会講演要旨集"
+                    },
+                    "volume": "79th",
+                    "starting_page": "286",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "j_global_id": [
+                            "201202257868703642"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "j_global",
+                            "@id": "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=201202257868703642",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "http://jglobal.jst.go.jp/public/201202257868703642",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/zyun_siroma/misc/35592851",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/zyun_siroma/misc",
+                    "rm:id": "35592851",
+                    "rm:user_id": "0000019441",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2021-10-27T21:42:51Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2021-10-27T21:42:51Z",
+                    "paper_title": {
+                        "ja": "家庭用固体高分子形燃料電池の実用的耐久性確保のための技術開発 : 固体高分子形燃料電池の劣化加速試験法のための劣化要因解明",
+                        "en": "Durable polymer electrolyte fuel cells (PEFC) for residential co-generation application : Elucidation of degradation mechanism to establish an accelerated aging test method of PEFC"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "谷本 一美"
+                            },
+                            {
+                                "name": "安田 和明"
+                            },
+                            {
+                                "name": "城間 純"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "産業技術総合研究所"
+                    },
+                    "publication_date": "2012-02",
+                    "publication_name": {
+                        "ja": "Synthesiology",
+                        "en": "Synthesiology"
+                    },
+                    "volume": "5",
+                    "number": "1",
+                    "starting_page": "53",
+                    "ending_page": "61",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "1882-6229"
+                        ],
+                        "cinii_na_id": [
+                            "40019255133"
+                        ],
+                        "cinii_nc_id": [
+                            "AA12294844"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/40019255133",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_books",
+                            "@id": "http://ci.nii.ac.jp/ncid/AA12294844",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "http://id.ndl.go.jp/bib/023633783",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/zyun_siroma/misc/26048596",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/zyun_siroma/misc",
+                    "rm:id": "26048596",
+                    "rm:user_id": "0000019441",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_papers",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-04-08T18:46:22Z",
+                    "rm:modifier_id": "ai:assign_based_papers",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-04-08T18:46:22Z",
+                    "paper_title": {
+                        "ja": "可溶性有機物を活物質に用いた二室型リチウム二次電池",
+                        "en": "可溶性有機物を活物質に用いた二室型リチウム二次電池"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "妹尾博"
+                            },
+                            {
+                                "name": "八尾勝"
+                            },
+                            {
+                                "name": "栄部比夏里"
+                            },
+                            {
+                                "name": "安田和明"
+                            },
+                            {
+                                "name": "城間純"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "妹尾博"
+                            },
+                            {
+                                "name": "八尾勝"
+                            },
+                            {
+                                "name": "栄部比夏里"
+                            },
+                            {
+                                "name": "安田和明"
+                            },
+                            {
+                                "name": "城間純"
+                            }
+                        ]
+                    },
+                    "publication_date": "2011-10-17",
+                    "publication_name": {
+                        "ja": "電池討論会講演要旨集",
+                        "en": "電池討論会講演要旨集"
+                    },
+                    "volume": "52nd",
+                    "starting_page": "287",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "j_global_id": [
+                            "201102256416266314"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "j_global",
+                            "@id": "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=201102256416266314",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "http://jglobal.jst.go.jp/public/201102256416266314",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/zyun_siroma/misc/26048587",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/zyun_siroma/misc",
+                    "rm:id": "26048587",
+                    "rm:user_id": "0000019441",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_papers",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-04-08T18:46:21Z",
+                    "rm:modifier_id": "ai:assign_based_papers",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-04-08T18:46:21Z",
+                    "paper_title": {
+                        "ja": "次亜リン酸を燃料とするダイレクト燃料電池の研究",
+                        "en": "次亜リン酸を燃料とするダイレクト燃料電池の研究"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "藤原直子"
+                            },
+                            {
+                                "name": "城間純"
+                            },
+                            {
+                                "name": "山崎眞一"
+                            },
+                            {
+                                "name": "妹尾博"
+                            },
+                            {
+                                "name": "五百蔵勉"
+                            },
+                            {
+                                "name": "安田和明"
+                            },
+                            {
+                                "name": "宮崎義憲"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "藤原直子"
+                            },
+                            {
+                                "name": "城間純"
+                            },
+                            {
+                                "name": "山崎眞一"
+                            },
+                            {
+                                "name": "妹尾博"
+                            },
+                            {
+                                "name": "五百蔵勉"
+                            },
+                            {
+                                "name": "安田和明"
+                            },
+                            {
+                                "name": "宮崎義憲"
+                            }
+                        ]
+                    },
+                    "publication_date": "2011-05-18",
+                    "publication_name": {
+                        "ja": "燃料電池シンポジウム講演予稿集",
+                        "en": "燃料電池シンポジウム講演予稿集"
+                    },
+                    "volume": "18th",
+                    "starting_page": "223",
+                    "ending_page": "224",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "j_global_id": [
+                            "201102256649627627"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "j_global",
+                            "@id": "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=201102256649627627",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "http://jglobal.jst.go.jp/public/201102256649627627",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/zyun_siroma/misc/26048581",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/zyun_siroma/misc",
+                    "rm:id": "26048581",
+                    "rm:user_id": "0000019441",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_papers",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-04-08T18:46:21Z",
+                    "rm:modifier_id": "ai:assign_based_papers",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-04-08T18:46:21Z",
+                    "paper_title": {
+                        "ja": "溶解性有機活物質を用いたリチウム二次電池",
+                        "en": "溶解性有機活物質を用いたリチウム二次電池"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "妹尾博"
+                            },
+                            {
+                                "name": "城間純"
+                            },
+                            {
+                                "name": "八尾勝"
+                            },
+                            {
+                                "name": "栄部比夏里"
+                            },
+                            {
+                                "name": "山崎眞一"
+                            },
+                            {
+                                "name": "藤原直子"
+                            },
+                            {
+                                "name": "五百蔵勉"
+                            },
+                            {
+                                "name": "安田和明"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "妹尾博"
+                            },
+                            {
+                                "name": "城間純"
+                            },
+                            {
+                                "name": "八尾勝"
+                            },
+                            {
+                                "name": "栄部比夏里"
+                            },
+                            {
+                                "name": "山崎眞一"
+                            },
+                            {
+                                "name": "藤原直子"
+                            },
+                            {
+                                "name": "五百蔵勉"
+                            },
+                            {
+                                "name": "安田和明"
+                            }
+                        ]
+                    },
+                    "publication_date": "2011-03-29",
+                    "publication_name": {
+                        "ja": "電気化学会大会講演要旨集",
+                        "en": "電気化学会大会講演要旨集"
+                    },
+                    "volume": "78th(CD-ROM)",
+                    "starting_page": "ROMBUNNO.3L24",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "j_global_id": [
+                            "201102270718570899"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "j_global",
+                            "@id": "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=201102270718570899",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "http://jglobal.jst.go.jp/public/201102270718570899",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/zyun_siroma/misc/26048575",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/zyun_siroma/misc",
+                    "rm:id": "26048575",
+                    "rm:user_id": "0000019441",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_papers",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-04-08T18:46:21Z",
+                    "rm:modifier_id": "ai:assign_based_papers",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-04-08T18:46:21Z",
+                    "paper_title": {
+                        "ja": "ロジウム錯体によるボロハイドライドの電気化学的酸化反応",
+                        "en": "ロジウム錯体によるボロハイドライドの電気化学的酸化反応"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "山崎眞一"
+                            },
+                            {
+                                "name": "妹尾博"
+                            },
+                            {
+                                "name": "八尾勝"
+                            },
+                            {
+                                "name": "城間純"
+                            },
+                            {
+                                "name": "藤原直子"
+                            },
+                            {
+                                "name": "五百蔵勉"
+                            },
+                            {
+                                "name": "安田和明"
+                            },
+                            {
+                                "name": "宮崎義憲"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "山崎眞一"
+                            },
+                            {
+                                "name": "妹尾博"
+                            },
+                            {
+                                "name": "八尾勝"
+                            },
+                            {
+                                "name": "城間純"
+                            },
+                            {
+                                "name": "藤原直子"
+                            },
+                            {
+                                "name": "五百蔵勉"
+                            },
+                            {
+                                "name": "安田和明"
+                            },
+                            {
+                                "name": "宮崎義憲"
+                            }
+                        ]
+                    },
+                    "publication_date": "2011-03-29",
+                    "publication_name": {
+                        "ja": "電気化学会大会講演要旨集",
+                        "en": "電気化学会大会講演要旨集"
+                    },
+                    "volume": "78th(CD-ROM)",
+                    "starting_page": "ROMBUNNO.1A04",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "j_global_id": [
+                            "201102264331817853"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "j_global",
+                            "@id": "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=201102264331817853",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "http://jglobal.jst.go.jp/public/201102264331817853",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/zyun_siroma/misc/46424617",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/zyun_siroma/misc",
+                    "rm:id": "46424617",
+                    "rm:user_id": "0000019441",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2024-05-09T02:00:34Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2024-05-09T02:00:34Z",
+                    "paper_title": {
+                        "ja": "アニオン交換膜型燃料電池の炭酸ガス吸収に伴う膜抵抗変化の測定と膜厚方向電位勾配の推定"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "城間純"
+                            },
+                            {
+                                "name": "渡辺伸"
+                            },
+                            {
+                                "name": "福田憲二"
+                            },
+                            {
+                                "name": "五百蔵勉"
+                            }
+                        ]
+                    },
+                    "publication_date": "2011",
+                    "publication_name": {
+                        "ja": "電気化学秋季大会講演要旨集"
+                    },
+                    "volume": "2011",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "j_global_id": [
+                            "201102232011323705"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "j_global",
+                            "@id": "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=201102232011323705",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/zyun_siroma/misc/26048549",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/zyun_siroma/misc",
+                    "rm:id": "26048549",
+                    "rm:user_id": "0000019441",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_papers",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-04-08T18:46:18Z",
+                    "rm:modifier_id": "ai:assign_based_papers",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-04-08T18:46:18Z",
+                    "paper_title": {
+                        "ja": "アルコキシベンゾキノンを正極に用いた有機二次電池の充放電特性",
+                        "en": "アルコキシベンゾキノンを正極に用いた有機二次電池の充放電特性"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "八尾勝"
+                            },
+                            {
+                                "name": "妹尾博"
+                            },
+                            {
+                                "name": "山崎眞一"
+                            },
+                            {
+                                "name": "城間純"
+                            },
+                            {
+                                "name": "境哲男"
+                            },
+                            {
+                                "name": "安田和明"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "八尾勝"
+                            },
+                            {
+                                "name": "妹尾博"
+                            },
+                            {
+                                "name": "山崎眞一"
+                            },
+                            {
+                                "name": "城間純"
+                            },
+                            {
+                                "name": "境哲男"
+                            },
+                            {
+                                "name": "安田和明"
+                            }
+                        ]
+                    },
+                    "publication_date": "2010-11-08",
+                    "publication_name": {
+                        "ja": "電池討論会講演要旨集",
+                        "en": "電池討論会講演要旨集"
+                    },
+                    "volume": "51st",
+                    "starting_page": "206",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "j_global_id": [
+                            "201002225196675633"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "j_global",
+                            "@id": "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=201002225196675633",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "http://jglobal.jst.go.jp/public/201002225196675633",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/zyun_siroma/misc/26048554",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/zyun_siroma/misc",
+                    "rm:id": "26048554",
+                    "rm:user_id": "0000019441",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_papers",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-04-08T18:46:19Z",
+                    "rm:modifier_id": "ai:assign_based_papers",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-04-08T18:46:19Z",
+                    "paper_title": {
+                        "ja": "ロジウムポルフィリン系CO酸化電極触媒の研究開発とその固体高分子形燃料電池への応用可能性の検討",
+                        "en": "ロジウムポルフィリン系CO酸化電極触媒の研究開発とその固体高分子形燃料電池への応用可能性の検討"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "山崎眞一"
+                            },
+                            {
+                                "name": "藤原直子"
+                            },
+                            {
+                                "name": "八尾勝"
+                            },
+                            {
+                                "name": "五百蔵勉"
+                            },
+                            {
+                                "name": "城間純"
+                            },
+                            {
+                                "name": "妹尾博"
+                            },
+                            {
+                                "name": "安田和明"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "山崎眞一"
+                            },
+                            {
+                                "name": "藤原直子"
+                            },
+                            {
+                                "name": "八尾勝"
+                            },
+                            {
+                                "name": "五百蔵勉"
+                            },
+                            {
+                                "name": "城間純"
+                            },
+                            {
+                                "name": "妹尾博"
+                            },
+                            {
+                                "name": "安田和明"
+                            }
+                        ]
+                    },
+                    "publication_date": "2010-09-02",
+                    "publication_name": {
+                        "ja": "電気化学秋季大会講演要旨集",
+                        "en": "電気化学秋季大会講演要旨集"
+                    },
+                    "volume": "2010",
+                    "starting_page": "10",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "j_global_id": [
+                            "201002281785523190"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "j_global",
+                            "@id": "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=201002281785523190",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "http://jglobal.jst.go.jp/public/201002281785523190",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/zyun_siroma/misc/26048563",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/zyun_siroma/misc",
+                    "rm:id": "26048563",
+                    "rm:user_id": "0000019441",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_papers",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-04-08T18:46:20Z",
+                    "rm:modifier_id": "ai:assign_based_papers",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-04-08T18:46:20Z",
+                    "paper_title": {
+                        "ja": "ボロハイドライド水溶液を用いる電気化学的水素発生器",
+                        "en": "ボロハイドライド水溶液を用いる電気化学的水素発生器"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "妹尾博"
+                            },
+                            {
+                                "name": "山崎眞一"
+                            },
+                            {
+                                "name": "城間純"
+                            },
+                            {
+                                "name": "藤原直子"
+                            },
+                            {
+                                "name": "安田和明"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "妹尾博"
+                            },
+                            {
+                                "name": "山崎眞一"
+                            },
+                            {
+                                "name": "城間純"
+                            },
+                            {
+                                "name": "藤原直子"
+                            },
+                            {
+                                "name": "安田和明"
+                            }
+                        ]
+                    },
+                    "publication_date": "2010-05-18",
+                    "publication_name": {
+                        "ja": "燃料電池シンポジウム講演予稿集",
+                        "en": "燃料電池シンポジウム講演予稿集"
+                    },
+                    "volume": "17th",
+                    "starting_page": "223",
+                    "ending_page": "224",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "j_global_id": [
+                            "201002257205577568"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "j_global",
+                            "@id": "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=201002257205577568",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "http://jglobal.jst.go.jp/public/201002257205577568",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/zyun_siroma/misc/26048532",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/zyun_siroma/misc",
+                    "rm:id": "26048532",
+                    "rm:user_id": "0000019441",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_papers",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-04-08T18:46:17Z",
+                    "rm:modifier_id": "ai:assign_based_papers",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-04-08T18:46:17Z",
+                    "paper_title": {
+                        "ja": "一室型ボロハイドライド水溶液電解による電気化学的水素発生",
+                        "en": "一室型ボロハイドライド水溶液電解による電気化学的水素発生"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "妹尾博"
+                            },
+                            {
+                                "name": "山崎眞一"
+                            },
+                            {
+                                "name": "城間純"
+                            },
+                            {
+                                "name": "藤原直子"
+                            },
+                            {
+                                "name": "五百蔵勉"
+                            },
+                            {
+                                "name": "八尾勝"
+                            },
+                            {
+                                "name": "安田和明"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "妹尾博"
+                            },
+                            {
+                                "name": "山崎眞一"
+                            },
+                            {
+                                "name": "城間純"
+                            },
+                            {
+                                "name": "藤原直子"
+                            },
+                            {
+                                "name": "五百蔵勉"
+                            },
+                            {
+                                "name": "八尾勝"
+                            },
+                            {
+                                "name": "安田和明"
+                            }
+                        ]
+                    },
+                    "publication_date": "2010-03-26",
+                    "publication_name": {
+                        "ja": "電気化学会大会講演要旨集",
+                        "en": "電気化学会大会講演要旨集"
+                    },
+                    "volume": "77th",
+                    "starting_page": "392",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "j_global_id": [
+                            "201002245014450748"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "j_global",
+                            "@id": "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=201002245014450748",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "http://jglobal.jst.go.jp/public/201002245014450748",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/zyun_siroma/misc/26048520",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/zyun_siroma/misc",
+                    "rm:id": "26048520",
+                    "rm:user_id": "0000019441",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_papers",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-04-08T18:46:16Z",
+                    "rm:modifier_id": "ai:assign_based_papers",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-04-08T18:46:16Z",
+                    "paper_title": {
+                        "ja": "ロジウムポルフィリンによる電気化学的酸化反応とその燃料電池アノードとしての可能性",
+                        "en": "ロジウムポルフィリンによる電気化学的酸化反応とその燃料電池アノードとしての可能性"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "山崎眞一"
+                            },
+                            {
+                                "name": "八尾勝"
+                            },
+                            {
+                                "name": "妹尾博"
+                            },
+                            {
+                                "name": "藤原直子"
+                            },
+                            {
+                                "name": "五百蔵勉"
+                            },
+                            {
+                                "name": "城間純"
+                            },
+                            {
+                                "name": "安田和明"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "山崎眞一"
+                            },
+                            {
+                                "name": "八尾勝"
+                            },
+                            {
+                                "name": "妹尾博"
+                            },
+                            {
+                                "name": "藤原直子"
+                            },
+                            {
+                                "name": "五百蔵勉"
+                            },
+                            {
+                                "name": "城間純"
+                            },
+                            {
+                                "name": "安田和明"
+                            }
+                        ]
+                    },
+                    "publication_date": "2010-03-12",
+                    "publication_name": {
+                        "ja": "日本化学会講演予稿集",
+                        "en": "日本化学会講演予稿集"
+                    },
+                    "volume": "90th",
+                    "number": "1",
+                    "starting_page": "50",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "0285-7626"
+                        ],
+                        "j_global_id": [
+                            "201002202941760230"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "j_global",
+                            "@id": "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=201002202941760230",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "http://jglobal.jst.go.jp/public/201002202941760230",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/zyun_siroma/misc/34444000",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/zyun_siroma/misc",
+                    "rm:id": "34444000",
+                    "rm:user_id": "0000019441",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2021-10-22T07:21:11Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2021-10-22T07:21:11Z",
+                    "paper_title": {
+                        "ja": "次亜リン酸を燃料とするアニオン交換膜形燃料電池の発電特性"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "藤原直子"
+                            },
+                            {
+                                "name": "妹尾博"
+                            },
+                            {
+                                "name": "山崎眞一"
+                            },
+                            {
+                                "name": "城間純"
+                            },
+                            {
+                                "name": "五百蔵勉"
+                            },
+                            {
+                                "name": "安田和明"
+                            }
+                        ]
+                    },
+                    "publication_date": "2010",
+                    "publication_name": {
+                        "ja": "電気化学会大会講演要旨集"
+                    },
+                    "volume": "77th",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "j_global_id": [
+                            "201002224927645139"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "j_global",
+                            "@id": "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=201002224927645139",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/zyun_siroma/misc/26048503",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/zyun_siroma/misc",
+                    "rm:id": "26048503",
+                    "rm:user_id": "0000019441",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_papers",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-04-08T18:46:15Z",
+                    "rm:modifier_id": "ai:assign_based_papers",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-04-08T18:46:15Z",
+                    "paper_title": {
+                        "ja": "ロジウムポルフィリンを用いたボロハイドライド酸化電極触媒",
+                        "en": "ロジウムポルフィリンを用いたボロハイドライド酸化電極触媒"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "山崎眞一"
+                            },
+                            {
+                                "name": "妹尾博"
+                            },
+                            {
+                                "name": "倉谷健太郎"
+                            },
+                            {
+                                "name": "城間純"
+                            },
+                            {
+                                "name": "安田和明"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "山崎眞一"
+                            },
+                            {
+                                "name": "妹尾博"
+                            },
+                            {
+                                "name": "倉谷健太郎"
+                            },
+                            {
+                                "name": "城間純"
+                            },
+                            {
+                                "name": "安田和明"
+                            }
+                        ]
+                    },
+                    "publication_date": "2009-09-04",
+                    "publication_name": {
+                        "ja": "錯体化学討論会講演要旨集",
+                        "en": "錯体化学討論会講演要旨集"
+                    },
+                    "volume": "59th",
+                    "starting_page": "141",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "j_global_id": [
+                            "200902282846240796"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "j_global",
+                            "@id": "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=200902282846240796",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "http://jglobal.jst.go.jp/public/200902282846240796",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/zyun_siroma/misc/26048507",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/zyun_siroma/misc",
+                    "rm:id": "26048507",
+                    "rm:user_id": "0000019441",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_papers",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-04-08T18:46:15Z",
+                    "rm:modifier_id": "ai:assign_based_papers",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-04-08T18:46:15Z",
+                    "paper_title": {
+                        "ja": "固体高分子電解質膜を用いた非酵素系グルコース燃料電池の発電特性",
+                        "en": "固体高分子電解質膜を用いた非酵素系グルコース燃料電池の発電特性"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "藤原直子"
+                            },
+                            {
+                                "name": "山崎眞一"
+                            },
+                            {
+                                "name": "城間純"
+                            },
+                            {
+                                "name": "五百蔵勉"
+                            },
+                            {
+                                "name": "妹尾博"
+                            },
+                            {
+                                "name": "安田和明"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "藤原直子"
+                            },
+                            {
+                                "name": "山崎眞一"
+                            },
+                            {
+                                "name": "城間純"
+                            },
+                            {
+                                "name": "五百蔵勉"
+                            },
+                            {
+                                "name": "妹尾博"
+                            },
+                            {
+                                "name": "安田和明"
+                            }
+                        ]
+                    },
+                    "publication_date": "2009-03-29",
+                    "publication_name": {
+                        "ja": "電気化学会大会講演要旨集",
+                        "en": "電気化学会大会講演要旨集"
+                    },
+                    "volume": "76th",
+                    "starting_page": "268",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "j_global_id": [
+                            "200902220345997530"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "j_global",
+                            "@id": "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=200902220345997530",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "http://jglobal.jst.go.jp/public/200902220345997530",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/zyun_siroma/misc/26048512",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/zyun_siroma/misc",
+                    "rm:id": "26048512",
+                    "rm:user_id": "0000019441",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_papers",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-04-08T18:46:15Z",
+                    "rm:modifier_id": "ai:assign_based_papers",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-04-08T18:46:15Z",
+                    "paper_title": {
+                        "ja": "金属‐空気電池のための固体高分子形空気極の検討",
+                        "en": "金属‐空気電池のための固体高分子形空気極の検討"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "藤原直子"
+                            },
+                            {
+                                "name": "八尾勝"
+                            },
+                            {
+                                "name": "妹尾博"
+                            },
+                            {
+                                "name": "城間純"
+                            },
+                            {
+                                "name": "五百蔵勉"
+                            },
+                            {
+                                "name": "安田和明"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "藤原直子"
+                            },
+                            {
+                                "name": "八尾勝"
+                            },
+                            {
+                                "name": "妹尾博"
+                            },
+                            {
+                                "name": "城間純"
+                            },
+                            {
+                                "name": "五百蔵勉"
+                            },
+                            {
+                                "name": "安田和明"
+                            }
+                        ]
+                    },
+                    "publication_date": "2008-11-05",
+                    "publication_name": {
+                        "ja": "電池討論会講演要旨集",
+                        "en": "電池討論会講演要旨集"
+                    },
+                    "volume": "49th",
+                    "starting_page": "355",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "j_global_id": [
+                            "200902262626573530"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "j_global",
+                            "@id": "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=200902262626573530",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "http://jglobal.jst.go.jp/public/200902262626573530",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/zyun_siroma/misc/26048499",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/zyun_siroma/misc",
+                    "rm:id": "26048499",
+                    "rm:user_id": "0000019441",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_papers",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-04-08T18:46:14Z",
+                    "rm:modifier_id": "ai:assign_based_papers",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-04-08T18:46:14Z",
+                    "paper_title": {
+                        "ja": "導電性チタン酸化物担体を用いたPEFCカソード触媒の特性と安定性",
+                        "en": "導電性チタン酸化物担体を用いたPEFCカソード触媒の特性と安定性"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "五百蔵勉"
+                            },
+                            {
+                                "name": "妹尾博"
+                            },
+                            {
+                                "name": "山崎眞一"
+                            },
+                            {
+                                "name": "城間純"
+                            },
+                            {
+                                "name": "藤原直子"
+                            },
+                            {
+                                "name": "安田和明"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "五百蔵勉"
+                            },
+                            {
+                                "name": "妹尾博"
+                            },
+                            {
+                                "name": "山崎眞一"
+                            },
+                            {
+                                "name": "城間純"
+                            },
+                            {
+                                "name": "藤原直子"
+                            },
+                            {
+                                "name": "安田和明"
+                            }
+                        ]
+                    },
+                    "publication_date": "2008-08-04",
+                    "publication_name": {
+                        "ja": "日本エネルギー学会大会講演要旨集",
+                        "en": "日本エネルギー学会大会講演要旨集"
+                    },
+                    "volume": "17th",
+                    "starting_page": "238",
+                    "ending_page": "239",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "j_global_id": [
+                            "200902218537990519"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "j_global",
+                            "@id": "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=200902218537990519",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "http://jglobal.jst.go.jp/public/200902218537990519",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/zyun_siroma/misc/26048494",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/zyun_siroma/misc",
+                    "rm:id": "26048494",
+                    "rm:user_id": "0000019441",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_papers",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-04-08T18:46:14Z",
+                    "rm:modifier_id": "ai:assign_based_papers",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-04-08T18:46:14Z",
+                    "paper_title": {
+                        "ja": "アニオン交換膜を電解質としたダイレクトエタノール燃料電池の発電特性",
+                        "en": "アニオン交換膜を電解質としたダイレクトエタノール燃料電池の発電特性"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "藤原直子"
+                            },
+                            {
+                                "name": "城間純"
+                            },
+                            {
+                                "name": "山崎眞一"
+                            },
+                            {
+                                "name": "五百蔵勉"
+                            },
+                            {
+                                "name": "妹尾博"
+                            },
+                            {
+                                "name": "安田和明"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "藤原直子"
+                            },
+                            {
+                                "name": "城間純"
+                            },
+                            {
+                                "name": "山崎眞一"
+                            },
+                            {
+                                "name": "五百蔵勉"
+                            },
+                            {
+                                "name": "妹尾博"
+                            },
+                            {
+                                "name": "安田和明"
+                            }
+                        ]
+                    },
+                    "publication_date": "2008-03-29",
+                    "publication_name": {
+                        "ja": "電気化学会大会講演要旨集",
+                        "en": "電気化学会大会講演要旨集"
+                    },
+                    "volume": "75th",
+                    "starting_page": "65",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "j_global_id": [
+                            "200902255660420193"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "j_global",
+                            "@id": "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=200902255660420193",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "http://jglobal.jst.go.jp/public/200902255660420193",
+                            "is_downloadable": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/zyun_siroma/association_memberships",
+            "@type": "association_memberships",
+            "@reverse": "https://api.researchmap.jp/zyun_siroma",
+            "total_items": 4,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/zyun_siroma/association_memberships/172356",
+                    "@type": "association_memberships",
+                    "@reverse": "https://api.researchmap.jp/zyun_siroma/association_memberships",
+                    "rm:id": "172356",
+                    "rm:user_id": "0000019441",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000019441",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2011-02-02T15:00:00Z",
+                    "rm:modifier_id": "0000019441",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2011-02-02T15:00:00Z",
+                    "academic_society_name": {
+                        "ja": "日本化学会"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/zyun_siroma/association_memberships/172355",
+                    "@type": "association_memberships",
+                    "@reverse": "https://api.researchmap.jp/zyun_siroma/association_memberships",
+                    "rm:id": "172355",
+                    "rm:user_id": "0000019441",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000019441",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2011-02-02T15:00:00Z",
+                    "rm:modifier_id": "0000019441",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2011-02-02T15:00:00Z",
+                    "academic_society_name": {
+                        "ja": "炭素材料学会"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/zyun_siroma/association_memberships/172354",
+                    "@type": "association_memberships",
+                    "@reverse": "https://api.researchmap.jp/zyun_siroma/association_memberships",
+                    "rm:id": "172354",
+                    "rm:user_id": "0000019441",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000019441",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2011-02-02T15:00:00Z",
+                    "rm:modifier_id": "0000019441",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2011-02-02T15:00:00Z",
+                    "academic_society_name": {
+                        "ja": "日本ポーラログラフ学会"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/zyun_siroma/association_memberships/172353",
+                    "@type": "association_memberships",
+                    "@reverse": "https://api.researchmap.jp/zyun_siroma/association_memberships",
+                    "rm:id": "172353",
+                    "rm:user_id": "0000019441",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000019441",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2011-02-02T15:00:00Z",
+                    "rm:modifier_id": "0000019441",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2011-02-02T15:00:00Z",
+                    "academic_society_name": {
+                        "ja": "電気化学会"
+                    }
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/zyun_siroma/research_projects",
+            "@type": "research_projects",
+            "@reverse": "https://api.researchmap.jp/zyun_siroma",
+            "total_items": 2,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/zyun_siroma/research_projects/45118711",
+                    "@type": "research_projects",
+                    "@reverse": "https://api.researchmap.jp/zyun_siroma/research_projects",
+                    "rm:id": "45118711",
+                    "rm:user_id": "0000019441",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2024-01-30T16:24:16Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2024-01-30T16:24:16Z",
+                    "research_project_title": {
+                        "ja": "ポリオキソメタレートをメディエーターとするPtフリー燃料電池の開発"
+                    },
+                    "investigators": {
+                        "ja": [
+                            {
+                                "name": "江口 浩一"
+                            },
+                            {
+                                "name": "城間 純"
+                            },
+                            {
+                                "name": "松井 敏明"
+                            }
+                        ]
+                    },
+                    "offer_organization": {
+                        "ja": "日本学術振興会"
+                    },
+                    "system_name": {
+                        "ja": "科学研究費助成事業"
+                    },
+                    "category": {
+                        "ja": "基盤研究(A)"
+                    },
+                    "institution_name": {
+                        "ja": "京都大学"
+                    },
+                    "from_date": "2018-04-01",
+                    "to_date": "2023-03-31",
+                    "overall_grant_amount": {
+                        "total_cost": "43810000",
+                        "direct_cost": "33700000",
+                        "indirect_cost": "10110000"
+                    },
+                    "description": {
+                        "ja": "(1) Fe2(SO4)3およびCuSO4を添加したリンバナドモリブデン酸溶液をレドックスフロー型PEFCへ供給し、定電流通電試験を行った。その際の溶液の紫外可視吸収スペクトルを測定した。その結果、金属カチオン添加溶液では無添加溶液ほどヘテロポリアニオン骨格中のVの還元反応が進行していないことが示され、添加された金属カチオンは還元反応活性種であり、ヘテロポリアニオンのVに代わって還元されている可能性が考えられる。\n電池性能の安定性に寄与するヘテロポリアニオン再酸化反応特性に対し、金属カチオンの添加が与える影響を評価するために還元－再酸化試験を行った。還元前処理を行った溶液に対し、O2ガスを供給し再酸化反応を進行させた際の開回路電圧の経時変化を調べた。金属カチオン添加溶液では、無添加溶液に比べ開回路電圧の回復の度合いは遅かった。このことから添加した金属カチオンはヘテロポリアニオンの再酸化反応を抑制している可能性が考えられる。再酸化操作中における溶液の吸収スペクトルから、再酸化速度を導出したところ、金属カチオン添加によりヘテロポリアニオンの再酸化反応速度の低下が確認された。この原因としては、溶液内を遊離する金属カチオンがヘテロポリアニオンのイオン対となり再酸化反応に不活性な種を生成した可能性が考えられる。\n(2) 負極の酸化還元媒体の還元再生反応について、実現できればインパクトが大きいと考えられる、低温でのＣ－Ｃ結合の切断を伴う燃料利用を検討した。Ｃ－Ｃ結合を切断する反応の最も単純な燃料としてシュウ酸の酸化反応をターゲットに定め、ビーカーセルによる開回路電位の変化を指標にした活性評価を行った。負極メディエーターとシュウ酸の酸化還元反応の触媒としてロジウムフタロシアニン錯体の有効性を確認した。また、触媒は従来水溶性の錯体を用いて分子触媒として用いていたが、非水溶性の触媒を炭素担体に担持して用いた。"
+                    },
+                    "identifiers": {
+                        "grant_number": [
+                            "18H03852"
+                        ],
+                        "national_grant_number": [
+                            "JP18H03852"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "kaken",
+                            "@id": "https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-18H03852"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/zyun_siroma/research_projects/45373153",
+                    "@type": "research_projects",
+                    "@reverse": "https://api.researchmap.jp/zyun_siroma/research_projects",
+                    "rm:id": "45373153",
+                    "rm:user_id": "0000019441",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2024-01-30T22:56:22Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2024-01-30T22:56:22Z",
+                    "research_project_title": {
+                        "ja": "レドックスフロー電池を応用した間接型燃料電池",
+                        "en": "Indirect fuel cell based on a redox-flow battery"
+                    },
+                    "investigators": {
+                        "ja": [
+                            {
+                                "name": "城間 純"
+                            },
+                            {
+                                "name": "山崎 眞一"
+                            },
+                            {
+                                "name": "五百蔵 勉"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "SIROMA ZYUN"
+                            },
+                            {
+                                "name": "YAMAZAKI Shin-ichi"
+                            },
+                            {
+                                "name": "IOROI Tsutomu"
+                            }
+                        ]
+                    },
+                    "offer_organization": {
+                        "ja": "日本学術振興会",
+                        "en": "Japan Society for the Promotion of Science"
+                    },
+                    "system_name": {
+                        "ja": "科学研究費助成事業",
+                        "en": "Grants-in-Aid for Scientific Research"
+                    },
+                    "category": {
+                        "ja": "基盤研究(B)",
+                        "en": "Grant-in-Aid for Scientific Research (B)"
+                    },
+                    "institution_name": {
+                        "ja": "国立研究開発法人産業技術総合研究所",
+                        "en": "National Institute of Advanced Industrial Science and Technology"
+                    },
+                    "from_date": "2013-04-01",
+                    "to_date": "2016-03-31",
+                    "overall_grant_amount": {
+                        "total_cost": "12870000",
+                        "direct_cost": "9900000",
+                        "indirect_cost": "2970000"
+                    },
+                    "description": {
+                        "ja": "2種の酸化還元対溶液（アノライトとカソライト）を循環させて発電するレドックスフロー電池と、それら2種の溶液をそれぞれ燃料と空気との化学反応により再生する再生反応槽とを組み合わた「間接型燃料電池」を構築した。レドックスフロー電池としては、新規に提案した構造により、アノライトとカソライトが相互に拡散するクロスオーバーを阻止しながら定常運転することが可能になった。アノライト再生触媒として溶液状のロジウム錯体を用い、一酸化炭素を含む水素が燃料であっても発電可能であることを示した。カソライト再生触媒として炭素系の触媒を用いて非白金化を達成した。",
+                        "en": "An indirect fuel cell, which is composed of a redox flow battery (RFB) and two chemical reactors to regenerate the anolyte and catholyte using a fuel and oxygen, respectively, is constructed. The design for the RFB is composed of two subcells separated by a gas phase of hydrogen, which eliminates the crossover of ionic species between the anolyte and catholyte. The regenerator for the anolyte was operated using CO-containing H2 gas with the aid of molecular catalysts of rhodium complexes, and that for the catholyte was operated using O2 gas with the aid of carbonaceous Pt-free solid catalyst."
+                    },
+                    "identifiers": {
+                        "grant_number": [
+                            "25289363"
+                        ],
+                        "national_grant_number": [
+                            "JP25289363"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "kaken",
+                            "@id": "https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-25289363"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

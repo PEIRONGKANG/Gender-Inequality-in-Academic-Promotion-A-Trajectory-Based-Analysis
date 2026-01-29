@@ -1,0 +1,3147 @@
+{
+    "@context": "https://api.researchmap.jp/researcher.jsonld",
+    "@id": "https://api.researchmap.jp/read0002264?format=json",
+    "@type": "researchers",
+    "rm:user_id": "0000015453",
+    "rm:creator_id": "0000015453",
+    "rm:creator_type": "myself",
+    "rm:created": "2003-03-30T15:00:00Z",
+    "rm:modifier_id": "0000015453",
+    "rm:modifier_type": "myself",
+    "rm:modified": "2024-01-30T15:16:27Z",
+    "permalink": "read0002264",
+    "family_name": {
+        "ja": "寺田",
+        "ja-Kana": "テラダ",
+        "en": "Terada"
+    },
+    "given_name": {
+        "ja": "宙",
+        "ja-Kana": "ヒロシ",
+        "en": "Hiroshi"
+    },
+    "display_name_kana": "disclosed",
+    "display_nickname": "researchers_only",
+    "display_image": "disclosed",
+    "display_contact_point": "disclosed",
+    "affiliations": [
+        {
+            "affiliation": {
+                "ja": "厚生労働省 国立保健医療科学院",
+                "en": "National Institute of Public Health"
+            },
+            "section": {
+                "ja": "生活環境研究部",
+                "en": "Department of Environmental Health"
+            },
+            "job": {
+                "ja": "研究員",
+                "en": "researcher"
+            },
+            "display_affiliation": "disclosed",
+            "display_job": "disclosed",
+            "rm:institution_code": "A044000000"
+        }
+    ],
+    "display_profile": "disclosed",
+    "display_url": "disclosed",
+    "identifiers": {
+        "j_global_id": [
+            "200901046372538803"
+        ]
+    },
+    "rm:erad_id_verified": false,
+    "rm:orc_id_verified": true,
+    "display_erad_id": "closed",
+    "display_orc_id": "closed",
+    "display_researcher_id": "disclosed",
+    "display_j_global_id": "disclosed",
+    "see_also": [
+        {
+            "label": "j_global",
+            "@id": "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=200901046372538803"
+        }
+    ],
+    "@graph": [
+        {
+            "@id": "https://api.researchmap.jp/read0002264/research_areas",
+            "@type": "research_areas",
+            "@reverse": "https://api.researchmap.jp/read0002264",
+            "total_items": 1,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0002264/research_areas/40207452",
+                    "@type": "research_areas",
+                    "@reverse": "https://api.researchmap.jp/read0002264/research_areas",
+                    "rm:id": "40207452",
+                    "rm:user_id": "0000015453",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000015453",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2022-10-06T07:38:23Z",
+                    "rm:modifier_id": "0000015453",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2022-10-06T07:38:23Z",
+                    "discipline_number": "A189",
+                    "item_number": "A58020",
+                    "discipline": {
+                        "ja": "ライフサイエンス",
+                        "en": "Life sciences"
+                    },
+                    "research_field": {
+                        "ja": "衛生学、公衆衛生学分野：実験系を含む",
+                        "en": "Hygiene and public health (laboratory)"
+                    }
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0002264/published_papers",
+            "@type": "published_papers",
+            "@reverse": "https://api.researchmap.jp/read0002264",
+            "total_items": 48,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0002264/published_papers/40208004",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0002264/published_papers",
+                    "rm:id": "40208004",
+                    "rm:user_id": "0000015453",
+                    "display": "disclosed",
+                    "major_achievement": true,
+                    "rm:creator_id": "0000015453",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2022-10-06T08:39:40Z",
+                    "rm:modifier_id": "0000015453",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2022-10-06T09:12:07Z",
+                    "paper_title": {
+                        "ja": "GMP調査の国際整合性確保と教育訓練について",
+                        "en": "Education and training for GMP inspectors in Japan to ensure international harmonization of GMP inspection"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "寺田 宙"
+                            },
+                            {
+                                "name": "戸次 加奈江"
+                            },
+                            {
+                                "name": "山口 一郎"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "TERADA Hiroshi"
+                            },
+                            {
+                                "name": "BEKKI Kanae"
+                            },
+                            {
+                                "name": "YAMAGUCHI Ichiro"
+                            }
+                        ]
+                    },
+                    "published_paper_owner_roles": [
+                        "lead"
+                    ],
+                    "description": {
+                        "ja": "我が国は2012年 3 月，GMP査察当局間の法的拘束力を持たない非公式な協力の枠組みである医薬品査察協定及び医薬品査察協同スキーム（Pharmaceutical Inspection Co-operation Scheme: PIC/S）に加盟申請を行い，2014年 5 月に45番目の加盟当局として承認された．PIC/S加盟に向け，個々のGMP調査員の質の確保が課題の一つとして浮き彫りとなり，GMP合同模擬査察の拡充等により教育訓練の強化が図られるとともに，GMP調査要領が改定され，調査員の要件等が定められた．要件のうちGMP関連業務の経験に関しては国立保健医療科学院で実施している医薬品医療機器の品質確保に関する研修（旧称：薬事衛生管理研修）を修了すれば 1 年間の経験に相当と規定された．同研修は国際的レベルのGMP調査を遂行できる調査員の養成を目指しており，1987年度の開講以来，GMP調査員の教育訓練において重要な役割を担っている．本稿では我が国でGMP調査員を対象として行われている教育訓練と，医薬品医療機器の品質確保に関する研修の概要を紹介する．",
+                        "en": "In March 2012, Japan has applied for entry into the Pharmaceutical Inspection Convention and the Pharmaceutical Inspection Cooperation Scheme (PIC/S), a framework for legally non-binding and informal cooperation among Good Manufacturing Practice (GMP) inspection authorities; further, it was approved as the 45th member in May 2014. Ensuring the quality of each GMP inspector was a challenge for Japan’s accession to the PIC/S. In response, the education and training programs were strengthened by the expansion of joint GMP mock inspections. In addition, the guidelines for GMP inspection have been revised to define requirements for the inspectors, and stipulate that completion of the training course conducted by the National Institute of Public Health is equivalent to one year of work experience related to GMP. This training course aims to foster inspectors who is capable of performing a GMP inspection at an international level, and has played an important role in the education and training of GMP inspectors since its inception in fiscal year 1987. This article outlines the education and training programs provided for the GMP inspectors in Japan and training course conducted by NIPH to secure quality of pharmaceuticals and medical devices."
+                    },
+                    "publisher": {
+                        "ja": "国立保健医療科学院",
+                        "en": "National Institute of Public Health"
+                    },
+                    "publication_date": "2022-05-16",
+                    "publication_name": {
+                        "ja": "保健医療科学",
+                        "en": "Journal of the National Institute of Public Health"
+                    },
+                    "volume": "71",
+                    "number": "2",
+                    "starting_page": "163",
+                    "ending_page": "174",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.20683/jniph.71.2_163"
+                        ],
+                        "issn": [
+                            "1347-6459"
+                        ],
+                        "e_issn": [
+                            "2432-0722"
+                        ],
+                        "cinii_cr_id": [
+                            "1390292118451551104"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.20683/jniph.71.2_163",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_research",
+                            "@id": "https://cir.nii.ac.jp/crid/1390292118451551104?lang=ja",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0002264/published_papers/40207921",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0002264/published_papers",
+                    "rm:id": "40207921",
+                    "rm:user_id": "0000015453",
+                    "display": "disclosed",
+                    "major_achievement": true,
+                    "rm:creator_id": "0000015453",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2022-10-06T08:23:42Z",
+                    "rm:modifier_id": "0000015453",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2022-10-06T08:29:52Z",
+                    "paper_title": {
+                        "en": "Total Diet Study to Assess Radioactive Cs and 40K Levels in the Japanese Population before and after the Fukushima Daiichi Nuclear Power Plant Accident"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Hiroshi Terada"
+                            },
+                            {
+                                "name": "Ikuyo Iijima"
+                            },
+                            {
+                                "name": "Sadaaki Miyake"
+                            },
+                            {
+                                "name": "Kimio Isomura"
+                            },
+                            {
+                                "name": "Hideo Sugiyama"
+                            }
+                        ]
+                    },
+                    "published_paper_owner_roles": [
+                        "lead"
+                    ],
+                    "description": {
+                        "en": "We conducted a total diet study (TDS) of 137Cs, 134Cs, and 40K to assess their average dietary exposure levels in a Japanese adult population before and after the Fukushima Daiichi nuclear power plant (FDNPP) accident. Nineteen market baskets were evaluated in 2006–2011. In each basket, a TDS sample comprising tap water and 160–170 food items, which were combined into 13 groups, were collected for analysis by gamma-ray spectrometry. From 2006 to 2010, the 137Cs activity concentration in the “fish and shellfish” group was 0.099 Bq/kg, representing the highest value obtained, whereas the total committed effective dose (CED) of radiocesium isotopes (137Cs + 134Cs) was 0.69 μSv. In 2011, “milk and dairy products” from Sendai City had a Cs activity concentration of 12 Bq/kg, representing the highest values among all food groups studied. However, the annual CED of radioactive Cs in Fukushima City was 17 μSv after the FDNPP accident, which is 60-fold lower than the maximum permissible dose of 1 mSv/year. The mean CED obtained for 40K was 180 μSv, which is comparable to the global average. Our results reveal the average dietary exposure of 137Cs, 134Cs, and 40K, which can aid in estimating the radiological safety of foods."
+                    },
+                    "publisher": {
+                        "en": "MDPI AG"
+                    },
+                    "publication_date": "2020-11-03",
+                    "publication_name": {
+                        "en": "International Journal of Environmental Research and Public Health"
+                    },
+                    "volume": "17",
+                    "number": "21",
+                    "starting_page": "8131",
+                    "ending_page": "8131",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.3390/ijerph17218131"
+                        ],
+                        "e_issn": [
+                            "1660-4601"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.3390/ijerph17218131",
+                            "is_downloadable": false
+                        },
+                        {
+                            "@id": "https://www.mdpi.com/1660-4601/17/21/8131/pdf",
+                            "label": "url",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0002264/published_papers/40208011",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0002264/published_papers",
+                    "rm:id": "40208011",
+                    "rm:user_id": "0000015453",
+                    "display": "disclosed",
+                    "major_achievement": true,
+                    "rm:creator_id": "0000015453",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2022-10-06T08:39:42Z",
+                    "rm:modifier_id": "0000015453",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2022-10-06T09:13:41Z",
+                    "paper_title": {
+                        "ja": "食品中の放射性物質の規制値と濃度の現状",
+                        "en": "Regulation values and current situation of radioactive materials in food"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "寺田 宙"
+                            },
+                            {
+                                "name": "山口 一郎"
+                            },
+                            {
+                                "name": "志村 勉"
+                            },
+                            {
+                                "name": "エリック スベンソン"
+                            },
+                            {
+                                "name": "欅田 尚樹"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Terada Hirosh"
+                            },
+                            {
+                                "name": "Yamaguchi Ichiro"
+                            },
+                            {
+                                "name": "Shimura Tsutomu"
+                            },
+                            {
+                                "name": "Erik R. Svendsen"
+                            },
+                            {
+                                "name": "Kunugita Naoki"
+                            }
+                        ]
+                    },
+                    "published_paper_owner_roles": [
+                        "lead"
+                    ],
+                    "description": {
+                        "ja": "福島原発事故後，厚生労働省は原子力安全委員会の策定した飲食物摂取制限に関する指標を基に食品中の放射性物質に関する暫定規制値を設定した．飲食物摂取制限に関する指標は国際放射線防護委員会等の考え方を踏まえて実効線量5 mSv ，甲状腺等価線量50 mSv を基準に策定されたものである．平成24年 4 月1日には現行の食品中の放射性物質に係る基準値が施行された．基準値は食品摂取による年間線量が 1 mSvを超えないように設定されており，コーデックス委員会の考えを踏襲している．日本の暫定規制値と基準値は米国，EU，コーデックスの誘導介入レベルよりも低くなっているが，これは基準となる線量ではなく，基準値の誘導にあたっての前提条件の違いによるものである．\n\n事故後，食品の検査が始まると間もなく暫定規制値を上回る食品が見つかり大きな社会問題となった．このため，農林水産省，地方自治体と生産者により飼養管理の徹底，カリウム肥料の施肥といった様々な放射性物質の低減策が取られた．これらが功を奏し，現時点では大部分の食品は基準値を下回り，放射性セシウム濃度は十分低いレベルにある．食品の検査結果を用いた線量評価やトータルダイエットスタディにおいても食品由来の線量は年間線量の上限である 1 mSvを十分に下回っており，我が国の事故後の対応は概ね有効であったと評価できる．\n\nただし，野生キノコ，野生鳥獣肉，山菜類，淡水魚といった飼養管理，栽培管理が困難な食品については依然として放射性セシウム濃度が高く，現時点でも基準値の超過が認められており，引き続きモニタリングを行うべきである．",
+                        "en": "After the Fukushima Dai-ichi Nuclear Power Plant accident, the Ministry of Health, Labour and Welfare set the provisional regulation values for radioactive materials in foods by adopting Indices for Food and Beverage Intake Restriction. The indices were established based on 5 mSv of effective dose and 50 mSv of committed equivalent dose to the thyroid in compliance with the recommendations of the International Commission on Radiological Protection and others. On April 1, 2012, the present standard limits were put in force for the exiting exposure situations. The standard limits were intended not to exceed 1 mSv/year from food intake. One milli-Sievert per year of maximum permitted level conforms with the intervention exemption level (reference level) adopted by the Codex Alimentarius Commission. The provisional regulation values and the present standard limits of Japan are lower than the derived intervention levels of the U.S., the EU and Codex.\n\nImmediately after the monitoring of foods began, public concern was raised since many samples of leafy vegetables and raw milk were found to be above the provisional regulation values. Thus, several public health protection measures were taken to decrease the concentrations of radioactive materials in foods by the Ministry of Agriculture, Forestry and Fisheries, the local governments and the farmers, such as feeding livestock with safe food and the application of potassium fertilizer. Due to these measures, almost all of the marketed foods in Japan are below the standard limits and concentrations of radioactive cesium are sufficiently low at this moment. Results of dose estimation with the monitoring data and total diet studies also show committed effective doses from food are well below the maximum permissible level; thus, it can be concluded that the measures taken by Japan after the Fukushima accident were reasonably successful.\n\nHowever, there are still some foods found with radiocesium concentrations above the standard limit like wild mushrooms, wild animal meat, wild vegetables, freshwater fish, and some saltwater fish whose feeding or cultivation management are difficult to control. Thus, monitoring of those foods should be continued."
+                    },
+                    "publisher": {
+                        "ja": "国立保健医療科学院",
+                        "en": "National Institute of Public Health"
+                    },
+                    "publication_date": "2018",
+                    "publication_name": {
+                        "ja": "保健医療科学",
+                        "en": "Journal of the National Institute of Public Health"
+                    },
+                    "volume": "67",
+                    "number": "1",
+                    "starting_page": "21",
+                    "ending_page": "33",
+                    "languages": [
+                        "eng"
+                    ],
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.20683/jniph.67.1_21"
+                        ],
+                        "issn": [
+                            "1347-6459"
+                        ],
+                        "e_issn": [
+                            "2432-0722"
+                        ],
+                        "cinii_na_id": [
+                            "130006706913"
+                        ],
+                        "cinii_nc_id": [
+                            "AA11751510"
+                        ],
+                        "cinii_cr_id": [
+                            "1390282680184412288"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.20683/jniph.67.1_21",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_books",
+                            "@id": "http://ci.nii.ac.jp/ncid/AA11751510",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_research",
+                            "@id": "https://cir.nii.ac.jp/crid/1390282680184412288?lang=ja",
+                            "is_downloadable": false
+                        },
+                        {
+                            "@id": "http://id.ndl.go.jp/bib/028931537",
+                            "label": "url",
+                            "is_downloadable": false
+                        },
+                        {
+                            "@id": "https://search.jamas.or.jp/link/ui/2018306840",
+                            "label": "url",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0002264/published_papers/40207952",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0002264/published_papers",
+                    "rm:id": "40207952",
+                    "rm:user_id": "0000015453",
+                    "display": "disclosed",
+                    "major_achievement": true,
+                    "rm:creator_id": "0000015453",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2022-10-06T08:28:27Z",
+                    "rm:modifier_id": "0000015453",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2022-10-06T08:29:56Z",
+                    "paper_title": {
+                        "en": "Radioactive cesium (<sup>134</sup> Cs and <sup>137</sup> Cs) content in human placenta after the Fukushima nuclear power plant accident"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Makoto Suzuki"
+                            },
+                            {
+                                "name": "Hiroshi Terada"
+                            },
+                            {
+                                "name": "Nobuya Unno"
+                            },
+                            {
+                                "name": "Ichiro Yamaguchi"
+                            },
+                            {
+                                "name": "Naoki Kunugita"
+                            },
+                            {
+                                "name": "Hisanori Minakami"
+                            }
+                        ]
+                    },
+                    "published_paper_owner_roles": [
+                        "corresponding"
+                    ],
+                    "publisher": {
+                        "en": "Wiley"
+                    },
+                    "publication_date": "2013-09",
+                    "publication_name": {
+                        "en": "Journal of Obstetrics and Gynaecology Research"
+                    },
+                    "volume": "39",
+                    "number": "9",
+                    "starting_page": "1406",
+                    "ending_page": "1410",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1111/jog.12071"
+                        ],
+                        "issn": [
+                            "1341-8076"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1111/jog.12071",
+                            "is_downloadable": false
+                        },
+                        {
+                            "@id": "http://onlinelibrary.wiley.com/wol1/doi/10.1111/jog.12071/fullpdf",
+                            "label": "url",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0002264/published_papers/40207945",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0002264/published_papers",
+                    "rm:id": "40207945",
+                    "rm:user_id": "0000015453",
+                    "display": "disclosed",
+                    "major_achievement": true,
+                    "rm:creator_id": "0000015453",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2022-10-06T08:27:02Z",
+                    "rm:modifier_id": "0000015453",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2022-10-06T08:29:58Z",
+                    "paper_title": {
+                        "en": "Effect of the Fukushima nuclear power plant accident on radioiodine ( <sup>131</sup>I) content in human breast milk"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Nobuya Unno"
+                            },
+                            {
+                                "name": "Hisanori Minakami"
+                            },
+                            {
+                                "name": "Takahiko Kubo"
+                            },
+                            {
+                                "name": "Keiya Fujimori"
+                            },
+                            {
+                                "name": "Isamu Ishiwata"
+                            },
+                            {
+                                "name": "Hiroshi Terada"
+                            },
+                            {
+                                "name": "Shigeru Saito"
+                            },
+                            {
+                                "name": "Ichiro Yamaguchi"
+                            },
+                            {
+                                "name": "Naoki Kunugita"
+                            },
+                            {
+                                "name": "Akihito Nakai"
+                            },
+                            {
+                                "name": "Yasunori Yoshimura"
+                            }
+                        ]
+                    },
+                    "published_paper_owner_roles": [
+                        "corresponding"
+                    ],
+                    "description": {
+                        "en": "Background: Environmental pollution with radioiodine (iodine-131, 131I) occurred after an accident at the Fukushima nuclear power plant (FNP) on March 11, 2011, in Japan.Whether environmental pollution with 131I can contaminate human breast milk has not been documented. Methods: The 131I content was determined in 126 breast milk samples from 119 volunteer lactating women residing within 250 km of the FNP, between April 24 and May 31, 2011. The degree of environmental pollution was determined based on the data released by the Japanese government. Results: An 131I content of 210 Bq/kg in the tap water in Tokyo, which is located 230 km south of the FNP, on March 22 and of 3500 Bq/kg in spinach sampled in a city located 140 km southwest of the FNP on March 19 decreased over time to < 21 Bq/kg on March 27 and 12 Bq/kg on April 26, respectively. Seven of the 23 women who were tested in April secreted a detectable level of 131I in their breast milk. The concentrations of 131I in the breast milk of the seven women were 2.3 Bq/kg (on April 24), and 2.2, 2.3, 2.3, 3.0, 3.5 and 8.0 (on April 25); the concentrations of 131I in the tap water available for these seven women at the same time were estimated to be < 1.3 Bq/kg. None of the remaining 96 women tested in May exhibited a detectable concentration of 131I in their breast milk samples. Conclusions: The contamination of breast milk with 131I can occur even when only mild environmental 131I pollution is present. © 2012 The Authors."
+                    },
+                    "publication_date": "2012-05",
+                    "publication_name": {
+                        "en": "Journal of Obstetrics and Gynaecology Research"
+                    },
+                    "volume": "38",
+                    "number": "5",
+                    "starting_page": "772",
+                    "ending_page": "779",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1111/j.1447-0756.2011.01810.x"
+                        ],
+                        "issn": [
+                            "1341-8076"
+                        ],
+                        "e_issn": [
+                            "1447-0756"
+                        ],
+                        "pm_id": [
+                            "22487003"
+                        ],
+                        "scopus_id": [
+                            "84861036811"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1111/j.1447-0756.2011.01810.x",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "pubmed",
+                            "@id": "https://www.ncbi.nlm.nih.gov/pubmed/22487003",
+                            "is_downloadable": false
+                        },
+                        {
+                            "@id": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=84861036811&origin=inward",
+                            "label": "scopus"
+                        },
+                        {
+                            "@id": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=84861036811&origin=inward",
+                            "label": "scopus_citedby"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0002264/misc",
+            "@type": "misc",
+            "@reverse": "https://api.researchmap.jp/read0002264",
+            "total_items": 29,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0002264/misc/40890537",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0002264/misc",
+                    "rm:id": "40890537",
+                    "rm:user_id": "0000015453",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_papers",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2022-12-25T13:29:18Z",
+                    "rm:modifier_id": "ai:assign_based_papers",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-12-25T13:29:18Z",
+                    "paper_title": {
+                        "ja": "環境・衛生部会衛生試験法シンポジウム〜放射線を正しく怖がるために正しく知ろう〜 厚生労働省の対応と食品中放射性物質の検査結果について"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "寺田 宙"
+                            },
+                            {
+                                "name": "山口 一郎"
+                            },
+                            {
+                                "name": "志村 勉"
+                            },
+                            {
+                                "name": "杉山 英男"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "(公社)日本薬学会"
+                    },
+                    "publication_date": "2020-03",
+                    "publication_name": {
+                        "ja": "日本薬学会年会要旨集"
+                    },
+                    "volume": "140年会",
+                    "starting_page": "S42",
+                    "ending_page": "2",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "0918-9823"
+                        ],
+                        "jamas_id": [
+                            "2020322648"
+                        ]
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0002264/misc/40830343",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0002264/misc",
+                    "rm:id": "40830343",
+                    "rm:user_id": "0000015453",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_papers",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2022-12-23T03:16:23Z",
+                    "rm:modifier_id": "ai:assign_based_papers",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-12-23T03:16:23Z",
+                    "paper_title": {
+                        "en": "【福島第一原子力発電所での事故から得られた公衆衛生における教訓】食品中の放射性物質の規制値と濃度の現状(【Lessons learned on public health from the Fukushima Daiichi Nuclear Power Plant accident】Regulation values and current situation of radioactive materials in food)",
+                        "ja": "【福島第一原子力発電所での事故から得られた公衆衛生における教訓】食品中の放射性物質の規制値と濃度の現状(【Lessons learned on public health from the Fukushima Daiichi Nuclear Power Plant accident】Regulation values and current situation of radioactive materials in food)"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "寺田 宙"
+                            },
+                            {
+                                "name": "山口 一郎"
+                            },
+                            {
+                                "name": "志村 勉"
+                            },
+                            {
+                                "name": "エリック・スベンソン"
+                            },
+                            {
+                                "name": "欅田 尚樹"
+                            }
+                        ],
+                        "ja": [
+                            {
+                                "name": "寺田 宙"
+                            },
+                            {
+                                "name": "山口 一郎"
+                            },
+                            {
+                                "name": "志村 勉"
+                            },
+                            {
+                                "name": "エリック・スベンソン"
+                            },
+                            {
+                                "name": "欅田 尚樹"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "福島原発事故後、厚生労働省は原子力安全委員会の策定した飲食物摂取制限に関する指標を基に食品中の放射性物質に関する暫定規制値を設定した。飲食物摂取制限に関する指標は国際放射線防護委員会等の考え方を踏まえて実効線量5mSv、甲状腺等価線量50mSvを基準に策定されたものである。平成24年4月1日には現行の食品中の放射性物質に係る基準値が施行された。基準値は食品摂取による年間線量が1mSvを超えないように設定されており、コーデックス委員会の考えを踏襲している。日本の暫定規制値と基準値は米国、EU、コーデックスの誘導介入レベルよりも低くなっているが、これは基準となる線量ではなく、基準値の誘導にあたっての前提条件の違いによるものである。事故後、食品の検査が始まると間もなく暫定規制値を上回る食品が見つかり大きな社会問題となった。このため、農林水産省、地方自治体と生産者により飼養管理の徹底、カリウム肥料の施肥といった様々な放射性物質の低減策が取られた。これらが功を奏し、現時点では大部分の食品は基準値を下回り、放射性セシウム濃度は十分低いレベルにある。食品の検査結果を用いた線量評価やトータルダイエットスタディにおいても食品由来の線量は年間線量の上限である1mSvを十分に下回っており、我が国の事故後の対応は概ね有効であったと評価できる。ただし、野生キノコ、野生鳥獣肉、山菜類、淡水魚といった飼養管理、栽培管理が困難な食品については依然として放射性セシウム濃度が高く、現時点でも基準値の超過が認められており、引き続きモニタリングを行うべきである。(著者抄録)",
+                        "ja": "福島原発事故後、厚生労働省は原子力安全委員会の策定した飲食物摂取制限に関する指標を基に食品中の放射性物質に関する暫定規制値を設定した。飲食物摂取制限に関する指標は国際放射線防護委員会等の考え方を踏まえて実効線量5mSv、甲状腺等価線量50mSvを基準に策定されたものである。平成24年4月1日には現行の食品中の放射性物質に係る基準値が施行された。基準値は食品摂取による年間線量が1mSvを超えないように設定されており、コーデックス委員会の考えを踏襲している。日本の暫定規制値と基準値は米国、EU、コーデックスの誘導介入レベルよりも低くなっているが、これは基準となる線量ではなく、基準値の誘導にあたっての前提条件の違いによるものである。事故後、食品の検査が始まると間もなく暫定規制値を上回る食品が見つかり大きな社会問題となった。このため、農林水産省、地方自治体と生産者により飼養管理の徹底、カリウム肥料の施肥といった様々な放射性物質の低減策が取られた。これらが功を奏し、現時点では大部分の食品は基準値を下回り、放射性セシウム濃度は十分低いレベルにある。食品の検査結果を用いた線量評価やトータルダイエットスタディにおいても食品由来の線量は年間線量の上限である1mSvを十分に下回っており、我が国の事故後の対応は概ね有効であったと評価できる。ただし、野生キノコ、野生鳥獣肉、山菜類、淡水魚といった飼養管理、栽培管理が困難な食品については依然として放射性セシウム濃度が高く、現時点でも基準値の超過が認められており、引き続きモニタリングを行うべきである。(著者抄録)"
+                    },
+                    "publisher": {
+                        "en": "国立保健医療科学院",
+                        "ja": "国立保健医療科学院"
+                    },
+                    "publication_date": "2018-02",
+                    "publication_name": {
+                        "en": "保健医療科学",
+                        "ja": "保健医療科学"
+                    },
+                    "volume": "67",
+                    "number": "1",
+                    "starting_page": "21",
+                    "ending_page": "33",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "1347-6459"
+                        ],
+                        "e_issn": [
+                            "2432-0722"
+                        ],
+                        "jamas_id": [
+                            "2018306840"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "url",
+                            "@id": "https://search.jamas.or.jp/index.php?module=Default&action=Link&pub_year=2018&ichushi_jid=J03876&link_issn=&doc_id=20180402550003&doc_link_id=130006706913&url=https%3A%2F%2Fci.nii.ac.jp%2Fnaid%2F130006706913&type=CiNii&icon=https%3A%2F%2Fjk04.jamas.or.jp%2Ficon%2F00003_1.gif",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "https://search.jamas.or.jp/index.php?module=Default&action=Link&pub_year=2018&ichushi_jid=J03876&link_issn=&doc_id=20180402550003&doc_link_id=10.20683%2Fjniph.67.1_21&url=https%3A%2F%2Fdoi.org%2F10.20683%2Fjniph.67.1_21&type=J-STAGE&icon=https%3A%2F%2Fjk04.jamas.or.jp%2Ficon%2F00007_3.gif",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0002264/misc/26382318",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0002264/misc",
+                    "rm:id": "26382318",
+                    "rm:user_id": "0000015453",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_papers",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-04-14T10:53:36Z",
+                    "rm:modifier_id": "ai:assign_based_papers",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-04-14T10:53:36Z",
+                    "paper_title": {
+                        "ja": "海産物乾燥粉末中のPo-210測定",
+                        "en": "Measurement of Po-210 in seafood powder sample"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "三浦 勉"
+                            },
+                            {
+                                "name": "寺田 宙"
+                            },
+                            {
+                                "name": "太田 智子"
+                            }
+                        ]
+                    },
+                    "publication_date": "2017-12",
+                    "publication_name": {
+                        "ja": "Proceedings of the 18th Workshop on Environmental Radioactivity",
+                        "en": "Proceedings of the 18th Workshop on Environmental Radioactivity"
+                    },
+                    "starting_page": "246",
+                    "ending_page": "248",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "misc_type": "summary_national_conference",
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0002264/misc/40830326",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0002264/misc",
+                    "rm:id": "40830326",
+                    "rm:user_id": "0000015453",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_papers",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2022-12-23T03:15:28Z",
+                    "rm:modifier_id": "ai:assign_based_papers",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-12-23T03:15:28Z",
+                    "paper_title": {
+                        "ja": "陰膳方式による種々の放射性物質の摂取量調査",
+                        "en": "陰膳方式による種々の放射性物質の摂取量調査"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "寺田 宙"
+                            },
+                            {
+                                "name": "飯島 育代"
+                            },
+                            {
+                                "name": "三宅 定明"
+                            },
+                            {
+                                "name": "太田 智子"
+                            },
+                            {
+                                "name": "児玉 浩子"
+                            },
+                            {
+                                "name": "山口 一郎"
+                            },
+                            {
+                                "name": "松本 晶"
+                            },
+                            {
+                                "name": "欅田 尚樹"
+                            },
+                            {
+                                "name": "杉山 英男"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "寺田 宙"
+                            },
+                            {
+                                "name": "飯島 育代"
+                            },
+                            {
+                                "name": "三宅 定明"
+                            },
+                            {
+                                "name": "太田 智子"
+                            },
+                            {
+                                "name": "児玉 浩子"
+                            },
+                            {
+                                "name": "山口 一郎"
+                            },
+                            {
+                                "name": "松本 晶"
+                            },
+                            {
+                                "name": "欅田 尚樹"
+                            },
+                            {
+                                "name": "杉山 英男"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "(公社)日本薬学会",
+                        "en": "(公社)日本薬学会"
+                    },
+                    "publication_date": "2017-03",
+                    "publication_name": {
+                        "ja": "日本薬学会年会要旨集",
+                        "en": "日本薬学会年会要旨集"
+                    },
+                    "volume": "137年会",
+                    "number": "2",
+                    "starting_page": "277",
+                    "ending_page": "277",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "0918-9823"
+                        ],
+                        "jamas_id": [
+                            "R414330976"
+                        ]
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0002264/misc/26382317",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0002264/misc",
+                    "rm:id": "26382317",
+                    "rm:user_id": "0000015453",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_papers",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-04-14T10:53:36Z",
+                    "rm:modifier_id": "ai:assign_based_papers",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-04-14T10:53:36Z",
+                    "paper_title": {
+                        "ja": "液体シンチレーションカウンターによるPo-210の測定",
+                        "en": "Measurement of Po-210 by liquid scintillation counter"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "三浦 勉"
+                            },
+                            {
+                                "name": "寺田 宙"
+                            },
+                            {
+                                "name": "太田 智子"
+                            }
+                        ]
+                    },
+                    "publication_date": "2016-11",
+                    "publication_name": {
+                        "ja": "Proceedings of the 17th Workshop on Environmental Radioactivity",
+                        "en": "Proceedings of the 17th Workshop on Environmental Radioactivity"
+                    },
+                    "starting_page": "223",
+                    "ending_page": "227",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "misc_type": "summary_national_conference",
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0002264/misc/40830328",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0002264/misc",
+                    "rm:id": "40830328",
+                    "rm:user_id": "0000015453",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_papers",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2022-12-23T03:15:29Z",
+                    "rm:modifier_id": "ai:assign_based_papers",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-12-23T03:15:29Z",
+                    "paper_title": {
+                        "ja": "福島原発事故以降の食品中の放射性物質の現状 γ線放出核種",
+                        "en": "福島原発事故以降の食品中の放射性物質の現状 γ線放出核種"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "杉山 英男"
+                            },
+                            {
+                                "name": "三宅 定明"
+                            },
+                            {
+                                "name": "山口 一郎"
+                            },
+                            {
+                                "name": "欅田 尚樹"
+                            },
+                            {
+                                "name": "寺田 宙"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "杉山 英男"
+                            },
+                            {
+                                "name": "三宅 定明"
+                            },
+                            {
+                                "name": "山口 一郎"
+                            },
+                            {
+                                "name": "欅田 尚樹"
+                            },
+                            {
+                                "name": "寺田 宙"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "日本公衆衛生学会",
+                        "en": "日本公衆衛生学会"
+                    },
+                    "publication_date": "2016-10",
+                    "publication_name": {
+                        "ja": "日本公衆衛生学会総会抄録集",
+                        "en": "日本公衆衛生学会総会抄録集"
+                    },
+                    "volume": "75回",
+                    "starting_page": "650",
+                    "ending_page": "650",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "1347-8060"
+                        ],
+                        "jamas_id": [
+                            "2017156530"
+                        ]
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0002264/misc/40830327",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0002264/misc",
+                    "rm:id": "40830327",
+                    "rm:user_id": "0000015453",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_papers",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2022-12-23T03:15:28Z",
+                    "rm:modifier_id": "ai:assign_based_papers",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-12-23T03:15:28Z",
+                    "paper_title": {
+                        "ja": "福島原発事故以降の食品中の放射性物質の現状 α線放出核種、β線放出核種",
+                        "en": "福島原発事故以降の食品中の放射性物質の現状 α線放出核種、β線放出核種"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "寺田 宙"
+                            },
+                            {
+                                "name": "三宅 定明"
+                            },
+                            {
+                                "name": "山口 一郎"
+                            },
+                            {
+                                "name": "欅田 尚樹"
+                            },
+                            {
+                                "name": "杉山 英男"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "寺田 宙"
+                            },
+                            {
+                                "name": "三宅 定明"
+                            },
+                            {
+                                "name": "山口 一郎"
+                            },
+                            {
+                                "name": "欅田 尚樹"
+                            },
+                            {
+                                "name": "杉山 英男"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "日本公衆衛生学会",
+                        "en": "日本公衆衛生学会"
+                    },
+                    "publication_date": "2016-10",
+                    "publication_name": {
+                        "ja": "日本公衆衛生学会総会抄録集",
+                        "en": "日本公衆衛生学会総会抄録集"
+                    },
+                    "volume": "75回",
+                    "starting_page": "650",
+                    "ending_page": "650",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "1347-8060"
+                        ],
+                        "jamas_id": [
+                            "2017156531"
+                        ]
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0002264/misc/40950329",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0002264/misc",
+                    "rm:id": "40950329",
+                    "rm:user_id": "0000015453",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_papers",
+                    "rm:creator_type": "coauthor",
+                    "rm:created": "2022-12-28T10:39:05Z",
+                    "rm:modifier_id": "ai:assign_based_papers",
+                    "rm:modifier_type": "coauthor",
+                    "rm:modified": "2022-12-28T10:39:05Z",
+                    "paper_title": {
+                        "ja": "福島原発事故後の食品による放射性物質の暴露量 α線放出核種とβ線放出核種",
+                        "en": "福島原発事故後の食品による放射性物質の暴露量 α線放出核種とβ線放出核種"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "太田 智子"
+                            },
+                            {
+                                "name": "飯島 育代"
+                            },
+                            {
+                                "name": "酒井 康宏"
+                            },
+                            {
+                                "name": "三宅 定明"
+                            },
+                            {
+                                "name": "山口 一郎"
+                            },
+                            {
+                                "name": "松本 晶"
+                            },
+                            {
+                                "name": "欅田 尚樹"
+                            },
+                            {
+                                "name": "児玉 浩子"
+                            },
+                            {
+                                "name": "杉山 英男"
+                            },
+                            {
+                                "name": "寺田 宙"
+                            }
+                        ],
+                        "ja": [
+                            {
+                                "name": "太田 智子"
+                            },
+                            {
+                                "name": "飯島 育代"
+                            },
+                            {
+                                "name": "酒井 康宏"
+                            },
+                            {
+                                "name": "三宅 定明"
+                            },
+                            {
+                                "name": "山口 一郎"
+                            },
+                            {
+                                "name": "松本 晶"
+                            },
+                            {
+                                "name": "欅田 尚樹"
+                            },
+                            {
+                                "name": "児玉 浩子"
+                            },
+                            {
+                                "name": "杉山 英男"
+                            },
+                            {
+                                "name": "寺田 宙"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "(一社)日本衛生学会",
+                        "en": "日本衛生学会"
+                    },
+                    "publication_date": "2016-05",
+                    "publication_name": {
+                        "ja": "日本衛生学雑誌",
+                        "en": "日本衛生学雑誌"
+                    },
+                    "volume": "71",
+                    "number": "Suppl.",
+                    "starting_page": "S221",
+                    "ending_page": "S221",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "0021-5082"
+                        ],
+                        "jamas_id": [
+                            "2016241894"
+                        ],
+                        "e_issn": [
+                            "1882-6482"
+                        ]
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0002264/misc/40950328",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0002264/misc",
+                    "rm:id": "40950328",
+                    "rm:user_id": "0000015453",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_papers",
+                    "rm:creator_type": "coauthor",
+                    "rm:created": "2022-12-28T10:39:05Z",
+                    "rm:modifier_id": "ai:assign_based_papers",
+                    "rm:modifier_type": "coauthor",
+                    "rm:modified": "2022-12-28T10:39:05Z",
+                    "paper_title": {
+                        "ja": "福島原発事故後の食品による放射性物質の暴露量 γ線放出核種",
+                        "en": "福島原発事故後の食品による放射性物質の暴露量 γ線放出核種"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "寺田 宙"
+                            },
+                            {
+                                "name": "飯島 育代"
+                            },
+                            {
+                                "name": "酒井 康宏"
+                            },
+                            {
+                                "name": "三宅 定明"
+                            },
+                            {
+                                "name": "太田 智子"
+                            },
+                            {
+                                "name": "山口 一郎"
+                            },
+                            {
+                                "name": "松本 晶"
+                            },
+                            {
+                                "name": "欅田 尚樹"
+                            },
+                            {
+                                "name": "児玉 浩子"
+                            },
+                            {
+                                "name": "杉山 英男"
+                            }
+                        ],
+                        "ja": [
+                            {
+                                "name": "寺田 宙"
+                            },
+                            {
+                                "name": "飯島 育代"
+                            },
+                            {
+                                "name": "酒井 康宏"
+                            },
+                            {
+                                "name": "三宅 定明"
+                            },
+                            {
+                                "name": "太田 智子"
+                            },
+                            {
+                                "name": "山口 一郎"
+                            },
+                            {
+                                "name": "松本 晶"
+                            },
+                            {
+                                "name": "欅田 尚樹"
+                            },
+                            {
+                                "name": "児玉 浩子"
+                            },
+                            {
+                                "name": "杉山 英男"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "(一社)日本衛生学会",
+                        "en": "日本衛生学会"
+                    },
+                    "publication_date": "2016-05",
+                    "publication_name": {
+                        "ja": "日本衛生学雑誌",
+                        "en": "日本衛生学雑誌"
+                    },
+                    "volume": "71",
+                    "number": "Suppl.",
+                    "starting_page": "S222",
+                    "ending_page": "S222",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "0021-5082"
+                        ],
+                        "jamas_id": [
+                            "2016241896"
+                        ],
+                        "e_issn": [
+                            "1882-6482"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "url",
+                            "@id": "https://search.jamas.or.jp/index.php?module=Default&action=Link&pub_year=2016&ichushi_jid=J01030&link_issn=&doc_id=20160512480234&doc_link_id=%2Fch4eisei%2F2016%2Fs071s1%2F095%2F5222-5222%26dl%3D0&url=https%3A%2F%2Fwww.medicalonline.jp%2Fjamas.php%3FGoodsID%3D%2Fch4eisei%2F2016%2Fs071s1%2F095%2F5222-5222%26dl%3D0&type=MedicalOnline&icon=https%3A%2F%2Fjk04.jamas.or.jp%2Ficon%2F00004_2.gif",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0002264/misc/40830329",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0002264/misc",
+                    "rm:id": "40830329",
+                    "rm:user_id": "0000015453",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_papers",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2022-12-23T03:15:29Z",
+                    "rm:modifier_id": "ai:assign_based_papers",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-12-23T03:15:29Z",
+                    "paper_title": {
+                        "ja": "東京電力福島第一原子力発電所事故後の食品中の放射性物質の濃度実態",
+                        "en": "東京電力福島第一原子力発電所事故後の食品中の放射性物質の濃度実態"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "飯島 育代"
+                            },
+                            {
+                                "name": "三宅 定明"
+                            },
+                            {
+                                "name": "太田 智子"
+                            },
+                            {
+                                "name": "児玉 浩子"
+                            },
+                            {
+                                "name": "杉山 英男"
+                            },
+                            {
+                                "name": "山口 一郎"
+                            },
+                            {
+                                "name": "松本 晶"
+                            },
+                            {
+                                "name": "欅田 尚樹"
+                            },
+                            {
+                                "name": "寺田 宙"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "飯島 育代"
+                            },
+                            {
+                                "name": "三宅 定明"
+                            },
+                            {
+                                "name": "太田 智子"
+                            },
+                            {
+                                "name": "児玉 浩子"
+                            },
+                            {
+                                "name": "杉山 英男"
+                            },
+                            {
+                                "name": "山口 一郎"
+                            },
+                            {
+                                "name": "松本 晶"
+                            },
+                            {
+                                "name": "欅田 尚樹"
+                            },
+                            {
+                                "name": "寺田 宙"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "体力・栄養・免疫学会",
+                        "en": "体力・栄養・免疫学会"
+                    },
+                    "publication_date": "2015-11",
+                    "publication_name": {
+                        "ja": "体力・栄養・免疫学雑誌",
+                        "en": "体力・栄養・免疫学雑誌"
+                    },
+                    "volume": "25",
+                    "number": "2",
+                    "starting_page": "163",
+                    "ending_page": "164",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "1341-0865"
+                        ],
+                        "jamas_id": [
+                            "2016316827"
+                        ]
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0002264/misc/40830331",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0002264/misc",
+                    "rm:id": "40830331",
+                    "rm:user_id": "0000015453",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_papers",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2022-12-23T03:15:29Z",
+                    "rm:modifier_id": "ai:assign_based_papers",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-12-23T03:15:29Z",
+                    "paper_title": {
+                        "ja": "東京電力福島第一原子力発電所事故後の食品中の放射性物質の濃度実態",
+                        "en": "東京電力福島第一原子力発電所事故後の食品中の放射性物質の濃度実態"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "飯島 育代"
+                            },
+                            {
+                                "name": "三宅 定明"
+                            },
+                            {
+                                "name": "太田 智子"
+                            },
+                            {
+                                "name": "児玉 浩子"
+                            },
+                            {
+                                "name": "山口 一郎"
+                            },
+                            {
+                                "name": "松本 晶"
+                            },
+                            {
+                                "name": "欅田 尚樹"
+                            },
+                            {
+                                "name": "杉山 英男"
+                            },
+                            {
+                                "name": "寺田 宙"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "飯島 育代"
+                            },
+                            {
+                                "name": "三宅 定明"
+                            },
+                            {
+                                "name": "太田 智子"
+                            },
+                            {
+                                "name": "児玉 浩子"
+                            },
+                            {
+                                "name": "山口 一郎"
+                            },
+                            {
+                                "name": "松本 晶"
+                            },
+                            {
+                                "name": "欅田 尚樹"
+                            },
+                            {
+                                "name": "杉山 英男"
+                            },
+                            {
+                                "name": "寺田 宙"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "(公社)日本薬学会",
+                        "en": "(公社)日本薬学会"
+                    },
+                    "publication_date": "2015-03",
+                    "publication_name": {
+                        "ja": "日本薬学会年会要旨集",
+                        "en": "日本薬学会年会要旨集"
+                    },
+                    "volume": "135年会",
+                    "number": "2",
+                    "starting_page": "287",
+                    "ending_page": "287",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "0918-9823"
+                        ],
+                        "jamas_id": [
+                            "2015386850"
+                        ]
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0002264/misc/40830330",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0002264/misc",
+                    "rm:id": "40830330",
+                    "rm:user_id": "0000015453",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_papers",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2022-12-23T03:15:29Z",
+                    "rm:modifier_id": "ai:assign_based_papers",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-12-23T03:15:29Z",
+                    "paper_title": {
+                        "ja": "放射線に関するリスクコミュニケーションのための媒体開発と利用可能性の検討",
+                        "en": "放射線に関するリスクコミュニケーションのための媒体開発と利用可能性の検討"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "堀口逸子"
+                            },
+                            {
+                                "name": "山口一郎"
+                            },
+                            {
+                                "name": "奥田博子"
+                            },
+                            {
+                                "name": "寺田宙"
+                            },
+                            {
+                                "name": "欅田尚樹"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "堀口逸子"
+                            },
+                            {
+                                "name": "山口一郎"
+                            },
+                            {
+                                "name": "奥田博子"
+                            },
+                            {
+                                "name": "寺田宙"
+                            },
+                            {
+                                "name": "欅田尚樹"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "日本公衆衛生学会",
+                        "en": "日本公衆衛生学会"
+                    },
+                    "publication_date": "2014-10-15",
+                    "publication_name": {
+                        "ja": "日本公衆衛生学会総会抄録集",
+                        "en": "日本公衆衛生学会総会抄録集"
+                    },
+                    "volume": "73rd",
+                    "starting_page": "538",
+                    "ending_page": "538",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "1347-8060"
+                        ],
+                        "jamas_id": [
+                            "2015121191"
+                        ],
+                        "j_global_id": [
+                            "201402234089599922"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "j_global",
+                            "@id": "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=201402234089599922",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0002264/misc/40950330",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0002264/misc",
+                    "rm:id": "40950330",
+                    "rm:user_id": "0000015453",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_papers",
+                    "rm:creator_type": "coauthor",
+                    "rm:created": "2022-12-28T10:39:06Z",
+                    "rm:modifier_id": "ai:assign_based_papers",
+                    "rm:modifier_type": "coauthor",
+                    "rm:modified": "2022-12-28T10:39:06Z",
+                    "paper_title": {
+                        "ja": "国内各地における食事由来の内部被ばく線量",
+                        "en": "国内各地における食事由来の内部被ばく線量"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "三宅 定明"
+                            },
+                            {
+                                "name": "飯島 育代"
+                            },
+                            {
+                                "name": "酒井 康宏"
+                            },
+                            {
+                                "name": "太田 智子"
+                            },
+                            {
+                                "name": "児玉 浩子"
+                            },
+                            {
+                                "name": "杉山 英男"
+                            },
+                            {
+                                "name": "山口 一郎"
+                            },
+                            {
+                                "name": "松本 晶"
+                            },
+                            {
+                                "name": "欅田 尚樹"
+                            },
+                            {
+                                "name": "寺田 宙"
+                            }
+                        ],
+                        "ja": [
+                            {
+                                "name": "三宅 定明"
+                            },
+                            {
+                                "name": "飯島 育代"
+                            },
+                            {
+                                "name": "酒井 康宏"
+                            },
+                            {
+                                "name": "太田 智子"
+                            },
+                            {
+                                "name": "児玉 浩子"
+                            },
+                            {
+                                "name": "杉山 英男"
+                            },
+                            {
+                                "name": "山口 一郎"
+                            },
+                            {
+                                "name": "松本 晶"
+                            },
+                            {
+                                "name": "欅田 尚樹"
+                            },
+                            {
+                                "name": "寺田 宙"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "(一社)日本衛生学会",
+                        "en": "日本衛生学会"
+                    },
+                    "publication_date": "2014-05",
+                    "publication_name": {
+                        "ja": "日本衛生学雑誌",
+                        "en": "日本衛生学雑誌"
+                    },
+                    "volume": "69",
+                    "number": "Suppl.",
+                    "starting_page": "S248",
+                    "ending_page": "S248",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "0021-5082"
+                        ],
+                        "jamas_id": [
+                            "2014367160"
+                        ],
+                        "e_issn": [
+                            "1882-6482"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "url",
+                            "@id": "https://search.jamas.or.jp/index.php?module=Default&action=Link&pub_year=2014&ichushi_jid=J01030&link_issn=&doc_id=20140701470286&doc_link_id=%2Fch4eisei%2F2014%2Fs069s1%2F133%2F5248-5248%26dl%3D0&url=https%3A%2F%2Fwww.medicalonline.jp%2Fjamas.php%3FGoodsID%3D%2Fch4eisei%2F2014%2Fs069s1%2F133%2F5248-5248%26dl%3D0&type=MedicalOnline&icon=https%3A%2F%2Fjk04.jamas.or.jp%2Ficon%2F00004_2.gif",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0002264/misc/26900677",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0002264/misc",
+                    "rm:id": "26900677",
+                    "rm:user_id": "0000015453",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_papers",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-04-26T16:29:42Z",
+                    "rm:modifier_id": "ai:assign_based_papers",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-04-26T16:29:42Z",
+                    "paper_title": {
+                        "ja": "たばこ主流煙中ポロニウム‐210の分析",
+                        "en": "たばこ主流煙中ポロニウム‐210の分析"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "稲葉洋平"
+                            },
+                            {
+                                "name": "小林明莉"
+                            },
+                            {
+                                "name": "内山茂久"
+                            },
+                            {
+                                "name": "寺田宙"
+                            },
+                            {
+                                "name": "山口一郎"
+                            },
+                            {
+                                "name": "欅田尚樹"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "稲葉洋平"
+                            },
+                            {
+                                "name": "小林明莉"
+                            },
+                            {
+                                "name": "内山茂久"
+                            },
+                            {
+                                "name": "寺田宙"
+                            },
+                            {
+                                "name": "山口一郎"
+                            },
+                            {
+                                "name": "欅田尚樹"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "(公社)日本薬学会",
+                        "en": "(公社)日本薬学会"
+                    },
+                    "publication_date": "2014-03",
+                    "publication_name": {
+                        "ja": "日本薬学会年会要旨集(CD-ROM)",
+                        "en": "日本薬学会年会要旨集(CD-ROM)"
+                    },
+                    "volume": "134th",
+                    "number": "3",
+                    "starting_page": "ROMBUNNO.28PML-114",
+                    "ending_page": "246",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "0918-9823"
+                        ],
+                        "jamas_id": [
+                            "2014359684"
+                        ],
+                        "j_global_id": [
+                            "201402263117587382"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "j_global",
+                            "@id": "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=201402263117587382",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0002264/misc/40950327",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0002264/misc",
+                    "rm:id": "40950327",
+                    "rm:user_id": "0000015453",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_papers",
+                    "rm:creator_type": "coauthor",
+                    "rm:created": "2022-12-28T10:38:57Z",
+                    "rm:modifier_id": "ai:assign_based_papers",
+                    "rm:modifier_type": "coauthor",
+                    "rm:modified": "2022-12-28T10:38:57Z",
+                    "paper_title": {
+                        "ja": "国内各地における食事からの放射性物質の摂取量 東京電力福島第一原子力発電所事故前後の推移",
+                        "en": "国内各地における食事からの放射性物質の摂取量 東京電力福島第一原子力発電所事故前後の推移"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "飯島 育代"
+                            },
+                            {
+                                "name": "杉山 英男"
+                            },
+                            {
+                                "name": "三宅 定明"
+                            },
+                            {
+                                "name": "酒井 康宏"
+                            },
+                            {
+                                "name": "児玉 浩子"
+                            },
+                            {
+                                "name": "山口 一郎"
+                            },
+                            {
+                                "name": "小谷野 道子"
+                            },
+                            {
+                                "name": "松本 昌"
+                            },
+                            {
+                                "name": "欅田 尚樹"
+                            },
+                            {
+                                "name": "寺田 宙"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "飯島 育代"
+                            },
+                            {
+                                "name": "杉山 英男"
+                            },
+                            {
+                                "name": "三宅 定明"
+                            },
+                            {
+                                "name": "酒井 康宏"
+                            },
+                            {
+                                "name": "児玉 浩子"
+                            },
+                            {
+                                "name": "山口 一郎"
+                            },
+                            {
+                                "name": "小谷野 道子"
+                            },
+                            {
+                                "name": "松本 昌"
+                            },
+                            {
+                                "name": "欅田 尚樹"
+                            },
+                            {
+                                "name": "寺田 宙"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "(公社)日本食品衛生学会",
+                        "en": "(公社)日本食品衛生学会"
+                    },
+                    "publication_date": "2013-11",
+                    "publication_name": {
+                        "ja": "日本食品衛生学会学術講演会講演要旨集",
+                        "en": "日本食品衛生学会学術講演会講演要旨集"
+                    },
+                    "volume": "106回",
+                    "starting_page": "185",
+                    "ending_page": "185",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "jamas_id": [
+                            "2014067469"
+                        ]
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0002264/misc/26900680",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0002264/misc",
+                    "rm:id": "26900680",
+                    "rm:user_id": "0000015453",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_papers",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-04-26T16:29:43Z",
+                    "rm:modifier_id": "ai:assign_based_papers",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-04-26T16:29:43Z",
+                    "paper_title": {
+                        "ja": "国産たばこ銘柄の主流煙に含まれるポロニウムの分析",
+                        "en": "国産たばこ銘柄の主流煙に含まれるポロニウムの分析"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "稲葉洋平"
+                            },
+                            {
+                                "name": "小林明莉"
+                            },
+                            {
+                                "name": "内山茂久"
+                            },
+                            {
+                                "name": "寺田宙"
+                            },
+                            {
+                                "name": "山口一郎"
+                            },
+                            {
+                                "name": "欅田尚樹"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "稲葉洋平"
+                            },
+                            {
+                                "name": "小林明莉"
+                            },
+                            {
+                                "name": "内山茂久"
+                            },
+                            {
+                                "name": "寺田宙"
+                            },
+                            {
+                                "name": "山口一郎"
+                            },
+                            {
+                                "name": "欅田尚樹"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "日本公衆衛生学会",
+                        "en": "日本公衆衛生学会"
+                    },
+                    "publication_date": "2013-10-15",
+                    "publication_name": {
+                        "ja": "日本公衆衛生学会総会抄録集",
+                        "en": "日本公衆衛生学会総会抄録集"
+                    },
+                    "volume": "72nd",
+                    "starting_page": "605",
+                    "ending_page": "605",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "1347-8060"
+                        ],
+                        "jamas_id": [
+                            "2014152113"
+                        ],
+                        "j_global_id": [
+                            "201302279002903163"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "j_global",
+                            "@id": "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=201302279002903163",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0002264/misc/26900683",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0002264/misc",
+                    "rm:id": "26900683",
+                    "rm:user_id": "0000015453",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_papers",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-04-26T16:29:43Z",
+                    "rm:modifier_id": "ai:assign_based_papers",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-04-26T16:29:43Z",
+                    "paper_title": {
+                        "ja": "タバコ葉および主流煙中のポロニウムの分析",
+                        "en": "タバコ葉および主流煙中のポロニウムの分析"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "欅田尚樹"
+                            },
+                            {
+                                "name": "小林明莉"
+                            },
+                            {
+                                "name": "稲葉洋平"
+                            },
+                            {
+                                "name": "寺田宙"
+                            },
+                            {
+                                "name": "山口一郎"
+                            },
+                            {
+                                "name": "内山茂久"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "欅田尚樹"
+                            },
+                            {
+                                "name": "小林明莉"
+                            },
+                            {
+                                "name": "稲葉洋平"
+                            },
+                            {
+                                "name": "寺田宙"
+                            },
+                            {
+                                "name": "山口一郎"
+                            },
+                            {
+                                "name": "内山茂久"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "(一社)日本放射線影響学会",
+                        "en": "(一社)日本放射線影響学会"
+                    },
+                    "publication_date": "2013-10-01",
+                    "publication_name": {
+                        "ja": "日本放射線影響学会大会講演要旨集",
+                        "en": "日本放射線影響学会大会講演要旨集"
+                    },
+                    "volume": "56th",
+                    "starting_page": "104",
+                    "ending_page": "104",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "1347-8680"
+                        ],
+                        "jamas_id": [
+                            "2014153611"
+                        ],
+                        "j_global_id": [
+                            "201302275173703205"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "j_global",
+                            "@id": "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=201302275173703205",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0002264/misc/40830332",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0002264/misc",
+                    "rm:id": "40830332",
+                    "rm:user_id": "0000015453",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_papers",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2022-12-23T03:15:30Z",
+                    "rm:modifier_id": "ai:assign_based_papers",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-12-23T03:15:30Z",
+                    "paper_title": {
+                        "ja": "食の安全 東日本大震災・福島第一原発事故から学んだこと 食事を介した放射性物質の暴露量の現状",
+                        "en": "食の安全 東日本大震災・福島第一原発事故から学んだこと 食事を介した放射性物質の暴露量の現状"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "寺田 宙"
+                            },
+                            {
+                                "name": "飯島 育代"
+                            },
+                            {
+                                "name": "酒井 康宏"
+                            },
+                            {
+                                "name": "三宅 定明"
+                            },
+                            {
+                                "name": "児玉 浩子"
+                            },
+                            {
+                                "name": "山口 一郎"
+                            },
+                            {
+                                "name": "松本 晶"
+                            },
+                            {
+                                "name": "欅田 尚樹"
+                            },
+                            {
+                                "name": "杉山 英男"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "寺田 宙"
+                            },
+                            {
+                                "name": "飯島 育代"
+                            },
+                            {
+                                "name": "酒井 康宏"
+                            },
+                            {
+                                "name": "三宅 定明"
+                            },
+                            {
+                                "name": "児玉 浩子"
+                            },
+                            {
+                                "name": "山口 一郎"
+                            },
+                            {
+                                "name": "松本 晶"
+                            },
+                            {
+                                "name": "欅田 尚樹"
+                            },
+                            {
+                                "name": "杉山 英男"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "(一社)日本臨床栄養協会",
+                        "en": "(一社)日本臨床栄養協会"
+                    },
+                    "publication_date": "2013-09",
+                    "publication_name": {
+                        "ja": "New Diet Therapy",
+                        "en": "New Diet Therapy"
+                    },
+                    "volume": "29",
+                    "number": "2",
+                    "starting_page": "111",
+                    "ending_page": "111",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "0910-7258"
+                        ],
+                        "jamas_id": [
+                            "2014022453"
+                        ]
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0002264/misc/40830333",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0002264/misc",
+                    "rm:id": "40830333",
+                    "rm:user_id": "0000015453",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_papers",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2022-12-23T03:15:30Z",
+                    "rm:modifier_id": "ai:assign_based_papers",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-12-23T03:15:30Z",
+                    "paper_title": {
+                        "ja": "東電福島第一原発事故後初期における食品中の放射性物質",
+                        "en": "東電福島第一原発事故後初期における食品中の放射性物質"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "寺田宙"
+                            },
+                            {
+                                "name": "欅田尚樹"
+                            },
+                            {
+                                "name": "山口一郎"
+                            },
+                            {
+                                "name": "杉山英男"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "寺田宙"
+                            },
+                            {
+                                "name": "欅田尚樹"
+                            },
+                            {
+                                "name": "山口一郎"
+                            },
+                            {
+                                "name": "杉山英男"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "(公社)日本食品衛生学会",
+                        "en": "(公社)日本食品衛生学会"
+                    },
+                    "publication_date": "2012-09-20",
+                    "publication_name": {
+                        "ja": "日本食品衛生学会学術講演会講演要旨集",
+                        "en": "日本食品衛生学会学術講演会講演要旨集"
+                    },
+                    "volume": "104th",
+                    "starting_page": "122",
+                    "ending_page": "122",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "jamas_id": [
+                            "2013040188"
+                        ],
+                        "j_global_id": [
+                            "201202248709986219"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "j_global",
+                            "@id": "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=201202248709986219",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0002264/misc/40950332",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0002264/misc",
+                    "rm:id": "40950332",
+                    "rm:user_id": "0000015453",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_papers",
+                    "rm:creator_type": "coauthor",
+                    "rm:created": "2022-12-28T10:39:11Z",
+                    "rm:modifier_id": "ai:assign_based_papers",
+                    "rm:modifier_type": "coauthor",
+                    "rm:modified": "2022-12-28T10:39:11Z",
+                    "paper_title": {
+                        "en": "Public Health Activities Regarding Fukushima Dai-ichi Nuclear Power Plant Accident"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Ichiro Yamaguchi"
+                            },
+                            {
+                                "name": "Naoki Kunugita"
+                            },
+                            {
+                                "name": "Hiroshi Terada"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "en": "Ovid Technologies (Wolters Kluwer Health)"
+                    },
+                    "publication_date": "2012-09",
+                    "publication_name": {
+                        "en": "Epidemiology"
+                    },
+                    "volume": "23",
+                    "starting_page": "1",
+                    "ending_page": "1",
+                    "referee": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1097/01.ede.0000417286.65837.d0"
+                        ],
+                        "issn": [
+                            "1044-3983"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1097/01.ede.0000417286.65837.d0",
+                            "is_downloadable": false
+                        },
+                        {
+                            "@id": "http://journals.lww.com/00001648-201209001-00687",
+                            "label": "url",
+                            "is_downloadable": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0002264/presentations",
+            "@type": "presentations",
+            "@reverse": "https://api.researchmap.jp/read0002264",
+            "total_items": 5,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0002264/presentations/40208449",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0002264/presentations",
+                    "rm:id": "40208449",
+                    "rm:user_id": "0000015453",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000015453",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2022-10-06T09:26:15Z",
+                    "rm:modifier_id": "0000015453",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2022-10-06T09:26:15Z",
+                    "presentation_title": {
+                        "en": "Measurement of Po-210 in seafood powder sample",
+                        "ja": "海産物乾燥粉末中のPo-210測定"
+                    },
+                    "presenters": {
+                        "ja": [
+                            {
+                                "name": "三浦 勉"
+                            },
+                            {
+                                "name": "寺田 宙"
+                            },
+                            {
+                                "name": "太田 智子"
+                            }
+                        ]
+                    },
+                    "event": {
+                        "en": "Proceedings of the 18th Workshop on Environmental Radioactivity",
+                        "ja": "Proceedings of the 18th Workshop on Environmental Radioactivity"
+                    },
+                    "publication_date": "2017-12",
+                    "from_event_date": "2017-12",
+                    "to_event_date": "2017-12",
+                    "invited": false,
+                    "languages": [
+                        "jpn"
+                    ],
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0002264/presentations/40208450",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0002264/presentations",
+                    "rm:id": "40208450",
+                    "rm:user_id": "0000015453",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000015453",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2022-10-06T09:26:15Z",
+                    "rm:modifier_id": "0000015453",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2022-10-06T09:26:15Z",
+                    "presentation_title": {
+                        "en": "Measurement of Po-210 by liquid scintillation counter",
+                        "ja": "液体シンチレーションカウンターによるPo-210の測定"
+                    },
+                    "presenters": {
+                        "ja": [
+                            {
+                                "name": "三浦 勉"
+                            },
+                            {
+                                "name": "寺田 宙"
+                            },
+                            {
+                                "name": "太田 智子"
+                            }
+                        ]
+                    },
+                    "event": {
+                        "en": "Proceedings of the 17th Workshop on Environmental Radioactivity",
+                        "ja": "Proceedings of the 17th Workshop on Environmental Radioactivity"
+                    },
+                    "publication_date": "2016-11",
+                    "from_event_date": "2016-11",
+                    "to_event_date": "2016-11",
+                    "invited": false,
+                    "languages": [
+                        "jpn"
+                    ],
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0002264/presentations/40208451",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0002264/presentations",
+                    "rm:id": "40208451",
+                    "rm:user_id": "0000015453",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000015453",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2022-10-06T09:26:16Z",
+                    "rm:modifier_id": "0000015453",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2022-10-06T09:26:16Z",
+                    "presentation_title": {
+                        "en": "たばこ主流煙中ポロニウム‐210の分析",
+                        "ja": "たばこ主流煙中ポロニウム‐210の分析"
+                    },
+                    "presenters": {
+                        "en": [
+                            {
+                                "name": "稲葉洋平"
+                            },
+                            {
+                                "name": "小林明莉"
+                            },
+                            {
+                                "name": "内山茂久"
+                            },
+                            {
+                                "name": "寺田宙"
+                            },
+                            {
+                                "name": "山口一郎"
+                            },
+                            {
+                                "name": "欅田尚樹"
+                            }
+                        ],
+                        "ja": [
+                            {
+                                "name": "稲葉洋平"
+                            },
+                            {
+                                "name": "小林明莉"
+                            },
+                            {
+                                "name": "内山茂久"
+                            },
+                            {
+                                "name": "寺田宙"
+                            },
+                            {
+                                "name": "山口一郎"
+                            },
+                            {
+                                "name": "欅田尚樹"
+                            }
+                        ]
+                    },
+                    "event": {
+                        "en": "日本薬学会年会要旨集(CD-ROM)",
+                        "ja": "日本薬学会年会要旨集(CD-ROM)"
+                    },
+                    "publication_date": "2014-03",
+                    "from_event_date": "2014-03",
+                    "to_event_date": "2014-03",
+                    "invited": false,
+                    "languages": [
+                        "jpn"
+                    ],
+                    "promoter": {
+                        "en": "(公社)日本薬学会",
+                        "ja": "(公社)日本薬学会"
+                    },
+                    "rm:is_open_access": false,
+                    "see_also": [
+                        {
+                            "@id": "http://jglobal.jst.go.jp/detail.php?from=API&JGLOBAL_ID=201402263117587382",
+                            "is_downloadable": false,
+                            "label": "url"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0002264/presentations/40208452",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0002264/presentations",
+                    "rm:id": "40208452",
+                    "rm:user_id": "0000015453",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000015453",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2022-10-06T09:26:16Z",
+                    "rm:modifier_id": "0000015453",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2022-10-06T09:26:16Z",
+                    "presentation_title": {
+                        "en": "国産たばこ銘柄の主流煙に含まれるポロニウムの分析",
+                        "ja": "国産たばこ銘柄の主流煙に含まれるポロニウムの分析"
+                    },
+                    "presenters": {
+                        "en": [
+                            {
+                                "name": "稲葉洋平"
+                            },
+                            {
+                                "name": "小林明莉"
+                            },
+                            {
+                                "name": "内山茂久"
+                            },
+                            {
+                                "name": "寺田宙"
+                            },
+                            {
+                                "name": "山口一郎"
+                            },
+                            {
+                                "name": "欅田尚樹"
+                            }
+                        ],
+                        "ja": [
+                            {
+                                "name": "稲葉洋平"
+                            },
+                            {
+                                "name": "小林明莉"
+                            },
+                            {
+                                "name": "内山茂久"
+                            },
+                            {
+                                "name": "寺田宙"
+                            },
+                            {
+                                "name": "山口一郎"
+                            },
+                            {
+                                "name": "欅田尚樹"
+                            }
+                        ]
+                    },
+                    "event": {
+                        "en": "日本公衆衛生学会総会抄録集",
+                        "ja": "日本公衆衛生学会総会抄録集"
+                    },
+                    "publication_date": "2013-10-15",
+                    "from_event_date": "2013-10-15",
+                    "to_event_date": "2013-10-15",
+                    "invited": false,
+                    "languages": [
+                        "jpn"
+                    ],
+                    "promoter": {
+                        "en": "日本公衆衛生学会",
+                        "ja": "日本公衆衛生学会"
+                    },
+                    "rm:is_open_access": false,
+                    "see_also": [
+                        {
+                            "@id": "http://jglobal.jst.go.jp/detail.php?from=API&JGLOBAL_ID=201302279002903163",
+                            "is_downloadable": false,
+                            "label": "url"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0002264/presentations/40208453",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0002264/presentations",
+                    "rm:id": "40208453",
+                    "rm:user_id": "0000015453",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000015453",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2022-10-06T09:26:16Z",
+                    "rm:modifier_id": "0000015453",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2022-10-06T09:26:16Z",
+                    "presentation_title": {
+                        "en": "タバコ葉および主流煙中のポロニウムの分析",
+                        "ja": "タバコ葉および主流煙中のポロニウムの分析"
+                    },
+                    "presenters": {
+                        "en": [
+                            {
+                                "name": "欅田尚樹"
+                            },
+                            {
+                                "name": "小林明莉"
+                            },
+                            {
+                                "name": "稲葉洋平"
+                            },
+                            {
+                                "name": "寺田宙"
+                            },
+                            {
+                                "name": "山口一郎"
+                            },
+                            {
+                                "name": "内山茂久"
+                            }
+                        ],
+                        "ja": [
+                            {
+                                "name": "欅田尚樹"
+                            },
+                            {
+                                "name": "小林明莉"
+                            },
+                            {
+                                "name": "稲葉洋平"
+                            },
+                            {
+                                "name": "寺田宙"
+                            },
+                            {
+                                "name": "山口一郎"
+                            },
+                            {
+                                "name": "内山茂久"
+                            }
+                        ]
+                    },
+                    "event": {
+                        "en": "日本放射線影響学会大会講演要旨集",
+                        "ja": "日本放射線影響学会大会講演要旨集"
+                    },
+                    "publication_date": "2013-10-01",
+                    "from_event_date": "2013-10-01",
+                    "to_event_date": "2013-10-01",
+                    "invited": false,
+                    "languages": [
+                        "jpn"
+                    ],
+                    "promoter": {
+                        "en": "(一社)日本放射線影響学会",
+                        "ja": "(一社)日本放射線影響学会"
+                    },
+                    "rm:is_open_access": false,
+                    "see_also": [
+                        {
+                            "@id": "http://jglobal.jst.go.jp/detail.php?from=API&JGLOBAL_ID=201302275173703205",
+                            "is_downloadable": false,
+                            "label": "url"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0002264/research_projects",
+            "@type": "research_projects",
+            "@reverse": "https://api.researchmap.jp/read0002264",
+            "total_items": 4,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0002264/research_projects/45072822",
+                    "@type": "research_projects",
+                    "@reverse": "https://api.researchmap.jp/read0002264/research_projects",
+                    "rm:id": "45072822",
+                    "rm:user_id": "0000015453",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2024-01-30T15:16:27Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2024-01-30T15:16:27Z",
+                    "research_project_title": {
+                        "ja": "乳児における母乳摂取による内部被ばく線量評価～原発事故からの警鐘～",
+                        "en": "Evaluation of internal dose to infants in Japan due to breastfeeding"
+                    },
+                    "investigators": {
+                        "ja": [
+                            {
+                                "name": "太田 智子"
+                            },
+                            {
+                                "name": "松崎 浩之"
+                            },
+                            {
+                                "name": "児玉 浩子"
+                            },
+                            {
+                                "name": "寺田 宙"
+                            },
+                            {
+                                "name": "野村 恭子"
+                            },
+                            {
+                                "name": "太田 裕二"
+                            },
+                            {
+                                "name": "王 暁水"
+                            },
+                            {
+                                "name": "飯田 素代"
+                            },
+                            {
+                                "name": "日比野 有希"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "OTA TOMOKO"
+                            }
+                        ]
+                    },
+                    "offer_organization": {
+                        "ja": "日本学術振興会",
+                        "en": "Japan Society for the Promotion of Science"
+                    },
+                    "system_name": {
+                        "ja": "科学研究費助成事業",
+                        "en": "Grants-in-Aid for Scientific Research"
+                    },
+                    "category": {
+                        "ja": "基盤研究(B)",
+                        "en": "Grant-in-Aid for Scientific Research (B)"
+                    },
+                    "institution_name": {
+                        "ja": "公益財団法人日本分析センター",
+                        "en": "Japan Chemical Analysis Center"
+                    },
+                    "from_date": "2017-04-01",
+                    "to_date": "2020-03-31",
+                    "overall_grant_amount": {
+                        "total_cost": "12220000",
+                        "direct_cost": "9400000",
+                        "indirect_cost": "2820000"
+                    },
+                    "description": {
+                        "ja": "東京電力福島第一原子力発電所事故後、国民の間に放射性物質への不安が広がった。中でも放射性ヨウ素については甲状腺がんとの因果関係が心配され、特に感受性の高い乳児についての影響が懸念されている。本研究では乳児の主たる栄養源の母乳を対象に、数種類存在する放射性ヨウ素のうち半減期が最も長いヨウ素129（1570万年）の分析を実施した。母乳は脂肪分が多いため分析することが難しく、母乳中のヨウ素129を分析した例はない。今回、母乳中のヨウ素を分析する手法を確立し、健康な母親から採取した母乳中のヨウ素129を分析しバックグラウンドを把握すると共に、データを基に乳児の母乳摂取による内部被ばく線量評価を試みた。",
+                        "en": "I-129 is a long-lived(15.7 million year)iodine radioisotope which is produced by nuclear fission of Uranium. It has been discharged to environment from nuclear facilities. I-129 is concentrated in thyroid when taken into human body, causing long-term internal exposure which leads to a potential cause of thyroid cancer. The purpose of this study is to assess the infant's internal exposure to I-129. For this purpose, we analyzed I-129 concentration in human milk which is a main source of nutrition for infants. To measure extremely low concentrations of I-129, AMS was adopted. In this study, we applied combustion methods to retrieve iodine quantitatively from human milk samples to overcome interference caused by high fat content. We established a new method to retrieve radioactive iodine in human milk samples quantitatively through combustion. Analysis of iodine 129 in the collected human milk was carried out, and the internal exposure to iodine 129 due to human milk intake was evaluated."
+                    },
+                    "identifiers": {
+                        "grant_number": [
+                            "17H03527"
+                        ],
+                        "national_grant_number": [
+                            "JP17H03527"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "kaken",
+                            "@id": "https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-17H03527"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0002264/research_projects/44969345",
+                    "@type": "research_projects",
+                    "@reverse": "https://api.researchmap.jp/read0002264/research_projects",
+                    "rm:id": "44969345",
+                    "rm:user_id": "0000015453",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2024-01-30T12:49:08Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2024-01-30T12:49:08Z",
+                    "research_project_title": {
+                        "ja": "食品試料中の210Pb/210Po高精度分析法の開発と標準化",
+                        "en": "The development of precise analytical method for 210Pb/210Po in food sample and the establishment for comparability"
+                    },
+                    "investigators": {
+                        "ja": [
+                            {
+                                "name": "三浦 勉"
+                            },
+                            {
+                                "name": "寺田 宙"
+                            },
+                            {
+                                "name": "太田 智子"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "MIURA TSUTOMU"
+                            }
+                        ]
+                    },
+                    "offer_organization": {
+                        "ja": "日本学術振興会",
+                        "en": "Japan Society for the Promotion of Science"
+                    },
+                    "system_name": {
+                        "ja": "科学研究費助成事業",
+                        "en": "Grants-in-Aid for Scientific Research"
+                    },
+                    "category": {
+                        "ja": "基盤研究(C)",
+                        "en": "Grant-in-Aid for Scientific Research (C)"
+                    },
+                    "institution_name": {
+                        "ja": "国立研究開発法人産業技術総合研究所",
+                        "en": "National Institute of Advanced Industrial Science and Technology"
+                    },
+                    "from_date": "2015-04-01",
+                    "to_date": "2018-03-31",
+                    "overall_grant_amount": {
+                        "total_cost": "4810000",
+                        "direct_cost": "3700000",
+                        "indirect_cost": "1110000"
+                    },
+                    "description": {
+                        "ja": "海産物中のPb-210/Po-210測定の信頼性向上を目指した。金属鉛から調製したPo-210標準液、海産魚乾燥粉末を用いて既開発（Miura et al）のPb-210/Po-210分析法を評価した結果、全分離操作で90%以上のPo回収率が得られ、高い信頼性をもつことが実証できた。よって本分析法を基に標準分析作業手順書を作成した。予備実験で選定したかつお粉末といりこ粉末から調製した共同実験用試料を用いて、3機関が参加する共同実験を実施した。その結果、国内分析機関によるPb-210/Po-210測定値に有意な差は見られず、標準分析手順書の妥当性と国内分析機関の技術レベルが高いことが実証できた。",
+                        "en": "The purpose was enhancement of reliability for the performance of Po-210/Pb-210 analysis in the fish samples, and the establishment of comparability. First, the performance of published method was verified. From the results, the method indicated the quantitative recovery. Therefore, the standard operation procedure was produced based on the method. Based on the preliminary results, the dried bonito powder and the dried sardine powder were used for the interlaboratory comparison for Po-210/Pb-210 analysis. Three laboratories were participated on the comparison. The standard operation procedure and these dried fish powder sample were distributed to the participants. As a result, no significant difference was observed in the measured values by the participant. It was demonstrated that the validity of the standard operation procedure. Furthermore it was also demonstrate that Japanese laboratories have high analytical performance."
+                    },
+                    "identifiers": {
+                        "grant_number": [
+                            "15K00551"
+                        ],
+                        "national_grant_number": [
+                            "JP15K00551"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "kaken",
+                            "@id": "https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-15K00551"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0002264/research_projects/44873943",
+                    "@type": "research_projects",
+                    "@reverse": "https://api.researchmap.jp/read0002264/research_projects",
+                    "rm:id": "44873943",
+                    "rm:user_id": "0000015453",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2024-01-30T10:46:56Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2024-01-30T10:46:56Z",
+                    "research_project_title": {
+                        "ja": "土壌細菌から始まる食物連鎖によるキノコへのセシウム蓄積に関する研究",
+                        "en": "A food chain of Cs from soil microorganisms to mushrooms."
+                    },
+                    "investigators": {
+                        "ja": [
+                            {
+                                "name": "加藤 文男"
+                            },
+                            {
+                                "name": "寺田 宙"
+                            },
+                            {
+                                "name": "柴田 尚"
+                            },
+                            {
+                                "name": "杉山 英男"
+                            },
+                            {
+                                "name": "桑原 千雅子"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "KATO Fumio"
+                            },
+                            {
+                                "name": "TERADA Hiroshi"
+                            },
+                            {
+                                "name": "SHIBATA Hisashi"
+                            },
+                            {
+                                "name": "SUGIYAMA Hideo"
+                            },
+                            {
+                                "name": "KUWAHARA Chikako"
+                            }
+                        ]
+                    },
+                    "offer_organization": {
+                        "ja": "日本学術振興会",
+                        "en": "Japan Society for the Promotion of Science"
+                    },
+                    "system_name": {
+                        "ja": "科学研究費助成事業",
+                        "en": "Grants-in-Aid for Scientific Research"
+                    },
+                    "category": {
+                        "ja": "基盤研究(C)",
+                        "en": "Grant-in-Aid for Scientific Research (C)"
+                    },
+                    "institution_name": {
+                        "ja": "東邦大学",
+                        "en": "TOHO UNIVERSITY, SCHOOL OF PHARMA- CEUTICAL SCIENCES"
+                    },
+                    "from_date": "2000",
+                    "to_date": "2001",
+                    "overall_grant_amount": {
+                        "total_cost": "3200000",
+                        "direct_cost": "3200000"
+                    },
+                    "description": {
+                        "ja": "1.キノコ生息土壌の調査:富士山麓のキノコ生息土壌を採取し、土壌pH,^<137>Cs, Cs, K量を測定した。土壌pHは3.5-5.5と大きく酸性に偏っていた。\n2.キノコ生息土壌に生息する微生物のCs感受性:13の土壌サンプルについて、生息微生物のCs感受性を調べ、一般に細菌のCs感受性は低く、放線菌は感受性が高いという結果を得た。三宅島で採集した土壌より200mMCsで増殖可能な高度耐性株Streptomyces sp TOHO-2を分離した。\n3.分離培地のpHの影響:分離培地のpHを5,6,7に調製し、分離される細菌、放線菌の数を測定した.細菌数はpH6で最も多く、pH7の1.6倍、pH5ではpH7の1.15倍であった。放線菌数はpHの低下と共に菌数が減少し、pH7のおよそ50%であった。\n4,キノコ生息土壌より分離した放線菌のCs取込:これらの菌株に蓄積されるCs量は20mg/g dry wt mycelia程度であった。K202株について菌体内Cs, K量および増殖についてpH5と7で比較すると、Csによる増殖阻害はpH7の方で強く現れ、Cs蓄積量の増加とK量の減少もpH7の方が強く現れた。\n5.チャンネル阻害剤4-aminopyridine(4-AP)の影響:4-AP存在下でのCs取込量の変化を調べた。4-APによる阻害作用はpH7で強く認められたが、pH5では4-APによるK量の減少は認められたが、Cs量は増加し、増殖にも影響は認められなかった。\n6.キノコ生息土壌より分離した細菌のCs取込:生息環境に近いpH5でCsによる増殖抑制が強く見られた。また、細胞内Cs蓄積量は調べたいずれの菌株でも5mg/g dry wt前後であり、放線菌の1/4程度であった。\n7.細胞内Csの局在化:土壌分離放線菌、細菌、いずれの場合も低真空SEMで輝点が観察され、輝点部分にはP. OとともにCsが認められた。輝点以外の領域には、Csのシグナルは観察されず、局在化による毒性の軽減が示唆された。\n8.ポリリン酸の関与:^<31>P-NMRによりS.lividanns TK24にポリリン酸が存在する事を確認した。ポリリン酸合成に関わるpolyphosphate kinaseをコードする遺伝子ppkの破壊を試みている。",
+                        "en": "We postulated that not only a direct transfer of ^<137>Cs form soil to mushrooms but also a food chain of ^<137>Cs from soil microorganisms to mushrooms would also contribute the high accumulation of ^<137>Cs in mushrooms. To confirm this hypothesis, we studied on physical characteristics of soils where wild mushrooms were grown, and microorganisms isolated from those soils. The pH of soils where mushrooms were grown were around pH 4.0-5.2. From the results, soil microorganisms were isolated on agar plates of pH5, 6 and 7. The number of bacteria isolated at pH6 was 1.6 times larger than that at pH7. Number of actinomycetes isolated from mushroom substrata was decreased with pH. Tolerance to Cs in the isolated microorganisms was measured. Most of the strains of actinomycetes were more sensitive to 10 mM Cs than those of bacteria. Effect of pH on tolerance to Cs was observed, that is, stronger growth inhibition by the same Cs concentration was observed at pH 5. The amount of Cs accumulated in those microorganisms was also affected by pH. SEM-EDX analysis of the microorganisms isolated from mushroom substrata showed that accumulated Cs was localized in a region being abundant in P, O and Cs. The elemental analysis suggested a participation of polyphosphate in the localization of Cs. We confirmed the presence of polyphosphate in Streptomyces lividans by ^<31>P-NMR. Interaction of polyphosphate with Cs will be elucidated by NMR experiments. Furthermore, we constructed a recombinant plasmid to disrupt the gene encoding polyphosphate kinase, and transformed the strains of actinomycetes. A strain whose ppk gene was disrupted, will indicate a new role of polyphosphate."
+                    },
+                    "identifiers": {
+                        "grant_number": [
+                            "12680554"
+                        ],
+                        "national_grant_number": [
+                            "JP12680554"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "kaken",
+                            "@id": "https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-12680554"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0002264/research_projects/44791915",
+                    "@type": "research_projects",
+                    "@reverse": "https://api.researchmap.jp/read0002264/research_projects",
+                    "rm:id": "44791915",
+                    "rm:user_id": "0000015453",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2024-01-30T09:08:03Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2024-01-30T09:08:03Z",
+                    "research_project_title": {
+                        "ja": "食品(キノコ)中のセシウムの存在様態と高濃縮機構に関する研究",
+                        "en": "Characteristic of cesium existence in mushroom and mechanism of higher cesium concentration by mushroom."
+                    },
+                    "investigators": {
+                        "ja": [
+                            {
+                                "name": "杉山 英男"
+                            },
+                            {
+                                "name": "加藤 文男"
+                            },
+                            {
+                                "name": "寺田 宙"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "SUGIYAMA Hideo"
+                            },
+                            {
+                                "name": "KATO Fumio"
+                            },
+                            {
+                                "name": "TERADA Hiroshi"
+                            }
+                        ]
+                    },
+                    "offer_organization": {
+                        "ja": "日本学術振興会",
+                        "en": "Japan Society for the Promotion of Science"
+                    },
+                    "system_name": {
+                        "ja": "科学研究費助成事業",
+                        "en": "Grants-in-Aid for Scientific Research"
+                    },
+                    "category": {
+                        "ja": "基盤研究(C)",
+                        "en": "Grant-in-Aid for Scientific Research (C)"
+                    },
+                    "institution_name": {
+                        "ja": "国立公衆衛生院",
+                        "en": "National Institute of Public Health"
+                    },
+                    "from_date": "1997",
+                    "to_date": "1998",
+                    "overall_grant_amount": {
+                        "total_cost": "3200000",
+                        "direct_cost": "3200000"
+                    },
+                    "description": {
+                        "ja": "本研究では、放射性Csを高蓄積することが知られているキノコを対象に、^<137>Cs(RI)ならびに安定Cs等を用いた菌糸の培養実験等により、その取込みについて同族元素のKなどとの競合性、細胞に取込まれた際の微小部におけるCsの存在ならびに菌糸体による^<137>Csの取込み特性としてNaポンプと同様にCsに特異的な取込み機構の存在の有無の検討を試みた。\n食用キノコのヒラタケ(Pleurotus ostreatus;しめじ)菌株を用いた結果を以下に示す。\n1. ヒラタケ菌糸によるCsの取り込みは、同族元素のKあるいはRbの濃度増加により^<137>Cs、安定Csともに減少しキノコの必須元素であるKはCsの取り込みを拮抗的に阻害するとみられた。\n2. 培地に1%のKを添加し培養した菌糸ホモジネートの^<133>Cs-NMR測定の結果、分子量10000以上の画分でCsCl標準溶液とは異なる位置にピークが認められ、Csと高分子との何らかの相互作用が考えられた。\n3. 細胞壁分解酵素として、ノボザイム+キチナーゼ+ファンガーゼおよびノボザイム+セルラーゼRS+ファンガーゼ2組によるプロトプラスト化により菌糸から効率良く(1×10^8個)プロトプラストが得られた。\n4. ヒラタケの菌糸は培養開始後72時間までは増殖期にあるがそれ以降120時間までは定常期にあった。菌糸によるCsの取込みは培養早期から活発であることが明らかとなった。\n5, 菌糸微小部におけるセシウムの存在を走査電子顕微鏡-X練マイクロアナライザで調べた結果、Csの存在は根元部が先端部より5倍高い値であったが、KとPはともに先端部と恨元部で変化は認められなかった。\n6. ヒラタケの増殖阻害を示したKチャネルブロッカーのうち、4-アミノピリジン(lmM)ではCsならびにKともに対照の60%程度に取り込み量が低下することからCsの取込み経路の一つとしてKチャネルが着目された。",
+                        "en": "We cultured mycelia of the edible mushroom Pleurotus ostreatus Y-1 in YMG medium with some experimental conditions to clarify cesium (Cs) existing characteristic in mushrooms and mechanism of higher Cs concentration by them. The concentration ratio (concentration in the mycelia (dry)/concentration in the media (wet) ; CR) of ^<137>Cs decreased with increasing of alkali element (Cs, K or Rb) concentration in the medium, similarly, the CR of K decreased with increasing the Cs concentration in the media. The ^<133>Cs-NMR resulting spectra exhibited two resonance signals arising from the mycelium whereas one resonance signal from the external medium and CsCl standard solution. ^<137>Cs gel filtration chromatography of the mycelia cultivated in the media containing Cs showed that ^<137>Cs was not bound to molecules with more than 10000 molecular weight. According to studies on the proliferation of mycelia and their ^<137>Cs accumulation, the dry weight mycelia increased until 72 h after initiation of culture but was relatively constant thereafter until 120 h of culture (2.7-3.1 as the weight ratio to 48 h after initiation of culture). The CR of ^<137>Cs was already about 10 after 24 h of culture, indicating early uptake. Elementary analysis of mycelia was performed using a scanning electron microscope-energy dispersive X-ray microanalyzer. The morphology of the mycelia was similar between the two phases ; the mycelia tip protruded in a gentle curve. The ratio of Cs in the stationary phase (120 h of culture) to that in the proliferation phase (48 h of culture) (stationary/proliferation phase Cs ratio) at the mycelial root dense with mycelia formed in the early stage was about 5 times that at the mycelial tip. The stationary/logarithmic phase ratio of K or P, essential elements of mushrooms, did not markedly differ between the mycelial tip and root."
+                    },
+                    "identifiers": {
+                        "grant_number": [
+                            "09680515"
+                        ],
+                        "national_grant_number": [
+                            "JP09680515"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "kaken",
+                            "@id": "https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-09680515"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
