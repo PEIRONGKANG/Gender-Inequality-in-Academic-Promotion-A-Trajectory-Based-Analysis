@@ -4,7 +4,6 @@ This folder contains a minimal re-analysis based on `Full Process Analysis_01/å›
 The outputs are organized in a journal-style layout (data input, code, results tables/figures, logs).
 
 ## Structure
-- `github/01_data_input/`: Reserved for input metadata or links (no data copied).
 - `github/02_code/`: Re-analysis code.
 - `github/03_results/tables/`: Derived tables and summaries.
 - `github/03_results/figures/`: Placeholder for figures (not generated in this pass).
