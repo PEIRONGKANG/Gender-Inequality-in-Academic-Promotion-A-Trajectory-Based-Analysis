@@ -34,4 +34,4 @@ python3 github/02_code/reanalyze_transitional.py
 - Counts are reported for observed durations and for non-negative durations.
 
 ## Data Availability
-Only aggregated summary tables and analysis code are公开. Individual-level data are not shared.
+Only the summary table, analysis code, sample data, and some processing scripts are publicly available. Individual-level data are not shared.
