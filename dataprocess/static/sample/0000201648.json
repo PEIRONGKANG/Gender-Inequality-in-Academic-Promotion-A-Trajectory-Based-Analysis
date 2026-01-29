@@ -1,0 +1,2942 @@
+{
+    "@context": "https://api.researchmap.jp/researcher.jsonld",
+    "@id": "https://api.researchmap.jp/read0166018?format=json",
+    "@type": "researchers",
+    "rm:user_id": "0000201648",
+    "rm:creator_id": "0000201648",
+    "rm:creator_type": "myself",
+    "rm:created": "2009-12-14T15:00:00Z",
+    "rm:modifier_id": "0000201648",
+    "rm:modifier_type": "myself",
+    "rm:modified": "2023-11-30T03:32:35Z",
+    "permalink": "read0166018",
+    "family_name": {
+        "ja": "五味",
+        "ja-Kana": "ゴミ",
+        "en": "Gomi"
+    },
+    "given_name": {
+        "ja": "不二也",
+        "ja-Kana": "フジヤ",
+        "en": "Fujiya"
+    },
+    "display_name_kana": "disclosed",
+    "display_nickname": "disclosed",
+    "display_image": "disclosed",
+    "display_contact_point": "disclosed",
+    "affiliations": [
+        {
+            "affiliation": {
+                "ja": "地方独立行政法人東京都健康長寿医療センター",
+                "en": "Tokyo Metropolitan Geriatric Hospital and Institute of Gerontology"
+            },
+            "display_affiliation": "disclosed",
+            "display_job": "disclosed",
+            "rm:institution_code": "E568000000"
+        }
+    ],
+    "display_profile": "disclosed",
+    "display_url": "disclosed",
+    "identifiers": {
+        "j_global_id": [
+            "200901007812490403"
+        ]
+    },
+    "rm:erad_id_verified": false,
+    "rm:orc_id_verified": false,
+    "display_erad_id": "closed",
+    "display_orc_id": "closed",
+    "display_researcher_id": "disclosed",
+    "display_j_global_id": "disclosed",
+    "see_also": [
+        {
+            "label": "j_global",
+            "@id": "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=200901007812490403"
+        }
+    ],
+    "@graph": [
+        {
+            "@id": "https://api.researchmap.jp/read0166018/research_areas",
+            "@type": "research_areas",
+            "@reverse": "https://api.researchmap.jp/read0166018",
+            "total_items": 1,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0166018/research_areas/31366465",
+                    "@type": "research_areas",
+                    "@reverse": "https://api.researchmap.jp/read0166018/research_areas",
+                    "rm:id": "31366465",
+                    "rm:user_id": "0000201648",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000201648",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2020-12-29T06:46:28Z",
+                    "rm:modifier_id": "0000201648",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2020-12-29T06:46:28Z",
+                    "discipline_number": "A189",
+                    "item_number": "A50010",
+                    "discipline": {
+                        "ja": "ライフサイエンス",
+                        "en": "Life sciences"
+                    },
+                    "research_field": {
+                        "ja": "腫瘍生物学",
+                        "en": "Tumor biology"
+                    }
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0166018/published_papers",
+            "@type": "published_papers",
+            "@reverse": "https://api.researchmap.jp/read0166018",
+            "total_items": 52,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0166018/published_papers/44148927",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0166018/published_papers",
+                    "rm:id": "44148927",
+                    "rm:user_id": "0000201648",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2023-11-30T03:32:35Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2023-11-30T03:32:35Z",
+                    "paper_title": {
+                        "en": "Artificial intelligence-based analysis of time-lapse images of sphere formation and process of plate adhesion and spread of pancreatic cancer cells"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Yuuki Shichi"
+                            },
+                            {
+                                "name": "Fujiya Gomi"
+                            },
+                            {
+                                "name": "Yasuko Hasegawa"
+                            },
+                            {
+                                "name": "Keisuke Nonaka"
+                            },
+                            {
+                                "name": "Seiichi Shinji"
+                            },
+                            {
+                                "name": "Kimimasa Takahashi"
+                            },
+                            {
+                                "name": "Toshiyuki Ishiwata"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "Background: Most pancreatic cancers are pancreatic ductal adenocarcinomas (PDAC). Spherical morphology formed in three-dimensional (3D) cultures and the effects of anticancer drugs differ between epithelial and mesenchymal PDAC cell lines. In the human pancreas, cancer cells form 3D tumors, migrate to adjacent tissues, and metastasize to other organs. However, no effective methods exist to examine the ability of the tumor mass to migrate to surrounding tissues in vitro. We used spheres formed in 3D culture to investigate whether the migratory ability of tumors of PDAC cell lines, including epithelial and mesenchymal cell lines, varies.\n\nMethods: Sphere formation and adhesion and spread on culture plates were examined by artificial intelligence-based analysis of time-lapse imaging using five epithelial and three mesenchymal PDAC cell lines. Fused and non-fused areas of the sphere surface during sphere formation on low-attachment plates, the adhesion area to normal culture plates, and the sphere area maintaining its original form during adhesion to plates were measured.\n\nResults: Immunocytochemical staining confirmed that E-cadherin was highly expressed in epithelial PDAC spheres, as was vimentin in mesenchymal PDAC spheres, in 2D culture. When forming spheres using low-attachment plates, most epithelial PDAC cell lines initially showed decreased sphere area, and then the covering cells fused to form a smooth surface on the sphere. Mesenchymal PANC-1 and MIA PaCa-2 cells showed little reduction in sphere area and few areas of sphere surface fusion. When formed PDAC spheres were seeded onto normal culture plates, spheres of epithelial PK-8 cells—which have the highest E-cadherin expression, form numerous cysts, and have smooth sphere surfaces—did not adhere to normal plates even after 60 h, and epithelial PK45-P and T3M-4 spheres hardly adhered. Conversely, the area of adhesion and spread of mesenchymal PANC-1 and KP4 cell spheres on normal plates markedly increased from early on, forming large areas of attachment to plates.\n\nConclusion: Seeding spheres formed in 3D culture onto culture plates can clarify differences in tumor migration potential to surrounding areas. The masses formed by each PDAC cell line varied in migratory ability, with mesenchymal PDAC masses being more migratory than epithelial PDAC masses."
+                    },
+                    "publisher": {
+                        "en": "Frontiers Media SA"
+                    },
+                    "publication_date": "2023-11-17",
+                    "publication_name": {
+                        "en": "Frontiers in Cell and Developmental Biology"
+                    },
+                    "volume": "11",
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.3389/fcell.2023.1290753"
+                        ],
+                        "e_issn": [
+                            "2296-634X"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.3389/fcell.2023.1290753",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "https://www.frontiersin.org/articles/10.3389/fcell.2023.1290753/full",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0166018/published_papers/43577680",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0166018/published_papers",
+                    "rm:id": "43577680",
+                    "rm:user_id": "0000201648",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2023-09-26T03:35:04Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2023-09-26T03:35:04Z",
+                    "paper_title": {
+                        "en": "Accelerated telomere shortening in adrenal zona reticularis in patients with prolonged critical illness"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Keisuke Nonaka"
+                            },
+                            {
+                                "name": "Kaiyo Takubo"
+                            },
+                            {
+                                "name": "Junko Aida"
+                            },
+                            {
+                                "name": "Yoriko Watai"
+                            },
+                            {
+                                "name": "Akiko Komatsu"
+                            },
+                            {
+                                "name": "Fujiya Gomi"
+                            },
+                            {
+                                "name": "Yuuki Shichi"
+                            },
+                            {
+                                "name": "Yuto Yamazaki"
+                            },
+                            {
+                                "name": "Toshiyuki Ishiwata"
+                            },
+                            {
+                                "name": "Hironobu Sasano"
+                            },
+                            {
+                                "name": "Tomio Arai"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "Background\n\nThe number of patients with prolonged critical illness (PCI) has been increasing in many countries, and the adrenal gland plays an important role in maintaining homeostasis during PCI. Chronic disease burden is reportedly associated with shorter telomere lengths in human tissues. Telomere shortening in human somatic cells is largely dependent on cell divisions, and critically short telomeres lead to cellular dysfunction and aging. However, the association between PCI and telomere lengths in human adrenal cells is poorly understood. In this study, we investigated this association to assess whether the burden of PCI could accelerate the aging process in adrenal cells.\n\nMethods\n\nAdrenocortical tissues from patients who died after PCI usually show a diffuse pattern of intracellular cholesterol ester depletion (i.e., lipid depletion). This study examined near-normal adrenal glands obtained from autopsied patients who died suddenly (control group) and lipid-depleted adrenal glands obtained from autopsied patients who died after PCI (PCI group). The control group included 7 men aged 80 to 94 years (mean age: 85.3 years) and 7 women aged 84 to 94 years (mean age: 87.7 years). The PCI group included 10 men aged 71 to 88 years (mean age: 78.8 years) and 8 women aged 77 to 95 years (mean age: 85.6 years). By using quantitative fluorescence in situ hybridization, relative telomere lengths (RTLs) were determined in the parenchymal cells of the three adrenocortical zones (zona glomerulosa, zona fasciculata, and zona reticularis [ZR]) and in the chromaffin cells of the medulla. The number of adrenal parenchymal cells was determined by immunohistochemistry and digital image analysis.\n\nResults\n\nRTLs in ZR cells were significantly shorter in the PCI group than in the control group for both men and women (P = 0.0001 for men and P = 0.0012 for women). However, RTLs in the remaining three types of adrenal cells did not differ between the control and PCI groups for both men and women. The number of ZR cells was higher in the PCI group than in the control group for both men and women (P &amp;lt; 0.0001 for both men and women). The proportion of the number of ZR cells to the total number of adrenocortical parenchymal cells was also higher in the PCI group than in the control group (P &amp;lt; 0.0001 for both men and women). The Ki-67 proliferation index in ZR cells was higher in the PCI group than in the control group (P = 0.0039 for men and P = 0.0063 for women).\n\nConclusions\n\nThis study demonstrated ZR cell-specific telomere shortening in patients with adrenal lipid depletion who died after PCI. Our results suggest that the reactive proliferation of ZR cells accelerates the telomere shortening and aging process in ZR cells in these patients. The results of our study may contribute to the understanding of adrenal aging during PCI."
+                    },
+                    "publisher": {
+                        "en": "Frontiers Media SA"
+                    },
+                    "publication_date": "2023-09-04",
+                    "publication_name": {
+                        "en": "Frontiers in Endocrinology"
+                    },
+                    "volume": "14",
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.3389/fendo.2023.1244553"
+                        ],
+                        "e_issn": [
+                            "1664-2392"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.3389/fendo.2023.1244553",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "https://www.frontiersin.org/articles/10.3389/fendo.2023.1244553/full",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0166018/published_papers/40737523",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0166018/published_papers",
+                    "rm:id": "40737523",
+                    "rm:user_id": "0000201648",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_papers",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2022-12-19T23:50:49Z",
+                    "rm:modifier_id": "ai:assign_based_papers",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-12-19T23:50:49Z",
+                    "paper_title": {
+                        "en": "Chromosomal analysis of clonally related B-cell lymphomas with discordant immunoglobulin light-chain restrictions at different anatomical sites."
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Keisuke Nonaka"
+                            },
+                            {
+                                "name": "Morito Kurata"
+                            },
+                            {
+                                "name": "Moriaki Tachibana"
+                            },
+                            {
+                                "name": "Akiko Komatsu"
+                            },
+                            {
+                                "name": "Yuuki Shichi"
+                            },
+                            {
+                                "name": "Fujiya Gomi"
+                            },
+                            {
+                                "name": "Toshiyuki Ishiwata"
+                            },
+                            {
+                                "name": "Kou Miyamoto"
+                            },
+                            {
+                                "name": "Tomio Arai"
+                            }
+                        ]
+                    },
+                    "publication_date": "2022-12-12",
+                    "publication_name": {
+                        "en": "Pathology international"
+                    },
+                    "languages": [
+                        "eng"
+                    ],
+                    "is_international_journal": true,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1111/pin.13297"
+                        ],
+                        "pm_id": [
+                            "36504427"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1111/pin.13297",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "pubmed",
+                            "@id": "https://www.ncbi.nlm.nih.gov/pubmed/36504427",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0166018/published_papers/40106333",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0166018/published_papers",
+                    "rm:id": "40106333",
+                    "rm:user_id": "0000201648",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2022-09-27T03:33:37Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-09-27T03:33:37Z",
+                    "paper_title": {
+                        "en": "Multiple cystic sphere formation from PK-8 cells in three-dimensional culture"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Yuuki Shichi"
+                            },
+                            {
+                                "name": "Fujiya Gomi"
+                            },
+                            {
+                                "name": "Yoshibumi Ueda"
+                            },
+                            {
+                                "name": "Keisuke Nonaka"
+                            },
+                            {
+                                "name": "Fumio Hasegawa"
+                            },
+                            {
+                                "name": "Yasuko Hasegawa"
+                            },
+                            {
+                                "name": "Nae Hinata"
+                            },
+                            {
+                                "name": "Hisashi Yoshimura"
+                            },
+                            {
+                                "name": "Masami Yamamoto"
+                            },
+                            {
+                                "name": "Kimimasa Takahashi"
+                            },
+                            {
+                                "name": "Tomio Arai"
+                            },
+                            {
+                                "name": "Toshiyuki Ishiwata"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "en": "Elsevier BV"
+                    },
+                    "publication_date": "2022-12",
+                    "publication_name": {
+                        "en": "Biochemistry and Biophysics Reports"
+                    },
+                    "volume": "32",
+                    "starting_page": "101339",
+                    "ending_page": "101339",
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1016/j.bbrep.2022.101339"
+                        ],
+                        "issn": [
+                            "2405-5808"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1016/j.bbrep.2022.101339",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0166018/published_papers/41254563",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0166018/published_papers",
+                    "rm:id": "41254563",
+                    "rm:user_id": "0000201648",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2023-01-27T03:32:30Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2023-01-27T03:32:30Z",
+                    "paper_title": {
+                        "en": "FGFR4阻害剤BLU554の膵癌細胞株に対する効果(Effects of the FGFR4 inhibitor BLU554(Fisogatinib) on pancreatic ductal adenocarcinoma cell lines)"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "五味 不二也"
+                            },
+                            {
+                                "name": "佐々木 紀彦"
+                            },
+                            {
+                                "name": "志智 優樹"
+                            },
+                            {
+                                "name": "野中 敬介"
+                            },
+                            {
+                                "name": "豊田 雅士"
+                            },
+                            {
+                                "name": "石渡 俊行"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "en": "(一社)日本癌学会"
+                    },
+                    "publication_date": "2022-09",
+                    "publication_name": {
+                        "en": "日本癌学会総会記事"
+                    },
+                    "volume": "81回",
+                    "starting_page": "P",
+                    "ending_page": "2077",
+                    "languages": [
+                        "eng"
+                    ],
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "0546-0476"
+                        ],
+                        "jamas_id": [
+                            "WA03481052"
+                        ]
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0166018/published_papers/41254556",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0166018/published_papers",
+                    "rm:id": "41254556",
+                    "rm:user_id": "0000201648",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2023-01-27T03:32:30Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2023-01-27T03:32:30Z",
+                    "paper_title": {
+                        "en": "Gp130/STAT3シグナル伝達は、長鎖ノンコーディングRNAのH19の発現を含む膵臓癌幹細胞の機能を調節する(Gp130/STAT3 signaling modulate pancreatic cancer stem cell feature including long non-coding RNA H19 expression)"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "佐々木 紀彦"
+                            },
+                            {
+                                "name": "平野 和己"
+                            },
+                            {
+                                "name": "志智 優樹"
+                            },
+                            {
+                                "name": "五味 不二也"
+                            },
+                            {
+                                "name": "吉村 久志"
+                            },
+                            {
+                                "name": "松下 晃"
+                            },
+                            {
+                                "name": "板倉 陽子"
+                            },
+                            {
+                                "name": "豊田 雅士"
+                            },
+                            {
+                                "name": "石渡 俊行"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "en": "(一社)日本癌学会"
+                    },
+                    "publication_date": "2022-09",
+                    "publication_name": {
+                        "en": "日本癌学会総会記事"
+                    },
+                    "volume": "81回",
+                    "starting_page": "P",
+                    "ending_page": "2100",
+                    "languages": [
+                        "eng"
+                    ],
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "0546-0476"
+                        ],
+                        "jamas_id": [
+                            "WA03481255"
+                        ]
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0166018/published_papers/41254550",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0166018/published_papers",
+                    "rm:id": "41254550",
+                    "rm:user_id": "0000201648",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2023-01-27T03:32:30Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2023-01-27T03:32:30Z",
+                    "paper_title": {
+                        "en": "3次元培養による膵癌細胞株の上皮間葉系形質の増強(Enhanced epithelial and mesenchymal features of pancreatic ductal adenocarcinoma cell lines in 3-dimensional cultures)"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "石渡 俊行"
+                            },
+                            {
+                                "name": "志智 優樹"
+                            },
+                            {
+                                "name": "五味 不二也"
+                            },
+                            {
+                                "name": "野中 敬介"
+                            },
+                            {
+                                "name": "佐々木 紀彦"
+                            },
+                            {
+                                "name": "豊田 雅士"
+                            },
+                            {
+                                "name": "高橋 公正"
+                            },
+                            {
+                                "name": "新井 冨生"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "en": "(一社)日本癌学会"
+                    },
+                    "publication_date": "2022-09",
+                    "publication_name": {
+                        "en": "日本癌学会総会記事"
+                    },
+                    "volume": "81回",
+                    "starting_page": "P",
+                    "ending_page": "3173",
+                    "languages": [
+                        "eng"
+                    ],
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "0546-0476"
+                        ],
+                        "jamas_id": [
+                            "WA03481951"
+                        ]
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0166018/published_papers/37951263",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0166018/published_papers",
+                    "rm:id": "37951263",
+                    "rm:user_id": "0000201648",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2022-07-02T09:03:07Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-07-02T09:03:07Z",
+                    "paper_title": {
+                        "en": "Epithelial and Mesenchymal Features of Pancreatic Ductal Adenocarcinoma Cell Lines in Two- and Three-Dimensional Cultures"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Yuuki Shichi"
+                            },
+                            {
+                                "name": "Fujiya Gomi"
+                            },
+                            {
+                                "name": "Norihiko Sasaki"
+                            },
+                            {
+                                "name": "Keisuke Nonaka"
+                            },
+                            {
+                                "name": "Tomio Arai"
+                            },
+                            {
+                                "name": "Toshiyuki Ishiwata"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "Pancreatic ductal adenocarcinoma (PDAC) is an intractable cancer that is difficult to diagnose early, and there is no cure other than surgery. PDAC is classified as an adenocarcinoma that has limited effective anticancer drug and molecular-targeted therapies compared to adenocarcinoma found in other organs. A large number of cancer cell lines have been established from patients with PDAC that have different genetic abnormalities, including four driver genes; however, little is known about the differences in biological behaviors among these cell lines. Recent studies have shown that PDAC cell lines can be divided into epithelial and mesenchymal cell lines. In 3D cultures, morphological and functional differences between epithelial and mesenchymal PDAC cell lines were observed as well as the drug effects of different anticancer drugs. These effects included gemcitabine causing an increased growth inhibition of epithelial PDAC cells, while nab-paclitaxel caused greater mesenchymal PDAC cell inhibition. Thus, examining the characteristics of epithelial or mesenchymal PDAC cells with stromal cells using a 3D co-culture may lead to the development of new anticancer drugs."
+                    },
+                    "publisher": {
+                        "en": "MDPI AG"
+                    },
+                    "publication_date": "2022-05-04",
+                    "publication_name": {
+                        "en": "Journal of Personalized Medicine"
+                    },
+                    "volume": "12",
+                    "number": "5",
+                    "starting_page": "746",
+                    "ending_page": "746",
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.3390/jpm12050746"
+                        ],
+                        "e_issn": [
+                            "2075-4426"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.3390/jpm12050746",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "https://www.mdpi.com/2075-4426/12/5/746/pdf",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0166018/published_papers/37951756",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0166018/published_papers",
+                    "rm:id": "37951756",
+                    "rm:user_id": "0000201648",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2022-07-02T09:04:19Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-07-02T09:04:19Z",
+                    "paper_title": {
+                        "en": "Gp130-Mediated STAT3 Activation Contributes to the Aggressiveness of Pancreatic Cancer through H19 Long Non-Coding RNA Expression."
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Norihiko Sasaki"
+                            },
+                            {
+                                "name": "Kazumi Hirano"
+                            },
+                            {
+                                "name": "Yuuki Shichi"
+                            },
+                            {
+                                "name": "Fujiya Gomi"
+                            },
+                            {
+                                "name": "Hisashi Yoshimura"
+                            },
+                            {
+                                "name": "Akira Matsushita"
+                            },
+                            {
+                                "name": "Masashi Toyoda"
+                            },
+                            {
+                                "name": "Toshiyuki Ishiwata"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "Signaling pathways involving signal transducer and activator of transcription 3 (STAT3) play key roles in the aggressiveness of pancreatic ductal adenocarcinoma (PDAC), including their tumorigenesis, invasion, and metastasis. Cancer stem cells (CSCs) have been correlated with PDAC aggressiveness, and activation of STAT3 is involved in the regulation of CSC properties. Here, we investigated the involvement of interleukin-6 (IL-6) or the leukemia inhibitory factor (LIF)/glycoprotein 130 (gp130)/STAT3 pathway and their role in pancreatic CSCs. In PDAC CSC-like cells formed by culturing on a low attachment plate, autocrine/paracrine IL-6 or LIF contributes to gp130/STAT3 pathway activation. Using a gp130 inhibitor, we determined that the gp130/STAT3 pathway contributes to the maintenance of stemness features, the expression of membrane-type 1 matrix metalloproteinase (MT1-MMP), and the invasion of PDAC CSC-like cells. The gp130/STAT3 pathway also modulates the transforming growth factor (TGF)-β1/Smad pathway required for epithelial-mesenchymal transition induction through regulation of TGFβ-RII expression in PDAC CSC-like cells. Furthermore, chromatin immunoprecipitation assays revealed that p-STAT3 can access the active promoter region of H19 to influence this metastasis-related long non-coding RNA and contribute to its transcription in PDAC CSC-like cells. Therefore, the autocrine/paracrine IL-6 or LIF/gp130/STAT3 pathway in PDAC CSC-like cells may eventually facilitate invasion and metastasis, two hallmarks of malignancy. We propose that inhibition of the gp130/STAT3 pathway provides a promising strategy for targeting CSCs for the treatment of PDAC."
+                    },
+                    "publication_date": "2022-04-19",
+                    "publication_name": {
+                        "en": "Cancers"
+                    },
+                    "volume": "14",
+                    "number": "9",
+                    "languages": [
+                        "eng"
+                    ],
+                    "published_paper_type": "scientific_journal",
+                    "is_international_journal": true,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.3390/cancers14092055"
+                        ],
+                        "pm_id": [
+                            "35565185"
+                        ],
+                        "pmc_id": [
+                            "PMC9100112"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.3390/cancers14092055",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "pubmed",
+                            "@id": "https://www.ncbi.nlm.nih.gov/pubmed/35565185",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "pmc",
+                            "@id": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9100112",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0166018/published_papers/41254574",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0166018/published_papers",
+                    "rm:id": "41254574",
+                    "rm:user_id": "0000201648",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2023-01-27T03:32:31Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2023-01-27T03:32:31Z",
+                    "paper_title": {
+                        "ja": "3次元培養による膵癌培養細胞の上皮間葉系形質と粘液産生能の比較検討"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "志智 優樹"
+                            },
+                            {
+                                "name": "長谷川 康子"
+                            },
+                            {
+                                "name": "佐々木 紀彦"
+                            },
+                            {
+                                "name": "五味 不二也"
+                            },
+                            {
+                                "name": "野中 敬介"
+                            },
+                            {
+                                "name": "吉村 久志"
+                            },
+                            {
+                                "name": "高橋 公正"
+                            },
+                            {
+                                "name": "豊田 雅士"
+                            },
+                            {
+                                "name": "新井 冨生"
+                            },
+                            {
+                                "name": "石渡 俊行"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "(一社)日本病理学会"
+                    },
+                    "publication_date": "2022-03",
+                    "publication_name": {
+                        "ja": "日本病理学会会誌"
+                    },
+                    "volume": "111",
+                    "number": "1",
+                    "starting_page": "239",
+                    "ending_page": "239",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "0300-9181"
+                        ],
+                        "jamas_id": [
+                            "2022255328"
+                        ]
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0166018/published_papers/41254589",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0166018/published_papers",
+                    "rm:id": "41254589",
+                    "rm:user_id": "0000201648",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2023-01-27T03:32:31Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2023-01-27T03:32:31Z",
+                    "paper_title": {
+                        "en": "2D及び3D培養下におけるPolyvinyl alcoholの膵癌細胞への効果"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "五味 不二也"
+                            },
+                            {
+                                "name": "佐々木 紀彦"
+                            },
+                            {
+                                "name": "志智 優樹"
+                            },
+                            {
+                                "name": "進士 誠一"
+                            },
+                            {
+                                "name": "長谷川 文雄"
+                            },
+                            {
+                                "name": "高橋 公正"
+                            },
+                            {
+                                "name": "豊田 雅士"
+                            },
+                            {
+                                "name": "石渡 俊行"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "en": "(一社)日本癌学会"
+                    },
+                    "publication_date": "2021-09",
+                    "publication_name": {
+                        "en": "日本癌学会総会記事"
+                    },
+                    "volume": "80回",
+                    "starting_page": "[P11",
+                    "ending_page": "6]",
+                    "languages": [
+                        "eng"
+                    ],
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "0546-0476"
+                        ],
+                        "jamas_id": [
+                            "2022116894"
+                        ]
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0166018/published_papers/41254582",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0166018/published_papers",
+                    "rm:id": "41254582",
+                    "rm:user_id": "0000201648",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2023-01-27T03:32:31Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2023-01-27T03:32:31Z",
+                    "paper_title": {
+                        "en": "3次元培養による膵癌培養細胞株の形態および機能的特徴と薬剤感受性の検討"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "志智 優樹"
+                            },
+                            {
+                                "name": "南 風花"
+                            },
+                            {
+                                "name": "佐々木 紀彦"
+                            },
+                            {
+                                "name": "五味 不二也"
+                            },
+                            {
+                                "name": "道下 正貴"
+                            },
+                            {
+                                "name": "塚田 晃三"
+                            },
+                            {
+                                "name": "豊田 雅士"
+                            },
+                            {
+                                "name": "高橋 公正"
+                            },
+                            {
+                                "name": "石渡 俊行"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "en": "(一社)日本癌学会"
+                    },
+                    "publication_date": "2021-09",
+                    "publication_name": {
+                        "en": "日本癌学会総会記事"
+                    },
+                    "volume": "80回",
+                    "starting_page": "[P14",
+                    "ending_page": "7]",
+                    "languages": [
+                        "eng"
+                    ],
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "0546-0476"
+                        ],
+                        "jamas_id": [
+                            "2022117024"
+                        ]
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0166018/published_papers/37937614",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0166018/published_papers",
+                    "rm:id": "37937614",
+                    "rm:user_id": "0000201648",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2022-07-02T08:27:55Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-07-02T08:27:55Z",
+                    "paper_title": {
+                        "en": "FGFR4阻害剤のBLU9931により、膵癌細胞で細胞老化が誘導される"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "佐々木 紀彦"
+                            },
+                            {
+                                "name": "五味 不二也"
+                            },
+                            {
+                                "name": "吉村 久志"
+                            },
+                            {
+                                "name": "山本 昌美"
+                            },
+                            {
+                                "name": "松田 陽子"
+                            },
+                            {
+                                "name": "道下 正貴"
+                            },
+                            {
+                                "name": "畠山 仁"
+                            },
+                            {
+                                "name": "川野 陽一"
+                            },
+                            {
+                                "name": "板倉 陽子"
+                            },
+                            {
+                                "name": "豊田 雅士"
+                            },
+                            {
+                                "name": "マレー・コーク"
+                            },
+                            {
+                                "name": "石渡 俊行"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "en": "(一社)日本癌学会"
+                    },
+                    "publication_date": "2021-09",
+                    "publication_name": {
+                        "en": "日本癌学会総会記事"
+                    },
+                    "volume": "80回",
+                    "starting_page": "[J16",
+                    "ending_page": "6]",
+                    "languages": [
+                        "eng"
+                    ],
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "0546-0476"
+                        ],
+                        "jamas_id": [
+                            "2022116537"
+                        ]
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0166018/published_papers/37515258",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0166018/published_papers",
+                    "rm:id": "37515258",
+                    "rm:user_id": "0000201648",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2022-06-29T09:46:32Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-06-29T09:46:32Z",
+                    "paper_title": {
+                        "ja": "FGFR4シグナル抑制による膵癌の老化誘導と、老化細胞死誘導薬の有効性"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "佐々木 紀彦"
+                            },
+                            {
+                                "name": "五味 不二也"
+                            },
+                            {
+                                "name": "吉村 久志"
+                            },
+                            {
+                                "name": "山本 昌美"
+                            },
+                            {
+                                "name": "松田 陽子"
+                            },
+                            {
+                                "name": "道下 正貴"
+                            },
+                            {
+                                "name": "畠山 仁"
+                            },
+                            {
+                                "name": "川野 陽一"
+                            },
+                            {
+                                "name": "豊田 雅士"
+                            },
+                            {
+                                "name": "コーク・マレー"
+                            },
+                            {
+                                "name": "石渡 俊行"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "(一社)日本膵臓学会"
+                    },
+                    "publication_date": "2021-08",
+                    "publication_name": {
+                        "ja": "膵臓"
+                    },
+                    "volume": "36",
+                    "number": "3",
+                    "starting_page": "A299",
+                    "ending_page": "A299",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "0913-0071"
+                        ],
+                        "e_issn": [
+                            "1881-2805"
+                        ],
+                        "jamas_id": [
+                            "V825260257"
+                        ]
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0166018/published_papers/34972408",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0166018/published_papers",
+                    "rm:id": "34972408",
+                    "rm:user_id": "0000201648",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2021-10-24T10:41:33Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2021-10-24T10:41:33Z",
+                    "paper_title": {
+                        "ja": "長期重症患者にみられる副腎網状層の細胞増加とテロメア長短縮"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "野中 敬介"
+                            },
+                            {
+                                "name": "井下 尚子"
+                            },
+                            {
+                                "name": "相田 順子"
+                            },
+                            {
+                                "name": "田久保 海誉"
+                            },
+                            {
+                                "name": "渡井 順子"
+                            },
+                            {
+                                "name": "五味 不二也"
+                            },
+                            {
+                                "name": "長谷川 康子"
+                            },
+                            {
+                                "name": "小松 明子"
+                            },
+                            {
+                                "name": "山崎 有人"
+                            },
+                            {
+                                "name": "石渡 俊行"
+                            },
+                            {
+                                "name": "笹野 公伸"
+                            },
+                            {
+                                "name": "新井 冨生"
+                            },
+                            {
+                                "name": "東京都健康長寿医療センター研究所・老年病理学研究チーム"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "(一社)日本内分泌学会"
+                    },
+                    "publication_date": "2021-04",
+                    "publication_name": {
+                        "ja": "日本内分泌学会雑誌"
+                    },
+                    "volume": "96",
+                    "number": "4",
+                    "starting_page": "1178",
+                    "ending_page": "1178",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "0029-0661"
+                        ],
+                        "e_issn": [
+                            "2186-506X"
+                        ],
+                        "jamas_id": [
+                            "V427310387"
+                        ]
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0166018/published_papers/35162011",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0166018/published_papers",
+                    "rm:id": "35162011",
+                    "rm:user_id": "0000201648",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2021-10-25T08:48:27Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2021-10-25T08:48:27Z",
+                    "paper_title": {
+                        "en": "Morphofunctional analysis of human pancreatic cancer cell lines in 2- and 3-dimensional cultures."
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Fuuka Minami"
+                            },
+                            {
+                                "name": "Norihiko Sasaki"
+                            },
+                            {
+                                "name": "Yuuki Shichi"
+                            },
+                            {
+                                "name": "Fujiya Gomi"
+                            },
+                            {
+                                "name": "Masaki Michishita"
+                            },
+                            {
+                                "name": "Kozo Ohkusu-Tsukada"
+                            },
+                            {
+                                "name": "Masashi Toyoda"
+                            },
+                            {
+                                "name": "Kimimasa Takahashi"
+                            },
+                            {
+                                "name": "Toshiyuki Ishiwata"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "Genetic, transcriptional, and morphological differences have been reported in pancreatic ductal adenocarcinoma (PDAC) cases. We recently found that epithelial or mesenchymal features were enhanced in three-dimensional (3D) cultures compared to two-dimensional (2D) cultures. In this study, we examined the differences in the morphological and functional characteristics of eight PDAC cell lines in 2D and 3D cultures. Most PDAC cells showed similar pleomorphic morphologies in 2D culture. Under 3D culture, PDAC cells with high E-cadherin and low vimentin expression levels (epithelial) formed small round spheres encircled with flat lining cells, whereas those with high vimentin and low E-cadherin expression levels (mesenchymal) formed large grape-like spheres without lining cells and were highly proliferative. In 3D culture, gemcitabine was more effective for the spheres formed by PDAC cells with epithelial features, while abraxane was more effective on those with mesenchymal features. The expression levels of drug transporters were highest PDAC cells with high vimentin expression levels. These findings indicate that PDAC cells possess various levels of epithelial and mesenchymal characteristics. The 3D-culture method is useful for investigating the diversity of PDAC cell lines and may play important roles in the development of personalized early diagnostic methods and anticancer drugs for PDAC."
+                    },
+                    "publication_date": "2021-03-24",
+                    "publication_name": {
+                        "en": "Scientific reports"
+                    },
+                    "volume": "11",
+                    "number": "1",
+                    "starting_page": "6775",
+                    "ending_page": "6775",
+                    "languages": [
+                        "eng"
+                    ],
+                    "published_paper_type": "scientific_journal",
+                    "is_international_journal": true,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1038/s41598-021-86028-1"
+                        ],
+                        "pm_id": [
+                            "33762591"
+                        ],
+                        "pmc_id": [
+                            "PMC7990961"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1038/s41598-021-86028-1",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "pubmed",
+                            "@id": "https://www.ncbi.nlm.nih.gov/pubmed/33762591",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "pmc",
+                            "@id": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7990961",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0166018/published_papers/37515272",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0166018/published_papers",
+                    "rm:id": "37515272",
+                    "rm:user_id": "0000201648",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2022-06-29T09:46:33Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-06-29T09:46:33Z",
+                    "paper_title": {
+                        "ja": "2次元培養と3次元培養による膵癌培養細胞株の形態・機能変化と薬剤感受性の検討"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "石渡 俊行"
+                            },
+                            {
+                                "name": "南 風花"
+                            },
+                            {
+                                "name": "佐々木 紀彦"
+                            },
+                            {
+                                "name": "志智 優樹"
+                            },
+                            {
+                                "name": "五味 不二也"
+                            },
+                            {
+                                "name": "道下 正貴"
+                            },
+                            {
+                                "name": "豊田 雅士"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "(一社)日本病理学会"
+                    },
+                    "publication_date": "2021-03",
+                    "publication_name": {
+                        "ja": "日本病理学会会誌"
+                    },
+                    "volume": "110",
+                    "number": "1",
+                    "starting_page": "232",
+                    "ending_page": "232",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "0300-9181"
+                        ],
+                        "jamas_id": [
+                            "2021240122"
+                        ]
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0166018/published_papers/37515267",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0166018/published_papers",
+                    "rm:id": "37515267",
+                    "rm:user_id": "0000201648",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2022-06-29T09:46:32Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-06-29T09:46:32Z",
+                    "paper_title": {
+                        "ja": "Polyvinyl alcoholは膵癌細胞の遊走、浸潤、sphere形成能を増加させる"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "五味 不二也"
+                            },
+                            {
+                                "name": "佐々木 紀彦"
+                            },
+                            {
+                                "name": "志智 優樹"
+                            },
+                            {
+                                "name": "南 風花"
+                            },
+                            {
+                                "name": "進士 誠一"
+                            },
+                            {
+                                "name": "豊田 雅士"
+                            },
+                            {
+                                "name": "石渡 俊行"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "(一社)日本病理学会"
+                    },
+                    "publication_date": "2021-03",
+                    "publication_name": {
+                        "ja": "日本病理学会会誌"
+                    },
+                    "volume": "110",
+                    "number": "1",
+                    "starting_page": "318",
+                    "ending_page": "318",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "0300-9181"
+                        ],
+                        "jamas_id": [
+                            "2021240500"
+                        ]
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0166018/published_papers/34972403",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0166018/published_papers",
+                    "rm:id": "34972403",
+                    "rm:user_id": "0000201648",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2021-10-24T10:41:32Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2021-10-24T10:41:32Z",
+                    "paper_title": {
+                        "ja": "2次元培養と3次元培養による膵癌培養細胞株の形態・機能変化と薬剤感受性の検討"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "石渡 俊行"
+                            },
+                            {
+                                "name": "南 風花"
+                            },
+                            {
+                                "name": "佐々木 紀彦"
+                            },
+                            {
+                                "name": "志智 優樹"
+                            },
+                            {
+                                "name": "五味 不二也"
+                            },
+                            {
+                                "name": "道下 正貴"
+                            },
+                            {
+                                "name": "豊田 雅士"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "(一社)日本病理学会"
+                    },
+                    "publication_date": "2021-03",
+                    "publication_name": {
+                        "ja": "日本病理学会会誌"
+                    },
+                    "volume": "110",
+                    "number": "1",
+                    "starting_page": "232",
+                    "ending_page": "232",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "0300-9181"
+                        ],
+                        "jamas_id": [
+                            "V520300238"
+                        ]
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0166018/published_papers/34972398",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0166018/published_papers",
+                    "rm:id": "34972398",
+                    "rm:user_id": "0000201648",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2021-10-24T10:41:31Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2021-10-24T10:41:31Z",
+                    "paper_title": {
+                        "ja": "Polyvinyl alcoholは膵癌細胞の遊走、浸潤、sphere形成能を増加させる"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "五味 不二也"
+                            },
+                            {
+                                "name": "佐々木 紀彦"
+                            },
+                            {
+                                "name": "志智 優樹"
+                            },
+                            {
+                                "name": "南 風花"
+                            },
+                            {
+                                "name": "進士 誠一"
+                            },
+                            {
+                                "name": "豊田 雅士"
+                            },
+                            {
+                                "name": "石渡 俊行"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "(一社)日本病理学会"
+                    },
+                    "publication_date": "2021-03",
+                    "publication_name": {
+                        "ja": "日本病理学会会誌"
+                    },
+                    "volume": "110",
+                    "number": "1",
+                    "starting_page": "318",
+                    "ending_page": "318",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "0300-9181"
+                        ],
+                        "jamas_id": [
+                            "V520300616"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0166018/misc",
+            "@type": "misc",
+            "@reverse": "https://api.researchmap.jp/read0166018",
+            "total_items": 18,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0166018/misc/37575379",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0166018/misc",
+                    "rm:id": "37575379",
+                    "rm:user_id": "0000201648",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_papers",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2022-06-29T14:14:18Z",
+                    "rm:modifier_id": "ai:assign_based_papers",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-06-29T14:14:18Z",
+                    "paper_title": {
+                        "en": "FGFR4阻害剤のBLU9931により、膵癌細胞で細胞老化が誘導される"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "佐々木 紀彦"
+                            },
+                            {
+                                "name": "五味 不二也"
+                            },
+                            {
+                                "name": "吉村 久志"
+                            },
+                            {
+                                "name": "山本 昌美"
+                            },
+                            {
+                                "name": "松田 陽子"
+                            },
+                            {
+                                "name": "道下 正貴"
+                            },
+                            {
+                                "name": "畠山 仁"
+                            },
+                            {
+                                "name": "川野 陽一"
+                            },
+                            {
+                                "name": "板倉 陽子"
+                            },
+                            {
+                                "name": "豊田 雅士"
+                            },
+                            {
+                                "name": "マレー・コーク"
+                            },
+                            {
+                                "name": "石渡 俊行"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "en": "(一社)日本癌学会"
+                    },
+                    "publication_date": "2021-09",
+                    "publication_name": {
+                        "en": "日本癌学会総会記事"
+                    },
+                    "volume": "80回",
+                    "starting_page": "[J16",
+                    "ending_page": "6]",
+                    "languages": [
+                        "eng"
+                    ],
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "0546-0476"
+                        ],
+                        "jamas_id": [
+                            "VC16480835"
+                        ]
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0166018/misc/37575376",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0166018/misc",
+                    "rm:id": "37575376",
+                    "rm:user_id": "0000201648",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_papers",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2022-06-29T14:14:17Z",
+                    "rm:modifier_id": "ai:assign_based_papers",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-06-29T14:14:17Z",
+                    "paper_title": {
+                        "en": "2D及び3D培養下におけるPolyvinyl alcoholの膵癌細胞への効果"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "五味 不二也"
+                            },
+                            {
+                                "name": "佐々木 紀彦"
+                            },
+                            {
+                                "name": "志智 優樹"
+                            },
+                            {
+                                "name": "進士 誠一"
+                            },
+                            {
+                                "name": "長谷川 文雄"
+                            },
+                            {
+                                "name": "高橋 公正"
+                            },
+                            {
+                                "name": "豊田 雅士"
+                            },
+                            {
+                                "name": "石渡 俊行"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "en": "(一社)日本癌学会"
+                    },
+                    "publication_date": "2021-09",
+                    "publication_name": {
+                        "en": "日本癌学会総会記事"
+                    },
+                    "volume": "80回",
+                    "starting_page": "[P11",
+                    "ending_page": "6]",
+                    "languages": [
+                        "eng"
+                    ],
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "0546-0476"
+                        ],
+                        "jamas_id": [
+                            "VC16481192"
+                        ]
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0166018/misc/37575371",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0166018/misc",
+                    "rm:id": "37575371",
+                    "rm:user_id": "0000201648",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_papers",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2022-06-29T14:14:17Z",
+                    "rm:modifier_id": "ai:assign_based_papers",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-06-29T14:14:17Z",
+                    "paper_title": {
+                        "en": "3次元培養による膵癌培養細胞株の形態および機能的特徴と薬剤感受性の検討"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "志智 優樹"
+                            },
+                            {
+                                "name": "南 風花"
+                            },
+                            {
+                                "name": "佐々木 紀彦"
+                            },
+                            {
+                                "name": "五味 不二也"
+                            },
+                            {
+                                "name": "道下 正貴"
+                            },
+                            {
+                                "name": "塚田 晃三"
+                            },
+                            {
+                                "name": "豊田 雅士"
+                            },
+                            {
+                                "name": "高橋 公正"
+                            },
+                            {
+                                "name": "石渡 俊行"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "en": "(一社)日本癌学会"
+                    },
+                    "publication_date": "2021-09",
+                    "publication_name": {
+                        "en": "日本癌学会総会記事"
+                    },
+                    "volume": "80回",
+                    "starting_page": "[P14",
+                    "ending_page": "7]",
+                    "languages": [
+                        "eng"
+                    ],
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "0546-0476"
+                        ],
+                        "jamas_id": [
+                            "VC16481322"
+                        ]
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0166018/misc/37316943",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0166018/misc",
+                    "rm:id": "37316943",
+                    "rm:user_id": "0000201648",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_papers",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2022-06-28T02:20:40Z",
+                    "rm:modifier_id": "ai:assign_based_papers",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-06-28T02:20:40Z",
+                    "paper_title": {
+                        "en": "ヒト結腸直腸由来神経内分泌癌株SS-2のTGF-β1誘導性上皮間葉転換の可能性"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "進士 誠一"
+                            },
+                            {
+                                "name": "佐々木 紀彦"
+                            },
+                            {
+                                "name": "山田 岳史"
+                            },
+                            {
+                                "name": "松田 明久"
+                            },
+                            {
+                                "name": "太田 竜"
+                            },
+                            {
+                                "name": "園田 寛道"
+                            },
+                            {
+                                "name": "代永 和秀"
+                            },
+                            {
+                                "name": "高橋 吾郎"
+                            },
+                            {
+                                "name": "岩井 拓磨"
+                            },
+                            {
+                                "name": "武田 幸樹"
+                            },
+                            {
+                                "name": "上田 康二"
+                            },
+                            {
+                                "name": "栗山 翔"
+                            },
+                            {
+                                "name": "宮坂 俊光"
+                            },
+                            {
+                                "name": "五味 不二也"
+                            },
+                            {
+                                "name": "石渡 俊行"
+                            },
+                            {
+                                "name": "吉田 寛"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "en": "(一社)日本癌学会"
+                    },
+                    "publication_date": "2021-09",
+                    "publication_name": {
+                        "en": "日本癌学会総会記事"
+                    },
+                    "volume": "80回",
+                    "starting_page": "[P14",
+                    "ending_page": "7]",
+                    "languages": [
+                        "eng"
+                    ],
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "0546-0476"
+                        ],
+                        "jamas_id": [
+                            "VC16481281"
+                        ]
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0166018/misc/37575387",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0166018/misc",
+                    "rm:id": "37575387",
+                    "rm:user_id": "0000201648",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_papers",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2022-06-29T14:14:18Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2023-01-26T21:00:15Z",
+                    "paper_title": {
+                        "ja": "FGFR4シグナル抑制による膵癌の老化誘導と、老化細胞死誘導薬の有効性"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "佐々木 紀彦"
+                            },
+                            {
+                                "name": "五味 不二也"
+                            },
+                            {
+                                "name": "吉村 久志"
+                            },
+                            {
+                                "name": "山本 昌美"
+                            },
+                            {
+                                "name": "松田 陽子"
+                            },
+                            {
+                                "name": "道下 正貴"
+                            },
+                            {
+                                "name": "畠山 仁"
+                            },
+                            {
+                                "name": "川野 陽一"
+                            },
+                            {
+                                "name": "豊田 雅士"
+                            },
+                            {
+                                "name": "コーク・マレー"
+                            },
+                            {
+                                "name": "石渡 俊行"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "(一社)日本膵臓学会"
+                    },
+                    "publication_date": "2021-08",
+                    "publication_name": {
+                        "ja": "膵臓"
+                    },
+                    "volume": "36",
+                    "number": "3",
+                    "starting_page": "A299",
+                    "ending_page": "A299",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "0913-0071"
+                        ],
+                        "e_issn": [
+                            "1881-2805"
+                        ],
+                        "jamas_id": [
+                            "2021321553"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "url",
+                            "@id": "https://search-tp.jamas.or.jp/index.php?module=Default&action=Link&pub_year=2021&ichushi_jid=J02025&link_issn=&doc_id=20210825260257&doc_link_id=%2Fcq0pancr%2F2021%2Fs03603%2F039%2F5299-5299%26dl%3D0&url=https%3A%2F%2Fwww.medicalonline.jp%2Fjamas.php%3FGoodsID%3D%2Fcq0pancr%2F2021%2Fs03603%2F039%2F5299-5299%26dl%3D0&type=MedicalOnline&icon=https%3A%2F%2Fjk04.jamas.or.jp%2Ficon%2F00004_2.gif",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0166018/misc/24786187",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0166018/misc",
+                    "rm:id": "24786187",
+                    "rm:user_id": "0000201648",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_papers",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-03-24T07:10:46Z",
+                    "rm:modifier_id": "ai:assign_based_papers",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-03-24T07:10:46Z",
+                    "paper_title": {
+                        "en": "胎児ウシ血清による、膵癌のスフェア増大効果と癌幹細胞マーカーの増加(Fetal bovine serum enlarges the size of pancreatic cancer spheres with an increase in the cancer stem cell markers)"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "石渡 俊行"
+                            },
+                            {
+                                "name": "佐々木 紀彦"
+                            },
+                            {
+                                "name": "豊田 雅士"
+                            },
+                            {
+                                "name": "長谷川 文雄"
+                            },
+                            {
+                                "name": "五味 不二也"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "en": "日本癌学会"
+                    },
+                    "publication_date": "2019-09",
+                    "publication_name": {
+                        "en": "日本癌学会総会記事"
+                    },
+                    "volume": "78回",
+                    "starting_page": "P",
+                    "ending_page": "1129",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "0546-0476"
+                        ],
+                        "jamas_id": [
+                            "TB08600391"
+                        ]
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0166018/misc/24786183",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0166018/misc",
+                    "rm:id": "24786183",
+                    "rm:user_id": "0000201648",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_papers",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-03-24T07:10:45Z",
+                    "rm:modifier_id": "ai:assign_based_papers",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-03-24T07:10:45Z",
+                    "paper_title": {
+                        "en": "膵癌細胞MIA PaCa-2浮遊細胞の特徴(Characterization of floating round cells in the human pancreatic cancer cell line, MIA PaCa-2)"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "五味 不二也"
+                            },
+                            {
+                                "name": "佐々木 紀彦"
+                            },
+                            {
+                                "name": "田久保 海誉"
+                            },
+                            {
+                                "name": "相田 順子"
+                            },
+                            {
+                                "name": "新井 冨生"
+                            },
+                            {
+                                "name": "石渡 俊行"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "en": "日本癌学会"
+                    },
+                    "publication_date": "2019-09",
+                    "publication_name": {
+                        "en": "日本癌学会総会記事"
+                    },
+                    "volume": "78回",
+                    "starting_page": "P",
+                    "ending_page": "1291",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "0546-0476"
+                        ],
+                        "jamas_id": [
+                            "TB08600551"
+                        ]
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0166018/misc/24786174",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0166018/misc",
+                    "rm:id": "24786174",
+                    "rm:user_id": "0000201648",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_papers",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-03-24T07:10:44Z",
+                    "rm:modifier_id": "ai:assign_based_papers",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-03-24T07:10:44Z",
+                    "paper_title": {
+                        "en": "長鎖非コードRNAのH19は細胞接着を制御することでヒト膵癌細胞の転移に関わる(H19 long non-coding RNA contributes to the metastasis of pancreatic cancer cells by regulating cell adhesion)"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "佐々木 紀彦"
+                            },
+                            {
+                                "name": "豊田 雅士"
+                            },
+                            {
+                                "name": "吉村 久志"
+                            },
+                            {
+                                "name": "松田 陽子"
+                            },
+                            {
+                                "name": "新井 冨生"
+                            },
+                            {
+                                "name": "板倉 陽子"
+                            },
+                            {
+                                "name": "五味 不二也"
+                            },
+                            {
+                                "name": "相田 順子"
+                            },
+                            {
+                                "name": "石渡 俊行"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "en": "日本癌学会"
+                    },
+                    "publication_date": "2019-09",
+                    "publication_name": {
+                        "en": "日本癌学会総会記事"
+                    },
+                    "volume": "78回",
+                    "starting_page": "P",
+                    "ending_page": "3246",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "0546-0476"
+                        ],
+                        "jamas_id": [
+                            "TB08601845"
+                        ]
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0166018/misc/24786206",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0166018/misc",
+                    "rm:id": "24786206",
+                    "rm:user_id": "0000201648",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_papers",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-03-24T07:10:48Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-10-01T05:31:56Z",
+                    "paper_title": {
+                        "ja": "3次元培養による膵癌培養細胞の上皮間葉系形態と機能解析"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "石渡 俊行"
+                            },
+                            {
+                                "name": "志智 優樹"
+                            },
+                            {
+                                "name": "佐々木 紀彦"
+                            },
+                            {
+                                "name": "道下 正貴"
+                            },
+                            {
+                                "name": "長谷川 文雄"
+                            },
+                            {
+                                "name": "松田 陽子"
+                            },
+                            {
+                                "name": "新井 冨生"
+                            },
+                            {
+                                "name": "五味 不二也"
+                            },
+                            {
+                                "name": "相田 順子"
+                            },
+                            {
+                                "name": "田久保 海誉"
+                            },
+                            {
+                                "name": "豊田 雅士"
+                            },
+                            {
+                                "name": "吉村 久志"
+                            },
+                            {
+                                "name": "高橋 公正"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "日本膵臓学会"
+                    },
+                    "publication_date": "2019-06",
+                    "publication_name": {
+                        "ja": "膵臓"
+                    },
+                    "volume": "34",
+                    "number": "3",
+                    "starting_page": "A253",
+                    "ending_page": "A254",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "0913-0071"
+                        ],
+                        "e_issn": [
+                            "1881-2805"
+                        ],
+                        "jamas_id": [
+                            "2019367226"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "@id": "https://search.jamas.or.jp/index.php?module=Default&action=Link&doc_id=20190729340432&url=http%3A%2F%2Fwww.medicalonline.jp%2Fjamas.php%3FGoodsID%3D%2Fcq0pancr%2F2019%2F003403%2F452%2F5253-5254%26dl%3D0&type=MedicalOnline&icon=https%3A%2F%2Fjk04.jamas.or.jp%2Ficon%2F00004_2.gif",
+                            "is_downloadable": false,
+                            "label": "jamas_url"
+                        },
+                        {
+                            "label": "url",
+                            "@id": "https://search-tp.jamas.or.jp/index.php?module=Default&action=Link&pub_year=2019&ichushi_jid=J02025&link_issn=&doc_id=20190729340432&doc_link_id=%2Fcq0pancr%2F2019%2F003403%2F452%2F5253-5254%26dl%3D0&url=https%3A%2F%2Fwww.medicalonline.jp%2Fjamas.php%3FGoodsID%3D%2Fcq0pancr%2F2019%2F003403%2F452%2F5253-5254%26dl%3D0&type=MedicalOnline&icon=https%3A%2F%2Fjk04.jamas.or.jp%2Ficon%2F00004_2.gif",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0166018/misc/24786155",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0166018/misc",
+                    "rm:id": "24786155",
+                    "rm:user_id": "0000201648",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_papers",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-03-24T07:10:37Z",
+                    "rm:modifier_id": "ai:assign_based_papers",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-03-24T07:10:37Z",
+                    "paper_title": {
+                        "ja": "スフェアを形成するヒト膵癌培養細胞の血清含有培地での分化誘導(Pancreatic cancer cells forming spheres differentiate in serum containing culture media)",
+                        "en": "スフェアを形成するヒト膵癌培養細胞の血清含有培地での分化誘導(Pancreatic cancer cells forming spheres differentiate in serum containing culture media)"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "石渡 俊行"
+                            },
+                            {
+                                "name": "佐々木 紀彦"
+                            },
+                            {
+                                "name": "長谷川 文雄"
+                            },
+                            {
+                                "name": "道下 正貴"
+                            },
+                            {
+                                "name": "五味 不二也"
+                            },
+                            {
+                                "name": "石川 直"
+                            },
+                            {
+                                "name": "田久保 海誉"
+                            },
+                            {
+                                "name": "松田 陽子"
+                            },
+                            {
+                                "name": "新井 冨生"
+                            },
+                            {
+                                "name": "相田 順子"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "石渡 俊行"
+                            },
+                            {
+                                "name": "佐々木 紀彦"
+                            },
+                            {
+                                "name": "長谷川 文雄"
+                            },
+                            {
+                                "name": "道下 正貴"
+                            },
+                            {
+                                "name": "五味 不二也"
+                            },
+                            {
+                                "name": "石川 直"
+                            },
+                            {
+                                "name": "田久保 海誉"
+                            },
+                            {
+                                "name": "松田 陽子"
+                            },
+                            {
+                                "name": "新井 冨生"
+                            },
+                            {
+                                "name": "相田 順子"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "日本癌学会",
+                        "en": "日本癌学会"
+                    },
+                    "publication_date": "2018-09",
+                    "publication_name": {
+                        "ja": "日本癌学会総会記事",
+                        "en": "日本癌学会総会記事"
+                    },
+                    "volume": "77回",
+                    "starting_page": "2113",
+                    "ending_page": "2113",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "0546-0476"
+                        ],
+                        "jamas_id": [
+                            "S920481970"
+                        ]
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0166018/misc/28255656",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0166018/misc",
+                    "rm:id": "28255656",
+                    "rm:user_id": "0000201648",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-07-02T06:16:28Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-07-02T06:16:28Z",
+                    "paper_title": {
+                        "en": "The effect of NEDD9 and p130Cas on Cas/HEF1 associated signal transducer induced neuronal death"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Fujiya Gomi"
+                            },
+                            {
+                                "name": "Yoko Uchida"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "en": "ELSEVIER IRELAND LTD"
+                    },
+                    "publication_date": "2011",
+                    "publication_name": {
+                        "en": "NEUROSCIENCE RESEARCH"
+                    },
+                    "volume": "71",
+                    "starting_page": "E341",
+                    "ending_page": "E342",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "misc_type": "summary_international_conference",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1016/j.neures.2011.07.1498"
+                        ],
+                        "issn": [
+                            "0168-0102"
+                        ],
+                        "wos_id": [
+                            "WOS:000308218101740"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1016/j.neures.2011.07.1498",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000308218101740&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0166018/misc/28246777",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0166018/misc",
+                    "rm:id": "28246777",
+                    "rm:user_id": "0000201648",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-07-02T04:24:34Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-07-02T04:24:34Z",
+                    "paper_title": {
+                        "en": "The cleavage of C-terminal fragment of calsyntenin-3 by gamma-secretase prevents death of calsyntenin-3-overexpressing neurons"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Yoko Uchida"
+                            },
+                            {
+                                "name": "Fujiya Gomi"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "en": "ELSEVIER IRELAND LTD"
+                    },
+                    "publication_date": "2011",
+                    "publication_name": {
+                        "en": "NEUROSCIENCE RESEARCH"
+                    },
+                    "volume": "71",
+                    "starting_page": "E290",
+                    "ending_page": "E290",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "misc_type": "summary_international_conference",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1016/j.neures.2011.07.1265"
+                        ],
+                        "issn": [
+                            "0168-0102"
+                        ],
+                        "wos_id": [
+                            "WOS:000308218101508"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1016/j.neures.2011.07.1265",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000308218101508&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0166018/misc/28946085",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0166018/misc",
+                    "rm:id": "28946085",
+                    "rm:user_id": "0000201648",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-07-11T23:33:34Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-07-11T23:33:34Z",
+                    "paper_title": {
+                        "en": "The effect of Cas/HEF1 associated signal transducer, whichi is up-reguated by beta amyloid, on the neuronal death"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Fujiya Gomi"
+                            },
+                            {
+                                "name": "Yoko Uchida"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "en": "ELSEVIER IRELAND LTD"
+                    },
+                    "publication_date": "2010",
+                    "publication_name": {
+                        "en": "NEUROSCIENCE RESEARCH"
+                    },
+                    "volume": "68",
+                    "starting_page": "E190",
+                    "ending_page": "E190",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "misc_type": "summary_international_conference",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1016/j.neures.2010.07.2415"
+                        ],
+                        "issn": [
+                            "0168-0102"
+                        ],
+                        "wos_id": [
+                            "WOS:000208443701229"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1016/j.neures.2010.07.2415",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000208443701229&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0166018/misc/29033322",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0166018/misc",
+                    "rm:id": "29033322",
+                    "rm:user_id": "0000201648",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-07-13T13:08:36Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-07-13T13:08:36Z",
+                    "paper_title": {
+                        "en": "A novel neuroprotective protein induced by beta-amyloid"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Fujiya Gomi"
+                            },
+                            {
+                                "name": "Yoko Uchida"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "en": "ELSEVIER IRELAND LTD"
+                    },
+                    "publication_date": "2009",
+                    "publication_name": {
+                        "en": "NEUROSCIENCE RESEARCH"
+                    },
+                    "volume": "65",
+                    "starting_page": "S116",
+                    "ending_page": "S116",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "misc_type": "summary_international_conference",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1016/j.neures.2009.09.539"
+                        ],
+                        "issn": [
+                            "0168-0102"
+                        ],
+                        "wos_id": [
+                            "WOS:000272421100758"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1016/j.neures.2009.09.539",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000272421100758&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0166018/misc/29111182",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0166018/misc",
+                    "rm:id": "29111182",
+                    "rm:user_id": "0000201648",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-07-14T19:01:38Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-07-14T19:01:38Z",
+                    "paper_title": {
+                        "en": "The metabolism of calsyntenin-3 and neuronal death in cerebral cortical neurons"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Yoko Uchida"
+                            },
+                            {
+                                "name": "Fujiya Gomi"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "en": "ELSEVIER IRELAND LTD"
+                    },
+                    "publication_date": "2008",
+                    "publication_name": {
+                        "en": "NEUROSCIENCE RESEARCH"
+                    },
+                    "volume": "61",
+                    "starting_page": "S166",
+                    "ending_page": "S166",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "misc_type": "summary_international_conference",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "0168-0102"
+                        ],
+                        "wos_id": [
+                            "WOS:000261548101139"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000261548101139&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0166018/misc/28790830",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0166018/misc",
+                    "rm:id": "28790830",
+                    "rm:user_id": "0000201648",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-07-09T07:25:20Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-07-09T07:25:20Z",
+                    "paper_title": {
+                        "en": "Decreased expression of Olig2 in response to beta-amyloid accelerate's the death of neural stem/progenitor cells"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Yoko Uchida"
+                            },
+                            {
+                                "name": "Fujiya Gomi"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "en": "ELSEVIER IRELAND LTD"
+                    },
+                    "publication_date": "2007",
+                    "publication_name": {
+                        "en": "NEUROSCIENCE RESEARCH"
+                    },
+                    "volume": "58",
+                    "starting_page": "S84",
+                    "ending_page": "S84",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "misc_type": "summary_international_conference",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "0168-0102"
+                        ],
+                        "wos_id": [
+                            "WOS:000249272800488"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000249272800488&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0166018/misc/28914351",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0166018/misc",
+                    "rm:id": "28914351",
+                    "rm:user_id": "0000201648",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-07-11T05:03:44Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-07-11T05:03:44Z",
+                    "paper_title": {
+                        "en": "Search for the proteins which interact with N-terminal 126 amino acids of MAP1B: The new site of tubulin interaction"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Fujiya Gomi"
+                            },
+                            {
+                                "name": "Yoko Uchida"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "en": "ELSEVIER IRELAND LTD"
+                    },
+                    "publication_date": "2006",
+                    "publication_name": {
+                        "en": "NEUROSCIENCE RESEARCH"
+                    },
+                    "volume": "55",
+                    "starting_page": "S217",
+                    "ending_page": "S217",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "misc_type": "summary_international_conference",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "0168-0102"
+                        ],
+                        "wos_id": [
+                            "WOS:000238609702231"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000238609702231&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0166018/misc/28909741",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0166018/misc",
+                    "rm:id": "28909741",
+                    "rm:user_id": "0000201648",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-07-11T03:32:19Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-07-11T03:32:19Z",
+                    "paper_title": {
+                        "en": "Differential regulation of Mash1 and Olig2 by A beta accelerates the death of neurosphere cells"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Yoko Uchida"
+                            },
+                            {
+                                "name": "Fujiya Gomi"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "en": "ELSEVIER IRELAND LTD"
+                    },
+                    "publication_date": "2006",
+                    "publication_name": {
+                        "en": "NEUROSCIENCE RESEARCH"
+                    },
+                    "volume": "55",
+                    "starting_page": "S142",
+                    "ending_page": "S142",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "misc_type": "summary_international_conference",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "0168-0102"
+                        ],
+                        "wos_id": [
+                            "WOS:000238609701310"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000238609701310&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

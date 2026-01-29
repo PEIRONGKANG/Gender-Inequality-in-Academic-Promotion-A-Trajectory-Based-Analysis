@@ -1,0 +1,3947 @@
+{
+    "@context": "https://api.researchmap.jp/researcher.jsonld",
+    "@id": "https://api.researchmap.jp/read0168362?format=json",
+    "@type": "researchers",
+    "rm:user_id": "1000004934",
+    "rm:creator_id": "1000004934",
+    "rm:creator_type": "myself",
+    "rm:created": "2011-08-11T15:00:00Z",
+    "rm:modifier_id": "client_id:Y02z8vhrqifgXG$J",
+    "rm:modifier_type": "institution",
+    "rm:modified": "2024-01-17T05:10:16Z",
+    "permalink": "read0168362",
+    "family_name": {
+        "ja": "川又",
+        "ja-Kana": "カワマタ",
+        "en": "Kawamata"
+    },
+    "given_name": {
+        "ja": "政征",
+        "ja-Kana": "マサユキ",
+        "en": "Masayuki"
+    },
+    "display_name_kana": "disclosed",
+    "display_nickname": "disclosed",
+    "display_image": "disclosed",
+    "display_contact_point": "disclosed",
+    "affiliations": [
+        {
+            "affiliation": {
+                "ja": "東北大学",
+                "en": "Tohoku University"
+            },
+            "section": {
+                "ja": "大学院工学研究科・工学部 電子工学専攻 電子システム工学講座 知的電子回路工学分野",
+                "en": "Graduate School of Engineering Department of Electronic Engineering Electronic Systems Engineering Intelligent Electronic Circuits"
+            },
+            "job": {
+                "ja": "教授",
+                "en": "Professor"
+            },
+            "display_affiliation": "disclosed",
+            "display_job": "disclosed",
+            "rm:institution_code": "0132035000"
+        }
+    ],
+    "degrees": [
+        {
+            "degree": {
+                "ja": "工学修士",
+                "en": "工学修士"
+            },
+            "degree_institution": {
+                "ja": "東北大学",
+                "en": "Tohoku University"
+            },
+            "display_degree": "disclosed",
+            "rm:institution_code": "0132000000"
+        },
+        {
+            "degree": {
+                "ja": "工学博士",
+                "en": "工学博士"
+            },
+            "degree_institution": {
+                "ja": "東北大学",
+                "en": "Tohoku University"
+            },
+            "display_degree": "disclosed",
+            "rm:institution_code": "0132000000"
+        }
+    ],
+    "display_profile": "disclosed",
+    "see_also": [
+        {
+            "label": "j_global",
+            "@id": "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=200901087969190113"
+        },
+        {
+            "label": "url",
+            "@id": "http://db.tohoku.ac.jp/whois/detail/a56b36a1b157af06aa72ecac18d63b73.html"
+        },
+        {
+            "label": "url_en",
+            "@id": "http://db.tohoku.ac.jp/whois/e_detail/a56b36a1b157af06aa72ecac18d63b73.html"
+        }
+    ],
+    "display_url": "disclosed",
+    "identifiers": {
+        "j_global_id": [
+            "200901087969190113"
+        ]
+    },
+    "rm:erad_id_verified": false,
+    "rm:orc_id_verified": false,
+    "display_erad_id": "closed",
+    "display_orc_id": "closed",
+    "display_researcher_id": "disclosed",
+    "display_j_global_id": "disclosed",
+    "@graph": [
+        {
+            "@id": "https://api.researchmap.jp/read0168362/research_areas",
+            "@type": "research_areas",
+            "@reverse": "https://api.researchmap.jp/read0168362",
+            "total_items": 2,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0168362/research_areas/6914497",
+                    "@type": "research_areas",
+                    "@reverse": "https://api.researchmap.jp/read0168362/research_areas",
+                    "rm:id": "6914497",
+                    "rm:user_id": "1000004934",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:Y02z8vhrqifgXG$J",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2018-02-05T18:12:08Z",
+                    "rm:modifier_id": "client_id:Y02z8vhrqifgXG$J",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2018-02-05T18:12:08Z",
+                    "discipline_number": "A689",
+                    "item_number": "A21020",
+                    "discipline": {
+                        "ja": "ものづくり技術（機械・電気電子・化学工学）",
+                        "en": "Manufacturing technology (mechanical, electrical/electronic, chemical engineering)"
+                    },
+                    "research_field": {
+                        "ja": "通信工学",
+                        "en": "Communication and network engineering"
+                    },
+                    "research_keyword": {
+                        "ja": "画像処理",
+                        "en": "Image Processing"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0168362/research_areas/6914495",
+                    "@type": "research_areas",
+                    "@reverse": "https://api.researchmap.jp/read0168362/research_areas",
+                    "rm:id": "6914495",
+                    "rm:user_id": "1000004934",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:Y02z8vhrqifgXG$J",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2018-02-05T18:12:08Z",
+                    "rm:modifier_id": "client_id:Y02z8vhrqifgXG$J",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2018-02-05T18:12:08Z",
+                    "discipline_number": "A689",
+                    "item_number": "A21040",
+                    "discipline": {
+                        "ja": "ものづくり技術（機械・電気電子・化学工学）",
+                        "en": "Manufacturing technology (mechanical, electrical/electronic, chemical engineering)"
+                    },
+                    "research_field": {
+                        "ja": "制御、システム工学",
+                        "en": "Control and systems engineering"
+                    },
+                    "research_keyword": {
+                        "ja": "システム制御",
+                        "en": "Systems Control"
+                    }
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0168362/research_experience",
+            "@type": "research_experience",
+            "@reverse": "https://api.researchmap.jp/read0168362",
+            "total_items": 5,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0168362/research_experience/17556779",
+                    "@type": "research_experience",
+                    "@reverse": "https://api.researchmap.jp/read0168362/research_experience",
+                    "rm:id": "17556779",
+                    "rm:user_id": "1000004934",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:Y02z8vhrqifgXG$J",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2018-02-05T18:12:08Z",
+                    "rm:modifier_id": "client_id:Y02z8vhrqifgXG$J",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2018-02-05T18:12:08Z",
+                    "from_date": "1997-07",
+                    "to_date": "9999",
+                    "rm:institution_code": "9999999999",
+                    "affiliation": {
+                        "ja": "東北大学 教授（工学研究科）",
+                        "en": "東北大学 教授（工学研究科）"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0168362/research_experience/17556780",
+                    "@type": "research_experience",
+                    "@reverse": "https://api.researchmap.jp/read0168362/research_experience",
+                    "rm:id": "17556780",
+                    "rm:user_id": "1000004934",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:Y02z8vhrqifgXG$J",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2018-02-05T18:12:08Z",
+                    "rm:modifier_id": "client_id:Y02z8vhrqifgXG$J",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2018-02-05T18:12:08Z",
+                    "from_date": "1995-07",
+                    "to_date": "1997-03",
+                    "rm:institution_code": "0132000000",
+                    "affiliation": {
+                        "ja": "東北大学 教授（工学部）",
+                        "en": "東北大学 教授（工学部）"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0168362/research_experience/17556781",
+                    "@type": "research_experience",
+                    "@reverse": "https://api.researchmap.jp/read0168362/research_experience",
+                    "rm:id": "17556781",
+                    "rm:user_id": "1000004934",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:Y02z8vhrqifgXG$J",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2018-02-05T18:12:08Z",
+                    "rm:modifier_id": "client_id:Y02z8vhrqifgXG$J",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2018-02-05T18:12:08Z",
+                    "from_date": "1993-04",
+                    "to_date": "1995-03",
+                    "rm:institution_code": "9999999999",
+                    "affiliation": {
+                        "ja": "東北大学 助教授（情報科学研究科）",
+                        "en": "東北大学 助教授（情報科学研究科）"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0168362/research_experience/17556782",
+                    "@type": "research_experience",
+                    "@reverse": "https://api.researchmap.jp/read0168362/research_experience",
+                    "rm:id": "17556782",
+                    "rm:user_id": "1000004934",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:Y02z8vhrqifgXG$J",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2018-02-05T18:12:08Z",
+                    "rm:modifier_id": "client_id:Y02z8vhrqifgXG$J",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2018-02-05T18:12:08Z",
+                    "from_date": "1988-04",
+                    "to_date": "1993-03",
+                    "rm:institution_code": "0132000000",
+                    "affiliation": {
+                        "ja": "東北大学 助教授（工学部）",
+                        "en": "東北大学 助教授（工学部）"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0168362/research_experience/17556783",
+                    "@type": "research_experience",
+                    "@reverse": "https://api.researchmap.jp/read0168362/research_experience",
+                    "rm:id": "17556783",
+                    "rm:user_id": "1000004934",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:Y02z8vhrqifgXG$J",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2018-02-05T18:12:08Z",
+                    "rm:modifier_id": "client_id:Y02z8vhrqifgXG$J",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2018-02-05T18:12:08Z",
+                    "from_date": "1982-04",
+                    "to_date": "1988-03",
+                    "rm:institution_code": "0132000000",
+                    "affiliation": {
+                        "ja": "東北大学 助手（工学部）",
+                        "en": "東北大学 助手（工学部）"
+                    }
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0168362/education",
+            "@type": "education",
+            "@reverse": "https://api.researchmap.jp/read0168362",
+            "total_items": 2,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0168362/education/14877961",
+                    "@type": "education",
+                    "@reverse": "https://api.researchmap.jp/read0168362/education",
+                    "rm:id": "14877961",
+                    "rm:user_id": "1000004934",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:Y02z8vhrqifgXG$J",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2018-02-05T18:12:08Z",
+                    "rm:modifier_id": "client_id:Y02z8vhrqifgXG$J",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2018-02-05T18:12:08Z",
+                    "to_date": "1982-03-25",
+                    "rm:institution_code": "0132000000",
+                    "affiliation": {
+                        "ja": "東北大学",
+                        "en": "Tohoku University"
+                    },
+                    "department": {
+                        "ja": "工学研究科",
+                        "en": "Graduate School, Division of Engineering"
+                    },
+                    "course": {
+                        "ja": "電子工学専攻",
+                        "en": "電子工学専攻"
+                    },
+                    "address_country": "JPN"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0168362/education/14877962",
+                    "@type": "education",
+                    "@reverse": "https://api.researchmap.jp/read0168362/education",
+                    "rm:id": "14877962",
+                    "rm:user_id": "1000004934",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:Y02z8vhrqifgXG$J",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2018-02-05T18:12:08Z",
+                    "rm:modifier_id": "client_id:Y02z8vhrqifgXG$J",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2018-02-05T18:12:08Z",
+                    "to_date": "1977-03-25",
+                    "rm:institution_code": "0132013000",
+                    "affiliation": {
+                        "ja": "東北大学",
+                        "en": "Tohoku University"
+                    },
+                    "department": {
+                        "ja": "工学部",
+                        "en": "Faculty of Engineering"
+                    },
+                    "course": {
+                        "ja": "電子工学科",
+                        "en": "電子工学科"
+                    },
+                    "address_country": "JPN"
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0168362/awards",
+            "@type": "awards",
+            "@reverse": "https://api.researchmap.jp/read0168362",
+            "total_items": 6,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0168362/awards/2252092",
+                    "@type": "awards",
+                    "@reverse": "https://api.researchmap.jp/read0168362/awards",
+                    "rm:id": "2252092",
+                    "rm:user_id": "1000004934",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:Y02z8vhrqifgXG$J",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2018-02-05T18:12:08Z",
+                    "rm:modifier_id": "client_id:Y02z8vhrqifgXG$J",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2018-02-05T18:12:08Z",
+                    "award_name": {
+                        "ja": "電子情報通信学会 フェロー",
+                        "en": "IEICE Fellow"
+                    },
+                    "award_title": {
+                        "ja": "１次元および多次元ディジタルフィルタの設計に関する体系的研究",
+                        "en": "１次元および多次元ディジタルフィルタの設計に関する体系的研究"
+                    },
+                    "association": {
+                        "ja": "電子情報通信学会",
+                        "en": "電子情報通信学会"
+                    },
+                    "award_date": "2011-07-21",
+                    "award_type": "others",
+                    "address_country": "JPN"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0168362/awards/2252088",
+                    "@type": "awards",
+                    "@reverse": "https://api.researchmap.jp/read0168362/awards",
+                    "rm:id": "2252088",
+                    "rm:user_id": "1000004934",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:Y02z8vhrqifgXG$J",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2018-02-05T18:12:08Z",
+                    "rm:modifier_id": "client_id:Y02z8vhrqifgXG$J",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2018-02-05T18:12:08Z",
+                    "award_name": {
+                        "ja": "JGN2アワード（アプリケーション賞）",
+                        "en": "JGN2アワード（アプリケーション賞）"
+                    },
+                    "winners": {
+                        "ja": [
+                            {
+                                "name": "又政征"
+                            },
+                            {
+                                "name": "阿部正英"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "又政征"
+                            },
+                            {
+                                "name": "阿部正英"
+                            }
+                        ]
+                    },
+                    "winners_text": {
+                        "ja": "東北大学（川又政征，阿部正英）",
+                        "en": "東北大学（川又政征，阿部正英）"
+                    },
+                    "award_title": {
+                        "ja": "超高精細デジタル映像のネットワーク応用（CineGrid)",
+                        "en": "超高精細デジタル映像のネットワーク応用（CineGrid)"
+                    },
+                    "association": {
+                        "ja": "JGN2アワード委員会",
+                        "en": "JGN2アワード委員会"
+                    },
+                    "award_date": "2008-01-17",
+                    "award_type": "others",
+                    "address_country": "JPN"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0168362/awards/2252091",
+                    "@type": "awards",
+                    "@reverse": "https://api.researchmap.jp/read0168362/awards",
+                    "rm:id": "2252091",
+                    "rm:user_id": "1000004934",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:Y02z8vhrqifgXG$J",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2018-02-05T18:12:08Z",
+                    "rm:modifier_id": "client_id:Y02z8vhrqifgXG$J",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2018-02-05T18:12:08Z",
+                    "award_name": {
+                        "ja": "９８独創性を拓く 先端技術学生論文 奨励賞",
+                        "en": "９８独創性を拓く 先端技術学生論文 奨励賞"
+                    },
+                    "award_title": {
+                        "ja": "生物の進化・適応戦略をモデルとした適応信号処理の実現",
+                        "en": "生物の進化・適応戦略をモデルとした適応信号処理の実現"
+                    },
+                    "association": {
+                        "ja": "日本工業新聞社 先端技術学生論文表彰制度委員会",
+                        "en": "日本工業新聞社 先端技術学生論文表彰制度委員会"
+                    },
+                    "award_date": "1998-06-23",
+                    "award_type": "others",
+                    "address_country": "JPN"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0168362/awards/2252087",
+                    "@type": "awards",
+                    "@reverse": "https://api.researchmap.jp/read0168362/awards",
+                    "rm:id": "2252087",
+                    "rm:user_id": "1000004934",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:Y02z8vhrqifgXG$J",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2018-02-05T18:12:08Z",
+                    "rm:modifier_id": "client_id:Y02z8vhrqifgXG$J",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2018-02-05T18:12:08Z",
+                    "award_name": {
+                        "ja": "日本ＩＢＭ科学賞（エレクトロニクス分野）",
+                        "en": "日本ＩＢＭ科学賞（エレクトロニクス分野）"
+                    },
+                    "award_title": {
+                        "ja": "多次元ディジタルフィルタの基礎理論とその最適設計法の確立",
+                        "en": "多次元ディジタルフィルタの基礎理論とその最適設計法の確立"
+                    },
+                    "association": {
+                        "ja": "日本ＩＢＭ科学賞審査委員会",
+                        "en": "日本ＩＢＭ科学賞審査委員会"
+                    },
+                    "award_date": "1997-11-18",
+                    "award_type": "publisher",
+                    "address_country": "JPN"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0168362/awards/2252090",
+                    "@type": "awards",
+                    "@reverse": "https://api.researchmap.jp/read0168362/awards",
+                    "rm:id": "2252090",
+                    "rm:user_id": "1000004934",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:Y02z8vhrqifgXG$J",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2018-02-05T18:12:08Z",
+                    "rm:modifier_id": "client_id:Y02z8vhrqifgXG$J",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2018-02-05T18:12:08Z",
+                    "award_name": {
+                        "ja": "計測自動制御学会著述賞",
+                        "en": "計測自動制御学会著述賞"
+                    },
+                    "winners": {
+                        "ja": [
+                            {
+                                "name": "川又政征"
+                            },
+                            {
+                                "name": "樋口龍雄"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "川又政征"
+                            },
+                            {
+                                "name": "樋口龍雄"
+                            }
+                        ]
+                    },
+                    "winners_text": {
+                        "ja": "川又政征, 樋口龍雄",
+                        "en": "川又政征, 樋口龍雄"
+                    },
+                    "association": {
+                        "ja": "計測自動制御学会",
+                        "en": "計測自動制御学会"
+                    },
+                    "award_date": "1996-07-25",
+                    "award_type": "others",
+                    "address_country": "JPN"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0168362/awards/2252089",
+                    "@type": "awards",
+                    "@reverse": "https://api.researchmap.jp/read0168362/awards",
+                    "rm:id": "2252089",
+                    "rm:user_id": "1000004934",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:Y02z8vhrqifgXG$J",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2018-02-05T18:12:08Z",
+                    "rm:modifier_id": "client_id:Y02z8vhrqifgXG$J",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2018-02-05T18:12:08Z",
+                    "award_name": {
+                        "ja": "計測自動制御学会論文賞",
+                        "en": "計測自動制御学会論文賞"
+                    },
+                    "winners": {
+                        "ja": [
+                            {
+                                "name": "樋口龍雄"
+                            },
+                            {
+                                "name": "川又政征"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "樋口龍雄"
+                            },
+                            {
+                                "name": "川又政征"
+                            }
+                        ]
+                    },
+                    "winners_text": {
+                        "ja": "樋口龍雄/川又政征",
+                        "en": "樋口龍雄/川又政征"
+                    },
+                    "association": {
+                        "ja": "計測自動制御学会",
+                        "en": "計測自動制御学会"
+                    },
+                    "award_date": "1984-07-31",
+                    "award_type": "others",
+                    "address_country": "JPN"
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0168362/published_papers",
+            "@type": "published_papers",
+            "@reverse": "https://api.researchmap.jp/read0168362",
+            "total_items": 285,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0168362/published_papers/19816730",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0168362/published_papers",
+                    "rm:id": "19816730",
+                    "rm:user_id": "1000004934",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:Y02z8vhrqifgXG$J",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2018-02-05T18:12:08Z",
+                    "rm:modifier_id": "client_id:Y02z8vhrqifgXG$J",
+                    "rm:modifier_type": "system",
+                    "rm:modified": "2018-02-05T18:12:08Z",
+                    "paper_title": {
+                        "ja": "Transfer Functions of Second-Order Digital Filters with Two Equal Second-Order Modes",
+                        "en": "Transfer Functions of Second-Order Digital Filters with Two Equal Second-Order Modes"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "Shunsuke Yamaki"
+                            },
+                            {
+                                "name": "Masahide Abe"
+                            },
+                            {
+                                "name": "Masayuki Kawamata"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Shunsuke Yamaki"
+                            },
+                            {
+                                "name": "Masahide Abe"
+                            },
+                            {
+                                "name": "Masayuki Kawamata"
+                            }
+                        ]
+                    },
+                    "publication_date": "2012-03",
+                    "publication_name": {
+                        "ja": "Proceedings of IEEE International Symposium on Circuits and Systems",
+                        "en": "Proceedings of IEEE International Symposium on Circuits and Systems"
+                    },
+                    "starting_page": "3178",
+                    "ending_page": "3181",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "international_conference_proceedings",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1109/ISCAS.2012.6271998"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1109/ISCAS.2012.6271998",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0168362/published_papers/19816729",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0168362/published_papers",
+                    "rm:id": "19816729",
+                    "rm:user_id": "1000004934",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:Y02z8vhrqifgXG$J",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2018-02-05T18:12:08Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-05-04T19:28:11Z",
+                    "paper_title": {
+                        "en": "EFFECTS OF STOCHASTIC PHASE-SPECTRUM DIFFERENCES ON PHASE-ONLY CORRELATION FUNCTIONS-PART II: STATISTICALLY PROPORTIONAL PHASE SPECTRUM DIFFERENCES TO FREQUENCY INDICES"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Rihito Ito"
+                            },
+                            {
+                                "name": "Shunsuke Yamaki"
+                            },
+                            {
+                                "name": "Masahide Abe"
+                            },
+                            {
+                                "name": "Masayuki Kawamata"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "This paper discusses properties of the phase-only correlation (POC) functions for stochastic phase spectrum differences. Assuming the phase spectrum differences between two signals to be random variables, we derive general expressions of the expectation and variance of the POC functions, and show that the expectation of the peak of the POC functions decreases and the variances of the POC functions increase as the phase spectrum differences increase. This property mathematically guarantees validity of the POC functions for evaluating similarity between two signals."
+                    },
+                    "publisher": {
+                        "en": "IEEE"
+                    },
+                    "publication_date": "2012",
+                    "publication_name": {
+                        "en": "PROCEEDINGS OF THE 3RD IEEE INTERNATIONAL CONFERENCE ON NETWORK INFRASTRUCTURE AND DIGITAL CONTENT (IEEE IC-NIDC 2012)"
+                    },
+                    "starting_page": "380",
+                    "ending_page": "384",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "international_conference_proceedings",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1109/ICNIDC.2012.6418779"
+                        ],
+                        "wos_id": [
+                            "WOS:000316565300080"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1109/ICNIDC.2012.6418779",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000316565300080&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0168362/published_papers/19816728",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0168362/published_papers",
+                    "rm:id": "19816728",
+                    "rm:user_id": "1000004934",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:Y02z8vhrqifgXG$J",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2018-02-05T18:12:08Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-05-02T21:04:14Z",
+                    "paper_title": {
+                        "en": "EFFECTS OF STOCHASTIC PHASE SPECTRUM DIFFERENCES ON PHASE-ONLY CORRELATION FUNCTIONS-PART I: STATISTICALLY CONSTANT PHASE SPECTRUM DIFFERENCES FOR FREQUENCY INDICES"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Shunsuke Yamaki"
+                            },
+                            {
+                                "name": "Jun Odagiri"
+                            },
+                            {
+                                "name": "Masahide Abe"
+                            },
+                            {
+                                "name": "Masayuki Kawamata"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "This paper analyzes effects of stochastic phase spectrum differences on phase-only correlation (POC) functions. We assume phase spectrum differences between two signals are statistically constant for frequency indices. That is, they have identical probability density function for all frequency indices. We derive the general expressions of the expectation and variance of the POC functions. Relationships between the POC functions and the phase spectrum differences are formulated. This result mathematically guarantees the validity of the POC functions used for similarity measure in matching techniques."
+                    },
+                    "publisher": {
+                        "en": "IEEE"
+                    },
+                    "publication_date": "2012",
+                    "publication_name": {
+                        "en": "PROCEEDINGS OF THE 3RD IEEE INTERNATIONAL CONFERENCE ON NETWORK INFRASTRUCTURE AND DIGITAL CONTENT (IEEE IC-NIDC 2012)"
+                    },
+                    "starting_page": "360",
+                    "ending_page": "364",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "international_conference_proceedings",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1109/ICNIDC.2012.6418775"
+                        ],
+                        "wos_id": [
+                            "WOS:000316565300076"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1109/ICNIDC.2012.6418775",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000316565300076&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0168362/published_papers/19816731",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0168362/published_papers",
+                    "rm:id": "19816731",
+                    "rm:user_id": "1000004934",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:Y02z8vhrqifgXG$J",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2018-02-05T18:12:08Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-04-12T12:35:06Z",
+                    "paper_title": {
+                        "en": "Flicker Parameters Estimation in Old Film Sequences Containing Moving Objects"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Xiaoyong Zhang"
+                            },
+                            {
+                                "name": "Masahide Abe"
+                            },
+                            {
+                                "name": "Masayuki Kawamata"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "The aim of this study is to improve the accuracy of flicker parameters estimation in old film sequences in which moving objects are present. Conventional methods tend to fail in flicker parameters estimation due to the effects of moving objects. Our proposed method firstly utilizes an adaptive Gaussian mixture model (GMM)-based method to detect the moving objects in the film sequences, and combines the detected results with the histogram-matched frames to generate reference frames for flicker parameters estimation. Then, on the basis of a linear flicker model, the proposed method uses an M-estimator with the reference frames to estimate the flicker parameters. Experimental results show that the proposed method can effectively improve the accuracy of flicker parameters estimation when the moving objects are present in the film sequences."
+                    },
+                    "publisher": {
+                        "en": "IEICE-INST ELECTRONICS INFORMATION COMMUNICATIONS ENG"
+                    },
+                    "publication_date": "2011-12",
+                    "publication_name": {
+                        "en": "IEICE TRANSACTIONS ON FUNDAMENTALS OF ELECTRONICS COMMUNICATIONS AND COMPUTER SCIENCES"
+                    },
+                    "volume": "E94A",
+                    "number": "12",
+                    "starting_page": "2836",
+                    "ending_page": "2844",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1587/transfun.E94.A.2836"
+                        ],
+                        "issn": [
+                            "1745-1337"
+                        ],
+                        "wos_id": [
+                            "WOS:000298304800046"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1587/transfun.E94.A.2836",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000298304800046&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0168362/published_papers/19816732",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0168362/published_papers",
+                    "rm:id": "19816732",
+                    "rm:user_id": "1000004934",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:Y02z8vhrqifgXG$J",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2018-02-05T18:12:08Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-04-14T15:44:24Z",
+                    "paper_title": {
+                        "en": "Derivation of the Class of Digital Filters With All Second-Order Modes Equal"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Shunsuke Yamaki"
+                            },
+                            {
+                                "name": "Masahide Abe"
+                            },
+                            {
+                                "name": "Masayuki Kawamata"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "This paper reveals the class of digital filters with all second-order modes equal. We first prove that if the second-order modes of a digital filter are all equal, the L(2-)sensitivity minimization problem of the digital filter can be solved analytically. We derive a general expression of the transfer function of digital filters with all second-order modes equal. Furthermore, we show that the general expression is obtained by a frequency transformation on a first-order prototype FIR digital filter."
+                    },
+                    "publisher": {
+                        "en": "IEEE-INST ELECTRICAL ELECTRONICS ENGINEERS INC"
+                    },
+                    "publication_date": "2011-11",
+                    "publication_name": {
+                        "en": "IEEE TRANSACTIONS ON SIGNAL PROCESSING"
+                    },
+                    "volume": "59",
+                    "number": "11",
+                    "starting_page": "5236",
+                    "ending_page": "5242",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1109/TSP.2011.2164403"
+                        ],
+                        "issn": [
+                            "1053-587X"
+                        ],
+                        "wos_id": [
+                            "WOS:000297113500011"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1109/TSP.2011.2164403",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000297113500011&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0168362/published_papers/19816733",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0168362/published_papers",
+                    "rm:id": "19816733",
+                    "rm:user_id": "1000004934",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:Y02z8vhrqifgXG$J",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2018-02-05T18:12:08Z",
+                    "rm:modifier_id": "client_id:Y02z8vhrqifgXG$J",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2018-02-05T18:12:08Z",
+                    "paper_title": {
+                        "ja": "Adaptive Detection of Narrowband Signals Using Frequency-Transformation-Based Variable Digital Filters",
+                        "en": "Adaptive Detection of Narrowband Signals Using Frequency-Transformation-Based Variable Digital Filters"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "Shunsuke koshita"
+                            },
+                            {
+                                "name": "Yuki Kumamoto"
+                            },
+                            {
+                                "name": "Masahide Abe"
+                            },
+                            {
+                                "name": "Masayuki Kawamata"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Shunsuke koshita"
+                            },
+                            {
+                                "name": "Yuki Kumamoto"
+                            },
+                            {
+                                "name": "Masahide Abe"
+                            },
+                            {
+                                "name": "Masayuki Kawamata"
+                            }
+                        ]
+                    },
+                    "publication_date": "2011-10",
+                    "publication_name": {
+                        "ja": "Proceedings of APSIPA Annual Summit and Conference",
+                        "en": "Proceedings of APSIPA Annual Summit and Conference"
+                    },
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "international_conference_proceedings",
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0168362/published_papers/19816734",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0168362/published_papers",
+                    "rm:id": "19816734",
+                    "rm:user_id": "1000004934",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:Y02z8vhrqifgXG$J",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2018-02-05T18:12:08Z",
+                    "rm:modifier_id": "client_id:Y02z8vhrqifgXG$J",
+                    "rm:modifier_type": "system",
+                    "rm:modified": "2018-02-05T18:12:08Z",
+                    "paper_title": {
+                        "ja": "MOTION DETECTION IN OLD FILM SEQUENCES USING ADAPTIVE GAUSSIAN MIXTURE MODEL",
+                        "en": "MOTION DETECTION IN OLD FILM SEQUENCES USING ADAPTIVE GAUSSIAN MIXTURE MODEL"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "Xiaoyong ZHANG"
+                            },
+                            {
+                                "name": "Masahide ABE"
+                            },
+                            {
+                                "name": "Masayuki KAWAMATA"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Xiaoyong ZHANG"
+                            },
+                            {
+                                "name": "Masahide ABE"
+                            },
+                            {
+                                "name": "Masayuki KAWAMATA"
+                            }
+                        ]
+                    },
+                    "publication_date": "2011-09",
+                    "publication_name": {
+                        "ja": "IEEE International Conference on Image Processing",
+                        "en": "IEEE International Conference on Image Processing"
+                    },
+                    "starting_page": "2385",
+                    "ending_page": "2388",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "international_conference_proceedings",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1109/ICIP.2011.6116108"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1109/ICIP.2011.6116108",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0168362/published_papers/19816735",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0168362/published_papers",
+                    "rm:id": "19816735",
+                    "rm:user_id": "1000004934",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:Y02z8vhrqifgXG$J",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2018-02-05T18:12:08Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-04-13T01:55:09Z",
+                    "paper_title": {
+                        "en": "Reduction of Computational Cost of POC-Based Methods for Displacement Estimation in Old Film Sequences"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Xiaoyong Zhang"
+                            },
+                            {
+                                "name": "Masahide Abe"
+                            },
+                            {
+                                "name": "Masayuki Kawamata"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "This paper proposes a new method that reduces the computational cost of the phase-only correlation (POC)-based methods for displacement estimation in old film sequences. Conventional POC-based methods calculate all the points of the POC and only use the highest peak of the POC and its neighboring points to estimate the displacement with subpixel accuracy. Our proposed method reduces the computational cost by calculating the POC in a small region, instead of all the points of the POC. The proposed method combines a displacement pre-estimation with a modified inverse discrete Fourier transform (IDFT). The displacement pre-estimation uses the I-D POCs of frame projections to pre-estimate the displacement with pixel accuracy and chooses a small region in the POC including the desired points for displacement estimation. The modified IDFT is then used to calculate the points in this small region for displacement estimation. Experimental results show that use of the proposed method can effectively reduce the computational cost of the POC-based methods without compromising the accuracy."
+                    },
+                    "publisher": {
+                        "en": "IEICE-INST ELECTRONICS INFORMATION COMMUNICATIONS ENG"
+                    },
+                    "publication_date": "2011-07",
+                    "publication_name": {
+                        "en": "IEICE TRANSACTIONS ON FUNDAMENTALS OF ELECTRONICS COMMUNICATIONS AND COMPUTER SCIENCES"
+                    },
+                    "volume": "E94A",
+                    "number": "7",
+                    "starting_page": "1497",
+                    "ending_page": "1504",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1587/transfun.E94.A.1497"
+                        ],
+                        "issn": [
+                            "0916-8508"
+                        ],
+                        "e_issn": [
+                            "1745-1337"
+                        ],
+                        "wos_id": [
+                            "WOS:000292619300003"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1587/transfun.E94.A.1497",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000292619300003&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0168362/published_papers/19816736",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0168362/published_papers",
+                    "rm:id": "19816736",
+                    "rm:user_id": "1000004934",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:Y02z8vhrqifgXG$J",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2018-02-05T18:12:08Z",
+                    "rm:modifier_id": "client_id:Y02z8vhrqifgXG$J",
+                    "rm:modifier_type": "system",
+                    "rm:modified": "2018-02-05T18:12:08Z",
+                    "paper_title": {
+                        "ja": "High-Order Center-Frequency Adaptive Filters Using Block-Diagram-Based Frequency Transformation",
+                        "en": "High-Order Center-Frequency Adaptive Filters Using Block-Diagram-Based Frequency Transformation"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "Shunsuke Koshita"
+                            },
+                            {
+                                "name": "Yuki Kumamoto"
+                            },
+                            {
+                                "name": "Masahide Abe"
+                            },
+                            {
+                                "name": "Masayuki Kawamata"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Shunsuke Koshita"
+                            },
+                            {
+                                "name": "Yuki Kumamoto"
+                            },
+                            {
+                                "name": "Masahide Abe"
+                            },
+                            {
+                                "name": "Masayuki Kawamata"
+                            }
+                        ]
+                    },
+                    "publication_date": "2011-05",
+                    "publication_name": {
+                        "ja": "Proceedings of IEEE International Conference on Acoustics, Speech, and Signal Processing",
+                        "en": "Proceedings of IEEE International Conference on Acoustics, Speech, and Signal Processing"
+                    },
+                    "starting_page": "4248",
+                    "ending_page": "4287",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "international_conference_proceedings",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1109/ICASSP.2011.5947300"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1109/ICASSP.2011.5947300",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0168362/published_papers/19816737",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0168362/published_papers",
+                    "rm:id": "19816737",
+                    "rm:user_id": "1000004934",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:Y02z8vhrqifgXG$J",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2018-02-05T18:12:08Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-04-12T18:06:12Z",
+                    "paper_title": {
+                        "en": "Gramian-Preserving Frequency Transformation and Its Application to Analog Filter Design"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Shunsuke Koshita"
+                            },
+                            {
+                                "name": "Masahide Abe"
+                            },
+                            {
+                                "name": "Masayuki Kawamata"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "This paper presents a new state-space formulation of the frequency transformation of linear continuous-time systems. We call this formulation \"Gramian-preserving frequency transformation,\" which enables us to convert a given prototype state-space system into other systems that have the same controllability/observability Gramians as those of the prototype system. As a practical application of this result, we propose a new method for the design of analog filters of which basic building blocks are integrators. It is demonstrated that the analog filters designed by the Gramian-preserving frequency transformation have the same structural properties with respect to the Gramians as those of the prototype filter, and that the performance such as the dynamic range and the sensitivity of the designed filters is retained even if the filter specification is changed. In addition to presenting this result, we also address the physical meaning of the Gramian-preserving frequency transformation. It is shown that the Gramian-preserving frequency transformation is derived from the state-space model that is obtained by replacing each integrator of a prototype filter with a reactance function, where the structure of this reactance function is given as the scaled version of the Foster canonical form."
+                    },
+                    "publisher": {
+                        "en": "IEEE-INST ELECTRICAL ELECTRONICS ENGINEERS INC"
+                    },
+                    "publication_date": "2011-03",
+                    "publication_name": {
+                        "en": "IEEE TRANSACTIONS ON CIRCUITS AND SYSTEMS I-REGULAR PAPERS"
+                    },
+                    "volume": "58",
+                    "number": "3",
+                    "starting_page": "493",
+                    "ending_page": "506",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1109/TCSI.2010.2072310"
+                        ],
+                        "issn": [
+                            "1549-8328"
+                        ],
+                        "wos_id": [
+                            "WOS:000287660000006"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1109/TCSI.2010.2072310",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000287660000006&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0168362/published_papers/19816740",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0168362/published_papers",
+                    "rm:id": "19816740",
+                    "rm:user_id": "1000004934",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:Y02z8vhrqifgXG$J",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2018-02-05T18:12:08Z",
+                    "rm:modifier_id": "client_id:Y02z8vhrqifgXG$J",
+                    "rm:modifier_type": "system",
+                    "rm:modified": "2018-02-05T18:12:08Z",
+                    "paper_title": {
+                        "ja": "Synthesis of the Minimum L2-Sensitivity Realizations of Second-Order Digital Filters without Iterative Calculations",
+                        "en": "Synthesis of the Minimum L2-Sensitivity Realizations of Second-Order Digital Filters without Iterative Calculations"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "Shunsuke Yamaki"
+                            },
+                            {
+                                "name": "Masahide Abe"
+                            },
+                            {
+                                "name": "Masayuki Kawamata"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Shunsuke Yamaki"
+                            },
+                            {
+                                "name": "Masahide Abe"
+                            },
+                            {
+                                "name": "Masayuki Kawamata"
+                            }
+                        ]
+                    },
+                    "publication_date": "2010-10",
+                    "publication_name": {
+                        "ja": "Proceedings of IEEE International Symposium on Communications and Information Technologies",
+                        "en": "Proceedings of IEEE International Symposium on Communications and Information Technologies"
+                    },
+                    "starting_page": "574",
+                    "ending_page": "579",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "international_conference_proceedings",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1109/ISCIT.2010.5665054"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1109/ISCIT.2010.5665054",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0168362/published_papers/19816739",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0168362/published_papers",
+                    "rm:id": "19816739",
+                    "rm:user_id": "1000004934",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:Y02z8vhrqifgXG$J",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2018-02-05T18:12:08Z",
+                    "rm:modifier_id": "client_id:Y02z8vhrqifgXG$J",
+                    "rm:modifier_type": "system",
+                    "rm:modified": "2018-02-05T18:12:08Z",
+                    "paper_title": {
+                        "ja": "Realization of Variable Low-Pass State-Space Digital Filters Using Step Responses",
+                        "en": "Realization of Variable Low-Pass State-Space Digital Filters Using Step Responses"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "Shunsuke Yamaki"
+                            },
+                            {
+                                "name": "Masahide Abe"
+                            },
+                            {
+                                "name": "Masayuki Kawamata"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Shunsuke Yamaki"
+                            },
+                            {
+                                "name": "Masahide Abe"
+                            },
+                            {
+                                "name": "Masayuki Kawamata"
+                            }
+                        ]
+                    },
+                    "publication_date": "2010-10",
+                    "publication_name": {
+                        "ja": "Proceedings of IEEE International Symposium on Communications and Information Technologies",
+                        "en": "Proceedings of IEEE International Symposium on Communications and Information Technologies"
+                    },
+                    "starting_page": "574",
+                    "ending_page": "579",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "international_conference_proceedings",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1109/ISCIT.2010.5665053"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1109/ISCIT.2010.5665053",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0168362/published_papers/19816744",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0168362/published_papers",
+                    "rm:id": "19816744",
+                    "rm:user_id": "1000004934",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:Y02z8vhrqifgXG$J",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2018-02-05T18:12:08Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-05-23T13:19:13Z",
+                    "paper_title": {
+                        "en": "Closed Form Solutions to L-2-Sensitivity Minimization of Second-Order State-Space Digital Filters with Real Poles"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Shunsuke Yamaki"
+                            },
+                            {
+                                "name": "Masahide Abe"
+                            },
+                            {
+                                "name": "Masayuki Kawamata"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "This letter proposes closed form solutions to the L-2-sensitivity minimization of second-order state-space digital filters with real poles. We consider two cases of second-order digital filters: distinct real poles and multiple real poles. In case of second-order digital filters, we can express the L-2-sensitivity of second-order digital filters by a simple linear combination of exponential functions and formulate the L-2-sensitivity minimization problem by a simple polynomial equation. As a result, the minimum L-2-sensitivity realizations can be synthesized by only solving a fourth-degree polynomial equation, which can be analytically solved."
+                    },
+                    "publisher": {
+                        "en": "IEICE-INST ELECTRONICS INFORMATION COMMUNICATIONS ENG"
+                    },
+                    "publication_date": "2010-05",
+                    "publication_name": {
+                        "en": "IEICE TRANSACTIONS ON FUNDAMENTALS OF ELECTRONICS COMMUNICATIONS AND COMPUTER SCIENCES"
+                    },
+                    "volume": "E93A",
+                    "number": "5",
+                    "starting_page": "966",
+                    "ending_page": "971",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1587/transfun.E93.A.966"
+                        ],
+                        "issn": [
+                            "0916-8508"
+                        ],
+                        "e_issn": [
+                            "1745-1337"
+                        ],
+                        "wos_id": [
+                            "WOS:000281342800014"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1587/transfun.E93.A.966",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000281342800014&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0168362/published_papers/19816743",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0168362/published_papers",
+                    "rm:id": "19816743",
+                    "rm:user_id": "1000004934",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:Y02z8vhrqifgXG$J",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2018-02-05T18:12:08Z",
+                    "rm:modifier_id": "client_id:Y02z8vhrqifgXG$J",
+                    "rm:modifier_type": "system",
+                    "rm:modified": "2018-02-05T18:12:08Z",
+                    "paper_title": {
+                        "ja": "Realization of Variable Band-Pass/Band-Stop IIR Digital Filters Using Gramian-Preserving Frequency Transformation",
+                        "en": "Realization of Variable Band-Pass/Band-Stop IIR Digital Filters Using Gramian-Preserving Frequency Transformation"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "Shunsuke Koshita"
+                            },
+                            {
+                                "name": "Keita Miyoshi"
+                            },
+                            {
+                                "name": "Masahide Abe"
+                            },
+                            {
+                                "name": "Masayuki Kawamata"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Shunsuke Koshita"
+                            },
+                            {
+                                "name": "Keita Miyoshi"
+                            },
+                            {
+                                "name": "Masahide Abe"
+                            },
+                            {
+                                "name": "Masayuki Kawamata"
+                            }
+                        ]
+                    },
+                    "publication_date": "2010-05",
+                    "publication_name": {
+                        "ja": "Proceedings of IEEE International Symposium on Circuits and Systems",
+                        "en": "Proceedings of IEEE International Symposium on Circuits and Systems"
+                    },
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1109/ISCAS.2010.5537047"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1109/ISCAS.2010.5537047",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0168362/published_papers/19816742",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0168362/published_papers",
+                    "rm:id": "19816742",
+                    "rm:user_id": "1000004934",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:Y02z8vhrqifgXG$J",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2018-02-05T18:12:08Z",
+                    "rm:modifier_id": "client_id:Y02z8vhrqifgXG$J",
+                    "rm:modifier_type": "system",
+                    "rm:modified": "2018-02-05T18:12:08Z",
+                    "paper_title": {
+                        "ja": "Analytical Synthesis of Minimum L2-Sensitivity Realizations of All-Pass Digital Filters",
+                        "en": "Analytical Synthesis of Minimum L2-Sensitivity Realizations of All-Pass Digital Filters"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "Shunsuke Yamaki"
+                            },
+                            {
+                                "name": "Masahide Abe"
+                            },
+                            {
+                                "name": "Masayuki Kawamata"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Shunsuke Yamaki"
+                            },
+                            {
+                                "name": "Masahide Abe"
+                            },
+                            {
+                                "name": "Masayuki Kawamata"
+                            }
+                        ]
+                    },
+                    "publication_date": "2010-05",
+                    "publication_name": {
+                        "ja": "Proceedings of IEEE International Symposium on Circuits and Systems",
+                        "en": "Proceedings of IEEE International Symposium on Circuits and Systems"
+                    },
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "international_conference_proceedings",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1109/ISCAS.2010.5537473"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1109/ISCAS.2010.5537473",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0168362/published_papers/19816745",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0168362/published_papers",
+                    "rm:id": "19816745",
+                    "rm:user_id": "1000004934",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:Y02z8vhrqifgXG$J",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2018-02-05T18:12:08Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-05-23T04:54:30Z",
+                    "paper_title": {
+                        "en": "Closed Form Solutions to L-2-Sensitivity Minimization Subject to L-2-Scaling Constraints for Second-Order State-Space Digital Filters with Real Poles"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Shunsuke Yamaki"
+                            },
+                            {
+                                "name": "Masahide Abe"
+                            },
+                            {
+                                "name": "Masayuki Kawamata"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "This paper proposes closed form solutions to the L-2-sensitivity minimization subject to L-2-scaling constraints for second-order state-space digital filters with real poles. We consider two cases of second-order digital filters: distinct real poles and multiple real poles. The proposed approach reduces the constrained optimization problem to an un-constrained optimization problem by appropriate variable transformation. We can express the L-2-sensitivity by a simple linear combination of exponential functions and formulate the L-2-sensitivity minimization problem by a simple polynomial equation. As a result, L-2-sensitivity is expressed in closed form, and its minimization subject to L-2-scaling constraints is achieved without iterative calculations."
+                    },
+                    "publisher": {
+                        "en": "IEICE-INST ELECTRONICS INFORMATION COMMUNICATIONS ENG"
+                    },
+                    "publication_date": "2010-02",
+                    "publication_name": {
+                        "en": "IEICE TRANSACTIONS ON FUNDAMENTALS OF ELECTRONICS COMMUNICATIONS AND COMPUTER SCIENCES"
+                    },
+                    "volume": "E93A",
+                    "number": "2",
+                    "starting_page": "476",
+                    "ending_page": "487",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1587/transfun.E93.A.476"
+                        ],
+                        "issn": [
+                            "0916-8508"
+                        ],
+                        "e_issn": [
+                            "1745-1337"
+                        ],
+                        "wos_id": [
+                            "WOS:000274537100016"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1587/transfun.E93.A.476",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000274537100016&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0168362/published_papers/19816746",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0168362/published_papers",
+                    "rm:id": "19816746",
+                    "rm:user_id": "1000004934",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:Y02z8vhrqifgXG$J",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2018-02-05T18:12:08Z",
+                    "rm:modifier_id": "client_id:Y02z8vhrqifgXG$J",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2018-02-05T18:12:08Z",
+                    "paper_title": {
+                        "ja": "フィルム映像におけるフリッカとブロッチの影響を考慮して作成した参照画像を用いたM推定による高速なフリッカ除去",
+                        "en": "フィルム映像におけるフリッカとブロッチの影響を考慮して作成した参照画像を用いたM推定による高速なフリッカ除去"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "川又 僚太"
+                            },
+                            {
+                                "name": "阿部 正英"
+                            },
+                            {
+                                "name": "川又 政征"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "川又 僚太"
+                            },
+                            {
+                                "name": "阿部 正英"
+                            },
+                            {
+                                "name": "川又 政征"
+                            }
+                        ]
+                    },
+                    "publication_date": "2010-01",
+                    "publication_name": {
+                        "ja": "Journal of Signal Processing",
+                        "en": "Journal of Signal Processing"
+                    },
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0168362/published_papers/19816741",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0168362/published_papers",
+                    "rm:id": "19816741",
+                    "rm:user_id": "1000004934",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:Y02z8vhrqifgXG$J",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2018-02-05T18:12:08Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-08-30T21:05:59Z",
+                    "paper_title": {
+                        "en": "Closed form expressions of the minimum L2-sensitivity realizations for all-pass digital filters"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Shunsuke Yamaki"
+                            },
+                            {
+                                "name": "Masahide Abe"
+                            },
+                            {
+                                "name": "Masayuki Kawamata"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "This paper presents closed form expressions of the minimum L 2-sensitivity realizations of all-pass digital filters. We first prove that the L2-sensitivity minimization problem can be solved analytically if the all second-order modes of a digital filter are equal. We focus on the fact that the second-order modes of all-pass digital filters are all unity. As a result, it is clarified that the minimum L2- sensitivity realization of an all-pass digital filter is equal to the balanced realization, of which closed form expression can be derived analytically. ©2010 IEEE."
+                    },
+                    "publication_date": "2010",
+                    "publication_name": {
+                        "en": "Proceedings - 2010 2nd IEEE International Conference on Network Infrastructure and Digital Content, IC-NIDC 2010"
+                    },
+                    "starting_page": "977",
+                    "ending_page": "981",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "international_conference_proceedings",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1109/ICNIDC.2010.5657944"
+                        ],
+                        "scopus_id": [
+                            "78651266012"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1109/ICNIDC.2010.5657944",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0168362/published_papers/19816738",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0168362/published_papers",
+                    "rm:id": "19816738",
+                    "rm:user_id": "1000004934",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:Y02z8vhrqifgXG$J",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2018-02-05T18:12:08Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-08-30T21:04:11Z",
+                    "paper_title": {
+                        "en": "An efficient subpixel image registration based on the phase-only correlations of image projections"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Xiaoyong Zhang"
+                            },
+                            {
+                                "name": "Masahide Abe"
+                            },
+                            {
+                                "name": "Masayuki Kawamata"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "This paper presents an efficient method of subpixel image registration based on the phase-only correlations (POCs) of image projections. Conventional POC-based methods need the two-dimensional discrete Fourier transforms three-times for calculating the 2-D POC of images. In order to reduce the computational cost caused by the two-dimensional discrete Fourier transforms, we decompose the two-dimensional POC of images into two one-dimensional POCs of the image projections. The vertical displacement and horizontal displacement are estimated with subpixel accuracy using the POC of the horizontal image projections and the POC of the vertical image projections, respectively. Experimental results show that the proposed method can estimate the subpixel displacement between two given images with high accuracy at a low computational cost. ©2010 IEEE."
+                    },
+                    "publication_date": "2010",
+                    "publication_name": {
+                        "en": "ISCIT 2010 - 2010 10th International Symposium on Communications and Information Technologies"
+                    },
+                    "starting_page": "997",
+                    "ending_page": "1001",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "international_conference_proceedings",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1109/ISCIT.2010.5665134"
+                        ],
+                        "scopus_id": [
+                            "78651227361"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1109/ISCIT.2010.5665134",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0168362/published_papers/19816747",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0168362/published_papers",
+                    "rm:id": "19816747",
+                    "rm:user_id": "1000004934",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:Y02z8vhrqifgXG$J",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2018-02-05T18:12:08Z",
+                    "rm:modifier_id": "client_id:Y02z8vhrqifgXG$J",
+                    "rm:modifier_type": "system",
+                    "rm:modified": "2018-02-05T18:12:08Z",
+                    "paper_title": {
+                        "ja": "Explicit Expressions of the Balanced Realizations for Second-Order Filters",
+                        "en": "Explicit Expressions of the Balanced Realizations for Second-Order Filters"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "Shunsuke Yamaki"
+                            },
+                            {
+                                "name": "Masahide Abe"
+                            },
+                            {
+                                "name": "Masayuki Kawamata"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Shunsuke Yamaki"
+                            },
+                            {
+                                "name": "Masahide Abe"
+                            },
+                            {
+                                "name": "Masayuki Kawamata"
+                            }
+                        ]
+                    },
+                    "publication_date": "2009-12",
+                    "publication_name": {
+                        "ja": "Proceedings of 2009 International Symposium on Intelligent Signal Processing and Communication Systems",
+                        "en": "Proceedings of 2009 International Symposium on Intelligent Signal Processing and Communication Systems"
+                    },
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1109/ISPACS.2009.5383814"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1109/ISPACS.2009.5383814",
+                            "is_downloadable": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0168362/misc",
+            "@type": "misc",
+            "@reverse": "https://api.researchmap.jp/read0168362",
+            "total_items": 3,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0168362/misc/23392017",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0168362/misc",
+                    "rm:id": "23392017",
+                    "rm:user_id": "1000004934",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:Y02z8vhrqifgXG$J",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2018-02-05T18:12:08Z",
+                    "rm:modifier_id": "client_id:Y02z8vhrqifgXG$J",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2018-02-05T18:12:08Z",
+                    "paper_title": {
+                        "ja": "MATLABを利用したディジタル信号処理教育 -東北大学工学部情報知能システム総合学科の事例-",
+                        "en": "MATLABを利用したディジタル信号処理教育 -東北大学工学部情報知能システム総合学科の事例-"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "川又政征"
+                            },
+                            {
+                                "name": "阿部正英"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "川又政征"
+                            },
+                            {
+                                "name": "阿部正英"
+                            }
+                        ]
+                    },
+                    "publication_date": "2009-09-10",
+                    "publication_name": {
+                        "ja": "第11回DSPS教育者会議講演集",
+                        "en": "第11回DSPS教育者会議講演集"
+                    },
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "misc_type": "introduction_research_institution",
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0168362/misc/23392019",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0168362/misc",
+                    "rm:id": "23392019",
+                    "rm:user_id": "1000004934",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:Y02z8vhrqifgXG$J",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2018-02-05T18:12:08Z",
+                    "rm:modifier_id": "client_id:Y02z8vhrqifgXG$J",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2018-02-05T18:12:08Z",
+                    "paper_title": {
+                        "ja": "高速フーリエ変換 -- 情報通信技術で活躍する計算法 --",
+                        "en": "高速フーリエ変換 -- 情報通信技術で活躍する計算法 --"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "川又政征"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "川又政征"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "サイエンス社",
+                        "en": "サイエンス社"
+                    },
+                    "publication_date": "2007-10-01",
+                    "publication_name": {
+                        "ja": "数理科学",
+                        "en": "数理科学"
+                    },
+                    "volume": "45",
+                    "number": "10",
+                    "starting_page": "56",
+                    "ending_page": "57",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "misc_type": "introduction_commerce_magazine",
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0168362/misc/23392018",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0168362/misc",
+                    "rm:id": "23392018",
+                    "rm:user_id": "1000004934",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:Y02z8vhrqifgXG$J",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2018-02-05T18:12:08Z",
+                    "rm:modifier_id": "client_id:Y02z8vhrqifgXG$J",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2018-02-05T18:12:08Z",
+                    "paper_title": {
+                        "ja": "フーリエ変換と画像処理",
+                        "en": "フーリエ変換と画像処理"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "川又政征"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "川又政征"
+                            }
+                        ]
+                    },
+                    "publication_date": "2007-10-01",
+                    "publication_name": {
+                        "ja": "数理科学",
+                        "en": "数理科学"
+                    },
+                    "volume": "45",
+                    "number": "10",
+                    "starting_page": "29",
+                    "ending_page": "34",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "misc_type": "introduction_commerce_magazine",
+                    "rm:is_open_access": false
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0168362/books_etc",
+            "@type": "books_etc",
+            "@reverse": "https://api.researchmap.jp/read0168362",
+            "total_items": 8,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0168362/books_etc/11830623",
+                    "@type": "books_etc",
+                    "@reverse": "https://api.researchmap.jp/read0168362/books_etc",
+                    "rm:id": "11830623",
+                    "rm:user_id": "1000004934",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:Y02z8vhrqifgXG$J",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2018-02-05T18:12:08Z",
+                    "rm:modifier_id": "client_id:Y02z8vhrqifgXG$J",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2018-02-05T18:12:08Z",
+                    "book_title": {
+                        "ja": "Digital Filters and Signal Processing",
+                        "en": "Digital Filters and Signal Processing"
+                    },
+                    "book_owner_role": "joint_work",
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "Shunsuke Koshita"
+                            },
+                            {
+                                "name": "Masahide Abe"
+                            },
+                            {
+                                "name": "Masayuki Kawamata"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Shunsuke Koshita"
+                            },
+                            {
+                                "name": "Masahide Abe"
+                            },
+                            {
+                                "name": "Masayuki Kawamata"
+                            }
+                        ]
+                    },
+                    "book_owner_range": {
+                        "ja": "Chapter 5: Frequency Transformation for Linear State-Space Systems",
+                        "en": "Chapter 5: Frequency Transformation for Linear State-Space Systems"
+                    },
+                    "publication_date": "2013-01",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "book_type": "scholarly_book"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0168362/books_etc/11830624",
+                    "@type": "books_etc",
+                    "@reverse": "https://api.researchmap.jp/read0168362/books_etc",
+                    "rm:id": "11830624",
+                    "rm:user_id": "1000004934",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:Y02z8vhrqifgXG$J",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2018-02-05T18:12:08Z",
+                    "rm:modifier_id": "client_id:Y02z8vhrqifgXG$J",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2018-02-05T18:12:08Z",
+                    "book_title": {
+                        "ja": "電子情報通信学会 知識ベース",
+                        "en": "電子情報通信学会 知識ベース"
+                    },
+                    "book_owner_role": "joint_work",
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "越田 俊介"
+                            },
+                            {
+                                "name": "川又 政征"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "越田 俊介"
+                            },
+                            {
+                                "name": "川又 政征"
+                            }
+                        ]
+                    },
+                    "book_owner_range": {
+                        "ja": "1群 信号・システム 9編 ディジタル信号処理 1章 ディジタル信号処理の基礎理論",
+                        "en": "1群 信号・システム 9編 ディジタル信号処理 1章 ディジタル信号処理の基礎理論"
+                    },
+                    "publisher": {
+                        "ja": "電子情報通信学会",
+                        "en": "電子情報通信学会"
+                    },
+                    "publication_date": "2012",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "book_type": "scholarly_book"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0168362/books_etc/11830622",
+                    "@type": "books_etc",
+                    "@reverse": "https://api.researchmap.jp/read0168362/books_etc",
+                    "rm:id": "11830622",
+                    "rm:user_id": "1000004934",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:Y02z8vhrqifgXG$J",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2018-02-05T18:12:08Z",
+                    "rm:modifier_id": "client_id:Y02z8vhrqifgXG$J",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2018-02-05T18:12:08Z",
+                    "book_title": {
+                        "ja": "Digital filters",
+                        "en": "Digital filters"
+                    },
+                    "book_owner_role": "joint_editor",
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "Edited by Fausto Pedro Garcia"
+                            },
+                            {
+                                "name": "Marquez Chapter"
+                            },
+                            {
+                                "name": "G. Stoyanov"
+                            },
+                            {
+                                "name": "K. Nikolova"
+                            },
+                            {
+                                "name": "M. Kawamata"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Edited by Fausto Pedro Garcia"
+                            },
+                            {
+                                "name": "Marquez Chapter"
+                            },
+                            {
+                                "name": "G. Stoyanov"
+                            },
+                            {
+                                "name": "K. Nikolova"
+                            },
+                            {
+                                "name": "M. Kawamata"
+                            }
+                        ]
+                    },
+                    "book_owner_range": {
+                        "ja": "Chapter 7: Low-Sensitivity design of allpass based fractional delay digital filters",
+                        "en": "Chapter 7: Low-Sensitivity design of allpass based fractional delay digital filters"
+                    },
+                    "publisher": {
+                        "ja": "InTech",
+                        "en": "InTech"
+                    },
+                    "publication_date": "2011-03",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "book_type": "scholarly_book",
+                    "see_also": [
+                        {
+                            "label": "url",
+                            "@id": "http://www.intechopen.com/books/show/title/digital-filters"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0168362/books_etc/11830618",
+                    "@type": "books_etc",
+                    "@reverse": "https://api.researchmap.jp/read0168362/books_etc",
+                    "rm:id": "11830618",
+                    "rm:user_id": "1000004934",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:Y02z8vhrqifgXG$J",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2018-02-05T18:12:08Z",
+                    "rm:modifier_id": "client_id:Y02z8vhrqifgXG$J",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2018-02-05T18:12:08Z",
+                    "book_title": {
+                        "ja": "ディジタル信号処理 --- MATLAB対応 ---",
+                        "en": "ディジタル信号処理 --- MATLAB対応 ---"
+                    },
+                    "book_owner_role": "joint_work",
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "樋口龍雄"
+                            },
+                            {
+                                "name": "川又政征"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "樋口龍雄"
+                            },
+                            {
+                                "name": "川又政征"
+                            }
+                        ]
+                    },
+                    "publication_date": "2000-03",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "book_type": "scholarly_book"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0168362/books_etc/11830617",
+                    "@type": "books_etc",
+                    "@reverse": "https://api.researchmap.jp/read0168362/books_etc",
+                    "rm:id": "11830617",
+                    "rm:user_id": "1000004934",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:Y02z8vhrqifgXG$J",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2018-02-05T18:12:08Z",
+                    "rm:modifier_id": "client_id:Y02z8vhrqifgXG$J",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2018-02-05T18:12:08Z",
+                    "book_title": {
+                        "ja": "多次元ディジタル信号処理",
+                        "en": "多次元ディジタル信号処理"
+                    },
+                    "book_owner_role": "joint_work",
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "川又政征"
+                            },
+                            {
+                                "name": "樋口龍雄"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "川又政征"
+                            },
+                            {
+                                "name": "樋口龍雄"
+                            }
+                        ]
+                    },
+                    "publication_date": "1995-05",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "book_type": "scholarly_book"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0168362/books_etc/11830621",
+                    "@type": "books_etc",
+                    "@reverse": "https://api.researchmap.jp/read0168362/books_etc",
+                    "rm:id": "11830621",
+                    "rm:user_id": "1000004934",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:Y02z8vhrqifgXG$J",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2018-02-05T18:12:08Z",
+                    "rm:modifier_id": "client_id:Y02z8vhrqifgXG$J",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2018-02-05T18:12:08Z",
+                    "book_title": {
+                        "ja": "計測制御技術事典",
+                        "en": "計測制御技術事典"
+                    },
+                    "book_owner_role": "joint_work",
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "計測自動制御学会編"
+                            },
+                            {
+                                "name": "川又政征分担執筆"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "計測自動制御学会編"
+                            },
+                            {
+                                "name": "川又政征分担執筆"
+                            }
+                        ]
+                    },
+                    "book_owner_range": {
+                        "ja": "５１９ページ中４ページ",
+                        "en": "５１９ページ中４ページ"
+                    },
+                    "publication_date": "1994-12",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "book_type": "scholarly_book"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0168362/books_etc/11830620",
+                    "@type": "books_etc",
+                    "@reverse": "https://api.researchmap.jp/read0168362/books_etc",
+                    "rm:id": "11830620",
+                    "rm:user_id": "1000004934",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:Y02z8vhrqifgXG$J",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2018-02-05T18:12:08Z",
+                    "rm:modifier_id": "client_id:Y02z8vhrqifgXG$J",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2018-02-05T18:12:08Z",
+                    "book_title": {
+                        "ja": "ディジタル信号処理ハンドブック",
+                        "en": "ディジタル信号処理ハンドブック"
+                    },
+                    "book_owner_role": "joint_work",
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "電子情報通信学会編"
+                            },
+                            {
+                                "name": "川又政征分担執筆"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "電子情報通信学会編"
+                            },
+                            {
+                                "name": "川又政征分担執筆"
+                            }
+                        ]
+                    },
+                    "book_owner_range": {
+                        "ja": "５２５ページ中１３ページ",
+                        "en": "５２５ページ中１３ページ"
+                    },
+                    "publication_date": "1993-01",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "book_type": "scholarly_book"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0168362/books_etc/11830619",
+                    "@type": "books_etc",
+                    "@reverse": "https://api.researchmap.jp/read0168362/books_etc",
+                    "rm:id": "11830619",
+                    "rm:user_id": "1000004934",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:Y02z8vhrqifgXG$J",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2018-02-05T18:12:08Z",
+                    "rm:modifier_id": "client_id:Y02z8vhrqifgXG$J",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2018-02-05T18:12:08Z",
+                    "book_title": {
+                        "ja": "高度並列信号処理",
+                        "en": "高度並列信号処理"
+                    },
+                    "book_owner_role": "joint_work",
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "樋口龍雄編"
+                            },
+                            {
+                                "name": "川又政征分担執筆"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "樋口龍雄編"
+                            },
+                            {
+                                "name": "川又政征分担執筆"
+                            }
+                        ]
+                    },
+                    "book_owner_range": {
+                        "ja": "２００ページ中２５ページ",
+                        "en": "２００ページ中２５ページ"
+                    },
+                    "publication_date": "1992-08",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "book_type": "scholarly_book"
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0168362/presentations",
+            "@type": "presentations",
+            "@reverse": "https://api.researchmap.jp/read0168362",
+            "total_items": 114,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0168362/presentations/17101652",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0168362/presentations",
+                    "rm:id": "17101652",
+                    "rm:user_id": "1000004934",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:Y02z8vhrqifgXG$J",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2018-02-05T18:12:08Z",
+                    "rm:modifier_id": "client_id:Y02z8vhrqifgXG$J",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2018-02-05T18:12:08Z",
+                    "presentation_title": {
+                        "ja": "Effects of Stochastic Phase Spectrum Differences on Phase-Only Correlation Functions - Part II: Statistically Proportional Phase Spectrum Differences to Frequency Indices -",
+                        "en": "Effects of Stochastic Phase Spectrum Differences on Phase-Only Correlation Functions - Part II: Statistically Proportional Phase Spectrum Differences to Frequency Indices -"
+                    },
+                    "presenters": {
+                        "ja": [
+                            {
+                                "name": "Rihito Ito"
+                            },
+                            {
+                                "name": "Shunsuke Yamaki"
+                            },
+                            {
+                                "name": "Masahide Abe"
+                            },
+                            {
+                                "name": "Masayuki Kawamata"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Rihito Ito"
+                            },
+                            {
+                                "name": "Shunsuke Yamaki"
+                            },
+                            {
+                                "name": "Masahide Abe"
+                            },
+                            {
+                                "name": "Masayuki Kawamata"
+                            }
+                        ]
+                    },
+                    "presenters_text": {
+                        "ja": "Rihito Ito, Shunsuke Yamaki, Masahide Abe, Masayuki Kawamata",
+                        "en": "Rihito Ito, Shunsuke Yamaki, Masahide Abe, Masayuki Kawamata"
+                    },
+                    "event": {
+                        "ja": "IEEE International Conference on Network Infrastructure and Digital Content",
+                        "en": "IEEE International Conference on Network Infrastructure and Digital Content"
+                    },
+                    "publication_date": "2012-09",
+                    "invited": false,
+                    "presentation_type": "oral_presentation",
+                    "description": {
+                        "ja": "Proceedings of IEEE International Conference on Network Infrastructure and Digital Content,pp.380-384",
+                        "en": "Proceedings of IEEE International Conference on Network Infrastructure and Digital Content,pp.380-384"
+                    },
+                    "is_international_presentation": true,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0168362/presentations/17101651",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0168362/presentations",
+                    "rm:id": "17101651",
+                    "rm:user_id": "1000004934",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:Y02z8vhrqifgXG$J",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2018-02-05T18:12:08Z",
+                    "rm:modifier_id": "client_id:Y02z8vhrqifgXG$J",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2018-02-05T18:12:08Z",
+                    "presentation_title": {
+                        "ja": "Effects of Stochastic Phase Spectrum Differences on Phase-Only Correlation Functions - Part I: Statistically Constant Phase Spectrum Differences for Frequency Indices -",
+                        "en": "Effects of Stochastic Phase Spectrum Differences on Phase-Only Correlation Functions - Part I: Statistically Constant Phase Spectrum Differences for Frequency Indices -"
+                    },
+                    "presenters": {
+                        "ja": [
+                            {
+                                "name": "Shunsuke Yamaki"
+                            },
+                            {
+                                "name": "Jun Odagiri"
+                            },
+                            {
+                                "name": "Masahide Abe"
+                            },
+                            {
+                                "name": "Masayuki Kawamata"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Shunsuke Yamaki"
+                            },
+                            {
+                                "name": "Jun Odagiri"
+                            },
+                            {
+                                "name": "Masahide Abe"
+                            },
+                            {
+                                "name": "Masayuki Kawamata"
+                            }
+                        ]
+                    },
+                    "presenters_text": {
+                        "ja": "Shunsuke Yamaki, Jun Odagiri, Masahide Abe, Masayuki Kawamata",
+                        "en": "Shunsuke Yamaki, Jun Odagiri, Masahide Abe, Masayuki Kawamata"
+                    },
+                    "event": {
+                        "ja": "IEEE International Conference on Network Infrastructure and Digital Content",
+                        "en": "IEEE International Conference on Network Infrastructure and Digital Content"
+                    },
+                    "publication_date": "2012-09",
+                    "invited": false,
+                    "presentation_type": "oral_presentation",
+                    "description": {
+                        "ja": "Proceedings of IEEE International Conference on Network Infrastructure and Digital Content,pp.360-364",
+                        "en": "Proceedings of IEEE International Conference on Network Infrastructure and Digital Content,pp.360-364"
+                    },
+                    "is_international_presentation": true,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0168362/presentations/17101653",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0168362/presentations",
+                    "rm:id": "17101653",
+                    "rm:user_id": "1000004934",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:Y02z8vhrqifgXG$J",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2018-02-05T18:12:08Z",
+                    "rm:modifier_id": "client_id:Y02z8vhrqifgXG$J",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2018-02-05T18:12:08Z",
+                    "presentation_title": {
+                        "ja": "Transfer Functions of Second-Order Digital Filters with Two Equal Second-Order Modes",
+                        "en": "Transfer Functions of Second-Order Digital Filters with Two Equal Second-Order Modes"
+                    },
+                    "presenters": {
+                        "ja": [
+                            {
+                                "name": "Shunsuke Yamaki"
+                            },
+                            {
+                                "name": "Masahide Abe"
+                            },
+                            {
+                                "name": "Masayuki Kawamata"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Shunsuke Yamaki"
+                            },
+                            {
+                                "name": "Masahide Abe"
+                            },
+                            {
+                                "name": "Masayuki Kawamata"
+                            }
+                        ]
+                    },
+                    "presenters_text": {
+                        "ja": "Shunsuke Yamaki, Masahide Abe, Masayuki Kawamata",
+                        "en": "Shunsuke Yamaki, Masahide Abe, Masayuki Kawamata"
+                    },
+                    "event": {
+                        "ja": "IEEE International Symposium on Circuits and Systems",
+                        "en": "IEEE International Symposium on Circuits and Systems"
+                    },
+                    "publication_date": "2012-05",
+                    "invited": false,
+                    "presentation_type": "oral_presentation",
+                    "description": {
+                        "ja": "Proceedings of IEEE International Symposium on Circuits and Systems,pp.3178-3181",
+                        "en": "Proceedings of IEEE International Symposium on Circuits and Systems,pp.3178-3181"
+                    },
+                    "is_international_presentation": true,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0168362/presentations/17101654",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0168362/presentations",
+                    "rm:id": "17101654",
+                    "rm:user_id": "1000004934",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:Y02z8vhrqifgXG$J",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2018-02-05T18:12:08Z",
+                    "rm:modifier_id": "client_id:Y02z8vhrqifgXG$J",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2018-02-05T18:12:08Z",
+                    "presentation_title": {
+                        "ja": "Adaptive Detection of Narrowband Signals Using Frequency-Transformation-Based Variable Digital Filters",
+                        "en": "Adaptive Detection of Narrowband Signals Using Frequency-Transformation-Based Variable Digital Filters"
+                    },
+                    "presenters": {
+                        "ja": [
+                            {
+                                "name": "Shunsuke koshita"
+                            },
+                            {
+                                "name": "Yuki Kumamoto"
+                            },
+                            {
+                                "name": "Masahide Abe"
+                            },
+                            {
+                                "name": "Masayuki Kawamata"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Shunsuke koshita"
+                            },
+                            {
+                                "name": "Yuki Kumamoto"
+                            },
+                            {
+                                "name": "Masahide Abe"
+                            },
+                            {
+                                "name": "Masayuki Kawamata"
+                            }
+                        ]
+                    },
+                    "presenters_text": {
+                        "ja": "Shunsuke koshita, Yuki Kumamoto, Masahide Abe, Masayuki Kawamata",
+                        "en": "Shunsuke koshita, Yuki Kumamoto, Masahide Abe, Masayuki Kawamata"
+                    },
+                    "event": {
+                        "ja": "APSIPA Annual Summit and Conference",
+                        "en": "APSIPA Annual Summit and Conference"
+                    },
+                    "publication_date": "2011-10",
+                    "invited": false,
+                    "presentation_type": "oral_presentation",
+                    "description": {
+                        "ja": "Proceedings of APSIPA Annual Summit and Conference",
+                        "en": "Proceedings of APSIPA Annual Summit and Conference"
+                    },
+                    "is_international_presentation": true,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0168362/presentations/17101655",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0168362/presentations",
+                    "rm:id": "17101655",
+                    "rm:user_id": "1000004934",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:Y02z8vhrqifgXG$J",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2018-02-05T18:12:08Z",
+                    "rm:modifier_id": "client_id:Y02z8vhrqifgXG$J",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2018-02-05T18:12:08Z",
+                    "presentation_title": {
+                        "ja": "MOTION DETECTION IN OLD FILM SEQUENCES USING ADAPTIVE GAUSSIAN MIXTURE MODEL",
+                        "en": "MOTION DETECTION IN OLD FILM SEQUENCES USING ADAPTIVE GAUSSIAN MIXTURE MODEL"
+                    },
+                    "presenters": {
+                        "ja": [
+                            {
+                                "name": "Xiaoyong ZHANG"
+                            },
+                            {
+                                "name": "Masahide ABE"
+                            },
+                            {
+                                "name": "Masayuki KAWAMATA"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Xiaoyong ZHANG"
+                            },
+                            {
+                                "name": "Masahide ABE"
+                            },
+                            {
+                                "name": "Masayuki KAWAMATA"
+                            }
+                        ]
+                    },
+                    "presenters_text": {
+                        "ja": "Xiaoyong ZHANG, Masahide ABE, Masayuki KAWAMATA",
+                        "en": "Xiaoyong ZHANG, Masahide ABE, Masayuki KAWAMATA"
+                    },
+                    "event": {
+                        "ja": "IEEE International Conference on Image Processing",
+                        "en": "IEEE International Conference on Image Processing"
+                    },
+                    "publication_date": "2011-09",
+                    "invited": false,
+                    "presentation_type": "oral_presentation",
+                    "description": {
+                        "ja": "IEEE International Conference on Image Processing,pp.2385-2388",
+                        "en": "IEEE International Conference on Image Processing,pp.2385-2388"
+                    },
+                    "is_international_presentation": true,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0168362/presentations/17101656",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0168362/presentations",
+                    "rm:id": "17101656",
+                    "rm:user_id": "1000004934",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:Y02z8vhrqifgXG$J",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2018-02-05T18:12:08Z",
+                    "rm:modifier_id": "client_id:Y02z8vhrqifgXG$J",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2018-02-05T18:12:08Z",
+                    "presentation_title": {
+                        "ja": "High-Order Center-Frequency Adaptive Filters Using Block-Diagram-Based Frequency Transformation",
+                        "en": "High-Order Center-Frequency Adaptive Filters Using Block-Diagram-Based Frequency Transformation"
+                    },
+                    "presenters": {
+                        "ja": [
+                            {
+                                "name": "Shunsuke Koshita"
+                            },
+                            {
+                                "name": "Yuki Kumamoto"
+                            },
+                            {
+                                "name": "Masahide Abe"
+                            },
+                            {
+                                "name": "Masayuki Kawamata"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Shunsuke Koshita"
+                            },
+                            {
+                                "name": "Yuki Kumamoto"
+                            },
+                            {
+                                "name": "Masahide Abe"
+                            },
+                            {
+                                "name": "Masayuki Kawamata"
+                            }
+                        ]
+                    },
+                    "presenters_text": {
+                        "ja": "Shunsuke Koshita, Yuki Kumamoto, Masahide Abe, Masayuki Kawamata",
+                        "en": "Shunsuke Koshita, Yuki Kumamoto, Masahide Abe, Masayuki Kawamata"
+                    },
+                    "event": {
+                        "ja": "IEEE International Conference on Acoustics, Speech, and Signal Processing",
+                        "en": "IEEE International Conference on Acoustics, Speech, and Signal Processing"
+                    },
+                    "publication_date": "2011-05",
+                    "invited": false,
+                    "presentation_type": "oral_presentation",
+                    "description": {
+                        "ja": "Proceedings of IEEE International Conference on Acoustics, Speech, and Signal Processing,pp.4284-4287",
+                        "en": "Proceedings of IEEE International Conference on Acoustics, Speech, and Signal Processing,pp.4284-4287"
+                    },
+                    "is_international_presentation": true,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0168362/presentations/17101659",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0168362/presentations",
+                    "rm:id": "17101659",
+                    "rm:user_id": "1000004934",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:Y02z8vhrqifgXG$J",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2018-02-05T18:12:08Z",
+                    "rm:modifier_id": "client_id:Y02z8vhrqifgXG$J",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2018-02-05T18:12:08Z",
+                    "presentation_title": {
+                        "ja": "Synthesis of the Minimum L2-Sensitivity Realizations of Second-Order Digital Filters without Iterative Calculations",
+                        "en": "Synthesis of the Minimum L2-Sensitivity Realizations of Second-Order Digital Filters without Iterative Calculations"
+                    },
+                    "presenters": {
+                        "ja": [
+                            {
+                                "name": "Shunsuke Yamaki"
+                            },
+                            {
+                                "name": "Masahide Abe"
+                            },
+                            {
+                                "name": "Masayuki Kawamata"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Shunsuke Yamaki"
+                            },
+                            {
+                                "name": "Masahide Abe"
+                            },
+                            {
+                                "name": "Masayuki Kawamata"
+                            }
+                        ]
+                    },
+                    "presenters_text": {
+                        "ja": "Shunsuke Yamaki, Masahide Abe, Masayuki Kawamata",
+                        "en": "Shunsuke Yamaki, Masahide Abe, Masayuki Kawamata"
+                    },
+                    "event": {
+                        "ja": "IEEE International Symposium on Communications and Information Technologies",
+                        "en": "IEEE International Symposium on Communications and Information Technologies"
+                    },
+                    "publication_date": "2010-10",
+                    "invited": false,
+                    "presentation_type": "oral_presentation",
+                    "description": {
+                        "ja": "Proceedings of IEEE International Symposium on Communications and Information Technologies,pp.574-579",
+                        "en": "Proceedings of IEEE International Symposium on Communications and Information Technologies,pp.574-579"
+                    },
+                    "is_international_presentation": true,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0168362/presentations/17101658",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0168362/presentations",
+                    "rm:id": "17101658",
+                    "rm:user_id": "1000004934",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:Y02z8vhrqifgXG$J",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2018-02-05T18:12:08Z",
+                    "rm:modifier_id": "client_id:Y02z8vhrqifgXG$J",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2018-02-05T18:12:08Z",
+                    "presentation_title": {
+                        "ja": "Realization of Variable Low-Pass State-Space Digital Filters Using Step Responses",
+                        "en": "Realization of Variable Low-Pass State-Space Digital Filters Using Step Responses"
+                    },
+                    "presenters": {
+                        "ja": [
+                            {
+                                "name": "Shunsuke Koshita"
+                            },
+                            {
+                                "name": "Masahide Abe"
+                            },
+                            {
+                                "name": "Masayuki Kawamata"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Shunsuke Koshita"
+                            },
+                            {
+                                "name": "Masahide Abe"
+                            },
+                            {
+                                "name": "Masayuki Kawamata"
+                            }
+                        ]
+                    },
+                    "presenters_text": {
+                        "ja": "Shunsuke Koshita, Masahide Abe, Masayuki Kawamata",
+                        "en": "Shunsuke Koshita, Masahide Abe, Masayuki Kawamata"
+                    },
+                    "event": {
+                        "ja": "IEEE International Symposium on Communications and Information Technologies",
+                        "en": "IEEE International Symposium on Communications and Information Technologies"
+                    },
+                    "publication_date": "2010-10",
+                    "invited": false,
+                    "presentation_type": "oral_presentation",
+                    "description": {
+                        "ja": "Proceedings of IEEE International Symposium on Communications and Information Technologies,pp.580-584",
+                        "en": "Proceedings of IEEE International Symposium on Communications and Information Technologies,pp.580-584"
+                    },
+                    "is_international_presentation": true,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0168362/presentations/17101657",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0168362/presentations",
+                    "rm:id": "17101657",
+                    "rm:user_id": "1000004934",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:Y02z8vhrqifgXG$J",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2018-02-05T18:12:08Z",
+                    "rm:modifier_id": "client_id:Y02z8vhrqifgXG$J",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2018-02-05T18:12:08Z",
+                    "presentation_title": {
+                        "ja": "An Efficient Subpixel Image Registration Based on the Phase-Only Correlations of Image Projections",
+                        "en": "An Efficient Subpixel Image Registration Based on the Phase-Only Correlations of Image Projections"
+                    },
+                    "presenters": {
+                        "ja": [
+                            {
+                                "name": "Xiaoyong Zhang"
+                            },
+                            {
+                                "name": "Masahide Abe"
+                            },
+                            {
+                                "name": "Masayuki Kawamata"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Xiaoyong Zhang"
+                            },
+                            {
+                                "name": "Masahide Abe"
+                            },
+                            {
+                                "name": "Masayuki Kawamata"
+                            }
+                        ]
+                    },
+                    "presenters_text": {
+                        "ja": "Xiaoyong Zhang, Masahide Abe, Masayuki Kawamata",
+                        "en": "Xiaoyong Zhang, Masahide Abe, Masayuki Kawamata"
+                    },
+                    "event": {
+                        "ja": "IEEE International Symposium on Communications and Information Technologies",
+                        "en": "IEEE International Symposium on Communications and Information Technologies"
+                    },
+                    "publication_date": "2010-10",
+                    "invited": false,
+                    "presentation_type": "oral_presentation",
+                    "description": {
+                        "ja": "Proceedings of IEEE International Symposium on Communications and Information Technologies,pp.997-1001",
+                        "en": "Proceedings of IEEE International Symposium on Communications and Information Technologies,pp.997-1001"
+                    },
+                    "is_international_presentation": true,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0168362/presentations/17101660",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0168362/presentations",
+                    "rm:id": "17101660",
+                    "rm:user_id": "1000004934",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:Y02z8vhrqifgXG$J",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2018-02-05T18:12:08Z",
+                    "rm:modifier_id": "client_id:Y02z8vhrqifgXG$J",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2018-02-05T18:12:08Z",
+                    "presentation_title": {
+                        "ja": "Closed Form Expressions of the Minimum L2-Sensitivity Realizations for All-Pass Digital Filters",
+                        "en": "Closed Form Expressions of the Minimum L2-Sensitivity Realizations for All-Pass Digital Filters"
+                    },
+                    "presenters": {
+                        "ja": [
+                            {
+                                "name": "Shunsuke Yamaki"
+                            },
+                            {
+                                "name": "Masahide Abe"
+                            },
+                            {
+                                "name": "Masayuki Kawamata"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Shunsuke Yamaki"
+                            },
+                            {
+                                "name": "Masahide Abe"
+                            },
+                            {
+                                "name": "Masayuki Kawamata"
+                            }
+                        ]
+                    },
+                    "presenters_text": {
+                        "ja": "Shunsuke Yamaki, Masahide Abe, Masayuki Kawamata",
+                        "en": "Shunsuke Yamaki, Masahide Abe, Masayuki Kawamata"
+                    },
+                    "event": {
+                        "ja": "IEEE International Conference on Network Infrastructure and Digital Content",
+                        "en": "IEEE International Conference on Network Infrastructure and Digital Content"
+                    },
+                    "publication_date": "2010-09",
+                    "invited": false,
+                    "presentation_type": "oral_presentation",
+                    "description": {
+                        "ja": "Proceedings of IEEE International Conference on Network Infrastructure and Digital Content,pp.977-981",
+                        "en": "Proceedings of IEEE International Conference on Network Infrastructure and Digital Content,pp.977-981"
+                    },
+                    "is_international_presentation": true,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0168362/presentations/17101662",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0168362/presentations",
+                    "rm:id": "17101662",
+                    "rm:user_id": "1000004934",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:Y02z8vhrqifgXG$J",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2018-02-05T18:12:08Z",
+                    "rm:modifier_id": "client_id:Y02z8vhrqifgXG$J",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2018-02-05T18:12:08Z",
+                    "presentation_title": {
+                        "ja": "Realization of Variable Band-Pass/Band-Stop IIR Digital Filters Using Gramian-Preserving Frequency Transformation",
+                        "en": "Realization of Variable Band-Pass/Band-Stop IIR Digital Filters Using Gramian-Preserving Frequency Transformation"
+                    },
+                    "presenters": {
+                        "ja": [
+                            {
+                                "name": "Shunsuke Koshita"
+                            },
+                            {
+                                "name": "Keita Miyoshi"
+                            },
+                            {
+                                "name": "Masahide Abe"
+                            },
+                            {
+                                "name": "Masayuki Kawamata"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Shunsuke Koshita"
+                            },
+                            {
+                                "name": "Keita Miyoshi"
+                            },
+                            {
+                                "name": "Masahide Abe"
+                            },
+                            {
+                                "name": "Masayuki Kawamata"
+                            }
+                        ]
+                    },
+                    "presenters_text": {
+                        "ja": "Shunsuke Koshita, Keita Miyoshi, Masahide Abe, Masayuki Kawamata",
+                        "en": "Shunsuke Koshita, Keita Miyoshi, Masahide Abe, Masayuki Kawamata"
+                    },
+                    "event": {
+                        "ja": "IEEE International Symposium on Circuits and Systems",
+                        "en": "IEEE International Symposium on Circuits and Systems"
+                    },
+                    "publication_date": "2010-05",
+                    "invited": false,
+                    "presentation_type": "oral_presentation",
+                    "description": {
+                        "ja": "Proceedings of IEEE International Symposium on Circuits and Systems,pp.2698-2701",
+                        "en": "Proceedings of IEEE International Symposium on Circuits and Systems,pp.2698-2701"
+                    },
+                    "is_international_presentation": true,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0168362/presentations/17101661",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0168362/presentations",
+                    "rm:id": "17101661",
+                    "rm:user_id": "1000004934",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:Y02z8vhrqifgXG$J",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2018-02-05T18:12:08Z",
+                    "rm:modifier_id": "client_id:Y02z8vhrqifgXG$J",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2018-02-05T18:12:08Z",
+                    "presentation_title": {
+                        "ja": "Analytical Synthesis of Minimum L2-Sensitivity Realizations of All-Pass Digital Filters",
+                        "en": "Analytical Synthesis of Minimum L2-Sensitivity Realizations of All-Pass Digital Filters"
+                    },
+                    "presenters": {
+                        "ja": [
+                            {
+                                "name": "Shunsuke Yamaki"
+                            },
+                            {
+                                "name": "Masahide Abe"
+                            },
+                            {
+                                "name": "Masayuki Kawamata"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Shunsuke Yamaki"
+                            },
+                            {
+                                "name": "Masahide Abe"
+                            },
+                            {
+                                "name": "Masayuki Kawamata"
+                            }
+                        ]
+                    },
+                    "presenters_text": {
+                        "ja": "Shunsuke Yamaki, Masahide Abe, Masayuki Kawamata",
+                        "en": "Shunsuke Yamaki, Masahide Abe, Masayuki Kawamata"
+                    },
+                    "event": {
+                        "ja": "IEEE International Symposium on Circuits and Systems",
+                        "en": "IEEE International Symposium on Circuits and Systems"
+                    },
+                    "publication_date": "2010-05",
+                    "invited": false,
+                    "presentation_type": "oral_presentation",
+                    "description": {
+                        "ja": "Proceedings of IEEE International Symposium on Circuits and Systems,pp.729-732",
+                        "en": "Proceedings of IEEE International Symposium on Circuits and Systems,pp.729-732"
+                    },
+                    "is_international_presentation": true,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0168362/presentations/17101663",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0168362/presentations",
+                    "rm:id": "17101663",
+                    "rm:user_id": "1000004934",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:Y02z8vhrqifgXG$J",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2018-02-05T18:12:08Z",
+                    "rm:modifier_id": "client_id:Y02z8vhrqifgXG$J",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2018-02-05T18:12:08Z",
+                    "presentation_title": {
+                        "ja": "Adaptive Filtering for Noise Reduction in the Input Circuits of Protection Relay Systems",
+                        "en": "Adaptive Filtering for Noise Reduction in the Input Circuits of Protection Relay Systems"
+                    },
+                    "presenters": {
+                        "ja": [
+                            {
+                                "name": "Masahide Abe"
+                            },
+                            {
+                                "name": "Shunsuke Koshita"
+                            },
+                            {
+                                "name": "Masayuki Kawamata"
+                            },
+                            {
+                                "name": "Shogo Miura"
+                            },
+                            {
+                                "name": "Tomoyuki Kawasaki"
+                            },
+                            {
+                                "name": "Katsuhiko Sekiguchi"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Masahide Abe"
+                            },
+                            {
+                                "name": "Shunsuke Koshita"
+                            },
+                            {
+                                "name": "Masayuki Kawamata"
+                            },
+                            {
+                                "name": "Shogo Miura"
+                            },
+                            {
+                                "name": "Tomoyuki Kawasaki"
+                            },
+                            {
+                                "name": "Katsuhiko Sekiguchi"
+                            }
+                        ]
+                    },
+                    "presenters_text": {
+                        "ja": "Masahide Abe, Shunsuke Koshita, Masayuki Kawamata, Shogo Miura, Tomoyuki Kawasaki, Katsuhiko Sekiguchi",
+                        "en": "Masahide Abe, Shunsuke Koshita, Masayuki Kawamata, Shogo Miura, Tomoyuki Kawasaki, Katsuhiko Sekiguchi"
+                    },
+                    "event": {
+                        "ja": "IEEE Power and Energy Society General Meeting",
+                        "en": "IEEE Power and Energy Society General Meeting"
+                    },
+                    "publication_date": "2010-01",
+                    "invited": false,
+                    "presentation_type": "oral_presentation",
+                    "description": {
+                        "ja": "Proceedings of IEEE Power and Energy Society General Meeting",
+                        "en": "Proceedings of IEEE Power and Energy Society General Meeting"
+                    },
+                    "is_international_presentation": true,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0168362/presentations/17101664",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0168362/presentations",
+                    "rm:id": "17101664",
+                    "rm:user_id": "1000004934",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:Y02z8vhrqifgXG$J",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2018-02-05T18:12:08Z",
+                    "rm:modifier_id": "client_id:Y02z8vhrqifgXG$J",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2018-02-05T18:12:08Z",
+                    "presentation_title": {
+                        "ja": "Explicit Expressions of the Balanced Realizations for Second-Order Filters",
+                        "en": "Explicit Expressions of the Balanced Realizations for Second-Order Filters"
+                    },
+                    "presenters": {
+                        "ja": [
+                            {
+                                "name": "Shunsuke Yamaki"
+                            },
+                            {
+                                "name": "Masahide Abe"
+                            },
+                            {
+                                "name": "Masayuki Kawamata"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Shunsuke Yamaki"
+                            },
+                            {
+                                "name": "Masahide Abe"
+                            },
+                            {
+                                "name": "Masayuki Kawamata"
+                            }
+                        ]
+                    },
+                    "presenters_text": {
+                        "ja": "Shunsuke Yamaki, Masahide Abe, Masayuki Kawamata",
+                        "en": "Shunsuke Yamaki, Masahide Abe, Masayuki Kawamata"
+                    },
+                    "event": {
+                        "ja": "2009 International Symposium on Intelligent Signal Processing and Communication Systems",
+                        "en": "2009 International Symposium on Intelligent Signal Processing and Communication Systems"
+                    },
+                    "publication_date": "2009-12",
+                    "invited": false,
+                    "presentation_type": "oral_presentation",
+                    "description": {
+                        "ja": "Proceedings of 2009 International Symposium on Intelligent Signal Processing and Communication Systems,No.TP2-B-3,pp.417-420",
+                        "en": "Proceedings of 2009 International Symposium on Intelligent Signal Processing and Communication Systems,No.TP2-B-3,pp.417-420"
+                    },
+                    "is_international_presentation": true,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0168362/presentations/17101665",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0168362/presentations",
+                    "rm:id": "17101665",
+                    "rm:user_id": "1000004934",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:Y02z8vhrqifgXG$J",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2018-02-05T18:12:08Z",
+                    "rm:modifier_id": "client_id:Y02z8vhrqifgXG$J",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2018-02-05T18:12:08Z",
+                    "presentation_title": {
+                        "ja": "A Simplified Method for Online Acoustic Feedback Path Modeling in Multichannel Active Noise Control Systems",
+                        "en": "A Simplified Method for Online Acoustic Feedback Path Modeling in Multichannel Active Noise Control Systems"
+                    },
+                    "presenters": {
+                        "ja": [
+                            {
+                                "name": "M. T. Akhtar"
+                            },
+                            {
+                                "name": "M. Abe"
+                            },
+                            {
+                                "name": "M. Kawamata"
+                            },
+                            {
+                                "name": "W. Mitsuhashi"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "M. T. Akhtar"
+                            },
+                            {
+                                "name": "M. Abe"
+                            },
+                            {
+                                "name": "M. Kawamata"
+                            },
+                            {
+                                "name": "W. Mitsuhashi"
+                            }
+                        ]
+                    },
+                    "presenters_text": {
+                        "ja": "M. T. Akhtar, M. Abe, M. Kawamata, W. Mitsuhashi",
+                        "en": "M. T. Akhtar, M. Abe, M. Kawamata, W. Mitsuhashi"
+                    },
+                    "event": {
+                        "ja": "SICE Annual Conference 2008",
+                        "en": "SICE Annual Conference 2008"
+                    },
+                    "publication_date": "2008-08",
+                    "invited": false,
+                    "presentation_type": "oral_presentation",
+                    "description": {
+                        "ja": "Proceedings of SICE Annual Conference 2008,pp.50-54",
+                        "en": "Proceedings of SICE Annual Conference 2008,pp.50-54"
+                    },
+                    "is_international_presentation": true,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0168362/presentations/17101666",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0168362/presentations",
+                    "rm:id": "17101666",
+                    "rm:user_id": "1000004934",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:Y02z8vhrqifgXG$J",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2018-02-05T18:12:08Z",
+                    "rm:modifier_id": "client_id:Y02z8vhrqifgXG$J",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2018-02-05T18:12:08Z",
+                    "presentation_title": {
+                        "ja": "Gramian-Preserving Frequency Transformation for Linear Discrete-Time Systems Using Normalized Lattice Structure",
+                        "en": "Gramian-Preserving Frequency Transformation for Linear Discrete-Time Systems Using Normalized Lattice Structure"
+                    },
+                    "presenters": {
+                        "ja": [
+                            {
+                                "name": "Shunsuke Koshita"
+                            },
+                            {
+                                "name": "Satoru Tanaka"
+                            },
+                            {
+                                "name": "Masahide Abe"
+                            },
+                            {
+                                "name": "Masayuki Kawamata"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Shunsuke Koshita"
+                            },
+                            {
+                                "name": "Satoru Tanaka"
+                            },
+                            {
+                                "name": "Masahide Abe"
+                            },
+                            {
+                                "name": "Masayuki Kawamata"
+                            }
+                        ]
+                    },
+                    "presenters_text": {
+                        "ja": "Shunsuke Koshita, Satoru Tanaka, Masahide Abe, Masayuki Kawamata",
+                        "en": "Shunsuke Koshita, Satoru Tanaka, Masahide Abe, Masayuki Kawamata"
+                    },
+                    "event": {
+                        "ja": "IEEE International Symposium on Circuits and Systems",
+                        "en": "IEEE International Symposium on Circuits and Systems"
+                    },
+                    "publication_date": "2008-05",
+                    "invited": false,
+                    "presentation_type": "oral_presentation",
+                    "description": {
+                        "ja": "Proceedings of IEEE International Symposium on Circuits and Systems,pp.1124-1127",
+                        "en": "Proceedings of IEEE International Symposium on Circuits and Systems,pp.1124-1127"
+                    },
+                    "is_international_presentation": true,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0168362/presentations/17101669",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0168362/presentations",
+                    "rm:id": "17101669",
+                    "rm:user_id": "1000004934",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:Y02z8vhrqifgXG$J",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2018-02-05T18:12:08Z",
+                    "rm:modifier_id": "client_id:Y02z8vhrqifgXG$J",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2018-02-05T18:12:08Z",
+                    "presentation_title": {
+                        "ja": "Design of FIR Digital Filters Without Transition-Band Fluctuations",
+                        "en": "Design of FIR Digital Filters Without Transition-Band Fluctuations"
+                    },
+                    "presenters": {
+                        "ja": [
+                            {
+                                "name": "Ken Kouno"
+                            },
+                            {
+                                "name": "Masahide Abe"
+                            },
+                            {
+                                "name": "Masayuki Kawamata"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Ken Kouno"
+                            },
+                            {
+                                "name": "Masahide Abe"
+                            },
+                            {
+                                "name": "Masayuki Kawamata"
+                            }
+                        ]
+                    },
+                    "presenters_text": {
+                        "ja": "Ken Kouno, Masahide Abe, Masayuki Kawamata",
+                        "en": "Ken Kouno, Masahide Abe, Masayuki Kawamata"
+                    },
+                    "event": {
+                        "ja": "RISP International Workshop on Nonlinear Circuits and Signal Processing",
+                        "en": "RISP International Workshop on Nonlinear Circuits and Signal Processing"
+                    },
+                    "publication_date": "2008-03",
+                    "invited": false,
+                    "presentation_type": "oral_presentation",
+                    "location": {
+                        "ja": "オーストラリア",
+                        "en": "Australia"
+                    },
+                    "description": {
+                        "ja": "Proceedings of the 2008 RISP International Workshop on Nonlinear Circuits and Signal Processing,pp.467-470",
+                        "en": "Proceedings of the 2008 RISP International Workshop on Nonlinear Circuits and Signal Processing,pp.467-470"
+                    },
+                    "is_international_presentation": true,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0168362/presentations/17101668",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0168362/presentations",
+                    "rm:id": "17101668",
+                    "rm:user_id": "1000004934",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:Y02z8vhrqifgXG$J",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2018-02-05T18:12:08Z",
+                    "rm:modifier_id": "client_id:Y02z8vhrqifgXG$J",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2018-02-05T18:12:08Z",
+                    "presentation_title": {
+                        "ja": "Blotch Detection Using a Background Subtraction Method in Old Film Sequences",
+                        "en": "Blotch Detection Using a Background Subtraction Method in Old Film Sequences"
+                    },
+                    "presenters": {
+                        "ja": [
+                            {
+                                "name": "Koki Shoji"
+                            },
+                            {
+                                "name": "Masahide Abe"
+                            },
+                            {
+                                "name": "Masayuki Kawamata"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Koki Shoji"
+                            },
+                            {
+                                "name": "Masahide Abe"
+                            },
+                            {
+                                "name": "Masayuki Kawamata"
+                            }
+                        ]
+                    },
+                    "presenters_text": {
+                        "ja": "Koki Shoji, Masahide Abe, Masayuki Kawamata",
+                        "en": "Koki Shoji, Masahide Abe, Masayuki Kawamata"
+                    },
+                    "event": {
+                        "ja": "RISP International Workshop on Nonlinear Circuits and Signal Processing",
+                        "en": "RISP International Workshop on Nonlinear Circuits and Signal Processing"
+                    },
+                    "publication_date": "2008-03",
+                    "invited": false,
+                    "presentation_type": "oral_presentation",
+                    "description": {
+                        "ja": "Proceedings of 2008 RISP International Workshop on Nonlinear Circuits and Signal Processing,pp.136-139",
+                        "en": "Proceedings of 2008 RISP International Workshop on Nonlinear Circuits and Signal Processing,pp.136-139"
+                    },
+                    "is_international_presentation": true,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0168362/presentations/17101667",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0168362/presentations",
+                    "rm:id": "17101667",
+                    "rm:user_id": "1000004934",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:Y02z8vhrqifgXG$J",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2018-02-05T18:12:08Z",
+                    "rm:modifier_id": "client_id:Y02z8vhrqifgXG$J",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2018-02-05T18:12:08Z",
+                    "presentation_title": {
+                        "ja": "Digital Filter Realizations with Minimum L2-Sensitivity and No Limit Cycles",
+                        "en": "Digital Filter Realizations with Minimum L2-Sensitivity and No Limit Cycles"
+                    },
+                    "presenters": {
+                        "ja": [
+                            {
+                                "name": "Shunsuke Yamaki"
+                            },
+                            {
+                                "name": "Masahide Abe"
+                            },
+                            {
+                                "name": "Masayuki Kawamata"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Shunsuke Yamaki"
+                            },
+                            {
+                                "name": "Masahide Abe"
+                            },
+                            {
+                                "name": "Masayuki Kawamata"
+                            }
+                        ]
+                    },
+                    "presenters_text": {
+                        "ja": "Shunsuke Yamaki, Masahide Abe, Masayuki Kawamata",
+                        "en": "Shunsuke Yamaki, Masahide Abe, Masayuki Kawamata"
+                    },
+                    "event": {
+                        "ja": "RISP International Workshop on Nonlinear Circuits and Signal Processing",
+                        "en": "RISP International Workshop on Nonlinear Circuits and Signal Processing"
+                    },
+                    "publication_date": "2008-03",
+                    "invited": false,
+                    "presentation_type": "oral_presentation",
+                    "location": {
+                        "ja": "オーストラリア",
+                        "en": "Australia"
+                    },
+                    "description": {
+                        "ja": "Proceedings of 2008 RISP International Workshop on Nonlinear Circuits and Signal Processing,pp.463-466",
+                        "en": "Proceedings of 2008 RISP International Workshop on Nonlinear Circuits and Signal Processing,pp.463-466"
+                    },
+                    "is_international_presentation": true,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0168362/presentations/17101670",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0168362/presentations",
+                    "rm:id": "17101670",
+                    "rm:user_id": "1000004934",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:Y02z8vhrqifgXG$J",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2018-02-05T18:12:08Z",
+                    "rm:modifier_id": "client_id:Y02z8vhrqifgXG$J",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2018-02-05T18:12:08Z",
+                    "presentation_title": {
+                        "ja": "FAST AND EFFICIENT MRF-BASED BLOTCH DETECTION ALGORITHM FOR DEGRADED FILM SEQUENCES",
+                        "en": "FAST AND EFFICIENT MRF-BASED BLOTCH DETECTION ALGORITHM FOR DEGRADED FILM SEQUENCES"
+                    },
+                    "presenters": {
+                        "ja": [
+                            {
+                                "name": "Sang-Churl NAM"
+                            },
+                            {
+                                "name": "Masahide ABE"
+                            },
+                            {
+                                "name": "Masayuki KAWAMATA"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Sang-Churl NAM"
+                            },
+                            {
+                                "name": "Masahide ABE"
+                            },
+                            {
+                                "name": "Masayuki KAWAMATA"
+                            }
+                        ]
+                    },
+                    "presenters_text": {
+                        "ja": "Sang-Churl NAM, Masahide ABE, Masayuki KAWAMATA",
+                        "en": "Sang-Churl NAM, Masahide ABE, Masayuki KAWAMATA"
+                    },
+                    "event": {
+                        "ja": "International Symposium on Intelligent Signal Processing and Communication Systems",
+                        "en": "International Symposium on Intelligent Signal Processing and Communication Systems"
+                    },
+                    "publication_date": "2007-11",
+                    "invited": false,
+                    "presentation_type": "oral_presentation",
+                    "description": {
+                        "ja": "Proceedings of 2007 International Symposium on Intelligent Signal Processing and Communication Systems,pp.261-264",
+                        "en": "Proceedings of 2007 International Symposium on Intelligent Signal Processing and Communication Systems,pp.261-264"
+                    },
+                    "is_international_presentation": true,
+                    "rm:is_open_access": false
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0168362/association_memberships",
+            "@type": "association_memberships",
+            "@reverse": "https://api.researchmap.jp/read0168362",
+            "total_items": 4,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0168362/association_memberships/8844811",
+                    "@type": "association_memberships",
+                    "@reverse": "https://api.researchmap.jp/read0168362/association_memberships",
+                    "rm:id": "8844811",
+                    "rm:user_id": "1000004934",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:Y02z8vhrqifgXG$J",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2018-02-05T18:12:08Z",
+                    "rm:modifier_id": "client_id:Y02z8vhrqifgXG$J",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2018-02-05T18:12:08Z",
+                    "academic_society_name": {
+                        "ja": "情報処理学会",
+                        "en": "情報処理学会"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0168362/association_memberships/8844810",
+                    "@type": "association_memberships",
+                    "@reverse": "https://api.researchmap.jp/read0168362/association_memberships",
+                    "rm:id": "8844810",
+                    "rm:user_id": "1000004934",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:Y02z8vhrqifgXG$J",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2018-02-05T18:12:08Z",
+                    "rm:modifier_id": "client_id:Y02z8vhrqifgXG$J",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2018-02-05T18:12:08Z",
+                    "academic_society_name": {
+                        "ja": "計測自動制御学会",
+                        "en": "計測自動制御学会"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0168362/association_memberships/8844809",
+                    "@type": "association_memberships",
+                    "@reverse": "https://api.researchmap.jp/read0168362/association_memberships",
+                    "rm:id": "8844809",
+                    "rm:user_id": "1000004934",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:Y02z8vhrqifgXG$J",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2018-02-05T18:12:08Z",
+                    "rm:modifier_id": "client_id:Y02z8vhrqifgXG$J",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2018-02-05T18:12:08Z",
+                    "academic_society_name": {
+                        "ja": "The Institute of Electrical and Electronic Enginee",
+                        "en": "The Institute of Electrical and Electronic Enginee"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0168362/association_memberships/8844808",
+                    "@type": "association_memberships",
+                    "@reverse": "https://api.researchmap.jp/read0168362/association_memberships",
+                    "rm:id": "8844808",
+                    "rm:user_id": "1000004934",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:Y02z8vhrqifgXG$J",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2018-02-05T18:12:08Z",
+                    "rm:modifier_id": "client_id:Y02z8vhrqifgXG$J",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2018-02-05T18:12:08Z",
+                    "academic_society_name": {
+                        "ja": "電子情報通信学会",
+                        "en": "電子情報通信学会"
+                    }
+                }
+            ]
+        }
+    ]
+}

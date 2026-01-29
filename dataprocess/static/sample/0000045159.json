@@ -1,0 +1,3917 @@
+{
+    "@context": "https://api.researchmap.jp/researcher.jsonld",
+    "@id": "https://api.researchmap.jp/read0005320?format=json",
+    "@type": "researchers",
+    "rm:user_id": "0000045159",
+    "rm:creator_id": "0000045159",
+    "rm:creator_type": "myself",
+    "rm:created": "2001-12-25T15:00:00Z",
+    "rm:modifier_id": "R000056286",
+    "rm:modifier_type": "institution",
+    "rm:modified": "2024-10-02T02:43:57Z",
+    "permalink": "read0005320",
+    "family_name": {
+        "ja": "木村",
+        "ja-Kana": "キムラ",
+        "en": "Kimura"
+    },
+    "given_name": {
+        "ja": "克己",
+        "ja-Kana": "カツミ",
+        "en": "Katsumi"
+    },
+    "display_name_kana": "disclosed",
+    "display_nickname": "disclosed",
+    "display_image": "disclosed",
+    "contact_point": "k.kimura@fgi.or.jp",
+    "display_contact_point": "disclosed",
+    "degrees": [
+        {
+            "degree": {
+                "ja": "理学博士"
+            },
+            "display_degree": "disclosed",
+            "rm:institution_code": "9999999999"
+        }
+    ],
+    "display_profile": "disclosed",
+    "see_also": [
+        {
+            "label": "j_global",
+            "@id": "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=200901083828985451"
+        },
+        {
+            "@id": "https://fukada-g.jp/",
+            "label": "url"
+        },
+        {
+            "@id": "https://fukada-g.jp/?page_id=2827",
+            "label": "url_en"
+        }
+    ],
+    "display_url": "disclosed",
+    "identifiers": {
+        "j_global_id": [
+            "200901083828985451"
+        ]
+    },
+    "rm:erad_id_verified": false,
+    "rm:orc_id_verified": false,
+    "display_erad_id": "closed",
+    "display_orc_id": "closed",
+    "display_researcher_id": "disclosed",
+    "display_j_global_id": "disclosed",
+    "@graph": [
+        {
+            "@id": "https://api.researchmap.jp/read0005320/research_areas",
+            "@type": "research_areas",
+            "@reverse": "https://api.researchmap.jp/read0005320",
+            "total_items": 1,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0005320/research_areas/30963694",
+                    "@type": "research_areas",
+                    "@reverse": "https://api.researchmap.jp/read0005320/research_areas",
+                    "rm:id": "30963694",
+                    "rm:user_id": "0000045159",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000045159",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2020-11-25T03:15:59Z",
+                    "rm:modifier_id": "0000045159",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2020-11-25T03:15:59Z",
+                    "discipline_number": "A1000",
+                    "item_number": "A17030",
+                    "discipline": {
+                        "ja": "自然科学一般",
+                        "en": "Natural sciences"
+                    },
+                    "research_field": {
+                        "ja": "地球人間圏科学",
+                        "en": "Human geoscience"
+                    }
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0005320/published_papers",
+            "@type": "published_papers",
+            "@reverse": "https://api.researchmap.jp/read0005320",
+            "total_items": 65,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0005320/published_papers/37377301",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0005320/published_papers",
+                    "rm:id": "37377301",
+                    "rm:user_id": "0000045159",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2022-06-28T09:04:45Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-06-28T09:04:45Z",
+                    "paper_title": {
+                        "ja": "埋没地形面の形成過程を考慮したボーリングデータ補間による沖積層基底面モデルの三次元解析：東京低地北部から中川低地南部の沖積層の例",
+                        "en": "Three-dimensional analysis of a stratigraphic surface model by the borehole data interpolation in consideration of the formation process of buried geomorhic surfaces : a case of the basal surface model of the latest Pleistocene to Holocene incised-valley fills in the northern Tokyo lowland and the southern Nakagawa lowland, central Japan"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "木村 克己"
+                            },
+                            {
+                                "name": "花島 裕樹"
+                            },
+                            {
+                                "name": "石原 与四郎"
+                            },
+                            {
+                                "name": "西山 昭一"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Kimura Katsumi"
+                            },
+                            {
+                                "name": "Hanashima Yuki"
+                            },
+                            {
+                                "name": "Ishihara Yoshiro"
+                            },
+                            {
+                                "name": "Nishiyama Shoichi"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "ja": "東京低地北部から中川低地南部に分布する沖積層を対象として，地形・地質の形成過程を考慮したボーリングデータ補間による沖積層基底面モデルの三次元解析方法を示す．作成手順は以下の通りである．（1）沖積層基底面はボーリングデータから，そして沖積層の地表境界線と台地面は地質図と国土地理院の数値地図5 mメッシュ（標高）から，それぞれ実ポイントデータを作成する，（2）埋没平坦面と侵食崖との境界，支谷筋を明確にするために補填ポイントデータを作成する，（3）形成年代の異なる埋没平坦面毎に実ポイントデータから面モデルを求めそのポイントデータを作成する，（4）これらのポイントデータから，沖積層基底面モデルを空間補間処理計算によって求める．得られた沖積層基底面モデルは，ボーリングデータの不足・偏在の影響を補い，沖積低地に伏在する最終氷期最盛期頃に形成された古地形面を近似するものとなる．",
+                        "en": "The article presents a 3D analysis method by interpolating borehole data to improve the precision of the surface model of the base of the latest Pleistocene to Holocene incised-valley fill, called the Chuseki-so in Japan. The study area is located in the northeastern part of the metropolis, where the northern Tokyo and the southern Nakagawa lowlands meet and are surrounded by adjacent uplands. A borehole database for this area was used for analysis.<br>The procedure to construct the surface model involves the following steps : (1) generate primary point data of (a) the basal horizon of the Chuseki-so using borehole data, (b) a 3D boundary line between the alluvial lowland and the adjacent Pleistocene upland areas, and (c) the adjacent upland area using a digital elevation model at a 5-m grid resolution; (2) add secondary point data to adjust the geomorphic form of both the valley branches and boundary lines between terraces and cliffs buried by the Chuseki-so; (3) generate point data of each buried river terrace and abrasion platform, and finally; (4) construct the surface model by spatially interpolating the point data generated in steps 1–3.<br>It is necessary to consider the geologic and geomorphic formation process and evolution of this area so as to improve the form of the surface model of the base of the Chuseki-so and to better understand the geomorphic features of the incised-valley."
+                    },
+                    "publisher": {
+                        "ja": "The Geological Society of Japan",
+                        "en": "The Geological Society of Japan"
+                    },
+                    "publication_date": "2013",
+                    "publication_name": {
+                        "ja": "地質学雑誌",
+                        "en": "Jour. Geol. Soc. Japan"
+                    },
+                    "volume": "119",
+                    "number": "8",
+                    "starting_page": "537",
+                    "ending_page": "553",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.5575/geosoc.2013.0028"
+                        ],
+                        "issn": [
+                            "0016-7630"
+                        ],
+                        "cinii_na_id": [
+                            "130003382967"
+                        ],
+                        "cinii_nc_id": [
+                            "AN00141768"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.5575/geosoc.2013.0028",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/130003382967",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_books",
+                            "@id": "http://ci.nii.ac.jp/ncid/AN00141768",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "http://id.ndl.go.jp/bib/024924161",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "https://jlc.jst.go.jp/DN/JALC/10023589093?from=CiNii",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0005320/published_papers/37377287",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0005320/published_papers",
+                    "rm:id": "37377287",
+                    "rm:user_id": "0000045159",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2022-06-28T09:04:41Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-06-28T09:04:41Z",
+                    "paper_title": {
+                        "ja": "東京港湾地域のボーリング情報を用いた浅層3次元地質・地盤モデル",
+                        "en": "Shallow subsurface three-dimensional geological model using borehole logs in Tokyo Bay area, central Japan"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "石原 与四郎"
+                            },
+                            {
+                                "name": "宮崎 友紀"
+                            },
+                            {
+                                "name": "江藤 稚佳子"
+                            },
+                            {
+                                "name": "福岡 詩織"
+                            },
+                            {
+                                "name": "木村 克己"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Ishihara Yoshiro"
+                            },
+                            {
+                                "name": "Miyazaki Yuki"
+                            },
+                            {
+                                "name": "Eto Chikako"
+                            },
+                            {
+                                "name": "Fukuoka Shiori"
+                            },
+                            {
+                                "name": "Kimura Katsumi"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "ja": "平野地下に分布する沖積層は，主として土質ボーリングによってその分布の実態が明らかにされてきた．これらの研究では，膨大な数からなる数値化されたボーリング情報を用いて，3次元地盤モデルがしばしば構築されるが，それらはサーフェイスモデルであることが多い．本研究では，東京都港湾局よって管理されている東京湾岸地域のボーリングデータベースを用いて，3次元地質モデルの構築を試みた．東京湾岸地域の地下は，更新統の江戸川層，東京層が最終氷期最盛期までに削られて埋没地形を形成し，それらを覆って厚い沖積層が分布する．ボーリングデータベースは多様な土質情報を含むが，本研究では特に粒度組成に注目した岩相モデルと<i>N</i>値のモデルを構築した．構築したモデルは，既存の断面図と調和的な沖積層基底地形や層相を示すとともに，いままで明らかになっていなかった平面的な層相の分布を明瞭に示した．",
+                        "en": "\"Chuseki-so\" are deposits that formed after the last glacial maximum and are distributed under alluvial plains. The detailed distribution and stratigraphy of these Chuseki-so deposits have been revealed mainly by borehole surveys. Borehole databases created from soil surveys on plains in the study of Chuseki-so and the examination of sedimentary cores reveal the latest Pleistocene to Holocene subsurface geology. Although three-dimensional geological models of these shallow subsurface geological distributions have been constructed using the borehole databases for several alluvial plains, most such models are surface models and have problems handling subsurface aspects such as the identification of stratigraphic boundaries. In this study, we constructed \"voxel-based\" three-dimensional geological models using a borehole database for the Tokyo Bay area. The shallow subsurface geology of the Tokyo Bay area consists of the buried topography of the Pliocene Edogawa and Tokyo formations created by the last glacial maximum, and thick incised-valley fills. The borehole database is composed of various soil parameters in addition to lithology and the <i>N</i>-value, a standard penetration test of logs. We constructed two types of models: a lithologic model based on grain size analysis and an <i>N</i>-value model. The three-dimensional models agree well with previous studies of sedimentary facies distributions and buried topography, and show the spatial distributions of subsurface shallow-marine deposits under the Tokyo Bay area."
+                    },
+                    "publisher": {
+                        "ja": "The Geological Society of Japan",
+                        "en": "The Geological Society of Japan"
+                    },
+                    "publication_date": "2013",
+                    "publication_name": {
+                        "ja": "地質学雑誌",
+                        "en": "Jour. Geol. Soc. Japan"
+                    },
+                    "volume": "119",
+                    "number": "8",
+                    "starting_page": "554",
+                    "ending_page": "566",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.5575/geosoc.2013.0019"
+                        ],
+                        "issn": [
+                            "0016-7630"
+                        ],
+                        "cinii_na_id": [
+                            "130003382968"
+                        ],
+                        "cinii_nc_id": [
+                            "AN00141768"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.5575/geosoc.2013.0019",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/130003382968",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_books",
+                            "@id": "http://ci.nii.ac.jp/ncid/AN00141768",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "http://id.ndl.go.jp/bib/024924182",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "https://jlc.jst.go.jp/DN/JALC/10023589109?from=CiNii",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0005320/published_papers/35084982",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0005320/published_papers",
+                    "rm:id": "35084982",
+                    "rm:user_id": "0000045159",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2021-10-24T21:06:40Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2021-10-24T21:06:40Z",
+                    "paper_title": {
+                        "ja": "<b>北海道当別町太美地区で掘削された沖積層ボーリングコア（GS-HTF-1）</b><b>の層序学的及び堆積学的解析</b>",
+                        "en": "Stratigraphic and sedimentologic analyses of the latest Pleistocene to Holocene sediment core GS-HTF-1 recovered from the Ishikari coastal plain, Futomi, Tobetsu, Hokkaido, Japan"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "川上 源太郎"
+                            },
+                            {
+                                "name": "嵯峨山 積"
+                            },
+                            {
+                                "name": "仁科 健二"
+                            },
+                            {
+                                "name": "中島 礼"
+                            },
+                            {
+                                "name": "廣瀬 亘"
+                            },
+                            {
+                                "name": "大津 直"
+                            },
+                            {
+                                "name": "木村 克己"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Kawakami Gentaro"
+                            },
+                            {
+                                "name": "Sagayama Tsumoru"
+                            },
+                            {
+                                "name": "Nishina Kenji"
+                            },
+                            {
+                                "name": "Nakanishi Rei"
+                            },
+                            {
+                                "name": "Hirose Wataru"
+                            },
+                            {
+                                "name": "Ohtsu Sunao"
+                            },
+                            {
+                                "name": "Kimura Katsumi"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "ja": "北海道当別町太美で掘削した沖積層ボーリングコアGS-HTF-1 は，堆積相，産出する珪藻並びに貝化石，<sup>14</sup>C 年代から，下位より礫質河川堆積物（ユニット2），蛇行河川の堆積物（ユニット3），内湾～湾口砂体～デルタフロントの堆積物（ユニット4），塩水湿地及び河川堆積物（デルタプレーン堆積物）（ユニット5）に区分される．各ユニットにおける堆積物物性・粒度組成は層相と対応する．また堆積物懸濁液の pH・ECの値は解釈された堆積環境と相関しており，ユニット4 では他ユニットと比べて値がやや高く，堆積場における海水の寄与を反映する．ただし，内湾泥層（ユニット4-a）の pH，EC は河川層と同程度の低い値を示した．13試料の <sup>14</sup>C 年代から作成した堆積曲線によると，礫質河川から蛇行河川環境への転換は 12,000cal BP 頃，河川から内湾環境への転換は9,000 cal BP 頃である．また縄文海進最盛期の 8,000cal BP 頃に湾口砂体が湾奥に急速に前進し，高頂期の 8,000 ～ 7,000cal BP 頃には海側へ後退的に累重した．7,000cal BP にはデルタフロントが到達し，湾口砂体を覆った．",
+                        "en": "The detailed stratigraphy and sedimentary facies of the latest Pleistocene to Holocene incised-valley fills were analyzed at Futomi, Tobetsu, in the Ishikari coastal plain, Hokkaido, northern Japan. A boring core, named GS-HTF-1, was obtained at a site （43°11' 57.78''N, 141°26' 53.53''E） located along the axis of the paleo-Ishikari River valley during the last glacial age. The succession in the core can be divided into four stratigraphic units on the basis of sedimentary facies, diatom assemblages, molluscan fossils, and AMS radiocarbon ages: gravelly river deposits （Unit 2; 60.0-51.0 m below the ground surface), meandering river deposits （Unit 3; 51.0-22.4 m), inner-bay, bay-mouth to delta front deposits （Unit 4; 22.4-8.6 m), and salt marsh and fluvial （delta plain） deposits （Unit 5; 8.6-1.5 m), in ascending order. The physical properties of the sediments correspond to their sedimentary facies and stratigraphic positions. The pH and EC （electric conductivity） values of the muddy sediments are in good agreement with the interpreted depositional environments, i.e. the sediments of Unit 4 provide relatively higher pH and EC values than other units, although the inner-bay mud （Unit 4-a） show low values same as the fluvial deposits. The accumulation curve constructed based on the AMS <sup>14</sup>C ages of twelve samples provides information on the timing of periods of environmental change at the studied site during a Holocene transgression: （1） the onset of deposition in a meandering river system, succeeding a gravelly river system, occurred at about 12,000 cal BP; （2） the inner-bay environment rapidly expanded to the study site at around 9,000 cal BP; （3） the bay-mouth sands prograded landward on the inner-bay floor due to rapid sea-level rise at around 8,000 cal BP, and the sands retrogradationaly aggraded during a sea-level highstand of 8,000-7,000 cal BP; and （4） the delta front deposits covered the bay-mouth sand body at around 7,000 cal BP."
+                    },
+                    "publisher": {
+                        "ja": "National Institute of Advanced Industrial Science and Technology, Geological Survey of Japan",
+                        "en": "National Institute of Advanced Industrial Science and Technology, Geological Survey of Japan"
+                    },
+                    "publication_date": "2012",
+                    "publication_name": {
+                        "ja": "地質調査研究報告",
+                        "en": "Bull. Geol. Surv. Japan"
+                    },
+                    "volume": "63",
+                    "number": "1",
+                    "starting_page": "21",
+                    "ending_page": "34",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.9795/bullgsj.63.21"
+                        ],
+                        "issn": [
+                            "1346-4272"
+                        ],
+                        "cinii_na_id": [
+                            "130001921521"
+                        ],
+                        "cinii_nc_id": [
+                            "AA11587519"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.9795/bullgsj.63.21",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/130001921521",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_books",
+                            "@id": "http://ci.nii.ac.jp/ncid/AA11587519",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "http://id.ndl.go.jp/bib/024042469",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "https://jlc.jst.go.jp/DN/JALC/10008084292?from=CiNii",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0005320/published_papers/34186155",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0005320/published_papers",
+                    "rm:id": "34186155",
+                    "rm:user_id": "0000045159",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2021-10-20T09:05:25Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2021-10-20T09:05:25Z",
+                    "paper_title": {
+                        "ja": "<b>北海道石狩平野，石狩市親船地区で掘削された沖積層ボーリングコア (GS-HIS-1) の層序学的及び堆積学的解析</b>",
+                        "en": "Stratigraphic and sedimentologic analysis of the latest Pleistocene to Holocene sediment core GS-HIS-1 recovered from the Ishikari coastal plain, Oyafune, Ishikari, Hokkaido, Japan"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Gentaro Kawakami"
+                            },
+                            {
+                                "name": "Ayako Funabiki"
+                            },
+                            {
+                                "name": "Tsumoru Sagayama"
+                            },
+                            {
+                                "name": "Rei Nakashima"
+                            },
+                            {
+                                "name": "Kenji Nishina"
+                            },
+                            {
+                                "name": "Wataru Hirose"
+                            },
+                            {
+                                "name": "Sunao Ohtsu"
+                            },
+                            {
+                                "name": "Yousuke Isomae"
+                            },
+                            {
+                                "name": "Katsumi Kimura"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "en": "National Institute of Advanced Industrial Science"
+                    },
+                    "publication_date": "2012",
+                    "publication_name": {
+                        "en": "BULLETIN OF THE GEOLOGICAL SURVEY OF JAPAN"
+                    },
+                    "volume": "63",
+                    "number": "5-6",
+                    "starting_page": "129",
+                    "ending_page": "146",
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.9795/bullgsj.63.129"
+                        ],
+                        "issn": [
+                            "1346-4272"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.9795/bullgsj.63.129",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0005320/published_papers/26562992",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0005320/published_papers",
+                    "rm:id": "26562992",
+                    "rm:user_id": "0000045159",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_papers",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-04-20T02:45:57Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-09-12T03:58:58Z",
+                    "paper_title": {
+                        "ja": "埼玉県三郷市彦成地区の沖積層ボーリングコア（ GS-MHI-1）の堆積相・珪藻化韓国石群集組成・物性・放射性炭素年代値",
+                        "en": "埼玉県三郷市彦成地区の沖積層ボーリングコア（ GS-MHI-1）の堆積相・珪藻化韓国石群集組成・物性・放射性炭素年代値"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "中西利典"
+                            },
+                            {
+                                "name": "田辺 晋"
+                            },
+                            {
+                                "name": "木村克己"
+                            },
+                            {
+                                "name": "中島 礼"
+                            },
+                            {
+                                "name": "内山美恵子"
+                            },
+                            {
+                                "name": "柴田康行"
+                            }
+                        ],
+                        "ja": [
+                            {
+                                "name": "中西利典"
+                            },
+                            {
+                                "name": "田辺 晋"
+                            },
+                            {
+                                "name": "木村克己"
+                            },
+                            {
+                                "name": "中島 礼"
+                            },
+                            {
+                                "name": "内山美恵子"
+                            },
+                            {
+                                "name": "柴田康行"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "ja": "中川低地南部の開析谷中軸で掘削した沖積層ボーリングコア試料（GS-MHI-1）を用いて，堆積相，珪藻化石群集組成，物性，AMS放射性炭素年代値について検討した．その結果，下位から，網状河川流路，蛇行河川の氾濫原，潮汐の影響した流路，潮汐の影響した上方深海化する浅海底，上方浅海化する浅海底，河川と潮汐の影響した上方浅海化する浅海底，現世河川流路～氾濫原の合計7つの堆積相を認定した．これらの堆積相を開析谷西縁部での解析結果及び既存土質柱状図と対比することによって，下位から，網状河川，蛇行河川，エスチュア リー，デルタの合計4つの堆積システムを開析谷の横断方向で認定した．その結果，蛇行河川システムによる地層はほぼ水平に分布するのに対して，エスチュアリーとデルタシステムによるものは非対称に分布することを推定した．この沖積層上部の軟弱な海成泥層は谷の西縁辺から中軸へと徐々に形成されたものであり，この非対称な分布は建造物の構造・工法や大規模地震による強震動，地盤沈下被害などに影響をもたらす可能性がある．",
+                        "en": "The sedimentary facies, diatom assemblages, physical properties and AMS radiocarbon ages were determined for the core sediment (GS-MHI-1) of the latest Pleistocene to Holocene incised valley filled deposits in the southern Nakagawa Lowland, Kanto Plain, Japan. In the core sediment, we recognized seven sedimentary facies, that is, braided river channel fill, meandering river floodplain sediments, tidal-influenced channel fill, tide-influenced transgressive shallow marine sediments, upward shallowing marine sediments, tide-influenced upward shallowing marine sediments, and modern river channel fill to floodplain sediments, in ascending order. These sedimentary facies and the radiocarbon dates are correlated to the stratigraphy of the other core that was obtained at the western side of the incised valley. These lithologies are also correlated to the existing borehole log columns drilled for engineering purposes. Judging from these correlation, we idenfied four sedimentary systems to account for the spatio-temporal distribution of the sedimentary facies across the axis of the main incised valley in this area; braided river, meandering river, estuary, and upward-shallowing delta, in ascending order. The meandering river system indicates almost a horizontal attitude across the valley; however the estuary and delta systems have an asymmetric depositional attitude dipping eastward. The thick soft marine mud is included in these systems. This asymmetric distribution of the muddy system should be especially remarked for geological hazards under the activating urbanization area."
+                    },
+                    "publisher": {
+                        "ja": "National Institute of Advanced Industrial Science and Technology, Geological Survey of Japan",
+                        "en": "National Institute of Advanced Industrial Science and Technology, Geological Survey of Japan"
+                    },
+                    "publication_date": "2011-03",
+                    "publication_name": {
+                        "ja": "地質調査研究報告",
+                        "en": "地質調査研究報告"
+                    },
+                    "volume": "62",
+                    "number": "1/2",
+                    "starting_page": "p.3",
+                    "ending_page": "46",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.9795/bullgsj.62.3"
+                        ],
+                        "issn": [
+                            "1346-4272"
+                        ],
+                        "cinii_na_id": [
+                            "130003379239"
+                        ],
+                        "cinii_nc_id": [
+                            "AA11587519"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.9795/bullgsj.62.3",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/130003379239",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_books",
+                            "@id": "http://ci.nii.ac.jp/ncid/AA11587519",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "http://id.ndl.go.jp/bib/11045121",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "https://jlc.jst.go.jp/DN/JALC/00375814028?from=CiNii",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0005320/published_papers/26562989",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0005320/published_papers",
+                    "rm:id": "26562989",
+                    "rm:user_id": "0000045159",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_papers",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-04-20T02:45:57Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-09-12T03:59:01Z",
+                    "paper_title": {
+                        "ja": "中川低地中部の埼玉県春日部市東備後地区に分布する沖積層の堆積相・珪藻化石群集組成・物性・放射性炭素年代値",
+                        "en": "中川低地中部の埼玉県春日部市東備後地区に分布する沖積層の堆積相・珪藻化石群集組成・物性・放射性炭素年代値"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "中西利典"
+                            },
+                            {
+                                "name": "田辺 晋"
+                            },
+                            {
+                                "name": "木村克己"
+                            },
+                            {
+                                "name": "中島 礼"
+                            },
+                            {
+                                "name": "内山美恵子"
+                            },
+                            {
+                                "name": "柴田康行"
+                            }
+                        ],
+                        "ja": [
+                            {
+                                "name": "中西利典"
+                            },
+                            {
+                                "name": "田辺 晋"
+                            },
+                            {
+                                "name": "木村克己"
+                            },
+                            {
+                                "name": "中島 礼"
+                            },
+                            {
+                                "name": "内山美恵子"
+                            },
+                            {
+                                "name": "柴田康行"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "ja": "埼玉県東部の中川低地一帯では，1923年の大正関東地震の際に震源から100km程度離れているにもかかわらず震度7に相当する家屋の倒壊被害が報告されている．この被害の大きい地域に分布する沖積層の特徴及びその成因を調べることを目的にして，春日部市備後東地区で掘削したボーリングコア試料（GS-KBH-1）を用いて，堆積相・珪藻化石群集組成・物性・AMS放射性炭素年代値について検討した．その結果，沖積層は下位から，網状河川流路，蛇行河川の氾濫原，干潟，潮汐の影響した上方深海化する浅海底，上方浅海化する浅海底，塩水湿地，現世河川流路～氾濫原の合計6つの堆積相が認定できる．表層～深度20m以上に分布する泥層は，9,000 cal BP ～現世にかけて0.5 mm/yr程度のほぼ一定した堆積速度で徐々に形成されており，低密度・高含水率・低Ｎ値 の特徴を有する．このような軟弱な泥層は，奥東京湾から現在の低地へと移り変わる過程で形成されたものであると考えられる．こうした泥層が分布する地域でも近年では都市化が進行しているので，将来発生する大規模地震の際には強震動について留意する必要がある．",
+                        "en": "Heavy collapse damage of wooden houses had been reported in some area of the Nakagawa Lowland in the eastern part of Saitama Prefecture, about 100 km distant from the hypocenter of the AD 1923 Great Kanto earthquake. To examine the geology of shallow under ground (less than 50 m depth) in the heavy damaged area, we analyzed the sedimentary facies, diatom assemblages, physical properties, and AMS radiocarbon agesin the latest Pleistocene to Holocene incised-valley sediments at the kasukabe city. On the result, we recognized seven sedimentary facies; braided river channel fills, meandering river floodplain sediments, tidal flat sediments, tideinfluenced transgressive shallow marine sediments, upward-shallowing marine sediments, salt marsh sediments, and modern river channel fill to floodplain sediments, in ascending order. Muddy sediments are observed in the depth range of 0-20 m. These sediments are characterized by low-density, high-water-contents, and lowSPT-N-value. They accumulated at the rate of 0.5 mm/yr since 9,000 cal BP in the Inner Tokyo Bay. These soft sediments should be especially attended for future large earthquakes."
+                    },
+                    "publisher": {
+                        "ja": "National Institute of Advanced Industrial Science and Technology, Geological Survey of Japan",
+                        "en": "National Institute of Advanced Industrial Science and Technology, Geological Survey of Japan"
+                    },
+                    "publication_date": "2011-03",
+                    "publication_name": {
+                        "ja": "地質調査研究報告",
+                        "en": "地質調査研究報告"
+                    },
+                    "volume": "62",
+                    "number": "1/2",
+                    "starting_page": "p.47",
+                    "ending_page": "84",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.9795/bullgsj.62.47"
+                        ],
+                        "issn": [
+                            "1346-4272"
+                        ],
+                        "cinii_na_id": [
+                            "130003379240"
+                        ],
+                        "cinii_nc_id": [
+                            "AA11587519"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.9795/bullgsj.62.47",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/130003379240",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_books",
+                            "@id": "http://ci.nii.ac.jp/ncid/AA11587519",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "http://id.ndl.go.jp/bib/11045460",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "https://jlc.jst.go.jp/DN/JALC/00375814035?from=CiNii",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0005320/published_papers/41669490",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0005320/published_papers",
+                    "rm:id": "41669490",
+                    "rm:user_id": "0000045159",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2023-03-09T02:30:46Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2023-03-09T02:30:46Z",
+                    "paper_title": {
+                        "ja": "堆積物供給量の違いによる最大海氾濫面の年代差ー首都圏沖積層の例ー",
+                        "en": "Time gap between maximum flooding surfaces in two lowlands, Tokyo area, due to difference in sedimentary supply"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "小松原 純子"
+                            },
+                            {
+                                "name": "中島 礼"
+                            },
+                            {
+                                "name": "木村 克己"
+                            },
+                            {
+                                "name": "石原 与四郎"
+                            },
+                            {
+                                "name": "内田 昌男"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Komatsubara Junko"
+                            },
+                            {
+                                "name": "Nakashima Rei"
+                            },
+                            {
+                                "name": "Kimura Katsumi"
+                            },
+                            {
+                                "name": "Ishihara Yoshiro"
+                            },
+                            {
+                                "name": "Uchida Masao"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "一般社団法人 日本地質学会",
+                        "en": "The Geological Society of Japan"
+                    },
+                    "publication_date": "2011",
+                    "publication_name": {
+                        "ja": "日本地質学会学術大会講演要旨",
+                        "en": "Annual Meeting of the Geological Society of Japan"
+                    },
+                    "volume": "2011",
+                    "starting_page": "338",
+                    "ending_page": "338",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.14863/geosocabst.2011.0.338.0"
+                        ],
+                        "issn": [
+                            "1348-3935"
+                        ],
+                        "e_issn": [
+                            "2187-6665"
+                        ],
+                        "cinii_na_id": [
+                            "130004596175"
+                        ],
+                        "cinii_cr_id": [
+                            "1390282680507812864"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.14863/geosocabst.2011.0.338.0",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_research",
+                            "@id": "https://cir.nii.ac.jp/crid/1390282680507812864?lang=ja",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0005320/published_papers/38961617",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0005320/published_papers",
+                    "rm:id": "38961617",
+                    "rm:user_id": "0000045159",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2022-07-21T06:35:15Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-07-21T06:35:15Z",
+                    "paper_title": {
+                        "ja": "巻頭言：都市地質研究の展開（その3）",
+                        "en": "Preface: Urban Geology in Geological Survey of Japan, AIST -Part 3-"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "木村 克己"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Kimura Katsumi"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "National Institute of Advanced Industrial Science and Technology, Geological Survey of Japan",
+                        "en": "National Institute of Advanced Industrial Science and Technology, Geological Survey of Japan"
+                    },
+                    "publication_date": "2011",
+                    "publication_name": {
+                        "ja": "地質調査研究報告",
+                        "en": "Bull. Geol. Surv. Japan"
+                    },
+                    "volume": "62",
+                    "number": "1",
+                    "starting_page": "1",
+                    "ending_page": "2",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.9795/bullgsj.62.1"
+                        ],
+                        "issn": [
+                            "1346-4272"
+                        ],
+                        "cinii_na_id": [
+                            "130003379242"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.9795/bullgsj.62.1",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/130003379242",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "https://jlc.jst.go.jp/DN/JALC/10020773600?from=CiNii",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0005320/published_papers/38961610",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0005320/published_papers",
+                    "rm:id": "38961610",
+                    "rm:user_id": "0000045159",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2022-07-21T06:35:11Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-07-21T06:35:11Z",
+                    "paper_title": {
+                        "ja": "東京低地と中川低地の沖積層堆積物で作成した懸濁液の水素イオン濃度指数及び電気伝導度",
+                        "en": "Electric conductivity and pH profiles of pore water extracted from the latest Pleistocene to Holocene sediments in the Tokyo and the Nakagawa Lowlands, Central Japan"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "内山 美恵子"
+                            },
+                            {
+                                "name": "原 未来也"
+                            },
+                            {
+                                "name": "竹内 美緒"
+                            },
+                            {
+                                "name": "木村 克己"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Uchiyama Mieko"
+                            },
+                            {
+                                "name": "Hara Mikiya"
+                            },
+                            {
+                                "name": "Takeuchi Mio"
+                            },
+                            {
+                                "name": "Kimura Katsumi"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "ja": "沖積層の原位置の化学的特性を得るための懸濁液作成法として，地盤工学会の土質試験法の懸濁液作成法（JGS 法）と，環境省の公定法の検液作成法（OM法）の両方法を参照して，適切な検液作成法を得るために基礎実験をおこなった．その結果，OM法に規定されているろ過，乾燥，振とうの各処理について，pHとECともに影響を受けることが判明した．本実験では，JGS法についてはOM法のろ過処理を加え，OM法では乾燥処理と酸処理を省くという修正をした上で，両方法による分析実験を行った．分析対象とした沖積層の堆積物試料は，産総研の都市地質プロジェクトで実施された東京低地と中川低地で得られた層序ボーリングコアから採取した．採取した堆積物試料から懸濁液を作成し，そのpHとECを測定した．pHとECの深度方向の変化プロファイルは3本のコアでほぼ共通しており，上位より下位へ，最上部低値安定区間，上部遷値区間，中部高値安定区間，下部遷値区間，最下部低値安定区間の5つの区間に識別される．中性でかつ低EC値を意味する最上部と最下部の両低値安定区間は，pHとECともに同一深度範囲であり，相当する堆積物は淡水成環境の蛇行河川堆積物に限定される．一方，弱アルカリ性,高EC値を意味する中部高値安定区間は，pHに比べてECの同区間が短いがいずれもデルタシステムの海成環境の堆積物に限定されることが判明した．中部高値安定区間のpHは，フィルタリング処理の中で1 ～1.5低下していることを考慮すると，原位置の同pHはpH9-10である．今回得られた沖積層の海成堆積物試料の懸濁水のpHとEC，主要イオン濃度は海水と比較すると，イオン濃度が桁違いに低く，イオン組成ともに違っていることから，堆積後現時点までに顕著なイオンの溶脱・移動や化学反応があったものと推定される．しかし，今回得た沖積層のpHとECの深度変化の特徴的なプロファイルは，淡水成と海成の堆積環境を識別する指標として利用できるものと期待される．",
+                        "en": "The latest Pleistocene to Holocene incised-valley fills (so called Chuseki-so) are distributed beneath the Tokyo and the Nakagawa Lowlands, central Japan. The Chuseki-so has been divided into the delta system, the estuary system, the meandering river system and the braded river system, in a descending order. This study has two purposes. One is to set up properly the method of chemical analysis of core sediment for evaluatingthe chemical features of in-situ the chuseki-so. The other is to make clear pH and electoric conductivity (EC) of the Chuseki-so and the relationship between these characters and the sedimentary environment. In the beginning, it was provided to carry out the comparative study of two typical existing techniques, that is, the official method defined by the environmental quality standards for soil declared by the Ministry of the Environment (called OM method) and the soil test build up by the Japanese Geotechnical Society (called JGS method). It turns out that the pH and EC values are influenced by shaking, filtering and drying treatments used in the OM method. The former two was adopted, because they are necessary to analyze the ionic density. On the other hand, the latter was not adopted, and instead, the test samples were treated in the wet condition of the borehole sedimentary cores. Next, based on these two revised method, we analyzed the pH and EC characteristic of the extracts of the Chuseki-so collected from three borehole cores (GS-MHI-1, GS-KNJ-1 and GS-KM-1) in the Tokyo and the Nakagawa Lowlands, central Japan. The results are following. 1) It turns out that the depth variations of the pH and EC values present the same profiles by two different methods of chemical analysis (the OM and JGS methods), through three different cores; that is, the uppermost low value interval, the upper increasing-value interval, the middle high value interval, the lower decreasingvalue interval, and the lowermost low-value interval, in descending order. The uppermost and lowermost low value intervals are characterized by pH 7 and low EC value, while the middle high value interval by alkalescence with pH 9 to10 and high EC value. 2) The middle high value interval is, a range from above sea level -7m to -34m, correlated to the marine sedimentary environment ranging from the delta system except for the uppermost part (modern recent river sediments) to the upper part of the estuarine system. The uppermost low value interval is a range from above sea level -2m to -8m, and the lowermost low value interval ranges from above sea level -38m to -52m. Both intervals are correlated to the fresh water sedimentary environment of the uppermost part of the delta system and the meandering system. The depth range of the each interval almost reflects that of the sedimentary environments in each borehole cores. The above-mentioned facts direct the characteristic pH and EC depth variation trend to be an effective index of the paleoenvironment of the Chuseki-so."
+                    },
+                    "publisher": {
+                        "ja": "National Institute of Advanced Industrial Science and Technology, Geological Survey of Japan",
+                        "en": "National Institute of Advanced Industrial Science and Technology, Geological Survey of Japan"
+                    },
+                    "publication_date": "2011",
+                    "publication_name": {
+                        "ja": "地質調査研究報告",
+                        "en": "Bull. Geol. Surv. Japan"
+                    },
+                    "volume": "62",
+                    "number": "1",
+                    "starting_page": "85",
+                    "ending_page": "104",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.9795/bullgsj.62.85"
+                        ],
+                        "issn": [
+                            "1346-4272"
+                        ],
+                        "cinii_na_id": [
+                            "130003379241"
+                        ],
+                        "cinii_nc_id": [
+                            "AA11587519"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.9795/bullgsj.62.85",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/130003379241",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_books",
+                            "@id": "http://ci.nii.ac.jp/ncid/AA11587519",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "http://id.ndl.go.jp/bib/11045486",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "https://jlc.jst.go.jp/DN/JALC/00375814042?from=CiNii",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0005320/published_papers/41669501",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0005320/published_papers",
+                    "rm:id": "41669501",
+                    "rm:user_id": "0000045159",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2023-03-09T02:30:48Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2023-03-09T02:30:48Z",
+                    "paper_title": {
+                        "ja": "オールコアボーリングと放射性炭素年代に基づいた荒川低地の沖積層形成過程",
+                        "en": "Sedimentary process of the latest Pleistocene to Holocene incised valley fills in the Arakawa Lowland, Kanto Plain, central Japan"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "小松原 純子"
+                            },
+                            {
+                                "name": "中島 礼"
+                            },
+                            {
+                                "name": "木村 克己"
+                            },
+                            {
+                                "name": "福岡 詩織"
+                            },
+                            {
+                                "name": "石原 与四郎"
+                            },
+                            {
+                                "name": "内田 昌男"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Komatsubara Junko"
+                            },
+                            {
+                                "name": "Nakashima Rei"
+                            },
+                            {
+                                "name": "Kimura Katsumi"
+                            },
+                            {
+                                "name": "Fukuoka Shiori"
+                            },
+                            {
+                                "name": "Ishihara Yoshiro"
+                            },
+                            {
+                                "name": "Uchida Masao"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "一般社団法人 日本地質学会",
+                        "en": "The Geological Society of Japan"
+                    },
+                    "publication_date": "2010",
+                    "publication_name": {
+                        "ja": "日本地質学会学術大会講演要旨",
+                        "en": "Annual Meeting of the Geological Society of Japan"
+                    },
+                    "volume": "2010",
+                    "starting_page": "85",
+                    "ending_page": "85",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.14863/geosocabst.2010.0.85.0"
+                        ],
+                        "issn": [
+                            "1348-3935"
+                        ],
+                        "e_issn": [
+                            "2187-6665"
+                        ],
+                        "cinii_na_id": [
+                            "130004595894"
+                        ],
+                        "cinii_cr_id": [
+                            "1390282680506302976"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.14863/geosocabst.2010.0.85.0",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_research",
+                            "@id": "https://cir.nii.ac.jp/crid/1390282680506302976?lang=ja",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0005320/published_papers/34536570",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0005320/published_papers",
+                    "rm:id": "34536570",
+                    "rm:user_id": "0000045159",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2021-10-22T20:05:14Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2021-10-22T20:05:14Z",
+                    "paper_title": {
+                        "ja": "新潟平野地域のボーリングデータベースと沖積層モデル",
+                        "en": "Borehole log database and shallow-level geologic model in the Niigata Plain"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "船引 彩子"
+                            },
+                            {
+                                "name": "木村 克己"
+                            },
+                            {
+                                "name": "宮地 良典"
+                            },
+                            {
+                                "name": "卜部 厚志"
+                            },
+                            {
+                                "name": "鴨井 幸彦"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Funabiki Ayako"
+                            },
+                            {
+                                "name": "Kimura Katsumi"
+                            },
+                            {
+                                "name": "Miyachi Yoshinori"
+                            },
+                            {
+                                "name": "Urabe Atsushi"
+                            },
+                            {
+                                "name": "Kamoi Yukihiko"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "一般社団法人 日本地質学会",
+                        "en": "The Geological Society of Japan"
+                    },
+                    "publication_date": "2010",
+                    "publication_name": {
+                        "ja": "日本地質学会学術大会講演要旨",
+                        "en": "Annual Meeting of the Geological Society of Japan"
+                    },
+                    "volume": "2010",
+                    "starting_page": "349",
+                    "ending_page": "349",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.14863/geosocabst.2010.0.349.0"
+                        ],
+                        "issn": [
+                            "1348-3935"
+                        ],
+                        "cinii_na_id": [
+                            "130004595625"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.14863/geosocabst.2010.0.349.0",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/130004595625",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0005320/published_papers/34536567",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0005320/published_papers",
+                    "rm:id": "34536567",
+                    "rm:user_id": "0000045159",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2021-10-22T20:05:12Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2021-10-22T20:05:12Z",
+                    "paper_title": {
+                        "ja": "海陸シームレスな沖積層地質構造の解明 ～新潟平野沿岸域を例に～",
+                        "en": "Seamless geo-information of the \"Chuseki-so\" across coastal zone of Niigata Plain, central Japan."
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "宮地 良典"
+                            },
+                            {
+                                "name": "卜部 厚志"
+                            },
+                            {
+                                "name": "井上 卓彦"
+                            },
+                            {
+                                "name": "天野 敦子"
+                            },
+                            {
+                                "name": "楮原 京子"
+                            },
+                            {
+                                "name": "船引 彩子"
+                            },
+                            {
+                                "name": "木村 克己"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "MIYACHI Yoshinori"
+                            },
+                            {
+                                "name": "URABE Atsushi"
+                            },
+                            {
+                                "name": "INOUE Takuhiko"
+                            },
+                            {
+                                "name": "AMANO Atsuko"
+                            },
+                            {
+                                "name": "KAGOHARA Kyoko"
+                            },
+                            {
+                                "name": "FUNABIKI Ayako"
+                            },
+                            {
+                                "name": "KIMURA Katsumi"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "一般社団法人 日本地質学会",
+                        "en": "The Geological Society of Japan"
+                    },
+                    "publication_date": "2010",
+                    "publication_name": {
+                        "ja": "日本地質学会学術大会講演要旨",
+                        "en": "Annual Meeting of the Geological Society of Japan"
+                    },
+                    "volume": "2010",
+                    "starting_page": "83",
+                    "ending_page": "83",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.14863/geosocabst.2010.0.83.0"
+                        ],
+                        "issn": [
+                            "1348-3935"
+                        ],
+                        "cinii_na_id": [
+                            "130004595892"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.14863/geosocabst.2010.0.83.0",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/130004595892",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0005320/published_papers/34145610",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0005320/published_papers",
+                    "rm:id": "34145610",
+                    "rm:user_id": "0000045159",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2021-10-20T03:05:21Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2021-10-20T03:05:21Z",
+                    "paper_title": {
+                        "ja": "北海道石狩市親船で掘削された沖積層ボーリングコアGS-HIS-1 の解析",
+                        "en": "Stratigraphic and sedimentologic analysis of the GS-HIS-1 core drilled at Oyafune, Ishikari, Hokkaido, Japan"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "川上 源太郎"
+                            },
+                            {
+                                "name": "船引 彩子"
+                            },
+                            {
+                                "name": "磯前 陽介"
+                            },
+                            {
+                                "name": "中島 礼"
+                            },
+                            {
+                                "name": "木村 克己"
+                            },
+                            {
+                                "name": "嵯峨山 積"
+                            },
+                            {
+                                "name": "仁科 健二"
+                            },
+                            {
+                                "name": "廣瀬 亘"
+                            },
+                            {
+                                "name": "大津 直"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Kawakami Gentaro"
+                            },
+                            {
+                                "name": "Funabiki Ayako"
+                            },
+                            {
+                                "name": "Isomae Yosuke"
+                            },
+                            {
+                                "name": "Nakashima Rei"
+                            },
+                            {
+                                "name": "Kimura Katsumi"
+                            },
+                            {
+                                "name": "Sagayama Tsumoru"
+                            },
+                            {
+                                "name": "Nishina Kenji"
+                            },
+                            {
+                                "name": "Hirose Wataru"
+                            },
+                            {
+                                "name": "Ohtsu Sunao"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "一般社団法人 日本地質学会",
+                        "en": "The Geological Society of Japan"
+                    },
+                    "publication_date": "2010",
+                    "publication_name": {
+                        "ja": "日本地質学会学術大会講演要旨",
+                        "en": "Annual Meeting of the Geological Society of Japan"
+                    },
+                    "volume": "2010",
+                    "number": "0",
+                    "starting_page": "78",
+                    "ending_page": "78",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.14863/geosocabst.2010.0.78.0"
+                        ],
+                        "issn": [
+                            "1348-3935"
+                        ],
+                        "cinii_na_id": [
+                            "130004595886"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.14863/geosocabst.2010.0.78.0",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/130004595886",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0005320/published_papers/34145604",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0005320/published_papers",
+                    "rm:id": "34145604",
+                    "rm:user_id": "0000045159",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2021-10-20T03:05:20Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2021-10-20T03:05:20Z",
+                    "paper_title": {
+                        "ja": "北海道石狩低地の最上部更新統～完新統の珪藻分析",
+                        "en": "Diatom analysis of the Uppermost Pleistocene to Holocene in the Ishikari Lowland of Hokkaido, Japan"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "嵯峨山 積"
+                            },
+                            {
+                                "name": "川上 源太郎"
+                            },
+                            {
+                                "name": "仁科 健二"
+                            },
+                            {
+                                "name": "大津 直"
+                            },
+                            {
+                                "name": "廣瀬 亘"
+                            },
+                            {
+                                "name": "小松原 純子"
+                            },
+                            {
+                                "name": "木村 克己"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Sagayama Tsumoru"
+                            },
+                            {
+                                "name": "Kawakami Gentaro"
+                            },
+                            {
+                                "name": "Nishina Kenji"
+                            },
+                            {
+                                "name": "Ohtsu Sunao"
+                            },
+                            {
+                                "name": "Hirose Wataru"
+                            },
+                            {
+                                "name": "Komatsubara Junko"
+                            },
+                            {
+                                "name": "Kimura Katsumi"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "一般社団法人 日本地質学会",
+                        "en": "The Geological Society of Japan"
+                    },
+                    "publication_date": "2010",
+                    "publication_name": {
+                        "ja": "日本地質学会学術大会講演要旨",
+                        "en": "Annual Meeting of the Geological Society of Japan"
+                    },
+                    "volume": "2010",
+                    "number": "0",
+                    "starting_page": "79",
+                    "ending_page": "79",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.14863/geosocabst.2010.0.79.0"
+                        ],
+                        "issn": [
+                            "1348-3935"
+                        ],
+                        "cinii_na_id": [
+                            "130004595887"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.14863/geosocabst.2010.0.79.0",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/130004595887",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0005320/published_papers/25480599",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0005320/published_papers",
+                    "rm:id": "25480599",
+                    "rm:user_id": "0000045159",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_papers",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-03-31T00:27:07Z",
+                    "rm:modifier_id": "ai:assign_based_papers",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-03-31T00:27:07Z",
+                    "paper_title": {
+                        "ja": "Sedimentary facies and physical properties of the latest Pleistocene to Holocene sediment core (GS-KZK-1) in the Shibakawa Lowland, Kawaguchi City, central Japan",
+                        "en": "Sedimentary facies and physical properties of the latest Pleistocene to Holocene sediment core (GS-KZK-1) in the Shibakawa Lowland, Kawaguchi City, central Japan"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "Junko Komatsubara"
+                            },
+                            {
+                                "name": "Rei Nakashima"
+                            },
+                            {
+                                "name": "Katsumi Kimura"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Junko Komatsubara"
+                            },
+                            {
+                                "name": "Rei Nakashima"
+                            },
+                            {
+                                "name": "Katsumi Kimura"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "The Sedimentological Society of Japan",
+                        "en": "The Sedimentological Society of Japan"
+                    },
+                    "publication_date": "2010",
+                    "publication_name": {
+                        "ja": "Journal of the Sedimentological Society of Japan",
+                        "en": "Journal of the Sedimentological Society of Japan"
+                    },
+                    "volume": "69",
+                    "number": "2",
+                    "starting_page": "73",
+                    "referee": true,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.4096/jssj.69.73"
+                        ],
+                        "issn": [
+                            "1882-9457"
+                        ],
+                        "orcid_put_cd": [
+                            "45044678"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.4096/jssj.69.73",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "http://orcid.org/0000-0003-0099-6744",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0005320/published_papers/38961883",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0005320/published_papers",
+                    "rm:id": "38961883",
+                    "rm:user_id": "0000045159",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2022-07-21T06:37:48Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-07-21T06:37:48Z",
+                    "paper_title": {
+                        "ja": "東京低地北部から中川低地にかけた沖積層の基盤地形",
+                        "en": "Basal topography of the Alluvium under the northern area of the Tokyo Lowland and Nakagawa Lowland, central Japan"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "田辺 晋"
+                            },
+                            {
+                                "name": "中西 利典"
+                            },
+                            {
+                                "name": "木村 克己"
+                            },
+                            {
+                                "name": "八戸 昭一"
+                            },
+                            {
+                                "name": "中山 俊雄"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Tanabe Susumu"
+                            },
+                            {
+                                "name": "Nakanishi Toshimichi"
+                            },
+                            {
+                                "name": "Kimura Katsumi"
+                            },
+                            {
+                                "name": "Hachinohe Shoichi"
+                            },
+                            {
+                                "name": "Nakayama Toshio"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "ja": "東京低地北部と中川低地における7,021本のボーリング柱状図資料から沖積層の基底面を認定し，ボーリング柱状図資料の位置情報と積層の基底面深度からなる数値情報を構築した．そしてこの数値情報をもとに，逆距離加重法による平面補間を行い，沖積層の基底面深度分布図を作成した．沖積層基底面深度分布は，沖積層の基底礫層が分布する地域については，その上面深度を採用している．この沖積層基底面深度分布図は，中川，元荒川，綾瀬川，荒川，古東京川沿いの開析谷や埋没段丘面・波食棚などの沖積層基盤地形の詳細をあらわす．また，本図と東京低地北部と中川低地における地盤高との対比から，沖積層の層厚と地盤高には明瞭な関係があることが明らかになった．沖積層の層厚が40 m以上の地域では地盤高は標高2 m以下，沖積層の層厚が25 m以下の地域では地盤高は標高2 m以上を示す．",
+                        "en": "In this study, we identifi ed the basement of the latest Pleistocene to Holocene incised-valley fi lls (Alluvium) from 7,021 borehole logs in the northern area of the Tokyo Lowland and Nakagawa Lowland. We constructed the dataset, which consists of the latitude and longitude of the borehole site and depth of the Alluvium basement. The depth-distribution map of the Alluvium was illustrated based of this dataset and interpolation of the Alluvium depth distribution by the inverse distance weighting method. We assumed the top of the Basal Gravel of the Alluvium as the basement of the Alluvium where the Basal Gravel exists. This depth-distribution map illustrates a detailed topography of the Nakagawa, Moto-arakawa, Ayasegawa, Arakawa and Paleo-Tokyo River Valleys, buried terraces and buried wave-cut benches. The comparison between the thickness of the Alluvium and surface elevation in the northern area of the Tokyo Lowland and Nakagawa Lowland indicates that there are major relationships. The elevation is less than T.P. +2 m in the area where the Alluvium thickness is more than 40 m, and the elevation is more than T.P. +2 m in the area where the Alluvium thickness is less than 25 m."
+                    },
+                    "publisher": {
+                        "ja": "National Institute of Advanced Industrial Science and Technology, Geological Survey of Japan",
+                        "en": "National Institute of Advanced Industrial Science and Technology, Geological Survey of Japan"
+                    },
+                    "publication_date": "2009",
+                    "publication_name": {
+                        "ja": "地質調査研究報告",
+                        "en": "Bull. Geol. Surv. Japan"
+                    },
+                    "volume": "59",
+                    "number": "11",
+                    "starting_page": "497",
+                    "ending_page": "508",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.9795/bullgsj.59.497"
+                        ],
+                        "issn": [
+                            "1346-4272"
+                        ],
+                        "cinii_na_id": [
+                            "130003379145"
+                        ],
+                        "cinii_nc_id": [
+                            "AA11587519"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.9795/bullgsj.59.497",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/130003379145",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_books",
+                            "@id": "http://ci.nii.ac.jp/ncid/AA11587519",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "http://id.ndl.go.jp/bib/10253990",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "https://jlc.jst.go.jp/DN/JALC/00332975496?from=CiNii",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0005320/published_papers/34145618",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0005320/published_papers",
+                    "rm:id": "34145618",
+                    "rm:user_id": "0000045159",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2021-10-20T03:05:24Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2021-10-20T03:05:24Z",
+                    "paper_title": {
+                        "ja": "粒径頻度プロファイルから検討した堆積過程−石狩低地帯沖積層ボーリングコアの例−",
+                        "en": "Analysis of variation in grain size frequency profiles of sediments in different sedimentary facies: an example from the Chuseki-so in the Ishikari lowland"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "仁科 健二"
+                            },
+                            {
+                                "name": "川上 源太郎"
+                            },
+                            {
+                                "name": "小松原 純子"
+                            },
+                            {
+                                "name": "木村 克己"
+                            },
+                            {
+                                "name": "大津 直"
+                            },
+                            {
+                                "name": "廣瀬 亘"
+                            },
+                            {
+                                "name": "?清水 康博"
+                            },
+                            {
+                                "name": "岡 孝雄"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Nishina Kenji"
+                            },
+                            {
+                                "name": "Kawakami Gentarou"
+                            },
+                            {
+                                "name": "Komatsubara Junko"
+                            },
+                            {
+                                "name": "Kimura Katsumi"
+                            },
+                            {
+                                "name": "Ohtsu Sunao"
+                            },
+                            {
+                                "name": "Hirose Wataru"
+                            },
+                            {
+                                "name": "Takashimizu Yasuhiro"
+                            },
+                            {
+                                "name": "Oka Takao"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "一般社団法人 日本地質学会",
+                        "en": "The Geological Society of Japan"
+                    },
+                    "publication_date": "2009",
+                    "publication_name": {
+                        "ja": "日本地質学会学術大会講演要旨",
+                        "en": "Annual Meeting of the Geological Society of Japan"
+                    },
+                    "volume": "2009",
+                    "number": "0",
+                    "starting_page": "427",
+                    "ending_page": "427",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.14863/geosocabst.2009.0.427.0"
+                        ],
+                        "issn": [
+                            "1348-3935"
+                        ],
+                        "cinii_na_id": [
+                            "130004595151"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.14863/geosocabst.2009.0.427.0",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/130004595151",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0005320/published_papers/25480601",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0005320/published_papers",
+                    "rm:id": "25480601",
+                    "rm:user_id": "0000045159",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_papers",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-03-31T00:27:07Z",
+                    "rm:modifier_id": "ai:assign_based_papers",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-03-31T00:27:07Z",
+                    "paper_title": {
+                        "ja": "Sedimentary facies and physical properties of the latest Pleistocene to Holocene sediment core GS-TKT-1 in the Arakawa Lowland, Toda City, Saitama Prefecture, central Japan",
+                        "en": "Sedimentary facies and physical properties of the latest Pleistocene to Holocene sediment core GS-TKT-1 in the Arakawa Lowland, Toda City, Saitama Prefecture, central Japan"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "Junko Komatsubara"
+                            },
+                            {
+                                "name": "Rei Nakashima"
+                            },
+                            {
+                                "name": "Katsumi Kimura"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Junko Komatsubara"
+                            },
+                            {
+                                "name": "Rei Nakashima"
+                            },
+                            {
+                                "name": "Katsumi Kimura"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "The Sedimentological Society of Japan",
+                        "en": "The Sedimentological Society of Japan"
+                    },
+                    "publication_date": "2009",
+                    "publication_name": {
+                        "ja": "Journal of the Sedimentological Society of Japan",
+                        "en": "Journal of the Sedimentological Society of Japan"
+                    },
+                    "volume": "68",
+                    "number": "1",
+                    "starting_page": "13",
+                    "referee": true,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.4096/jssj.68.13"
+                        ],
+                        "issn": [
+                            "1882-9457"
+                        ],
+                        "orcid_put_cd": [
+                            "45044694"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.4096/jssj.68.13",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "http://orcid.org/0000-0003-0099-6744",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0005320/published_papers/25351503",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0005320/published_papers",
+                    "rm:id": "25351503",
+                    "rm:user_id": "0000045159",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_papers",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-03-30T03:08:04Z",
+                    "rm:modifier_id": "ai:assign_based_papers",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-03-30T03:08:04Z",
+                    "paper_title": {
+                        "ja": "Bacterial and Archaeal 16S rRNA Genes in Late Pleistocene to Holocene Muddy Sediments from the Kanto Plain of Japan",
+                        "en": "Bacterial and Archaeal 16S rRNA Genes in Late Pleistocene to Holocene Muddy Sediments from the Kanto Plain of Japan"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "Takeuchi Mio"
+                            },
+                            {
+                                "name": "Komai Takeshi"
+                            },
+                            {
+                                "name": "Hanada Satoshi"
+                            },
+                            {
+                                "name": "Tamaki Hideyuki"
+                            },
+                            {
+                                "name": "Tanabe Susumu"
+                            },
+                            {
+                                "name": "Miyachi Yoshinori"
+                            },
+                            {
+                                "name": "Uchiyama Mieko"
+                            },
+                            {
+                                "name": "Nakazawa Tsutomu"
+                            },
+                            {
+                                "name": "Kimura Katsumi"
+                            },
+                            {
+                                "name": "Kamagata Yoichi"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Takeuchi Mio"
+                            },
+                            {
+                                "name": "Komai Takeshi"
+                            },
+                            {
+                                "name": "Hanada Satoshi"
+                            },
+                            {
+                                "name": "Tamaki Hideyuki"
+                            },
+                            {
+                                "name": "Tanabe Susumu"
+                            },
+                            {
+                                "name": "Miyachi Yoshinori"
+                            },
+                            {
+                                "name": "Uchiyama Mieko"
+                            },
+                            {
+                                "name": "Nakazawa Tsutomu"
+                            },
+                            {
+                                "name": "Kimura Katsumi"
+                            },
+                            {
+                                "name": "Kamagata Yoichi"
+                            }
+                        ]
+                    },
+                    "publication_date": "2009",
+                    "publication_name": {
+                        "ja": "GEOMICROBIOLOGY JOURNAL",
+                        "en": "GEOMICROBIOLOGY JOURNAL"
+                    },
+                    "volume": "26",
+                    "number": "2",
+                    "starting_page": "104",
+                    "ending_page": "118",
+                    "referee": true,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1080/01490450802662355"
+                        ],
+                        "issn": [
+                            "0149-0451"
+                        ],
+                        "wos_id": [
+                            "WOS:000263555100005"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1080/01490450802662355",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000263555100005&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0005320/published_papers/29124498",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0005320/published_papers",
+                    "rm:id": "29124498",
+                    "rm:user_id": "0000045159",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-07-14T23:56:35Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-07-14T23:56:35Z",
+                    "paper_title": {
+                        "en": "Metamorphic and cooling history of the Shimanto accretionary complex, Kyushu, Southwest Japan: Implications for the timing of out-of-sequence thrusting"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Hidetoshi Hara"
+                            },
+                            {
+                                "name": "Katsumi Kimura"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "Illite crystallinity, K-Ar dating of illite, and fission-track dating of zircon are analyzed in the hanging wall (Sampodake unit) and footwall (Mikado unit) of a seismogenic out-of-sequence thrust (Nobeoka thrust) within the Shimanto accretionary complex of central Kyushu, southwest Japan. The obtained metamorphic temperatures, and timing of metamorphism and cooling, reveal the tectono-metamorphic evolution of the complex, and related development of the Nobeoka thrust. Illite crystallinity data indicate that the Late Cretaceous Sampodake unit was metamorphosed at temperatures of around 300 to 310 degrees C, while the Middle Eocene Mikado unit was metamorphosed at 260 to 300 degrees C. Illite K-Ar ages and zircon fission-track ages constrain the timing of metamorphism of the Sampodake unit to the early Middle Eocene (46 to 50 Ma, mean = 48 Ma). Metamorphism of the Mikado unit occurred no earlier than 40 Ma, which is the youngest depositional age of the unit. The Nobeoka thrust is inferred to have been active during about 40 to 48 Ma, as the Sampodake unit started its post metamorphic cooling after 48 Ma and was thrust over the Mikado unit at about 40 Ma along the Nobeoka thrust. These results indicate that the Nobeoka thrust was active for more than 10 million years."
+                    },
+                    "publisher": {
+                        "en": "WILEY-BLACKWELL"
+                    },
+                    "publication_date": "2008-12",
+                    "publication_name": {
+                        "en": "ISLAND ARC"
+                    },
+                    "volume": "17",
+                    "number": "4",
+                    "starting_page": "546",
+                    "ending_page": "559",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1111/j.1440-1738.2008.00636.x"
+                        ],
+                        "issn": [
+                            "1038-4871"
+                        ],
+                        "wos_id": [
+                            "WOS:000261124400011"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1111/j.1440-1738.2008.00636.x",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000261124400011&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0005320/misc",
+            "@type": "misc",
+            "@reverse": "https://api.researchmap.jp/read0005320",
+            "total_items": 54,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0005320/misc/27066361",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0005320/misc",
+                    "rm:id": "27066361",
+                    "rm:user_id": "0000045159",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_papers",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-05-02T18:45:01Z",
+                    "rm:modifier_id": "ai:assign_based_papers",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-05-02T18:45:01Z",
+                    "paper_title": {
+                        "ja": "紀伊半島北西部，高野山地域の上部白亜系花園層の地質と放散虫化石"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "栗本史雄"
+                            },
+                            {
+                                "name": "木村克己"
+                            },
+                            {
+                                "name": "竹内 誠"
+                            }
+                        ]
+                    },
+                    "publication_date": "2015-07",
+                    "publication_name": {
+                        "ja": "地質調査研究報告"
+                    },
+                    "volume": "66",
+                    "number": "3/4",
+                    "starting_page": "41-81",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "misc_type": "report_scientific_journal",
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0005320/misc/37410394",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0005320/misc",
+                    "rm:id": "37410394",
+                    "rm:user_id": "0000045159",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2022-06-28T12:31:27Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-06-28T12:31:27Z",
+                    "paper_title": {
+                        "ja": "35.紀伊半島四万十帯に認められる大規模深層崩壊の地質規制",
+                        "en": "35. Geologic control on large-scale landslides in the Shimanto Accretional Complex of the Kii Peninsula"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "木村 克己"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Kimura Katsumi"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "日本応用地質学会"
+                    },
+                    "publication_date": "2015",
+                    "publication_name": {
+                        "ja": "研究発表会講演論文集"
+                    },
+                    "volume": "27",
+                    "starting_page": "69",
+                    "ending_page": "70",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "cinii_na_id": [
+                            "110010011808"
+                        ],
+                        "cinii_nc_id": [
+                            "AN10522065"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/110010011808",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_books",
+                            "@id": "http://ci.nii.ac.jp/ncid/AN10522065",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "http://dl.ndl.go.jp/info:ndljp/pid/10569470",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0005320/misc/35491729",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0005320/misc",
+                    "rm:id": "35491729",
+                    "rm:user_id": "0000045159",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2021-10-27T06:27:48Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2021-10-27T06:27:48Z",
+                    "paper_title": {
+                        "ja": "ボロノイ分割を用いた埋没古地形面の領域分割に基づく沖積層基底面の推定手法",
+                        "en": "An estimation method for the basal surface of Holocene based on area segmentations of buried topography using voronoi diagram"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "花島 裕樹"
+                            },
+                            {
+                                "name": "木村 克己"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "HANASHIMA Yuki"
+                            },
+                            {
+                                "name": "KIMURA Katsumi"
+                            }
+                        ]
+                    },
+                    "publication_date": "2013-06-18",
+                    "publication_name": {
+                        "ja": "情報地質 = Geological data processing"
+                    },
+                    "volume": "24",
+                    "number": "2",
+                    "starting_page": "66",
+                    "ending_page": "67",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "0388-502X"
+                        ],
+                        "cinii_na_id": [
+                            "10031159096"
+                        ],
+                        "cinii_nc_id": [
+                            "AN0036643X"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/10031159096",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_books",
+                            "@id": "http://ci.nii.ac.jp/ncid/AN0036643X",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0005320/misc/37745432",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0005320/misc",
+                    "rm:id": "37745432",
+                    "rm:user_id": "0000045159",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2022-07-01T04:39:50Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-07-01T04:39:50Z",
+                    "paper_title": {
+                        "ja": "埼玉県川越市下老袋地区から採取した荒川低地の沖積層ボーリングコア(GS-KSO-1)の堆積相と堆積環境",
+                        "en": "Sedimentary facies and paleoenvironments of the latest Pleistocene to Holocene sediment core (GS-KSO-1) in the Arakawa Lowland, Kawagoe City, central Japan"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "小松原 純子"
+                            },
+                            {
+                                "name": "木村 克己"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "日本堆積学会"
+                    },
+                    "publication_date": "2011",
+                    "publication_name": {
+                        "ja": "堆積学研究"
+                    },
+                    "volume": "70",
+                    "number": "2",
+                    "starting_page": "93",
+                    "ending_page": "103",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "1342-310X"
+                        ],
+                        "cinii_na_id": [
+                            "40019199310"
+                        ],
+                        "cinii_nc_id": [
+                            "AA11155966"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/40019199310",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_books",
+                            "@id": "http://ci.nii.ac.jp/ncid/AA11155966",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "http://id.ndl.go.jp/bib/023522322",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0005320/misc/38138811",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0005320/misc",
+                    "rm:id": "38138811",
+                    "rm:user_id": "0000045159",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2022-07-05T03:02:26Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-07-05T03:02:26Z",
+                    "paper_title": {
+                        "ja": "沖積層ボーリングコアGS-SSS-1(埼玉県さいたま市)の堆積相と堆積物物性",
+                        "en": "Sedimentary facies and physical properties of the latest Pleistocene to Holocene sediment core (GS-SSS-1) in the Arakawa Lowland, Saitama City, central Japan"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "小松原 純子"
+                            },
+                            {
+                                "name": "木村 克己"
+                            },
+                            {
+                                "name": "福岡 詩織"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "日本堆積学会"
+                    },
+                    "publication_date": "2010",
+                    "publication_name": {
+                        "ja": "堆積学研究",
+                        "en": "Journal of the Sedimentological Society of Japan"
+                    },
+                    "volume": "69",
+                    "number": "1",
+                    "starting_page": "3",
+                    "ending_page": "15",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "1342-310X"
+                        ],
+                        "cinii_na_id": [
+                            "40017358009"
+                        ],
+                        "cinii_nc_id": [
+                            "AA11155966"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/40017358009",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_books",
+                            "@id": "http://ci.nii.ac.jp/ncid/AA11155966",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "http://id.ndl.go.jp/bib/10871258",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0005320/misc/37453149",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0005320/misc",
+                    "rm:id": "37453149",
+                    "rm:user_id": "0000045159",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2022-06-29T05:01:52Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-06-29T05:01:52Z",
+                    "paper_title": {
+                        "ja": "東京低地付近の沖積層を例とした沖積層研究の新展開",
+                        "en": "Recent Progress on the Geological Study of the Chuseki-so in the Tokyo Metropolitan Area as a Case Study"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "木村 克己"
+                            },
+                            {
+                                "name": "石原 与四郎"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "KIMURA Katsumi"
+                            },
+                            {
+                                "name": "ISHIHARA Yoshiro"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "ja": "This paper reviews recent progress of the geological study of So-called Chuseki-so, mainly based on scientific results of the Urban Geology Research Project of Geological Survey of Japan, AIST. The Chuseki-so was examined by an integration of high-resolution core analysis including C^<14> dating, the sequence stratigraphic analysis, and the methods for constructing 3-D model using borehole database. As a result, it has been characterized by an incisedvalley filled sequence controlled by the latest Pleistocene to Holocene sea-level change. Then the depositional system and physical properties have been well visualized by the spatial distribution of the N values and lithofacies. Such study will greatly contribute to research in the geotechnical engineering field.",
+                        "en": "This paper reviews recent progress of the geological study of So-called Chuseki-so, mainly based on scientific results of the Urban Geology Research Project of Geological Survey of Japan, AIST. The Chuseki-so was examined by an integration of high-resolution core analysis including C^<14> dating, the sequence stratigraphic analysis, and the methods for constructing 3-D model using borehole database. As a result, it has been characterized by an incisedvalley filled sequence controlled by the latest Pleistocene to Holocene sea-level change. Then the depositional system and physical properties have been well visualized by the spatial distribution of the N values and lithofacies. Such study will greatly contribute to research in the geotechnical engineering field."
+                    },
+                    "publisher": {
+                        "ja": "地盤工学会"
+                    },
+                    "publication_date": "2009-02-01",
+                    "publication_name": {
+                        "ja": "地盤工学会誌 = / the Japanese Geotechnical Society"
+                    },
+                    "volume": "57",
+                    "number": "2",
+                    "starting_page": "4",
+                    "ending_page": "7",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "1882-7276"
+                        ],
+                        "cinii_na_id": [
+                            "110007044150"
+                        ],
+                        "cinii_nc_id": [
+                            "AA12312210"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/110007044150",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_books",
+                            "@id": "http://ci.nii.ac.jp/ncid/AA12312210",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "http://id.ndl.go.jp/bib/10165396",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "http://dl.ndl.go.jp/info:ndljp/pid/10419114",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0005320/misc/39240731",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0005320/misc",
+                    "rm:id": "39240731",
+                    "rm:user_id": "0000045159",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2022-07-27T07:00:34Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-07-27T07:00:34Z",
+                    "paper_title": {
+                        "ja": "沖積層ボーリングコアGS-TKT-1(埼玉県戸田市)の堆積相と堆積物物性",
+                        "en": "Sedimentary facies and physical properties of the latest Pleistocene to Holocene sediment core GS-TKT-l in the Arakawa Lowland, Toda City, Saitama Prefecture, central Japan"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "小松原 純子"
+                            },
+                            {
+                                "name": "中島 礼"
+                            },
+                            {
+                                "name": "木村 克己"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "日本堆積学会"
+                    },
+                    "publication_date": "2009",
+                    "publication_name": {
+                        "ja": "堆積学研究",
+                        "en": "Journal of the Sedimentological Society of Japan"
+                    },
+                    "volume": "68",
+                    "number": "1",
+                    "starting_page": "13",
+                    "ending_page": "25",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "1342-310X"
+                        ],
+                        "cinii_na_id": [
+                            "40016817260"
+                        ],
+                        "cinii_nc_id": [
+                            "AA11155966"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/40016817260",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_books",
+                            "@id": "http://ci.nii.ac.jp/ncid/AA11155966",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "http://id.ndl.go.jp/bib/10424590",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0005320/misc/37268308",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0005320/misc",
+                    "rm:id": "37268308",
+                    "rm:user_id": "0000045159",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2022-06-27T07:21:57Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-06-27T07:21:57Z",
+                    "paper_title": {
+                        "ja": "P-23 荒川低地の沖積層基盤地形(7.沖積層研究の新展開,ポスター発表,一般講演)",
+                        "en": "P-23 Basal topography of Pleistocene-Holocene incised valley fills in Arakawa Lowland, Kanto Plain"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "小松原 純子"
+                            },
+                            {
+                                "name": "木村 克己"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "KOMATSUBARA Junko"
+                            },
+                            {
+                                "name": "KIMURA Katsumi"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "日本地質学会",
+                        "en": "The Geological Society of Japan"
+                    },
+                    "publication_date": "2008-09-15",
+                    "publication_name": {
+                        "ja": "日本地質学会学術大会講演要旨"
+                    },
+                    "volume": "115",
+                    "starting_page": "183",
+                    "ending_page": "183",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "cinii_na_id": [
+                            "110007060027"
+                        ],
+                        "cinii_nc_id": [
+                            "AN10269961"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/110007060027",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_books",
+                            "@id": "http://ci.nii.ac.jp/ncid/AN10269961",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0005320/misc/37267317",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0005320/misc",
+                    "rm:id": "37267317",
+                    "rm:user_id": "0000045159",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2022-06-27T07:14:52Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-06-27T07:14:52Z",
+                    "paper_title": {
+                        "ja": "P-22 ボーリングデータベースを用いた福岡平野地下の地質・地盤モデルとその問題点(7.沖積層研究の新展開,ポスター発表,一般講演)",
+                        "en": "P-22 Subsurface geological model of N-values and lithofacies by using borehole logs : an example of Fukuoka Plain"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "江藤 稚佳子"
+                            },
+                            {
+                                "name": "石原 与四郎"
+                            },
+                            {
+                                "name": "木村 克己"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Eto Chikako"
+                            },
+                            {
+                                "name": "Ishihara Yoshiro"
+                            },
+                            {
+                                "name": "Kimura Katsumi"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "日本地質学会",
+                        "en": "The Geological Society of Japan"
+                    },
+                    "publication_date": "2008-09-15",
+                    "publication_name": {
+                        "ja": "日本地質学会学術大会講演要旨"
+                    },
+                    "volume": "115",
+                    "starting_page": "182",
+                    "ending_page": "182",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "cinii_na_id": [
+                            "110007060387"
+                        ],
+                        "cinii_nc_id": [
+                            "AN10269961"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/110007060387",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_books",
+                            "@id": "http://ci.nii.ac.jp/ncid/AN10269961",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0005320/misc/37266969",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0005320/misc",
+                    "rm:id": "37266969",
+                    "rm:user_id": "0000045159",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2022-06-27T07:13:09Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-06-27T07:13:09Z",
+                    "paper_title": {
+                        "ja": "O-60 沖積層研究におけるボーリングデータベースとその利用技術(7.沖積層研究の新展開,口頭発表,一般講演)",
+                        "en": "O-60 Borehole database and the use technology as base of Chuseki-so Research"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "木村 克己"
+                            },
+                            {
+                                "name": "石原 与四郎"
+                            },
+                            {
+                                "name": "根本 達也"
+                            },
+                            {
+                                "name": "小松原 純子"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Kimura Katsumi"
+                            },
+                            {
+                                "name": "Ishihara Yoshiro"
+                            },
+                            {
+                                "name": "Nemoto Tatsuya"
+                            },
+                            {
+                                "name": "Komatsubara Junko"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "日本地質学会",
+                        "en": "The Geological Society of Japan"
+                    },
+                    "publication_date": "2008-09-15",
+                    "publication_name": {
+                        "ja": "日本地質学会学術大会講演要旨"
+                    },
+                    "volume": "115",
+                    "starting_page": "61",
+                    "ending_page": "61",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "cinii_na_id": [
+                            "110007060102"
+                        ],
+                        "cinii_nc_id": [
+                            "AN10269961"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/110007060102",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_books",
+                            "@id": "http://ci.nii.ac.jp/ncid/AN10269961",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0005320/misc/39502021",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0005320/misc",
+                    "rm:id": "39502021",
+                    "rm:user_id": "0000045159",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_papers",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2022-08-04T09:02:15Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-09-24T11:21:47Z",
+                    "paper_title": {
+                        "ja": "石狩低地沖積層の層序・構造の解明に向けて",
+                        "en": "Elucidation of the Chuseki-so under the Ishikari Lowland"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Kawakami Gentaro"
+                            },
+                            {
+                                "name": "Hirose Wataru"
+                            },
+                            {
+                                "name": "Ohtsu Sunao"
+                            },
+                            {
+                                "name": "Nishina Kenji"
+                            },
+                            {
+                                "name": "Takashimizu Yasuhiro"
+                            },
+                            {
+                                "name": "Sagayama Tsumoru"
+                            },
+                            {
+                                "name": "Oka Takao"
+                            },
+                            {
+                                "name": "Komatsubara Junko"
+                            },
+                            {
+                                "name": "Kimura Katsumi"
+                            }
+                        ],
+                        "ja": [
+                            {
+                                "name": "川上 源太郎"
+                            },
+                            {
+                                "name": "廣瀬 亘"
+                            },
+                            {
+                                "name": "大津 直"
+                            },
+                            {
+                                "name": "仁科 健二"
+                            },
+                            {
+                                "name": "高清水 康博"
+                            },
+                            {
+                                "name": "嵯峨山 積"
+                            },
+                            {
+                                "name": "岡 孝雄"
+                            },
+                            {
+                                "name": "小松原 純子"
+                            },
+                            {
+                                "name": "木村 克己"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "一般社団法人 日本地質学会",
+                        "en": "The Geological Society of Japan"
+                    },
+                    "publication_date": "2008",
+                    "publication_name": {
+                        "ja": "日本地質学会学術大会講演要旨",
+                        "en": "Annual Meeting of the Geological Society of Japan"
+                    },
+                    "volume": "2008",
+                    "number": "0",
+                    "starting_page": "114",
+                    "ending_page": "114",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.14863/geosocabst.2008.0.114.0"
+                        ],
+                        "issn": [
+                            "1348-3935"
+                        ],
+                        "cinii_na_id": [
+                            "130005007551"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.14863/geosocabst.2008.0.114.0",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/130005007551",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "https://jlc.jst.go.jp/DN/JALC/10034089384?from=CiNii",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0005320/misc/39262982",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0005320/misc",
+                    "rm:id": "39262982",
+                    "rm:user_id": "0000045159",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2022-07-28T07:07:06Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-07-28T07:07:06Z",
+                    "paper_title": {
+                        "ja": "中川低地南部の沖積層から産出した貝形虫化石",
+                        "en": "Ostracode fossil assemblages from the latest pleistocene-holocene deposits under the southern part of Nakagawa Lowland"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "中尾 有利子"
+                            },
+                            {
+                                "name": "中西 利典"
+                            },
+                            {
+                                "name": "木村 克己"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "日本大学文理学部自然科学研究所"
+                    },
+                    "publication_date": "2008",
+                    "publication_name": {
+                        "ja": "日本大学文理学部自然科学研究所研究紀要 地球システム科学",
+                        "en": "Proceedings of the Institute of Natural Sciences Nihon University Department of geosystem sciences"
+                    },
+                    "number": "43",
+                    "starting_page": "277",
+                    "ending_page": "286",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "1343-2745"
+                        ],
+                        "cinii_na_id": [
+                            "40016095548"
+                        ],
+                        "cinii_nc_id": [
+                            "AA11250901"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/40016095548",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_books",
+                            "@id": "http://ci.nii.ac.jp/ncid/AA11250901",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "http://id.ndl.go.jp/bib/9537321",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0005320/misc/39182980",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0005320/misc",
+                    "rm:id": "39182980",
+                    "rm:user_id": "0000045159",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2022-07-26T04:45:14Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-07-26T04:45:14Z",
+                    "paper_title": {
+                        "ja": "中川低地南部の沖積層から産出した貝形虫化石",
+                        "en": "Ostracode fossil assemblages from the latest Pleistocene-Holocene deposits under the southern part of Nakagawa Lowland"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "中尾 有利子"
+                            },
+                            {
+                                "name": "中西 利典"
+                            },
+                            {
+                                "name": "木村 克己"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "日本大学文理学部自然科学研究所"
+                    },
+                    "publication_date": "2008",
+                    "publication_name": {
+                        "ja": "日本大学文理学部自然科学研究所研究紀要",
+                        "en": "Proceedings of the Institute of Natural Sciences, Nihon University"
+                    },
+                    "number": "43",
+                    "starting_page": "277",
+                    "ending_page": "286",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "0369-3562"
+                        ],
+                        "cinii_na_id": [
+                            "40015980173"
+                        ],
+                        "cinii_nc_id": [
+                            "AN00184953"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/40015980173",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_books",
+                            "@id": "http://ci.nii.ac.jp/ncid/AN00184953",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "http://id.ndl.go.jp/bib/9468207",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0005320/misc/39065886",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0005320/misc",
+                    "rm:id": "39065886",
+                    "rm:user_id": "0000045159",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2022-07-24T04:13:28Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-07-24T04:13:28Z",
+                    "paper_title": {
+                        "ja": "O-294 東京低地北部から中川低地地下に分布する開析谷充填堆積物の岩相分布と体積(26.第四紀地質,口頭発表,一般講演)",
+                        "en": "O-294 Lithofacies distributions and those volumes in the incised valley fills under the Tokyo and Nakagawa Lowlands, Kanto Plain, central Japan"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "江藤 稚佳子"
+                            },
+                            {
+                                "name": "石原 与四郎"
+                            },
+                            {
+                                "name": "田辺 晋"
+                            },
+                            {
+                                "name": "木村 克己"
+                            },
+                            {
+                                "name": "中西 利典"
+                            },
+                            {
+                                "name": "八戸 昭一"
+                            },
+                            {
+                                "name": "中山 俊雄"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "ETO Chikako"
+                            },
+                            {
+                                "name": "ISHIHARA Yoshiro"
+                            },
+                            {
+                                "name": "TANABE Susumu"
+                            },
+                            {
+                                "name": "KIMURA Katsumi"
+                            },
+                            {
+                                "name": "NAKANISHI Toshimichi"
+                            },
+                            {
+                                "name": "HACHINOHE Shoichi"
+                            },
+                            {
+                                "name": "NAKAYAMA Toshio"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "日本地質学会",
+                        "en": "The Geological Society of Japan"
+                    },
+                    "publication_date": "2007-09-01",
+                    "publication_name": {
+                        "ja": "日本地質学会学術大会講演要旨"
+                    },
+                    "volume": "114",
+                    "starting_page": "208",
+                    "ending_page": "208",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "cinii_na_id": [
+                            "110006435528"
+                        ],
+                        "cinii_nc_id": [
+                            "AN10269961"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/110006435528",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_books",
+                            "@id": "http://ci.nii.ac.jp/ncid/AN10269961",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0005320/misc/39065854",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0005320/misc",
+                    "rm:id": "39065854",
+                    "rm:user_id": "0000045159",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2022-07-24T04:13:21Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-07-24T04:13:21Z",
+                    "paper_title": {
+                        "ja": "O-295 間隙水の水質と酸素水素安定同位対比からみた沖積海成粘土層中の地下水挙動(26.第四紀地質,口頭発表,一般講演)",
+                        "en": "O-295 Groundwater flow of Alluviul marine clay based on pore water quality and oxygen and hydrogen stable isotopic ratio"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "内山 美恵子"
+                            },
+                            {
+                                "name": "稲村 明彦"
+                            },
+                            {
+                                "name": "中西 利典"
+                            },
+                            {
+                                "name": "田邊 晋"
+                            },
+                            {
+                                "name": "木村 克己"
+                            },
+                            {
+                                "name": "吉岡 秀佳"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "UCHIYAMA Mieko"
+                            },
+                            {
+                                "name": "INAMURA Akihiko"
+                            },
+                            {
+                                "name": "NAKANISHI Toshimichi"
+                            },
+                            {
+                                "name": "TANABE Susumu"
+                            },
+                            {
+                                "name": "KIMURA Katsumi"
+                            },
+                            {
+                                "name": "YOSHIOKA Hideyoshi"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "日本地質学会",
+                        "en": "The Geological Society of Japan"
+                    },
+                    "publication_date": "2007-09-01",
+                    "publication_name": {
+                        "ja": "日本地質学会学術大会講演要旨"
+                    },
+                    "volume": "114",
+                    "starting_page": "208",
+                    "ending_page": "208",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "cinii_na_id": [
+                            "110006435529"
+                        ],
+                        "cinii_nc_id": [
+                            "AN10269961"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/110006435529",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_books",
+                            "@id": "http://ci.nii.ac.jp/ncid/AN10269961",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0005320/misc/39063456",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0005320/misc",
+                    "rm:id": "39063456",
+                    "rm:user_id": "0000045159",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2022-07-24T04:02:11Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-07-24T04:02:11Z",
+                    "paper_title": {
+                        "ja": "P-228 東京低地と中川低地における沖積層の堆積システムと物性 : 模式コアの例(26.第四紀地質,ポスター発表,一般講演)",
+                        "en": "P-228 Depositional systems and physical properties of the Chuseki-so under the Tokyo and Nakagawa Lowlands, Kanto Plain, central Japan : examples of the stratotype cores"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "田辺 晋"
+                            },
+                            {
+                                "name": "中西 利典"
+                            },
+                            {
+                                "name": "中島 礼"
+                            },
+                            {
+                                "name": "木村 克己"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Tanabe Susumu"
+                            },
+                            {
+                                "name": "Nakanishi Toshimichi"
+                            },
+                            {
+                                "name": "Nakashima Rei"
+                            },
+                            {
+                                "name": "Kimura Katsumi"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "日本地質学会",
+                        "en": "The Geological Society of Japan"
+                    },
+                    "publication_date": "2007-09-01",
+                    "publication_name": {
+                        "ja": "日本地質学会学術大会講演要旨"
+                    },
+                    "volume": "114",
+                    "starting_page": "329",
+                    "ending_page": "329",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "cinii_na_id": [
+                            "110006435766"
+                        ],
+                        "cinii_nc_id": [
+                            "AN10269961"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/110006435766",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_books",
+                            "@id": "http://ci.nii.ac.jp/ncid/AN10269961",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0005320/misc/39063339",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0005320/misc",
+                    "rm:id": "39063339",
+                    "rm:user_id": "0000045159",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2022-07-24T04:01:34Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-07-24T04:01:34Z",
+                    "paper_title": {
+                        "ja": "S-98 地質・工学・地震防災を結ぶ沖積層の総合研究((11)沖積層研究の新展開-地質学と土質工学・地震防災との連携-,口頭発表,シンポジウム)",
+                        "en": "S-98 Comprehensive study of the Chuseki-so under the Urban area : Linkage between Geology, Geoengineering and Earthquake disaster prevention"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "木村 克己"
+                            },
+                            {
+                                "name": "田辺 晋"
+                            },
+                            {
+                                "name": "竹村 貴人"
+                            },
+                            {
+                                "name": "石原 与四郎"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "KIMURA Katsumi"
+                            },
+                            {
+                                "name": "TANABE Susumu"
+                            },
+                            {
+                                "name": "TAKEMURA Takato"
+                            },
+                            {
+                                "name": "ISHIHARA Yoshiro"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "日本地質学会",
+                        "en": "The Geological Society of Japan"
+                    },
+                    "publication_date": "2007-09-01",
+                    "publication_name": {
+                        "ja": "日本地質学会学術大会講演要旨"
+                    },
+                    "volume": "114",
+                    "starting_page": "50",
+                    "ending_page": "50",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "cinii_na_id": [
+                            "110006435218"
+                        ],
+                        "cinii_nc_id": [
+                            "AN10269961"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/110006435218",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_books",
+                            "@id": "http://ci.nii.ac.jp/ncid/AN10269961",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0005320/misc/39063317",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0005320/misc",
+                    "rm:id": "39063317",
+                    "rm:user_id": "0000045159",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2022-07-24T04:01:29Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-07-24T04:01:29Z",
+                    "paper_title": {
+                        "ja": "S-96 沖積層の地域性と層序区分 : 北海道・新潟・東京・大阪地域を例に((11)沖積層研究の新展開-地質学と土質工学・地震防災との連携-,口頭発表,シンポジウム)",
+                        "en": "S-96 Regionality and Stratigraphic division of the latest Pleistocene to Holocene incised-valley fills in the Hokkaido, Niigata, Tokyo and Osaka areas"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "卜部 厚志"
+                            },
+                            {
+                                "name": "井内 美郎"
+                            },
+                            {
+                                "name": "木村 克己"
+                            },
+                            {
+                                "name": "斎藤 文紀"
+                            },
+                            {
+                                "name": "岡 孝雄"
+                            },
+                            {
+                                "name": "田辺 晋"
+                            },
+                            {
+                                "name": "北田 奈緒子"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "URABE Atsushi"
+                            },
+                            {
+                                "name": "INOUCHI Yoshiro"
+                            },
+                            {
+                                "name": "KIMURA Katsumi"
+                            },
+                            {
+                                "name": "SAITO Yoshiki"
+                            },
+                            {
+                                "name": "OKA Takao"
+                            },
+                            {
+                                "name": "TANABE Susumu"
+                            },
+                            {
+                                "name": "KITADA Naoko"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "日本地質学会",
+                        "en": "The Geological Society of Japan"
+                    },
+                    "publication_date": "2007-09-01",
+                    "publication_name": {
+                        "ja": "日本地質学会学術大会講演要旨"
+                    },
+                    "volume": "114",
+                    "starting_page": "49",
+                    "ending_page": "49",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "cinii_na_id": [
+                            "110006435216"
+                        ],
+                        "cinii_nc_id": [
+                            "AN10269961"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/110006435216",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_books",
+                            "@id": "http://ci.nii.ac.jp/ncid/AN10269961",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0005320/misc/39063299",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0005320/misc",
+                    "rm:id": "39063299",
+                    "rm:user_id": "0000045159",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2022-07-24T04:01:25Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-07-24T04:01:25Z",
+                    "paper_title": {
+                        "ja": "S-94 東京低地から中川低地における沖積層の堆積システムと物性 : 沖積層の2部層区分((11)沖積層研究の新展開-地質学と土質工学・地震防災との連携-,口頭発表,シンポジウム)",
+                        "en": "S-94 Depositional systems and physical properties of the Chuseki-so under the Tokyo and Nakagawa Lowlands, Kanto Plain, central Japan : their classification into Yurakucho and Nanagochi Formations"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "田辺 晋"
+                            },
+                            {
+                                "name": "木村 克己"
+                            },
+                            {
+                                "name": "中西 利典"
+                            },
+                            {
+                                "name": "石原 与四郎"
+                            },
+                            {
+                                "name": "中島 礼"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Tanabe Susumu"
+                            },
+                            {
+                                "name": "Kimura Katsumi"
+                            },
+                            {
+                                "name": "Nakanishi Toshimichi"
+                            },
+                            {
+                                "name": "Ishihara Yoshiro"
+                            },
+                            {
+                                "name": "Nakashima Rei"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "日本地質学会",
+                        "en": "The Geological Society of Japan"
+                    },
+                    "publication_date": "2007-09-01",
+                    "publication_name": {
+                        "ja": "日本地質学会学術大会講演要旨"
+                    },
+                    "volume": "114",
+                    "starting_page": "48",
+                    "ending_page": "48",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "cinii_na_id": [
+                            "110006435214"
+                        ],
+                        "cinii_nc_id": [
+                            "AN10269961"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/110006435214",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_books",
+                            "@id": "http://ci.nii.ac.jp/ncid/AN10269961",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0005320/misc/39063264",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0005320/misc",
+                    "rm:id": "39063264",
+                    "rm:user_id": "0000045159",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2022-07-24T04:01:14Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-07-24T04:01:14Z",
+                    "paper_title": {
+                        "ja": "S-97 ボーリングデータベースを利用した沖積層の3次元地質・地盤モデルの構築 : 東京低地の例((11)沖積層研究の新展開-地質学と土質工学・地震防災との連携-,口頭発表,シンポジウム)",
+                        "en": "S-97 Construction of 3D geological model of the incised valley fills using the borehole database : an example of the Tokyo Lowland, Kanto Plain, central Japan"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "石原 与四郎"
+                            },
+                            {
+                                "name": "江藤 稚佳子"
+                            },
+                            {
+                                "name": "田辺 晋"
+                            },
+                            {
+                                "name": "木村 克己"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "ISHIHARA Yoshiro"
+                            },
+                            {
+                                "name": "ETO Chikako"
+                            },
+                            {
+                                "name": "TANABE Susumu"
+                            },
+                            {
+                                "name": "KIMURA Katsumi"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "日本地質学会",
+                        "en": "The Geological Society of Japan"
+                    },
+                    "publication_date": "2007-09-01",
+                    "publication_name": {
+                        "ja": "日本地質学会学術大会講演要旨"
+                    },
+                    "volume": "114",
+                    "starting_page": "50",
+                    "ending_page": "50",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "cinii_na_id": [
+                            "110006435217"
+                        ],
+                        "cinii_nc_id": [
+                            "AN10269961"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/110006435217",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_books",
+                            "@id": "http://ci.nii.ac.jp/ncid/AN10269961",
+                            "is_downloadable": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0005320/association_memberships",
+            "@type": "association_memberships",
+            "@reverse": "https://api.researchmap.jp/read0005320",
+            "total_items": 3,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0005320/association_memberships/429459",
+                    "@type": "association_memberships",
+                    "@reverse": "https://api.researchmap.jp/read0005320/association_memberships",
+                    "rm:id": "429459",
+                    "rm:user_id": "0000045159",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000045159",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2001-12-25T15:00:00Z",
+                    "rm:modifier_id": "0000045159",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2001-12-25T15:00:00Z",
+                    "academic_society_name": {
+                        "en": "Tectonic Research Group of Japan"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0005320/association_memberships/429458",
+                    "@type": "association_memberships",
+                    "@reverse": "https://api.researchmap.jp/read0005320/association_memberships",
+                    "rm:id": "429458",
+                    "rm:user_id": "0000045159",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000045159",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2001-12-25T15:00:00Z",
+                    "rm:modifier_id": "0000045159",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2001-12-25T15:00:00Z",
+                    "academic_society_name": {
+                        "en": "Geological Society of Japan"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0005320/association_memberships/429457",
+                    "@type": "association_memberships",
+                    "@reverse": "https://api.researchmap.jp/read0005320/association_memberships",
+                    "rm:id": "429457",
+                    "rm:user_id": "0000045159",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000045159",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2001-12-25T15:00:00Z",
+                    "rm:modifier_id": "0000045159",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2001-12-25T15:00:00Z",
+                    "academic_society_name": {
+                        "en": "Geological Society of America"
+                    }
+                }
+            ]
+        }
+    ]
+}

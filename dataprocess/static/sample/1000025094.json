@@ -1,0 +1,3822 @@
+{
+    "@context": "https://api.researchmap.jp/researcher.jsonld",
+    "@id": "https://api.researchmap.jp/read0011716?format=json",
+    "@type": "researchers",
+    "rm:user_id": "1000025094",
+    "rm:creator_id": "1000025094",
+    "rm:creator_type": "myself",
+    "rm:created": "2011-04-24T15:00:00Z",
+    "rm:modifier_id": "R000000018",
+    "rm:modifier_type": "institution",
+    "rm:modified": "2024-01-17T05:10:18Z",
+    "permalink": "read0011716",
+    "family_name": {
+        "ja": "山田",
+        "ja-Kana": "ヤマダ",
+        "en": "Yamada"
+    },
+    "given_name": {
+        "ja": "学",
+        "ja-Kana": "マナブ",
+        "en": "Manabu"
+    },
+    "display_name_kana": "disclosed",
+    "display_nickname": "disclosed",
+    "display_image": "disclosed",
+    "display_contact_point": "disclosed",
+    "affiliations": [
+        {
+            "affiliation": {
+                "ja": "名古屋工業大学",
+                "en": "Nagoya Institute of Technology"
+            },
+            "section": {
+                "ja": "大学院 つくり領域",
+                "en": "Graduate School of Engineering Tsukuri College"
+            },
+            "job": {
+                "ja": "教授",
+                "en": "Professor"
+            },
+            "display_affiliation": "disclosed",
+            "display_job": "disclosed",
+            "rm:institution_code": "0264002014"
+        }
+    ],
+    "display_profile": "disclosed",
+    "see_also": [
+        {
+            "label": "j_global",
+            "@id": "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=200901044070507914"
+        },
+        {
+            "@id": "http://mcontrol.web.nitech.ac.jp/yamam/",
+            "label": "url"
+        }
+    ],
+    "display_url": "disclosed",
+    "identifiers": {
+        "erad_id": [
+            "40242903"
+        ],
+        "j_global_id": [
+            "200901044070507914"
+        ]
+    },
+    "rm:erad_id_verified": false,
+    "rm:orc_id_verified": false,
+    "display_erad_id": "disclosed",
+    "display_orc_id": "closed",
+    "display_researcher_id": "disclosed",
+    "display_j_global_id": "disclosed",
+    "@graph": [
+        {
+            "@id": "https://api.researchmap.jp/read0011716/research_interests",
+            "@type": "research_interests",
+            "@reverse": "https://api.researchmap.jp/read0011716",
+            "total_items": 1,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0011716/research_interests/11044378",
+                    "@type": "research_interests",
+                    "@reverse": "https://api.researchmap.jp/read0011716/research_interests",
+                    "rm:id": "11044378",
+                    "rm:user_id": "1000025094",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:WxIABdDyVboN4t9u",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-14T18:09:27Z",
+                    "rm:modifier_id": "R000000018",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2021-06-07T05:45:32Z",
+                    "keyword": {
+                        "ja": "システム・制御理論 制御工学一般",
+                        "en": "-"
+                    }
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0011716/research_areas",
+            "@type": "research_areas",
+            "@reverse": "https://api.researchmap.jp/read0011716",
+            "total_items": 2,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0011716/research_areas/8854276",
+                    "@type": "research_areas",
+                    "@reverse": "https://api.researchmap.jp/read0011716/research_areas",
+                    "rm:id": "8854276",
+                    "rm:user_id": "1000025094",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:WxIABdDyVboN4t9u",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-14T18:09:27Z",
+                    "rm:modifier_id": "R000000018",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2021-07-07T04:09:55Z",
+                    "discipline_number": "A689",
+                    "item_number": "A21040",
+                    "discipline": {
+                        "ja": "ものづくり技術（機械・電気電子・化学工学）",
+                        "en": "Manufacturing technology (mechanical, electrical/electronic, chemical engineering)"
+                    },
+                    "research_field": {
+                        "ja": "制御、システム工学",
+                        "en": "Control and systems engineering"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0011716/research_areas/8854275",
+                    "@type": "research_areas",
+                    "@reverse": "https://api.researchmap.jp/read0011716/research_areas",
+                    "rm:id": "8854275",
+                    "rm:user_id": "1000025094",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:WxIABdDyVboN4t9u",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-14T18:09:27Z",
+                    "rm:modifier_id": "R000000018",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2021-06-07T05:45:35Z",
+                    "discipline_number": "A289",
+                    "item_number": "A20010",
+                    "discipline": {
+                        "ja": "情報通信",
+                        "en": "Informatics"
+                    },
+                    "research_field": {
+                        "ja": "機械力学、メカトロニクス",
+                        "en": "Mechanics and mechatronics"
+                    }
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0011716/committee_memberships",
+            "@type": "committee_memberships",
+            "@reverse": "https://api.researchmap.jp/read0011716",
+            "total_items": 12,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0011716/committee_memberships/8163134",
+                    "@type": "committee_memberships",
+                    "@reverse": "https://api.researchmap.jp/read0011716/committee_memberships",
+                    "rm:id": "8163134",
+                    "rm:user_id": "1000025094",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:WxIABdDyVboN4t9u",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-14T18:09:27Z",
+                    "rm:modifier_id": "client_id:WxIABdDyVboN4t9u",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-01-14T18:09:27Z",
+                    "from_date": "2014-01-01",
+                    "to_date": "9999",
+                    "committee_name": {
+                        "ja": "Special Session Chair of IEEE International Conference on Advanced Mechanical Systems"
+                    },
+                    "association": {
+                        "ja": "IEEE"
+                    },
+                    "committee_type": "society"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0011716/committee_memberships/8163133",
+                    "@type": "committee_memberships",
+                    "@reverse": "https://api.researchmap.jp/read0011716/committee_memberships",
+                    "rm:id": "8163133",
+                    "rm:user_id": "1000025094",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:WxIABdDyVboN4t9u",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-14T18:09:27Z",
+                    "rm:modifier_id": "client_id:WxIABdDyVboN4t9u",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-01-14T18:09:27Z",
+                    "from_date": "2013-04",
+                    "to_date": "9999",
+                    "committee_name": {
+                        "ja": "ロボティクス・メカトロニクス部門 運営委員会委員"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0011716/committee_memberships/8163128",
+                    "@type": "committee_memberships",
+                    "@reverse": "https://api.researchmap.jp/read0011716/committee_memberships",
+                    "rm:id": "8163128",
+                    "rm:user_id": "1000025094",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:WxIABdDyVboN4t9u",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-14T18:09:27Z",
+                    "rm:modifier_id": "client_id:WxIABdDyVboN4t9u",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-01-14T18:09:27Z",
+                    "from_date": "2010-01",
+                    "to_date": "9999",
+                    "committee_name": {
+                        "ja": "産業における適応学習制御調査研究会委員"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0011716/committee_memberships/8163132",
+                    "@type": "committee_memberships",
+                    "@reverse": "https://api.researchmap.jp/read0011716/committee_memberships",
+                    "rm:id": "8163132",
+                    "rm:user_id": "1000025094",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:WxIABdDyVboN4t9u",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-14T18:09:27Z",
+                    "rm:modifier_id": "client_id:WxIABdDyVboN4t9u",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-01-14T18:09:27Z",
+                    "from_date": "2013-03-01",
+                    "to_date": "2014-02-28",
+                    "committee_name": {
+                        "ja": "東海支部事業幹事"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0011716/committee_memberships/8163131",
+                    "@type": "committee_memberships",
+                    "@reverse": "https://api.researchmap.jp/read0011716/committee_memberships",
+                    "rm:id": "8163131",
+                    "rm:user_id": "1000025094",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:WxIABdDyVboN4t9u",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-14T18:09:27Z",
+                    "rm:modifier_id": "client_id:WxIABdDyVboN4t9u",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-01-14T18:09:27Z",
+                    "from_date": "2012-02",
+                    "to_date": "2013-02",
+                    "committee_name": {
+                        "ja": "東海支部商議員"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0011716/committee_memberships/8163130",
+                    "@type": "committee_memberships",
+                    "@reverse": "https://api.researchmap.jp/read0011716/committee_memberships",
+                    "rm:id": "8163130",
+                    "rm:user_id": "1000025094",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:WxIABdDyVboN4t9u",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-14T18:09:27Z",
+                    "rm:modifier_id": "client_id:WxIABdDyVboN4t9u",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-01-14T18:09:27Z",
+                    "from_date": "2011-01-22",
+                    "to_date": "2013-01",
+                    "committee_name": {
+                        "ja": "中部支部庶務幹事"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0011716/committee_memberships/8163129",
+                    "@type": "committee_memberships",
+                    "@reverse": "https://api.researchmap.jp/read0011716/committee_memberships",
+                    "rm:id": "8163129",
+                    "rm:user_id": "1000025094",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:WxIABdDyVboN4t9u",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-14T18:09:27Z",
+                    "rm:modifier_id": "client_id:WxIABdDyVboN4t9u",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-01-14T18:09:27Z",
+                    "from_date": "2010-03",
+                    "to_date": "2012-03",
+                    "committee_name": {
+                        "ja": "論文集委員会委員"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0011716/committee_memberships/8163127",
+                    "@type": "committee_memberships",
+                    "@reverse": "https://api.researchmap.jp/read0011716/committee_memberships",
+                    "rm:id": "8163127",
+                    "rm:user_id": "1000025094",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:WxIABdDyVboN4t9u",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-14T18:09:27Z",
+                    "rm:modifier_id": "client_id:WxIABdDyVboN4t9u",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-01-14T18:09:27Z",
+                    "from_date": "2007-02",
+                    "to_date": "2009-01",
+                    "committee_name": {
+                        "ja": "中部支部 制御理論研究委員会 委員長"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0011716/committee_memberships/8163125",
+                    "@type": "committee_memberships",
+                    "@reverse": "https://api.researchmap.jp/read0011716/committee_memberships",
+                    "rm:id": "8163125",
+                    "rm:user_id": "1000025094",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:WxIABdDyVboN4t9u",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-14T18:09:27Z",
+                    "rm:modifier_id": "client_id:WxIABdDyVboN4t9u",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-01-14T18:09:27Z",
+                    "from_date": "2005-02",
+                    "to_date": "2008-01",
+                    "committee_name": {
+                        "ja": "知的システム構築のための適応学習制御調査研究会委員"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0011716/committee_memberships/8163126",
+                    "@type": "committee_memberships",
+                    "@reverse": "https://api.researchmap.jp/read0011716/committee_memberships",
+                    "rm:id": "8163126",
+                    "rm:user_id": "1000025094",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:WxIABdDyVboN4t9u",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-14T18:09:27Z",
+                    "rm:modifier_id": "client_id:WxIABdDyVboN4t9u",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-01-14T18:09:27Z",
+                    "from_date": "2007-02",
+                    "to_date": "2007-12",
+                    "committee_name": {
+                        "ja": "制御部門学術委員会委員"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0011716/committee_memberships/8163124",
+                    "@type": "committee_memberships",
+                    "@reverse": "https://api.researchmap.jp/read0011716/committee_memberships",
+                    "rm:id": "8163124",
+                    "rm:user_id": "1000025094",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:WxIABdDyVboN4t9u",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-14T18:09:27Z",
+                    "rm:modifier_id": "client_id:WxIABdDyVboN4t9u",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-01-14T18:09:27Z",
+                    "from_date": "2000-02",
+                    "to_date": "2002-01",
+                    "committee_name": {
+                        "ja": "中部支部 会計幹事"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0011716/committee_memberships/8163123",
+                    "@type": "committee_memberships",
+                    "@reverse": "https://api.researchmap.jp/read0011716/committee_memberships",
+                    "rm:id": "8163123",
+                    "rm:user_id": "1000025094",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:WxIABdDyVboN4t9u",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-14T18:09:27Z",
+                    "rm:modifier_id": "client_id:WxIABdDyVboN4t9u",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-01-14T18:09:27Z",
+                    "from_date": "2000-02",
+                    "to_date": "2001-12",
+                    "committee_name": {
+                        "ja": "制御理論部会運営委員会委員"
+                    }
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0011716/awards",
+            "@type": "awards",
+            "@reverse": "https://api.researchmap.jp/read0011716",
+            "total_items": 6,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0011716/awards/31050996",
+                    "@type": "awards",
+                    "@reverse": "https://api.researchmap.jp/read0011716/awards",
+                    "rm:id": "31050996",
+                    "rm:user_id": "1000025094",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "R000000018",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-12-01T04:25:52Z",
+                    "rm:modifier_id": "R000000018",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-12-01T04:25:52Z",
+                    "award_name": {
+                        "ja": "優秀講演賞（第20回計測自動制御学会システムインテグレーション部門講演会）"
+                    },
+                    "winners": {
+                        "ja": [
+                            {
+                                "name": "高木,福田"
+                            },
+                            {
+                                "name": "仲野,山田"
+                            }
+                        ]
+                    },
+                    "award_title": {
+                        "ja": "天井裏点検を目的としたマルチコプタの開発"
+                    },
+                    "association": {
+                        "ja": "計測自動制御学会システムインテグレーション部門"
+                    },
+                    "award_date": "2020-01",
+                    "award_type": "japan_society",
+                    "address_country": "JPN"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0011716/awards/31050995",
+                    "@type": "awards",
+                    "@reverse": "https://api.researchmap.jp/read0011716/awards",
+                    "rm:id": "31050995",
+                    "rm:user_id": "1000025094",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "R000000018",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-12-01T04:25:52Z",
+                    "rm:modifier_id": "R000000018",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-12-01T04:25:52Z",
+                    "award_name": {
+                        "ja": "優秀講演賞（第20回計測自動制御学会システムインテグレーション部門講演会）"
+                    },
+                    "winners": {
+                        "ja": [
+                            {
+                                "name": "川口"
+                            },
+                            {
+                                "name": "仲野,山田"
+                            }
+                        ]
+                    },
+                    "award_title": {
+                        "ja": "2輪型マルチコプタを用いた橋梁点検システムと天井面走行への応用"
+                    },
+                    "association": {
+                        "ja": "計測自動制御学会システムインテグレーション部門"
+                    },
+                    "award_date": "2020-01",
+                    "award_type": "japan_society",
+                    "address_country": "JPN"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0011716/awards/4208709",
+                    "@type": "awards",
+                    "@reverse": "https://api.researchmap.jp/read0011716/awards",
+                    "rm:id": "4208709",
+                    "rm:user_id": "1000025094",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:WxIABdDyVboN4t9u",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-14T18:09:27Z",
+                    "rm:modifier_id": "client_id:WxIABdDyVboN4t9u",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-01-14T18:09:27Z",
+                    "award_name": {
+                        "ja": "科研費審査委員表彰"
+                    },
+                    "winners": {
+                        "ja": [
+                            {
+                                "name": "山田学"
+                            }
+                        ]
+                    },
+                    "winners_text": {
+                        "ja": "山田学"
+                    },
+                    "association": {
+                        "ja": "独立行政法人日本学術振興会"
+                    },
+                    "award_date": "2015-11-30",
+                    "award_type": "others",
+                    "address_country": "JPN"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0011716/awards/4208706",
+                    "@type": "awards",
+                    "@reverse": "https://api.researchmap.jp/read0011716/awards",
+                    "rm:id": "4208706",
+                    "rm:user_id": "1000025094",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:WxIABdDyVboN4t9u",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-14T18:09:27Z",
+                    "rm:modifier_id": "client_id:WxIABdDyVboN4t9u",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-01-14T18:09:27Z",
+                    "award_name": {
+                        "ja": "計測自動制御学会 論文賞",
+                        "en": "Paper award of the society of instrument and control engineering"
+                    },
+                    "winners": {
+                        "ja": [
+                            {
+                                "name": "山田学"
+                            },
+                            {
+                                "name": "太田進一"
+                            },
+                            {
+                                "name": "舟橋康行"
+                            }
+                        ]
+                    },
+                    "winners_text": {
+                        "ja": "「山田学」「太田進一」「舟橋康行」"
+                    },
+                    "association": {
+                        "ja": "計測自動制御学会"
+                    },
+                    "award_date": "2010-08-13",
+                    "award_type": "international_academic_award",
+                    "address_country": "JPN"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0011716/awards/4208708",
+                    "@type": "awards",
+                    "@reverse": "https://api.researchmap.jp/read0011716/awards",
+                    "rm:id": "4208708",
+                    "rm:user_id": "1000025094",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:WxIABdDyVboN4t9u",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-14T18:09:27Z",
+                    "rm:modifier_id": "client_id:WxIABdDyVboN4t9u",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-01-14T18:09:27Z",
+                    "award_name": {
+                        "ja": "計測自動制御学会中部支部支部賞研究賞"
+                    },
+                    "winners_text": {
+                        "ja": "-"
+                    },
+                    "association": {
+                        "ja": "-"
+                    },
+                    "award_date": "2003-04",
+                    "award_type": "others",
+                    "address_country": "JPN"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0011716/awards/4208707",
+                    "@type": "awards",
+                    "@reverse": "https://api.researchmap.jp/read0011716/awards",
+                    "rm:id": "4208707",
+                    "rm:user_id": "1000025094",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:WxIABdDyVboN4t9u",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-14T18:09:27Z",
+                    "rm:modifier_id": "client_id:WxIABdDyVboN4t9u",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-01-14T18:09:27Z",
+                    "award_name": {
+                        "ja": "日本機械学会東海支部賞奨励賞",
+                        "en": "Encouragement Prize of Tokai Branch of The Japan Society of Mechanical Engineers"
+                    },
+                    "winners_text": {
+                        "ja": "-"
+                    },
+                    "association": {
+                        "ja": "-"
+                    },
+                    "award_date": "1997-04",
+                    "award_type": "others",
+                    "address_country": "JPN"
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0011716/published_papers",
+            "@type": "published_papers",
+            "@reverse": "https://api.researchmap.jp/read0011716",
+            "total_items": 74,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0011716/published_papers/19483206",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0011716/published_papers",
+                    "rm:id": "19483206",
+                    "rm:user_id": "1000025094",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:WxIABdDyVboN4t9u",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-14T18:09:27Z",
+                    "rm:modifier_id": "client_id:WxIABdDyVboN4t9u",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-01-14T18:09:27Z",
+                    "paper_title": {
+                        "ja": "地上および天井移動する２輪型４ロータヘリコプタの追従制御",
+                        "en": "Tracking Control of Two-wheeled Quadrotor Helicopter Moving on Ground and Ceiling"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "塚田大貴"
+                            },
+                            {
+                                "name": "尾崎耕平"
+                            },
+                            {
+                                "name": "山田学"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "T.Tukada"
+                            },
+                            {
+                                "name": "K.Ozaki"
+                            },
+                            {
+                                "name": "M.Yamada"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "公益社団法人 計測自動制御学会",
+                        "en": "The Society of Instrument and Control Engineers"
+                    },
+                    "publication_date": "2018-10-31",
+                    "publication_name": {
+                        "ja": "計測自動制御学会論文集",
+                        "en": "Transactions of the Society of Instrument and Control Engineers"
+                    },
+                    "volume": "54",
+                    "number": "10",
+                    "starting_page": "776",
+                    "ending_page": "784",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": true,
+                    "invited": true,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "0453-4654"
+                        ]
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0011716/published_papers/19483209",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0011716/published_papers",
+                    "rm:id": "19483209",
+                    "rm:user_id": "1000025094",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:WxIABdDyVboN4t9u",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-14T18:09:27Z",
+                    "rm:modifier_id": "client_id:WxIABdDyVboN4t9u",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-01-14T18:09:27Z",
+                    "paper_title": {
+                        "ja": "Development of a Bridge Inspection Support System Using Two-Wheeled Multicopter and 3D Modeling Technology",
+                        "en": "Development of a Bridge Inspection Support System Using Two-Wheeled Multicopter and 3D Modeling Technology"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "Y.Hada"
+                            },
+                            {
+                                "name": "M.Nakao"
+                            },
+                            {
+                                "name": "M. Yamada 他"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Y.Hada"
+                            },
+                            {
+                                "name": "M.Nakao"
+                            },
+                            {
+                                "name": "M. Yamada 他"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "Fuji Technology Press Ltd.",
+                        "en": "Fuji Technology Press Ltd."
+                    },
+                    "publication_date": "2017-08",
+                    "publication_name": {
+                        "ja": "Journal of Disaster Research",
+                        "en": "Journal of Disaster Research"
+                    },
+                    "volume": "12",
+                    "number": "3",
+                    "starting_page": "593",
+                    "ending_page": "606",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0011716/published_papers/19483278",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0011716/published_papers",
+                    "rm:id": "19483278",
+                    "rm:user_id": "1000025094",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:WxIABdDyVboN4t9u",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-14T18:09:27Z",
+                    "rm:modifier_id": "client_id:WxIABdDyVboN4t9u",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-01-14T18:09:27Z",
+                    "paper_title": {
+                        "ja": "Tracking Control of Quad-rotor Helicopters Suspended a Power Supply Cable with On-line Estimation of Disturbances based on Input-Output Linearization",
+                        "en": "Tracking Control of Quad-rotor Helicopters Suspended a Power Supply Cable with On-line Estimation of Disturbances based on Input-Output Linearization"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "H.Hayakawa"
+                            },
+                            {
+                                "name": "M.Ando"
+                            },
+                            {
+                                "name": "M.Yamada"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "H.Hayakawa"
+                            },
+                            {
+                                "name": "M.Ando"
+                            },
+                            {
+                                "name": "M.Yamada"
+                            }
+                        ]
+                    },
+                    "publication_date": "2017-02",
+                    "publication_name": {
+                        "ja": "International Journal of Advanced Mechatronics Systems",
+                        "en": "International Journal of Advanced Mechatronics Systems"
+                    },
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0011716/published_papers/19483211",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0011716/published_papers",
+                    "rm:id": "19483211",
+                    "rm:user_id": "1000025094",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:WxIABdDyVboN4t9u",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-14T18:09:27Z",
+                    "rm:modifier_id": "client_id:WxIABdDyVboN4t9u",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-01-14T18:09:27Z",
+                    "paper_title": {
+                        "ja": "Development of a Bridge Inspection Support Robot System that Uses a Two-Wheeled Quad-Rotor Helicopter",
+                        "en": "Development of a Bridge Inspection Support Robot System that Uses a Two-Wheeled Quad-Rotor Helicopter"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "M.Nakao"
+                            },
+                            {
+                                "name": "M. Ito"
+                            },
+                            {
+                                "name": "Y. Kutuna"
+                            },
+                            {
+                                "name": "M. Yamada 他"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "M.Nakao"
+                            },
+                            {
+                                "name": "M. Ito"
+                            },
+                            {
+                                "name": "Y. Kutuna"
+                            },
+                            {
+                                "name": "M. Yamada 他"
+                            }
+                        ]
+                    },
+                    "publication_date": "2016-01",
+                    "publication_name": {
+                        "ja": "Proceedings of The Fourteenth East Asia-Pacific Conference on Structural Engineering and Construction (EASEC)",
+                        "en": "Proceedings of The Fourteenth East Asia-Pacific Conference on Structural Engineering and Construction (EASEC)"
+                    },
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "international_conference_proceedings",
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0011716/published_papers/19483208",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0011716/published_papers",
+                    "rm:id": "19483208",
+                    "rm:user_id": "1000025094",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:WxIABdDyVboN4t9u",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-14T18:09:27Z",
+                    "rm:modifier_id": "client_id:WxIABdDyVboN4t9u",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-01-14T18:09:27Z",
+                    "paper_title": {
+                        "ja": "Adaptive Tracking Control of Quad-Rotor Helicopter in Quaternion Based on Iinput-Output Linearization with Online Estimation of Inertia Moment",
+                        "en": "Adaptive Tracking Control of Quad-Rotor Helicopter in Quaternion Based on Iinput-Output Linearization with Online Estimation of Inertia Moment"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "Y.Kutuna"
+                            },
+                            {
+                                "name": "M.Ando"
+                            },
+                            {
+                                "name": "M.Yamada"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Y.Kutuna"
+                            },
+                            {
+                                "name": "M.Ando"
+                            },
+                            {
+                                "name": "M.Yamada"
+                            }
+                        ]
+                    },
+                    "publication_date": "2015-10",
+                    "publication_name": {
+                        "ja": "International Journal of Advanced Mechatronics Systems",
+                        "en": "International Journal of Advanced Mechatronics Systems"
+                    },
+                    "volume": "6",
+                    "number": "5",
+                    "starting_page": "237",
+                    "ending_page": "246",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "1756-8420"
+                        ]
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0011716/published_papers/19483277",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0011716/published_papers",
+                    "rm:id": "19483277",
+                    "rm:user_id": "1000025094",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:WxIABdDyVboN4t9u",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-14T18:09:27Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-06-05T04:02:23Z",
+                    "paper_title": {
+                        "en": "Tracking Control of Quad-rotor Helicopters Suspended a Power Supply Cable with On-line Estimation of Disturbances"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Hayami Hayakawa"
+                            },
+                            {
+                                "name": "Shogo Obata"
+                            },
+                            {
+                                "name": "Manabu Yamada"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "In this paper, we propose a tracking controller for quad-rotor suspended a flexible cable. The first contribution is to present a new disturbance observer to estimate online both the tension of the cable and unknown disturbances applied to dynamics. The second one is to propose a new exact linearization method which reduces the nonlinear closed-loop system to a linear controllable state equation by changing coordinates in the state space. By using the linearization, a new tracking controller based on disturbance observer is presented for obtaining asymptotically rejection against unknown constant disturbance."
+                    },
+                    "publisher": {
+                        "en": "IEEE"
+                    },
+                    "publication_date": "2015",
+                    "publication_name": {
+                        "en": "2015 INTERNATIONAL CONFERENCE ON ADVANCED MECHATRONIC SYSTEMS (ICAMECHS)"
+                    },
+                    "starting_page": "423",
+                    "ending_page": "428",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "international_conference_proceedings",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "2325-0682"
+                        ],
+                        "wos_id": [
+                            "WOS:000380467100081"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000380467100081&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0011716/published_papers/19483205",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0011716/published_papers",
+                    "rm:id": "19483205",
+                    "rm:user_id": "1000025094",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:WxIABdDyVboN4t9u",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-14T18:09:27Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-06-04T10:45:02Z",
+                    "paper_title": {
+                        "en": "All-round two-wheeled quadrotor helicopters with protect-frames for air-land-sea vehicle (controller design and automatic charging equipment)",
+                        "ja": "All-round two-wheeled quadrotor helicopters with protect-frames for air–land–sea vehicle (controller design and automatic charging equipment)"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "Nana Takahashi"
+                            },
+                            {
+                                "name": "Shuhei Yamashita"
+                            },
+                            {
+                                "name": "Yurina Sato"
+                            },
+                            {
+                                "name": "Yuta Kutsuna"
+                            },
+                            {
+                                "name": "Manabu Yamada"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Nana Takahashi"
+                            },
+                            {
+                                "name": "Shuhei Yamashita"
+                            },
+                            {
+                                "name": "Yurina Sato"
+                            },
+                            {
+                                "name": "Yuta Kutsuna"
+                            },
+                            {
+                                "name": "Manabu Yamada"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "This paper presents a new all-round Air-Land-Sea Unmanned Aerial Vehicle (UAV) and the automatic battery charging device. The new UAV is a quadrotor helicopter with two rolling protect-frames, which not only can fly in the air but also can move on the ground, the wall, the ceiling, and the water in all directions. In this paper, firstly, the dynamic equation is derived of the new UAV, which is described by a set of nonlinear equations. Secondly, some tracking problems are considered in both the flight mode and the ground one under uncertain inertia parameters, and useful adaptive control systems based on the input-output linearization are proposed for the position tracking control. The design problem is reduced to that of a linear system, and the design method is simple and straightforward. Finally, a new automatic battery charging device is developed for the UAV. It is the unique point that the connection operation to the charging terminal is carried out by ground rolling motion without precise landing from the air. Consequently, even if in windy outdoor and narrow indoor space, the proposed method can complete the battery charge safely and surely."
+                    },
+                    "publisher": {
+                        "en": "TAYLOR & FRANCIS LTD"
+                    },
+                    "publication_date": "2015-01",
+                    "publication_name": {
+                        "en": "ADVANCED ROBOTICS",
+                        "ja": "Advanced Robotics"
+                    },
+                    "volume": "29",
+                    "number": "1",
+                    "starting_page": "69",
+                    "ending_page": "87",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1080/01691864.2014.991754"
+                        ],
+                        "issn": [
+                            "0169-1864"
+                        ],
+                        "e_issn": [
+                            "1568-5535"
+                        ],
+                        "wos_id": [
+                            "WOS:000348796100001"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1080/01691864.2014.991754",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000348796100001&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        },
+                        {
+                            "@id": "http://www.tandfonline.com/doi/abs/10.1080/01691864.2014.991754#.VTeNKhC7Zaw",
+                            "is_downloadable": false,
+                            "label": "url"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0011716/published_papers/19483207",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0011716/published_papers",
+                    "rm:id": "19483207",
+                    "rm:user_id": "1000025094",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:WxIABdDyVboN4t9u",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-14T18:09:27Z",
+                    "rm:modifier_id": "client_id:WxIABdDyVboN4t9u",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-01-14T18:09:27Z",
+                    "paper_title": {
+                        "ja": "入出力線形化に基づくクアッドロータヘリコプタの適応H∞追従制御",
+                        "en": "Adaptive H infinity Tracking control for Quad-rotor Helicopters Based in Input-output Linearization"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "森 啓多"
+                            },
+                            {
+                                "name": "堀田 克也"
+                            },
+                            {
+                                "name": "山田 学"
+                            }
+                        ]
+                    },
+                    "publication_date": "2014-11",
+                    "publication_name": {
+                        "ja": "計測自動制御学会論文集"
+                    },
+                    "volume": "50",
+                    "number": "11",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "0453-4654"
+                        ]
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0011716/published_papers/19483276",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0011716/published_papers",
+                    "rm:id": "19483276",
+                    "rm:user_id": "1000025094",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:WxIABdDyVboN4t9u",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-14T18:09:27Z",
+                    "rm:modifier_id": "client_id:WxIABdDyVboN4t9u",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-01-14T18:09:27Z",
+                    "paper_title": {
+                        "ja": "バックステッピング法に基づく4 ロータ小型ヘリコプタの適応追従制御",
+                        "en": "Adaptive Tracking Control of a Four-rotor Mini Helicopter Based on Backstepping Technique"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "堀田克也"
+                            },
+                            {
+                                "name": "山田学"
+                            },
+                            {
+                                "name": "大羽達志"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Katsuya Hotta"
+                            },
+                            {
+                                "name": "Manabu Yamada"
+                            },
+                            {
+                                "name": "Tatsushi Ooba"
+                            }
+                        ]
+                    },
+                    "publication_date": "2014-02-28",
+                    "publication_name": {
+                        "ja": "計測自動制御学会論文集",
+                        "en": "Transactions of the Society of Instrument and Control Engineers"
+                    },
+                    "volume": "50",
+                    "number": "2",
+                    "starting_page": "177",
+                    "ending_page": "184",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "0453-4654"
+                        ]
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0011716/published_papers/19483210",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0011716/published_papers",
+                    "rm:id": "19483210",
+                    "rm:user_id": "1000025094",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:WxIABdDyVboN4t9u",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-14T18:09:27Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-04-03T15:03:56Z",
+                    "paper_title": {
+                        "en": "Adaptive Position Control of Quad-Rotor Helicopter in Quaternion Based on Input-Output Linearization"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Yuta Kutsuna"
+                            },
+                            {
+                                "name": "Makoto Ando"
+                            },
+                            {
+                                "name": "Manabu Yamada"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "In this paper, we consider problems of controlling the position of a quad-rotor helicopter in the quaternion. The quad-rotor helicopter is described by a set of nonlinear equations. This paper presents a useful exact input-output linearization of the helicopter by using a nonsingular input transformation. This linearization provides both simple controller designs and higher level control performance, for example, the optimal and Hinfinity control."
+                    },
+                    "publisher": {
+                        "en": "IEEE"
+                    },
+                    "publication_date": "2014",
+                    "publication_name": {
+                        "en": "2014 INTERNATIONAL CONFERENCE ON ADVANCED MECHATRONIC SYSTEMS (ICAMECHS)"
+                    },
+                    "starting_page": "243",
+                    "ending_page": "248",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "international_conference_proceedings",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "2325-0682"
+                        ],
+                        "wos_id": [
+                            "WOS:000361466100046"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000361466100046&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0011716/published_papers/19483274",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0011716/published_papers",
+                    "rm:id": "19483274",
+                    "rm:user_id": "1000025094",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:WxIABdDyVboN4t9u",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-14T18:09:27Z",
+                    "rm:modifier_id": "client_id:WxIABdDyVboN4t9u",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-01-14T18:09:27Z",
+                    "paper_title": {
+                        "ja": "Exponential stabilization of quad-rotor helicopter based on exact linearization and",
+                        "en": "Exponential stabilization of quad-rotor helicopter based on exact linearization and"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "Makoto Ando"
+                            },
+                            {
+                                "name": "Kazuki Oguchi"
+                            },
+                            {
+                                "name": "Manabu Yamada"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Makoto Ando"
+                            },
+                            {
+                                "name": "Kazuki Oguchi"
+                            },
+                            {
+                                "name": "Manabu Yamada"
+                            }
+                        ]
+                    },
+                    "publication_date": "2013-09-14",
+                    "publication_name": {
+                        "ja": "Proceedings of the SICE Annual Conference 2013",
+                        "en": "Proceedings of the SICE Annual Conference 2013"
+                    },
+                    "starting_page": "1180",
+                    "ending_page": "1185",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "international_conference_proceedings",
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0011716/published_papers/19483275",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0011716/published_papers",
+                    "rm:id": "19483275",
+                    "rm:user_id": "1000025094",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:WxIABdDyVboN4t9u",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-14T18:09:27Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-05-27T00:10:48Z",
+                    "paper_title": {
+                        "en": "Sampled-data control of four-rotor mini quadrotor with on-line estimation of translational velocities"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Hiroki Hiramatsu"
+                            },
+                            {
+                                "name": "Manabu Yamada"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "This paper addresses the sampled-data control problem of controlling not only all the position but also all the attitude of an underactuated quadrotor system, which is described by a set of nonlinear equations. The underactuated system is discretized by a zero order hold and a sampler. A new discrete-time state feedback controller is presented for global stabilization of the system. A time-varying discrete-time coordinate transformation is utilized to reduce the stabilization problem to a standard pole placement one for a controllable linear time-invariant discrete-time system. The design method is simple and straightforward. Moreover, an observer-based discrete-time stabilizing controller is presented without velocity measurements. Some simulations are performed to validate the effectiveness of the proposed controllers."
+                    },
+                    "publisher": {
+                        "en": "IEEE"
+                    },
+                    "publication_date": "2013",
+                    "publication_name": {
+                        "en": "2013 PROCEEDINGS OF SICE ANNUAL CONFERENCE (SICE)"
+                    },
+                    "starting_page": "1186",
+                    "ending_page": "1191",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "international_conference_proceedings",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "1550-0322"
+                        ],
+                        "wos_id": [
+                            "WOS:000350982400105"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000350982400105&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0011716/published_papers/19483273",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0011716/published_papers",
+                    "rm:id": "19483273",
+                    "rm:user_id": "1000025094",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:WxIABdDyVboN4t9u",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-14T18:09:27Z",
+                    "rm:modifier_id": "client_id:WxIABdDyVboN4t9u",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-01-14T18:09:27Z",
+                    "paper_title": {
+                        "ja": "Static Stability Analysis of a Single Planar Object Grasped by a Multifingered Hand",
+                        "en": "Static Stability Analysis of a Single Planar Object Grasped by a Multifingered Hand"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "「Takayoshi Yamada」「Manabu Yamada」「Hidehiko Yamamoto」"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "「Takayoshi Yamada」「Manabu Yamada」「Hidehiko Yamamoto」"
+                            }
+                        ]
+                    },
+                    "publication_date": "2012-10-01",
+                    "publication_name": {
+                        "ja": "Journal of Mechanics Engineering and Automation",
+                        "en": "Journal of Mechanics Engineering and Automation"
+                    },
+                    "volume": "2",
+                    "number": "10",
+                    "starting_page": "606",
+                    "ending_page": "627",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "2159-5275"
+                        ]
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0011716/published_papers/19483272",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0011716/published_papers",
+                    "rm:id": "19483272",
+                    "rm:user_id": "1000025094",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:WxIABdDyVboN4t9u",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-14T18:09:27Z",
+                    "rm:modifier_id": "R000000018",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-06-08T08:00:37Z",
+                    "paper_title": {
+                        "en": "Static Grasp Stability Analysis of Two Spatial Objects Including Contact Surface Geometry",
+                        "ja": "Static Grasp Stability Analysis of Two Spatial Objects Including Contact Surface Geometry"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "「Takayoshi Yamada」「Toshiya Taki」「Manabu Yamada」「Hidehiko Yamamoto」"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "「Takayoshi Yamada」「Toshiya Taki」「Manabu Yamada」「Hidehiko Yamamoto」"
+                            }
+                        ]
+                    },
+                    "publication_date": "2012-09-01",
+                    "publication_name": {
+                        "en": "TRANSACTION ON CONTROL AND MECHANICAL SYSTEMS",
+                        "ja": "TRANSACTION ON CONTROL AND MECHANICAL SYSTEMS"
+                    },
+                    "volume": "1",
+                    "number": "5",
+                    "starting_page": "218",
+                    "ending_page": "228",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "see_also": [
+                        {
+                            "@id": "http://tsest.org/index.php/TCMS/article/view/",
+                            "is_downloadable": false,
+                            "label": "url"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0011716/published_papers/19483271",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0011716/published_papers",
+                    "rm:id": "19483271",
+                    "rm:user_id": "1000025094",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:WxIABdDyVboN4t9u",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-14T18:09:27Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-08-31T10:08:47Z",
+                    "paper_title": {
+                        "en": "Stability analysis of multiple objects grasped by multifingered hands with revolute joints in 2D"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Takayoshi Yamada"
+                            },
+                            {
+                                "name": "Manabu Yamada"
+                            },
+                            {
+                                "name": "Hidehiko Yamamoto"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "We analyze static grasp stability of multiple planar objects. In our previous papers, we considered that each finger is replaced with an orthogonal virtual spring model. This means that each finger is constructed with prismatic joints. Human hands and the most developing mechanical hands are constructed with revolute joints. In this paper, we investigate the effect of fingertip rotation and revolute joints for grasping multiple objects. The stability is analyzed from the potential energy method. A grasp stiffness matrix is derived by considering not only frictional rolling contact but also frictionless sliding contact. The gravity effect of the objects is also considered. The stability is evaluated by the eigenvalues and eigenvectors of the grasp stiffness matrix. The effectiveness of our method is demonstrated through numerical examples. © 2012 IEEE."
+                    },
+                    "publication_date": "2012",
+                    "publication_name": {
+                        "en": "2012 IEEE International Conference on Mechatronics and Automation, ICMA 2012"
+                    },
+                    "starting_page": "1785",
+                    "ending_page": "1792",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "international_conference_proceedings",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1109/ICMA.2012.6285092"
+                        ],
+                        "scopus_id": [
+                            "84867618248"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1109/ICMA.2012.6285092",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0011716/published_papers/19483270",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0011716/published_papers",
+                    "rm:id": "19483270",
+                    "rm:user_id": "1000025094",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:WxIABdDyVboN4t9u",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-14T18:09:27Z",
+                    "rm:modifier_id": "client_id:WxIABdDyVboN4t9u",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-01-14T18:09:27Z",
+                    "paper_title": {
+                        "ja": "Grasp Stability Analysis of Two Objects by Considering Contact Surface Geometry in 3D",
+                        "en": "Grasp Stability Analysis of Two Objects by Considering Contact Surface Geometry in 3D"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "「T.Yamada」「T.Taki」"
+                            },
+                            {
+                                "name": "M.Yamada」「H.Yamamoto"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "「T.Yamada」「T.Taki」"
+                            },
+                            {
+                                "name": "M.Yamada」「H.Yamamoto"
+                            }
+                        ]
+                    },
+                    "publication_date": "2011-12",
+                    "publication_name": {
+                        "ja": "Proceedins of IEEE Conference on Robotics and Biomimetics",
+                        "en": "Proceedins of IEEE Conference on Robotics and Biomimetics"
+                    },
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "international_conference_proceedings",
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0011716/published_papers/19483269",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0011716/published_papers",
+                    "rm:id": "19483269",
+                    "rm:user_id": "1000025094",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:WxIABdDyVboN4t9u",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-14T18:09:27Z",
+                    "rm:modifier_id": "client_id:WxIABdDyVboN4t9u",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-01-14T18:09:27Z",
+                    "paper_title": {
+                        "ja": "Stability Analysis of A Single Object Grasped by A Multifingered Hand with Angular Joints in 2D",
+                        "en": "Stability Analysis of A Single Object Grasped by A Multifingered Hand with Angular Joints in 2D"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "「T.Yamada」「M.Yamada」「H.Yamamoto"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "「T.Yamada」「M.Yamada」「H.Yamamoto"
+                            }
+                        ]
+                    },
+                    "publication_date": "2011-08",
+                    "publication_name": {
+                        "ja": "Proceedings of IEEE International Conference on Mechatronics and Automation",
+                        "en": "Proceedings of IEEE International Conference on Mechatronics and Automation"
+                    },
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "international_conference_proceedings",
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0011716/published_papers/19483267",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0011716/published_papers",
+                    "rm:id": "19483267",
+                    "rm:user_id": "1000025094",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:WxIABdDyVboN4t9u",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-14T18:09:27Z",
+                    "rm:modifier_id": "client_id:WxIABdDyVboN4t9u",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-01-14T18:09:27Z",
+                    "paper_title": {
+                        "ja": "Identification of Contact Conditions by Active Force Sensing-Estimated-Parameters Uncertainty and Its Experimental",
+                        "en": "Identification of Contact Conditions by Active Force Sensing-Estimated-Parameters Uncertainty and Its Experimental"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "T.Yamada"
+                            },
+                            {
+                                "name": "A.Tanaka"
+                            },
+                            {
+                                "name": "M.Yamada"
+                            },
+                            {
+                                "name": "Y.Funahashi"
+                            },
+                            {
+                                "name": "H.Yamamoto"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "T.Yamada"
+                            },
+                            {
+                                "name": "A.Tanaka"
+                            },
+                            {
+                                "name": "M.Yamada"
+                            },
+                            {
+                                "name": "Y.Funahashi"
+                            },
+                            {
+                                "name": "H.Yamamoto"
+                            }
+                        ]
+                    },
+                    "publication_date": "2011-02",
+                    "publication_name": {
+                        "ja": "Journal of Robotics and Mechatronics",
+                        "en": "Journal of Robotics and Mechatronics"
+                    },
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": true,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0011716/published_papers/19483268",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0011716/published_papers",
+                    "rm:id": "19483268",
+                    "rm:user_id": "1000025094",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:WxIABdDyVboN4t9u",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-14T18:09:27Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-04-14T16:19:19Z",
+                    "paper_title": {
+                        "en": "Static Stability Analysis of Spatial Grasps Including Contact Surface Geometry"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Takayoshi Yamada"
+                            },
+                            {
+                                "name": "Toshiya Taki"
+                            },
+                            {
+                                "name": "Manabu Yamada"
+                            },
+                            {
+                                "name": "Yasuyuki Funahashi"
+                            },
+                            {
+                                "name": "Hidehiko Yamamoto"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "In this study, we analyze the three-dimensional (3-D) static grasp stability of a single object. Our model takes into account the contact surface geometry (metric tensor, curvature and torsion) and the contact condition (rolling contact and sliding contact). In the case of rolling and sliding contacts, each finger rolls and slides on the object surface, respectively. Each finger is replaced with a 3-D orthogonal virtual spring model and grasp stability is evaluated from the potential energy stored in the grasp. A grasp stiffness matrix including the effects of contact surface geometry and contact condition is derived. The stability is evaluated from the eigenvalues of the matrix. Configuration displacement of the object in terms of position and orientation is decomposed into stable and unstable directions using the corresponding eigenvectors. The effectiveness of our proposed method is demonstrated by several examples. (C) Koninklijke Brill NV, Leiden and The Robotics Society of Japan, 2011"
+                    },
+                    "publisher": {
+                        "en": "VSP BV"
+                    },
+                    "publication_date": "2011",
+                    "publication_name": {
+                        "en": "ADVANCED ROBOTICS"
+                    },
+                    "volume": "25",
+                    "number": "3-4",
+                    "starting_page": "447",
+                    "ending_page": "472",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": true,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1163/016918610X552187"
+                        ],
+                        "issn": [
+                            "0169-1864"
+                        ],
+                        "wos_id": [
+                            "WOS:000288134200010"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1163/016918610X552187",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000288134200010&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0011716/published_papers/19483266",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0011716/published_papers",
+                    "rm:id": "19483266",
+                    "rm:user_id": "1000025094",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:WxIABdDyVboN4t9u",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-14T18:09:27Z",
+                    "rm:modifier_id": "client_id:WxIABdDyVboN4t9u",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-01-14T18:09:27Z",
+                    "paper_title": {
+                        "ja": "Autonomous Sensing Strategy for Parameter Identification of Contact Conditions by Active Force Sensing",
+                        "en": "Autonomous Sensing Strategy for Parameter Identification of Contact Conditions by Active Force Sensing"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "「T.Yamada」「A.Tanaka」「M.Yamada」「H.Yamamoto」「Y.Funahashi"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "「T.Yamada」「A.Tanaka」「M.Yamada」「H.Yamamoto」「Y.Funahashi"
+                            }
+                        ]
+                    },
+                    "publication_date": "2010-12",
+                    "publication_name": {
+                        "ja": "Proceenigs of IEEE International Conference on Robotics and Biomimetics",
+                        "en": "Proceenigs of IEEE International Conference on Robotics and Biomimetics"
+                    },
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "international_conference_proceedings",
+                    "rm:is_open_access": false
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0011716/misc",
+            "@type": "misc",
+            "@reverse": "https://api.researchmap.jp/read0011716",
+            "total_items": 3,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0011716/misc/21832713",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0011716/misc",
+                    "rm:id": "21832713",
+                    "rm:user_id": "1000025094",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:WxIABdDyVboN4t9u",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-14T18:09:27Z",
+                    "rm:modifier_id": "client_id:WxIABdDyVboN4t9u",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-01-14T18:09:27Z",
+                    "paper_title": {
+                        "ja": "車輪型マルチコプタ（ドローン）の開発と応用"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "山田 学"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "養賢堂"
+                    },
+                    "publication_date": "2017-10-01",
+                    "publication_name": {
+                        "ja": "機械の研究"
+                    },
+                    "volume": "69",
+                    "number": "10",
+                    "starting_page": "819",
+                    "ending_page": "828",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": true,
+                    "invited": true,
+                    "misc_type": "introduction_scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "0368-5713"
+                        ]
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0011716/misc/21832715",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0011716/misc",
+                    "rm:id": "21832715",
+                    "rm:user_id": "1000025094",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:WxIABdDyVboN4t9u",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-14T18:09:27Z",
+                    "rm:modifier_id": "client_id:WxIABdDyVboN4t9u",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-01-14T18:09:27Z",
+                    "paper_title": {
+                        "ja": "チェインドシステムのハイブリッド制御"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "山田学"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "計測自動制御学会"
+                    },
+                    "publication_date": "2006-07",
+                    "publication_name": {
+                        "ja": "計測と制御"
+                    },
+                    "volume": "45",
+                    "number": "7",
+                    "starting_page": "582",
+                    "ending_page": "588",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "misc_type": "introduction_scientific_journal",
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0011716/misc/21832714",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0011716/misc",
+                    "rm:id": "21832714",
+                    "rm:user_id": "1000025094",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:WxIABdDyVboN4t9u",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-14T18:09:27Z",
+                    "rm:modifier_id": "client_id:WxIABdDyVboN4t9u",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-01-14T18:09:27Z",
+                    "paper_title": {
+                        "ja": "サンプル値系の有限時間整定制御"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "山田学"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "計測自動制御学会"
+                    },
+                    "publication_date": "1999-09",
+                    "publication_name": {
+                        "ja": "計測と制御"
+                    },
+                    "volume": "38",
+                    "number": "9",
+                    "starting_page": "553",
+                    "ending_page": "558",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "misc_type": "introduction_scientific_journal",
+                    "rm:is_open_access": false
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0011716/books_etc",
+            "@type": "books_etc",
+            "@reverse": "https://api.researchmap.jp/read0011716",
+            "total_items": 1,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0011716/books_etc/15509526",
+                    "@type": "books_etc",
+                    "@reverse": "https://api.researchmap.jp/read0011716/books_etc",
+                    "rm:id": "15509526",
+                    "rm:user_id": "1000025094",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:WxIABdDyVboN4t9u",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-14T18:09:27Z",
+                    "rm:modifier_id": "client_id:WxIABdDyVboN4t9u",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-01-14T18:09:27Z",
+                    "book_title": {
+                        "ja": "飛躍するドローン －マルチ回転翼型無人飛行機の開発と期待される応用研究－"
+                    },
+                    "book_owner_role": "joint_work",
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "野波健蔵"
+                            },
+                            {
+                                "name": "山田学 他"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "ニッケイ印刷出版"
+                    },
+                    "publication_date": "2016-01-15",
+                    "total_page": "22",
+                    "rep_page": "71-92",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "book_type": "scholarly_book",
+                    "identifiers": {
+                        "isbn": [
+                            "9784860434366"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0011716/presentations",
+            "@type": "presentations",
+            "@reverse": "https://api.researchmap.jp/read0011716",
+            "total_items": 79,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0011716/presentations/35857742",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0011716/presentations",
+                    "rm:id": "35857742",
+                    "rm:user_id": "1000025094",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "R000000018",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2021-11-19T05:37:05Z",
+                    "rm:modifier_id": "R000000018",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2021-11-19T05:37:05Z",
+                    "presentation_title": {
+                        "ja": "ガウス過程回帰を用いた車輪付きマルチコプタの形状が不確かな壁面上での走行制御"
+                    },
+                    "presenters": {
+                        "ja": [
+                            {
+                                "name": "宮脇裕亮"
+                            },
+                            {
+                                "name": "水谷透"
+                            },
+                            {
+                                "name": "仲野聡史"
+                            },
+                            {
+                                "name": "山田学"
+                            }
+                        ]
+                    },
+                    "event": {
+                        "ja": "日本機械学会ロボティクス・メカトロニクス講演会"
+                    },
+                    "publication_date": "2021-06",
+                    "invited": false,
+                    "languages": [
+                        "jpn"
+                    ],
+                    "presentation_type": "oral_presentation",
+                    "promoter": {
+                        "ja": "日本機械学会"
+                    },
+                    "location": {
+                        "ja": "オンライン開催"
+                    },
+                    "is_international_presentation": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0011716/presentations/35857741",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0011716/presentations",
+                    "rm:id": "35857741",
+                    "rm:user_id": "1000025094",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "R000000018",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2021-11-19T05:37:05Z",
+                    "rm:modifier_id": "R000000018",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2021-11-19T05:37:05Z",
+                    "presentation_title": {
+                        "ja": "壁面接触のための二輪型マルチコプタの切り替え制御"
+                    },
+                    "presenters": {
+                        "ja": [
+                            {
+                                "name": "佐藤正隆"
+                            },
+                            {
+                                "name": "水谷透"
+                            },
+                            {
+                                "name": "仲野聡史"
+                            },
+                            {
+                                "name": "山田学"
+                            }
+                        ]
+                    },
+                    "event": {
+                        "ja": "日本機械学会ロボティクス・メカトロニクス講演会"
+                    },
+                    "publication_date": "2021-06",
+                    "invited": false,
+                    "languages": [
+                        "jpn"
+                    ],
+                    "presentation_type": "oral_presentation",
+                    "promoter": {
+                        "ja": "日本機械学会"
+                    },
+                    "location": {
+                        "ja": "オンライン開催"
+                    },
+                    "is_international_presentation": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0011716/presentations/35857740",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0011716/presentations",
+                    "rm:id": "35857740",
+                    "rm:user_id": "1000025094",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "R000000018",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2021-11-19T05:37:05Z",
+                    "rm:modifier_id": "R000000018",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2021-11-19T05:37:05Z",
+                    "presentation_title": {
+                        "ja": "タイル壁面目地の特徴線抽出を利用した車輪付きマルチコプタの視覚フィードバック壁面走行制御"
+                    },
+                    "presenters": {
+                        "ja": [
+                            {
+                                "name": "後藤良介"
+                            },
+                            {
+                                "name": "仲野聡史"
+                            },
+                            {
+                                "name": "山田学"
+                            }
+                        ]
+                    },
+                    "event": {
+                        "ja": "日本機械学会ロボティクス・メカトロニクス講演会"
+                    },
+                    "publication_date": "2021-06",
+                    "invited": false,
+                    "languages": [
+                        "jpn"
+                    ],
+                    "presentation_type": "oral_presentation",
+                    "promoter": {
+                        "ja": "日本機械学会"
+                    },
+                    "location": {
+                        "ja": "オンライン開催"
+                    },
+                    "is_international_presentation": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0011716/presentations/31049892",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0011716/presentations",
+                    "rm:id": "31049892",
+                    "rm:user_id": "1000025094",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "R000000018",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-12-01T04:25:28Z",
+                    "rm:modifier_id": "R000000018",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-12-01T04:25:28Z",
+                    "presentation_title": {
+                        "ja": "バックステッピング法とCLF-CBF-QPに基づいたクアッドロータの壁面衝突回避制御"
+                    },
+                    "presenters": {
+                        "ja": [
+                            {
+                                "name": "福田,高木"
+                            },
+                            {
+                                "name": "仲野,山田"
+                            }
+                        ]
+                    },
+                    "event": {
+                        "ja": "第21回計測自動制御学会システムインテグレーション部門講演会 SI2020"
+                    },
+                    "publication_date": "2020-12-16",
+                    "invited": false,
+                    "languages": [
+                        "jpn"
+                    ],
+                    "presentation_type": "oral_presentation",
+                    "promoter": {
+                        "ja": "計測自動制御学会システムインテグレーション部門"
+                    },
+                    "location": {
+                        "ja": "オンライン開催"
+                    },
+                    "is_international_presentation": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0011716/presentations/1572299",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0011716/presentations",
+                    "rm:id": "1572299",
+                    "rm:user_id": "1000025094",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:WxIABdDyVboN4t9u",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-14T18:09:27Z",
+                    "rm:modifier_id": "client_id:WxIABdDyVboN4t9u",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-01-14T18:09:27Z",
+                    "presentation_title": {
+                        "ja": "2輪型マルチコプタを用いた橋梁の支承部点検のための自動制御システム"
+                    },
+                    "presenters": {
+                        "ja": [
+                            {
+                                "name": "加藤"
+                            },
+                            {
+                                "name": "出島"
+                            },
+                            {
+                                "name": "仲野"
+                            },
+                            {
+                                "name": "大羽"
+                            },
+                            {
+                                "name": "山田学"
+                            }
+                        ]
+                    },
+                    "presenters_text": {
+                        "ja": "加藤、出島、仲野、大羽、山田学"
+                    },
+                    "event": {
+                        "ja": "第20回計測自動制御学会システムインテグレーション部門講演会 SI2019"
+                    },
+                    "publication_date": "2019-12-12",
+                    "invited": false,
+                    "languages": [
+                        "jpn"
+                    ],
+                    "presentation_type": "oral_presentation",
+                    "promoter": {
+                        "ja": "計測自動制御学会システムインテグレーション部門"
+                    },
+                    "location": {
+                        "ja": "香川県高松市"
+                    },
+                    "is_international_presentation": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0011716/presentations/1572298",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0011716/presentations",
+                    "rm:id": "1572298",
+                    "rm:user_id": "1000025094",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:WxIABdDyVboN4t9u",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-14T18:09:27Z",
+                    "rm:modifier_id": "client_id:WxIABdDyVboN4t9u",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-01-14T18:09:27Z",
+                    "presentation_title": {
+                        "ja": "壁面打音検査を目的とした2輪型マルチコプタの開発"
+                    },
+                    "presenters": {
+                        "ja": [
+                            {
+                                "name": "吉田"
+                            },
+                            {
+                                "name": "丹羽"
+                            },
+                            {
+                                "name": "山田学"
+                            },
+                            {
+                                "name": "仲野"
+                            }
+                        ]
+                    },
+                    "presenters_text": {
+                        "ja": "吉田、丹羽、山田学、仲野"
+                    },
+                    "event": {
+                        "ja": "第20回計測自動制御学会システムインテグレーション部門講演会 SI2019"
+                    },
+                    "publication_date": "2019-12-12",
+                    "invited": false,
+                    "languages": [
+                        "jpn"
+                    ],
+                    "presentation_type": "oral_presentation",
+                    "promoter": {
+                        "ja": "計測自動制御学会システムインテグレーション部門"
+                    },
+                    "location": {
+                        "ja": "香川県高松市"
+                    },
+                    "is_international_presentation": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0011716/presentations/1572297",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0011716/presentations",
+                    "rm:id": "1572297",
+                    "rm:user_id": "1000025094",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:WxIABdDyVboN4t9u",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-14T18:09:27Z",
+                    "rm:modifier_id": "client_id:WxIABdDyVboN4t9u",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-01-14T18:09:27Z",
+                    "presentation_title": {
+                        "ja": "天井裏点検を目的としたマルチコプタの開発"
+                    },
+                    "presenters": {
+                        "ja": [
+                            {
+                                "name": "高木"
+                            },
+                            {
+                                "name": "福田"
+                            },
+                            {
+                                "name": "仲野"
+                            },
+                            {
+                                "name": "山田学"
+                            }
+                        ]
+                    },
+                    "presenters_text": {
+                        "ja": "高木、福田、仲野、山田学"
+                    },
+                    "event": {
+                        "ja": "第20回計測自動制御学会システムインテグレーション部門講演会 SI2019"
+                    },
+                    "publication_date": "2019-12-12",
+                    "invited": false,
+                    "languages": [
+                        "jpn"
+                    ],
+                    "presentation_type": "oral_presentation",
+                    "promoter": {
+                        "ja": "計測自動制御学会システムインテグレーション部門"
+                    },
+                    "location": {
+                        "ja": "香川県高松市"
+                    },
+                    "is_international_presentation": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0011716/presentations/1572296",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0011716/presentations",
+                    "rm:id": "1572296",
+                    "rm:user_id": "1000025094",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:WxIABdDyVboN4t9u",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-14T18:09:27Z",
+                    "rm:modifier_id": "client_id:WxIABdDyVboN4t9u",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-01-14T18:09:27Z",
+                    "presentation_title": {
+                        "ja": "2輪型マルチコプタを用いた橋梁点検システムと天井面走行への応用"
+                    },
+                    "presenters": {
+                        "ja": [
+                            {
+                                "name": "川口"
+                            },
+                            {
+                                "name": "仲野"
+                            },
+                            {
+                                "name": "山田学"
+                            }
+                        ]
+                    },
+                    "presenters_text": {
+                        "ja": "川口、仲野、山田学"
+                    },
+                    "event": {
+                        "ja": "第20回計測自動制御学会システムインテグレーション部門講演会 SI2019"
+                    },
+                    "publication_date": "2019-12-12",
+                    "invited": false,
+                    "languages": [
+                        "jpn"
+                    ],
+                    "presentation_type": "oral_presentation",
+                    "promoter": {
+                        "ja": "計測自動制御学会システムインテグレーション部門"
+                    },
+                    "location": {
+                        "ja": "香川県高松市"
+                    },
+                    "is_international_presentation": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0011716/presentations/1572295",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0011716/presentations",
+                    "rm:id": "1572295",
+                    "rm:user_id": "1000025094",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:WxIABdDyVboN4t9u",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-14T18:09:27Z",
+                    "rm:modifier_id": "client_id:WxIABdDyVboN4t9u",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-01-14T18:09:27Z",
+                    "presentation_title": {
+                        "ja": "2輪型マルチコプタを用いた橋梁点検システム"
+                    },
+                    "presenters": {
+                        "ja": [
+                            {
+                                "name": "川口"
+                            },
+                            {
+                                "name": "出島"
+                            },
+                            {
+                                "name": "山田学"
+                            }
+                        ]
+                    },
+                    "presenters_text": {
+                        "ja": "川口、出島、山田学"
+                    },
+                    "event": {
+                        "ja": "ロボティクス・メカトロニクス講演会 ROBOMECH2019"
+                    },
+                    "publication_date": "2019-06-05",
+                    "invited": false,
+                    "languages": [
+                        "jpn"
+                    ],
+                    "presentation_type": "poster_presentation",
+                    "promoter": {
+                        "ja": "日本機械学会"
+                    },
+                    "location": {
+                        "ja": "広島県 広島国際会議場"
+                    },
+                    "is_international_presentation": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0011716/presentations/1572294",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0011716/presentations",
+                    "rm:id": "1572294",
+                    "rm:user_id": "1000025094",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:WxIABdDyVboN4t9u",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-14T18:09:27Z",
+                    "rm:modifier_id": "client_id:WxIABdDyVboN4t9u",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-01-14T18:09:27Z",
+                    "presentation_title": {
+                        "ja": "ドローンを使った橋梁点検支援"
+                    },
+                    "presenters": {
+                        "ja": [
+                            {
+                                "name": "伊藤峻"
+                            },
+                            {
+                                "name": "山田学"
+                            }
+                        ]
+                    },
+                    "presenters_text": {
+                        "ja": "伊藤峻、山田学"
+                    },
+                    "event": {
+                        "ja": "みらい peoples"
+                    },
+                    "publication_date": "2017-12",
+                    "invited": true,
+                    "languages": [
+                        "jpn"
+                    ],
+                    "presentation_type": "media_report",
+                    "promoter": {
+                        "ja": "テレビ愛知"
+                    },
+                    "location": {
+                        "ja": "名古屋工業大学"
+                    },
+                    "is_international_presentation": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0011716/presentations/1572293",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0011716/presentations",
+                    "rm:id": "1572293",
+                    "rm:user_id": "1000025094",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:WxIABdDyVboN4t9u",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-14T18:09:27Z",
+                    "rm:modifier_id": "client_id:WxIABdDyVboN4t9u",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-01-14T18:09:27Z",
+                    "presentation_title": {
+                        "ja": "ヨー 角制御を補助する機構をもつ小型２輪マルチコプタの開発"
+                    },
+                    "presenters": {
+                        "ja": [
+                            {
+                                "name": "則武"
+                            },
+                            {
+                                "name": "山田"
+                            }
+                        ]
+                    },
+                    "presenters_text": {
+                        "ja": "則武、山田"
+                    },
+                    "event": {
+                        "ja": "JSME Conf. on Robotics and Mechatronics"
+                    },
+                    "publication_date": "2017-05-10",
+                    "invited": false,
+                    "languages": [
+                        "jpn"
+                    ],
+                    "presentation_type": "oral_presentation",
+                    "promoter": {
+                        "ja": "日本機械学会"
+                    },
+                    "location": {
+                        "ja": "ビックパレット福島"
+                    },
+                    "is_international_presentation": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0011716/presentations/1572292",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0011716/presentations",
+                    "rm:id": "1572292",
+                    "rm:user_id": "1000025094",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:WxIABdDyVboN4t9u",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-14T18:09:27Z",
+                    "rm:modifier_id": "client_id:WxIABdDyVboN4t9u",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-01-14T18:09:27Z",
+                    "presentation_title": {
+                        "ja": "小型２輪マルチコプタのディジタル制御系の設計"
+                    },
+                    "presenters": {
+                        "ja": [
+                            {
+                                "name": "出島"
+                            },
+                            {
+                                "name": "伊藤,山田"
+                            }
+                        ]
+                    },
+                    "presenters_text": {
+                        "ja": "出島，伊藤，山田"
+                    },
+                    "event": {
+                        "ja": "JSME Conf. on Robotics and Mechatronics"
+                    },
+                    "publication_date": "2017-05-10",
+                    "invited": false,
+                    "languages": [
+                        "jpn"
+                    ],
+                    "presentation_type": "oral_presentation",
+                    "promoter": {
+                        "ja": "日本機械学会"
+                    },
+                    "location": {
+                        "ja": "ビックパレット福島"
+                    },
+                    "is_international_presentation": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0011716/presentations/1572291",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0011716/presentations",
+                    "rm:id": "1572291",
+                    "rm:user_id": "1000025094",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:WxIABdDyVboN4t9u",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-14T18:09:27Z",
+                    "rm:modifier_id": "client_id:WxIABdDyVboN4t9u",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-01-14T18:09:27Z",
+                    "presentation_title": {
+                        "ja": "ブレーキ機構を備えた2輪型4ロータヘリコプタの自動制御"
+                    },
+                    "presenters": {
+                        "ja": [
+                            {
+                                "name": "尾崎"
+                            },
+                            {
+                                "name": "伊藤,山田"
+                            }
+                        ]
+                    },
+                    "presenters_text": {
+                        "ja": "尾崎，伊藤，山田"
+                    },
+                    "event": {
+                        "ja": "JSME Conf. on Robotics and Mechatronics"
+                    },
+                    "publication_date": "2017-05-10",
+                    "invited": false,
+                    "languages": [
+                        "jpn"
+                    ],
+                    "presentation_type": "oral_presentation",
+                    "promoter": {
+                        "ja": "日本機械学会"
+                    },
+                    "location": {
+                        "ja": "ビックパレット福島"
+                    },
+                    "is_international_presentation": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0011716/presentations/1572290",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0011716/presentations",
+                    "rm:id": "1572290",
+                    "rm:user_id": "1000025094",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:WxIABdDyVboN4t9u",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-14T18:09:27Z",
+                    "rm:modifier_id": "client_id:WxIABdDyVboN4t9u",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-01-14T18:09:27Z",
+                    "presentation_title": {
+                        "ja": "狭隘部への進入と近接目視点検を目的とした小型２輪マルチコプタの開発"
+                    },
+                    "presenters": {
+                        "ja": [
+                            {
+                                "name": "伊藤"
+                            },
+                            {
+                                "name": "出島,山田"
+                            }
+                        ]
+                    },
+                    "presenters_text": {
+                        "ja": "伊藤，出島，山田 "
+                    },
+                    "event": {
+                        "ja": "JSME Conf. on Robotics and Mechatronics"
+                    },
+                    "publication_date": "2017-05-10",
+                    "invited": false,
+                    "languages": [
+                        "jpn"
+                    ],
+                    "presentation_type": "oral_presentation",
+                    "promoter": {
+                        "ja": "日本機械学会"
+                    },
+                    "location": {
+                        "ja": "ビックパレット福島"
+                    },
+                    "is_international_presentation": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0011716/presentations/1572289",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0011716/presentations",
+                    "rm:id": "1572289",
+                    "rm:user_id": "1000025094",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:WxIABdDyVboN4t9u",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-14T18:09:27Z",
+                    "rm:modifier_id": "client_id:WxIABdDyVboN4t9u",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-01-14T18:09:27Z",
+                    "presentation_title": {
+                        "ja": "有線給電4ロータヘリコプタの外乱推定に基づく位置追従制御"
+                    },
+                    "presenters": {
+                        "ja": [
+                            {
+                                "name": "加藤義登"
+                            },
+                            {
+                                "name": "山田学"
+                            },
+                            {
+                                "name": "名古屋"
+                            },
+                            {
+                                "name": "早川勇望"
+                            }
+                        ]
+                    },
+                    "presenters_text": {
+                        "ja": "加藤義登（名古屋工業大学），山田学（名古屋工業大学），早川勇望（名古屋工業大学）"
+                    },
+                    "event": {
+                        "ja": "計測自動制御学会 マルチシンポジウム 2017"
+                    },
+                    "publication_date": "2017-03-05",
+                    "invited": false,
+                    "languages": [
+                        "jpn"
+                    ],
+                    "presentation_type": "oral_presentation",
+                    "promoter": {
+                        "ja": "計測自動制御学会"
+                    },
+                    "location": {
+                        "ja": "岡山大学"
+                    },
+                    "is_international_presentation": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0011716/presentations/1572288",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0011716/presentations",
+                    "rm:id": "1572288",
+                    "rm:user_id": "1000025094",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:WxIABdDyVboN4t9u",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-14T18:09:27Z",
+                    "rm:modifier_id": "client_id:WxIABdDyVboN4t9u",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-01-14T18:09:27Z",
+                    "presentation_title": {
+                        "ja": "四輪車両の目標値追従制御 －小型電気自動車への応用－"
+                    },
+                    "presenters": {
+                        "ja": [
+                            {
+                                "name": "小川貴裕"
+                            },
+                            {
+                                "name": "永井陽平"
+                            },
+                            {
+                                "name": "矢田凌佑"
+                            },
+                            {
+                                "name": "山田学"
+                            },
+                            {
+                                "name": "名古"
+                            },
+                            {
+                                "name": "井美拓也"
+                            },
+                            {
+                                "name": "水谷友一"
+                            },
+                            {
+                                "name": "アイシン精機"
+                            },
+                            {
+                                "name": "芳川達也"
+                            },
+                            {
+                                "name": "アイシン"
+                            }
+                        ]
+                    },
+                    "presenters_text": {
+                        "ja": "小川貴裕（名古屋工業大学），永井陽平（名古屋工業大学），矢田凌佑（名古屋工業大学），山田学（名古屋工業大学），井美拓也（名古屋工業大学），水谷友一（アイシン精機（株）），芳川達也（アイシン精機（株））"
+                    },
+                    "event": {
+                        "ja": "計測自動制御学会 マルチシンポジウム 2017"
+                    },
+                    "publication_date": "2017-03-05",
+                    "invited": false,
+                    "languages": [
+                        "jpn"
+                    ],
+                    "presentation_type": "oral_presentation",
+                    "promoter": {
+                        "ja": "計測自動制御学会"
+                    },
+                    "location": {
+                        "ja": "岡山大学"
+                    },
+                    "is_international_presentation": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0011716/presentations/1572287",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0011716/presentations",
+                    "rm:id": "1572287",
+                    "rm:user_id": "1000025094",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:WxIABdDyVboN4t9u",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-14T18:09:27Z",
+                    "rm:modifier_id": "client_id:WxIABdDyVboN4t9u",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-01-14T18:09:27Z",
+                    "presentation_title": {
+                        "ja": "自動駐車のための車両の目標経路生成手法"
+                    },
+                    "presenters": {
+                        "ja": [
+                            {
+                                "name": "山下勇太"
+                            },
+                            {
+                                "name": "永井陽平"
+                            },
+                            {
+                                "name": "山田学"
+                            },
+                            {
+                                "name": "名古"
+                            },
+                            {
+                                "name": "芳川達也"
+                            },
+                            {
+                                "name": "アイシン精機"
+                            }
+                        ]
+                    },
+                    "presenters_text": {
+                        "ja": "山下勇太（名古屋工業大学），永井陽平（名古屋工業大学），山田学（名古屋工業大学），芳川達也（アイシン精機（株）"
+                    },
+                    "event": {
+                        "ja": "計測自動制御学会 マルチシンポジウム 2017"
+                    },
+                    "publication_date": "2017-03-05",
+                    "invited": false,
+                    "languages": [
+                        "jpn"
+                    ],
+                    "presentation_type": "oral_presentation",
+                    "promoter": {
+                        "ja": "計測自動制御学会"
+                    },
+                    "location": {
+                        "ja": "岡山大学"
+                    },
+                    "is_international_presentation": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0011716/presentations/1572286",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0011716/presentations",
+                    "rm:id": "1572286",
+                    "rm:user_id": "1000025094",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:WxIABdDyVboN4t9u",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-14T18:09:27Z",
+                    "rm:modifier_id": "client_id:WxIABdDyVboN4t9u",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-01-14T18:09:27Z",
+                    "presentation_title": {
+                        "ja": "2輪型マルチコプタの制御と応用に関する研究"
+                    },
+                    "presenters": {
+                        "ja": [
+                            {
+                                "name": "伊藤,尾崎"
+                            },
+                            {
+                                "name": "塚田,山田"
+                            }
+                        ]
+                    },
+                    "presenters_text": {
+                        "ja": "伊藤，尾崎，塚田，山田 "
+                    },
+                    "event": {
+                        "ja": "第17回計測自動制御学会システムインテグレーション部門講演会"
+                    },
+                    "publication_date": "2016-12-16",
+                    "invited": false,
+                    "languages": [
+                        "jpn"
+                    ],
+                    "presentation_type": "oral_presentation",
+                    "promoter": {
+                        "ja": "計測自動制御学会システムインテグレーション部門"
+                    },
+                    "location": {
+                        "ja": "札幌"
+                    },
+                    "is_international_presentation": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0011716/presentations/1572285",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0011716/presentations",
+                    "rm:id": "1572285",
+                    "rm:user_id": "1000025094",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:WxIABdDyVboN4t9u",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-14T18:09:27Z",
+                    "rm:modifier_id": "client_id:WxIABdDyVboN4t9u",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-01-14T18:09:27Z",
+                    "presentation_title": {
+                        "ja": "地上および天井移動する2輪型4ロータヘリコプタの自動制御"
+                    },
+                    "presenters": {
+                        "ja": [
+                            {
+                                "name": "塚田,尾崎"
+                            },
+                            {
+                                "name": "山田 学"
+                            }
+                        ]
+                    },
+                    "presenters_text": {
+                        "ja": "塚田，尾崎，山田 学"
+                    },
+                    "event": {
+                        "ja": "第17回計測自動制御学会システムインテグレーション部門講演会"
+                    },
+                    "publication_date": "2016-12-16",
+                    "invited": false,
+                    "languages": [
+                        "jpn"
+                    ],
+                    "presentation_type": "oral_presentation",
+                    "promoter": {
+                        "ja": "計測自動制御学会システムインテグレーション部門"
+                    },
+                    "location": {
+                        "ja": "札幌"
+                    },
+                    "is_international_presentation": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0011716/presentations/1572284",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0011716/presentations",
+                    "rm:id": "1572284",
+                    "rm:user_id": "1000025094",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:WxIABdDyVboN4t9u",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-14T18:09:27Z",
+                    "rm:modifier_id": "client_id:WxIABdDyVboN4t9u",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-01-14T18:09:27Z",
+                    "presentation_title": {
+                        "ja": "壁面移動する2 輪型4 ロータヘリコプタの自動制御"
+                    },
+                    "presenters": {
+                        "ja": [
+                            {
+                                "name": "尾崎,塚田"
+                            },
+                            {
+                                "name": "山田 学"
+                            }
+                        ]
+                    },
+                    "presenters_text": {
+                        "ja": "尾崎，塚田，山田 学"
+                    },
+                    "event": {
+                        "ja": "第17回計測自動制御学会システムインテグレーション部門講演会"
+                    },
+                    "publication_date": "2016-12-16",
+                    "invited": false,
+                    "languages": [
+                        "jpn"
+                    ],
+                    "presentation_type": "oral_presentation",
+                    "promoter": {
+                        "ja": "計測自動制御学会システムインテグレーション部門"
+                    },
+                    "location": {
+                        "ja": "札幌"
+                    },
+                    "is_international_presentation": true,
+                    "rm:is_open_access": false
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0011716/association_memberships",
+            "@type": "association_memberships",
+            "@reverse": "https://api.researchmap.jp/read0011716",
+            "total_items": 1,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0011716/association_memberships/11383532",
+                    "@type": "association_memberships",
+                    "@reverse": "https://api.researchmap.jp/read0011716/association_memberships",
+                    "rm:id": "11383532",
+                    "rm:user_id": "1000025094",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:WxIABdDyVboN4t9u",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-14T18:09:27Z",
+                    "rm:modifier_id": "R000000018",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2022-02-17T07:50:57Z",
+                    "academic_society_name": {
+                        "ja": "IEEE",
+                        "en": "IEEE"
+                    }
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0011716/works",
+            "@type": "works",
+            "@reverse": "https://api.researchmap.jp/read0011716",
+            "total_items": 1,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0011716/works/7674713",
+                    "@type": "works",
+                    "@reverse": "https://api.researchmap.jp/read0011716/works",
+                    "rm:id": "7674713",
+                    "rm:user_id": "1000025094",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:WxIABdDyVboN4t9u",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-14T18:09:27Z",
+                    "rm:modifier_id": "client_id:WxIABdDyVboN4t9u",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-01-14T18:09:27Z",
+                    "work_title": {
+                        "ja": "人口網膜GaAs/Si光電子集積回路の基礎研究"
+                    },
+                    "work_type": "others",
+                    "from_date": "1995-04"
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0011716/research_projects",
+            "@type": "research_projects",
+            "@reverse": "https://api.researchmap.jp/read0011716",
+            "total_items": 19,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0011716/research_projects/14524652",
+                    "@type": "research_projects",
+                    "@reverse": "https://api.researchmap.jp/read0011716/research_projects",
+                    "rm:id": "14524652",
+                    "rm:user_id": "1000025094",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:WxIABdDyVboN4t9u",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-14T18:09:27Z",
+                    "rm:modifier_id": "R000000018",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-04-21T05:41:44Z",
+                    "research_project_title": {
+                        "ja": "風洞実験に基づいた車輪型ドローンのモデリングと適応最適制御系設計と飛行実験実証"
+                    },
+                    "investigators": {
+                        "ja": [
+                            {
+                                "name": "山田 学"
+                            }
+                        ]
+                    },
+                    "offer_organization": {
+                        "ja": "日本学術振興会"
+                    },
+                    "system_name": {
+                        "ja": "科学研究費助成事業"
+                    },
+                    "category": {
+                        "ja": "基盤研究(C)"
+                    },
+                    "from_date": "2018-04",
+                    "to_date": "9999",
+                    "research_project_owner_role": "principal_investigator",
+                    "overall_grant_amount": {
+                        "indirect_cost": "360000",
+                        "total_cost": "1200000",
+                        "direct_cost": "840000"
+                    },
+                    "fund_type": "competitive_research_funding"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0011716/research_projects/14524667",
+                    "@type": "research_projects",
+                    "@reverse": "https://api.researchmap.jp/read0011716/research_projects",
+                    "rm:id": "14524667",
+                    "rm:user_id": "1000025094",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:WxIABdDyVboN4t9u",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-14T18:09:27Z",
+                    "rm:modifier_id": "R000000018",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-04-21T05:41:44Z",
+                    "research_project_title": {
+                        "ja": "自動車の自動操縦に関する研究"
+                    },
+                    "system_name": {
+                        "ja": "共同研究"
+                    },
+                    "from_date": "2013-12",
+                    "to_date": "9999",
+                    "overall_grant_amount": {
+                        "indirect_cost": "0",
+                        "total_cost": "0",
+                        "direct_cost": "0"
+                    },
+                    "fund_type": "competitive_research_funding"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0011716/research_projects/14524659",
+                    "@type": "research_projects",
+                    "@reverse": "https://api.researchmap.jp/read0011716/research_projects",
+                    "rm:id": "14524659",
+                    "rm:user_id": "1000025094",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:WxIABdDyVboN4t9u",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-14T18:09:27Z",
+                    "rm:modifier_id": "R000000018",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-04-21T05:41:44Z",
+                    "research_project_title": {
+                        "ja": "ソーラー飛行船の自動制御と被災地支援への応用"
+                    },
+                    "from_date": "2001-04",
+                    "to_date": "9999",
+                    "overall_grant_amount": {
+                        "indirect_cost": "0",
+                        "total_cost": "0",
+                        "direct_cost": "0"
+                    },
+                    "fund_type": "competitive_research_funding"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0011716/research_projects/14524658",
+                    "@type": "research_projects",
+                    "@reverse": "https://api.researchmap.jp/read0011716/research_projects",
+                    "rm:id": "14524658",
+                    "rm:user_id": "1000025094",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:WxIABdDyVboN4t9u",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-14T18:09:27Z",
+                    "rm:modifier_id": "R000000018",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-04-21T05:41:44Z",
+                    "research_project_title": {
+                        "ja": "能動的音響制御に関する研究",
+                        "en": "Study on Active NoiseControl"
+                    },
+                    "from_date": "2001-04",
+                    "to_date": "9999",
+                    "overall_grant_amount": {
+                        "indirect_cost": "0",
+                        "total_cost": "0",
+                        "direct_cost": "0"
+                    },
+                    "fund_type": "competitive_research_funding"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0011716/research_projects/14524657",
+                    "@type": "research_projects",
+                    "@reverse": "https://api.researchmap.jp/read0011716/research_projects",
+                    "rm:id": "14524657",
+                    "rm:user_id": "1000025094",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:WxIABdDyVboN4t9u",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-14T18:09:27Z",
+                    "rm:modifier_id": "R000000018",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-04-21T05:41:44Z",
+                    "research_project_title": {
+                        "ja": "非線形システムの自動制御",
+                        "en": "Control of nonlinear system"
+                    },
+                    "from_date": "2000-04",
+                    "to_date": "9999",
+                    "overall_grant_amount": {
+                        "indirect_cost": "0",
+                        "total_cost": "0",
+                        "direct_cost": "0"
+                    },
+                    "fund_type": "competitive_research_funding"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0011716/research_projects/14524656",
+                    "@type": "research_projects",
+                    "@reverse": "https://api.researchmap.jp/read0011716/research_projects",
+                    "rm:id": "14524656",
+                    "rm:user_id": "1000025094",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:WxIABdDyVboN4t9u",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-14T18:09:27Z",
+                    "rm:modifier_id": "R000000018",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-04-21T05:41:44Z",
+                    "research_project_title": {
+                        "ja": "移動ロボットの制御と福祉分野への応用"
+                    },
+                    "from_date": "2000-04",
+                    "to_date": "9999",
+                    "overall_grant_amount": {
+                        "indirect_cost": "0",
+                        "total_cost": "0",
+                        "direct_cost": "0"
+                    },
+                    "fund_type": "competitive_research_funding"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0011716/research_projects/14524655",
+                    "@type": "research_projects",
+                    "@reverse": "https://api.researchmap.jp/read0011716/research_projects",
+                    "rm:id": "14524655",
+                    "rm:user_id": "1000025094",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:WxIABdDyVboN4t9u",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-14T18:09:27Z",
+                    "rm:modifier_id": "R000000018",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-04-21T05:41:44Z",
+                    "research_project_title": {
+                        "ja": "予見制御",
+                        "en": "Preview Control"
+                    },
+                    "from_date": "1992-04",
+                    "to_date": "9999",
+                    "overall_grant_amount": {
+                        "indirect_cost": "0",
+                        "total_cost": "0",
+                        "direct_cost": "0"
+                    },
+                    "fund_type": "competitive_research_funding"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0011716/research_projects/14524654",
+                    "@type": "research_projects",
+                    "@reverse": "https://api.researchmap.jp/read0011716/research_projects",
+                    "rm:id": "14524654",
+                    "rm:user_id": "1000025094",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:WxIABdDyVboN4t9u",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-14T18:09:27Z",
+                    "rm:modifier_id": "R000000018",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-04-21T05:41:44Z",
+                    "research_project_title": {
+                        "ja": "デッドビート制御",
+                        "en": "Deadbeat Control"
+                    },
+                    "from_date": "1992-04",
+                    "to_date": "9999",
+                    "overall_grant_amount": {
+                        "indirect_cost": "0",
+                        "total_cost": "0",
+                        "direct_cost": "0"
+                    },
+                    "fund_type": "competitive_research_funding"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0011716/research_projects/14524653",
+                    "@type": "research_projects",
+                    "@reverse": "https://api.researchmap.jp/read0011716/research_projects",
+                    "rm:id": "14524653",
+                    "rm:user_id": "1000025094",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:WxIABdDyVboN4t9u",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-14T18:09:27Z",
+                    "rm:modifier_id": "R000000018",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-04-21T05:41:44Z",
+                    "research_project_title": {
+                        "ja": "繰り返し制御に関する研究",
+                        "en": "Study on Repetitine Control"
+                    },
+                    "from_date": "1992-04",
+                    "to_date": "9999",
+                    "overall_grant_amount": {
+                        "indirect_cost": "0",
+                        "total_cost": "0",
+                        "direct_cost": "0"
+                    },
+                    "fund_type": "competitive_research_funding"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0011716/research_projects/35859124",
+                    "@type": "research_projects",
+                    "@reverse": "https://api.researchmap.jp/read0011716/research_projects",
+                    "rm:id": "35859124",
+                    "rm:user_id": "1000025094",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "R000000018",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2021-11-19T05:37:23Z",
+                    "rm:modifier_id": "R000000018",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2021-11-19T05:37:23Z",
+                    "research_project_title": {
+                        "ja": "風洞実験に基づいた車輪型ドローンのモデリングと適応最適制御系設計と飛行実験実証"
+                    },
+                    "investigators": {
+                        "ja": [
+                            {
+                                "name": "山田 学"
+                            }
+                        ]
+                    },
+                    "offer_organization": {
+                        "ja": "日本学術振興会"
+                    },
+                    "system_name": {
+                        "ja": "科学研究費助成事業"
+                    },
+                    "category": {
+                        "ja": "基盤研究(C)"
+                    },
+                    "from_date": "2018-04",
+                    "to_date": "2022-03",
+                    "research_project_owner_role": "principal_investigator",
+                    "overall_grant_amount": {
+                        "indirect_cost": "360000",
+                        "total_cost": "1200000",
+                        "direct_cost": "840000"
+                    },
+                    "fund_type": "competitive_research_funding"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0011716/research_projects/35859123",
+                    "@type": "research_projects",
+                    "@reverse": "https://api.researchmap.jp/read0011716/research_projects",
+                    "rm:id": "35859123",
+                    "rm:user_id": "1000025094",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "R000000018",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2021-11-19T05:37:23Z",
+                    "rm:modifier_id": "R000000018",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2021-11-19T05:37:23Z",
+                    "research_project_title": {
+                        "ja": "接触飛行で高耐風化する車輪型ドローンのモデリングと最適制御設計と壁面打音点検実験"
+                    },
+                    "investigators": {
+                        "ja": [
+                            {
+                                "name": "山田学"
+                            },
+                            {
+                                "name": "仲野聡史"
+                            }
+                        ]
+                    },
+                    "offer_organization": {
+                        "ja": "日本学術振興会"
+                    },
+                    "system_name": {
+                        "ja": "科学研究費助成事業"
+                    },
+                    "category": {
+                        "ja": "基盤研究(C)"
+                    },
+                    "from_date": "2021-04",
+                    "fund_type": "competitive_research_funding"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0011716/research_projects/14524651",
+                    "@type": "research_projects",
+                    "@reverse": "https://api.researchmap.jp/read0011716/research_projects",
+                    "rm:id": "14524651",
+                    "rm:user_id": "1000025094",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:WxIABdDyVboN4t9u",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-14T18:09:27Z",
+                    "rm:modifier_id": "client_id:WxIABdDyVboN4t9u",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-01-14T18:09:27Z",
+                    "research_project_title": {
+                        "ja": "二輪型マルチコプタを用いたジオタグ付近接画像を取得可能な橋梁点検支援ロボットシステムの研究開発"
+                    },
+                    "offer_organization": {
+                        "ja": "内閣府"
+                    },
+                    "system_name": {
+                        "ja": "内閣府SIP（戦略的イノベーションプログラム）NEDO委託事業"
+                    },
+                    "from_date": "2014-11",
+                    "to_date": "2019-03",
+                    "overall_grant_amount": {
+                        "indirect_cost": "0",
+                        "total_cost": "0",
+                        "direct_cost": "0"
+                    },
+                    "fund_type": "competitive_research_funding"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0011716/research_projects/14524666",
+                    "@type": "research_projects",
+                    "@reverse": "https://api.researchmap.jp/read0011716/research_projects",
+                    "rm:id": "14524666",
+                    "rm:user_id": "1000025094",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:WxIABdDyVboN4t9u",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-14T18:09:27Z",
+                    "rm:modifier_id": "client_id:WxIABdDyVboN4t9u",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-01-14T18:09:27Z",
+                    "research_project_title": {
+                        "ja": "実用追従制御法に基づいたノイズと外乱に強い飛行船の最適制御系の設計と屋外飛行実験"
+                    },
+                    "investigators": {
+                        "ja": [
+                            {
+                                "name": "山田学"
+                            }
+                        ]
+                    },
+                    "offer_organization": {
+                        "ja": "日本学術振興会"
+                    },
+                    "system_name": {
+                        "ja": "科学研究費助成事業"
+                    },
+                    "category": {
+                        "ja": "基盤研究(C)"
+                    },
+                    "from_date": "2013-04",
+                    "to_date": "2016-03",
+                    "research_project_owner_role": "principal_investigator",
+                    "overall_grant_amount": {
+                        "indirect_cost": "0",
+                        "total_cost": "0",
+                        "direct_cost": "0"
+                    },
+                    "fund_type": "competitive_research_funding"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0011716/research_projects/14524665",
+                    "@type": "research_projects",
+                    "@reverse": "https://api.researchmap.jp/read0011716/research_projects",
+                    "rm:id": "14524665",
+                    "rm:user_id": "1000025094",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:WxIABdDyVboN4t9u",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-14T18:09:27Z",
+                    "rm:modifier_id": "client_id:WxIABdDyVboN4t9u",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-01-14T18:09:27Z",
+                    "research_project_title": {
+                        "ja": "地上・壁・天井も走行できる空陸両用飛行ロボットの自動制御装置の開発"
+                    },
+                    "investigators": {
+                        "ja": [
+                            {
+                                "name": "山田学"
+                            }
+                        ]
+                    },
+                    "offer_organization": {
+                        "ja": "独立行政法人科学技術振興機構（JST）"
+                    },
+                    "system_name": {
+                        "ja": "独立行政法人科学技術振興機構（JST）研究成果展開事業研究成果最適展開支援プログラム（A-STEP）"
+                    },
+                    "from_date": "2013-04",
+                    "to_date": "2014-03",
+                    "research_project_owner_role": "principal_investigator",
+                    "overall_grant_amount": {
+                        "indirect_cost": "0",
+                        "total_cost": "0",
+                        "direct_cost": "0"
+                    },
+                    "fund_type": "competitive_research_funding"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0011716/research_projects/14524664",
+                    "@type": "research_projects",
+                    "@reverse": "https://api.researchmap.jp/read0011716/research_projects",
+                    "rm:id": "14524664",
+                    "rm:user_id": "1000025094",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:WxIABdDyVboN4t9u",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-14T18:09:27Z",
+                    "rm:modifier_id": "client_id:WxIABdDyVboN4t9u",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-01-14T18:09:27Z",
+                    "research_project_title": {
+                        "ja": "屋外飛行のための飛行船の外乱適応型制御システムの最適化と実用化と屋外飛行実験"
+                    },
+                    "investigators": {
+                        "ja": [
+                            {
+                                "name": "山田学"
+                            }
+                        ]
+                    },
+                    "offer_organization": {
+                        "ja": "日本学術振興会"
+                    },
+                    "system_name": {
+                        "ja": "科学研究費助成事業"
+                    },
+                    "category": {
+                        "ja": "基盤研究(C)"
+                    },
+                    "from_date": "2010-04",
+                    "to_date": "2013-03",
+                    "research_project_owner_role": "principal_investigator",
+                    "overall_grant_amount": {
+                        "indirect_cost": "0",
+                        "total_cost": "0",
+                        "direct_cost": "0"
+                    },
+                    "fund_type": "competitive_research_funding"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0011716/research_projects/14524663",
+                    "@type": "research_projects",
+                    "@reverse": "https://api.researchmap.jp/read0011716/research_projects",
+                    "rm:id": "14524663",
+                    "rm:user_id": "1000025094",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:WxIABdDyVboN4t9u",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-14T18:09:27Z",
+                    "rm:modifier_id": "client_id:WxIABdDyVboN4t9u",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-01-14T18:09:27Z",
+                    "research_project_title": {
+                        "ja": "高運動性能飛行船の外乱適応型自動制御システムの開発と実用化と屋外飛行実験"
+                    },
+                    "investigators": {
+                        "ja": [
+                            {
+                                "name": "山田学"
+                            }
+                        ]
+                    },
+                    "offer_organization": {
+                        "ja": "日本学術振興会"
+                    },
+                    "system_name": {
+                        "ja": "科学研究費助成事業"
+                    },
+                    "category": {
+                        "ja": "基盤研究(B)"
+                    },
+                    "from_date": "2007-04",
+                    "to_date": "2010-03",
+                    "research_project_owner_role": "principal_investigator",
+                    "overall_grant_amount": {
+                        "indirect_cost": "0",
+                        "total_cost": "0",
+                        "direct_cost": "0"
+                    },
+                    "fund_type": "competitive_research_funding"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0011716/research_projects/14524662",
+                    "@type": "research_projects",
+                    "@reverse": "https://api.researchmap.jp/read0011716/research_projects",
+                    "rm:id": "14524662",
+                    "rm:user_id": "1000025094",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:WxIABdDyVboN4t9u",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-14T18:09:27Z",
+                    "rm:modifier_id": "client_id:WxIABdDyVboN4t9u",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-01-14T18:09:27Z",
+                    "research_project_title": {
+                        "ja": "ソーラー飛行船によるセンサーネットワークシステムの研究開発"
+                    },
+                    "offer_organization": {
+                        "ja": "総務省"
+                    },
+                    "system_name": {
+                        "ja": "総務省 戦略的情報通信開発推進制度 地域情報通信技術振興型研究開発（SCOPE-C）"
+                    },
+                    "from_date": "2006-04",
+                    "to_date": "2009-03",
+                    "overall_grant_amount": {
+                        "indirect_cost": "0",
+                        "total_cost": "0",
+                        "direct_cost": "0"
+                    },
+                    "fund_type": "competitive_research_funding"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0011716/research_projects/14524661",
+                    "@type": "research_projects",
+                    "@reverse": "https://api.researchmap.jp/read0011716/research_projects",
+                    "rm:id": "14524661",
+                    "rm:user_id": "1000025094",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:WxIABdDyVboN4t9u",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-14T18:09:27Z",
+                    "rm:modifier_id": "client_id:WxIABdDyVboN4t9u",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-01-14T18:09:27Z",
+                    "research_project_title": {
+                        "ja": "風外乱を抑制する飛行船の自動航行制御システムの実用化と実機実験による検証"
+                    },
+                    "investigators": {
+                        "ja": [
+                            {
+                                "name": "山田学"
+                            }
+                        ]
+                    },
+                    "offer_organization": {
+                        "ja": "日本学術振興会"
+                    },
+                    "system_name": {
+                        "ja": "科学研究費助成事業"
+                    },
+                    "category": {
+                        "ja": "基盤研究(C)"
+                    },
+                    "from_date": "2005-04",
+                    "to_date": "2007-03",
+                    "research_project_owner_role": "principal_investigator",
+                    "overall_grant_amount": {
+                        "indirect_cost": "0",
+                        "total_cost": "0",
+                        "direct_cost": "0"
+                    },
+                    "fund_type": "competitive_research_funding"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0011716/research_projects/14524660",
+                    "@type": "research_projects",
+                    "@reverse": "https://api.researchmap.jp/read0011716/research_projects",
+                    "rm:id": "14524660",
+                    "rm:user_id": "1000025094",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:WxIABdDyVboN4t9u",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2020-01-14T18:09:27Z",
+                    "rm:modifier_id": "client_id:WxIABdDyVboN4t9u",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-01-14T18:09:27Z",
+                    "research_project_title": {
+                        "ja": "飛行船の自動航行制御システムの開発と実機への応用"
+                    },
+                    "investigators": {
+                        "ja": [
+                            {
+                                "name": "山田学"
+                            }
+                        ]
+                    },
+                    "offer_organization": {
+                        "ja": "日本学術振興会"
+                    },
+                    "system_name": {
+                        "ja": "科学研究費助成事業"
+                    },
+                    "category": {
+                        "ja": "基盤研究(C)"
+                    },
+                    "from_date": "2003-04",
+                    "to_date": "2005-03",
+                    "research_project_owner_role": "principal_investigator",
+                    "overall_grant_amount": {
+                        "indirect_cost": "0",
+                        "total_cost": "0",
+                        "direct_cost": "0"
+                    },
+                    "fund_type": "competitive_research_funding"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,2727 @@
+{
+    "@context": "https://api.researchmap.jp/researcher.jsonld",
+    "@id": "https://api.researchmap.jp/yuta?format=json",
+    "@type": "researchers",
+    "rm:user_id": "1000048532",
+    "rm:creator_id": "1000048532",
+    "rm:creator_type": "myself",
+    "rm:created": "2009-05-28T14:59:17Z",
+    "rm:modifier_id": "ai:identify_based_researcher",
+    "rm:modifier_type": "ai",
+    "rm:modified": "2024-04-17T06:26:17Z",
+    "permalink": "yuta",
+    "family_name": {
+        "ja": "油田",
+        "en": "YUTA"
+    },
+    "given_name": {
+        "ja": "信一",
+        "en": "Shin'ichi"
+    },
+    "display_name_kana": "closed",
+    "display_nickname": "closed",
+    "image": "https://researchmap.jp/img/curriculum_vitaes/noimage.png",
+    "display_image": "disclosed",
+    "display_contact_point": "disclosed",
+    "degrees": [
+        {
+            "degree": {
+                "en": "Professor"
+            },
+            "display_degree": "disclosed",
+            "rm:institution_code": "9999999999"
+        }
+    ],
+    "profile": {
+        "ja": "1970年慶應義塾大学工学部卒業。つづいて大学院に進み、1975年慶應義塾大学工学研究科を修了して、工学博士の学位を受けた。専攻は電気工学。その後、東京農工大学工学部を経て、1978年より筑波大学の電子情報工学系、機能工学系、システム情報工学研究科で、情報工学およびロボット工学や制御工学について教育と研究を行なっている。この間、２００４年４月より２００６年３月までは法人化した筑波大学の理事・副学長（研究・産学官連携・社会貢献などを担当）、また、２００６年４月からは筑波大学の産学リエゾン共同研究センター長をつとめている。<br />\nロボット工学に対する学生の関心を基に、技術・学術、とくにシステム設計に対する興味を喚起し、この分野で多くの学類生や大学院生への指導にあたっており、この指導方法は多くの企業等からも高く評価されている。<br />\n知能移動ロボットの研究、特にプラットフォームの開発とそれを用いた実験に基づく研究は、世界的にもよく知られており、2000年にはそのサイテーションでIEEE（米国の電気電子学会）のfellowに選ばれた。また、企業と協力して行った移動ロボット用測域センサの開発・商品化の業績による日本機械学会賞（技術）（2009年4月）など、受賞も多い。<br />\n国内外における学会活動も活発で、IEEEのロボティクスオートメーションソサイエティの理事や多くの国際会議のチェアを務めて来た。"
+    },
+    "display_profile": "disclosed",
+    "see_also": [
+        {
+            "label": "j_global",
+            "@id": "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=200901003770559747"
+        },
+        {
+            "label": "url",
+            "@id": "http://roboken.esys.tsukuba.ac.jp"
+        }
+    ],
+    "display_url": "disclosed",
+    "identifiers": {
+        "j_global_id": [
+            "200901003770559747"
+        ]
+    },
+    "rm:erad_id_verified": false,
+    "rm:orc_id_verified": false,
+    "display_erad_id": "closed",
+    "display_orc_id": "closed",
+    "display_researcher_id": "disclosed",
+    "display_j_global_id": "disclosed",
+    "@graph": [
+        {
+            "@id": "https://api.researchmap.jp/yuta/research_interests",
+            "@type": "research_interests",
+            "@reverse": "https://api.researchmap.jp/yuta",
+            "total_items": 2,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/yuta/research_interests/24492251",
+                    "@type": "research_interests",
+                    "@reverse": "https://api.researchmap.jp/yuta/research_interests",
+                    "rm:id": "24492251",
+                    "rm:user_id": "1000048532",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:identify_based_researcher",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-01-22T10:25:07Z",
+                    "rm:modifier_id": "ai:identify_based_researcher",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-01-22T10:25:07Z",
+                    "keyword": {
+                        "en": "・robotics ・intelligent robot ・mobile robot ・autonomous robot ・vehicle control ・mechatronics ・edcation in mechatronics ・smart sensor ・sensor for robotics system"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/yuta/research_interests/24492250",
+                    "@type": "research_interests",
+                    "@reverse": "https://api.researchmap.jp/yuta/research_interests",
+                    "rm:id": "24492250",
+                    "rm:user_id": "1000048532",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:identify_based_researcher",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-01-22T10:25:07Z",
+                    "rm:modifier_id": "ai:identify_based_researcher",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-01-22T10:25:07Z",
+                    "keyword": {
+                        "ja": "・ロボット工学 ・知能ロボット ・移動ロボット ・自律ロボット ・自律ビークル ・移動体の制御 ・メカトロニクス ・メカトロニクス教育 ・知的センサ ・ロボット用センサ"
+                    }
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/yuta/research_areas",
+            "@type": "research_areas",
+            "@reverse": "https://api.researchmap.jp/yuta",
+            "total_items": 3,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/yuta/research_areas/24492254",
+                    "@type": "research_areas",
+                    "@reverse": "https://api.researchmap.jp/yuta/research_areas",
+                    "rm:id": "24492254",
+                    "rm:user_id": "1000048532",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:identify_based_researcher",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-01-22T10:25:07Z",
+                    "rm:modifier_id": "ai:identify_based_researcher",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-01-22T10:25:07Z",
+                    "discipline_number": "A289",
+                    "item_number": "A20020",
+                    "discipline": {
+                        "ja": "情報通信",
+                        "en": "Informatics"
+                    },
+                    "research_field": {
+                        "ja": "ロボティクス、知能機械システム",
+                        "en": "Robotics and intelligent systems"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/yuta/research_areas/24492253",
+                    "@type": "research_areas",
+                    "@reverse": "https://api.researchmap.jp/yuta/research_areas",
+                    "rm:id": "24492253",
+                    "rm:user_id": "1000048532",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:identify_based_researcher",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-01-22T10:25:07Z",
+                    "rm:modifier_id": "ai:identify_based_researcher",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-01-22T10:25:07Z",
+                    "discipline_number": "A689",
+                    "item_number": "A21040",
+                    "discipline": {
+                        "ja": "ものづくり技術（機械・電気電子・化学工学）",
+                        "en": "Manufacturing technology (mechanical, electrical/electronic, chemical engineering)"
+                    },
+                    "research_field": {
+                        "ja": "制御、システム工学",
+                        "en": "Control and systems engineering"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/yuta/research_areas/24492252",
+                    "@type": "research_areas",
+                    "@reverse": "https://api.researchmap.jp/yuta/research_areas",
+                    "rm:id": "24492252",
+                    "rm:user_id": "1000048532",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:identify_based_researcher",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-01-22T10:25:07Z",
+                    "rm:modifier_id": "ai:identify_based_researcher",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-01-22T10:25:07Z",
+                    "discipline_number": "A289",
+                    "item_number": "A20010",
+                    "discipline": {
+                        "ja": "情報通信",
+                        "en": "Informatics"
+                    },
+                    "research_field": {
+                        "ja": "機械力学、メカトロニクス",
+                        "en": "Mechanics and mechatronics"
+                    }
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/yuta/research_experience",
+            "@type": "research_experience",
+            "@reverse": "https://api.researchmap.jp/yuta",
+            "total_items": 11,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/yuta/research_experience/24492265",
+                    "@type": "research_experience",
+                    "@reverse": "https://api.researchmap.jp/yuta/research_experience",
+                    "rm:id": "24492265",
+                    "rm:user_id": "1000048532",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:identify_based_researcher",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-01-22T10:25:07Z",
+                    "rm:modifier_id": "ai:identify_based_researcher",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-01-22T10:25:07Z",
+                    "from_date": "2006",
+                    "to_date": "2010",
+                    "rm:institution_code": "0408590000",
+                    "affiliation": {
+                        "ja": "筑波大学産学リエゾン共同研究センター長",
+                        "en": "University of Tsukuba"
+                    },
+                    "section": {
+                        "en": "Tsukuba Industrial Liaison and Cooperative Research Center"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/yuta/research_experience/24492261",
+                    "@type": "research_experience",
+                    "@reverse": "https://api.researchmap.jp/yuta/research_experience",
+                    "rm:id": "24492261",
+                    "rm:user_id": "1000048532",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:identify_based_researcher",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-01-22T10:25:07Z",
+                    "rm:modifier_id": "ai:identify_based_researcher",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-01-22T10:25:07Z",
+                    "from_date": "2004",
+                    "to_date": "2006",
+                    "rm:institution_code": "9999999999",
+                    "affiliation": {
+                        "ja": "筑波大学理事・副学長(システム情報工学研究科教授兼務）"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/yuta/research_experience/24492266",
+                    "@type": "research_experience",
+                    "@reverse": "https://api.researchmap.jp/yuta/research_experience",
+                    "rm:id": "24492266",
+                    "rm:user_id": "1000048532",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:identify_based_researcher",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-01-22T10:25:07Z",
+                    "rm:modifier_id": "ai:identify_based_researcher",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-01-22T10:25:07Z",
+                    "from_date": "2006",
+                    "rm:institution_code": "9999999999",
+                    "affiliation": {
+                        "ja": "- 筑波大学大学院システム情報工学研究科知能機能専攻教授"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/yuta/research_experience/24492264",
+                    "@type": "research_experience",
+                    "@reverse": "https://api.researchmap.jp/yuta/research_experience",
+                    "rm:id": "24492264",
+                    "rm:user_id": "1000048532",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:identify_based_researcher",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-01-22T10:25:07Z",
+                    "rm:modifier_id": "ai:identify_based_researcher",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-01-22T10:25:07Z",
+                    "from_date": "2002",
+                    "to_date": "2004",
+                    "rm:institution_code": "0408008000",
+                    "affiliation": {
+                        "ja": "筑波大学機能工学系長",
+                        "en": "University of Tsukuba"
+                    },
+                    "section": {
+                        "en": "Institute of Engineering Mechanics and Systems"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/yuta/research_experience/24492258",
+                    "@type": "research_experience",
+                    "@reverse": "https://api.researchmap.jp/yuta/research_experience",
+                    "rm:id": "24492258",
+                    "rm:user_id": "1000048532",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:identify_based_researcher",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-01-22T10:25:07Z",
+                    "rm:modifier_id": "ai:identify_based_researcher",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-01-22T10:25:07Z",
+                    "from_date": "1999",
+                    "to_date": "2004",
+                    "rm:institution_code": "0408008000",
+                    "affiliation": {
+                        "ja": "筑波大学機能工学系教授",
+                        "en": "University of Tsukuba"
+                    },
+                    "section": {
+                        "en": "Institute of Engineering Mechanics and Systems"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/yuta/research_experience/24492260",
+                    "@type": "research_experience",
+                    "@reverse": "https://api.researchmap.jp/yuta/research_experience",
+                    "rm:id": "24492260",
+                    "rm:user_id": "1000048532",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:identify_based_researcher",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-01-22T10:25:07Z",
+                    "rm:modifier_id": "ai:identify_based_researcher",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-01-22T10:25:07Z",
+                    "from_date": "2000",
+                    "to_date": "2002",
+                    "rm:institution_code": "9999999999",
+                    "affiliation": {
+                        "ja": "筑波大学工学システム学類長"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/yuta/research_experience/24492257",
+                    "@type": "research_experience",
+                    "@reverse": "https://api.researchmap.jp/yuta/research_experience",
+                    "rm:id": "24492257",
+                    "rm:user_id": "1000048532",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:identify_based_researcher",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-01-22T10:25:07Z",
+                    "rm:modifier_id": "ai:identify_based_researcher",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-01-22T10:25:07Z",
+                    "from_date": "1992",
+                    "to_date": "1999",
+                    "rm:institution_code": "9999999999",
+                    "affiliation": {
+                        "ja": "筑波大学電子情報工学系教授"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/yuta/research_experience/24492256",
+                    "@type": "research_experience",
+                    "@reverse": "https://api.researchmap.jp/yuta/research_experience",
+                    "rm:id": "24492256",
+                    "rm:user_id": "1000048532",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:identify_based_researcher",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-01-22T10:25:07Z",
+                    "rm:modifier_id": "ai:identify_based_researcher",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-01-22T10:25:07Z",
+                    "from_date": "1983",
+                    "to_date": "1992",
+                    "rm:institution_code": "9999999999",
+                    "affiliation": {
+                        "ja": "筑波大学電子情報工学系助教授"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/yuta/research_experience/24492259",
+                    "@type": "research_experience",
+                    "@reverse": "https://api.researchmap.jp/yuta/research_experience",
+                    "rm:id": "24492259",
+                    "rm:user_id": "1000048532",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:identify_based_researcher",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-01-22T10:25:07Z",
+                    "rm:modifier_id": "ai:identify_based_researcher",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-01-22T10:25:07Z",
+                    "from_date": "1978",
+                    "to_date": "1983",
+                    "rm:institution_code": "9999999999",
+                    "affiliation": {
+                        "ja": "筑波大学電子情報工学系講師"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/yuta/research_experience/24492263",
+                    "@type": "research_experience",
+                    "@reverse": "https://api.researchmap.jp/yuta/research_experience",
+                    "rm:id": "24492263",
+                    "rm:user_id": "1000048532",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:identify_based_researcher",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-01-22T10:25:07Z",
+                    "rm:modifier_id": "ai:identify_based_researcher",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-01-22T10:25:07Z",
+                    "from_date": "1973",
+                    "to_date": "1978",
+                    "rm:institution_code": "0212001000",
+                    "affiliation": {
+                        "ja": "東京農工大学工学部電気工学科助手",
+                        "en": "Tokyo University of Agriculture and Technology"
+                    },
+                    "section": {
+                        "en": "Faculty of Engineering"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/yuta/research_experience/24492262",
+                    "@type": "research_experience",
+                    "@reverse": "https://api.researchmap.jp/yuta/research_experience",
+                    "rm:id": "24492262",
+                    "rm:user_id": "1000048532",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:identify_based_researcher",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-01-22T10:25:07Z",
+                    "rm:modifier_id": "ai:identify_based_researcher",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-01-22T10:25:07Z",
+                    "rm:institution_code": "0408581000",
+                    "affiliation": {
+                        "ja": "筑波大学 システム情報工学研究科 システム情報工学研究科 知能機能システム専攻",
+                        "en": "University of Tsukuba Graduate School of Systems and Information Engineering, Graduate School of Systems and Information Engineering Intelligent Interaction Technologies"
+                    },
+                    "job": {
+                        "ja": "教授",
+                        "en": "Professor"
+                    }
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/yuta/education",
+            "@type": "education",
+            "@reverse": "https://api.researchmap.jp/yuta",
+            "total_items": 4,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/yuta/education/24492269",
+                    "@type": "education",
+                    "@reverse": "https://api.researchmap.jp/yuta/education",
+                    "rm:id": "24492269",
+                    "rm:user_id": "1000048532",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:identify_based_researcher",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-01-22T10:25:07Z",
+                    "rm:modifier_id": "ai:identify_based_researcher",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-01-22T10:25:07Z",
+                    "to_date": "1975",
+                    "rm:institution_code": "2197000000",
+                    "affiliation": {
+                        "ja": "慶應義塾大学",
+                        "en": "Keio University"
+                    },
+                    "department": {
+                        "en": "Graduate School, Division of Engineering"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/yuta/education/24492268",
+                    "@type": "education",
+                    "@reverse": "https://api.researchmap.jp/yuta/education",
+                    "rm:id": "24492268",
+                    "rm:user_id": "1000048532",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:identify_based_researcher",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-01-22T10:25:07Z",
+                    "rm:modifier_id": "ai:identify_based_researcher",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-01-22T10:25:07Z",
+                    "to_date": "1975",
+                    "rm:institution_code": "2197000000",
+                    "affiliation": {
+                        "ja": "慶應義塾大学",
+                        "en": "Keio University"
+                    },
+                    "department": {
+                        "ja": "工学研究科"
+                    },
+                    "course": {
+                        "ja": "電気工学専攻"
+                    },
+                    "address_country": "JPN"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/yuta/education/24492270",
+                    "@type": "education",
+                    "@reverse": "https://api.researchmap.jp/yuta/education",
+                    "rm:id": "24492270",
+                    "rm:user_id": "1000048532",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:identify_based_researcher",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-01-22T10:25:07Z",
+                    "rm:modifier_id": "ai:identify_based_researcher",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-01-22T10:25:07Z",
+                    "to_date": "1970",
+                    "rm:institution_code": "2197000000",
+                    "affiliation": {
+                        "ja": "慶應義塾大学",
+                        "en": "Keio University"
+                    },
+                    "department": {
+                        "ja": "工学部"
+                    },
+                    "course": {
+                        "ja": "電気工学科"
+                    },
+                    "address_country": "JPN"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/yuta/education/24492267",
+                    "@type": "education",
+                    "@reverse": "https://api.researchmap.jp/yuta/education",
+                    "rm:id": "24492267",
+                    "rm:user_id": "1000048532",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:identify_based_researcher",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-01-22T10:25:07Z",
+                    "rm:modifier_id": "ai:identify_based_researcher",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-01-22T10:25:07Z",
+                    "to_date": "1970",
+                    "rm:institution_code": "2197000000",
+                    "affiliation": {
+                        "ja": "慶應義塾大学",
+                        "en": "Keio University"
+                    },
+                    "department": {
+                        "en": "Faculty of Engineering"
+                    }
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/yuta/committee_memberships",
+            "@type": "committee_memberships",
+            "@reverse": "https://api.researchmap.jp/yuta",
+            "total_items": 1,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/yuta/committee_memberships/24492271",
+                    "@type": "committee_memberships",
+                    "@reverse": "https://api.researchmap.jp/yuta/committee_memberships",
+                    "rm:id": "24492271",
+                    "rm:user_id": "1000048532",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:identify_based_researcher",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-01-22T10:25:07Z",
+                    "rm:modifier_id": "ai:identify_based_researcher",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-01-22T10:25:07Z",
+                    "from_date": "2002",
+                    "to_date": "2003",
+                    "committee_name": {
+                        "ja": "理事（論文集担当,2002-2003）"
+                    },
+                    "association": {
+                        "ja": "計測自動制御学会"
+                    },
+                    "description": {
+                        "ja": "計測自動制御学会"
+                    },
+                    "committee_type": "society"
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/yuta/awards",
+            "@type": "awards",
+            "@reverse": "https://api.researchmap.jp/yuta",
+            "total_items": 23,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/yuta/awards/24492283",
+                    "@type": "awards",
+                    "@reverse": "https://api.researchmap.jp/yuta/awards",
+                    "rm:id": "24492283",
+                    "rm:user_id": "1000048532",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:identify_based_researcher",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-01-22T10:25:07Z",
+                    "rm:modifier_id": "ai:identify_based_researcher",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-01-22T10:25:07Z",
+                    "award_name": {
+                        "ja": "SI2009優秀講演賞"
+                    },
+                    "award_date": "2010",
+                    "address_country": "JPN"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/yuta/awards/24492284",
+                    "@type": "awards",
+                    "@reverse": "https://api.researchmap.jp/yuta/awards",
+                    "rm:id": "24492284",
+                    "rm:user_id": "1000048532",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:identify_based_researcher",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-01-22T10:25:07Z",
+                    "rm:modifier_id": "ai:identify_based_researcher",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-01-22T10:25:07Z",
+                    "award_name": {
+                        "ja": "日本機械学会賞（技術）"
+                    },
+                    "award_date": "2009",
+                    "address_country": "JPN"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/yuta/awards/24492281",
+                    "@type": "awards",
+                    "@reverse": "https://api.researchmap.jp/yuta/awards",
+                    "rm:id": "24492281",
+                    "rm:user_id": "1000048532",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:identify_based_researcher",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-01-22T10:25:07Z",
+                    "rm:modifier_id": "ai:identify_based_researcher",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-01-22T10:25:07Z",
+                    "award_name": {
+                        "en": "IROS Harashima Award"
+                    },
+                    "award_date": "2009"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/yuta/awards/24492277",
+                    "@type": "awards",
+                    "@reverse": "https://api.researchmap.jp/yuta/awards",
+                    "rm:id": "24492277",
+                    "rm:user_id": "1000048532",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:identify_based_researcher",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-01-22T10:25:07Z",
+                    "rm:modifier_id": "ai:identify_based_researcher",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-01-22T10:25:07Z",
+                    "award_name": {
+                        "ja": "日本ロボット学会功労賞"
+                    },
+                    "award_date": "2009",
+                    "address_country": "JPN"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/yuta/awards/24492276",
+                    "@type": "awards",
+                    "@reverse": "https://api.researchmap.jp/yuta/awards",
+                    "rm:id": "24492276",
+                    "rm:user_id": "1000048532",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:identify_based_researcher",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-01-22T10:25:07Z",
+                    "rm:modifier_id": "ai:identify_based_researcher",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-01-22T10:25:07Z",
+                    "award_name": {
+                        "ja": "計測自動制御学会システムインテグレーション部門功績賞"
+                    },
+                    "award_date": "2009",
+                    "address_country": "JPN"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/yuta/awards/24492272",
+                    "@type": "awards",
+                    "@reverse": "https://api.researchmap.jp/yuta/awards",
+                    "rm:id": "24492272",
+                    "rm:user_id": "1000048532",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:identify_based_researcher",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-01-22T10:25:07Z",
+                    "rm:modifier_id": "ai:identify_based_researcher",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-01-22T10:25:07Z",
+                    "award_name": {
+                        "ja": "IROS Harashima Award"
+                    },
+                    "award_date": "2009"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/yuta/awards/24492290",
+                    "@type": "awards",
+                    "@reverse": "https://api.researchmap.jp/yuta/awards",
+                    "rm:id": "24492290",
+                    "rm:user_id": "1000048532",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:identify_based_researcher",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-01-22T10:25:07Z",
+                    "rm:modifier_id": "ai:identify_based_researcher",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-01-22T10:25:07Z",
+                    "award_name": {
+                        "ja": "日本ロボット学会実用化技術賞"
+                    },
+                    "award_date": "2006",
+                    "address_country": "JPN"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/yuta/awards/24492289",
+                    "@type": "awards",
+                    "@reverse": "https://api.researchmap.jp/yuta/awards",
+                    "rm:id": "24492289",
+                    "rm:user_id": "1000048532",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:identify_based_researcher",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-01-22T10:25:07Z",
+                    "rm:modifier_id": "ai:identify_based_researcher",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-01-22T10:25:07Z",
+                    "award_name": {
+                        "ja": "3rd International Conference on Autonomous Robots and Agents-ICARA2006 Best Poster Presentation"
+                    },
+                    "award_date": "2006"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/yuta/awards/24492288",
+                    "@type": "awards",
+                    "@reverse": "https://api.researchmap.jp/yuta/awards",
+                    "rm:id": "24492288",
+                    "rm:user_id": "1000048532",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:identify_based_researcher",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-01-22T10:25:07Z",
+                    "rm:modifier_id": "ai:identify_based_researcher",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-01-22T10:25:07Z",
+                    "award_name": {
+                        "ja": "SI2006優秀講演賞"
+                    },
+                    "award_date": "2006",
+                    "address_country": "JPN"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/yuta/awards/24492275",
+                    "@type": "awards",
+                    "@reverse": "https://api.researchmap.jp/yuta/awards",
+                    "rm:id": "24492275",
+                    "rm:user_id": "1000048532",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:identify_based_researcher",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-01-22T10:25:07Z",
+                    "rm:modifier_id": "ai:identify_based_researcher",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-01-22T10:25:07Z",
+                    "award_name": {
+                        "en": "3rd International Conference on Autonomous Robots and Agents-ICARA2006 Best Poster Presentation"
+                    },
+                    "award_date": "2006"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/yuta/awards/24492291",
+                    "@type": "awards",
+                    "@reverse": "https://api.researchmap.jp/yuta/awards",
+                    "rm:id": "24492291",
+                    "rm:user_id": "1000048532",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:identify_based_researcher",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-01-22T10:25:07Z",
+                    "rm:modifier_id": "ai:identify_based_researcher",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-01-22T10:25:07Z",
+                    "award_name": {
+                        "ja": "日本機械学会ロボティクスメカトロニクス部門功績賞"
+                    },
+                    "award_date": "2005",
+                    "address_country": "JPN"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/yuta/awards/24492278",
+                    "@type": "awards",
+                    "@reverse": "https://api.researchmap.jp/yuta/awards",
+                    "rm:id": "24492278",
+                    "rm:user_id": "1000048532",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:identify_based_researcher",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-01-22T10:25:07Z",
+                    "rm:modifier_id": "ai:identify_based_researcher",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-01-22T10:25:07Z",
+                    "award_name": {
+                        "ja": "2005年度日本ロボット学会論文賞"
+                    },
+                    "award_date": "2005",
+                    "address_country": "JPN"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/yuta/awards/24492292",
+                    "@type": "awards",
+                    "@reverse": "https://api.researchmap.jp/yuta/awards",
+                    "rm:id": "24492292",
+                    "rm:user_id": "1000048532",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:identify_based_researcher",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-01-22T10:25:07Z",
+                    "rm:modifier_id": "ai:identify_based_researcher",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-01-22T10:25:07Z",
+                    "award_name": {
+                        "ja": "ロボット学会 フェロー"
+                    },
+                    "award_date": "2004",
+                    "address_country": "JPN"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/yuta/awards/24492293",
+                    "@type": "awards",
+                    "@reverse": "https://api.researchmap.jp/yuta/awards",
+                    "rm:id": "24492293",
+                    "rm:user_id": "1000048532",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:identify_based_researcher",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-01-22T10:25:07Z",
+                    "rm:modifier_id": "ai:identify_based_researcher",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-01-22T10:25:07Z",
+                    "award_name": {
+                        "ja": "日本機械学会ロボティクスメカトロニクス部門学術業績賞"
+                    },
+                    "award_date": "2003",
+                    "address_country": "JPN"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/yuta/awards/24492285",
+                    "@type": "awards",
+                    "@reverse": "https://api.researchmap.jp/yuta/awards",
+                    "rm:id": "24492285",
+                    "rm:user_id": "1000048532",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:identify_based_researcher",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-01-22T10:25:07Z",
+                    "rm:modifier_id": "ai:identify_based_researcher",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-01-22T10:25:07Z",
+                    "award_name": {
+                        "ja": "計測自動制御学会システムインテグレーション部門研究奨励賞"
+                    },
+                    "award_date": "2003",
+                    "address_country": "JPN"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/yuta/awards/24492282",
+                    "@type": "awards",
+                    "@reverse": "https://api.researchmap.jp/yuta/awards",
+                    "rm:id": "24492282",
+                    "rm:user_id": "1000048532",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:identify_based_researcher",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-01-22T10:25:07Z",
+                    "rm:modifier_id": "ai:identify_based_researcher",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-01-22T10:25:07Z",
+                    "award_name": {
+                        "en": "IEEE Robotics and Automation Society, Japan Chapter Young Award（指導教官として）"
+                    },
+                    "award_date": "2003"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/yuta/awards/24492279",
+                    "@type": "awards",
+                    "@reverse": "https://api.researchmap.jp/yuta/awards",
+                    "rm:id": "24492279",
+                    "rm:user_id": "1000048532",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:identify_based_researcher",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-01-22T10:25:07Z",
+                    "rm:modifier_id": "ai:identify_based_researcher",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-01-22T10:25:07Z",
+                    "award_name": {
+                        "ja": "IEEE Robotics and Automation Society, Japan Chapter Young Award（指導教官として）"
+                    },
+                    "award_date": "2003"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/yuta/awards/24492280",
+                    "@type": "awards",
+                    "@reverse": "https://api.researchmap.jp/yuta/awards",
+                    "rm:id": "24492280",
+                    "rm:user_id": "1000048532",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:identify_based_researcher",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-01-22T10:25:07Z",
+                    "rm:modifier_id": "ai:identify_based_researcher",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-01-22T10:25:07Z",
+                    "award_name": {
+                        "ja": "第7回ロボティクスシンポジア優秀論文賞"
+                    },
+                    "award_date": "2002",
+                    "address_country": "JPN"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/yuta/awards/24492273",
+                    "@type": "awards",
+                    "@reverse": "https://api.researchmap.jp/yuta/awards",
+                    "rm:id": "24492273",
+                    "rm:user_id": "1000048532",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:identify_based_researcher",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-01-22T10:25:07Z",
+                    "rm:modifier_id": "ai:identify_based_researcher",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-01-22T10:25:07Z",
+                    "award_name": {
+                        "ja": "計測自動制御学会 SI部門 ベストセッション賞（指導教官として）"
+                    },
+                    "award_date": "2002",
+                    "address_country": "JPN"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/yuta/awards/24492294",
+                    "@type": "awards",
+                    "@reverse": "https://api.researchmap.jp/yuta/awards",
+                    "rm:id": "24492294",
+                    "rm:user_id": "1000048532",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:identify_based_researcher",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-01-22T10:25:07Z",
+                    "rm:modifier_id": "ai:identify_based_researcher",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-01-22T10:25:07Z",
+                    "award_name": {
+                        "ja": "ＩＥＥＥ フェロー"
+                    },
+                    "award_date": "2000",
+                    "address_country": "JPN"
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/yuta/misc",
+            "@type": "misc",
+            "@reverse": "https://api.researchmap.jp/yuta",
+            "total_items": 438,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/yuta/misc/24492658",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/yuta/misc",
+                    "rm:id": "24492658",
+                    "rm:user_id": "1000048532",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:identify_based_researcher",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-01-22T10:25:10Z",
+                    "rm:modifier_id": "ai:identify_based_researcher",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-01-22T10:25:10Z",
+                    "paper_title": {
+                        "ja": "Consideration on Scanning Line Density in 3D SOKUIKI Sensor with Roundly Swinging Mechanism"
+                    },
+                    "publication_date": "2010",
+                    "publication_name": {
+                        "ja": "2010 International Symposium on Robotics and Intelligent Sensors (IRIS 2010)"
+                    },
+                    "starting_page": "184",
+                    "ending_page": "187",
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/yuta/misc/24492657",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/yuta/misc",
+                    "rm:id": "24492657",
+                    "rm:user_id": "1000048532",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:identify_based_researcher",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-01-22T10:25:10Z",
+                    "rm:modifier_id": "ai:identify_based_researcher",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-01-22T10:25:10Z",
+                    "paper_title": {
+                        "ja": "法線方向の拘束を利用したスキャンマッチングと尤度分布決定による確率的自己位置推定"
+                    },
+                    "publication_date": "2010",
+                    "publication_name": {
+                        "ja": "第15回ロボティクスシンポジア"
+                    },
+                    "starting_page": "270",
+                    "ending_page": "275",
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/yuta/misc/24492656",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/yuta/misc",
+                    "rm:id": "24492656",
+                    "rm:user_id": "1000048532",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:identify_based_researcher",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-01-22T10:25:10Z",
+                    "rm:modifier_id": "ai:identify_based_researcher",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-01-22T10:25:10Z",
+                    "paper_title": {
+                        "ja": "筑波大学ループ道路歩道(4km)を対象とした移動ロボットの屋外長距離自律走行"
+                    },
+                    "publication_date": "2010",
+                    "publication_name": {
+                        "ja": "第15回ロボティクスシンポジア"
+                    },
+                    "starting_page": "494",
+                    "ending_page": "499",
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/yuta/misc/24492532",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/yuta/misc",
+                    "rm:id": "24492532",
+                    "rm:user_id": "1000048532",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:identify_based_researcher",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-01-22T10:25:09Z",
+                    "rm:modifier_id": "ai:identify_based_researcher",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-01-22T10:25:09Z",
+                    "paper_title": {
+                        "ja": "部屋や廊下の形状の特徴を生かした移動ロボットによる屋内環境地図の構築"
+                    },
+                    "publication_date": "2010",
+                    "publication_name": {
+                        "ja": "第15回ロボティクスシンポジア"
+                    },
+                    "starting_page": "457",
+                    "ending_page": "462",
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/yuta/misc/24492495",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/yuta/misc",
+                    "rm:id": "24492495",
+                    "rm:user_id": "1000048532",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:identify_based_researcher",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-01-22T10:25:09Z",
+                    "rm:modifier_id": "ai:identify_based_researcher",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-01-22T10:25:09Z",
+                    "paper_title": {
+                        "en": "Consideration on Scanning Line Density in 3D SOKUIKI Sensor with Roundly Swinging Mechanism"
+                    },
+                    "publication_date": "2010",
+                    "publication_name": {
+                        "en": "2010 International Symposium on Robotics and Intelligent Sensors (IRIS 2010)"
+                    },
+                    "starting_page": "184",
+                    "ending_page": "187",
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/yuta/misc/24492494",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/yuta/misc",
+                    "rm:id": "24492494",
+                    "rm:user_id": "1000048532",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:identify_based_researcher",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-01-22T10:25:09Z",
+                    "rm:modifier_id": "ai:identify_based_researcher",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-01-22T10:25:09Z",
+                    "paper_title": {
+                        "en": "Efficient Feedforward Current Control Method of Brushless DC Motor"
+                    },
+                    "publication_date": "2010",
+                    "publication_name": {
+                        "en": "11th IEEE International Workshop on Advanced Motion Control (AMC 2010)"
+                    },
+                    "starting_page": "768",
+                    "ending_page": "773",
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/yuta/misc/24492493",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/yuta/misc",
+                    "rm:id": "24492493",
+                    "rm:user_id": "1000048532",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:identify_based_researcher",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-01-22T10:25:09Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-05-21T18:20:42Z",
+                    "paper_title": {
+                        "en": "Vehicle Localization in Outdoor Mountainous Forested Paths and Extension of Two-Dimensional Road Centerline Maps to Three-Dimensional Maps"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Yoichi Morales"
+                            },
+                            {
+                                "name": "Takashi Tsubouchi"
+                            },
+                            {
+                                "name": "Shinichi Yuta"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "This paper presents an approach for vehicle three-dimensional (3-D) localization in outdoor woodland environments where a previously available two-dimensional road centerline map is used in combination with a loosely coupled multi-sensor system to estimate the vehicle position in mountainous forested paths. The localization system is composed of a wheel encoder, an inertial measurement unit, a DGPS, a laser sensor and a barometer. An extended Kalman filter is used for sensor data fusion and pose estimation. When available, DGPS is used for 3-D dead reckoning accumulated error correction. During DGPS blackouts, the laser sensor is used for road extraction and measurement of the displacement of the vehicle to the road centerline, then the position is corrected towards the map. Moreover, the barometer that measures the height difference towards a reference is used to correct the estimated height in absence of DGPS 3-D data. The estimated height is added to the available road map to obtain a 3-D road centerline map that includes the road width measured with the laser sensor. Experimental results in large-scale real mountainous woodland environments show the robustness and simplicity of the proposed approach for vehicle localization and 3-D map extension. (C) Koninklijke Brill NV, Leiden and The Robotics Society of Japan, 2010"
+                    },
+                    "publisher": {
+                        "en": "VSP BV"
+                    },
+                    "publication_date": "2010",
+                    "publication_name": {
+                        "en": "ADVANCED ROBOTICS"
+                    },
+                    "volume": "24",
+                    "number": "4",
+                    "starting_page": "489",
+                    "ending_page": "513",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "cinii_na_id": [
+                            "10027464188"
+                        ],
+                        "doi": [
+                            "10.1163/016918610X487081"
+                        ],
+                        "issn": [
+                            "0169-1864"
+                        ],
+                        "wos_id": [
+                            "WOS:000276365600002"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/10027464188",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1163/016918610X487081",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000276365600002&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/yuta/misc/24492429",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/yuta/misc",
+                    "rm:id": "24492429",
+                    "rm:user_id": "1000048532",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:identify_based_researcher",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-01-22T10:25:08Z",
+                    "rm:modifier_id": "ai:identify_based_researcher",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-01-22T10:25:08Z",
+                    "paper_title": {
+                        "ja": "三次元測域センサモジュールにょる高速・広視野・長距離の距離画像の取得"
+                    },
+                    "publication_date": "2010",
+                    "publication_name": {
+                        "ja": "第15回ロボティクスシンポジア"
+                    },
+                    "starting_page": "514",
+                    "ending_page": "519",
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/yuta/misc/24492428",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/yuta/misc",
+                    "rm:id": "24492428",
+                    "rm:user_id": "1000048532",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:identify_based_researcher",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-01-22T10:25:08Z",
+                    "rm:modifier_id": "ai:identify_based_researcher",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-01-22T10:25:08Z",
+                    "paper_title": {
+                        "ja": "Efficient Feedforward Current Control Method of Brushless DC Motor"
+                    },
+                    "publication_date": "2010",
+                    "publication_name": {
+                        "ja": "11th IEEE International Workshop on Advanced Motion Control (AMC 2010)"
+                    },
+                    "starting_page": "768",
+                    "ending_page": "773",
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/yuta/misc/24492380",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/yuta/misc",
+                    "rm:id": "24492380",
+                    "rm:user_id": "1000048532",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:identify_based_researcher",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-01-22T10:25:08Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-05-21T18:20:42Z",
+                    "paper_title": {
+                        "en": "Vehicle Localization in Outdoor Mountainous Forested Paths and Extension of Two-Dimensional Road Centerline Maps to Three-Dimensional Maps"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Yoichi Morales"
+                            },
+                            {
+                                "name": "Takashi Tsubouchi"
+                            },
+                            {
+                                "name": "Shinichi Yuta"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "This paper presents an approach for vehicle three-dimensional (3-D) localization in outdoor woodland environments where a previously available two-dimensional road centerline map is used in combination with a loosely coupled multi-sensor system to estimate the vehicle position in mountainous forested paths. The localization system is composed of a wheel encoder, an inertial measurement unit, a DGPS, a laser sensor and a barometer. An extended Kalman filter is used for sensor data fusion and pose estimation. When available, DGPS is used for 3-D dead reckoning accumulated error correction. During DGPS blackouts, the laser sensor is used for road extraction and measurement of the displacement of the vehicle to the road centerline, then the position is corrected towards the map. Moreover, the barometer that measures the height difference towards a reference is used to correct the estimated height in absence of DGPS 3-D data. The estimated height is added to the available road map to obtain a 3-D road centerline map that includes the road width measured with the laser sensor. Experimental results in large-scale real mountainous woodland environments show the robustness and simplicity of the proposed approach for vehicle localization and 3-D map extension. (C) Koninklijke Brill NV, Leiden and The Robotics Society of Japan, 2010"
+                    },
+                    "publisher": {
+                        "en": "VSP BV"
+                    },
+                    "publication_date": "2010",
+                    "publication_name": {
+                        "en": "ADVANCED ROBOTICS"
+                    },
+                    "volume": "24",
+                    "number": "4",
+                    "starting_page": "489",
+                    "ending_page": "513",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "cinii_na_id": [
+                            "10027464188"
+                        ],
+                        "doi": [
+                            "10.1163/016918610X487081"
+                        ],
+                        "issn": [
+                            "0169-1864"
+                        ],
+                        "wos_id": [
+                            "WOS:000276365600002"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/10027464188",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1163/016918610X487081",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000276365600002&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/yuta/misc/24492604",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/yuta/misc",
+                    "rm:id": "24492604",
+                    "rm:user_id": "1000048532",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:identify_based_researcher",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-01-22T10:25:10Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2023-09-08T10:57:50Z",
+                    "paper_title": {
+                        "en": "Baggage Transportation and Navigation by a Wheeled Inverted Pendulum Mobile Robot"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Toshinobu Takei"
+                            },
+                            {
+                                "name": "Ryoko Imamura"
+                            },
+                            {
+                                "name": "Shin&apos;ichi Yuta"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "Our goal is to configure an automatic baggage-transportation system by an inverted pendulum robot and realize a navigation function in a real environment. The system consists of two cooperative subsystems: a balancing-and-traveling control subsystem and a navigation subsystem. Position errors of the inverted pendulum robot are often caused by a drift error in the gyro sensor and a change in the center of gravity by a loaded baggage when applying the linear state feedback control method for balancing and traveling. We have reduced the position errors for navigation by resetting the balance position occasionally while traveling with simple methods without an external observer or alternative sensors. In this paper, we state the method and show the experimental results of navigation in a real environment by the implemented robot system."
+                    },
+                    "publisher": {
+                        "en": "IEEE-INST ELECTRICAL ELECTRONICS ENGINEERS INC"
+                    },
+                    "publication_date": "2009-10",
+                    "publication_name": {
+                        "en": "IEEE TRANSACTIONS ON INDUSTRIAL ELECTRONICS"
+                    },
+                    "volume": "56",
+                    "number": "10",
+                    "starting_page": "3985",
+                    "ending_page": "3994",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1109/TIE.2009.2027252"
+                        ],
+                        "issn": [
+                            "0278-0046"
+                        ],
+                        "e_issn": [
+                            "1557-9948"
+                        ],
+                        "wos_id": [
+                            "WOS:000269838700024"
+                        ],
+                        "cinii_na_id": [
+                            "80020548541"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1109/TIE.2009.2027252",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000269838700024&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/80020548541",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/yuta/misc/24492381",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/yuta/misc",
+                    "rm:id": "24492381",
+                    "rm:user_id": "1000048532",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:identify_based_researcher",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-01-22T10:25:08Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2023-09-08T10:57:50Z",
+                    "paper_title": {
+                        "en": "Baggage Transportation and Navigation by a Wheeled Inverted Pendulum Mobile Robot"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Toshinobu Takei"
+                            },
+                            {
+                                "name": "Ryoko Imamura"
+                            },
+                            {
+                                "name": "Shin&apos;ichi Yuta"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "Our goal is to configure an automatic baggage-transportation system by an inverted pendulum robot and realize a navigation function in a real environment. The system consists of two cooperative subsystems: a balancing-and-traveling control subsystem and a navigation subsystem. Position errors of the inverted pendulum robot are often caused by a drift error in the gyro sensor and a change in the center of gravity by a loaded baggage when applying the linear state feedback control method for balancing and traveling. We have reduced the position errors for navigation by resetting the balance position occasionally while traveling with simple methods without an external observer or alternative sensors. In this paper, we state the method and show the experimental results of navigation in a real environment by the implemented robot system."
+                    },
+                    "publisher": {
+                        "en": "IEEE-INST ELECTRICAL ELECTRONICS ENGINEERS INC"
+                    },
+                    "publication_date": "2009-10",
+                    "publication_name": {
+                        "en": "IEEE TRANSACTIONS ON INDUSTRIAL ELECTRONICS"
+                    },
+                    "volume": "56",
+                    "number": "10",
+                    "starting_page": "3985",
+                    "ending_page": "3994",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1109/TIE.2009.2027252"
+                        ],
+                        "issn": [
+                            "0278-0046"
+                        ],
+                        "e_issn": [
+                            "1557-9948"
+                        ],
+                        "wos_id": [
+                            "WOS:000269838700024"
+                        ],
+                        "cinii_na_id": [
+                            "80020548541"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1109/TIE.2009.2027252",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000269838700024&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/80020548541",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/yuta/misc/24492668",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/yuta/misc",
+                    "rm:id": "24492668",
+                    "rm:user_id": "1000048532",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:identify_based_researcher",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-01-22T10:25:10Z",
+                    "rm:modifier_id": "ai:identify_based_researcher",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-01-22T10:25:10Z",
+                    "paper_title": {
+                        "ja": "高速に広視野の距離画像を得る回転式揺動機構を用いた三次元測域センサ"
+                    },
+                    "publication_date": "2009",
+                    "publication_name": {
+                        "ja": "第15回画像センシングシンポジウム (SSII) 2009"
+                    },
+                    "starting_page": "IS1-08-(1)-(4)",
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/yuta/misc/24492667",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/yuta/misc",
+                    "rm:id": "24492667",
+                    "rm:user_id": "1000048532",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:identify_based_researcher",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-01-22T10:25:10Z",
+                    "rm:modifier_id": "ai:identify_based_researcher",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-01-22T10:25:10Z",
+                    "paper_title": {
+                        "ja": "移動ロボットの汎用基本ソフトウェアモジュールの開発 －大域的自己位置推定モジュールの実装と評価－"
+                    },
+                    "publication_date": "2009",
+                    "publication_name": {
+                        "ja": "日本機械学会 2009 茨城講演会"
+                    },
+                    "starting_page": "193",
+                    "ending_page": "194",
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/yuta/misc/24492666",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/yuta/misc",
+                    "rm:id": "24492666",
+                    "rm:user_id": "1000048532",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:identify_based_researcher",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-01-22T10:25:10Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-05-31T03:46:18Z",
+                    "paper_title": {
+                        "en": "Tracking and Following People and Robots in Crowded Environment by a Mobile Robot with SOKUIKI Sensor"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Akira Ohshima"
+                            },
+                            {
+                                "name": "Shin&apos;ichi Yuta"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "An experimental system of the autonomous mobile robot witch follows a people or other robots was implemented and demonstrated in various situation. For this purpose, an algorithm to track an object by the moving sensor is considered and designed. In this method, SOKUIKI sensor (Scanning Laser Range Finder) output are combined with odometry data, in order to find the particular target object the others, and to estimate the target object motion. The many experimental have shown the robust target object following ability of this system."
+                    },
+                    "publisher": {
+                        "en": "SPRINGER-VERLAG BERLIN"
+                    },
+                    "publication_date": "2009",
+                    "publication_name": {
+                        "en": "DISTRIBUTED AUTONOMOUS ROBOTIC SYSTEMS 8"
+                    },
+                    "starting_page": "575",
+                    "ending_page": "584",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1007/978-3-642-00644-9-51"
+                        ],
+                        "wos_id": [
+                            "WOS:000274000200051"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1007/978-3-642-00644-9-51",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000274000200051&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/yuta/misc/24492665",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/yuta/misc",
+                    "rm:id": "24492665",
+                    "rm:user_id": "1000048532",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:identify_based_researcher",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-01-22T10:25:10Z",
+                    "rm:modifier_id": "ai:identify_based_researcher",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-01-22T10:25:10Z",
+                    "paper_title": {
+                        "ja": "測域センサを用いた交差点自律走行の手法 ～屋外長距離自律走行に関する技術研究～"
+                    },
+                    "publication_date": "2009",
+                    "publication_name": {
+                        "ja": "第27回日本ロボット学会学術講演会 (RSJ 2009)"
+                    },
+                    "starting_page": "1Q2-02",
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/yuta/misc/24492664",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/yuta/misc",
+                    "rm:id": "24492664",
+                    "rm:user_id": "1000048532",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:identify_based_researcher",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-01-22T10:25:10Z",
+                    "rm:modifier_id": "ai:identify_based_researcher",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-01-22T10:25:10Z",
+                    "paper_title": {
+                        "ja": "移動ロボット用基本知能のモジュール化 ～開発モジュールの紹介とRTC化への取組み～"
+                    },
+                    "publication_date": "2009",
+                    "publication_name": {
+                        "ja": "第27回日本ロボット学会学術講演会 (RSJ 2009)"
+                    },
+                    "starting_page": "3D3-02",
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/yuta/misc/24492663",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/yuta/misc",
+                    "rm:id": "24492663",
+                    "rm:user_id": "1000048532",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:identify_based_researcher",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-01-22T10:25:10Z",
+                    "rm:modifier_id": "ai:identify_based_researcher",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-01-22T10:25:10Z",
+                    "paper_title": {
+                        "ja": "ブラシレスDCモータの高効率なフィードフォワード電流制御手法"
+                    },
+                    "publication_date": "2009",
+                    "publication_name": {
+                        "ja": "第10回計測自動制御学会システムインテグレーション部門講演会（SI 2009)"
+                    },
+                    "starting_page": "893",
+                    "ending_page": "896",
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/yuta/misc/24492662",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/yuta/misc",
+                    "rm:id": "24492662",
+                    "rm:user_id": "1000048532",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:identify_based_researcher",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-01-22T10:25:10Z",
+                    "rm:modifier_id": "ai:identify_based_researcher",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-01-22T10:25:10Z",
+                    "paper_title": {
+                        "ja": "建物内における壁の直角・平行な特徴を用いた環境地図構築"
+                    },
+                    "publication_date": "2009",
+                    "publication_name": {
+                        "ja": "第10回計測自動制御学会システムインテグレーション部門講演会（SI 2009)"
+                    },
+                    "volume": "979-982",
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/yuta/misc/24492661",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/yuta/misc",
+                    "rm:id": "24492661",
+                    "rm:user_id": "1000048532",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:identify_based_researcher",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-01-22T10:25:10Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-08-24T00:38:04Z",
+                    "paper_title": {
+                        "ja": "火山探査を目的としたクローラ型移動ロボットKenafによる桜島での遠隔操作実験"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "永谷圭司"
+                            }
+                        ]
+                    },
+                    "publication_date": "2009",
+                    "publication_name": {
+                        "ja": "第10回計測自動制御学会システムインテグレーション部門講演会（SI 2009)"
+                    },
+                    "starting_page": "1943",
+                    "ending_page": "1946",
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "cinii_na_id": [
+                            "10030325374"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/10030325374",
+                            "is_downloadable": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/yuta/books_etc",
+            "@type": "books_etc",
+            "@reverse": "https://api.researchmap.jp/yuta",
+            "total_items": 3,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/yuta/books_etc/24492735",
+                    "@type": "books_etc",
+                    "@reverse": "https://api.researchmap.jp/yuta/books_etc",
+                    "rm:id": "24492735",
+                    "rm:user_id": "1000048532",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:identify_based_researcher",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-01-22T10:25:11Z",
+                    "rm:modifier_id": "ai:identify_based_researcher",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-01-22T10:25:11Z",
+                    "book_title": {
+                        "ja": "Editors, Field and Service Robotics"
+                    },
+                    "publisher": {
+                        "ja": "Springer tracts in advanced robotics 24"
+                    },
+                    "publication_date": "2006",
+                    "referee": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/yuta/books_etc/24492734",
+                    "@type": "books_etc",
+                    "@reverse": "https://api.researchmap.jp/yuta/books_etc",
+                    "rm:id": "24492734",
+                    "rm:user_id": "1000048532",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:identify_based_researcher",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-01-22T10:25:11Z",
+                    "rm:modifier_id": "ai:identify_based_researcher",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-01-22T10:25:11Z",
+                    "book_title": {
+                        "en": "Editors, Field and Service Robotics"
+                    },
+                    "publisher": {
+                        "en": "Springer tracts in advanced robotics 24"
+                    },
+                    "publication_date": "2006",
+                    "referee": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/yuta/books_etc/24492733",
+                    "@type": "books_etc",
+                    "@reverse": "https://api.researchmap.jp/yuta/books_etc",
+                    "rm:id": "24492733",
+                    "rm:user_id": "1000048532",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:identify_based_researcher",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-01-22T10:25:11Z",
+                    "rm:modifier_id": "ai:identify_based_researcher",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-01-22T10:25:11Z",
+                    "book_title": {
+                        "ja": "制御のデザイン科学"
+                    },
+                    "publisher": {
+                        "ja": "朝倉書店デザイン事典（日本デザイン学会編集）第３部（朝倉書店）デザインの科学と方法 ５０６節"
+                    },
+                    "publication_date": "2003",
+                    "referee": false
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/yuta/association_memberships",
+            "@type": "association_memberships",
+            "@reverse": "https://api.researchmap.jp/yuta",
+            "total_items": 8,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/yuta/association_memberships/24492743",
+                    "@type": "association_memberships",
+                    "@reverse": "https://api.researchmap.jp/yuta/association_memberships",
+                    "rm:id": "24492743",
+                    "rm:user_id": "1000048532",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:identify_based_researcher",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-01-22T10:25:12Z",
+                    "rm:modifier_id": "ai:identify_based_researcher",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-01-22T10:25:12Z",
+                    "academic_society_name": {
+                        "ja": "システム制御学会"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/yuta/association_memberships/24492742",
+                    "@type": "association_memberships",
+                    "@reverse": "https://api.researchmap.jp/yuta/association_memberships",
+                    "rm:id": "24492742",
+                    "rm:user_id": "1000048532",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:identify_based_researcher",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-01-22T10:25:12Z",
+                    "rm:modifier_id": "ai:identify_based_researcher",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-01-22T10:25:12Z",
+                    "academic_society_name": {
+                        "ja": "情報処理学会"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/yuta/association_memberships/24492741",
+                    "@type": "association_memberships",
+                    "@reverse": "https://api.researchmap.jp/yuta/association_memberships",
+                    "rm:id": "24492741",
+                    "rm:user_id": "1000048532",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:identify_based_researcher",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-01-22T10:25:12Z",
+                    "rm:modifier_id": "ai:identify_based_researcher",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-01-22T10:25:12Z",
+                    "academic_society_name": {
+                        "ja": "日本ロボット学会(フェロー,2003)"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/yuta/association_memberships/24492740",
+                    "@type": "association_memberships",
+                    "@reverse": "https://api.researchmap.jp/yuta/association_memberships",
+                    "rm:id": "24492740",
+                    "rm:user_id": "1000048532",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:identify_based_researcher",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-01-22T10:25:12Z",
+                    "rm:modifier_id": "ai:identify_based_researcher",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-01-22T10:25:12Z",
+                    "academic_society_name": {
+                        "ja": "電子情報通信学会"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/yuta/association_memberships/24492739",
+                    "@type": "association_memberships",
+                    "@reverse": "https://api.researchmap.jp/yuta/association_memberships",
+                    "rm:id": "24492739",
+                    "rm:user_id": "1000048532",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:identify_based_researcher",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-01-22T10:25:12Z",
+                    "rm:modifier_id": "ai:identify_based_researcher",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-01-22T10:25:12Z",
+                    "academic_society_name": {
+                        "ja": "日本機械学会 ロボティクスメカトロニクス部門"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/yuta/association_memberships/24492738",
+                    "@type": "association_memberships",
+                    "@reverse": "https://api.researchmap.jp/yuta/association_memberships",
+                    "rm:id": "24492738",
+                    "rm:user_id": "1000048532",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:identify_based_researcher",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-01-22T10:25:12Z",
+                    "rm:modifier_id": "ai:identify_based_researcher",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-01-22T10:25:12Z",
+                    "academic_society_name": {
+                        "ja": "計測自動制御学会"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/yuta/association_memberships/24492737",
+                    "@type": "association_memberships",
+                    "@reverse": "https://api.researchmap.jp/yuta/association_memberships",
+                    "rm:id": "24492737",
+                    "rm:user_id": "1000048532",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:identify_based_researcher",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-01-22T10:25:12Z",
+                    "rm:modifier_id": "ai:identify_based_researcher",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-01-22T10:25:12Z",
+                    "academic_society_name": {
+                        "ja": "IEEE(The Institute of Electrical and Electronic Engineers)(fellow2000 )"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/yuta/association_memberships/24492736",
+                    "@type": "association_memberships",
+                    "@reverse": "https://api.researchmap.jp/yuta/association_memberships",
+                    "rm:id": "24492736",
+                    "rm:user_id": "1000048532",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:identify_based_researcher",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-01-22T10:25:12Z",
+                    "rm:modifier_id": "ai:identify_based_researcher",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-01-22T10:25:12Z",
+                    "academic_society_name": {
+                        "ja": "電気学会"
+                    }
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/yuta/works",
+            "@type": "works",
+            "@reverse": "https://api.researchmap.jp/yuta",
+            "total_items": 33,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/yuta/works/24492756",
+                    "@type": "works",
+                    "@reverse": "https://api.researchmap.jp/yuta/works",
+                    "rm:id": "24492756",
+                    "rm:user_id": "1000048532",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:identify_based_researcher",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-01-22T10:25:12Z",
+                    "rm:modifier_id": "ai:identify_based_researcher",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-01-22T10:25:12Z",
+                    "work_title": {
+                        "ja": "次世代ロボット知能化技術開発プロジェクト 移動知能（サービス産業分野）の開発 移動ロボット用基本知能のモジュール化"
+                    },
+                    "from_date": "2008",
+                    "to_date": "2009"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/yuta/works/24492767",
+                    "@type": "works",
+                    "@reverse": "https://api.researchmap.jp/yuta/works",
+                    "rm:id": "24492767",
+                    "rm:user_id": "1000048532",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:identify_based_researcher",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-01-22T10:25:12Z",
+                    "rm:modifier_id": "ai:identify_based_researcher",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-01-22T10:25:12Z",
+                    "work_title": {
+                        "ja": "仮設足場を不要とする化学プラント配管外面腐食診断システム開発"
+                    },
+                    "from_date": "2008",
+                    "to_date": "2008"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/yuta/works/24492755",
+                    "@type": "works",
+                    "@reverse": "https://api.researchmap.jp/yuta/works",
+                    "rm:id": "24492755",
+                    "rm:user_id": "1000048532",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:identify_based_researcher",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-01-22T10:25:12Z",
+                    "rm:modifier_id": "ai:identify_based_researcher",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-01-22T10:25:12Z",
+                    "work_title": {
+                        "ja": "月面ローバの操作制御のための環境情報取得に関する研究"
+                    },
+                    "from_date": "2008",
+                    "to_date": "2008"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/yuta/works/24492744",
+                    "@type": "works",
+                    "@reverse": "https://api.researchmap.jp/yuta/works",
+                    "rm:id": "24492744",
+                    "rm:user_id": "1000048532",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:identify_based_researcher",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-01-22T10:25:12Z",
+                    "rm:modifier_id": "ai:identify_based_researcher",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-01-22T10:25:12Z",
+                    "work_title": {
+                        "ja": "移動ロボットのための知能・制御ソフトウェアの開発"
+                    },
+                    "from_date": "2008",
+                    "to_date": "2008"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/yuta/works/24492772",
+                    "@type": "works",
+                    "@reverse": "https://api.researchmap.jp/yuta/works",
+                    "rm:id": "24492772",
+                    "rm:user_id": "1000048532",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:identify_based_researcher",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-01-22T10:25:12Z",
+                    "rm:modifier_id": "ai:identify_based_researcher",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-01-22T10:25:12Z",
+                    "work_title": {
+                        "ja": "月面ローバの操作制御のための環境情報取得に関する研究"
+                    },
+                    "from_date": "2006",
+                    "to_date": "2008"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/yuta/works/24492745",
+                    "@type": "works",
+                    "@reverse": "https://api.researchmap.jp/yuta/works",
+                    "rm:id": "24492745",
+                    "rm:user_id": "1000048532",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:identify_based_researcher",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-01-22T10:25:12Z",
+                    "rm:modifier_id": "ai:identify_based_researcher",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-01-22T10:25:12Z",
+                    "work_title": {
+                        "ja": "床下点検ロボットにおけるSLAM技術の実用化研究"
+                    },
+                    "from_date": "2006",
+                    "to_date": "2008"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/yuta/works/24492769",
+                    "@type": "works",
+                    "@reverse": "https://api.researchmap.jp/yuta/works",
+                    "rm:id": "24492769",
+                    "rm:user_id": "1000048532",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:identify_based_researcher",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-01-22T10:25:12Z",
+                    "rm:modifier_id": "ai:identify_based_researcher",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-01-22T10:25:12Z",
+                    "work_title": {
+                        "ja": "次世代ロボット知能化技術開発プロジェクト〈移動知能（サービス産業分野）の開発のうち、移動ロボット用基本知能のモジュール化〉に関わるもの"
+                    },
+                    "from_date": "2007"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/yuta/works/24492768",
+                    "@type": "works",
+                    "@reverse": "https://api.researchmap.jp/yuta/works",
+                    "rm:id": "24492768",
+                    "rm:user_id": "1000048532",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:identify_based_researcher",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-01-22T10:25:12Z",
+                    "rm:modifier_id": "ai:identify_based_researcher",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-01-22T10:25:12Z",
+                    "work_title": {
+                        "ja": "次世代ロボット知能化技術開発プロジェクトに関する研究"
+                    },
+                    "from_date": "2007"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/yuta/works/24492757",
+                    "@type": "works",
+                    "@reverse": "https://api.researchmap.jp/yuta/works",
+                    "rm:id": "24492757",
+                    "rm:user_id": "1000048532",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:identify_based_researcher",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-01-22T10:25:12Z",
+                    "rm:modifier_id": "ai:identify_based_researcher",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-01-22T10:25:12Z",
+                    "work_title": {
+                        "ja": "ロボット技術向けSH新応用の調査研究"
+                    },
+                    "from_date": "2007"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/yuta/works/24492771",
+                    "@type": "works",
+                    "@reverse": "https://api.researchmap.jp/yuta/works",
+                    "rm:id": "24492771",
+                    "rm:user_id": "1000048532",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:identify_based_researcher",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-01-22T10:25:12Z",
+                    "rm:modifier_id": "ai:identify_based_researcher",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-01-22T10:25:12Z",
+                    "work_title": {
+                        "ja": "移動ロボットのための次世代測域センサに関する研究"
+                    },
+                    "from_date": "2006"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/yuta/works/24492770",
+                    "@type": "works",
+                    "@reverse": "https://api.researchmap.jp/yuta/works",
+                    "rm:id": "24492770",
+                    "rm:user_id": "1000048532",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:identify_based_researcher",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-01-22T10:25:12Z",
+                    "rm:modifier_id": "ai:identify_based_researcher",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-01-22T10:25:12Z",
+                    "work_title": {
+                        "ja": "つくばショッピングセンターへのロボット技術導入の検討"
+                    },
+                    "from_date": "2006"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/yuta/works/24492750",
+                    "@type": "works",
+                    "@reverse": "https://api.researchmap.jp/yuta/works",
+                    "rm:id": "24492750",
+                    "rm:user_id": "1000048532",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:identify_based_researcher",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-01-22T10:25:12Z",
+                    "rm:modifier_id": "ai:identify_based_researcher",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-01-22T10:25:12Z",
+                    "work_title": {
+                        "ja": "レーザ計測技術を応用したロボット動作のためのアルゴリズム開発に関する研究"
+                    },
+                    "from_date": "2006"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/yuta/works/24492773",
+                    "@type": "works",
+                    "@reverse": "https://api.researchmap.jp/yuta/works",
+                    "rm:id": "24492773",
+                    "rm:user_id": "1000048532",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:identify_based_researcher",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-01-22T10:25:12Z",
+                    "rm:modifier_id": "ai:identify_based_researcher",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-01-22T10:25:12Z",
+                    "work_title": {
+                        "ja": "知能ロボットに関する研究"
+                    },
+                    "from_date": "2005"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/yuta/works/24492774",
+                    "@type": "works",
+                    "@reverse": "https://api.researchmap.jp/yuta/works",
+                    "rm:id": "24492774",
+                    "rm:user_id": "1000048532",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:identify_based_researcher",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-01-22T10:25:12Z",
+                    "rm:modifier_id": "ai:identify_based_researcher",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-01-22T10:25:12Z",
+                    "work_title": {
+                        "ja": "ロボットのセンサと環境認識に関する研究"
+                    },
+                    "from_date": "2004"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/yuta/works/24492751",
+                    "@type": "works",
+                    "@reverse": "https://api.researchmap.jp/yuta/works",
+                    "rm:id": "24492751",
+                    "rm:user_id": "1000048532",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:identify_based_researcher",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-01-22T10:25:12Z",
+                    "rm:modifier_id": "ai:identify_based_researcher",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-01-22T10:25:12Z",
+                    "work_title": {
+                        "ja": "移動ロボットの環境認識用レンジセンサシステムの開発"
+                    },
+                    "from_date": "2004"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/yuta/works/24492760",
+                    "@type": "works",
+                    "@reverse": "https://api.researchmap.jp/yuta/works",
+                    "rm:id": "24492760",
+                    "rm:user_id": "1000048532",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:identify_based_researcher",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-01-22T10:25:12Z",
+                    "rm:modifier_id": "ai:identify_based_researcher",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-01-22T10:25:12Z",
+                    "work_title": {
+                        "ja": "震災時レスキュー活動のための移動ロボット技術の研究"
+                    },
+                    "from_date": "2003"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/yuta/works/24492759",
+                    "@type": "works",
+                    "@reverse": "https://api.researchmap.jp/yuta/works",
+                    "rm:id": "24492759",
+                    "rm:user_id": "1000048532",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:identify_based_researcher",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-01-22T10:25:12Z",
+                    "rm:modifier_id": "ai:identify_based_researcher",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-01-22T10:25:12Z",
+                    "work_title": {
+                        "ja": "月探査ミッションにおける移動探査機の位置計測とポジショニング研究"
+                    },
+                    "from_date": "2003"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/yuta/works/24492752",
+                    "@type": "works",
+                    "@reverse": "https://api.researchmap.jp/yuta/works",
+                    "rm:id": "24492752",
+                    "rm:user_id": "1000048532",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:identify_based_researcher",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-01-22T10:25:12Z",
+                    "rm:modifier_id": "ai:identify_based_researcher",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-01-22T10:25:12Z",
+                    "work_title": {
+                        "ja": "移動ロボットの環境認識用レンジセンサシステムの開発"
+                    },
+                    "from_date": "2003"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/yuta/works/24492746",
+                    "@type": "works",
+                    "@reverse": "https://api.researchmap.jp/yuta/works",
+                    "rm:id": "24492746",
+                    "rm:user_id": "1000048532",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:identify_based_researcher",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-01-22T10:25:12Z",
+                    "rm:modifier_id": "ai:identify_based_researcher",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-01-22T10:25:12Z",
+                    "work_title": {
+                        "ja": "環境とのインタラクションによる空間構造の獲得"
+                    },
+                    "from_date": "2003"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/yuta/works/24492775",
+                    "@type": "works",
+                    "@reverse": "https://api.researchmap.jp/yuta/works",
+                    "rm:id": "24492775",
+                    "rm:user_id": "1000048532",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:identify_based_researcher",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-01-22T10:25:12Z",
+                    "rm:modifier_id": "ai:identify_based_researcher",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-01-22T10:25:12Z",
+                    "work_title": {
+                        "ja": "センサ技術のその建設機械への応用"
+                    },
+                    "from_date": "2002"
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/yuta/research_projects",
+            "@type": "research_projects",
+            "@reverse": "https://api.researchmap.jp/yuta",
+            "total_items": 8,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/yuta/research_projects/24492785",
+                    "@type": "research_projects",
+                    "@reverse": "https://api.researchmap.jp/yuta/research_projects",
+                    "rm:id": "24492785",
+                    "rm:user_id": "1000048532",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:identify_based_researcher",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-01-22T10:25:12Z",
+                    "rm:modifier_id": "ai:identify_based_researcher",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-01-22T10:25:12Z",
+                    "research_project_title": {
+                        "ja": "実世界で自律的に振る舞って役立つ作業を実現するロボットシステムの開発"
+                    },
+                    "from_date": "1980",
+                    "overall_grant_amount": {
+                        "indirect_cost": "0",
+                        "total_cost": "0",
+                        "direct_cost": "0"
+                    },
+                    "fund_type": "competitive_research_funding"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/yuta/research_projects/24492783",
+                    "@type": "research_projects",
+                    "@reverse": "https://api.researchmap.jp/yuta/research_projects",
+                    "rm:id": "24492783",
+                    "rm:user_id": "1000048532",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:identify_based_researcher",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-01-22T10:25:12Z",
+                    "rm:modifier_id": "ai:identify_based_researcher",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-01-22T10:25:12Z",
+                    "research_project_title": {
+                        "en": "environment sensor system for mobile robot"
+                    },
+                    "from_date": "1980",
+                    "overall_grant_amount": {
+                        "indirect_cost": "0",
+                        "total_cost": "0",
+                        "direct_cost": "0"
+                    },
+                    "fund_type": "competitive_research_funding"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/yuta/research_projects/24492782",
+                    "@type": "research_projects",
+                    "@reverse": "https://api.researchmap.jp/yuta/research_projects",
+                    "rm:id": "24492782",
+                    "rm:user_id": "1000048532",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:identify_based_researcher",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-01-22T10:25:12Z",
+                    "rm:modifier_id": "ai:identify_based_researcher",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-01-22T10:25:12Z",
+                    "research_project_title": {
+                        "en": "autonomous robot system working in real world"
+                    },
+                    "from_date": "1980",
+                    "overall_grant_amount": {
+                        "indirect_cost": "0",
+                        "total_cost": "0",
+                        "direct_cost": "0"
+                    },
+                    "fund_type": "competitive_research_funding"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/yuta/research_projects/24492781",
+                    "@type": "research_projects",
+                    "@reverse": "https://api.researchmap.jp/yuta/research_projects",
+                    "rm:id": "24492781",
+                    "rm:user_id": "1000048532",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:identify_based_researcher",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-01-22T10:25:12Z",
+                    "rm:modifier_id": "ai:identify_based_researcher",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-01-22T10:25:12Z",
+                    "research_project_title": {
+                        "ja": "ロボット用環境センサ"
+                    },
+                    "from_date": "1980",
+                    "overall_grant_amount": {
+                        "indirect_cost": "0",
+                        "total_cost": "0",
+                        "direct_cost": "0"
+                    },
+                    "fund_type": "competitive_research_funding"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/yuta/research_projects/24492780",
+                    "@type": "research_projects",
+                    "@reverse": "https://api.researchmap.jp/yuta/research_projects",
+                    "rm:id": "24492780",
+                    "rm:user_id": "1000048532",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:identify_based_researcher",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-01-22T10:25:12Z",
+                    "rm:modifier_id": "ai:identify_based_researcher",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-01-22T10:25:12Z",
+                    "research_project_title": {
+                        "en": "vehicle cotrol system"
+                    },
+                    "from_date": "1980",
+                    "overall_grant_amount": {
+                        "indirect_cost": "0",
+                        "total_cost": "0",
+                        "direct_cost": "0"
+                    },
+                    "fund_type": "competitive_research_funding"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/yuta/research_projects/24492779",
+                    "@type": "research_projects",
+                    "@reverse": "https://api.researchmap.jp/yuta/research_projects",
+                    "rm:id": "24492779",
+                    "rm:user_id": "1000048532",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:identify_based_researcher",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-01-22T10:25:12Z",
+                    "rm:modifier_id": "ai:identify_based_researcher",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-01-22T10:25:12Z",
+                    "research_project_title": {
+                        "ja": "移動体の制御方式の研究"
+                    },
+                    "from_date": "1980",
+                    "overall_grant_amount": {
+                        "indirect_cost": "0",
+                        "total_cost": "0",
+                        "direct_cost": "0"
+                    },
+                    "fund_type": "competitive_research_funding"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/yuta/research_projects/24492784",
+                    "@type": "research_projects",
+                    "@reverse": "https://api.researchmap.jp/yuta/research_projects",
+                    "rm:id": "24492784",
+                    "rm:user_id": "1000048532",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:identify_based_researcher",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-01-22T10:25:12Z",
+                    "rm:modifier_id": "ai:identify_based_researcher",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-01-22T10:25:12Z",
+                    "research_project_title": {
+                        "en": "Intelligent Mobile Robot"
+                    },
+                    "overall_grant_amount": {
+                        "indirect_cost": "0",
+                        "total_cost": "0",
+                        "direct_cost": "0"
+                    },
+                    "fund_type": "competitive_research_funding"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/yuta/research_projects/24492778",
+                    "@type": "research_projects",
+                    "@reverse": "https://api.researchmap.jp/yuta/research_projects",
+                    "rm:id": "24492778",
+                    "rm:user_id": "1000048532",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:identify_based_researcher",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-01-22T10:25:12Z",
+                    "rm:modifier_id": "ai:identify_based_researcher",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-01-22T10:25:12Z",
+                    "research_project_title": {
+                        "ja": "ロボット工学"
+                    },
+                    "overall_grant_amount": {
+                        "indirect_cost": "0",
+                        "total_cost": "0",
+                        "direct_cost": "0"
+                    },
+                    "fund_type": "competitive_research_funding"
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/yuta/industrial_property_rights",
+            "@type": "industrial_property_rights",
+            "@reverse": "https://api.researchmap.jp/yuta",
+            "total_items": 3,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/yuta/industrial_property_rights/24492788",
+                    "@type": "industrial_property_rights",
+                    "@reverse": "https://api.researchmap.jp/yuta/industrial_property_rights",
+                    "rm:id": "24492788",
+                    "rm:user_id": "1000048532",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:identify_based_researcher",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-01-22T10:25:12Z",
+                    "rm:modifier_id": "ai:identify_based_researcher",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-01-22T10:25:12Z",
+                    "industrial_property_right_type": "patent_right",
+                    "industrial_property_right_title": {
+                        "ja": "三次元測距装置"
+                    },
+                    "description": {
+                        "ja": "特許405991"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/yuta/industrial_property_rights/24492787",
+                    "@type": "industrial_property_rights",
+                    "@reverse": "https://api.researchmap.jp/yuta/industrial_property_rights",
+                    "rm:id": "24492787",
+                    "rm:user_id": "1000048532",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:identify_based_researcher",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-01-22T10:25:12Z",
+                    "rm:modifier_id": "ai:identify_based_researcher",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-01-22T10:25:12Z",
+                    "industrial_property_right_type": "patent_right",
+                    "industrial_property_right_title": {
+                        "ja": "走査型レンジセンサ"
+                    },
+                    "description": {
+                        "ja": "特許4032061"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/yuta/industrial_property_rights/24492786",
+                    "@type": "industrial_property_rights",
+                    "@reverse": "https://api.researchmap.jp/yuta/industrial_property_rights",
+                    "rm:id": "24492786",
+                    "rm:user_id": "1000048532",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:identify_based_researcher",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-01-22T10:25:12Z",
+                    "rm:modifier_id": "ai:identify_based_researcher",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-01-22T10:25:12Z",
+                    "industrial_property_right_type": "patent_right",
+                    "industrial_property_right_title": {
+                        "ja": "光波測距装置"
+                    },
+                    "description": {
+                        "ja": "特許3935897"
+                    }
+                }
+            ]
+        }
+    ]
+}

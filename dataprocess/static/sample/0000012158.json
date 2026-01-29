@@ -1,0 +1,3380 @@
+{
+    "@context": "https://api.researchmap.jp/researcher.jsonld",
+    "@id": "https://api.researchmap.jp/read0001755?format=json",
+    "@type": "researchers",
+    "rm:user_id": "0000012158",
+    "rm:creator_id": "0000012158",
+    "rm:creator_type": "myself",
+    "rm:created": "2001-12-10T15:00:00Z",
+    "rm:modifier_id": "0000012158",
+    "rm:modifier_type": "myself",
+    "rm:modified": "2024-01-30T23:52:07Z",
+    "permalink": "read0001755",
+    "family_name": {
+        "ja": "佐藤",
+        "en": "Sato"
+    },
+    "given_name": {
+        "ja": "治道",
+        "en": "Harumichi"
+    },
+    "display_name_kana": "researchers_only",
+    "display_nickname": "disclosed",
+    "display_image": "disclosed",
+    "display_contact_point": "disclosed",
+    "degrees": [
+        {
+            "degree": {
+                "ja": "博士(工学)"
+            },
+            "degree_institution": {
+                "ja": "東北大学"
+            },
+            "display_degree": "disclosed",
+            "rm:institution_code": "0132000000"
+        }
+    ],
+    "display_profile": "disclosed",
+    "display_url": "researchers_only",
+    "identifiers": {
+        "j_global_id": [
+            "200901059961701972"
+        ]
+    },
+    "rm:erad_id_verified": false,
+    "rm:orc_id_verified": false,
+    "display_erad_id": "closed",
+    "display_orc_id": "closed",
+    "display_researcher_id": "disclosed",
+    "display_j_global_id": "disclosed",
+    "see_also": [
+        {
+            "label": "j_global",
+            "@id": "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=200901059961701972"
+        }
+    ],
+    "@graph": [
+        {
+            "@id": "https://api.researchmap.jp/read0001755/research_interests",
+            "@type": "research_interests",
+            "@reverse": "https://api.researchmap.jp/read0001755",
+            "total_items": 1,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0001755/research_interests/572128",
+                    "@type": "research_interests",
+                    "@reverse": "https://api.researchmap.jp/read0001755/research_interests",
+                    "rm:id": "572128",
+                    "rm:user_id": "0000012158",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000012158",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2011-02-02T15:00:00Z",
+                    "rm:modifier_id": "0000012158",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2011-02-02T15:00:00Z",
+                    "keyword": {
+                        "ja": "非破壊検査 超音波顕微鏡 超音波流量計 シミュレーション"
+                    }
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0001755/research_areas",
+            "@type": "research_areas",
+            "@reverse": "https://api.researchmap.jp/read0001755",
+            "total_items": 1,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0001755/research_areas/160038",
+                    "@type": "research_areas",
+                    "@reverse": "https://api.researchmap.jp/read0001755/research_areas",
+                    "rm:id": "160038",
+                    "rm:user_id": "0000012158",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000012158",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2001-12-10T15:00:00Z",
+                    "rm:modifier_id": "0000012158",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2001-12-10T15:00:00Z",
+                    "discipline_number": "A489",
+                    "item_number": "A29030",
+                    "discipline": {
+                        "ja": "ナノテク・材料",
+                        "en": "Nanotechnology/Materials"
+                    },
+                    "research_field": {
+                        "ja": "応用物理一般",
+                        "en": "Applied physics - general"
+                    }
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0001755/published_papers",
+            "@type": "published_papers",
+            "@reverse": "https://api.researchmap.jp/read0001755",
+            "total_items": 30,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0001755/published_papers/40745620",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0001755/published_papers",
+                    "rm:id": "40745620",
+                    "rm:user_id": "0000012158",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2022-12-20T03:36:18Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-12-20T03:36:18Z",
+                    "paper_title": {
+                        "ja": "指向性エネルギー堆積法(DED) で作成したNi基自溶性合金層に発生した内部欠陥のレーザー超音波法による非破壊検査—「Materials Transactions」Vol. 61, No. 10, pp1994-2001 (2020) 掲載論文の和訳論文",
+                        "en": "Laser Ultrasonic Technique to Non-Destructively Detect Cracks on a Ni-Based Self-Fluxing Alloy Fabricated Using Directed Energy Deposition (DED): Japanese version of the paper published in “Materials Transactions, 61(10): 1994-2001 (2020)”"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "佐藤 治道"
+                            },
+                            {
+                                "name": "小木曽 久人"
+                            },
+                            {
+                                "name": "山下 順広"
+                            },
+                            {
+                                "name": "舟田 義則"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "SATO Harumichi"
+                            },
+                            {
+                                "name": "OGISO Hisato"
+                            },
+                            {
+                                "name": "YAMASHITA Yorihiro"
+                            },
+                            {
+                                "name": "FUNADA Yoshinori"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "Miniaturization of bearing rollers used in autos and robots will require a manufacturing system that combines a deposition method that can fabricate thin jigs without defects and a non-destructive inspection method that can detect cracks on such jigs. Here, we are developing a system that uses directed energy deposition (DED), which is a 3D-printing (additive manufacturing, AM) process, to fabricate thin jigs, and then uses laser ultrasonics (LU) to inspect the jigs. Here, deposited layers having a 0.4×0.6 mm<sup>2</sup> cross-section were fabricated using DED, and then non-destructively inspected using LU. However, using LU on such a small area has three problems: the effect of overlapping of the excitation and detection laser beams, difﬁculty in separating the multiple types of waves due to the simultaneous generation, and complexity of the acoustic ﬁeld. Therefore, ﬁrst, the acoustic ﬁeld was examined using the ﬁnite element method (FEM), and then LU was used to inspect a small area of the deposited layer using complex discrete wavelet transform. Results show successfully detection of spontaneously occurring cracks, thus conﬁrming the effectiveness of LU for non-destructive inspection of a thin jig."
+                    },
+                    "publisher": {
+                        "ja": "公益社団法人 日本材料学会",
+                        "en": "The Society of Materials Science, Japan"
+                    },
+                    "publication_date": "2022-07-15",
+                    "publication_name": {
+                        "ja": "材料",
+                        "en": "Journal of the Society of Materials Science, Japan"
+                    },
+                    "volume": "71",
+                    "number": "7",
+                    "starting_page": "637",
+                    "ending_page": "644",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.2472/jsms.71.637"
+                        ],
+                        "issn": [
+                            "0514-5163"
+                        ],
+                        "e_issn": [
+                            "1880-7488"
+                        ],
+                        "cinii_cr_id": [
+                            "1390855743819050880"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.2472/jsms.71.637",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_research",
+                            "@id": "https://cir.nii.ac.jp/crid/1390855743819050880?lang=ja",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0001755/published_papers/33371282",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0001755/published_papers",
+                    "rm:id": "33371282",
+                    "rm:user_id": "0000012158",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000012158",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2021-08-18T09:17:54Z",
+                    "rm:modifier_id": "0000012158",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2021-08-18T09:21:32Z",
+                    "paper_title": {
+                        "en": "Laser Ultrasonic Technique to Non-Destructively Detect Cracks on a Ni-Based Self-Fluxing Alloy Fabricated Using Directed Energy Deposition (DED)"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Harumichi Sato"
+                            },
+                            {
+                                "name": "Hisato Ogiso"
+                            },
+                            {
+                                "name": "Yorihiro Yamashita"
+                            },
+                            {
+                                "name": "Yoshinori Funada"
+                            }
+                        ]
+                    },
+                    "published_paper_owner_roles": [
+                        "lead"
+                    ],
+                    "publisher": {
+                        "en": "Japan Institute of Metals"
+                    },
+                    "publication_date": "2020-10-01",
+                    "publication_name": {
+                        "en": "MATERIALS TRANSACTIONS"
+                    },
+                    "volume": "61",
+                    "number": "10",
+                    "starting_page": "1994",
+                    "ending_page": "2001",
+                    "referee": true,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.2320/matertrans.mt-m2020086"
+                        ],
+                        "issn": [
+                            "1345-9678"
+                        ],
+                        "e_issn": [
+                            "1347-5320"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.2320/matertrans.mt-m2020086",
+                            "is_downloadable": false
+                        },
+                        {
+                            "@id": "https://www.jstage.jst.go.jp/article/matertrans/61/10/61_MT-M2020086/_pdf",
+                            "label": "url",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0001755/published_papers/33371295",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0001755/published_papers",
+                    "rm:id": "33371295",
+                    "rm:user_id": "0000012158",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000012158",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2021-08-18T09:20:38Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2021-10-25T20:54:03Z",
+                    "paper_title": {
+                        "en": "DC Arc Plasma Treatment for Defect Reduction in WC-Co Granulated Powder"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Hirotomo Itagaki"
+                            },
+                            {
+                                "name": "Taisei Yachi"
+                            },
+                            {
+                                "name": "Hisato Ogiso"
+                            },
+                            {
+                                "name": "Harumichi Sato"
+                            },
+                            {
+                                "name": "Yorihiro Yamashita"
+                            },
+                            {
+                                "name": "Junichi Yasuoka"
+                            },
+                            {
+                                "name": "Yoshinori Funada"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "Tungsten carbide–cobalt (WC–Co) agglomerated powder is widely used for additive manufacturing and spray coating, and a reduction in internal gaps in the powder is required to obtain a product of high quality. In this paper, we investigate plasma effects on agglomerated powder when WC–12%Co powder is directly subjected to direct current (DC) arc plasma treatment to reduce gaps in the WC–Co powder. We obtain a plasma-treated powder with reduced gaps among WC particles. Furthermore, plasma-treatment improves the sphericity of the powder particles, due to the spheroidization effect, so that the percentage of plasma-treated particles exceeding 95% sphericity is 50%, which is 1.7 times that of raw powder. Concern regarding the possible generation of W2C by plasma treatment is unfounded, with W2C levels kept very low according to X-ray diffraction (XRD) analysis, showing a value of 0.0075 for the area ratio W2C(002)/WC(100). XRD analysis also reveals that plasma treatment relaxes residual strains in the powder. From these results, the DC plasma treatment of WC agglomerated powder produces a spherical powder with fewer gaps and strains in the powder, making it more suitable for additive manufacturing while suppressing decarburization."
+                    },
+                    "publisher": {
+                        "en": "MDPI AG"
+                    },
+                    "publication_date": "2020-07-20",
+                    "publication_name": {
+                        "en": "Metals"
+                    },
+                    "volume": "10",
+                    "number": "7",
+                    "starting_page": "975",
+                    "ending_page": "975",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.3390/met10070975"
+                        ],
+                        "e_issn": [
+                            "2075-4701"
+                        ],
+                        "wos_id": [
+                            "WOS:000557859800001"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.3390/met10070975",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000557859800001&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        },
+                        {
+                            "@id": "https://www.mdpi.com/2075-4701/10/7/975/pdf",
+                            "is_downloadable": false,
+                            "label": "url"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0001755/published_papers/11661513",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0001755/published_papers",
+                    "rm:id": "11661513",
+                    "rm:user_id": "0000012158",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000012158",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2018-11-01T09:47:45Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-04-02T16:19:35Z",
+                    "paper_title": {
+                        "en": "Guided waves propagating in a water-filled stainless steel pipe"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Harumichi Sato"
+                            },
+                            {
+                                "name": "Hisato Ogiso"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "Nondestructive evaluation (NDE) of cylindrical pipes that carry fluid is a critical issue in the safety of nuclear power plants, pipe lines, and other similar infrastructures. The commonly used ultrasonic NDE methods that use bulk waves to inspect large areas are time-intensive, whereas NDE methods that use guided waves are not, because a guided wave has a longer propagation range. Despite this advantage, detailed clarification of the behavior of guided waves in fluid-filled cylindrical pipes has been lacking. Our previous analytical result for guided waves propagating in a fluid-filled pipe can be applied to all modes, including non-axisymmetrical modes. In this study, we compared analytical and experimental group velocities of guided waves propagating in hollow and water-filled cylindrical pipes, including non-axisymmetrical modes. Results reveal that water significantly affects group velocities and cut-off frequencies, and underscores the importance of analysis of guided waves in a fluid-filled pipe for NDE. (C) 2014 The Japan Society of Applied Physics"
+                    },
+                    "publisher": {
+                        "en": "IOP PUBLISHING LTD"
+                    },
+                    "publication_date": "2014-07",
+                    "publication_name": {
+                        "en": "JAPANESE JOURNAL OF APPLIED PHYSICS"
+                    },
+                    "volume": "53",
+                    "number": "7",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.7567/JJAP.53.07KC13"
+                        ],
+                        "orcid_put_cd": [
+                            "45479679"
+                        ],
+                        "wos_id": [
+                            "WOS:000342764400026"
+                        ],
+                        "issn": [
+                            "0021-4922"
+                        ],
+                        "e_issn": [
+                            "1347-4065"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.7567/JJAP.53.07KC13",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000342764400026&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        },
+                        {
+                            "@id": "http://orcid.org/0000-0001-6889-3499",
+                            "is_downloadable": false,
+                            "label": "url"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0001755/published_papers/11661514",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0001755/published_papers",
+                    "rm:id": "11661514",
+                    "rm:user_id": "0000012158",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000012158",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2018-11-01T09:47:45Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-05-24T18:46:17Z",
+                    "paper_title": {
+                        "en": "Analytical Method for Guided Waves Propagating in a Fluid-Filled Pipe with Attenuation"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Harumichi Sato"
+                            },
+                            {
+                                "name": "Hisato Ogiso"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "To ensure the safety of nuclear power plants, a relatively rapid nondestructive evaluation (NDE) of cylindrical pipes that carry water is needed. NDE methods that use guided waves are a possible solution because a guided wave has a long propagation range. In this study, we developed an analytical method of modeling guided waves that propagate in a fluid-filled cylindrical pipe with attenuation. The analytical method was used to determine the dispersion curves affected by the attenuation of the pipe or fluid itself. We calculated the dispersion curves and amplitudes of displacements, and discussed the effect of attenuation. (C) 2013 The Japan Society of Applied Physics"
+                    },
+                    "publisher": {
+                        "en": "IOP PUBLISHING LTD"
+                    },
+                    "publication_date": "2013-07",
+                    "publication_name": {
+                        "en": "JAPANESE JOURNAL OF APPLIED PHYSICS"
+                    },
+                    "volume": "52",
+                    "number": "7",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.7567/JJAP.52.07HC07"
+                        ],
+                        "orcid_put_cd": [
+                            "45479680"
+                        ],
+                        "wos_id": [
+                            "WOS:000322130800015"
+                        ],
+                        "issn": [
+                            "0021-4922"
+                        ],
+                        "e_issn": [
+                            "1347-4065"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.7567/JJAP.52.07HC07",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000322130800015&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        },
+                        {
+                            "@id": "http://orcid.org/0000-0001-6889-3499",
+                            "is_downloadable": false,
+                            "label": "url"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0001755/published_papers/11661515",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0001755/published_papers",
+                    "rm:id": "11661515",
+                    "rm:user_id": "0000012158",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000012158",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2018-11-01T09:47:46Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-05-21T09:34:53Z",
+                    "paper_title": {
+                        "en": "Theoretical and Simulated Analysis of Guided Waves Propagating in Fluid-Filled Pipes"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Harumichi Sato"
+                            },
+                            {
+                                "name": "Hisato Ogiso"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "To keep the safety of nuclear power plants, nondestructive evaluation (NDE) of cylindrical pipes, which carry hot water, is an issue of a great interest. Ultrasonic methods using bulk wave are commonly used for NDE of such pipes, however still having problems that the methods consume a long time to inspect large areas. On the other hand, NDE methods using guided wave should overcome this problem because the guided wave has a characteristic of long propagation range. Nevertheless, there have been few investigations to clarify the behavior of the guided wave in the fluid-filled cylindrical pipes. We therefore developed an analytical method to calculate particle displacement, and we compared the dispersion curves, cut-off frequencies, and particle displacements of guided waves propagating in the hollow pipe and the fluid-filled pipe. (c) 2010 The Japan Society of Applied Physics"
+                    },
+                    "publisher": {
+                        "en": "JAPAN SOC APPLIED PHYSICS"
+                    },
+                    "publication_date": "2010",
+                    "publication_name": {
+                        "en": "JAPANESE JOURNAL OF APPLIED PHYSICS"
+                    },
+                    "volume": "49",
+                    "number": "7",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1143/JJAP.49.07HC08"
+                        ],
+                        "orcid_put_cd": [
+                            "45479681"
+                        ],
+                        "wos_id": [
+                            "WOS:000280383800024"
+                        ],
+                        "issn": [
+                            "0021-4922"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1143/JJAP.49.07HC08",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000280383800024&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        },
+                        {
+                            "@id": "http://orcid.org/0000-0001-6889-3499",
+                            "is_downloadable": false,
+                            "label": "url"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0001755/published_papers/11661516",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0001755/published_papers",
+                    "rm:id": "11661516",
+                    "rm:user_id": "0000012158",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000012158",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2018-11-01T09:47:46Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-05-29T15:27:23Z",
+                    "paper_title": {
+                        "en": "Laser-Anneal of Metal-based Micro Optical Scanner Derived by Aerosol Deposition"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "So Baba"
+                            },
+                            {
+                                "name": "Jae-Hyuk Park"
+                            },
+                            {
+                                "name": "Harumichi Sato"
+                            },
+                            {
+                                "name": "Shizuka Nakano"
+                            },
+                            {
+                                "name": "Kiwamu Ashida"
+                            },
+                            {
+                                "name": "Jun Akedo"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "To retain the driving properties of metal-based micro optical scanner derived by aerosol deposition (AD) technique, CO(2) laser irradiation was used to anneal the PZT films deposited onto the stainless-steel substrate. Stainless-steel mirror and frame of the scanner with the Film annealed by laser irradiation maintained their metallic luster. The scanner with the film annealed by laser irradiation at 600 degrees C for I min has a scanning angle over 30 degree that is comparable with the scanning angle of a similar scanner annealed by electric furnace at 600 degrees C for 10 min."
+                    },
+                    "publisher": {
+                        "en": "TRANS TECH PUBLICATIONS LTD"
+                    },
+                    "publication_date": "2009",
+                    "publication_name": {
+                        "en": "ELECTROCERAMICS IN JAPAN XI"
+                    },
+                    "volume": "388",
+                    "starting_page": "195",
+                    "ending_page": "198",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "international_conference_proceedings",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.4028/www.scientific.net/KEM.388.195"
+                        ],
+                        "orcid_put_cd": [
+                            "45479682"
+                        ],
+                        "wos_id": [
+                            "WOS:000263263800047"
+                        ],
+                        "issn": [
+                            "1013-9826"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.4028/www.scientific.net/KEM.388.195",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000263263800047&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        },
+                        {
+                            "@id": "http://orcid.org/0000-0001-6889-3499",
+                            "is_downloadable": false,
+                            "label": "url"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0001755/published_papers/29779436",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0001755/published_papers",
+                    "rm:id": "29779436",
+                    "rm:user_id": "0000012158",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-08-29T07:32:51Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-08-29T07:32:51Z",
+                    "paper_title": {
+                        "en": "Erratum: Theoretical investigation of a guide wave flowmeter (Japanese Journal of Applied Physics (2007) 46 (4521))"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Harumichi Sato"
+                            },
+                            {
+                                "name": "Maxim Lebedev"
+                            },
+                            {
+                                "name": "Jun Akedo"
+                            }
+                        ]
+                    },
+                    "publication_date": "2008-01-18",
+                    "publication_name": {
+                        "en": "Japanese Journal of Applied Physics"
+                    },
+                    "volume": "47",
+                    "number": "1",
+                    "starting_page": "403",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1143/JJAP.47.403"
+                        ],
+                        "issn": [
+                            "0021-4922",
+                            "1347-4065"
+                        ],
+                        "scopus_id": [
+                            "38549128210"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1143/JJAP.47.403",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0001755/published_papers/11661517",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0001755/published_papers",
+                    "rm:id": "11661517",
+                    "rm:user_id": "0000012158",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000012158",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2018-11-01T09:47:46Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-06-07T19:50:09Z",
+                    "paper_title": {
+                        "en": "Theoretical investigation of a guide wave flowmeter (vol 46, pg 4521, 2007)"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Harumichi Sato"
+                            },
+                            {
+                                "name": "Maxim Lebedev"
+                            },
+                            {
+                                "name": "Jun Akedo"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "en": "JAPAN SOC APPLIED PHYSICS"
+                    },
+                    "publication_date": "2008-01",
+                    "publication_name": {
+                        "en": "JAPANESE JOURNAL OF APPLIED PHYSICS"
+                    },
+                    "volume": "47",
+                    "number": "1",
+                    "starting_page": "403",
+                    "ending_page": "403",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1143/JJAP.47.403"
+                        ],
+                        "orcid_put_cd": [
+                            "45479683"
+                        ],
+                        "wos_id": [
+                            "WOS:000254839900086"
+                        ],
+                        "issn": [
+                            "0021-4922"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1143/JJAP.47.403",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000254839900086&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        },
+                        {
+                            "@id": "http://orcid.org/0000-0001-6889-3499",
+                            "is_downloadable": false,
+                            "label": "url"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0001755/published_papers/11661519",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0001755/published_papers",
+                    "rm:id": "11661519",
+                    "rm:user_id": "0000012158",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000012158",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2018-11-01T09:47:46Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-05-12T21:54:11Z",
+                    "paper_title": {
+                        "en": "Theoretical investigation of guide wave flowmeter"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Harumichi Sato"
+                            },
+                            {
+                                "name": "Maxim Lebedev"
+                            },
+                            {
+                                "name": "Jun Akedo"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "Cylindrical pipes are widely used in industries such as nuclear power plants and micro total analysis systems (mu TAS). Measuring the flow rate of fluid in such pipes is critical. Ultrasonic flowmeters are noncontact, nondestructive, and easy-to-use devices, and are therefore widely used. However, typical bulk-wave-based ultrasonic flowmeters cannot be used for pipes narrower than the wavelength of bulk waves. For such pipes, we are currently developing a \"guide wave flowmeter\" that uses guide waves instead of bulk waves. Previously, we theoretically and experimentally investigated a pipe filled with quiescent fluid for all modes [Jpn. J. Appl. Phys. 45 (2006) 4573]. In this study, we expanded our theoretical investigation to a cylindrical pipe containing flowing fluid, and then compared the results with experimental results. Both the theoretical and experimental results revealed that the flow rate can be determined by measuring the sound velocity (propagation time) of guide waves. This is the operating principle of our guide wave flowmeter."
+                    },
+                    "publisher": {
+                        "en": "JAPAN SOC APPLIED PHYSICS"
+                    },
+                    "publication_date": "2007-07",
+                    "publication_name": {
+                        "en": "JAPANESE JOURNAL OF APPLIED PHYSICS PART 1-REGULAR PAPERS BRIEF COMMUNICATIONS & REVIEW PAPERS"
+                    },
+                    "volume": "46",
+                    "number": "7B",
+                    "starting_page": "4521",
+                    "ending_page": "4528",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1143/JJAP.46.4521"
+                        ],
+                        "orcid_put_cd": [
+                            "45479685"
+                        ],
+                        "wos_id": [
+                            "WOS:000248545500022"
+                        ],
+                        "issn": [
+                            "0021-4922"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1143/JJAP.46.4521",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000248545500022&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        },
+                        {
+                            "@id": "http://orcid.org/0000-0001-6889-3499",
+                            "is_downloadable": false,
+                            "label": "url"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0001755/published_papers/11661518",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0001755/published_papers",
+                    "rm:id": "11661518",
+                    "rm:user_id": "0000012158",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000012158",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2018-11-01T09:47:46Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-05-13T04:42:48Z",
+                    "paper_title": {
+                        "en": "High-speed metal-based optical microscanners using stainless-steel substrate and piezoelectric thick films prepared by aerosol deposition method"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Jae-Hyuk Park"
+                            },
+                            {
+                                "name": "Jun Akedo"
+                            },
+                            {
+                                "name": "Harumichi Sato"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "High-speed metal-based optical microscanning devices were successfully fabricated in combination with piezoelectric thick films directly deposited by the aerosol deposition method (ADM) and specially designed stainless steel frame. A large optical scanning angle (41 degrees) was achieved at a high resonance frequency (28.24 kHz) in ambient air without vacuum packaging. The well-polished metal-based mirror has good flatness of less than 105 nm, which is lower than lambda/4. The metal-based microscanners enable faster scanning, higher scanning angles, lower production cost, and simpler fabrication processes. (C) 2006 Elsevier B.V. All rights reserved."
+                    },
+                    "publisher": {
+                        "en": "ELSEVIER SCIENCE SA"
+                    },
+                    "publication_date": "2007-03",
+                    "publication_name": {
+                        "en": "SENSORS AND ACTUATORS A-PHYSICAL"
+                    },
+                    "volume": "135",
+                    "number": "1",
+                    "starting_page": "86",
+                    "ending_page": "91",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1016/j.sna.2006.11.027"
+                        ],
+                        "orcid_put_cd": [
+                            "45479684"
+                        ],
+                        "wos_id": [
+                            "WOS:000245796300013"
+                        ],
+                        "issn": [
+                            "0924-4247"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1016/j.sna.2006.11.027",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000245796300013&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        },
+                        {
+                            "@id": "http://orcid.org/0000-0001-6889-3499",
+                            "is_downloadable": false,
+                            "label": "url"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0001755/published_papers/11661521",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0001755/published_papers",
+                    "rm:id": "11661521",
+                    "rm:user_id": "0000012158",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000012158",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2018-11-01T09:47:46Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-05-17T03:36:24Z",
+                    "paper_title": {
+                        "en": "Piezoelectric film response studied with finite element method"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Harumichi Sato"
+                            },
+                            {
+                                "name": "Jun Akedo"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "It is difficult to measure accurately the piezoelectric constant, d(33), of either a thin or thick film on a substrate, because piezoelectric deformation of a film is small. The measured value of d(33) for the film is often smaller than the value of d(33) for the bulk material. This is partly because of bending of the sample and side clamping of the film. However, we used finite element method (FEM) to simulate common experimental conditions and show that inner local deformation was more significant than either bending or side clamping. Using our FEM results, we propose optimum conditions for making unbiased d(33) measurements."
+                    },
+                    "publisher": {
+                        "en": "BLACKWELL PUBLISHING"
+                    },
+                    "publication_date": "2006-12",
+                    "publication_name": {
+                        "en": "JOURNAL OF THE AMERICAN CERAMIC SOCIETY"
+                    },
+                    "volume": "89",
+                    "number": "12",
+                    "starting_page": "3715",
+                    "ending_page": "3720",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1111/j.1551-2916.2006.01295.x"
+                        ],
+                        "orcid_put_cd": [
+                            "45479687"
+                        ],
+                        "wos_id": [
+                            "WOS:000242232100019"
+                        ],
+                        "issn": [
+                            "0002-7820"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1111/j.1551-2916.2006.01295.x",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000242232100019&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        },
+                        {
+                            "@id": "http://orcid.org/0000-0001-6889-3499",
+                            "is_downloadable": false,
+                            "label": "url"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0001755/published_papers/11661523",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0001755/published_papers",
+                    "rm:id": "11661523",
+                    "rm:user_id": "0000012158",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000012158",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2018-11-01T09:47:46Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-05-17T21:48:14Z",
+                    "paper_title": {
+                        "en": "Theoretical and experimental investigation of propagation of guide waves in cylindrical pipe filled with fluid"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "H Sato"
+                            },
+                            {
+                                "name": "M Lebedev"
+                            },
+                            {
+                                "name": "J Akedo"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "Cylindrical pipes are widely used in industries such as nuclear power plants and micro total analysis systems (mu TAS). The nondestructive evaluation (NDE) of such pipes is therefore crucial. NDE and ultrasonic flowmeters can be used to characterize pipes filled with fluid. Lafleur and Shields [J. Acoust. Soc. Am. 97 (1995) 1435] and Pan et al. [J. Acoust. Soc. Am. 113 (2003) 3209] theoretically and experimentally investigated a pipe filled with fluid, but they only considered the axisymmetrical mode. Commonly used ultrasonic transducer or laser ultrasonic methods, however, also generate non-axisymmetrical mode guide waves. Here, guide waves propagating in a cylindrical pipe filled with fluid were theoretically investigated. The results were used to develop a computer program for calculating the phase velocity of guide waves. The calculation results were then compared with experimental results."
+                    },
+                    "publisher": {
+                        "en": "INST PURE APPLIED PHYSICS"
+                    },
+                    "publication_date": "2006-05",
+                    "publication_name": {
+                        "en": "JAPANESE JOURNAL OF APPLIED PHYSICS PART 1-REGULAR PAPERS BRIEF COMMUNICATIONS & REVIEW PAPERS"
+                    },
+                    "volume": "45",
+                    "number": "5B",
+                    "starting_page": "4573",
+                    "ending_page": "4576",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1143/JJAP.45.4573"
+                        ],
+                        "orcid_put_cd": [
+                            "45479689"
+                        ],
+                        "wos_id": [
+                            "WOS:000238156600057"
+                        ],
+                        "issn": [
+                            "0021-4922"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1143/JJAP.45.4573",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000238156600057&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        },
+                        {
+                            "@id": "http://orcid.org/0000-0001-6889-3499",
+                            "is_downloadable": false,
+                            "label": "url"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0001755/published_papers/11661522",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0001755/published_papers",
+                    "rm:id": "11661522",
+                    "rm:user_id": "0000012158",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000012158",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2018-11-01T09:47:46Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-05-17T12:47:33Z",
+                    "paper_title": {
+                        "en": "Practical high-speed metal-based optical microscanning devices with low production cost"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "JH Park"
+                            },
+                            {
+                                "name": "J Akedo"
+                            },
+                            {
+                                "name": "H Sato"
+                            },
+                            {
+                                "name": "M Lebedev"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "Practical high-speed metal-based optical microscanning devices with low production cost and simple fabrication process were successfully fabricated by direct deposition of piezoelectric materials using the aerosol deposition method (ADM) onto the micro-structured metal scanner frame. Large optical scanning angle of 35 degrees at high resonance frequency of 23.6 kHz was achieved in ambient air without vacuum package."
+                    },
+                    "publisher": {
+                        "en": "IEEE"
+                    },
+                    "publication_date": "2006",
+                    "publication_name": {
+                        "en": "MEMS 2006: 19th IEEE International Conference on Micro Electro Mechanical Systems, Technical Digest"
+                    },
+                    "starting_page": "730",
+                    "ending_page": "733",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "international_conference_proceedings",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "orcid_put_cd": [
+                            "45479688"
+                        ],
+                        "wos_id": [
+                            "WOS:000236994500183"
+                        ],
+                        "issn": [
+                            "1084-6999"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000236994500183&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        },
+                        {
+                            "@id": "http://orcid.org/0000-0001-6889-3499",
+                            "is_downloadable": false,
+                            "label": "url"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0001755/published_papers/11661520",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0001755/published_papers",
+                    "rm:id": "11661520",
+                    "rm:user_id": "0000012158",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000012158",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2018-11-01T09:47:46Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-05-16T23:48:56Z",
+                    "paper_title": {
+                        "en": "Optical scanning devices based on PZT thick films formed by aerosol deposition method - art. no. 60371S"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "JH Park"
+                            },
+                            {
+                                "name": "J Akedo"
+                            },
+                            {
+                                "name": "M Lebedev"
+                            },
+                            {
+                                "name": "H Sato"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "High-speed metal-based optical microscanning devices with low production cost and simple fabrication process wre successfully fabricated by direct deposition of piezoelectric materials using the aerosol deposition method (ADM) onto the micro-structured metal scanner frame. Large optical scanning angle of 35 degrees at high resonance frequency of 23.6 kHz was achieved in ambient air without vacuum package. The scanner is applicable to SVGA high-resolution display of 800 x 600 or more. This method is a powerful tool for realizing ceramic integration with metal components."
+                    },
+                    "publisher": {
+                        "en": "SPIE-INT SOC OPTICAL ENGINEERING"
+                    },
+                    "publication_date": "2006",
+                    "publication_name": {
+                        "en": "Device and Process Technologies for Microelectronics, MEMS, and Photonics IV"
+                    },
+                    "volume": "6037",
+                    "starting_page": "S371",
+                    "ending_page": "S371",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "international_conference_proceedings",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1117/12.638489"
+                        ],
+                        "orcid_put_cd": [
+                            "45479686"
+                        ],
+                        "wos_id": [
+                            "WOS:000236541000054"
+                        ],
+                        "issn": [
+                            "0277-786X"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1117/12.638489",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000236541000054&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        },
+                        {
+                            "@id": "http://orcid.org/0000-0001-6889-3499",
+                            "is_downloadable": false,
+                            "label": "url"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0001755/published_papers/11661524",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0001755/published_papers",
+                    "rm:id": "11661524",
+                    "rm:user_id": "0000012158",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000012158",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2018-11-01T09:47:46Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-05-09T05:34:31Z",
+                    "paper_title": {
+                        "en": "High-speed optical microscanner driven with resonation of lam waves using Pb(Zr,Ti)O-3 thick films formed by aerosol deposition"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "J Akedo"
+                            },
+                            {
+                                "name": "M Lebedev"
+                            },
+                            {
+                                "name": "H Sato"
+                            },
+                            {
+                                "name": "J Park"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "A high-performance optical microscanner with a resonance frequency over 20 kHz and a scan angle (peak-to-peak value) over 30 degrees in atmospheric ambient, was successfully fabricated by deposit piezoelectric materials at a high rate by the AD method onto a metal scanner structure, which was fabricated by mechanical machining. The scanner is applicable to SVGA high resolution display of 800 x 600 or more. This method is a powerful tool for realizing ceramic integration with metal components."
+                    },
+                    "publisher": {
+                        "en": "JAPAN SOC APPLIED PHYSICS"
+                    },
+                    "publication_date": "2005-09",
+                    "publication_name": {
+                        "en": "JAPANESE JOURNAL OF APPLIED PHYSICS PART 1-REGULAR PAPERS BRIEF COMMUNICATIONS & REVIEW PAPERS"
+                    },
+                    "volume": "44",
+                    "number": "9B",
+                    "starting_page": "7072",
+                    "ending_page": "7077",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1143/JJAP.44.7072"
+                        ],
+                        "orcid_put_cd": [
+                            "45479690"
+                        ],
+                        "wos_id": [
+                            "WOS:000232570700047"
+                        ],
+                        "issn": [
+                            "0021-4922"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1143/JJAP.44.7072",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000232570700047&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        },
+                        {
+                            "@id": "http://orcid.org/0000-0001-6889-3499",
+                            "is_downloadable": false,
+                            "label": "url"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0001755/published_papers/11661525",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0001755/published_papers",
+                    "rm:id": "11661525",
+                    "rm:user_id": "0000012158",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000012158",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2018-11-01T09:47:46Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-04-26T18:16:24Z",
+                    "paper_title": {
+                        "en": "Optical micro-scanner fabricated on stainless steel by aerosol deposition method"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "M Lebedev"
+                            },
+                            {
+                                "name": "H Sato"
+                            },
+                            {
+                                "name": "J Akedo"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "An optical micro scanner, having a high speed performance at high resonance frequency of 15.8 kHz and scan angle (peak to peak value) of 18 degree in atmospheric ambient, was successfully fabricated by depositing via the aerosol deposition method of the piezoelectric materials at a high deposition rate onto the metal scanner structure, which was fabricated by mechanical machining."
+                    },
+                    "publisher": {
+                        "en": "IEEE"
+                    },
+                    "publication_date": "2004",
+                    "publication_name": {
+                        "en": "2004 14th IEEE International Symposium on Applications of Ferroelectrics-ISAF-04"
+                    },
+                    "starting_page": "165",
+                    "ending_page": "168",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "international_conference_proceedings",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "orcid_put_cd": [
+                            "45479691"
+                        ],
+                        "wos_id": [
+                            "WOS:000228523000039"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000228523000039&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        },
+                        {
+                            "@id": "http://orcid.org/0000-0001-6889-3499",
+                            "is_downloadable": false,
+                            "label": "url"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0001755/published_papers/11661526",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0001755/published_papers",
+                    "rm:id": "11661526",
+                    "rm:user_id": "0000012158",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000012158",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2018-11-01T09:47:46Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-04-16T03:41:26Z",
+                    "paper_title": {
+                        "en": "Advanced micromachine fabrication using ion implantation"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "S Nakano"
+                            },
+                            {
+                                "name": "H Ogiso"
+                            },
+                            {
+                                "name": "H Sato"
+                            },
+                            {
+                                "name": "S Nakagawa"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "Ion-implantation followed by etching was used to fabricate micromachine components from bulk silicon. The size of the ion-modified region was sufficiently small to make microdevices (e.g. devices with submicrometer dimensions). Ion implantation/etching techniques have the advantages of high controllability, high selectivity and non-thermal processing. For 3.1 MeV gold ions implanted into silicon to a dose of 1 x 10(17) cm(-2), microcantilever beams were fabricated with a Young's modulus of 60 GPa and a surface resistance of 36 k Omega. The elastic property was lower than conventional materials used for making microdevices, and the electrical resistance was sufficiently low that such components can be used as electrical conductors. (C) 2000 Elsevier Science S.A. All rights reserved."
+                    },
+                    "publisher": {
+                        "en": "ELSEVIER SCIENCE SA"
+                    },
+                    "publication_date": "2000-06",
+                    "publication_name": {
+                        "en": "SURFACE & COATINGS TECHNOLOGY"
+                    },
+                    "volume": "128",
+                    "starting_page": "71",
+                    "ending_page": "75",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1016/S0257-8972(00)00660-5",
+                            "10.1016/s0257-8972(00)00660-5"
+                        ],
+                        "orcid_put_cd": [
+                            "45479694"
+                        ],
+                        "wos_id": [
+                            "WOS:000087897500012"
+                        ],
+                        "issn": [
+                            "0257-8972"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1016/S0257-8972(00)00660-5",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1016/s0257-8972(00)00660-5",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000087897500012&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        },
+                        {
+                            "@id": "http://orcid.org/0000-0001-6889-3499",
+                            "is_downloadable": false,
+                            "label": "url"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0001755/published_papers/11661527",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0001755/published_papers",
+                    "rm:id": "11661527",
+                    "rm:user_id": "0000012158",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000012158",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2018-11-01T09:47:46Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-04-15T22:45:40Z",
+                    "paper_title": {
+                        "en": "Detection of defects in micro-machine elements by using acoustic waves generated by phase velocity scanning of laser interference fringes"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "H Sato"
+                            },
+                            {
+                                "name": "S Matsumoto"
+                            },
+                            {
+                                "name": "H Ogiso"
+                            },
+                            {
+                                "name": "HD Cho"
+                            },
+                            {
+                                "name": "K Yamanaka"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "High aspect ratio microstructuring is a key process for fabricating microelectromechanical systems (MEMSs). Many microfabrication methods have been developed. Among them, inductively coupled plasma (ICP) source etching is especially attractive because it can fabricate high aspect ratio microstructures, at high speeds with a dry etching process. However, in such microstructures, it is difficult to nondestructively evaluate the quality of high aspect ratio etched bottoms. Therefore, we developed a technique for detecting defects in high aspect ratio microstructures on Si wafers machined by ICP source etching. Using acoustic waves generated by phase velocity scanning of laser interference fringes, we nondestructively detected 13-mu m-high defects located on the bottom of narrow and deep grooves from the other side of the Si wafer, which could not be detected by means of optical techniques or a scanning electron microscope."
+                    },
+                    "publisher": {
+                        "en": "JAPAN J APPLIED PHYSICS"
+                    },
+                    "publication_date": "2000-05",
+                    "publication_name": {
+                        "en": "JAPANESE JOURNAL OF APPLIED PHYSICS PART 1-REGULAR PAPERS SHORT NOTES & REVIEW PAPERS"
+                    },
+                    "volume": "39",
+                    "number": "5B",
+                    "starting_page": "3093",
+                    "ending_page": "3096",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1143/JJAP.39.3093",
+                            "10.1143/jjap.39.3093"
+                        ],
+                        "orcid_put_cd": [
+                            "45479695"
+                        ],
+                        "wos_id": [
+                            "WOS:000088909800054"
+                        ],
+                        "issn": [
+                            "0021-4922"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1143/JJAP.39.3093",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1143/jjap.39.3093",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000088909800054&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        },
+                        {
+                            "@id": "http://orcid.org/0000-0001-6889-3499",
+                            "is_downloadable": false,
+                            "label": "url"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0001755/published_papers/11661528",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0001755/published_papers",
+                    "rm:id": "11661528",
+                    "rm:user_id": "0000012158",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000012158",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2018-11-01T09:47:46Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-04-15T12:07:26Z",
+                    "paper_title": {
+                        "en": "Ion implantation for micromaterial fabrication - fabrication and material properties"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "S Nakano"
+                            },
+                            {
+                                "name": "H Ogiso"
+                            },
+                            {
+                                "name": "S Nakagawa"
+                            },
+                            {
+                                "name": "H Ishikawa"
+                            },
+                            {
+                                "name": "H Sato"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "We used ion-implantation followed by etching to fabricate micromachine components from bulk silicon. The size of the ion-modified region was sufficiently small to make micro devices (e.g., devices with submieron dimensions). Ion implantation/etching techniques have the advantages of high controllability, high selectivity, and non-thermal processing, For 1x10(17) cm(2) gold ions implanted into silicon, micro cantilever beams were fabricated with a Young's modulus ranged from 13-8.5 Gpa. This micromachining technique is simple and effective to increasing a variety of micromaterial properties."
+                    },
+                    "publisher": {
+                        "en": "DDP GOLDENBOGEN SIGURD GOLDENBOGEN"
+                    },
+                    "publication_date": "2000",
+                    "publication_name": {
+                        "en": "MICRO MATERIALS, PROCEEDINGS"
+                    },
+                    "starting_page": "972",
+                    "ending_page": "975",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "international_conference_proceedings",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "orcid_put_cd": [
+                            "45479696"
+                        ],
+                        "wos_id": [
+                            "WOS:000168584000212"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000168584000212&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        },
+                        {
+                            "@id": "http://orcid.org/0000-0001-6889-3499",
+                            "is_downloadable": false,
+                            "label": "url"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0001755/misc",
+            "@type": "misc",
+            "@reverse": "https://api.researchmap.jp/read0001755",
+            "total_items": 14,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0001755/misc/37411758",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0001755/misc",
+                    "rm:id": "37411758",
+                    "rm:user_id": "0000012158",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2022-06-28T12:35:29Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-06-28T12:35:29Z",
+                    "paper_title": {
+                        "ja": "3J3-4 パウダーベッド法で作成した3D積層造形物のレーザ超音波による特性評価",
+                        "en": "3J3-4 Laser ultrasonic characterization of additive manufacturing objects fabricated by powder bed fusion"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "佐藤 治道"
+                            },
+                            {
+                                "name": "小木曽 久人"
+                            },
+                            {
+                                "name": "佐藤 直子"
+                            },
+                            {
+                                "name": "清水 透"
+                            },
+                            {
+                                "name": "中野 禅"
+                            },
+                            {
+                                "name": "小原 良和"
+                            },
+                            {
+                                "name": "山中 一司"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Sato Harumichi"
+                            },
+                            {
+                                "name": "Ogiso Hisato"
+                            },
+                            {
+                                "name": "Sato Naoko"
+                            },
+                            {
+                                "name": "Shimizu Toru"
+                            },
+                            {
+                                "name": "Nakano Shizuka"
+                            },
+                            {
+                                "name": "Ohara Yoshikazu"
+                            },
+                            {
+                                "name": "Yamanaka Kazushi"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "超音波エレクトロニクスの基礎と応用に関するシンポジウム運営委員会",
+                        "en": "Steering committee of symposium on ultrasonic electronics"
+                    },
+                    "publication_date": "2015-11-05",
+                    "publication_name": {
+                        "ja": "超音波エレクトロニクスの基礎と応用に関するシンポジウム講演論文集",
+                        "en": "Proceedings of Symposium on Ultrasonic Electronics"
+                    },
+                    "volume": "36",
+                    "starting_page": "\"3J3",
+                    "ending_page": "4-1\"-\"3J3-4-2\"",
+                    "languages": [
+                        "eng"
+                    ],
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "1348-8236"
+                        ],
+                        "cinii_na_id": [
+                            "110010015194"
+                        ],
+                        "cinii_nc_id": [
+                            "AA1240726X"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/110010015194",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_books",
+                            "@id": "http://ci.nii.ac.jp/ncid/AA1240726X",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0001755/misc/1156730",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0001755/misc",
+                    "rm:id": "1156730",
+                    "rm:user_id": "0000012158",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000012158",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2011-02-02T15:00:00Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-05-17T21:48:14Z",
+                    "paper_title": {
+                        "en": "Theoretical and experimental investigation of propagation of guide waves in cylindrical pipe filled with fluid"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "H Sato"
+                            },
+                            {
+                                "name": "M Lebedev"
+                            },
+                            {
+                                "name": "J Akedo"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "Cylindrical pipes are widely used in industries such as nuclear power plants and micro total analysis systems (mu TAS). The nondestructive evaluation (NDE) of such pipes is therefore crucial. NDE and ultrasonic flowmeters can be used to characterize pipes filled with fluid. Lafleur and Shields [J. Acoust. Soc. Am. 97 (1995) 1435] and Pan et al. [J. Acoust. Soc. Am. 113 (2003) 3209] theoretically and experimentally investigated a pipe filled with fluid, but they only considered the axisymmetrical mode. Commonly used ultrasonic transducer or laser ultrasonic methods, however, also generate non-axisymmetrical mode guide waves. Here, guide waves propagating in a cylindrical pipe filled with fluid were theoretically investigated. The results were used to develop a computer program for calculating the phase velocity of guide waves. The calculation results were then compared with experimental results."
+                    },
+                    "publisher": {
+                        "en": "INST PURE APPLIED PHYSICS"
+                    },
+                    "publication_date": "2006-05",
+                    "publication_name": {
+                        "en": "JAPANESE JOURNAL OF APPLIED PHYSICS PART 1-REGULAR PAPERS BRIEF COMMUNICATIONS & REVIEW PAPERS"
+                    },
+                    "volume": "45",
+                    "number": "5B",
+                    "starting_page": "4573",
+                    "ending_page": "4576",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "cinii_na_id": [
+                            "150000047162"
+                        ],
+                        "doi": [
+                            "10.1143/JJAP.45.4573"
+                        ],
+                        "issn": [
+                            "0021-4922"
+                        ],
+                        "wos_id": [
+                            "WOS:000238156600057"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/150000047162",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1143/JJAP.45.4573",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000238156600057&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0001755/misc/1156729",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0001755/misc",
+                    "rm:id": "1156729",
+                    "rm:user_id": "0000012158",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000012158",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2011-02-02T15:00:00Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-05-09T05:34:31Z",
+                    "paper_title": {
+                        "en": "High-speed optical microscanner driven with resonation of lam waves using Pb(Zr,Ti)O-3 thick films formed by aerosol deposition"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "J Akedo"
+                            },
+                            {
+                                "name": "M Lebedev"
+                            },
+                            {
+                                "name": "H Sato"
+                            },
+                            {
+                                "name": "J Park"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "A high-performance optical microscanner with a resonance frequency over 20 kHz and a scan angle (peak-to-peak value) over 30 degrees in atmospheric ambient, was successfully fabricated by deposit piezoelectric materials at a high rate by the AD method onto a metal scanner structure, which was fabricated by mechanical machining. The scanner is applicable to SVGA high resolution display of 800 x 600 or more. This method is a powerful tool for realizing ceramic integration with metal components."
+                    },
+                    "publisher": {
+                        "en": "JAPAN SOC APPLIED PHYSICS"
+                    },
+                    "publication_date": "2005-09",
+                    "publication_name": {
+                        "en": "JAPANESE JOURNAL OF APPLIED PHYSICS PART 1-REGULAR PAPERS BRIEF COMMUNICATIONS & REVIEW PAPERS"
+                    },
+                    "volume": "44",
+                    "number": "9B",
+                    "starting_page": "7072",
+                    "ending_page": "7077",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "cinii_na_id": [
+                            "150000045817"
+                        ],
+                        "doi": [
+                            "10.1143/JJAP.44.7072"
+                        ],
+                        "issn": [
+                            "0021-4922"
+                        ],
+                        "wos_id": [
+                            "WOS:000232570700047"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/150000045817",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1143/JJAP.44.7072",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000232570700047&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0001755/misc/1156731",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0001755/misc",
+                    "rm:id": "1156731",
+                    "rm:user_id": "0000012158",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000012158",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2011-02-02T15:00:00Z",
+                    "rm:modifier_id": "0000012158",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2011-02-02T15:00:00Z",
+                    "paper_title": {
+                        "ja": "Optical Micro-Scanner Fabricated on Stainless Steel by Aerosol Deposition Method"
+                    },
+                    "publication_date": "2005",
+                    "publication_name": {
+                        "ja": "IEEE TRANSACTIONS ON ULTRASONICS FERROELECTRICS AND FREQUENCY CONTROL"
+                    },
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0001755/misc/1156728",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0001755/misc",
+                    "rm:id": "1156728",
+                    "rm:user_id": "0000012158",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000012158",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2011-02-02T15:00:00Z",
+                    "rm:modifier_id": "0000012158",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2011-02-02T15:00:00Z",
+                    "paper_title": {
+                        "ja": "Laser ultrasound with improved mode selectivity and directivity - Evaluation of MEMS components"
+                    },
+                    "publication_date": "2004",
+                    "publication_name": {
+                        "ja": "Proceedings of the 18th International Congress of Acoustics, 4-9 April"
+                    },
+                    "volume": "2847-2850",
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0001755/misc/1156727",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0001755/misc",
+                    "rm:id": "1156727",
+                    "rm:user_id": "0000012158",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000012158",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2011-02-02T15:00:00Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-04-28T17:43:19Z",
+                    "paper_title": {
+                        "en": "Finite element method analysis of evaluation of surface micro cracks using laser ultrasound generated by phase velocity scanning method"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "H Sato"
+                            },
+                            {
+                                "name": "H Ogiso"
+                            },
+                            {
+                                "name": "K Yamanaka"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "Nondestructive evaluation of defects that, reduce material strength is critical to maintain the reliability of micro electro mechanical system (MEMS) components. We developed a new. laser ultrasonic method, the phase velocity scanning (PVS) method, for this purpose. In a feasibility study, 200-mum-long micro standard defects (slits) on a Si wafer were fabricated with various depths (6.8 to 28.7 mum) and widths (2 to 5 mum), and scattered waves from a 6.8-mum-deep slit were successfully detected using 60 MHz. surface acoustic waves. To analyze the directivity of acoustic waves generated by the PVS method and scattered waves from the slits, we developed 2D and 3D finite element method (FEM) programs. Using these programs, we confirmed that scattered waves are generated from a slit of 200 mum length, 10 mum depth, and 5 mum width. A comparison with the simulation of a conventional laser ultrasonic method, showed that the PVS method has better directivity to suppress disturbing echoes generated in small objects."
+                    },
+                    "publisher": {
+                        "en": "INST PURE APPLIED PHYSICS"
+                    },
+                    "publication_date": "2003-05",
+                    "publication_name": {
+                        "en": "JAPANESE JOURNAL OF APPLIED PHYSICS PART 1-REGULAR PAPERS SHORT NOTES & REVIEW PAPERS"
+                    },
+                    "volume": "42",
+                    "number": "5B",
+                    "starting_page": "3184",
+                    "ending_page": "3188",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "cinii_na_id": [
+                            "150000041529"
+                        ],
+                        "doi": [
+                            "10.1143/JJAP.42.3184"
+                        ],
+                        "issn": [
+                            "0021-4922"
+                        ],
+                        "wos_id": [
+                            "WOS:000183745200071"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/150000041529",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1143/JJAP.42.3184",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000183745200071&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0001755/misc/1156725",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0001755/misc",
+                    "rm:id": "1156725",
+                    "rm:user_id": "0000012158",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000012158",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2011-02-02T15:00:00Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-04-30T22:20:05Z",
+                    "paper_title": {
+                        "en": "Titanium-silicon-nitrogen composites with high wear resistance in water and in artificial sea water"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Y Hibi"
+                            },
+                            {
+                                "name": "Y Enomoto"
+                            },
+                            {
+                                "name": "H Sato"
+                            },
+                            {
+                                "name": "S Sasaki"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "Titanium-silicon-nitrogen (Ti-Si-N) composites were produced from a mixture of Si3N4, titanium nitride (TiN), and titanium by spark plasma sintering to develop wear-resistant materials with good environmental and biological compatibilities in water and sea water. The Ti-Si-N composite consisted of Si3N4, TiN, and titanium metal-rich particles coated with TiSix. Results of sliding tests in water and in artificial sea water showed that the wear resistance of the Ti-Si-N composite was much better than that of the titanium metal."
+                    },
+                    "publisher": {
+                        "en": "AMER CERAMIC SOC"
+                    },
+                    "publication_date": "2002-09",
+                    "publication_name": {
+                        "en": "JOURNAL OF THE AMERICAN CERAMIC SOCIETY"
+                    },
+                    "volume": "85",
+                    "number": "9",
+                    "starting_page": "2373",
+                    "ending_page": "2375",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "cinii_na_id": [
+                            "80015535272"
+                        ],
+                        "doi": [
+                            "10.1111/j.1151-2916.2002.tb00464.x"
+                        ],
+                        "issn": [
+                            "0002-7820"
+                        ],
+                        "wos_id": [
+                            "WOS:000177957700040"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/80015535272",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1111/j.1151-2916.2002.tb00464.x",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000177957700040&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0001755/misc/1156726",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0001755/misc",
+                    "rm:id": "1156726",
+                    "rm:user_id": "0000012158",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000012158",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2011-02-02T15:00:00Z",
+                    "rm:modifier_id": "0000012158",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2021-10-25T01:45:46Z",
+                    "paper_title": {
+                        "ja": "Finite element method analysis of evaluation of surface micro crack using laser ultrasonic generated by phase velocity scanning method",
+                        "en": "Finite element method analysis of evaluation of surface micro crack using laser ultrasonic generated by phase velocity scanning method"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Harumichi Sato"
+                            },
+                            {
+                                "name": "Hisato Ogiso"
+                            },
+                            {
+                                "name": "Kazushi Yamanaka"
+                            }
+                        ]
+                    },
+                    "publication_date": "2002",
+                    "publication_name": {
+                        "ja": "TECHNICAL ACOUSTICS"
+                    },
+                    "volume": "21",
+                    "starting_page": "299",
+                    "ending_page": "302",
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0001755/misc/37877759",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0001755/misc",
+                    "rm:id": "37877759",
+                    "rm:user_id": "0000012158",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2022-07-02T02:54:19Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-07-02T02:54:19Z",
+                    "paper_title": {
+                        "ja": "PE9 レーザー干渉縞の位相速度走査法を用いた弾性表面波発生法の高周波化(SAWデバイス,ポスターセッション1)",
+                        "en": "PE9 Increasing the frequency of Surface Acoustic Waves generated by Phase Velocity Scanning of Laser Interference Fringes"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "佐藤 治道"
+                            },
+                            {
+                                "name": "小木曽 久人"
+                            },
+                            {
+                                "name": "矢部 彰"
+                            },
+                            {
+                                "name": "山中 一司"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Sato Harumichi"
+                            },
+                            {
+                                "name": "Ogiso Hisato"
+                            },
+                            {
+                                "name": "Yabe Akira"
+                            },
+                            {
+                                "name": "Yamanaka Kazushi"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "超音波エレクトロニクスの基礎と応用に関するシンポジウム運営委員会",
+                        "en": "Steering committee of symposium on ultrasonic electronics"
+                    },
+                    "publication_date": "1998-11-26",
+                    "publication_name": {
+                        "ja": "超音波エレクトロニクスの基礎と応用に関するシンポジウム講演予稿集",
+                        "en": "Symposium on ultrasonic electronics"
+                    },
+                    "number": "19",
+                    "starting_page": "89",
+                    "ending_page": "90",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "cinii_na_id": [
+                            "110007461352"
+                        ],
+                        "cinii_nc_id": [
+                            "AN10578660"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/110007461352",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_books",
+                            "@id": "http://ci.nii.ac.jp/ncid/AN10578660",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0001755/misc/37875833",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0001755/misc",
+                    "rm:id": "37875833",
+                    "rm:user_id": "0000012158",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2022-07-02T02:44:13Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-07-02T02:44:13Z",
+                    "paper_title": {
+                        "ja": "PG5 レーザー干渉縞の位相速度走査法による弾性表面波を用いた標準欠陥の評価(ポスターセッション1)",
+                        "en": "PG5 Evaluation of standard defects using surface acoustic waves generated by phase velocity scanning of laser interference fringes"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "佐藤 治道"
+                            },
+                            {
+                                "name": "中野 禅"
+                            },
+                            {
+                                "name": "小木曽 久人"
+                            },
+                            {
+                                "name": "山中 一司"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Sato Harumichi"
+                            },
+                            {
+                                "name": "Nakano Shizuka"
+                            },
+                            {
+                                "name": "Ogiso Hisato"
+                            },
+                            {
+                                "name": "Yamanaka Kazushi"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "超音波エレクトロニクスの基礎と応用に関するシンポジウム運営委員会",
+                        "en": "Steering committee of symposium on ultrasonic electronics"
+                    },
+                    "publication_date": "1996-10-23",
+                    "publication_name": {
+                        "ja": "超音波エレクトロニクスの基礎と応用に関するシンポジウム講演予稿集",
+                        "en": "Symposium on ultrasonic electronics"
+                    },
+                    "number": "17",
+                    "starting_page": "63",
+                    "ending_page": "64",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "cinii_na_id": [
+                            "110007461036"
+                        ],
+                        "cinii_nc_id": [
+                            "AN10578660"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/110007461036",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_books",
+                            "@id": "http://ci.nii.ac.jp/ncid/AN10578660",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0001755/misc/38159441",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0001755/misc",
+                    "rm:id": "38159441",
+                    "rm:user_id": "0000012158",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2022-07-05T06:56:45Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-07-05T06:56:45Z",
+                    "paper_title": {
+                        "ja": "レーザ干渉縞の位相速度走査により励起した弾性表面波を用いた多孔質シリコンの物性評価",
+                        "en": "Evaluation of elastic properties of pourous slicon by the phase velocity scanning of laser interference fringes"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "長 秀雄"
+                            },
+                            {
+                                "name": "竹本 幹男"
+                            },
+                            {
+                                "name": "西野 秀郎"
+                            },
+                            {
+                                "name": "塚原 祐輔"
+                            },
+                            {
+                                "name": "佐藤 倬暢"
+                            },
+                            {
+                                "name": "佐藤 治道"
+                            },
+                            {
+                                "name": "中野 禅"
+                            },
+                            {
+                                "name": "山中 一司"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Cho H."
+                            },
+                            {
+                                "name": "Takemoto M."
+                            },
+                            {
+                                "name": "Nishino H."
+                            },
+                            {
+                                "name": "Tsukahara Y."
+                            },
+                            {
+                                "name": "Sato A."
+                            },
+                            {
+                                "name": "Sato H."
+                            },
+                            {
+                                "name": "Nakano S."
+                            },
+                            {
+                                "name": "Yamanaka K."
+                            }
+                        ]
+                    },
+                    "description": {
+                        "ja": "レーザー干渉縞の位相速度走査法により励起した弾性表面波を用いて多孔質シリコン層の位相速度分散を30-90 MHz範囲で、また異方性を非破壊・非接触で測定した。音速測定誤差は1%以下と良好であった。位相速度は空孔率の増加とともに低下し、単結晶シリコンの1/2-1/3と極めて低かった。また、音速の伝播方向依存性を測定したところ90度の周期の異方性が測定され、周波数の上昇とともに最大・最小の音速差は小さくなり、空孔率0.500場合60MHzでは約30m/s程度であった。さらに、逆問題解析によって3個の弾性定数(C_<11>,C_<12>,C_<44>)と膜厚を独立した4つの未知数として推定した。その結果,空孔率の大きい多孔質シリコンはほぼ等方性であり、非晶質的であると思われる。",
+                        "en": "This study aims to evaluate the three elastic constants (C_<11>, C_<12> and C_<44>) and thickness in porous silicon (PS) films with various porosity using velocity anisotropy and dispersion data of surface acoustic waves (SAW) according to the inversion method. We developed a novel laser ultrasonic method which utilized the laser interference fringes scanned at phase velocity of the SAW. In this experiment, the phase velocity of the SAW on the PS films were found to decrease with an increase of the porosity in the frequency range of 30 to 90 MHz. The velocity anisotropy of SAW on the PS film with 0.500 porosity at various frequency showed less anisotropy in the PS film than in single crystal Si. Estimated three elastic constants and thickness as a result from inverse problem showed almost isotropic and amorphous like nature of PS films."
+                    },
+                    "publisher": {
+                        "ja": "一般社団法人電子情報通信学会",
+                        "en": "The Institute of Electronics, Information and Communication Engineers"
+                    },
+                    "publication_date": "1996-04-26",
+                    "publication_name": {
+                        "ja": "電子情報通信学会技術研究報告. US, 超音波",
+                        "en": "IEICE technical report. Ultrasonics"
+                    },
+                    "volume": "96",
+                    "number": "28",
+                    "starting_page": "41",
+                    "ending_page": "47",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "cinii_na_id": [
+                            "110003187788"
+                        ],
+                        "cinii_nc_id": [
+                            "AN1001290X"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/110003187788",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_books",
+                            "@id": "http://ci.nii.ac.jp/ncid/AN1001290X",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0001755/misc/37777900",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0001755/misc",
+                    "rm:id": "37777900",
+                    "rm:user_id": "0000012158",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2022-07-01T07:28:26Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-07-01T07:28:26Z",
+                    "paper_title": {
+                        "ja": "レーザー干渉縞の位相速度走査によるバルク超音波の発生と内部欠陥の映像化",
+                        "en": "Bulk acoustic waves generation and defects imaging with phase velocity scanning of laser interference fringes"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "西野 秀郎"
+                            },
+                            {
+                                "name": "長 秀雄"
+                            },
+                            {
+                                "name": "佐藤 治道"
+                            },
+                            {
+                                "name": "塚原 祐輔"
+                            },
+                            {
+                                "name": "山中 一司"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Nishino Hideo"
+                            },
+                            {
+                                "name": "Cho Hideo"
+                            },
+                            {
+                                "name": "Sato Harumichi"
+                            },
+                            {
+                                "name": "Tsukahara Yusuke"
+                            },
+                            {
+                                "name": "Yamanaka Kazushi"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "ja": "マイクロマシンや小型化の進む最近のICパッケージ、またセラミックス材料などでは数ミクロンから数十ミクロンの微小欠陥が、その信頼性や強度低下に大きく影響している。これらの微小欠陥を検出評価する方法として、高い周波数の超音波を用いた機械走査型超音波顕微鏡やレーザー走査型超音波顕微鏡が有用なことが知られている。しかしながらこれらの方法は被検体に超音波を照射する際に液体カプラーが必要であり、液体により侵されるものや、真空中、高温中の試料への適用、あるいは運動物体の測定は不可能もしくは困難であった。上記の問題点を解決するため筆者らは液体カプラーを使用しないで超音波を効率良く励起する方法として、レーザー熱源を超音波の位相速度に等しい速度で走査する位相速度走査(PVS)法を考案した。これにより一般に超音波変換効率が低いレーザー超音波法の欠点を克服し、単一モード大振幅の超音波励起にレーザービームを被検体表面上で走査する方法により成功している。上記微小欠陥の検出に必要となる100MHz程度以上の超音波励起には、周波数の異なる2本のレーザービームを被検体表面で交差干渉させることで発生する走査干渉縞(SIF)を用いることを提案し、高振幅の110MHz弾性表面波の励起に成功している。また最近ではSIFを用いた80MHzおよび110MHzのバルク超音波(BAW)の励起にも成功している。本報ではSIFを用いたBAWの励起方法について簡単に述べた後、ジュラルミン試料中に作製した人工欠陥をSIF励起の横波BAWを光学的ナイフエッジ法によって検出する方法で非接触非破壊的に画像化した結果について報告する。"
+                    },
+                    "publisher": {
+                        "ja": "一般社団法人電子情報通信学会",
+                        "en": "The Institute of Electronics, Information and Communication Engineers"
+                    },
+                    "publication_date": "1995-09-05",
+                    "publication_name": {
+                        "ja": "電子情報通信学会ソサイエティ大会講演論文集",
+                        "en": "Proceedings of the Society Conference of IEICE"
+                    },
+                    "volume": "1995",
+                    "starting_page": "215",
+                    "ending_page": "216",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "cinii_na_id": [
+                            "110003342816"
+                        ],
+                        "cinii_nc_id": [
+                            "AN10489017"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/110003342816",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_books",
+                            "@id": "http://ci.nii.ac.jp/ncid/AN10489017",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0001755/misc/38054850",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0001755/misc",
+                    "rm:id": "38054850",
+                    "rm:user_id": "0000012158",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_papers",
+                    "rm:creator_type": "coauthor",
+                    "rm:created": "2022-07-04T02:13:51Z",
+                    "rm:modifier_id": "ai:assign_based_papers",
+                    "rm:modifier_type": "coauthor",
+                    "rm:modified": "2022-07-04T02:13:51Z",
+                    "paper_title": {
+                        "ja": "心拍リズムで駆動する機械の特性",
+                        "en": "Characteristics of the rotating machine driven with a heartbeat rhythm."
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "甲田寿男"
+                            },
+                            {
+                                "name": "永田可彦"
+                            },
+                            {
+                                "name": "小木曽久人"
+                            },
+                            {
+                                "name": "中野禅"
+                            },
+                            {
+                                "name": "佐藤治道"
+                            },
+                            {
+                                "name": "星佳伸"
+                            },
+                            {
+                                "name": "吉田博夫"
+                            },
+                            {
+                                "name": "山中一司"
+                            },
+                            {
+                                "name": "樽谷良治"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "甲田寿男"
+                            },
+                            {
+                                "name": "永田可彦"
+                            },
+                            {
+                                "name": "小木曽久人"
+                            },
+                            {
+                                "name": "中野禅"
+                            },
+                            {
+                                "name": "佐藤治道"
+                            },
+                            {
+                                "name": "星佳伸"
+                            },
+                            {
+                                "name": "吉田博夫"
+                            },
+                            {
+                                "name": "山中一司"
+                            },
+                            {
+                                "name": "樽谷良治"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "ja": "A new concept for controlling rotational machinery using a bio-rhythm has been proposed and realized in driving an electric fan and a lathe. The heartbeat signal was detected and the R-R interval of the signal was measured. An analog voltage derived from this interval controls the electric power of the fan or the lathe. In Part I, the experimental results on driving an electric fan as a representative of the environmental instrument were described. The heartbeat interval, the produced control voltage, the revolution of the fan and the wind velocity from the fan were measured and their power spectrum densities were computed. The so-called 1/f fluctuation and the effect of respiration on the heartbeat were found in each spectrum. In Part II, the experimental results were shown on driving the lathe as a representative of machining equipment. Turning was performed under the control of revolution of the spindle or speed of the tool slide. The revolution of the motor for spindle or tool slide and the roughness of the work machined were measured. Their power spectrum densities were computed from measured wave-forms. Using the heartbeat rhythm, the chatter vibration could be suppressed and surface roughness was improved. In addition, the surface of the work-piece machined with a diamond bit was more metallically brilliant than that machined with the conventional high speed steel bit. Though the 1/f fluctuation was observed in the power spectrum of the control voltage and the wave shape of the surface roughness, the effect of respiration was not found in the latter spectrum.",
+                        "en": "A new concept for controlling rotational machinery using a bio-rhythm has been proposed and realized in driving an electric fan and a lathe. The heartbeat signal was detected and the R-R interval of the signal was measured. An analog voltage derived from this interval controls the electric power of the fan or the lathe. In Part I, the experimental results on driving an electric fan as a representative of the environmental instrument were described. The heartbeat interval, the produced control voltage, the revolution of the fan and the wind velocity from the fan were measured and their power spectrum densities were computed. The so-called 1/f fluctuation and the effect of respiration on the heartbeat were found in each spectrum. In Part II, the experimental results were shown on driving the lathe as a representative of machining equipment. Turning was performed under the control of revolution of the spindle or speed of the tool slide. The revolution of the motor for spindle or tool slide and the roughness of the work machined were measured. Their power spectrum densities were computed from measured wave-forms. Using the heartbeat rhythm, the chatter vibration could be suppressed and surface roughness was improved. In addition, the surface of the work-piece machined with a diamond bit was more metallically brilliant than that machined with the conventional high speed steel bit. Though the 1/f fluctuation was observed in the power spectrum of the control voltage and the wave shape of the surface roughness, the effect of respiration was not found in the latter spectrum."
+                    },
+                    "publication_date": "1995-01-01",
+                    "publication_name": {
+                        "ja": "機械技術研究所所報",
+                        "en": "機械技術研究所所報"
+                    },
+                    "volume": "49",
+                    "number": "1",
+                    "starting_page": "44",
+                    "ending_page": "56",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "0388-4252"
+                        ],
+                        "j_global_id": [
+                            "200902115758708440"
+                        ],
+                        "scopus_id": [
+                            "0029207426"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "j_global",
+                            "@id": "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=200902115758708440",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "http://jglobal.jst.go.jp/public/200902115758708440",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0001755/misc/37875995",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0001755/misc",
+                    "rm:id": "37875995",
+                    "rm:user_id": "0000012158",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2022-07-02T02:45:03Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-07-02T02:45:03Z",
+                    "paper_title": {
+                        "ja": "D-4 探針の押し込みによる弾性変形の分子力学シミュレーション(D.超音波基礎・非線形)",
+                        "en": "D-4 Molecular Mechanics Simulation of Elastic Deformation by Indentation of a Tip"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "小木曽 久人"
+                            },
+                            {
+                                "name": "佐藤 治道"
+                            },
+                            {
+                                "name": "山中 一司"
+                            },
+                            {
+                                "name": "徳本 洋志"
+                            },
+                            {
+                                "name": "甲田 壽男"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Ogiso Hisato"
+                            },
+                            {
+                                "name": "Sato Harumichi"
+                            },
+                            {
+                                "name": "Yamanaka Kazushi"
+                            },
+                            {
+                                "name": "Tokumoto Hiroshi"
+                            },
+                            {
+                                "name": "Koda Toshio"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "超音波エレクトロニクスの基礎と応用に関するシンポジウム運営委員会",
+                        "en": "Steering committee of symposium on ultrasonic electronics"
+                    },
+                    "publication_date": "1994-11-28",
+                    "publication_name": {
+                        "ja": "超音波エレクトロニクスの基礎と応用に関するシンポジウム講演予稿集",
+                        "en": "Symposium on ultrasonic electronics"
+                    },
+                    "number": "15",
+                    "starting_page": "135",
+                    "ending_page": "136",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "cinii_na_id": [
+                            "110007460772"
+                        ],
+                        "cinii_nc_id": [
+                            "AN10578660"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/110007460772",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_books",
+                            "@id": "http://ci.nii.ac.jp/ncid/AN10578660",
+                            "is_downloadable": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0001755/association_memberships",
+            "@type": "association_memberships",
+            "@reverse": "https://api.researchmap.jp/read0001755",
+            "total_items": 2,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0001755/association_memberships/134283",
+                    "@type": "association_memberships",
+                    "@reverse": "https://api.researchmap.jp/read0001755/association_memberships",
+                    "rm:id": "134283",
+                    "rm:user_id": "0000012158",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000012158",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2011-02-02T15:00:00Z",
+                    "rm:modifier_id": "0000012158",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2011-02-02T15:00:00Z",
+                    "academic_society_name": {
+                        "ja": "日本非破壊検査協会"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0001755/association_memberships/134282",
+                    "@type": "association_memberships",
+                    "@reverse": "https://api.researchmap.jp/read0001755/association_memberships",
+                    "rm:id": "134282",
+                    "rm:user_id": "0000012158",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000012158",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2011-02-02T15:00:00Z",
+                    "rm:modifier_id": "0000012158",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2011-02-02T15:00:00Z",
+                    "academic_society_name": {
+                        "ja": "応用物理学会"
+                    }
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0001755/research_projects",
+            "@type": "research_projects",
+            "@reverse": "https://api.researchmap.jp/read0001755",
+            "total_items": 5,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0001755/research_projects/45303248",
+                    "@type": "research_projects",
+                    "@reverse": "https://api.researchmap.jp/read0001755/research_projects",
+                    "rm:id": "45303248",
+                    "rm:user_id": "0000012158",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2024-01-30T20:58:02Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2024-01-30T20:58:02Z",
+                    "research_project_title": {
+                        "ja": "積層造形中の欠陥要因の解明"
+                    },
+                    "investigators": {
+                        "ja": [
+                            {
+                                "name": "佐藤 治道"
+                            },
+                            {
+                                "name": "佐藤 直子"
+                            },
+                            {
+                                "name": "板垣 宏知"
+                            },
+                            {
+                                "name": "長 秀雄"
+                            }
+                        ]
+                    },
+                    "offer_organization": {
+                        "ja": "日本学術振興会"
+                    },
+                    "system_name": {
+                        "ja": "科学研究費助成事業"
+                    },
+                    "category": {
+                        "ja": "基盤研究(C)"
+                    },
+                    "institution_name": {
+                        "ja": "国立研究開発法人産業技術総合研究所"
+                    },
+                    "from_date": "2022-04-01",
+                    "to_date": "2025-03-31",
+                    "overall_grant_amount": {
+                        "total_cost": "4030000",
+                        "direct_cost": "3100000",
+                        "indirect_cost": "930000"
+                    },
+                    "identifiers": {
+                        "grant_number": [
+                            "22K04750"
+                        ],
+                        "national_grant_number": [
+                            "JP22K04750"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "kaken",
+                            "@id": "https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-22K04750"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0001755/research_projects/45406090",
+                    "@type": "research_projects",
+                    "@reverse": "https://api.researchmap.jp/read0001755/research_projects",
+                    "rm:id": "45406090",
+                    "rm:user_id": "0000012158",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2024-01-30T23:52:07Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2024-01-30T23:52:07Z",
+                    "research_project_title": {
+                        "ja": "パイプを伝搬するガイド波のモード解析",
+                        "en": "Modal analysis of guided waves propagating in pipes"
+                    },
+                    "investigators": {
+                        "ja": [
+                            {
+                                "name": "佐藤 治道"
+                            },
+                            {
+                                "name": "小木曽 久人"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Harumichi Sato"
+                            }
+                        ]
+                    },
+                    "offer_organization": {
+                        "ja": "日本学術振興会",
+                        "en": "Japan Society for the Promotion of Science"
+                    },
+                    "system_name": {
+                        "ja": "科学研究費助成事業",
+                        "en": "Grants-in-Aid for Scientific Research"
+                    },
+                    "category": {
+                        "ja": "基盤研究(C)",
+                        "en": "Grant-in-Aid for Scientific Research (C)"
+                    },
+                    "institution_name": {
+                        "ja": "国立研究開発法人産業技術総合研究所",
+                        "en": "National Institute of Advanced Industrial Science and Technology"
+                    },
+                    "from_date": "2014-04-01",
+                    "to_date": "2017-03-31",
+                    "overall_grant_amount": {
+                        "total_cost": "5070000",
+                        "direct_cost": "3900000",
+                        "indirect_cost": "1170000"
+                    },
+                    "description": {
+                        "ja": "パイプは生活インフラの中で広く使われている。それら安全性の確保や半導体や医薬品の性能や信頼性の向上と低価格化のためには非破壊検査や高精度な超音波流量計の開発が必要である。しかし、パイプを伝搬する超音波(ガイド波)はそのモードや変位の分布に周波数依存性があり、かつ複雑なため、基盤的、系統的な研究が不足している。そこで、円筒座標系に対応した3D-FEMのプログラムを開発し、波動方程式の解析解と比較しながらパイプを伝搬するガイド波のモード解析を行った。",
+                        "en": "Pipes are widely used in living infrastructure. In order to secure these safety, to improve the performance and reliability of semiconductors and pharmaceuticals and to lower the price, it is necessary to develop nondestructive inspection and highly accurate ultrasonic flowmeter. However, the ultrasonic wave (guided wave) propagating through the pipe has frequency dependence on the mode and displacement distribution, and it is complicated, so there is a lack of fundamental and systematic research. Therefore, we developed a program of 3D-FEM corresponding to the cylindrical coordinate system, and compared the analytical solution of the wave equation, and analyzed the mode of the guided wave propagating through the pipe."
+                    },
+                    "identifiers": {
+                        "grant_number": [
+                            "26390109"
+                        ],
+                        "national_grant_number": [
+                            "JP26390109"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "kaken",
+                            "@id": "https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-26390109"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0001755/research_projects/45319978",
+                    "@type": "research_projects",
+                    "@reverse": "https://api.researchmap.jp/read0001755/research_projects",
+                    "rm:id": "45319978",
+                    "rm:user_id": "0000012158",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2024-01-30T21:18:33Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2024-01-30T21:18:33Z",
+                    "research_project_title": {
+                        "ja": "陽子線励起圧力波による水銀中キャビテーションとその抑制手法に関する包括的研究",
+                        "en": "Comprehensive study on mercury cavitation by proton beam-induced pressure waves and its mitigation techniques"
+                    },
+                    "investigators": {
+                        "ja": [
+                            {
+                                "name": "二川 正敏"
+                            },
+                            {
+                                "name": "京藤 敏達"
+                            },
+                            {
+                                "name": "沖田 浩平"
+                            },
+                            {
+                                "name": "羽賀 勝洋"
+                            },
+                            {
+                                "name": "粉川 広行"
+                            },
+                            {
+                                "name": "直江 崇"
+                            },
+                            {
+                                "name": "涌井 隆"
+                            },
+                            {
+                                "name": "長谷川 勝一"
+                            },
+                            {
+                                "name": "松本 洋一郎"
+                            },
+                            {
+                                "name": "金子 暁子"
+                            },
+                            {
+                                "name": "田仲 伸厚"
+                            },
+                            {
+                                "name": "佐藤 治道"
+                            },
+                            {
+                                "name": "渡辺 正夫"
+                            },
+                            {
+                                "name": "井田 真人"
+                            },
+                            {
+                                "name": "金子 暁子"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "FUTAKAWA Masatoshi"
+                            },
+                            {
+                                "name": "KYOTOH Harumichi"
+                            },
+                            {
+                                "name": "OKITA Kohei"
+                            },
+                            {
+                                "name": "HAGA Katsuhiro"
+                            },
+                            {
+                                "name": "KOGAWA Hiroyuki"
+                            },
+                            {
+                                "name": "NAOE Takashi"
+                            },
+                            {
+                                "name": "WAKUI Takashi"
+                            },
+                            {
+                                "name": "HASEGAWA Shoichi"
+                            },
+                            {
+                                "name": "MATSUMOTO Yoichiro"
+                            },
+                            {
+                                "name": "KANEKO Akiko"
+                            },
+                            {
+                                "name": "TANAKA Nobuatsu"
+                            },
+                            {
+                                "name": "SATO Harumichi"
+                            },
+                            {
+                                "name": "WATANABE Masao"
+                            }
+                        ]
+                    },
+                    "offer_organization": {
+                        "ja": "日本学術振興会",
+                        "en": "Japan Society for the Promotion of Science"
+                    },
+                    "system_name": {
+                        "ja": "科学研究費助成事業",
+                        "en": "Grants-in-Aid for Scientific Research"
+                    },
+                    "category": {
+                        "ja": "基盤研究(B)",
+                        "en": "Grant-in-Aid for Scientific Research (B)"
+                    },
+                    "institution_name": {
+                        "ja": "独立行政法人日本原子力研究開発機構",
+                        "en": "Japan Atomic Energy Agency"
+                    },
+                    "from_date": "2011-04-01",
+                    "to_date": "2015-03-31",
+                    "overall_grant_amount": {
+                        "total_cost": "18720000",
+                        "direct_cost": "14400000",
+                        "indirect_cost": "4320000"
+                    },
+                    "description": {
+                        "ja": "本研究は，液体水銀中にガスマイクロバブルを注入することにより，核破砕中性子源の水銀標的内に生じる陽子線励起圧力波，及びそれにより誘発するキャビテーションを低減するメカニズムを定量的に究明して，水銀標的の実用的な防護策を構築することを目的とした．すなわち，壁面近傍の流動気泡群分布，変動する弾性構造体と不均一気泡群との緩衝効果を加味した圧力波伝ぱ，壁面近傍流れ場でのキャビテーション気泡の成長・崩壊挙動，注入気泡条件と固体壁面損傷の相関について検討し，メガワット級の核破砕中性子源の実現に対して大きな障壁となるキャビテーションによる損傷を低減するための技術を構築した．",
+                        "en": "The purpose in this study is to develop the practical protection technologies for mitigating the pressure waves by using the microbubble injection technique in the liquid mercury spallation neutron source. In order to investigate the mitigation technologies from the viewpoints of distribution of injected bubbles near the wall, the pressure wave propagation including the damping effect resulted from the interaction between elastic walls and inhomogeneous distributed bubble cloud were examined. Furthermore, the behavior of cavitation bubbles in the narrow channel and the relationship between the injected bubble condition and the damage at the wall were systematically investigated through the numerical calculations and experiments."
+                    },
+                    "identifiers": {
+                        "grant_number": [
+                            "23360088"
+                        ],
+                        "national_grant_number": [
+                            "JP23360088"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "kaken",
+                            "@id": "https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-23360088"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0001755/research_projects/45328229",
+                    "@type": "research_projects",
+                    "@reverse": "https://api.researchmap.jp/read0001755/research_projects",
+                    "rm:id": "45328229",
+                    "rm:user_id": "0000012158",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2024-01-30T21:31:53Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2024-01-30T21:31:53Z",
+                    "research_project_title": {
+                        "ja": "液体金属を内包する構造体の音響振動によるその場予寿命診断技術の開発研究",
+                        "en": "Development of diagnostic technique for structure filled with liquid metal using acoustic vibration"
+                    },
+                    "investigators": {
+                        "ja": [
+                            {
+                                "name": "涌井 隆"
+                            },
+                            {
+                                "name": "二川 正敏"
+                            },
+                            {
+                                "name": "勅使川原 誠"
+                            },
+                            {
+                                "name": "直江 崇"
+                            },
+                            {
+                                "name": "佐藤 治道"
+                            },
+                            {
+                                "name": "山中 一司"
+                            },
+                            {
+                                "name": "小原 良和"
+                            },
+                            {
+                                "name": "川嶋 紘一郎"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "WAKUI Takashi"
+                            },
+                            {
+                                "name": "FUTAKAWA Masatoshi"
+                            },
+                            {
+                                "name": "TESHIGAWARA Makoto"
+                            },
+                            {
+                                "name": "NAOE Takashi"
+                            },
+                            {
+                                "name": "SATO Harumichi"
+                            },
+                            {
+                                "name": "YAMANAKA Kazushi"
+                            },
+                            {
+                                "name": "OHARA Yoshikazu"
+                            },
+                            {
+                                "name": "KAWASHIMA Koichiro"
+                            }
+                        ]
+                    },
+                    "offer_organization": {
+                        "ja": "日本学術振興会",
+                        "en": "Japan Society for the Promotion of Science"
+                    },
+                    "system_name": {
+                        "ja": "科学研究費助成事業",
+                        "en": "Grants-in-Aid for Scientific Research"
+                    },
+                    "category": {
+                        "ja": "基盤研究(C)",
+                        "en": "Grant-in-Aid for Scientific Research (C)"
+                    },
+                    "institution_name": {
+                        "ja": "独立行政法人日本原子力研究開発機構",
+                        "en": "Japan Atomic Energy Agency"
+                    },
+                    "from_date": "2011",
+                    "to_date": "2013",
+                    "overall_grant_amount": {
+                        "total_cost": "5330000",
+                        "direct_cost": "4100000",
+                        "indirect_cost": "1230000"
+                    },
+                    "description": {
+                        "ja": "接触式かつ遠隔操作可能な計測方法により、機器の内表面にある損傷を評価するために、超音波波形と損傷量の関係を明らかにした。また、微小な損傷を検知するための最適な計測条件を見出した。液体を内包する構造物では、構造物中を伝搬する超音波は液体の影響を受けるため、超音波計測ではその影響を加味する必要がある。以上の結果を考慮して、水銀ターゲット容器の状態監視のために、レーザードップラ振動計をベースとした計測システムを開発し、陽子ビーム入射に伴う振動を精度良く計測できた。本計測システムは、極限環境下に使用する機器の監視システムとして適用できる。",
+                        "en": "In order to estimate the damage on the inner surface of the structure, relationships between ultrasonic waveform and the amount of damage was clarified by using the contactless and remote controlled measuring technique. The optimal measurement conditions for detecting minute damage were found out. Because the ultrasonic wave propagating in the structure which includes the liquid was influenced the liquid, the influence was taken into account in the ultrasonic measurement. In consideration of the above result, the measuring system based on the laser Doppler vibrometer was developed and the vibration due to proton beams could be measured with sufficient accuracy to monitor the mercury target vessel. This measuring system can be applied as the monitoring system for the apparatus used under the extreme environment."
+                    },
+                    "identifiers": {
+                        "grant_number": [
+                            "23561021"
+                        ],
+                        "national_grant_number": [
+                            "JP23561021"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "kaken",
+                            "@id": "https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-23561021"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0001755/research_projects/286003",
+                    "@type": "research_projects",
+                    "@reverse": "https://api.researchmap.jp/read0001755/research_projects",
+                    "rm:id": "286003",
+                    "rm:user_id": "0000012158",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000012158",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2011-02-02T15:00:00Z",
+                    "rm:modifier_id": "0000012158",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2011-02-02T15:00:00Z",
+                    "research_project_title": {
+                        "ja": "超音波計測"
+                    },
+                    "overall_grant_amount": {
+                        "indirect_cost": "0",
+                        "total_cost": "0",
+                        "direct_cost": "0"
+                    },
+                    "fund_type": "competitive_research_funding"
+                }
+            ]
+        }
+    ]
+}

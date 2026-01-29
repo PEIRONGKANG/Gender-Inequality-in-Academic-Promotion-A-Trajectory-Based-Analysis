@@ -1,0 +1,2111 @@
+{
+    "@context": "https://api.researchmap.jp/researcher.jsonld",
+    "@id": "https://api.researchmap.jp/KG-Kobayashi?format=json",
+    "@type": "researchers",
+    "rm:user_id": "1000054468",
+    "rm:creator_id": "1000054468",
+    "rm:creator_type": "myself",
+    "rm:created": "2011-01-18T15:00:00Z",
+    "rm:modifier_id": "1000054468",
+    "rm:modifier_type": "myself",
+    "rm:modified": "2023-11-19T16:08:53Z",
+    "permalink": "KG-Kobayashi",
+    "family_name": {
+        "ja": "小林",
+        "en": "Kobayashi"
+    },
+    "given_name": {
+        "ja": "一也",
+        "en": "Kazuya"
+    },
+    "display_name_kana": "researchers_only",
+    "display_nickname": "disclosed",
+    "display_image": "researchers_only",
+    "display_contact_point": "disclosed",
+    "degrees": [
+        {
+            "degree": {
+                "ja": "工学博士",
+                "en": "Doctor of Engineering"
+            },
+            "display_degree": "disclosed",
+            "rm:institution_code": "9999999999"
+        }
+    ],
+    "display_profile": "disclosed",
+    "display_url": "disclosed",
+    "identifiers": {
+        "j_global_id": [
+            "200901043294752101"
+        ]
+    },
+    "rm:erad_id_verified": false,
+    "rm:orc_id_verified": false,
+    "display_erad_id": "closed",
+    "display_orc_id": "closed",
+    "display_researcher_id": "disclosed",
+    "display_j_global_id": "disclosed",
+    "see_also": [
+        {
+            "label": "j_global",
+            "@id": "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=200901043294752101"
+        }
+    ],
+    "@graph": [
+        {
+            "@id": "https://api.researchmap.jp/KG-Kobayashi/research_interests",
+            "@type": "research_interests",
+            "@reverse": "https://api.researchmap.jp/KG-Kobayashi",
+            "total_items": 2,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/KG-Kobayashi/research_interests/1645219",
+                    "@type": "research_interests",
+                    "@reverse": "https://api.researchmap.jp/KG-Kobayashi/research_interests",
+                    "rm:id": "1645219",
+                    "rm:user_id": "1000054468",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000054468",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2011-01-18T15:00:00Z",
+                    "rm:modifier_id": "1000054468",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2011-01-18T15:00:00Z",
+                    "keyword": {
+                        "ja": "形状モデリングシステム"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/KG-Kobayashi/research_interests/1645218",
+                    "@type": "research_interests",
+                    "@reverse": "https://api.researchmap.jp/KG-Kobayashi/research_interests",
+                    "rm:id": "1645218",
+                    "rm:user_id": "1000054468",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000054468",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2011-01-18T15:00:00Z",
+                    "rm:modifier_id": "1000054468",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2011-01-18T15:00:00Z",
+                    "keyword": {
+                        "en": "Shape Modeling System"
+                    }
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/KG-Kobayashi/research_areas",
+            "@type": "research_areas",
+            "@reverse": "https://api.researchmap.jp/KG-Kobayashi",
+            "total_items": 2,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/KG-Kobayashi/research_areas/1128751",
+                    "@type": "research_areas",
+                    "@reverse": "https://api.researchmap.jp/KG-Kobayashi/research_areas",
+                    "rm:id": "1128751",
+                    "rm:user_id": "1000054468",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000054468",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2011-01-18T15:00:00Z",
+                    "rm:modifier_id": "1000054468",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2011-01-18T15:00:00Z",
+                    "discipline_number": "A289",
+                    "item_number": "A20010",
+                    "discipline": {
+                        "ja": "情報通信",
+                        "en": "Informatics"
+                    },
+                    "research_field": {
+                        "ja": "機械力学、メカトロニクス",
+                        "en": "Mechanics and mechatronics"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/KG-Kobayashi/research_areas/1128750",
+                    "@type": "research_areas",
+                    "@reverse": "https://api.researchmap.jp/KG-Kobayashi/research_areas",
+                    "rm:id": "1128750",
+                    "rm:user_id": "1000054468",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000054468",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2011-01-18T15:00:00Z",
+                    "rm:modifier_id": "1000054468",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2011-01-18T15:00:00Z",
+                    "discipline_number": "A289",
+                    "item_number": "A20020",
+                    "discipline": {
+                        "ja": "情報通信",
+                        "en": "Informatics"
+                    },
+                    "research_field": {
+                        "ja": "ロボティクス、知能機械システム",
+                        "en": "Robotics and intelligent systems"
+                    }
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/KG-Kobayashi/published_papers",
+            "@type": "published_papers",
+            "@reverse": "https://api.researchmap.jp/KG-Kobayashi",
+            "total_items": 3,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/KG-Kobayashi/published_papers/24886969",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/KG-Kobayashi/published_papers",
+                    "rm:id": "24886969",
+                    "rm:user_id": "1000054468",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_papers",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-03-24T19:24:37Z",
+                    "rm:modifier_id": "ai:assign_based_papers",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-03-24T19:24:37Z",
+                    "paper_title": {
+                        "ja": "Geometric Modelling with Generalized Topology and Geometry for Product Engineering",
+                        "en": "Geometric Modelling with Generalized Topology and Geometry for Product Engineering"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "Yasushi YAMAGUCHI"
+                            },
+                            {
+                                "name": "Kazuya KOBAYASHI"
+                            },
+                            {
+                                "name": "Fumihiko KIMURA"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Yasushi YAMAGUCHI"
+                            },
+                            {
+                                "name": "Kazuya KOBAYASHI"
+                            },
+                            {
+                                "name": "Fumihiko KIMURA"
+                            }
+                        ]
+                    },
+                    "publication_date": "1991",
+                    "publication_name": {
+                        "ja": "Product Modeling for Computer-Aided Design",
+                        "en": "Product Modeling for Computer-Aided Design"
+                    },
+                    "starting_page": "99",
+                    "ending_page": "115",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/KG-Kobayashi/published_papers/24886970",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/KG-Kobayashi/published_papers",
+                    "rm:id": "24886970",
+                    "rm:user_id": "1000054468",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_papers",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-03-24T19:24:37Z",
+                    "rm:modifier_id": "ai:assign_based_papers",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-03-24T19:24:37Z",
+                    "paper_title": {
+                        "ja": "Free-Form Surface Modelling for Complicated Product Description",
+                        "en": "Free-Form Surface Modelling for Complicated Product Description"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "Fumihiko KIMURA"
+                            },
+                            {
+                                "name": "Yasushi YAMAGUCHI"
+                            },
+                            {
+                                "name": "Kazuya KOBAYASHI"
+                            },
+                            {
+                                "name": "Hiroshi NAKAJIMA"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Fumihiko KIMURA"
+                            },
+                            {
+                                "name": "Yasushi YAMAGUCHI"
+                            },
+                            {
+                                "name": "Kazuya KOBAYASHI"
+                            },
+                            {
+                                "name": "Hiroshi NAKAJIMA"
+                            }
+                        ]
+                    },
+                    "publication_date": "1990",
+                    "publication_name": {
+                        "ja": "Annals of CIRP",
+                        "en": "Annals of CIRP"
+                    },
+                    "volume": "39",
+                    "number": "1",
+                    "starting_page": "125",
+                    "ending_page": "128",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1016/S0007-8506(07)61017-8"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1016/S0007-8506(07)61017-8",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/KG-Kobayashi/published_papers/24886968",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/KG-Kobayashi/published_papers",
+                    "rm:id": "24886968",
+                    "rm:user_id": "1000054468",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_papers",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-03-24T19:24:37Z",
+                    "rm:modifier_id": "ai:assign_based_papers",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-03-24T19:24:37Z",
+                    "paper_title": {
+                        "ja": "New Features of Geometric Modelling for Product Description",
+                        "en": "New Features of Geometric Modelling for Product Description"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "Fumihiko KIMURA"
+                            },
+                            {
+                                "name": "Yasushi YAMAGUCHI"
+                            },
+                            {
+                                "name": "Kazuya KOBAYASHI"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Fumihiko KIMURA"
+                            },
+                            {
+                                "name": "Yasushi YAMAGUCHI"
+                            },
+                            {
+                                "name": "Kazuya KOBAYASHI"
+                            }
+                        ]
+                    },
+                    "publication_date": "1990",
+                    "publication_name": {
+                        "ja": "Advanced Geometric Modelling for Engineering Applications",
+                        "en": "Advanced Geometric Modelling for Engineering Applications"
+                    },
+                    "starting_page": "35",
+                    "ending_page": "52",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "rm:is_open_access": false
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/KG-Kobayashi/misc",
+            "@type": "misc",
+            "@reverse": "https://api.researchmap.jp/KG-Kobayashi",
+            "total_items": 28,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/KG-Kobayashi/misc/44057612",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/KG-Kobayashi/misc",
+                    "rm:id": "44057612",
+                    "rm:user_id": "1000054468",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000054468",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2023-11-17T01:04:01Z",
+                    "rm:modifier_id": "1000054468",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2023-11-17T01:04:01Z",
+                    "paper_title": {
+                        "ja": "t-FFDによる3Dモデルへの半自動的なシボ形状付与"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "嶋田 知明"
+                            },
+                            {
+                                "name": "小林 一也"
+                            },
+                            {
+                                "name": "大坪 克俊"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "ja": "近年の材料加工装置の精密化により、モデルデータからカッターパスを算出し、表面形状を加工することが可能である。そこで、本研究は画像から取得した、シボ形状をはじめとする凹凸を3Dモデルの表面に半自動的な手法で付与することを目的とする。計算処理にはFree Form Deformation (t-FFD)におけるモデル頂点同士の対応付け処理を使用し、各頂点の移動ベクトルを決定した。ユーザーの入力の手間を軽減しつつ歪みの少ない凹凸模様の付与に成功した。"
+                    },
+                    "publisher": {
+                        "ja": "公益社団法人 精密工学会"
+                    },
+                    "publication_date": "2017",
+                    "publication_name": {
+                        "ja": "精密工学会学術講演会講演論文集"
+                    },
+                    "volume": "2017S",
+                    "starting_page": "613",
+                    "ending_page": "614",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.11522/pscjspe.2017s.0_613"
+                        ],
+                        "cinii_na_id": [
+                            "130006043856"
+                        ],
+                        "cinii_cr_id": [
+                            "1390001205659629312"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.11522/pscjspe.2017s.0_613",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_research",
+                            "@id": "https://cir.nii.ac.jp/crid/1390001205659629312?lang=ja",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/KG-Kobayashi/misc/44057607",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/KG-Kobayashi/misc",
+                    "rm:id": "44057607",
+                    "rm:user_id": "1000054468",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000054468",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2023-11-17T01:04:00Z",
+                    "rm:modifier_id": "1000054468",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2023-11-17T01:04:00Z",
+                    "paper_title": {
+                        "en": "An Application for 3D Grain Generation Based on t-FFD"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Shimada Chiaki"
+                            },
+                            {
+                                "name": "Kobayashi Kazuya G."
+                            },
+                            {
+                                "name": "Ootsubo Katsutoshi"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "This study aims to generate grain forms on 3D models by applying Free Form Deformation (t-FFD). As the fully automated placement of grain patterns on curved surfaces tends to generate distorted grain patterns, we propose a method of semi-automatically placing grain patterns, based on simple inputs from the user, as well as of controlling the heights of grain patterns in real sizes in reference to the model sizes. The proposed method has proved to successful in placing the desired grain forms."
+                    },
+                    "publisher": {
+                        "en": "Fuji Technology Press Ltd."
+                    },
+                    "publication_date": "2016-03-05",
+                    "publication_name": {
+                        "en": "International Journal of Automation Technology"
+                    },
+                    "volume": "10",
+                    "number": "2",
+                    "starting_page": "214",
+                    "ending_page": "221",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.20965/ijat.2016.p0214"
+                        ],
+                        "issn": [
+                            "1881-7629"
+                        ],
+                        "e_issn": [
+                            "1883-8022"
+                        ],
+                        "cinii_na_id": [
+                            "130007674028"
+                        ],
+                        "cinii_cr_id": [
+                            "1390845713081518720"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.20965/ijat.2016.p0214",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_research",
+                            "@id": "https://cir.nii.ac.jp/crid/1390845713081518720?lang=ja",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "https://www.fujipress.jp/main/wp-content/themes/Fujipress/phyosetsu.php?ppno=IJATE001000020011",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "http://id.ndl.go.jp/bib/027190448",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/KG-Kobayashi/misc/44057611",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/KG-Kobayashi/misc",
+                    "rm:id": "44057611",
+                    "rm:user_id": "1000054468",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000054468",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2023-11-17T01:04:01Z",
+                    "rm:modifier_id": "1000054468",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2023-11-17T01:04:01Z",
+                    "paper_title": {
+                        "ja": "デジタル粘土操作インタフェースHASHIの開発"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "森脇 彬"
+                            },
+                            {
+                                "name": "遠藤 聖也"
+                            },
+                            {
+                                "name": "小林 一也"
+                            },
+                            {
+                                "name": "大坪 克俊"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "ja": "近年、技術革新により普及した3Dプリンタを個人が気軽に扱えるようにするためには、3Dデータを作るハードルを下げなければならない。そこで、一般ユーザーがモデリングの知識や慣れを必要としなくとも、直感的な操作で扱える3Dモデリングインタフェースの開発を行った。AR（拡張現実）を利用しPC画面上に表示したデジタルな粘土を、箸によるつまむ・ちぎる・ならすといった動作で変形できるインタフェースを実現する。"
+                    },
+                    "publisher": {
+                        "ja": "公益社団法人 精密工学会"
+                    },
+                    "publication_date": "2015",
+                    "publication_name": {
+                        "ja": "精密工学会学術講演会講演論文集"
+                    },
+                    "volume": "2015S",
+                    "starting_page": "467",
+                    "ending_page": "468",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.11522/pscjspe.2015s.0_467"
+                        ],
+                        "cinii_na_id": [
+                            "130005486343"
+                        ],
+                        "cinii_cr_id": [
+                            "1390001205657274624"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.11522/pscjspe.2015s.0_467",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_research",
+                            "@id": "https://cir.nii.ac.jp/crid/1390001205657274624?lang=ja",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/KG-Kobayashi/misc/44057610",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/KG-Kobayashi/misc",
+                    "rm:id": "44057610",
+                    "rm:user_id": "1000054468",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000054468",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2023-11-17T01:04:01Z",
+                    "rm:modifier_id": "1000054468",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2023-11-17T01:04:01Z",
+                    "paper_title": {
+                        "ja": "自由形状モデリングにおける簡易変形操作の研究"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "遠藤 聖也"
+                            },
+                            {
+                                "name": "森脇 彬"
+                            },
+                            {
+                                "name": "小林 一也"
+                            },
+                            {
+                                "name": "大坪 克俊"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "ja": "本研究は、実物の測定により得られた三角形メッシュモデルを対象とし、変形操作を支援するシステムを提案する。変形の領域と変形量に関する入力操作を少なくすることで、使いやすいシステムの実現を目指す。変形領域は、モデル頂点での曲率変化量に基づき、候補を提示する。変形は、ここでは押し込み・引っ張りの操作に限定し、変形候補を数パターン提示することで簡易に変形後のモデルを得られるようにする。"
+                    },
+                    "publisher": {
+                        "ja": "公益社団法人 精密工学会"
+                    },
+                    "publication_date": "2015",
+                    "publication_name": {
+                        "ja": "精密工学会学術講演会講演論文集"
+                    },
+                    "volume": "2015S",
+                    "starting_page": "465",
+                    "ending_page": "466",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.11522/pscjspe.2015s.0_465"
+                        ],
+                        "cinii_na_id": [
+                            "130005486342"
+                        ],
+                        "cinii_cr_id": [
+                            "1390001205657273472"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.11522/pscjspe.2015s.0_465",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_research",
+                            "@id": "https://cir.nii.ac.jp/crid/1390001205657273472?lang=ja",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/KG-Kobayashi/misc/44057606",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/KG-Kobayashi/misc",
+                    "rm:id": "44057606",
+                    "rm:user_id": "1000054468",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000054468",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2023-11-17T01:04:00Z",
+                    "rm:modifier_id": "1000054468",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2023-11-17T01:04:00Z",
+                    "paper_title": {
+                        "ja": "A Development of Tailor-Made Design System for Arm Brace"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "Katsutoshi Ootsubo"
+                            },
+                            {
+                                "name": "Kazuya G. Kobayashi"
+                            },
+                            {
+                                "name": "Ken Yamaguchi"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "CAD Solutions, LLC"
+                    },
+                    "publication_date": "2014-04-16",
+                    "publication_name": {
+                        "ja": "Computer-Aided Design and Applications"
+                    },
+                    "volume": "11",
+                    "number": "5",
+                    "starting_page": "526",
+                    "ending_page": "532",
+                    "referee": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1080/16864360.2014.902682",
+                            "10.1541/ieejeiss.137.459_references_DOI_HLFKb7V9v2NmrXeDVmeuoWSzcR6"
+                        ],
+                        "e_issn": [
+                            "1686-4360"
+                        ],
+                        "cinii_cr_id": [
+                            "1360292618852209024"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1080/16864360.2014.902682",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1541/ieejeiss.137.459_references_DOI_HLFKb7V9v2NmrXeDVmeuoWSzcR6",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_research",
+                            "@id": "https://cir.nii.ac.jp/crid/1360292618852209024?lang=ja",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "http://www.tandfonline.com/doi/pdf/10.1080/16864360.2014.902682",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/KG-Kobayashi/misc/44057614",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/KG-Kobayashi/misc",
+                    "rm:id": "44057614",
+                    "rm:user_id": "1000054468",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000054468",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2023-11-17T01:04:01Z",
+                    "rm:modifier_id": "1000054468",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2023-11-17T01:04:01Z",
+                    "paper_title": {
+                        "ja": "ジェスチャー入力による3次元形状の生成支援"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "藤代 大祐"
+                            },
+                            {
+                                "name": "小林 一也"
+                            },
+                            {
+                                "name": "大坪 克俊"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "ja": "設計者が両腕を使いジェスチャーをすることで実空間中の座標を取得し、イメージに近い3次元形状を対話的に作成する。得られた点群からメッシュ形状を作成するために、点群とメッシュ間に働く力を仮定し、メッシュの頂点の間隔を保つ力と、メッシュの曲率を小さくする力を考える。これを繰り返し計算により実時間で解くことで、ジェスチャーに応じてメッシュが変形していく過程を設計者に示す。"
+                    },
+                    "publisher": {
+                        "ja": "公益社団法人 精密工学会"
+                    },
+                    "publication_date": "2012",
+                    "publication_name": {
+                        "ja": "精密工学会学術講演会講演論文集"
+                    },
+                    "volume": "2012S",
+                    "starting_page": "853",
+                    "ending_page": "854",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.11522/pscjspe.2012s.0.853.0"
+                        ],
+                        "cinii_na_id": [
+                            "130005031476"
+                        ],
+                        "cinii_cr_id": [
+                            "1390282680630564480"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.11522/pscjspe.2012s.0.853.0",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_research",
+                            "@id": "https://cir.nii.ac.jp/crid/1390282680630564480?lang=ja",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/KG-Kobayashi/misc/44057609",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/KG-Kobayashi/misc",
+                    "rm:id": "44057609",
+                    "rm:user_id": "1000054468",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000054468",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2023-11-17T01:04:00Z",
+                    "rm:modifier_id": "1000054468",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2023-11-17T01:04:00Z",
+                    "paper_title": {
+                        "ja": "公共交通におけるサービス工学の適用の可能性の検討",
+                        "en": "A Study on Possible Application of Service Engineering for Public Transportations"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "小林 一也"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Kobayashi G. Kazuya"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "ja": "公共交通とは，不特定多数の利用者を対象に輸送サービスを提供するものであり，継続して安全な輸送を行なうことが求められる．一方，経済発展にともなうモータリゼーションの進展で，駅・停留所や運行ダイヤの制約が大きい公共交通の利用率が低下し，独立採算を前提とした運営が成り立ちにくくなっている．ここでは，都市の活力を維持する社会インフラとして再評価されつつある公共交通を対象に，利便性と採算性の向上に資するサービス工学の手法を適用する方策について検討する．"
+                    },
+                    "publisher": {
+                        "ja": "公益社団法人 精密工学会",
+                        "en": "The Japan Society for Precision Engineering"
+                    },
+                    "publication_date": "2012",
+                    "publication_name": {
+                        "ja": "精密工学会学術講演会講演論文集",
+                        "en": "Proceedings of JSPE Semestrial Meeting"
+                    },
+                    "volume": "2012A",
+                    "starting_page": "249",
+                    "ending_page": "250",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.11522/pscjspe.2012a.0.249.0"
+                        ],
+                        "cinii_na_id": [
+                            "130004660628"
+                        ],
+                        "cinii_cr_id": [
+                            "1390001205656600064"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.11522/pscjspe.2012a.0.249.0",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_research",
+                            "@id": "https://cir.nii.ac.jp/crid/1390001205656600064?lang=ja",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/KG-Kobayashi/misc/44057608",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/KG-Kobayashi/misc",
+                    "rm:id": "44057608",
+                    "rm:user_id": "1000054468",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000054468",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2023-11-17T01:04:00Z",
+                    "rm:modifier_id": "1000054468",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2023-11-17T01:04:00Z",
+                    "paper_title": {
+                        "ja": "デジタルスタイルデザインのための形状変形",
+                        "en": "Shape Deformation Techniques for Digital Style Design"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "小林 一也"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "KOBAYASHI Kazuya G."
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "公益社団法人 精密工学会",
+                        "en": "The Japan Society for Precision Engineering"
+                    },
+                    "publication_date": "2007",
+                    "publication_name": {
+                        "ja": "精密工学会誌",
+                        "en": "Journal of the Japan Society for Precision Engineering"
+                    },
+                    "volume": "73",
+                    "number": "12",
+                    "starting_page": "1304",
+                    "ending_page": "1307",
+                    "referee": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.2493/jjspe.73.1304"
+                        ],
+                        "issn": [
+                            "0912-0289"
+                        ],
+                        "e_issn": [
+                            "1882-675X"
+                        ],
+                        "cinii_na_id": [
+                            "110006546612"
+                        ],
+                        "cinii_nc_id": [
+                            "AN1003250X"
+                        ],
+                        "cinii_cr_id": [
+                            "1390001204796314112"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.2493/jjspe.73.1304",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_books",
+                            "@id": "http://ci.nii.ac.jp/ncid/AN1003250X",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_research",
+                            "@id": "https://cir.nii.ac.jp/crid/1390001204796314112?lang=ja",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "http://id.ndl.go.jp/bib/9304306",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/KG-Kobayashi/misc/44057613",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/KG-Kobayashi/misc",
+                    "rm:id": "44057613",
+                    "rm:user_id": "1000054468",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000054468",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2023-11-17T01:04:01Z",
+                    "rm:modifier_id": "1000054468",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2023-11-17T01:04:01Z",
+                    "paper_title": {
+                        "ja": "3112 オーダーメイド下着のための人体形状モデリング(OS19 形状モデリングと産業応用(I)リバースエンジニアリング,未来社会を支えるものづくりとひとづくり(設計・システムから))",
+                        "en": "3112 Shape Modeling of Human Body for Tailor-Made Undergarments"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "小林 一也"
+                            },
+                            {
+                                "name": "市澤 太朗"
+                            },
+                            {
+                                "name": "大坪 克俊"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "KOBAYASHI Kazuya G."
+                            },
+                            {
+                                "name": "Ichizawa Taro"
+                            },
+                            {
+                                "name": "OOTSUBO Katsutoshi"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "Reverse engineering is applied to design tailor-made undergarments, such as brassieres, girdles, and so on. A 3D scanning device has been used to measure the human body shape of a customer. However, it is not sufficient to know the size or shape of a body for well-fitted undergarments, because the customer wants to know how the body is constricted and reformed by those products. We propose a real-time simulation system of body deformation according to the type and tightness of undergarments. It is intended that our system is used by apparel shop clerks to show the simulation result to customers and to take orders."
+                    },
+                    "publisher": {
+                        "ja": "一般社団法人 日本機械学会",
+                        "en": "The Japan Society of Mechanical Engineers"
+                    },
+                    "publication_date": "2006",
+                    "publication_name": {
+                        "ja": "設計工学・システム部門講演会講演論文集",
+                        "en": "The Proceedings of Design & Systems Conference"
+                    },
+                    "volume": "2006.16",
+                    "starting_page": "280",
+                    "ending_page": "281",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1299/jsmedsd.2006.16.280"
+                        ],
+                        "e_issn": [
+                            "2424-3078"
+                        ],
+                        "cinii_na_id": [
+                            "110006637448"
+                        ],
+                        "cinii_cr_id": [
+                            "1390001205892180224"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1299/jsmedsd.2006.16.280",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_research",
+                            "@id": "https://cir.nii.ac.jp/crid/1390001205892180224?lang=ja",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "https://www.jstage.jst.go.jp/article/jsmedsd/2006.16/0/2006.16_280/_pdf",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/KG-Kobayashi/misc/44057615",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/KG-Kobayashi/misc",
+                    "rm:id": "44057615",
+                    "rm:user_id": "1000054468",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000054468",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2023-11-17T01:04:01Z",
+                    "rm:modifier_id": "1000054468",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2023-11-17T01:04:01Z",
+                    "paper_title": {
+                        "ja": "概略形状の設計法に関する研究",
+                        "en": "Simple Operations for 3D Shape Deformation"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "藤井 みゆき"
+                            },
+                            {
+                                "name": "小林 一也"
+                            },
+                            {
+                                "name": "松田 三知子"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Fujii Miyuki"
+                            },
+                            {
+                                "name": "Kazuya G.Kobayashi"
+                            },
+                            {
+                                "name": "Matsuda Michiko"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "In this paper, an operations method for 3D shape deformation using skeleton and imaginary-force is proposed.R ough shape is expressed triangular mesh.Th is method is applicable to the design process at an early stage when a rough shape is given but an exact shape is not yet fixed. Shape of triangular mesh model is formed some skeletons which put inside of the triangular mesh model. When a designer operates on the skeleton, the triangular mesh model deforms by following the skeleton. At that time, imaginary-forces such as coniraciion, smooihness, a repulsion force from the skeleton and inhibition affect on the surface of the triangularm esh model,d etarmine as hape of the triangular mesh model by balancing these imaginary-forces. A designer inputs coefficients for each force and the number of repetitions for the calculations. Here, balancing of the imaginary-force is calculated automatically. The triangular mesh model representation with skeleton,an operations method of deformation,a nd example!': are shown."
+                    },
+                    "publisher": {
+                        "ja": "神奈川工科大学"
+                    },
+                    "publication_date": "2003-03-20",
+                    "publication_name": {
+                        "ja": "神奈川工科大学研究報告.B,理工学編"
+                    },
+                    "volume": "27",
+                    "starting_page": "61",
+                    "ending_page": "66",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.34411/00000928"
+                        ],
+                        "issn": [
+                            "0916-1902"
+                        ],
+                        "cinii_na_id": [
+                            "120001086328"
+                        ],
+                        "cinii_nc_id": [
+                            "AN10074179"
+                        ],
+                        "cinii_cr_id": [
+                            "1390290699837028352"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.34411/00000928",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_books",
+                            "@id": "http://ci.nii.ac.jp/ncid/AN10074179",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_research",
+                            "@id": "https://cir.nii.ac.jp/crid/1390290699837028352?lang=ja",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "https://kait.repo.nii.ac.jp/records/935",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "http://id.ndl.go.jp/bib/6529946",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "http://hdl.handle.net/10368/945",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/KG-Kobayashi/misc/44057605",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/KG-Kobayashi/misc",
+                    "rm:id": "44057605",
+                    "rm:user_id": "1000054468",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000054468",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2023-11-17T01:04:00Z",
+                    "rm:modifier_id": "1000054468",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2023-11-17T01:04:00Z",
+                    "paper_title": {
+                        "en": "t-FFD : Free-Form Deformation by using Triangular Mesh"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "KOBAYASHI Kazuya G."
+                            }
+                        ]
+                    },
+                    "publication_date": "2003",
+                    "publication_name": {
+                        "en": "Proc. ACM Symposium on Solid Modeling and Applications'03"
+                    },
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "cinii_na_id": [
+                            "10018851049"
+                        ],
+                        "cinii_cr_id": [
+                            "1573668925127917312"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_research",
+                            "@id": "https://cir.nii.ac.jp/crid/1573668925127917312?lang=ja",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/KG-Kobayashi/misc/44057616",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/KG-Kobayashi/misc",
+                    "rm:id": "44057616",
+                    "rm:user_id": "1000054468",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000054468",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2023-11-17T01:04:01Z",
+                    "rm:modifier_id": "1000054468",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2023-11-17T01:04:01Z",
+                    "paper_title": {
+                        "ja": "F-0626 テンセグリティモデルの形状設計への応用(J18-1 ITによる設計支援環境)(J18 21世紀のITとモノづくり)",
+                        "en": "F-0626 An Application of Tensegrity Model for Shape Modeling"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "小林 一也"
+                            },
+                            {
+                                "name": "坂井 昭吾"
+                            },
+                            {
+                                "name": "大坪 克俊"
+                            },
+                            {
+                                "name": "藤井 みゆき"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "KOBAYASHI Kazuya G."
+                            },
+                            {
+                                "name": "SAKAI Shogo"
+                            },
+                            {
+                                "name": "OOTSUBO Katsutoshi"
+                            },
+                            {
+                                "name": "FUJII Miyuki"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "Tensegrity is a kind of building structure which is composed of strain parts and compression parts. A cell of living things is thought to have the similar structure, which enables to deform its shape according to the surroundings. We applies the tensegrity structure to a shape model for 3D free-form modeling; e.g., representation of flexible objects such as rubber hose, automatic shape generation between form features, etc. The purpose of our research is to show effectiveness of the tensegrity model for shape modeling."
+                    },
+                    "publisher": {
+                        "ja": "一般社団法人 日本機械学会",
+                        "en": "The Japan Society of Mechanical Engineers"
+                    },
+                    "publication_date": "2001",
+                    "publication_name": {
+                        "ja": "年次大会講演論文集",
+                        "en": "The proceedings of the JSME annual meeting"
+                    },
+                    "volume": "VI.01.1",
+                    "starting_page": "45",
+                    "ending_page": "46",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1299/jsmemecjo.vi.01.1.0_45"
+                        ],
+                        "e_issn": [
+                            "2433-1325"
+                        ],
+                        "cinii_na_id": [
+                            "110002527392"
+                        ],
+                        "cinii_cr_id": [
+                            "1390282681043524480"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1299/jsmemecjo.vi.01.1.0_45",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_research",
+                            "@id": "https://cir.nii.ac.jp/crid/1390282681043524480?lang=ja",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "https://www.jstage.jst.go.jp/article/jsmemecjo/VI.01.1/0/VI.01.1_45/_pdf",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/KG-Kobayashi/misc/15083451",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/KG-Kobayashi/misc",
+                    "rm:id": "15083451",
+                    "rm:user_id": "1000054468",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000054468",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2011-01-18T15:00:00Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-07-24T00:33:14Z",
+                    "paper_title": {
+                        "ja": "三角形パッチモデリング"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "藤井みゆき"
+                            }
+                        ]
+                    },
+                    "publication_date": "1996",
+                    "publication_name": {
+                        "ja": "第14回設計シンポジウム(日本人工知能学会)"
+                    },
+                    "starting_page": "80",
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "cinii_na_id": [
+                            "10004154685"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/10004154685",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/KG-Kobayashi/misc/15083443",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/KG-Kobayashi/misc",
+                    "rm:id": "15083443",
+                    "rm:user_id": "1000054468",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000054468",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2011-01-18T15:00:00Z",
+                    "rm:modifier_id": "1000054468",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2011-01-18T15:00:00Z",
+                    "paper_title": {
+                        "en": "Triangular Patch Modeling"
+                    },
+                    "publication_date": "1996",
+                    "publication_name": {
+                        "en": "The 14th Design Symposium (Japan Artificial Intelligence Society)"
+                    },
+                    "starting_page": "80",
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/KG-Kobayashi/misc/15083449",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/KG-Kobayashi/misc",
+                    "rm:id": "15083449",
+                    "rm:user_id": "1000054468",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000054468",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2011-01-18T15:00:00Z",
+                    "rm:modifier_id": "1000054468",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2011-01-18T15:00:00Z",
+                    "paper_title": {
+                        "ja": "ゆるい制約条件を満たす形状決定(共著)"
+                    },
+                    "publication_date": "1994",
+                    "publication_name": {
+                        "ja": "第12回設計シンポジウム(精密工学会)"
+                    },
+                    "starting_page": "129",
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/KG-Kobayashi/misc/15083441",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/KG-Kobayashi/misc",
+                    "rm:id": "15083441",
+                    "rm:user_id": "1000054468",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000054468",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2011-01-18T15:00:00Z",
+                    "rm:modifier_id": "1000054468",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2011-01-18T15:00:00Z",
+                    "paper_title": {
+                        "en": "Shape Design with Satisfying Loose Constraints"
+                    },
+                    "publication_date": "1994",
+                    "publication_name": {
+                        "en": "The 12th Design Symposium (Japan Society of Precision Engineering)"
+                    },
+                    "starting_page": "129",
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/KG-Kobayashi/misc/15083448",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/KG-Kobayashi/misc",
+                    "rm:id": "15083448",
+                    "rm:user_id": "1000054468",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000054468",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2011-01-18T15:00:00Z",
+                    "rm:modifier_id": "1000054468",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2011-01-18T15:00:00Z",
+                    "paper_title": {
+                        "ja": "STEPにおける幾何・位相モデル"
+                    },
+                    "publication_date": "1993",
+                    "publication_name": {
+                        "ja": "精密工学会誌"
+                    },
+                    "volume": "59",
+                    "number": "12",
+                    "starting_page": "31",
+                    "ending_page": "36",
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/KG-Kobayashi/misc/15083447",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/KG-Kobayashi/misc",
+                    "rm:id": "15083447",
+                    "rm:user_id": "1000054468",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000054468",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2011-01-18T15:00:00Z",
+                    "rm:modifier_id": "1000054468",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2011-01-18T15:00:00Z",
+                    "paper_title": {
+                        "ja": "形状モデラのための基本インタフェース"
+                    },
+                    "publication_date": "1993",
+                    "publication_name": {
+                        "ja": "富山県立大学紀要"
+                    },
+                    "volume": "3,77-82",
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/KG-Kobayashi/misc/15083446",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/KG-Kobayashi/misc",
+                    "rm:id": "15083446",
+                    "rm:user_id": "1000054468",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000054468",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2011-01-18T15:00:00Z",
+                    "rm:modifier_id": "1000054468",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2011-01-18T15:00:00Z",
+                    "paper_title": {
+                        "ja": "STEP規格の構成と構造"
+                    },
+                    "publication_date": "1993",
+                    "publication_name": {
+                        "ja": "設計とCAD,朝倉書店"
+                    },
+                    "volume": "108-122",
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/KG-Kobayashi/misc/15083440",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/KG-Kobayashi/misc",
+                    "rm:id": "15083440",
+                    "rm:user_id": "1000054468",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000054468",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2011-01-18T15:00:00Z",
+                    "rm:modifier_id": "1000054468",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2011-01-18T15:00:00Z",
+                    "paper_title": {
+                        "en": "Geometry and Topology Model in STEP"
+                    },
+                    "publication_date": "1993",
+                    "publication_name": {
+                        "en": "Journal of Japan Society of Precision Engineering"
+                    },
+                    "volume": "59",
+                    "number": "12",
+                    "starting_page": "31",
+                    "ending_page": "36",
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/KG-Kobayashi/books_etc",
+            "@type": "books_etc",
+            "@reverse": "https://api.researchmap.jp/KG-Kobayashi",
+            "total_items": 7,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/KG-Kobayashi/books_etc/2388653",
+                    "@type": "books_etc",
+                    "@reverse": "https://api.researchmap.jp/KG-Kobayashi/books_etc",
+                    "rm:id": "2388653",
+                    "rm:user_id": "1000054468",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000054468",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2011-01-18T15:00:00Z",
+                    "rm:modifier_id": "1000054468",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2011-01-18T15:00:00Z",
+                    "book_title": {
+                        "ja": "迅速試作のための概念データモデル"
+                    },
+                    "publication_date": "2001",
+                    "referee": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/KG-Kobayashi/books_etc/2388650",
+                    "@type": "books_etc",
+                    "@reverse": "https://api.researchmap.jp/KG-Kobayashi/books_etc",
+                    "rm:id": "2388650",
+                    "rm:user_id": "1000054468",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000054468",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2011-01-18T15:00:00Z",
+                    "rm:modifier_id": "1000054468",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2011-01-18T15:00:00Z",
+                    "book_title": {
+                        "en": "A Conceptual Data Model for Advanced Rapid Prototyping"
+                    },
+                    "publisher": {
+                        "en": "Initiatives of Precision Engineering at the Beginning of a Millennium(Kluwer Academic Publisher)"
+                    },
+                    "publication_date": "2001",
+                    "referee": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/KG-Kobayashi/books_etc/2388652",
+                    "@type": "books_etc",
+                    "@reverse": "https://api.researchmap.jp/KG-Kobayashi/books_etc",
+                    "rm:id": "2388652",
+                    "rm:user_id": "1000054468",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000054468",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2011-01-18T15:00:00Z",
+                    "rm:modifier_id": "1000054468",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2011-01-18T15:00:00Z",
+                    "book_title": {
+                        "ja": "VRML環境における形状モデルのデータ共有法"
+                    },
+                    "publication_date": "1998",
+                    "referee": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/KG-Kobayashi/books_etc/2388649",
+                    "@type": "books_etc",
+                    "@reverse": "https://api.researchmap.jp/KG-Kobayashi/books_etc",
+                    "rm:id": "2388649",
+                    "rm:user_id": "1000054468",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000054468",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2011-01-18T15:00:00Z",
+                    "rm:modifier_id": "1000054468",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2011-01-18T15:00:00Z",
+                    "book_title": {
+                        "en": "Data Sharing of Shape Model with VRML Environment"
+                    },
+                    "publisher": {
+                        "en": "Globalization of Manufacturing in the Digital Communications Era of the 21st Century(Kluwer Academic Publisher)"
+                    },
+                    "publication_date": "1998",
+                    "referee": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/KG-Kobayashi/books_etc/2388648",
+                    "@type": "books_etc",
+                    "@reverse": "https://api.researchmap.jp/KG-Kobayashi/books_etc",
+                    "rm:id": "2388648",
+                    "rm:user_id": "1000054468",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000054468",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2011-01-18T15:00:00Z",
+                    "rm:modifier_id": "1000054468",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2011-01-18T15:00:00Z",
+                    "book_title": {
+                        "en": "B-rep Modeling with Global Modification"
+                    },
+                    "publisher": {
+                        "en": "Rapid Product Development (Chapman & Hall)"
+                    },
+                    "publication_date": "1997",
+                    "referee": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/KG-Kobayashi/books_etc/2388651",
+                    "@type": "books_etc",
+                    "@reverse": "https://api.researchmap.jp/KG-Kobayashi/books_etc",
+                    "rm:id": "2388651",
+                    "rm:user_id": "1000054468",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000054468",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2011-01-18T15:00:00Z",
+                    "rm:modifier_id": "1000054468",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2011-01-18T15:00:00Z",
+                    "book_title": {
+                        "ja": "富山大百科事典(分担)"
+                    },
+                    "publisher": {
+                        "ja": "北日本新聞社"
+                    },
+                    "publication_date": "1994",
+                    "referee": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/KG-Kobayashi/books_etc/2388647",
+                    "@type": "books_etc",
+                    "@reverse": "https://api.researchmap.jp/KG-Kobayashi/books_etc",
+                    "rm:id": "2388647",
+                    "rm:user_id": "1000054468",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000054468",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2011-01-18T15:00:00Z",
+                    "rm:modifier_id": "1000054468",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2011-01-18T15:00:00Z",
+                    "book_title": {
+                        "en": "Toyama Encyclopedia (partial contribution)"
+                    },
+                    "publisher": {
+                        "en": "Kita-nihon Newspaper"
+                    },
+                    "publication_date": "1994",
+                    "referee": false
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/KG-Kobayashi/association_memberships",
+            "@type": "association_memberships",
+            "@reverse": "https://api.researchmap.jp/KG-Kobayashi",
+            "total_items": 4,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/KG-Kobayashi/association_memberships/1670540",
+                    "@type": "association_memberships",
+                    "@reverse": "https://api.researchmap.jp/KG-Kobayashi/association_memberships",
+                    "rm:id": "1670540",
+                    "rm:user_id": "1000054468",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000054468",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2011-01-18T15:00:00Z",
+                    "rm:modifier_id": "1000054468",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2011-01-18T15:00:00Z",
+                    "academic_society_name": {
+                        "ja": "IEEE CG&A (The Institute of Electrical and Electronics Engineers Inc., Computer Graphics and Applications)"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/KG-Kobayashi/association_memberships/1670539",
+                    "@type": "association_memberships",
+                    "@reverse": "https://api.researchmap.jp/KG-Kobayashi/association_memberships",
+                    "rm:id": "1670539",
+                    "rm:user_id": "1000054468",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000054468",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2011-01-18T15:00:00Z",
+                    "rm:modifier_id": "1000054468",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2011-01-18T15:00:00Z",
+                    "academic_society_name": {
+                        "ja": "ACM SIGGRAPH (Association for Computing Machinery, Special Interest Group on GRAPHics)"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/KG-Kobayashi/association_memberships/1670538",
+                    "@type": "association_memberships",
+                    "@reverse": "https://api.researchmap.jp/KG-Kobayashi/association_memberships",
+                    "rm:id": "1670538",
+                    "rm:user_id": "1000054468",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000054468",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2011-01-18T15:00:00Z",
+                    "rm:modifier_id": "1000054468",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2011-01-18T15:00:00Z",
+                    "academic_society_name": {
+                        "ja": "情報処理学会"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/KG-Kobayashi/association_memberships/1670537",
+                    "@type": "association_memberships",
+                    "@reverse": "https://api.researchmap.jp/KG-Kobayashi/association_memberships",
+                    "rm:id": "1670537",
+                    "rm:user_id": "1000054468",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000054468",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2011-01-18T15:00:00Z",
+                    "rm:modifier_id": "1000054468",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2011-01-18T15:00:00Z",
+                    "academic_society_name": {
+                        "ja": "精密工学会"
+                    }
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/KG-Kobayashi/works",
+            "@type": "works",
+            "@reverse": "https://api.researchmap.jp/KG-Kobayashi",
+            "total_items": 10,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/KG-Kobayashi/works/1198844",
+                    "@type": "works",
+                    "@reverse": "https://api.researchmap.jp/KG-Kobayashi/works",
+                    "rm:id": "1198844",
+                    "rm:user_id": "1000054468",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000054468",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2011-01-18T15:00:00Z",
+                    "rm:modifier_id": "1000054468",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2011-01-18T15:00:00Z",
+                    "work_title": {
+                        "ja": "産学官共同研究プロジェクト事業「バーチャルリアリティを応用した地場工芸品提示システムの開発研究」委員"
+                    },
+                    "from_date": "1995",
+                    "to_date": "1997"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/KG-Kobayashi/works/1198838",
+                    "@type": "works",
+                    "@reverse": "https://api.researchmap.jp/KG-Kobayashi/works",
+                    "rm:id": "1198838",
+                    "rm:user_id": "1000054468",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000054468",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2011-01-18T15:00:00Z",
+                    "rm:modifier_id": "1000054468",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2011-01-18T15:00:00Z",
+                    "work_title": {
+                        "en": "Research and Development of Presentation System of Provincial Artifact based on Virtual Reality"
+                    },
+                    "from_date": "1995",
+                    "to_date": "1997"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/KG-Kobayashi/works/1198842",
+                    "@type": "works",
+                    "@reverse": "https://api.researchmap.jp/KG-Kobayashi/works",
+                    "rm:id": "1198842",
+                    "rm:user_id": "1000054468",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000054468",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2011-01-18T15:00:00Z",
+                    "rm:modifier_id": "1000054468",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2011-01-18T15:00:00Z",
+                    "work_title": {
+                        "ja": "ハイタッチ・ハイフィンクションデザインシステム開発プロジェクト研究会 委員"
+                    },
+                    "from_date": "1992",
+                    "to_date": "1995"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/KG-Kobayashi/works/1198836",
+                    "@type": "works",
+                    "@reverse": "https://api.researchmap.jp/KG-Kobayashi/works",
+                    "rm:id": "1198836",
+                    "rm:user_id": "1000054468",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000054468",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2011-01-18T15:00:00Z",
+                    "rm:modifier_id": "1000054468",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2011-01-18T15:00:00Z",
+                    "work_title": {
+                        "en": "Development Project for a High-Touch and High-Function Design System"
+                    },
+                    "from_date": "1992",
+                    "to_date": "1995"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/KG-Kobayashi/works/1198843",
+                    "@type": "works",
+                    "@reverse": "https://api.researchmap.jp/KG-Kobayashi/works",
+                    "rm:id": "1198843",
+                    "rm:user_id": "1000054468",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000054468",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2011-01-18T15:00:00Z",
+                    "rm:modifier_id": "1000054468",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2011-01-18T15:00:00Z",
+                    "work_title": {
+                        "ja": "STEP JIS原案作成委員会 第42分科会 主査"
+                    },
+                    "from_date": "1994"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/KG-Kobayashi/works/1198837",
+                    "@type": "works",
+                    "@reverse": "https://api.researchmap.jp/KG-Kobayashi/works",
+                    "rm:id": "1198837",
+                    "rm:user_id": "1000054468",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000054468",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2011-01-18T15:00:00Z",
+                    "rm:modifier_id": "1000054468",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2011-01-18T15:00:00Z",
+                    "work_title": {
+                        "en": "Chairman of the 42 Sub Comittee of STEP JIS Draft Committee"
+                    },
+                    "from_date": "1994"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/KG-Kobayashi/works/1198841",
+                    "@type": "works",
+                    "@reverse": "https://api.researchmap.jp/KG-Kobayashi/works",
+                    "rm:id": "1198841",
+                    "rm:user_id": "1000054468",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000054468",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2011-01-18T15:00:00Z",
+                    "rm:modifier_id": "1000054468",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2011-01-18T15:00:00Z",
+                    "work_title": {
+                        "ja": "工業標準化委託調査研究「CAD/CAMデータ交換の標準化に関する調査研究」形状表現WG 主査"
+                    },
+                    "from_date": "1993"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/KG-Kobayashi/works/1198840",
+                    "@type": "works",
+                    "@reverse": "https://api.researchmap.jp/KG-Kobayashi/works",
+                    "rm:id": "1198840",
+                    "rm:user_id": "1000054468",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000054468",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2011-01-18T15:00:00Z",
+                    "rm:modifier_id": "1000054468",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2011-01-18T15:00:00Z",
+                    "work_title": {
+                        "ja": "平成3年度工業標準化委託調査研究「CAD/CAMデータ交換の標準化に関する調査研究」基本仕様・言語分科会基本仕様WG 委員"
+                    },
+                    "from_date": "1991"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/KG-Kobayashi/works/1198839",
+                    "@type": "works",
+                    "@reverse": "https://api.researchmap.jp/KG-Kobayashi/works",
+                    "rm:id": "1198839",
+                    "rm:user_id": "1000054468",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000054468",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2011-01-18T15:00:00Z",
+                    "rm:modifier_id": "1000054468",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2011-01-18T15:00:00Z",
+                    "work_title": {
+                        "ja": "ISO TC184/SC4/WGs STEP(製品データの交換標準)への貢献"
+                    },
+                    "from_date": "1990"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/KG-Kobayashi/works/1198835",
+                    "@type": "works",
+                    "@reverse": "https://api.researchmap.jp/KG-Kobayashi/works",
+                    "rm:id": "1198835",
+                    "rm:user_id": "1000054468",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000054468",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2011-01-18T15:00:00Z",
+                    "rm:modifier_id": "1000054468",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2011-01-18T15:00:00Z",
+                    "work_title": {
+                        "en": "Contributions for STEP (ISO TC184/SC4/WGs, Standard for The Exchange of Product Model Data)"
+                    },
+                    "from_date": "1990"
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/KG-Kobayashi/research_projects",
+            "@type": "research_projects",
+            "@reverse": "https://api.researchmap.jp/KG-Kobayashi",
+            "total_items": 4,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/KG-Kobayashi/research_projects/2409676",
+                    "@type": "research_projects",
+                    "@reverse": "https://api.researchmap.jp/KG-Kobayashi/research_projects",
+                    "rm:id": "2409676",
+                    "rm:user_id": "1000054468",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000054468",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2011-01-18T15:00:00Z",
+                    "rm:modifier_id": "1000054468",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2011-01-18T15:00:00Z",
+                    "research_project_title": {
+                        "ja": "仮想的な力に基づく自由形状モデリング"
+                    },
+                    "overall_grant_amount": {
+                        "indirect_cost": "0",
+                        "total_cost": "0",
+                        "direct_cost": "0"
+                    },
+                    "fund_type": "competitive_research_funding"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/KG-Kobayashi/research_projects/2409675",
+                    "@type": "research_projects",
+                    "@reverse": "https://api.researchmap.jp/KG-Kobayashi/research_projects",
+                    "rm:id": "2409675",
+                    "rm:user_id": "1000054468",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000054468",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2011-01-18T15:00:00Z",
+                    "rm:modifier_id": "1000054468",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2011-01-18T15:00:00Z",
+                    "research_project_title": {
+                        "ja": "製品モデルデータの交換標準の開発および実装"
+                    },
+                    "overall_grant_amount": {
+                        "indirect_cost": "0",
+                        "total_cost": "0",
+                        "direct_cost": "0"
+                    },
+                    "fund_type": "competitive_research_funding"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/KG-Kobayashi/research_projects/2409674",
+                    "@type": "research_projects",
+                    "@reverse": "https://api.researchmap.jp/KG-Kobayashi/research_projects",
+                    "rm:id": "2409674",
+                    "rm:user_id": "1000054468",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000054468",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2011-01-18T15:00:00Z",
+                    "rm:modifier_id": "1000054468",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2011-01-18T15:00:00Z",
+                    "research_project_title": {
+                        "en": "Free From Shape Modeleng based on Pseudo Forces"
+                    },
+                    "overall_grant_amount": {
+                        "indirect_cost": "0",
+                        "total_cost": "0",
+                        "direct_cost": "0"
+                    },
+                    "fund_type": "competitive_research_funding"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/KG-Kobayashi/research_projects/2409673",
+                    "@type": "research_projects",
+                    "@reverse": "https://api.researchmap.jp/KG-Kobayashi/research_projects",
+                    "rm:id": "2409673",
+                    "rm:user_id": "1000054468",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000054468",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2011-01-18T15:00:00Z",
+                    "rm:modifier_id": "1000054468",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2011-01-18T15:00:00Z",
+                    "research_project_title": {
+                        "en": "A Development of Standard for the Exchange of Product Model Date and its Implementation"
+                    },
+                    "overall_grant_amount": {
+                        "indirect_cost": "0",
+                        "total_cost": "0",
+                        "direct_cost": "0"
+                    },
+                    "fund_type": "competitive_research_funding"
+                }
+            ]
+        }
+    ]
+}

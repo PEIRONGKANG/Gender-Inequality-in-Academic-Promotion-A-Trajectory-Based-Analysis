@@ -1,0 +1,2793 @@
+{
+    "@context": "https://api.researchmap.jp/researcher.jsonld",
+    "@id": "https://api.researchmap.jp/read0008206?format=json",
+    "@type": "researchers",
+    "rm:user_id": "1000015277",
+    "rm:creator_id": "1000015277",
+    "rm:creator_type": "myself",
+    "rm:created": "2007-10-29T15:00:00Z",
+    "rm:modifier_id": "client_id:9999999999",
+    "rm:modifier_type": "institution",
+    "rm:modified": "2022-09-28T00:19:34Z",
+    "permalink": "read0008206",
+    "family_name": {
+        "ja": "津田",
+        "ja-Kana": "ツダ",
+        "en": "Tsuda"
+    },
+    "given_name": {
+        "ja": "健",
+        "ja-Kana": "ケン",
+        "en": "Ken"
+    },
+    "display_name_kana": "disclosed",
+    "display_nickname": "disclosed",
+    "display_image": "disclosed",
+    "display_contact_point": "disclosed",
+    "affiliations": [
+        {
+            "display_job": "disclosed",
+            "affiliation": {
+                "ja": "東京工業大学",
+                "en": "Tokyo Institute of Technology"
+            },
+            "section": {
+                "en": "Collaboration Center for Design and Manufacturing"
+            },
+            "job": {
+                "ja": "名誉教授",
+                "en": "Professor Emeritus"
+            },
+            "display_affiliation": "disclosed",
+            "rm:institution_code": "0550000000"
+        }
+    ],
+    "degrees": [
+        {
+            "degree": {
+                "ja": "工学博士"
+            },
+            "display_degree": "disclosed",
+            "rm:institution_code": "9999999999"
+        },
+        {
+            "degree": {
+                "ja": "工学修士"
+            },
+            "display_degree": "disclosed",
+            "rm:institution_code": "9999999999"
+        }
+    ],
+    "display_profile": "disclosed",
+    "display_url": "closed",
+    "identifiers": {
+        "j_global_id": [
+            "200901040775669640"
+        ]
+    },
+    "rm:erad_id_verified": false,
+    "rm:orc_id_verified": false,
+    "display_erad_id": "closed",
+    "display_orc_id": "closed",
+    "display_researcher_id": "disclosed",
+    "display_j_global_id": "disclosed",
+    "see_also": [
+        {
+            "label": "j_global",
+            "@id": "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=200901040775669640"
+        }
+    ],
+    "@graph": [
+        {
+            "@id": "https://api.researchmap.jp/read0008206/research_areas",
+            "@type": "research_areas",
+            "@reverse": "https://api.researchmap.jp/read0008206",
+            "total_items": 3,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0008206/research_areas/6696485",
+                    "@type": "research_areas",
+                    "@reverse": "https://api.researchmap.jp/read0008206/research_areas",
+                    "rm:id": "6696485",
+                    "rm:user_id": "1000015277",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2017-04-08T17:59:20Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2017-04-08T17:59:20Z",
+                    "discipline_number": "A489",
+                    "item_number": "A35010",
+                    "discipline": {
+                        "ja": "ナノテク・材料",
+                        "en": "Nanotechnology/Materials"
+                    },
+                    "research_field": {
+                        "ja": "高分子化学",
+                        "en": "Polymer chemistry"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008206/research_areas/6696484",
+                    "@type": "research_areas",
+                    "@reverse": "https://api.researchmap.jp/read0008206/research_areas",
+                    "rm:id": "6696484",
+                    "rm:user_id": "1000015277",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2017-04-08T17:59:20Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2017-04-08T17:59:20Z",
+                    "discipline_number": "A689",
+                    "item_number": "A27010",
+                    "discipline": {
+                        "ja": "ものづくり技術（機械・電気電子・化学工学）",
+                        "en": "Manufacturing technology (mechanical, electrical/electronic, chemical engineering)"
+                    },
+                    "research_field": {
+                        "ja": "移動現象、単位操作",
+                        "en": "Transfer phenomena and unit operations"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008206/research_areas/6696483",
+                    "@type": "research_areas",
+                    "@reverse": "https://api.researchmap.jp/read0008206/research_areas",
+                    "rm:id": "6696483",
+                    "rm:user_id": "1000015277",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2017-04-08T17:59:20Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2017-04-08T17:59:20Z",
+                    "discipline_number": "A489",
+                    "item_number": "A26030",
+                    "discipline": {
+                        "ja": "ナノテク・材料",
+                        "en": "Nanotechnology/Materials"
+                    },
+                    "research_field": {
+                        "ja": "複合材料、界面",
+                        "en": "Composite materials and interfaces"
+                    }
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0008206/research_experience",
+            "@type": "research_experience",
+            "@reverse": "https://api.researchmap.jp/read0008206",
+            "total_items": 3,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0008206/research_experience/16912958",
+                    "@type": "research_experience",
+                    "@reverse": "https://api.researchmap.jp/read0008206/research_experience",
+                    "rm:id": "16912958",
+                    "rm:user_id": "1000015277",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2017-04-08T17:59:20Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2017-04-08T17:59:20Z",
+                    "from_date": "1994",
+                    "rm:institution_code": "0192000000",
+                    "affiliation": {
+                        "ja": "東京工業大学",
+                        "en": "Tokyo Institute of Technology"
+                    },
+                    "job": {
+                        "ja": "教授"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008206/research_experience/16912959",
+                    "@type": "research_experience",
+                    "@reverse": "https://api.researchmap.jp/read0008206/research_experience",
+                    "rm:id": "16912959",
+                    "rm:user_id": "1000015277",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2017-04-08T17:59:20Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2017-04-08T17:59:20Z",
+                    "from_date": "1985",
+                    "rm:institution_code": "0192000000",
+                    "affiliation": {
+                        "ja": "東京工業大学",
+                        "en": "Tokyo Institute of Technology"
+                    },
+                    "job": {
+                        "ja": "助教授"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008206/research_experience/16912960",
+                    "@type": "research_experience",
+                    "@reverse": "https://api.researchmap.jp/read0008206/research_experience",
+                    "rm:id": "16912960",
+                    "rm:user_id": "1000015277",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2017-04-08T17:59:20Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2017-04-08T17:59:20Z",
+                    "from_date": "1971",
+                    "rm:institution_code": "0192000000",
+                    "affiliation": {
+                        "ja": "東京工業大学",
+                        "en": "Tokyo Institute of Technology"
+                    },
+                    "job": {
+                        "ja": "助手"
+                    }
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0008206/education",
+            "@type": "education",
+            "@reverse": "https://api.researchmap.jp/read0008206",
+            "total_items": 4,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0008206/education/14545760",
+                    "@type": "education",
+                    "@reverse": "https://api.researchmap.jp/read0008206/education",
+                    "rm:id": "14545760",
+                    "rm:user_id": "1000015277",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2017-04-08T17:59:20Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2017-04-08T17:59:20Z",
+                    "to_date": "1971",
+                    "rm:institution_code": "0192000000",
+                    "affiliation": {
+                        "ja": "東京工業大学",
+                        "en": "Tokyo Institute of Technology"
+                    },
+                    "department": {
+                        "en": "Graduate School, Division of Science and Engineering"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008206/education/14545758",
+                    "@type": "education",
+                    "@reverse": "https://api.researchmap.jp/read0008206/education",
+                    "rm:id": "14545758",
+                    "rm:user_id": "1000015277",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2017-04-08T17:59:20Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2017-04-08T17:59:20Z",
+                    "to_date": "1971",
+                    "rm:institution_code": "0192050000",
+                    "affiliation": {
+                        "ja": "東京工業大学",
+                        "en": "Tokyo Institute of Technology"
+                    },
+                    "department": {
+                        "ja": "理工学研究科",
+                        "en": "Science of Engineering"
+                    },
+                    "course": {
+                        "ja": "化学工学"
+                    },
+                    "address_country": "JPN"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008206/education/14545761",
+                    "@type": "education",
+                    "@reverse": "https://api.researchmap.jp/read0008206/education",
+                    "rm:id": "14545761",
+                    "rm:user_id": "1000015277",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2017-04-08T17:59:20Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2017-04-08T17:59:20Z",
+                    "to_date": "1966",
+                    "rm:institution_code": "0336000000",
+                    "affiliation": {
+                        "ja": "広島大学",
+                        "en": "Hiroshima University"
+                    },
+                    "department": {
+                        "en": "Faculty of Engineering"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008206/education/14545759",
+                    "@type": "education",
+                    "@reverse": "https://api.researchmap.jp/read0008206/education",
+                    "rm:id": "14545759",
+                    "rm:user_id": "1000015277",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2017-04-08T17:59:20Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2017-04-08T17:59:20Z",
+                    "to_date": "1966",
+                    "rm:institution_code": "0336010000",
+                    "affiliation": {
+                        "ja": "広島大学",
+                        "en": "Hiroshima University"
+                    },
+                    "department": {
+                        "ja": "工学部",
+                        "en": "Faculty of Engineering"
+                    },
+                    "course": {
+                        "ja": "化学工学"
+                    },
+                    "address_country": "JPN"
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0008206/committee_memberships",
+            "@type": "committee_memberships",
+            "@reverse": "https://api.researchmap.jp/read0008206",
+            "total_items": 9,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0008206/committee_memberships/4273003",
+                    "@type": "committee_memberships",
+                    "@reverse": "https://api.researchmap.jp/read0008206/committee_memberships",
+                    "rm:id": "4273003",
+                    "rm:user_id": "1000015277",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2017-04-08T17:59:20Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2017-04-08T17:59:20Z",
+                    "from_date": "2003",
+                    "to_date": "2005",
+                    "committee_name": {
+                        "ja": "会長"
+                    },
+                    "association": {
+                        "ja": "日本海水学会"
+                    },
+                    "description": {
+                        "ja": "日本海水学会"
+                    },
+                    "committee_type": "society"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008206/committee_memberships/4273000",
+                    "@type": "committee_memberships",
+                    "@reverse": "https://api.researchmap.jp/read0008206/committee_memberships",
+                    "rm:id": "4273000",
+                    "rm:user_id": "1000015277",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2017-04-08T17:59:20Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2017-04-08T17:59:20Z",
+                    "from_date": "2001",
+                    "to_date": "2005",
+                    "committee_name": {
+                        "ja": "副会長"
+                    },
+                    "association": {
+                        "ja": "日本材料科学会"
+                    },
+                    "description": {
+                        "ja": "日本材料科学会"
+                    },
+                    "committee_type": "society"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008206/committee_memberships/4273002",
+                    "@type": "committee_memberships",
+                    "@reverse": "https://api.researchmap.jp/read0008206/committee_memberships",
+                    "rm:id": "4273002",
+                    "rm:user_id": "1000015277",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2017-04-08T17:59:20Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2017-04-08T17:59:20Z",
+                    "from_date": "1998",
+                    "to_date": "2005",
+                    "committee_name": {
+                        "ja": "理事"
+                    },
+                    "association": {
+                        "ja": "日本海水学会"
+                    },
+                    "description": {
+                        "ja": "日本海水学会"
+                    },
+                    "committee_type": "society"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008206/committee_memberships/4272999",
+                    "@type": "committee_memberships",
+                    "@reverse": "https://api.researchmap.jp/read0008206/committee_memberships",
+                    "rm:id": "4272999",
+                    "rm:user_id": "1000015277",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2017-04-08T17:59:20Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2017-04-08T17:59:20Z",
+                    "from_date": "2005",
+                    "committee_name": {
+                        "ja": "会長"
+                    },
+                    "association": {
+                        "ja": "日本材料科学会"
+                    },
+                    "description": {
+                        "ja": "日本材料科学会"
+                    },
+                    "committee_type": "society"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008206/committee_memberships/4273004",
+                    "@type": "committee_memberships",
+                    "@reverse": "https://api.researchmap.jp/read0008206/committee_memberships",
+                    "rm:id": "4273004",
+                    "rm:user_id": "1000015277",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2017-04-08T17:59:20Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2017-04-08T17:59:20Z",
+                    "from_date": "2001",
+                    "to_date": "2003",
+                    "committee_name": {
+                        "ja": "副会長"
+                    },
+                    "association": {
+                        "ja": "日本海水学会"
+                    },
+                    "description": {
+                        "ja": "日本海水学会"
+                    },
+                    "committee_type": "society"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008206/committee_memberships/4273006",
+                    "@type": "committee_memberships",
+                    "@reverse": "https://api.researchmap.jp/read0008206/committee_memberships",
+                    "rm:id": "4273006",
+                    "rm:user_id": "1000015277",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2017-04-08T17:59:20Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2017-04-08T17:59:20Z",
+                    "from_date": "1996",
+                    "to_date": "1997",
+                    "committee_name": {
+                        "ja": "部門長"
+                    },
+                    "association": {
+                        "ja": "日本機械学会"
+                    },
+                    "description": {
+                        "ja": "日本機械学会"
+                    },
+                    "committee_type": "society"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008206/committee_memberships/4273005",
+                    "@type": "committee_memberships",
+                    "@reverse": "https://api.researchmap.jp/read0008206/committee_memberships",
+                    "rm:id": "4273005",
+                    "rm:user_id": "1000015277",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2017-04-08T17:59:20Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2017-04-08T17:59:20Z",
+                    "from_date": "1996",
+                    "to_date": "1997",
+                    "committee_name": {
+                        "ja": "化学装置材料委員会委員長"
+                    },
+                    "association": {
+                        "ja": "化学工学会"
+                    },
+                    "description": {
+                        "ja": "化学工学会"
+                    },
+                    "committee_type": "society"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008206/committee_memberships/4273001",
+                    "@type": "committee_memberships",
+                    "@reverse": "https://api.researchmap.jp/read0008206/committee_memberships",
+                    "rm:id": "4273001",
+                    "rm:user_id": "1000015277",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2017-04-08T17:59:20Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2017-04-08T17:59:20Z",
+                    "from_date": "1996",
+                    "to_date": "1997",
+                    "committee_name": {
+                        "ja": "理事"
+                    },
+                    "association": {
+                        "ja": "腐食防食協会"
+                    },
+                    "description": {
+                        "ja": "腐食防食協会"
+                    },
+                    "committee_type": "society"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008206/committee_memberships/4272998",
+                    "@type": "committee_memberships",
+                    "@reverse": "https://api.researchmap.jp/read0008206/committee_memberships",
+                    "rm:id": "4272998",
+                    "rm:user_id": "1000015277",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2017-04-08T17:59:20Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2017-04-08T17:59:20Z",
+                    "from_date": "1991",
+                    "committee_name": {
+                        "ja": "理事"
+                    },
+                    "association": {
+                        "ja": "日本材料科学会"
+                    },
+                    "description": {
+                        "ja": "日本材料科学会"
+                    },
+                    "committee_type": "society"
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0008206/awards",
+            "@type": "awards",
+            "@reverse": "https://api.researchmap.jp/read0008206",
+            "total_items": 9,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0008206/awards/2070916",
+                    "@type": "awards",
+                    "@reverse": "https://api.researchmap.jp/read0008206/awards",
+                    "rm:id": "2070916",
+                    "rm:user_id": "1000015277",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2017-04-08T17:59:20Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2017-04-08T17:59:20Z",
+                    "award_name": {
+                        "ja": "マテリアルライフ学会総説賞"
+                    },
+                    "award_date": "2005",
+                    "address_country": "JPN"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008206/awards/2070915",
+                    "@type": "awards",
+                    "@reverse": "https://api.researchmap.jp/read0008206/awards",
+                    "rm:id": "2070915",
+                    "rm:user_id": "1000015277",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2017-04-08T17:59:20Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2017-04-08T17:59:20Z",
+                    "award_name": {
+                        "ja": "日本機械学会 産業化学・機械部門 功績賞"
+                    },
+                    "award_date": "2002",
+                    "address_country": "JPN"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008206/awards/2070914",
+                    "@type": "awards",
+                    "@reverse": "https://api.researchmap.jp/read0008206/awards",
+                    "rm:id": "2070914",
+                    "rm:user_id": "1000015277",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2017-04-08T17:59:20Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2017-04-08T17:59:20Z",
+                    "award_name": {
+                        "ja": "腐食防食協会技術賞"
+                    },
+                    "award_date": "2002",
+                    "address_country": "JPN"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008206/awards/2070913",
+                    "@type": "awards",
+                    "@reverse": "https://api.researchmap.jp/read0008206/awards",
+                    "rm:id": "2070913",
+                    "rm:user_id": "1000015277",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2017-04-08T17:59:20Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2017-04-08T17:59:20Z",
+                    "award_name": {
+                        "ja": "安全工学協会 論文賞"
+                    },
+                    "award_date": "1996",
+                    "address_country": "JPN"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008206/awards/2070912",
+                    "@type": "awards",
+                    "@reverse": "https://api.researchmap.jp/read0008206/awards",
+                    "rm:id": "2070912",
+                    "rm:user_id": "1000015277",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2017-04-08T17:59:20Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2017-04-08T17:59:20Z",
+                    "award_name": {
+                        "ja": "強化プラスチック協会 功績賞"
+                    },
+                    "award_date": "1994",
+                    "address_country": "JPN"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008206/awards/2070911",
+                    "@type": "awards",
+                    "@reverse": "https://api.researchmap.jp/read0008206/awards",
+                    "rm:id": "2070911",
+                    "rm:user_id": "1000015277",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2017-04-08T17:59:20Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2017-04-08T17:59:20Z",
+                    "award_name": {
+                        "ja": "日本材料科学会 功績賞"
+                    },
+                    "award_date": "1989",
+                    "address_country": "JPN"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008206/awards/2070910",
+                    "@type": "awards",
+                    "@reverse": "https://api.researchmap.jp/read0008206/awards",
+                    "rm:id": "2070910",
+                    "rm:user_id": "1000015277",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2017-04-08T17:59:20Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2017-04-08T17:59:20Z",
+                    "award_name": {
+                        "ja": "日本材料科学会 論文賞"
+                    },
+                    "award_date": "1989",
+                    "address_country": "JPN"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008206/awards/2070909",
+                    "@type": "awards",
+                    "@reverse": "https://api.researchmap.jp/read0008206/awards",
+                    "rm:id": "2070909",
+                    "rm:user_id": "1000015277",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2017-04-08T17:59:20Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2017-04-08T17:59:20Z",
+                    "award_name": {
+                        "ja": "安全工学協会 論文賞"
+                    },
+                    "award_date": "1988",
+                    "address_country": "JPN"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008206/awards/2070908",
+                    "@type": "awards",
+                    "@reverse": "https://api.researchmap.jp/read0008206/awards",
+                    "rm:id": "2070908",
+                    "rm:user_id": "1000015277",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2017-04-08T17:59:20Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2017-04-08T17:59:20Z",
+                    "award_name": {
+                        "ja": "強化プラスチック協会賞(論文賞)"
+                    },
+                    "award_date": "1987",
+                    "address_country": "JPN"
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0008206/misc",
+            "@type": "misc",
+            "@reverse": "https://api.researchmap.jp/read0008206",
+            "total_items": 283,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0008206/misc/22178292",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0008206/misc",
+                    "rm:id": "22178292",
+                    "rm:user_id": "1000015277",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2017-04-08T17:59:20Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-05-11T14:03:49Z",
+                    "paper_title": {
+                        "en": "Performance of epoxy-nanocomposite under corrosive environment"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "N. Abacha"
+                            },
+                            {
+                                "name": "M. Kubouchi"
+                            },
+                            {
+                                "name": "K. Tsuda"
+                            },
+                            {
+                                "name": "T. Sakai"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "Nanocomposite materials consisting of polymeric matrix materials and natural or synthetic layered minerals like clay are currently an expanding field of study because these new materials often exhibit a wide range of improved properties over their unmodified starting polymers. Epoxy/organoclay nanocomposites have been prepared by intercalating epoxy into the organoclay via direct mixing process. The clay exfoliation was monitored by X-ray diffraction (XRD) and transmission electron microscopy (TEM). Water diffusion and sulfuric acid corrosion resistance of epoxy-based nanocomposites were evaluated. Diffusion was studied through epoxy samples containing up to 6 phr (parts per hundred resin) of an organically treated montmorillonite. The diffusion of the environmental solution was measured by noting the increase in weight of the samples as a function of immersion time in these solutions at 80 C. The effect of the degree of exfoliation of the organoclay on water barrier and corrosion resistance was specifically studied. The data have been compared to those obtained from the neat epoxy resin to evaluate the diffusion properties of the nanocomposites. The flexural strength of the epoxy/organoclay nanocomposites samples made was examined to compare their mechanical performance under corrosive conditions as a function of immersion time and temperature. It was found, that the organoclay was mainly intercalated with some exfoliation and that addition of the organoclay yields better flexural strength retention under immersion into sulfuric acid."
+                    },
+                    "publisher": {
+                        "en": "BUDAPEST UNIV TECHNOL & ECON"
+                    },
+                    "publication_date": "2007-06",
+                    "publication_name": {
+                        "en": "EXPRESS POLYMER LETTERS"
+                    },
+                    "volume": "1",
+                    "number": "6",
+                    "starting_page": "364",
+                    "ending_page": "369",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.3144/expresspolymlett.2007.51"
+                        ],
+                        "issn": [
+                            "1788-618X"
+                        ],
+                        "wos_id": [
+                            "WOS:000206188700005"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.3144/expresspolymlett.2007.51",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000206188700005&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008206/misc/22178189",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0008206/misc",
+                    "rm:id": "22178189",
+                    "rm:user_id": "1000015277",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2017-04-08T17:59:20Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-05-11T14:03:49Z",
+                    "paper_title": {
+                        "en": "Performance of epoxy-nanocomposite under corrosive environment"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "N. Abacha"
+                            },
+                            {
+                                "name": "M. Kubouchi"
+                            },
+                            {
+                                "name": "K. Tsuda"
+                            },
+                            {
+                                "name": "T. Sakai"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "Nanocomposite materials consisting of polymeric matrix materials and natural or synthetic layered minerals like clay are currently an expanding field of study because these new materials often exhibit a wide range of improved properties over their unmodified starting polymers. Epoxy/organoclay nanocomposites have been prepared by intercalating epoxy into the organoclay via direct mixing process. The clay exfoliation was monitored by X-ray diffraction (XRD) and transmission electron microscopy (TEM). Water diffusion and sulfuric acid corrosion resistance of epoxy-based nanocomposites were evaluated. Diffusion was studied through epoxy samples containing up to 6 phr (parts per hundred resin) of an organically treated montmorillonite. The diffusion of the environmental solution was measured by noting the increase in weight of the samples as a function of immersion time in these solutions at 80 C. The effect of the degree of exfoliation of the organoclay on water barrier and corrosion resistance was specifically studied. The data have been compared to those obtained from the neat epoxy resin to evaluate the diffusion properties of the nanocomposites. The flexural strength of the epoxy/organoclay nanocomposites samples made was examined to compare their mechanical performance under corrosive conditions as a function of immersion time and temperature. It was found, that the organoclay was mainly intercalated with some exfoliation and that addition of the organoclay yields better flexural strength retention under immersion into sulfuric acid."
+                    },
+                    "publisher": {
+                        "en": "BUDAPEST UNIV TECHNOL & ECON"
+                    },
+                    "publication_date": "2007-06",
+                    "publication_name": {
+                        "en": "EXPRESS POLYMER LETTERS"
+                    },
+                    "volume": "1",
+                    "number": "6",
+                    "starting_page": "364",
+                    "ending_page": "369",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.3144/expresspolymlett.2007.51"
+                        ],
+                        "issn": [
+                            "1788-618X"
+                        ],
+                        "wos_id": [
+                            "WOS:000206188700005"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.3144/expresspolymlett.2007.51",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000206188700005&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008206/misc/22178291",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0008206/misc",
+                    "rm:id": "22178291",
+                    "rm:user_id": "1000015277",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2017-04-08T17:59:20Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-05-11T19:28:24Z",
+                    "paper_title": {
+                        "en": "Study on permeation behavior and chemical degradation of PA66 in acid solution"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Abastari"
+                            },
+                            {
+                                "name": "Tetsuya Sakai"
+                            },
+                            {
+                                "name": "Hideki Sembokuya"
+                            },
+                            {
+                                "name": "Masatoshi Kubouchi"
+                            },
+                            {
+                                "name": "Ken Tsuda"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "In many polymers under corrosive liquids, degradation followed after permeation of environmental solution for a long period. The permeation rate of environmental solution, in many cases, is very low in corrosion-resistant polymeric materials. Therefore, the observation of the permeation of environmental solution and degradation of polymeric materials are very difficult in practical application. A simulation of permeation of solution is required in order to understand the permeation behavior of environmental solution and polymer degradation. A detailed analysis of the permeation behavior of solution accompanied by chemical reaction is important to study for improving the lifetime of polymers. Polyamide 66 (PA66) and sulfuric acid solution were used to investigate the quantitative study of permeation of environmental solution and its relation to degradation of polymeric materials. Correlation between diffusion process and degradation of PA66 related to the decrease of weight average molecular weight was defined. The diffusion rate of sulfuric acid solution was found to increase by decreasing weight average molecular weight of PA66 due to the established chain scission by hydrolysis reaction. The permeation of sulfuric acid solution that affected the decomposition reaction was modeled and quantitative evaluation of permeation of sulfuric acid was established. (c) 2006 Elsevier Ltd. All rights reserved."
+                    },
+                    "publisher": {
+                        "en": "ELSEVIER SCI LTD"
+                    },
+                    "publication_date": "2007-03",
+                    "publication_name": {
+                        "en": "POLYMER DEGRADATION AND STABILITY"
+                    },
+                    "volume": "92",
+                    "number": "3",
+                    "starting_page": "379",
+                    "ending_page": "388",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "cinii_na_id": [
+                            "80018641306"
+                        ],
+                        "doi": [
+                            "10.1016/j.polymdegradstab.2006.12.002"
+                        ],
+                        "issn": [
+                            "0141-3910"
+                        ],
+                        "wos_id": [
+                            "WOS:000244983400006"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/80018641306",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1016/j.polymdegradstab.2006.12.002",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000244983400006&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008206/misc/22178188",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0008206/misc",
+                    "rm:id": "22178188",
+                    "rm:user_id": "1000015277",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2017-04-08T17:59:20Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-05-11T19:28:24Z",
+                    "paper_title": {
+                        "en": "Study on permeation behavior and chemical degradation of PA66 in acid solution"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Abastari"
+                            },
+                            {
+                                "name": "Tetsuya Sakai"
+                            },
+                            {
+                                "name": "Hideki Sembokuya"
+                            },
+                            {
+                                "name": "Masatoshi Kubouchi"
+                            },
+                            {
+                                "name": "Ken Tsuda"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "In many polymers under corrosive liquids, degradation followed after permeation of environmental solution for a long period. The permeation rate of environmental solution, in many cases, is very low in corrosion-resistant polymeric materials. Therefore, the observation of the permeation of environmental solution and degradation of polymeric materials are very difficult in practical application. A simulation of permeation of solution is required in order to understand the permeation behavior of environmental solution and polymer degradation. A detailed analysis of the permeation behavior of solution accompanied by chemical reaction is important to study for improving the lifetime of polymers. Polyamide 66 (PA66) and sulfuric acid solution were used to investigate the quantitative study of permeation of environmental solution and its relation to degradation of polymeric materials. Correlation between diffusion process and degradation of PA66 related to the decrease of weight average molecular weight was defined. The diffusion rate of sulfuric acid solution was found to increase by decreasing weight average molecular weight of PA66 due to the established chain scission by hydrolysis reaction. The permeation of sulfuric acid solution that affected the decomposition reaction was modeled and quantitative evaluation of permeation of sulfuric acid was established. (c) 2006 Elsevier Ltd. All rights reserved."
+                    },
+                    "publisher": {
+                        "en": "ELSEVIER SCI LTD"
+                    },
+                    "publication_date": "2007-03",
+                    "publication_name": {
+                        "en": "POLYMER DEGRADATION AND STABILITY"
+                    },
+                    "volume": "92",
+                    "number": "3",
+                    "starting_page": "379",
+                    "ending_page": "388",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "cinii_na_id": [
+                            "80018641306"
+                        ],
+                        "doi": [
+                            "10.1016/j.polymdegradstab.2006.12.002"
+                        ],
+                        "issn": [
+                            "0141-3910"
+                        ],
+                        "wos_id": [
+                            "WOS:000244983400006"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/80018641306",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1016/j.polymdegradstab.2006.12.002",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000244983400006&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008206/misc/22178293",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0008206/misc",
+                    "rm:id": "22178293",
+                    "rm:user_id": "1000015277",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2017-04-08T17:59:20Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2017-04-08T17:59:20Z",
+                    "paper_title": {
+                        "en": "Effect of processing on the performance under corrosive environment of organoclay epoxy nanocomposite"
+                    },
+                    "publication_date": "2007",
+                    "starting_page": "100",
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008206/misc/22178193",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0008206/misc",
+                    "rm:id": "22178193",
+                    "rm:user_id": "1000015277",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2017-04-08T17:59:20Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2017-04-08T17:59:20Z",
+                    "paper_title": {
+                        "ja": "Effect of processing on the performance under corrosive environment of organoclay epoxy nanocomposite"
+                    },
+                    "publication_date": "2007",
+                    "publication_name": {
+                        "ja": "材料と環境2007講演集"
+                    },
+                    "starting_page": "100",
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008206/misc/22178192",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0008206/misc",
+                    "rm:id": "22178192",
+                    "rm:user_id": "1000015277",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2017-04-08T17:59:20Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2017-04-08T17:59:20Z",
+                    "paper_title": {
+                        "ja": "粉砕フィラー充填型リサイクルエポキシ樹脂の耐化学環境性"
+                    },
+                    "publication_date": "2007",
+                    "publication_name": {
+                        "ja": "化学工学会第72年会研究発表講演要旨集（ＣＤ）"
+                    },
+                    "starting_page": "B319",
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008206/misc/22178191",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0008206/misc",
+                    "rm:id": "22178191",
+                    "rm:user_id": "1000015277",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2017-04-08T17:59:20Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2017-04-08T17:59:20Z",
+                    "paper_title": {
+                        "ja": "フッ素樹脂ライニングにおける塩酸溶液および蒸気の浸透挙動"
+                    },
+                    "publication_date": "2007",
+                    "publication_name": {
+                        "ja": "化学工学会第72年会研究発表講演要旨集（ＣＤ）"
+                    },
+                    "starting_page": "B320",
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008206/misc/22178190",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0008206/misc",
+                    "rm:id": "22178190",
+                    "rm:user_id": "1000015277",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2017-04-08T17:59:20Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2017-04-08T17:59:20Z",
+                    "paper_title": {
+                        "ja": "炭素繊維強化フェノールFRPの硫酸環境下における劣化評価と寿命予測"
+                    },
+                    "publication_date": "2007",
+                    "publication_name": {
+                        "ja": "JCOM-36講演論文集-材料・構造の複合化と機能化に関するシンポジウム-"
+                    },
+                    "starting_page": "184",
+                    "ending_page": "187",
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008206/misc/22178285",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0008206/misc",
+                    "rm:id": "22178285",
+                    "rm:user_id": "1000015277",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2017-04-08T17:59:20Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-05-17T22:07:39Z",
+                    "paper_title": {
+                        "en": "In situ health monitoring of corrosion resistant polymers exposed to alkaline solutions using pH indicators"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Tomohiro Gotou"
+                            },
+                            {
+                                "name": "Masashi Noda"
+                            },
+                            {
+                                "name": "Tomonori Tomiyama"
+                            },
+                            {
+                                "name": "Hideki Sembokuya"
+                            },
+                            {
+                                "name": "Masatoshi Kubouchi"
+                            },
+                            {
+                                "name": "Ken Tsuda"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "Polymers and their composites are widely used as corrosion resistant materials in chemical plants. It is required to establish a health monitoring method for chemically exposed fiber reinforced plastic (FRP) structures. In this paper, authors proposed a new health monitoring technology that could simply detect the penetration of corrosive environment solution into plastics by using a pH indicator. At first, FRP laminates for corrosion sensing were manufactured and tested. The laminate consisted of three layers; two surface layers and one sensing layer. Each layer was made of glass mat reinforcement and unsaturated polyester (UP) resin. In the sensing layer, phenolphthalein was added to the UP resin. The laminate was immersed in sodium hydroxide (NaOH) solution. The sensor layer was colored reddish purple and it was easy to distinguish from the color before immersion. Then, detection of NaOH penetration into the UP resin was carried out by using an optical fiber and a spectrophotometer. A narrow slit was machined in an optical fiber and the slit was filled by phenolphthalein containing UP resin. This optical fiber sensor was immersed in NaOH solution. The optical fiber connected to a spectrophotometer and the transmittance was measured. It was found that the penetration of NaOH could be detected by the change in spectrum. This system may be easily applied to online health monitoring of chemical apparatus. (c) 2005 Elsevier B.V. All rights reserved."
+                    },
+                    "publisher": {
+                        "en": "ELSEVIER SCIENCE SA"
+                    },
+                    "publication_date": "2006-11",
+                    "publication_name": {
+                        "en": "SENSORS AND ACTUATORS B-CHEMICAL"
+                    },
+                    "volume": "119",
+                    "number": "1",
+                    "starting_page": "27",
+                    "ending_page": "32",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "cinii_na_id": [
+                            "80018661979"
+                        ],
+                        "doi": [
+                            "10.1016/j.snb.2005.11.035"
+                        ],
+                        "issn": [
+                            "0925-4005"
+                        ],
+                        "wos_id": [
+                            "WOS:000241197300004"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/80018661979",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1016/j.snb.2005.11.035",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000241197300004&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008206/misc/22178284",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0008206/misc",
+                    "rm:id": "22178284",
+                    "rm:user_id": "1000015277",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2017-04-08T17:59:20Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-05-16T17:40:07Z",
+                    "paper_title": {
+                        "en": "The reciprocal influence between ion transport and degradation of PA66 in acid solution"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Abastari"
+                            },
+                            {
+                                "name": "T. Sakai"
+                            },
+                            {
+                                "name": "H. Sembokuya"
+                            },
+                            {
+                                "name": "M. Kubouchi"
+                            },
+                            {
+                                "name": "K. Tsuda"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "Transport behavior of acid solution through polyamide was studied by measuring element distribution in cross section, pH, and ion concentration. Degree of degradation that related to the decreasing of molecular weight and flexural strength was observed in order to study the influence of acid solution on the polyamide 66 (PA66) degradation. The permeation mechanism of acid solution can be explained: at first water penetrates into polyamide and it is followed by acid. In this process, water does not affect the molecular weight at 50 degrees C but only reduces the polyamide strength by plasticization. Moreover, proton (H+) has contributed to the anion transport and degradation of polyamide by the hydrolytic reaction. Proton attacks the polyamide chain, and scission of chain occurs, and reacts with anion to form other material substance. This process affects the decrease of molecular weight and the significant loss of polyamide strength. Analysis results from ion concentration measurement shows that the amount of proton and anion transport into deionized waterside was imbalance, which probably due to the different mobility between proton and anion or formation of other material substance by reaction of anion and PA66 bond. Such information is not only necessary for the investigation of hydrolytic degradation of polymer and prediction of lifetimes for a protective polymer lining/coating to chemical attack, but may also be helpful towards gaining a deeper insight into the processes of degradation of other polymer. (c) 2006 Elsevier Ltd. All rights reserved."
+                    },
+                    "publisher": {
+                        "en": "ELSEVIER SCI LTD"
+                    },
+                    "publication_date": "2006-11",
+                    "publication_name": {
+                        "en": "POLYMER DEGRADATION AND STABILITY"
+                    },
+                    "volume": "91",
+                    "number": "11",
+                    "starting_page": "2595",
+                    "ending_page": "2604",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "cinii_na_id": [
+                            "80018849768"
+                        ],
+                        "doi": [
+                            "10.1016/j.polymdegradstab.2006.05.018"
+                        ],
+                        "issn": [
+                            "0141-3910"
+                        ],
+                        "wos_id": [
+                            "WOS:000241474300008"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/80018849768",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1016/j.polymdegradstab.2006.05.018",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000241474300008&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008206/misc/22178170",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0008206/misc",
+                    "rm:id": "22178170",
+                    "rm:user_id": "1000015277",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2017-04-08T17:59:20Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-05-17T22:07:39Z",
+                    "paper_title": {
+                        "en": "In situ health monitoring of corrosion resistant polymers exposed to alkaline solutions using pH indicators"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Tomohiro Gotou"
+                            },
+                            {
+                                "name": "Masashi Noda"
+                            },
+                            {
+                                "name": "Tomonori Tomiyama"
+                            },
+                            {
+                                "name": "Hideki Sembokuya"
+                            },
+                            {
+                                "name": "Masatoshi Kubouchi"
+                            },
+                            {
+                                "name": "Ken Tsuda"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "Polymers and their composites are widely used as corrosion resistant materials in chemical plants. It is required to establish a health monitoring method for chemically exposed fiber reinforced plastic (FRP) structures. In this paper, authors proposed a new health monitoring technology that could simply detect the penetration of corrosive environment solution into plastics by using a pH indicator. At first, FRP laminates for corrosion sensing were manufactured and tested. The laminate consisted of three layers; two surface layers and one sensing layer. Each layer was made of glass mat reinforcement and unsaturated polyester (UP) resin. In the sensing layer, phenolphthalein was added to the UP resin. The laminate was immersed in sodium hydroxide (NaOH) solution. The sensor layer was colored reddish purple and it was easy to distinguish from the color before immersion. Then, detection of NaOH penetration into the UP resin was carried out by using an optical fiber and a spectrophotometer. A narrow slit was machined in an optical fiber and the slit was filled by phenolphthalein containing UP resin. This optical fiber sensor was immersed in NaOH solution. The optical fiber connected to a spectrophotometer and the transmittance was measured. It was found that the penetration of NaOH could be detected by the change in spectrum. This system may be easily applied to online health monitoring of chemical apparatus. (c) 2005 Elsevier B.V. All rights reserved."
+                    },
+                    "publisher": {
+                        "en": "ELSEVIER SCIENCE SA"
+                    },
+                    "publication_date": "2006-11",
+                    "publication_name": {
+                        "en": "SENSORS AND ACTUATORS B-CHEMICAL"
+                    },
+                    "volume": "119",
+                    "number": "1",
+                    "starting_page": "27",
+                    "ending_page": "32",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "cinii_na_id": [
+                            "80018661979"
+                        ],
+                        "doi": [
+                            "10.1016/j.snb.2005.11.035"
+                        ],
+                        "issn": [
+                            "0925-4005"
+                        ],
+                        "wos_id": [
+                            "WOS:000241197300004"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/80018661979",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1016/j.snb.2005.11.035",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000241197300004&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008206/misc/22178169",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0008206/misc",
+                    "rm:id": "22178169",
+                    "rm:user_id": "1000015277",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2017-04-08T17:59:20Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-05-16T17:40:07Z",
+                    "paper_title": {
+                        "en": "The reciprocal influence between ion transport and degradation of PA66 in acid solution"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Abastari"
+                            },
+                            {
+                                "name": "T. Sakai"
+                            },
+                            {
+                                "name": "H. Sembokuya"
+                            },
+                            {
+                                "name": "M. Kubouchi"
+                            },
+                            {
+                                "name": "K. Tsuda"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "Transport behavior of acid solution through polyamide was studied by measuring element distribution in cross section, pH, and ion concentration. Degree of degradation that related to the decreasing of molecular weight and flexural strength was observed in order to study the influence of acid solution on the polyamide 66 (PA66) degradation. The permeation mechanism of acid solution can be explained: at first water penetrates into polyamide and it is followed by acid. In this process, water does not affect the molecular weight at 50 degrees C but only reduces the polyamide strength by plasticization. Moreover, proton (H+) has contributed to the anion transport and degradation of polyamide by the hydrolytic reaction. Proton attacks the polyamide chain, and scission of chain occurs, and reacts with anion to form other material substance. This process affects the decrease of molecular weight and the significant loss of polyamide strength. Analysis results from ion concentration measurement shows that the amount of proton and anion transport into deionized waterside was imbalance, which probably due to the different mobility between proton and anion or formation of other material substance by reaction of anion and PA66 bond. Such information is not only necessary for the investigation of hydrolytic degradation of polymer and prediction of lifetimes for a protective polymer lining/coating to chemical attack, but may also be helpful towards gaining a deeper insight into the processes of degradation of other polymer. (c) 2006 Elsevier Ltd. All rights reserved."
+                    },
+                    "publisher": {
+                        "en": "ELSEVIER SCI LTD"
+                    },
+                    "publication_date": "2006-11",
+                    "publication_name": {
+                        "en": "POLYMER DEGRADATION AND STABILITY"
+                    },
+                    "volume": "91",
+                    "number": "11",
+                    "starting_page": "2595",
+                    "ending_page": "2604",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "cinii_na_id": [
+                            "80018849768"
+                        ],
+                        "doi": [
+                            "10.1016/j.polymdegradstab.2006.05.018"
+                        ],
+                        "issn": [
+                            "0141-3910"
+                        ],
+                        "wos_id": [
+                            "WOS:000241474300008"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/80018849768",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1016/j.polymdegradstab.2006.05.018",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000241474300008&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008206/misc/22178283",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0008206/misc",
+                    "rm:id": "22178283",
+                    "rm:user_id": "1000015277",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2017-04-08T17:59:20Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-05-17T18:56:56Z",
+                    "paper_title": {
+                        "en": "On-line monitoring of epoxy resin exposed to acid solution"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "YY Liu"
+                            },
+                            {
+                                "name": "M Kubouchi"
+                            },
+                            {
+                                "name": "H Sembokuya"
+                            },
+                            {
+                                "name": "K Tsuda"
+                            },
+                            {
+                                "name": "T Tomiyama"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "In this study, a new on-line health monitoring technology for the determination of the penetration of environment solution into epoxy resin was pursued. A corrosion sensor including plastic optical fiber and pH indicator was fabricated. The color-change layer of this sensor appeared after immersion in sulfuric acid solution, which could be examined by using optical fiber and spectrophotometer. The results showed that the penetration of sulfuric acid was detected by adding bromophenol blue (BPB) in the corrosion sensor. This system could be applied to on-line health monitoring of chemical equipment structures."
+                    },
+                    "publisher": {
+                        "en": "JOURNAL MATER SCI TECHNOL"
+                    },
+                    "publication_date": "2006-05",
+                    "publication_name": {
+                        "en": "JOURNAL OF MATERIALS SCIENCE & TECHNOLOGY"
+                    },
+                    "volume": "22",
+                    "number": "3",
+                    "starting_page": "414",
+                    "ending_page": "418",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "1005-0302"
+                        ],
+                        "wos_id": [
+                            "WOS:000238133800028"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000238133800028&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008206/misc/22178282",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0008206/misc",
+                    "rm:id": "22178282",
+                    "rm:user_id": "1000015277",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2017-04-08T17:59:20Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-05-17T15:31:32Z",
+                    "paper_title": {
+                        "en": "General method for predicting the sand erosion rate of GFRP"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "K Tsuda"
+                            },
+                            {
+                                "name": "M Kubouchi"
+                            },
+                            {
+                                "name": "T Sakai"
+                            },
+                            {
+                                "name": "AH Saputra"
+                            },
+                            {
+                                "name": "N Mitomo"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "Sand erosion behavior and wear mechanism of various types of glass fibre reinforced plastics (GFRP) were investigated. Erosion behavior of fibre reinforced plastics (FRP) changed from ductile manner to brittle one with increase of glass fibre content, and erosion rate was maximum at vertical impact for higher glass fibre content FRP. FRP showed higher resistance to erosion damage than resin matrix at low angle of attack, the contrary tendency can be observed at higher angle of attack. The importance of damage of glass fibre bundles accompany with surrounding resin and effect of orientation angle of fibres on erosion damage of FRP were pointed out. Based on these factors and applying similar equation of the rule of mixture for strength of FRP, prediction method for erosion rate was proposed. By using this method, erosion rates of all types of GFRP under various angles of attack and impacting velocity can be estimated by knowing only the rate of matrix resin. (c) 2005 Elsevier B.V. All rights reserved."
+                    },
+                    "publisher": {
+                        "en": "ELSEVIER SCIENCE SA"
+                    },
+                    "publication_date": "2006-05",
+                    "publication_name": {
+                        "en": "WEAR"
+                    },
+                    "volume": "260",
+                    "number": "9-10",
+                    "starting_page": "1045",
+                    "ending_page": "1052",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "cinii_na_id": [
+                            "80019129766"
+                        ],
+                        "doi": [
+                            "10.1016/j.wear.2005.07.018"
+                        ],
+                        "issn": [
+                            "0043-1648"
+                        ],
+                        "wos_id": [
+                            "WOS:000237818600014"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/80019129766",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1016/j.wear.2005.07.018",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000237818600014&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008206/misc/22178166",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0008206/misc",
+                    "rm:id": "22178166",
+                    "rm:user_id": "1000015277",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2017-04-08T17:59:20Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-05-17T18:56:56Z",
+                    "paper_title": {
+                        "en": "On-line monitoring of epoxy resin exposed to acid solution"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "YY Liu"
+                            },
+                            {
+                                "name": "M Kubouchi"
+                            },
+                            {
+                                "name": "H Sembokuya"
+                            },
+                            {
+                                "name": "K Tsuda"
+                            },
+                            {
+                                "name": "T Tomiyama"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "In this study, a new on-line health monitoring technology for the determination of the penetration of environment solution into epoxy resin was pursued. A corrosion sensor including plastic optical fiber and pH indicator was fabricated. The color-change layer of this sensor appeared after immersion in sulfuric acid solution, which could be examined by using optical fiber and spectrophotometer. The results showed that the penetration of sulfuric acid was detected by adding bromophenol blue (BPB) in the corrosion sensor. This system could be applied to on-line health monitoring of chemical equipment structures."
+                    },
+                    "publisher": {
+                        "en": "JOURNAL MATER SCI TECHNOL"
+                    },
+                    "publication_date": "2006-05",
+                    "publication_name": {
+                        "en": "JOURNAL OF MATERIALS SCIENCE & TECHNOLOGY"
+                    },
+                    "volume": "22",
+                    "number": "3",
+                    "starting_page": "414",
+                    "ending_page": "418",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "1005-0302"
+                        ],
+                        "wos_id": [
+                            "WOS:000238133800028"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000238133800028&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008206/misc/22178165",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0008206/misc",
+                    "rm:id": "22178165",
+                    "rm:user_id": "1000015277",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2017-04-08T17:59:20Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-05-17T15:31:32Z",
+                    "paper_title": {
+                        "en": "General method for predicting the sand erosion rate of GFRP"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "K Tsuda"
+                            },
+                            {
+                                "name": "M Kubouchi"
+                            },
+                            {
+                                "name": "T Sakai"
+                            },
+                            {
+                                "name": "AH Saputra"
+                            },
+                            {
+                                "name": "N Mitomo"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "Sand erosion behavior and wear mechanism of various types of glass fibre reinforced plastics (GFRP) were investigated. Erosion behavior of fibre reinforced plastics (FRP) changed from ductile manner to brittle one with increase of glass fibre content, and erosion rate was maximum at vertical impact for higher glass fibre content FRP. FRP showed higher resistance to erosion damage than resin matrix at low angle of attack, the contrary tendency can be observed at higher angle of attack. The importance of damage of glass fibre bundles accompany with surrounding resin and effect of orientation angle of fibres on erosion damage of FRP were pointed out. Based on these factors and applying similar equation of the rule of mixture for strength of FRP, prediction method for erosion rate was proposed. By using this method, erosion rates of all types of GFRP under various angles of attack and impacting velocity can be estimated by knowing only the rate of matrix resin. (c) 2005 Elsevier B.V. All rights reserved."
+                    },
+                    "publisher": {
+                        "en": "ELSEVIER SCIENCE SA"
+                    },
+                    "publication_date": "2006-05",
+                    "publication_name": {
+                        "en": "WEAR"
+                    },
+                    "volume": "260",
+                    "number": "9-10",
+                    "starting_page": "1045",
+                    "ending_page": "1052",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "cinii_na_id": [
+                            "80019129766"
+                        ],
+                        "doi": [
+                            "10.1016/j.wear.2005.07.018"
+                        ],
+                        "issn": [
+                            "0043-1648"
+                        ],
+                        "wos_id": [
+                            "WOS:000237818600014"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/80019129766",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1016/j.wear.2005.07.018",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000237818600014&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008206/misc/22178290",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0008206/misc",
+                    "rm:id": "22178290",
+                    "rm:user_id": "1000015277",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2017-04-08T17:59:20Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2017-04-08T17:59:20Z",
+                    "paper_title": {
+                        "en": "Preparation and performance under corrosive environment of epoxy-nanocomposite"
+                    },
+                    "publication_date": "2006",
+                    "starting_page": "311",
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008206/misc/22178289",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0008206/misc",
+                    "rm:id": "22178289",
+                    "rm:user_id": "1000015277",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2017-04-08T17:59:20Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2017-04-08T17:59:20Z",
+                    "paper_title": {
+                        "en": "The Effect of Hardener Distribution on Corrosion and Degradation Behavior of Unsaturated Polyester Resin"
+                    },
+                    "publication_date": "2006",
+                    "publication_name": {
+                        "en": "Book of Abstracts for 4th Intern. Conf. on Polymer Modification, Degradation and Stabilization"
+                    },
+                    "starting_page": "282",
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008206/misc/22178288",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0008206/misc",
+                    "rm:id": "22178288",
+                    "rm:user_id": "1000015277",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2017-04-08T17:59:20Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2017-04-08T17:59:20Z",
+                    "paper_title": {
+                        "en": "The Evaluation of Strength of Polymer after Damage by Sand Erosion"
+                    },
+                    "publication_date": "2006",
+                    "publication_name": {
+                        "en": "Book of Abstracts for 4th Intern. Conf. on Polymer Modification, Degradation and Stabilization"
+                    },
+                    "starting_page": "294",
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0008206/books_etc",
+            "@type": "books_etc",
+            "@reverse": "https://api.researchmap.jp/read0008206",
+            "total_items": 21,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0008206/books_etc/11475342",
+                    "@type": "books_etc",
+                    "@reverse": "https://api.researchmap.jp/read0008206/books_etc",
+                    "rm:id": "11475342",
+                    "rm:user_id": "1000015277",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2017-04-08T17:59:20Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2017-04-08T17:59:20Z",
+                    "book_title": {
+                        "ja": "ＦＲＰ50年の歩み"
+                    },
+                    "publisher": {
+                        "ja": "（社）強化プラスチック協会"
+                    },
+                    "publication_date": "2005",
+                    "referee": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008206/books_etc/11475341",
+                    "@type": "books_etc",
+                    "@reverse": "https://api.researchmap.jp/read0008206/books_etc",
+                    "rm:id": "11475341",
+                    "rm:user_id": "1000015277",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2017-04-08T17:59:20Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2017-04-08T17:59:20Z",
+                    "book_title": {
+                        "ja": "機械工学便覧、基礎編α８ 「電気・電子の基礎，化学の基礎」"
+                    },
+                    "publisher": {
+                        "ja": "丸善丸善"
+                    },
+                    "publication_date": "2005",
+                    "referee": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008206/books_etc/11475340",
+                    "@type": "books_etc",
+                    "@reverse": "https://api.researchmap.jp/read0008206/books_etc",
+                    "rm:id": "11475340",
+                    "rm:user_id": "1000015277",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2017-04-08T17:59:20Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2017-04-08T17:59:20Z",
+                    "book_title": {
+                        "ja": "化学工学辞典"
+                    },
+                    "publisher": {
+                        "ja": "丸善丸善"
+                    },
+                    "publication_date": "2005",
+                    "referee": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008206/books_etc/11475349",
+                    "@type": "books_etc",
+                    "@reverse": "https://api.researchmap.jp/read0008206/books_etc",
+                    "rm:id": "11475349",
+                    "rm:user_id": "1000015277",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2017-04-08T17:59:20Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2017-04-08T17:59:20Z",
+                    "book_title": {
+                        "en": "Corrosion Resistance of Polymers, Polymer Blends and Composites in Liquid Environments"
+                    },
+                    "publisher": {
+                        "en": "Handbook of Polymer Blends and Composites (RAPRA)Handbook of Polymer Blends and Composites (RAPRA)"
+                    },
+                    "publication_date": "2002",
+                    "referee": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008206/books_etc/11475339",
+                    "@type": "books_etc",
+                    "@reverse": "https://api.researchmap.jp/read0008206/books_etc",
+                    "rm:id": "11475339",
+                    "rm:user_id": "1000015277",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2017-04-08T17:59:20Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2017-04-08T17:59:20Z",
+                    "book_title": {
+                        "ja": "Corrosion Resistance of Polymers, Polymer Blends and Composites in Liquid Environments"
+                    },
+                    "publisher": {
+                        "ja": "Handbook of Polymer Blends and Composites (RAPRA)Handbook of Polymer Blends and Composites (RAPRA)"
+                    },
+                    "publication_date": "2002",
+                    "referee": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008206/books_etc/11475338",
+                    "@type": "books_etc",
+                    "@reverse": "https://api.researchmap.jp/read0008206/books_etc",
+                    "rm:id": "11475338",
+                    "rm:user_id": "1000015277",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2017-04-08T17:59:20Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2017-04-08T17:59:20Z",
+                    "book_title": {
+                        "ja": "プラスチック材料活用事典（分担）"
+                    },
+                    "publisher": {
+                        "ja": "産業調査会産業調査会"
+                    },
+                    "publication_date": "2001",
+                    "referee": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008206/books_etc/11475337",
+                    "@type": "books_etc",
+                    "@reverse": "https://api.researchmap.jp/read0008206/books_etc",
+                    "rm:id": "11475337",
+                    "rm:user_id": "1000015277",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2017-04-08T17:59:20Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2017-04-08T17:59:20Z",
+                    "book_title": {
+                        "ja": "複合材料活用事典（分担）"
+                    },
+                    "publisher": {
+                        "ja": "産業調査会産業調査会"
+                    },
+                    "publication_date": "2001",
+                    "referee": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008206/books_etc/11475336",
+                    "@type": "books_etc",
+                    "@reverse": "https://api.researchmap.jp/read0008206/books_etc",
+                    "rm:id": "11475336",
+                    "rm:user_id": "1000015277",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2017-04-08T17:59:20Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2017-04-08T17:59:20Z",
+                    "book_title": {
+                        "ja": "防錆・防食技術総覧（分担）"
+                    },
+                    "publisher": {
+                        "ja": "産業技術サービスセンター産業技術サービスセンター"
+                    },
+                    "publication_date": "2000",
+                    "referee": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008206/books_etc/11475335",
+                    "@type": "books_etc",
+                    "@reverse": "https://api.researchmap.jp/read0008206/books_etc",
+                    "rm:id": "11475335",
+                    "rm:user_id": "1000015277",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2017-04-08T17:59:20Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2017-04-08T17:59:20Z",
+                    "book_title": {
+                        "ja": "腐食・防食ハンドブック（分担）"
+                    },
+                    "publisher": {
+                        "ja": "丸善丸善"
+                    },
+                    "publication_date": "2000",
+                    "referee": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008206/books_etc/11475348",
+                    "@type": "books_etc",
+                    "@reverse": "https://api.researchmap.jp/read0008206/books_etc",
+                    "rm:id": "11475348",
+                    "rm:user_id": "1000015277",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2017-04-08T17:59:20Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2017-04-08T17:59:20Z",
+                    "book_title": {
+                        "en": "Materials Engineering and Advanced Materials Technology"
+                    },
+                    "publisher": {
+                        "en": "SHOKABOSHOKABO"
+                    },
+                    "publication_date": "1997",
+                    "referee": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008206/books_etc/11475347",
+                    "@type": "books_etc",
+                    "@reverse": "https://api.researchmap.jp/read0008206/books_etc",
+                    "rm:id": "11475347",
+                    "rm:user_id": "1000015277",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2017-04-08T17:59:20Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2017-04-08T17:59:20Z",
+                    "book_title": {
+                        "en": "Thermal Shock Behavior and Evaluation of Epoxy Resins Toughned with Hard Particulates"
+                    },
+                    "publisher": {
+                        "en": "Advances in Chemistry Series, ACSAdvances in Chemistry Series, ACS"
+                    },
+                    "publication_date": "1997",
+                    "referee": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008206/books_etc/11475334",
+                    "@type": "books_etc",
+                    "@reverse": "https://api.researchmap.jp/read0008206/books_etc",
+                    "rm:id": "11475334",
+                    "rm:user_id": "1000015277",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2017-04-08T17:59:20Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2017-04-08T17:59:20Z",
+                    "book_title": {
+                        "ja": "材料の工学と先端技術(共著)"
+                    },
+                    "publisher": {
+                        "ja": "裳華房裳華房"
+                    },
+                    "publication_date": "1997",
+                    "referee": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008206/books_etc/11475333",
+                    "@type": "books_etc",
+                    "@reverse": "https://api.researchmap.jp/read0008206/books_etc",
+                    "rm:id": "11475333",
+                    "rm:user_id": "1000015277",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2017-04-08T17:59:20Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2017-04-08T17:59:20Z",
+                    "book_title": {
+                        "ja": "Thermal Shock Behavior and Evaluation of Epoxy Resins Toughned with Hard Particulates"
+                    },
+                    "publisher": {
+                        "ja": "Advances in Chemistry Series, ACSAdvances in Chemistry Series, ACS"
+                    },
+                    "publication_date": "1997",
+                    "referee": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008206/books_etc/11475346",
+                    "@type": "books_etc",
+                    "@reverse": "https://api.researchmap.jp/read0008206/books_etc",
+                    "rm:id": "11475346",
+                    "rm:user_id": "1000015277",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2017-04-08T17:59:20Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2017-04-08T17:59:20Z",
+                    "book_title": {
+                        "en": "Dictionary of Plastic Technology"
+                    },
+                    "publication_date": "1994",
+                    "referee": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008206/books_etc/11475345",
+                    "@type": "books_etc",
+                    "@reverse": "https://api.researchmap.jp/read0008206/books_etc",
+                    "rm:id": "11475345",
+                    "rm:user_id": "1000015277",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2017-04-08T17:59:20Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2017-04-08T17:59:20Z",
+                    "book_title": {
+                        "en": "Handbook of FRP Structure Designing"
+                    },
+                    "publication_date": "1994",
+                    "referee": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008206/books_etc/11475332",
+                    "@type": "books_etc",
+                    "@reverse": "https://api.researchmap.jp/read0008206/books_etc",
+                    "rm:id": "11475332",
+                    "rm:user_id": "1000015277",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2017-04-08T17:59:20Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2017-04-08T17:59:20Z",
+                    "book_title": {
+                        "ja": "プラスチック大辞典"
+                    },
+                    "publisher": {
+                        "ja": "工業調査会工業調査会"
+                    },
+                    "publication_date": "1994",
+                    "referee": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008206/books_etc/11475331",
+                    "@type": "books_etc",
+                    "@reverse": "https://api.researchmap.jp/read0008206/books_etc",
+                    "rm:id": "11475331",
+                    "rm:user_id": "1000015277",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2017-04-08T17:59:20Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2017-04-08T17:59:20Z",
+                    "book_title": {
+                        "ja": "FRP構造設計便覧"
+                    },
+                    "publisher": {
+                        "ja": "強化プラスチック協会強化プラスチック協会"
+                    },
+                    "publication_date": "1994",
+                    "referee": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008206/books_etc/11475344",
+                    "@type": "books_etc",
+                    "@reverse": "https://api.researchmap.jp/read0008206/books_etc",
+                    "rm:id": "11475344",
+                    "rm:user_id": "1000015277",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2017-04-08T17:59:20Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2017-04-08T17:59:20Z",
+                    "book_title": {
+                        "en": "Handbook of Chemical Fquipment"
+                    },
+                    "publication_date": "1989",
+                    "referee": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008206/books_etc/11475330",
+                    "@type": "books_etc",
+                    "@reverse": "https://api.researchmap.jp/read0008206/books_etc",
+                    "rm:id": "11475330",
+                    "rm:user_id": "1000015277",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2017-04-08T17:59:20Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2017-04-08T17:59:20Z",
+                    "book_title": {
+                        "ja": "化学装置便覧"
+                    },
+                    "publisher": {
+                        "ja": "丸善丸善"
+                    },
+                    "publication_date": "1989",
+                    "referee": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008206/books_etc/11475343",
+                    "@type": "books_etc",
+                    "@reverse": "https://api.researchmap.jp/read0008206/books_etc",
+                    "rm:id": "11475343",
+                    "rm:user_id": "1000015277",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2017-04-08T17:59:20Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2017-04-08T17:59:20Z",
+                    "book_title": {
+                        "en": "Erosion and Corrosion--Material Damage by Flow--"
+                    },
+                    "publication_date": "1987",
+                    "referee": false
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0008206/association_memberships",
+            "@type": "association_memberships",
+            "@reverse": "https://api.researchmap.jp/read0008206",
+            "total_items": 9,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0008206/association_memberships/8564829",
+                    "@type": "association_memberships",
+                    "@reverse": "https://api.researchmap.jp/read0008206/association_memberships",
+                    "rm:id": "8564829",
+                    "rm:user_id": "1000015277",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2017-04-08T17:59:20Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2017-04-08T17:59:20Z",
+                    "academic_society_name": {
+                        "ja": "安全工学協会"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008206/association_memberships/8564828",
+                    "@type": "association_memberships",
+                    "@reverse": "https://api.researchmap.jp/read0008206/association_memberships",
+                    "rm:id": "8564828",
+                    "rm:user_id": "1000015277",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2017-04-08T17:59:20Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2017-04-08T17:59:20Z",
+                    "academic_society_name": {
+                        "ja": "日本材料学会"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008206/association_memberships/8564827",
+                    "@type": "association_memberships",
+                    "@reverse": "https://api.researchmap.jp/read0008206/association_memberships",
+                    "rm:id": "8564827",
+                    "rm:user_id": "1000015277",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2017-04-08T17:59:20Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2017-04-08T17:59:20Z",
+                    "academic_society_name": {
+                        "ja": "日本複合材料学会"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008206/association_memberships/8564826",
+                    "@type": "association_memberships",
+                    "@reverse": "https://api.researchmap.jp/read0008206/association_memberships",
+                    "rm:id": "8564826",
+                    "rm:user_id": "1000015277",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2017-04-08T17:59:20Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2017-04-08T17:59:20Z",
+                    "academic_society_name": {
+                        "ja": "強化プラスチック協会"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008206/association_memberships/8564825",
+                    "@type": "association_memberships",
+                    "@reverse": "https://api.researchmap.jp/read0008206/association_memberships",
+                    "rm:id": "8564825",
+                    "rm:user_id": "1000015277",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2017-04-08T17:59:20Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2017-04-08T17:59:20Z",
+                    "academic_society_name": {
+                        "ja": "日本機械学会"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008206/association_memberships/8564824",
+                    "@type": "association_memberships",
+                    "@reverse": "https://api.researchmap.jp/read0008206/association_memberships",
+                    "rm:id": "8564824",
+                    "rm:user_id": "1000015277",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2017-04-08T17:59:20Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2017-04-08T17:59:20Z",
+                    "academic_society_name": {
+                        "ja": "化学工学会"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008206/association_memberships/8564823",
+                    "@type": "association_memberships",
+                    "@reverse": "https://api.researchmap.jp/read0008206/association_memberships",
+                    "rm:id": "8564823",
+                    "rm:user_id": "1000015277",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2017-04-08T17:59:20Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2017-04-08T17:59:20Z",
+                    "academic_society_name": {
+                        "ja": "日本海水学会"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008206/association_memberships/8564822",
+                    "@type": "association_memberships",
+                    "@reverse": "https://api.researchmap.jp/read0008206/association_memberships",
+                    "rm:id": "8564822",
+                    "rm:user_id": "1000015277",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2017-04-08T17:59:20Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2017-04-08T17:59:20Z",
+                    "academic_society_name": {
+                        "ja": "腐食防食協会"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008206/association_memberships/8564821",
+                    "@type": "association_memberships",
+                    "@reverse": "https://api.researchmap.jp/read0008206/association_memberships",
+                    "rm:id": "8564821",
+                    "rm:user_id": "1000015277",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2017-04-08T17:59:20Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2017-04-08T17:59:20Z",
+                    "academic_society_name": {
+                        "ja": "日本材料科学会"
+                    }
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0008206/research_projects",
+            "@type": "research_projects",
+            "@reverse": "https://api.researchmap.jp/read0008206",
+            "total_items": 6,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0008206/research_projects/11568202",
+                    "@type": "research_projects",
+                    "@reverse": "https://api.researchmap.jp/read0008206/research_projects",
+                    "rm:id": "11568202",
+                    "rm:user_id": "1000015277",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2017-04-08T17:59:20Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2017-04-08T17:59:20Z",
+                    "research_project_title": {
+                        "en": "Study on Thermal Shock Resistance of Epoxide Resin"
+                    },
+                    "overall_grant_amount": {
+                        "indirect_cost": "0",
+                        "total_cost": "0",
+                        "direct_cost": "0"
+                    },
+                    "fund_type": "competitive_research_funding"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008206/research_projects/11568201",
+                    "@type": "research_projects",
+                    "@reverse": "https://api.researchmap.jp/read0008206/research_projects",
+                    "rm:id": "11568201",
+                    "rm:user_id": "1000015277",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2017-04-08T17:59:20Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2017-04-08T17:59:20Z",
+                    "research_project_title": {
+                        "en": "Study on Erosion Damage of Polymer Matrix Composites"
+                    },
+                    "overall_grant_amount": {
+                        "indirect_cost": "0",
+                        "total_cost": "0",
+                        "direct_cost": "0"
+                    },
+                    "fund_type": "competitive_research_funding"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008206/research_projects/11568200",
+                    "@type": "research_projects",
+                    "@reverse": "https://api.researchmap.jp/read0008206/research_projects",
+                    "rm:id": "11568200",
+                    "rm:user_id": "1000015277",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2017-04-08T17:59:20Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2017-04-08T17:59:20Z",
+                    "research_project_title": {
+                        "en": "Study on Corrosion Behavior of Polymeric Materials"
+                    },
+                    "overall_grant_amount": {
+                        "indirect_cost": "0",
+                        "total_cost": "0",
+                        "direct_cost": "0"
+                    },
+                    "fund_type": "competitive_research_funding"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008206/research_projects/11568199",
+                    "@type": "research_projects",
+                    "@reverse": "https://api.researchmap.jp/read0008206/research_projects",
+                    "rm:id": "11568199",
+                    "rm:user_id": "1000015277",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2017-04-08T17:59:20Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2017-04-08T17:59:20Z",
+                    "research_project_title": {
+                        "ja": "エポキシ樹脂の耐熱衝撃性に関する研究"
+                    },
+                    "overall_grant_amount": {
+                        "indirect_cost": "0",
+                        "total_cost": "0",
+                        "direct_cost": "0"
+                    },
+                    "fund_type": "competitive_research_funding"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008206/research_projects/11568198",
+                    "@type": "research_projects",
+                    "@reverse": "https://api.researchmap.jp/read0008206/research_projects",
+                    "rm:id": "11568198",
+                    "rm:user_id": "1000015277",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2017-04-08T17:59:20Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2017-04-08T17:59:20Z",
+                    "research_project_title": {
+                        "ja": "高分子系複合材料のエロージョンに関する研究"
+                    },
+                    "overall_grant_amount": {
+                        "indirect_cost": "0",
+                        "total_cost": "0",
+                        "direct_cost": "0"
+                    },
+                    "fund_type": "competitive_research_funding"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0008206/research_projects/11568197",
+                    "@type": "research_projects",
+                    "@reverse": "https://api.researchmap.jp/read0008206/research_projects",
+                    "rm:id": "11568197",
+                    "rm:user_id": "1000015277",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2017-04-08T17:59:20Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2017-04-08T17:59:20Z",
+                    "research_project_title": {
+                        "ja": "高分子材料の腐食に関する研究"
+                    },
+                    "overall_grant_amount": {
+                        "indirect_cost": "0",
+                        "total_cost": "0",
+                        "direct_cost": "0"
+                    },
+                    "fund_type": "competitive_research_funding"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,3068 @@
+{
+    "@context": "https://api.researchmap.jp/researcher.jsonld",
+    "@id": "https://api.researchmap.jp/read0018986?format=json",
+    "@type": "researchers",
+    "rm:user_id": "1000050498",
+    "rm:creator_id": "1000050498",
+    "rm:creator_type": "myself",
+    "rm:created": "2010-11-18T15:00:00Z",
+    "rm:modifier_id": "client_id:9999999999",
+    "rm:modifier_type": "institution",
+    "rm:modified": "2023-03-27T10:56:38Z",
+    "permalink": "read0018986",
+    "family_name": {
+        "ja": "手塚",
+        "ja-Kana": "テヅカ",
+        "en": "Tezuka"
+    },
+    "given_name": {
+        "ja": "育志",
+        "ja-Kana": "ヤスユキ",
+        "en": "Yasuyuki"
+    },
+    "display_name_kana": "disclosed",
+    "display_nickname": "disclosed",
+    "display_image": "disclosed",
+    "display_contact_point": "disclosed",
+    "affiliations": [
+        {
+            "display_job": "disclosed",
+            "affiliation": {
+                "ja": "東京工業大学",
+                "en": "Tokyo Institute of Technology"
+            },
+            "job": {
+                "ja": "名誉教授",
+                "en": "Professor Emeritus"
+            },
+            "display_affiliation": "disclosed",
+            "rm:institution_code": "0550000000"
+        }
+    ],
+    "degrees": [
+        {
+            "degree": {
+                "ja": "博士",
+                "en": "Doctor"
+            },
+            "degree_institution": {
+                "ja": "State University of Gent",
+                "en": "State University of Ghent (Belgium)"
+            },
+            "display_degree": "disclosed",
+            "rm:institution_code": "9999999999"
+        }
+    ],
+    "display_profile": "disclosed",
+    "display_url": "closed",
+    "identifiers": {
+        "erad_id": [
+            "80155457"
+        ],
+        "j_global_id": [
+            "200901079405384462"
+        ]
+    },
+    "rm:erad_id_verified": false,
+    "rm:orc_id_verified": false,
+    "display_erad_id": "disclosed",
+    "display_orc_id": "closed",
+    "display_researcher_id": "disclosed",
+    "display_j_global_id": "disclosed",
+    "see_also": [
+        {
+            "label": "j_global",
+            "@id": "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=200901079405384462"
+        }
+    ],
+    "@graph": [
+        {
+            "@id": "https://api.researchmap.jp/read0018986/research_interests",
+            "@type": "research_interests",
+            "@reverse": "https://api.researchmap.jp/read0018986",
+            "total_items": 1,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0018986/research_interests/10120068",
+                    "@type": "research_interests",
+                    "@reverse": "https://api.researchmap.jp/read0018986/research_interests",
+                    "rm:id": "10120068",
+                    "rm:user_id": "1000050498",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-06-10T17:54:12Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-06-10T17:54:12Z",
+                    "keyword": {
+                        "ja": "高分子化学一般",
+                        "en": "Polymer chemistry in general"
+                    }
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0018986/research_areas",
+            "@type": "research_areas",
+            "@reverse": "https://api.researchmap.jp/read0018986",
+            "total_items": 3,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0018986/research_areas/8134149",
+                    "@type": "research_areas",
+                    "@reverse": "https://api.researchmap.jp/read0018986/research_areas",
+                    "rm:id": "8134149",
+                    "rm:user_id": "1000050498",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-06-10T17:54:12Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-06-10T17:54:12Z",
+                    "discipline_number": "A489",
+                    "item_number": "A35020",
+                    "discipline": {
+                        "ja": "ナノテク・材料",
+                        "en": "Nanotechnology/Materials"
+                    },
+                    "research_field": {
+                        "ja": "高分子材料",
+                        "en": "Polymer materials"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0018986/research_areas/8134148",
+                    "@type": "research_areas",
+                    "@reverse": "https://api.researchmap.jp/read0018986/research_areas",
+                    "rm:id": "8134148",
+                    "rm:user_id": "1000050498",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-06-10T17:54:12Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-06-10T17:54:12Z",
+                    "discipline_number": "A489",
+                    "item_number": "A35010",
+                    "discipline": {
+                        "ja": "ナノテク・材料",
+                        "en": "Nanotechnology/Materials"
+                    },
+                    "research_field": {
+                        "ja": "高分子化学",
+                        "en": "Polymer chemistry"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0018986/research_areas/8134147",
+                    "@type": "research_areas",
+                    "@reverse": "https://api.researchmap.jp/read0018986/research_areas",
+                    "rm:id": "8134147",
+                    "rm:user_id": "1000050498",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-06-10T17:54:12Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-06-10T17:54:12Z",
+                    "discipline_number": "A489",
+                    "item_number": "A33020",
+                    "discipline": {
+                        "ja": "ナノテク・材料",
+                        "en": "Nanotechnology/Materials"
+                    },
+                    "research_field": {
+                        "ja": "有機合成化学",
+                        "en": "Synthetic organic chemistry"
+                    }
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0018986/research_experience",
+            "@type": "research_experience",
+            "@reverse": "https://api.researchmap.jp/read0018986",
+            "total_items": 4,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0018986/research_experience/20744116",
+                    "@type": "research_experience",
+                    "@reverse": "https://api.researchmap.jp/read0018986/research_experience",
+                    "rm:id": "20744116",
+                    "rm:user_id": "1000050498",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-06-10T17:54:12Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-06-10T17:54:12Z",
+                    "from_date": "2003",
+                    "to_date": "2019-03",
+                    "rm:institution_code": "0192000000",
+                    "affiliation": {
+                        "ja": "東京工業大学",
+                        "en": "Tokyo Institute of Technology"
+                    },
+                    "job": {
+                        "ja": "教授",
+                        "en": "Professor"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0018986/research_experience/20744115",
+                    "@type": "research_experience",
+                    "@reverse": "https://api.researchmap.jp/read0018986/research_experience",
+                    "rm:id": "20744115",
+                    "rm:user_id": "1000050498",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-06-10T17:54:12Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-06-10T17:54:12Z",
+                    "from_date": "1994",
+                    "rm:institution_code": "0192000000",
+                    "affiliation": {
+                        "ja": "東京工業大学",
+                        "en": "Tokyo Institute of Technology"
+                    },
+                    "job": {
+                        "ja": "助教授",
+                        "en": "Associate Professor"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0018986/research_experience/20744114",
+                    "@type": "research_experience",
+                    "@reverse": "https://api.researchmap.jp/read0018986/research_experience",
+                    "rm:id": "20744114",
+                    "rm:user_id": "1000050498",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-06-10T17:54:12Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-06-10T17:54:12Z",
+                    "from_date": "1991",
+                    "rm:institution_code": "0432000000",
+                    "affiliation": {
+                        "ja": "長岡技術科学大学",
+                        "en": "Nagaoka University of Technology"
+                    },
+                    "job": {
+                        "ja": "助教授"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0018986/research_experience/20744113",
+                    "@type": "research_experience",
+                    "@reverse": "https://api.researchmap.jp/read0018986/research_experience",
+                    "rm:id": "20744113",
+                    "rm:user_id": "1000050498",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-06-10T17:54:12Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-06-10T17:54:12Z",
+                    "from_date": "1982",
+                    "rm:institution_code": "0432000000",
+                    "affiliation": {
+                        "ja": "長岡技術科学大学",
+                        "en": "Nagaoka University of Technology"
+                    },
+                    "job": {
+                        "ja": "助手"
+                    }
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0018986/education",
+            "@type": "education",
+            "@reverse": "https://api.researchmap.jp/read0018986",
+            "total_items": 2,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0018986/education/16516064",
+                    "@type": "education",
+                    "@reverse": "https://api.researchmap.jp/read0018986/education",
+                    "rm:id": "16516064",
+                    "rm:user_id": "1000050498",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-06-10T17:54:12Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-06-10T17:54:12Z",
+                    "to_date": "1982",
+                    "rm:institution_code": "9999999999",
+                    "affiliation": {
+                        "ja": "State University of Gent",
+                        "en": "State University of Gent"
+                    },
+                    "address_country": "BEL"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0018986/education/16516063",
+                    "@type": "education",
+                    "@reverse": "https://api.researchmap.jp/read0018986/education",
+                    "rm:id": "16516063",
+                    "rm:user_id": "1000050498",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-06-10T17:54:12Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-06-10T17:54:12Z",
+                    "to_date": "1976",
+                    "rm:institution_code": "0172504000",
+                    "affiliation": {
+                        "ja": "東京大学",
+                        "en": "The University of Tokyo"
+                    },
+                    "department": {
+                        "ja": "工学部",
+                        "en": "Faculty of Engineering"
+                    },
+                    "course": {
+                        "ja": "合成化学"
+                    },
+                    "address_country": "JPN"
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0018986/committee_memberships",
+            "@type": "committee_memberships",
+            "@reverse": "https://api.researchmap.jp/read0018986",
+            "total_items": 7,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0018986/committee_memberships/6474795",
+                    "@type": "committee_memberships",
+                    "@reverse": "https://api.researchmap.jp/read0018986/committee_memberships",
+                    "rm:id": "6474795",
+                    "rm:user_id": "1000050498",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-06-10T17:54:12Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-06-10T17:54:12Z",
+                    "from_date": "2007",
+                    "committee_name": {
+                        "en": "Editorial Board"
+                    },
+                    "association": {
+                        "en": "Frontiers of Materials Science in China (Springer)"
+                    },
+                    "committee_type": "others"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0018986/committee_memberships/6474793",
+                    "@type": "committee_memberships",
+                    "@reverse": "https://api.researchmap.jp/read0018986/committee_memberships",
+                    "rm:id": "6474793",
+                    "rm:user_id": "1000050498",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-06-10T17:54:12Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-06-10T17:54:12Z",
+                    "from_date": "2007",
+                    "committee_name": {
+                        "ja": "有機合成化学協会誌 編集委員"
+                    },
+                    "association": {
+                        "ja": "有機合成化学協会"
+                    },
+                    "committee_type": "society"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0018986/committee_memberships/6474790",
+                    "@type": "committee_memberships",
+                    "@reverse": "https://api.researchmap.jp/read0018986/committee_memberships",
+                    "rm:id": "6474790",
+                    "rm:user_id": "1000050498",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-06-10T17:54:12Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-06-10T17:54:12Z",
+                    "from_date": "2006",
+                    "to_date": "2006",
+                    "committee_name": {
+                        "ja": "Polymer Journal, Associate Editor"
+                    },
+                    "association": {
+                        "ja": "高分子学会"
+                    },
+                    "committee_type": "society"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0018986/committee_memberships/6474794",
+                    "@type": "committee_memberships",
+                    "@reverse": "https://api.researchmap.jp/read0018986/committee_memberships",
+                    "rm:id": "6474794",
+                    "rm:user_id": "1000050498",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-06-10T17:54:12Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-06-10T17:54:12Z",
+                    "from_date": "2006",
+                    "committee_name": {
+                        "en": "Asian Editor"
+                    },
+                    "association": {
+                        "en": "Reactive and Functional Polymers"
+                    },
+                    "committee_type": "others"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0018986/committee_memberships/6474791",
+                    "@type": "committee_memberships",
+                    "@reverse": "https://api.researchmap.jp/read0018986/committee_memberships",
+                    "rm:id": "6474791",
+                    "rm:user_id": "1000050498",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-06-10T17:54:12Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-06-10T17:54:12Z",
+                    "from_date": "2000",
+                    "to_date": "2002",
+                    "committee_name": {
+                        "ja": "理事"
+                    },
+                    "association": {
+                        "ja": "高分子学会 関東支部"
+                    },
+                    "committee_type": "society"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0018986/committee_memberships/6474792",
+                    "@type": "committee_memberships",
+                    "@reverse": "https://api.researchmap.jp/read0018986/committee_memberships",
+                    "rm:id": "6474792",
+                    "rm:user_id": "1000050498",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-06-10T17:54:12Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-06-10T17:54:12Z",
+                    "from_date": "1997",
+                    "to_date": "1999",
+                    "committee_name": {
+                        "ja": "繊維と工業 副編集委員長"
+                    },
+                    "association": {
+                        "ja": "繊維学会"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0018986/committee_memberships/6474789",
+                    "@type": "committee_memberships",
+                    "@reverse": "https://api.researchmap.jp/read0018986/committee_memberships",
+                    "rm:id": "6474789",
+                    "rm:user_id": "1000050498",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-06-10T17:54:12Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-06-10T17:54:12Z",
+                    "from_date": "1997",
+                    "to_date": "1999",
+                    "committee_name": {
+                        "ja": "高分子論文集 編集委員"
+                    },
+                    "association": {
+                        "ja": "高分子学会"
+                    },
+                    "committee_type": "society"
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0018986/awards",
+            "@type": "awards",
+            "@reverse": "https://api.researchmap.jp/read0018986",
+            "total_items": 3,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0018986/awards/3416159",
+                    "@type": "awards",
+                    "@reverse": "https://api.researchmap.jp/read0018986/awards",
+                    "rm:id": "3416159",
+                    "rm:user_id": "1000050498",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-06-10T17:54:12Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-06-10T17:54:12Z",
+                    "award_name": {
+                        "ja": "東工大工系創成的研究賞",
+                        "en": "Tokyo Tech Innovative Research Engineering Award"
+                    },
+                    "association": {
+                        "ja": "東京工業大学理工学研究科（工学系）",
+                        "en": "Tokyo Institute of Technology, Faculty of Science and Engineering"
+                    },
+                    "description": {
+                        "ja": "高分子トポロジー化学：「かたち」からはじめる高分子材料設計"
+                    },
+                    "award_date": "2009-09",
+                    "award_type": "others",
+                    "address_country": "JPN"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0018986/awards/3416160",
+                    "@type": "awards",
+                    "@reverse": "https://api.researchmap.jp/read0018986/awards",
+                    "rm:id": "3416160",
+                    "rm:user_id": "1000050498",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-06-10T17:54:12Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-06-10T17:54:12Z",
+                    "award_name": {
+                        "ja": "東工大教育賞（優秀賞）",
+                        "en": "TokyoTech Award for the Best Teacher"
+                    },
+                    "association": {
+                        "ja": "東京工業大学",
+                        "en": "Tokyo Insitute of Technology"
+                    },
+                    "award_date": "2005",
+                    "award_type": "others",
+                    "address_country": "JPN"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0018986/awards/3416161",
+                    "@type": "awards",
+                    "@reverse": "https://api.researchmap.jp/read0018986/awards",
+                    "rm:id": "3416161",
+                    "rm:user_id": "1000050498",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-06-10T17:54:12Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-06-10T17:54:12Z",
+                    "award_name": {
+                        "ja": "櫻田武記念賞"
+                    },
+                    "association": {
+                        "ja": "繊維学会"
+                    },
+                    "award_date": "1993",
+                    "award_type": "japan_society",
+                    "address_country": "JPN"
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0018986/misc",
+            "@type": "misc",
+            "@reverse": "https://api.researchmap.jp/read0018986",
+            "total_items": 172,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0018986/misc/16644880",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0018986/misc",
+                    "rm:id": "16644880",
+                    "rm:user_id": "1000050498",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-06-10T17:54:12Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-08-30T17:58:59Z",
+                    "paper_title": {
+                        "en": "Topology-directed control on thermal stability: Micelles formed from linear and cyclized amphiphilic block copolymers"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Satoshi Honda"
+                            },
+                            {
+                                "name": "Takuya Yamamoto"
+                            },
+                            {
+                                "name": "Yasuyuki Tezuka"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "The thermal stability of a self-assembled micelle was remarkably enhanced by a topology effect. Linear poly(butyl acrylate)-block-poly(ethylene oxide)-block-poly(butyl acrylate) (1) and the cyclized product, poly(butyl acrylate)-block-poly(ethylene oxide) (2), were self-assembled to form flower-like micelles. By means of viscometry, the critical micelle concentrations were determined to be 0.13 and 0.14 mg/mL for 1 and 2, respectively. Dynamic light scattering, atomic force microscopy, and transmission electron microscopy studies revealed that both micelles are spherical and approximately 20 nm in diameter. Despite no distinctive change in the chemical composition or structure of the micelle, we found that the cloud point (Tc) was elevated by more than 40 °C through the linear-to-cyclic topological conversion of the polymer amphiphile. Furthermore, the Tc was tuned by coassembly of 1 and 2. © 2010 American Chemical Society."
+                    },
+                    "publication_date": "2010-08-04",
+                    "publication_name": {
+                        "en": "Journal of the American Chemical Society"
+                    },
+                    "volume": "132",
+                    "number": "30",
+                    "starting_page": "10251",
+                    "ending_page": "10253",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "cinii_na_id": [
+                            "80021160549"
+                        ],
+                        "doi": [
+                            "10.1021/ja104691j"
+                        ],
+                        "issn": [
+                            "0002-7863",
+                            "1520-5126"
+                        ],
+                        "pm_id": [
+                            "20662503"
+                        ],
+                        "scopus_id": [
+                            "77955026168"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/80021160549",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1021/ja104691j",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "pubmed",
+                            "@id": "https://www.ncbi.nlm.nih.gov/pubmed/20662503",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0018986/misc/16644973",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0018986/misc",
+                    "rm:id": "16644973",
+                    "rm:user_id": "1000050498",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-06-10T17:54:12Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-05-22T23:04:16Z",
+                    "paper_title": {
+                        "en": "Topology-Directed Control on Thermal Stability: Micelles Formed from Linear and Cyclized Amphiphilic Block Copolymers"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Satoshi Honda"
+                            },
+                            {
+                                "name": "Takuya Yamamoto"
+                            },
+                            {
+                                "name": "Yasuyuki Tezuka"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "The thermal stability of a self-assembled micelle was remarkably enhanced by a topology effect. Linear poly(butyl acrylate)-block-poly(ethylene oxide)-block-poly(butyl acrylate) (1) and the cyclized product, poly(butyl acrylate)-block-poly(ethylene oxide) (2), were self-assembled to form flower-like micelles. By means of viscometry, the critical micelle concentrations were determined to be 0.13 and 0.14 mg/mL for 1 and 2, respectively. Dynamic light scattering, atomic force microscopy, and transmission electron microscopy studies revealed that both micelles are spherical and approximately 20 nm in diameter. Despite no distinctive change in the chemical composition or structure of the micelle, we found that the cloud point (T(c)) was elevated by more than 40 degrees C through the linear-to-cyclic topological conversion of the polymer amphiphile. Furthermore, the T(c) was tuned by coassembly of 1 and 2."
+                    },
+                    "publisher": {
+                        "en": "AMER CHEMICAL SOC"
+                    },
+                    "publication_date": "2010-08",
+                    "publication_name": {
+                        "en": "JOURNAL OF THE AMERICAN CHEMICAL SOCIETY"
+                    },
+                    "volume": "132",
+                    "number": "30",
+                    "starting_page": "10251",
+                    "ending_page": "10253",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "cinii_na_id": [
+                            "80021160549"
+                        ],
+                        "doi": [
+                            "10.1021/ja104691j"
+                        ],
+                        "issn": [
+                            "0002-7863"
+                        ],
+                        "pm_id": [
+                            "20662503"
+                        ],
+                        "wos_id": [
+                            "WOS:000280456100015"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/80021160549",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1021/ja104691j",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "pubmed",
+                            "@id": "https://www.ncbi.nlm.nih.gov/pubmed/20662503",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000280456100015&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0018986/misc/16644975",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0018986/misc",
+                    "rm:id": "16644975",
+                    "rm:user_id": "1000050498",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-06-10T17:54:12Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-05-21T06:58:09Z",
+                    "paper_title": {
+                        "en": "Effective Synthesis of Polymer Catenanes by Cooperative Electrostatic/Hydrogen-Bonding Self-Assembly and Covalent Fixation"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Kazuyuki Ishikawa"
+                            },
+                            {
+                                "name": "Takuya Yamamoto"
+                            },
+                            {
+                                "name": "Masumi Asakawa"
+                            },
+                            {
+                                "name": "Yasuyuki Tezuka"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "The cooperative electrostatic and hydrogen-bonding self-assembly of polymer precursors a and the Subsequent covalent conversion have been demonstrated as ail effective means for the synthesis of polymer catenanes. Thus, a cyclic poly(tetrahydrofuran), poly(THF), having a hydrogen-bonding, isophthaloylbenzylic amide group (1) was prepared through in electrostatic self-assembly, and covalent fixation with a telechelic poly(THF) having N-phenylpyrrolidinium salt groups carrying a dicarboxylate counteranion containing the hydrogen-bonding unit (1). Another telechelic poly(THF) having,in isophthaloylbenzylic amide group at the center position and having N-phenylpyrrolidinium salt end groups carrying a biphenyldicarboxylate counteranion, 2, was subsequently prepared and subjected to a covalent conversion reaction in the presence of the preformed cyclic poly(THF) having a hydrogen-bonding unit (1). A polymer [2]catenane comprised of the two different cyclic poly(THF) components, I and II (from 2), has been isolated up to 7% yield as ail acetone-insoluble fraction and unequivocally characterized by means of MALDI TOF mass spectroscopy together with (1)H NMR and SEC techniques."
+                    },
+                    "publisher": {
+                        "en": "AMER CHEMICAL SOC"
+                    },
+                    "publication_date": "2010-01",
+                    "publication_name": {
+                        "en": "MACROMOLECULES"
+                    },
+                    "volume": "43",
+                    "number": "1",
+                    "starting_page": "168",
+                    "ending_page": "176",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "cinii_na_id": [
+                            "80020915643"
+                        ],
+                        "doi": [
+                            "10.1021/ma902031j"
+                        ],
+                        "issn": [
+                            "0024-9297"
+                        ],
+                        "wos_id": [
+                            "WOS:000273268700026"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/80020915643",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1021/ma902031j",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000273268700026&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0018986/misc/16644974",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0018986/misc",
+                    "rm:id": "16644974",
+                    "rm:user_id": "1000050498",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-06-10T17:54:12Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-05-21T20:01:23Z",
+                    "paper_title": {
+                        "en": "Multimode Diffusion of Ring Polymer Molecules Revealed by a Single-Molecule Study"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Satoshi Habuchi"
+                            },
+                            {
+                                "name": "Norihiro Satoh"
+                            },
+                            {
+                                "name": "Takuya Yamamoto"
+                            },
+                            {
+                                "name": "Yasuyuki Tezuka"
+                            },
+                            {
+                                "name": "Martin Vacha"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "en": "WILEY-V C H VERLAG GMBH"
+                    },
+                    "publication_date": "2010",
+                    "publication_name": {
+                        "en": "ANGEWANDTE CHEMIE-INTERNATIONAL EDITION"
+                    },
+                    "volume": "49",
+                    "number": "8",
+                    "starting_page": "1418",
+                    "ending_page": "1421",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1002/anie.200904394"
+                        ],
+                        "issn": [
+                            "1433-7851"
+                        ],
+                        "wos_id": [
+                            "WOS:000275028000009"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1002/anie.200904394",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000275028000009&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0018986/misc/16644882",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0018986/misc",
+                    "rm:id": "16644882",
+                    "rm:user_id": "1000050498",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-06-10T17:54:12Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-05-21T06:58:09Z",
+                    "paper_title": {
+                        "en": "Effective Synthesis of Polymer Catenanes by Cooperative Electrostatic/Hydrogen-Bonding Self-Assembly and Covalent Fixation"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Kazuyuki Ishikawa"
+                            },
+                            {
+                                "name": "Takuya Yamamoto"
+                            },
+                            {
+                                "name": "Masumi Asakawa"
+                            },
+                            {
+                                "name": "Yasuyuki Tezuka"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "The cooperative electrostatic and hydrogen-bonding self-assembly of polymer precursors a and the Subsequent covalent conversion have been demonstrated as ail effective means for the synthesis of polymer catenanes. Thus, a cyclic poly(tetrahydrofuran), poly(THF), having a hydrogen-bonding, isophthaloylbenzylic amide group (1) was prepared through in electrostatic self-assembly, and covalent fixation with a telechelic poly(THF) having N-phenylpyrrolidinium salt groups carrying a dicarboxylate counteranion containing the hydrogen-bonding unit (1). Another telechelic poly(THF) having,in isophthaloylbenzylic amide group at the center position and having N-phenylpyrrolidinium salt end groups carrying a biphenyldicarboxylate counteranion, 2, was subsequently prepared and subjected to a covalent conversion reaction in the presence of the preformed cyclic poly(THF) having a hydrogen-bonding unit (1). A polymer [2]catenane comprised of the two different cyclic poly(THF) components, I and II (from 2), has been isolated up to 7% yield as ail acetone-insoluble fraction and unequivocally characterized by means of MALDI TOF mass spectroscopy together with (1)H NMR and SEC techniques."
+                    },
+                    "publisher": {
+                        "en": "AMER CHEMICAL SOC"
+                    },
+                    "publication_date": "2010-01",
+                    "publication_name": {
+                        "en": "MACROMOLECULES"
+                    },
+                    "volume": "43",
+                    "number": "1",
+                    "starting_page": "168",
+                    "ending_page": "176",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "cinii_na_id": [
+                            "80020915643"
+                        ],
+                        "doi": [
+                            "10.1021/ma902031j"
+                        ],
+                        "issn": [
+                            "0024-9297"
+                        ],
+                        "wos_id": [
+                            "WOS:000273268700026"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/80020915643",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1021/ma902031j",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000273268700026&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0018986/misc/16644881",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0018986/misc",
+                    "rm:id": "16644881",
+                    "rm:user_id": "1000050498",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-06-10T17:54:12Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-05-21T20:01:23Z",
+                    "paper_title": {
+                        "en": "Multimode Diffusion of Ring Polymer Molecules Revealed by a Single-Molecule Study"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Satoshi Habuchi"
+                            },
+                            {
+                                "name": "Norihiro Satoh"
+                            },
+                            {
+                                "name": "Takuya Yamamoto"
+                            },
+                            {
+                                "name": "Yasuyuki Tezuka"
+                            },
+                            {
+                                "name": "Martin Vacha"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "en": "WILEY-V C H VERLAG GMBH"
+                    },
+                    "publication_date": "2010",
+                    "publication_name": {
+                        "en": "ANGEWANDTE CHEMIE-INTERNATIONAL EDITION"
+                    },
+                    "volume": "49",
+                    "number": "8",
+                    "starting_page": "1418",
+                    "ending_page": "1421",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1002/anie.200904394"
+                        ],
+                        "issn": [
+                            "1433-7851"
+                        ],
+                        "wos_id": [
+                            "WOS:000275028000009"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1002/anie.200904394",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000275028000009&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0018986/misc/16644978",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0018986/misc",
+                    "rm:id": "16644978",
+                    "rm:user_id": "1000050498",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-06-10T17:54:12Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2023-03-27T10:56:37Z",
+                    "paper_title": {
+                        "en": "Synthesis of macrocyclised dimetric compounds and their liquid crystal transition behaviours"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Manabu Itoh"
+                            },
+                            {
+                                "name": "Masatoshi Tokita"
+                            },
+                            {
+                                "name": "Kaoru Adachi"
+                            },
+                            {
+                                "name": "Teruaki Hayakawa"
+                            },
+                            {
+                                "name": "Sungmin Kang"
+                            },
+                            {
+                                "name": "Yasuyuki Tezuka"
+                            },
+                            {
+                                "name": "Junji Watanabe"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "Cyclic C-n dimers were synthesised by the ring-closing metathesis of linear L-n dimers with allyl tails under high dilution in the presence of the first Grubbs catalyst. The C-n dimers form a smectic phase similarly to the precursor L-n dimers, but the smectic structure and phase transition behaviour are remarkably different from those in L-n in the following respects. First, the C-n dimers invariably form a smectic A phase, although the L-n dimers as well as the conventional dimers form smectic A and smectic CA phases depending on whether the number of carbons on the spacer is even or odd. Second, the isotropisation temperature of the C-n dimer is significantly higher than that of the L-n dimer so that the smectic temperature span is expanded to 100°C from around 30°C for L-n. Third, the layer order in the smectic phase of the C-n dimer is remarkably higher than that of the L-n dimer, especially when n is small. These differences are explained as an effect of macrocyclisation, which forces the spacer to fold and thereby causes the two mesogens within a molecule to face each other closely. © 2009 Taylor &amp\n Francis."
+                    },
+                    "publication_date": "2009-12",
+                    "publication_name": {
+                        "en": "Liquid Crystals"
+                    },
+                    "volume": "36",
+                    "number": "12",
+                    "starting_page": "1443",
+                    "ending_page": "1450",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1080/02678290903288011"
+                        ],
+                        "issn": [
+                            "0267-8292",
+                            "1366-5855"
+                        ],
+                        "e_issn": [
+                            "1366-5855"
+                        ],
+                        "scopus_id": [
+                            "72149103789"
+                        ],
+                        "cinii_na_id": [
+                            "80020823097"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1080/02678290903288011",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/80020823097",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "scopus",
+                            "@id": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=72149103789&origin=inward",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "scopus_citedby",
+                            "@id": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=72149103789&origin=inward",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0018986/misc/16644979",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0018986/misc",
+                    "rm:id": "16644979",
+                    "rm:user_id": "1000050498",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-06-10T17:54:12Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-06-10T17:54:12Z",
+                    "paper_title": {
+                        "en": "Topological Effect on Polymer Crystallization of Linear and Ring Polymers"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "YASUYUKI TEZUKA"
+                            }
+                        ]
+                    },
+                    "publication_date": "2009",
+                    "publication_name": {
+                        "en": "Bussei Kenkyu"
+                    },
+                    "volume": "92",
+                    "number": "1",
+                    "starting_page": "51",
+                    "ending_page": "55",
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0018986/misc/16644977",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0018986/misc",
+                    "rm:id": "16644977",
+                    "rm:user_id": "1000050498",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-06-10T17:54:12Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-06-10T17:54:12Z",
+                    "paper_title": {
+                        "en": "Topological Polymer Chemistry in Pursuit of Elusive Polymer Ring Constructions"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "YASUYUKI TEZUKA"
+                            }
+                        ]
+                    },
+                    "publication_date": "2009",
+                    "publication_name": {
+                        "en": "J. Synth. Org. Chem., Jpn.,"
+                    },
+                    "volume": "67",
+                    "number": "11",
+                    "starting_page": "1136",
+                    "ending_page": "1143",
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.5059/yukigoseikyokaishi.67.1136"
+                        ],
+                        "issn": [
+                            "0037-9980",
+                            "1883-6526"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.5059/yukigoseikyokaishi.67.1136",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0018986/misc/16644976",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0018986/misc",
+                    "rm:id": "16644976",
+                    "rm:user_id": "1000050498",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-06-10T17:54:12Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-05-29T08:17:20Z",
+                    "paper_title": {
+                        "en": "Synthesis of macrocyclised dimetric compounds and their liquid crystal transition behaviours"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Manabu Itoh"
+                            },
+                            {
+                                "name": "Masatoshi Tokita"
+                            },
+                            {
+                                "name": "Kaoru Adachi"
+                            },
+                            {
+                                "name": "Teruaki Hayakawa"
+                            },
+                            {
+                                "name": "Sungmin Kang"
+                            },
+                            {
+                                "name": "Yasuyuki Tezuka"
+                            },
+                            {
+                                "name": "Junji Watanabe"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "Cyclic C-n dimers were synthesised by the ring-closing metathesis of linear L-n dimers with allyl tails under high dilution in the presence of the first Grubbs catalyst. The C-n dimers form a smectic phase similarly to the precursor L-n dimers, but the smectic structure and phase transition behaviour are remarkably different from those in L-n in the following respects. First, the C-n dimers invariably form a smectic A phase, although the L-n dimers as well as the conventional dimers form smectic A and smectic CA phases depending on whether the number of carbons on the spacer is even or odd. Second, the isotropisation temperature of the C-n dimer is significantly higher than that of the L-n dimer so that the smectic temperature span is expanded to 100 degrees C from around 30 degrees C for L-n. Third, the layer order in the smectic phase of the C-n dimer is remarkably higher than that of the L-n dimer, especially when n is small. These differences are explained as an effect of macrocyclisation, which forces the spacer to fold and thereby causes the two mesogens within a molecule to face each other closely."
+                    },
+                    "publisher": {
+                        "en": "TAYLOR & FRANCIS LTD"
+                    },
+                    "publication_date": "2009",
+                    "publication_name": {
+                        "en": "LIQUID CRYSTALS"
+                    },
+                    "volume": "36",
+                    "number": "12",
+                    "starting_page": "1443",
+                    "ending_page": "1450",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "cinii_na_id": [
+                            "80020823097"
+                        ],
+                        "doi": [
+                            "10.1080/02678290903288011"
+                        ],
+                        "issn": [
+                            "0267-8292"
+                        ],
+                        "wos_id": [
+                            "WOS:000272795900014"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/80020823097",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1080/02678290903288011",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000272795900014&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0018986/misc/16644888",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0018986/misc",
+                    "rm:id": "16644888",
+                    "rm:user_id": "1000050498",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-06-10T17:54:12Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-06-10T17:54:12Z",
+                    "paper_title": {
+                        "ja": "Topological Effect on Polymer Crystallization of Linear and Ring Polymers"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "YASUYUKI TEZUKA"
+                            }
+                        ]
+                    },
+                    "publication_date": "2009",
+                    "publication_name": {
+                        "ja": "Bussei Kenkyu"
+                    },
+                    "volume": "92",
+                    "number": "1",
+                    "starting_page": "51",
+                    "ending_page": "55",
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0018986/misc/16644887",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0018986/misc",
+                    "rm:id": "16644887",
+                    "rm:user_id": "1000050498",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-06-10T17:54:12Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-06-10T17:54:12Z",
+                    "paper_title": {
+                        "ja": "序論 「かたち」からはじまるマテリアルデザイン"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "手塚育志"
+                            }
+                        ]
+                    },
+                    "publication_date": "2009",
+                    "publication_name": {
+                        "ja": "トポロジー デザイニング -新しい幾何学からはじめる物質・材料設計"
+                    },
+                    "starting_page": "3",
+                    "ending_page": "10",
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0018986/misc/16644886",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0018986/misc",
+                    "rm:id": "16644886",
+                    "rm:user_id": "1000050498",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-06-10T17:54:12Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-06-10T17:54:12Z",
+                    "paper_title": {
+                        "ja": "多環高分子トポロジーの設計"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "手塚育志"
+                            }
+                        ]
+                    },
+                    "publication_date": "2009",
+                    "publication_name": {
+                        "ja": "トポロジー デザイニング -新しい幾何学からはじめる物質・材料設計"
+                    },
+                    "starting_page": "180",
+                    "ending_page": "190",
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0018986/misc/16644885",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0018986/misc",
+                    "rm:id": "16644885",
+                    "rm:user_id": "1000050498",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-06-10T17:54:12Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-05-29T08:17:20Z",
+                    "paper_title": {
+                        "en": "Synthesis of macrocyclised dimetric compounds and their liquid crystal transition behaviours"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Manabu Itoh"
+                            },
+                            {
+                                "name": "Masatoshi Tokita"
+                            },
+                            {
+                                "name": "Kaoru Adachi"
+                            },
+                            {
+                                "name": "Teruaki Hayakawa"
+                            },
+                            {
+                                "name": "Sungmin Kang"
+                            },
+                            {
+                                "name": "Yasuyuki Tezuka"
+                            },
+                            {
+                                "name": "Junji Watanabe"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "Cyclic C-n dimers were synthesised by the ring-closing metathesis of linear L-n dimers with allyl tails under high dilution in the presence of the first Grubbs catalyst. The C-n dimers form a smectic phase similarly to the precursor L-n dimers, but the smectic structure and phase transition behaviour are remarkably different from those in L-n in the following respects. First, the C-n dimers invariably form a smectic A phase, although the L-n dimers as well as the conventional dimers form smectic A and smectic CA phases depending on whether the number of carbons on the spacer is even or odd. Second, the isotropisation temperature of the C-n dimer is significantly higher than that of the L-n dimer so that the smectic temperature span is expanded to 100 degrees C from around 30 degrees C for L-n. Third, the layer order in the smectic phase of the C-n dimer is remarkably higher than that of the L-n dimer, especially when n is small. These differences are explained as an effect of macrocyclisation, which forces the spacer to fold and thereby causes the two mesogens within a molecule to face each other closely."
+                    },
+                    "publisher": {
+                        "en": "TAYLOR & FRANCIS LTD"
+                    },
+                    "publication_date": "2009",
+                    "publication_name": {
+                        "en": "LIQUID CRYSTALS"
+                    },
+                    "volume": "36",
+                    "number": "12",
+                    "starting_page": "1443",
+                    "ending_page": "1450",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "cinii_na_id": [
+                            "80020823097"
+                        ],
+                        "doi": [
+                            "10.1080/02678290903288011"
+                        ],
+                        "issn": [
+                            "0267-8292"
+                        ],
+                        "wos_id": [
+                            "WOS:000272795900014"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/80020823097",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1080/02678290903288011",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000272795900014&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0018986/misc/16644884",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0018986/misc",
+                    "rm:id": "16644884",
+                    "rm:user_id": "1000050498",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-06-10T17:54:12Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-06-10T17:54:12Z",
+                    "paper_title": {
+                        "ja": "Topological Polymer Chemistry in Pursuit of Elusive Polymer Ring Constructions"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "YASUYUKI TEZUKA"
+                            }
+                        ]
+                    },
+                    "publication_date": "2009",
+                    "publication_name": {
+                        "ja": "J. Synth. Org. Chem., Jpn.,"
+                    },
+                    "volume": "67",
+                    "number": "11",
+                    "starting_page": "1136",
+                    "ending_page": "1143",
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.5059/yukigoseikyokaishi.67.1136"
+                        ],
+                        "issn": [
+                            "0037-9980",
+                            "1883-6526"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.5059/yukigoseikyokaishi.67.1136",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0018986/misc/16644883",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0018986/misc",
+                    "rm:id": "16644883",
+                    "rm:user_id": "1000050498",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-06-10T17:54:12Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-06-10T17:54:12Z",
+                    "paper_title": {
+                        "ja": "Synthesis of Macrocyclised Dimetric Compounds and Their Liquid Crystal Transition Behaviors"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "YASUYUKI TEZUKA"
+                            }
+                        ]
+                    },
+                    "publication_date": "2009",
+                    "publication_name": {
+                        "ja": "Liq. Cryt.,"
+                    },
+                    "volume": "36",
+                    "number": "12",
+                    "starting_page": "1443",
+                    "ending_page": "1450",
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1080/02678290903288011"
+                        ],
+                        "issn": [
+                            "0267-8292"
+                        ],
+                        "cinii_na_id": [
+                            "80020823097"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1080/02678290903288011",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/80020823097",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0018986/misc/16644894",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0018986/misc",
+                    "rm:id": "16644894",
+                    "rm:user_id": "1000050498",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-06-10T17:54:12Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2023-03-27T10:56:37Z",
+                    "paper_title": {
+                        "en": "ATRP-RCM synthesis of cyclic diblock copolymers"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Kaoru Adachi"
+                            },
+                            {
+                                "name": "Satoshi Honda"
+                            },
+                            {
+                                "name": "Shotaro Hayashi"
+                            },
+                            {
+                                "name": "Yasuyuki Tezuka"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "A versatile synthetic means for cyclic diblock copolymers has been developed by the combination of atom transfer radical polymerization (ATRP) and ring-closing metathesis (RCM) techniques. Thus, first, an A-B type allyl-telechelic diblock copolymer comprised of two different acrylate ester segments, i.e., poly(methyl acrylate)-b-poly(n-butyl acrylate), poly(MA)-b-poly(BA), was prepared via the ATRP of MA, followed by the addition of the second monomer, BA, with allyl bromide as an initiator and with allyltributylstannane as an end-capping reagent, respectively. Alternatively, an A-B-A type allyl-telechelic triblock copolymer comprised of poly(BA) and poly(ethylene oxide), poly(EO), segments was prepared via the ATRP of BA using a poly(EO) macroinitiator having 2-bromoisobutyryl end groups, followed by the end-capping reaction with allyltributylstannane. The subsequent RCM of the allyl-telechelic block copolymers under dilution in the presence of Grubbs catalyst could afford the corresponding A-B type cyclic diblock copolymers. © 2008 American Chemical Society."
+                    },
+                    "publication_date": "2008-11-11",
+                    "publication_name": {
+                        "en": "Macromolecules"
+                    },
+                    "volume": "41",
+                    "number": "21",
+                    "starting_page": "7898",
+                    "ending_page": "7903",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1021/ma801363n"
+                        ],
+                        "issn": [
+                            "0024-9297"
+                        ],
+                        "scopus_id": [
+                            "56549111280"
+                        ],
+                        "cinii_na_id": [
+                            "80019991648"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1021/ma801363n",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/80019991648",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "scopus",
+                            "@id": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=56549111280&origin=inward",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "scopus_citedby",
+                            "@id": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=56549111280&origin=inward",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0018986/misc/16644983",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0018986/misc",
+                    "rm:id": "16644983",
+                    "rm:user_id": "1000050498",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-06-10T17:54:12Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-06-07T01:44:42Z",
+                    "paper_title": {
+                        "en": "Liquid Chromatography of Theta-Shaped and Three-Armed Star Poly(tetrahydrofuran)s: Theory and Experimental Evidence of Topological Separation"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Andrey V. Vakhrushev"
+                            },
+                            {
+                                "name": "Alexei A. Gorbunov"
+                            },
+                            {
+                                "name": "Yasuyuki Tezuka"
+                            },
+                            {
+                                "name": "Akiko Tsuchitani"
+                            },
+                            {
+                                "name": "Hideaki Oike"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "A theoretical background is provided for the methods of the analysis and topological separation of complex macrocyclic polymers by means of size exclusion chromatography (SEC), liquid adsorption chromatography, and liquid chromatography at the critical condition. We focus on a particular problem of the separation of theta-shaped polymers from its three-armed star analogues. Based on the theory, we simulate chromatograms for model mixtures of polydisperse theta- and star-polymers and analyze conditions for good separation of these polymers by topology. A theory is compared with the behavior of star-and theta-shaped poly(THF)s in size exclusion and interactive chromatography, and a good qualitative agreement between theory and experiment is observed. In particular, it is shown that in both SEC and interactive chromatography theta-polymers elute after the corresponding stars of the same molar mass. According to theory and experiment, chromatography under the critical and near-critical interaction conditions is especially promising for the separation of polydisperse macrocyclic polymers from their linear or branched analogues."
+                    },
+                    "publisher": {
+                        "en": "AMER CHEMICAL SOC"
+                    },
+                    "publication_date": "2008-11",
+                    "publication_name": {
+                        "en": "ANALYTICAL CHEMISTRY"
+                    },
+                    "volume": "80",
+                    "number": "21",
+                    "starting_page": "8153",
+                    "ending_page": "8162",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "cinii_na_id": [
+                            "80020055643"
+                        ],
+                        "doi": [
+                            "10.1021/ac801229f"
+                        ],
+                        "issn": [
+                            "0003-2700"
+                        ],
+                        "pm_id": [
+                            "18826238"
+                        ],
+                        "wos_id": [
+                            "WOS:000260567000036"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/80020055643",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1021/ac801229f",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "pubmed",
+                            "@id": "https://www.ncbi.nlm.nih.gov/pubmed/18826238",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000260567000036&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0018986/misc/16644980",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0018986/misc",
+                    "rm:id": "16644980",
+                    "rm:user_id": "1000050498",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-06-10T17:54:12Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-06-07T19:25:19Z",
+                    "paper_title": {
+                        "en": "ATRP-RCM Synthesis of Cyclic Diblock Copolymers"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Kaoru Adachi"
+                            },
+                            {
+                                "name": "Satoshi Honda"
+                            },
+                            {
+                                "name": "Shotaro Hayashi"
+                            },
+                            {
+                                "name": "Yasuyuki Tezuka"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "A versatile synthetic means for cyclic diblock copolymers has been developed by the combination of atom transfer radical polymerization (ATRP) and ring-closing metathesis (RCM) techniques. Thus, first, an A-B type allyl-telechelic diblock copolymer comprised of two different acrylate ester segments, i.e., poly(methyl acrylate)-b-poly(n-butyl acrylate), poly(MA)-b-poly(BA), was prepared via the ATRP of MA, followed by the addition of the second monomer, BA, with allyl bromide as an initiator and with allyltributylstannane as an end-capping reagent, respectively. Alternatively, an A-B-A type allyl-telechelic triblock copolymer comprised of poly(BA) and poly(ethylene oxide), poly(EO), segments was prepared via the ATRP of BA using a poly(EO) macroinitiator having 2-bromoisobutyryl end groups, followed by the end-capping reaction with allyltributylstannane. The subsequent RCM of the allyl-telechelic block copolymers under dilution in the presence of Grubbs catalyst could afford the corresponding A-B type cyclic diblock copolymers."
+                    },
+                    "publisher": {
+                        "en": "AMER CHEMICAL SOC"
+                    },
+                    "publication_date": "2008-11",
+                    "publication_name": {
+                        "en": "MACROMOLECULES"
+                    },
+                    "volume": "41",
+                    "number": "21",
+                    "starting_page": "7898",
+                    "ending_page": "7903",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "cinii_na_id": [
+                            "80019991648"
+                        ],
+                        "doi": [
+                            "10.1021/ma801363n"
+                        ],
+                        "issn": [
+                            "0024-9297"
+                        ],
+                        "wos_id": [
+                            "WOS:000260612700022"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/80019991648",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1021/ma801363n",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000260612700022&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0018986/misc/16644893",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0018986/misc",
+                    "rm:id": "16644893",
+                    "rm:user_id": "1000050498",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-06-10T17:54:12Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-06-07T01:44:42Z",
+                    "paper_title": {
+                        "en": "Liquid Chromatography of Theta-Shaped and Three-Armed Star Poly(tetrahydrofuran)s: Theory and Experimental Evidence of Topological Separation"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Andrey V. Vakhrushev"
+                            },
+                            {
+                                "name": "Alexei A. Gorbunov"
+                            },
+                            {
+                                "name": "Yasuyuki Tezuka"
+                            },
+                            {
+                                "name": "Akiko Tsuchitani"
+                            },
+                            {
+                                "name": "Hideaki Oike"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "A theoretical background is provided for the methods of the analysis and topological separation of complex macrocyclic polymers by means of size exclusion chromatography (SEC), liquid adsorption chromatography, and liquid chromatography at the critical condition. We focus on a particular problem of the separation of theta-shaped polymers from its three-armed star analogues. Based on the theory, we simulate chromatograms for model mixtures of polydisperse theta- and star-polymers and analyze conditions for good separation of these polymers by topology. A theory is compared with the behavior of star-and theta-shaped poly(THF)s in size exclusion and interactive chromatography, and a good qualitative agreement between theory and experiment is observed. In particular, it is shown that in both SEC and interactive chromatography theta-polymers elute after the corresponding stars of the same molar mass. According to theory and experiment, chromatography under the critical and near-critical interaction conditions is especially promising for the separation of polydisperse macrocyclic polymers from their linear or branched analogues."
+                    },
+                    "publisher": {
+                        "en": "AMER CHEMICAL SOC"
+                    },
+                    "publication_date": "2008-11",
+                    "publication_name": {
+                        "en": "ANALYTICAL CHEMISTRY"
+                    },
+                    "volume": "80",
+                    "number": "21",
+                    "starting_page": "8153",
+                    "ending_page": "8162",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "cinii_na_id": [
+                            "80020055643"
+                        ],
+                        "doi": [
+                            "10.1021/ac801229f"
+                        ],
+                        "issn": [
+                            "0003-2700"
+                        ],
+                        "pm_id": [
+                            "18826238"
+                        ],
+                        "wos_id": [
+                            "WOS:000260567000036"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/80020055643",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1021/ac801229f",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "pubmed",
+                            "@id": "https://www.ncbi.nlm.nih.gov/pubmed/18826238",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000260567000036&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0018986/books_etc",
+            "@type": "books_etc",
+            "@reverse": "https://api.researchmap.jp/read0018986",
+            "total_items": 13,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0018986/books_etc/13654479",
+                    "@type": "books_etc",
+                    "@reverse": "https://api.researchmap.jp/read0018986/books_etc",
+                    "rm:id": "13654479",
+                    "rm:user_id": "1000050498",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-06-10T17:54:12Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-06-10T17:54:12Z",
+                    "book_title": {
+                        "ja": "基礎高分子科学"
+                    },
+                    "publisher": {
+                        "ja": "東京化学同人"
+                    },
+                    "publication_date": "2006",
+                    "referee": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0018986/books_etc/13654480",
+                    "@type": "books_etc",
+                    "@reverse": "https://api.researchmap.jp/read0018986/books_etc",
+                    "rm:id": "13654480",
+                    "rm:user_id": "1000050498",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-06-10T17:54:12Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-06-10T17:54:12Z",
+                    "book_title": {
+                        "ja": "トポロジカル高分子"
+                    },
+                    "publisher": {
+                        "ja": "図解 高分子新素材のすべて"
+                    },
+                    "publication_date": "2005",
+                    "referee": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0018986/books_etc/13654481",
+                    "@type": "books_etc",
+                    "@reverse": "https://api.researchmap.jp/read0018986/books_etc",
+                    "rm:id": "13654481",
+                    "rm:user_id": "1000050498",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-06-10T17:54:12Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-06-10T17:54:12Z",
+                    "book_title": {
+                        "ja": "高分子材料化学"
+                    },
+                    "publisher": {
+                        "ja": "三共出版"
+                    },
+                    "publication_date": "2001",
+                    "referee": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0018986/books_etc/13654482",
+                    "@type": "books_etc",
+                    "@reverse": "https://api.researchmap.jp/read0018986/books_etc",
+                    "rm:id": "13654482",
+                    "rm:user_id": "1000050498",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-06-10T17:54:12Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-06-10T17:54:12Z",
+                    "book_title": {
+                        "ja": "セルロースの事典"
+                    },
+                    "publisher": {
+                        "ja": "朝倉書店"
+                    },
+                    "publication_date": "2000",
+                    "referee": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0018986/books_etc/13654483",
+                    "@type": "books_etc",
+                    "@reverse": "https://api.researchmap.jp/read0018986/books_etc",
+                    "rm:id": "13654483",
+                    "rm:user_id": "1000050498",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-06-10T17:54:12Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-06-10T17:54:12Z",
+                    "book_title": {
+                        "ja": "材料科学への招待"
+                    },
+                    "publisher": {
+                        "ja": "培風館"
+                    },
+                    "publication_date": "1997",
+                    "referee": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0018986/books_etc/13654488",
+                    "@type": "books_etc",
+                    "@reverse": "https://api.researchmap.jp/read0018986/books_etc",
+                    "rm:id": "13654488",
+                    "rm:user_id": "1000050498",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-06-10T17:54:12Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-06-10T17:54:12Z",
+                    "book_title": {
+                        "en": "Synthesis and Reactions of Uniform Size Telechelics of Unique Reactivity"
+                    },
+                    "publisher": {
+                        "en": "in Macromolecules 1992, VSP."
+                    },
+                    "publication_date": "1993",
+                    "referee": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0018986/books_etc/13654484",
+                    "@type": "books_etc",
+                    "@reverse": "https://api.researchmap.jp/read0018986/books_etc",
+                    "rm:id": "13654484",
+                    "rm:user_id": "1000050498",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-06-10T17:54:12Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-06-10T17:54:12Z",
+                    "book_title": {
+                        "ja": "Synthesis and Reactions of Uniform Size Telechelics of Unique Reactivity"
+                    },
+                    "publisher": {
+                        "ja": "in Macromolecules 1992, VSP."
+                    },
+                    "publication_date": "1993",
+                    "referee": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0018986/books_etc/13654490",
+                    "@type": "books_etc",
+                    "@reverse": "https://api.researchmap.jp/read0018986/books_etc",
+                    "rm:id": "13654490",
+                    "rm:user_id": "1000050498",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-06-10T17:54:12Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-06-10T17:54:12Z",
+                    "book_title": {
+                        "en": "Molecular Weights in Polymers"
+                    },
+                    "publication_date": "1992",
+                    "referee": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0018986/books_etc/13654489",
+                    "@type": "books_etc",
+                    "@reverse": "https://api.researchmap.jp/read0018986/books_etc",
+                    "rm:id": "13654489",
+                    "rm:user_id": "1000050498",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-06-10T17:54:12Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-06-10T17:54:12Z",
+                    "book_title": {
+                        "en": "Polymer Synthesis"
+                    },
+                    "publication_date": "1992",
+                    "referee": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0018986/books_etc/13654486",
+                    "@type": "books_etc",
+                    "@reverse": "https://api.researchmap.jp/read0018986/books_etc",
+                    "rm:id": "13654486",
+                    "rm:user_id": "1000050498",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-06-10T17:54:12Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-06-10T17:54:12Z",
+                    "book_title": {
+                        "ja": "高分子の分子量(高分子サイエンスーワンポイント・第1巻)"
+                    },
+                    "publisher": {
+                        "ja": "共立出版"
+                    },
+                    "publication_date": "1992",
+                    "referee": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0018986/books_etc/13654485",
+                    "@type": "books_etc",
+                    "@reverse": "https://api.researchmap.jp/read0018986/books_etc",
+                    "rm:id": "13654485",
+                    "rm:user_id": "1000050498",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-06-10T17:54:12Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-06-10T17:54:12Z",
+                    "book_title": {
+                        "ja": "第4版実験化学講座・第38巻・高分子合成"
+                    },
+                    "publisher": {
+                        "ja": "丸善"
+                    },
+                    "publication_date": "1992",
+                    "referee": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0018986/books_etc/13654491",
+                    "@type": "books_etc",
+                    "@reverse": "https://api.researchmap.jp/read0018986/books_etc",
+                    "rm:id": "13654491",
+                    "rm:user_id": "1000050498",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-06-10T17:54:12Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-06-10T17:54:12Z",
+                    "book_title": {
+                        "en": "Syntheses and Reactions of Polymers(2)"
+                    },
+                    "publication_date": "1991",
+                    "referee": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0018986/books_etc/13654487",
+                    "@type": "books_etc",
+                    "@reverse": "https://api.researchmap.jp/read0018986/books_etc",
+                    "rm:id": "13654487",
+                    "rm:user_id": "1000050498",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-06-10T17:54:12Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-06-10T17:54:12Z",
+                    "book_title": {
+                        "ja": "高分子の合成と反応(2)"
+                    },
+                    "publisher": {
+                        "ja": "共立出版"
+                    },
+                    "publication_date": "1991",
+                    "referee": false
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0018986/presentations",
+            "@type": "presentations",
+            "@reverse": "https://api.researchmap.jp/read0018986",
+            "total_items": 77,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0018986/presentations/11530314",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0018986/presentations",
+                    "rm:id": "11530314",
+                    "rm:user_id": "1000050498",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-06-10T17:54:12Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-06-10T17:54:12Z",
+                    "presentation_title": {
+                        "en": "Construction of Topological Block Copolymers through Click Chemistry"
+                    },
+                    "event": {
+                        "en": "Advanced Polymeric Materials and Technology symposium"
+                    },
+                    "publication_date": "2010",
+                    "invited": false,
+                    "presentation_type": "poster_presentation",
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0018986/presentations/11530313",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0018986/presentations",
+                    "rm:id": "11530313",
+                    "rm:user_id": "1000050498",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-06-10T17:54:12Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-06-10T17:54:12Z",
+                    "presentation_title": {
+                        "en": "Construction of a Thermostable Micelle by Self-Assembly of a Cyclized Polymer"
+                    },
+                    "event": {
+                        "en": "239th American Chemical Society National Meeting & Exposition"
+                    },
+                    "publication_date": "2010",
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0018986/presentations/11530312",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0018986/presentations",
+                    "rm:id": "11530312",
+                    "rm:user_id": "1000050498",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-06-10T17:54:12Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-06-10T17:54:12Z",
+                    "presentation_title": {
+                        "en": "Preparation of self-assembled monolayers (SAMs) from cyclic alkanedisulfides"
+                    },
+                    "publication_date": "2010",
+                    "invited": false,
+                    "presentation_type": "poster_presentation",
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0018986/presentations/11530311",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0018986/presentations",
+                    "rm:id": "11530311",
+                    "rm:user_id": "1000050498",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-06-10T17:54:12Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-06-10T17:54:12Z",
+                    "presentation_title": {
+                        "en": "Construction of a thermostable micelle by a cyclized amphiphilic block copolymer"
+                    },
+                    "event": {
+                        "en": "The 90th Annual Meeting of The Chemical"
+                    },
+                    "publication_date": "2010",
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0018986/presentations/11530310",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0018986/presentations",
+                    "rm:id": "11530310",
+                    "rm:user_id": "1000050498",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-06-10T17:54:12Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-06-10T17:54:12Z",
+                    "presentation_title": {
+                        "en": "Formation of a Thermostable Polymeric Micelle from a Cyclized Block Copolymer"
+                    },
+                    "event": {
+                        "en": "59th SPSJ Annual Meeting"
+                    },
+                    "publication_date": "2010",
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0018986/presentations/11530274",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0018986/presentations",
+                    "rm:id": "11530274",
+                    "rm:user_id": "1000050498",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-06-10T17:54:12Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-06-10T17:54:12Z",
+                    "presentation_title": {
+                        "ja": "Construction of Topological Block Copolymers through Click Chemistry"
+                    },
+                    "event": {
+                        "ja": "Advanced Polymeric Materials and Technology symposium"
+                    },
+                    "publication_date": "2010",
+                    "invited": false,
+                    "presentation_type": "poster_presentation",
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0018986/presentations/11530273",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0018986/presentations",
+                    "rm:id": "11530273",
+                    "rm:user_id": "1000050498",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-06-10T17:54:12Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-06-10T17:54:12Z",
+                    "presentation_title": {
+                        "ja": "環状構造を有する高分子の構築とトポロジー効果を利用した新規機能性の創製"
+                    },
+                    "event": {
+                        "ja": "関東高分子若手研究会"
+                    },
+                    "publication_date": "2010",
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0018986/presentations/11530272",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0018986/presentations",
+                    "rm:id": "11530272",
+                    "rm:user_id": "1000050498",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-06-10T17:54:12Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-06-10T17:54:12Z",
+                    "presentation_title": {
+                        "ja": "Construction of a Thermostable Micelle by Self-Assembly of a Cyclized Polymer"
+                    },
+                    "event": {
+                        "ja": "239th American Chemical Society National Meeting & Exposition"
+                    },
+                    "publication_date": "2010",
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0018986/presentations/11530271",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0018986/presentations",
+                    "rm:id": "11530271",
+                    "rm:user_id": "1000050498",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-06-10T17:54:12Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-06-10T17:54:12Z",
+                    "presentation_title": {
+                        "ja": "クリックケミストリーを用いた直列多環状高分子の合成"
+                    },
+                    "event": {
+                        "ja": "日本化学会第90回春季年会"
+                    },
+                    "publication_date": "2010",
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0018986/presentations/11530270",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0018986/presentations",
+                    "rm:id": "11530270",
+                    "rm:user_id": "1000050498",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-06-10T17:54:12Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-06-10T17:54:12Z",
+                    "presentation_title": {
+                        "ja": "高分子間クリックケミストリーによるトポロジカルブロック交互共重合体およびγ-グラフ型高分子の合成"
+                    },
+                    "event": {
+                        "ja": "日本化学会第90春年会"
+                    },
+                    "publication_date": "2010",
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0018986/presentations/11530269",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0018986/presentations",
+                    "rm:id": "11530269",
+                    "rm:user_id": "1000050498",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-06-10T17:54:12Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-06-10T17:54:12Z",
+                    "presentation_title": {
+                        "ja": "環状アルカンジスルフィドを用いた自己組織化単分子膜(SAM)の作成"
+                    },
+                    "event": {
+                        "ja": "日本化学会 第90春季年会"
+                    },
+                    "publication_date": "2010",
+                    "invited": false,
+                    "presentation_type": "poster_presentation",
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0018986/presentations/11530268",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0018986/presentations",
+                    "rm:id": "11530268",
+                    "rm:user_id": "1000050498",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-06-10T17:54:12Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-06-10T17:54:12Z",
+                    "presentation_title": {
+                        "ja": "両親媒性環状ブロック共重合体による熱安定性に優れた新規高分子ミセルの創製"
+                    },
+                    "event": {
+                        "ja": "日本化学会第90春季年会 (2010)"
+                    },
+                    "publication_date": "2010",
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0018986/presentations/11530267",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0018986/presentations",
+                    "rm:id": "11530267",
+                    "rm:user_id": "1000050498",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-06-10T17:54:12Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-06-10T17:54:12Z",
+                    "presentation_title": {
+                        "ja": "環状高分子間のクリックケミストリーを用いた3環及び4環直列型ポリテトラヒドロフランの選択的構築"
+                    },
+                    "event": {
+                        "ja": "第59回高分子年次大会"
+                    },
+                    "publication_date": "2010",
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0018986/presentations/11530266",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0018986/presentations",
+                    "rm:id": "11530266",
+                    "rm:user_id": "1000050498",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-06-10T17:54:12Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-06-10T17:54:12Z",
+                    "presentation_title": {
+                        "ja": "クリックケミストリーおよびメタセシス反応を用いた環鎖トポロジカル交互共重合体およびγ-グラフ型高分子の合成"
+                    },
+                    "event": {
+                        "ja": "第59回高分子学会年次大会"
+                    },
+                    "publication_date": "2010",
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0018986/presentations/11530265",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0018986/presentations",
+                    "rm:id": "11530265",
+                    "rm:user_id": "1000050498",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-06-10T17:54:12Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-06-10T17:54:12Z",
+                    "presentation_title": {
+                        "ja": "環状高分子の構造特性を利用した耐熱性に優れる高分子ミセルの創製"
+                    },
+                    "event": {
+                        "ja": "第59回 高分子学会年次大会"
+                    },
+                    "publication_date": "2010",
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0018986/presentations/11530322",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0018986/presentations",
+                    "rm:id": "11530322",
+                    "rm:user_id": "1000050498",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-06-10T17:54:12Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-06-10T17:54:12Z",
+                    "presentation_title": {
+                        "en": "Formation of a Catenane via the Cyclization of a Telechelic Polymer Having a Hydrogen-Bonding Unit"
+                    },
+                    "event": {
+                        "en": "The chemical society of Japan, The 89th Annual Meeting"
+                    },
+                    "publication_date": "2009",
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0018986/presentations/11530321",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0018986/presentations",
+                    "rm:id": "11530321",
+                    "rm:user_id": "1000050498",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-06-10T17:54:12Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-06-10T17:54:12Z",
+                    "presentation_title": {
+                        "en": "Synthesis of Topological Block Copolymers via Click Chemistry"
+                    },
+                    "event": {
+                        "en": "ADVANCED FUNCTIONAL MATERIALS CONFERENCE"
+                    },
+                    "publication_date": "2009",
+                    "invited": false,
+                    "presentation_type": "poster_presentation",
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0018986/presentations/11530320",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0018986/presentations",
+                    "rm:id": "11530320",
+                    "rm:user_id": "1000050498",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-06-10T17:54:12Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-06-10T17:54:12Z",
+                    "presentation_title": {
+                        "en": "Catenane Synthesis Via Cyclization of a Cyclic Polymer Through Hydrogen-Bonding/Electrostatic Self-Assembly"
+                    },
+                    "event": {
+                        "en": "2009 Taiwan-Japan Bilateral Polymer Symposium"
+                    },
+                    "publication_date": "2009",
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0018986/presentations/11530319",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0018986/presentations",
+                    "rm:id": "11530319",
+                    "rm:user_id": "1000050498",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-06-10T17:54:12Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-06-10T17:54:12Z",
+                    "presentation_title": {
+                        "en": "Synthesis and micelle formation of amphiphilic cyclic block copolymers"
+                    },
+                    "publication_date": "2009",
+                    "invited": false,
+                    "presentation_type": "poster_presentation",
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0018986/presentations/11530318",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0018986/presentations",
+                    "rm:id": "11530318",
+                    "rm:user_id": "1000050498",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-06-10T17:54:12Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-06-10T17:54:12Z",
+                    "presentation_title": {
+                        "en": "Synthesis of a Dissymmetric 2-Catenane via the Cyclization of a Telechelic Polymer in the Presence of a Cyclic Polymer Having Hydrogen-Bondings"
+                    },
+                    "event": {
+                        "en": "The Society Polymer Science, Japan, Annual Meeting"
+                    },
+                    "publication_date": "2009",
+                    "invited": false,
+                    "presentation_type": "poster_presentation",
+                    "rm:is_open_access": false
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0018986/association_memberships",
+            "@type": "association_memberships",
+            "@reverse": "https://api.researchmap.jp/read0018986",
+            "total_items": 6,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0018986/association_memberships/10322654",
+                    "@type": "association_memberships",
+                    "@reverse": "https://api.researchmap.jp/read0018986/association_memberships",
+                    "rm:id": "10322654",
+                    "rm:user_id": "1000050498",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-06-10T17:54:12Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-06-10T17:54:12Z",
+                    "academic_society_name": {
+                        "ja": "有機合成化学協会"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0018986/association_memberships/10322653",
+                    "@type": "association_memberships",
+                    "@reverse": "https://api.researchmap.jp/read0018986/association_memberships",
+                    "rm:id": "10322653",
+                    "rm:user_id": "1000050498",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-06-10T17:54:12Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-06-10T17:54:12Z",
+                    "academic_society_name": {
+                        "ja": "セルロース学会"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0018986/association_memberships/10322652",
+                    "@type": "association_memberships",
+                    "@reverse": "https://api.researchmap.jp/read0018986/association_memberships",
+                    "rm:id": "10322652",
+                    "rm:user_id": "1000050498",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-06-10T17:54:12Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-06-10T17:54:12Z",
+                    "academic_society_name": {
+                        "ja": "繊維学会"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0018986/association_memberships/10322651",
+                    "@type": "association_memberships",
+                    "@reverse": "https://api.researchmap.jp/read0018986/association_memberships",
+                    "rm:id": "10322651",
+                    "rm:user_id": "1000050498",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-06-10T17:54:12Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-06-10T17:54:12Z",
+                    "academic_society_name": {
+                        "ja": "American Chemical Society",
+                        "en": "American Chemical Society"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0018986/association_memberships/10322650",
+                    "@type": "association_memberships",
+                    "@reverse": "https://api.researchmap.jp/read0018986/association_memberships",
+                    "rm:id": "10322650",
+                    "rm:user_id": "1000050498",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-06-10T17:54:12Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-06-10T17:54:12Z",
+                    "academic_society_name": {
+                        "ja": "日本化学会"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0018986/association_memberships/10322649",
+                    "@type": "association_memberships",
+                    "@reverse": "https://api.researchmap.jp/read0018986/association_memberships",
+                    "rm:id": "10322649",
+                    "rm:user_id": "1000050498",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-06-10T17:54:12Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-06-10T17:54:12Z",
+                    "academic_society_name": {
+                        "ja": "高分子学会"
+                    }
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0018986/research_projects",
+            "@type": "research_projects",
+            "@reverse": "https://api.researchmap.jp/read0018986",
+            "total_items": 3,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0018986/research_projects/13341563",
+                    "@type": "research_projects",
+                    "@reverse": "https://api.researchmap.jp/read0018986/research_projects",
+                    "rm:id": "13341563",
+                    "rm:user_id": "1000050498",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-06-10T17:54:12Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-06-10T17:54:12Z",
+                    "research_project_title": {
+                        "ja": "高分子トポロジー化学",
+                        "en": "Topological Polymer Chemistry"
+                    },
+                    "system_name": {
+                        "ja": "科学研究費補助金",
+                        "en": "Grant-in-Aid for Scientific Research"
+                    },
+                    "from_date": "2001",
+                    "to_date": "2004",
+                    "overall_grant_amount": {
+                        "indirect_cost": "0",
+                        "total_cost": "0",
+                        "direct_cost": "0"
+                    },
+                    "fund_type": "competitive_research_funding"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0018986/research_projects/13341565",
+                    "@type": "research_projects",
+                    "@reverse": "https://api.researchmap.jp/read0018986/research_projects",
+                    "rm:id": "13341565",
+                    "rm:user_id": "1000050498",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-06-10T17:54:12Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-06-10T17:54:12Z",
+                    "research_project_title": {
+                        "ja": "多糖誘導体のNMR構造解析",
+                        "en": "NMR Studies on Polysaccharide Derivatives"
+                    },
+                    "overall_grant_amount": {
+                        "indirect_cost": "0",
+                        "total_cost": "0",
+                        "direct_cost": "0"
+                    },
+                    "fund_type": "competitive_research_funding"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0018986/research_projects/13341564",
+                    "@type": "research_projects",
+                    "@reverse": "https://api.researchmap.jp/read0018986/research_projects",
+                    "rm:id": "13341564",
+                    "rm:user_id": "1000050498",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-06-10T17:54:12Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-06-10T17:54:12Z",
+                    "research_project_title": {
+                        "ja": "多相高分子表面・界面の環境応答性",
+                        "en": "Surface Responses on Multicomponent Polymer Materials"
+                    },
+                    "overall_grant_amount": {
+                        "indirect_cost": "0",
+                        "total_cost": "0",
+                        "direct_cost": "0"
+                    },
+                    "fund_type": "competitive_research_funding"
+                }
+            ]
+        }
+    ]
+}

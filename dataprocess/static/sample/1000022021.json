@@ -1,0 +1,2289 @@
+{
+    "@context": "https://api.researchmap.jp/researcher.jsonld",
+    "@id": "https://api.researchmap.jp/read0010641?format=json",
+    "@type": "researchers",
+    "rm:user_id": "1000022021",
+    "rm:creator_id": "1000022021",
+    "rm:creator_type": "myself",
+    "rm:created": "2011-03-23T15:00:00Z",
+    "rm:modifier_id": "client_id:4soeP_GynCAqaBkY",
+    "rm:modifier_type": "institution",
+    "rm:modified": "2024-10-30T01:15:17Z",
+    "permalink": "read0010641",
+    "family_name": {
+        "ja": "野末",
+        "ja-Kana": "ノズエ",
+        "en": "NOZUE"
+    },
+    "given_name": {
+        "ja": "雅之",
+        "ja-Kana": "マサユキ",
+        "en": "Masayuki"
+    },
+    "display_name_kana": "disclosed",
+    "display_nickname": "disclosed",
+    "display_image": "disclosed",
+    "display_contact_point": "disclosed",
+    "affiliations": [
+        {
+            "affiliation": {
+                "en": "Shinshu University",
+                "ja": "信州大学"
+            },
+            "section": {
+                "en": "Faculty of Textile Science and Technology",
+                "ja": "繊維学部"
+            },
+            "job": {
+                "ja": "名誉教授",
+                "en": "Professor Emeritus"
+            },
+            "display_affiliation": "disclosed",
+            "display_job": "disclosed",
+            "rm:institution_code": "0248011000"
+        }
+    ],
+    "display_profile": "disclosed",
+    "display_url": "disclosed",
+    "identifiers": {
+        "j_global_id": [
+            "200901009331570333"
+        ]
+    },
+    "rm:erad_id_verified": false,
+    "rm:orc_id_verified": false,
+    "display_erad_id": "closed",
+    "display_orc_id": "closed",
+    "display_researcher_id": "disclosed",
+    "display_j_global_id": "disclosed",
+    "see_also": [
+        {
+            "label": "j_global",
+            "@id": "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=200901009331570333"
+        }
+    ],
+    "@graph": [
+        {
+            "@id": "https://api.researchmap.jp/read0010641/research_areas",
+            "@type": "research_areas",
+            "@reverse": "https://api.researchmap.jp/read0010641",
+            "total_items": 1,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0010641/research_areas/8244937",
+                    "@type": "research_areas",
+                    "@reverse": "https://api.researchmap.jp/read0010641/research_areas",
+                    "rm:id": "8244937",
+                    "rm:user_id": "1000022021",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:#L4c2kCEt3esu+FZ",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-09-25T17:55:48Z",
+                    "rm:modifier_id": "client_id:#L4c2kCEt3esu+FZ",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2019-09-25T17:55:48Z",
+                    "discipline_number": "A189",
+                    "item_number": "A44030",
+                    "discipline": {
+                        "ja": "ライフサイエンス",
+                        "en": "Life sciences"
+                    },
+                    "research_field": {
+                        "ja": "植物分子、生理科学",
+                        "en": "Plants: molecular biology and physiology"
+                    },
+                    "research_keyword": {
+                        "ja": "植物分子・生理科学",
+                        "en": "Plant molecular biology/Plant physiology"
+                    }
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0010641/published_papers",
+            "@type": "published_papers",
+            "@reverse": "https://api.researchmap.jp/read0010641",
+            "total_items": 16,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0010641/published_papers/154716",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0010641/published_papers",
+                    "rm:id": "154716",
+                    "rm:user_id": "1000022021",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:#L4c2kCEt3esu+FZ",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-09-25T17:55:48Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-03-27T17:58:57Z",
+                    "paper_title": {
+                        "en": "Significance of structural variation in thylakoid membranes in maintaining functional photosystems during reproductive growth"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Hatsumi Nozue"
+                            },
+                            {
+                                "name": "Kaori Oono"
+                            },
+                            {
+                                "name": "Yoshinobu Ichikawa"
+                            },
+                            {
+                                "name": "Shun Tanimura"
+                            },
+                            {
+                                "name": "Kana Shirai"
+                            },
+                            {
+                                "name": "Kintake Sonoike"
+                            },
+                            {
+                                "name": "Masayuki Nozue"
+                            },
+                            {
+                                "name": "Nobuaki Hayashida"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "Structural variation in the stroma-grana (SG) arrangement of the thylakoid membranes, such as changes in the thickness of the grana stacks and in the ratio between grana and inter-grana thylakoid, is often observed. Broadly, such alterations are considered acclimation to changes in growth and the environment. However, the relation of thylakoid morphology to plant growth and photosynthesis remains obscure. Here, we report changes in the thylakoid during leaf development under a fixed light condition. Histological studies on the chloroplasts of fresh green Arabidopsis leaves have shown that characteristically shaped thylakoid membranes lacking the inter-grana region, referred to hereafter as isolated-grana (IG), occurred adjacent to highly ordered, large grana layers. This morphology was restored to conventional SG thylakoid membranes with the removal of bolting stems from reproductive plants. Statistical analysis showed a negative correlation between the incidences of IG-type chloroplasts in mesophyll cells and the rates of leaf growth. Fluorescence parameters calculated from pulse-amplitude modulated fluorometry measurements and CO2 assimilation data showed that the IG thylakoids had a photosynthetic ability that was equivalent to that of the SG thylakoids under moderate light. However, clear differences were observed in the chlorophyll a/b ratio. The IG thylakoids were apparently an acclimated phenotype to the internal condition of source leaves. The idea is supported by the fact that the life span of the IG thylakoids increased significantly in the later developing leaves. In conclusion, the heterogeneous state of thylakoid membranes is likely important in maintaining photosynthesis during the reproductive phase of growth."
+                    },
+                    "publisher": {
+                        "en": "WILEY"
+                    },
+                    "publication_date": "2017-05",
+                    "publication_name": {
+                        "en": "PHYSIOLOGIA PLANTARUM"
+                    },
+                    "volume": "160",
+                    "number": "1",
+                    "starting_page": "111",
+                    "ending_page": "123",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1111/ppl.12528"
+                        ],
+                        "issn": [
+                            "0031-9317"
+                        ],
+                        "e_issn": [
+                            "1399-3054"
+                        ],
+                        "wos_id": [
+                            "WOS:000401237200009"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1111/ppl.12528",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000401237200009&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010641/published_papers/154714",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0010641/published_papers",
+                    "rm:id": "154714",
+                    "rm:user_id": "1000022021",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:#L4c2kCEt3esu+FZ",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-09-25T17:55:48Z",
+                    "rm:modifier_id": "R000000368",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2021-08-02T08:05:48Z",
+                    "paper_title": {
+                        "ja": "人工光型植物工場におけるLED光環境の最適化とその評価の試み",
+                        "en": "人工光型植物工場におけるLED光環境の最適化とその評価の試み"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "野末雅之"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "野末雅之"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "ja": "アグリバイオ",
+                        "en": "アグリバイオ"
+                    },
+                    "publication_date": "2017",
+                    "publication_name": {
+                        "ja": "アグリバイオ",
+                        "en": "アグリバイオ"
+                    },
+                    "volume": "1",
+                    "starting_page": "49",
+                    "ending_page": "51",
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010641/published_papers/154715",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0010641/published_papers",
+                    "rm:id": "154715",
+                    "rm:user_id": "1000022021",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:#L4c2kCEt3esu+FZ",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-09-25T17:55:48Z",
+                    "rm:modifier_id": "R000000368",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2021-08-02T08:05:48Z",
+                    "paper_title": {
+                        "ja": "コンテナ植物工場開発の現状と課題",
+                        "en": "コンテナ植物工場開発の現状と課題"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "野末雅之"
+                            },
+                            {
+                                "name": "高橋伸英"
+                            },
+                            {
+                                "name": "野末はつみ"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "野末雅之"
+                            },
+                            {
+                                "name": "高橋伸英"
+                            },
+                            {
+                                "name": "野末はつみ"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "ja": "計測技術",
+                        "en": "計測技術"
+                    },
+                    "publication_date": "2016",
+                    "publication_name": {
+                        "ja": "計測技術",
+                        "en": "計測技術"
+                    },
+                    "volume": "44",
+                    "number": "10",
+                    "starting_page": "11",
+                    "ending_page": "16",
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010641/published_papers/154717",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0010641/published_papers",
+                    "rm:id": "154717",
+                    "rm:user_id": "1000022021",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:#L4c2kCEt3esu+FZ",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-09-25T17:55:48Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-07-06T22:49:59Z",
+                    "paper_title": {
+                        "ja": "植物工場における省エネルギー栽培とワサビ苗生産",
+                        "en": "植物工場における省エネルギー栽培とワサビ苗生産"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "野末, 雅之"
+                            },
+                            {
+                                "name": "野末, はつみ"
+                            }
+                        ],
+                        "ja": [
+                            {
+                                "name": "野末, 雅之"
+                            },
+                            {
+                                "name": "野末, はつみ"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "繊維学会誌",
+                        "ja": "繊維学会誌"
+                    },
+                    "publisher": {
+                        "ja": "繊維学会",
+                        "en": "繊維学会"
+                    },
+                    "publication_date": "2014",
+                    "publication_name": {
+                        "ja": "繊維学会誌",
+                        "en": "繊維学会誌"
+                    },
+                    "volume": "70",
+                    "number": "3",
+                    "starting_page": "80",
+                    "ending_page": "85",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.2115/fiber.70.P_80"
+                        ],
+                        "issn": [
+                            "0037-9875"
+                        ],
+                        "cinii_na_id": [
+                            "130004746689"
+                        ],
+                        "cinii_nc_id": [
+                            "AN00131651"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.2115/fiber.70.P_80",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/130004746689",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_books",
+                            "@id": "http://ci.nii.ac.jp/ncid/AN00131651",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "http://id.ndl.go.jp/bib/025316207",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "https://jlc.jst.go.jp/DN/JALC/10030746342?from=CiNii",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010641/published_papers/154720",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0010641/published_papers",
+                    "rm:id": "154720",
+                    "rm:user_id": "1000022021",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:#L4c2kCEt3esu+FZ",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-09-25T17:55:48Z",
+                    "rm:modifier_id": "R000000368",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2021-08-02T08:05:48Z",
+                    "paper_title": {
+                        "ja": "植物工場の新展開と課題",
+                        "en": "植物工場の新展開と課題"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "野末雅之"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "野末雅之"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "ja": "オレオサイエンス",
+                        "en": "オレオサイエンス"
+                    },
+                    "publication_date": "2013",
+                    "publication_name": {
+                        "ja": "オレオサイエンス",
+                        "en": "オレオサイエンス"
+                    },
+                    "volume": "13",
+                    "starting_page": "19",
+                    "ending_page": "25",
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010641/published_papers/154719",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0010641/published_papers",
+                    "rm:id": "154719",
+                    "rm:user_id": "1000022021",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:#L4c2kCEt3esu+FZ",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-09-25T17:55:48Z",
+                    "rm:modifier_id": "client_id:4soeP_GynCAqaBkY",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2024-10-30T01:15:17Z",
+                    "paper_title": {
+                        "ja": "植物工場技術の研究・開発および実証・展示・教育拠点 (9) 信州大学",
+                        "en": "植物工場技術の研究・開発および実証・展示・教育拠点 (9) 信州大学"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "野末雅之"
+                            },
+                            {
+                                "name": "野末はつみ"
+                            },
+                            {
+                                "name": "宇佐美久尚"
+                            },
+                            {
+                                "name": "高橋伸英"
+                            },
+                            {
+                                "name": "田口悟朗"
+                            },
+                            {
+                                "name": "梶浦善太"
+                            }
+                        ],
+                        "ja": [
+                            {
+                                "name": "野末雅之"
+                            },
+                            {
+                                "name": "野末はつみ"
+                            },
+                            {
+                                "name": "宇佐美久尚"
+                            },
+                            {
+                                "name": "高橋伸英"
+                            },
+                            {
+                                "name": "田口悟朗"
+                            },
+                            {
+                                "name": "梶浦善太"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "植物環境工学",
+                        "ja": "植物環境工学"
+                    },
+                    "publication_date": "2013",
+                    "publication_name": {
+                        "ja": "植物環境工学",
+                        "en": "植物環境工学"
+                    },
+                    "volume": "25",
+                    "number": "2",
+                    "starting_page": "65",
+                    "ending_page": "69",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010641/published_papers/154718",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0010641/published_papers",
+                    "rm:id": "154718",
+                    "rm:user_id": "1000022021",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:#L4c2kCEt3esu+FZ",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-09-25T17:55:48Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-08-26T11:48:27Z",
+                    "paper_title": {
+                        "ja": "Cloning of flowering genes (WjFLC and Wj FT) in wasabi (Japanese horseradish) and monitoring of flowering response with their expression",
+                        "en": "Cloning of flowering genes (WjFLC and Wj FT) in wasabi (Japanese horseradish) and monitoring of flowering response with their expression"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Nozue, M"
+                            },
+                            {
+                                "name": "Kubo, H"
+                            },
+                            {
+                                "name": "Yoshida, K"
+                            }
+                        ],
+                        "ja": [
+                            {
+                                "name": "Nozue, M"
+                            },
+                            {
+                                "name": "Kubo, H"
+                            },
+                            {
+                                "name": "Yoshida, K"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "Udayana University Bioscience and Biotechnology forum",
+                        "ja": "Udayana University Bioscience and Biotechnology forum"
+                    },
+                    "publisher": {
+                        "ja": "Biosciences and Biotechnology Forum, Universitas Udayana",
+                        "en": "Biosciences and Biotechnology Forum, Universitas Udayana"
+                    },
+                    "publication_date": "2013",
+                    "publication_name": {
+                        "ja": "Udayana University Bioscience and Biotechnology forum",
+                        "en": "Udayana University Bioscience and Biotechnology forum"
+                    },
+                    "volume": "1",
+                    "number": "2",
+                    "starting_page": "67",
+                    "ending_page": "71",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "cinii_na_id": [
+                            "120005853375"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/120005853375",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "http://hdl.handle.net/10091/00019240",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010641/published_papers/154722",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0010641/published_papers",
+                    "rm:id": "154722",
+                    "rm:user_id": "1000022021",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:#L4c2kCEt3esu+FZ",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-09-25T17:55:48Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-07-26T22:45:06Z",
+                    "paper_title": {
+                        "ja": "太陽光を利用した閉鎖型植物工場の開発 ― 省エネ型コンテナ植物工場、信州大学SU-PLAF ―",
+                        "en": "太陽光を利用した閉鎖型植物工場の開発 ― 省エネ型コンテナ植物工場、信州大学SU-PLAF ―"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "野末はつみ"
+                            },
+                            {
+                                "name": "柳沢真弥"
+                            },
+                            {
+                                "name": "野末雅之"
+                            }
+                        ],
+                        "ja": [
+                            {
+                                "name": "野末はつみ"
+                            },
+                            {
+                                "name": "柳沢真弥"
+                            },
+                            {
+                                "name": "野末雅之"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "施設と園芸",
+                        "ja": "施設と園芸"
+                    },
+                    "publisher": {
+                        "ja": "日本施設園芸協会"
+                    },
+                    "publication_date": "2012",
+                    "publication_name": {
+                        "ja": "施設と園芸",
+                        "en": "施設と園芸"
+                    },
+                    "volume": "157",
+                    "number": "157",
+                    "starting_page": "16",
+                    "ending_page": "20",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "0912-666X"
+                        ],
+                        "cinii_na_id": [
+                            "40019314172"
+                        ],
+                        "cinii_nc_id": [
+                            "AN00070309"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/40019314172",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_books",
+                            "@id": "http://ci.nii.ac.jp/ncid/AN00070309",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "http://id.ndl.go.jp/bib/023757025",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010641/published_papers/154721",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0010641/published_papers",
+                    "rm:id": "154721",
+                    "rm:user_id": "1000022021",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:#L4c2kCEt3esu+FZ",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-09-25T17:55:48Z",
+                    "rm:modifier_id": "client_id:4soeP_GynCAqaBkY",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2024-10-30T01:15:17Z",
+                    "paper_title": {
+                        "ja": "Cloning of FLOWERING LOCUS C ortholog in Wasabia japonica (Matsum.)",
+                        "en": "Cloning of FLOWERING LOCUS C ortholog in Wasabia japonica (Matsum.)"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "Kubo H., Yoshida K., Nozue M."
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Hiroyoshi Kubo"
+                            },
+                            {
+                                "name": "Kiyoshi Yoshida"
+                            },
+                            {
+                                "name": "Masayuki Nozue"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "Wasabi (Wasabia japonica) is a commercially important crop in Japan. We isolated a FLC ortholog from wasabi and named as WjFLC. Predicted amino acid sequence encoded by WjFLC showed 89% identity with FLC of arabidopsis and conserved the MADS box motif. WjFLC was expressed in young and mature leaves, apical region of lateral bud, rhizome, and root. The expression of WjFLC was high in October and reduced in November when flower buds are formed in wasabi. WjFLC may be useful in monitoring the flowering response in wasabi."
+                    },
+                    "publisher": {
+                        "en": "SPRINGER INDIA"
+                    },
+                    "publication_date": "2012-01",
+                    "publication_name": {
+                        "ja": "J. Plant Biochem. Biotechnol.",
+                        "en": "JOURNAL OF PLANT BIOCHEMISTRY AND BIOTECHNOLOGY"
+                    },
+                    "volume": "21",
+                    "number": "1",
+                    "starting_page": "117",
+                    "ending_page": "120",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1007/s13562-011-0062-5"
+                        ],
+                        "issn": [
+                            "0971-7811"
+                        ],
+                        "wos_id": [
+                            "WOS:000298228500015"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1007/s13562-011-0062-5",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000298228500015&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010641/published_papers/154723",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0010641/published_papers",
+                    "rm:id": "154723",
+                    "rm:user_id": "1000022021",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:#L4c2kCEt3esu+FZ",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-09-25T17:55:48Z",
+                    "rm:modifier_id": "client_id:4soeP_GynCAqaBkY",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2024-10-30T01:15:17Z",
+                    "paper_title": {
+                        "ja": "Cloning of FLOWERING LOCUS T ortholog in Wasabia japonica (Matsum.)",
+                        "en": "Cloning of a FLOWERING LOCUS T Ortholog in Wasabia japonica (Matsum)"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "Kubo H., Yoshida K., Nozue M."
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Hiroyoshi Kubo"
+                            },
+                            {
+                                "name": "Kiyoshi Yoshida"
+                            },
+                            {
+                                "name": "Masayuki Nozue"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "A FLOWERING LOCUS T ortholog (WjFT) was identified in Wasabia japonica. Heterologous expression of WjFT remarkably promoted the flowering of Arabidopsis. The expression of WjFT was examined in field-grown wasabi in October and November of 2009, and February of 2010 because the differentiation of flower buds occurs in autumn in field-grown wasabi. No expression of WjFT was detected in October, it was slightly increased in November, and highly increased in February. WjFT might be useful for examining the flowering response of wasabi."
+                    },
+                    "publisher": {
+                        "en": "TAYLOR & FRANCIS LTD"
+                    },
+                    "publication_date": "2011-09",
+                    "publication_name": {
+                        "ja": "Biosci. Biotechnol. Biochem.",
+                        "en": "BIOSCIENCE BIOTECHNOLOGY AND BIOCHEMISTRY"
+                    },
+                    "volume": "75",
+                    "number": "9",
+                    "starting_page": "1823",
+                    "ending_page": "1825",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1271/bbb.110100"
+                        ],
+                        "e_issn": [
+                            "1347-6947"
+                        ],
+                        "issn": [
+                            "0916-8451"
+                        ],
+                        "wos_id": [
+                            "WOS:000295554400031"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1271/bbb.110100",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000295554400031&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010641/published_papers/154726",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0010641/published_papers",
+                    "rm:id": "154726",
+                    "rm:user_id": "1000022021",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:#L4c2kCEt3esu+FZ",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-09-25T17:55:48Z",
+                    "rm:modifier_id": "client_id:4soeP_GynCAqaBkY",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2024-10-30T01:15:17Z",
+                    "paper_title": {
+                        "ja": "信州大学植物工場プロジェクト, コンテナ植物工場の開発",
+                        "en": "信州大学植物工場プロジェクト, コンテナ植物工場の開発"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "野末雅之"
+                            },
+                            {
+                                "name": "宇佐美久尚"
+                            },
+                            {
+                                "name": "高橋伸英"
+                            },
+                            {
+                                "name": "野末はつみ"
+                            }
+                        ],
+                        "ja": [
+                            {
+                                "name": "野末雅之"
+                            },
+                            {
+                                "name": "宇佐美久尚"
+                            },
+                            {
+                                "name": "高橋伸英"
+                            },
+                            {
+                                "name": "野末はつみ"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "計測と制御",
+                        "ja": "計測と制御"
+                    },
+                    "publication_date": "2011",
+                    "publication_name": {
+                        "ja": "計測と制御",
+                        "en": "計測と制御"
+                    },
+                    "volume": "50",
+                    "number": "12",
+                    "starting_page": "1047",
+                    "ending_page": "1052",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010641/published_papers/154725",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0010641/published_papers",
+                    "rm:id": "154725",
+                    "rm:user_id": "1000022021",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:#L4c2kCEt3esu+FZ",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-09-25T17:55:48Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-08-25T10:25:34Z",
+                    "paper_title": {
+                        "ja": "LEDと有機ELを利用するコンテナ植物工場",
+                        "en": "LEDと有機ELを利用するコンテナ植物工場"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "宇佐美久尚"
+                            },
+                            {
+                                "name": "島田葵"
+                            },
+                            {
+                                "name": "谷口彬雄"
+                            },
+                            {
+                                "name": "高橋伸英"
+                            },
+                            {
+                                "name": "野末雅之"
+                            }
+                        ],
+                        "ja": [
+                            {
+                                "name": "宇佐美久尚"
+                            },
+                            {
+                                "name": "島田葵"
+                            },
+                            {
+                                "name": "谷口彬雄"
+                            },
+                            {
+                                "name": "高橋伸英"
+                            },
+                            {
+                                "name": "野末雅之"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "化学工学",
+                        "ja": "化学工学"
+                    },
+                    "publisher": {
+                        "ja": "化学工学会"
+                    },
+                    "publication_date": "2011",
+                    "publication_name": {
+                        "ja": "化学工学",
+                        "en": "化学工学"
+                    },
+                    "volume": "75",
+                    "number": "12",
+                    "starting_page": "807",
+                    "ending_page": "810",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "0375-9253"
+                        ],
+                        "cinii_na_id": [
+                            "10030159613"
+                        ],
+                        "cinii_nc_id": [
+                            "AN00037212"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/10030159613",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_books",
+                            "@id": "http://ci.nii.ac.jp/ncid/AN00037212",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "http://id.ndl.go.jp/bib/023356470",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010641/published_papers/154724",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0010641/published_papers",
+                    "rm:id": "154724",
+                    "rm:user_id": "1000022021",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:#L4c2kCEt3esu+FZ",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-09-25T17:55:48Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-07-19T01:10:50Z",
+                    "paper_title": {
+                        "ja": "植物工場の可能性を拓く「信州大学先進植物工場研究教育センター(SU-PLAF)」の発足",
+                        "en": "植物工場の可能性を拓く「信州大学先進植物工場研究教育センター(SU-PLAF)」の発足"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "宇佐美久尚"
+                            },
+                            {
+                                "name": "高橋伸英"
+                            },
+                            {
+                                "name": "野末はつみ"
+                            },
+                            {
+                                "name": "塚田益裕"
+                            },
+                            {
+                                "name": "野末雅之"
+                            }
+                        ],
+                        "ja": [
+                            {
+                                "name": "宇佐美久尚"
+                            },
+                            {
+                                "name": "高橋伸英"
+                            },
+                            {
+                                "name": "野末はつみ"
+                            },
+                            {
+                                "name": "塚田益裕"
+                            },
+                            {
+                                "name": "野末雅之"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "WEB Journal",
+                        "ja": "WEB Journal"
+                    },
+                    "publication_date": "2011",
+                    "publication_name": {
+                        "ja": "WEB Journal",
+                        "en": "WEB Journal"
+                    },
+                    "volume": "121",
+                    "starting_page": "12",
+                    "ending_page": "16",
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "cinii_na_id": [
+                            "20001316119"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/20001316119",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010641/published_papers/154727",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0010641/published_papers",
+                    "rm:id": "154727",
+                    "rm:user_id": "1000022021",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:#L4c2kCEt3esu+FZ",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-09-25T17:55:48Z",
+                    "rm:modifier_id": "client_id:4soeP_GynCAqaBkY",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2024-10-30T01:15:17Z",
+                    "paper_title": {
+                        "ja": "調光モジュールLED光源ユニットを用いた植物の生産性向上への試み",
+                        "en": "調光モジュールLED光源ユニットを用いた植物の生産性向上への試み"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "野末はつみ"
+                            },
+                            {
+                                "name": "島田葵"
+                            },
+                            {
+                                "name": "谷口彬雄"
+                            },
+                            {
+                                "name": "野末雅之"
+                            }
+                        ],
+                        "ja": [
+                            {
+                                "name": "野末はつみ"
+                            },
+                            {
+                                "name": "島田葵"
+                            },
+                            {
+                                "name": "谷口彬雄"
+                            },
+                            {
+                                "name": "野末雅之"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "植物環境工学",
+                        "ja": "植物環境工学"
+                    },
+                    "publication_date": "2010",
+                    "publication_name": {
+                        "ja": "植物環境工学",
+                        "en": "植物環境工学"
+                    },
+                    "volume": "22",
+                    "number": "2",
+                    "starting_page": "81",
+                    "ending_page": "87",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010641/published_papers/154728",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0010641/published_papers",
+                    "rm:id": "154728",
+                    "rm:user_id": "1000022021",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:#L4c2kCEt3esu+FZ",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-09-25T17:55:48Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-09-20T10:50:24Z",
+                    "paper_title": {
+                        "ja": "有機EL + 冷凍コンテナで野菜栽培を省電力化",
+                        "en": "有機EL + 冷凍コンテナで野菜栽培を省電力化"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "野末雅之"
+                            },
+                            {
+                                "name": "伊藤隆"
+                            },
+                            {
+                                "name": "茅野誠司"
+                            },
+                            {
+                                "name": "小山田慎吾"
+                            },
+                            {
+                                "name": "野末はつみ"
+                            },
+                            {
+                                "name": "谷口彬雄"
+                            }
+                        ],
+                        "ja": [
+                            {
+                                "name": "野末雅之"
+                            },
+                            {
+                                "name": "伊藤隆"
+                            },
+                            {
+                                "name": "茅野誠司"
+                            },
+                            {
+                                "name": "小山田慎吾"
+                            },
+                            {
+                                "name": "野末はつみ"
+                            },
+                            {
+                                "name": "谷口彬雄"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "農業電化",
+                        "ja": "農業電化"
+                    },
+                    "publisher": {
+                        "ja": "農業電化協会"
+                    },
+                    "publication_date": "2009",
+                    "publication_name": {
+                        "ja": "農業電化",
+                        "en": "農業電化"
+                    },
+                    "volume": "62",
+                    "number": "13",
+                    "starting_page": "8",
+                    "ending_page": "10",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "0286-8725"
+                        ],
+                        "cinii_na_id": [
+                            "40016933011"
+                        ],
+                        "cinii_nc_id": [
+                            "AN00201484"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/40016933011",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_books",
+                            "@id": "http://ci.nii.ac.jp/ncid/AN00201484",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "http://id.ndl.go.jp/bib/10525282",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010641/published_papers/154729",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0010641/published_papers",
+                    "rm:id": "154729",
+                    "rm:user_id": "1000022021",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:#L4c2kCEt3esu+FZ",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-09-25T17:55:48Z",
+                    "rm:modifier_id": "client_id:4soeP_GynCAqaBkY",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2024-10-30T01:15:17Z",
+                    "paper_title": {
+                        "ja": "Development of simple and efficient in planta transformation method for wheat (Triticum aestivum L.) using Agrobacterium tumefaciens",
+                        "en": "Development of simple and efficient in planta transformation method for wheat (Triticum aestivum L.) using Agrobacterium tumefaciens"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "Supartana, P"
+                            },
+                            {
+                                "name": "Shimizu, T"
+                            },
+                            {
+                                "name": "Nogawa, M"
+                            },
+                            {
+                                "name": "Shioiri, H"
+                            },
+                            {
+                                "name": "Nakajima, T"
+                            },
+                            {
+                                "name": "Haramoto, N"
+                            },
+                            {
+                                "name": "Nozue, M"
+                            },
+                            {
+                                "name": "Kojima, M"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Putu Supartana"
+                            },
+                            {
+                                "name": "Tsutomu Shimizu"
+                            },
+                            {
+                                "name": "Masahiro Nogawa"
+                            },
+                            {
+                                "name": "Hidenari Shioiri"
+                            },
+                            {
+                                "name": "Tadashi Nakajima"
+                            },
+                            {
+                                "name": "Naoyuki Haramoto"
+                            },
+                            {
+                                "name": "Masayuki Nozue"
+                            },
+                            {
+                                "name": "Mineo Kojima"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "Wheat (Triticum aestivum L. var. Shiranekomugi) seeds were soaked in water at 22 degrees C for 1 d. Thereafter, the embryo of the soaked seeds was inoculated with Agrobacterium tumefaciens by piercing a region of the embryonic apical meristem with a needle that had been dipped in an A. tumefaciens inoculum. The inoculated seeds were incubated at 22 degrees C for 2 d and sterilized by cefotaxime (Claforan) (1000 ppm water solution) treatment and then vernalized at 5 degrees C for 25 d. Finally, the seedlings were grown to maturation (T-1 plants) and allowed to pollinate naturally for seed setting (T-1 plants) in pots under nonsterile condition. To examine the transformation by various means, four different strains of A. tumefaciens were used for transformation. The following five lines of evidence proved the transformation: altered phenotype and its transmittance to the next generation, resistance of T-1 seed germination to geneticin or hygromycin B, the detection of a transgene in T-1 plants by PCR analysis and Southern hybridization and the rescue of the plasmid consisting of the integrated T-DNA and flanking wheat genome DNA from T-1 plants. The transformation efficiency of T-1 plants, which were transformed using different A. tumefaciens strains, was estimated to be 33% by PCR analysis, 75% by Southern hybridization and 40% by plasmid rescue."
+                    },
+                    "publisher": {
+                        "ja": "SOC BIOSCIENCE BIOENGINEERING JAPAN",
+                        "en": "SOC BIOSCIENCE BIOENGINEERING JAPAN"
+                    },
+                    "publication_date": "2006-09",
+                    "publication_name": {
+                        "ja": "Journal of Bioscience and Bioengineering",
+                        "en": "JOURNAL OF BIOSCIENCE AND BIOENGINEERING"
+                    },
+                    "volume": "102",
+                    "number": "3",
+                    "starting_page": "162",
+                    "ending_page": "170",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1263/jbb.102.162"
+                        ],
+                        "e_issn": [
+                            "1347-4421"
+                        ],
+                        "issn": [
+                            "1389-1723"
+                        ],
+                        "wos_id": [
+                            "WOS:000242001500004"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1263/jbb.102.162",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000242001500004&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0010641/books_etc",
+            "@type": "books_etc",
+            "@reverse": "https://api.researchmap.jp/read0010641",
+            "total_items": 2,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0010641/books_etc/33701278",
+                    "@type": "books_etc",
+                    "@reverse": "https://api.researchmap.jp/read0010641/books_etc",
+                    "rm:id": "33701278",
+                    "rm:user_id": "1000022021",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:4soeP_GynCAqaBkY",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2021-09-16T00:43:20Z",
+                    "rm:modifier_id": "client_id:4soeP_GynCAqaBkY",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2024-10-30T01:15:17Z",
+                    "book_title": {
+                        "ja": "『感動繊維の独創から共創へ』",
+                        "en": "『感動繊維の独創から共創へ』"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "野末雅之"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "野末雅之"
+                            }
+                        ]
+                    },
+                    "book_owner_range": {
+                        "ja": "植物工場の現状と可能性",
+                        "en": "植物工場の現状と可能性"
+                    },
+                    "publisher": {
+                        "ja": "株式会社ITSC",
+                        "en": "株式会社ITSC"
+                    },
+                    "publication_date": "2011",
+                    "rep_page": "220-228",
+                    "languages": [
+                        "jpn"
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010641/books_etc/33701277",
+                    "@type": "books_etc",
+                    "@reverse": "https://api.researchmap.jp/read0010641/books_etc",
+                    "rm:id": "33701277",
+                    "rm:user_id": "1000022021",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:4soeP_GynCAqaBkY",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2021-09-16T00:43:20Z",
+                    "rm:modifier_id": "client_id:4soeP_GynCAqaBkY",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2024-10-30T01:15:17Z",
+                    "book_title": {
+                        "ja": "日経ものづくり編、『植物工場大全』",
+                        "en": "日経ものづくり編、『植物工場大全』"
+                    },
+                    "book_owner_role": "joint_work",
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "野末雅之・島田葵・谷口彬雄"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "野末雅之・島田葵・谷口彬雄"
+                            }
+                        ]
+                    },
+                    "book_owner_range": {
+                        "ja": "保温・断熱性に優れる太陽光型冷凍コンテナ植物工場",
+                        "en": "保温・断熱性に優れる太陽光型冷凍コンテナ植物工場"
+                    },
+                    "publisher": {
+                        "ja": "日経BP社",
+                        "en": "日経BP社"
+                    },
+                    "publication_date": "2010",
+                    "rep_page": "77-83",
+                    "languages": [
+                        "jpn"
+                    ]
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0010641/presentations",
+            "@type": "presentations",
+            "@reverse": "https://api.researchmap.jp/read0010641",
+            "total_items": 9,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0010641/presentations/15247043",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0010641/presentations",
+                    "rm:id": "15247043",
+                    "rm:user_id": "1000022021",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:#L4c2kCEt3esu+FZ",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-09-25T17:55:48Z",
+                    "rm:modifier_id": "client_id:4soeP_GynCAqaBkY",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-10-30T05:30:54Z",
+                    "presentation_title": {
+                        "ja": "White LED Light with Wide Wavelength Spectrum Promotes High-Yielding and Energy-Saving Indoor Vegetable Production",
+                        "en": "White LED Light with Wide Wavelength Spectrum Promotes High-Yielding and Energy-Saving Indoor Vegetable Production"
+                    },
+                    "presenters": {
+                        "ja": [
+                            {
+                                "name": "Hatsumi Nozue"
+                            },
+                            {
+                                "name": "Kana Shirai"
+                            },
+                            {
+                                "name": "Koji Kajikawa"
+                            },
+                            {
+                                "name": "Masao Gomi"
+                            },
+                            {
+                                "name": "Masayuki Nozue"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Hatsumi Nozue"
+                            },
+                            {
+                                "name": "Kana Shirai"
+                            },
+                            {
+                                "name": "Koji Kajikawa"
+                            },
+                            {
+                                "name": "Masao Gomi"
+                            },
+                            {
+                                "name": "Masayuki Nozue"
+                            }
+                        ]
+                    },
+                    "presenters_text": {
+                        "ja": "Hatsumi Nozue, Kana Shirai, Koji Kajikawa, Masao Gomi, Masayuki Nozue",
+                        "en": "Hatsumi Nozue, Kana Shirai, Koji Kajikawa, Masao Gomi, Masayuki Nozue"
+                    },
+                    "event": {
+                        "ja": "International Society for Horticultural Science GREENSYS 2017",
+                        "en": "International Society for Horticultural Science GREENSYS 2017"
+                    },
+                    "publication_date": "2017-08",
+                    "invited": false,
+                    "description": {
+                        "ja": "International Society for Horticultural Science GREENSYS 2017",
+                        "en": "International Society for Horticultural Science GREENSYS 2017"
+                    },
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010641/presentations/15247044",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0010641/presentations",
+                    "rm:id": "15247044",
+                    "rm:user_id": "1000022021",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:#L4c2kCEt3esu+FZ",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-09-25T17:55:48Z",
+                    "rm:modifier_id": "client_id:4soeP_GynCAqaBkY",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-10-30T05:30:54Z",
+                    "presentation_title": {
+                        "ja": "Rearrangement of PSII and associated functional aternation during leaf maturation in Arabidopsis thaliana",
+                        "en": "Rearrangement of PSII and associated functional aternation during leaf maturation in Arabidopsis thaliana"
+                    },
+                    "presenters": {
+                        "ja": [
+                            {
+                                "name": "Haatsumi Nozue"
+                            },
+                            {
+                                "name": "Takashi Shigarami"
+                            },
+                            {
+                                "name": "Ryota Satruta"
+                            },
+                            {
+                                "name": "Shigeichi Kumazaki"
+                            },
+                            {
+                                "name": "Masayuki Nozue"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Haatsumi Nozue"
+                            },
+                            {
+                                "name": "Takashi Shigarami"
+                            },
+                            {
+                                "name": "Ryota Satruta"
+                            },
+                            {
+                                "name": "Shigeichi Kumazaki"
+                            },
+                            {
+                                "name": "Masayuki Nozue"
+                            }
+                        ]
+                    },
+                    "presenters_text": {
+                        "ja": "Haatsumi Nozue, Takashi Shigarami, Ryota Satruta, Shigeichi Kumazaki, Masayuki Nozue",
+                        "en": "Haatsumi Nozue, Takashi Shigarami, Ryota Satruta, Shigeichi Kumazaki, Masayuki Nozue"
+                    },
+                    "event": {
+                        "ja": "第56回日本植物生理学会年会",
+                        "en": "第56回日本植物生理学会年会"
+                    },
+                    "publication_date": "2015",
+                    "invited": false,
+                    "description": {
+                        "ja": "第56回日本植物生理学会年会",
+                        "en": "第56回日本植物生理学会年会"
+                    },
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010641/presentations/15247045",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0010641/presentations",
+                    "rm:id": "15247045",
+                    "rm:user_id": "1000022021",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:#L4c2kCEt3esu+FZ",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-09-25T17:55:48Z",
+                    "rm:modifier_id": "client_id:4soeP_GynCAqaBkY",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-10-30T05:30:54Z",
+                    "presentation_title": {
+                        "ja": "A year-round production system for wasabi nursery plants in a plant factory",
+                        "en": "A year-round production system for wasabi nursery plants in a plant factory"
+                    },
+                    "presenters": {
+                        "ja": [
+                            {
+                                "name": "Nozue, H"
+                            },
+                            {
+                                "name": "kamoto, C"
+                            },
+                            {
+                                "name": "Matsuda, Y"
+                            },
+                            {
+                                "name": "Motoki, M"
+                            },
+                            {
+                                "name": "Kanemitsu, N"
+                            },
+                            {
+                                "name": "Nozue, M"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Nozue, H"
+                            },
+                            {
+                                "name": "kamoto, C"
+                            },
+                            {
+                                "name": "Matsuda, Y"
+                            },
+                            {
+                                "name": "Motoki, M"
+                            },
+                            {
+                                "name": "Kanemitsu, N"
+                            },
+                            {
+                                "name": "Nozue, M"
+                            }
+                        ]
+                    },
+                    "presenters_text": {
+                        "ja": "Nozue, H., kamoto, C., Matsuda, Y., Motoki, M., Kanemitsu, N., Nozue, M",
+                        "en": "Nozue, H., kamoto, C., Matsuda, Y., Motoki, M., Kanemitsu, N., Nozue, M"
+                    },
+                    "event": {
+                        "ja": "The International Conference on Plant Factory 2014",
+                        "en": "The International Conference on Plant Factory 2014"
+                    },
+                    "publication_date": "2014",
+                    "invited": false,
+                    "description": {
+                        "ja": "The International Conference on Plant Factory 2014",
+                        "en": "The International Conference on Plant Factory 2014"
+                    },
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010641/presentations/15247046",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0010641/presentations",
+                    "rm:id": "15247046",
+                    "rm:user_id": "1000022021",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:#L4c2kCEt3esu+FZ",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-09-25T17:55:48Z",
+                    "rm:modifier_id": "client_id:4soeP_GynCAqaBkY",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2024-10-30T01:15:17Z",
+                    "presentation_title": {
+                        "ja": "Cloning of flowering genes (WjFLC and WjFT) in Wasabi (Japanese horseradish) and monitoring of flowering response with their expression",
+                        "en": "Cloning of flowering genes (WjFLC and WjFT) in Wasabi (Japanese horseradish) and monitoring of flowering response with their expression"
+                    },
+                    "presenters": {
+                        "ja": [
+                            {
+                                "name": "Nozue, M"
+                            },
+                            {
+                                "name": "Kubo, H"
+                            },
+                            {
+                                "name": "Yoshida, K"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Nozue, M"
+                            },
+                            {
+                                "name": "Kubo, H"
+                            },
+                            {
+                                "name": "Yoshida, K"
+                            }
+                        ]
+                    },
+                    "presenters_text": {
+                        "ja": "Nozue, M., Kubo, H. and Yoshida, K.",
+                        "en": "Nozue, M., Kubo, H. and Yoshida, K."
+                    },
+                    "event": {
+                        "ja": "4th International Conference of Biosciences and Biotechnology",
+                        "en": "4th International Conference of Biosciences and Biotechnology"
+                    },
+                    "publication_date": "2012",
+                    "invited": true,
+                    "description": {
+                        "ja": "4th International Conference of Biosciences and Biotechnology",
+                        "en": "4th International Conference of Biosciences and Biotechnology"
+                    },
+                    "is_international_presentation": true,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010641/presentations/15247047",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0010641/presentations",
+                    "rm:id": "15247047",
+                    "rm:user_id": "1000022021",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:#L4c2kCEt3esu+FZ",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-09-25T17:55:48Z",
+                    "rm:modifier_id": "client_id:4soeP_GynCAqaBkY",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-10-30T05:30:54Z",
+                    "presentation_title": {
+                        "ja": "An approach to improving plant productivity by use of a LED unit equipped with control modules.",
+                        "en": "An approach to improving plant productivity by use of a LED unit equipped with control modules."
+                    },
+                    "presenters": {
+                        "ja": [
+                            {
+                                "name": "Nozue, H"
+                            },
+                            {
+                                "name": "Shimada, A"
+                            },
+                            {
+                                "name": "Yabuuchi, Y"
+                            },
+                            {
+                                "name": "Itoh, T"
+                            },
+                            {
+                                "name": "Kinoshita, J"
+                            },
+                            {
+                                "name": "Jibu, H"
+                            },
+                            {
+                                "name": "Umayahara, I"
+                            },
+                            {
+                                "name": "Taguchi, G"
+                            },
+                            {
+                                "name": "Nozue, M"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Nozue, H"
+                            },
+                            {
+                                "name": "Shimada, A"
+                            },
+                            {
+                                "name": "Yabuuchi, Y"
+                            },
+                            {
+                                "name": "Itoh, T"
+                            },
+                            {
+                                "name": "Kinoshita, J"
+                            },
+                            {
+                                "name": "Jibu, H"
+                            },
+                            {
+                                "name": "Umayahara, I"
+                            },
+                            {
+                                "name": "Taguchi, G"
+                            },
+                            {
+                                "name": "Nozue, M"
+                            }
+                        ]
+                    },
+                    "presenters_text": {
+                        "ja": "Nozue, H., Shimada, A., Yabuuchi, Y., Itoh, T., Kinoshita, J., Jibu, H., Umayahara, I., Taguchi, G., Nozue, M.",
+                        "en": "Nozue, H., Shimada, A., Yabuuchi, Y., Itoh, T., Kinoshita, J., Jibu, H., Umayahara, I., Taguchi, G., Nozue, M."
+                    },
+                    "event": {
+                        "ja": "6th International Symposium on Light in Horticulture.",
+                        "en": "6th International Symposium on Light in Horticulture."
+                    },
+                    "publication_date": "2009-11",
+                    "invited": false,
+                    "presentation_type": "poster_presentation",
+                    "description": {
+                        "ja": "6th International Symposium on Light in Horticulture.",
+                        "en": "6th International Symposium on Light in Horticulture."
+                    },
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010641/presentations/15247048",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0010641/presentations",
+                    "rm:id": "15247048",
+                    "rm:user_id": "1000022021",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:#L4c2kCEt3esu+FZ",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-09-25T17:55:48Z",
+                    "rm:modifier_id": "client_id:4soeP_GynCAqaBkY",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2020-10-30T05:30:54Z",
+                    "presentation_title": {
+                        "ja": "Characterization of Bali Isolates of Fusarium oxysporum f. sp. vanillae",
+                        "en": "Characterization of Bali Isolates of Fusarium oxysporum f. sp. vanillae"
+                    },
+                    "presenters": {
+                        "ja": [
+                            {
+                                "name": "Nozue, M"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Nozue, M"
+                            }
+                        ]
+                    },
+                    "presenters_text": {
+                        "ja": "Nozue, M.",
+                        "en": "Nozue, M."
+                    },
+                    "event": {
+                        "ja": "International Seminar for Biotechnology",
+                        "en": "International Seminar for Biotechnology"
+                    },
+                    "publication_date": "2009-09",
+                    "invited": false,
+                    "description": {
+                        "ja": "International Seminar for Biotechnology",
+                        "en": "International Seminar for Biotechnology"
+                    },
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010641/presentations/15247049",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0010641/presentations",
+                    "rm:id": "15247049",
+                    "rm:user_id": "1000022021",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:#L4c2kCEt3esu+FZ",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-09-25T17:55:48Z",
+                    "rm:modifier_id": "client_id:4soeP_GynCAqaBkY",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2024-10-30T01:15:17Z",
+                    "presentation_title": {
+                        "ja": "Analysis of gene targeting events in buckwheat (Fagopyrum esculentum) transformed by the mutant strains of Agrobacterium tumefaciens that have deficiency in T-DNA integration step into plant genome",
+                        "en": "Analysis of gene targeting events in buckwheat (Fagopyrum esculentum) transformed by the mutant strains of Agrobacterium tumefaciens that have deficiency in T-DNA integration step into plant genome"
+                    },
+                    "presenters": {
+                        "ja": [
+                            {
+                                "name": "Suparthana, P"
+                            },
+                            {
+                                "name": "Shimuzu, T"
+                            },
+                            {
+                                "name": "Nozue, M"
+                            },
+                            {
+                                "name": "Nogawa, M"
+                            },
+                            {
+                                "name": "Kojima, M"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Suparthana, P"
+                            },
+                            {
+                                "name": "Shimuzu, T"
+                            },
+                            {
+                                "name": "Nozue, M"
+                            },
+                            {
+                                "name": "Nogawa, M"
+                            },
+                            {
+                                "name": "Kojima, M"
+                            }
+                        ]
+                    },
+                    "presenters_text": {
+                        "ja": "Suparthana, P., Shimuzu, T., Nozue, M., Nogawa, M. and Kojima, M.",
+                        "en": "Suparthana, P., Shimuzu, T., Nozue, M., Nogawa, M. and Kojima, M."
+                    },
+                    "event": {
+                        "ja": "The 4th International Conference on Advanced Fiber/Textile Materials 2007 in Ueda",
+                        "en": "The 4th International Conference on Advanced Fiber/Textile Materials 2007 in Ueda"
+                    },
+                    "publication_date": "2007-12",
+                    "invited": false,
+                    "presentation_type": "poster_presentation",
+                    "description": {
+                        "ja": "The 4th International Conference on Advanced Fiber/Textile Materials 2007 in Ueda",
+                        "en": "The 4th International Conference on Advanced Fiber/Textile Materials 2007 in Ueda"
+                    },
+                    "is_international_presentation": true,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010641/presentations/15247050",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0010641/presentations",
+                    "rm:id": "15247050",
+                    "rm:user_id": "1000022021",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:#L4c2kCEt3esu+FZ",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-09-25T17:55:48Z",
+                    "rm:modifier_id": "client_id:4soeP_GynCAqaBkY",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2024-10-30T01:15:17Z",
+                    "presentation_title": {
+                        "ja": "Alternative 3-hydroxylation pathway leading to chlorogenic acid biosynthesis occurs by polyphenol oxidase in vacuole of sweet potato cells in suspension culture",
+                        "en": "Alternative 3-hydroxylation pathway leading to chlorogenic acid biosynthesis occurs by polyphenol oxidase in vacuole of sweet potato cells in suspension culture"
+                    },
+                    "presenters": {
+                        "ja": [
+                            {
+                                "name": "Nozue, M"
+                            },
+                            {
+                                "name": "Ichikawa, Y"
+                            },
+                            {
+                                "name": "Hayashi, K"
+                            },
+                            {
+                                "name": "Kagawa, K"
+                            },
+                            {
+                                "name": "Nogawa, M"
+                            },
+                            {
+                                "name": "Nozue, M"
+                            },
+                            {
+                                "name": "Kojima, M"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Nozue, M"
+                            },
+                            {
+                                "name": "Ichikawa, Y"
+                            },
+                            {
+                                "name": "Hayashi, K"
+                            },
+                            {
+                                "name": "Kagawa, K"
+                            },
+                            {
+                                "name": "Nogawa, M"
+                            },
+                            {
+                                "name": "Nozue, M"
+                            },
+                            {
+                                "name": "Kojima, M"
+                            }
+                        ]
+                    },
+                    "presenters_text": {
+                        "ja": "Nozue, M., Ichikawa, Y., Hayashi, K., Kagawa, K., Nogawa, M., Nozue, M. and Kojima, M.",
+                        "en": "Nozue, M., Ichikawa, Y., Hayashi, K., Kagawa, K., Nogawa, M., Nozue, M. and Kojima, M."
+                    },
+                    "event": {
+                        "ja": "Joint Annual Meeting of the American Society of Plant Biologists and the Canadian Society of Plant Physiologists, Plant Biology 2006",
+                        "en": "Joint Annual Meeting of the American Society of Plant Biologists and the Canadian Society of Plant Physiologists, Plant Biology 2006"
+                    },
+                    "publication_date": "2006-08",
+                    "invited": false,
+                    "presentation_type": "poster_presentation",
+                    "description": {
+                        "ja": "Joint Annual Meeting of the American Society of Plant Biologists and the Canadian Society of Plant Physiologists,Plant Biology 2006",
+                        "en": "Joint Annual Meeting of the American Society of Plant Biologists and the Canadian Society of Plant Physiologists,Plant Biology 2006"
+                    },
+                    "is_international_presentation": true,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010641/presentations/15247051",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0010641/presentations",
+                    "rm:id": "15247051",
+                    "rm:user_id": "1000022021",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:#L4c2kCEt3esu+FZ",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-09-25T17:55:48Z",
+                    "rm:modifier_id": "client_id:4soeP_GynCAqaBkY",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2024-10-30T01:15:17Z",
+                    "presentation_title": {
+                        "ja": "Vacuolar localization of 3-hydroxylation pathway involved in hydroxycinnamate esters biosythesis in sweet potato cells in suspension culture",
+                        "en": "Vacuolar localization of 3-hydroxylation pathway involved in hydroxycinnamate esters biosythesis in sweet potato cells in suspension culture"
+                    },
+                    "presenters": {
+                        "ja": [
+                            {
+                                "name": "Hayashi, K"
+                            },
+                            {
+                                "name": "Ichikawa, Y"
+                            },
+                            {
+                                "name": "Nozue, M"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Hayashi, K"
+                            },
+                            {
+                                "name": "Ichikawa, Y"
+                            },
+                            {
+                                "name": "Nozue, M"
+                            }
+                        ]
+                    },
+                    "presenters_text": {
+                        "ja": "Hayashi, K., Ichikawa, Y., and  Nozue, M.",
+                        "en": "Hayashi, K., Ichikawa, Y., and  Nozue, M."
+                    },
+                    "event": {
+                        "ja": "The 53rd National Institute for Basic Biology (NIBB) Conference",
+                        "en": "The 53rd National Institute for Basic Biology (NIBB) Conference"
+                    },
+                    "publication_date": "2006-06",
+                    "invited": false,
+                    "presentation_type": "poster_presentation",
+                    "description": {
+                        "ja": "The 53rd National Institute for Basic Biology (NIBB) Conference",
+                        "en": "The 53rd National Institute for Basic Biology (NIBB) Conference"
+                    },
+                    "is_international_presentation": true,
+                    "rm:is_open_access": false
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0010641/research_projects",
+            "@type": "research_projects",
+            "@reverse": "https://api.researchmap.jp/read0010641",
+            "total_items": 4,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0010641/research_projects/13609140",
+                    "@type": "research_projects",
+                    "@reverse": "https://api.researchmap.jp/read0010641/research_projects",
+                    "rm:id": "13609140",
+                    "rm:user_id": "1000022021",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:#L4c2kCEt3esu+FZ",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-09-25T17:55:48Z",
+                    "rm:modifier_id": "client_id:4soeP_GynCAqaBkY",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2024-10-30T01:15:17Z",
+                    "research_project_title": {
+                        "ja": "色素体ポリフェノールオキシダーゼの機能発現様式の解明"
+                    },
+                    "overall_grant_amount": {
+                        "direct_cost": "0",
+                        "indirect_cost": "0",
+                        "total_cost": "0"
+                    },
+                    "description": {
+                        "ja": "色素体ポリフェノールオキシダーゼの機能発現様式の解明"
+                    },
+                    "fund_type": "competitive_research_funding"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010641/research_projects/13609139",
+                    "@type": "research_projects",
+                    "@reverse": "https://api.researchmap.jp/read0010641/research_projects",
+                    "rm:id": "13609139",
+                    "rm:user_id": "1000022021",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:#L4c2kCEt3esu+FZ",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-09-25T17:55:48Z",
+                    "rm:modifier_id": "client_id:4soeP_GynCAqaBkY",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2024-10-30T01:15:17Z",
+                    "research_project_title": {
+                        "ja": "植物液胞タンパク質の機能解析"
+                    },
+                    "overall_grant_amount": {
+                        "direct_cost": "0",
+                        "indirect_cost": "0",
+                        "total_cost": "0"
+                    },
+                    "description": {
+                        "ja": "植物液胞タンパク質の機能解析"
+                    },
+                    "fund_type": "competitive_research_funding"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010641/research_projects/13609138",
+                    "@type": "research_projects",
+                    "@reverse": "https://api.researchmap.jp/read0010641/research_projects",
+                    "rm:id": "13609138",
+                    "rm:user_id": "1000022021",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:#L4c2kCEt3esu+FZ",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-09-25T17:55:48Z",
+                    "rm:modifier_id": "client_id:4soeP_GynCAqaBkY",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2024-10-30T01:15:17Z",
+                    "research_project_title": {
+                        "ja": "アグロバクテルムによる形質転換植物の作出"
+                    },
+                    "overall_grant_amount": {
+                        "direct_cost": "0",
+                        "indirect_cost": "0",
+                        "total_cost": "0"
+                    },
+                    "description": {
+                        "ja": "アグロバクテルムによる形質転換植物の作出"
+                    },
+                    "fund_type": "competitive_research_funding"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010641/research_projects/13609137",
+                    "@type": "research_projects",
+                    "@reverse": "https://api.researchmap.jp/read0010641/research_projects",
+                    "rm:id": "13609137",
+                    "rm:user_id": "1000022021",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:#L4c2kCEt3esu+FZ",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2019-09-25T17:55:48Z",
+                    "rm:modifier_id": "client_id:4soeP_GynCAqaBkY",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2024-10-30T01:15:17Z",
+                    "research_project_title": {
+                        "ja": "植物培養細胞を用いた二次代謝系発現様式の解明"
+                    },
+                    "overall_grant_amount": {
+                        "direct_cost": "0",
+                        "indirect_cost": "0",
+                        "total_cost": "0"
+                    },
+                    "description": {
+                        "ja": "植物培養細胞を用いた二次代謝系発現様式の解明"
+                    },
+                    "fund_type": "competitive_research_funding"
+                }
+            ]
+        }
+    ]
+}

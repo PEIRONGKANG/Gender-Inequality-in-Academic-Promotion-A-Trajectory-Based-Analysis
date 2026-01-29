@@ -1,0 +1,1824 @@
+{
+    "@context": "https://api.researchmap.jp/researcher.jsonld",
+    "@id": "https://api.researchmap.jp/read0002807?format=json",
+    "@type": "researchers",
+    "rm:user_id": "0000035835",
+    "rm:creator_id": "0000035835",
+    "rm:creator_type": "myself",
+    "rm:created": "2009-12-01T15:00:00Z",
+    "rm:modifier_id": "0000035835",
+    "rm:modifier_type": "myself",
+    "rm:modified": "2024-10-10T04:02:53Z",
+    "permalink": "read0002807",
+    "family_name": {
+        "ja": "法喜",
+        "ja-Kana": "ホウキ",
+        "en": "Hoki"
+    },
+    "given_name": {
+        "ja": "ゆう子",
+        "ja-Kana": "ユウコ",
+        "en": "Yuko"
+    },
+    "display_name_kana": "disclosed",
+    "nickname": {
+        "ja": [
+            "藤森ゆう子"
+        ]
+    },
+    "display_nickname": "disclosed",
+    "display_image": "disclosed",
+    "display_contact_point": "disclosed",
+    "affiliations": [
+        {
+            "affiliation": {
+                "ja": "国立研究開発法人量子科学技術研究開発機構 放射線医学総合研究所"
+            },
+            "section": {
+                "ja": "放射線障害治療研究部幹細胞研究グループ"
+            },
+            "job": {
+                "ja": "研究員"
+            },
+            "display_affiliation": "disclosed",
+            "display_job": "disclosed",
+            "rm:institution_code": "A091000000"
+        }
+    ],
+    "display_profile": "disclosed",
+    "display_url": "disclosed",
+    "identifiers": {
+        "j_global_id": [
+            "200901095503705361"
+        ]
+    },
+    "rm:erad_id_verified": false,
+    "rm:orc_id_verified": false,
+    "display_erad_id": "closed",
+    "display_orc_id": "closed",
+    "display_researcher_id": "disclosed",
+    "display_j_global_id": "disclosed",
+    "see_also": [
+        {
+            "label": "j_global",
+            "@id": "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=200901095503705361"
+        }
+    ],
+    "@graph": [
+        {
+            "@id": "https://api.researchmap.jp/read0002807/research_areas",
+            "@type": "research_areas",
+            "@reverse": "https://api.researchmap.jp/read0002807",
+            "total_items": 1,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0002807/research_areas/30732403",
+                    "@type": "research_areas",
+                    "@reverse": "https://api.researchmap.jp/read0002807/research_areas",
+                    "rm:id": "30732403",
+                    "rm:user_id": "0000035835",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000035835",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2020-11-04T02:41:03Z",
+                    "rm:modifier_id": "0000035835",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2020-11-04T02:41:03Z",
+                    "discipline_number": "A189",
+                    "item_number": "A44010",
+                    "discipline": {
+                        "ja": "ライフサイエンス",
+                        "en": "Life sciences"
+                    },
+                    "research_field": {
+                        "ja": "細胞生物学",
+                        "en": "Cell biology"
+                    }
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0002807/published_papers",
+            "@type": "published_papers",
+            "@reverse": "https://api.researchmap.jp/read0002807",
+            "total_items": 15,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0002807/published_papers/48162007",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0002807/published_papers",
+                    "rm:id": "48162007",
+                    "rm:user_id": "0000035835",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2024-10-10T04:02:53Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2024-10-10T04:02:53Z",
+                    "paper_title": {
+                        "en": "iPS cell generation-associated point mutations include many C > T substitutions via different cytosine modification mechanisms."
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Ryoko Araki"
+                            },
+                            {
+                                "name": "Tomo Suga"
+                            },
+                            {
+                                "name": "Yuko Hoki"
+                            },
+                            {
+                                "name": "Kaori Imadome"
+                            },
+                            {
+                                "name": "Misato Sunayama"
+                            },
+                            {
+                                "name": "Satoshi Kamimura"
+                            },
+                            {
+                                "name": "Mayumi Fujita"
+                            },
+                            {
+                                "name": "Masumi Abe"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "Genomic aberrations are a critical impediment for the safe medical use of iPSCs and their origin and developmental mechanisms remain unknown. Here we find through WGS analysis of human and mouse iPSC lines that genomic mutations are de novo events and that, in addition to unmodified cytosine base prone to deamination, the DNA methylation sequence CpG represents a significant mutation-prone site. CGI and TSS regions show increased mutations in iPSCs and elevated mutations are observed in retrotransposons, especially in the AluY subfamily. Furthermore, increased cytosine to thymine mutations are observed in differentially methylated regions. These results indicate that in addition to deamination of cytosine, demethylation of methylated cytosine, which plays a central role in genome reprogramming, may act mutagenically during iPSC generation."
+                    },
+                    "publication_date": "2024-06-11",
+                    "publication_name": {
+                        "en": "Nature communications"
+                    },
+                    "volume": "15",
+                    "number": "1",
+                    "starting_page": "4946",
+                    "ending_page": "4946",
+                    "languages": [
+                        "eng"
+                    ],
+                    "published_paper_type": "scientific_journal",
+                    "is_international_journal": true,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1038/s41467-024-49335-5"
+                        ],
+                        "pm_id": [
+                            "38862540"
+                        ],
+                        "pmc_id": [
+                            "PMC11166658"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1038/s41467-024-49335-5",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "pubmed",
+                            "@id": "https://www.ncbi.nlm.nih.gov/pubmed/38862540",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "pmc",
+                            "@id": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11166658",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0002807/published_papers/37421458",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0002807/published_papers",
+                    "rm:id": "37421458",
+                    "rm:user_id": "0000035835",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_papers",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2022-06-28T13:28:31Z",
+                    "rm:modifier_id": "ai:assign_based_papers",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-06-28T13:28:31Z",
+                    "paper_title": {
+                        "en": "Insertion/deletion and microsatellite alteration profiles in induced pluripotent stem cells."
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Satoshi Kamimura"
+                            },
+                            {
+                                "name": "Tomo Suga"
+                            },
+                            {
+                                "name": "Yuko Hoki"
+                            },
+                            {
+                                "name": "Misato Sunayama"
+                            },
+                            {
+                                "name": "Kaori Imadome"
+                            },
+                            {
+                                "name": "Mayumi Fujita"
+                            },
+                            {
+                                "name": "Miki Nakamura"
+                            },
+                            {
+                                "name": "Ryoko Araki"
+                            },
+                            {
+                                "name": "Masumi Abe"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "We here demonstrate that microsatellite (MS) alterations are elevated in both mouse and human induced pluripotent stem cells (iPSCs), but importantly we have now identified a type of human iPSC in which these alterations are considerably reduced. We aimed in our present analyses to profile the InDels in iPSC/ntESC genomes, especially in MS regions. To detect somatic de novo mutations in particular, we generated 13 independent reprogramed stem cell lines (11 iPSC and 2 ntESC lines) from an identical parent somatic cell fraction of a C57BL/6 mouse. By using this cell set with an identical genetic background, we could comprehensively detect clone-specific alterations and, importantly, experimentally validate them. The effectiveness of employing sister clones for detecting somatic de novo mutations was thereby demonstrated. We then successfully applied this approach to human iPSCs. Our results require further careful genomic analysis but make an important inroad into solving the issue of genome abnormalities in iPSCs."
+                    },
+                    "publication_date": "2021-10-12",
+                    "publication_name": {
+                        "en": "Stem cell reports"
+                    },
+                    "volume": "16",
+                    "number": "10",
+                    "starting_page": "2503",
+                    "ending_page": "2519",
+                    "languages": [
+                        "eng"
+                    ],
+                    "published_paper_type": "scientific_journal",
+                    "is_international_journal": true,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1016/j.stemcr.2021.08.017"
+                        ],
+                        "pm_id": [
+                            "34559999"
+                        ],
+                        "pmc_id": [
+                            "PMC8514972"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1016/j.stemcr.2021.08.017",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "pubmed",
+                            "@id": "https://www.ncbi.nlm.nih.gov/pubmed/34559999",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "pmc",
+                            "@id": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8514972",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0002807/published_papers/30732950",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0002807/published_papers",
+                    "rm:id": "30732950",
+                    "rm:user_id": "0000035835",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000035835",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2020-11-04T03:16:00Z",
+                    "rm:modifier_id": "0000035835",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2020-11-04T03:16:00Z",
+                    "paper_title": {
+                        "en": "Genetic aberrations in iPSCs are introduced by a transient G1/S cell cycle checkpoint deficiency."
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Ryoko Araki"
+                            },
+                            {
+                                "name": "Yuko Hoki"
+                            },
+                            {
+                                "name": "Tomo Suga"
+                            },
+                            {
+                                "name": "Chizuka Obara"
+                            },
+                            {
+                                "name": "Misato Sunayama"
+                            },
+                            {
+                                "name": "Kaori Imadome"
+                            },
+                            {
+                                "name": "Mayumi Fujita"
+                            },
+                            {
+                                "name": "Satoshi Kamimura"
+                            },
+                            {
+                                "name": "Miki Nakamura"
+                            },
+                            {
+                                "name": "Sayaka Wakayama"
+                            },
+                            {
+                                "name": "Andras Nagy"
+                            },
+                            {
+                                "name": "Teruhiko Wakayama"
+                            },
+                            {
+                                "name": "Masumi Abe"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "A number of point mutations have been identified in reprogrammed pluripotent stem cells such as iPSCs and ntESCs. The molecular basis for these mutations has remained elusive however, which is a considerable impediment to their potential medical application. Here we report a specific stage at which iPSC generation is not reduced in response to ionizing radiation, i.e. radio-resistance. Quite intriguingly, a G1/S cell cycle checkpoint deficiency occurs in a transient fashion at the initial stage of the genome reprogramming process. These cancer-like phenomena, i.e. a cell cycle checkpoint deficiency resulting in the accumulation of point mutations, suggest a common developmental pathway between iPSC generation and tumorigenesis. This notion is supported by the identification of specific cancer mutational signatures in these cells. We describe efficient generation of human integration-free iPSCs using erythroblast cells, which have only a small number of point mutations and INDELs, none of which are in coding regions."
+                    },
+                    "publication_date": "2020-01-10",
+                    "publication_name": {
+                        "en": "Nature communications"
+                    },
+                    "volume": "11",
+                    "number": "1",
+                    "starting_page": "197",
+                    "ending_page": "197",
+                    "languages": [
+                        "eng"
+                    ],
+                    "published_paper_type": "scientific_journal",
+                    "is_international_journal": true,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1038/s41467-019-13830-x"
+                        ],
+                        "pm_id": [
+                            "31924765"
+                        ],
+                        "pmc_id": [
+                            "PMC6954237"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1038/s41467-019-13830-x",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "pubmed",
+                            "@id": "https://www.ncbi.nlm.nih.gov/pubmed/31924765",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "pmc",
+                            "@id": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6954237",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0002807/published_papers/30732951",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0002807/published_papers",
+                    "rm:id": "30732951",
+                    "rm:user_id": "0000035835",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000035835",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2020-11-04T03:16:00Z",
+                    "rm:modifier_id": "0000035835",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2020-11-04T03:16:00Z",
+                    "paper_title": {
+                        "en": "Low- and High-LET Ionizing Radiation Induces Delayed Homologous Recombination that Persists for Two Weeks before Resolving."
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Christopher P Allen"
+                            },
+                            {
+                                "name": "Hirokazu Hirakawa"
+                            },
+                            {
+                                "name": "Nakako Izumi Nakajima"
+                            },
+                            {
+                                "name": "Sophia Moore"
+                            },
+                            {
+                                "name": "Jingyi Nie"
+                            },
+                            {
+                                "name": "Neelam Sharma"
+                            },
+                            {
+                                "name": "Mayumi Sugiura"
+                            },
+                            {
+                                "name": "Yuko Hoki"
+                            },
+                            {
+                                "name": "Ryoko Araki"
+                            },
+                            {
+                                "name": "Masumi Abe"
+                            },
+                            {
+                                "name": "Ryuichi Okayasu"
+                            },
+                            {
+                                "name": "Akira Fujimori"
+                            },
+                            {
+                                "name": "Jac A Nickoloff"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "Genome instability is a hallmark of cancer cells and dysregulation or defects in DNA repair pathways cause genome instability and are linked to inherited cancer predisposition syndromes. Ionizing radiation can cause immediate effects such as mutation or cell death, observed within hours or a few days after irradiation. Ionizing radiation also induces delayed effects many cell generations after irradiation. Delayed effects include hypermutation, hyper-homologous recombination, chromosome instability and reduced clonogenic survival (delayed death). Delayed hyperrecombination (DHR) is mechanistically distinct from delayed chromosomal instability and delayed death. Using a green fluorescent protein (GFP) direct repeat homologous recombination system, time-lapse microscopy and colony-based assays, we demonstrate that DHR increases several-fold in response to low-LET X rays and high-LET carbon-ion radiation. Time-lapse analyses of DHR revealed two classes of recombinants not detected in colony-based assays, including cells that recombined and then senesced or died. With both low- and high-LET radiation, DHR was evident during the first two weeks postirradiation, but resolved to background levels during the third week. The results indicate that the risk of radiation-induced genome destabilization via DHR is time limited, and suggest that there is little or no additional risk of radiation-induced genome instability mediated by DHR with high-LET radiation compared to low-LET radiation."
+                    },
+                    "publication_date": "2017-07",
+                    "publication_name": {
+                        "en": "Radiation research"
+                    },
+                    "volume": "188",
+                    "number": "1",
+                    "starting_page": "82",
+                    "ending_page": "93",
+                    "languages": [
+                        "eng"
+                    ],
+                    "published_paper_type": "scientific_journal",
+                    "is_international_journal": true,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1667/RR14748.1"
+                        ],
+                        "pm_id": [
+                            "28535128"
+                        ],
+                        "pmc_id": [
+                            "PMC5553630"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1667/RR14748.1",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "pubmed",
+                            "@id": "https://www.ncbi.nlm.nih.gov/pubmed/28535128",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "pmc",
+                            "@id": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5553630",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0002807/published_papers/30732952",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0002807/published_papers",
+                    "rm:id": "30732952",
+                    "rm:user_id": "0000035835",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000035835",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2020-11-04T03:16:01Z",
+                    "rm:modifier_id": "0000035835",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2020-11-04T03:16:01Z",
+                    "paper_title": {
+                        "en": "The Number of Point Mutations in Induced Pluripotent Stem Cells and Nuclear Transfer Embryonic Stem Cells Depends on the Method and Somatic Cell Type Used for Their Generation."
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Ryoko Araki"
+                            },
+                            {
+                                "name": "Eiji Mizutani"
+                            },
+                            {
+                                "name": "Yuko Hoki"
+                            },
+                            {
+                                "name": "Misato Sunayama"
+                            },
+                            {
+                                "name": "Sayaka Wakayama"
+                            },
+                            {
+                                "name": "Hiroaki Nagatomo"
+                            },
+                            {
+                                "name": "Yasuji Kasama"
+                            },
+                            {
+                                "name": "Miki Nakamura"
+                            },
+                            {
+                                "name": "Teruhiko Wakayama"
+                            },
+                            {
+                                "name": "Masumi Abe"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "Induced pluripotent stem cells hold great promise for regenerative medicine but point mutations have been identified in these cells and have raised serious concerns about their safe use. We generated nuclear transfer embryonic stem cells (ntESCs) from both mouse embryonic fibroblasts (MEFs) and tail-tip fibroblasts (TTFs) and by whole genome sequencing found fewer mutations compared with iPSCs generated by retroviral gene transduction. Furthermore, TTF-derived ntESCs showed only a very small number of point mutations, approximately 80% less than the number observed in iPSCs generated using retrovirus. Base substitution profile analysis confirmed this greatly reduced number of point mutations. The point mutations in iPSCs are therefore not a Yamanaka factor-specific phenomenon but are intrinsic to genome reprogramming. Moreover, the dramatic reduction in point mutations in ntESCs suggests that most are not essential for genome reprogramming. Our results suggest that it is feasible to reduce the point mutation frequency in iPSCs by optimizing various genome reprogramming conditions. We conducted whole genome sequencing of ntES cells derived from MEFs or TTFs. We thereby succeeded in establishing TTF-derived ntES cell lines with far fewer point mutations. Base substitution profile analysis of these clones also indicated a reduced point mutation frequency, moving from a transversion-predominance to a transition-predominance. Stem Cells 2017;35:1189-1196."
+                    },
+                    "publication_date": "2017-05",
+                    "publication_name": {
+                        "en": "Stem cells (Dayton, Ohio)"
+                    },
+                    "volume": "35",
+                    "number": "5",
+                    "starting_page": "1189",
+                    "ending_page": "1196",
+                    "languages": [
+                        "eng"
+                    ],
+                    "published_paper_type": "scientific_journal",
+                    "is_international_journal": true,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1002/stem.2601"
+                        ],
+                        "pm_id": [
+                            "28233378"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1002/stem.2601",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "pubmed",
+                            "@id": "https://www.ncbi.nlm.nih.gov/pubmed/28233378",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0002807/published_papers/30732953",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0002807/published_papers",
+                    "rm:id": "30732953",
+                    "rm:user_id": "0000035835",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000035835",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2020-11-04T03:16:01Z",
+                    "rm:modifier_id": "0000035835",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2020-11-04T03:16:01Z",
+                    "paper_title": {
+                        "en": "Induced pluripotent stem cell generation-associated point mutations arise during the initial stages of the conversion of these cells."
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Mayumi Sugiura"
+                            },
+                            {
+                                "name": "Yasuji Kasama"
+                            },
+                            {
+                                "name": "Ryoko Araki"
+                            },
+                            {
+                                "name": "Yuko Hoki"
+                            },
+                            {
+                                "name": "Misato Sunayama"
+                            },
+                            {
+                                "name": "Masahiro Uda"
+                            },
+                            {
+                                "name": "Miki Nakamura"
+                            },
+                            {
+                                "name": "Shunsuke Ando"
+                            },
+                            {
+                                "name": "Masumi Abe"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "A large number of point mutations have been identified in induced pluripotent stem cell (iPSC) genomes to date. Whether these mutations are associated with iPSC generation is an important and controversial issue. In this study, we approached this critical issue in different ways, including an assessment of iPSCs versus embryonic stem cells (ESCs), and an investigation of variant allele frequencies and the heterogeneity of point mutations within a single iPSC clone. Through these analyses, we obtained strong evidence that iPSC-generation-associated point mutations occur frequently in a transversion-predominant manner just after the onset of cell lineage conversion. The heterogeneity of the point mutation profiles within an iPSC clone was also revealed and reflects the history of the emergence of each mutation. Further, our results suggest a possible approach for establishing iPSCs with fewer point mutations."
+                    },
+                    "publication_date": "2014-01-14",
+                    "publication_name": {
+                        "en": "Stem cell reports"
+                    },
+                    "volume": "2",
+                    "number": "1",
+                    "starting_page": "52",
+                    "ending_page": "63",
+                    "languages": [
+                        "eng"
+                    ],
+                    "published_paper_type": "scientific_journal",
+                    "is_international_journal": true,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1016/j.stemcr.2013.11.006"
+                        ],
+                        "pm_id": [
+                            "24511470"
+                        ],
+                        "pmc_id": [
+                            "PMC3916761"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1016/j.stemcr.2013.11.006",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "pubmed",
+                            "@id": "https://www.ncbi.nlm.nih.gov/pubmed/24511470",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "pmc",
+                            "@id": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3916761",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0002807/published_papers/30732954",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0002807/published_papers",
+                    "rm:id": "30732954",
+                    "rm:user_id": "0000035835",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000035835",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2020-11-04T03:16:01Z",
+                    "rm:modifier_id": "0000035835",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2020-11-04T03:16:01Z",
+                    "paper_title": {
+                        "en": "Negligible immunogenicity of terminally differentiated cells derived from induced pluripotent or embryonic stem cells."
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Ryoko Araki"
+                            },
+                            {
+                                "name": "Masahiro Uda"
+                            },
+                            {
+                                "name": "Yuko Hoki"
+                            },
+                            {
+                                "name": "Misato Sunayama"
+                            },
+                            {
+                                "name": "Miki Nakamura"
+                            },
+                            {
+                                "name": "Shunsuke Ando"
+                            },
+                            {
+                                "name": "Mayumi Sugiura"
+                            },
+                            {
+                                "name": "Hisashi Ideno"
+                            },
+                            {
+                                "name": "Akemi Shimada"
+                            },
+                            {
+                                "name": "Akira Nifuji"
+                            },
+                            {
+                                "name": "Masumi Abe"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "The advantages of using induced pluripotent stem cells (iPSCs) instead of embryonic stem (ES) cells in regenerative medicine centre around circumventing concerns about the ethics of using ES cells and the likelihood of immune rejection of ES-cell-derived tissues. However, partial reprogramming and genetic instabilities in iPSCs could elicit immune responses in transplant recipients even when iPSC-derived differentiated cells are transplanted. iPSCs are first differentiated into specific types of cells in vitro for subsequent transplantation. Although model transplantation experiments have been conducted using various iPSC-derived differentiated tissues and immune rejections have not been observed, careful investigation of the immunogenicity of iPSC-derived tissue is becoming increasingly critical, especially as this has not been the focus of most studies done so far. A recent study reported immunogenicity of iPSC- but not ES-cell-derived teratomas and implicated several causative genes. Nevertheless, some controversy has arisen regarding these findings. Here we examine the immunogenicity of differentiated skin and bone marrow tissues derived from mouse iPSCs. To ensure optimal comparison of iPSCs and ES cells, we established ten integration-free iPSC and seven ES-cell lines using an inbred mouse strain, C57BL/6. We observed no differences in the rate of success of transplantation when skin and bone marrow cells derived from iPSCs were compared with ES-cell-derived tissues. Moreover, we observed limited or no immune responses, including T-cell infiltration, for tissues derived from either iPSCs or ES cells, and no increase in the expression of the immunogenicity-causing Zg16 and Hormad1 genes in regressing skin and teratoma tissues. Our findings suggest limited immunogenicity of transplanted cells differentiated from iPSCs and ES cells."
+                    },
+                    "publication_date": "2013-02-07",
+                    "publication_name": {
+                        "en": "Nature"
+                    },
+                    "volume": "494",
+                    "number": "7435",
+                    "starting_page": "100",
+                    "ending_page": "4",
+                    "languages": [
+                        "eng"
+                    ],
+                    "published_paper_type": "scientific_journal",
+                    "is_international_journal": true,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1038/nature11807"
+                        ],
+                        "pm_id": [
+                            "23302801"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1038/nature11807",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "pubmed",
+                            "@id": "https://www.ncbi.nlm.nih.gov/pubmed/23302801",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0002807/published_papers/30732955",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0002807/published_papers",
+                    "rm:id": "30732955",
+                    "rm:user_id": "0000035835",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000035835",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2020-11-04T03:16:01Z",
+                    "rm:modifier_id": "0000035835",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2020-11-04T03:16:01Z",
+                    "paper_title": {
+                        "en": "Crucial role of c-Myc in the generation of induced pluripotent stem cells."
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Ryoko Araki"
+                            },
+                            {
+                                "name": "Yuko Hoki"
+                            },
+                            {
+                                "name": "Masahiro Uda"
+                            },
+                            {
+                                "name": "Miki Nakamura"
+                            },
+                            {
+                                "name": "Yuko Jincho"
+                            },
+                            {
+                                "name": "Chihiro Tamura"
+                            },
+                            {
+                                "name": "Misato Sunayama"
+                            },
+                            {
+                                "name": "Shunsuke Ando"
+                            },
+                            {
+                                "name": "Mayumi Sugiura"
+                            },
+                            {
+                                "name": "Mitsuaki A Yoshida"
+                            },
+                            {
+                                "name": "Yasuji Kasama"
+                            },
+                            {
+                                "name": "Masumi Abe"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "c-Myc transduction has been considered previously to be nonessential for induced pluripotent stem cell (iPSC) generation. In this study, we investigated the effects of c-Myc transduction on the generation of iPSCs from an inbred mouse strain using a genome integration-free vector to exclude the effects of the genetic background and the genomic integration of exogenous genes. Our findings reveal a clear difference between iPSCs generated using the four defined factors including c-Myc (4F-iPSCs) and those produced without c-Myc (3F-iPSCs). Molecular and cellular analyses did not reveal any differences between 3F-iPSCs and 4F-iPSCs, as reported previously. However, a chimeric mice formation test indicated clear differences, whereby few highly chimeric mice and no germline transmission was observed using 3F-iPSCs. Similar differences were also observed in the mouse line that has been widely used in iPSC studies. Furthermore, the defect in 3F-iPSCs was considerably improved by trichostatin A, a histone deacetyl transferase inhibitor, indicating that c-Myc plays a crucial role in iPSC generation through the control of histone acetylation. Indeed, low levels of histone acetylation were observed in 3F-iPSCs. Our results shed new light on iPSC generation mechanisms and strongly recommend c-Myc transduction for preparing high-quality iPSCs."
+                    },
+                    "publication_date": "2011-09",
+                    "publication_name": {
+                        "en": "Stem cells (Dayton, Ohio)"
+                    },
+                    "volume": "29",
+                    "number": "9",
+                    "starting_page": "1362",
+                    "ending_page": "70",
+                    "languages": [
+                        "eng"
+                    ],
+                    "published_paper_type": "scientific_journal",
+                    "is_international_journal": true,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1002/stem.685"
+                        ],
+                        "pm_id": [
+                            "21732496"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1002/stem.685",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "pubmed",
+                            "@id": "https://www.ncbi.nlm.nih.gov/pubmed/21732496",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0002807/published_papers/30732956",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0002807/published_papers",
+                    "rm:id": "30732956",
+                    "rm:user_id": "0000035835",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000035835",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2020-11-04T03:16:01Z",
+                    "rm:modifier_id": "0000035835",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2020-11-04T03:16:01Z",
+                    "paper_title": {
+                        "en": "Generation of genome integration-free induced pluripotent stem cells from fibroblasts of C57BL/6 mice without c-Myc transduction."
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Yuko Jincho"
+                            },
+                            {
+                                "name": "Ryoko Araki"
+                            },
+                            {
+                                "name": "Yuko Hoki"
+                            },
+                            {
+                                "name": "Chihiro Tamura"
+                            },
+                            {
+                                "name": "Miki Nakamura"
+                            },
+                            {
+                                "name": "Shunsuke Ando"
+                            },
+                            {
+                                "name": "Yasuji Kasama"
+                            },
+                            {
+                                "name": "Masumi Abe"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "Although the induction of genome integration-free induced pluripotent stem cells (iPSCs) has been reported, c-Myc was still required for the efficient generation of these cells. Herein, we report mouse strain-dependent differences in the c-Myc dependence for iPSC generation and the successful generation of genome integration-free iPSCs without c-Myc transduction using C57BL/6 mouse embryonic fibroblasts. We performed 49 independent experiments and obtained a total of 24 iPSC clones, including 18 genome integration-free iPSC clones. These iPSCs were indistinguishable from embryonic stem cells and from iPSCs generated using other methods. Furthermore, the generation of three-factor iPSCs free of virus vectors revealed the contribution of c-Myc to the genomic integration of external genes. C57BL/6 is an inbred mouse strain with substantial advantages for use in genetic and molecular biological studies due to its use in the whole mouse genome sequencing project. Thus, the present series of C57BL/6 iPSCs generated by various procedures will serve as a valuable resource for future genetic studies of iPSC generation."
+                    },
+                    "publication_date": "2010-08-20",
+                    "publication_name": {
+                        "en": "The Journal of biological chemistry"
+                    },
+                    "volume": "285",
+                    "number": "34",
+                    "starting_page": "26384",
+                    "ending_page": "9",
+                    "languages": [
+                        "eng"
+                    ],
+                    "published_paper_type": "scientific_journal",
+                    "is_international_journal": true,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1074/jbc.M110.115915"
+                        ],
+                        "pm_id": [
+                            "20554535"
+                        ],
+                        "pmc_id": [
+                            "PMC2924067"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1074/jbc.M110.115915",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "pubmed",
+                            "@id": "https://www.ncbi.nlm.nih.gov/pubmed/20554535",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "pmc",
+                            "@id": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2924067",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0002807/published_papers/30732957",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0002807/published_papers",
+                    "rm:id": "30732957",
+                    "rm:user_id": "0000035835",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000035835",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2020-11-04T03:16:01Z",
+                    "rm:modifier_id": "0000035835",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2020-11-04T03:16:01Z",
+                    "paper_title": {
+                        "en": "Conversion of ancestral fibroblasts to induced pluripotent stem cells."
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Ryoko Araki"
+                            },
+                            {
+                                "name": "Yuko Jincho"
+                            },
+                            {
+                                "name": "Yuko Hoki"
+                            },
+                            {
+                                "name": "Miki Nakamura"
+                            },
+                            {
+                                "name": "Chihiro Tamura"
+                            },
+                            {
+                                "name": "Shunsuke Ando"
+                            },
+                            {
+                                "name": "Yasuji Kasama"
+                            },
+                            {
+                                "name": "Masumi Abe"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "The emergence of induced pluripotent stem cells (iPSCs) from an ancestral somatic cell is one of the most important processes underlying their generation, but the mechanism has yet to be identified. This is principally because these cells emerge at a low frequency, about 0.1% in the case of fibroblasts, and in a stochastic manner. In our current study, we succeeded in identifying ancestral fibroblasts and the subsequent processes leading to their conversion to iPSCs. The ancestral fibroblasts were found to divide several times in a morphologically symmetric manner, maintaining a fibroblastic shape, and then gradually transform into embryonic stem-like cells. Interestingly, this conversion occurred within 48 hours after gene introduction in most iPSC generations. This is the first report to directly observe a cell lineage conversion of somatic cells to stem cells and provides a critical new insight into the \"black box\" of iPSCs, that is, the first three days of their generation."
+                    },
+                    "publication_date": "2010-02",
+                    "publication_name": {
+                        "en": "Stem cells (Dayton, Ohio)"
+                    },
+                    "volume": "28",
+                    "number": "2",
+                    "starting_page": "213",
+                    "ending_page": "20",
+                    "languages": [
+                        "eng"
+                    ],
+                    "published_paper_type": "scientific_journal",
+                    "is_international_journal": true,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1002/stem.282"
+                        ],
+                        "pm_id": [
+                            "20020427"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1002/stem.282",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "pubmed",
+                            "@id": "https://www.ncbi.nlm.nih.gov/pubmed/20020427",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0002807/published_papers/38052361",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0002807/published_papers",
+                    "rm:id": "38052361",
+                    "rm:user_id": "0000035835",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_papers",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2022-07-03T14:56:51Z",
+                    "rm:modifier_id": "ai:assign_based_papers",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-07-03T14:56:51Z",
+                    "paper_title": {
+                        "en": "A proximal conserved repeat in the Xist gene is essential as a genomic element for X-inactivation in mouse"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Yuko Hoki"
+                            },
+                            {
+                                "name": "Naomi Kimura"
+                            },
+                            {
+                                "name": "Minako Kanbayashi"
+                            },
+                            {
+                                "name": "Yuko Amakawa"
+                            },
+                            {
+                                "name": "Tatsuya Ohhata"
+                            },
+                            {
+                                "name": "Hiroyuki Sasaki"
+                            },
+                            {
+                                "name": "Takashi Sado"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "X-inactivation in female mammals is triggered by the association of non-coding Xist RNA in cis with the X chromosome. Although it has been suggested that the A-repeat located in the proximal part of the Xist RNA is required for chromosomal silencing in ES cells, its role in mouse has not yet been addressed. Here, we deleted the A-repeat in mouse and studied its effects on X-inactivation during embryogenesis. The deletion, when paternally transmitted, caused a failure of imprinted X-inactivation in the extraembryonic tissues, demonstrating the essential role of the A-repeat in X-inactivation in the mouse embryo. Unexpectedly, the failure of X-inactivation was caused by a lack of Xist RNA rather than by a defect in the silencing function of the mutated RNA, which we expected to be expressed from the mutated X. Interestingly, the normally silent paternal copy of Tsix, which is an antisense negative regulator of Xist, was ectopically activated in the preimplantation embryo. Furthermore, CpG sites in the promoter region of paternal Xist, which are essentially unmethylated in the extraembryonic tissues of the wild-type female embryo, acquire a significant level of methylation on the mutated paternal X. These findings demonstrate that the DNA sequence deleted on the mutated X, most probably the A-repeat, is essential as a genomic element for the appropriate transcriptional regulation of the Xist/Tsix loci and subsequent X-inactivation in the mouse embryo."
+                    },
+                    "publisher": {
+                        "en": "COMPANY OF BIOLOGISTS LTD"
+                    },
+                    "publication_date": "2009-01",
+                    "publication_name": {
+                        "en": "DEVELOPMENT"
+                    },
+                    "volume": "136",
+                    "number": "1",
+                    "starting_page": "139",
+                    "ending_page": "146",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1242/dev.026427"
+                        ],
+                        "issn": [
+                            "0950-1991"
+                        ],
+                        "pm_id": [
+                            "19036803"
+                        ],
+                        "wos_id": [
+                            "WOS:000261449900015"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1242/dev.026427",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "pubmed",
+                            "@id": "https://www.ncbi.nlm.nih.gov/pubmed/19036803",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000261449900015&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0002807/published_papers/38052125",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0002807/published_papers",
+                    "rm:id": "38052125",
+                    "rm:user_id": "0000035835",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_papers",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2022-07-03T14:38:39Z",
+                    "rm:modifier_id": "ai:assign_based_papers",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-07-03T14:38:39Z",
+                    "paper_title": {
+                        "en": "Crucial role of antisense transcription across the Xist promoter in Tsix-mediated Xist chromatin modification"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Tatsuya Ohhata"
+                            },
+                            {
+                                "name": "Yuko Hoki"
+                            },
+                            {
+                                "name": "Hiroyuki Sasaki"
+                            },
+                            {
+                                "name": "Takashi Sado"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "Expression of Xist, which triggers X inactivation, is negatively regulated in cis by an antisense gene, Tsix, transcribed along the entire Xist gene. We recently demonstrated that Tsix silences Xist through modification of the chromatin structure in the Xist promoter region. This finding prompted us to investigate the role of antisense transcription across the Xist promoter in Tsix-mediated silencing. Here, we prematurely terminated Tsix transcription before the Xist promoter and addressed its effect on Xist silencing in mouse embryos. We found that although 93% of the region encoding Tsix was transcribed, truncation of Tsix abolished the antisense regulation of Xist. This resulted in a failure to establish the repressive chromatin configuration at the Xist promoter on the mutated X, including DNA methylation and repressive histone modifications, especially in extraembryonic tissues. These results suggest a crucial role for antisense transcription across the Xist promoter in Xist silencing."
+                    },
+                    "publisher": {
+                        "en": "COMPANY OF BIOLOGISTS LTD"
+                    },
+                    "publication_date": "2008-01",
+                    "publication_name": {
+                        "en": "DEVELOPMENT"
+                    },
+                    "volume": "135",
+                    "number": "2",
+                    "starting_page": "227",
+                    "ending_page": "235",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1242/dev.008490"
+                        ],
+                        "issn": [
+                            "0950-1991"
+                        ],
+                        "pm_id": [
+                            "18057104"
+                        ],
+                        "wos_id": [
+                            "WOS:000252254700004"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1242/dev.008490",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "pubmed",
+                            "@id": "https://www.ncbi.nlm.nih.gov/pubmed/18057104",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000252254700004&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0002807/published_papers/30732958",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0002807/published_papers",
+                    "rm:id": "30732958",
+                    "rm:user_id": "0000035835",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000035835",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2020-11-04T03:16:01Z",
+                    "rm:modifier_id": "0000035835",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2020-11-04T03:16:01Z",
+                    "paper_title": {
+                        "en": "Effect of Atm disruption on spontaneously arising and radiation-induced deletion mutations in mouse liver."
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Ikuko Furuno-Fukushi"
+                            },
+                            {
+                                "name": "Ken-ichi Masumura"
+                            },
+                            {
+                                "name": "Takeshi Furuse"
+                            },
+                            {
+                                "name": "Yuko Noda"
+                            },
+                            {
+                                "name": "Masahiko Takahagi"
+                            },
+                            {
+                                "name": "Toshiyuki Saito"
+                            },
+                            {
+                                "name": "Yuko Hoki"
+                            },
+                            {
+                                "name": "Hiroshi Suzuki"
+                            },
+                            {
+                                "name": "Anthony Wynshaw-Boris"
+                            },
+                            {
+                                "name": "Takehiko Nohmi"
+                            },
+                            {
+                                "name": "Kouichi Tatsumi"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "Deletion mutations were efficiently recovered in mouse liver after total-body irradiation with X rays by using a transgenic mouse \"gpt-delta\" system that harbored a lambda EG10 shuttle vector with the red and gam genes for Spi- (sensitive to P2 lysogen interference) selection. We incorporated this system into homozygous Atm-knockout mice as a model of the radiosensitive hereditary disease ataxia telangiectasia (AT). Lambda phages recovered from the livers of X-irradiated mice with the Atm+/+ genotype showed a dose-dependent increase in the Spi- mutant frequency up to sixfold at 50 Gy over the unirradiated control of 2.8x10(-6). The livers from Atm-/- mice yielded a virtually identical dose-response curve for X rays with a background fraction of 2.4x10(-6). Structural analyses revealed no significant difference in the proportion of -1 frameshifts and larger deletions between Atm+/+ and Atm-/- mice, although larger deletions prevailed in X-ray-induced Spi- mutants irrespective of Atm status. While a possible defect in DNA repair after irradiation has been strongly indicated in the literature for nondividing cultured cells in vitro from AT patients, the Atm disruption does not significantly affect radiation mutagenesis in the stationary mouse liver in vivo."
+                    },
+                    "publication_date": "2003-11",
+                    "publication_name": {
+                        "en": "Radiation research"
+                    },
+                    "volume": "160",
+                    "number": "5",
+                    "starting_page": "549",
+                    "ending_page": "58",
+                    "languages": [
+                        "eng"
+                    ],
+                    "published_paper_type": "scientific_journal",
+                    "is_international_journal": true,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "0033-7587"
+                        ],
+                        "pm_id": [
+                            "14565827"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "pubmed",
+                            "@id": "https://www.ncbi.nlm.nih.gov/pubmed/14565827",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0002807/published_papers/30732959",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0002807/published_papers",
+                    "rm:id": "30732959",
+                    "rm:user_id": "0000035835",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000035835",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2020-11-04T03:16:01Z",
+                    "rm:modifier_id": "0000035835",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2020-11-04T03:16:01Z",
+                    "paper_title": {
+                        "en": "Growth retardation and skin abnormalities of the Recql4-deficient mouse."
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Yuko Hoki"
+                            },
+                            {
+                                "name": "Ryoko Araki"
+                            },
+                            {
+                                "name": "Akira Fujimori"
+                            },
+                            {
+                                "name": "Tatsuya Ohhata"
+                            },
+                            {
+                                "name": "Haruhiko Koseki"
+                            },
+                            {
+                                "name": "Ryutaro Fukumura"
+                            },
+                            {
+                                "name": "Miki Nakamura"
+                            },
+                            {
+                                "name": "Hirokazu Takahashi"
+                            },
+                            {
+                                "name": "Yuko Noda"
+                            },
+                            {
+                                "name": "Seiji Kito"
+                            },
+                            {
+                                "name": "Masumi Abe"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "Mutations in the Recql4 gene are very likely responsible for a subset of Rothmund-Thomson syndrome (RTS) cases, but until now there has been no animal model to confirm this. Knockout mice in which the Recql4 gene is disrupted at exons 5-8 exhibit embryonic lethality at embryonic day 3.5-6.5. We generated a helicase activity-inhibited mouse by deleting exon 13 of Recql4, which is one of the coding exons of the consensus RecQ-helicase domain. This domain is the primary site of mutations that have been identified in RTS patients. The exon 13-deleted Recql4-deficient mice are viable, but exhibit severe growth retardation and abnormalities in several tissues, and embryonic fibroblasts show a defect in cell proliferation. Abnormalities in the Recql4-deficient mice are similar to those in RTS patients, suggesting that defects in the Recql4 gene may indeed be responsible for RTS. We speculate that the loss of Recql4 helicase activity results in the prematurely aged appearance observed in some RecQ helicase diseases."
+                    },
+                    "publication_date": "2003-09-15",
+                    "publication_name": {
+                        "en": "Human molecular genetics"
+                    },
+                    "volume": "12",
+                    "number": "18",
+                    "starting_page": "2293",
+                    "ending_page": "9",
+                    "languages": [
+                        "eng"
+                    ],
+                    "published_paper_type": "scientific_journal",
+                    "is_international_journal": true,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "0964-6906"
+                        ],
+                        "pm_id": [
+                            "12915449"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "pubmed",
+                            "@id": "https://www.ncbi.nlm.nih.gov/pubmed/12915449",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0002807/published_papers/38392883",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/read0002807/published_papers",
+                    "rm:id": "38392883",
+                    "rm:user_id": "0000035835",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_papers",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2022-07-09T10:32:59Z",
+                    "rm:modifier_id": "ai:assign_based_papers",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-07-09T10:32:59Z",
+                    "paper_title": {
+                        "en": "Enhanced phosphorylation of p53 serine 18 following DNA damage in DNA-dependent protein kinase catalytic subunit-deficient cells"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "R Araki"
+                            },
+                            {
+                                "name": "R Fukumura"
+                            },
+                            {
+                                "name": "A Fujimori"
+                            },
+                            {
+                                "name": "Y Taya"
+                            },
+                            {
+                                "name": "Y Shiloh"
+                            },
+                            {
+                                "name": "A Kurimasa"
+                            },
+                            {
+                                "name": "S Burma"
+                            },
+                            {
+                                "name": "GC Li"
+                            },
+                            {
+                                "name": "DJ Chen"
+                            },
+                            {
+                                "name": "K Sato"
+                            },
+                            {
+                                "name": "Y Hoki"
+                            },
+                            {
+                                "name": "K Tatsumi"
+                            },
+                            {
+                                "name": "M Abe"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "DNA-dependent protein kinase (DNA-PK) controls signal transduction following DNA damage. However, the molecular mechanism of the signal transduction has been elusive. A number of candidates for substrates of DNA-PK have been reported on the basis of the in vitro assay system. In particular, the Ser-15 amino acid residue in p53 was one of the first such in vitro substrates to be described, and it has drawn considerable attention due to its biological significance. Moreover, p53 Ser-15 is a site that has been shown to be phosphorylated in response to DNA damage. In addition, crucial evidence indicating that DNA-PK controls the transactivation of p53 following DNA damage was reported quite recently.\nTo clarify these important issues, we conducted the experiments with dna-pkcs null mutant cells, including gene knockout cells. As a result, we detected enhanced phosphorylation of p53 Ser-18, which corresponds to Ser-15 of human p53, and significant expression of p21 and mdm2 following ionizing radiation. Furthermore, we identified a missense point mutation in the p53 DNA-binding motif region in SCGR11 cells, which were established from severe combined immunodeficient (SCID) mice and used for previous study on the role of DNA-PK in p53 transactivation.\nOur observation clearly indicates that DNA-PK catalytic subunit does not phosphorylate p53 Ser-18 in vivo or control the transactivation of p53 in response to DNA damage, and these results further emphasize the different pathways in which ataxia telangiectasia-mutated (ATM);and DNA-PK operate following radiation damage."
+                    },
+                    "publisher": {
+                        "en": "AMER ASSOC CANCER RESEARCH"
+                    },
+                    "publication_date": "1999-08",
+                    "publication_name": {
+                        "en": "CANCER RESEARCH"
+                    },
+                    "volume": "59",
+                    "number": "15",
+                    "starting_page": "3543",
+                    "ending_page": "3546",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "0008-5472"
+                        ],
+                        "wos_id": [
+                            "WOS:000081890200003"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000081890200003&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0002807/misc",
+            "@type": "misc",
+            "@reverse": "https://api.researchmap.jp/read0002807",
+            "total_items": 3,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0002807/misc/37973950",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0002807/misc",
+                    "rm:id": "37973950",
+                    "rm:user_id": "0000035835",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2022-07-02T10:37:28Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-07-02T10:37:28Z",
+                    "paper_title": {
+                        "ja": "iPS細胞におけるマイクロサテライト異常",
+                        "en": "Microsatellite alterations in genome reprogramming"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "KAMIMURA Satoshi"
+                            },
+                            {
+                                "name": "SUGA Tomo"
+                            },
+                            {
+                                "name": "HOKI Yuko"
+                            },
+                            {
+                                "name": "SUNAYAMA Misato"
+                            },
+                            {
+                                "name": "IMADOME Kaori"
+                            },
+                            {
+                                "name": "FUJITA Mayumi"
+                            },
+                            {
+                                "name": "NAKAMURA Miki"
+                            },
+                            {
+                                "name": "ARAKI Ryoko"
+                            },
+                            {
+                                "name": "ABE Masumi"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "KAMIMURA Satoshi"
+                            },
+                            {
+                                "name": "SUGA Tomo"
+                            },
+                            {
+                                "name": "HOKI Yuko"
+                            },
+                            {
+                                "name": "SUNAYAMA Misato"
+                            },
+                            {
+                                "name": "IMADOME Kaori"
+                            },
+                            {
+                                "name": "FUJITA Mayumi"
+                            },
+                            {
+                                "name": "NAKAMURA Miki"
+                            },
+                            {
+                                "name": "ARAKI Ryoko"
+                            },
+                            {
+                                "name": "ABE Masumi"
+                            }
+                        ]
+                    },
+                    "publication_date": "2021",
+                    "publication_name": {
+                        "ja": "日本分子生物学会年会プログラム・要旨集(Web)",
+                        "en": "日本分子生物学会年会プログラム・要旨集(Web)"
+                    },
+                    "volume": "44th",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "j_global_id": [
+                            "202202271346089102"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "j_global",
+                            "@id": "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=202202271346089102",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0002807/misc/37421460",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0002807/misc",
+                    "rm:id": "37421460",
+                    "rm:user_id": "0000035835",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_papers",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2022-06-28T13:28:31Z",
+                    "rm:modifier_id": "ai:assign_based_papers",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-06-28T13:28:31Z",
+                    "paper_title": {
+                        "ja": "ヒトiPS細胞樹立におけるゲノム変異とその機構",
+                        "en": "Genome reprogramming-associated point mutations, frequency and mechanisms"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "荒木 良子"
+                            },
+                            {
+                                "name": "法喜 ゆう子"
+                            },
+                            {
+                                "name": "菅 智"
+                            },
+                            {
+                                "name": "砂山 美里"
+                            },
+                            {
+                                "name": "今留 香織"
+                            },
+                            {
+                                "name": "上村 悟氏"
+                            },
+                            {
+                                "name": "中村 美樹"
+                            },
+                            {
+                                "name": "藤田 真由美"
+                            },
+                            {
+                                "name": "安倍 真澄"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "ARAKI Ryoko"
+                            },
+                            {
+                                "name": "HOKI Yuko"
+                            },
+                            {
+                                "name": "SUGA Tomo"
+                            },
+                            {
+                                "name": "SUNAYAMA Misato"
+                            },
+                            {
+                                "name": "IMADOME Kaori"
+                            },
+                            {
+                                "name": "KAMIMURA Satoshi"
+                            },
+                            {
+                                "name": "NAKAMURA Miki"
+                            },
+                            {
+                                "name": "FUJITA Mayumi"
+                            },
+                            {
+                                "name": "ABE Masumi"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "ja": "分化細胞から身体を構成するほぼすべての細胞に分化させることが可能な多能性幹細胞を創出できるようになり、胚由来のES細胞の使用に伴う倫理的問題が克服され一気に再生医療が現実的になったと考えられている。この細胞系譜転換はゲノム初期化とよばれ、エピゲノムの状態の再編成・変更のみによると考えられていた。実際のゲノム初期化法にはiPS法と核移植（nt）法があり、それぞれ作出された細胞はiPS細胞、ntES細胞と呼ばれES細胞と酷似していることが知られている。しかしながら、現在では、点突然変異だけでも、ゲノム全体では500-1000箇所（遺伝子コーディング領域に限れば3-5カ所）/細胞株も存在することが、エクソームおよび全ゲノムシーケンシングから明らかになっている。同様の異常はこれまで調べられた全ての細胞株で共通にみられている。\n\n 「エピゲノム再編成はゲノム変異を伴う。」という我々を含む数グループの主張は当初から大きな議論を巻き起こしてきた。その医学利用を推進しようとした場合、免疫原性、造腫瘍性の原因となり得るこの現象が短期的には不都合な事実であることは当然である。今回、当初から今まで続いている「変異は用いた親体細胞の一部の細胞に既に存在したものである(pre-existing)」という柱となっている反論も含め、de novo変異の有無、そして変異発生メカニズムについて我々のこれまでの研究を中心に紹介したい。\n\n さらに、明らかになった分子基盤からの仮説を基に試行錯誤の結果、変異の低減化に初めて成功したので紹介する。これらゲノム初期化に伴う変異発生機構に関するいくつかの新しい発見は、エピゲノム再編成メカニズムの理解に繋がるとともに、iPS細胞、ntES細胞の安全性向上にも大きく寄与する。またその一方でそれらの限界も明らかにされることで再生医学利用をより現実的に促進する。",
+                        "en": "There are great expectations for iPS cells as resources for regenerative medicine, and several clinical trials using iPSCs are already underway. However, some critical concerns still remain; genetic aberrations in iPS cells and their derivatives can cause immunogenicity and tumorigenicity. So far, we have focused on the genome instability, especially on point mutations, in reprogrammed pluripotent stem cells, iPSCs and ntESCs. Here we will discuss the genome reprogramming-associated genetic aberrations and the molecular mechanisms behind them, and we also report on an iPS cell system with a remarkable decrease in mutation frequency."
+                    },
+                    "publisher": {
+                        "ja": "日本毒性学会",
+                        "en": "The Japanese Society of Toxicology"
+                    },
+                    "publication_date": "2021",
+                    "publication_name": {
+                        "ja": "日本毒性学会学術年会",
+                        "en": "Annual Meeting of the Japanese Society of Toxicology"
+                    },
+                    "volume": "48.1",
+                    "starting_page": "S3-3",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.14869/toxpt.48.1.0_s3-3"
+                        ],
+                        "cinii_na_id": [
+                            "130008073885"
+                        ],
+                        "cinii_cr_id": [
+                            "1390851961199094528"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.14869/toxpt.48.1.0_s3-3",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_research",
+                            "@id": "https://cir.nii.ac.jp/crid/1390851961199094528?lang=ja",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0002807/misc/38392882",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0002807/misc",
+                    "rm:id": "38392882",
+                    "rm:user_id": "0000035835",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_papers",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2022-07-09T10:32:53Z",
+                    "rm:modifier_id": "ai:assign_based_papers",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-07-09T10:32:53Z",
+                    "paper_title": {
+                        "ja": "Induced pluripotent stem cell generation-associated point mutations.",
+                        "en": "Induced pluripotent stem cell generation-associated point mutations."
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "Araki R"
+                            },
+                            {
+                                "name": "Sugiura M"
+                            },
+                            {
+                                "name": "Hoki Y"
+                            },
+                            {
+                                "name": "Sunayama M"
+                            },
+                            {
+                                "name": "Nakamura M"
+                            },
+                            {
+                                "name": "Kasama Y"
+                            },
+                            {
+                                "name": "Abe M"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Araki R"
+                            },
+                            {
+                                "name": "Sugiura M"
+                            },
+                            {
+                                "name": "Hoki Y"
+                            },
+                            {
+                                "name": "Sunayama M"
+                            },
+                            {
+                                "name": "Nakamura M"
+                            },
+                            {
+                                "name": "Kasama Y"
+                            },
+                            {
+                                "name": "Abe M"
+                            }
+                        ]
+                    },
+                    "publication_date": "2015",
+                    "publication_name": {
+                        "ja": "Inflammation and Regeneration",
+                        "en": "Inflammation and Regeneration"
+                    },
+                    "volume": "35",
+                    "number": "5",
+                    "starting_page": "226",
+                    "ending_page": "232",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "invited": true,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.2492/inflammregen.35.226"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.2492/inflammregen.35.226",
+                            "is_downloadable": false
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,3073 @@
+{
+    "@context": "https://api.researchmap.jp/researcher.jsonld",
+    "@id": "https://api.researchmap.jp/nomBD?format=json",
+    "@type": "researchers",
+    "rm:user_id": "1000010008",
+    "rm:creator_id": "1000010008",
+    "rm:creator_type": "myself",
+    "rm:created": "2010-05-17T15:00:00Z",
+    "rm:modifier_id": "1000010008",
+    "rm:modifier_type": "myself",
+    "rm:modified": "2024-07-17T09:35:24Z",
+    "permalink": "nomBD",
+    "family_name": {
+        "ja": "野村",
+        "ja-Kana": "ノムラ",
+        "en": "Nomura"
+    },
+    "given_name": {
+        "ja": "昌史",
+        "ja-Kana": "マサシ",
+        "en": "Masashi"
+    },
+    "display_name_kana": "disclosed",
+    "display_nickname": "disclosed",
+    "image": "https://researchmap.jp/nomBD/avatar.jpg",
+    "display_image": "disclosed",
+    "display_contact_point": "researchers_only",
+    "affiliations": [
+        {
+            "affiliation": {
+                "ja": "千葉大学",
+                "en": "Chiba University"
+            },
+            "section": {
+                "ja": "大学院園芸学研究院園芸環境科学講座"
+            },
+            "job": {
+                "ja": "教授"
+            },
+            "display_affiliation": "disclosed",
+            "display_job": "disclosed",
+            "rm:institution_code": "0168000000"
+        }
+    ],
+    "degrees": [
+        {
+            "degree": {
+                "ja": "農学博士",
+                "en": "DOCTOR of Agriculture"
+            },
+            "degree_institution": {
+                "ja": "東京農工大学",
+                "en": "Tokyo University of Agriculture and Technology"
+            },
+            "degree_date": "1900-03",
+            "display_degree": "disclosed",
+            "rm:institution_code": "0212000000"
+        }
+    ],
+    "display_profile": "disclosed",
+    "display_url": "researchers_only",
+    "identifiers": {
+        "j_global_id": [
+            "200901044072643483"
+        ]
+    },
+    "rm:erad_id_verified": false,
+    "rm:orc_id_verified": true,
+    "display_erad_id": "closed",
+    "display_orc_id": "researchers_only",
+    "display_researcher_id": "disclosed",
+    "display_j_global_id": "disclosed",
+    "see_also": [
+        {
+            "label": "j_global",
+            "@id": "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=200901044072643483"
+        }
+    ],
+    "@graph": [
+        {
+            "@id": "https://api.researchmap.jp/nomBD/research_interests",
+            "@type": "research_interests",
+            "@reverse": "https://api.researchmap.jp/nomBD",
+            "total_items": 1,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/nomBD/research_interests/35852671",
+                    "@type": "research_interests",
+                    "@reverse": "https://api.researchmap.jp/nomBD/research_interests",
+                    "rm:id": "35852671",
+                    "rm:user_id": "1000010008",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000010008",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2021-11-18T11:22:50Z",
+                    "rm:modifier_id": "1000010008",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2021-11-18T11:22:50Z",
+                    "keyword": {
+                        "ja": "応用昆虫学",
+                        "en": "Applied Entomology"
+                    }
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/nomBD/research_areas",
+            "@type": "research_areas",
+            "@reverse": "https://api.researchmap.jp/nomBD",
+            "total_items": 2,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/nomBD/research_areas/30463539",
+                    "@type": "research_areas",
+                    "@reverse": "https://api.researchmap.jp/nomBD/research_areas",
+                    "rm:id": "30463539",
+                    "rm:user_id": "1000010008",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000010008",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2020-10-15T12:53:12Z",
+                    "rm:modifier_id": "1000010008",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2020-10-15T12:53:12Z",
+                    "discipline_number": "A389",
+                    "item_number": "A39050",
+                    "discipline": {
+                        "ja": "環境・農学",
+                        "en": "Environmental science/Agricultural science"
+                    },
+                    "research_field": {
+                        "ja": "昆虫科学",
+                        "en": "Entomology"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/nomBD/research_areas/542198",
+                    "@type": "research_areas",
+                    "@reverse": "https://api.researchmap.jp/nomBD/research_areas",
+                    "rm:id": "542198",
+                    "rm:user_id": "1000010008",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000010008",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2010-05-17T15:00:00Z",
+                    "rm:modifier_id": "1000010008",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2010-05-17T15:00:00Z",
+                    "discipline_number": "A389",
+                    "item_number": "A39040",
+                    "discipline": {
+                        "ja": "環境・農学",
+                        "en": "Environmental science/Agricultural science"
+                    },
+                    "research_field": {
+                        "ja": "植物保護科学",
+                        "en": "Conservation science (plants)"
+                    }
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/nomBD/research_experience",
+            "@type": "research_experience",
+            "@reverse": "https://api.researchmap.jp/nomBD",
+            "total_items": 4,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/nomBD/research_experience/32764719",
+                    "@type": "research_experience",
+                    "@reverse": "https://api.researchmap.jp/nomBD/research_experience",
+                    "rm:id": "32764719",
+                    "rm:user_id": "1000010008",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "R000007570",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2021-06-11T02:43:48Z",
+                    "rm:modifier_id": "1000010008",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2021-11-18T09:13:35Z",
+                    "from_date": "2021-04",
+                    "to_date": "9999",
+                    "rm:institution_code": "0168041000",
+                    "affiliation": {
+                        "ja": "国立大学法人 千葉大学",
+                        "en": "Chiba University"
+                    },
+                    "section": {
+                        "ja": "大学院 園芸学研究科",
+                        "en": "Graduate School of Horticulture"
+                    },
+                    "job": {
+                        "ja": "教授",
+                        "en": "Professor"
+                    },
+                    "address_country": "JPN"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/nomBD/research_experience/32664949",
+                    "@type": "research_experience",
+                    "@reverse": "https://api.researchmap.jp/nomBD/research_experience",
+                    "rm:id": "32664949",
+                    "rm:user_id": "1000010008",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000010008",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2021-06-02T08:44:35Z",
+                    "rm:modifier_id": "R000007570",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2021-06-11T02:43:48Z",
+                    "from_date": "2021-04",
+                    "to_date": "2021-06",
+                    "rm:institution_code": "0168000000",
+                    "affiliation": {
+                        "ja": "国立大学法人 千葉大学",
+                        "en": "Chiba University"
+                    },
+                    "section": {
+                        "ja": "大学院 園芸学研究院 園芸環境科学講座"
+                    },
+                    "job": {
+                        "ja": "教授"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/nomBD/research_experience/30463535",
+                    "@type": "research_experience",
+                    "@reverse": "https://api.researchmap.jp/nomBD/research_experience",
+                    "rm:id": "30463535",
+                    "rm:user_id": "1000010008",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000010008",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2020-10-15T12:49:51Z",
+                    "rm:modifier_id": "1000010008",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2021-06-02T08:40:53Z",
+                    "from_date": "2020-04",
+                    "to_date": "2021-03",
+                    "rm:institution_code": "0168041000",
+                    "affiliation": {
+                        "ja": "国立大学法人 千葉大学"
+                    },
+                    "section": {
+                        "ja": "大学院 園芸学研究科 生物生産環境学領域"
+                    },
+                    "job": {
+                        "ja": "教授"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/nomBD/research_experience/32665068",
+                    "@type": "research_experience",
+                    "@reverse": "https://api.researchmap.jp/nomBD/research_experience",
+                    "rm:id": "32665068",
+                    "rm:user_id": "1000010008",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000010008",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2021-06-02T08:53:41Z",
+                    "rm:modifier_id": "1000010008",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2021-06-02T08:53:41Z",
+                    "from_date": "2006-04",
+                    "to_date": "2020-03",
+                    "rm:institution_code": "0168041001",
+                    "affiliation": {
+                        "ja": "千葉大学",
+                        "en": "Chiba University"
+                    },
+                    "section": {
+                        "ja": "大学院 園芸学研究科 生物資源科学コース",
+                        "en": "Graduate School of Horticulture Bioresource Science Course"
+                    },
+                    "job": {
+                        "ja": "准教授"
+                    },
+                    "job_title": {
+                        "ja": "農学博士"
+                    }
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/nomBD/education",
+            "@type": "education",
+            "@reverse": "https://api.researchmap.jp/nomBD",
+            "total_items": 2,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/nomBD/education/35852662",
+                    "@type": "education",
+                    "@reverse": "https://api.researchmap.jp/nomBD/education",
+                    "rm:id": "35852662",
+                    "rm:user_id": "1000010008",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000010008",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2021-11-18T11:20:21Z",
+                    "rm:modifier_id": "1000010008",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2021-11-18T11:21:07Z",
+                    "from_date": "1985-04",
+                    "to_date": "1987-03",
+                    "rm:institution_code": "0212000000",
+                    "affiliation": {
+                        "ja": "東京農工大学",
+                        "en": "Tokyo University of Agriculture and Technology"
+                    },
+                    "department": {
+                        "ja": "大学院農学研究科"
+                    },
+                    "course": {
+                        "ja": "植物防疫学専攻"
+                    },
+                    "address_country": "JPN"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/nomBD/education/35852668",
+                    "@type": "education",
+                    "@reverse": "https://api.researchmap.jp/nomBD/education",
+                    "rm:id": "35852668",
+                    "rm:user_id": "1000010008",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000010008",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2021-11-18T11:22:01Z",
+                    "rm:modifier_id": "1000010008",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2021-11-18T11:22:01Z",
+                    "from_date": "1981-04",
+                    "to_date": "1985-03",
+                    "rm:institution_code": "2302002000",
+                    "affiliation": {
+                        "ja": "玉川大学",
+                        "en": "Tamagawa University"
+                    },
+                    "department": {
+                        "ja": "農学部",
+                        "en": "College of Agriculture"
+                    },
+                    "course": {
+                        "ja": "農学科"
+                    }
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/nomBD/committee_memberships",
+            "@type": "committee_memberships",
+            "@reverse": "https://api.researchmap.jp/nomBD",
+            "total_items": 11,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/nomBD/committee_memberships/35853007",
+                    "@type": "committee_memberships",
+                    "@reverse": "https://api.researchmap.jp/nomBD/committee_memberships",
+                    "rm:id": "35853007",
+                    "rm:user_id": "1000010008",
+                    "display": "disclosed",
+                    "major_achievement": true,
+                    "rm:creator_id": "1000010008",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2021-11-18T14:35:15Z",
+                    "rm:modifier_id": "1000010008",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2021-12-08T10:03:53Z",
+                    "from_date": "2008-04",
+                    "to_date": "9999",
+                    "committee_name": {
+                        "ja": "環境審議会委員"
+                    },
+                    "association": {
+                        "ja": "柏市"
+                    },
+                    "committee_type": "autonomy"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/nomBD/committee_memberships/35853016",
+                    "@type": "committee_memberships",
+                    "@reverse": "https://api.researchmap.jp/nomBD/committee_memberships",
+                    "rm:id": "35853016",
+                    "rm:user_id": "1000010008",
+                    "display": "disclosed",
+                    "major_achievement": true,
+                    "rm:creator_id": "1000010008",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2021-11-18T14:40:27Z",
+                    "rm:modifier_id": "1000010008",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2024-01-11T01:47:08Z",
+                    "from_date": "2019-04",
+                    "to_date": "2023-03",
+                    "committee_name": {
+                        "ja": "理事"
+                    },
+                    "association": {
+                        "ja": "日本応用動物昆虫学会"
+                    },
+                    "committee_type": "society"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/nomBD/committee_memberships/35853021",
+                    "@type": "committee_memberships",
+                    "@reverse": "https://api.researchmap.jp/nomBD/committee_memberships",
+                    "rm:id": "35853021",
+                    "rm:user_id": "1000010008",
+                    "display": "disclosed",
+                    "major_achievement": true,
+                    "rm:creator_id": "1000010008",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2021-11-18T14:43:15Z",
+                    "rm:modifier_id": "1000010008",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2021-12-08T10:03:53Z",
+                    "from_date": "2015-01",
+                    "to_date": "2020-12",
+                    "committee_name": {
+                        "ja": "常任運営委員・運営委員"
+                    },
+                    "association": {
+                        "ja": "日本農学会"
+                    },
+                    "committee_type": "society"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/nomBD/committee_memberships/36018471",
+                    "@type": "committee_memberships",
+                    "@reverse": "https://api.researchmap.jp/nomBD/committee_memberships",
+                    "rm:id": "36018471",
+                    "rm:user_id": "1000010008",
+                    "display": "disclosed",
+                    "major_achievement": true,
+                    "rm:creator_id": "1000010008",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2021-12-08T09:56:34Z",
+                    "rm:modifier_id": "1000010008",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2021-12-08T10:03:53Z",
+                    "from_date": "2017-04",
+                    "to_date": "2020-03",
+                    "committee_name": {
+                        "ja": "総合職試験専門委員"
+                    },
+                    "association": {
+                        "ja": "人事院"
+                    },
+                    "committee_type": "government"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/nomBD/committee_memberships/35853019",
+                    "@type": "committee_memberships",
+                    "@reverse": "https://api.researchmap.jp/nomBD/committee_memberships",
+                    "rm:id": "35853019",
+                    "rm:user_id": "1000010008",
+                    "display": "disclosed",
+                    "major_achievement": true,
+                    "rm:creator_id": "1000010008",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2021-11-18T14:41:25Z",
+                    "rm:modifier_id": "1000010008",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2021-12-08T10:03:53Z",
+                    "from_date": "2018-01",
+                    "to_date": "2019-12",
+                    "committee_name": {
+                        "ja": "会長"
+                    },
+                    "association": {
+                        "ja": "農林害虫防除研究会"
+                    },
+                    "committee_type": "society"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/nomBD/committee_memberships/36018475",
+                    "@type": "committee_memberships",
+                    "@reverse": "https://api.researchmap.jp/nomBD/committee_memberships",
+                    "rm:id": "36018475",
+                    "rm:user_id": "1000010008",
+                    "display": "disclosed",
+                    "major_achievement": true,
+                    "rm:creator_id": "1000010008",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2021-12-08T09:59:05Z",
+                    "rm:modifier_id": "1000010008",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2021-12-08T10:03:53Z",
+                    "from_date": "2014-10",
+                    "to_date": "2016-09",
+                    "committee_name": {
+                        "ja": "科学研究費第１段審査員"
+                    },
+                    "association": {
+                        "ja": "日本学術振興会"
+                    },
+                    "committee_type": "government"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/nomBD/committee_memberships/35853010",
+                    "@type": "committee_memberships",
+                    "@reverse": "https://api.researchmap.jp/nomBD/committee_memberships",
+                    "rm:id": "35853010",
+                    "rm:user_id": "1000010008",
+                    "display": "disclosed",
+                    "major_achievement": true,
+                    "rm:creator_id": "1000010008",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2021-11-18T14:36:58Z",
+                    "rm:modifier_id": "1000010008",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2021-12-08T10:03:53Z",
+                    "from_date": "2007-04",
+                    "to_date": "2015-03",
+                    "committee_name": {
+                        "ja": "環境影響評価委員会委員"
+                    },
+                    "association": {
+                        "ja": "千葉県"
+                    },
+                    "committee_type": "autonomy"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/nomBD/committee_memberships/36018467",
+                    "@type": "committee_memberships",
+                    "@reverse": "https://api.researchmap.jp/nomBD/committee_memberships",
+                    "rm:id": "36018467",
+                    "rm:user_id": "1000010008",
+                    "display": "disclosed",
+                    "major_achievement": true,
+                    "rm:creator_id": "1000010008",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2021-12-08T09:55:22Z",
+                    "rm:modifier_id": "1000010008",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2021-12-08T10:03:53Z",
+                    "from_date": "2010-04",
+                    "to_date": "2013-03",
+                    "committee_name": {
+                        "ja": "教科科目第１委員会委員"
+                    },
+                    "association": {
+                        "ja": "大学入試センター"
+                    },
+                    "committee_type": "government"
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/nomBD/awards",
+            "@type": "awards",
+            "@reverse": "https://api.researchmap.jp/nomBD",
+            "total_items": 4,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/nomBD/awards/30463580",
+                    "@type": "awards",
+                    "@reverse": "https://api.researchmap.jp/nomBD/awards",
+                    "rm:id": "30463580",
+                    "rm:user_id": "1000010008",
+                    "display": "disclosed",
+                    "major_achievement": true,
+                    "rm:creator_id": "1000010008",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2020-10-15T13:01:21Z",
+                    "rm:modifier_id": "1000010008",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2020-10-15T13:01:33Z",
+                    "award_name": {
+                        "ja": "日本応用動物昆虫学会 学会賞",
+                        "en": "Award of Japanese Society for Applied Entomology and Zoology"
+                    },
+                    "winners": {
+                        "ja": [
+                            {
+                                "name": "野村昌史"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Masashi Nomura"
+                            }
+                        ]
+                    },
+                    "award_title": {
+                        "ja": "害虫や天敵類の分子系統解析とその応用に関する研究",
+                        "en": "Research on molecular phylogenetic analysis of insect pests and natural enemies and their applications"
+                    },
+                    "association": {
+                        "ja": "日本応用動物昆虫学会",
+                        "en": "Japanese Society of Applied Entomology and Zoology"
+                    },
+                    "award_date": "2020-03"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/nomBD/awards/35868367",
+                    "@type": "awards",
+                    "@reverse": "https://api.researchmap.jp/nomBD/awards",
+                    "rm:id": "35868367",
+                    "rm:user_id": "1000010008",
+                    "display": "disclosed",
+                    "major_achievement": true,
+                    "rm:creator_id": "1000010008",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2021-11-20T13:52:50Z",
+                    "rm:modifier_id": "1000010008",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2021-11-20T13:53:19Z",
+                    "award_name": {
+                        "ja": "柏市市政功労者表彰"
+                    },
+                    "winners": {
+                        "ja": [
+                            {
+                                "name": "野村昌史"
+                            }
+                        ]
+                    },
+                    "association": {
+                        "ja": "柏市"
+                    },
+                    "award_date": "2019-09"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/nomBD/awards/35868352",
+                    "@type": "awards",
+                    "@reverse": "https://api.researchmap.jp/nomBD/awards",
+                    "rm:id": "35868352",
+                    "rm:user_id": "1000010008",
+                    "display": "disclosed",
+                    "major_achievement": true,
+                    "rm:creator_id": "1000010008",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2021-11-20T13:45:48Z",
+                    "rm:modifier_id": "1000010008",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2021-11-20T13:52:16Z",
+                    "award_name": {
+                        "ja": "優秀科学研究費第1段審査員 表彰"
+                    },
+                    "winners": {
+                        "ja": [
+                            {
+                                "name": "野村昌史"
+                            }
+                        ]
+                    },
+                    "association": {
+                        "ja": "日本学術振興会"
+                    },
+                    "award_date": "2017-01"
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/nomBD/published_papers",
+            "@type": "published_papers",
+            "@reverse": "https://api.researchmap.jp/nomBD",
+            "total_items": 67,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/nomBD/published_papers/35852372",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/nomBD/published_papers",
+                    "rm:id": "35852372",
+                    "rm:user_id": "1000010008",
+                    "display": "disclosed",
+                    "major_achievement": true,
+                    "rm:creator_id": "1000010008",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2021-11-18T10:07:39Z",
+                    "rm:modifier_id": "1000010008",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2022-09-10T07:08:03Z",
+                    "paper_title": {
+                        "en": "Wolbachiahave made it twice: Hybrid introgression between two sister species of Eurema butterflies"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Mai N. Miyata"
+                            },
+                            {
+                                "name": "Masashi Nomura"
+                            },
+                            {
+                                "name": "Daisuke Kageyama"
+                            }
+                        ]
+                    },
+                    "published_paper_owner_roles": [
+                        "corresponding"
+                    ],
+                    "publisher": {
+                        "en": "Wiley"
+                    },
+                    "publication_date": "2020-08",
+                    "publication_name": {
+                        "en": "Ecology and Evolution"
+                    },
+                    "volume": "10",
+                    "number": "15",
+                    "starting_page": "8323",
+                    "ending_page": "8330",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "published_paper_type": "scientific_journal",
+                    "is_international_journal": true,
+                    "is_international_collaboration": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1002/ece3.6539"
+                        ],
+                        "issn": [
+                            "2045-7758"
+                        ],
+                        "e_issn": [
+                            "2045-7758"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1002/ece3.6539",
+                            "is_downloadable": false
+                        },
+                        {
+                            "@id": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/ece3.6539",
+                            "label": "url",
+                            "is_downloadable": false
+                        },
+                        {
+                            "@id": "https://onlinelibrary.wiley.com/doi/full-xml/10.1002/ece3.6539",
+                            "label": "url",
+                            "is_downloadable": false
+                        },
+                        {
+                            "@id": "https://onlinelibrary.wiley.com/doi/am-pdf/10.1002%2Fece3.6539",
+                            "label": "url",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/nomBD/published_papers/35852280",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/nomBD/published_papers",
+                    "rm:id": "35852280",
+                    "rm:user_id": "1000010008",
+                    "display": "disclosed",
+                    "major_achievement": true,
+                    "rm:creator_id": "1000010008",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2021-11-18T09:50:48Z",
+                    "rm:modifier_id": "1000010008",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2021-12-14T09:29:26Z",
+                    "paper_title": {
+                        "en": "Rapid comeback of males: evolution of male-killer suppression in a green lacewing population"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Masayuki Hayashi"
+                            },
+                            {
+                                "name": "Masashi Nomura"
+                            },
+                            {
+                                "name": "Daisuke Kageyama"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "Evolutionary theory predicts that the spread of cytoplasmic sex ratio distorters leads to the evolution of host nuclear suppressors, although there are extremely few empirical observations of this phenomenon. Here, we demonstrate that a nuclear suppressor of a cytoplasmic male killer has spread rapidly in a population of the green lacewing\n <italic>Mallada desjardinsi</italic>\n . An\n <italic>M. desjardinsi</italic>\n population, which was strongly female-biased in 2011 because of a high prevalence of the male-killing\n <italic>Spiroplasma</italic>\n endosymbiont, had a sex ratio near parity in 2016, despite a consistent\n <italic>Spiroplasma</italic>\n prevalence. Most of the offspring derived from individuals collected in 2016 had 1 : 1 sex ratios in subsequent generations. Contrastingly, all-female or female-biased broods appeared frequently from crossings of these female offspring with males derived from a laboratory line founded by individuals collected in 2011. These results suggest near-fixation of a nuclear suppressor against male killing in 2016 and reject the notion that a non-male-killing\n <italic>Spiroplasma</italic>\n variant has spread in the population. Consistently, no significant difference was detected in mitochondrial haplotype variation between 2011 and 2016. These findings, and earlier findings in the butterfly\n <italic>Hypolimnas bolina</italic>\n in Samoa, suggest that these quick events of male recovery occur more commonly than is generally appreciated."
+                    },
+                    "publisher": {
+                        "en": "The Royal Society"
+                    },
+                    "publication_date": "2018-04-25",
+                    "publication_name": {
+                        "en": "Proceedings of the Royal Society B: Biological Sciences"
+                    },
+                    "volume": "285",
+                    "number": "1877",
+                    "starting_page": "20180369",
+                    "ending_page": "20180369",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "published_paper_type": "scientific_journal",
+                    "is_international_journal": true,
+                    "is_international_collaboration": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1098/rspb.2018.0369"
+                        ],
+                        "issn": [
+                            "0962-8452"
+                        ],
+                        "e_issn": [
+                            "1471-2954"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1098/rspb.2018.0369",
+                            "is_downloadable": false
+                        },
+                        {
+                            "@id": "https://royalsocietypublishing.org/doi/pdf/10.1098/rspb.2018.0369",
+                            "label": "url",
+                            "is_downloadable": false
+                        },
+                        {
+                            "@id": "https://royalsocietypublishing.org/doi/full-xml/10.1098/rspb.2018.0369",
+                            "label": "url",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/nomBD/published_papers/35852284",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/nomBD/published_papers",
+                    "rm:id": "35852284",
+                    "rm:user_id": "1000010008",
+                    "display": "disclosed",
+                    "major_achievement": true,
+                    "rm:creator_id": "1000010008",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2021-11-18T09:52:25Z",
+                    "rm:modifier_id": "1000010008",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2021-12-14T09:29:53Z",
+                    "paper_title": {
+                        "en": "Allozyme Analyses of Two Closely Related Species of Eurema Butterflies (Lepidoptera: Pieridae) That Cannot Be Identified With Mitochondrial DNA Sequences"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Masashi Nomura"
+                            },
+                            {
+                                "name": "Yoshiomi Kato"
+                            }
+                        ]
+                    },
+                    "published_paper_owner_roles": [
+                        "lead",
+                        "corresponding"
+                    ],
+                    "publisher": {
+                        "en": "Oxford University Press (OUP)"
+                    },
+                    "publication_date": "2018-03-09",
+                    "publication_name": {
+                        "en": "Annals of the Entomological Society of America"
+                    },
+                    "volume": "111",
+                    "number": "2",
+                    "starting_page": "73",
+                    "ending_page": "78",
+                    "referee": true,
+                    "published_paper_type": "scientific_journal",
+                    "is_international_journal": true,
+                    "is_international_collaboration": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1093/aesa/say001"
+                        ],
+                        "issn": [
+                            "0013-8746"
+                        ],
+                        "e_issn": [
+                            "1938-2901"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1093/aesa/say001",
+                            "is_downloadable": false
+                        },
+                        {
+                            "@id": "http://academic.oup.com/aesa/article-pdf/111/2/73/24279185/say001.pdf",
+                            "label": "url",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/nomBD/published_papers/35852384",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/nomBD/published_papers",
+                    "rm:id": "35852384",
+                    "rm:user_id": "1000010008",
+                    "display": "disclosed",
+                    "major_achievement": true,
+                    "rm:creator_id": "1000010008",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2021-11-18T10:11:15Z",
+                    "rm:modifier_id": "1000010008",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2021-12-14T09:32:36Z",
+                    "paper_title": {
+                        "en": "Intraspecific Variation ofEysarcoris guttigerus(Hemiptera: Pentatomidae) in Japanese Southwest Population Based on Mitochondrial DNA"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Takuya Yamaji"
+                            },
+                            {
+                                "name": "Tadashi Ishikawa"
+                            },
+                            {
+                                "name": "Masashi Nomura"
+                            }
+                        ]
+                    },
+                    "published_paper_owner_roles": [
+                        "last",
+                        "corresponding"
+                    ],
+                    "publisher": {
+                        "en": "Oxford University Press (OUP)"
+                    },
+                    "publication_date": "2016",
+                    "publication_name": {
+                        "en": "Journal of Insect Science"
+                    },
+                    "volume": "16",
+                    "number": "1",
+                    "starting_page": "7",
+                    "ending_page": "7",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "published_paper_type": "scientific_journal",
+                    "is_international_journal": true,
+                    "is_international_collaboration": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1093/jisesa/iev147"
+                        ],
+                        "e_issn": [
+                            "1536-2442"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1093/jisesa/iev147",
+                            "is_downloadable": false
+                        },
+                        {
+                            "@id": "http://academic.oup.com/jinsectscience/article-pdf/16/1/7/8567891/iev147.pdf",
+                            "label": "url",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/nomBD/published_papers/35852409",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/nomBD/published_papers",
+                    "rm:id": "35852409",
+                    "rm:user_id": "1000010008",
+                    "display": "disclosed",
+                    "major_achievement": true,
+                    "rm:creator_id": "1000010008",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2021-11-18T10:26:43Z",
+                    "rm:modifier_id": "1000010008",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2021-12-14T09:37:18Z",
+                    "paper_title": {
+                        "en": "Laboratory Evaluation of the Flight Ability of Female <I>Autographa nigrisigna</I> (Lepidoptera: Noctuidae), Measured by Actograph and Flight Mill"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Aoi Hashiyama"
+                            },
+                            {
+                                "name": "Masashi Nomura"
+                            },
+                            {
+                                "name": "Jun Kurihara"
+                            },
+                            {
+                                "name": "Goro Toyoshima"
+                            }
+                        ]
+                    },
+                    "published_paper_owner_roles": [
+                        "corresponding"
+                    ],
+                    "publisher": {
+                        "en": "Oxford University Press (OUP)"
+                    },
+                    "publication_date": "2013-04-01",
+                    "publication_name": {
+                        "en": "Journal of Economic Entomology"
+                    },
+                    "volume": "106",
+                    "number": "2",
+                    "starting_page": "690",
+                    "ending_page": "694",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "published_paper_type": "scientific_journal",
+                    "is_international_journal": true,
+                    "is_international_collaboration": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1603/ec12272"
+                        ],
+                        "issn": [
+                            "0022-0493"
+                        ],
+                        "e_issn": [
+                            "0022-0493"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1603/ec12272",
+                            "is_downloadable": false
+                        },
+                        {
+                            "@id": "http://academic.oup.com/jee/article-pdf/106/2/690/19292119/jee106-0690.pdf",
+                            "label": "url",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/nomBD/published_papers/35852466",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/nomBD/published_papers",
+                    "rm:id": "35852466",
+                    "rm:user_id": "1000010008",
+                    "display": "disclosed",
+                    "major_achievement": true,
+                    "rm:creator_id": "1000010008",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2021-11-18T10:28:42Z",
+                    "rm:modifier_id": "1000010008",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2021-12-14T09:38:31Z",
+                    "paper_title": {
+                        "ja": "黄色LED点滅光によるオオタバコガの飛翔抑制",
+                        "en": "The Effect of Exposure to a Pulsed Yellow Light-Emitting Diode (LED) on the Adult Flight Behavior of the Cotton Ballworm, Helicoverpa armigera."
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "尹 丁梵"
+                            },
+                            {
+                                "name": "野村昌史"
+                            },
+                            {
+                                "name": "石倉 聡"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Jungbeom Yoon"
+                            },
+                            {
+                                "name": "Masashi Nomura"
+                            },
+                            {
+                                "name": "Satoshi Ishikura"
+                            }
+                        ]
+                    },
+                    "published_paper_owner_roles": [
+                        "corresponding"
+                    ],
+                    "publisher": {
+                        "en": "Japanese Society of Applied Entomology & Zoology"
+                    },
+                    "publication_date": "2012",
+                    "publication_name": {
+                        "ja": "日本応用動物昆虫学会誌",
+                        "en": "Japanese Journal of Applied Entomology and Zoology"
+                    },
+                    "volume": "56",
+                    "number": "4",
+                    "starting_page": "151",
+                    "ending_page": "156",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": true,
+                    "published_paper_type": "scientific_journal",
+                    "is_international_journal": false,
+                    "is_international_collaboration": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1303/jjaez.2012.151"
+                        ],
+                        "issn": [
+                            "0021-4914"
+                        ],
+                        "e_issn": [
+                            "1347-6068"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1303/jjaez.2012.151",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/nomBD/published_papers/29840302",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/nomBD/published_papers",
+                    "rm:id": "29840302",
+                    "rm:user_id": "1000010008",
+                    "display": "disclosed",
+                    "major_achievement": true,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-08-30T20:17:55Z",
+                    "rm:modifier_id": "1000010008",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2021-12-14T09:39:11Z",
+                    "paper_title": {
+                        "en": "Application of molecular techniques to identification of three plusiine species, autographa nigrisigna, macdunnoughia confusa, and thysanoplusia intermixta (Lepidoptera: Noctuidae), Found in integrated pest management lettuce fields in Japan"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Aoi Hashiyama"
+                            },
+                            {
+                                "name": "Masashi Nomura"
+                            },
+                            {
+                                "name": "Jun Kurihara"
+                            },
+                            {
+                                "name": "Goro Toyoshima"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "Three plusiine species, Autographa nigrisigna, Macdunnoughia confusa, and Thysanoplusia intermixta (Lepidoptera: Noctuidae), are commonly found together in lettuce, Lactuca sativa L., fields in Japan. Given the marked morphological similarities between these species and the difficulty associated with discriminating between them using only visual cues, we used multiplex polymerase chain reaction (PCR) assay to distinguish between the three target species. Multiplex PCR uses four primers to simultaneously amplify a specific region of the mitochondrial DNA and produce species-specific banding patterns. The stringency of the method was tested using specimens of different sex, location, and developmental stage, and consistent results were obtained for all samples. Indeed, our method has the potential to clarify the species structure of plusiine species in lettuce fields. © 2011 Entomological Society of America."
+                    },
+                    "publication_date": "2011-08",
+                    "publication_name": {
+                        "en": "Journal of Economic Entomology"
+                    },
+                    "volume": "104",
+                    "number": "4",
+                    "starting_page": "1280",
+                    "ending_page": "1285",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "is_international_journal": true,
+                    "is_international_collaboration": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1603/EC10442"
+                        ],
+                        "issn": [
+                            "0022-0493"
+                        ],
+                        "pm_id": [
+                            "21882693"
+                        ],
+                        "scopus_id": [
+                            "80051733061"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1603/EC10442",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "pubmed",
+                            "@id": "https://www.ncbi.nlm.nih.gov/pubmed/21882693",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/nomBD/published_papers/5796929",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/nomBD/published_papers",
+                    "rm:id": "5796929",
+                    "rm:user_id": "1000010008",
+                    "display": "disclosed",
+                    "major_achievement": true,
+                    "rm:creator_id": "1000010008",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2010-05-17T15:00:00Z",
+                    "rm:modifier_id": "1000010008",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2021-12-14T09:45:04Z",
+                    "paper_title": {
+                        "en": "Genetic structure of sibling butterfly species affected by Wolbachia infection sweep: evolutionary and biogeographical implications"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "S Narita"
+                            },
+                            {
+                                "name": "M Nomura"
+                            },
+                            {
+                                "name": "Y Kato"
+                            },
+                            {
+                                "name": "T Fukatsu"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "It was recently recognized that in Japan, the common yellow butterfly, Eurema hecabe, consists of two sibling species, which have been unnamed yet and tentatively called yellow (Y) type and brown (B) type. We investigated the diversity of nuclear and mitochondrial genes in Japanese populations of Y type and B type of E. hecabe. The phylogeny based on nuclear genes agreed with the distinction between Y type and B type, which had been also supported by a wide array of biological data. However, the phylogeny based on mitochondrial genes did not reflect the distinction. PCR survey of Wolbachia revealed that B-type populations were all infected while Y-type populations contained both infected and uninfected individuals. A single genotype of Wolbachia, which was inferred to be a CI-inducing strain from their wsp gene sequence, was prevalent in these populations. Notably, the mitochondrial phylogeny was in perfect agreement with the pattern of Wolbachia infection, suggesting that the Wolbachia infection had affected the mitochondrial genetic structure of the host insects. Probably, the Wolbachia strain and the associated mitochondrial genomes have been occasionally introduced from B-type populations to Y-type populations through migration and subsequent interspecific hybridization, and CI-driven population sweep has been spreading the Wolbachia strain and the particular mitochondrial haplotypes, which originated from B-type populations, into Y-type populations. On the basis of these results together with the geological and biogeographical knowledge of the Japanese Archipelago, we proposed an evolutionary hypothesis on the invasion and spread of Wolbachia infection in B-type and Y-type of E. hecabe."
+                    },
+                    "publisher": {
+                        "en": "BLACKWELL PUBLISHING"
+                    },
+                    "publication_date": "2006-04",
+                    "publication_name": {
+                        "en": "MOLECULAR ECOLOGY"
+                    },
+                    "volume": "15",
+                    "number": "4",
+                    "starting_page": "1095",
+                    "ending_page": "1108",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "is_international_journal": true,
+                    "is_international_collaboration": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1111/j.1365-294X.2006.02857.x"
+                        ],
+                        "issn": [
+                            "0962-1083"
+                        ],
+                        "wos_id": [
+                            "WOS:000235986700016"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1111/j.1365-294X.2006.02857.x",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000235986700016&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/nomBD/published_papers/5796930",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/nomBD/published_papers",
+                    "rm:id": "5796930",
+                    "rm:user_id": "1000010008",
+                    "display": "disclosed",
+                    "major_achievement": true,
+                    "rm:creator_id": "1000010008",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2010-05-17T15:00:00Z",
+                    "rm:modifier_id": "1000010008",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2021-12-14T09:46:48Z",
+                    "paper_title": {
+                        "en": "Taxonomic diversity within the Japanese green lacewing, Chrysoperla carnea (Neuroptera : Chrysopidae), identified by courtship song analyses and crossing tests"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "H Taki"
+                            },
+                            {
+                                "name": "S Kuroki"
+                            },
+                            {
+                                "name": "M Nomura"
+                            }
+                        ]
+                    },
+                    "published_paper_owner_roles": [
+                        "last",
+                        "corresponding"
+                    ],
+                    "description": {
+                        "en": "The green lacewing, Chrysoperla carnea (Stephens), is an important natural enemy of various crop pests, especially aphids. In the Japanese fauna. there are two types of larval forms, A and B, characterized by different head capsule markings. The Type A form is distributed throughout Japan, but the Type B form has a more limited distribution. Adults use abdominal vibration as a communication signal (courtship song) during mating. We analyzed oscillograms of these songs among several Japanese populations of C carnea. The courtship songs of types A and B are distinctly different from one another. We then performed crossing tests between the two types. Copulation between same-type pairings was much more likely than between different-type pairings. We also analyzed courtship songs of European C carnea sensu stricti, introduced to Japan as a natural enemy of crop pests. The song of these introduced green lacewings appeared to differ from either type of Japanese C carnea. The two types of C carnea are likely to be different species, and also distinct from C carnea sensu stricti of Europe."
+                    },
+                    "publisher": {
+                        "en": "SPRINGER TOKYO"
+                    },
+                    "publication_date": "2005",
+                    "publication_name": {
+                        "en": "JOURNAL OF ETHOLOGY"
+                    },
+                    "volume": "23",
+                    "number": "1",
+                    "starting_page": "57",
+                    "ending_page": "61",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "is_international_journal": true,
+                    "is_international_collaboration": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1007/s10164-004-0130-6"
+                        ],
+                        "issn": [
+                            "0289-0771"
+                        ],
+                        "cinii_na_id": [
+                            "80017121891"
+                        ],
+                        "wos_id": [
+                            "WOS:000226663700009"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1007/s10164-004-0130-6",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/80017121891",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000226663700009&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/nomBD/published_papers/5796934",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/nomBD/published_papers",
+                    "rm:id": "5796934",
+                    "rm:user_id": "1000010008",
+                    "display": "disclosed",
+                    "major_achievement": true,
+                    "rm:creator_id": "1000010008",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2010-05-17T15:00:00Z",
+                    "rm:modifier_id": "1000010008",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2021-12-14T09:47:03Z",
+                    "paper_title": {
+                        "ja": "キンウワバ類（鱗翅目・ヤガ科）４種の飛翔，摂食およびコーリング活動時間帯の比較",
+                        "en": "Daily flight, feeding and calling activities of four Plusiine moths, Autographa nigrisigna, Thyanoplusia intermixta, Ctenophisia agnata and Chrysodeixis eriosoma (Lepidoptera : Noctuidae)."
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "滝久智"
+                            },
+                            {
+                                "name": "野村昌史"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "H Taki"
+                            },
+                            {
+                                "name": "M Nomura"
+                            }
+                        ]
+                    },
+                    "published_paper_owner_roles": [
+                        "corresponding"
+                    ],
+                    "description": {
+                        "en": "In general, plusiine moths actively begin flying from dusk and feeding and calling activities have been clearly discussed in many reports. We examined daily behaviors, specifically, flight, feeding and calling activities of the plusiine moths, Autographa nigrisigna, Thysanoplusia intermixta, Ctenoplusia agnata and Chrysodeixis eriosoma, which are major pests of various commercial crops in the Kanto region of Japan. Daily flight activities were tested with an actograph system in the laboratory. The insects showed pronounced flight activity soon after the lights were turned off, during darkness and after the lights were turned on. Of specific interest is that during darkness, C eriosoma showed high flight activity earlier than the other three species. We also observed daily feeding and calling activities, and found these two activities were synchronized with flight activity. We conclude that patterns of calling and associated flights are not the same for all plusiine species although most adults of the Plusiinae fly actively during darkness."
+                    },
+                    "publisher": {
+                        "en": "JAPAN SOC APPL ENTOMOL ZOOL"
+                    },
+                    "publication_date": "2004",
+                    "publication_name": {
+                        "ja": "日本応用動物昆虫学会誌",
+                        "en": "JAPANESE JOURNAL OF APPLIED ENTOMOLOGY AND ZOOLOGY"
+                    },
+                    "volume": "48",
+                    "number": "4",
+                    "starting_page": "321",
+                    "ending_page": "329",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "is_international_journal": false,
+                    "is_international_collaboration": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1303/jjaez.2004.321"
+                        ],
+                        "issn": [
+                            "0021-4914"
+                        ],
+                        "cinii_na_id": [
+                            "10014110624"
+                        ],
+                        "wos_id": [
+                            "WOS:000228904600008"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1303/jjaez.2004.321",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/10014110624",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000228904600008&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/nomBD/published_papers/5796918",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/nomBD/published_papers",
+                    "rm:id": "5796918",
+                    "rm:user_id": "1000010008",
+                    "display": "disclosed",
+                    "major_achievement": true,
+                    "rm:creator_id": "1000010008",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2010-05-17T15:00:00Z",
+                    "rm:modifier_id": "1000010008",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2021-12-14T09:47:58Z",
+                    "paper_title": {
+                        "en": "Reproductive isolation in a native population of Petunia sensu Jussieu (Solanaceae)"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Toshio Ando"
+                            },
+                            {
+                                "name": "Masashi Nomura"
+                            },
+                            {
+                                "name": "Jun Tsukahara"
+                            },
+                            {
+                                "name": "Hitoshi Watanabe"
+                            },
+                            {
+                                "name": "Hisashi Kokubun"
+                            },
+                            {
+                                "name": "Tatsuya Tsukamoto"
+                            },
+                            {
+                                "name": "Goro Hashimoto"
+                            },
+                            {
+                                "name": "Eduardo Marchesi"
+                            },
+                            {
+                                "name": "Ian J. Kitching"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "Reproductive isolation was studied in four syntopic species of Petunia sensu Jussieu (Solanaceae) at a site in Rio Grande do Sul State, Brazil. Reciprocal artificial crossing experiments confirmed that a genetic barrier exists between Petunia (P. axillaris and P. integrifolia) and Calibrachoa (C. parviflora and C. heterophylla), and also between C. parviflora and C. heterophylla. Petunia axillaris (white, nocturnally scented flower) is genetically compatible with the syntopic and allotopic P. integrifolia (coloured, unscented flower). Reproductive isolation appears to be maintained by the two species having different pollinators: nocturnally active hawkmoths (Manduca contracta and M. diffissa subsp. petuniae) pollinate P. axillaris while a diurnally active bee (Hexantheda sp.) pollinates P. integrifolia. Flowers of P. integrifolia exhibit diurnal opening and closing movements synchronous with the activity period of the bee. Other than a probable nectar robber (a carpenter bee, Xylocopa augusti), no insect visited flowers of P. axillaris in the day. Amounts of floral nectar in P. axillaris and P. integrifolia were within the range of hawkmoth- and bee-pollinated flowers, respectively. Reproductive isolating mechanisms in the genus Petunia sensu Jussieu are discussed. © 2001 Annals of Botany Company."
+                    },
+                    "publisher": {
+                        "en": "Academic Press"
+                    },
+                    "publication_date": "2001",
+                    "publication_name": {
+                        "en": "Annals of Botany"
+                    },
+                    "volume": "88",
+                    "number": "3",
+                    "starting_page": "403",
+                    "ending_page": "413",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "is_international_journal": true,
+                    "is_international_collaboration": true,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1006/anbo.2001.1485"
+                        ],
+                        "issn": [
+                            "0305-7364"
+                        ],
+                        "scopus_id": [
+                            "0034868661"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1006/anbo.2001.1485",
+                            "is_downloadable": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/nomBD/misc",
+            "@type": "misc",
+            "@reverse": "https://api.researchmap.jp/nomBD",
+            "total_items": 53,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/nomBD/misc/36682229",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/nomBD/misc",
+                    "rm:id": "36682229",
+                    "rm:user_id": "1000010008",
+                    "display": "disclosed",
+                    "major_achievement": true,
+                    "rm:creator_id": "1000010008",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2022-04-06T00:22:58Z",
+                    "rm:modifier_id": "1000010008",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2022-04-06T00:23:14Z",
+                    "paper_title": {
+                        "ja": "農作物に発生するヨトウムシ類の被害と見分け方",
+                        "en": "Identification of Armyworms in Crops and Damage"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "野村昌史"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Masashi Nomura"
+                            }
+                        ]
+                    },
+                    "publication_date": "2022-04",
+                    "publication_name": {
+                        "ja": "植物防疫",
+                        "en": "Plant Protection"
+                    },
+                    "volume": "76",
+                    "number": "4",
+                    "starting_page": "212",
+                    "ending_page": "219",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "misc_type": "introduction_commerce_magazine",
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/nomBD/misc/35487183",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/nomBD/misc",
+                    "rm:id": "35487183",
+                    "rm:user_id": "1000010008",
+                    "display": "disclosed",
+                    "major_achievement": true,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2021-10-27T05:46:41Z",
+                    "rm:modifier_id": "1000010008",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2021-11-20T01:42:29Z",
+                    "paper_title": {
+                        "ja": "黄色LED照射がオオタバコガの夜間飛翔行動に及ぼす影響 : アクトグラフによる室内行動解析を中心に",
+                        "en": "Analysis of the Flight Activity of the Cotton Bollworm Helicoverpa armigera (Hubner) (Lepidoptera : Noctuidae) under Yellow LED Lighting"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "野村 昌史"
+                            },
+                            {
+                                "name": "尹 丁梵"
+                            },
+                            {
+                                "name": "石倉 聡"
+                            }
+                        ]
+                    },
+                    "published_paper_owner_roles": [
+                        "lead",
+                        "corresponding"
+                    ],
+                    "publisher": {
+                        "ja": "日本植物防疫協会"
+                    },
+                    "publication_date": "2013-05",
+                    "publication_name": {
+                        "ja": "植物防疫"
+                    },
+                    "volume": "67",
+                    "number": "5",
+                    "starting_page": "279",
+                    "ending_page": "283",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "misc_type": "introduction_scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "0037-4091"
+                        ],
+                        "cinii_na_id": [
+                            "40019679735"
+                        ],
+                        "cinii_nc_id": [
+                            "AN0011802X"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/40019679735",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_books",
+                            "@id": "http://ci.nii.ac.jp/ncid/AN0011802X",
+                            "is_downloadable": false
+                        },
+                        {
+                            "@id": "http://id.ndl.go.jp/bib/024647196",
+                            "label": "url",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/nomBD/misc/35852638",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/nomBD/misc",
+                    "rm:id": "35852638",
+                    "rm:user_id": "1000010008",
+                    "display": "disclosed",
+                    "major_achievement": true,
+                    "rm:creator_id": "1000010008",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2021-11-18T11:12:38Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-08-25T04:44:33Z",
+                    "paper_title": {
+                        "ja": "交信かく乱剤を施用したレタス圃場におけるキンウワバ類の発生数および種構成について",
+                        "en": "Field density and species structure of plusiine moths found in the pheromone treated lettuce fields"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "橋山 葵"
+                            },
+                            {
+                                "name": "野村昌史"
+                            },
+                            {
+                                "name": "栗原潤"
+                            },
+                            {
+                                "name": "豊嶋悟郎"
+                            }
+                        ]
+                    },
+                    "published_paper_owner_roles": [
+                        "corresponding"
+                    ],
+                    "description": {
+                        "ja": "長野県軽井沢町および小諸市のレタス圃場において,キンウワバ類の発生数と種構成を調べた。圃場には現在,日本国内で市販されている野菜類用複合交信かく乱剤コンフューザーVを施用した。2年間の調査をまとめて,交信かく乱剤施用圃場には158匹のキンウワバ類が採集された。採集した個体は,成虫の前翅斑紋,幼虫の腹部刺毛および分子同定法を用いて種を特定した。種同定の結果,交信かく乱剤施用圃場に発生していたキンウワバ類は8種に分類された。そのうち,2年間の調査で共通してみられたのは,タマナギンウワバ,キクギンウワバ,キクキンウワバ,イラクサギンウワバの4種であった。最も個体数の多かったタマナギンウワバはコンフューザーVの対象種であり,圃場内に設置したフェロモントラップにはわずかながら本種のオス成虫が誘引された。これら,かく乱されていないオス成虫が次世代幼虫の発生に起因している可能性が示唆された。今後は,本種の生態のなかでも飛翔活性や交尾行動など交信かく乱に関わる部分について明らかにしていく必要があるだろう。"
+                    },
+                    "publisher": {
+                        "ja": "千葉大学園芸学部"
+                    },
+                    "publication_date": "2012",
+                    "publication_name": {
+                        "ja": "食と緑の科学"
+                    },
+                    "volume": "66",
+                    "number": "66",
+                    "starting_page": "11",
+                    "ending_page": "16",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "misc_type": "introduction_research_institution",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "1880-8824"
+                        ],
+                        "cinii_na_id": [
+                            "120005939261"
+                        ],
+                        "cinii_nc_id": [
+                            "AA12123127"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/120005939261",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_books",
+                            "@id": "http://ci.nii.ac.jp/ncid/AA12123127",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "http://id.ndl.go.jp/bib/023945648",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "http://opac.ll.chiba-u.jp/da/curator/900116308/",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "http://agriknowledge.affrc.go.jp/RN/2010833184",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/nomBD/misc/35890312",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/nomBD/misc",
+                    "rm:id": "35890312",
+                    "rm:user_id": "1000010008",
+                    "display": "disclosed",
+                    "major_achievement": true,
+                    "rm:creator_id": "1000010008",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2021-11-24T02:20:15Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-08-06T01:04:12Z",
+                    "paper_title": {
+                        "ja": "DNA多型解析による昆虫の種間および種内変異解析〜基礎的研究から応用面への適用まで〜",
+                        "en": "Inter- and intra-specific variation of insects using DNA polymorphism : From fundamental study to adaptation for applied entomology"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Nomura Masashi"
+                            }
+                        ],
+                        "ja": [
+                            {
+                                "name": "野村昌史"
+                            }
+                        ]
+                    },
+                    "published_paper_owner_roles": [
+                        "corresponding"
+                    ],
+                    "description": {
+                        "ja": "分子生物学的なアプローチによる種の多様性評価や,進化の道筋を明らかにする分子系統解析は,今や様々な分野で主要な手法になっている.昆虫は種の多様性,個体数の多さで進化の頂点に立つ生物群であるが,遺伝子を使った解析には多くの研究がみられる.そこで様々な研究例を1)RFLP,RAPD法,2)PCR-RFLP法,3)マルチプレックスPCR,そして最近注目を集めている4)DNAバーコードについてまとめて整理するとともに,遺伝子の適用についての問題点を指摘した.またこうした分子アプローチの研究例として我々が行っているキンウワバ類の分子系統解析や分子同定法について紹介した.そして農業害虫や天敵類にこうした手法を適用するにあたっての今後の展望についても示した.",
+                        "en": "Molecular approach - such as evaluation of species diversity, and molecular phylogenetic study - is major technique for numerous fields of biology. Insects are highly evolved organisms because of their species richness and population size. And there are many studies using DNA in entomology. Then, I reviewed molecular study of insects such as RAPD, RFLP, PCR-RFLP, Multiplex PCR and DNA barcode based on references published so far. In addition, I discussed the problem of molecular adaptation to DNA barcode of insects. Then, I introduced molecular phylogenetic analysis and molecular identification study of our laboratory. In conclusion, I pointed out prospects of the adaptation molecular technique to agricultural pests or natural enemies."
+                    },
+                    "publisher": {
+                        "ja": "千葉大学",
+                        "en": "Chiba University"
+                    },
+                    "publication_date": "2008",
+                    "publication_name": {
+                        "ja": "食と緑の科学",
+                        "en": "Hort research"
+                    },
+                    "volume": "62",
+                    "starting_page": "1",
+                    "ending_page": "7",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": true,
+                    "misc_type": "introduction_research_institution",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "1880-8824"
+                        ],
+                        "cinii_na_id": [
+                            "110007325395"
+                        ],
+                        "cinii_nc_id": [
+                            "AA12123127"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/110007325395",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_books",
+                            "@id": "http://ci.nii.ac.jp/ncid/AA12123127",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "http://id.ndl.go.jp/bib/9665625",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "http://agriknowledge.affrc.go.jp/RN/2010761938",
+                            "is_downloadable": true
+                        },
+                        {
+                            "label": "url",
+                            "@id": "http://opac.ll.chiba-u.jp/da/curator/900095480/",
+                            "is_downloadable": true
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/nomBD/misc/35890406",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/nomBD/misc",
+                    "rm:id": "35890406",
+                    "rm:user_id": "1000010008",
+                    "display": "disclosed",
+                    "major_achievement": true,
+                    "rm:creator_id": "1000010008",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2021-11-24T02:49:38Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-06-30T23:58:39Z",
+                    "paper_title": {
+                        "ja": "農作物生産の最新技術 イラクサギンウワバ--最近の発生状況と幼虫の低温耐性"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "野村昌史"
+                            }
+                        ]
+                    },
+                    "published_paper_owner_roles": [
+                        "corresponding"
+                    ],
+                    "publisher": {
+                        "ja": "化学工業日報社"
+                    },
+                    "publication_date": "2006",
+                    "publication_name": {
+                        "ja": "今月の農業"
+                    },
+                    "volume": "50",
+                    "number": "1",
+                    "starting_page": "78",
+                    "ending_page": "83",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "misc_type": "introduction_commerce_magazine",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "0912-1404"
+                        ],
+                        "cinii_na_id": [
+                            "40007099880"
+                        ],
+                        "cinii_nc_id": [
+                            "AN10123547"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/40007099880",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_books",
+                            "@id": "http://ci.nii.ac.jp/ncid/AN10123547",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "http://id.ndl.go.jp/bib/7788965",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/nomBD/misc/35890441",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/nomBD/misc",
+                    "rm:id": "35890441",
+                    "rm:user_id": "1000010008",
+                    "display": "disclosed",
+                    "major_achievement": true,
+                    "rm:creator_id": "1000010008",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2021-11-24T02:57:23Z",
+                    "rm:modifier_id": "1000010008",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2021-11-24T02:57:34Z",
+                    "paper_title": {
+                        "ja": "南西諸島のナガサキアゲハ雌はなぜ白いのか?,"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "橋本哉子"
+                            },
+                            {
+                                "name": "野村昌史"
+                            }
+                        ]
+                    },
+                    "published_paper_owner_roles": [
+                        "corresponding"
+                    ],
+                    "publication_date": "2000-03",
+                    "publication_name": {
+                        "ja": "昆虫と自然"
+                    },
+                    "volume": "35",
+                    "number": "4",
+                    "starting_page": "27",
+                    "ending_page": "32",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "misc_type": "introduction_commerce_magazine",
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/nomBD/misc/35890461",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/nomBD/misc",
+                    "rm:id": "35890461",
+                    "rm:user_id": "1000010008",
+                    "display": "disclosed",
+                    "major_achievement": true,
+                    "rm:creator_id": "1000010008",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2021-11-24T02:59:57Z",
+                    "rm:modifier_id": "1000010008",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2021-11-24T03:00:26Z",
+                    "paper_title": {
+                        "ja": "アロザイムによるキチョウの種内変異の解析"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "野村昌史"
+                            },
+                            {
+                                "name": "加藤義臣"
+                            }
+                        ]
+                    },
+                    "published_paper_owner_roles": [
+                        "corresponding"
+                    ],
+                    "publication_date": "1993-09",
+                    "publication_name": {
+                        "ja": "昆虫と自然"
+                    },
+                    "volume": "28",
+                    "number": "10",
+                    "starting_page": "15",
+                    "ending_page": "18",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "misc_type": "introduction_commerce_magazine",
+                    "rm:is_open_access": false
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/nomBD/books_etc",
+            "@type": "books_etc",
+            "@reverse": "https://api.researchmap.jp/nomBD",
+            "total_items": 8,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/nomBD/books_etc/35852648",
+                    "@type": "books_etc",
+                    "@reverse": "https://api.researchmap.jp/nomBD/books_etc",
+                    "rm:id": "35852648",
+                    "rm:user_id": "1000010008",
+                    "display": "disclosed",
+                    "major_achievement": true,
+                    "rm:creator_id": "1000010008",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2021-11-18T11:15:03Z",
+                    "rm:modifier_id": "1000010008",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2021-11-20T01:25:20Z",
+                    "book_title": {
+                        "ja": "応用昆虫学"
+                    },
+                    "book_owner_role": "joint_editor",
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "石川, 幸男"
+                            },
+                            {
+                                "name": "野村, 昌史"
+                            },
+                            {
+                                "name": "糸山, 享"
+                            },
+                            {
+                                "name": "大井田, 寛"
+                            },
+                            {
+                                "name": "塩月, 孝博"
+                            },
+                            {
+                                "name": "柴尾, 学"
+                            },
+                            {
+                                "name": "徳丸, 晋"
+                            },
+                            {
+                                "name": "矢後, 勝也"
+                            },
+                            {
+                                "name": "山中, 武彦"
+                            }
+                        ]
+                    },
+                    "book_owner_range": {
+                        "ja": "2.2昆虫の分類、3.8自滅的防除, 遺伝的防除、4 各論"
+                    },
+                    "publisher": {
+                        "ja": "朝倉書店"
+                    },
+                    "publication_date": "2020-04",
+                    "total_page": "vi, 197p",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "identifiers": {
+                        "isbn": [
+                            "9784254420449"
+                        ],
+                        "cinii_nc_id": [
+                            "BB30397968"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_books",
+                            "@id": "http://ci.nii.ac.jp/ncid/BB30397968",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/nomBD/books_etc/35852656",
+                    "@type": "books_etc",
+                    "@reverse": "https://api.researchmap.jp/nomBD/books_etc",
+                    "rm:id": "35852656",
+                    "rm:user_id": "1000010008",
+                    "display": "disclosed",
+                    "major_achievement": true,
+                    "rm:creator_id": "1000010008",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2021-11-18T11:17:58Z",
+                    "rm:modifier_id": "1000010008",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2021-11-20T01:26:19Z",
+                    "book_title": {
+                        "ja": "ひと目でわかる病害虫の症状・予防・対策 : 基礎の基礎からよくわかる"
+                    },
+                    "book_owner_role": "joint_work",
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "雨宮, 良幹"
+                            },
+                            {
+                                "name": "野村, 昌史"
+                            },
+                            {
+                                "name": "三輪, 正幸"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "ナツメ社"
+                    },
+                    "publication_date": "2015-04",
+                    "total_page": "214p",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "identifiers": {
+                        "isbn": [
+                            "9784816358302"
+                        ],
+                        "cinii_nc_id": [
+                            "BB18864871"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_books",
+                            "@id": "http://ci.nii.ac.jp/ncid/BB18864871",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/nomBD/books_etc/35852653",
+                    "@type": "books_etc",
+                    "@reverse": "https://api.researchmap.jp/nomBD/books_etc",
+                    "rm:id": "35852653",
+                    "rm:user_id": "1000010008",
+                    "display": "disclosed",
+                    "major_achievement": true,
+                    "rm:creator_id": "1000010008",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2021-11-18T11:17:07Z",
+                    "rm:modifier_id": "1000010008",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2021-11-18T11:17:10Z",
+                    "book_title": {
+                        "ja": "観察する目が変わる昆虫学入門"
+                    },
+                    "book_owner_role": "single_work",
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "野村, 昌史"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "ベレ出版"
+                    },
+                    "publication_date": "2013-06",
+                    "total_page": "222p",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "identifiers": {
+                        "isbn": [
+                            "9784860643584"
+                        ],
+                        "cinii_nc_id": [
+                            "BB12776181"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_books",
+                            "@id": "http://ci.nii.ac.jp/ncid/BB12776181",
+                            "is_downloadable": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/nomBD/presentations",
+            "@type": "presentations",
+            "@reverse": "https://api.researchmap.jp/nomBD",
+            "total_items": 18,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/nomBD/presentations/36956730",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/nomBD/presentations",
+                    "rm:id": "36956730",
+                    "rm:user_id": "1000010008",
+                    "display": "disclosed",
+                    "major_achievement": true,
+                    "rm:creator_id": "1000010008",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2022-05-14T13:08:52Z",
+                    "rm:modifier_id": "1000010008",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2022-05-14T13:08:56Z",
+                    "presentation_title": {
+                        "ja": "侵入種ムネアカハラビロカマキリの存在が在来種ハラビロカマキリに及ぼす影響"
+                    },
+                    "presenters": {
+                        "ja": [
+                            {
+                                "name": "田中知樹"
+                            },
+                            {
+                                "name": "長 泰行"
+                            },
+                            {
+                                "name": "中牟田 潔"
+                            },
+                            {
+                                "name": "野村昌史"
+                            }
+                        ]
+                    },
+                    "event": {
+                        "ja": "第66回日本応用動物昆虫学会大会"
+                    },
+                    "publication_date": "2022-03-21",
+                    "from_event_date": "2022-03-20",
+                    "to_event_date": "2022-03-22",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "presentation_type": "poster_presentation",
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/nomBD/presentations/36956650",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/nomBD/presentations",
+                    "rm:id": "36956650",
+                    "rm:user_id": "1000010008",
+                    "display": "disclosed",
+                    "major_achievement": true,
+                    "rm:creator_id": "1000010008",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2022-05-14T12:46:03Z",
+                    "rm:modifier_id": "1000010008",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2022-05-14T12:46:16Z",
+                    "presentation_title": {
+                        "ja": "イラクサギンウワバに感染するボルバキアはなぜ置き換わったのか？"
+                    },
+                    "presenters": {
+                        "ja": [
+                            {
+                                "name": "元木彩子"
+                            },
+                            {
+                                "name": "宮田真衣"
+                            },
+                            {
+                                "name": "岡田杏理"
+                            },
+                            {
+                                "name": "野村昌史"
+                            }
+                        ]
+                    },
+                    "event": {
+                        "ja": "第66回日本応用動物昆虫学会大会"
+                    },
+                    "publication_date": "2022-03-21",
+                    "from_event_date": "2022-03-20",
+                    "to_event_date": "2022-03-22",
+                    "invited": false,
+                    "languages": [
+                        "jpn"
+                    ],
+                    "presentation_type": "poster_presentation",
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/nomBD/presentations/35868320",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/nomBD/presentations",
+                    "rm:id": "35868320",
+                    "rm:user_id": "1000010008",
+                    "display": "disclosed",
+                    "major_achievement": true,
+                    "rm:creator_id": "1000010008",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2021-11-20T13:32:47Z",
+                    "rm:modifier_id": "1000010008",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2021-11-21T04:34:28Z",
+                    "presentation_title": {
+                        "ja": "ウリウロコタマバエの生活史について（2）"
+                    },
+                    "presenters": {
+                        "ja": [
+                            {
+                                "name": "谷中 稔侑"
+                            },
+                            {
+                                "name": "野村 昌史"
+                            }
+                        ]
+                    },
+                    "event": {
+                        "ja": "第65回日本応用動物昆虫学会大会"
+                    },
+                    "publication_date": "2021-03-24",
+                    "from_event_date": "2021-03-23",
+                    "to_event_date": "2021-03-26",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "presentation_type": "poster_presentation",
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/nomBD/presentations/35853246",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/nomBD/presentations",
+                    "rm:id": "35853246",
+                    "rm:user_id": "1000010008",
+                    "display": "disclosed",
+                    "major_achievement": true,
+                    "rm:creator_id": "1000010008",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2021-11-18T15:15:49Z",
+                    "rm:modifier_id": "1000010008",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2021-11-20T13:38:50Z",
+                    "presentation_title": {
+                        "ja": "シロオビアカアシナガゾウムシの生態と加害によるアジサイへの影響"
+                    },
+                    "presenters": {
+                        "ja": [
+                            {
+                                "name": "井上 大誠"
+                            },
+                            {
+                                "name": "井上 大成"
+                            },
+                            {
+                                "name": "野村 昌史"
+                            }
+                        ]
+                    },
+                    "event": {
+                        "ja": "第65回日本応用動物昆虫学会大会"
+                    },
+                    "publication_date": "2021-03-24",
+                    "from_event_date": "2021-03-23",
+                    "to_event_date": "2021-03-26",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "presentation_type": "poster_presentation",
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/nomBD/presentations/35853244",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/nomBD/presentations",
+                    "rm:id": "35853244",
+                    "rm:user_id": "1000010008",
+                    "display": "disclosed",
+                    "major_achievement": true,
+                    "rm:creator_id": "1000010008",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2021-11-18T15:13:40Z",
+                    "rm:modifier_id": "1000010008",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2021-11-20T13:38:52Z",
+                    "presentation_title": {
+                        "ja": "室内の薄明・月光照明条件下で観察したイチジクキンウワバの行動"
+                    },
+                    "presenters": {
+                        "ja": [
+                            {
+                                "name": "元木 彩子"
+                            },
+                            {
+                                "name": "野村 昌史"
+                            }
+                        ]
+                    },
+                    "event": {
+                        "ja": "第65回日本応用動物昆虫学会大会"
+                    },
+                    "publication_date": "2021-03-24",
+                    "from_event_date": "2021-03-23",
+                    "to_event_date": "2021-03-26",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "presentation_type": "poster_presentation",
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/nomBD/presentations/35853228",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/nomBD/presentations",
+                    "rm:id": "35853228",
+                    "rm:user_id": "1000010008",
+                    "display": "disclosed",
+                    "major_achievement": true,
+                    "rm:creator_id": "1000010008",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2021-11-18T15:10:55Z",
+                    "rm:modifier_id": "1000010008",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2021-11-20T13:38:54Z",
+                    "presentation_title": {
+                        "ja": "Eurema属(シロチョウ科)におけるWolbachia 感染による複雑なmtDNAの遺伝子浸透"
+                    },
+                    "presenters": {
+                        "ja": [
+                            {
+                                "name": "宮田 真衣"
+                            },
+                            {
+                                "name": "野村 昌史"
+                            },
+                            {
+                                "name": "陰山 大輔"
+                            }
+                        ]
+                    },
+                    "event": {
+                        "ja": "第65回日本応用動物昆虫学会"
+                    },
+                    "publication_date": "2021-03-24",
+                    "from_event_date": "2021-03-23",
+                    "to_event_date": "2021-03-26",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "presentation_type": "poster_presentation",
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/nomBD/presentations/35868272",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/nomBD/presentations",
+                    "rm:id": "35868272",
+                    "rm:user_id": "1000010008",
+                    "display": "disclosed",
+                    "major_achievement": true,
+                    "rm:creator_id": "1000010008",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2021-11-20T13:20:17Z",
+                    "rm:modifier_id": "1000010008",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2021-11-21T04:34:50Z",
+                    "presentation_title": {
+                        "ja": "ミツモンキンウワバにおける飛翔と卵形成のトレードオフの関係"
+                    },
+                    "presenters": {
+                        "ja": [
+                            {
+                                "name": "志賀 愛美"
+                            },
+                            {
+                                "name": "野村 昌史"
+                            }
+                        ]
+                    },
+                    "event": {
+                        "ja": "第64回日本応用動物昆虫学会大会"
+                    },
+                    "publication_date": "2020-03-16",
+                    "from_event_date": "2020-03-15",
+                    "to_event_date": "2020-03-17",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "presentation_type": "poster_presentation",
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/nomBD/presentations/35868233",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/nomBD/presentations",
+                    "rm:id": "35868233",
+                    "rm:user_id": "1000010008",
+                    "display": "disclosed",
+                    "major_achievement": true,
+                    "rm:creator_id": "1000010008",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2021-11-20T12:47:49Z",
+                    "rm:modifier_id": "1000010008",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2021-11-21T04:34:56Z",
+                    "presentation_title": {
+                        "ja": "性比異常を起こす共生細菌ボルバキアが宿主集団に与える影響:種子島におけるキタキチョウの事例"
+                    },
+                    "presenters": {
+                        "ja": [
+                            {
+                                "name": "陰山 大輔"
+                            },
+                            {
+                                "name": "成田 聡子"
+                            },
+                            {
+                                "name": "宮田 真衣"
+                            },
+                            {
+                                "name": "小長谷 達郎"
+                            },
+                            {
+                                "name": "安部 淳"
+                            },
+                            {
+                                "name": "野村 昌史"
+                            }
+                        ]
+                    },
+                    "event": {
+                        "ja": "第64回日本応用動物昆虫学会大会"
+                    },
+                    "publication_date": "2020-03-16",
+                    "from_event_date": "2020-03-15",
+                    "to_event_date": "2020-03-17",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "presentation_type": "oral_presentation",
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/nomBD/presentations/35868225",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/nomBD/presentations",
+                    "rm:id": "35868225",
+                    "rm:user_id": "1000010008",
+                    "display": "disclosed",
+                    "major_achievement": true,
+                    "rm:creator_id": "1000010008",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2021-11-20T12:45:50Z",
+                    "rm:modifier_id": "1000010008",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2021-11-21T04:34:59Z",
+                    "presentation_title": {
+                        "ja": "石垣島におけるミナミキチョウの性比と共生細菌Wolbachia との関係"
+                    },
+                    "presenters": {
+                        "ja": [
+                            {
+                                "name": "宮田 真衣"
+                            },
+                            {
+                                "name": "野村 昌史"
+                            },
+                            {
+                                "name": "陰山 大輔"
+                            }
+                        ]
+                    },
+                    "event": {
+                        "ja": "第64回日本応用動物昆虫学会大会"
+                    },
+                    "publication_date": "2020-03-16",
+                    "from_event_date": "2020-03-15",
+                    "to_event_date": "2020",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "presentation_type": "oral_presentation",
+                    "rm:is_open_access": false
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/nomBD/teaching_experience",
+            "@type": "teaching_experience",
+            "@reverse": "https://api.researchmap.jp/nomBD",
+            "total_items": 4,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/nomBD/teaching_experience/35852689",
+                    "@type": "teaching_experience",
+                    "@reverse": "https://api.researchmap.jp/nomBD/teaching_experience",
+                    "rm:id": "35852689",
+                    "rm:user_id": "1000010008",
+                    "display": "disclosed",
+                    "major_achievement": true,
+                    "rm:creator_id": "1000010008",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2021-11-18T11:26:51Z",
+                    "rm:modifier_id": "1000010008",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2021-11-18T11:26:57Z",
+                    "subject_name": {
+                        "ja": "害虫防除論",
+                        "en": "Applied Entomology"
+                    },
+                    "rm:institution_code": "0168000000",
+                    "institution_name": {
+                        "ja": "千葉大学",
+                        "en": "Chiba University"
+                    },
+                    "from_date": "2011-10",
+                    "to_date": "9999"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/nomBD/teaching_experience/35852684",
+                    "@type": "teaching_experience",
+                    "@reverse": "https://api.researchmap.jp/nomBD/teaching_experience",
+                    "rm:id": "35852684",
+                    "rm:user_id": "1000010008",
+                    "display": "disclosed",
+                    "major_achievement": true,
+                    "rm:creator_id": "1000010008",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2021-11-18T11:25:57Z",
+                    "rm:modifier_id": "1000010008",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2021-11-18T11:26:02Z",
+                    "subject_name": {
+                        "ja": "昆虫学",
+                        "en": "Entomology"
+                    },
+                    "rm:institution_code": "0168000000",
+                    "institution_name": {
+                        "ja": "千葉大学",
+                        "en": "Chiba University"
+                    },
+                    "from_date": "2011-04",
+                    "to_date": "9999"
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/nomBD/association_memberships",
+            "@type": "association_memberships",
+            "@reverse": "https://api.researchmap.jp/nomBD",
+            "total_items": 4,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/nomBD/association_memberships/30463593",
+                    "@type": "association_memberships",
+                    "@reverse": "https://api.researchmap.jp/nomBD/association_memberships",
+                    "rm:id": "30463593",
+                    "rm:user_id": "1000010008",
+                    "display": "disclosed",
+                    "major_achievement": true,
+                    "rm:creator_id": "1000010008",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2020-10-15T13:03:41Z",
+                    "rm:modifier_id": "1000010008",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2021-11-20T01:43:54Z",
+                    "academic_society_name": {
+                        "ja": "農林害虫防除研究会",
+                        "en": "Agricultural and Forest Insect Pest Management Society of Japan"
+                    },
+                    "from_date": "2000-04",
+                    "to_date": "9999"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/nomBD/association_memberships/742197",
+                    "@type": "association_memberships",
+                    "@reverse": "https://api.researchmap.jp/nomBD/association_memberships",
+                    "rm:id": "742197",
+                    "rm:user_id": "1000010008",
+                    "display": "disclosed",
+                    "major_achievement": true,
+                    "rm:creator_id": "1000010008",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2010-05-17T15:00:00Z",
+                    "rm:modifier_id": "1000010008",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2020-10-15T13:07:57Z",
+                    "academic_society_name": {
+                        "ja": "日本応用動物昆虫学会"
+                    },
+                    "from_date": "1985-02",
+                    "to_date": "9999"
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/nomBD/research_projects",
+            "@type": "research_projects",
+            "@reverse": "https://api.researchmap.jp/nomBD",
+            "total_items": 18,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/nomBD/research_projects/35852993",
+                    "@type": "research_projects",
+                    "@reverse": "https://api.researchmap.jp/nomBD/research_projects",
+                    "rm:id": "35852993",
+                    "rm:user_id": "1000010008",
+                    "display": "disclosed",
+                    "major_achievement": true,
+                    "rm:creator_id": "1000010008",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2021-11-18T14:24:10Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2024-02-01T15:14:23Z",
+                    "research_project_title": {
+                        "ja": "アジア型マイマイガの飛翔行動および産卵行動を抑制する夜間照明技術の開発",
+                        "en": "Development of nocturnal lighting technology to suppress flight and oviposition behavior of Asian Gypsy moth, Lymantria dispar"
+                    },
+                    "investigators": {
+                        "en": [
+                            {
+                                "name": "Nomura Masashi"
+                            }
+                        ],
+                        "ja": [
+                            {
+                                "name": "野村 昌史"
+                            }
+                        ]
+                    },
+                    "offer_organization": {
+                        "ja": "日本学術振興会",
+                        "en": "Japan Society for the Promotion of Science"
+                    },
+                    "system_name": {
+                        "ja": "科学研究費助成事業 基盤研究(C)",
+                        "en": "Grants-in-Aid for Scientific Research Grant-in-Aid for Scientific Research (C)"
+                    },
+                    "category": {
+                        "ja": "基盤研究(C)",
+                        "en": "Grant-in-Aid for Scientific Research (C)"
+                    },
+                    "institution_name": {
+                        "ja": "千葉大学",
+                        "en": "Chiba University"
+                    },
+                    "from_date": "2014-04",
+                    "to_date": "2017-03",
+                    "research_project_owner_role": "principal_investigator",
+                    "overall_grant_amount": {
+                        "total_cost": "5070000",
+                        "direct_cost": "3900000",
+                        "indirect_cost": "1170000"
+                    },
+                    "description": {
+                        "ja": "現在，船舶による北米等生息域外への侵入が警戒されているマイマイガについて、成虫の活動および産卵抑制に効果的な照明技術の開発を目的として，室内実験を行った．暗期に２色でそれぞれ２つの照度で照明したところ、黄色200mW/m2、淡黄色10mW/m2、淡黄色200mW/m2照射では活動が有意に抑制された。\nまた、無処理と比べて黄色200mW/m2では有意に産卵する個体数が減少したが，他の照明区では有意差は検出されなかった．以上により雌成虫の行動抑制に最も適しているのは黄色LEDの200mW/m2と考えられ，活動には放射照度が関係することが示された．",
+                        "en": "Currently, Asian gypsy moths (Lymantria dispar) are wary of invasion outside the habitat area such as North America by ships. Laboratory experiments were conducted with the objective of developing effective illumination techniques for adult activity. When illuminated with LED in the dark period, the activity was significantly suppressed with yellow 200 mW / m 2, light yellow 10 mW / m 2, light yellow 200 mW / m 2 irradiation. Compared to untreated, the number of individuals that spawned significantly at yellow 200 mW / m 2, but no significant difference was detected in other illumination zones. The most suitable for suppression of behavior of female adults is considered to be 200 mW / m 2 of yellow LED, indicating that irradiance is related to activity."
+                    },
+                    "identifiers": {
+                        "grant_number": [
+                            "26450063"
+                        ],
+                        "national_grant_number": [
+                            "JP26450063"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "@id": "https://kaken.nii.ac.jp/file/KAKENHI-PROJECT-26450063/26450063seika.pdf",
+                            "label": "url"
+                        },
+                        {
+                            "label": "kaken",
+                            "@id": "https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-26450063"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/nomBD/industrial_property_rights",
+            "@type": "industrial_property_rights",
+            "@reverse": "https://api.researchmap.jp/nomBD",
+            "total_items": 1,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/nomBD/industrial_property_rights/35852990",
+                    "@type": "industrial_property_rights",
+                    "@reverse": "https://api.researchmap.jp/nomBD/industrial_property_rights",
+                    "rm:id": "35852990",
+                    "rm:user_id": "1000010008",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000010008",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2021-11-18T14:17:55Z",
+                    "rm:modifier_id": "1000010008",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2021-11-18T14:17:55Z",
+                    "industrial_property_right_type": "patent_right",
+                    "industrial_property_right_title": {
+                        "ja": "植物の照明栽培方法、防虫用照明装置、および防虫用照明システム"
+                    },
+                    "inventors": {
+                        "ja": [
+                            {
+                                "name": "吉村文敏"
+                            },
+                            {
+                                "name": "細野幸治"
+                            },
+                            {
+                                "name": "渡辺昌規"
+                            },
+                            {
+                                "name": "石倉聡"
+                            },
+                            {
+                                "name": "山下真一"
+                            },
+                            {
+                                "name": "平間淳司"
+                            },
+                            {
+                                "name": "野村昌史"
+                            },
+                            {
+                                "name": "尹 丁梵"
+                            },
+                            {
+                                "name": "東浦 優"
+                            },
+                            {
+                                "name": "二井清友"
+                            },
+                            {
+                                "name": "岩井豊通"
+                            },
+                            {
+                                "name": "山中正仁"
+                            }
+                        ]
+                    },
+                    "patent_number": "特許第5930516号",
+                    "registration_date": "2016"
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/nomBD/academic_contribution",
+            "@type": "academic_contribution",
+            "@reverse": "https://api.researchmap.jp/nomBD",
+            "total_items": 2,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/nomBD/academic_contribution/35853045",
+                    "@type": "academic_contribution",
+                    "@reverse": "https://api.researchmap.jp/nomBD/academic_contribution",
+                    "rm:id": "35853045",
+                    "rm:user_id": "1000010008",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000010008",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2021-11-18T15:00:07Z",
+                    "rm:modifier_id": "1000010008",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2021-11-18T15:00:07Z",
+                    "academic_contribution_title": {
+                        "ja": "論文査読"
+                    },
+                    "academic_contribution_type": "academic_society_etc",
+                    "academic_contribution_roles": [
+                        "peer_review"
+                    ],
+                    "promoter": {
+                        "ja": "日本応用動物昆虫学会"
+                    },
+                    "from_event_date": "1990",
+                    "to_event_date": "9999"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/nomBD/academic_contribution/35853044",
+                    "@type": "academic_contribution",
+                    "@reverse": "https://api.researchmap.jp/nomBD/academic_contribution",
+                    "rm:id": "35853044",
+                    "rm:user_id": "1000010008",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000010008",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2021-11-18T14:58:55Z",
+                    "rm:modifier_id": "1000010008",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2021-11-18T14:58:55Z",
+                    "academic_contribution_title": {
+                        "ja": "第54回日本応用動物昆虫学会大会 事務局長"
+                    },
+                    "academic_contribution_type": "competition_etc",
+                    "academic_contribution_roles": [
+                        "planning_etc"
+                    ],
+                    "promoter": {
+                        "ja": "日本応用動物昆虫学会"
+                    },
+                    "from_event_date": "2012-03-26",
+                    "to_event_date": "2012-03-28"
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/nomBD/social_contribution",
+            "@type": "social_contribution",
+            "@reverse": "https://api.researchmap.jp/nomBD",
+            "total_items": 3,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/nomBD/social_contribution/35853035",
+                    "@type": "social_contribution",
+                    "@reverse": "https://api.researchmap.jp/nomBD/social_contribution",
+                    "rm:id": "35853035",
+                    "rm:user_id": "1000010008",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000010008",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2021-11-18T14:49:19Z",
+                    "rm:modifier_id": "1000010008",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2021-11-18T14:49:19Z",
+                    "social_contribution_title": {
+                        "ja": "「昆虫と自然」編集委員"
+                    },
+                    "social_contribution_roles": [
+                        "editor"
+                    ],
+                    "promoter": {
+                        "ja": "ニューサイエンス社"
+                    },
+                    "event": {
+                        "ja": "昆虫と自然"
+                    },
+                    "from_event_date": "2021-04",
+                    "to_event_date": "9999",
+                    "social_contribution_type": "paper"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/nomBD/social_contribution/35853033",
+                    "@type": "social_contribution",
+                    "@reverse": "https://api.researchmap.jp/nomBD/social_contribution",
+                    "rm:id": "35853033",
+                    "rm:user_id": "1000010008",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000010008",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2021-11-18T14:48:09Z",
+                    "rm:modifier_id": "1000010008",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2021-11-18T14:49:39Z",
+                    "social_contribution_title": {
+                        "ja": "「植物防疫」編集委員"
+                    },
+                    "social_contribution_roles": [
+                        "editor"
+                    ],
+                    "promoter": {
+                        "ja": "日本植物防疫協会"
+                    },
+                    "event": {
+                        "ja": "植物防疫"
+                    },
+                    "from_event_date": "2017-04",
+                    "to_event_date": "9999",
+                    "social_contribution_type": "paper"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/nomBD/social_contribution/35853039",
+                    "@type": "social_contribution",
+                    "@reverse": "https://api.researchmap.jp/nomBD/social_contribution",
+                    "rm:id": "35853039",
+                    "rm:user_id": "1000010008",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000010008",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2021-11-18T14:51:37Z",
+                    "rm:modifier_id": "1000010008",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2021-11-18T14:51:37Z",
+                    "social_contribution_title": {
+                        "ja": "昆虫の解説"
+                    },
+                    "social_contribution_roles": [
+                        "appearance"
+                    ],
+                    "promoter": {
+                        "ja": "NHK"
+                    },
+                    "event": {
+                        "ja": "チコちゃんに叱られる"
+                    },
+                    "from_event_date": "2020-09-05",
+                    "to_event_date": "2020-09-05",
+                    "social_contribution_type": "media_report"
+                }
+            ]
+        }
+    ]
+}

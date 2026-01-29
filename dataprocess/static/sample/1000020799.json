@@ -1,0 +1,2731 @@
+{
+    "@context": "https://api.researchmap.jp/researcher.jsonld",
+    "@id": "https://api.researchmap.jp/read0010180?format=json",
+    "@type": "researchers",
+    "rm:user_id": "1000020799",
+    "rm:creator_id": "1000020799",
+    "rm:creator_type": "myself",
+    "rm:created": "2011-06-05T15:00:00Z",
+    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+    "rm:modifier_type": "institution",
+    "rm:modified": "2022-09-07T12:36:26Z",
+    "permalink": "read0010180",
+    "family_name": {
+        "ja": "松下",
+        "ja-Kana": "マツシタ",
+        "en": "Matsushita"
+    },
+    "given_name": {
+        "ja": "聡",
+        "ja-Kana": "サトシ",
+        "en": "Satoshi"
+    },
+    "display_name_kana": "disclosed",
+    "display_nickname": "disclosed",
+    "display_image": "disclosed",
+    "display_contact_point": "disclosed",
+    "affiliations": [
+        {
+            "affiliation": {
+                "ja": "福井大学",
+                "en": "University of Fukui"
+            },
+            "section": {
+                "ja": "工学研究科 都市建築設計",
+                "en": "Graduate School of Engineering"
+            },
+            "job": {
+                "ja": "教授",
+                "en": "Professor"
+            },
+            "display_affiliation": "disclosed",
+            "display_job": "disclosed",
+            "rm:institution_code": "0508000000"
+        }
+    ],
+    "degrees": [
+        {
+            "degree": {
+                "ja": "工学博士",
+                "en": "Doctor of Engineering"
+            },
+            "degree_institution": {
+                "ja": "京都大学",
+                "en": "Kyoto University"
+            },
+            "display_degree": "disclosed",
+            "rm:institution_code": "0280000000"
+        }
+    ],
+    "display_profile": "disclosed",
+    "see_also": [
+        {
+            "label": "j_global",
+            "@id": "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=200901076306681103"
+        },
+        {
+            "label": "url",
+            "@id": "http://www.anc-d.u-fukui.ac.jp/~sat"
+        }
+    ],
+    "display_url": "disclosed",
+    "identifiers": {
+        "j_global_id": [
+            "200901076306681103"
+        ]
+    },
+    "rm:erad_id_verified": false,
+    "rm:orc_id_verified": false,
+    "display_erad_id": "closed",
+    "display_orc_id": "closed",
+    "display_researcher_id": "disclosed",
+    "display_j_global_id": "disclosed",
+    "@graph": [
+        {
+            "@id": "https://api.researchmap.jp/read0010180/research_interests",
+            "@type": "research_interests",
+            "@reverse": "https://api.researchmap.jp/read0010180",
+            "total_items": 2,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0010180/research_interests/7633436",
+                    "@type": "research_interests",
+                    "@reverse": "https://api.researchmap.jp/read0010180/research_interests",
+                    "rm:id": "7633436",
+                    "rm:user_id": "1000020799",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2015-03-11T17:49:01Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2015-03-11T17:49:01Z",
+                    "keyword": {
+                        "ja": "建築計画"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010180/research_interests/7633435",
+                    "@type": "research_interests",
+                    "@reverse": "https://api.researchmap.jp/read0010180/research_interests",
+                    "rm:id": "7633435",
+                    "rm:user_id": "1000020799",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2015-03-11T17:49:00Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2015-03-11T17:49:00Z",
+                    "keyword": {
+                        "en": "Architectural Programming"
+                    }
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0010180/research_areas",
+            "@type": "research_areas",
+            "@reverse": "https://api.researchmap.jp/read0010180",
+            "total_items": 1,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0010180/research_areas/6149251",
+                    "@type": "research_areas",
+                    "@reverse": "https://api.researchmap.jp/read0010180/research_areas",
+                    "rm:id": "6149251",
+                    "rm:user_id": "1000020799",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2015-03-11T17:49:00Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2015-03-11T17:49:01Z",
+                    "discipline_number": "A789",
+                    "item_number": "A23030",
+                    "discipline": {
+                        "ja": "社会基盤（土木・建築・防災）",
+                        "en": "Social infrastructure  (civil Engineering, architecture, disaster prevention)"
+                    },
+                    "research_field": {
+                        "ja": "建築計画、都市計画",
+                        "en": "Architectural and city planning"
+                    }
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0010180/research_experience",
+            "@type": "research_experience",
+            "@reverse": "https://api.researchmap.jp/read0010180",
+            "total_items": 9,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0010180/research_experience/15409481",
+                    "@type": "research_experience",
+                    "@reverse": "https://api.researchmap.jp/read0010180/research_experience",
+                    "rm:id": "15409481",
+                    "rm:user_id": "1000020799",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2015-03-11T17:49:00Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2015-03-11T17:49:00Z",
+                    "from_date": "1992",
+                    "to_date": "2003",
+                    "rm:institution_code": "0508003004",
+                    "affiliation": {
+                        "ja": "福井大学工学部建築建設工学科 助教授～教授",
+                        "en": "University of Fukui"
+                    },
+                    "section": {
+                        "en": "Faculty of Engineering, Architecture and Civil Engineering"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010180/research_experience/15409476",
+                    "@type": "research_experience",
+                    "@reverse": "https://api.researchmap.jp/read0010180/research_experience",
+                    "rm:id": "15409476",
+                    "rm:user_id": "1000020799",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2015-03-11T17:49:00Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2015-03-11T17:49:00Z",
+                    "from_date": "1992",
+                    "to_date": "2003",
+                    "rm:institution_code": "9999999999",
+                    "affiliation": {
+                        "en": "Associate Professor, Professor, Dept- of Arch."
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010180/research_experience/15409482",
+                    "@type": "research_experience",
+                    "@reverse": "https://api.researchmap.jp/read0010180/research_experience",
+                    "rm:id": "15409482",
+                    "rm:user_id": "1000020799",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2015-03-11T17:49:00Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2015-03-11T17:49:00Z",
+                    "from_date": "2000",
+                    "rm:institution_code": "9999999999",
+                    "affiliation": {
+                        "ja": "Research Associate, Department of Design&Environmental Analysis,"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010180/research_experience/15409478",
+                    "@type": "research_experience",
+                    "@reverse": "https://api.researchmap.jp/read0010180/research_experience",
+                    "rm:id": "15409478",
+                    "rm:user_id": "1000020799",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2015-03-11T17:49:00Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2015-03-11T17:49:00Z",
+                    "from_date": "2000",
+                    "rm:institution_code": "9999999999",
+                    "affiliation": {
+                        "en": "Research Associate, Dept. of Design&Environmental Analysis,"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010180/research_experience/15409480",
+                    "@type": "research_experience",
+                    "@reverse": "https://api.researchmap.jp/read0010180/research_experience",
+                    "rm:id": "15409480",
+                    "rm:user_id": "1000020799",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2015-03-11T17:49:00Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2015-03-11T17:49:00Z",
+                    "from_date": "1985",
+                    "to_date": "1992",
+                    "rm:institution_code": "2387000000",
+                    "affiliation": {
+                        "ja": "金沢工業大学講師",
+                        "en": "Kanazawa Institute of Technology"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010180/research_experience/15409475",
+                    "@type": "research_experience",
+                    "@reverse": "https://api.researchmap.jp/read0010180/research_experience",
+                    "rm:id": "15409475",
+                    "rm:user_id": "1000020799",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2015-03-11T17:49:00Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2015-03-11T17:49:00Z",
+                    "from_date": "1985",
+                    "to_date": "1992",
+                    "rm:institution_code": "9999999999",
+                    "affiliation": {
+                        "en": "Lecturer, Kanazawa Institute of Technology"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010180/research_experience/15409483",
+                    "@type": "research_experience",
+                    "@reverse": "https://api.researchmap.jp/read0010180/research_experience",
+                    "rm:id": "15409483",
+                    "rm:user_id": "1000020799",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2015-03-11T17:49:00Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2015-03-11T17:49:00Z",
+                    "rm:institution_code": "9999999999",
+                    "affiliation": {
+                        "ja": "College of Human Ecology, Cornell Univ-"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010180/research_experience/15409479",
+                    "@type": "research_experience",
+                    "@reverse": "https://api.researchmap.jp/read0010180/research_experience",
+                    "rm:id": "15409479",
+                    "rm:user_id": "1000020799",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2015-03-11T17:49:00Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2015-03-11T17:49:00Z",
+                    "rm:institution_code": "9999999999",
+                    "affiliation": {
+                        "en": "College of Human Ecology, Cornell University"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010180/research_experience/15409477",
+                    "@type": "research_experience",
+                    "@reverse": "https://api.researchmap.jp/read0010180/research_experience",
+                    "rm:id": "15409477",
+                    "rm:user_id": "1000020799",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2015-03-11T17:49:00Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2015-03-11T17:49:00Z",
+                    "rm:institution_code": "9999999999",
+                    "affiliation": {
+                        "en": "&Civil Eng- Faculty of Eng- Fukui Univ-"
+                    }
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0010180/education",
+            "@type": "education",
+            "@reverse": "https://api.researchmap.jp/read0010180",
+            "total_items": 4,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0010180/education/13830168",
+                    "@type": "education",
+                    "@reverse": "https://api.researchmap.jp/read0010180/education",
+                    "rm:id": "13830168",
+                    "rm:user_id": "1000020799",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2015-03-11T17:49:01Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2015-03-11T17:49:01Z",
+                    "to_date": "1978",
+                    "rm:institution_code": "0280000000",
+                    "affiliation": {
+                        "ja": "京都大学",
+                        "en": "Kyoto University"
+                    },
+                    "department": {
+                        "ja": "工学研究科"
+                    },
+                    "course": {
+                        "ja": "建築学"
+                    },
+                    "address_country": "JPN"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010180/education/13830166",
+                    "@type": "education",
+                    "@reverse": "https://api.researchmap.jp/read0010180/education",
+                    "rm:id": "13830166",
+                    "rm:user_id": "1000020799",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2015-03-11T17:49:00Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2015-03-11T17:49:00Z",
+                    "to_date": "1978",
+                    "rm:institution_code": "0280000000",
+                    "affiliation": {
+                        "ja": "京都大学",
+                        "en": "Kyoto University"
+                    },
+                    "department": {
+                        "en": "Graduate School, Division of Engineering"
+                    },
+                    "course": {
+                        "en": "Architecture"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010180/education/13830169",
+                    "@type": "education",
+                    "@reverse": "https://api.researchmap.jp/read0010180/education",
+                    "rm:id": "13830169",
+                    "rm:user_id": "1000020799",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2015-03-11T17:49:01Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2015-03-11T17:49:01Z",
+                    "to_date": "1976",
+                    "rm:institution_code": "0280505002",
+                    "affiliation": {
+                        "ja": "京都大学",
+                        "en": "Kyoto University"
+                    },
+                    "department": {
+                        "ja": "工学部",
+                        "en": "Faculty of Engineering"
+                    },
+                    "course": {
+                        "ja": "建築学科",
+                        "en": "School of Architecture"
+                    },
+                    "address_country": "JPN"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010180/education/13830167",
+                    "@type": "education",
+                    "@reverse": "https://api.researchmap.jp/read0010180/education",
+                    "rm:id": "13830167",
+                    "rm:user_id": "1000020799",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2015-03-11T17:49:00Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2015-03-11T17:49:00Z",
+                    "to_date": "1976",
+                    "rm:institution_code": "0280000000",
+                    "affiliation": {
+                        "ja": "京都大学",
+                        "en": "Kyoto University"
+                    },
+                    "department": {
+                        "en": "Faculty of Engineering"
+                    },
+                    "course": {
+                        "en": "Department of Architecture"
+                    }
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0010180/committee_memberships",
+            "@type": "committee_memberships",
+            "@reverse": "https://api.researchmap.jp/read0010180",
+            "total_items": 9,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0010180/committee_memberships/3546747",
+                    "@type": "committee_memberships",
+                    "@reverse": "https://api.researchmap.jp/read0010180/committee_memberships",
+                    "rm:id": "3546747",
+                    "rm:user_id": "1000020799",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2015-03-11T17:49:01Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2015-03-11T17:49:01Z",
+                    "from_date": "2006",
+                    "to_date": "2008",
+                    "committee_name": {
+                        "ja": "一般会員"
+                    },
+                    "association": {
+                        "ja": "日本建築学会"
+                    },
+                    "description": {
+                        "ja": "日本建築学会"
+                    },
+                    "committee_type": "society"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010180/committee_memberships/3546743",
+                    "@type": "committee_memberships",
+                    "@reverse": "https://api.researchmap.jp/read0010180/committee_memberships",
+                    "rm:id": "3546743",
+                    "rm:user_id": "1000020799",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2015-03-11T17:49:01Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2015-03-11T17:49:01Z",
+                    "from_date": "2006",
+                    "to_date": "2007",
+                    "committee_name": {
+                        "ja": "一般会員"
+                    },
+                    "association": {
+                        "ja": "日本建築学会"
+                    },
+                    "description": {
+                        "ja": "日本建築学会"
+                    },
+                    "committee_type": "society"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010180/committee_memberships/3546748",
+                    "@type": "committee_memberships",
+                    "@reverse": "https://api.researchmap.jp/read0010180/committee_memberships",
+                    "rm:id": "3546748",
+                    "rm:user_id": "1000020799",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2015-03-11T17:49:01Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2015-03-11T17:49:01Z",
+                    "from_date": "2005",
+                    "to_date": "2007",
+                    "committee_name": {
+                        "ja": "一般会員"
+                    },
+                    "association": {
+                        "ja": "照明学会"
+                    },
+                    "description": {
+                        "ja": "照明学会"
+                    },
+                    "committee_type": "society"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010180/committee_memberships/3546746",
+                    "@type": "committee_memberships",
+                    "@reverse": "https://api.researchmap.jp/read0010180/committee_memberships",
+                    "rm:id": "3546746",
+                    "rm:user_id": "1000020799",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2015-03-11T17:49:01Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2015-03-11T17:49:01Z",
+                    "from_date": "2004",
+                    "to_date": "2006",
+                    "committee_name": {
+                        "ja": "作品選奨委員会"
+                    },
+                    "association": {
+                        "ja": "日本建築学会"
+                    },
+                    "description": {
+                        "ja": "日本建築学会"
+                    },
+                    "committee_type": "society"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010180/committee_memberships/3546745",
+                    "@type": "committee_memberships",
+                    "@reverse": "https://api.researchmap.jp/read0010180/committee_memberships",
+                    "rm:id": "3546745",
+                    "rm:user_id": "1000020799",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2015-03-11T17:49:01Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2015-03-11T17:49:01Z",
+                    "from_date": "2004",
+                    "to_date": "2006",
+                    "committee_name": {
+                        "ja": "作品選集委員会"
+                    },
+                    "association": {
+                        "ja": "日本建築学会"
+                    },
+                    "description": {
+                        "ja": "日本建築学会"
+                    },
+                    "committee_type": "society"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010180/committee_memberships/3546744",
+                    "@type": "committee_memberships",
+                    "@reverse": "https://api.researchmap.jp/read0010180/committee_memberships",
+                    "rm:id": "3546744",
+                    "rm:user_id": "1000020799",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2015-03-11T17:49:01Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2015-03-11T17:49:01Z",
+                    "from_date": "2004",
+                    "to_date": "2006",
+                    "committee_name": {
+                        "ja": "北陸支部建築活動審査部会長"
+                    },
+                    "association": {
+                        "ja": "日本建築学会"
+                    },
+                    "description": {
+                        "ja": "日本建築学会"
+                    },
+                    "committee_type": "society"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010180/committee_memberships/3546742",
+                    "@type": "committee_memberships",
+                    "@reverse": "https://api.researchmap.jp/read0010180/committee_memberships",
+                    "rm:id": "3546742",
+                    "rm:user_id": "1000020799",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2015-03-11T17:49:01Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2015-03-11T17:49:01Z",
+                    "from_date": "2001",
+                    "to_date": "2002",
+                    "committee_name": {
+                        "ja": "北陸支部建築活動審査部会委員"
+                    },
+                    "association": {
+                        "ja": "日本建築学会"
+                    },
+                    "description": {
+                        "ja": "日本建築学会"
+                    },
+                    "committee_type": "society"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010180/committee_memberships/3546749",
+                    "@type": "committee_memberships",
+                    "@reverse": "https://api.researchmap.jp/read0010180/committee_memberships",
+                    "rm:id": "3546749",
+                    "rm:user_id": "1000020799",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2015-03-11T17:49:01Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2015-03-11T17:49:01Z",
+                    "from_date": "2001",
+                    "committee_name": {
+                        "ja": "一般会員"
+                    },
+                    "association": {
+                        "ja": "International Facility Management Association"
+                    },
+                    "description": {
+                        "ja": "International Facility Management Association"
+                    },
+                    "committee_type": "society"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010180/committee_memberships/3546741",
+                    "@type": "committee_memberships",
+                    "@reverse": "https://api.researchmap.jp/read0010180/committee_memberships",
+                    "rm:id": "3546741",
+                    "rm:user_id": "1000020799",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2015-03-11T17:49:00Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2015-03-11T17:49:00Z",
+                    "from_date": "2001",
+                    "committee_name": {
+                        "en": "member"
+                    },
+                    "association": {
+                        "en": "International Facility Management Association"
+                    },
+                    "description": {
+                        "en": "International Facility Management Association"
+                    },
+                    "committee_type": "society"
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0010180/misc",
+            "@type": "misc",
+            "@reverse": "https://api.researchmap.jp/read0010180",
+            "total_items": 32,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0010180/misc/17876765",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0010180/misc",
+                    "rm:id": "17876765",
+                    "rm:user_id": "1000020799",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2015-03-11T17:49:00Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2015-03-11T17:49:00Z",
+                    "paper_title": {
+                        "ja": "地理情報システムを用いる大学周辺地域のスケッチマップの解読 ―大学周辺地域についての認知構造の解読（その１）―"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "木曽 久美子"
+                            },
+                            {
+                                "name": "松下 聡"
+                            }
+                        ]
+                    },
+                    "publication_date": "2014",
+                    "publication_name": {
+                        "ja": "日本建築学会大会学術講演梗概集"
+                    },
+                    "starting_page": "617",
+                    "ending_page": "618",
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010180/misc/17876764",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0010180/misc",
+                    "rm:id": "17876764",
+                    "rm:user_id": "1000020799",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2015-03-11T17:49:00Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2015-03-11T17:49:00Z",
+                    "paper_title": {
+                        "ja": "福井市S中学校及びA中学校における生徒の移動経路と空間構成の関係 － 福井県内の中学校の使い方の比較研究 その1 －"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "松下 聡"
+                            },
+                            {
+                                "name": "黒田 嘉人"
+                            }
+                        ]
+                    },
+                    "publication_date": "2014",
+                    "publication_name": {
+                        "ja": "日本建築学会大会学術講演梗概集"
+                    },
+                    "starting_page": "809",
+                    "ending_page": "810",
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010180/misc/17876763",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0010180/misc",
+                    "rm:id": "17876763",
+                    "rm:user_id": "1000020799",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2015-03-11T17:49:00Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2015-03-11T17:49:00Z",
+                    "paper_title": {
+                        "ja": "福井県内 3 中学校における生徒の居場所と空間構成の関係 ―福井県内の中学校の使い方の比較研究 その 2―"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "松下 聡"
+                            },
+                            {
+                                "name": "寶珍 宏元"
+                            }
+                        ]
+                    },
+                    "publication_date": "2014",
+                    "publication_name": {
+                        "ja": "日本建築学会大会学術講演梗概集"
+                    },
+                    "starting_page": "811",
+                    "ending_page": "812",
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010180/misc/17876762",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0010180/misc",
+                    "rm:id": "17876762",
+                    "rm:user_id": "1000020799",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2015-03-11T17:49:00Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2015-03-11T17:49:00Z",
+                    "paper_title": {
+                        "ja": "福井県の中学校におけるコミュニケーションと空間構成の関係に関する研究 － 福井県内の中学校の使い方の比較研究 その３ －"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "松下 聡"
+                            },
+                            {
+                                "name": "李 光赫"
+                            }
+                        ]
+                    },
+                    "publication_date": "2014",
+                    "publication_name": {
+                        "ja": "日本建築学会大会学術講演梗概集"
+                    },
+                    "starting_page": "813",
+                    "ending_page": "814",
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010180/misc/17876766",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0010180/misc",
+                    "rm:id": "17876766",
+                    "rm:user_id": "1000020799",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2015-03-11T17:49:00Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2015-03-11T17:49:00Z",
+                    "paper_title": {
+                        "ja": "福井市A中学校におけるオープンスペースの利用に関する研究"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "松下 聡"
+                            },
+                            {
+                                "name": "安藤 稔起"
+                            }
+                        ]
+                    },
+                    "publication_date": "2013",
+                    "publication_name": {
+                        "ja": "日本建築学会大会学術講演梗概集"
+                    },
+                    "starting_page": "947",
+                    "ending_page": "948",
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010180/misc/17876756",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0010180/misc",
+                    "rm:id": "17876756",
+                    "rm:user_id": "1000020799",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2015-03-11T17:49:00Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2015-03-11T17:49:00Z",
+                    "paper_title": {
+                        "en": "Study of use of open spaces in Fukui Municipal A junior high school"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "松下 聡"
+                            },
+                            {
+                                "name": "Toshiki Ando"
+                            }
+                        ]
+                    },
+                    "publication_date": "2013",
+                    "publication_name": {
+                        "en": "Proceedings of Architectural Institute of Japan"
+                    },
+                    "starting_page": "947",
+                    "ending_page": "948",
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010180/misc/17876767",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0010180/misc",
+                    "rm:id": "17876767",
+                    "rm:user_id": "1000020799",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2015-03-11T17:49:00Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2015-03-11T17:49:00Z",
+                    "paper_title": {
+                        "ja": "Behavior of students in a sew type of junior high school in Japan"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "松下 聡"
+                            }
+                        ]
+                    },
+                    "publication_date": "2012",
+                    "publication_name": {
+                        "ja": "Proceedings of the Second International Conference, Archi-Cultural Translations through The Silk Road"
+                    },
+                    "starting_page": "372",
+                    "ending_page": "377",
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010180/misc/17876757",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0010180/misc",
+                    "rm:id": "17876757",
+                    "rm:user_id": "1000020799",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2015-03-11T17:49:00Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2015-03-11T17:49:00Z",
+                    "paper_title": {
+                        "en": "Behavior of students in a sew type of junior high school in Japan"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "松下 聡"
+                            }
+                        ]
+                    },
+                    "publication_date": "2012",
+                    "publication_name": {
+                        "en": "Proceedings of the Second International Conference, Archi-Cultural Translations through The Silk Road"
+                    },
+                    "starting_page": "372",
+                    "ending_page": "377",
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010180/misc/17876769",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0010180/misc",
+                    "rm:id": "17876769",
+                    "rm:user_id": "1000020799",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2015-03-11T17:49:00Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2015-03-11T17:49:00Z",
+                    "paper_title": {
+                        "ja": "中学校の移転による生徒の居場所の変化 －福井市至民中学校の使い方に関する研究 その6－"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "松下 聡"
+                            },
+                            {
+                                "name": "大槻 勇人"
+                            },
+                            {
+                                "name": "穴田 由里香"
+                            },
+                            {
+                                "name": "河野 強志"
+                            }
+                        ]
+                    },
+                    "publication_date": "2011",
+                    "publication_name": {
+                        "ja": "日本建築学会大会学術講演梗概集"
+                    },
+                    "volume": "E-1",
+                    "starting_page": "611",
+                    "ending_page": "612",
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010180/misc/17876768",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0010180/misc",
+                    "rm:id": "17876768",
+                    "rm:user_id": "1000020799",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2015-03-11T17:49:00Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2015-03-11T17:49:00Z",
+                    "paper_title": {
+                        "ja": "福井市至民中学校の移転における生徒の行動の変化 －福井市至民中学校の使い方に関する研究 その7－"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "松下 聡"
+                            },
+                            {
+                                "name": "穴田 由里香"
+                            },
+                            {
+                                "name": "大槻 勇人"
+                            },
+                            {
+                                "name": "河野 強志"
+                            }
+                        ]
+                    },
+                    "publication_date": "2011",
+                    "publication_name": {
+                        "ja": "日本建築学会大会学術講演梗概集"
+                    },
+                    "volume": "E-1",
+                    "starting_page": "613",
+                    "ending_page": "614",
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010180/misc/17876759",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0010180/misc",
+                    "rm:id": "17876759",
+                    "rm:user_id": "1000020799",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2015-03-11T17:49:00Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2015-03-11T17:49:00Z",
+                    "paper_title": {
+                        "en": "A Study of Change of Place to tay in a Junior High School Including a Movement - A Study on The Use of Fukui-Shi Shimin Junior High School Part 6"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Satoshi Matsushita"
+                            },
+                            {
+                                "name": "Otsuski Yuto"
+                            },
+                            {
+                                "name": "Yurika Anada"
+                            },
+                            {
+                                "name": "Tsuyoshi Kawano"
+                            }
+                        ]
+                    },
+                    "publication_date": "2011",
+                    "publication_name": {
+                        "en": "Proceedings of Architectural Institute of Japan"
+                    },
+                    "volume": "E-1",
+                    "starting_page": "611",
+                    "ending_page": "612",
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010180/misc/17876758",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0010180/misc",
+                    "rm:id": "17876758",
+                    "rm:user_id": "1000020799",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2015-03-11T17:49:00Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2015-03-11T17:49:00Z",
+                    "paper_title": {
+                        "en": "A Study about a Change of Student Action in a Junior High School Icluding a Movement"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Satoshi Matsushita"
+                            },
+                            {
+                                "name": "Yurika Anada"
+                            },
+                            {
+                                "name": "Yuto Otsuki"
+                            },
+                            {
+                                "name": "Tsuyoshi Kawano"
+                            }
+                        ]
+                    },
+                    "publication_date": "2011",
+                    "publication_name": {
+                        "en": "Proceedings of architectural Institute of Japan"
+                    },
+                    "volume": "E-1",
+                    "starting_page": "613",
+                    "ending_page": "614",
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010180/misc/17876771",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0010180/misc",
+                    "rm:id": "17876771",
+                    "rm:user_id": "1000020799",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2015-03-11T17:49:00Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2015-03-11T17:49:00Z",
+                    "paper_title": {
+                        "ja": "中学校の生徒の移動経路に関する研究 －福井市至民中学校の使い方に関する研究 その4－"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "松下 聡"
+                            },
+                            {
+                                "name": "大槻勇人"
+                            },
+                            {
+                                "name": "河野 強志"
+                            },
+                            {
+                                "name": "佐々木 智彦"
+                            }
+                        ]
+                    },
+                    "publication_date": "2010",
+                    "publication_name": {
+                        "ja": "日本建築学会大会学術講演梗概集"
+                    },
+                    "volume": "E-1",
+                    "starting_page": "1071",
+                    "ending_page": "1072",
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010180/misc/17876770",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0010180/misc",
+                    "rm:id": "17876770",
+                    "rm:user_id": "1000020799",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2015-03-11T17:49:00Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2015-03-11T17:49:00Z",
+                    "paper_title": {
+                        "ja": "教科センター方式の中学校の生徒の居場所に関する調査研究 －福井市至民中学校の使い方に関する研究 その5－"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "松下 聡"
+                            },
+                            {
+                                "name": "河野 強志"
+                            },
+                            {
+                                "name": "大槻勇人"
+                            },
+                            {
+                                "name": "佐々木 智彦"
+                            }
+                        ]
+                    },
+                    "publication_date": "2010",
+                    "publication_name": {
+                        "ja": "日本建築学会大会学術講演梗概集"
+                    },
+                    "volume": "E-1",
+                    "starting_page": "1073",
+                    "ending_page": "1074",
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010180/misc/17876761",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0010180/misc",
+                    "rm:id": "17876761",
+                    "rm:user_id": "1000020799",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2015-03-11T17:49:00Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2015-03-11T17:49:00Z",
+                    "paper_title": {
+                        "en": "A Study of Walking Route of Students in a Junior High School - A Study on The Use of Fukui-Shi Shimin Junior High School Part 4 -"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "松下 聡"
+                            },
+                            {
+                                "name": "Yuto Otsuki"
+                            },
+                            {
+                                "name": "Tsuyoshi Kawano"
+                            },
+                            {
+                                "name": "Tomohiko Sasaki"
+                            }
+                        ]
+                    },
+                    "publication_date": "2010",
+                    "publication_name": {
+                        "en": "Proceedings of Architectural Institute of Japan"
+                    },
+                    "volume": "E-1",
+                    "starting_page": "1071",
+                    "ending_page": "1072",
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010180/misc/17876760",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0010180/misc",
+                    "rm:id": "17876760",
+                    "rm:user_id": "1000020799",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2015-03-11T17:49:00Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2015-03-11T17:49:00Z",
+                    "paper_title": {
+                        "en": "A Study on Places to Stay in a Junior High School with Departmentalized Classroom System -A Study on The Use of Fukui-Shi Shimin Junior High School Part 5 -"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Satoshi Matsushita"
+                            },
+                            {
+                                "name": "Tsuyoshi Kawano"
+                            },
+                            {
+                                "name": "Yuto Otsuki"
+                            },
+                            {
+                                "name": "Tomohiko Sataki"
+                            }
+                        ]
+                    },
+                    "publication_date": "2010",
+                    "publication_name": {
+                        "en": "Procedings of Architectural Institute of Japan"
+                    },
+                    "volume": "E-1",
+                    "starting_page": "1073",
+                    "ending_page": "1074",
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010180/misc/17876774",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0010180/misc",
+                    "rm:id": "17876774",
+                    "rm:user_id": "1000020799",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2015-03-11T17:49:00Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2015-03-11T17:49:00Z",
+                    "paper_title": {
+                        "ja": "中学校の生徒の居場所に関する調査 -福井市Ｓ中学校の使い方に関する研究 その1-"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "松下 聡"
+                            },
+                            {
+                                "name": "河野 強志"
+                            },
+                            {
+                                "name": "上坂卓也"
+                            },
+                            {
+                                "name": "佐々木智彦"
+                            }
+                        ]
+                    },
+                    "publication_date": "2009",
+                    "publication_name": {
+                        "ja": "日本建築学会大会学術講演梗概集"
+                    },
+                    "volume": "Vol. E-1",
+                    "starting_page": "761",
+                    "ending_page": "762",
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010180/misc/17876773",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0010180/misc",
+                    "rm:id": "17876773",
+                    "rm:user_id": "1000020799",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2015-03-11T17:49:00Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2015-03-11T17:49:00Z",
+                    "paper_title": {
+                        "ja": "中学校における生徒の移動に関する調査 － 福井市S中学校の使い方に関する研究 その2 －"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "松下 聡"
+                            },
+                            {
+                                "name": "佐々木智彦"
+                            },
+                            {
+                                "name": "河野 強志"
+                            },
+                            {
+                                "name": "上坂卓也"
+                            }
+                        ]
+                    },
+                    "publication_date": "2009",
+                    "publication_name": {
+                        "ja": "日本建築学会大会学術講演梗概集"
+                    },
+                    "volume": "Vol. E-1",
+                    "starting_page": "763",
+                    "ending_page": "764",
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010180/misc/17876772",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0010180/misc",
+                    "rm:id": "17876772",
+                    "rm:user_id": "1000020799",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2015-03-11T17:49:00Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2015-03-11T17:49:00Z",
+                    "paper_title": {
+                        "ja": "中学校の職員室の使い方に関する研究 -福井市S中学校の使い方に関する研究 その３-"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "松下 聡"
+                            },
+                            {
+                                "name": "上坂卓也"
+                            },
+                            {
+                                "name": "河野 強志"
+                            },
+                            {
+                                "name": "佐々木智彦"
+                            }
+                        ]
+                    },
+                    "publication_date": "2009",
+                    "publication_name": {
+                        "ja": "日本建築学会大会学術講演梗概集"
+                    },
+                    "volume": "Vol. E-1",
+                    "starting_page": "765",
+                    "ending_page": "766",
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010180/misc/17876775",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0010180/misc",
+                    "rm:id": "17876775",
+                    "rm:user_id": "1000020799",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2015-03-11T17:49:00Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2015-03-11T17:49:00Z",
+                    "paper_title": {
+                        "ja": "2007年度能登半島地震および新潟県中越沖地震建物被害調査研究報告書"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "小林 克巳"
+                            },
+                            {
+                                "name": "松下 聡"
+                            },
+                            {
+                                "name": "石川 浩一郎"
+                            },
+                            {
+                                "name": "高嶋 猛"
+                            },
+                            {
+                                "name": "磯 雅人"
+                            },
+                            {
+                                "name": "井上 圭一"
+                            },
+                            {
+                                "name": "福井 宇洋"
+                            }
+                        ]
+                    },
+                    "publication_date": "2008",
+                    "publication_name": {
+                        "ja": "福井大学大学院工学研究科建築建設工学専攻 実践的建築設計・構工法研究グループ"
+                    },
+                    "starting_page": "1",
+                    "ending_page": "72",
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0010180/books_etc",
+            "@type": "books_etc",
+            "@reverse": "https://api.researchmap.jp/read0010180",
+            "total_items": 2,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0010180/books_etc/10277424",
+                    "@type": "books_etc",
+                    "@reverse": "https://api.researchmap.jp/read0010180/books_etc",
+                    "rm:id": "10277424",
+                    "rm:user_id": "1000020799",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2015-03-11T17:49:01Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2015-03-11T17:49:01Z",
+                    "book_title": {
+                        "ja": "建築設計福井 82（分担執筆：学校建築の空間と使い方）"
+                    },
+                    "publisher": {
+                        "ja": "(社) 福井県建築士事務所協会"
+                    },
+                    "publication_date": "2011",
+                    "referee": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010180/books_etc/10277423",
+                    "@type": "books_etc",
+                    "@reverse": "https://api.researchmap.jp/read0010180/books_etc",
+                    "rm:id": "10277423",
+                    "rm:user_id": "1000020799",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2015-03-11T17:49:00Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2015-03-11T17:49:00Z",
+                    "book_title": {
+                        "en": "Architectural Design in Fukui 82(Part:Contributor, The Use and Space of a School Facility)"
+                    },
+                    "publisher": {
+                        "en": "The Association of Architectural Design Companies in Fukui"
+                    },
+                    "publication_date": "2011",
+                    "referee": false
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0010180/presentations",
+            "@type": "presentations",
+            "@reverse": "https://api.researchmap.jp/read0010180",
+            "total_items": 20,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0010180/presentations/11130771",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0010180/presentations",
+                    "rm:id": "11130771",
+                    "rm:user_id": "1000020799",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2015-03-11T17:49:01Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2015-03-11T17:49:01Z",
+                    "presentation_title": {
+                        "ja": "中学校の生徒の移動経路に関する研究 －福井市至民中学校における使い方の研究ー"
+                    },
+                    "event": {
+                        "ja": "日本建築学会大会学術講演梗概集"
+                    },
+                    "publication_date": "2010",
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010180/presentations/11130770",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0010180/presentations",
+                    "rm:id": "11130770",
+                    "rm:user_id": "1000020799",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2015-03-11T17:49:01Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2015-03-11T17:49:01Z",
+                    "presentation_title": {
+                        "ja": "教科センター方式の中学校の生徒の居場所に関する研究 －福井市至民中学校の使い方に関する研究 その5 －"
+                    },
+                    "event": {
+                        "ja": "日本建築学会"
+                    },
+                    "publication_date": "2010",
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010180/presentations/11130769",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0010180/presentations",
+                    "rm:id": "11130769",
+                    "rm:user_id": "1000020799",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2015-03-11T17:49:00Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2015-03-11T17:49:00Z",
+                    "presentation_title": {
+                        "en": "A Study of Walking Route of Students in a Junior High School - A Study on The Use of Fukuishi Shimin Junior High School -"
+                    },
+                    "event": {
+                        "en": "Proceedings of Architectural Institute of Japan"
+                    },
+                    "publication_date": "2010",
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010180/presentations/11130768",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0010180/presentations",
+                    "rm:id": "11130768",
+                    "rm:user_id": "1000020799",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2015-03-11T17:49:00Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2015-03-11T17:49:00Z",
+                    "presentation_title": {
+                        "en": "A Study on places to stay in ajunior high school with departmentalized classroom system - A Study on the use of Fukuishi Shimin junior high school Pat 5 -"
+                    },
+                    "event": {
+                        "en": "Architectural Institute of Japan"
+                    },
+                    "publication_date": "2010",
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010180/presentations/11130774",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0010180/presentations",
+                    "rm:id": "11130774",
+                    "rm:user_id": "1000020799",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2015-03-11T17:49:01Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2015-03-11T17:49:01Z",
+                    "presentation_title": {
+                        "ja": "建築製図室関係の空間の有効利用に関する研究（その１） ―製図室及びアトリエの利用実態調査―"
+                    },
+                    "event": {
+                        "ja": "日本建築学会大会学術講演梗概集, E1，577-578"
+                    },
+                    "publication_date": "2003",
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010180/presentations/11130773",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0010180/presentations",
+                    "rm:id": "11130773",
+                    "rm:user_id": "1000020799",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2015-03-11T17:49:01Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2015-03-11T17:49:01Z",
+                    "presentation_title": {
+                        "ja": "建築製図室関係の空間の有効利用に関する研究（その２） ―製図室、アトリエ等の改修計画―"
+                    },
+                    "event": {
+                        "ja": "日本建築学会大会学術講演梗概集, E1, 579-580"
+                    },
+                    "publication_date": "2003",
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010180/presentations/11130772",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0010180/presentations",
+                    "rm:id": "11130772",
+                    "rm:user_id": "1000020799",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2015-03-11T17:49:01Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2015-03-11T17:49:01Z",
+                    "presentation_title": {
+                        "ja": "迷路探索歩行における記憶、状況変化、経路イメージの関係"
+                    },
+                    "event": {
+                        "ja": "日本建築学会大会学術講演梗概集, E1，873-874"
+                    },
+                    "publication_date": "2003",
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010180/presentations/11130775",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0010180/presentations",
+                    "rm:id": "11130775",
+                    "rm:user_id": "1000020799",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2015-03-11T17:49:01Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2015-03-11T17:49:01Z",
+                    "presentation_title": {
+                        "ja": "迷路探索歩行における経路イメージの変化に関する研究"
+                    },
+                    "event": {
+                        "ja": "日本建築学会大会学術講演梗概集, Vol.E-1 建築計画I, 755-756"
+                    },
+                    "publication_date": "2001",
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010180/presentations/11130777",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0010180/presentations",
+                    "rm:id": "11130777",
+                    "rm:user_id": "1000020799",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2015-03-11T17:49:01Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2015-03-11T17:49:01Z",
+                    "presentation_title": {
+                        "ja": "大学の建築計画系研究室における空間の有効利用に関する研究(その7) ―研究室の使い方を中心とした改善―"
+                    },
+                    "event": {
+                        "ja": "日本建築学会大会学術講演梗概集, Vol.E-1 建築計画I, 609-610"
+                    },
+                    "publication_date": "2000",
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010180/presentations/11130776",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0010180/presentations",
+                    "rm:id": "11130776",
+                    "rm:user_id": "1000020799",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2015-03-11T17:49:01Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2015-03-11T17:49:01Z",
+                    "presentation_title": {
+                        "ja": "回遊空間における空間認知に関する研究"
+                    },
+                    "event": {
+                        "ja": "日本建築学会大会学術講演梗概集, Vol.E-1 建築計画I, 1125-1126"
+                    },
+                    "publication_date": "2000",
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010180/presentations/11130782",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0010180/presentations",
+                    "rm:id": "11130782",
+                    "rm:user_id": "1000020799",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2015-03-11T17:49:01Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2015-03-11T17:49:01Z",
+                    "presentation_title": {
+                        "ja": "大学の建築計画系研究室における空間の有効利用に関する研究(その6) ―執務スペースに対する満足度評価項目の分析―"
+                    },
+                    "event": {
+                        "ja": "日本建築学会大会学術講演梗概集, Vol.E-1 建築計画I, 587-588"
+                    },
+                    "publication_date": "1999",
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010180/presentations/11130781",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0010180/presentations",
+                    "rm:id": "11130781",
+                    "rm:user_id": "1000020799",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2015-03-11T17:49:01Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2015-03-11T17:49:01Z",
+                    "presentation_title": {
+                        "ja": "回遊空間における経路選択に関する研究"
+                    },
+                    "event": {
+                        "ja": "日本建築学会大会学術講演梗概集, Vol.E-1 建築計画I, 809-810"
+                    },
+                    "publication_date": "1999",
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010180/presentations/11130780",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0010180/presentations",
+                    "rm:id": "11130780",
+                    "rm:user_id": "1000020799",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2015-03-11T17:49:01Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2015-03-11T17:49:01Z",
+                    "presentation_title": {
+                        "ja": "探索歩行における経路イメージと経路選択の変遷に関する研究"
+                    },
+                    "event": {
+                        "ja": "日本建築学会大会学術講演梗概集, Vol.E-1 建築計画I, 817-818"
+                    },
+                    "publication_date": "1999",
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010180/presentations/11130779",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0010180/presentations",
+                    "rm:id": "11130779",
+                    "rm:user_id": "1000020799",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2015-03-11T17:49:01Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2015-03-11T17:49:01Z",
+                    "presentation_title": {
+                        "ja": "大学の建築計画系研究室における空間の有効利用に関する研究(その4) ―個人作業スペースを中心としたフリーアドレス化の事前評価と改修課題―"
+                    },
+                    "event": {
+                        "ja": "日本建築学会大会学術講演梗概集, Vol.E-1 建築計画I, 583-584"
+                    },
+                    "publication_date": "1999",
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010180/presentations/11130778",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0010180/presentations",
+                    "rm:id": "11130778",
+                    "rm:user_id": "1000020799",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2015-03-11T17:49:01Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2015-03-11T17:49:01Z",
+                    "presentation_title": {
+                        "ja": "大学の建築計画系研究室における空間の有効利用に関する研究(その5) ―個人作業スペースを中心としたレイアウト改修の事後評価と効果―"
+                    },
+                    "event": {
+                        "ja": "日本建築学会大会学術講演梗概集, Vol.E-1 建築計画I, 585-586"
+                    },
+                    "publication_date": "1999",
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010180/presentations/11130787",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0010180/presentations",
+                    "rm:id": "11130787",
+                    "rm:user_id": "1000020799",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2015-03-11T17:49:01Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2015-03-11T17:49:01Z",
+                    "presentation_title": {
+                        "ja": "大学の建築計画系研究室における空間の有効利用に関する研究(その1) ―事前評価とレイアウト改修の課題―"
+                    },
+                    "event": {
+                        "ja": "日本建築学会大会学術講演梗概集, Vol.E-1 建築計画I, 661-662"
+                    },
+                    "publication_date": "1998",
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010180/presentations/11130786",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0010180/presentations",
+                    "rm:id": "11130786",
+                    "rm:user_id": "1000020799",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2015-03-11T17:49:01Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2015-03-11T17:49:01Z",
+                    "presentation_title": {
+                        "ja": "大学の建築計画系研究室における空間の有効利用に関する研究(その2) ―フリーアドレス化によるレイアウト改修の効果と事後評価―"
+                    },
+                    "event": {
+                        "ja": "日本建築学会大会学術講演梗概集, Vol.E-1 建築計画I, 663-664"
+                    },
+                    "publication_date": "1998",
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010180/presentations/11130785",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0010180/presentations",
+                    "rm:id": "11130785",
+                    "rm:user_id": "1000020799",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2015-03-11T17:49:01Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2015-03-11T17:49:01Z",
+                    "presentation_title": {
+                        "ja": "大学の建築計画系研究室における空間の有効利用に関する研究(その3) ―執務スペースに対する満足度評価法の比較分析―"
+                    },
+                    "event": {
+                        "ja": "日本建築学会大会学術講演梗概集, Vol.E-1 建築計画I, 665-666"
+                    },
+                    "publication_date": "1998",
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010180/presentations/11130784",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0010180/presentations",
+                    "rm:id": "11130784",
+                    "rm:user_id": "1000020799",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2015-03-11T17:49:01Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2015-03-11T17:49:01Z",
+                    "presentation_title": {
+                        "ja": "探索歩行における空間認知の発達過程と下位目標の設定"
+                    },
+                    "event": {
+                        "ja": "日本建築学会大会学術講演梗概集, Vol.E-1 建築計画I, 837-838"
+                    },
+                    "publication_date": "1998",
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010180/presentations/11130783",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0010180/presentations",
+                    "rm:id": "11130783",
+                    "rm:user_id": "1000020799",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2015-03-11T17:49:01Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2015-03-11T17:49:01Z",
+                    "presentation_title": {
+                        "ja": "探索歩行における歩行方針の変遷"
+                    },
+                    "event": {
+                        "ja": "日本建築学会大会学術講演梗概集, Vol.E-1 建築計画I, 839-840"
+                    },
+                    "publication_date": "1998",
+                    "invited": false,
+                    "rm:is_open_access": false
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0010180/association_memberships",
+            "@type": "association_memberships",
+            "@reverse": "https://api.researchmap.jp/read0010180",
+            "total_items": 4,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0010180/association_memberships/7893727",
+                    "@type": "association_memberships",
+                    "@reverse": "https://api.researchmap.jp/read0010180/association_memberships",
+                    "rm:id": "7893727",
+                    "rm:user_id": "1000020799",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2015-03-11T17:49:01Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2015-03-11T17:49:01Z",
+                    "academic_society_name": {
+                        "ja": "International Facility Management Association"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010180/association_memberships/7893726",
+                    "@type": "association_memberships",
+                    "@reverse": "https://api.researchmap.jp/read0010180/association_memberships",
+                    "rm:id": "7893726",
+                    "rm:user_id": "1000020799",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2015-03-11T17:49:01Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2015-03-11T17:49:01Z",
+                    "academic_society_name": {
+                        "ja": "照明学会"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010180/association_memberships/7893725",
+                    "@type": "association_memberships",
+                    "@reverse": "https://api.researchmap.jp/read0010180/association_memberships",
+                    "rm:id": "7893725",
+                    "rm:user_id": "1000020799",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2015-03-11T17:49:01Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2015-03-11T17:49:01Z",
+                    "academic_society_name": {
+                        "ja": "日本建築学会"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010180/association_memberships/7893724",
+                    "@type": "association_memberships",
+                    "@reverse": "https://api.researchmap.jp/read0010180/association_memberships",
+                    "rm:id": "7893724",
+                    "rm:user_id": "1000020799",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2015-03-11T17:49:00Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2015-03-11T17:49:00Z",
+                    "academic_society_name": {
+                        "en": "International Facility Management Association"
+                    }
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0010180/works",
+            "@type": "works",
+            "@reverse": "https://api.researchmap.jp/read0010180",
+            "total_items": 19,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0010180/works/5756750",
+                    "@type": "works",
+                    "@reverse": "https://api.researchmap.jp/read0010180/works",
+                    "rm:id": "5756750",
+                    "rm:user_id": "1000020799",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2015-03-11T17:49:01Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2015-03-11T17:49:01Z",
+                    "work_title": {
+                        "ja": "福井大学附属幼稚園基本計画, 福井市, 福井市"
+                    },
+                    "work_type": "artistic_activity",
+                    "from_date": "2011"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010180/works/5756749",
+                    "@type": "works",
+                    "@reverse": "https://api.researchmap.jp/read0010180/works",
+                    "rm:id": "5756749",
+                    "rm:user_id": "1000020799",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2015-03-11T17:49:01Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2015-03-11T17:49:01Z",
+                    "work_title": {
+                        "ja": "北陸学園校舎建て替え基本計画及び基本設計監修, 福井市, 福井市"
+                    },
+                    "work_type": "artistic_activity",
+                    "from_date": "2011"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010180/works/5756748",
+                    "@type": "works",
+                    "@reverse": "https://api.researchmap.jp/read0010180/works",
+                    "rm:id": "5756748",
+                    "rm:user_id": "1000020799",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2015-03-11T17:49:00Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2015-03-11T17:49:00Z",
+                    "work_title": {
+                        "en": "Basic Design of Kindergarten of University of Fukui"
+                    },
+                    "work_type": "artistic_activity",
+                    "from_date": "2011"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010180/works/5756747",
+                    "@type": "works",
+                    "@reverse": "https://api.researchmap.jp/read0010180/works",
+                    "rm:id": "5756747",
+                    "rm:user_id": "1000020799",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2015-03-11T17:49:00Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2015-03-11T17:49:00Z",
+                    "work_title": {
+                        "en": "Basic Design of Facilities of Hokuriku High School"
+                    },
+                    "work_type": "artistic_activity",
+                    "from_date": "2011"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010180/works/5756751",
+                    "@type": "works",
+                    "@reverse": "https://api.researchmap.jp/read0010180/works",
+                    "rm:id": "5756751",
+                    "rm:user_id": "1000020799",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2015-03-11T17:49:01Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2015-03-11T17:49:01Z",
+                    "work_title": {
+                        "ja": "あわら市統合中学校基本計画策定共同研究"
+                    },
+                    "from_date": "2006",
+                    "to_date": "2007"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010180/works/5756752",
+                    "@type": "works",
+                    "@reverse": "https://api.researchmap.jp/read0010180/works",
+                    "rm:id": "5756752",
+                    "rm:user_id": "1000020799",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2015-03-11T17:49:01Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2015-03-11T17:49:01Z",
+                    "work_title": {
+                        "ja": "(新)至民中学校新築工事設計総合監修"
+                    },
+                    "from_date": "2005",
+                    "to_date": "2006"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010180/works/5756754",
+                    "@type": "works",
+                    "@reverse": "https://api.researchmap.jp/read0010180/works",
+                    "rm:id": "5756754",
+                    "rm:user_id": "1000020799",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2015-03-11T17:49:01Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2015-03-11T17:49:01Z",
+                    "work_title": {
+                        "ja": "清水町保健センター建設事業実施設計総合監修"
+                    },
+                    "from_date": "2004",
+                    "to_date": "2005"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010180/works/5756753",
+                    "@type": "works",
+                    "@reverse": "https://api.researchmap.jp/read0010180/works",
+                    "rm:id": "5756753",
+                    "rm:user_id": "1000020799",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2015-03-11T17:49:01Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2015-03-11T17:49:01Z",
+                    "work_title": {
+                        "ja": "洋風越前瓦のデザイン"
+                    },
+                    "from_date": "2005"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010180/works/5756755",
+                    "@type": "works",
+                    "@reverse": "https://api.researchmap.jp/read0010180/works",
+                    "rm:id": "5756755",
+                    "rm:user_id": "1000020799",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2015-03-11T17:49:01Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2015-03-11T17:49:01Z",
+                    "work_title": {
+                        "ja": "清水町保育所（仮称）基本計画の調査研究"
+                    },
+                    "from_date": "2003",
+                    "to_date": "2004"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010180/works/5756756",
+                    "@type": "works",
+                    "@reverse": "https://api.researchmap.jp/read0010180/works",
+                    "rm:id": "5756756",
+                    "rm:user_id": "1000020799",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2015-03-11T17:49:01Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2015-03-11T17:49:01Z",
+                    "work_title": {
+                        "ja": "清水町診療所（仮称）基本計画の調査研究"
+                    },
+                    "from_date": "2003"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010180/works/5756759",
+                    "@type": "works",
+                    "@reverse": "https://api.researchmap.jp/read0010180/works",
+                    "rm:id": "5756759",
+                    "rm:user_id": "1000020799",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2015-03-11T17:49:01Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2015-03-11T17:49:01Z",
+                    "work_title": {
+                        "ja": "福井大学メディアコモン基本計画"
+                    },
+                    "work_type": "artistic_activity",
+                    "from_date": "2002"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010180/works/5756758",
+                    "@type": "works",
+                    "@reverse": "https://api.researchmap.jp/read0010180/works",
+                    "rm:id": "5756758",
+                    "rm:user_id": "1000020799",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2015-03-11T17:49:01Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2015-03-11T17:49:01Z",
+                    "work_title": {
+                        "ja": "福井大学工学部1号館2号棟及び3号棟改修基本計画"
+                    },
+                    "work_type": "artistic_activity",
+                    "from_date": "2002"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010180/works/5756757",
+                    "@type": "works",
+                    "@reverse": "https://api.researchmap.jp/read0010180/works",
+                    "rm:id": "5756757",
+                    "rm:user_id": "1000020799",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2015-03-11T17:49:01Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2015-03-11T17:49:01Z",
+                    "work_title": {
+                        "ja": "清水町保健センター基本計画"
+                    },
+                    "work_type": "artistic_activity",
+                    "from_date": "2002"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010180/works/5756761",
+                    "@type": "works",
+                    "@reverse": "https://api.researchmap.jp/read0010180/works",
+                    "rm:id": "5756761",
+                    "rm:user_id": "1000020799",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2015-03-11T17:49:01Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2015-03-11T17:49:01Z",
+                    "work_title": {
+                        "ja": "氷見乃江大橋ライトアップ基本設計"
+                    },
+                    "work_type": "artistic_activity",
+                    "from_date": "2001"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010180/works/5756760",
+                    "@type": "works",
+                    "@reverse": "https://api.researchmap.jp/read0010180/works",
+                    "rm:id": "5756760",
+                    "rm:user_id": "1000020799",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2015-03-11T17:49:01Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2015-03-11T17:49:01Z",
+                    "work_title": {
+                        "ja": "大野市五番商店街街路灯及びアーチ基本設計及び実施設計"
+                    },
+                    "work_type": "artistic_activity",
+                    "from_date": "2001"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010180/works/5756762",
+                    "@type": "works",
+                    "@reverse": "https://api.researchmap.jp/read0010180/works",
+                    "rm:id": "5756762",
+                    "rm:user_id": "1000020799",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2015-03-11T17:49:01Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2015-03-11T17:49:01Z",
+                    "work_title": {
+                        "ja": "福井大学総合研究棟Ⅱ基本計画"
+                    },
+                    "work_type": "artistic_activity",
+                    "from_date": "2000"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010180/works/5756764",
+                    "@type": "works",
+                    "@reverse": "https://api.researchmap.jp/read0010180/works",
+                    "rm:id": "5756764",
+                    "rm:user_id": "1000020799",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2015-03-11T17:49:01Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2015-03-11T17:49:01Z",
+                    "work_title": {
+                        "ja": "空き店舗利用による民家の再生 －福井県大野市「五番名水庵」"
+                    },
+                    "work_type": "artistic_activity",
+                    "from_date": "1998"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010180/works/5756763",
+                    "@type": "works",
+                    "@reverse": "https://api.researchmap.jp/read0010180/works",
+                    "rm:id": "5756763",
+                    "rm:user_id": "1000020799",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2015-03-11T17:49:01Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2015-03-11T17:49:01Z",
+                    "work_title": {
+                        "ja": "福井大学キャンパス全体計画"
+                    },
+                    "work_type": "artistic_activity",
+                    "from_date": "1998"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010180/works/5756765",
+                    "@type": "works",
+                    "@reverse": "https://api.researchmap.jp/read0010180/works",
+                    "rm:id": "5756765",
+                    "rm:user_id": "1000020799",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2015-03-11T17:49:01Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2015-03-11T17:49:01Z",
+                    "work_title": {
+                        "ja": "サンドーム福井, 福井県鯖江市・武生市"
+                    },
+                    "work_type": "artistic_activity",
+                    "from_date": "1997"
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0010180/research_projects",
+            "@type": "research_projects",
+            "@reverse": "https://api.researchmap.jp/read0010180",
+            "total_items": 6,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0010180/research_projects/10936121",
+                    "@type": "research_projects",
+                    "@reverse": "https://api.researchmap.jp/read0010180/research_projects",
+                    "rm:id": "10936121",
+                    "rm:user_id": "1000020799",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2015-03-11T17:49:01Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2015-03-11T17:49:01Z",
+                    "research_project_title": {
+                        "ja": "建築プログラミング"
+                    },
+                    "from_date": "1996",
+                    "to_date": "2018",
+                    "overall_grant_amount": {
+                        "indirect_cost": "0",
+                        "total_cost": "0",
+                        "direct_cost": "0"
+                    },
+                    "fund_type": "competitive_research_funding"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010180/research_projects/10936120",
+                    "@type": "research_projects",
+                    "@reverse": "https://api.researchmap.jp/read0010180/research_projects",
+                    "rm:id": "10936120",
+                    "rm:user_id": "1000020799",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2015-03-11T17:49:01Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2015-03-11T17:49:01Z",
+                    "research_project_title": {
+                        "ja": "Architectural Programming"
+                    },
+                    "from_date": "1996",
+                    "to_date": "2018",
+                    "overall_grant_amount": {
+                        "indirect_cost": "0",
+                        "total_cost": "0",
+                        "direct_cost": "0"
+                    },
+                    "fund_type": "competitive_research_funding"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010180/research_projects/10936117",
+                    "@type": "research_projects",
+                    "@reverse": "https://api.researchmap.jp/read0010180/research_projects",
+                    "rm:id": "10936117",
+                    "rm:user_id": "1000020799",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2015-03-11T17:49:00Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2015-03-11T17:49:00Z",
+                    "research_project_title": {
+                        "en": "Architectural Programming"
+                    },
+                    "from_date": "1996",
+                    "to_date": "2018",
+                    "overall_grant_amount": {
+                        "indirect_cost": "0",
+                        "total_cost": "0",
+                        "direct_cost": "0"
+                    },
+                    "fund_type": "competitive_research_funding"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010180/research_projects/10936119",
+                    "@type": "research_projects",
+                    "@reverse": "https://api.researchmap.jp/read0010180/research_projects",
+                    "rm:id": "10936119",
+                    "rm:user_id": "1000020799",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2015-03-11T17:49:01Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2015-03-11T17:49:01Z",
+                    "research_project_title": {
+                        "ja": "建築空間における人間行動の研究"
+                    },
+                    "from_date": "1975",
+                    "to_date": "2018",
+                    "overall_grant_amount": {
+                        "indirect_cost": "0",
+                        "total_cost": "0",
+                        "direct_cost": "0"
+                    },
+                    "fund_type": "competitive_research_funding"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010180/research_projects/10936118",
+                    "@type": "research_projects",
+                    "@reverse": "https://api.researchmap.jp/read0010180/research_projects",
+                    "rm:id": "10936118",
+                    "rm:user_id": "1000020799",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2015-03-11T17:49:01Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2015-03-11T17:49:01Z",
+                    "research_project_title": {
+                        "ja": "Behavioral Factor in Architectural Design"
+                    },
+                    "from_date": "1975",
+                    "to_date": "2018",
+                    "overall_grant_amount": {
+                        "indirect_cost": "0",
+                        "total_cost": "0",
+                        "direct_cost": "0"
+                    },
+                    "fund_type": "competitive_research_funding"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010180/research_projects/10936116",
+                    "@type": "research_projects",
+                    "@reverse": "https://api.researchmap.jp/read0010180/research_projects",
+                    "rm:id": "10936116",
+                    "rm:user_id": "1000020799",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2015-03-11T17:49:00Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2015-03-11T17:49:00Z",
+                    "research_project_title": {
+                        "en": "Behavioral Factor in Architectural Design"
+                    },
+                    "from_date": "1975",
+                    "to_date": "2018",
+                    "overall_grant_amount": {
+                        "indirect_cost": "0",
+                        "total_cost": "0",
+                        "direct_cost": "0"
+                    },
+                    "fund_type": "competitive_research_funding"
+                }
+            ]
+        }
+    ]
+}

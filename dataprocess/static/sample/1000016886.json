@@ -1,0 +1,2340 @@
+{
+    "@context": "https://api.researchmap.jp/researcher.jsonld",
+    "@id": "https://api.researchmap.jp/0540?format=json",
+    "@type": "researchers",
+    "rm:user_id": "1000016886",
+    "rm:creator_id": "1000016886",
+    "rm:creator_type": "myself",
+    "rm:created": "2006-01-31T15:00:00Z",
+    "rm:modifier_id": "1000016886",
+    "rm:modifier_type": "myself",
+    "rm:modified": "2024-06-26T00:03:24Z",
+    "permalink": "0540",
+    "family_name": {
+        "ja": "神戸",
+        "ja-Kana": "カンベ",
+        "en": "KAMBE"
+    },
+    "given_name": {
+        "ja": "周",
+        "ja-Kana": "チカシ",
+        "en": "Chikashi"
+    },
+    "display_name_kana": "disclosed",
+    "display_nickname": "closed",
+    "display_image": "disclosed",
+    "display_contact_point": "disclosed",
+    "affiliations": [
+        {
+            "affiliation": {
+                "ja": "東京学芸大学",
+                "en": "Tokyo Gakugei University"
+            },
+            "section": {
+                "ja": "教育学部 健康・スポーツ科学講座",
+                "en": "Faculty of Education, Health and Sports Sciences"
+            },
+            "job": {
+                "ja": "教授"
+            },
+            "display_affiliation": "disclosed",
+            "display_job": "disclosed",
+            "rm:institution_code": "0208002039"
+        }
+    ],
+    "degrees": [
+        {
+            "degree": {
+                "ja": "教育学修士"
+            },
+            "degree_institution": {
+                "ja": "東京学芸大学"
+            },
+            "display_degree": "disclosed",
+            "rm:institution_code": "0208000000"
+        },
+        {
+            "degree": {
+                "ja": "博士（スポーツ科学）"
+            },
+            "degree_institution": {
+                "ja": "早稲田大学"
+            },
+            "display_degree": "disclosed",
+            "rm:institution_code": "2259000000"
+        }
+    ],
+    "display_profile": "disclosed",
+    "display_url": "closed",
+    "identifiers": {
+        "j_global_id": [
+            "200901091738675308"
+        ]
+    },
+    "rm:erad_id_verified": false,
+    "rm:orc_id_verified": false,
+    "display_erad_id": "closed",
+    "display_orc_id": "closed",
+    "display_researcher_id": "disclosed",
+    "display_j_global_id": "disclosed",
+    "see_also": [
+        {
+            "label": "j_global",
+            "@id": "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=200901091738675308"
+        }
+    ],
+    "@graph": [
+        {
+            "@id": "https://api.researchmap.jp/0540/research_interests",
+            "@type": "research_interests",
+            "@reverse": "https://api.researchmap.jp/0540",
+            "total_items": 2,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/0540/research_interests/8693004",
+                    "@type": "research_interests",
+                    "@reverse": "https://api.researchmap.jp/0540/research_interests",
+                    "rm:id": "8693004",
+                    "rm:user_id": "1000016886",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2017-10-19T17:52:35Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2017-10-19T17:52:35Z",
+                    "keyword": {
+                        "ja": "ブラジル北東部"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/0540/research_interests/8693003",
+                    "@type": "research_interests",
+                    "@reverse": "https://api.researchmap.jp/0540/research_interests",
+                    "rm:id": "8693003",
+                    "rm:user_id": "1000016886",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2017-10-19T17:52:35Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2017-10-19T17:52:35Z",
+                    "keyword": {
+                        "ja": "舞踊文化"
+                    }
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/0540/research_areas",
+            "@type": "research_areas",
+            "@reverse": "https://api.researchmap.jp/0540",
+            "total_items": 1,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/0540/research_areas/6871623",
+                    "@type": "research_areas",
+                    "@reverse": "https://api.researchmap.jp/0540/research_areas",
+                    "rm:id": "6871623",
+                    "rm:user_id": "1000016886",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2017-10-19T17:52:35Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2017-10-19T17:52:35Z",
+                    "discipline_number": "A189",
+                    "item_number": "A59020",
+                    "discipline": {
+                        "ja": "ライフサイエンス",
+                        "en": "Life sciences"
+                    },
+                    "research_field": {
+                        "ja": "スポーツ科学",
+                        "en": "Sports science"
+                    }
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/0540/research_experience",
+            "@type": "research_experience",
+            "@reverse": "https://api.researchmap.jp/0540",
+            "total_items": 5,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/0540/research_experience/46868809",
+                    "@type": "research_experience",
+                    "@reverse": "https://api.researchmap.jp/0540/research_experience",
+                    "rm:id": "46868809",
+                    "rm:user_id": "1000016886",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000016886",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2024-06-25T01:23:43Z",
+                    "rm:modifier_id": "1000016886",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2024-06-25T01:23:43Z",
+                    "from_date": "2008",
+                    "to_date": "9999",
+                    "rm:institution_code": "0208000000",
+                    "affiliation": {
+                        "ja": "東京学芸大学",
+                        "en": "Tokyo Gakugei University"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/0540/research_experience/46868563",
+                    "@type": "research_experience",
+                    "@reverse": "https://api.researchmap.jp/0540/research_experience",
+                    "rm:id": "46868563",
+                    "rm:user_id": "1000016886",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000016886",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2024-06-25T01:19:03Z",
+                    "rm:modifier_id": "1000016886",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2024-06-25T01:19:03Z",
+                    "from_date": "2007",
+                    "to_date": "2008",
+                    "rm:institution_code": "0208000000",
+                    "affiliation": {
+                        "ja": "東京学芸大学",
+                        "en": "Tokyo Gakugei University"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/0540/research_experience/2445069",
+                    "@type": "research_experience",
+                    "@reverse": "https://api.researchmap.jp/0540/research_experience",
+                    "rm:id": "2445069",
+                    "rm:user_id": "1000016886",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000016886",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2006-01-31T15:00:00Z",
+                    "rm:modifier_id": "1000016886",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2024-06-25T01:22:48Z",
+                    "from_date": "1996",
+                    "to_date": "2007",
+                    "rm:institution_code": "0208000000",
+                    "affiliation": {
+                        "ja": "東京学芸大学",
+                        "en": "Tokyo Gakugei University"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/0540/research_experience/2445068",
+                    "@type": "research_experience",
+                    "@reverse": "https://api.researchmap.jp/0540/research_experience",
+                    "rm:id": "2445068",
+                    "rm:user_id": "1000016886",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000016886",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2006-01-31T15:00:00Z",
+                    "rm:modifier_id": "1000016886",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2024-06-25T01:22:21Z",
+                    "from_date": "1990",
+                    "to_date": "1996",
+                    "rm:institution_code": "0208000000",
+                    "affiliation": {
+                        "ja": "東京学芸大学",
+                        "en": "Tokyo Gakugei University"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/0540/research_experience/2445067",
+                    "@type": "research_experience",
+                    "@reverse": "https://api.researchmap.jp/0540/research_experience",
+                    "rm:id": "2445067",
+                    "rm:user_id": "1000016886",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000016886",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2006-01-31T15:00:00Z",
+                    "rm:modifier_id": "1000016886",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2024-06-25T01:22:02Z",
+                    "from_date": "1987",
+                    "to_date": "1990",
+                    "rm:institution_code": "0208000000",
+                    "affiliation": {
+                        "ja": "東京学芸大学",
+                        "en": "Tokyo Gakugei University"
+                    }
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/0540/education",
+            "@type": "education",
+            "@reverse": "https://api.researchmap.jp/0540",
+            "total_items": 3,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/0540/education/46866870",
+                    "@type": "education",
+                    "@reverse": "https://api.researchmap.jp/0540/education",
+                    "rm:id": "46866870",
+                    "rm:user_id": "1000016886",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000016886",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2024-06-25T01:04:06Z",
+                    "rm:modifier_id": "1000016886",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2024-06-25T01:05:29Z",
+                    "to_date": "2018",
+                    "rm:institution_code": "2259000000",
+                    "affiliation": {
+                        "ja": "早稲田大学",
+                        "en": "Waseda University"
+                    },
+                    "address_country": "JPN"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/0540/education/1364915",
+                    "@type": "education",
+                    "@reverse": "https://api.researchmap.jp/0540/education",
+                    "rm:id": "1364915",
+                    "rm:user_id": "1000016886",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000016886",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2006-01-31T15:00:00Z",
+                    "rm:modifier_id": "1000016886",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2024-06-25T23:54:30Z",
+                    "to_date": "1986",
+                    "rm:institution_code": "0208000000",
+                    "affiliation": {
+                        "ja": "東京学芸大学",
+                        "en": "Tokyo Gakugei University"
+                    },
+                    "department": {
+                        "en": "Graduate School, Division of Education"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/0540/education/1364916",
+                    "@type": "education",
+                    "@reverse": "https://api.researchmap.jp/0540/education",
+                    "rm:id": "1364916",
+                    "rm:user_id": "1000016886",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000016886",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2006-01-31T15:00:00Z",
+                    "rm:modifier_id": "1000016886",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2024-06-25T23:54:32Z",
+                    "to_date": "1982",
+                    "rm:institution_code": "0208000000",
+                    "affiliation": {
+                        "ja": "東京学芸大学",
+                        "en": "Tokyo Gakugei University"
+                    },
+                    "department": {
+                        "en": "Faculty of Education"
+                    }
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/0540/misc",
+            "@type": "misc",
+            "@reverse": "https://api.researchmap.jp/0540",
+            "total_items": 27,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/0540/misc/46866787",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/0540/misc",
+                    "rm:id": "46866787",
+                    "rm:user_id": "1000016886",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000016886",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2024-06-25T00:55:18Z",
+                    "rm:modifier_id": "1000016886",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2024-06-25T00:55:18Z",
+                    "paper_title": {
+                        "ja": "「フレーヴォの文化史」序説",
+                        "en": "A Cultural History of Frevo"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "神戸 周"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Chikashi KAMBE"
+                            }
+                        ]
+                    },
+                    "published_paper_owner_roles": [
+                        "lead"
+                    ],
+                    "publication_date": "2023-10",
+                    "publication_name": {
+                        "ja": "東京学芸大学紀要 芸術・スポーツ科学系 第75集",
+                        "en": "Bull.Tokyo Gakugei Univ.Division of Arts and Sports Sciences"
+                    },
+                    "starting_page": "67",
+                    "ending_page": "75",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "misc_type": "introduction_research_institution",
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/0540/misc/46866632",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/0540/misc",
+                    "rm:id": "46866632",
+                    "rm:user_id": "1000016886",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000016886",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2024-06-25T00:49:36Z",
+                    "rm:modifier_id": "1000016886",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2024-06-25T00:49:36Z",
+                    "paper_title": {
+                        "ja": "リズム系のダンスにおける“身体づかい”についての一考察",
+                        "en": "A Study on \"Body Movement\" in Rhythm-Based Dnace"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "神戸 周"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Chikashi KAMBE"
+                            }
+                        ]
+                    },
+                    "published_paper_owner_roles": [
+                        "lead"
+                    ],
+                    "publication_date": "2022-11",
+                    "publication_name": {
+                        "ja": "東京学芸大学紀要 芸術・スポーツ科学系 第74集",
+                        "en": "Bull.Tokyo Gakugei Univ.Division of Arts and Sports Sciences"
+                    },
+                    "starting_page": "67",
+                    "ending_page": "73",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "misc_type": "introduction_research_institution",
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/0540/misc/37579610",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/0540/misc",
+                    "rm:id": "37579610",
+                    "rm:user_id": "1000016886",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000016886",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2022-06-29T19:29:55Z",
+                    "rm:modifier_id": "1000016886",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2022-06-29T19:29:55Z",
+                    "paper_title": {
+                        "ja": "リズム系のダンスにおける“乗りのリズム”に関する一考察",
+                        "en": "A Study of \"Rhythm of Bounce\" in Rhythm-Based Dnace"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "神戸 周"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "KAMBE Chikashi"
+                            }
+                        ]
+                    },
+                    "published_paper_owner_roles": [
+                        "lead"
+                    ],
+                    "publication_date": "2021-12",
+                    "publication_name": {
+                        "ja": "東京学芸大学紀要 芸術・スポーツ科学系 第73集"
+                    },
+                    "starting_page": "251",
+                    "ending_page": "260",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "misc_type": "report_research_institution",
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/0540/misc/31083075",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/0540/misc",
+                    "rm:id": "31083075",
+                    "rm:user_id": "1000016886",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000016886",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2020-12-03T10:10:08Z",
+                    "rm:modifier_id": "1000016886",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2024-06-25T01:24:47Z",
+                    "paper_title": {
+                        "ja": "ブラジルの民衆舞踊パッソの変容に関する一考察 : そのダンス様式および継承方法に着目して",
+                        "en": "A Study on the Transformation of Brazilian Popular Dance Passo : Taking Notice of Its Dance Style and Means of Transmission"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "神戸 周"
+                            },
+                            {
+                                "name": "KAMBE Chikashi"
+                            },
+                            {
+                                "name": "神戸 周(東京学芸大学 健康・スポーツ科学講座 体育学分野)"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "KAMBE Chikashi"
+                            }
+                        ]
+                    },
+                    "published_paper_owner_roles": [
+                        "lead"
+                    ],
+                    "publisher": {
+                        "ja": "東京学芸大学学術情報委員会",
+                        "en": "Academic Information Committee, Tokyo Gakugei University"
+                    },
+                    "publication_date": "2018-10",
+                    "publication_name": {
+                        "ja": "東京学芸大学紀要. 芸術・スポーツ科学系 = Bulletin of Tokyo Gakugei University"
+                    },
+                    "volume": "70",
+                    "starting_page": "99",
+                    "ending_page": "112",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "1880-4349"
+                        ],
+                        "cinii_na_id": [
+                            "120006534481"
+                        ],
+                        "cinii_nc_id": [
+                            "AA12079728"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/120006534481",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_books",
+                            "@id": "http://ci.nii.ac.jp/ncid/AA12079728",
+                            "is_downloadable": false
+                        },
+                        {
+                            "@id": "http://id.ndl.go.jp/bib/029388506",
+                            "label": "url",
+                            "is_downloadable": false
+                        },
+                        {
+                            "@id": "http://hdl.handle.net/2309/150195",
+                            "label": "url",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/0540/misc/23164253",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/0540/misc",
+                    "rm:id": "23164253",
+                    "rm:user_id": "1000016886",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2017-10-19T17:52:35Z",
+                    "rm:modifier_id": "1000016886",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2024-06-25T01:25:04Z",
+                    "paper_title": {
+                        "ja": "ナシメント・ド・パッソと民衆芸能フレーヴォ～「レシーフェ最後の古典的パシスタ」の生涯",
+                        "en": "Mestre Nascimento do Passo and Popular Spectacle Frevo：The Career of \"the Last Classical Passista in Recife\""
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "神戸周"
+                            }
+                        ]
+                    },
+                    "published_paper_owner_roles": [
+                        "lead"
+                    ],
+                    "publication_date": "2015-10",
+                    "publication_name": {
+                        "ja": "東京学芸大学紀要 芸術・スポーツ科学系 第67集",
+                        "en": "Bull. Tokyo Gakugei Univ. Division of Arts and Sports Sciences, 67"
+                    },
+                    "volume": "67",
+                    "starting_page": "149",
+                    "ending_page": "158",
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/0540/misc/23164254",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/0540/misc",
+                    "rm:id": "23164254",
+                    "rm:user_id": "1000016886",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2017-10-19T17:52:35Z",
+                    "rm:modifier_id": "1000016886",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2024-06-25T01:25:17Z",
+                    "paper_title": {
+                        "ja": "ブラジル、ペルナンブーコ州レシーフェのカルナヴァルにおける行政機関の取り組み～コンテストならびに文化教育実施本部による「2010年度活動報告書」を手掛かりとして",
+                        "en": "A Study on an Administrative Action in Carnival of Recife, Pernambuco, Brazil：An Analysis of the 2010 Carnival's Report by the Management Headquarters of Contests and Cultural Education"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "神戸 周"
+                            }
+                        ]
+                    },
+                    "published_paper_owner_roles": [
+                        "lead"
+                    ],
+                    "publication_date": "2014-10",
+                    "publication_name": {
+                        "ja": "東京学芸大学紀要 芸術・スポーツ科学系",
+                        "en": "Bulletin of Tokyo Gakugei University, Division of Arts and Sports Sciences"
+                    },
+                    "number": "第66集",
+                    "starting_page": "51",
+                    "ending_page": "61",
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/0540/misc/23164255",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/0540/misc",
+                    "rm:id": "23164255",
+                    "rm:user_id": "1000016886",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2017-10-19T17:52:35Z",
+                    "rm:modifier_id": "1000016886",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2024-06-25T01:25:40Z",
+                    "paper_title": {
+                        "ja": "民衆芸能フレーヴォの継承に向けた取り組み～「パッソの戦士たちプロジェクト」についての事例研究",
+                        "en": "An Attempt to Pass Down a Popular Spectacle o Frevo to the Next Generation : A Case Study on o Projeto Guerreiros do Passo"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "神戸 周"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "KAMBE Chikashi"
+                            }
+                        ]
+                    },
+                    "published_paper_owner_roles": [
+                        "lead"
+                    ],
+                    "publisher": {
+                        "ja": "東京学芸大学",
+                        "en": "Tokyo Gakugei University"
+                    },
+                    "publication_date": "2013-10",
+                    "publication_name": {
+                        "ja": "東京学芸大学紀要 芸術・スポーツ科学系 第65集",
+                        "en": "Bull. Tokyo Gakugei Univ. Division of Arts and Sports Sciences., 65"
+                    },
+                    "volume": "65",
+                    "number": "65",
+                    "starting_page": "161",
+                    "ending_page": "170",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "1880-4349"
+                        ],
+                        "cinii_na_id": [
+                            "110009634296"
+                        ],
+                        "cinii_nc_id": [
+                            "AA12079728"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/110009634296",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_books",
+                            "@id": "http://ci.nii.ac.jp/ncid/AA12079728",
+                            "is_downloadable": false
+                        },
+                        {
+                            "@id": "http://id.ndl.go.jp/bib/025013151",
+                            "label": "url",
+                            "is_downloadable": false
+                        },
+                        {
+                            "@id": "http://hdl.handle.net/2309/134271",
+                            "label": "url",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/0540/misc/23164256",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/0540/misc",
+                    "rm:id": "23164256",
+                    "rm:user_id": "1000016886",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2017-10-19T17:52:35Z",
+                    "rm:modifier_id": "1000016886",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2024-06-25T01:26:04Z",
+                    "paper_title": {
+                        "ja": "学校における民衆芸能の活動実践～フレーヴォの市立学校についての事例研究",
+                        "en": "The Practice of Popular Dance in a Brazilian School：A Case Study on Escola Municipal de Frevo"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "神戸 周"
+                            }
+                        ]
+                    },
+                    "published_paper_owner_roles": [
+                        "lead"
+                    ],
+                    "publication_date": "2008-10",
+                    "publication_name": {
+                        "ja": "東京学芸大学紀要 芸術・スポーツ科学系",
+                        "en": "Bull. Tokyo Gakugei Univ. Arts and Sports Sciences."
+                    },
+                    "number": "第60集",
+                    "starting_page": "161",
+                    "ending_page": "168",
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/0540/misc/23164257",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/0540/misc",
+                    "rm:id": "23164257",
+                    "rm:user_id": "1000016886",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2017-10-19T17:52:35Z",
+                    "rm:modifier_id": "1000016886",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2024-06-25T01:26:20Z",
+                    "paper_title": {
+                        "ja": "フレーヴォの誕生とパッソの実際－ブラジル，ペルナンブーコ州レシーフェの民衆芸能に関する一考察",
+                        "en": "The Appearance of Frevo and the Practice of Passo : A Study on a Popular Spectacle of Recife, Pernambuco, Brazil"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "神戸 周"
+                            }
+                        ]
+                    },
+                    "published_paper_owner_roles": [
+                        "lead"
+                    ],
+                    "publisher": {
+                        "ja": "日本スポーツ人類学会"
+                    },
+                    "publication_date": "2008-09",
+                    "publication_name": {
+                        "ja": "スポーツ人類學研究",
+                        "en": "Japan Journal of Sport Anthropology"
+                    },
+                    "number": "9",
+                    "starting_page": "1",
+                    "ending_page": "28",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "1345-4358"
+                        ],
+                        "cinii_na_id": [
+                            "40016525180"
+                        ],
+                        "cinii_nc_id": [
+                            "AA1142325X"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/40016525180",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_books",
+                            "@id": "http://ci.nii.ac.jp/ncid/AA1142325X",
+                            "is_downloadable": false
+                        },
+                        {
+                            "@id": "http://id.ndl.go.jp/bib/10193809",
+                            "label": "url",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/0540/misc/23164258",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/0540/misc",
+                    "rm:id": "23164258",
+                    "rm:user_id": "1000016886",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2017-10-19T17:52:35Z",
+                    "rm:modifier_id": "1000016886",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2024-06-25T01:26:37Z",
+                    "paper_title": {
+                        "ja": "ブラジルで「国民的なダンス」と呼ばれたLunduについての一考察～BatuqueおよびFandangoとの関連性に見るその成立過程",
+                        "en": "A Study of Brazilian National Dance\"Lundu\""
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "神戸 周"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "KAMBE Chikashi"
+                            }
+                        ]
+                    },
+                    "published_paper_owner_roles": [
+                        "lead"
+                    ],
+                    "publisher": {
+                        "ja": "東京学芸大学",
+                        "en": "Tokyo Gakugei University"
+                    },
+                    "publication_date": "2005-10",
+                    "publication_name": {
+                        "ja": "東京学芸大学紀要 芸術・スポーツ科学系",
+                        "en": "Bulletin of Tokyo Gakugei University, Division of Arts and Sports Sciences"
+                    },
+                    "volume": "57",
+                    "number": "第57集",
+                    "starting_page": "147",
+                    "ending_page": "156",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "1880-4349"
+                        ],
+                        "cinii_na_id": [
+                            "110002238203"
+                        ],
+                        "cinii_nc_id": [
+                            "AA12079728"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/110002238203",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_books",
+                            "@id": "http://ci.nii.ac.jp/ncid/AA12079728",
+                            "is_downloadable": false
+                        },
+                        {
+                            "@id": "http://id.ndl.go.jp/bib/7707832",
+                            "label": "url",
+                            "is_downloadable": false
+                        },
+                        {
+                            "@id": "http://hdl.handle.net/2309/817",
+                            "label": "url",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/0540/misc/23164259",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/0540/misc",
+                    "rm:id": "23164259",
+                    "rm:user_id": "1000016886",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2017-10-19T17:52:35Z",
+                    "rm:modifier_id": "1000016886",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2024-06-25T01:26:49Z",
+                    "paper_title": {
+                        "ja": "ブラジル北東部における6月期の祝祭",
+                        "en": "A Brief Study of\"Festas Juninas\" in Northeast Region of Brazil"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "神戸 周"
+                            }
+                        ]
+                    },
+                    "published_paper_owner_roles": [
+                        "lead"
+                    ],
+                    "publication_date": "2004-10",
+                    "publication_name": {
+                        "ja": "東京学芸大学紀要 第５部門",
+                        "en": "Bulletin of Tokyo Gakugei University Sect. Ⅴ"
+                    },
+                    "number": "第56集",
+                    "starting_page": "55",
+                    "ending_page": "65",
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/0540/misc/23164260",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/0540/misc",
+                    "rm:id": "23164260",
+                    "rm:user_id": "1000016886",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2017-10-19T17:52:35Z",
+                    "rm:modifier_id": "1000016886",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2024-06-25T01:27:05Z",
+                    "paper_title": {
+                        "ja": "ブラジル，ペルナンブーコ州レシーフェのカルナヴァル～Claudia Lima著『カルナヴァルの歴史』を手掛かりとして",
+                        "en": "A Study of Carnival in Recife, Pernambuco, Brazil"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "神戸 周"
+                            }
+                        ]
+                    },
+                    "published_paper_owner_roles": [
+                        "lead"
+                    ],
+                    "publication_date": "2003-10",
+                    "publication_name": {
+                        "ja": "東京学芸大学紀要 第５部門",
+                        "en": "Bulletin of Tokyo Gakugei University Sect.Ⅴ"
+                    },
+                    "number": "第55集",
+                    "starting_page": "97",
+                    "ending_page": "107",
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/0540/misc/23164261",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/0540/misc",
+                    "rm:id": "23164261",
+                    "rm:user_id": "1000016886",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2017-10-19T17:52:35Z",
+                    "rm:modifier_id": "1000016886",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2024-06-25T01:27:18Z",
+                    "paper_title": {
+                        "ja": "ブラジル，ペルナンブーコの民衆スペクタクル",
+                        "en": "A Brief Study of Popular Spectacles in Pernambuco, Brazil"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "神戸 周"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Kambe Chikashi"
+                            }
+                        ]
+                    },
+                    "published_paper_owner_roles": [
+                        "lead"
+                    ],
+                    "publisher": {
+                        "ja": "東京学芸大学",
+                        "en": "Tokyo Gakugei University"
+                    },
+                    "publication_date": "2001-10",
+                    "publication_name": {
+                        "ja": "東京学芸大学紀要 第５部門",
+                        "en": "Bulletin of Tokyo Gakugei University Sect.Ⅴ"
+                    },
+                    "volume": "53",
+                    "number": "第53集",
+                    "starting_page": "83",
+                    "ending_page": "101",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "1341-1691"
+                        ],
+                        "cinii_na_id": [
+                            "110000547575"
+                        ],
+                        "cinii_nc_id": [
+                            "AN10404761"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/110000547575",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_books",
+                            "@id": "http://ci.nii.ac.jp/ncid/AN10404761",
+                            "is_downloadable": false
+                        },
+                        {
+                            "@id": "http://id.ndl.go.jp/bib/6003234",
+                            "label": "url",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/0540/misc/38554640",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/0540/misc",
+                    "rm:id": "38554640",
+                    "rm:user_id": "1000016886",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2022-07-14T05:57:52Z",
+                    "rm:modifier_id": "1000016886",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2024-06-25T01:28:25Z",
+                    "paper_title": {
+                        "ja": "ペルナンブーコ州,レシーフェで誕生したFrevoと呼ばれるダンスについての一考察",
+                        "en": "O Aparecimento do Frevo Recife"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "神戸 周"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Kambe Chikashi"
+                            }
+                        ]
+                    },
+                    "published_paper_owner_roles": [
+                        "lead"
+                    ],
+                    "publisher": {
+                        "ja": "東京学芸大学",
+                        "en": "Tokyo Gakugei University"
+                    },
+                    "publication_date": "1999-10",
+                    "publication_name": {
+                        "ja": "東京学芸大学紀要. 第5部門, 芸術・健康・スポーツ科学",
+                        "en": "Bulletin of Tokyo Gakugei University. Section V, Arts and physical education"
+                    },
+                    "volume": "51",
+                    "starting_page": "161",
+                    "ending_page": "173",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "1341-1691"
+                        ],
+                        "cinii_na_id": [
+                            "110000547534"
+                        ],
+                        "cinii_nc_id": [
+                            "AN10404761"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/110000547534",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_books",
+                            "@id": "http://ci.nii.ac.jp/ncid/AN10404761",
+                            "is_downloadable": false
+                        },
+                        {
+                            "@id": "http://id.ndl.go.jp/bib/4948635",
+                            "label": "url",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/0540/misc/23164263",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/0540/misc",
+                    "rm:id": "23164263",
+                    "rm:user_id": "1000016886",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2017-10-19T17:52:35Z",
+                    "rm:modifier_id": "1000016886",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2024-06-25T01:29:30Z",
+                    "paper_title": {
+                        "ja": "ブラジル，パラー州で誕生したLambadaと呼ばれるダンスの起源に関する一考案",
+                        "en": "A Study on the Origin of Brazilian Dance\"Lambada\""
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "神戸 周"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Kambe Chikashi"
+                            }
+                        ]
+                    },
+                    "published_paper_owner_roles": [
+                        "lead"
+                    ],
+                    "publisher": {
+                        "ja": "東京学芸大学",
+                        "en": "Tokyo Gakugei University"
+                    },
+                    "publication_date": "1996-11",
+                    "publication_name": {
+                        "ja": "東京学芸大学紀要 第5部門",
+                        "en": "Bulletin of Tokyo Gakugei University Sect.Ⅴ"
+                    },
+                    "volume": "48",
+                    "number": "第48集",
+                    "starting_page": "121",
+                    "ending_page": "129",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "1341-1691"
+                        ],
+                        "cinii_na_id": [
+                            "110000547493"
+                        ],
+                        "cinii_nc_id": [
+                            "AN10404761"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/110000547493",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_books",
+                            "@id": "http://ci.nii.ac.jp/ncid/AN10404761",
+                            "is_downloadable": false
+                        },
+                        {
+                            "@id": "http://id.ndl.go.jp/bib/4137204",
+                            "label": "url",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/0540/misc/23164264",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/0540/misc",
+                    "rm:id": "23164264",
+                    "rm:user_id": "1000016886",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2017-10-19T17:52:35Z",
+                    "rm:modifier_id": "1000016886",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2024-06-25T01:29:48Z",
+                    "paper_title": {
+                        "ja": "カリブ海諸島でアフリカ系住民によって踊られた\"Calenda\" と呼ばれるダンスについての一考察",
+                        "en": "A Study of Afro-Caribbean Dances\"Calendas\""
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "神戸 周"
+                            }
+                        ]
+                    },
+                    "published_paper_owner_roles": [
+                        "lead"
+                    ],
+                    "publication_date": "1995-11",
+                    "publication_name": {
+                        "ja": "東京学芸大学紀要 第5部門",
+                        "en": "Bulletin of Tokyo Gakugei University Sect.Ⅴ"
+                    },
+                    "number": "第47集",
+                    "starting_page": "257",
+                    "ending_page": "268",
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/0540/misc/23164266",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/0540/misc",
+                    "rm:id": "23164266",
+                    "rm:user_id": "1000016886",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2017-10-19T17:52:35Z",
+                    "rm:modifier_id": "1000016886",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2024-06-25T01:30:26Z",
+                    "paper_title": {
+                        "ja": "ダンス学習における選択制実施について～中学校・高校現職教員への全国調査から",
+                        "en": "Problems Related to Introduction of an Elective System in Dance Education-From the National Survey of Consciousness to Junior High School and Senior High School Teachers"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "松本富子"
+                            },
+                            {
+                                "name": "神戸周"
+                            },
+                            {
+                                "name": "国枝たか子"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "MATUMOTO Tomiko"
+                            },
+                            {
+                                "name": "KANBE Chikashi"
+                            },
+                            {
+                                "name": "KUNIEDA Takako"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "群馬大学",
+                        "en": "Gunma University"
+                    },
+                    "publication_date": "1994-10",
+                    "publication_name": {
+                        "ja": "群馬大学教育学部紀要 芸術・技術・体育・生活科学編",
+                        "en": "Annual report of the Faculty of Education, Gunma University. Art, technology, health and physical education, and science of human living series"
+                    },
+                    "volume": "第29巻",
+                    "starting_page": "95",
+                    "ending_page": "108",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "0533-6627"
+                        ],
+                        "cinii_na_id": [
+                            "110000179173"
+                        ],
+                        "cinii_nc_id": [
+                            "AN00068475"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/110000179173",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_books",
+                            "@id": "http://ci.nii.ac.jp/ncid/AN00068475",
+                            "is_downloadable": false
+                        },
+                        {
+                            "@id": "http://id.ndl.go.jp/bib/3559277",
+                            "label": "url",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/0540/misc/23164265",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/0540/misc",
+                    "rm:id": "23164265",
+                    "rm:user_id": "1000016886",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2017-10-19T17:52:35Z",
+                    "rm:modifier_id": "1000016886",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2024-06-25T01:30:42Z",
+                    "paper_title": {
+                        "ja": "黒人アフリカのダンス文化に関する概括的研究",
+                        "en": "A Brief Study of Dance Culture in Black Africa"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "神戸 周"
+                            }
+                        ]
+                    },
+                    "published_paper_owner_roles": [
+                        "lead"
+                    ],
+                    "publication_date": "1994-10",
+                    "publication_name": {
+                        "ja": "東京学芸大学紀要 第5部門",
+                        "en": "Bulletin of Tokyo Gakugei University Sect.Ⅴ"
+                    },
+                    "number": "第46集",
+                    "starting_page": "187",
+                    "ending_page": "196",
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/0540/misc/23164267",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/0540/misc",
+                    "rm:id": "23164267",
+                    "rm:user_id": "1000016886",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2017-10-19T17:52:35Z",
+                    "rm:modifier_id": "1000016886",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2024-06-25T01:30:58Z",
+                    "paper_title": {
+                        "ja": "\"Dancing the Slaves\"～いわゆる「中間航路」でアフリカ人奴隷に強制された船上運動に関する一考察",
+                        "en": "\"Dancing the Slaves\"-A Study of the Physical Exercises Forced on Africans on the Slave Ships in the Middle Passage"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "神戸 周"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Kanbe Chikashi"
+                            }
+                        ]
+                    },
+                    "published_paper_owner_roles": [
+                        "lead"
+                    ],
+                    "publisher": {
+                        "ja": "東京学芸大学",
+                        "en": "Tokyo Gakugei University"
+                    },
+                    "publication_date": "1993-10",
+                    "publication_name": {
+                        "ja": "東京学芸大学紀要 第５部門",
+                        "en": "Bulletin of Tokyo Gakugei University Sect.Ⅴ"
+                    },
+                    "volume": "45",
+                    "number": "第45集",
+                    "starting_page": "131",
+                    "ending_page": "141",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "1341-1691"
+                        ],
+                        "cinii_na_id": [
+                            "110000547439"
+                        ],
+                        "cinii_nc_id": [
+                            "AN10404761"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/110000547439",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_books",
+                            "@id": "http://ci.nii.ac.jp/ncid/AN10404761",
+                            "is_downloadable": false
+                        },
+                        {
+                            "@id": "http://id.ndl.go.jp/bib/3544705",
+                            "label": "url",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/0540/misc/23164268",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/0540/misc",
+                    "rm:id": "23164268",
+                    "rm:user_id": "1000016886",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2017-10-19T17:52:35Z",
+                    "rm:modifier_id": "1000016886",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2024-06-25T01:31:14Z",
+                    "paper_title": {
+                        "ja": "アフリカ系アメリカ人のダンス文化の巨視的モデル化に向けての一考察",
+                        "en": "A Study towards Making a Macromodel of African-American Dance Culture"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "神戸 周"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Kambe Chikashi"
+                            }
+                        ]
+                    },
+                    "published_paper_owner_roles": [
+                        "lead"
+                    ],
+                    "publisher": {
+                        "ja": "東京学芸大学",
+                        "en": "Tokyo Gakugei University"
+                    },
+                    "publication_date": "1992-10",
+                    "publication_name": {
+                        "ja": "東京学芸大学紀要 第５部門",
+                        "en": "Bulletin of Tokyo Gakugei University Sect.Ⅴ"
+                    },
+                    "volume": "44",
+                    "number": "第44集",
+                    "starting_page": "123",
+                    "ending_page": "131",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "1341-1691"
+                        ],
+                        "cinii_na_id": [
+                            "110000547421"
+                        ],
+                        "cinii_nc_id": [
+                            "AN10404761"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/110000547421",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_books",
+                            "@id": "http://ci.nii.ac.jp/ncid/AN10404761",
+                            "is_downloadable": false
+                        },
+                        {
+                            "@id": "http://id.ndl.go.jp/bib/3541494",
+                            "label": "url",
+                            "is_downloadable": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/0540/books_etc",
+            "@type": "books_etc",
+            "@reverse": "https://api.researchmap.jp/0540",
+            "total_items": 8,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/0540/books_etc/46869530",
+                    "@type": "books_etc",
+                    "@reverse": "https://api.researchmap.jp/0540/books_etc",
+                    "rm:id": "46869530",
+                    "rm:user_id": "1000016886",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000016886",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2024-06-25T02:13:45Z",
+                    "rm:modifier_id": "1000016886",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2024-06-25T02:13:45Z",
+                    "book_title": {
+                        "ja": "フレーヴォ, カポエイラ, パッソ : ブラジル, ペルナンブーコの民衆芸能研究",
+                        "en": "Frevo, Capoeira e “Passo”"
+                    },
+                    "book_owner_role": "single_translation",
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "神戸 周"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Chikashi KAMBE"
+                            }
+                        ]
+                    },
+                    "originators": {
+                        "ja": [
+                            {
+                                "name": "ヴァウデマール・ヂ・オリヴェイラ"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Valdemar de Oliveira"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "溪水社"
+                    },
+                    "publication_date": "2023-07",
+                    "total_page": "vi, 236p",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "identifiers": {
+                        "isbn": [
+                            "9784863276284"
+                        ],
+                        "cinii_nc_id": [
+                            "BD03131769"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_books",
+                            "@id": "http://ci.nii.ac.jp/ncid/BD03131769",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/0540/books_etc/31083179",
+                    "@type": "books_etc",
+                    "@reverse": "https://api.researchmap.jp/0540/books_etc",
+                    "rm:id": "31083179",
+                    "rm:user_id": "1000016886",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000016886",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2020-12-03T10:16:24Z",
+                    "rm:modifier_id": "1000016886",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2020-12-03T10:16:24Z",
+                    "book_title": {
+                        "ja": "映像で学ぶ舞踊学 : 多様な民族と文化・社会・教育から考える"
+                    },
+                    "book_owner_role": "contributor",
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "弓削田, 綾乃"
+                            },
+                            {
+                                "name": "高橋, 京子(舞踊人類学)"
+                            },
+                            {
+                                "name": "瀬戸, 邦弘"
+                            },
+                            {
+                                "name": "相原, 進"
+                            },
+                            {
+                                "name": "遠藤, 保子"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "大修館書店"
+                    },
+                    "publication_date": "2020-03",
+                    "total_page": "viii,199p",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "identifiers": {
+                        "isbn": [
+                            "9784469268836"
+                        ],
+                        "cinii_nc_id": [
+                            "BB30404939"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_books",
+                            "@id": "http://ci.nii.ac.jp/ncid/BB30404939",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/0540/books_etc/15108916",
+                    "@type": "books_etc",
+                    "@reverse": "https://api.researchmap.jp/0540/books_etc",
+                    "rm:id": "15108916",
+                    "rm:user_id": "1000016886",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000016886",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2020-01-02T11:26:44Z",
+                    "rm:modifier_id": "1000016886",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2020-01-02T11:41:43Z",
+                    "book_title": {
+                        "ja": "ブラジルの民衆舞踊パッソの文化研究"
+                    },
+                    "book_owner_role": "single_work",
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "神戸 周"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "溪水社（広島市）"
+                    },
+                    "publication_date": "2019-12",
+                    "referee": false,
+                    "identifiers": {
+                        "isbn": [
+                            "9784863274969"
+                        ]
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/0540/books_etc/11710832",
+                    "@type": "books_etc",
+                    "@reverse": "https://api.researchmap.jp/0540/books_etc",
+                    "rm:id": "11710832",
+                    "rm:user_id": "1000016886",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2017-10-19T17:52:35Z",
+                    "rm:modifier_id": "1000016886",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2020-01-02T11:43:24Z",
+                    "book_title": {
+                        "ja": "よくわかるスポーツ人類学"
+                    },
+                    "book_owner_role": "contributor",
+                    "publisher": {
+                        "ja": "ミネルヴァ書房（京都市）"
+                    },
+                    "publication_date": "2017-03",
+                    "referee": false,
+                    "identifiers": {
+                        "isbn": [
+                            "9784623080151"
+                        ]
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/0540/books_etc/11710833",
+                    "@type": "books_etc",
+                    "@reverse": "https://api.researchmap.jp/0540/books_etc",
+                    "rm:id": "11710833",
+                    "rm:user_id": "1000016886",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2017-10-19T17:52:35Z",
+                    "rm:modifier_id": "1000016886",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2020-01-02T11:42:56Z",
+                    "book_title": {
+                        "ja": "21世紀スポーツ大事典"
+                    },
+                    "book_owner_role": "contributor",
+                    "publisher": {
+                        "ja": "大修館書店（東京）"
+                    },
+                    "publication_date": "2015-01",
+                    "referee": false,
+                    "identifiers": {
+                        "isbn": [
+                            "9784469062359"
+                        ]
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/0540/books_etc/11710834",
+                    "@type": "books_etc",
+                    "@reverse": "https://api.researchmap.jp/0540/books_etc",
+                    "rm:id": "11710834",
+                    "rm:user_id": "1000016886",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2017-10-19T17:52:35Z",
+                    "rm:modifier_id": "1000016886",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2020-01-02T11:43:12Z",
+                    "book_title": {
+                        "ja": "世界のダンス～世界舞踊祭TOKYOから発信"
+                    },
+                    "book_owner_role": "contributor",
+                    "publisher": {
+                        "ja": "不昧堂出版（東京）"
+                    },
+                    "publication_date": "2013-03",
+                    "referee": false,
+                    "identifiers": {
+                        "isbn": [
+                            "9784829304976"
+                        ]
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/0540/books_etc/11710835",
+                    "@type": "books_etc",
+                    "@reverse": "https://api.researchmap.jp/0540/books_etc",
+                    "rm:id": "11710835",
+                    "rm:user_id": "1000016886",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2017-10-19T17:52:35Z",
+                    "rm:modifier_id": "1000016886",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2020-01-02T11:40:27Z",
+                    "book_title": {
+                        "ja": "体育・スポーツの近現代～歴史からの問いかけ"
+                    },
+                    "book_owner_role": "contributor",
+                    "publisher": {
+                        "ja": "不昧堂出版（東京）"
+                    },
+                    "publication_date": "2011-05",
+                    "referee": false,
+                    "identifiers": {
+                        "isbn": [
+                            "9784829304792"
+                        ]
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/0540/books_etc/11710836",
+                    "@type": "books_etc",
+                    "@reverse": "https://api.researchmap.jp/0540/books_etc",
+                    "rm:id": "11710836",
+                    "rm:user_id": "1000016886",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2017-10-19T17:52:35Z",
+                    "rm:modifier_id": "1000016886",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2020-01-02T11:42:27Z",
+                    "book_title": {
+                        "ja": "話題源体育～心を揺する楽しい授業"
+                    },
+                    "book_owner_role": "contributor",
+                    "publisher": {
+                        "ja": "東京法令出版（東京）"
+                    },
+                    "publication_date": "1990-05",
+                    "referee": false
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/0540/presentations",
+            "@type": "presentations",
+            "@reverse": "https://api.researchmap.jp/0540",
+            "total_items": 12,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/0540/presentations/46869118",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/0540/presentations",
+                    "rm:id": "46869118",
+                    "rm:user_id": "1000016886",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000016886",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2024-06-25T01:51:26Z",
+                    "rm:modifier_id": "1000016886",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2024-06-25T01:52:04Z",
+                    "presentation_title": {
+                        "ja": "ブラジル、ペルナンブーコの民衆文化フレーヴォ",
+                        "en": "Popular Culture Frevo in Pernambuco, Brasil"
+                    },
+                    "presenters": {
+                        "ja": [
+                            {
+                                "name": "神戸 周"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Chikashi KAMBE"
+                            }
+                        ]
+                    },
+                    "event": {
+                        "ja": "在日ブラジル大使館主催セミナー"
+                    },
+                    "publication_date": "2024-01",
+                    "invited": true,
+                    "languages": [
+                        "jpn"
+                    ],
+                    "presentation_type": "public_discourse",
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/0540/presentations/46869050",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/0540/presentations",
+                    "rm:id": "46869050",
+                    "rm:user_id": "1000016886",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000016886",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2024-06-25T01:45:51Z",
+                    "rm:modifier_id": "1000016886",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2024-06-25T01:47:23Z",
+                    "presentation_title": {
+                        "ja": "日本におけるブラジル文化とフレーヴォ",
+                        "en": "Brazilian Culture in Japan and Frevo"
+                    },
+                    "presenters": {
+                        "ja": [
+                            {
+                                "name": "神戸 周"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Chikashi KAMBE"
+                            }
+                        ]
+                    },
+                    "event": {
+                        "ja": "第2回フレーヴォに関する研究者集会（ブラジル連邦共和国レシーフェ市）"
+                    },
+                    "publication_date": "2015-11",
+                    "invited": false,
+                    "languages": [
+                        "por"
+                    ],
+                    "presentation_type": "oral_presentation",
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/0540/presentations/16522023",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/0540/presentations",
+                    "rm:id": "16522023",
+                    "rm:user_id": "1000016886",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2017-10-19T17:52:35Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2017-10-19T17:52:35Z",
+                    "presentation_title": {
+                        "ja": "民衆芸能フレーヴォにおける踊りの身体",
+                        "en": "Popular Spectacle Frevo and the Dancing Body"
+                    },
+                    "event": {
+                        "ja": "日本体育学会第66回大会"
+                    },
+                    "publication_date": "2015-08",
+                    "invited": false,
+                    "presentation_type": "oral_presentation",
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/0540/presentations/16522024",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/0540/presentations",
+                    "rm:id": "16522024",
+                    "rm:user_id": "1000016886",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2017-10-19T17:52:35Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2017-10-19T17:52:35Z",
+                    "presentation_title": {
+                        "ja": "ナシメント・ド・パッソ～「レシーフェ最後の古典的パシスタ」の生涯",
+                        "en": "Nascimento do Passo：Lifetime of “the Last Classic Frevo Dancer in Recife”"
+                    },
+                    "event": {
+                        "ja": "日本体育学会第65回大会"
+                    },
+                    "publication_date": "2014-08",
+                    "invited": false,
+                    "presentation_type": "oral_presentation",
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/0540/presentations/16522025",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/0540/presentations",
+                    "rm:id": "16522025",
+                    "rm:user_id": "1000016886",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2017-10-19T17:52:35Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2017-10-19T17:52:35Z",
+                    "presentation_title": {
+                        "ja": "ブラジル、ペルナンブーコ州レシーフェのカルナヴァルにおける行政機関の取り組みに関する一考察 ～「コンテストならびに文化教育実施本部」による２０１０年度活動報告書を手掛かりに",
+                        "en": "A Study on the Carnival Management of the City of Recife, Pernambuco, Brazil：The Examination of the 2010 Report of \"o Nucleo de Concursos e Formacao Cultural\""
+                    },
+                    "event": {
+                        "ja": "日本体育学会第64回大会"
+                    },
+                    "publication_date": "2013-08",
+                    "invited": false,
+                    "presentation_type": "oral_presentation",
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/0540/presentations/16522026",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/0540/presentations",
+                    "rm:id": "16522026",
+                    "rm:user_id": "1000016886",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2017-10-19T17:52:35Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2017-10-19T17:52:35Z",
+                    "presentation_title": {
+                        "ja": "民衆芸能フレーヴォの継承に向けた取り組み～「パッソの戦士たちプロジェクト」の活動実践を手掛かりに",
+                        "en": "A Scheme for Handing Popular Spectacle Frevo down to the Next Generation : The Practice of \"O Projeto Guerreiros do Passo\""
+                    },
+                    "event": {
+                        "ja": "日本体育学会第63回大会"
+                    },
+                    "publication_date": "2012-08",
+                    "invited": false,
+                    "presentation_type": "oral_presentation",
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/0540/presentations/16522027",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/0540/presentations",
+                    "rm:id": "16522027",
+                    "rm:user_id": "1000016886",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2017-10-19T17:52:35Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2017-10-19T17:52:35Z",
+                    "presentation_title": {
+                        "ja": "フレーヴォの市立学校における活動実践～ブラジル、ペルナンブーコ州レシーフェの民衆芸能に関する一考察",
+                        "en": "The Practice of Popular Dance in Escola Municipal de Frevo : A Study on a Popular Spectacle of Recife, Pernambuco, Brazil"
+                    },
+                    "event": {
+                        "ja": "日本体育学会第62回大会"
+                    },
+                    "publication_date": "2011-09",
+                    "invited": false,
+                    "presentation_type": "oral_presentation",
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/0540/presentations/16522028",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/0540/presentations",
+                    "rm:id": "16522028",
+                    "rm:user_id": "1000016886",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2017-10-19T17:52:35Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2017-10-19T17:52:35Z",
+                    "presentation_title": {
+                        "ja": "パッソの身体所作，演技および指導法～ブラジル，ペルナンブーコ州レシーフェの民衆舞踊に関する一考察",
+                        "en": "Movement, Performance and Instruction of Passo : A Study on a Popular Dance in Recife, Pernambuco, Brazil"
+                    },
+                    "event": {
+                        "ja": "比較舞踊学会第21回大会"
+                    },
+                    "publication_date": "2010-12",
+                    "invited": false,
+                    "presentation_type": "oral_presentation",
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/0540/presentations/16522029",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/0540/presentations",
+                    "rm:id": "16522029",
+                    "rm:user_id": "1000016886",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2017-10-19T17:52:35Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2017-10-19T17:52:35Z",
+                    "presentation_title": {
+                        "ja": "ブラジル北東部，ペルナンブーコの民衆芸能",
+                        "en": "Popular Spectacles in Pernambuco, Brazil"
+                    },
+                    "event": {
+                        "ja": "日本スポーツ人類学会定例研究会「スポ人サロン」"
+                    },
+                    "publication_date": "2006-04",
+                    "invited": false,
+                    "presentation_type": "oral_presentation",
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/0540/presentations/16522031",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/0540/presentations",
+                    "rm:id": "16522031",
+                    "rm:user_id": "1000016886",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2017-10-19T17:52:35Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2017-10-19T17:52:35Z",
+                    "presentation_title": {
+                        "ja": "ブラジル，ペルナンブーコ州レシーフェのフレーヴォFrevoについて",
+                        "en": "Popular Music and Dance\"Frevo\" in Recife, Pernambuco, Brazil"
+                    },
+                    "event": {
+                        "ja": "日本スポーツ人類学会第７回大会"
+                    },
+                    "publication_date": "2006-03",
+                    "invited": false,
+                    "presentation_type": "oral_presentation",
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/0540/presentations/16522030",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/0540/presentations",
+                    "rm:id": "16522030",
+                    "rm:user_id": "1000016886",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2017-10-19T17:52:35Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2017-10-19T17:52:35Z",
+                    "presentation_title": {
+                        "ja": "ブラジル，ペルナンブーコ州の民衆芸能",
+                        "en": "Popular Spectacles in Pernambuco, Brazil"
+                    },
+                    "event": {
+                        "ja": "第５回世界舞踊祭シンポジウム"
+                    },
+                    "publication_date": "2006-03",
+                    "invited": false,
+                    "presentation_type": "oral_presentation",
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/0540/presentations/16522032",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/0540/presentations",
+                    "rm:id": "16522032",
+                    "rm:user_id": "1000016886",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2017-10-19T17:52:35Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2017-10-19T17:52:35Z",
+                    "presentation_title": {
+                        "ja": "ブラジル，ペルナンブーコ州レシーフェの民衆芸能とポピュラーダンス",
+                        "en": "Popular Spectacles and Popular Dance in Recife, Pernambuco, Brazil"
+                    },
+                    "event": {
+                        "ja": "比較舞踊学会第16回大会"
+                    },
+                    "publication_date": "2005-11",
+                    "invited": false,
+                    "presentation_type": "oral_presentation",
+                    "rm:is_open_access": false
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/0540/works",
+            "@type": "works",
+            "@reverse": "https://api.researchmap.jp/0540",
+            "total_items": 1,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/0540/works/355401",
+                    "@type": "works",
+                    "@reverse": "https://api.researchmap.jp/0540/works",
+                    "rm:id": "355401",
+                    "rm:user_id": "1000016886",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000016886",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2006-01-31T15:00:00Z",
+                    "rm:modifier_id": "1000016886",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2006-01-31T15:00:00Z",
+                    "work_title": {
+                        "en": "Chikashi Kambe's Dance Performance"
+                    },
+                    "work_type": "artistic_activity",
+                    "from_date": "1986-07-07"
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/0540/research_projects",
+            "@type": "research_projects",
+            "@reverse": "https://api.researchmap.jp/0540",
+            "total_items": 1,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/0540/research_projects/11762932",
+                    "@type": "research_projects",
+                    "@reverse": "https://api.researchmap.jp/0540/research_projects",
+                    "rm:id": "11762932",
+                    "rm:user_id": "1000016886",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2017-10-19T17:52:35Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2017-10-19T17:52:35Z",
+                    "research_project_title": {
+                        "ja": "ブラジル北東部の舞踊文化"
+                    },
+                    "overall_grant_amount": {
+                        "indirect_cost": "0",
+                        "total_cost": "0",
+                        "direct_cost": "0"
+                    },
+                    "fund_type": "competitive_research_funding"
+                }
+            ]
+        }
+    ]
+}

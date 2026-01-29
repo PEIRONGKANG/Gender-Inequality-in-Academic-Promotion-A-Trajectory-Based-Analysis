@@ -1,0 +1,1761 @@
+{
+    "@context": "https://api.researchmap.jp/researcher.jsonld",
+    "@id": "https://api.researchmap.jp/read0004985?format=json",
+    "@type": "researchers",
+    "rm:user_id": "0000044656",
+    "rm:creator_id": "0000044656",
+    "rm:creator_type": "myself",
+    "rm:created": "2001-12-10T15:00:00Z",
+    "rm:modifier_id": "0000044656",
+    "rm:modifier_type": "myself",
+    "rm:modified": "2020-08-29T01:52:40Z",
+    "permalink": "read0004985",
+    "family_name": {
+        "ja": "中永",
+        "ja-Kana": "ナカナガ",
+        "en": "Nakanaga"
+    },
+    "given_name": {
+        "ja": "泰介",
+        "ja-Kana": "タイスケ",
+        "en": "Taisuke"
+    },
+    "display_name_kana": "disclosed",
+    "display_nickname": "disclosed",
+    "display_image": "disclosed",
+    "display_contact_point": "disclosed",
+    "affiliations": [
+        {
+            "affiliation": {
+                "ja": "独立行政法人産業技術総合研究所",
+                "en": "National Institute of Advanced Industrial Science and Technology"
+            },
+            "section": {
+                "ja": "計測フロンティア研究部門 活性種計測技術研究グループ"
+            },
+            "display_affiliation": "disclosed",
+            "display_job": "disclosed",
+            "rm:institution_code": "A142000000"
+        }
+    ],
+    "degrees": [
+        {
+            "degree": {
+                "ja": "理学博士"
+            },
+            "display_degree": "disclosed",
+            "rm:institution_code": "9999999999"
+        }
+    ],
+    "display_profile": "disclosed",
+    "see_also": [
+        {
+            "label": "j_global",
+            "@id": "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=200901007679160730"
+        },
+        {
+            "label": "url",
+            "@id": "http://www.aist.go.jp/RESEARCHERDB/cgi-bin/worker_detail.cgi?call=namae&rw_id=T38829541"
+        }
+    ],
+    "display_url": "disclosed",
+    "identifiers": {
+        "j_global_id": [
+            "200901007679160730"
+        ]
+    },
+    "rm:erad_id_verified": false,
+    "rm:orc_id_verified": false,
+    "display_erad_id": "closed",
+    "display_orc_id": "closed",
+    "display_researcher_id": "disclosed",
+    "display_j_global_id": "disclosed",
+    "@graph": [
+        {
+            "@id": "https://api.researchmap.jp/read0004985/research_areas",
+            "@type": "research_areas",
+            "@reverse": "https://api.researchmap.jp/read0004985",
+            "total_items": 1,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0004985/research_areas/296712",
+                    "@type": "research_areas",
+                    "@reverse": "https://api.researchmap.jp/read0004985/research_areas",
+                    "rm:id": "296712",
+                    "rm:user_id": "0000044656",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000044656",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2001-12-10T15:00:00Z",
+                    "rm:modifier_id": "0000044656",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2001-12-10T15:00:00Z",
+                    "discipline_number": "A489",
+                    "item_number": "A32010",
+                    "discipline": {
+                        "ja": "ナノテク・材料",
+                        "en": "Nanotechnology/Materials"
+                    },
+                    "research_field": {
+                        "ja": "基礎物理化学",
+                        "en": "Basic physical chemistry"
+                    }
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0004985/misc",
+            "@type": "misc",
+            "@reverse": "https://api.researchmap.jp/read0004985",
+            "total_items": 31,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0004985/misc/2175530",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0004985/misc",
+                    "rm:id": "2175530",
+                    "rm:user_id": "0000044656",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000044656",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2011-02-02T15:00:00Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-05-17T08:24:02Z",
+                    "paper_title": {
+                        "en": "Observation of the phase lags among the molecules in the coherent phase control of multiphoton ionization"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Hidekazu Nagai"
+                            },
+                            {
+                                "name": "Hideki Ohmura"
+                            },
+                            {
+                                "name": "Taisuke Nakanaga"
+                            },
+                            {
+                                "name": "Masanori Tachiya"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "The phase lags among the molecules have been observed in the coherent phase control of multiphoton ionization. Coherent phase control using three- and one-photon excitation scheme has been applied to the multiphoton ionization of the (CH3)(3)N, (CH3)(2)S, C2H5SH, CH3I, and CD3I molecules. The phase lags of methyliodide (CH3I and CD3I) relative to other molecules showed considerable dependence on the excitation wavelength, especially in the vicinity of the absorption peak of CD3I. The energy dependence of the phase lag indicates that the molecular phase for the ionization of methyliodide is not zero. (c) 2006 Elsevier B.V. All rights reserved."
+                    },
+                    "publisher": {
+                        "en": "ELSEVIER SCIENCE SA"
+                    },
+                    "publication_date": "2006-09",
+                    "publication_name": {
+                        "en": "JOURNAL OF PHOTOCHEMISTRY AND PHOTOBIOLOGY A-CHEMISTRY"
+                    },
+                    "volume": "182",
+                    "number": "3",
+                    "starting_page": "209",
+                    "ending_page": "212",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1016/j.jphotochem.2006.04.024"
+                        ],
+                        "issn": [
+                            "1010-6030"
+                        ],
+                        "wos_id": [
+                            "WOS:000240612400002"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1016/j.jphotochem.2006.04.024",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000240612400002&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0004985/misc/2175529",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0004985/misc",
+                    "rm:id": "2175529",
+                    "rm:user_id": "0000044656",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000044656",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2011-02-02T15:00:00Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-05-17T00:06:02Z",
+                    "paper_title": {
+                        "en": "Observation of the C-H stretching band of methyl iodide dimer by infrared cavity ring-down spectroscopy"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "F Ito"
+                            },
+                            {
+                                "name": "H Ohmura"
+                            },
+                            {
+                                "name": "T Nakanaga"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "The infrared spectrum of dimeric methyl iodide produced in a supersonic jet has been re-measured in the C-H stretching region by cavity ring-down spectroscopy with higher resolution, 0.03 cm(-1). Two absorption bands of the dimer, which could not be observed in our previous study [F. Ito, T. Nakanaga, Y. Futami, M. Nakata, Chem. Phys. 286 (2003) 337] have been identified. Analyses including peak decomposition and contour simulation have led to the assignment of the two bands to the head-to-head and head-to-tail isomers of (CH(3)I)(2). (c) 2005 Elsevier B.V. All rights reserved."
+                    },
+                    "publisher": {
+                        "en": "ELSEVIER SCIENCE BV"
+                    },
+                    "publication_date": "2006-03",
+                    "publication_name": {
+                        "en": "CHEMICAL PHYSICS LETTERS"
+                    },
+                    "volume": "420",
+                    "number": "1-3",
+                    "starting_page": "157",
+                    "ending_page": "161",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "cinii_na_id": [
+                            "80019272699"
+                        ],
+                        "doi": [
+                            "10.1016/j.cplett.2005.12.059"
+                        ],
+                        "issn": [
+                            "0009-2614"
+                        ],
+                        "wos_id": [
+                            "WOS:000236097100030"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/80019272699",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1016/j.cplett.2005.12.059",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000236097100030&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0004985/misc/2175528",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0004985/misc",
+                    "rm:id": "2175528",
+                    "rm:user_id": "0000044656",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000044656",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2011-02-02T15:00:00Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-05-17T08:22:33Z",
+                    "paper_title": {
+                        "en": "Coherent phase control of the product branching ratio in the photodissociation of dimethylsulfide"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "H Nagai"
+                            },
+                            {
+                                "name": "H Ohmura"
+                            },
+                            {
+                                "name": "F Ito"
+                            },
+                            {
+                                "name": "T Nakanaga"
+                            },
+                            {
+                                "name": "M Tachiya"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "Coherent phase control of the photodissociation reaction of the dimethylsulfide has been achieved by means of quantum-mechanical interference between one- and three-photon transitions. Dimethylsulfide was irradiated by fundamental and frequency-tripled outputs of a visible laser (600.5-602.5 nm), simultaneously to yield CH3S+ and CH3SCH2+ fragment ions. The branching ratio of the two product channels could be modulated with variation of the phase difference between the light fields. This accounted for the difference between the molecular phases of the two product channels. The phase lag was observed to have a maximum value of 8 degrees at 601.5 nm. This is the first result of a selective bond breaking in a polyatomic molecule by the coherent phase control."
+                    },
+                    "publisher": {
+                        "en": "AMER INST PHYSICS"
+                    },
+                    "publication_date": "2006-01",
+                    "publication_name": {
+                        "en": "JOURNAL OF CHEMICAL PHYSICS"
+                    },
+                    "volume": "124",
+                    "number": "3",
+                    "starting_page": "034304-",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1063/1.2165200"
+                        ],
+                        "issn": [
+                            "0021-9606"
+                        ],
+                        "e_issn": [
+                            "1089-7690"
+                        ],
+                        "wos_id": [
+                            "WOS:000234757400021"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1063/1.2165200",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000234757400021&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0004985/misc/2175527",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0004985/misc",
+                    "rm:id": "2175527",
+                    "rm:user_id": "0000044656",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000044656",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2011-02-02T15:00:00Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-04-27T16:34:22Z",
+                    "paper_title": {
+                        "en": "Coherent control of interference between one- and two-photon dissociation of allyl iodide"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "H Ohmura"
+                            },
+                            {
+                                "name": "T Nakanaga"
+                            },
+                            {
+                                "name": "M Tachiya"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "We have investigated the interference effects between two coherent excitation pathways in photodissociation of allyl iodide by using nanosecond light and its second-harmonic light. We have performed one-dimensional photofragment translational spectroscopy on allyl iodide in the presence of simultaneous one- and two-photon excitation. The yield of the spin-orbit excited iodine atoms dissociated from allyl iodide molecules shows an oscillating behavior that is dependent on the relative phase between the fundamental and the second-harmonic light. This phase-dependent behavior can be explained by the interference between a one-photon transition induced by the second-harmonic light and a two-photon transition resulting from lack of symmetry of allyl iodide with respect to inversion. (C) 2004 Elsevier B.V. All rights reserved."
+                    },
+                    "publisher": {
+                        "en": "ELSEVIER SCIENCE SA"
+                    },
+                    "publication_date": "2004-08",
+                    "publication_name": {
+                        "en": "JOURNAL OF PHOTOCHEMISTRY AND PHOTOBIOLOGY A-CHEMISTRY"
+                    },
+                    "volume": "166",
+                    "number": "1-3",
+                    "starting_page": "3",
+                    "ending_page": "7",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1016/j.jphotochem.2004.04.025"
+                        ],
+                        "issn": [
+                            "1010-6030"
+                        ],
+                        "wos_id": [
+                            "WOS:000223386900002"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1016/j.jphotochem.2004.04.025",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000223386900002&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0004985/misc/2175526",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0004985/misc",
+                    "rm:id": "2175526",
+                    "rm:user_id": "0000044656",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000044656",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2011-02-02T15:00:00Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-04-26T11:02:47Z",
+                    "paper_title": {
+                        "en": "Coherent control of photofragment separation in the dissociative ionization of IBr"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "H Ohmura"
+                            },
+                            {
+                                "name": "T Nakanaga"
+                            },
+                            {
+                                "name": "M Tachiya"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "We have investigated coherent control of the dissociative ionization of IBr using phase-controlled two-color omega+2omega laser pulses with an intensity of 1.0x10(12) W/cm and a pulse duration of 130 fs. The directional asymmetries of the photofragment angular distributions showed oscillation behavior dependent on the relative phase difference between the omega and 2omega pulses. The phase dependencies of the directional asymmetries observed for iodine ions and bromine ions were out of phase with each other. This result shows that a phase-controlled omega+2omega optical field can produce molecular orientation in which the optical field discriminates between parallel and antiparallel configuration of molecules that have a permanent dipole."
+                    },
+                    "publisher": {
+                        "en": "AMERICAN PHYSICAL SOC"
+                    },
+                    "publication_date": "2004-03",
+                    "publication_name": {
+                        "en": "PHYSICAL REVIEW LETTERS"
+                    },
+                    "volume": "92",
+                    "number": "11",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1103/PhysRevLett.92.113002"
+                        ],
+                        "issn": [
+                            "0031-9007"
+                        ],
+                        "wos_id": [
+                            "WOS:000220344400014"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1103/PhysRevLett.92.113002",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000220344400014&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0004985/misc/2175525",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0004985/misc",
+                    "rm:id": "2175525",
+                    "rm:user_id": "0000044656",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000044656",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2011-02-02T15:00:00Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-04-27T08:15:39Z",
+                    "paper_title": {
+                        "en": "Quantum control of molecular orientation by two-color laser fields"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "H Ohmura"
+                            },
+                            {
+                                "name": "T Nakanaga"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "We demonstrate molecular orientation by using phase-controlled two-color omega+2omega laser pulses with an intensity of 1.0 X 10(12) W/cm(2) and a pulse duration of 130 fs. The orientation of three iodine-containing molecules (IBr, CH3I, and C3H5I) was monitored by the directional asymmetries of the photofragment angular distribution in dissociative ionization. In all three molecules, the directional asymmetry showed an oscillating behavior dependent on the relative phase difference between omega and 2omega pulses. The phase dependence of the directional asymmetry observed in iodine ions and counterpart ions were out of phase with each other. This result shows that a phase-controlled omega+2omega optical field discriminates between parallel and antiparallel configurations of aligned molecules that have a permanent dipole. This method performed well because (1) molecular orientation can be achieved by all-optical fields; (2) the direction of orientation is easily switched by changing the sign of the quantum interference; and (3) this method is free from any resonance constraint and thus can be applied to any molecule. (C) 2004 American Institute of Physics."
+                    },
+                    "publisher": {
+                        "en": "AMER INST PHYSICS"
+                    },
+                    "publication_date": "2004-03",
+                    "publication_name": {
+                        "en": "JOURNAL OF CHEMICAL PHYSICS"
+                    },
+                    "volume": "120",
+                    "number": "11",
+                    "starting_page": "5176",
+                    "ending_page": "5180",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "cinii_na_id": [
+                            "80016534213"
+                        ],
+                        "doi": [
+                            "10.1063/1.1644102"
+                        ],
+                        "issn": [
+                            "0021-9606"
+                        ],
+                        "wos_id": [
+                            "WOS:000220225000024"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/80016534213",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1063/1.1644102",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000220225000024&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0004985/misc/2175524",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0004985/misc",
+                    "rm:id": "2175524",
+                    "rm:user_id": "0000044656",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000044656",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2011-02-02T15:00:00Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-04-26T08:59:59Z",
+                    "paper_title": {
+                        "en": "Structures of methyl halide dimers in supersonic jets by matrix-isolation infrared spectroscopy and quantum chemical calculations"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Y Futami"
+                            },
+                            {
+                                "name": "S Kudoh"
+                            },
+                            {
+                                "name": "F Ito"
+                            },
+                            {
+                                "name": "T Nakanaga"
+                            },
+                            {
+                                "name": "M Nakata"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "The CH3Cl and CH3Br dimers produced by supersonic-jet expansion were directly deposited on a cold plate using a standard matrix-isolation technique. Dependence of the relative intensities of the observed infrared bands on the stagnation pressure was used to assign the dimer bands appearing near the monomer bands. By a comparison of the wavenumber shifts from the monomer bands with the corresponding values obtained by quantum chemical calculations, DFT/B3LYP/6-311++G(3pd,3df) and MP2/LanL2DZ + fdp, the structures of CH3Cl and CH3Br dimers were determined to be a head-to-tail isomer, which is common to the CH3F and CH3I dimers determined previously by the same method. The remaining dimer bands, which could not be assigned to the head-to-tail isomer, were tentatively assigned to a head-to-head isomer in analogy with CH3I dimer. (C) 2004 Elsevier B.V. All rights reserved."
+                    },
+                    "publisher": {
+                        "en": "ELSEVIER SCIENCE BV"
+                    },
+                    "publication_date": "2004-03",
+                    "publication_name": {
+                        "en": "JOURNAL OF MOLECULAR STRUCTURE"
+                    },
+                    "volume": "690",
+                    "number": "1-3",
+                    "starting_page": "9",
+                    "ending_page": "16",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1016/j.molstruc.2003.10.037"
+                        ],
+                        "issn": [
+                            "0022-2860"
+                        ],
+                        "wos_id": [
+                            "WOS:000188886900002"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1016/j.molstruc.2003.10.037",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000188886900002&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0004985/misc/2175522",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0004985/misc",
+                    "rm:id": "2175522",
+                    "rm:user_id": "0000044656",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000044656",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2011-02-02T15:00:00Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-04-26T07:15:19Z",
+                    "paper_title": {
+                        "en": "Infrared depletion spectroscopy of aniline-toluene cluster: the investigation of the red shifts of the NH2 stretching vibrations of aniline-aromatic clusters"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "NK Piracha"
+                            },
+                            {
+                                "name": "F Ito"
+                            },
+                            {
+                                "name": "T Nakanaga"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "The infrared spectra of the NH2 stretching vibrations of aniline-toluene cluster and corresponding cluster cation have been measured by the infrared depletion method. The NH2 stretching vibrations of aniline-toluene cluster were observed at 3393 and 3468 cm(-1). The red shifts from the corresponding bands of aniline monomer are 29 and 40 cm(-1), respectively, for the NH2 symmetric and. anti-symmetric stretching vibrations. The magnitudes of the red shifts are similar to those of other aniline-aromatic clusters. The structure of this cluster has been found to be a sandwich type, that is, the two aromatic rings are parallel in the cluster and main interaction forces are the NH2-pi type hydrogen bond and the dispersion force between two aromatic rings. The reason for the constant red shift for the different clusters with different proton affinity has been discussed. (C) 2003 Elsevier B.V. All rights reserved."
+                    },
+                    "publisher": {
+                        "en": "ELSEVIER SCIENCE BV"
+                    },
+                    "publication_date": "2004-02",
+                    "publication_name": {
+                        "en": "CHEMICAL PHYSICS"
+                    },
+                    "volume": "297",
+                    "number": "1-3",
+                    "starting_page": "133",
+                    "ending_page": "138",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1016/j.chemphys.2003.10.022"
+                        ],
+                        "issn": [
+                            "0301-0104"
+                        ],
+                        "wos_id": [
+                            "WOS:000188647500015"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1016/j.chemphys.2003.10.022",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000188647500015&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0004985/misc/2175521",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0004985/misc",
+                    "rm:id": "2175521",
+                    "rm:user_id": "0000044656",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000044656",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2011-02-02T15:00:00Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-04-27T14:44:36Z",
+                    "paper_title": {
+                        "en": "Coherent laser control of the photoexcitation of methyl iodide clusters"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "H Nagai"
+                            },
+                            {
+                                "name": "H Ohmura"
+                            },
+                            {
+                                "name": "F Ito"
+                            },
+                            {
+                                "name": "T Nakanaga"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "Coherent phase control of the photoexcitation of CH3I clusters was achieved by means of quantum mechanical interference between 1- and 3-photon transitions. Fundamental and frequency-tripled outputs of a visible laser (600.4-603.4 nm) were used to excite the CH3I clusters, and the resonance enhanced multiphoton ionization spectra with time-of-flight mass detection were measured. The CH3I+, CH3+, I+, and (CH3I)CH3+ signals observed in the mass spectrum exhibited the effects of phase modulation. All the modulations of these ion signals were in phase. This result indicates that the molecular phase was not affected by solvation in the clusters, (C) 2003 Elsevier B.V. All rights reserved."
+                    },
+                    "publisher": {
+                        "en": "ELSEVIER SCIENCE BV"
+                    },
+                    "publication_date": "2004-01",
+                    "publication_name": {
+                        "en": "CHEMICAL PHYSICS LETTERS"
+                    },
+                    "volume": "383",
+                    "number": "3-4",
+                    "starting_page": "240",
+                    "ending_page": "244",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1016/j.cplett.2003.11.036"
+                        ],
+                        "issn": [
+                            "0009-2614"
+                        ],
+                        "e_issn": [
+                            "1873-4448"
+                        ],
+                        "wos_id": [
+                            "WOS:000187956600005"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1016/j.cplett.2003.11.036",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000187956600005&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0004985/misc/2175523",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0004985/misc",
+                    "rm:id": "2175523",
+                    "rm:user_id": "0000044656",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000044656",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2011-02-02T15:00:00Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-04-29T03:19:25Z",
+                    "paper_title": {
+                        "en": "Photodissociation of methyl iodide clusters in the A-band excitation: Photofragmentation excitation spectra of (CH3I)(n) by ultraviolet pump-CRD probe measurement"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "F Ito"
+                            },
+                            {
+                                "name": "T Nakanaga"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "Methyl iodide clusters (CH3I)(n) in a supersonic jet are photolyzed in an excitation of the valence A band with a tunable ultraviolet light source, and the iodine molecule (I-2) thus produced is detected by cavity ring-down (CRD) spectroscopy. A production yield of I-2 is measured in the region of 245-275 nm to obtain photofragment excitation (PHOFEX) spectra of (CH3I)(n). The PHOFEX spectra show maximum at 250 nm (similar to1000 cm(-1) blueshifted from monomer) at low concentration, and a new peak at 260-265 nm (similar to450 cm(-1) redshifted) at high concentration. These two peaks are assigned to dimer and higher cluster (hexamer to decamer), respectively, based on our infrared-CRD study [Chem. Phys. 286, 337 (2003)]. The redshifted peak of the higher clusters indicates that perturbation of the excited state due to intermolecular interaction is stronger than in the dimer. (C) 2003 American Institute of Physics."
+                    },
+                    "publisher": {
+                        "en": "AMER INST PHYSICS"
+                    },
+                    "publication_date": "2003-09",
+                    "publication_name": {
+                        "en": "JOURNAL OF CHEMICAL PHYSICS"
+                    },
+                    "volume": "119",
+                    "number": "11",
+                    "starting_page": "5527",
+                    "ending_page": "5533",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "cinii_na_id": [
+                            "80016124423"
+                        ],
+                        "doi": [
+                            "10.1063/1.1599832"
+                        ],
+                        "issn": [
+                            "0021-9606"
+                        ],
+                        "e_issn": [
+                            "1089-7690"
+                        ],
+                        "wos_id": [
+                            "WOS:000185025000025"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/80016124423",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1063/1.1599832",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000185025000025&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0004985/misc/2175517",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0004985/misc",
+                    "rm:id": "2175517",
+                    "rm:user_id": "0000044656",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000044656",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2011-02-02T15:00:00Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-04-30T13:07:53Z",
+                    "paper_title": {
+                        "en": "Control of photodissociation: vibrational mode selection and quantum interference"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "H Ohmura"
+                            },
+                            {
+                                "name": "T Nakanaga"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "We present two methods for using lasers to control the photodissociation of small molecules and molecular complexes. The first method, which involves ternary aniline cluster cations consisting of aniline, water, and an aromatic molecule (benzene or pyrrole), utilizes the strong interaction between an NH stretching vibration and an adjacent hydrogen bond The infrared predissociation reactions of the cluster cations were investigated. Upon absorption of an infrared photon, the clusters dissociated and eliminated either water or the aromatic molecule. Measurements of the branching ratio for this reaction revealed that fission of the hydrogen bond was accelerated by excitation of the NH stretching vibration adjacent to the targeted hydrogen bond. The second method involves coherent control in the frequency domain. We investigated interference effects on the two-color dissociation of IBr using the fundamental (560 nm) and its second harmonic (280 nm). In the strong-excitation regime by the fundamental light (similar to1.3 x 10(10) W cm(-2)), the yield of iodine atoms from IBr oscillated with the relative phase of the 560 and 280 nm light, whereas no change was observed in its angular distribution. This phase-dependent behavior can be explained by interference between the one-photon transition induced by the second-harmonic light and the dipole-forbidden two-photon transition induced by the strong fundamental light. (C) 2003 Elsevier Science B.V All rights reserved."
+                    },
+                    "publisher": {
+                        "en": "ELSEVIER SCIENCE SA"
+                    },
+                    "publication_date": "2003-06",
+                    "publication_name": {
+                        "en": "JOURNAL OF PHOTOCHEMISTRY AND PHOTOBIOLOGY A-CHEMISTRY"
+                    },
+                    "volume": "158",
+                    "number": "2-3",
+                    "starting_page": "69",
+                    "ending_page": "76",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1016/S1010-6030(03)00019-4"
+                        ],
+                        "issn": [
+                            "1010-6030"
+                        ],
+                        "wos_id": [
+                            "WOS:000182865400002"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1016/S1010-6030(03)00019-4",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000182865400002&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0004985/misc/2175520",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0004985/misc",
+                    "rm:id": "2175520",
+                    "rm:user_id": "0000044656",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000044656",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2011-02-02T15:00:00Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-04-29T05:13:13Z",
+                    "paper_title": {
+                        "en": "Infrared depletion spectroscopy of aniline-(CH3)(2)O cluster and corresponding cluster cation"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "T Nakanaga"
+                            },
+                            {
+                                "name": "F Ito"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "The infrared spectra of the NH stretching vibrations of aniline-(CH3)(2)O cluster and corresponding cluster cation in 3200-3600 cm(-1) region have been measured using the infrared depletion method. There are two strong absorption bands at 3383 and 3485 cm(-1) in the spectrum of aniline-(CH3)20 cluster. The vibrational analysis has shown that one of the NH bonds of aniline interacts with the lone pair of the oxygen atom of (CH3)(2)O through the hydrogen bond. The spectrum of the aniline-(CH3)(2)O+ gave only one strong absorption at 3430 cm(-1). This band has been assigned to the stretching vibration of the free NH bond of aniline. The red shift of this band agrees with that expected from the correlation between the red shift and the proton affinity of interacting molecule obtained for the NH-sigma type hydrogen bond. (C) 2003 Elsevier Science B.V. All rights reserved."
+                    },
+                    "publisher": {
+                        "en": "ELSEVIER SCIENCE BV"
+                    },
+                    "publication_date": "2003-04",
+                    "publication_name": {
+                        "en": "JOURNAL OF MOLECULAR STRUCTURE"
+                    },
+                    "volume": "649",
+                    "number": "1-2",
+                    "starting_page": "105",
+                    "ending_page": "110",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1016/S0022-2860(03)00045-0"
+                        ],
+                        "issn": [
+                            "0022-2860"
+                        ],
+                        "wos_id": [
+                            "WOS:000181778300012"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1016/S0022-2860(03)00045-0",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000181778300012&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0004985/misc/2175516",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0004985/misc",
+                    "rm:id": "2175516",
+                    "rm:user_id": "0000044656",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000044656",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2011-02-02T15:00:00Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-04-28T22:20:18Z",
+                    "paper_title": {
+                        "en": "Investigation of the NH-pi hydrogen bond interaction in the aniline-alkene (C2H4, C3H6, C4H8) cluster cations by infrared depletion spectroscopy"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "T Nakanaga"
+                            },
+                            {
+                                "name": "K Buchhold"
+                            },
+                            {
+                                "name": "F Ito"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "The vibrational spectra of the NH stretching vibrations of aniline-alkene cluster cations have been measured using infrared depletion method. Aniline-ethene cation showed three strong absorption bands at 3448, 3314 and 3220 cm(-1). The comparison with MO calculation has shown that the main intermolecular interaction is the NH-pi type hydrogen bond between one of the NH bonds of aniline cation and n-electron of ethene, which is different from that observed for the neutral aniline-ethene cluster. The bands at 3448 and 3220 cm(-1) have been assigned to the stretching vibrations of free NH and bonded NH, respectively, and the band at 3314 cm(-1) to the binary overtone of the NH, deformation vibration. Similar results have been obtained for aniline-propene and aniline-butene cluster cations. The red shift of the stretching vibration of free NH bond of aniline cation agreed with that expected from the correlation with the proton affinity of the acceptor molecule obtained for the aniline-aromatic cluster cations (NH-pi type). (C) 2003 Elsevier Science B.V. All rights reserved."
+                    },
+                    "publisher": {
+                        "en": "ELSEVIER SCIENCE BV"
+                    },
+                    "publication_date": "2003-03",
+                    "publication_name": {
+                        "en": "CHEMICAL PHYSICS"
+                    },
+                    "volume": "288",
+                    "number": "1",
+                    "starting_page": "69",
+                    "ending_page": "76",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1016/S0301-0104(02)01051-0"
+                        ],
+                        "issn": [
+                            "0301-0104"
+                        ],
+                        "wos_id": [
+                            "WOS:000181114100007"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1016/S0301-0104(02)01051-0",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000181114100007&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0004985/misc/2175519",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0004985/misc",
+                    "rm:id": "2175519",
+                    "rm:user_id": "0000044656",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000044656",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2011-02-02T15:00:00Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-04-29T18:43:41Z",
+                    "paper_title": {
+                        "en": "Observation of methyl iodide clusters in gas phase by infrared cavity ring-down spectroscopy"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "F Ito"
+                            },
+                            {
+                                "name": "T Nakanaga"
+                            },
+                            {
+                                "name": "Y Futami"
+                            },
+                            {
+                                "name": "M Nakata"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "Infrared spectra of methyl iodide clusters produced in a supersonic jet have been observed in the C-H stretching region by cavity ring-down spectroscopy. The dependence of the spectra on the mixing ratio of CH3I versus He and on the stagnation pressure has led to a tentative assignment of the absorption peaks to trimer up to pentamer, based on our previous study with matrix isolation technique (Chem. Phys. Lett. 343 (2001) 185). Ab initio calculations at the MP2 level for the trimer and tetramer have shown that two stable isomers exist for the tetramer whereas only one isomer is found to be stable for the trimer. The tentative assignment of the observed spectra has been in qualitative agreement with the results of the calculations. The structure of each isomer and its photochemical relevance are discussed. (C) 2002 Elsevier Science B.V. All rights reserved."
+                    },
+                    "publisher": {
+                        "en": "ELSEVIER SCIENCE BV"
+                    },
+                    "publication_date": "2003-01",
+                    "publication_name": {
+                        "en": "CHEMICAL PHYSICS"
+                    },
+                    "volume": "286",
+                    "number": "2-3",
+                    "starting_page": "337",
+                    "ending_page": "345",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "cinii_na_id": [
+                            "80015696549"
+                        ],
+                        "doi": [
+                            "10.1016/S0301-0104(02)00919-9"
+                        ],
+                        "issn": [
+                            "0301-0104"
+                        ],
+                        "wos_id": [
+                            "WOS:000180327600018"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/80015696549",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1016/S0301-0104(02)00919-9",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000180327600018&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0004985/misc/2175518",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0004985/misc",
+                    "rm:id": "2175518",
+                    "rm:user_id": "0000044656",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000044656",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2011-02-02T15:00:00Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-05-01T16:47:52Z",
+                    "paper_title": {
+                        "en": "The interference effects induced by two-color excitation in the photodissociation of IBr"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "H Ohmura"
+                            },
+                            {
+                                "name": "T Nakanaga"
+                            },
+                            {
+                                "name": "H Arakawa"
+                            },
+                            {
+                                "name": "M Tachiya"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "We have investigated the interference effects in the two-color dissociation of IBr using fundamental (560 mn) and its second-harmonic (280 mn) light. We have performed one-dimensional photofragment translational spectroscopy in the presence of two-color excitation. In the strong-excitation regime for the fundamental light (similar to1.3 x 10(10) W cm(-2)), the yield of the spin-orbit excited iodine atoms dissociated from IBr molecules shows an oscillating behavior that is dependent on the relative phase between the fundamental and the second-harmonic light. This phase-dependent behavior can be explained by the interference between a one-photon transition induced by the second-harmonic light and a dipole-forbidden two-photon transition induced. by the strong fundamental light. (C) 2002 Elsevier Science B.V. All rights reserved."
+                    },
+                    "publisher": {
+                        "en": "ELSEVIER SCIENCE BV"
+                    },
+                    "publication_date": "2002-09",
+                    "publication_name": {
+                        "en": "CHEMICAL PHYSICS LETTERS"
+                    },
+                    "volume": "363",
+                    "number": "5-6",
+                    "starting_page": "559",
+                    "ending_page": "566",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "cinii_na_id": [
+                            "80015624338"
+                        ],
+                        "doi": [
+                            "10.1016/S0009-2614(02)01252-6"
+                        ],
+                        "issn": [
+                            "0009-2614"
+                        ],
+                        "wos_id": [
+                            "WOS:000178894900024"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/80015624338",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1016/S0009-2614(02)01252-6",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000178894900024&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0004985/misc/2175514",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0004985/misc",
+                    "rm:id": "2175514",
+                    "rm:user_id": "0000044656",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000044656",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2011-02-02T15:00:00Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-05-02T02:03:24Z",
+                    "paper_title": {
+                        "en": "Infrared depletion spectroscopy of aniline-acetonitrile cation and aniline-acetonitrile-water cation clusters"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "H Nagai"
+                            },
+                            {
+                                "name": "NK Piracha"
+                            },
+                            {
+                                "name": "T Nakanaga"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "The vibrational spectra of the aniline-acetonitrile(+) and the aniline-acetonitrile-water(+) cluster cations have been measured by the infrared depletion spectroscopy in the frequency region of NH and OH stretching vibrations. One absorption band was observed at 3437 cm(-1) in the infrared spectrum of the aniline-acetonitrile+ cluster cation, and was assigned to the NH stretching vibration of free NH of aniline. As for the aniline-water-acetonitrile(+) cluster cation, three absorptions were observed at 3722, 3634 and 3247 cm(-1), which were assigned to the anti-symmetric stretching and symmetric stretching vibrations of OH of water and the stretching vibrations of NH bond interacting with water, respectively. In the analysis of the vibrational spectrum, the structure of aniline-acetonitrile-water(+) cluster cation has been determined to be the hydrogen bonded structure between the hydrogen atoms of the NH2 group of aniline cation and the nitrogen atom in the CN group of acetonitrile and the oxygen atom of water. The predissociation of the aniline-acetonitrile-water(+) cluster cation have been found to give only one product channel dissociating into aniline-acetonitrile(+) and water. (C) 2002 Elsevier Science B.V. All rights reserved."
+                    },
+                    "publisher": {
+                        "en": "ELSEVIER SCIENCE BV"
+                    },
+                    "publication_date": "2002-08",
+                    "publication_name": {
+                        "en": "CHEMICAL PHYSICS"
+                    },
+                    "volume": "282",
+                    "number": "1",
+                    "starting_page": "75",
+                    "ending_page": "80",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "cinii_na_id": [
+                            "80015448214"
+                        ],
+                        "doi": [
+                            "10.1016/S0301-0104(02)00637-7"
+                        ],
+                        "issn": [
+                            "0301-0104"
+                        ],
+                        "wos_id": [
+                            "WOS:000177263300008"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/80015448214",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1016/S0301-0104(02)00637-7",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000177263300008&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0004985/misc/2175507",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0004985/misc",
+                    "rm:id": "2175507",
+                    "rm:user_id": "0000044656",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000044656",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2011-02-02T15:00:00Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-05-01T17:11:57Z",
+                    "paper_title": {
+                        "en": "Infrared spectroscopy of aniline-Ne clusters and the corresponding cluster cations in the NH2-stretching vibration region"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "NK Piracha"
+                            },
+                            {
+                                "name": "T Nakanaga"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "The vibrational spectra of the NH2-stretching modes of aniline-Ne and aniline-Ne+ have been measured using infrared depletion spectroscopy and REMPI-TOF mass spectrometry. In the NH2-stretching vibration region of the aniline-Ne clusters, two absorption bands at 3422 and 3508 cm(-1) were observed. The frequency shifts from the monomer was found to be negligibly small. As for the aniline-Ne+ cluster cations, the observed frequencies of the vibrational modes were 3394 and 3488 cm(-1). These values agreed with ones observed for aniline-Ar+ cluster within the error limit. This fact suggests that the effect of neon to aniline in forming the cluster is not significant in the vibrational spectra, and supports that we can use these values as the unperturbed NH2-stretching frequencies of the aniline monomer cation. (C) 2002 Elsevier Science B.V. All rights reserved."
+                    },
+                    "publisher": {
+                        "en": "ELSEVIER SCIENCE BV"
+                    },
+                    "publication_date": "2002-06",
+                    "publication_name": {
+                        "en": "JOURNAL OF MOLECULAR STRUCTURE"
+                    },
+                    "volume": "611",
+                    "number": "1-3",
+                    "starting_page": "179",
+                    "ending_page": "183",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "cinii_na_id": [
+                            "80015298219"
+                        ],
+                        "doi": [
+                            "10.1016/S0022-2860(02)00066-2"
+                        ],
+                        "issn": [
+                            "0022-2860"
+                        ],
+                        "wos_id": [
+                            "WOS:000176144400019"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/80015298219",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1016/S0022-2860(02)00066-2",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000176144400019&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0004985/misc/2175515",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0004985/misc",
+                    "rm:id": "2175515",
+                    "rm:user_id": "0000044656",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000044656",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2011-02-02T15:00:00Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-05-01T19:08:13Z",
+                    "paper_title": {
+                        "en": "Jet-cooled infrared spectra of the formic acid dimer by cavity ring-down spectroscopy: observation of the O-H stretching region"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "F Ito"
+                            },
+                            {
+                                "name": "T Nakanaga"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "Jet-cooled infrared spectra of the formic acid dimer (HCOOH)(2) and its isotopomers (DCOOH)(2) and (HCOOD)(2) were measured by cavity ring-down spectroscopy in the region of 2800-3300 cm(-1). The 'cold band' spectra showed resolved vibrational peaks which are not observed at room temperature while broad structure in the O-H stretching region persists, indicating that the broad structure is inherent in the molecular complexes. From analysis of the vibrational structure, most of the sharp peaks were assigned to binary combinations. The broad structure was interpreted as the result of intensity borrowing from the O-H stretching level to the manifold of combination/overtone levels, and the assignment of the O-H stretching band was presented. (C) 2002 Elsevier Science B.V. All rights reserved."
+                    },
+                    "publisher": {
+                        "en": "ELSEVIER SCIENCE BV"
+                    },
+                    "publication_date": "2002-03",
+                    "publication_name": {
+                        "en": "CHEMICAL PHYSICS"
+                    },
+                    "volume": "277",
+                    "number": "2",
+                    "starting_page": "163",
+                    "ending_page": "169",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "cinii_na_id": [
+                            "80015129612"
+                        ],
+                        "doi": [
+                            "10.1016/S0301-0104(02)00304-X"
+                        ],
+                        "issn": [
+                            "0301-0104"
+                        ],
+                        "wos_id": [
+                            "WOS:000174332400007"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/80015129612",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1016/S0301-0104(02)00304-X",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000174332400007&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0004985/misc/2175509",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0004985/misc",
+                    "rm:id": "2175509",
+                    "rm:user_id": "0000044656",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000044656",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2011-02-02T15:00:00Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-05-02T13:12:52Z",
+                    "paper_title": {
+                        "en": "Weak hydrogen bond interactions in the aniline-alkene (CH2=CH(CH2)(n)H, n = 0, 1, 2) clusters studied by infrared depletion spectroscopy"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "T Nakanaga"
+                            },
+                            {
+                                "name": "K Buchhold"
+                            },
+                            {
+                                "name": "F Ito"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "The NH2 stretching vibrations of the weakly bound clusters of aniline-ethene, aniline-propene and aniline-(1-butene) have been measured by infrared depletion technique. Compared to aniline monomer the frequencies of the NH2 stretching vibrations of the aniline-ethene cluster show small red shifts, suggesting that this cluster is only weakly bound. In contrast the aniline-propene and aniline-butene clusters show notable red shifts (&gt;20 cm(-1)) for both the NH2 symmetric and anti-symmetric stretching vibrations thus implying the formation of NH-pi hydrogen bonds. Ab initio MO calculations were performed at the MP2/6-31G** level of theory to estimate the red shift of the NH2 stretching vibrations. The calculation suggested a NH-pi interaction between the NH bond of aniline and the double bond of the alkene for the aniline-propene and aniline-butene clusters, while a CH-sigma type interaction between the CH bond and the lone pair of the nitrogen atom of aniline for the aniline-ethene clusters. (C) 2002 Elsevier Science B.V. All rights reserved."
+                    },
+                    "publisher": {
+                        "en": "ELSEVIER SCIENCE BV"
+                    },
+                    "publication_date": "2002-03",
+                    "publication_name": {
+                        "en": "CHEMICAL PHYSICS"
+                    },
+                    "volume": "277",
+                    "number": "2",
+                    "starting_page": "171",
+                    "ending_page": "178",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "cinii_na_id": [
+                            "80015129613"
+                        ],
+                        "doi": [
+                            "10.1016/S0301-0104(02)00307-5"
+                        ],
+                        "issn": [
+                            "0301-0104"
+                        ],
+                        "wos_id": [
+                            "WOS:000174332400008"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/80015129613",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1016/S0301-0104(02)00307-5",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000174332400008&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0004985/misc/2175508",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0004985/misc",
+                    "rm:id": "2175508",
+                    "rm:user_id": "0000044656",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000044656",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2011-02-02T15:00:00Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-05-01T08:37:02Z",
+                    "paper_title": {
+                        "en": "Microsolvation of aniline(+)-Ar-n (n=1-21) cluster cations investigated by infrared depletion spectroscopy"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "T Nakanaga"
+                            },
+                            {
+                                "name": "F Ito"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "The infrared spectra of the NH2 stretching vibrations of aniline(+)-Ar-n (n = 1-21) cluster cations have been measured by the depletion method. Aniline(+)-Ar-n clusters were prepared by near-resonant resonance-enhanced multiphoton ionization (REMPI) of larger aniline-Ar-m clusters. The red shifts of the NH stretching vibrations were 17-25 cm(-1), depending on the cluster size. The spectra of small clusters showed that there were hydrogen-bond-type (NH-Ar) and dispersion-type Ar-pi) isomers and that the NH-Ar isomer was more stable. The red shifts of the NH, stretching vibrations varied with the number of Ar atoms and showed a maximum at n = 12 and a local minimum at n approximate to 19. (C) 2002 Elsevier Science B.V. All rights reserved."
+                    },
+                    "publisher": {
+                        "en": "ELSEVIER SCIENCE BV"
+                    },
+                    "publication_date": "2002-03",
+                    "publication_name": {
+                        "en": "CHEMICAL PHYSICS LETTERS"
+                    },
+                    "volume": "355",
+                    "number": "1-2",
+                    "starting_page": "109",
+                    "ending_page": "115",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "cinii_na_id": [
+                            "80015183081"
+                        ],
+                        "doi": [
+                            "10.1016/S0009-2614(02)00194-X"
+                        ],
+                        "issn": [
+                            "0009-2614"
+                        ],
+                        "wos_id": [
+                            "WOS:000174847500018"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/80015183081",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1016/S0009-2614(02)00194-X",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000174847500018&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0004985/association_memberships",
+            "@type": "association_memberships",
+            "@reverse": "https://api.researchmap.jp/read0004985",
+            "total_items": 2,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0004985/association_memberships/395207",
+                    "@type": "association_memberships",
+                    "@reverse": "https://api.researchmap.jp/read0004985/association_memberships",
+                    "rm:id": "395207",
+                    "rm:user_id": "0000044656",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000044656",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2001-12-10T15:00:00Z",
+                    "rm:modifier_id": "0000044656",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2001-12-10T15:00:00Z",
+                    "academic_society_name": {
+                        "en": "The Spectroscopical Society of Japan"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0004985/association_memberships/395206",
+                    "@type": "association_memberships",
+                    "@reverse": "https://api.researchmap.jp/read0004985/association_memberships",
+                    "rm:id": "395206",
+                    "rm:user_id": "0000044656",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000044656",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2001-12-10T15:00:00Z",
+                    "rm:modifier_id": "0000044656",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2001-12-10T15:00:00Z",
+                    "academic_society_name": {
+                        "en": "The Chemical Society of Japan"
+                    }
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0004985/research_projects",
+            "@type": "research_projects",
+            "@reverse": "https://api.researchmap.jp/read0004985",
+            "total_items": 1,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0004985/research_projects/531152",
+                    "@type": "research_projects",
+                    "@reverse": "https://api.researchmap.jp/read0004985/research_projects",
+                    "rm:id": "531152",
+                    "rm:user_id": "0000044656",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000044656",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2011-02-02T15:00:00Z",
+                    "rm:modifier_id": "0000044656",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2011-02-02T15:00:00Z",
+                    "research_project_title": {
+                        "ja": "レーザー反応制御の基盤研究"
+                    },
+                    "overall_grant_amount": {
+                        "indirect_cost": "0",
+                        "total_cost": "0",
+                        "direct_cost": "0"
+                    },
+                    "fund_type": "competitive_research_funding"
+                }
+            ]
+        }
+    ]
+}

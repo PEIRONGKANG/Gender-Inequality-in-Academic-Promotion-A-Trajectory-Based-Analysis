@@ -1,0 +1,3267 @@
+{
+    "@context": "https://api.researchmap.jp/researcher.jsonld",
+    "@id": "https://api.researchmap.jp/layla118?format=json",
+    "@type": "researchers",
+    "rm:user_id": "0000009711",
+    "rm:creator_id": "0000009711",
+    "rm:creator_type": "myself",
+    "rm:created": "2010-04-25T15:00:00Z",
+    "rm:modifier_id": "0000009711",
+    "rm:modifier_type": "myself",
+    "rm:modified": "2024-09-27T04:07:57Z",
+    "permalink": "layla118",
+    "family_name": {
+        "ja": "廣川",
+        "ja-Kana": "ヒロカワ",
+        "en": "Hirokawa"
+    },
+    "given_name": {
+        "ja": "勝久",
+        "ja-Kana": "カツヒサ",
+        "en": "Katsuhisa"
+    },
+    "display_name_kana": "disclosed",
+    "display_nickname": "closed",
+    "display_image": "researchers_only",
+    "display_contact_point": "researchers_only",
+    "affiliations": [
+        {
+            "affiliation": {
+                "ja": "広島県立総合技術研究所 東部工業技術センター",
+                "en": "Hiroshima Prefectural Technology Research Institute,Eastern Region Industrial Research Center"
+            },
+            "section": {
+                "ja": "加工技術研究部",
+                "en": "Material Processing Research Division"
+            },
+            "display_affiliation": "disclosed",
+            "display_job": "researchers_only",
+            "rm:institution_code": "E427000000"
+        }
+    ],
+    "degrees": [
+        {
+            "degree": {
+                "ja": "博士（工学）",
+                "en": "Doctor of Engineering"
+            },
+            "degree_institution": {
+                "ja": "大阪大学",
+                "en": "Osaka University"
+            },
+            "display_degree": "disclosed",
+            "rm:institution_code": "0292000000"
+        }
+    ],
+    "profile": {
+        "ja": "<p>単年度契約の再雇用勤務形態で働いています．人工知能の研究者教育や研究開発に今後も貢献したいと考えています．</p>"
+    },
+    "display_profile": "disclosed",
+    "display_url": "disclosed",
+    "identifiers": {
+        "j_global_id": [
+            "200901083504975917"
+        ]
+    },
+    "rm:erad_id_verified": false,
+    "rm:orc_id_verified": false,
+    "display_erad_id": "researchers_only",
+    "display_orc_id": "closed",
+    "display_researcher_id": "disclosed",
+    "display_j_global_id": "disclosed",
+    "see_also": [
+        {
+            "label": "j_global",
+            "@id": "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=200901083504975917"
+        }
+    ],
+    "@graph": [
+        {
+            "@id": "https://api.researchmap.jp/layla118/published_papers",
+            "@type": "published_papers",
+            "@reverse": "https://api.researchmap.jp/layla118",
+            "total_items": 90,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/layla118/published_papers/43652078",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/layla118/published_papers",
+                    "rm:id": "43652078",
+                    "rm:user_id": "0000009711",
+                    "display": "disclosed",
+                    "major_achievement": true,
+                    "rm:creator_id": "0000009711",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2023-10-03T02:03:38Z",
+                    "rm:modifier_id": "0000009711",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2024-02-26T23:44:11Z",
+                    "paper_title": {
+                        "ja": "深層学習による画像の領域分割（第１報） ユーネット",
+                        "en": "Image Segmentation using Deep Learning (Ⅰ) U-Net"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "廣川 勝久"
+                            },
+                            {
+                                "name": "花房龍男"
+                            },
+                            {
+                                "name": "中濱 久雄"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "HIROKAWA Katsuhisa"
+                            },
+                            {
+                                "name": "HANAFUSA Tatsuo"
+                            },
+                            {
+                                "name": "NAKAHAMA Hisao"
+                            }
+                        ]
+                    },
+                    "published_paper_owner_roles": [
+                        "lead",
+                        "corresponding"
+                    ],
+                    "description": {
+                        "ja": "近年，スマートフォン，自動車，監視カメラなどから撮影された画像が様々な産業や分野で利用されている。撮影された非常に多くの画像から必要とする情報を得るための方法として，深層学習の技術が用いられようとしている。本報告では，深層学習モデルであるU-Net[arXiv:1505.04597,(2015)]の実装を行い，その画像領域の分割能力について評価を行った。評価には，一般的な画像とドローンから撮影した画像を用いて行い，両者の学習の違いなどについて述べた。また，U-Net実用化のために，重みの学習とその利用方法について説明を行った。"
+                    },
+                    "publisher": {
+                        "ja": "広島県",
+                        "en": "Hiroshima Pref."
+                    },
+                    "publication_date": "2024-02",
+                    "publication_name": {
+                        "ja": "広島県立総合技術研究所東部工業技術センター研究報告"
+                    },
+                    "volume": "36",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "published_paper_type": "research_institution",
+                    "dataset": {
+                        "dataset_name": "事例.pdf",
+                        "dataset_type": "experimental",
+                        "access_url": "https://researchmap.jp/layla118/published_papers/43652078/attachment_file.pdf",
+                        "rm:media_type": "application/pdf",
+                        "rm:use_password": false,
+                        "thumbnail_url": "https://researchmap.jp/layla118/published_papers/43652078/attachment_file.pdf?thumbnail"
+                    },
+                    "is_international_journal": false,
+                    "is_international_collaboration": false,
+                    "rm:is_open_access": true,
+                    "see_also": [
+                        {
+                            "@id": "https://www.pref.hiroshima.lg.jp/uploaded/attachment/564646.pdf",
+                            "label": "url",
+                            "is_downloadable": true
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/layla118/published_papers/43652039",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/layla118/published_papers",
+                    "rm:id": "43652039",
+                    "rm:user_id": "0000009711",
+                    "display": "disclosed",
+                    "major_achievement": true,
+                    "rm:creator_id": "0000009711",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2023-10-03T01:58:58Z",
+                    "rm:modifier_id": "0000009711",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2024-03-04T23:45:04Z",
+                    "paper_title": {
+                        "ja": "深層学習による異常検知手法の簡単な比較（第4報） ボルツマンマシン",
+                        "en": "Anomaly Detections using Deep Learning (Ⅳ) Boltzmann Machines"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "廣川 勝久"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "HIROKAWA Katsuhisa"
+                            }
+                        ]
+                    },
+                    "published_paper_owner_roles": [
+                        "lead",
+                        "corresponding"
+                    ],
+                    "description": {
+                        "ja": "正常信号のみの学習から，異常信号を検知できる深層学習生成モデルは機械学習の実用化にとって重要である。現在オートエンコーダーを始めとする各種生成モデルが報告されている。本報告では，生成モデルの一種であるボルツマンマシンについて，様々な実装モデルと生成能力の評価を行ったので，その結果について述べる。"
+                    },
+                    "publisher": {
+                        "ja": "広島県",
+                        "en": "Hiroshima Pref."
+                    },
+                    "publication_date": "2024-02",
+                    "publication_name": {
+                        "ja": "広島県立総合技術研究所東部工業技術センター研究報告"
+                    },
+                    "volume": "36",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "published_paper_type": "research_institution",
+                    "dataset": {
+                        "dataset_name": "図.pdf",
+                        "access_url": "https://researchmap.jp/layla118/published_papers/43652039/attachment_file.pdf",
+                        "rm:media_type": "application/pdf",
+                        "rm:use_password": false,
+                        "thumbnail_url": "https://researchmap.jp/layla118/published_papers/43652039/attachment_file.pdf?thumbnail"
+                    },
+                    "is_international_journal": false,
+                    "is_international_collaboration": false,
+                    "rm:is_open_access": true,
+                    "see_also": [
+                        {
+                            "@id": "https://www.pref.hiroshima.lg.jp/uploaded/attachment/563955.pdf",
+                            "label": "url",
+                            "is_downloadable": true
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/layla118/published_papers/43651995",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/layla118/published_papers",
+                    "rm:id": "43651995",
+                    "rm:user_id": "0000009711",
+                    "display": "disclosed",
+                    "major_achievement": true,
+                    "rm:creator_id": "0000009711",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2023-10-03T01:55:40Z",
+                    "rm:modifier_id": "0000009711",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2024-03-04T23:47:18Z",
+                    "paper_title": {
+                        "ja": "深層学習による異常検知手法の簡単な比較（第3報） 1 クラス ニューラルネットワーク",
+                        "en": "Anomaly Detections using Deep Learning (Ⅲ) One-Class Neural Network"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "廣川 勝久"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "HIROKAWA Katsuhisa"
+                            }
+                        ]
+                    },
+                    "published_paper_owner_roles": [
+                        "lead",
+                        "corresponding"
+                    ],
+                    "description": {
+                        "ja": "異常検知に深層学習を用いた生成モデルでは，正常信号のみの学習から，異常信号との差異が計算可能となった。本報告では，生成モデルに1クラスニューラルネットワーク組みわせることにより，生成モデルの正常信号と異常信号との境界をニューラルネットワークの学習を用いて設定する方法について評価を行った。"
+                    },
+                    "publication_date": "2024-02",
+                    "publication_name": {
+                        "ja": "広島県立総合技術研究所東部工業技術センター研究報告"
+                    },
+                    "volume": "36",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "published_paper_type": "research_institution",
+                    "dataset": {
+                        "dataset_name": "図.pdf",
+                        "access_url": "https://researchmap.jp/layla118/published_papers/43651995/attachment_file.pdf",
+                        "rm:media_type": "application/pdf",
+                        "rm:use_password": false,
+                        "thumbnail_url": "https://researchmap.jp/layla118/published_papers/43651995/attachment_file.pdf?thumbnail"
+                    },
+                    "is_international_journal": false,
+                    "is_international_collaboration": false,
+                    "rm:is_open_access": true,
+                    "see_also": [
+                        {
+                            "@id": "https://www.pref.hiroshima.lg.jp/uploaded/attachment/563954.pdf",
+                            "label": "url",
+                            "is_downloadable": true
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/layla118/published_papers/43651919",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/layla118/published_papers",
+                    "rm:id": "43651919",
+                    "rm:user_id": "0000009711",
+                    "display": "disclosed",
+                    "major_achievement": true,
+                    "rm:creator_id": "0000009711",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2023-10-03T01:46:31Z",
+                    "rm:modifier_id": "0000009711",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2024-03-04T23:49:42Z",
+                    "paper_title": {
+                        "ja": "深層学習による異常検知手法の簡単な比較（第2報）2次元畳み込み変分オートエンコーダ",
+                        "en": "Anomaly Detections using Deep Learning (Ⅱ) 2D-Convolutional Variational Autoencoder"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "廣川 勝久"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "HIROKAWA Katsuhisa"
+                            }
+                        ]
+                    },
+                    "published_paper_owner_roles": [
+                        "lead",
+                        "corresponding"
+                    ],
+                    "description": {
+                        "ja": "全結合型の深層学習モデルを異常検知に用いる場合，時間的ずれや位置ずれの事前補正を行うか，ずれのあるデータを含めた学習を必要とする。位置ずれに対応した学習には，多くの場合，畳み込み深層学習が使われる。本報告では，深層学習の生成モデルに，局所結合を持つ畳み込み変分オートエンコーダの実装を行った。実験により畳み込み変分オートエンコーダのクラスリングと典型的なデータへの修復・復元能力の可能性の評価を行い，その結果について述べる"
+                    },
+                    "publisher": {
+                        "ja": "広島県",
+                        "en": "Hiroshima Pref."
+                    },
+                    "publication_date": "2024-02",
+                    "publication_name": {
+                        "ja": "広島県立総合技術研究所東部工業技術センター研究報告"
+                    },
+                    "volume": "36",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "published_paper_type": "research_institution",
+                    "dataset": {
+                        "dataset_name": "図.pdf",
+                        "access_url": "https://researchmap.jp/layla118/published_papers/43651919/attachment_file.pdf",
+                        "rm:media_type": "application/pdf",
+                        "rm:use_password": false,
+                        "thumbnail_url": "https://researchmap.jp/layla118/published_papers/43651919/attachment_file.pdf?thumbnail"
+                    },
+                    "is_international_journal": false,
+                    "is_international_collaboration": false,
+                    "rm:is_open_access": true,
+                    "see_also": [
+                        {
+                            "@id": "https://www.pref.hiroshima.lg.jp/uploaded/attachment/563953.pdf",
+                            "label": "url",
+                            "is_downloadable": true
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/layla118/published_papers/47961023",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/layla118/published_papers",
+                    "rm:id": "47961023",
+                    "rm:user_id": "0000009711",
+                    "display": "disclosed",
+                    "major_achievement": true,
+                    "rm:creator_id": "0000009711",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2024-09-27T00:35:50Z",
+                    "rm:modifier_id": "0000009711",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2024-09-27T04:07:57Z",
+                    "paper_title": {
+                        "ja": "（公開予定）深層学習による異常検知手法の簡単な比較（第5報） 敵対的生成ネットワーク（第1報）",
+                        "en": "Anomaly Detections using Deep Learning (Ⅴ) Generative Adversarial Networks (Ⅰ)"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "廣川 勝久"
+                            },
+                            {
+                                "name": "佐々木 秀和"
+                            },
+                            {
+                                "name": "押野 純大"
+                            },
+                            {
+                                "name": "山形 亮太"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "HIROKAWA Katsuhisa"
+                            },
+                            {
+                                "name": "SASAKI Hidekazu"
+                            },
+                            {
+                                "name": "OSHINO Atsuhiro"
+                            },
+                            {
+                                "name": "YAMAGATA Ryota"
+                            }
+                        ]
+                    },
+                    "published_paper_owner_roles": [
+                        "lead",
+                        "corresponding"
+                    ],
+                    "description": {
+                        "ja": "我々はこれまで異常検知の手法として、正常信号のみを学習したオートエンコーダやボルツマンマシンが異常信号を検出できることを報告した。本報告では、敵対的生成ネットワークが、オートエンコーダなどの生成能力を向上させ、ボケの少ない異常検出モデルの学習に有効であることを示す。また、異常領域の検出精度を向上させる手法についても述べる。"
+                    },
+                    "publication_date": "2024",
+                    "publication_name": {
+                        "ja": "広島県立総合技術研究所東部工業技術センター研究報告"
+                    },
+                    "volume": "37",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "published_paper_type": "research_institution",
+                    "dataset": {
+                        "dataset_name": "sample.pdf",
+                        "dataset_type": "experimental",
+                        "access_url": "https://researchmap.jp/layla118/published_papers/47961023/attachment_file.pdf",
+                        "rm:media_type": "application/pdf",
+                        "rm:use_password": false,
+                        "thumbnail_url": "https://researchmap.jp/layla118/published_papers/47961023/attachment_file.pdf?thumbnail"
+                    },
+                    "is_international_collaboration": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/layla118/published_papers/47527447",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/layla118/published_papers",
+                    "rm:id": "47527447",
+                    "rm:user_id": "0000009711",
+                    "display": "disclosed",
+                    "major_achievement": true,
+                    "rm:creator_id": "0000009711",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2024-08-27T03:00:13Z",
+                    "rm:modifier_id": "0000009711",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2024-08-28T05:17:54Z",
+                    "paper_title": {
+                        "ja": "（公開予定）事前深層学習モデルの転移学習による能力比較（第１報） 画像分類のための事前深層学習モデル",
+                        "en": "Transfer Leaning and Fine-tuning for Pre-trained Deep-learning Models (Ⅰ) Image Clustering using Pre-trained Deep-learning Models"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "廣川 勝久"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "HIROKAWA Katsuhisa"
+                            }
+                        ]
+                    },
+                    "published_paper_owner_roles": [
+                        "lead",
+                        "corresponding"
+                    ],
+                    "description": {
+                        "ja": "近年、PSPNet [arXiv: 1612.01105, (2017)]のようにバックボーンに事前学習モデルを実装した高性能な深層学習モデルが各種提案されている。バックボーンに使用されるような高性能な深層学習モデルは、事前に大量の教師画像と膨大な計算時間を使った学習により提供されている。本報告では、3種類の事前学習モデルについて、少量の教師画像と少ない処理コストで他に転用するための方法である転移学習とファインチューニングにより学習を行い、その学習能力の評価を行った。"
+                    },
+                    "publication_date": "2024",
+                    "publication_name": {
+                        "ja": "広島県立総合技術研究所東部工業技術センター研究報告"
+                    },
+                    "volume": "37",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "published_paper_type": "research_institution",
+                    "dataset": {
+                        "dataset_name": "sample.pdf",
+                        "dataset_type": "experimental",
+                        "access_url": "https://researchmap.jp/layla118/published_papers/47527447/attachment_file.pdf",
+                        "rm:media_type": "application/pdf",
+                        "rm:use_password": false,
+                        "thumbnail_url": "https://researchmap.jp/layla118/published_papers/47527447/attachment_file.pdf?thumbnail"
+                    },
+                    "is_international_journal": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/layla118/published_papers/47527122",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/layla118/published_papers",
+                    "rm:id": "47527122",
+                    "rm:user_id": "0000009711",
+                    "display": "disclosed",
+                    "major_achievement": true,
+                    "rm:creator_id": "0000009711",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2024-08-27T02:48:59Z",
+                    "rm:modifier_id": "0000009711",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2024-08-28T05:17:28Z",
+                    "paper_title": {
+                        "ja": "（公開予定）深層学習モデルによるデータ生成(第1報) ノイズ除去拡散確率モデル (1)",
+                        "en": "Data Generation Utilizing Deep Learning Techniques (I) Denoising Diffusion Probabilistic Model (I)"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "廣川 勝久"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "HIROKAWA Katsuhisa"
+                            }
+                        ]
+                    },
+                    "published_paper_owner_roles": [
+                        "lead",
+                        "corresponding"
+                    ],
+                    "description": {
+                        "ja": "学習したデータから新たなデータの生成を可能とする複数の深層学習モデルが提案されている。これらの生成デ ータを深層学習のデータ拡張に応用することで、各種深層学習の汎化能力を向上させる可能性があると考えられ る。本報告では、ノイズ除去拡散確率モデル[arXiv:2006.11239 (2020)]を実際に実装し、そのモデルから生成され る画像を拡散の度合いに応じて評価した。ノイズの拡散の度合いを調整することにより、1 枚のノイズ拡散画像から 全く異なる画像や高い類似性を持つ画像を複数生成する方法について述べる。"
+                    },
+                    "publication_date": "2024",
+                    "publication_name": {
+                        "ja": "広島県立総合技術研究所東部工業技術 センター研究報告"
+                    },
+                    "volume": "37",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "published_paper_type": "research_institution",
+                    "dataset": {
+                        "dataset_name": "sample.pdf",
+                        "dataset_type": "experimental",
+                        "access_url": "https://researchmap.jp/layla118/published_papers/47527122/attachment_file.pdf",
+                        "rm:media_type": "application/pdf",
+                        "rm:use_password": false,
+                        "thumbnail_url": "https://researchmap.jp/layla118/published_papers/47527122/attachment_file.pdf?thumbnail"
+                    },
+                    "is_international_journal": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/layla118/published_papers/46180176",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/layla118/published_papers",
+                    "rm:id": "46180176",
+                    "rm:user_id": "0000009711",
+                    "display": "disclosed",
+                    "major_achievement": true,
+                    "rm:creator_id": "0000009711",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2024-04-17T00:33:00Z",
+                    "rm:modifier_id": "0000009711",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2024-08-28T05:17:03Z",
+                    "paper_title": {
+                        "ja": "（公開予定）深層学習による画像の領域分割（第２報） ピーエスピーネット"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "廣川 勝久"
+                            },
+                            {
+                                "name": "花房龍男"
+                            },
+                            {
+                                "name": "中濱 久雄"
+                            }
+                        ]
+                    },
+                    "published_paper_owner_roles": [
+                        "lead",
+                        "corresponding"
+                    ],
+                    "description": {
+                        "ja": "大幅な性能向上が図られ,膨大な学習パラメータを持った深層学習モデルが毎年のように生み出されている。このような高性能な事前学習モデルをバックボーンとして実装した深層学習モデルが提案されている。本報告では，バックボーンにResNetを実装したPSPNet [arXiv: 1612.01105, (2017)]の画像セグメンテーション能力の評価結果について述べる。実験により，画像データの水増し方法と最適化関数の違いからPSPNetの学習能力に差が生じることを示す。特に，アフィン変換とMixup・Cutmixによる水増し方法のPSPNetに対する有効性を明らかにする。"
+                    },
+                    "publication_date": "2024",
+                    "publication_name": {
+                        "ja": "広島県立総合技術研究所東部工業技術センター研究報告"
+                    },
+                    "volume": "37",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "published_paper_type": "research_institution",
+                    "dataset": {
+                        "dataset_name": "sample.pdf",
+                        "dataset_type": "experimental",
+                        "access_url": "https://researchmap.jp/layla118/published_papers/46180176/attachment_file.pdf",
+                        "rm:media_type": "application/pdf",
+                        "rm:use_password": false,
+                        "thumbnail_url": "https://researchmap.jp/layla118/published_papers/46180176/attachment_file.pdf?thumbnail"
+                    },
+                    "is_international_journal": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/layla118/published_papers/41824158",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/layla118/published_papers",
+                    "rm:id": "41824158",
+                    "rm:user_id": "0000009711",
+                    "display": "disclosed",
+                    "major_achievement": true,
+                    "rm:creator_id": "0000009711",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2023-03-25T23:34:14Z",
+                    "rm:modifier_id": "0000009711",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2024-03-14T03:43:15Z",
+                    "paper_title": {
+                        "ja": "深層学習による異常検知手法の簡単な比較（第１報）",
+                        "en": "Anomaly Detection using Deep Learning (Ⅰ)"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "廣川 勝久"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "HIROKAWA Katsuhisa"
+                            }
+                        ]
+                    },
+                    "published_paper_owner_roles": [
+                        "lead",
+                        "corresponding"
+                    ],
+                    "description": {
+                        "ja": "教師あり深層学習による異常検知では，学習に正常な教師信号と異常な教師信号を同数程度必要とする。しかし，実際の使用環境では，異常信号の発生は極めて少なく，必要数の異常信号を学習することが困難とされる。一方，深層学習による生成モデルを異常検知に用いることより，正常信号のみの学習から，異常信号を検出することが可能である。本報告では，深層学習の生成モデルを用いた異常検知の評価を行ったので，その結果について述べる。"
+                    },
+                    "publication_date": "2023-03",
+                    "publication_name": {
+                        "ja": "広島県立総合技術研究所東部工業技術センター研究報告"
+                    },
+                    "volume": "35",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "published_paper_type": "research_institution",
+                    "dataset": {
+                        "dataset_name": "図.pdf",
+                        "access_url": "https://researchmap.jp/layla118/published_papers/41824158/attachment_file.pdf",
+                        "rm:media_type": "application/pdf",
+                        "rm:use_password": false,
+                        "thumbnail_url": "https://researchmap.jp/layla118/published_papers/41824158/attachment_file.pdf?thumbnail"
+                    },
+                    "rm:is_open_access": true,
+                    "see_also": [
+                        {
+                            "@id": "https://www.pref.hiroshima.lg.jp/uploaded/attachment/523725.pdf",
+                            "label": "url",
+                            "is_downloadable": true
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/layla118/published_papers/41824155",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/layla118/published_papers",
+                    "rm:id": "41824155",
+                    "rm:user_id": "0000009711",
+                    "display": "disclosed",
+                    "major_achievement": true,
+                    "rm:creator_id": "0000009711",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2023-03-25T23:32:07Z",
+                    "rm:modifier_id": "0000009711",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2024-03-14T03:40:31Z",
+                    "paper_title": {
+                        "ja": "強化学習における各種手法の比較（第 3 報）",
+                        "en": "Simple Comparison of Reinforcement Learnings (Ⅲ)"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "廣川 勝久"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "HIROKAWA Katsuhisa"
+                            }
+                        ]
+                    },
+                    "published_paper_owner_roles": [
+                        "lead",
+                        "corresponding"
+                    ],
+                    "description": {
+                        "ja": "従来の強化学習では，報酬の設定が課題とされている。本報告では，報酬の設定を必要としない逆強化学習に敵対的生成ネットワークを用いた模倣学習の評価について述べる。性能の異なるエキスパートに対する学習能力の比較から，エキスパートと同等な強化学習が可能であることを示す。"
+                    },
+                    "publication_date": "2023-03",
+                    "publication_name": {
+                        "ja": "広島県立総合技術研究所東部工業技術センター研究報告"
+                    },
+                    "volume": "35",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "published_paper_type": "research_institution",
+                    "dataset": {
+                        "dataset_name": "図.pdf",
+                        "access_url": "https://researchmap.jp/layla118/published_papers/41824155/attachment_file.pdf",
+                        "rm:media_type": "application/pdf",
+                        "rm:use_password": false,
+                        "thumbnail_url": "https://researchmap.jp/layla118/published_papers/41824155/attachment_file.pdf?thumbnail"
+                    },
+                    "rm:is_open_access": true,
+                    "see_also": [
+                        {
+                            "@id": "https://www.pref.hiroshima.lg.jp/uploaded/attachment/523724.pdf",
+                            "label": "url",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/layla118/published_papers/41824152",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/layla118/published_papers",
+                    "rm:id": "41824152",
+                    "rm:user_id": "0000009711",
+                    "display": "disclosed",
+                    "major_achievement": true,
+                    "rm:creator_id": "0000009711",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2023-03-25T23:29:45Z",
+                    "rm:modifier_id": "0000009711",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2024-03-14T02:58:22Z",
+                    "paper_title": {
+                        "ja": "強化学習における各種手法の比較（第 2 報）",
+                        "en": "Simple Comparison of Reinforcement Learnings (Ⅱ)"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "廣川 勝久"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "HIROKAWA Katsuhisa"
+                            }
+                        ]
+                    },
+                    "published_paper_owner_roles": [
+                        "lead",
+                        "corresponding"
+                    ],
+                    "description": {
+                        "ja": "テーブルによる強化学習は，状態の分割数の増加に伴う学習コストの増加が課題であり，加えてテーブルを用いた方策勾配法については，学習の不安定も明らかとなった。本報告では，方策勾配法を，３種類の深層学習により実装し比較した。これらの深層学習を実装する上で，ポイントとなる点について述べる。"
+                    },
+                    "publication_date": "2023-03",
+                    "publication_name": {
+                        "ja": "広島県立総合技術研究所東部工業技術センター研究報告"
+                    },
+                    "volume": "35",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "published_paper_type": "research_institution",
+                    "dataset": {
+                        "dataset_name": "図.pdf",
+                        "access_url": "https://researchmap.jp/layla118/published_papers/41824152/attachment_file.pdf",
+                        "rm:media_type": "application/pdf",
+                        "rm:use_password": false,
+                        "thumbnail_url": "https://researchmap.jp/layla118/published_papers/41824152/attachment_file.pdf?thumbnail"
+                    },
+                    "rm:is_open_access": true,
+                    "see_also": [
+                        {
+                            "@id": "https://www.pref.hiroshima.lg.jp/uploaded/attachment/523723.pdf",
+                            "label": "url",
+                            "is_downloadable": true
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/layla118/published_papers/41824151",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/layla118/published_papers",
+                    "rm:id": "41824151",
+                    "rm:user_id": "0000009711",
+                    "display": "disclosed",
+                    "major_achievement": true,
+                    "rm:creator_id": "0000009711",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2023-03-25T23:27:20Z",
+                    "rm:modifier_id": "0000009711",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2024-03-14T03:01:34Z",
+                    "paper_title": {
+                        "ja": "強化学習における各種手法の比較（第１報）",
+                        "en": "Simple Comparison of Reinforcement Learnings (Ⅰ)"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "廣川 勝久"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "HIROKAWA Katsuhisa"
+                            }
+                        ]
+                    },
+                    "published_paper_owner_roles": [
+                        "lead",
+                        "corresponding"
+                    ],
+                    "description": {
+                        "ja": "現在，強化学習には様々な手法が提案され，高い学習能力が示されている。本報告では，それらの基本となる学習手法である Q 学習，DQN および離散方策勾配法について比較し，評価を行った結果について示す。特に，強化学習を始めるに当たり，ポイントとなる点について述べる。"
+                    },
+                    "publication_date": "2023-03",
+                    "publication_name": {
+                        "ja": "広島県立総合技術研究所東部工業技術センター研究報告"
+                    },
+                    "volume": "35",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "published_paper_type": "research_institution",
+                    "dataset": {
+                        "dataset_name": "図.pdf",
+                        "access_url": "https://researchmap.jp/layla118/published_papers/41824151/attachment_file.pdf",
+                        "rm:media_type": "application/pdf",
+                        "rm:use_password": false,
+                        "thumbnail_url": "https://researchmap.jp/layla118/published_papers/41824151/attachment_file.pdf?thumbnail"
+                    },
+                    "rm:is_open_access": true,
+                    "see_also": [
+                        {
+                            "@id": "https://www.pref.hiroshima.lg.jp/uploaded/attachment/523722.pdf",
+                            "label": "url",
+                            "is_downloadable": true
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/layla118/published_papers/37235946",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/layla118/published_papers",
+                    "rm:id": "37235946",
+                    "rm:user_id": "0000009711",
+                    "display": "disclosed",
+                    "major_achievement": true,
+                    "rm:creator_id": "0000009711",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2022-06-25T04:22:56Z",
+                    "rm:modifier_id": "0000009711",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2023-03-25T23:34:56Z",
+                    "paper_title": {
+                        "ja": "ビタミン A 測定精度向上のための紫外 LED 光源の開発"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "和田雅行"
+                            },
+                            {
+                                "name": "宮野忠文"
+                            },
+                            {
+                                "name": "河野幸雄"
+                            },
+                            {
+                                "name": "廣川勝久"
+                            }
+                        ]
+                    },
+                    "published_paper_owner_roles": [
+                        "last"
+                    ],
+                    "publication_date": "2017",
+                    "publication_name": {
+                        "ja": "Proc. 5th ECIS"
+                    },
+                    "published_paper_type": "international_conference_proceedings",
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/layla118/published_papers/37235916",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/layla118/published_papers",
+                    "rm:id": "37235916",
+                    "rm:user_id": "0000009711",
+                    "display": "disclosed",
+                    "major_achievement": true,
+                    "rm:creator_id": "0000009711",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2022-06-25T04:21:53Z",
+                    "rm:modifier_id": "0000009711",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2024-02-26T23:31:17Z",
+                    "paper_title": {
+                        "ja": "超高輝度 LED 光源の設計および試作"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "古本 浩章"
+                            },
+                            {
+                                "name": "宮野 忠文"
+                            },
+                            {
+                                "name": "和田 雅行"
+                            },
+                            {
+                                "name": "廣川 勝久"
+                            }
+                        ]
+                    },
+                    "published_paper_owner_roles": [
+                        "last",
+                        "corresponding"
+                    ],
+                    "publication_date": "2016",
+                    "publication_name": {
+                        "ja": "Proc. 4th ECIS"
+                    },
+                    "published_paper_type": "international_conference_proceedings",
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/layla118/published_papers/10132067",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/layla118/published_papers",
+                    "rm:id": "10132067",
+                    "rm:user_id": "0000009711",
+                    "display": "disclosed",
+                    "major_achievement": true,
+                    "rm:creator_id": "0000009711",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2014-08-27T07:00:54Z",
+                    "rm:modifier_id": "0000009711",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2024-02-26T23:31:35Z",
+                    "paper_title": {
+                        "ja": "球形光束計の測定値比較",
+                        "en": "Comparison of total luminous flux for integrating sphere photometers"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "大久保和明"
+                            },
+                            {
+                                "name": "斉藤 守"
+                            },
+                            {
+                                "name": "廣川 勝久"
+                            },
+                            {
+                                "name": "高橋 智一"
+                            },
+                            {
+                                "name": "志賀 寿"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Kazuaki Ohkubo"
+                            },
+                            {
+                                "name": "Mamoru Saito"
+                            },
+                            {
+                                "name": "Katsuhisa Hirokawa"
+                            },
+                            {
+                                "name": "Tomokazu Takahashi"
+                            },
+                            {
+                                "name": "Hisashi Shiga"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "ja": "A mutual comparison of the measured values of the total␣luminous␣flux between the sphere photometers when using an integrating sphere in which the sizes differ was made, and the consistency was also considered.␣The same total␣luminous␣flux standard lamp was used to prevent affecting measured value to standard traceability.␣The LED lamps used for measurement were turned on for 100 hours or more. The reproducibility for all the lamps was less than ±0.2%. The total␣luminous␣flux of omnidirectional lamps with an angular luminous intensity distribution was the same as that for a standard lamp, which is accorded in less than 1% in the spheres. On the other hand, the total␣luminous␣flux of directional lamps was accorded in more than 1.5% in spheres.<br />\nThe low light flux value measured by using the integrating sphere with a 1␣ m o diameter is considered to be the influence of the lamp support stand and another structure in the integrating sphere. Since the measured value of the integration hemisphere is the same as that of the large integrating spheres, there is very little structure that is causing the error with it.",
+                        "en": "A mutual comparison of the measured values of the total-luminous-flux between the sphere photometers when using an integrating sphere in which the sizes differ was made, and the consistency was also considered. The same total-luminous-flux standard lamp was used to prevent affecting measured value to standard traceability. The LED lamps used for measurement were turned on for 100 hours or more. The reproducibility for all the lamps was less than ±0.2%. The total-luminous-flux of omnidirectional lamps with an angular luminous intensity distribution was the same as that for a standard lamp, which is accorded in less than 1% in the spheres. On the other hand, the total-luminous-flux of directional lamps was accorded in more than 1.5% in spheres. The low light flux value measured by using the integrating sphere with a 1- m o diameter is considered to be the influence of the lamp support stand and another structure in the integrating sphere. Since the measured value of the integration hemisphere is the same as that of the large integrating spheres, there is very little structure that is causing the error with it."
+                    },
+                    "publisher": {
+                        "en": "The Illuminating Engineering Institute of Japan"
+                    },
+                    "publication_date": "2014",
+                    "publication_name": {
+                        "ja": "照明学会誌",
+                        "en": "Journal of the Illuminating Engineering Institute of Japan (Shomei Gakkai Shi)"
+                    },
+                    "volume": "98",
+                    "number": "8A",
+                    "starting_page": "362",
+                    "ending_page": "368",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": true,
+                    "identifiers": {
+                        "doi": [
+                            "10.2150/jieij.98.362"
+                        ],
+                        "issn": [
+                            "0019-2341"
+                        ],
+                        "e_issn": [
+                            "1349-838X"
+                        ],
+                        "j_global_id": [
+                            "201402257925787283"
+                        ],
+                        "scopus_id": [
+                            "84987680622"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.2150/jieij.98.362",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "j_global",
+                            "@id": "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=201402257925787283",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "scopus",
+                            "@id": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=84987680622&origin=inward",
+                            "is_downloadable": true
+                        },
+                        {
+                            "label": "scopus_citedby",
+                            "@id": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=84987680622&origin=inward",
+                            "is_downloadable": false
+                        },
+                        {
+                            "@id": "http://ci.nii.ac.jp/naid/40020170376",
+                            "is_downloadable": false,
+                            "label": "url"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/layla118/published_papers/2327891",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/layla118/published_papers",
+                    "rm:id": "2327891",
+                    "rm:user_id": "0000009711",
+                    "display": "disclosed",
+                    "major_achievement": true,
+                    "rm:creator_id": "0000009711",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2012-03-02T10:19:25Z",
+                    "rm:modifier_id": "0000009711",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2021-01-15T01:23:44Z",
+                    "paper_title": {
+                        "en": "Invariant pattern recognition using neural networks combined with optical wavelet preprocessor"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "K Hirokawa"
+                            },
+                            {
+                                "name": "K Itoh"
+                            },
+                            {
+                                "name": "Y Ichioka"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "A novel pattern-recognition system that is invariant against scale-, position- and rotation-changes is proposed. The system is composed of an array of modular neural networks with local space-invariant interconnections (FELSI) [Appl. Opt. 29 (1990) 4790] and a multiwavelet transform preprocessor. The wavelet decomposition of two-dimensional patterns is optically realized by the VanderLugt correlator. To obtain the multiwavelet transforms simultaneously, we synthesize a correlation filter of multiwavelets using computer-generated holograms. The learning process of the FELSI with the techniques of additional noise and weight decay is shown to contribute to the invariant recognition of the system."
+                    },
+                    "publisher": {
+                        "en": "OPTICAL SOC JAPAN"
+                    },
+                    "publication_date": "2000-07",
+                    "publication_name": {
+                        "en": "OPTICAL REVIEW"
+                    },
+                    "volume": "7",
+                    "number": "4",
+                    "starting_page": "284",
+                    "ending_page": "293",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1007/s10043-000-0284-6"
+                        ],
+                        "issn": [
+                            "1340-6000"
+                        ],
+                        "cinii_na_id": [
+                            "10011402857"
+                        ],
+                        "wos_id": [
+                            "WOS:000089674800003"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1007/s10043-000-0284-6",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/10011402857",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000089674800003&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/layla118/published_papers/2327887",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/layla118/published_papers",
+                    "rm:id": "2327887",
+                    "rm:user_id": "0000009711",
+                    "display": "disclosed",
+                    "major_achievement": true,
+                    "rm:creator_id": "0000009711",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2012-03-02T10:16:30Z",
+                    "rm:modifier_id": "0000009711",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2021-01-15T01:23:55Z",
+                    "paper_title": {
+                        "en": "Independent component analysis by transforming a scatter diagram of mixtures of signals"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "T Yamaguchi"
+                            },
+                            {
+                                "name": "K Hirokawa"
+                            },
+                            {
+                                "name": "K Itoh"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "A novel algorithm is proposed for the independent component analysis (ICA). In the algorithm, ICA is accomplished by geometrical transformation of a scatter diagram. We evaluate the performance of the algorithm by separating original independent images from some mixed images. Our algorithm fulfills considerable reduction of processing time while maintaining the same level of accuracy as conventional algorithms. (C) 2000 Elsevier Science B.V. All rights reserved."
+                    },
+                    "publisher": {
+                        "en": "ELSEVIER SCIENCE BV"
+                    },
+                    "publication_date": "2000-01",
+                    "publication_name": {
+                        "en": "OPTICS COMMUNICATIONS"
+                    },
+                    "volume": "173",
+                    "number": "1-6",
+                    "starting_page": "107",
+                    "ending_page": "114",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1016/S0030-4018(99)00588-X"
+                        ],
+                        "issn": [
+                            "0030-4018"
+                        ],
+                        "cinii_na_id": [
+                            "80011488161"
+                        ],
+                        "wos_id": [
+                            "WOS:000085425300013"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1016/S0030-4018(99)00588-X",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/80011488161",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000085425300013&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/layla118/published_papers/2327709",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/layla118/published_papers",
+                    "rm:id": "2327709",
+                    "rm:user_id": "0000009711",
+                    "display": "disclosed",
+                    "major_achievement": true,
+                    "rm:creator_id": "0000009711",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2012-03-02T08:47:46Z",
+                    "rm:modifier_id": "0000009711",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2021-01-15T01:24:00Z",
+                    "paper_title": {
+                        "en": "Real-time optical wavelet-transform with positive and negative signals"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "K Hirokawa"
+                            },
+                            {
+                                "name": "K Itoh"
+                            },
+                            {
+                                "name": "Y Ichioka"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "An opto-electronic hybrid system that is based on the joint transform correlator (JTC) is suggested for the implementation of real-time wavelet transform. Holographic encoding of both the object signal and wavelet function enables the JTC-based real-time correlator to execute the optical wavelet transformation involving positive and negative values. We suggest: an interferometric method to retain the information about the polarity of the final wavelet transform. The principle of this method is verified by experiments."
+                    },
+                    "publisher": {
+                        "en": "OPTICAL SOC JAPAN"
+                    },
+                    "publication_date": "1997-05",
+                    "publication_name": {
+                        "en": "OPTICAL REVIEW"
+                    },
+                    "volume": "4",
+                    "number": "3",
+                    "starting_page": "366",
+                    "ending_page": "369",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1007/s10043-997-0366-9"
+                        ],
+                        "issn": [
+                            "1340-6000"
+                        ],
+                        "cinii_na_id": [
+                            "10017057225"
+                        ],
+                        "wos_id": [
+                            "WOS:A1997XL53200005"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1007/s10043-997-0366-9",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/10017057225",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:A1997XL53200005&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/layla118/published_papers/2327640",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/layla118/published_papers",
+                    "rm:id": "2327640",
+                    "rm:user_id": "0000009711",
+                    "display": "disclosed",
+                    "major_achievement": true,
+                    "rm:creator_id": "0000009711",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2012-03-02T08:34:43Z",
+                    "rm:modifier_id": "0000009711",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2021-01-15T01:24:02Z",
+                    "paper_title": {
+                        "ja": "Optical wavelet processor by holographic bipolar encoding and joint-transform correlation.",
+                        "en": "Optical wavelet processor by holographic bipolar encoding and joint-transform correlation."
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "Hirokawa K"
+                            },
+                            {
+                                "name": "Itoh K"
+                            },
+                            {
+                                "name": "Ichioka Y"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Hirokawa K"
+                            },
+                            {
+                                "name": "Itoh K"
+                            },
+                            {
+                                "name": "Ichioka Y"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "ja": "A novel optical wavelet processor based on the techniques of the joint-transform correlator and computer-generated holograms is proposed. A coding technique that is a simplified version of Lee’s hologram [Appl. Opt. 9, 639 (1970)] is used to represent positive and negative values for the object signal and wavelet functions. We experimentally demonstrate that wavelet transforms of two different daughter wavelet functions can be simultaneously obtained by the appropriate arrangement of the daughter wavelet functions and the object signal on the input plane.",
+                        "en": "A novel optical wavelet processor based on the techniques of the joint-transform correlator and computer-generated holograms is proposed. A coding technique that is a simplified version of Lee’s hologram [Appl. Opt. 9, 639 (1970)] is used to represent positive and negative values for the object signal and wavelet functions. We experimentally demonstrate that wavelet transforms of two different daughter wavelet functions can be simultaneously obtained by the appropriate arrangement of the daughter wavelet functions and the object signal on the input plane."
+                    },
+                    "publisher": {
+                        "ja": "5",
+                        "en": "5"
+                    },
+                    "publication_date": "1997-02",
+                    "publication_name": {
+                        "ja": "Applied optics",
+                        "en": "Applied optics"
+                    },
+                    "volume": "36",
+                    "starting_page": "1023",
+                    "ending_page": "1026",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1364/AO.36.001023"
+                        ],
+                        "issn": [
+                            "0003-6935"
+                        ],
+                        "pm_id": [
+                            "18250767"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1364/AO.36.001023",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "pubmed",
+                            "@id": "https://www.ncbi.nlm.nih.gov/pubmed/18250767",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/layla118/published_papers/2327707",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/layla118/published_papers",
+                    "rm:id": "2327707",
+                    "rm:user_id": "0000009711",
+                    "display": "disclosed",
+                    "major_achievement": true,
+                    "rm:creator_id": "0000009711",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2012-03-02T08:46:19Z",
+                    "rm:modifier_id": "0000009711",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2021-06-10T04:27:21Z",
+                    "paper_title": {
+                        "ja": "Evaluation of Digital-Halftoning Techniques for Computer-Generated Holograms",
+                        "en": "Evaluation of Digital-Halftoning Techniques for Computer-Generated Holograms"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "Katsuhisa Hirokawa"
+                            },
+                            {
+                                "name": "Kazuyoshi Itoh"
+                            },
+                            {
+                                "name": "Yoshiki Ichioka"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Katsuhisa Hirokawa"
+                            },
+                            {
+                                "name": "Kazuyoshi Itoh"
+                            },
+                            {
+                                "name": "Yoshiki Ichioka"
+                            }
+                        ]
+                    },
+                    "publication_date": "1996",
+                    "publication_name": {
+                        "ja": "Optical Memory and Neural Networks",
+                        "en": "Optical Memory and Neural Networks"
+                    },
+                    "volume": "5",
+                    "starting_page": "207",
+                    "ending_page": "293",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/layla118/research_interests",
+            "@type": "research_interests",
+            "@reverse": "https://api.researchmap.jp/layla118",
+            "total_items": 8,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/layla118/research_interests/45889102",
+                    "@type": "research_interests",
+                    "@reverse": "https://api.researchmap.jp/layla118/research_interests",
+                    "rm:id": "45889102",
+                    "rm:user_id": "0000009711",
+                    "display": "disclosed",
+                    "major_achievement": true,
+                    "rm:creator_id": "0000009711",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2024-03-23T11:38:49Z",
+                    "rm:modifier_id": "0000009711",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2024-03-23T11:43:21Z",
+                    "keyword": {
+                        "ja": "機械学習"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/layla118/research_interests/45889101",
+                    "@type": "research_interests",
+                    "@reverse": "https://api.researchmap.jp/layla118/research_interests",
+                    "rm:id": "45889101",
+                    "rm:user_id": "0000009711",
+                    "display": "disclosed",
+                    "major_achievement": true,
+                    "rm:creator_id": "0000009711",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2024-03-23T11:38:19Z",
+                    "rm:modifier_id": "0000009711",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2024-03-23T11:43:19Z",
+                    "keyword": {
+                        "ja": "深層学習"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/layla118/research_interests/42733456",
+                    "@type": "research_interests",
+                    "@reverse": "https://api.researchmap.jp/layla118/research_interests",
+                    "rm:id": "42733456",
+                    "rm:user_id": "0000009711",
+                    "display": "disclosed",
+                    "major_achievement": true,
+                    "rm:creator_id": "0000009711",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2023-07-06T00:02:45Z",
+                    "rm:modifier_id": "0000009711",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2023-07-06T00:06:37Z",
+                    "keyword": {
+                        "ja": "人口知能",
+                        "en": "AI"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/layla118/research_interests/37231376",
+                    "@type": "research_interests",
+                    "@reverse": "https://api.researchmap.jp/layla118/research_interests",
+                    "rm:id": "37231376",
+                    "rm:user_id": "0000009711",
+                    "display": "disclosed",
+                    "major_achievement": true,
+                    "rm:creator_id": "0000009711",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2022-06-24T05:45:43Z",
+                    "rm:modifier_id": "0000009711",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2023-02-04T00:47:09Z",
+                    "keyword": {
+                        "ja": "ニューラルネットワーク"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/layla118/research_interests/37231378",
+                    "@type": "research_interests",
+                    "@reverse": "https://api.researchmap.jp/layla118/research_interests",
+                    "rm:id": "37231378",
+                    "rm:user_id": "0000009711",
+                    "display": "disclosed",
+                    "major_achievement": true,
+                    "rm:creator_id": "0000009711",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2022-06-24T05:45:58Z",
+                    "rm:modifier_id": "0000009711",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2023-02-04T00:47:08Z",
+                    "keyword": {
+                        "ja": "独立成分分析"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/layla118/research_interests/6264698",
+                    "@type": "research_interests",
+                    "@reverse": "https://api.researchmap.jp/layla118/research_interests",
+                    "rm:id": "6264698",
+                    "rm:user_id": "0000009711",
+                    "display": "disclosed",
+                    "major_achievement": true,
+                    "rm:creator_id": "0000009711",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2012-03-02T13:32:00Z",
+                    "rm:modifier_id": "0000009711",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2022-06-24T05:46:35Z",
+                    "keyword": {
+                        "ja": "照明光学"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/layla118/research_interests/571164",
+                    "@type": "research_interests",
+                    "@reverse": "https://api.researchmap.jp/layla118/research_interests",
+                    "rm:id": "571164",
+                    "rm:user_id": "0000009711",
+                    "display": "disclosed",
+                    "major_achievement": true,
+                    "rm:creator_id": "0000009711",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2010-04-25T15:00:00Z",
+                    "rm:modifier_id": "0000009711",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2022-06-24T05:46:30Z",
+                    "keyword": {
+                        "ja": "情報光学"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/layla118/research_interests/571165",
+                    "@type": "research_interests",
+                    "@reverse": "https://api.researchmap.jp/layla118/research_interests",
+                    "rm:id": "571165",
+                    "rm:user_id": "0000009711",
+                    "display": "disclosed",
+                    "major_achievement": true,
+                    "rm:creator_id": "0000009711",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2010-04-25T15:00:00Z",
+                    "rm:modifier_id": "0000009711",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2024-03-23T11:43:25Z",
+                    "keyword": {
+                        "ja": "計測光学"
+                    }
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/layla118/research_areas",
+            "@type": "research_areas",
+            "@reverse": "https://api.researchmap.jp/layla118",
+            "total_items": 4,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/layla118/research_areas/42733462",
+                    "@type": "research_areas",
+                    "@reverse": "https://api.researchmap.jp/layla118/research_areas",
+                    "rm:id": "42733462",
+                    "rm:user_id": "0000009711",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000009711",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2023-07-06T00:03:43Z",
+                    "rm:modifier_id": "0000009711",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2023-07-06T00:03:43Z",
+                    "discipline_number": "A289",
+                    "item_number": "A61030",
+                    "discipline": {
+                        "ja": "情報通信",
+                        "en": "Informatics"
+                    },
+                    "research_field": {
+                        "ja": "知能情報学",
+                        "en": "Intelligent informatics"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/layla118/research_areas/31467263",
+                    "@type": "research_areas",
+                    "@reverse": "https://api.researchmap.jp/layla118/research_areas",
+                    "rm:id": "31467263",
+                    "rm:user_id": "0000009711",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000009711",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2021-01-15T00:42:13Z",
+                    "rm:modifier_id": "0000009711",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2021-01-15T00:42:13Z",
+                    "discipline_number": "A689",
+                    "item_number": "A21060",
+                    "discipline": {
+                        "ja": "ものづくり技術（機械・電気電子・化学工学）",
+                        "en": "Manufacturing technology (mechanical, electrical/electronic, chemical engineering)"
+                    },
+                    "research_field": {
+                        "ja": "電子デバイス、電子機器",
+                        "en": "Electronic devices and equipment"
+                    },
+                    "research_keyword": {
+                        "ja": "LED"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/layla118/research_areas/31467224",
+                    "@type": "research_areas",
+                    "@reverse": "https://api.researchmap.jp/layla118/research_areas",
+                    "rm:id": "31467224",
+                    "rm:user_id": "0000009711",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000009711",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2021-01-15T00:41:25Z",
+                    "rm:modifier_id": "0000009711",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2021-01-15T00:41:25Z",
+                    "discipline_number": "A689",
+                    "item_number": "A21030",
+                    "discipline": {
+                        "ja": "ものづくり技術（機械・電気電子・化学工学）",
+                        "en": "Manufacturing technology (mechanical, electrical/electronic, chemical engineering)"
+                    },
+                    "research_field": {
+                        "ja": "計測工学",
+                        "en": "Measurement engineering"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/layla118/research_areas/159778",
+                    "@type": "research_areas",
+                    "@reverse": "https://api.researchmap.jp/layla118/research_areas",
+                    "rm:id": "159778",
+                    "rm:user_id": "0000009711",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000009711",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2010-04-25T15:00:00Z",
+                    "rm:modifier_id": "0000009711",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2010-04-25T15:00:00Z",
+                    "discipline_number": "A489",
+                    "item_number": "A30020",
+                    "discipline": {
+                        "ja": "ナノテク・材料",
+                        "en": "Nanotechnology/Materials"
+                    },
+                    "research_field": {
+                        "ja": "光工学、光量子科学",
+                        "en": "Optical engineering and photonics"
+                    }
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/layla118/education",
+            "@type": "education",
+            "@reverse": "https://api.researchmap.jp/layla118",
+            "total_items": 1,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/layla118/education/169257",
+                    "@type": "education",
+                    "@reverse": "https://api.researchmap.jp/layla118/education",
+                    "rm:id": "169257",
+                    "rm:user_id": "0000009711",
+                    "display": "disclosed",
+                    "major_achievement": true,
+                    "rm:creator_id": "0000009711",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2010-04-25T15:00:00Z",
+                    "rm:modifier_id": "0000009711",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2021-01-15T00:32:05Z",
+                    "rm:institution_code": "9999999999",
+                    "affiliation": {
+                        "ja": "大阪大学大学院"
+                    },
+                    "department": {
+                        "ja": "工学研究科"
+                    },
+                    "course": {
+                        "ja": "物質・生命工学専攻"
+                    },
+                    "address_country": "JPN"
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/layla118/committee_memberships",
+            "@type": "committee_memberships",
+            "@reverse": "https://api.researchmap.jp/layla118",
+            "total_items": 2,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/layla118/committee_memberships/31466960",
+                    "@type": "committee_memberships",
+                    "@reverse": "https://api.researchmap.jp/layla118/committee_memberships",
+                    "rm:id": "31466960",
+                    "rm:user_id": "0000009711",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000009711",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2021-01-14T23:45:36Z",
+                    "rm:modifier_id": "0000009711",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2021-01-15T02:40:28Z",
+                    "from_date": "2017-01",
+                    "to_date": "2019-12",
+                    "committee_name": {
+                        "ja": "電子デバイス・回路・照明・システム関連教育・研究ワークショップ実行委員"
+                    },
+                    "association": {
+                        "ja": "照明学会中国支部"
+                    },
+                    "committee_type": "society"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/layla118/committee_memberships/8645",
+                    "@type": "committee_memberships",
+                    "@reverse": "https://api.researchmap.jp/layla118/committee_memberships",
+                    "rm:id": "8645",
+                    "rm:user_id": "0000009711",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000009711",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2010-04-25T15:00:00Z",
+                    "rm:modifier_id": "0000009711",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2010-04-25T15:00:00Z",
+                    "from_date": "2004",
+                    "to_date": "2007",
+                    "committee_name": {
+                        "ja": "光科学及び光技術調査委員"
+                    },
+                    "association": {
+                        "ja": "日本光学会"
+                    },
+                    "description": {
+                        "ja": "日本光学会"
+                    },
+                    "committee_type": "society"
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/layla118/awards",
+            "@type": "awards",
+            "@reverse": "https://api.researchmap.jp/layla118",
+            "total_items": 2,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/layla118/awards/31467216",
+                    "@type": "awards",
+                    "@reverse": "https://api.researchmap.jp/layla118/awards",
+                    "rm:id": "31467216",
+                    "rm:user_id": "0000009711",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000009711",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2021-01-15T00:38:13Z",
+                    "rm:modifier_id": "0000009711",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2021-01-15T00:40:13Z",
+                    "award_name": {
+                        "ja": "専門会員(Fellow)"
+                    },
+                    "association": {
+                        "ja": "照明学会"
+                    },
+                    "award_date": "2021-01"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/layla118/awards/31467004",
+                    "@type": "awards",
+                    "@reverse": "https://api.researchmap.jp/layla118/awards",
+                    "rm:id": "31467004",
+                    "rm:user_id": "0000009711",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000009711",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2021-01-15T00:14:41Z",
+                    "rm:modifier_id": "0000009711",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2021-01-15T00:14:41Z",
+                    "award_name": {
+                        "ja": "第5回電子デバイス・回路・照明・システム関連教育・研究ワークショップ奨励賞"
+                    },
+                    "winners": {
+                        "ja": [
+                            {
+                                "name": "和田雅行"
+                            },
+                            {
+                                "name": "宮野忠文"
+                            },
+                            {
+                                "name": "河野幸雄"
+                            },
+                            {
+                                "name": "廣川勝久"
+                            }
+                        ]
+                    },
+                    "award_title": {
+                        "ja": "牛の血清中のビタミンA濃度測定用LEDモジュール"
+                    },
+                    "association": {
+                        "ja": "照明学会中国支部"
+                    },
+                    "award_date": "2017-05"
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/layla118/books_etc",
+            "@type": "books_etc",
+            "@reverse": "https://api.researchmap.jp/layla118",
+            "total_items": 3,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/layla118/books_etc/8911303",
+                    "@type": "books_etc",
+                    "@reverse": "https://api.researchmap.jp/layla118/books_etc",
+                    "rm:id": "8911303",
+                    "rm:user_id": "0000009711",
+                    "display": "disclosed",
+                    "major_achievement": true,
+                    "rm:creator_id": "0000009711",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2012-05-17T05:16:37Z",
+                    "rm:modifier_id": "0000009711",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2024-05-31T01:19:45Z",
+                    "book_title": {
+                        "ja": "原理がわかる・現場で使える 信号処理"
+                    },
+                    "book_owner_role": "contributor",
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "浅野 晃"
+                            },
+                            {
+                                "name": "津村 徳道"
+                            },
+                            {
+                                "name": "野村 孝徳"
+                            },
+                            {
+                                "name": "廣川 勝久"
+                            },
+                            {
+                                "name": "的場 修"
+                            },
+                            {
+                                "name": "伊東一良"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "丸善出版"
+                    },
+                    "description": {
+                        "ja": "信号処理の原理(しくみ)がよくわかって,現場で自由自在に使えるようになるための書籍.従来の教科書の枠を越えて,その動機から応用までを徹底的にわかりやすく解説した.\n「信号処理とは何か」,「それで何ができるのか」,「具体的な方法とプログラムのしかたは」,「ポイントはどこにあるのか」,「どんな種類があるのか」等,大学1, 2年レベルの数学の知識で深い理解が得られる.\n語りかけてくるようなゆったりとした中にいくつもの本質を射抜くポイントが隠された文章によって,今後ますます重要性が高まる信号処理の要点を1日で理解できる."
+                    },
+                    "publication_date": "2009-11-25",
+                    "total_page": "192",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "identifiers": {
+                        "isbn": [
+                            "4621082108"
+                        ],
+                        "asin": [
+                            "4621082108"
+                        ],
+                        "ean": [
+                            "9784621082102"
+                        ],
+                        "cinii_nc_id": [
+                            "BB00184571"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_books",
+                            "@id": "http://ci.nii.ac.jp/ncid/BB00184571",
+                            "is_downloadable": false
+                        },
+                        {
+                            "@id": "https://www.amazon.co.jp/dp/4621082108?linkCode=osi&th=1&psc=1",
+                            "label": "amazon"
+                        },
+                        {
+                            "@id": "https://m.media-amazon.com/images/I/512t7+6i07L._SL75_.jpg",
+                            "label": "amazon_small_image"
+                        },
+                        {
+                            "@id": "https://m.media-amazon.com/images/I/512t7+6i07L._SL160_.jpg",
+                            "label": "amazon_medium_image"
+                        },
+                        {
+                            "@id": "https://m.media-amazon.com/images/I/512t7+6i07L._SL500_.jpg",
+                            "label": "amazon_large_image"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/layla118/books_etc/74537",
+                    "@type": "books_etc",
+                    "@reverse": "https://api.researchmap.jp/layla118/books_etc",
+                    "rm:id": "74537",
+                    "rm:user_id": "0000009711",
+                    "display": "disclosed",
+                    "major_achievement": true,
+                    "rm:creator_id": "0000009711",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2010-04-25T15:00:00Z",
+                    "rm:modifier_id": "0000009711",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2024-05-29T23:44:23Z",
+                    "book_title": {
+                        "ja": "光コンピュ-ティングの事典"
+                    },
+                    "book_owner_role": "contributor",
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "阿山みよし"
+                            },
+                            {
+                                "name": "伊東一良"
+                            },
+                            {
+                                "name": "一岡芳樹"
+                            },
+                            {
+                                "name": "稲場文男"
+                            },
+                            {
+                                "name": "岩城忠雄"
+                            },
+                            {
+                                "name": "石川正俊"
+                            },
+                            {
+                                "name": "岡 和彦"
+                            },
+                            {
+                                "name": "岡田勝行"
+                            },
+                            {
+                                "name": "小川英光"
+                            },
+                            {
+                                "name": "小川博世"
+                            },
+                            {
+                                "name": "太田 淳"
+                            },
+                            {
+                                "name": "大塚喜弘"
+                            },
+                            {
+                                "name": "川合敏雄"
+                            },
+                            {
+                                "name": "久間和生"
+                            },
+                            {
+                                "name": "樹下行三"
+                            },
+                            {
+                                "name": "北山研一"
+                            },
+                            {
+                                "name": "久保寺憲一"
+                            },
+                            {
+                                "name": "熊沢逸夫"
+                            },
+                            {
+                                "name": "黒川隆志"
+                            },
+                            {
+                                "name": "黒田和男"
+                            },
+                            {
+                                "name": "小舘香椎子"
+                            },
+                            {
+                                "name": "小林孝嘉"
+                            },
+                            {
+                                "name": "小林正樹"
+                            },
+                            {
+                                "name": "小柳光正"
+                            },
+                            {
+                                "name": "猿渡正俊"
+                            },
+                            {
+                                "name": "佐藤三久"
+                            },
+                            {
+                                "name": "坂田俊文"
+                            },
+                            {
+                                "name": "島田俊夫"
+                            },
+                            {
+                                "name": "関口智嗣"
+                            },
+                            {
+                                "name": "谷口正樹"
+                            },
+                            {
+                                "name": "谷田 純"
+                            },
+                            {
+                                "name": "武田光夫"
+                            },
+                            {
+                                "name": "戸田裕之"
+                            },
+                            {
+                                "name": "富田康生"
+                            },
+                            {
+                                "name": "中島 浩"
+                            },
+                            {
+                                "name": "新田嘉一"
+                            },
+                            {
+                                "name": "西田信夫"
+                            },
+                            {
+                                "name": "野寺 隆"
+                            },
+                            {
+                                "name": "原 邦彦"
+                            },
+                            {
+                                "name": "長谷川 晃"
+                            },
+                            {
+                                "name": "葉原敬士"
+                            },
+                            {
+                                "name": "広川勝久"
+                            },
+                            {
+                                "name": "福井将樹"
+                            },
+                            {
+                                "name": "福島邦彦"
+                            },
+                            {
+                                "name": "福島誠治"
+                            },
+                            {
+                                "name": "保立和夫"
+                            },
+                            {
+                                "name": "本田捷夫"
+                            },
+                            {
+                                "name": "松岡克典"
+                            },
+                            {
+                                "name": "宮崎大介"
+                            },
+                            {
+                                "name": "峯本 工"
+                            },
+                            {
+                                "name": "山崎 巌"
+                            },
+                            {
+                                "name": "山本公明"
+                            },
+                            {
+                                "name": "谷田貝豊彦"
+                            },
+                            {
+                                "name": "矢嶋弘義"
+                            },
+                            {
+                                "name": "行松健一"
+                            },
+                            {
+                                "name": "和田 修"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "朝倉書店"
+                    },
+                    "description": {
+                        "ja": "より高速・高機能が求められ，そのブレークスルーとしての本技術も成熟しつつあり，その全容につき理論から実際までを詳説したもの〔内容〕概説／光コンピューティングのための光学的基礎／コンピュータアーキテクチャの基礎／ディジタル光コンピューティング／アナログ光コンピューティング／ハイブリッド光コンピューティング／光ニューロコンピューティング／多次元光信号処理／光インタコネクション／ネットワークの光処理技術／機能素子／非線形光技術／応用と将来展望"
+                    },
+                    "publication_date": "2006-06-01",
+                    "total_page": "534",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "identifiers": {
+                        "isbn": [
+                            "4254221525"
+                        ],
+                        "asin": [
+                            "4254221525"
+                        ],
+                        "ean": [
+                            "9784254221527"
+                        ],
+                        "cinii_nc_id": [
+                            "BA78569125"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_books",
+                            "@id": "http://ci.nii.ac.jp/ncid/BA78569125",
+                            "is_downloadable": false
+                        },
+                        {
+                            "@id": "https://www.amazon.co.jp/dp/4254221525?linkCode=osi&th=1&psc=1",
+                            "label": "amazon"
+                        },
+                        {
+                            "@id": "https://m.media-amazon.com/images/I/41HPVXVDKNL._SL75_.jpg",
+                            "label": "amazon_small_image"
+                        },
+                        {
+                            "@id": "https://m.media-amazon.com/images/I/41HPVXVDKNL._SL160_.jpg",
+                            "label": "amazon_medium_image"
+                        },
+                        {
+                            "@id": "https://m.media-amazon.com/images/I/41HPVXVDKNL._SL500_.jpg",
+                            "label": "amazon_large_image"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/layla118/books_etc/74538",
+                    "@type": "books_etc",
+                    "@reverse": "https://api.researchmap.jp/layla118/books_etc",
+                    "rm:id": "74538",
+                    "rm:user_id": "0000009711",
+                    "display": "disclosed",
+                    "major_achievement": true,
+                    "rm:creator_id": "0000009711",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2010-04-25T15:00:00Z",
+                    "rm:modifier_id": "0000009711",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2024-05-29T23:52:35Z",
+                    "book_title": {
+                        "ja": "Selected Papers on Optical Pattern Recognition Using Joint Trans from Correlation Milestones 157",
+                        "en": "Selected Papers on Optical Pattern Recognition Using Joint Trans from Correlation Milestones 157"
+                    },
+                    "book_owner_role": "others",
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "Mohammad S. Alam"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Mohammad S. Alam"
+                            }
+                        ]
+                    },
+                    "book_owner_range": {
+                        "ja": "\"Optical wavelet processor by holographic bipolar encoding and joint-transform correlation",
+                        "en": "\"Optical wavelet processor by holographic bipolar encoding and joint-transform correlation"
+                    },
+                    "publisher": {
+                        "ja": "SPIE Press",
+                        "en": "SPIE Press"
+                    },
+                    "description": {
+                        "ja": "Table of Contents\nSection One\nIntroductory Papers\n2 Detection of differences in real distributions James E. Rau (Journal of the Optical Society of America 1966)\n7 A technique for optically convolving two functions C.S. Weaver, J.W. Goodman (Applied Optics 1966)\nSection Two\nGeneral JTC Architectures and Algorithms\n10 A real-time programmable joint transform correlator F.T.S. Yu, X.J. Lu (Optics Communications 1984)\n17 Joint transform image correlation using a binary spatial light modulator at the Fourier plane Bahram Javidi, Chung-Jung Kuo (Applied Optics 1988)\n20 Joint-transform correlator systems using deformable-mirror spatial light modulators James M. Florence (Optics Letters 1989)\n23 Nonlinear joint power spectrum based optical correlation Bahram Javidi (Applied Optics 1989)\n33 New binarization techniques for joint transform correlation Steven K. Rogers, John D. Cline, Matthew Kabrisky, James P. Mills (Optical Engineering 1990)\n39 Effects of fringe binarization of multiobject joint transform correlation Francis T.S. Yu, Feng Cheng, Toshio Nagata, Don A. Gregory (Applied Optics 1989)\n42 Effects of thresholding in joint-transform correlation Aria Tatone, C.-M. Uang, Francis T.S. Yu, Eddy C. Tam, Don A. Gregory (Applied Optics 1992)\n49 Design elements of binary joint transform correlation and selected optimization techniques William B. Hahn, Jr., David L. Flannery (Optical Engineering 1992)\n59 Fringe-adjusted joint transform correlation Mohammad S. Alam, Mohammad A. Karim (Applied Optics 1993)\n66 Removal of intra-class associations in joint transform power spectrum Feng Cheng, Pedro Andres, Francis T.S. Yu (Optics Communications 1993)\n72 Multiple-object detection with a chirp-encoded joint transform correlator Qing Tang, Bahram Javidi (Applied Optics 1993)\n82 Preprocessed multiobject joint transform correlator M.S. Alam, O. Perez, M.A. Karim (Applied Optics 1993)\n88 Technique for reducing the redundant and self-correlation terms in joint transform correlators Qing Tang, Bahram Javidi (Applied Optics 1993)\n96 Multitarget detection using spatial synthesis joint transform correlator Feng Cheng, Francis T.S. Yu, Don A. Gregory (Applied Optics 1993)\n102 Photo-compact-disk-based optical correlator Suganda Jutamulia, Don A. Gregory (Applied Optics 1993)\n105 Multiple target detection using a modified fringe-adjusted joint transform correlator Mohammad S. Alam, Mohammad A. Karim (Optical Engineering 1994)\n113 Fractional power fringe-adjusted joint transform correlation Mohammad S. Alam (Optical Engineering 1995)\n122 Contrast-improved joint transform correlator using spatial light modulators S. Vallmitjana, E. Martin-Badosa, S. Bosch, A. Carnicer (Optics and Laser Technology 1996)\n132 Phase-only joint transform correlator: analysis and experimental results Peter S. Erbach, Don A. Gregory, Jeffery B. Hammock (Applied Optics 1996)\n138 Nonlinear joint transform correlator by interframe processing of multi-intensity imagery Zikuan Chen, Guoguang Mu (Optical Engineering 1996)\n146 Implementation of a non-zero-order joint-transform correlator by use of phase-shifting techniques Guowen Lu, Zheng Zhang, Shudong Wu, F.T.S. Yu (Applied Optics 1997)\n160 Improving multiobject correlation discrimination using data fusion in the correlation plane M.S. Alam, Y.A. Gu (Optik 1997)\n166 Post-processing of joint-transform correlator outputs with Kolmogorov-Smirnov statistical test Josep Ferre-Borrull, Xavier Fernandez, Salvador Bosch, Santiago Vallmitjana, Estela Martin-Badosa (Optics Communications 1998)\n173 Soft blocking of the dc term in Fourier optical systems Suganda Jutamulia, Don A. Gregory (Optical Engineering 1998)\n176 Compact optical correlator: preprocessing and filter encoding strategies applied to images with varying illumination Henrik Sjoberg, Bertrand Noharet, Lech Wosinski, Rolph Hey (Optical Engineering 1998)\nSection Three\nWavelet Joint Transform Correlators\n187 Joint transform correlator that uses wavelet transforms X.J. Lu, A. Katz, E.G. Kanterakis, N.P. Caviris (Optics Letters 1992)\n190 Optical wavelet transform by the phase-only joint-transform correlator Peter S. Erbach, Don A. Gregory, Xiangyang Yang (Applied Optics 1996)\n200 Optical wavelet processor by holographic bipolar encoding and joint-transform correlation Katsuhisa Hirokawa, Kazuyoshi Itoh, Yoshiki Ichioka (Applied Optics 1997)\n204 Joint wavelet representation correlator for pattern recognition Sheng Zhong, Shutian Liu, Xueru Zhang, Chunfei Li (Applied Optics 1998)\n210 Pattern discrimination using a bank of wavelet filters in a joint transform correlator Renu Tripathi, Kehar Singh (Optical Engineering 1998)\nSection Four\nPhotorefractive JTCs\n219 Compact joint transform correlator with a thick photorefractive crystal Francis T.S. Yu, Shundong Wu, Don A. Gregory (Applied Optics 1992)\n222 Shift-invariant photorefractive joint-transform correlator using Fe:LiNbO[3] crystal plates Q. Byron He, Pochi Yeh, L.J. Hu, S.P. Lin, T.S. Yeh, S.L. Tu, S.J. Yang, Ken Hsu (Applied Optics 1993)\n225 All-optical nonlinear joint Fourier transform correlator Jehad Khoury, Jonathan S. Kane, George Asimellis, Mark Cronin-Golomb, Charles Woods (Applied Optics 1994)\n235 Effects of saturation on the nonlinear incoherent-erasure joint-transform correlator George Asimellis, Jehad Khoury, Charles Woods (Journal of the Optical Society of America A 1996)\n247 Experimental assessment of a photorefractive bandpass joint transform correlator Rupert C.D. Young, Chris R. Chatwin (Optical Engineering 1997)\n268 Fringe-adjusted incoherent erasure joint transform correlator Mohammad S. Alam, Jehad S. Khoury (Optical Engineering 1998)\nSection Five\nDistortion Invariant JTCs\n279 Composite harmonics joint transform correlator for tilt invariant pattern recognition David Mendlovic, Meir Deutsch, Naim Konforti, Emanuel Marom (Optics Communications 1990)\n286 Joint transform correlator performance enhancement by a logarithmic-polar transformation Osvaldo Perez, Mohammad A. Karim (Optical Engineering 1993)\n295 Rotation-invariant joint transform correlator Suganda Jutamulia, Toshimitsu Asakura (Applied Optics 1994)\n298 Wavelet transform-based correlator for the recognition of rotationally distorted images Farid Ahmed, Mohammad A. Karim, Mohammad S. Alam (Optical Engineering 1995)\n304 Multichannel photorefractive correlator for rotation- invariant optical pattern recognition Zhiqing Wen, Xiangyang Yang (Optics Communications 1997)\n309 Distortion-invariant fringe-adjusted joint transform correlator Mohammad S. Alam, Xue-wen Chen, Mohammad A. Karim (Applied Optics 1997)\nSection Six\nUnconventional JTCs\n317 Nonconventional joint-transform correlator Francis T.S. Yu, Chenhua Zhang, Yong Jin, Don A. Gregory (Optics Letters 1989)\n320 Fractional joint transform correlator Adolf W. Lohmann, David Mendlovic (Applied Optics 1997)\n326 Lensless joint transform correlator Thomas J. Grycewicz (Optical Engineering 1997)\n332 Real-time joint transform correlation with photoanisotropic dye-polymer films Tizhi Huang, Kelvin H. Wagner (Applied Optics 1994)\n344 Novel joint transform correlator architecture using bacteriorhodopsin optically addressable spatial light modulators J. David Sanchez-de-la-Llave, Drew A. Pommet, Michael A. Fiddy (Optical Engineering 1998)\n350 Applying time modulation to the joint transform correlator Thomas J. Grycewicz (Optical Engineering 1994)\n358 Fourier-plane windowing in the binary joint transform correlator for multiple target detection Thomas J. Grycewicz (Applied Optics 1995)\nSection Seven\nAdaptive Recognition and Tracking\n369 Adaptive real-time pattern recognition using a liquid crystal TV based joint transform correlator Francis T.S. Yu, Suganda Jutamulia, Tsongneng W. Lin, Don A. Gregory (Applied Optics 1987)\n372 Programmable binary nonlinear optical processor for associative retrieval Bahram Javidi (Optical Engineering 1989)\n378 Adaptive learning with joint transform correlators Joseph Rosen, Uri Mahlab, Joseph Shamir (Optical Engineering 1990)\n384 Autonomous real-time object tracking with an adaptive joint transform correlator Eddy C. Tam, Francis T.S. Yu, Don A. Gregory, Richard D. Juday (Optical Engineering 1990)\nSection Eight\nColor Pattern and Defocused Image Recognition\n393 Polychromatic target identification with a color liquid- crystal-TV-based joint-transform correlator Francis T.S. Yu, Zhaohui Yang, Kun Pan (Applied Optics 1994)\n396 Multichannel single-output color pattern recognition by use of a joint-transform correlator Meir Deutsch, Javier Garcia, David Mendlovic (Applied Optics 1996)\n403 Binary joint transform correlation of defocused images Barry K. Karch, Mohammad A. Karim, David L. Flannery (Optical Engineering 1993)\n414 Correlation postprocessing-based method for the detection of defocused images Arturo Carnicer, Santiago Vallmitjana, Ignacio Juvells (Applied Optics 1997)\nSection Nine\nOptical Character Recognition\n421 Optical pattern recognition of letters by a joint-transform correlator using a ferroelectric liquid-crystal spatial light modulator Tadao Iwaki, Yasuyuki Mitsuoka (Optics Letters 1990)\n424 Feature-extracted joint transform correlation Mohammad S. Alam (Applied Optics 1995)\nSection Ten\nBiometrics Recognition\n433 Optical fingerprint identification by binary joint transform correlation Kenneth H. Fielding, Joseph L. Horner, Charles K. Makekau (Optical Engineering 1991)\n437 Fingerprint identification by using a joint-Fourier correlator and a liquid crystal light valve F. Song, X. An, J. Song, P. Ji, C. Bai, T. Lin, S. Li, B. Liu, H. Wang (Optics and Laser Technology 1994)\n446 Optical implementation of neural networks for face recognition by the use of nonlinear joint transform correlators Bahram Javidi, Jian Li, Qing Tang (Applied Optics 1995)\n459 Fingerprint identification by an optical joint transform correlation system Yuji Kobayashi, Haruyoshi Toyoda, Naohisa Mukohzaka, Narihiro Yoshida, Tsutomu Hara (Optical Review 1996)\n462 Optical recognition of phase-encrypted biometrics Eric G. Johnson, James D. Brasher, Don Gregory, Peter Erbach, Mike Duignan, Greg Behrmann, Sing H. Lee, Walter Daschner, Pin Long (Optical Engineering 1998)\nSection Eleven\nOptical Machine Vision\n473 Compact photorefractive correlators for robotic applications H. Rajbenbach, Sambath Bann, Philippe Refregier, Pascal Joffre, Jean-Pierre Huignard, Hermann-Stephan Buchkremer, Arne Skov Jensen, Erling Rasmussen, Karl-Heinz Brenner, Garry Lohman (Applied Optics 1992)\n482 On-board optical joint transform correlator for real-time road sign recognition Laurent Guibert, Gilles Keryer, Alain Servel, Mondher Attia, Harry S. MacKenzie, Pierre Pellat-Finet, Jean-Louis de Bougrenet de la Tocnaye (Optical Engineering 1995)\nSection Twelve\nJTC Based Image Processing and Digital Computing\n493 Deblurring using joint transform processor F.T.S. Yu, Y.S. Cheng (Optics Communications 1989)\n499 Image enhancement by nonlinear joint transform processing Bahram Javidi, Jack Ruiz, Carol Ruiz (Optics Communications 1990)\n506 Optical computing techniques for image/video compression Akitoshi Yoshida, John H. Reif (Proceedings of the IEEE 1994)\n513 Joint wavelet-transform correlator for image feature extraction Wenlu Wang, Guofan Jin, Yingbai Yan, Minxian Wu (Applied Optics 1995)\n520 Deblurring using fringe-adjusted joint transform correlation Mohammad S. Alam (Optical Engineering 1998)\n529 Multiple-input joint wavelet transform correlator for wavelet feature extraction Samuel P. Kozaitis, Mark A. Getbehead (Optical Engineering 1998)\n536 Joint wavelet transform correlation with separated target and reference planes Boon Yi Soon, Mohammad A. Karim, Russell C. Hardie, Mohammad S. Alam (Optics Express 1998)\n543 Real-time optical computing: multiprocessor design Mohammad S. Alam (Optical Engineering 1994)\nSection Thirteen\nParameter Measurement and Sensing\n551 Real-time velocity measurement by the use of a speckle- pattern correlation system that incorporates a ferroelectric liquid-crystal spatial light modulator Yuji Kobayashi, Tamiki Takemori, Naohisa Mukohzaka, Narihiro Yoshida, Seiji Fukushima (Applied Optics 1994)\n561 Dynamic fiber specklegram sensing Francis T.S. Yu, Kun Pan, Dazun Zhao, Paul B. Ruffin (Applied Optics 1995)\n566 Frame-rate displacement measurement system utilizing an ultra-high-speed shutter camera and an optical correlator Haruyoshi Toyoda, Yuji Kobayashi, Naohisa Mukohzaka, Narihiro Yoshida, Tsutomu Hara, Takeji Ohno (IEEE Transactions on Instrumentation and Measurement 1995)\n570 Sizing opaque particles with joint transform correlation Xue-Wen Chen, Mohammad A. Karim (Applied Optics 1997)\n574 Joint transform correlator for the detection of defects in optical fibers Wei Liu, Hakil Kim, Sukmock Lee, Seunggol Lee (Optical Engineering 1998)\nSection Fourteen\nPerformance Measures, Comparison and Optimization\n583 Nonlinear joint-transform correlation: an optimal solution for adaptive image discrimination and input noise robustness Philippe Refregier, Vincent Laude, Bahram Javidi (Optics Letters 1994)\n586 Nonlinearity optimization in nonlinear joint transform correlators Leonid P. Yaroslavsky, Emanuel Marom (Applied Optics 1997)\n593 Performance comparison of ferroelectric liquid-crystal- technology-based coherent optical multichannel correlators G. Keryer, J.L. de Bougrenet de la Tocnaye, A. Al Falou (Applied Optics 1997)\n606 Robustness of joint transform correlator versus VanderLugt correlator Purwadi Purwosumarto, Francis T.S. Yu (Optical Engineering 1997)\n612 Analysis of image detection based on Fourier plane nonlinear filtering in a joint transform correlator Peter Willett, Bahram Javidi, Marco Lops (Applied Optics 1998)\n625 Nonlinear compansive noise reduction in joint transform correlators J. Khoury, George Asimellis, Peter D. Gianino, Charles L. Woods (Optical Engineering 1998)",
+                        "en": "Table of Contents\nSection One\nIntroductory Papers\n2 Detection of differences in real distributions James E. Rau (Journal of the Optical Society of America 1966)\n7 A technique for optically convolving two functions C.S. Weaver, J.W. Goodman (Applied Optics 1966)\nSection Two\nGeneral JTC Architectures and Algorithms\n10 A real-time programmable joint transform correlator F.T.S. Yu, X.J. Lu (Optics Communications 1984)\n17 Joint transform image correlation using a binary spatial light modulator at the Fourier plane Bahram Javidi, Chung-Jung Kuo (Applied Optics 1988)\n20 Joint-transform correlator systems using deformable-mirror spatial light modulators James M. Florence (Optics Letters 1989)\n23 Nonlinear joint power spectrum based optical correlation Bahram Javidi (Applied Optics 1989)\n33 New binarization techniques for joint transform correlation Steven K. Rogers, John D. Cline, Matthew Kabrisky, James P. Mills (Optical Engineering 1990)\n39 Effects of fringe binarization of multiobject joint transform correlation Francis T.S. Yu, Feng Cheng, Toshio Nagata, Don A. Gregory (Applied Optics 1989)\n42 Effects of thresholding in joint-transform correlation Aria Tatone, C.-M. Uang, Francis T.S. Yu, Eddy C. Tam, Don A. Gregory (Applied Optics 1992)\n49 Design elements of binary joint transform correlation and selected optimization techniques William B. Hahn, Jr., David L. Flannery (Optical Engineering 1992)\n59 Fringe-adjusted joint transform correlation Mohammad S. Alam, Mohammad A. Karim (Applied Optics 1993)\n66 Removal of intra-class associations in joint transform power spectrum Feng Cheng, Pedro Andres, Francis T.S. Yu (Optics Communications 1993)\n72 Multiple-object detection with a chirp-encoded joint transform correlator Qing Tang, Bahram Javidi (Applied Optics 1993)\n82 Preprocessed multiobject joint transform correlator M.S. Alam, O. Perez, M.A. Karim (Applied Optics 1993)\n88 Technique for reducing the redundant and self-correlation terms in joint transform correlators Qing Tang, Bahram Javidi (Applied Optics 1993)\n96 Multitarget detection using spatial synthesis joint transform correlator Feng Cheng, Francis T.S. Yu, Don A. Gregory (Applied Optics 1993)\n102 Photo-compact-disk-based optical correlator Suganda Jutamulia, Don A. Gregory (Applied Optics 1993)\n105 Multiple target detection using a modified fringe-adjusted joint transform correlator Mohammad S. Alam, Mohammad A. Karim (Optical Engineering 1994)\n113 Fractional power fringe-adjusted joint transform correlation Mohammad S. Alam (Optical Engineering 1995)\n122 Contrast-improved joint transform correlator using spatial light modulators S. Vallmitjana, E. Martin-Badosa, S. Bosch, A. Carnicer (Optics and Laser Technology 1996)\n132 Phase-only joint transform correlator: analysis and experimental results Peter S. Erbach, Don A. Gregory, Jeffery B. Hammock (Applied Optics 1996)\n138 Nonlinear joint transform correlator by interframe processing of multi-intensity imagery Zikuan Chen, Guoguang Mu (Optical Engineering 1996)\n146 Implementation of a non-zero-order joint-transform correlator by use of phase-shifting techniques Guowen Lu, Zheng Zhang, Shudong Wu, F.T.S. Yu (Applied Optics 1997)\n160 Improving multiobject correlation discrimination using data fusion in the correlation plane M.S. Alam, Y.A. Gu (Optik 1997)\n166 Post-processing of joint-transform correlator outputs with Kolmogorov-Smirnov statistical test Josep Ferre-Borrull, Xavier Fernandez, Salvador Bosch, Santiago Vallmitjana, Estela Martin-Badosa (Optics Communications 1998)\n173 Soft blocking of the dc term in Fourier optical systems Suganda Jutamulia, Don A. Gregory (Optical Engineering 1998)\n176 Compact optical correlator: preprocessing and filter encoding strategies applied to images with varying illumination Henrik Sjoberg, Bertrand Noharet, Lech Wosinski, Rolph Hey (Optical Engineering 1998)\nSection Three\nWavelet Joint Transform Correlators\n187 Joint transform correlator that uses wavelet transforms X.J. Lu, A. Katz, E.G. Kanterakis, N.P. Caviris (Optics Letters 1992)\n190 Optical wavelet transform by the phase-only joint-transform correlator Peter S. Erbach, Don A. Gregory, Xiangyang Yang (Applied Optics 1996)\n200 Optical wavelet processor by holographic bipolar encoding and joint-transform correlation Katsuhisa Hirokawa, Kazuyoshi Itoh, Yoshiki Ichioka (Applied Optics 1997)\n204 Joint wavelet representation correlator for pattern recognition Sheng Zhong, Shutian Liu, Xueru Zhang, Chunfei Li (Applied Optics 1998)\n210 Pattern discrimination using a bank of wavelet filters in a joint transform correlator Renu Tripathi, Kehar Singh (Optical Engineering 1998)\nSection Four\nPhotorefractive JTCs\n219 Compact joint transform correlator with a thick photorefractive crystal Francis T.S. Yu, Shundong Wu, Don A. Gregory (Applied Optics 1992)\n222 Shift-invariant photorefractive joint-transform correlator using Fe:LiNbO[3] crystal plates Q. Byron He, Pochi Yeh, L.J. Hu, S.P. Lin, T.S. Yeh, S.L. Tu, S.J. Yang, Ken Hsu (Applied Optics 1993)\n225 All-optical nonlinear joint Fourier transform correlator Jehad Khoury, Jonathan S. Kane, George Asimellis, Mark Cronin-Golomb, Charles Woods (Applied Optics 1994)\n235 Effects of saturation on the nonlinear incoherent-erasure joint-transform correlator George Asimellis, Jehad Khoury, Charles Woods (Journal of the Optical Society of America A 1996)\n247 Experimental assessment of a photorefractive bandpass joint transform correlator Rupert C.D. Young, Chris R. Chatwin (Optical Engineering 1997)\n268 Fringe-adjusted incoherent erasure joint transform correlator Mohammad S. Alam, Jehad S. Khoury (Optical Engineering 1998)\nSection Five\nDistortion Invariant JTCs\n279 Composite harmonics joint transform correlator for tilt invariant pattern recognition David Mendlovic, Meir Deutsch, Naim Konforti, Emanuel Marom (Optics Communications 1990)\n286 Joint transform correlator performance enhancement by a logarithmic-polar transformation Osvaldo Perez, Mohammad A. Karim (Optical Engineering 1993)\n295 Rotation-invariant joint transform correlator Suganda Jutamulia, Toshimitsu Asakura (Applied Optics 1994)\n298 Wavelet transform-based correlator for the recognition of rotationally distorted images Farid Ahmed, Mohammad A. Karim, Mohammad S. Alam (Optical Engineering 1995)\n304 Multichannel photorefractive correlator for rotation- invariant optical pattern recognition Zhiqing Wen, Xiangyang Yang (Optics Communications 1997)\n309 Distortion-invariant fringe-adjusted joint transform correlator Mohammad S. Alam, Xue-wen Chen, Mohammad A. Karim (Applied Optics 1997)\nSection Six\nUnconventional JTCs\n317 Nonconventional joint-transform correlator Francis T.S. Yu, Chenhua Zhang, Yong Jin, Don A. Gregory (Optics Letters 1989)\n320 Fractional joint transform correlator Adolf W. Lohmann, David Mendlovic (Applied Optics 1997)\n326 Lensless joint transform correlator Thomas J. Grycewicz (Optical Engineering 1997)\n332 Real-time joint transform correlation with photoanisotropic dye-polymer films Tizhi Huang, Kelvin H. Wagner (Applied Optics 1994)\n344 Novel joint transform correlator architecture using bacteriorhodopsin optically addressable spatial light modulators J. David Sanchez-de-la-Llave, Drew A. Pommet, Michael A. Fiddy (Optical Engineering 1998)\n350 Applying time modulation to the joint transform correlator Thomas J. Grycewicz (Optical Engineering 1994)\n358 Fourier-plane windowing in the binary joint transform correlator for multiple target detection Thomas J. Grycewicz (Applied Optics 1995)\nSection Seven\nAdaptive Recognition and Tracking\n369 Adaptive real-time pattern recognition using a liquid crystal TV based joint transform correlator Francis T.S. Yu, Suganda Jutamulia, Tsongneng W. Lin, Don A. Gregory (Applied Optics 1987)\n372 Programmable binary nonlinear optical processor for associative retrieval Bahram Javidi (Optical Engineering 1989)\n378 Adaptive learning with joint transform correlators Joseph Rosen, Uri Mahlab, Joseph Shamir (Optical Engineering 1990)\n384 Autonomous real-time object tracking with an adaptive joint transform correlator Eddy C. Tam, Francis T.S. Yu, Don A. Gregory, Richard D. Juday (Optical Engineering 1990)\nSection Eight\nColor Pattern and Defocused Image Recognition\n393 Polychromatic target identification with a color liquid- crystal-TV-based joint-transform correlator Francis T.S. Yu, Zhaohui Yang, Kun Pan (Applied Optics 1994)\n396 Multichannel single-output color pattern recognition by use of a joint-transform correlator Meir Deutsch, Javier Garcia, David Mendlovic (Applied Optics 1996)\n403 Binary joint transform correlation of defocused images Barry K. Karch, Mohammad A. Karim, David L. Flannery (Optical Engineering 1993)\n414 Correlation postprocessing-based method for the detection of defocused images Arturo Carnicer, Santiago Vallmitjana, Ignacio Juvells (Applied Optics 1997)\nSection Nine\nOptical Character Recognition\n421 Optical pattern recognition of letters by a joint-transform correlator using a ferroelectric liquid-crystal spatial light modulator Tadao Iwaki, Yasuyuki Mitsuoka (Optics Letters 1990)\n424 Feature-extracted joint transform correlation Mohammad S. Alam (Applied Optics 1995)\nSection Ten\nBiometrics Recognition\n433 Optical fingerprint identification by binary joint transform correlation Kenneth H. Fielding, Joseph L. Horner, Charles K. Makekau (Optical Engineering 1991)\n437 Fingerprint identification by using a joint-Fourier correlator and a liquid crystal light valve F. Song, X. An, J. Song, P. Ji, C. Bai, T. Lin, S. Li, B. Liu, H. Wang (Optics and Laser Technology 1994)\n446 Optical implementation of neural networks for face recognition by the use of nonlinear joint transform correlators Bahram Javidi, Jian Li, Qing Tang (Applied Optics 1995)\n459 Fingerprint identification by an optical joint transform correlation system Yuji Kobayashi, Haruyoshi Toyoda, Naohisa Mukohzaka, Narihiro Yoshida, Tsutomu Hara (Optical Review 1996)\n462 Optical recognition of phase-encrypted biometrics Eric G. Johnson, James D. Brasher, Don Gregory, Peter Erbach, Mike Duignan, Greg Behrmann, Sing H. Lee, Walter Daschner, Pin Long (Optical Engineering 1998)\nSection Eleven\nOptical Machine Vision\n473 Compact photorefractive correlators for robotic applications H. Rajbenbach, Sambath Bann, Philippe Refregier, Pascal Joffre, Jean-Pierre Huignard, Hermann-Stephan Buchkremer, Arne Skov Jensen, Erling Rasmussen, Karl-Heinz Brenner, Garry Lohman (Applied Optics 1992)\n482 On-board optical joint transform correlator for real-time road sign recognition Laurent Guibert, Gilles Keryer, Alain Servel, Mondher Attia, Harry S. MacKenzie, Pierre Pellat-Finet, Jean-Louis de Bougrenet de la Tocnaye (Optical Engineering 1995)\nSection Twelve\nJTC Based Image Processing and Digital Computing\n493 Deblurring using joint transform processor F.T.S. Yu, Y.S. Cheng (Optics Communications 1989)\n499 Image enhancement by nonlinear joint transform processing Bahram Javidi, Jack Ruiz, Carol Ruiz (Optics Communications 1990)\n506 Optical computing techniques for image/video compression Akitoshi Yoshida, John H. Reif (Proceedings of the IEEE 1994)\n513 Joint wavelet-transform correlator for image feature extraction Wenlu Wang, Guofan Jin, Yingbai Yan, Minxian Wu (Applied Optics 1995)\n520 Deblurring using fringe-adjusted joint transform correlation Mohammad S. Alam (Optical Engineering 1998)\n529 Multiple-input joint wavelet transform correlator for wavelet feature extraction Samuel P. Kozaitis, Mark A. Getbehead (Optical Engineering 1998)\n536 Joint wavelet transform correlation with separated target and reference planes Boon Yi Soon, Mohammad A. Karim, Russell C. Hardie, Mohammad S. Alam (Optics Express 1998)\n543 Real-time optical computing: multiprocessor design Mohammad S. Alam (Optical Engineering 1994)\nSection Thirteen\nParameter Measurement and Sensing\n551 Real-time velocity measurement by the use of a speckle- pattern correlation system that incorporates a ferroelectric liquid-crystal spatial light modulator Yuji Kobayashi, Tamiki Takemori, Naohisa Mukohzaka, Narihiro Yoshida, Seiji Fukushima (Applied Optics 1994)\n561 Dynamic fiber specklegram sensing Francis T.S. Yu, Kun Pan, Dazun Zhao, Paul B. Ruffin (Applied Optics 1995)\n566 Frame-rate displacement measurement system utilizing an ultra-high-speed shutter camera and an optical correlator Haruyoshi Toyoda, Yuji Kobayashi, Naohisa Mukohzaka, Narihiro Yoshida, Tsutomu Hara, Takeji Ohno (IEEE Transactions on Instrumentation and Measurement 1995)\n570 Sizing opaque particles with joint transform correlation Xue-Wen Chen, Mohammad A. Karim (Applied Optics 1997)\n574 Joint transform correlator for the detection of defects in optical fibers Wei Liu, Hakil Kim, Sukmock Lee, Seunggol Lee (Optical Engineering 1998)\nSection Fourteen\nPerformance Measures, Comparison and Optimization\n583 Nonlinear joint-transform correlation: an optimal solution for adaptive image discrimination and input noise robustness Philippe Refregier, Vincent Laude, Bahram Javidi (Optics Letters 1994)\n586 Nonlinearity optimization in nonlinear joint transform correlators Leonid P. Yaroslavsky, Emanuel Marom (Applied Optics 1997)\n593 Performance comparison of ferroelectric liquid-crystal- technology-based coherent optical multichannel correlators G. Keryer, J.L. de Bougrenet de la Tocnaye, A. Al Falou (Applied Optics 1997)\n606 Robustness of joint transform correlator versus VanderLugt correlator Purwadi Purwosumarto, Francis T.S. Yu (Optical Engineering 1997)\n612 Analysis of image detection based on Fourier plane nonlinear filtering in a joint transform correlator Peter Willett, Bahram Javidi, Marco Lops (Applied Optics 1998)\n625 Nonlinear compansive noise reduction in joint transform correlators J. Khoury, George Asimellis, Peter D. Gianino, Charles L. Woods (Optical Engineering 1998)"
+                    },
+                    "publication_date": "1999-09",
+                    "total_page": "658",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "book_type": "scholarly_book",
+                    "identifiers": {
+                        "isbn": [
+                            "9780819434708"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "@id": "https://spie.org/Publications/Book/348938",
+                            "label": "url",
+                            "is_downloadable": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/layla118/research_projects",
+            "@type": "research_projects",
+            "@reverse": "https://api.researchmap.jp/layla118",
+            "total_items": 8,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/layla118/research_projects/31467142",
+                    "@type": "research_projects",
+                    "@reverse": "https://api.researchmap.jp/layla118/research_projects",
+                    "rm:id": "31467142",
+                    "rm:user_id": "0000009711",
+                    "display": "disclosed",
+                    "major_achievement": true,
+                    "rm:creator_id": "0000009711",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2021-01-15T00:22:00Z",
+                    "rm:modifier_id": "0000009711",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2022-06-25T06:02:22Z",
+                    "research_project_title": {
+                        "ja": "逆駆動特性に優れた減速機による“人にやさしい”ロボットアームの実現"
+                    },
+                    "offer_organization": {
+                        "ja": "文部科学省"
+                    },
+                    "system_name": {
+                        "ja": "A-STEP機能検証フェーズ実証研究タイプ"
+                    },
+                    "from_date": "2019-11",
+                    "to_date": "2020-10",
+                    "research_project_owner_role": "others"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/layla118/research_projects/31467138",
+                    "@type": "research_projects",
+                    "@reverse": "https://api.researchmap.jp/layla118/research_projects",
+                    "rm:id": "31467138",
+                    "rm:user_id": "0000009711",
+                    "display": "disclosed",
+                    "major_achievement": true,
+                    "rm:creator_id": "0000009711",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2021-01-15T00:19:49Z",
+                    "rm:modifier_id": "0000009711",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2021-01-15T00:27:27Z",
+                    "research_project_title": {
+                        "ja": "機械関連産業（輸送用機械）におけるマルチ・マテリアル化に対応した摩擦攪拌接合技術のオープンイノベーション・プラットフォーム構築事業"
+                    },
+                    "offer_organization": {
+                        "ja": "経済産業省"
+                    },
+                    "system_name": {
+                        "ja": "地域未来オープンイノベーション・プラットフォーム構築事業"
+                    },
+                    "from_date": "2019-04",
+                    "to_date": "2020-03",
+                    "research_project_owner_role": "principal_investigator"
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/layla118/association_memberships",
+            "@type": "association_memberships",
+            "@reverse": "https://api.researchmap.jp/layla118",
+            "total_items": 6,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/layla118/association_memberships/7769753",
+                    "@type": "association_memberships",
+                    "@reverse": "https://api.researchmap.jp/layla118/association_memberships",
+                    "rm:id": "7769753",
+                    "rm:user_id": "0000009711",
+                    "display": "disclosed",
+                    "major_achievement": true,
+                    "rm:creator_id": "0000009711",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2014-08-27T07:25:28Z",
+                    "rm:modifier_id": "0000009711",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2021-01-15T01:22:57Z",
+                    "academic_society_name": {
+                        "ja": "照明学会",
+                        "en": "THE ILLUMINATING ENGINEERING INSTITUTE OF JAPAN"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/layla118/association_memberships/133704",
+                    "@type": "association_memberships",
+                    "@reverse": "https://api.researchmap.jp/layla118/association_memberships",
+                    "rm:id": "133704",
+                    "rm:user_id": "0000009711",
+                    "display": "disclosed",
+                    "major_achievement": true,
+                    "rm:creator_id": "0000009711",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2010-04-25T15:00:00Z",
+                    "rm:modifier_id": "0000009711",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2021-01-15T01:22:52Z",
+                    "academic_society_name": {
+                        "ja": "Optical Society of America"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/layla118/association_memberships/133703",
+                    "@type": "association_memberships",
+                    "@reverse": "https://api.researchmap.jp/layla118/association_memberships",
+                    "rm:id": "133703",
+                    "rm:user_id": "0000009711",
+                    "display": "disclosed",
+                    "major_achievement": true,
+                    "rm:creator_id": "0000009711",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2010-04-25T15:00:00Z",
+                    "rm:modifier_id": "0000009711",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2021-01-15T01:22:54Z",
+                    "academic_society_name": {
+                        "ja": "日本光学会"
+                    }
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/layla118/industrial_property_rights",
+            "@type": "industrial_property_rights",
+            "@reverse": "https://api.researchmap.jp/layla118",
+            "total_items": 4,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/layla118/industrial_property_rights/1499626",
+                    "@type": "industrial_property_rights",
+                    "@reverse": "https://api.researchmap.jp/layla118/industrial_property_rights",
+                    "rm:id": "1499626",
+                    "rm:user_id": "0000009711",
+                    "display": "disclosed",
+                    "major_achievement": true,
+                    "rm:creator_id": "0000009711",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2015-02-13T02:26:48Z",
+                    "rm:modifier_id": "0000009711",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2022-06-24T05:41:53Z",
+                    "industrial_property_right_type": "patent_right",
+                    "industrial_property_right_title": {
+                        "ja": "ビタミンA測定装置及びビタミンA測定システム"
+                    },
+                    "inventors": {
+                        "ja": [
+                            {
+                                "name": "河野,宮野"
+                            },
+                            {
+                                "name": "和田,広川"
+                            }
+                        ]
+                    },
+                    "inventors_text": {
+                        "ja": "河野，宮野，和田，広川"
+                    },
+                    "application_number": "特願2014-046811",
+                    "application_date": "2014-03-10",
+                    "applicants": [
+                        {
+                            "applicant": {
+                                "ja": "広島県"
+                            },
+                            "rm:institution_code": "9999999999"
+                        },
+                        {
+                            "applicant": {
+                                "ja": "株式会社藤原製作所"
+                            },
+                            "rm:institution_code": "9999999999"
+                        },
+                        {
+                            "applicant": {
+                                "ja": "東亜ディーケーケー株式会社"
+                            },
+                            "rm:institution_code": "N835000000"
+                        }
+                    ],
+                    "patent_announcement_number": "特開2015-169627",
+                    "patent_announcement_date": "2015-09-28",
+                    "patent_number": "特許6260902",
+                    "registration_date": "2017-12-22",
+                    "identifiers": {
+                        "j_global_id": [
+                            "201803002848294347"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "j_global",
+                            "@id": "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=201803002848294347"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/layla118/presentations",
+            "@type": "presentations",
+            "@reverse": "https://api.researchmap.jp/layla118",
+            "total_items": 22,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/layla118/presentations/239009",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/layla118/presentations",
+                    "rm:id": "239009",
+                    "rm:user_id": "0000009711",
+                    "display": "disclosed",
+                    "major_achievement": true,
+                    "rm:creator_id": "0000009711",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2010-04-25T15:00:00Z",
+                    "rm:modifier_id": "0000009711",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2021-01-15T00:30:23Z",
+                    "presentation_title": {
+                        "ja": "Independent component analysis based on scatter diagram"
+                    },
+                    "event": {
+                        "ja": "Optical Engineering for Sensing and Nanotechnology"
+                    },
+                    "publication_date": "1999",
+                    "invited": false,
+                    "languages": [
+                        "eng"
+                    ],
+                    "presentation_type": "oral_presentation",
+                    "is_international_presentation": true,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/layla118/presentations/37235085",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/layla118/presentations",
+                    "rm:id": "37235085",
+                    "rm:user_id": "0000009711",
+                    "display": "disclosed",
+                    "major_achievement": true,
+                    "rm:creator_id": "0000009711",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2022-06-24T23:17:28Z",
+                    "rm:modifier_id": "0000009711",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2022-06-25T05:57:23Z",
+                    "presentation_title": {
+                        "en": "Digital halftoning for computer-generated holograms"
+                    },
+                    "presenters": {
+                        "en": [
+                            {
+                                "name": "K Hirokawa"
+                            },
+                            {
+                                "name": "N Ukezono"
+                            },
+                            {
+                                "name": "K Itoh"
+                            },
+                            {
+                                "name": "Y Ichioka"
+                            }
+                        ]
+                    },
+                    "event": {
+                        "en": "17TH CONGRESS OF THE INTERNATIONAL COMMISSION FOR OPTICS: OPTICS FOR SCIENCE AND NEW TECHNOLOGY, PTS 1 AND 2"
+                    },
+                    "publication_date": "1996",
+                    "from_event_date": "1996",
+                    "to_event_date": "1996",
+                    "invited": false,
+                    "languages": [
+                        "eng"
+                    ],
+                    "promoter": {
+                        "en": "SPIE - INT SOC OPTICAL ENGINEERING"
+                    },
+                    "rm:is_open_access": false,
+                    "see_also": [
+                        {
+                            "@id": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=0042895441&origin=inward",
+                            "is_downloadable": false,
+                            "label": "scopus"
+                        },
+                        {
+                            "@id": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=0042895441&origin=inward",
+                            "is_downloadable": false,
+                            "label": "scopus_citedby"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/layla118/presentations/239008",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/layla118/presentations",
+                    "rm:id": "239008",
+                    "rm:user_id": "0000009711",
+                    "display": "disclosed",
+                    "major_achievement": true,
+                    "rm:creator_id": "0000009711",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2010-04-25T15:00:00Z",
+                    "rm:modifier_id": "0000009711",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2021-01-15T00:30:52Z",
+                    "presentation_title": {
+                        "ja": "Real-time Optical Wavelet-Transform with Joint Transform Correlator"
+                    },
+                    "event": {
+                        "ja": "International Topical Meeting on OPTICAL COMPUTING"
+                    },
+                    "publication_date": "1996",
+                    "invited": false,
+                    "languages": [
+                        "eng"
+                    ],
+                    "presentation_type": "poster_presentation",
+                    "is_international_presentation": true,
+                    "rm:is_open_access": false
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/layla118/media_coverage",
+            "@type": "media_coverage",
+            "@reverse": "https://api.researchmap.jp/layla118",
+            "total_items": 19,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/layla118/media_coverage/31467773",
+                    "@type": "media_coverage",
+                    "@reverse": "https://api.researchmap.jp/layla118/media_coverage",
+                    "rm:id": "31467773",
+                    "rm:user_id": "0000009711",
+                    "display": "disclosed",
+                    "major_achievement": true,
+                    "rm:creator_id": "0000009711",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2021-01-15T02:20:33Z",
+                    "rm:modifier_id": "0000009711",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2022-06-24T05:12:58Z",
+                    "media_coverage_title": {
+                        "ja": "ビタミンA簡易測定装置発売"
+                    },
+                    "writer_myself": "other_than_myself",
+                    "publisher": {
+                        "ja": "農機新聞"
+                    },
+                    "publication_date": "2019-07",
+                    "media_coverage_type": "paper"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/layla118/media_coverage/31467700",
+                    "@type": "media_coverage",
+                    "@reverse": "https://api.researchmap.jp/layla118/media_coverage",
+                    "rm:id": "31467700",
+                    "rm:user_id": "0000009711",
+                    "display": "disclosed",
+                    "major_achievement": true,
+                    "rm:creator_id": "0000009711",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2021-01-15T02:13:50Z",
+                    "rm:modifier_id": "0000009711",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2022-06-24T05:22:47Z",
+                    "media_coverage_title": {
+                        "ja": "LEDプロジェクトチームの紹介"
+                    },
+                    "writer_myself": "myself",
+                    "publisher": {
+                        "ja": "エフエムふくやま"
+                    },
+                    "publication_date": "2014-01-27",
+                    "media_coverage_type": "media_report"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/layla118/media_coverage/31467711",
+                    "@type": "media_coverage",
+                    "@reverse": "https://api.researchmap.jp/layla118/media_coverage",
+                    "rm:id": "31467711",
+                    "rm:user_id": "0000009711",
+                    "display": "disclosed",
+                    "major_achievement": true,
+                    "rm:creator_id": "0000009711",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2021-01-15T02:15:37Z",
+                    "rm:modifier_id": "0000009711",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2022-06-24T05:22:46Z",
+                    "media_coverage_title": {
+                        "ja": "LED等計測・評価試験室の概要などの紹介"
+                    },
+                    "publisher": {
+                        "ja": "RCC中国放送"
+                    },
+                    "event": {
+                        "ja": "Eタウン"
+                    },
+                    "publication_date": "2010-10",
+                    "media_coverage_type": "media_report"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/layla118/media_coverage/31467764",
+                    "@type": "media_coverage",
+                    "@reverse": "https://api.researchmap.jp/layla118/media_coverage",
+                    "rm:id": "31467764",
+                    "rm:user_id": "0000009711",
+                    "display": "disclosed",
+                    "major_achievement": true,
+                    "rm:creator_id": "0000009711",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2021-01-15T02:17:48Z",
+                    "rm:modifier_id": "0000009711",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2022-06-24T05:22:50Z",
+                    "media_coverage_title": {
+                        "ja": "東部工業技術センターでの光学性能評価などの紹介"
+                    },
+                    "publisher": {
+                        "ja": "TSSテレビ新広島"
+                    },
+                    "event": {
+                        "ja": "情熱企業"
+                    },
+                    "publication_date": "2010-02",
+                    "media_coverage_type": "media_report"
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/layla118/works",
+            "@type": "works",
+            "@reverse": "https://api.researchmap.jp/layla118",
+            "total_items": 3,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/layla118/works/31467929",
+                    "@type": "works",
+                    "@reverse": "https://api.researchmap.jp/layla118/works",
+                    "rm:id": "31467929",
+                    "rm:user_id": "0000009711",
+                    "display": "disclosed",
+                    "major_achievement": true,
+                    "rm:creator_id": "0000009711",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2021-01-15T02:45:41Z",
+                    "rm:modifier_id": "0000009711",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2021-01-15T05:03:07Z",
+                    "work_title": {
+                        "ja": "ビタミンA簡易測定装置 A-クイック"
+                    },
+                    "creators": {
+                        "ja": [
+                            {
+                                "name": "藤原製作所"
+                            }
+                        ]
+                    },
+                    "work_type": "others",
+                    "from_date": "2019-06-14",
+                    "see_also": [
+                        {
+                            "@id": "https://www.fujiwara-sc.co.jp/product_info/agricultural-science/agricultural-science2/ビタミンa簡易測定装置a-ｸｲｯｸ/",
+                            "label": "url",
+                            "is_downloadable": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/layla118/misc",
+            "@type": "misc",
+            "@reverse": "https://api.researchmap.jp/layla118",
+            "total_items": 9,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/layla118/misc/2327890",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/layla118/misc",
+                    "rm:id": "2327890",
+                    "rm:user_id": "0000009711",
+                    "display": "disclosed",
+                    "major_achievement": true,
+                    "rm:creator_id": "0000009711",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2012-03-02T10:19:01Z",
+                    "rm:modifier_id": "0000009711",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2022-06-25T06:29:02Z",
+                    "paper_title": {
+                        "ja": "光と形状計測"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "広川勝久"
+                            }
+                        ]
+                    },
+                    "published_paper_owner_roles": [
+                        "lead"
+                    ],
+                    "description": {
+                        "ja": "製造・加工技術の急速な進歩に伴い，製品形状の計測分解能は年々高いものが求められている．大型製品では，近年高い意匠性を持つことから，正確な形状を計測するためには計測分解能に加え，非常に多くの計測点が必要とされている．また，電子部品や光学部品については，小型化が進み，これらの部品やその製造装置の部品などにも高精度な加工，測定が要求されている．光学的な形状計測は，計測物体に接触せず，光の高速性，並列性などを利用し高速，高精度，高密度な計測が出来る点で他の測定方法と比較し非常に優位である．本講演では，このような非接触光計測として，計測する対象の大きさや計測精度に応じ，光切断法，共焦点顕微鏡，干渉計測法の3種類の計測方法について紹介を行った．"
+                    },
+                    "publication_date": "2007",
+                    "publication_name": {
+                        "ja": "光技術コンタクト"
+                    },
+                    "volume": "45",
+                    "number": "11",
+                    "starting_page": "46",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": true,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/layla118/misc/2327892",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/layla118/misc",
+                    "rm:id": "2327892",
+                    "rm:user_id": "0000009711",
+                    "display": "disclosed",
+                    "major_achievement": true,
+                    "rm:creator_id": "0000009711",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2012-03-02T10:20:03Z",
+                    "rm:modifier_id": "0000009711",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2022-06-25T06:29:04Z",
+                    "paper_title": {
+                        "ja": "数値計算用フリーソフトを使ってみた"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "広川 勝久"
+                            }
+                        ]
+                    },
+                    "published_paper_owner_roles": [
+                        "lead"
+                    ],
+                    "publication_date": "2006-03",
+                    "publication_name": {
+                        "ja": "光学"
+                    },
+                    "volume": "35",
+                    "number": "3",
+                    "starting_page": "165",
+                    "ending_page": "166",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": true,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "0389-6625"
+                        ],
+                        "cinii_na_id": [
+                            "10017962622"
+                        ],
+                        "cinii_nc_id": [
+                            "AN00080324"
+                        ],
+                        "cinii_cr_id": [
+                            "1573387450000699904"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_books",
+                            "@id": "http://ci.nii.ac.jp/ncid/AN00080324",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_research",
+                            "@id": "https://cir.nii.ac.jp/crid/1573387450000699904?lang=ja",
+                            "is_downloadable": false
+                        },
+                        {
+                            "@id": "http://ci.nii.ac.jp/naid/10017962622",
+                            "label": "url",
+                            "is_downloadable": false
+                        },
+                        {
+                            "@id": "http://osj-jsap.jp/publication/public/35-03-ww.pdf",
+                            "label": "url",
+                            "is_downloadable": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/layla118/academic_contribution",
+            "@type": "academic_contribution",
+            "@reverse": "https://api.researchmap.jp/layla118",
+            "total_items": 8,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/layla118/academic_contribution/37236385",
+                    "@type": "academic_contribution",
+                    "@reverse": "https://api.researchmap.jp/layla118/academic_contribution",
+                    "rm:id": "37236385",
+                    "rm:user_id": "0000009711",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000009711",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2022-06-25T06:16:05Z",
+                    "rm:modifier_id": "0000009711",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2022-06-25T06:16:05Z",
+                    "academic_contribution_title": {
+                        "ja": "電子デバイス・回路・照明・システム関連教育・研究ワークショップ実行委員"
+                    },
+                    "academic_contribution_type": "academic_society_etc",
+                    "academic_contribution_roles": [
+                        "planning_etc"
+                    ],
+                    "promoter": {
+                        "ja": "照明学会中国支部"
+                    },
+                    "from_event_date": "2015",
+                    "to_event_date": "2018"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/layla118/academic_contribution/37236365",
+                    "@type": "academic_contribution",
+                    "@reverse": "https://api.researchmap.jp/layla118/academic_contribution",
+                    "rm:id": "37236365",
+                    "rm:user_id": "0000009711",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000009711",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2022-06-25T06:12:02Z",
+                    "rm:modifier_id": "0000009711",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2022-06-25T06:12:02Z",
+                    "academic_contribution_title": {
+                        "ja": "ひろしまLED応用技術研究会"
+                    },
+                    "academic_contribution_type": "academic_society_etc",
+                    "academic_contribution_roles": [
+                        "planning_etc",
+                        "panel_chair_etc"
+                    ],
+                    "from_event_date": "2010-08",
+                    "to_event_date": "2016-03"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/layla118/academic_contribution/37236371",
+                    "@type": "academic_contribution",
+                    "@reverse": "https://api.researchmap.jp/layla118/academic_contribution",
+                    "rm:id": "37236371",
+                    "rm:user_id": "0000009711",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000009711",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2022-06-25T06:12:59Z",
+                    "rm:modifier_id": "0000009711",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2022-06-25T06:12:59Z",
+                    "academic_contribution_title": {
+                        "ja": "LIFT21情報技術研究会"
+                    },
+                    "academic_contribution_type": "academic_society_etc",
+                    "academic_contribution_roles": [
+                        "planning_etc",
+                        "panel_chair_etc"
+                    ],
+                    "from_event_date": "2007-07",
+                    "to_event_date": "2013-03"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/layla118/academic_contribution/37236381",
+                    "@type": "academic_contribution",
+                    "@reverse": "https://api.researchmap.jp/layla118/academic_contribution",
+                    "rm:id": "37236381",
+                    "rm:user_id": "0000009711",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000009711",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2022-06-25T06:14:44Z",
+                    "rm:modifier_id": "0000009711",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2022-06-25T06:16:26Z",
+                    "academic_contribution_title": {
+                        "ja": "光科学及び光技術調査委員会委員"
+                    },
+                    "academic_contribution_type": "academic_research",
+                    "academic_contribution_roles": [
+                        "academic_research_planning"
+                    ],
+                    "promoter": {
+                        "ja": "日本光学会"
+                    },
+                    "from_event_date": "2004",
+                    "to_event_date": "2006"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/layla118/academic_contribution/37236377",
+                    "@type": "academic_contribution",
+                    "@reverse": "https://api.researchmap.jp/layla118/academic_contribution",
+                    "rm:id": "37236377",
+                    "rm:user_id": "0000009711",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000009711",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2022-06-25T06:13:56Z",
+                    "rm:modifier_id": "0000009711",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2022-06-25T06:13:56Z",
+                    "academic_contribution_title": {
+                        "ja": "広島CAT研究会"
+                    },
+                    "academic_contribution_type": "academic_society_etc",
+                    "academic_contribution_roles": [
+                        "planning_etc"
+                    ],
+                    "from_event_date": "1998",
+                    "to_event_date": "2000"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/layla118/academic_contribution/37238290",
+                    "@type": "academic_contribution",
+                    "@reverse": "https://api.researchmap.jp/layla118/academic_contribution",
+                    "rm:id": "37238290",
+                    "rm:user_id": "0000009711",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000009711",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2022-06-26T00:28:45Z",
+                    "rm:modifier_id": "0000009711",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2022-06-26T00:28:45Z",
+                    "academic_contribution_title": {
+                        "ja": "IEEE"
+                    },
+                    "academic_contribution_type": "peer_review_etc",
+                    "academic_contribution_roles": [
+                        "peer_review"
+                    ],
+                    "promoter": {
+                        "ja": "電子情報通信学会"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/layla118/academic_contribution/37238288",
+                    "@type": "academic_contribution",
+                    "@reverse": "https://api.researchmap.jp/layla118/academic_contribution",
+                    "rm:id": "37238288",
+                    "rm:user_id": "0000009711",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000009711",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2022-06-26T00:28:13Z",
+                    "rm:modifier_id": "0000009711",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2022-06-26T00:28:13Z",
+                    "academic_contribution_title": {
+                        "ja": "JJAP"
+                    },
+                    "academic_contribution_type": "peer_review_etc",
+                    "academic_contribution_roles": [
+                        "peer_review"
+                    ],
+                    "promoter": {
+                        "ja": "応用物理学会"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/layla118/academic_contribution/37238286",
+                    "@type": "academic_contribution",
+                    "@reverse": "https://api.researchmap.jp/layla118/academic_contribution",
+                    "rm:id": "37238286",
+                    "rm:user_id": "0000009711",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000009711",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2022-06-26T00:26:27Z",
+                    "rm:modifier_id": "0000009711",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2022-06-26T00:26:27Z",
+                    "academic_contribution_title": {
+                        "ja": "Optical Review"
+                    },
+                    "academic_contribution_type": "peer_review_etc",
+                    "academic_contribution_roles": [
+                        "peer_review"
+                    ],
+                    "promoter": {
+                        "ja": "日本光学会"
+                    }
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/layla118/others",
+            "@type": "others",
+            "@reverse": "https://api.researchmap.jp/layla118",
+            "total_items": 3,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/layla118/others/37241971",
+                    "@type": "others",
+                    "@reverse": "https://api.researchmap.jp/layla118/others",
+                    "rm:id": "37241971",
+                    "rm:user_id": "0000009711",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000009711",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2022-06-27T00:24:32Z",
+                    "rm:modifier_id": "0000009711",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2022-06-27T00:25:49Z",
+                    "other_title": {
+                        "ja": "生態監視カメラ"
+                    },
+                    "description": {
+                        "ja": "動物の生態を無人で調査する生態監視カメラを実現するために近赤外センサーの応用開発を企業に指導した．近赤外センサーの検出エリア内で生物が動いた場合に信号を出力する回路を開発し，小型フィルムカメラの中に近赤外センサー，ドライブ回路，制御用マイコンなどを組み込みカメラの前を横切る動物を自動に撮影する．携帯性，バッテリーの寿命，価格，設置設定のシンプルさなど，これまでの自動撮影カメラの問題点を改善することに成功した．生態研究の分野で利用するカメラとしては，デファクトスタンダードとなった．"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/layla118/others/37238306",
+                    "@type": "others",
+                    "@reverse": "https://api.researchmap.jp/layla118/others",
+                    "rm:id": "37238306",
+                    "rm:user_id": "0000009711",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000009711",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2022-06-26T00:40:36Z",
+                    "rm:modifier_id": "0000009711",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2024-05-17T04:51:09Z",
+                    "other_title": {
+                        "ja": "「交通用信号機用LED電球の開発」"
+                    },
+                    "description": {
+                        "ja": "広島県内企業，広島県警と開発したLED電球は信号機用LED電球として認定され，平成２２年度に、従量式の電気料課金方式となっている広島県内交差点（５０５箇所）のすべての信号機がＬＥＤ電球に交換された。"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/layla118/others/37238303",
+                    "@type": "others",
+                    "@reverse": "https://api.researchmap.jp/layla118/others",
+                    "rm:id": "37238303",
+                    "rm:user_id": "0000009711",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000009711",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2022-06-26T00:39:02Z",
+                    "rm:modifier_id": "0000009711",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2022-06-26T00:39:02Z",
+                    "other_title": {
+                        "ja": "LED評価設備の導入"
+                    },
+                    "description": {
+                        "ja": "西日本最大のLED評価設備の導入（58,000千円）"
+                    }
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/layla118/social_contribution",
+            "@type": "social_contribution",
+            "@reverse": "https://api.researchmap.jp/layla118",
+            "total_items": 2,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/layla118/social_contribution/37238301",
+                    "@type": "social_contribution",
+                    "@reverse": "https://api.researchmap.jp/layla118/social_contribution",
+                    "rm:id": "37238301",
+                    "rm:user_id": "0000009711",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000009711",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2022-06-26T00:37:28Z",
+                    "rm:modifier_id": "0000009711",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2022-06-26T00:37:28Z",
+                    "social_contribution_title": {
+                        "ja": "工業高等学校教職員実習生受け入れ「繊維のテクスチャーシミュレーション」"
+                    },
+                    "social_contribution_roles": [
+                        "advisor"
+                    ],
+                    "promoter": {
+                        "ja": "県立工業高等学校"
+                    },
+                    "social_contribution_type": "research_advise"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/layla118/social_contribution/37238297",
+                    "@type": "social_contribution",
+                    "@reverse": "https://api.researchmap.jp/layla118/social_contribution",
+                    "rm:id": "37238297",
+                    "rm:user_id": "0000009711",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000009711",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2022-06-26T00:36:26Z",
+                    "rm:modifier_id": "0000009711",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2023-03-25T23:39:45Z",
+                    "social_contribution_title": {
+                        "ja": "工業高等学校教職員実習生受け入れ「マイクロマウスの開発」"
+                    },
+                    "social_contribution_roles": [
+                        "advisor"
+                    ],
+                    "promoter": {
+                        "ja": "県立工業高等学校"
+                    },
+                    "social_contribution_type": "research_advise"
+                }
+            ]
+        }
+    ]
+}

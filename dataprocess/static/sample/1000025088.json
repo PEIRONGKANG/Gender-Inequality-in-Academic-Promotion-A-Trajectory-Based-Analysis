@@ -1,0 +1,1865 @@
+{
+    "@context": "https://api.researchmap.jp/researcher.jsonld",
+    "@id": "https://api.researchmap.jp/read0011713?format=json",
+    "@type": "researchers",
+    "rm:user_id": "1000025088",
+    "rm:creator_id": "1000025088",
+    "rm:creator_type": "myself",
+    "rm:created": "2002-02-04T15:00:00Z",
+    "rm:modifier_id": "1000025088",
+    "rm:modifier_type": "myself",
+    "rm:modified": "2022-09-27T23:15:25Z",
+    "permalink": "read0011713",
+    "family_name": {
+        "ja": "加藤",
+        "ja-Kana": "カトウ",
+        "en": "Katoh"
+    },
+    "given_name": {
+        "ja": "久雄",
+        "ja-Kana": "ヒサオ",
+        "en": "Hisao"
+    },
+    "display_name_kana": "disclosed",
+    "display_nickname": "disclosed",
+    "display_image": "disclosed",
+    "display_contact_point": "disclosed",
+    "affiliations": [
+        {
+            "affiliation": {
+                "ja": "旧所属 名古屋工業大学 工学部 機械工学科",
+                "en": "Former Institution /Organization Faculty of Engineering Dept. of Mechanical Engineering"
+            },
+            "job": {
+                "ja": "助手",
+                "en": "Research Associate"
+            },
+            "display_affiliation": "disclosed",
+            "display_job": "disclosed",
+            "rm:institution_code": "9999999999"
+        }
+    ],
+    "degrees": [
+        {
+            "degree": {
+                "ja": "工学博士",
+                "en": "Doctor of Engineering"
+            },
+            "degree_institution": {
+                "ja": "名古屋工業大学",
+                "en": "Nagoya Institute of Technology"
+            },
+            "display_degree": "disclosed",
+            "rm:institution_code": "0264000000"
+        },
+        {
+            "degree": {
+                "ja": "工学修士",
+                "en": "Master of Engineering"
+            },
+            "degree_institution": {
+                "ja": "名古屋大学",
+                "en": "Nagoya University"
+            },
+            "display_degree": "disclosed",
+            "rm:institution_code": "0260000000"
+        }
+    ],
+    "display_profile": "disclosed",
+    "display_url": "disclosed",
+    "identifiers": {
+        "j_global_id": [
+            "200901030011252871"
+        ]
+    },
+    "rm:erad_id_verified": false,
+    "rm:orc_id_verified": false,
+    "display_erad_id": "closed",
+    "display_orc_id": "closed",
+    "display_researcher_id": "disclosed",
+    "display_j_global_id": "disclosed",
+    "see_also": [
+        {
+            "label": "j_global",
+            "@id": "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=200901030011252871"
+        }
+    ],
+    "@graph": [
+        {
+            "@id": "https://api.researchmap.jp/read0011713/research_areas",
+            "@type": "research_areas",
+            "@reverse": "https://api.researchmap.jp/read0011713",
+            "total_items": 1,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0011713/research_areas/669255",
+                    "@type": "research_areas",
+                    "@reverse": "https://api.researchmap.jp/read0011713/research_areas",
+                    "rm:id": "669255",
+                    "rm:user_id": "1000025088",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000025088",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2002-02-04T15:00:00Z",
+                    "rm:modifier_id": "1000025088",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2002-02-04T15:00:00Z",
+                    "discipline_number": "A289",
+                    "item_number": "A20010",
+                    "discipline": {
+                        "ja": "情報通信",
+                        "en": "Informatics"
+                    },
+                    "research_field": {
+                        "ja": "機械力学、メカトロニクス",
+                        "en": "Mechanics and mechatronics"
+                    }
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0011713/misc",
+            "@type": "misc",
+            "@reverse": "https://api.researchmap.jp/read0011713",
+            "total_items": 23,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0011713/misc/9565413",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0011713/misc",
+                    "rm:id": "9565413",
+                    "rm:user_id": "1000025088",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000025088",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2002-02-04T15:00:00Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-09-12T05:34:17Z",
+                    "paper_title": {
+                        "ja": "非最小位相系に対する繰返し制御器の設計",
+                        "en": "A Design Method of Repetitive Controllers for Nonmimimum-Phase Systems"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "加藤 久雄"
+                            },
+                            {
+                                "name": "舟橋 康行"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "KATOH Hisao"
+                            },
+                            {
+                                "name": "FUNAHASHI Yasuyuki"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "ja": "In this paper, we propose a design method of repetitive controllers. Our method is based on the factorization approach that consists of the coprime factorization of (augmented) plants and the solutions to so-called Diophantine equation. We do not use the small gain theorem. In our previous paper, we propose a design method for minimum-phase plants. Therefore, in this paper, we extend our method to nonminimum-phase plants.",
+                        "en": "In this paper, we propose a design method of repetitive controllers. Our method is based on the factorization approach that consists of the coprime factorization of (augmented) plants and the solutions to so-called Diophantine equation. We do not use the small gain theorem. In our previous paper, we propose a design method for minimum-phase plants. Therefore, in this paper, we extend our method to nonminimum-phase plants."
+                    },
+                    "publisher": {
+                        "ja": "The Society of Instrument and Control Engineers",
+                        "en": "The Society of Instrument and Control Engineers"
+                    },
+                    "publication_date": "2001",
+                    "publication_name": {
+                        "ja": "計測自動制御学会論文集",
+                        "en": "Transactions of the Society of Instrument and Control Engineers"
+                    },
+                    "volume": "37",
+                    "number": "12",
+                    "starting_page": "1121",
+                    "ending_page": "1125",
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.9746/sicetr1965.37.1121"
+                        ],
+                        "issn": [
+                            "0453-4654"
+                        ],
+                        "cinii_na_id": [
+                            "130003970994"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.9746/sicetr1965.37.1121",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/130003970994",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "https://jlc.jst.go.jp/DN/JALC/00155061246?from=CiNii",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0011713/misc/9565400",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0011713/misc",
+                    "rm:id": "9565400",
+                    "rm:user_id": "1000025088",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000025088",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2002-02-04T15:00:00Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-09-12T05:34:17Z",
+                    "paper_title": {
+                        "ja": "非最小位相系に対する繰返し制御器の設計",
+                        "en": "A Design Method of Repetitive Controllers for Nonminimum-Phase Systems"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "加藤 久雄"
+                            },
+                            {
+                                "name": "舟橋 康行"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "KATOH Hisao"
+                            },
+                            {
+                                "name": "FUNAHASHI Yasuyuki"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "ja": "In this paper, we propose a design method of repetitive controllers. Our method is based on the factorization approach that consists of the coprime factorization of (augmented) plants and the solutions to so-called Diophantine equation. We do not use the small gain theorem. In our previous paper, we propose a design method for minimum-phase plants. Therefore, in this paper, we extend our method to nonminimum-phase plants.",
+                        "en": "In this paper, we propose a design method of repetitive controllers. Our method is based on the factorization approach that consists of the coprime factorization of (augmented) plants and the solutions to so-called Diophantine equation. We do not use the small gain theorem. In our previous paper, we propose a design method for minimum-phase plants. Therefore, in this paper, we extend our method to nonminimum-phase plants."
+                    },
+                    "publisher": {
+                        "ja": "The Society of Instrument and Control Engineers",
+                        "en": "The Society of Instrument and Control Engineers"
+                    },
+                    "publication_date": "2001",
+                    "publication_name": {
+                        "ja": "計測自動制御学会論文集",
+                        "en": "Transactions of the Society of Instrument and Control Engineers"
+                    },
+                    "volume": "37",
+                    "number": "12",
+                    "starting_page": "1121",
+                    "ending_page": "1125",
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.9746/sicetr1965.37.1121"
+                        ],
+                        "issn": [
+                            "0453-4654"
+                        ],
+                        "cinii_na_id": [
+                            "130003970994"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.9746/sicetr1965.37.1121",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/130003970994",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "https://jlc.jst.go.jp/DN/JALC/00155061246?from=CiNii",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0011713/misc/9565414",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0011713/misc",
+                    "rm:id": "9565414",
+                    "rm:user_id": "1000025088",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000025088",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2002-02-04T15:00:00Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-09-12T21:37:47Z",
+                    "paper_title": {
+                        "ja": "ポテンシャル関数にもとづく倒立振子の非線形制御",
+                        "en": "Nonlinear Control of Inverted Pendulum Based on Potential Function"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "山川 聡子"
+                            },
+                            {
+                                "name": "加藤 久雄"
+                            },
+                            {
+                                "name": "篠田 紀正"
+                            },
+                            {
+                                "name": "舟橋 康行"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "YAMAKAWA Satoko"
+                            },
+                            {
+                                "name": "KATO Hisao"
+                            },
+                            {
+                                "name": "SHINODA Norimasa"
+                            },
+                            {
+                                "name": "FUNAHASHI Yasuyuki"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "ja": "As is well-known, an inverted pendulum is one of the typical examples of nonlinear control systems, and, for the stabilization, many controller design methods have been studied. A nonlinear controller was designed by using an approximated model which consists of a series connection of a pendulum and a cart. In the first place, the desired signal of acceleration of the cart is determined for stabilizing the pendulum. Then the control input to cart is determined so that actual acceleration of cart may follow the desired signal. The controller thus designed was shown to expand the range of initial angle from which the system can be stabilized.<br>In this paper, the generalization of the previous method was investigated based on Potential function. With the proposed method, the range of initial angle from which stabilization is possible is made larger, and, at the same time, the required input amplitude may be made smaller. These points were confirmed by comparative simulations.",
+                        "en": "As is well-known, an inverted pendulum is one of the typical examples of nonlinear control systems, and, for the stabilization, many controller design methods have been studied. A nonlinear controller was designed by using an approximated model which consists of a series connection of a pendulum and a cart. In the first place, the desired signal of acceleration of the cart is determined for stabilizing the pendulum. Then the control input to cart is determined so that actual acceleration of cart may follow the desired signal. The controller thus designed was shown to expand the range of initial angle from which the system can be stabilized.<br>In this paper, the generalization of the previous method was investigated based on Potential function. With the proposed method, the range of initial angle from which stabilization is possible is made larger, and, at the same time, the required input amplitude may be made smaller. These points were confirmed by comparative simulations."
+                    },
+                    "publisher": {
+                        "ja": "The Society of Instrument and Control Engineers",
+                        "en": "The Society of Instrument and Control Engineers"
+                    },
+                    "publication_date": "1999",
+                    "publication_name": {
+                        "ja": "計測自動制御学会論文集",
+                        "en": "Transactions of the Society of Instrument and Control Engineers"
+                    },
+                    "volume": "35",
+                    "number": "1",
+                    "starting_page": "52",
+                    "ending_page": "58",
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.9746/sicetr1965.35.52"
+                        ],
+                        "issn": [
+                            "0453-4654"
+                        ],
+                        "cinii_na_id": [
+                            "130003791450"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.9746/sicetr1965.35.52",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/130003791450",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "https://jlc.jst.go.jp/DN/JALC/00058786604?from=CiNii",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0011713/misc/9565401",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0011713/misc",
+                    "rm:id": "9565401",
+                    "rm:user_id": "1000025088",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000025088",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2002-02-04T15:00:00Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-09-12T21:37:47Z",
+                    "paper_title": {
+                        "ja": "ポテンシャル関数にもとづく倒立振子の非線形制御",
+                        "en": "Nonlinear Control of Inverted Pendulum Based on Potential Function"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "山川 聡子"
+                            },
+                            {
+                                "name": "加藤 久雄"
+                            },
+                            {
+                                "name": "篠田 紀正"
+                            },
+                            {
+                                "name": "舟橋 康行"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "YAMAKAWA Satoko"
+                            },
+                            {
+                                "name": "KATO Hisao"
+                            },
+                            {
+                                "name": "SHINODA Norimasa"
+                            },
+                            {
+                                "name": "FUNAHASHI Yasuyuki"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "ja": "As is well-known, an inverted pendulum is one of the typical examples of nonlinear control systems, and, for the stabilization, many controller design methods have been studied. A nonlinear controller was designed by using an approximated model which consists of a series connection of a pendulum and a cart. In the first place, the desired signal of acceleration of the cart is determined for stabilizing the pendulum. Then the control input to cart is determined so that actual acceleration of cart may follow the desired signal. The controller thus designed was shown to expand the range of initial angle from which the system can be stabilized.<br>In this paper, the generalization of the previous method was investigated based on Potential function. With the proposed method, the range of initial angle from which stabilization is possible is made larger, and, at the same time, the required input amplitude may be made smaller. These points were confirmed by comparative simulations.",
+                        "en": "As is well-known, an inverted pendulum is one of the typical examples of nonlinear control systems, and, for the stabilization, many controller design methods have been studied. A nonlinear controller was designed by using an approximated model which consists of a series connection of a pendulum and a cart. In the first place, the desired signal of acceleration of the cart is determined for stabilizing the pendulum. Then the control input to cart is determined so that actual acceleration of cart may follow the desired signal. The controller thus designed was shown to expand the range of initial angle from which the system can be stabilized.<br>In this paper, the generalization of the previous method was investigated based on Potential function. With the proposed method, the range of initial angle from which stabilization is possible is made larger, and, at the same time, the required input amplitude may be made smaller. These points were confirmed by comparative simulations."
+                    },
+                    "publisher": {
+                        "ja": "The Society of Instrument and Control Engineers",
+                        "en": "The Society of Instrument and Control Engineers"
+                    },
+                    "publication_date": "1999",
+                    "publication_name": {
+                        "ja": "計測自動制御学会論文集",
+                        "en": "Transactions of the Society of Instrument and Control Engineers"
+                    },
+                    "volume": "35",
+                    "number": "1",
+                    "starting_page": "52",
+                    "ending_page": "58",
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.9746/sicetr1965.35.52"
+                        ],
+                        "issn": [
+                            "0453-4654"
+                        ],
+                        "cinii_na_id": [
+                            "130003791450"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.9746/sicetr1965.35.52",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/130003791450",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "https://jlc.jst.go.jp/DN/JALC/00058786604?from=CiNii",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0011713/misc/9565415",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0011713/misc",
+                    "rm:id": "9565415",
+                    "rm:user_id": "1000025088",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000025088",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2002-02-04T15:00:00Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-09-12T21:31:27Z",
+                    "paper_title": {
+                        "ja": "リップルフリートラッキングのための必要十分条件",
+                        "en": "Necessary and Sufficient Conditions for Ripple-Free Tracking"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "加藤 久雄"
+                            },
+                            {
+                                "name": "舟橋 康行"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "KATOH Hisao"
+                            },
+                            {
+                                "name": "FUNAHASHI Yasuyuki"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "ja": "When the sampled-data control systems are used, undesirable oscillations between the sampling instance are occasionally observed. Such phenomenon is called ripple. Some studies deal with this problem, and derive the conditions to achieve the ripple-free responses.<br>In this note, we consider the ripple-free tracking problem for sampled-data systems. A proof for the necessary and sufficient conditions to achieve the ripple-free tracking is given. This result also shows the necessity of the continuous-time internal model for the possibility of the ripple-free responses. The feature of our proof is that we use a new concept \"convergence to the <i>C</i><sup>∞</sup> class.\" We consider this concept makes discussion easier in this note.",
+                        "en": "When the sampled-data control systems are used, undesirable oscillations between the sampling instance are occasionally observed. Such phenomenon is called ripple. Some studies deal with this problem, and derive the conditions to achieve the ripple-free responses.<br>In this note, we consider the ripple-free tracking problem for sampled-data systems. A proof for the necessary and sufficient conditions to achieve the ripple-free tracking is given. This result also shows the necessity of the continuous-time internal model for the possibility of the ripple-free responses. The feature of our proof is that we use a new concept \"convergence to the <i>C</i><sup>∞</sup> class.\" We consider this concept makes discussion easier in this note."
+                    },
+                    "publisher": {
+                        "ja": "The Society of Instrument and Control Engineers",
+                        "en": "The Society of Instrument and Control Engineers"
+                    },
+                    "publication_date": "1998",
+                    "publication_name": {
+                        "ja": "計測自動制御学会論文集",
+                        "en": "Transactions of the Society of Instrument and Control Engineers"
+                    },
+                    "volume": "34",
+                    "number": "11",
+                    "starting_page": "1611",
+                    "ending_page": "1615",
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.9746/sicetr1965.34.1611"
+                        ],
+                        "issn": [
+                            "0453-4654"
+                        ],
+                        "cinii_na_id": [
+                            "130003791314"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.9746/sicetr1965.34.1611",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/130003791314",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "https://jlc.jst.go.jp/DN/JALC/00056889604?from=CiNii",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0011713/misc/9565402",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0011713/misc",
+                    "rm:id": "9565402",
+                    "rm:user_id": "1000025088",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000025088",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2002-02-04T15:00:00Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-09-12T21:31:27Z",
+                    "paper_title": {
+                        "ja": "リップルフリートラッキングのための必要十分条件",
+                        "en": "Necessary and Sufficient Conditions for Ripple-Free Tracking"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "加藤 久雄"
+                            },
+                            {
+                                "name": "舟橋 康行"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "KATOH Hisao"
+                            },
+                            {
+                                "name": "FUNAHASHI Yasuyuki"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "ja": "When the sampled-data control systems are used, undesirable oscillations between the sampling instance are occasionally observed. Such phenomenon is called ripple. Some studies deal with this problem, and derive the conditions to achieve the ripple-free responses.<br>In this note, we consider the ripple-free tracking problem for sampled-data systems. A proof for the necessary and sufficient conditions to achieve the ripple-free tracking is given. This result also shows the necessity of the continuous-time internal model for the possibility of the ripple-free responses. The feature of our proof is that we use a new concept \"convergence to the <i>C</i><sup>∞</sup> class.\" We consider this concept makes discussion easier in this note.",
+                        "en": "When the sampled-data control systems are used, undesirable oscillations between the sampling instance are occasionally observed. Such phenomenon is called ripple. Some studies deal with this problem, and derive the conditions to achieve the ripple-free responses.<br>In this note, we consider the ripple-free tracking problem for sampled-data systems. A proof for the necessary and sufficient conditions to achieve the ripple-free tracking is given. This result also shows the necessity of the continuous-time internal model for the possibility of the ripple-free responses. The feature of our proof is that we use a new concept \"convergence to the <i>C</i><sup>∞</sup> class.\" We consider this concept makes discussion easier in this note."
+                    },
+                    "publisher": {
+                        "ja": "The Society of Instrument and Control Engineers",
+                        "en": "The Society of Instrument and Control Engineers"
+                    },
+                    "publication_date": "1998",
+                    "publication_name": {
+                        "ja": "計測自動制御学会論文集",
+                        "en": "Transactions of the Society of Instrument and Control Engineers"
+                    },
+                    "volume": "34",
+                    "number": "11",
+                    "starting_page": "1611",
+                    "ending_page": "1615",
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.9746/sicetr1965.34.1611"
+                        ],
+                        "issn": [
+                            "0453-4654"
+                        ],
+                        "cinii_na_id": [
+                            "130003791314"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.9746/sicetr1965.34.1611",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/130003791314",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "https://jlc.jst.go.jp/DN/JALC/00056889604?from=CiNii",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0011713/misc/9565417",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0011713/misc",
+                    "rm:id": "9565417",
+                    "rm:user_id": "1000025088",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000025088",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2002-02-04T15:00:00Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-09-12T21:30:26Z",
+                    "paper_title": {
+                        "ja": "一般化インタラクタ行列の新計算法",
+                        "en": "New Method to Derive Generalized Interactor Matrices"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "加藤 久雄"
+                            },
+                            {
+                                "name": "舟橋 康行"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "KATOH Hisao"
+                            },
+                            {
+                                "name": "FUNAHASHI Yasuyuki"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "ja": "For the linear time-invariant multi-input multi-output systems, so-called interactor represents the zero structure of the systems, and play an important role in the MIMO feedback control problems. In this note, we propose a new procedures to derive the generalized interactors for given transfer functions. This procedures need no complicated calculations, and easily done by using the singular value decomposition software.",
+                        "en": "For the linear time-invariant multi-input multi-output systems, so-called interactor represents the zero structure of the systems, and play an important role in the MIMO feedback control problems. In this note, we propose a new procedures to derive the generalized interactors for given transfer functions. This procedures need no complicated calculations, and easily done by using the singular value decomposition software."
+                    },
+                    "publisher": {
+                        "ja": "The Society of Instrument and Control Engineers",
+                        "en": "The Society of Instrument and Control Engineers"
+                    },
+                    "publication_date": "1997",
+                    "publication_name": {
+                        "ja": "計測自動制御学会論文集",
+                        "en": "Transactions of the Society of Instrument and Control Engineers"
+                    },
+                    "volume": "33",
+                    "number": "1",
+                    "starting_page": "63",
+                    "ending_page": "65",
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.9746/sicetr1965.33.63"
+                        ],
+                        "issn": [
+                            "0453-4654"
+                        ],
+                        "cinii_na_id": [
+                            "130003791187"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.9746/sicetr1965.33.63",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/130003791187",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "https://jlc.jst.go.jp/DN/JALC/00044398705?from=CiNii",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0011713/misc/9565416",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0011713/misc",
+                    "rm:id": "9565416",
+                    "rm:user_id": "1000025088",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000025088",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2002-02-04T15:00:00Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-09-12T21:23:14Z",
+                    "paper_title": {
+                        "ja": "左下三角インタラクタ行列の新計算法",
+                        "en": "New Method to Derive Lower Left Triangular Interactor Matrices"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "加藤 久雄"
+                            },
+                            {
+                                "name": "舟橋 康行"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "KATOH Hisao"
+                            },
+                            {
+                                "name": "FUNAHASHI Yasuyuki"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "ja": "In this note, we propose new calculating procedures for lower left triangular interactor matrices, which are defined by Wolovich et al. These procedures require only additions, multiplications, and singular value decompositions of real matrices. So, those can be easily calculated.",
+                        "en": "In this note, we propose new calculating procedures for lower left triangular interactor matrices, which are defined by Wolovich et al. These procedures require only additions, multiplications, and singular value decompositions of real matrices. So, those can be easily calculated."
+                    },
+                    "publisher": {
+                        "ja": "The Society of Instrument and Control Engineers",
+                        "en": "The Society of Instrument and Control Engineers"
+                    },
+                    "publication_date": "1997",
+                    "publication_name": {
+                        "ja": "計測自動制御学会論文集",
+                        "en": "Transactions of the Society of Instrument and Control Engineers"
+                    },
+                    "volume": "33",
+                    "number": "12",
+                    "starting_page": "1178",
+                    "ending_page": "1180",
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.9746/sicetr1965.33.1178"
+                        ],
+                        "issn": [
+                            "0453-4654"
+                        ],
+                        "cinii_na_id": [
+                            "130003791213"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.9746/sicetr1965.33.1178",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/130003791213",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "https://jlc.jst.go.jp/DN/JALC/00051173944?from=CiNii",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0011713/misc/9565404",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0011713/misc",
+                    "rm:id": "9565404",
+                    "rm:user_id": "1000025088",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000025088",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2002-02-04T15:00:00Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-09-12T21:30:26Z",
+                    "paper_title": {
+                        "ja": "一般化インタラクタ行列の新計算法",
+                        "en": "New Method to Derive Generalized Intaractor Matrices"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "加藤 久雄"
+                            },
+                            {
+                                "name": "舟橋 康行"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "KATOH Hisao"
+                            },
+                            {
+                                "name": "FUNAHASHI Yasuyuki"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "ja": "For the linear time-invariant multi-input multi-output systems, so-called interactor represents the zero structure of the systems, and play an important role in the MIMO feedback control problems. In this note, we propose a new procedures to derive the generalized interactors for given transfer functions. This procedures need no complicated calculations, and easily done by using the singular value decomposition software.",
+                        "en": "For the linear time-invariant multi-input multi-output systems, so-called interactor represents the zero structure of the systems, and play an important role in the MIMO feedback control problems. In this note, we propose a new procedures to derive the generalized interactors for given transfer functions. This procedures need no complicated calculations, and easily done by using the singular value decomposition software."
+                    },
+                    "publisher": {
+                        "ja": "The Society of Instrument and Control Engineers",
+                        "en": "The Society of Instrument and Control Engineers"
+                    },
+                    "publication_date": "1997",
+                    "publication_name": {
+                        "ja": "計測自動制御学会論文集",
+                        "en": "Transactions of the Society of Instrument and Control Engineers"
+                    },
+                    "volume": "33",
+                    "number": "1",
+                    "starting_page": "63",
+                    "ending_page": "65",
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.9746/sicetr1965.33.63"
+                        ],
+                        "issn": [
+                            "0453-4654"
+                        ],
+                        "cinii_na_id": [
+                            "130003791187"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.9746/sicetr1965.33.63",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/130003791187",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "https://jlc.jst.go.jp/DN/JALC/00044398705?from=CiNii",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0011713/misc/9565403",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0011713/misc",
+                    "rm:id": "9565403",
+                    "rm:user_id": "1000025088",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000025088",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2002-02-04T15:00:00Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-09-12T21:23:14Z",
+                    "paper_title": {
+                        "ja": "左下三角インタラクタ行列の新計算法",
+                        "en": "New Method to Derive Lower Left Triangular Interactor Matrices"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "加藤 久雄"
+                            },
+                            {
+                                "name": "舟橋 康行"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "KATOH Hisao"
+                            },
+                            {
+                                "name": "FUNAHASHI Yasuyuki"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "ja": "In this note, we propose new calculating procedures for lower left triangular interactor matrices, which are defined by Wolovich et al. These procedures require only additions, multiplications, and singular value decompositions of real matrices. So, those can be easily calculated.",
+                        "en": "In this note, we propose new calculating procedures for lower left triangular interactor matrices, which are defined by Wolovich et al. These procedures require only additions, multiplications, and singular value decompositions of real matrices. So, those can be easily calculated."
+                    },
+                    "publisher": {
+                        "ja": "The Society of Instrument and Control Engineers",
+                        "en": "The Society of Instrument and Control Engineers"
+                    },
+                    "publication_date": "1997",
+                    "publication_name": {
+                        "ja": "計測自動制御学会論文集",
+                        "en": "Transactions of the Society of Instrument and Control Engineers"
+                    },
+                    "volume": "33",
+                    "number": "12",
+                    "starting_page": "1178",
+                    "ending_page": "1180",
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.9746/sicetr1965.33.1178"
+                        ],
+                        "issn": [
+                            "0453-4654"
+                        ],
+                        "cinii_na_id": [
+                            "130003791213"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.9746/sicetr1965.33.1178",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/130003791213",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "https://jlc.jst.go.jp/DN/JALC/00051173944?from=CiNii",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0011713/misc/9565406",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0011713/misc",
+                    "rm:id": "9565406",
+                    "rm:user_id": "1000025088",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000025088",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2002-02-04T15:00:00Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-04-10T02:10:50Z",
+                    "paper_title": {
+                        "en": "Continuous-time deadbeat control for sampled-data systems"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "H Katoh"
+                            },
+                            {
+                                "name": "Y Funahashi"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "In this note, the continuous-time deadbeat control problem for the sampled-data systems is considered. We derived the class of all controllers that achieve the continuous-time deadbeat control."
+                    },
+                    "publisher": {
+                        "en": "IEEE-INST ELECTRICAL ELECTRONICS ENGINEERS INC"
+                    },
+                    "publication_date": "1996-10",
+                    "publication_name": {
+                        "en": "IEEE TRANSACTIONS ON AUTOMATIC CONTROL"
+                    },
+                    "volume": "41",
+                    "number": "10",
+                    "starting_page": "1478",
+                    "ending_page": "1481",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "cinii_na_id": [
+                            "80009289145"
+                        ],
+                        "doi": [
+                            "10.1109/9.539428"
+                        ],
+                        "issn": [
+                            "0018-9286"
+                        ],
+                        "wos_id": [
+                            "WOS:A1996VM19900006"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/80009289145",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1109/9.539428",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:A1996VM19900006&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0011713/misc/9565419",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0011713/misc",
+                    "rm:id": "9565419",
+                    "rm:user_id": "1000025088",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000025088",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2002-02-04T15:00:00Z",
+                    "rm:modifier_id": "B000000004",
+                    "rm:modifier_type": "system",
+                    "rm:modified": "2002-02-04T15:00:00Z",
+                    "paper_title": {
+                        "ja": "デッドビート特性を有する連続時間コントローラ"
+                    },
+                    "publication_date": "1996",
+                    "publication_name": {
+                        "ja": "計測自動制御学会論文集"
+                    },
+                    "volume": "32",
+                    "number": "5",
+                    "starting_page": "699",
+                    "ending_page": "705",
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.9746/sicetr1965.32.699"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.9746/sicetr1965.32.699",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0011713/misc/9565418",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0011713/misc",
+                    "rm:id": "9565418",
+                    "rm:user_id": "1000025088",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000025088",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2002-02-04T15:00:00Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-09-12T05:25:16Z",
+                    "paper_title": {
+                        "ja": "繰り返し制御器の一構成法",
+                        "en": "A Design Method of Repetitive Controllers"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "加藤 久雄"
+                            },
+                            {
+                                "name": "舟橋 康行"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "KATOH Hisao"
+                            },
+                            {
+                                "name": "FUNAHASHI Yasuyuki"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "ja": "In this paper, we consider the repetitive control problem for the single-input, single-output, linear time-invariant, continuous-time plants, using the different approach from the past studies for the stabilization of the closed-loop systems.<br>In our approch, we derive the parametrization of all stabilizing controllers by solving the Bezout identity. The Bezout identity include the time-delay element in the repetitive control problem. So, generally speaking, solving it is complicated and difficult, compared with the finite-dimensional case.<br>However, we will show in this paper that it can be relatively easy to solve the Bezout identity under some condition and that the response can be improved by our approach.",
+                        "en": "In this paper, we consider the repetitive control problem for the single-input, single-output, linear time-invariant, continuous-time plants, using the different approach from the past studies for the stabilization of the closed-loop systems.<br>In our approch, we derive the parametrization of all stabilizing controllers by solving the Bezout identity. The Bezout identity include the time-delay element in the repetitive control problem. So, generally speaking, solving it is complicated and difficult, compared with the finite-dimensional case.<br>However, we will show in this paper that it can be relatively easy to solve the Bezout identity under some condition and that the response can be improved by our approach."
+                    },
+                    "publisher": {
+                        "ja": "The Society of Instrument and Control Engineers",
+                        "en": "The Society of Instrument and Control Engineers"
+                    },
+                    "publication_date": "1996",
+                    "publication_name": {
+                        "ja": "計測自動制御学会論文集",
+                        "en": "Transactions of the Society of Instrument and Control Engineers"
+                    },
+                    "volume": "32",
+                    "number": "12",
+                    "starting_page": "1601",
+                    "ending_page": "1605",
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.9746/sicetr1965.32.1601"
+                        ],
+                        "issn": [
+                            "0453-4654"
+                        ],
+                        "cinii_na_id": [
+                            "130003970504"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.9746/sicetr1965.32.1601",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/130003970504",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "https://jlc.jst.go.jp/DN/JALC/00043876808?from=CiNii",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0011713/misc/9565407",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0011713/misc",
+                    "rm:id": "9565407",
+                    "rm:user_id": "1000025088",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000025088",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2002-02-04T15:00:00Z",
+                    "rm:modifier_id": "B000000004",
+                    "rm:modifier_type": "system",
+                    "rm:modified": "2002-02-04T15:00:00Z",
+                    "paper_title": {
+                        "en": "Continuous-Time Controllers with Deadbeat Characteristics"
+                    },
+                    "publication_date": "1996",
+                    "publication_name": {
+                        "en": "Transactions of the Society of Instrument and Control Engineers"
+                    },
+                    "volume": "32",
+                    "number": "5",
+                    "starting_page": "699",
+                    "ending_page": "705",
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.9746/sicetr1965.32.699"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.9746/sicetr1965.32.699",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0011713/misc/9565405",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0011713/misc",
+                    "rm:id": "9565405",
+                    "rm:user_id": "1000025088",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000025088",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2002-02-04T15:00:00Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-09-12T05:25:16Z",
+                    "paper_title": {
+                        "ja": "繰り返し制御器の一構成法",
+                        "en": "A Design Method of Repetitive Controllers"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "加藤 久雄"
+                            },
+                            {
+                                "name": "舟橋 康行"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "KATOH Hisao"
+                            },
+                            {
+                                "name": "FUNAHASHI Yasuyuki"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "ja": "In this paper, we consider the repetitive control problem for the single-input, single-output, linear time-invariant, continuous-time plants, using the different approach from the past studies for the stabilization of the closed-loop systems.<br>In our approch, we derive the parametrization of all stabilizing controllers by solving the Bezout identity. The Bezout identity include the time-delay element in the repetitive control problem. So, generally speaking, solving it is complicated and difficult, compared with the finite-dimensional case.<br>However, we will show in this paper that it can be relatively easy to solve the Bezout identity under some condition and that the response can be improved by our approach.",
+                        "en": "In this paper, we consider the repetitive control problem for the single-input, single-output, linear time-invariant, continuous-time plants, using the different approach from the past studies for the stabilization of the closed-loop systems.<br>In our approch, we derive the parametrization of all stabilizing controllers by solving the Bezout identity. The Bezout identity include the time-delay element in the repetitive control problem. So, generally speaking, solving it is complicated and difficult, compared with the finite-dimensional case.<br>However, we will show in this paper that it can be relatively easy to solve the Bezout identity under some condition and that the response can be improved by our approach."
+                    },
+                    "publisher": {
+                        "ja": "The Society of Instrument and Control Engineers",
+                        "en": "The Society of Instrument and Control Engineers"
+                    },
+                    "publication_date": "1996",
+                    "publication_name": {
+                        "ja": "計測自動制御学会論文集",
+                        "en": "Transactions of the Society of Instrument and Control Engineers"
+                    },
+                    "volume": "32",
+                    "number": "12",
+                    "starting_page": "1601",
+                    "ending_page": "1605",
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.9746/sicetr1965.32.1601"
+                        ],
+                        "issn": [
+                            "0453-4654"
+                        ],
+                        "cinii_na_id": [
+                            "130003970504"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.9746/sicetr1965.32.1601",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/130003970504",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "https://jlc.jst.go.jp/DN/JALC/00043876808?from=CiNii",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0011713/misc/9565408",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0011713/misc",
+                    "rm:id": "9565408",
+                    "rm:user_id": "1000025088",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000025088",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2002-02-04T15:00:00Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-03-24T20:49:04Z",
+                    "paper_title": {
+                        "en": "INPUT OUTPUT DEADBEAT CONTROL"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Y FUNAHASHI"
+                            },
+                            {
+                                "name": "H KATOH"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "In this paper, we consider the deadbeat control for both the output and input of step-like references and single-input single-output processes. The controllers are selected from among two-degree-of-freedom robust-tracking controllers, and we derive the parametrization of all input/output deadbeat controllers. This parametrization is given by solving two polynomial Diophantine equations. We also derive the parametrization of all references for which input/output deadbeat response is maintained. In addition, we investigate the conditions for the processes under which the output deadbeat always implies the input deadbeat."
+                    },
+                    "publisher": {
+                        "en": "TAYLOR & FRANCIS LTD"
+                    },
+                    "publication_date": "1992-09",
+                    "publication_name": {
+                        "en": "INTERNATIONAL JOURNAL OF CONTROL"
+                    },
+                    "volume": "56",
+                    "number": "3",
+                    "starting_page": "515",
+                    "ending_page": "530",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1080/00207179208934326"
+                        ],
+                        "issn": [
+                            "0020-7179"
+                        ],
+                        "wos_id": [
+                            "WOS:A1992JQ95700002"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1080/00207179208934326",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:A1992JQ95700002&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0011713/misc/9565420",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0011713/misc",
+                    "rm:id": "9565420",
+                    "rm:user_id": "1000025088",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000025088",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2002-02-04T15:00:00Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-09-27T23:15:25Z",
+                    "paper_title": {
+                        "ja": "予見制御器の一構成法",
+                        "en": "A Design Method of Preview Controllers"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "舟橋 康行"
+                            },
+                            {
+                                "name": "加藤 久雄"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "FUNAHASHI Yasuyuki"
+                            },
+                            {
+                                "name": "KATOH Hisao"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "ja": "In this paper, we propose a design method of preview controllers. It is expressed by natural extension of the parametrization of all causal stabilizing controllers, which is derived by Youla, et al. What we do is to extend causal feedforward controllers to uncausal ones.<br>We use the two-degree-of-freedom control system in this paper, since there is no feedforward controllers in the one-degree-of-freedom system.<br>Moreover we get the parametrization of all preview controllers which follow the step responses, and then determine the optimal controller which minimizes the input/output responses with respect to <i>L</i><sub>2</sub> norm among all preview controllers.<br>The preview control has been considered in the perspective of the optimal control, therefore in the framework of the statespace method. Our approach to the optimal preview control in this paper can be considered as another approach using the transfer function method.",
+                        "en": "In this paper, we propose a design method of preview controllers. It is expressed by natural extension of the parametrization of all causal stabilizing controllers, which is derived by Youla, et al. What we do is to extend causal feedforward controllers to uncausal ones.<br>We use the two-degree-of-freedom control system in this paper, since there is no feedforward controllers in the one-degree-of-freedom system.<br>Moreover we get the parametrization of all preview controllers which follow the step responses, and then determine the optimal controller which minimizes the input/output responses with respect to <i>L</i><sub>2</sub> norm among all preview controllers.<br>The preview control has been considered in the perspective of the optimal control, therefore in the framework of the statespace method. Our approach to the optimal preview control in this paper can be considered as another approach using the transfer function method."
+                    },
+                    "publisher": {
+                        "ja": "The Society of Instrument and Control Engineers",
+                        "en": "The Society of Instrument and Control Engineers"
+                    },
+                    "publication_date": "1992",
+                    "publication_name": {
+                        "ja": "計測自動制御学会論文集",
+                        "en": "Transactions of the Society of Instrument and Control Engineers"
+                    },
+                    "volume": "28",
+                    "number": "2",
+                    "starting_page": "216",
+                    "ending_page": "221",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.9746/sicetr1965.28.216"
+                        ],
+                        "issn": [
+                            "0453-4654"
+                        ],
+                        "cinii_na_id": [
+                            "10011803739"
+                        ],
+                        "cinii_nc_id": [
+                            "AN00072392"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.9746/sicetr1965.28.216",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/10011803739",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_books",
+                            "@id": "http://ci.nii.ac.jp/ncid/AN00072392",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "http://id.ndl.go.jp/bib/3751476",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "https://jlc.jst.go.jp/DN/JALC/00013746308?from=CiNii",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0011713/misc/9565410",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0011713/misc",
+                    "rm:id": "9565410",
+                    "rm:user_id": "1000025088",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000025088",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2002-02-04T15:00:00Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-08-25T15:40:34Z",
+                    "paper_title": {
+                        "en": "Robust-tracking deadbeat control"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Yasuyuki Funahashi"
+                            },
+                            {
+                                "name": "Hisao Katoh"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "We derive the parametrization of all controllers that achieve both the robust-tracking and the deadbeat control. We also give the parametrization of all reference functions for which the robust tracking and designed deadbeat property is guaranteed by all robust-tracking deadbeat controllers for one reference. The solution to the robust-tracking deadbeat problem for more than two reference functions is also given. We use the H∞-norm of the sensitivity function as the robustness index of the system. By using two-degree-of-freedom control systems, we can achieve both minimal-time deadbeat control and optimal robustness with only one controller. © 1992 Taylor &amp\n Francis Ltd."
+                    },
+                    "publication_date": "1992",
+                    "publication_name": {
+                        "en": "International Journal of Control"
+                    },
+                    "volume": "56",
+                    "number": "1",
+                    "starting_page": "213",
+                    "ending_page": "225",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1080/00207179208934310"
+                        ],
+                        "issn": [
+                            "1366-5820",
+                            "0020-7179"
+                        ],
+                        "scopus_id": [
+                            "0003156076"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1080/00207179208934310",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0011713/misc/9565409",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0011713/misc",
+                    "rm:id": "9565409",
+                    "rm:user_id": "1000025088",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000025088",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2002-02-04T15:00:00Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-09-27T23:15:25Z",
+                    "paper_title": {
+                        "ja": "予見制御器の一構成法",
+                        "en": "A Design Method of Preview Controllers"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "舟橋 康行"
+                            },
+                            {
+                                "name": "加藤 久雄"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "FUNAHASHI Yasuyuki"
+                            },
+                            {
+                                "name": "KATOH Hisao"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "ja": "In this paper, we propose a design method of preview controllers. It is expressed by natural extension of the parametrization of all causal stabilizing controllers, which is derived by Youla, et al. What we do is to extend causal feedforward controllers to uncausal ones.<br>We use the two-degree-of-freedom control system in this paper, since there is no feedforward controllers in the one-degree-of-freedom system.<br>Moreover we get the parametrization of all preview controllers which follow the step responses, and then determine the optimal controller which minimizes the input/output responses with respect to <i>L</i><sub>2</sub> norm among all preview controllers.<br>The preview control has been considered in the perspective of the optimal control, therefore in the framework of the statespace method. Our approach to the optimal preview control in this paper can be considered as another approach using the transfer function method.",
+                        "en": "In this paper, we propose a design method of preview controllers. It is expressed by natural extension of the parametrization of all causal stabilizing controllers, which is derived by Youla, et al. What we do is to extend causal feedforward controllers to uncausal ones.<br>We use the two-degree-of-freedom control system in this paper, since there is no feedforward controllers in the one-degree-of-freedom system.<br>Moreover we get the parametrization of all preview controllers which follow the step responses, and then determine the optimal controller which minimizes the input/output responses with respect to <i>L</i><sub>2</sub> norm among all preview controllers.<br>The preview control has been considered in the perspective of the optimal control, therefore in the framework of the statespace method. Our approach to the optimal preview control in this paper can be considered as another approach using the transfer function method."
+                    },
+                    "publisher": {
+                        "ja": "The Society of Instrument and Control Engineers",
+                        "en": "The Society of Instrument and Control Engineers"
+                    },
+                    "publication_date": "1992",
+                    "publication_name": {
+                        "ja": "計測自動制御学会論文集",
+                        "en": "Transactions of the Society of Instrument and Control Engineers"
+                    },
+                    "volume": "28",
+                    "number": "2",
+                    "starting_page": "216",
+                    "ending_page": "221",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.9746/sicetr1965.28.216"
+                        ],
+                        "issn": [
+                            "0453-4654"
+                        ],
+                        "cinii_na_id": [
+                            "10011803739"
+                        ],
+                        "cinii_nc_id": [
+                            "AN00072392"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.9746/sicetr1965.28.216",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/10011803739",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_books",
+                            "@id": "http://ci.nii.ac.jp/ncid/AN00072392",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "http://id.ndl.go.jp/bib/3751476",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "https://jlc.jst.go.jp/DN/JALC/00013746308?from=CiNii",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0011713/misc/9565421",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0011713/misc",
+                    "rm:id": "9565421",
+                    "rm:user_id": "1000025088",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000025088",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2002-02-04T15:00:00Z",
+                    "rm:modifier_id": "B000000004",
+                    "rm:modifier_type": "system",
+                    "rm:modified": "2002-02-04T15:00:00Z",
+                    "paper_title": {
+                        "ja": "多入力多出力系に対するロバスト・デッドビート制御"
+                    },
+                    "publication_date": "1991",
+                    "publication_name": {
+                        "ja": "計測自動制御学会論文集"
+                    },
+                    "volume": "27",
+                    "number": "6",
+                    "starting_page": "640",
+                    "ending_page": "646",
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.9746/sicetr1965.27.640"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.9746/sicetr1965.27.640",
+                            "is_downloadable": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0011713/research_projects",
+            "@type": "research_projects",
+            "@reverse": "https://api.researchmap.jp/read0011713",
+            "total_items": 6,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0011713/research_projects/1383846",
+                    "@type": "research_projects",
+                    "@reverse": "https://api.researchmap.jp/read0011713/research_projects",
+                    "rm:id": "1383846",
+                    "rm:user_id": "1000025088",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000025088",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2002-02-04T15:00:00Z",
+                    "rm:modifier_id": "1000025088",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2002-02-04T15:00:00Z",
+                    "research_project_title": {
+                        "ja": "繰り返し制御に関する研究"
+                    },
+                    "overall_grant_amount": {
+                        "indirect_cost": "0",
+                        "total_cost": "0",
+                        "direct_cost": "0"
+                    },
+                    "fund_type": "competitive_research_funding"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0011713/research_projects/1383845",
+                    "@type": "research_projects",
+                    "@reverse": "https://api.researchmap.jp/read0011713/research_projects",
+                    "rm:id": "1383845",
+                    "rm:user_id": "1000025088",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000025088",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2002-02-04T15:00:00Z",
+                    "rm:modifier_id": "1000025088",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2002-02-04T15:00:00Z",
+                    "research_project_title": {
+                        "ja": "サンプル値系に対する最適制御に関する研究"
+                    },
+                    "overall_grant_amount": {
+                        "indirect_cost": "0",
+                        "total_cost": "0",
+                        "direct_cost": "0"
+                    },
+                    "fund_type": "competitive_research_funding"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0011713/research_projects/1383844",
+                    "@type": "research_projects",
+                    "@reverse": "https://api.researchmap.jp/read0011713/research_projects",
+                    "rm:id": "1383844",
+                    "rm:user_id": "1000025088",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000025088",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2002-02-04T15:00:00Z",
+                    "rm:modifier_id": "1000025088",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2002-02-04T15:00:00Z",
+                    "research_project_title": {
+                        "ja": "最小オーバーシュート制御に関する研究"
+                    },
+                    "overall_grant_amount": {
+                        "indirect_cost": "0",
+                        "total_cost": "0",
+                        "direct_cost": "0"
+                    },
+                    "fund_type": "competitive_research_funding"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0011713/research_projects/1383843",
+                    "@type": "research_projects",
+                    "@reverse": "https://api.researchmap.jp/read0011713/research_projects",
+                    "rm:id": "1383843",
+                    "rm:user_id": "1000025088",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000025088",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2002-02-04T15:00:00Z",
+                    "rm:modifier_id": "1000025088",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2002-02-04T15:00:00Z",
+                    "research_project_title": {
+                        "en": "Study on Repetotove Control"
+                    },
+                    "overall_grant_amount": {
+                        "indirect_cost": "0",
+                        "total_cost": "0",
+                        "direct_cost": "0"
+                    },
+                    "fund_type": "competitive_research_funding"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0011713/research_projects/1383842",
+                    "@type": "research_projects",
+                    "@reverse": "https://api.researchmap.jp/read0011713/research_projects",
+                    "rm:id": "1383842",
+                    "rm:user_id": "1000025088",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000025088",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2002-02-04T15:00:00Z",
+                    "rm:modifier_id": "1000025088",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2002-02-04T15:00:00Z",
+                    "research_project_title": {
+                        "en": "Study on Optimal control for Sampled-Date Systems"
+                    },
+                    "overall_grant_amount": {
+                        "indirect_cost": "0",
+                        "total_cost": "0",
+                        "direct_cost": "0"
+                    },
+                    "fund_type": "competitive_research_funding"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0011713/research_projects/1383841",
+                    "@type": "research_projects",
+                    "@reverse": "https://api.researchmap.jp/read0011713/research_projects",
+                    "rm:id": "1383841",
+                    "rm:user_id": "1000025088",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000025088",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2002-02-04T15:00:00Z",
+                    "rm:modifier_id": "1000025088",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2002-02-04T15:00:00Z",
+                    "research_project_title": {
+                        "en": "Study on Minimal Overshoot Control"
+                    },
+                    "overall_grant_amount": {
+                        "indirect_cost": "0",
+                        "total_cost": "0",
+                        "direct_cost": "0"
+                    },
+                    "fund_type": "competitive_research_funding"
+                }
+            ]
+        }
+    ]
+}

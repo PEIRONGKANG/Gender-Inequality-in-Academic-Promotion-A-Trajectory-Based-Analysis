@@ -1,0 +1,1279 @@
+{
+    "@context": "https://api.researchmap.jp/researcher.jsonld",
+    "@id": "https://api.researchmap.jp/read0011250?format=json",
+    "@type": "researchers",
+    "rm:user_id": "1000023909",
+    "rm:creator_id": "1000023909",
+    "rm:creator_type": "myself",
+    "rm:created": "2011-01-26T15:00:00Z",
+    "rm:modifier_id": "1000023909",
+    "rm:modifier_type": "myself",
+    "rm:modified": "2024-06-13T14:51:55Z",
+    "permalink": "read0011250",
+    "family_name": {
+        "ja": "鈴木",
+        "en": "Suzuki"
+    },
+    "given_name": {
+        "ja": "達也",
+        "en": "Tatsuya"
+    },
+    "display_name_kana": "closed",
+    "display_nickname": "closed",
+    "image": "https://researchmap.jp/read0011250/avatar.jpg",
+    "display_image": "disclosed",
+    "display_contact_point": "disclosed",
+    "affiliations": [
+        {
+            "affiliation": {
+                "ja": "名古屋大学",
+                "en": "Nagoya University"
+            },
+            "section": {
+                "ja": "大学院工学研究科 機械システム工学専攻 機械知能学",
+                "en": "Graduate School of Engineering Mechanical Systems Engineering 2"
+            },
+            "job": {
+                "ja": "教授",
+                "en": "Professor"
+            },
+            "display_affiliation": "disclosed",
+            "display_job": "disclosed",
+            "rm:institution_code": "0260019050"
+        }
+    ],
+    "degrees": [
+        {
+            "degree": {
+                "ja": "工学博士",
+                "en": "Dr. Engineering"
+            },
+            "degree_institution": {
+                "ja": "名古屋大学",
+                "en": "Nagoya University"
+            },
+            "degree_date": "1991-03",
+            "display_degree": "disclosed",
+            "rm:institution_code": "0260000000"
+        }
+    ],
+    "display_profile": "disclosed",
+    "see_also": [
+        {
+            "label": "j_global",
+            "@id": "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=200901016986818474"
+        },
+        {
+            "@id": "https://www.suzlab.mae.nagoya-u.ac.jp/suzuki/",
+            "label": "url"
+        }
+    ],
+    "display_url": "disclosed",
+    "identifiers": {
+        "j_global_id": [
+            "200901016986818474"
+        ]
+    },
+    "rm:erad_id_verified": false,
+    "rm:orc_id_verified": false,
+    "display_erad_id": "closed",
+    "display_orc_id": "closed",
+    "display_researcher_id": "disclosed",
+    "display_j_global_id": "disclosed",
+    "@graph": [
+        {
+            "@id": "https://api.researchmap.jp/read0011250/research_areas",
+            "@type": "research_areas",
+            "@reverse": "https://api.researchmap.jp/read0011250",
+            "total_items": 1,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0011250/research_areas/39485566",
+                    "@type": "research_areas",
+                    "@reverse": "https://api.researchmap.jp/read0011250/research_areas",
+                    "rm:id": "39485566",
+                    "rm:user_id": "1000023909",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000023909",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2022-08-03T07:55:28Z",
+                    "rm:modifier_id": "1000023909",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2022-08-03T07:55:28Z",
+                    "discipline_number": "A289",
+                    "item_number": "A20020",
+                    "discipline": {
+                        "ja": "情報通信",
+                        "en": "Informatics"
+                    },
+                    "research_field": {
+                        "ja": "ロボティクス、知能機械システム",
+                        "en": "Robotics and intelligent systems"
+                    }
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0011250/research_projects",
+            "@type": "research_projects",
+            "@reverse": "https://api.researchmap.jp/read0011250",
+            "total_items": 16,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0011250/research_projects/45292254",
+                    "@type": "research_projects",
+                    "@reverse": "https://api.researchmap.jp/read0011250/research_projects",
+                    "rm:id": "45292254",
+                    "rm:user_id": "1000023909",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2024-01-30T20:46:18Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2024-01-30T20:46:18Z",
+                    "research_project_title": {
+                        "ja": "歩車共存空間で活きるスモールモビリティのための移動知能創成",
+                        "en": "Design of Mobility Intelligence for Small Mobility in Shared Space"
+                    },
+                    "investigators": {
+                        "ja": [
+                            {
+                                "name": "鈴木 達也"
+                            },
+                            {
+                                "name": "三輪 和久"
+                            },
+                            {
+                                "name": "奥田 裕之"
+                            }
+                        ]
+                    },
+                    "offer_organization": {
+                        "ja": "日本学術振興会",
+                        "en": "Japan Society for the Promotion of Science"
+                    },
+                    "system_name": {
+                        "ja": "科学研究費助成事業",
+                        "en": "Grants-in-Aid for Scientific Research"
+                    },
+                    "category": {
+                        "ja": "基盤研究(A)",
+                        "en": "Grant-in-Aid for Scientific Research (A)"
+                    },
+                    "institution_name": {
+                        "ja": "名古屋大学",
+                        "en": "Nagoya University"
+                    },
+                    "from_date": "2022-04-01",
+                    "to_date": "2025-03-31",
+                    "overall_grant_amount": {
+                        "total_cost": "41080000",
+                        "direct_cost": "31600000",
+                        "indirect_cost": "9480000"
+                    },
+                    "identifiers": {
+                        "grant_number": [
+                            "22H00211"
+                        ],
+                        "national_grant_number": [
+                            "JP22H00211"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "kaken",
+                            "@id": "https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-22H00211"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0011250/research_projects/45220544",
+                    "@type": "research_projects",
+                    "@reverse": "https://api.researchmap.jp/read0011250/research_projects",
+                    "rm:id": "45220544",
+                    "rm:user_id": "1000023909",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2024-01-30T19:01:31Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2024-01-30T19:01:31Z",
+                    "research_project_title": {
+                        "ja": "生成的帰納演繹循環アプローチによる心の科学の新しい探求パラダイムの開拓",
+                        "en": "A new research paradigm in the science of mind through a generative inductive-deductive circular approach"
+                    },
+                    "investigators": {
+                        "ja": [
+                            {
+                                "name": "三輪 和久"
+                            },
+                            {
+                                "name": "鈴木 達也"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Miwa Kazuhisa"
+                            }
+                        ]
+                    },
+                    "offer_organization": {
+                        "ja": "日本学術振興会",
+                        "en": "Japan Society for the Promotion of Science"
+                    },
+                    "system_name": {
+                        "ja": "科学研究費助成事業",
+                        "en": "Grants-in-Aid for Scientific Research"
+                    },
+                    "category": {
+                        "ja": "挑戦的研究(開拓)",
+                        "en": "Grant-in-Aid for Challenging Research (Pioneering)"
+                    },
+                    "institution_name": {
+                        "ja": "名古屋大学",
+                        "en": "Nagoya University"
+                    },
+                    "from_date": "2020-04-01",
+                    "to_date": "2022-03-31",
+                    "overall_grant_amount": {
+                        "total_cost": "26000000",
+                        "direct_cost": "20000000",
+                        "indirect_cost": "6000000"
+                    },
+                    "description": {
+                        "ja": "認知モデルと行動モデルという性質の異なる2つのモデルを統合することで，生成的帰納演繹循環アプローチと呼ぶ，人間の心の科学の新しい探求の枠組みを開拓することを試みた。本研究では、高速道路における自動車の合流場面を取り上げた。ACT-Rアーキテクチャを用いて、自動車運転ドライバの認知モデルを構築し、そのモデルをデータ生成装置として用いて、様々な状況における視線行動、運転行動、自動車の挙動のデータを生成した。生成データの検討の結果、本アプローチの有効性が認められた。また、ドライビングシミュレータを用いた実験において収集された行動データに基づくロジステック回帰モデルを用いた検討を行った。",
+                        "en": "By integrating two models of different nature, a computational cognitive model and a behavioral model, we attempted to pioneer a new framework of inquiry in the science of the human mind, which we call here the generative-inductive-deductive circular approach. In this study, we took an automobile merging scene on a highway, constructed a computational cognitive model of automobile drivers, and used the model as a data generator to examine eye-gaze behavior, driving behavior, and automobile behavior in various situations. In addition, a logistic regression model based on behavioral data collected in experiments using a driving simulator was examined."
+                    },
+                    "identifiers": {
+                        "grant_number": [
+                            "20K20339"
+                        ],
+                        "national_grant_number": [
+                            "JP20K20339"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "kaken",
+                            "@id": "https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-20K20339"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0011250/research_projects/45158654",
+                    "@type": "research_projects",
+                    "@reverse": "https://api.researchmap.jp/read0011250/research_projects",
+                    "rm:id": "45158654",
+                    "rm:user_id": "1000023909",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2024-01-30T17:23:31Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2024-01-30T17:23:31Z",
+                    "research_project_title": {
+                        "ja": "他者とのインタラクションを考慮したモデル予測型知能の創出と自動運転車両への実装",
+                        "en": "Development of Model Predictive Interactive Intelligence and Its Application to Autonomous Drive"
+                    },
+                    "investigators": {
+                        "ja": [
+                            {
+                                "name": "鈴木 達也"
+                            },
+                            {
+                                "name": "山口 拓真"
+                            },
+                            {
+                                "name": "奥田 裕之"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Suzuki Tatsuya"
+                            }
+                        ]
+                    },
+                    "offer_organization": {
+                        "ja": "日本学術振興会",
+                        "en": "Japan Society for the Promotion of Science"
+                    },
+                    "system_name": {
+                        "ja": "科学研究費助成事業",
+                        "en": "Grants-in-Aid for Scientific Research"
+                    },
+                    "category": {
+                        "ja": "基盤研究(A)",
+                        "en": "Grant-in-Aid for Scientific Research (A)"
+                    },
+                    "institution_name": {
+                        "ja": "名古屋大学",
+                        "en": "Nagoya University"
+                    },
+                    "from_date": "2019-04-01",
+                    "to_date": "2022-03-31",
+                    "overall_grant_amount": {
+                        "total_cost": "44330000",
+                        "direct_cost": "34100000",
+                        "indirect_cost": "10230000"
+                    },
+                    "description": {
+                        "ja": "本課題では、説明可能な他者モデルとそれに基づく予測、さらには予測に基づいた制約付き最適化ベースの行動決定手法を統合した知能をモデル予測型知能と呼び、小型のパーソナルモビリティへの実装を想定してその有用性を検証した。特にモデル予測型知能の中に、自己との因果関係を明記した周辺他者の行動モデルを持つことで周辺他者とのインタラクションを考慮した知能を実現することが可能となった。さらには、他者モデルの中でも特に他者の判断モデルに焦点を当て、その判断エントロピーに注目することで他者がより判断しやすい状況を作り出すよう自己の行動を決定する制御手法を創出し、検証実験においてその有用性をを確認した。",
+                        "en": "In this project, a model predictive intelligence was developed, which exploits the model of others, behavior prediction based on others' model and real-time optimization. The proposed control architecture was implemented on a small personal mobility. The others' model embedded in the proposed architecture played an important role to realize an interactive intelligence between the vehicle and others. In this project, a model of decision making was particularly focused on and a new cost function of decision entropy of others has been defined. Since the decision entropy is a measure of the uncertainty of the decision of others, a natural human-like interaction between vehicle and others has been achieved by minimizing the decision entropy of others. The usefulness of the proposed architecture has been demonstrated by implementing on a real personal mobility which has interaction with pedestrians."
+                    },
+                    "identifiers": {
+                        "grant_number": [
+                            "19H00763"
+                        ],
+                        "national_grant_number": [
+                            "JP19H00763"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "kaken",
+                            "@id": "https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-19H00763"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0011250/research_projects/45016536",
+                    "@type": "research_projects",
+                    "@reverse": "https://api.researchmap.jp/read0011250/research_projects",
+                    "rm:id": "45016536",
+                    "rm:user_id": "1000023909",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2024-01-30T13:52:41Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2024-01-30T13:52:41Z",
+                    "research_project_title": {
+                        "ja": "知能化自動車のためのスーパーバイザ型協調制御とその実証",
+                        "en": "Supervisory Driver Assistance Control and Its Verification"
+                    },
+                    "investigators": {
+                        "ja": [
+                            {
+                                "name": "鈴木 達也"
+                            },
+                            {
+                                "name": "田崎 勇一"
+                            },
+                            {
+                                "name": "山口 拓真"
+                            },
+                            {
+                                "name": "三輪 和久"
+                            },
+                            {
+                                "name": "村瀬 洋"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Suzuki Tatsuya"
+                            }
+                        ]
+                    },
+                    "offer_organization": {
+                        "ja": "日本学術振興会",
+                        "en": "Japan Society for the Promotion of Science"
+                    },
+                    "system_name": {
+                        "ja": "科学研究費助成事業",
+                        "en": "Grants-in-Aid for Scientific Research"
+                    },
+                    "category": {
+                        "ja": "基盤研究(A)",
+                        "en": "Grant-in-Aid for Scientific Research (A)"
+                    },
+                    "institution_name": {
+                        "ja": "名古屋大学",
+                        "en": "Nagoya University"
+                    },
+                    "from_date": "2016-04-01",
+                    "to_date": "2019-03-31",
+                    "overall_grant_amount": {
+                        "total_cost": "43160000",
+                        "direct_cost": "33200000",
+                        "indirect_cost": "9960000"
+                    },
+                    "description": {
+                        "ja": "次世代の知能化自動車では、自動運転から手動運転まで、システムとドライバが幅広い協調形態をとり得るアーキテクチャが求められる。本研究では、システム／ドライバの協調系が満たすべき要件として、１．安全性が確保されること、２．ドライバの受容性が高いこと、３．支援システムの経験を通してドライバ自身の運転特性が改善されること、の３要件を設定した。この３要件を満たす協調制御系として、指導員型運転支援、すなわち運転知能に基づいて生成される許容可能行動集合内に車両挙動を制約する新しい支援制御を提案し、80名程度の被験者を対象として認知科学的見地を交えてその妥当性を検証した。",
+                        "en": "Safety and acceptability are main concerns in the design of driver assistance system. In fact, these two requirements sometimes may conflict with each other depending on e situation and driver. This conflict is more emphasized particularly in the case of considering elderly driver. In order to solve this problem, this paper proposes a new driver-vehicle cooperation scheme, a `supervisory cooperation control' which consists of model predictive constraint satisfaction and multimodal human-machine interface. The proposed cooperation scheme enables us to realize the safety without loosing acceptability.In addition, we have verified that the proposed assistance system improve the driver's original driving characteristics, i.e., the driver can learn how to realize the safety driving."
+                    },
+                    "identifiers": {
+                        "grant_number": [
+                            "16H02353"
+                        ],
+                        "national_grant_number": [
+                            "JP16H02353"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "kaken",
+                            "@id": "https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-16H02353"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0011250/research_projects/45380237",
+                    "@type": "research_projects",
+                    "@reverse": "https://api.researchmap.jp/read0011250/research_projects",
+                    "rm:id": "45380237",
+                    "rm:user_id": "1000023909",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2024-01-30T23:08:17Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2024-01-30T23:08:17Z",
+                    "research_project_title": {
+                        "ja": "ムカデ型多脚歩行ロボットの適応的分散型歩行制御系の設計",
+                        "en": "Design of adaptive decentralized walk control for centipede-like multi-legged robot"
+                    },
+                    "investigators": {
+                        "ja": [
+                            {
+                                "name": "稲垣 伸吉"
+                            },
+                            {
+                                "name": "鈴木 達也"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Shinkichi Inagaki"
+                            },
+                            {
+                                "name": "TATSUYA SUZUKI"
+                            }
+                        ]
+                    },
+                    "offer_organization": {
+                        "ja": "日本学術振興会",
+                        "en": "Japan Society for the Promotion of Science"
+                    },
+                    "system_name": {
+                        "ja": "科学研究費助成事業",
+                        "en": "Grants-in-Aid for Scientific Research"
+                    },
+                    "category": {
+                        "ja": "基盤研究(C)",
+                        "en": "Grant-in-Aid for Scientific Research (C)"
+                    },
+                    "institution_name": {
+                        "ja": "名古屋大学",
+                        "en": "Nagoya University"
+                    },
+                    "from_date": "2013-04-01",
+                    "to_date": "2016-03-31",
+                    "overall_grant_amount": {
+                        "total_cost": "5070000",
+                        "direct_cost": "3900000",
+                        "indirect_cost": "1170000"
+                    },
+                    "description": {
+                        "ja": "本研究では、未知で複雑な環境を移動できる多脚歩行ロボットを実現することを目標に、分散型歩行制御法「接地点追従法」を改良し、高次の運動計画と分散制御のローカルな適応的運動生成とが一貫した分散型歩行制御法を確立することを目指した。まず、高次の運動計画として深度センサを用いた接地点探索手法を開発し、ムカデ型および6脚の多脚歩行ロボットでのシミュレーションおよび実機での実証を行った。そして、運動性能の向上を目指して能動体節間関節と脚の統合的分散制御手法を開発しシミュレーションにより有用性を示した。また、多様な環境での歩行を想定した高次の運動計画と下位の運動制御の統合的なパラメータ設計手法を開発した。",
+                        "en": "This research aimed to realize a multi-legged robot capable to traverse unknown and complex environment. For this purpose, originated from decentralized walking control ‘Follow-the-Contact-Point’ gait control, a new control method which has consistency with both high-order motion planning and local adaptive motion control was addressed. First, planning of contacting points of legs with utilizing a depth sensor was developed as the high-order motion planning and the availability was verified via experiments. Next, in order to improve the motion performance of robot, new decentralized walk control by which both the active intersegment joints and the legs are simultaneously and successfully controlled is developed. Finally, parameter design method that possible to design the parameters of the high-order motion planning and local decentralized control with ensuring availability of the robot to walk even in versatile environments is developed."
+                    },
+                    "identifiers": {
+                        "grant_number": [
+                            "25420217"
+                        ],
+                        "national_grant_number": [
+                            "JP25420217"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "kaken",
+                            "@id": "https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-25420217"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0011250/research_projects/45274739",
+                    "@type": "research_projects",
+                    "@reverse": "https://api.researchmap.jp/read0011250/research_projects",
+                    "rm:id": "45274739",
+                    "rm:user_id": "1000023909",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2024-01-30T20:18:42Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2024-01-30T20:18:42Z",
+                    "research_project_title": {
+                        "ja": "ハイブリッドシステム論に基づく行動支援制御系の設計",
+                        "en": "Design of Behavior Assistance Control based on Hybrid System Theory"
+                    },
+                    "investigators": {
+                        "ja": [
+                            {
+                                "name": "鈴木 達也"
+                            },
+                            {
+                                "name": "稲垣 伸吉"
+                            },
+                            {
+                                "name": "田崎 勇一"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "SUZUKI Tatsuya"
+                            },
+                            {
+                                "name": "INAGAKI Shinkichi"
+                            },
+                            {
+                                "name": "TAZAKI Yuichi"
+                            }
+                        ]
+                    },
+                    "offer_organization": {
+                        "ja": "日本学術振興会",
+                        "en": "Japan Society for the Promotion of Science"
+                    },
+                    "system_name": {
+                        "ja": "科学研究費助成事業",
+                        "en": "Grants-in-Aid for Scientific Research"
+                    },
+                    "category": {
+                        "ja": "基盤研究(B)",
+                        "en": "Grant-in-Aid for Scientific Research (B)"
+                    },
+                    "institution_name": {
+                        "ja": "名古屋大学",
+                        "en": "Nagoya University"
+                    },
+                    "from_date": "2010",
+                    "to_date": "2012",
+                    "overall_grant_amount": {
+                        "total_cost": "15860000",
+                        "direct_cost": "12200000",
+                        "indirect_cost": "3660000"
+                    },
+                    "description": {
+                        "ja": "連続/離散のハイブリッドシステムモデルに基づくシステム同定論に立脚した判断・動作統合型の行動モデリング手法をベースとして、 「判断」「動作」の各フェーズで複合的な行動支援を行う支援制御器のための制御系設計論を構築した。具体的には、判断と動作の自動抽出技術に立脚し、行動モデルを構築、支援制御器と人間が同じモード遷移構造(判断特性)を共有する「判断特性共有型」の行動支援制御系を提案した。この設計思想のもと、オンライン最適化に基づくモデル予測型の行動支援制御系を構築し、自動車運転行動への適用を通してその有用性を立証した。",
+                        "en": "This research has developed a new framework of the assisting system design based on a hybrid system description of the behavior model. In particular, a piecewise ARX model was used to represent the human behavior. Then, the design problem of the assistance control is formulated as an online optimization problem. By using the developed framework, the decision making mechanism is shared between human and machine. The usefulness is demonstrated by applying driving behavior."
+                    },
+                    "identifiers": {
+                        "grant_number": [
+                            "22360170"
+                        ],
+                        "national_grant_number": [
+                            "JP22360170"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "kaken",
+                            "@id": "https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-22360170"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0011250/research_projects/45241283",
+                    "@type": "research_projects",
+                    "@reverse": "https://api.researchmap.jp/read0011250/research_projects",
+                    "rm:id": "45241283",
+                    "rm:user_id": "1000023909",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2024-01-30T19:32:43Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2024-01-30T19:32:43Z",
+                    "research_project_title": {
+                        "ja": "ハイブリッドシステム論が拓く脳情報処理の新展開"
+                    },
+                    "investigators": {
+                        "ja": [
+                            {
+                                "name": "鈴木 達也"
+                            }
+                        ]
+                    },
+                    "offer_organization": {
+                        "ja": "日本学術振興会"
+                    },
+                    "system_name": {
+                        "ja": "科学研究費助成事業"
+                    },
+                    "category": {
+                        "ja": "挑戦的萌芽研究"
+                    },
+                    "institution_name": {
+                        "ja": "名古屋大学"
+                    },
+                    "from_date": "2010",
+                    "to_date": "2011",
+                    "overall_grant_amount": {
+                        "total_cost": "3100000",
+                        "direct_cost": "3100000"
+                    },
+                    "description": {
+                        "ja": "本研究ではまず,連続・離散のハイブリッドシステム論に立脚し,人間行動に含まれる操作と,曖昧さを含んだ判断を,観測データのみから抽出可能なモデルの構築手法を確立した.具体的には,人間が複数の操作モードを持ち,これらを切り換えながら行動する,との仮定から,各々の操作を複数の外性入力付自己回帰モデル(ARXモデル)として,これらを切り換える判断は,判断の確率的なばらつきを表現可能なソフトマックス関数として表現したモデルである\"確率重み付きARXモデル\"を提案し,そのパラメータ推定手法を確立した.本モデルでは各時刻でどの操作モードにより行動しているかの確率が推定可能だが,この確率に基づいてエントロピーを計算することで,モデルのモード(すなわち人間の判断)の曖昧さを,観測データのみから客観的に評価できる.\n次に,著者らが保持するドライビングシミュレータを用い,眠気状態にある被験者と,通常の被験者の運転状態を観測し,観測データから,提案モデルを通してエントロピーの算出を行った結果,眠気状態にあるほどエントロピーが高い傾向が得られており,判断が曖昧になっている事が示唆された.一方で,運転中の被験者の脳波に着目すると,眠気の指標と言われる,脳波におけるα波帯の増加現象が確認されており,脳活動の低下とエントロピーの間には関係性が見られた.\n本研究は行動データから客観的に観測される判断特性と,生体信号から得られる内部状態との整合性が確認され,行動データに基づく人間行動解析にエビデンスが与えられたという観点から極めて有意義な成果であり,今後の継続的な研究,発展が期待される."
+                    },
+                    "identifiers": {
+                        "grant_number": [
+                            "21650070"
+                        ],
+                        "national_grant_number": [
+                            "JP21650070"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "kaken",
+                            "@id": "https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-21650070"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0011250/research_projects/45138599",
+                    "@type": "research_projects",
+                    "@reverse": "https://api.researchmap.jp/read0011250/research_projects",
+                    "rm:id": "45138599",
+                    "rm:user_id": "1000023909",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2024-01-30T16:55:06Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2024-01-30T16:55:06Z",
+                    "research_project_title": {
+                        "ja": "連続・離散ハイブリッドシステムモデルに基づく行動解析",
+                        "en": "Behavior Analysis based on Hybrid System Modeling"
+                    },
+                    "investigators": {
+                        "ja": [
+                            {
+                                "name": "鈴木 達也"
+                            },
+                            {
+                                "name": "稲垣 伸吉"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "SUZUKI Tatsuya"
+                            },
+                            {
+                                "name": "INAGAKI Shinkichi"
+                            }
+                        ]
+                    },
+                    "offer_organization": {
+                        "ja": "日本学術振興会",
+                        "en": "Japan Society for the Promotion of Science"
+                    },
+                    "system_name": {
+                        "ja": "科学研究費助成事業",
+                        "en": "Grants-in-Aid for Scientific Research"
+                    },
+                    "category": {
+                        "ja": "基盤研究(B)",
+                        "en": "Grant-in-Aid for Scientific Research (B)"
+                    },
+                    "institution_name": {
+                        "ja": "名古屋大学",
+                        "en": "Nagoya University"
+                    },
+                    "from_date": "2007",
+                    "to_date": "2008",
+                    "overall_grant_amount": {
+                        "total_cost": "18850000",
+                        "direct_cost": "14500000",
+                        "indirect_cost": "4350000"
+                    },
+                    "description": {
+                        "ja": "本研究では連続・離散ハイブリッドシステム理論に基づいた比較的汎用性の高い統一的な判断・動作(操作)系のモデル化手法を提案し、その有用性を立証した。一連の研究成果の特徴は、観測データのみから判断と動作(操作)の混在した人間行動のハイブリッドシステムモデルを推定、構築している点であり、特に人間行動の判断フェーズの数理モデルを観測データのみから明示的に抽出する試みは世界的に見てもユニークな試みである。"
+                    },
+                    "identifiers": {
+                        "grant_number": [
+                            "19360114"
+                        ],
+                        "national_grant_number": [
+                            "JP19360114"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "kaken",
+                            "@id": "https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-19360114"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0011250/research_projects/44996970",
+                    "@type": "research_projects",
+                    "@reverse": "https://api.researchmap.jp/read0011250/research_projects",
+                    "rm:id": "44996970",
+                    "rm:user_id": "1000023909",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2024-01-30T13:29:13Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2024-01-30T13:29:13Z",
+                    "research_project_title": {
+                        "ja": "ディペンダブルな制御システム構築のための設計論",
+                        "en": "Design Logic for Construction of Dependable Control Systems"
+                    },
+                    "investigators": {
+                        "ja": [
+                            {
+                                "name": "鈴木 達也"
+                            },
+                            {
+                                "name": "稲垣 伸吉"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "SUZUKI Tatsuya"
+                            },
+                            {
+                                "name": "INAGAKI Shinkichi"
+                            }
+                        ]
+                    },
+                    "offer_organization": {
+                        "ja": "日本学術振興会",
+                        "en": "Japan Society for the Promotion of Science"
+                    },
+                    "system_name": {
+                        "ja": "科学研究費助成事業",
+                        "en": "Grants-in-Aid for Scientific Research"
+                    },
+                    "category": {
+                        "ja": "基盤研究(B)",
+                        "en": "Grant-in-Aid for Scientific Research (B)"
+                    },
+                    "institution_name": {
+                        "ja": "名古屋大学",
+                        "en": "Nagoya University"
+                    },
+                    "from_date": "2004",
+                    "to_date": "2006",
+                    "overall_grant_amount": {
+                        "total_cost": "12000000",
+                        "direct_cost": "12000000"
+                    },
+                    "description": {
+                        "ja": "制御システムの高機能化,高性能化に伴い,制御システムに対する設計論が従来の安定性や性能向上の追求からセンサやアクチュエータ等,システム要素の故障に対しても適応可能となるような信頼性の向上,さらには人間との親和性の向上を目指した設計論へと変化しつつある。これを踏まえ,本研究では,1.確率的情報処理による故障検出・診断,2.大規模系に対する分散型故障診断,3.ハイブリッド動的システムモデルに基づく人間行動の解析,に取り組んだ。具体的に,1では隠れマルコフモデル(HMM)の各離散状態に連続ダイナミクスを割り当てた新たな数理モデルを提案し,それに基づいた故障診断手法を提案した。また,プロダクションルールに生起確率を割り当てた,確率的プロダクションルールを提案し,マニピュレータの故障検出に応用した。さらには,時間付マルコフモデルに基づいた事象駆動型システムの故障診断法を提案し,自動搬送ラインのプロトタイプを対象とした実験によりその有用性を確認した。2では,ベイジアンネットワークを用いて,各サブシステム間の故障と観測信号間の関係をモデル化し,各サブシステムでの故障診断結果を用いて全体の故障診断を行うことが可能となるアルゴリズムを新たに考案した。そして,提案した手法の有用性を自動搬送ラインのプロトタイプを対象とした実験によりその有用性を確認した。3では,離散モードの遷移が確定的な場合と確率的な場合とに分けて考え,それぞれ,データクラスタリングによるアプローチとHMMに連続ダイナミクスを埋め込んだモデルによるアプローチを提案した。また,提案手法を自動車の運転行動や作業スキルの解析に応用し,その有用性を確認した。これらの成果は学術雑誌上で公開済みまたは,公開予定である。",
+                        "en": "The requirements for design of control systems have been shifting from high speed and high precision to realization of high reliability and safety of the systems. Furthermore, harmonious corporation between systems and human is becoming an important factor which must be considered in the control system design. From these motivations, this research project addressed the following topics:\n1. Fault detection and diagnosis based on probabilistic information theory\n2. Distributed fault diagnosis focused on large scale systems\n3. Modeling human behavior based on hybrid dynamical systems\nIn the topic 1, we proposed two new mathematical models based on probabilistic information theory. The first one is a new Hidden Markov Model (HMM) wherein a continuous dynamical model is allocated to each discrete state of HMM, and we applied the model to the fault diagnosis. The second one is a Probabilistic Production Rules wherein probabilities are assigned to the conventional production rules, and we applied the theory to the fault diagnosis of the manipulator control system. In addition, we proposed a fault diagnosis algorithm based on Timed Markov Model, and verified the availability by experiments using a prototype of automating transfer line.\nIn the topic 2, we proposed a new distributed diagnosis algorithm capable of diagnosing the overall system behavior by combining the local diagnosis results based on Bayesian network theory. In the proposed framework, the relationships between the faulty conditions in the subsystems and the observed signals are modeled by network structure. By applying the algorithm to a prototype of automating transfer line, we verified the availability of the algorithm.\nIn the topic 3, we employed two modeling approaches based on data-clustering and the new HMM developed in the topic 1. As the result, we can model human behaviors in both cases that the transition between the discrete modes is modeled deterministically and stochastically. The availabilities of these approaches were verified by applying the proposed methods to analysis of driving-behaviors and task skills.\nThese achievements are or will be published in scientific journals."
+                    },
+                    "identifiers": {
+                        "grant_number": [
+                            "16360198"
+                        ],
+                        "national_grant_number": [
+                            "JP16360198"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "kaken",
+                            "@id": "https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-16360198"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0011250/research_projects/44949748",
+                    "@type": "research_projects",
+                    "@reverse": "https://api.researchmap.jp/read0011250/research_projects",
+                    "rm:id": "44949748",
+                    "rm:user_id": "1000023909",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2024-01-30T12:23:11Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2024-01-30T12:23:11Z",
+                    "research_project_title": {
+                        "ja": "マイクロ磁気センサアレイを用いた自己組織型ニューラルネットワークに関する研究",
+                        "en": "STUDY ON SELF ORGANIZATION NEWRAL NETWORK USING MICRO MAGNETIC SENSOR ARRAYS FOR VARIABLE-SYNAPSE COUPLING DEVICE"
+                    },
+                    "investigators": {
+                        "ja": [
+                            {
+                                "name": "内山 剛"
+                            },
+                            {
+                                "name": "鈴木 達也"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "UCHIYAMA Tsuyoshi"
+                            },
+                            {
+                                "name": "SUZUKI Tatsuya"
+                            }
+                        ]
+                    },
+                    "offer_organization": {
+                        "ja": "日本学術振興会",
+                        "en": "Japan Society for the Promotion of Science"
+                    },
+                    "system_name": {
+                        "ja": "科学研究費助成事業",
+                        "en": "Grants-in-Aid for Scientific Research"
+                    },
+                    "category": {
+                        "ja": "基盤研究(C)",
+                        "en": "Grant-in-Aid for Scientific Research (C)"
+                    },
+                    "institution_name": {
+                        "ja": "名古屋大学",
+                        "en": "Nagoya University"
+                    },
+                    "from_date": "2003",
+                    "to_date": "2005",
+                    "overall_grant_amount": {
+                        "total_cost": "3700000",
+                        "direct_cost": "3700000"
+                    },
+                    "description": {
+                        "ja": "ニューラルネットワークの自己組織化能力を担う重要な機能が可変シナプス結合である。しかし、多数のニューロンからなる大規模ニューラルネットワークにおいて、シナプス結合の強さ(シナプス荷重)を広い範囲で記憶するためにディジタルメモリーを用いると必要な記憶容量が著しく増加し、シナプス荷重を変化させるための演算システムは複雑となる。本研究では、以上の問題点を克服し高速に動作するチップ型のニューラルネットワークデバイスを創製するために、マイクロ磁気センサアレイを用いたシナプス構造と、パルス演算処理によるシナプス演算を組み合わせたデバイス構造を新たに創案し、その集積型シナプスデバイスの動作を実験:的に検証した。\n具体的には、コイルピックアップMI素子を拡張した、可変シナプス素子を新しく提案し、その素子のパルス電流対する演算特性を調べた。その結果として、積和演算処理を高速に実行できることを示した。すなわち、実用的な半導体回路を用いたニューラルネットワークの高速化につながる成果を得た。\nまた、コイルピックアップ型のMI素子と半導体回路を組み合わせるパルスニューラルネットワークデバイスとして、磁気帰還形のニューロ回路を創案した。この構成による、パルス変調回路は、ΔΣ変調回路として働くことを理論的・実験的に示した。すなわち、アナログ演算処理を高精度のディジタル演算処理に変換できるパルスニューラルネットワーク構造であることを検証した。\n結論として、本研究で新たに提案・検証したパルスニューラルネットワークは、ニューロンの発火率だけでなく、ニューロ発火電位の時間相関を利用する高精度の信号処理に適応できる。すなわち、マイクロ磁気センサアレイを用いた自己組織型ニューラルネットワークは、CMOS集積回路を用いたパルス演算システムの信号処理機能を脳の高次機能に近づけるために有効なデバイス構造であることを示した。",
+                        "en": "The key functional devices which plays important role in the neural network, were variable- synapse couplings. However, it would be lead to both much increase of capacity of memory and complexity of the system, when we use a conventional digital system. In this study, to avoid this problem and to create a new type chip neural network device, we propose a new quick response variable-synapse coupling device based on micro-magnetic sensor arrays.\nThe variable-synapse coupling device is extension device of a coil-pickup MI sensor device. The device operation for the synapse coupling was investigated. We obtained such result that operation speed of neural network would be much increase, when we use conventional C-MOS digital circuit in combination with the proposed synapse couplings.\nWe also newly propose magnetic feedback neural network circuit. It was shown that the pulse neural network based on the magnetic feedback circuit works as a delta-sigma modulation function. It is concluded that the system is useful for conversion of analogue signal to digital signal in addition to high speed neural network operation.\nIn summary, the proposed neural network is adapted for high precious signal processing which use not only probability of firing of neuron but also time correlation between firing. In another word, the high order brain function may be achieved, when we use pulse function neural network based on micro magnetic sensor arrays as variable-synapse couplings."
+                    },
+                    "identifiers": {
+                        "grant_number": [
+                            "15560294"
+                        ],
+                        "national_grant_number": [
+                            "JP15560294"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "kaken",
+                            "@id": "https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-15560294"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0011250/research_projects/44894729",
+                    "@type": "research_projects",
+                    "@reverse": "https://api.researchmap.jp/read0011250/research_projects",
+                    "rm:id": "44894729",
+                    "rm:user_id": "1000023909",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2024-01-30T11:17:50Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2024-01-30T11:17:50Z",
+                    "research_project_title": {
+                        "ja": "制御系におけるフォールトトレランス機能の実現とその体系化に関する研究",
+                        "en": "Realization and Systematization of Fault Tolerance in Control System"
+                    },
+                    "investigators": {
+                        "ja": [
+                            {
+                                "name": "鈴木 達也"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "SUZUKI Tatsuya"
+                            }
+                        ]
+                    },
+                    "offer_organization": {
+                        "ja": "日本学術振興会",
+                        "en": "Japan Society for the Promotion of Science"
+                    },
+                    "system_name": {
+                        "ja": "科学研究費助成事業",
+                        "en": "Grants-in-Aid for Scientific Research"
+                    },
+                    "category": {
+                        "ja": "基盤研究(C)",
+                        "en": "Grant-in-Aid for Scientific Research (C)"
+                    },
+                    "institution_name": {
+                        "ja": "名古屋大学",
+                        "en": "Nagoya University"
+                    },
+                    "from_date": "2001",
+                    "to_date": "2003",
+                    "overall_grant_amount": {
+                        "total_cost": "3600000",
+                        "direct_cost": "3600000"
+                    },
+                    "description": {
+                        "ja": "本研究では,制御系におけるフォールトトレランスの実現,さらには方法論の体系化をめざして、以下のような手順で研究を遂行した。\n1.故障のモデル化とそれに対する対策を、(1)故障が起こっても安全である、というフェールセーフ機能の実現問題と、(2)故障を検出する故障検出問題の観点から提案した。(1)に関しては、自動車の高速道路上での自動走行における横方向制御や無人宇宙往還機の姿勢制御を対象として、正常なプラントと故障を有するプラントとの同時安定化問題として一般的な形で定式化し、解法を示した。また(2)に関しては、電動機駆動制御系を対象として、制御器と故障検出器の同時設計問題として定式化し、2自由度制御系の内部構造、ならびに線形行列不等式理論を利用した解法を提案した。\n2.1.で提案した手法の有用性を実験、およびシミュレーションにより検証した。その際に(1)に関しては、自動車に取り付けられた2つの横方向位置検出センサのうちの一つが壊れても安定に走り続けられる制御方策を開発し、実験により有用性を検証した。また、無人宇宙往還機において機体の舵面が固着して動かなくなった場合を想定し、その場合でも安定に帰還できる制御方策を開発した。また、(2)に関しては、電動機駆動用インバータのトランジスタが故障した場合を想定し、故障検出とその抑制を同時に実現する制御方策を開発した。いずれの場合においても設計には市販の制御系設計用ソフトウエアMATLABを使用した。\n3.上記の成果を誌上にて公表した。",
+                        "en": "In this research project, the investigator has addressed the following two problems to improve the reliability of the control system (1)Design of fail-safe control system, and (2)Fault detection in control system. The first problem has been formulated as the simultaneous stabilization problem for healthy and faulty plants. The proposed design framework has been applied to the lateral control of the automated highway vehicle in the case that the sensor to detect the lateral position is suddenly broken, and the posture control of the unmanned reentry space vehicle in the case that one of the elevon get jammed. The obtained results show great performance on the tolerance against the system failure, and those vehicle can keep working after those failures. The second problem has been formulated as the joint design of the fault detector and the controller based on the parameterization technique of the stabilizing controller. The proposed design framework has been applied to the motor drive control system in the case that some power transistor is broken. In this case, unexpected torque ripple appear on the torque signal, and this ripple is detected and suppressed by applying the proposed design framework. Also, the introduction of the FFT analysis technique enabled us to isolated various types of faults. These results have been verified through some experimental results and/or simulations based on real-world parameters. These achievements have been published in five journal papers and ten conference papers. The investigators group has won two best presentation awards."
+                    },
+                    "identifiers": {
+                        "grant_number": [
+                            "13650483"
+                        ],
+                        "national_grant_number": [
+                            "JP13650483"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "kaken",
+                            "@id": "https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-13650483"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0011250/research_projects/44765193",
+                    "@type": "research_projects",
+                    "@reverse": "https://api.researchmap.jp/read0011250/research_projects",
+                    "rm:id": "44765193",
+                    "rm:user_id": "1000023909",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2024-01-30T08:29:46Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2024-01-30T08:29:46Z",
+                    "research_project_title": {
+                        "ja": "FAシステムの自律化に関する研究"
+                    },
+                    "investigators": {
+                        "ja": [
+                            {
+                                "name": "鈴木 達也"
+                            }
+                        ]
+                    },
+                    "offer_organization": {
+                        "ja": "日本学術振興会"
+                    },
+                    "system_name": {
+                        "ja": "科学研究費助成事業"
+                    },
+                    "category": {
+                        "ja": "奨励研究(A)"
+                    },
+                    "institution_name": {
+                        "ja": "名古屋大学"
+                    },
+                    "from_date": "1996",
+                    "to_date": "1996",
+                    "overall_grant_amount": {
+                        "total_cost": "1000000",
+                        "direct_cost": "1000000"
+                    },
+                    "description": {
+                        "ja": "これまで,FAシステムを制御する代表的ツールとして,シーケンス制御装置が考えられてきた.しかしながら,FAシステムに対する要求が高度になるに従って,これまで,熟練者によって支えられてきたシーケンス制御系の設計ノウハウを自動化し,さらにはFAシステムそのものに自律性を持たせたいという要求が高まってきた.実際にFAシステムに自律性を持たせる最も有効な方法は,ある種の学習機能をFAシステムに持たせることであると考えられる.一般に,シーケンス制御系は,その動作が離散的でかつ,事象と状態遷移という形で表現できることから,通常,離散事象システムとして定式化される.本奨励研究では,離散事象システムでの学習を実現する手法として,学習オートマトンを新たに導入することによって,制御理論に基づいた学習方式をさらに拡張し,事象駆動型のシステムに対する学習機能を実現した.学習オートマトンは生体の学習機能を模擬するモデルとして最近注目を集めている.一般に,高等な動物は過去の経験に基づいて,自己に有利な行動を選択する学習能力を有するが,その抽象的なモデルとして学習オートマトンの有効性が認識され始めている.また,学習オートマトンは確率オートマトンの一種で,その数理的挙動は確率過程の一種とみなすことができ,学習の収束性に対する定量的な議論が可能となる.このことは,学習アルゴリズムの設計が可能であることを意味しており,産業界への応用も充分に期待できる手法である.以上より,学習オートマトンを用いることによって,通常人間が何気なく行っている高度な作業を,FAシステム自身が自律的に試行錯誤を通して獲得する能力が実現できるようになった.今後は,従来の制御理論に基づいた学習機能との併用方法についても検討し,階層的な学習方法の構築を目指す."
+                    },
+                    "identifiers": {
+                        "grant_number": [
+                            "08750512"
+                        ],
+                        "national_grant_number": [
+                            "JP08750512"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "kaken",
+                            "@id": "https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-08750512"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0011250/research_projects/44737314",
+                    "@type": "research_projects",
+                    "@reverse": "https://api.researchmap.jp/read0011250/research_projects",
+                    "rm:id": "44737314",
+                    "rm:user_id": "1000023909",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2024-01-30T08:00:43Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2024-01-30T08:00:43Z",
+                    "research_project_title": {
+                        "ja": "学習オートマトン理論を用いたボロットの作業学習機能の実現"
+                    },
+                    "investigators": {
+                        "ja": [
+                            {
+                                "name": "鈴木 達也"
+                            }
+                        ]
+                    },
+                    "offer_organization": {
+                        "ja": "日本学術振興会"
+                    },
+                    "system_name": {
+                        "ja": "科学研究費助成事業"
+                    },
+                    "category": {
+                        "ja": "奨励研究(A)"
+                    },
+                    "institution_name": {
+                        "ja": "名古屋大学"
+                    },
+                    "from_date": "1995",
+                    "to_date": "1995",
+                    "overall_grant_amount": {
+                        "total_cost": "1000000",
+                        "direct_cost": "1000000"
+                    },
+                    "description": {
+                        "ja": "近年、産業用ロボットに対して、位置決め動作のような単一の動作のみではなく、単一の動作を組み合わせることによって実現される、ある種の作業、例えばネジ締め作業や挿入作業を自律的に行わせようという要求が高まってきた。ところが実際にこれらの作業をロボットに自律的に行わせる場合、単一の動作の場合に比べて、そのティーチングが飛躍的に難しくなるという問題点がある。これは一般に、これらの作業をとりまく環境が多くの不確定性を有すること、および作業そのものを定量的に数値目標として記述することが困難であることによるものである。これらの問題点を克服するためには、ロボット自身にある種の学習能力を持たせ、作業者のティーチングがあいまいな場合でも、自ら必要な数値目標を生成する機能を持たせる必要がある。このような作業レベルの学習を考える場合、制御理論からのアプローチでは限界があり、新たな学習のパラダイムが必要となる。作業レベルの学習を考えるためには,まず何らかの形で作業を表現しなければならない.一連の作業をマクロ的にとらえる場合,それは,ある種の離散事象システムとして捉えることができ,“記号レベル\"での表現が用いられる.本奨励研究では、記号レベルでの学習を実現する手法として、学習オートマトンを新たに導入することによって、制御理論に基づいた学習方式をさらに拡張し、複雑な作業に対する学習機能を実現することを目的とした。学習オートマトンは確率オートマトンの一種で、生体の学習機能を模擬するモデルとして最近注目を集めている。従って、このモデルを用いることにより、通常人間が何気なく行っている高度な作業をロボットが自律的に試行錯誤を通して獲得できると考えられる。本研究で得られた成果を以下に述べる。\n1.組立作業をペトリネットを用いてモデリングした。\n2.研究室に既存のワークステーションを用いてシミュレーションを行った。.学習オートマトンにおいては、actionの生起確率の更新則をどう設計するかが非常に重要な課題となるため、様々な更新則と学習の収束性の関係についてシミュレーションを通して定量的に検討した。\n3.実際の組立作業を想定して、ロボットの操作性や作業の安定性等に基づいた学習の評価方法を検討した。得られた研究成果は日本機械学会論文集、日本ボロット学会誌等で発表予定である。"
+                    },
+                    "identifiers": {
+                        "grant_number": [
+                            "07750489"
+                        ],
+                        "national_grant_number": [
+                            "JP07750489"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "kaken",
+                            "@id": "https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-07750489"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0011250/research_projects/44707837",
+                    "@type": "research_projects",
+                    "@reverse": "https://api.researchmap.jp/read0011250/research_projects",
+                    "rm:id": "44707837",
+                    "rm:user_id": "1000023909",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2024-01-30T07:30:30Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2024-01-30T07:30:30Z",
+                    "research_project_title": {
+                        "ja": "FAシステムの自律化に関する基礎的研究"
+                    },
+                    "investigators": {
+                        "ja": [
+                            {
+                                "name": "鈴木 達也"
+                            }
+                        ]
+                    },
+                    "offer_organization": {
+                        "ja": "日本学術振興会"
+                    },
+                    "system_name": {
+                        "ja": "科学研究費助成事業"
+                    },
+                    "category": {
+                        "ja": "奨励研究(A)"
+                    },
+                    "institution_name": {
+                        "ja": "名古屋大学"
+                    },
+                    "from_date": "1994",
+                    "to_date": "1994",
+                    "overall_grant_amount": {
+                        "total_cost": "1000000",
+                        "direct_cost": "1000000"
+                    },
+                    "description": {
+                        "ja": "近年,産業用ロボット,NC工作機等のメカトロニクス機器に対して,学習能力や環境適応能力を持たせる研究が盛んに行われている.これらの研究は,従来,熟練作業者に頼らざるを得なかった高度な作業の自動化を目的としたものであり,ロボットを用いた作業の自律化にとっては欠かせない研究である.本奨励研究では,第一に制御工学の枠組みの中で,ロボットが有する様々なシステム論的性質を考慮にいれて,学習が終了するまでの試行回数ができるだけ少なくなるような学習アルゴリズムの構成法を明らかにし,制御周期が学習の収束性に与える影響について定量的に考察した.そして,その結果をもとに,制御周期内で入力値を切り換える手法を考案し、実際の産業ロボットに対し学習実験を行ったところ,非常に良好な結果が得られた.この成果は,今後学習アルゴリズムを実用化する上で重要な意義を持つと思われる.また,本奨励研究では第二に,ペトリネットを用いた組立作業の表現法を考案し、組立作業計画を行う上で必要な組立・分解作業の難易度を評価する指標を考案した。本研究で考案した評価指標を用いることによって、人間が通常行っている手順に近い組立・分解手順を自動的に生成することが可能となった。この成果は、FAシステムにおける組立ラインの設計等に役立つと思われる。"
+                    },
+                    "identifiers": {
+                        "grant_number": [
+                            "06750449"
+                        ],
+                        "national_grant_number": [
+                            "JP06750449"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "kaken",
+                            "@id": "https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-06750449"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0011250/research_projects/44672427",
+                    "@type": "research_projects",
+                    "@reverse": "https://api.researchmap.jp/read0011250/research_projects",
+                    "rm:id": "44672427",
+                    "rm:user_id": "1000023909",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2024-01-30T06:46:41Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2024-01-30T06:46:41Z",
+                    "research_project_title": {
+                        "ja": "繊毛運動を用いたバイオミメティックアクチュエータの開発",
+                        "en": "Development of Biomimetic Actuator Using Ciliary Movement"
+                    },
+                    "investigators": {
+                        "ja": [
+                            {
+                                "name": "大熊 繁"
+                            },
+                            {
+                                "name": "鈴木 達也"
+                            },
+                            {
+                                "name": "羽根 一博"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "OKUMA Shigeru"
+                            },
+                            {
+                                "name": "SUZUKI Tatsuya"
+                            },
+                            {
+                                "name": "HANE Kazuhiro"
+                            }
+                        ]
+                    },
+                    "offer_organization": {
+                        "ja": "日本学術振興会",
+                        "en": "Japan Society for the Promotion of Science"
+                    },
+                    "system_name": {
+                        "ja": "科学研究費助成事業",
+                        "en": "Grants-in-Aid for Scientific Research"
+                    },
+                    "category": {
+                        "ja": "一般研究(B)",
+                        "en": "Grant-in-Aid for General Scientific Research (B)"
+                    },
+                    "institution_name": {
+                        "ja": "名古屋大学",
+                        "en": "Nagoya University"
+                    },
+                    "from_date": "1993",
+                    "to_date": "1994",
+                    "overall_grant_amount": {
+                        "total_cost": "7300000",
+                        "direct_cost": "7300000"
+                    },
+                    "description": {
+                        "ja": "PVDFフィルムを用いて繊毛運動を行うアクチュエータ群を製作するために、個々の繊毛の動きをPVDFフィルムを用いて実現した。PVDFフィルムの両面に蒸着したアルミニウムをリングラフィによって加工し、PVDFフィルムの両面に電強を製作した。PVDFフィルム上にアルミニウムを蒸着して製作した櫛形電極など、設計通りの形状のアクチュエータが製作できることが明らかとなった。製作したアクチュエータの両面の電強に電圧を印加することによってPVDFフィルムの厚み方向に変位を発生した。製作したアクチュエータの電極の形状や、印加電圧に対するPVDFフィルムの変形の静特性をヘテロダイン干渉計を用いた原子間力顕微鏡で精度良く測定した。微小なアクチュエータを製作するためには、微小な電極を製作することが必要となる。そこで、走査型トンネル顕微鏡を用いて原子レベルの微細な形状の製作を目的とした加工を行った。被加工物には原子レベルで規則正しく配列した高配向性グラファイトを使用した。原子レベルのピットの生成とエッチング動作を確認した。バイオミメティックアクチュエータのような多数の動作の協調によって一つの目的動作を実現するアクチュエータの動作を観察するためには、一定の領域の動作を同時に観察する必要がある。そのため、半導体パルスレーザを用いた高精度の表面変位分布計測法を開発した。この方法はパルスレーザを用いるため、運動中の試料を静的に観察することができる。この装置により、試料表面の微小な変位分布の計測が可能になった。",
+                        "en": "Ciliary movement was mimed by PVDF film actuators. Lithographic process was used to fabricate interdigital electrodes which were made from aluminum thin films evapolated on both sides of the PVDF film. The fabricated PVDF actuator was actuated by applying a source voltage to the fabricated electrodes. Statical characterisities of the fabricated PVDF film actuator were investigated by atomic force microscopy using heterodyne interferometry. Scanning tunneling microscopy was used for atomic scale electrode formation.\nA multiple probe force microscope was developed to observe displacements of the two position on surface simultaneously. In order to observe displacement distribution on PVDF film actuator, a new accurate microscopy using pulse laser diode was developed. Control methods using fuzzy control and Petri net were discussed to control distributed systems."
+                    },
+                    "identifiers": {
+                        "grant_number": [
+                            "05452219"
+                        ],
+                        "national_grant_number": [
+                            "JP05452219"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "kaken",
+                            "@id": "https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-05452219"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0011250/research_projects/44682793",
+                    "@type": "research_projects",
+                    "@reverse": "https://api.researchmap.jp/read0011250/research_projects",
+                    "rm:id": "44682793",
+                    "rm:user_id": "1000023909",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2024-01-30T07:00:48Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2024-01-30T07:00:48Z",
+                    "research_project_title": {
+                        "ja": "ロボットを用いた作業の自律化に関する研究"
+                    },
+                    "investigators": {
+                        "ja": [
+                            {
+                                "name": "鈴木 達也"
+                            }
+                        ]
+                    },
+                    "offer_organization": {
+                        "ja": "日本学術振興会"
+                    },
+                    "system_name": {
+                        "ja": "科学研究費助成事業"
+                    },
+                    "category": {
+                        "ja": "奨励研究(A)"
+                    },
+                    "institution_name": {
+                        "ja": "名古屋大学"
+                    },
+                    "from_date": "1993",
+                    "to_date": "1993",
+                    "overall_grant_amount": {
+                        "total_cost": "900000",
+                        "direct_cost": "900000"
+                    },
+                    "description": {
+                        "ja": "近年,産業用ロボット,NC工作機等のメカトロニクス機器に対して,学習能力や環境適応能力を持たせる研究が盛んに行われている.これらの研究は,従来,熟練作業者に頼らざるを得なかった高度な作業の自動化を目的としたものであり,ロボットを用いた作業の自律化にとっては欠かせない研究である.本奨励研究では,第一に制御工学の枠組みの中で,ロボットが有する様々なシステム論的性質を考慮に入れて,学習が終了するまでの試行回数ができるだけ少なくなるような学習アルゴリズムの構成法を明らかにし,制御周期が学習の収束性に与える影響について定量的に考察した.そして,その結果をもとに,制御周期内で入力値を切り換える手法を考案し、実際の産業ロボットに対し学習実験を行ったところ,非常に良好な結果が得られた.この成果は,今後学習アルゴリズムを実用化する上で重要な意義を持つと思われる.また,本奨励研究では第二に,ペトリネットを用いた組立作業の表現法を考案し、組立作業計画を行う上で必要な組立・分解作業の難易度を評価する指標を考案した。本研究で考案した評価指標を用いることによって、人間が通常行っている手順に近い組立・分解手順を自動的に生成することが可能となった.この成果は、FAシステムにおける組立ラインの設計等に役立つと思われる。"
+                    },
+                    "identifiers": {
+                        "grant_number": [
+                            "05750409"
+                        ],
+                        "national_grant_number": [
+                            "JP05750409"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "kaken",
+                            "@id": "https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-05750409"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

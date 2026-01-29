@@ -1,0 +1,3982 @@
+{
+    "@context": "https://api.researchmap.jp/researcher.jsonld",
+    "@id": "https://api.researchmap.jp/m_yasumoto_aist_0298?format=json",
+    "@type": "researchers",
+    "rm:user_id": "0000000992",
+    "rm:creator_id": "0000000992",
+    "rm:creator_type": "myself",
+    "rm:created": "2001-03-23T15:00:00Z",
+    "rm:modifier_id": "0000000992",
+    "rm:modifier_type": "myself",
+    "rm:modified": "2024-07-16T08:05:17Z",
+    "permalink": "m_yasumoto_aist_0298",
+    "family_name": {
+        "ja": "安本",
+        "ja-Kana": "ヤスモト",
+        "en": "Yasumoto"
+    },
+    "given_name": {
+        "ja": "正人",
+        "ja-Kana": "マサト",
+        "en": "Masato"
+    },
+    "display_name_kana": "disclosed",
+    "display_nickname": "disclosed",
+    "display_image": "disclosed",
+    "display_contact_point": "disclosed",
+    "affiliations": [
+        {
+            "affiliation": {
+                "ja": "国立研究開発法人産業技術総合研究所",
+                "en": "National Institute of Advanced Industrial Science and Technology"
+            },
+            "section": {
+                "ja": "分析計測標準研究部門 放射線イメージング計測研究グループ"
+            },
+            "display_affiliation": "disclosed",
+            "display_job": "disclosed",
+            "rm:institution_code": "A142000000"
+        }
+    ],
+    "display_profile": "disclosed",
+    "see_also": [
+        {
+            "label": "j_global",
+            "@id": "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=200901039956296511"
+        },
+        {
+            "label": "url",
+            "@id": "http://www.aist.go.jp/RESEARCHERDB/cgi-bin/worker_detail.cgi?call=namae&rw_id=M49091986"
+        }
+    ],
+    "display_url": "disclosed",
+    "identifiers": {
+        "j_global_id": [
+            "200901039956296511"
+        ]
+    },
+    "rm:erad_id_verified": false,
+    "rm:orc_id_verified": true,
+    "display_erad_id": "closed",
+    "display_orc_id": "closed",
+    "display_researcher_id": "disclosed",
+    "display_j_global_id": "disclosed",
+    "@graph": [
+        {
+            "@id": "https://api.researchmap.jp/m_yasumoto_aist_0298/research_areas",
+            "@type": "research_areas",
+            "@reverse": "https://api.researchmap.jp/m_yasumoto_aist_0298",
+            "total_items": 1,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/m_yasumoto_aist_0298/research_areas/31774480",
+                    "@type": "research_areas",
+                    "@reverse": "https://api.researchmap.jp/m_yasumoto_aist_0298/research_areas",
+                    "rm:id": "31774480",
+                    "rm:user_id": "0000000992",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000000992",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2021-03-04T22:57:04Z",
+                    "rm:modifier_id": "0000000992",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2021-03-04T22:57:04Z",
+                    "discipline_number": "A689",
+                    "item_number": "A21030",
+                    "discipline": {
+                        "ja": "ものづくり技術（機械・電気電子・化学工学）",
+                        "en": "Manufacturing technology (mechanical, electrical/electronic, chemical engineering)"
+                    },
+                    "research_field": {
+                        "ja": "計測工学",
+                        "en": "Measurement engineering"
+                    }
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/m_yasumoto_aist_0298/published_papers",
+            "@type": "published_papers",
+            "@reverse": "https://api.researchmap.jp/m_yasumoto_aist_0298",
+            "total_items": 83,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/m_yasumoto_aist_0298/published_papers/46865805",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/m_yasumoto_aist_0298/published_papers",
+                    "rm:id": "46865805",
+                    "rm:user_id": "0000000992",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000000992",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2024-06-24T22:56:24Z",
+                    "rm:modifier_id": "0000000992",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2024-06-24T22:56:24Z",
+                    "paper_title": {
+                        "en": "Hard x-ray phase-contrast microscopy using a Gabor hologram without a zero-order term"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Kiyofumi Matsuda"
+                            },
+                            {
+                                "name": "Masato Yasumoto"
+                            },
+                            {
+                                "name": "Nahida Akter"
+                            },
+                            {
+                                "name": "masaki misawa"
+                            },
+                            {
+                                "name": "Juan C. Aguilar"
+                            },
+                            {
+                                "name": "Yoshio Suzuki"
+                            },
+                            {
+                                "name": "Akihisa Takeuchi"
+                            },
+                            {
+                                "name": "Kenichi Hibino"
+                            },
+                            {
+                                "name": "Shakil Rehman"
+                            },
+                            {
+                                "name": "Maitreyee Roy"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "<jats:p>In order to achieve a nanometer-scale resolution in an x-ray microscopy system, a Gabor-type hologram was produced by eliminating the zero-order term of the object diffraction pattern. In this system, a Fresnel zone plate was used for strong illumination of an object, and the zero-order diffraction was physically eliminated by a center stop. An accurate phase plate of <jats:inline-formula>\n <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\">\n <mml:mi>π<!-- π --></mml:mi>\n <mml:mrow class=\"MJX-TeXAtom-ORD\">\n <mml:mo>/</mml:mo>\n </mml:mrow>\n <mml:mrow class=\"MJX-TeXAtom-ORD\">\n <mml:mrow class=\"MJX-TeXAtom-ORD\">\n <mml:mn>2</mml:mn>\n </mml:mrow>\n </mml:mrow>\n </mml:math>\n </jats:inline-formula> in the Zernike method was numerically created, and the phase-contrast image was realized. The theoretical resolution was 19.8 nm. We proved that a gold nanocube with a size of 50 nm can be reconstructed with the predicted resolution.</jats:p>"
+                    },
+                    "publication_date": "2020-07-10",
+                    "publication_name": {
+                        "en": "Applied Optics"
+                    },
+                    "languages": [
+                        "eng"
+                    ],
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1364/ao.393008"
+                        ],
+                        "issn": [
+                            "1559-128X",
+                            "2155-3165"
+                        ],
+                        "orcid_put_cd": [
+                            "146990766"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1364/ao.393008",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/m_yasumoto_aist_0298/published_papers/47092453",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/m_yasumoto_aist_0298/published_papers",
+                    "rm:id": "47092453",
+                    "rm:user_id": "0000000992",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2024-07-16T08:05:17Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2024-07-16T08:05:17Z",
+                    "paper_title": {
+                        "en": "Present status in AIST Fel"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "N. Sei"
+                            },
+                            {
+                                "name": "K. Yamada"
+                            },
+                            {
+                                "name": "H. Ogawa"
+                            },
+                            {
+                                "name": "M. Yasumoto"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "A lot of efforts to oscillations and applications of free electron lasers (FELs) in a wide wavelength region have made in Advanced Industrial Science and Technology (AIST). FEL oscillations in the DUV and VUV regions have been achieved with a compact storage ring NIJI-IV. The short-wavelength FELs are used as an intense light source for real-time surface observation with the photoelectron emission microscopy (PEEM). FEL oscillations in the IR region have been also planed. A 3.6-m optical klystron, ETLOK-III, for developing IR FELs has been installed in one of the straight sections of the NIJI-IV. In addition, a new linear accelerator will be installed in AIST, and some plans to obtain intensive light sources are proposed."
+                    },
+                    "publisher": {
+                        "en": "KEK High Energy Accelerator Research Organization"
+                    },
+                    "publication_date": "2020",
+                    "publication_name": {
+                        "en": "Proceedings of NANOBEAM 2005, 36th ICFA Advanced Beam Dynamics Workshop"
+                    },
+                    "starting_page": "382",
+                    "ending_page": "385",
+                    "languages": [
+                        "eng"
+                    ],
+                    "published_paper_type": "international_conference_proceedings",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "scopus_id": [
+                            "85081063479"
+                        ]
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/m_yasumoto_aist_0298/published_papers/15644666",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/m_yasumoto_aist_0298/published_papers",
+                    "rm:id": "15644666",
+                    "rm:user_id": "0000000992",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000000992",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2018-11-29T05:08:13Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-09-01T22:13:51Z",
+                    "paper_title": {
+                        "en": "Differential interference contrast microscopy for cells using hard x-ray holography"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "K. Matsuda"
+                            },
+                            {
+                                "name": "J. C.A. Lopez"
+                            },
+                            {
+                                "name": "S. Rehman"
+                            },
+                            {
+                                "name": "M. Misawa"
+                            },
+                            {
+                                "name": "Y. Suzuki"
+                            },
+                            {
+                                "name": "A. Takeuchi"
+                            },
+                            {
+                                "name": "M. Yasumoto"
+                            },
+                            {
+                                "name": "K. Hibino"
+                            },
+                            {
+                                "name": "M. Roy"
+                            },
+                            {
+                                "name": "R. Hanayama"
+                            },
+                            {
+                                "name": "K. Ishii"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "We propose a differential interference contrast method for cells using hard x-ray Gabor holography and knife-edge filtering in the spatial frequency domain, without relying on beam shearing. A phase object is holograph-ically recorded and reconstructed by computer. Interference between the wavefronts of zeroth order weighted by ejπ∕2 in the positive frequency region produces a dark image. Similarly, interference between the wavefronts of the zeroth order weighted by ej3π∕2 in the negative frequency region produces a bright image. By adding these two intensity distributions, good quality phase-contrast images of 8-μm-diameter polystyrene beads and human HeLa cells were obtained."
+                    },
+                    "publisher": {
+                        "en": "OSA - The Optical Society"
+                    },
+                    "publication_date": "2018-06-10",
+                    "publication_name": {
+                        "en": "Applied Optics"
+                    },
+                    "volume": "57",
+                    "number": "17",
+                    "starting_page": "4795",
+                    "ending_page": "4801",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1364/AO.57.004795"
+                        ],
+                        "orcid_put_cd": [
+                            "45751836"
+                        ],
+                        "scopus_id": [
+                            "85048174188"
+                        ],
+                        "issn": [
+                            "2155-3165",
+                            "1559-128X"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1364/AO.57.004795",
+                            "is_downloadable": false
+                        },
+                        {
+                            "@id": "http://www.scopus.com/inward/record.url?eid=2-s2.0-85048174188&partnerID=MN8TOARS",
+                            "is_downloadable": false,
+                            "label": "url"
+                        },
+                        {
+                            "@id": "http://orcid.org/0000-0002-4420-4801",
+                            "is_downloadable": false,
+                            "label": "url"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/m_yasumoto_aist_0298/published_papers/15644662",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/m_yasumoto_aist_0298/published_papers",
+                    "rm:id": "15644662",
+                    "rm:user_id": "0000000992",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000000992",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2018-11-29T05:08:13Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-09-01T21:48:02Z",
+                    "paper_title": {
+                        "en": "Wavelet processing and digital interferometric contrast to improve reconstructions from X-ray Gabor holograms"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Juan C. Aguilar"
+                            },
+                            {
+                                "name": "Masaki Misawa"
+                            },
+                            {
+                                "name": "Kiyofumi Matsuda"
+                            },
+                            {
+                                "name": "Yoshio Suzuki"
+                            },
+                            {
+                                "name": "Akihisa Takeuchi"
+                            },
+                            {
+                                "name": "Masato Yasumoto"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "In this work, the application of an undecimated wavelet transformation together with digital interferometric contrast to improve the resulting reconstructions in a digital hard X-ray Gabor holographic microscope is shown. Specifically, the starlet transform is used together with digital Zernike contrast. With this contrast, the results show that only a small set of scales from the hologram are, in effect, useful, and it is possible to enhance the details of the reconstruction."
+                    },
+                    "publisher": {
+                        "en": "Wiley-Blackwell"
+                    },
+                    "publication_date": "2018-05-01",
+                    "publication_name": {
+                        "en": "Journal of Synchrotron Radiation"
+                    },
+                    "volume": "25",
+                    "number": "3",
+                    "starting_page": "808",
+                    "ending_page": "817",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1107/S1600577518004447"
+                        ],
+                        "orcid_put_cd": [
+                            "45751833"
+                        ],
+                        "scopus_id": [
+                            "85046370173"
+                        ],
+                        "issn": [
+                            "1600-5775",
+                            "0909-0495"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1107/S1600577518004447",
+                            "is_downloadable": false
+                        },
+                        {
+                            "@id": "http://www.scopus.com/inward/record.url?eid=2-s2.0-85046370173&partnerID=MN8TOARS",
+                            "is_downloadable": false,
+                            "label": "url"
+                        },
+                        {
+                            "@id": "http://orcid.org/0000-0002-4420-4801",
+                            "is_downloadable": false,
+                            "label": "url"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/m_yasumoto_aist_0298/published_papers/47083346",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/m_yasumoto_aist_0298/published_papers",
+                    "rm:id": "47083346",
+                    "rm:user_id": "0000000992",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2024-07-16T05:31:45Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2024-07-16T05:31:45Z",
+                    "paper_title": {
+                        "en": "Real-time X-ray visualization of ink penetration into powder bed for binder jetting process"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Shin Mizutani"
+                            },
+                            {
+                                "name": "Daichi Yamaguchi"
+                            },
+                            {
+                                "name": "Takeshi Fujiwara"
+                            },
+                            {
+                                "name": "Masato Yasumoto"
+                            },
+                            {
+                                "name": "Ryunosuke Kuroda"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "We have developed an in-situ X-ray imaging system to visualize penetration dynamics o f small ink droplets into powder bed in binder jetting process. The imaging system consists o fa microfocus X-ray source, an ink depositing device by remote control and a high resolution fla t panel detector. The whole process o f the ink penetration, such as ink penetration through the powder bed and powder bed densification, was visualized in sequence applying this system. The results show that the difference o f the amount o f ink cause the change o f the powder bed densification and the penetration distance in depth and plane direction. The real-time visualization o f the ink penetration dynamics can be useful to clarify the mechanism o f the defects in the fabricated objects, such as internal porosity and weak bonds between the layers."
+                    },
+                    "publisher": {
+                        "en": "Society for Imaging Science and Technology"
+                    },
+                    "publication_date": "2018",
+                    "publication_name": {
+                        "en": "International Conference on Digital Printing Technologies"
+                    },
+                    "volume": "2018-",
+                    "starting_page": "162",
+                    "ending_page": "165",
+                    "languages": [
+                        "eng"
+                    ],
+                    "published_paper_type": "international_conference_proceedings",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.2352/issn.2169-4451.2018.34.162"
+                        ],
+                        "issn": [
+                            "2169-4451",
+                            "2169-4362"
+                        ],
+                        "scopus_id": [
+                            "85072665190"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.2352/issn.2169-4451.2018.34.162",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/m_yasumoto_aist_0298/published_papers/15644678",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/m_yasumoto_aist_0298/published_papers",
+                    "rm:id": "15644678",
+                    "rm:user_id": "0000000992",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000000992",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2018-11-29T05:08:13Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-04-21T04:13:27Z",
+                    "paper_title": {
+                        "en": "A microscope using Zernike's phase contrast method and a hard x-ray Gabor hologram",
+                        "ja": "A microscope using Zernike’s phase contrast method and a hard x-ray Gabor hologram"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "Matsuda K"
+                            },
+                            {
+                                "name": "Aguilar J.C"
+                            },
+                            {
+                                "name": "Misawa M"
+                            },
+                            {
+                                "name": "Yasumoto M"
+                            },
+                            {
+                                "name": "Rehman S"
+                            },
+                            {
+                                "name": "Suzuki Y"
+                            },
+                            {
+                                "name": "Takeuchi A"
+                            },
+                            {
+                                "name": "Niskanen I"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Kiyofumi Matsuda"
+                            },
+                            {
+                                "name": "Juan C. Aguilar"
+                            },
+                            {
+                                "name": "Masaki Misawa"
+                            },
+                            {
+                                "name": "Masato Yasumoto"
+                            },
+                            {
+                                "name": "Shakil Rehman"
+                            },
+                            {
+                                "name": "Yoshio Suzuki"
+                            },
+                            {
+                                "name": "Akihisa Takeuchi"
+                            },
+                            {
+                                "name": "Ilpo Niskanen"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "Background: In hard X-ray phase imaging using interferometry, the spatial resolution is limited by the pixel size of digital sensors, inhibiting its use in magnifying observation of a sample.\nMethods: To solve this problem, we describe a digital phase contrast microscope that uses Zernike's phase contrast method with a hard X-ray Gabor holography associated with numerical processing and spatial frequency domain filtering techniques. The hologram is reconstructed by a collimated beam in a computer. The hologram intensity distributions itself become the reconstructed wavefronts. For this transformation, the Rayleigh-Sommerfeld diffraction formula is used.\nResults: The hard X-ray wavelength 0.1259 nm (an energy of 9.85 keV) was employed at the SPring-8 facility. We succeeded in obtaining high-resolution images by a CCD sensor with a pixel size of 3.14 mu m, even while bound by the need to satisfy the sampling theorem and by the CCD pixel size. The test samples used here were polystyrene beads of 8 mu m, and human HeLa cells.\nConclusions: We thus proved that the resolution 0.951 mu m smaller than the pixel size of CCD (3.14 mu m) was achieved by the proposed reconstruction techniques and coherent image processing in the computer, suggesting even higher resolutions by adopting greater numerical apertures."
+                    },
+                    "publisher": {
+                        "en": "EUROPEAN OPTICAL SOC"
+                    },
+                    "publication_date": "2016-11",
+                    "publication_name": {
+                        "en": "JOURNAL OF THE EUROPEAN OPTICAL SOCIETY-RAPID PUBLICATIONS",
+                        "ja": "Journal of the European Optical Society"
+                    },
+                    "volume": "12",
+                    "number": "1",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1186/s41476-016-0027-3"
+                        ],
+                        "orcid_put_cd": [
+                            "45751884"
+                        ],
+                        "scopus_id": [
+                            "84996969488"
+                        ],
+                        "issn": [
+                            "1990-2573"
+                        ],
+                        "wos_id": [
+                            "WOS:000388359200001"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1186/s41476-016-0027-3",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000388359200001&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        },
+                        {
+                            "@id": "http://www.scopus.com/inward/record.url?eid=2-s2.0-84996969488&partnerID=MN8TOARS",
+                            "is_downloadable": false,
+                            "label": "url"
+                        },
+                        {
+                            "@id": "http://orcid.org/0000-0002-4420-4801",
+                            "is_downloadable": false,
+                            "label": "url"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/m_yasumoto_aist_0298/published_papers/15644670",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/m_yasumoto_aist_0298/published_papers",
+                    "rm:id": "15644670",
+                    "rm:user_id": "0000000992",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000000992",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2018-11-29T05:08:13Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-04-18T22:42:57Z",
+                    "paper_title": {
+                        "en": "Starlet transform applied to digital Gabor holographic microscopy"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Juan C. Aguilar"
+                            },
+                            {
+                                "name": "Masaki Misawa"
+                            },
+                            {
+                                "name": "Kiyofumi Matsuda"
+                            },
+                            {
+                                "name": "Shakil Rehman"
+                            },
+                            {
+                                "name": "Masato Yasumoto"
+                            },
+                            {
+                                "name": "Yoshio Suzuki"
+                            },
+                            {
+                                "name": "Akihisa Takeuchi"
+                            },
+                            {
+                                "name": "L. R. Berriel-Valdos"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "In this paper, we show how the starlet transform can be used to process holograms from a digital Gabor holographic microscope. The starlet transform is an undecimated wavelet transform with the property that when performing reconstruction, we only need to add all scales without the use of a synthesis filter bank. When the starlet transform is applied to a hologram, we divide the hologram into a certain number of scales, process them separately, and propagate each one using a numerical diffraction method. After diffraction propagation, we perform processing on complex amplitudes that correspond to individual scales. With the aforementioned procedure, it is possible to reduce the background and effects of parasitic fringes caused by high coherence of a laser, enhance the contrast, and reduce the effects of the twin image. Experimental results confirming the method are presented. (C) 2016 Optical Society of America"
+                    },
+                    "publisher": {
+                        "en": "OPTICAL SOC AMER"
+                    },
+                    "publication_date": "2016-08",
+                    "publication_name": {
+                        "en": "APPLIED OPTICS"
+                    },
+                    "volume": "55",
+                    "number": "24",
+                    "starting_page": "6617",
+                    "ending_page": "6624",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1364/AO.55.006617"
+                        ],
+                        "orcid_put_cd": [
+                            "45751848"
+                        ],
+                        "scopus_id": [
+                            "84983416272"
+                        ],
+                        "issn": [
+                            "1559-128X"
+                        ],
+                        "e_issn": [
+                            "2155-3165"
+                        ],
+                        "wos_id": [
+                            "WOS:000381965800011"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1364/AO.55.006617",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000381965800011&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        },
+                        {
+                            "@id": "http://www.scopus.com/inward/record.url?eid=2-s2.0-84983416272&partnerID=MN8TOARS",
+                            "is_downloadable": false,
+                            "label": "url"
+                        },
+                        {
+                            "@id": "http://orcid.org/0000-0002-4420-4801",
+                            "is_downloadable": false,
+                            "label": "url"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/m_yasumoto_aist_0298/published_papers/15644668",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/m_yasumoto_aist_0298/published_papers",
+                    "rm:id": "15644668",
+                    "rm:user_id": "0000000992",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000000992",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2018-11-29T05:08:13Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-04-04T06:07:31Z",
+                    "paper_title": {
+                        "en": "K-edge imaging with quasi-monochromatic LCS X-ray source on the basis of S-band compact electron linac"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "R. Kuroda"
+                            },
+                            {
+                                "name": "Y. Taira"
+                            },
+                            {
+                                "name": "M. Yasumoto"
+                            },
+                            {
+                                "name": "H. Toyokawa"
+                            },
+                            {
+                                "name": "K. Yamada"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "A quasi-monochromatic hard X-ray source via laser Compton scattering (LCS) was developed on the basis of an S-band compact electron linac at AIST. The total number of photons generated and the maximum X-ray energy were similar to 10(7) photons/s and 41 key, respectively, when a 42-MeV electron beam was collided with an 800-nm Ti:sapphire laser at a 15 degrees collision angle. We successfully demonstrated K-edge imaging using these LCS X-rays for the high-contrast observation of a human phantom with barium sulfate-concentrated blood vessels. In this paper, we describe the results of the K-edge imaging and analytical estimates of the contrast enhancement effect for the energy range similar to 37 keV, which corresponds to the K-edge energy of barium. (C) 2014 Elsevier B.V. All rights reserved."
+                    },
+                    "publisher": {
+                        "en": "ELSEVIER SCIENCE BV"
+                    },
+                    "publication_date": "2014-07",
+                    "publication_name": {
+                        "en": "NUCLEAR INSTRUMENTS & METHODS IN PHYSICS RESEARCH SECTION B-BEAM INTERACTIONS WITH MATERIALS AND ATOMS"
+                    },
+                    "volume": "331",
+                    "starting_page": "257",
+                    "ending_page": "260",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1016/j.nimb.2014.01.034"
+                        ],
+                        "orcid_put_cd": [
+                            "45751844"
+                        ],
+                        "scopus_id": [
+                            "84902537550"
+                        ],
+                        "issn": [
+                            "0168-583X"
+                        ],
+                        "e_issn": [
+                            "1872-9584"
+                        ],
+                        "wos_id": [
+                            "WOS:000339144600052"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1016/j.nimb.2014.01.034",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000339144600052&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        },
+                        {
+                            "@id": "http://www.scopus.com/inward/record.url?eid=2-s2.0-84902537550&partnerID=MN8TOARS",
+                            "is_downloadable": false,
+                            "label": "url"
+                        },
+                        {
+                            "@id": "http://orcid.org/0000-0002-4420-4801",
+                            "is_downloadable": false,
+                            "label": "url"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/m_yasumoto_aist_0298/published_papers/15644676",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/m_yasumoto_aist_0298/published_papers",
+                    "rm:id": "15644676",
+                    "rm:user_id": "0000000992",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000000992",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2018-11-29T05:08:13Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-04-01T23:04:49Z",
+                    "paper_title": {
+                        "en": "Structural and magnetic properties of transition metals doped ZnO(TM)/ZnO multilayers"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Hiro Nakayama"
+                            },
+                            {
+                                "name": "Isao Sakamoto"
+                            },
+                            {
+                                "name": "Ryosuke Kinoshita"
+                            },
+                            {
+                                "name": "Masato Yasumoto"
+                            },
+                            {
+                                "name": "Masaki Koike"
+                            },
+                            {
+                                "name": "Shigeo Honda"
+                            },
+                            {
+                                "name": "Kazuo Kuriyama"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "ZnO(Fe)/ZnO multilayers (MLs) with Fe 6.5% (Fe-doped sample) and ZnO(FeNi)/ZnO MLs with Fe22Ni78 6.5% (Ni-doped sample) prepared by helicon plasma sputtering were investigated. Structures of as-prepared Fe- and Ni-doped samples show the layer structures and the ZnO crystalline structures. However, the samples annealed at 773K induced the formation of ZnFe2O4 for Fe doped sample, and the growth of metallic Ni for Ni-doped sample. Furthermore, Fe atoms in the annealed Fe-doped sample are dispersed mainly in the surface region, and Ni atoms in as-prepared and annealed Ni-doped samples are located uniformly in the film. The ionic states of Fe in Fe-doped sample and Ni in Ni-doped sample before and after annealing are the mixed Fe2+/3+ and metallic Ni, respectively. Therefore, it is considered that the as-prepared and the annealed Ni-doped samples form Ni particles. As-prepared samples showed the paramagnetic properties. However, the magnetic state of the as-prepared Ni-doped sample is partly superparamagnetic due to the existence of small Ni particles. On the other hand, annealed samples show the ferromagnetic characteristics due to formation of ZnFe2O4 for Fe-doped ones and growing metallic Ni particles for Ni-doped ones. (C) 2014 The Japan Society of Applied Physics"
+                    },
+                    "publisher": {
+                        "en": "IOP PUBLISHING LTD"
+                    },
+                    "publication_date": "2014-05",
+                    "publication_name": {
+                        "en": "JAPANESE JOURNAL OF APPLIED PHYSICS"
+                    },
+                    "volume": "53",
+                    "number": "5",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.7567/JJAP.53.05FB03"
+                        ],
+                        "orcid_put_cd": [
+                            "45751859"
+                        ],
+                        "scopus_id": [
+                            "84903308536"
+                        ],
+                        "issn": [
+                            "0021-4922"
+                        ],
+                        "e_issn": [
+                            "1347-4065"
+                        ],
+                        "wos_id": [
+                            "WOS:000338316200017"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.7567/JJAP.53.05FB03",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000338316200017&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        },
+                        {
+                            "@id": "http://www.scopus.com/inward/record.url?eid=2-s2.0-84903308536&partnerID=MN8TOARS",
+                            "is_downloadable": false,
+                            "label": "url"
+                        },
+                        {
+                            "@id": "http://orcid.org/0000-0002-4420-4801",
+                            "is_downloadable": false,
+                            "label": "url"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/m_yasumoto_aist_0298/published_papers/15644672",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/m_yasumoto_aist_0298/published_papers",
+                    "rm:id": "15644672",
+                    "rm:user_id": "0000000992",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000000992",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2018-11-29T05:08:13Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-04-03T19:29:53Z",
+                    "paper_title": {
+                        "en": "Transmission electron microscopy investigation of ZnFeO/ZnO multilayered dilute magnetic semiconductor"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Masato Yasumoto"
+                            },
+                            {
+                                "name": "Isao Sakamoto"
+                            },
+                            {
+                                "name": "Hiro Nakayama"
+                            },
+                            {
+                                "name": "Ryosuke Kinoshita"
+                            },
+                            {
+                                "name": "Masaki Koike"
+                            },
+                            {
+                                "name": "Shigeo Honda"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "ZnFeO/ZnO multilayers which are candidate dilute magnetic semiconductors, were investigated by high-resolution transmission electron microscopy (TEM), energy-dispersive X-ray analysis (EDX), and selected area electron diffraction analysis (SAED). The multilayers were fabricated by a sputtering method and had different ZnFeO layers thicknesses ranging from 0.34 to 2.28 nm. In the case of the as-deposited ZnFeO/ZnO multilayer, the main ZnO phase with the Fe2O3 phase was detected by TEM-SAED analysis from the cross-sectional view of the multilayer. On the other hand, in the case of the ZnFeO/ZnO multilayer after annealing at 773 K, the layer structure collapsed and Fe-rich grains were formed in the surface region. Moreover, it was revealed that the annealed multilayer exhibits the ZnO phase and the ZnFe2O4 or Fe3O4 phase. (C) 2014 The Japan Society of Applied Physics"
+                    },
+                    "publisher": {
+                        "en": "IOP PUBLISHING LTD"
+                    },
+                    "publication_date": "2014-05",
+                    "publication_name": {
+                        "en": "JAPANESE JOURNAL OF APPLIED PHYSICS"
+                    },
+                    "volume": "53",
+                    "number": "5",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.7567/JJAP.53.05FB07"
+                        ],
+                        "orcid_put_cd": [
+                            "45751853"
+                        ],
+                        "scopus_id": [
+                            "84903317789"
+                        ],
+                        "issn": [
+                            "0021-4922"
+                        ],
+                        "e_issn": [
+                            "1347-4065"
+                        ],
+                        "wos_id": [
+                            "WOS:000338316200021"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.7567/JJAP.53.05FB07",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000338316200021&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        },
+                        {
+                            "@id": "http://www.scopus.com/inward/record.url?eid=2-s2.0-84903317789&partnerID=MN8TOARS",
+                            "is_downloadable": false,
+                            "label": "url"
+                        },
+                        {
+                            "@id": "http://orcid.org/0000-0002-4420-4801",
+                            "is_downloadable": false,
+                            "label": "url"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/m_yasumoto_aist_0298/published_papers/15644674",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/m_yasumoto_aist_0298/published_papers",
+                    "rm:id": "15644674",
+                    "rm:user_id": "0000000992",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000000992",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2018-11-29T05:08:13Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-08-31T22:16:41Z",
+                    "paper_title": {
+                        "en": "Structural, optical and magnetic properties of ZnOFe/ZnO multilayers"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "H. Nakayama"
+                            },
+                            {
+                                "name": "R. Kinoshita"
+                            },
+                            {
+                                "name": "I. Sakamoto"
+                            },
+                            {
+                                "name": "M. Yasumoto"
+                            },
+                            {
+                                "name": "M. Koike"
+                            },
+                            {
+                                "name": "S. Honda"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "ZnOFe/ZnO multilayers (MLs) with the constant composition and the different thickness in ZnOFe layers have been prepared by helicon plasma sputtering. The XRD patterns of ZnOFe/ZnO MLs before annealing showed only ZnO diffraction peaks while one after annealing indicated the phases of ZnO and ZnFe 2O4. The magnetization curves of ZnOFe/ZnO MLs before and after annealing showed ferromagnetic behavior. The origin of ferromagnetism in ZnOFe/ZnO MLs before annealing is considered to be due to the formation of defects/vacancies resulting from the substitution of Fe3+ ions for Zn2+ ions in ZnOFe layers irrespective of the mixed Fe valence states seen in XANES spectra. The ferromagnetic behavior after annealing is due to the formation of ZnFe2O4, which was confirmed by XRD, XPS, RBS measurements. © 2013 AIP Publishing LLC."
+                    },
+                    "publisher": {
+                        "en": "American Institute of Physics Inc."
+                    },
+                    "publication_date": "2013",
+                    "publication_name": {
+                        "en": "AIP Conference Proceedings"
+                    },
+                    "volume": "1566",
+                    "starting_page": "59",
+                    "ending_page": "60",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "international_conference_proceedings",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1063/1.4848284"
+                        ],
+                        "orcid_put_cd": [
+                            "45751855"
+                        ],
+                        "scopus_id": [
+                            "84903311392"
+                        ],
+                        "issn": [
+                            "1551-7616",
+                            "0094-243X"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1063/1.4848284",
+                            "is_downloadable": false
+                        },
+                        {
+                            "@id": "http://www.scopus.com/inward/record.url?eid=2-s2.0-84903311392&partnerID=MN8TOARS",
+                            "is_downloadable": false,
+                            "label": "url"
+                        },
+                        {
+                            "@id": "http://orcid.org/0000-0002-4420-4801",
+                            "is_downloadable": false,
+                            "label": "url"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/m_yasumoto_aist_0298/published_papers/15644660",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/m_yasumoto_aist_0298/published_papers",
+                    "rm:id": "15644660",
+                    "rm:user_id": "0000000992",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000000992",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2018-11-29T05:08:12Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-05-27T01:10:56Z",
+                    "paper_title": {
+                        "en": "Structural Evolution of Fe Particles in Fe-Al2O3 Granular Films by Ar Ion Irradiations"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Hiro Nakayama"
+                            },
+                            {
+                                "name": "Tomoya Ishida"
+                            },
+                            {
+                                "name": "Ryosuke Kinoshita"
+                            },
+                            {
+                                "name": "Setyo Purwanto"
+                            },
+                            {
+                                "name": "Isao Sakamoto"
+                            },
+                            {
+                                "name": "Shigeo Honda"
+                            },
+                            {
+                                "name": "Masaki Koike"
+                            },
+                            {
+                                "name": "Masato Yasumoto"
+                            },
+                            {
+                                "name": "Nobuyuki Hayashi"
+                            },
+                            {
+                                "name": "Tamotsu Toriyama"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "Fe-Al2O3 granular films were prepared by helicon plasma sputtering. Fe-64(Al2O3)(36) in volume percent of as-prepared films was irradiated with 400 keV Ar ions in the fluence range of 1 x 10(15)-5 x 10(16) ions/cm(2). The growth of Fe particles with increasing ion fluence was observed from X-ray diffraction (XRD) patterns, magnetization curves, and conversion electron Mossbauer (CEM) spectra. The magnetization curves and CEM spectra of as-prepared Fe-Al2O3 films indicated the superparamagnetic nature and the ferromagnetic nature with increasing ion fluence. In addition, the reduction of Fe3+ component to the Fe2+ and metallic Fe components by ion irradiation was observed from CEM spectra. (C) 2013 The Japan Society of Applied Physics"
+                    },
+                    "publisher": {
+                        "en": "IOP PUBLISHING LTD"
+                    },
+                    "publication_date": "2013-01",
+                    "publication_name": {
+                        "en": "JAPANESE JOURNAL OF APPLIED PHYSICS"
+                    },
+                    "volume": "52",
+                    "number": "1",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.7567/JJAP.52.01AM01"
+                        ],
+                        "orcid_put_cd": [
+                            "45751832"
+                        ],
+                        "scopus_id": [
+                            "84872832972"
+                        ],
+                        "issn": [
+                            "0021-4922"
+                        ],
+                        "e_issn": [
+                            "1347-4065"
+                        ],
+                        "wos_id": [
+                            "WOS:000314466500054"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.7567/JJAP.52.01AM01",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000314466500054&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        },
+                        {
+                            "@id": "http://www.scopus.com/inward/record.url?eid=2-s2.0-84872832972&partnerID=MN8TOARS",
+                            "is_downloadable": false,
+                            "label": "url"
+                        },
+                        {
+                            "@id": "http://orcid.org/0000-0002-4420-4801",
+                            "is_downloadable": false,
+                            "label": "url"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/m_yasumoto_aist_0298/published_papers/15644731",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/m_yasumoto_aist_0298/published_papers",
+                    "rm:id": "15644731",
+                    "rm:user_id": "0000000992",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000000992",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2018-11-29T05:12:17Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-08-31T09:56:27Z",
+                    "paper_title": {
+                        "en": "Optical response of magnetic and piezoelectric materials to external fields"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Shohei Abe"
+                            },
+                            {
+                                "name": "Koh-Ichi Maruyama"
+                            },
+                            {
+                                "name": "Fumito Sakamoto"
+                            },
+                            {
+                                "name": "Hitoshi Yamaguchi"
+                            },
+                            {
+                                "name": "Masato Yasumoto"
+                            },
+                            {
+                                "name": "Keiko Abe"
+                            },
+                            {
+                                "name": "Yuki Sasaki"
+                            },
+                            {
+                                "name": "Akari Sugawara"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "Optical measurement systems were constructed to investigate the magneto-optical (MO) effect and the piezoelectric-optical (PO) effect. The reflection PO effect of a lithium niobate (LiNbO 3) single crystal was affected by the inverse piezoelectric effect. The inverse piezoelectric effect was reduced in a sputtered LiNbO 3 film. The signal intensity of the PO effect of a LiNbO 3 film was of the same order (0.01%) as that of the transverse MO Kerr effect of a spin-coated nickel ferrite (NiFe 2O 4) film. © 2012 The Surface Science Society of Japan."
+                    },
+                    "publication_date": "2012-09-15",
+                    "publication_name": {
+                        "en": "e-Journal of Surface Science and Nanotechnology"
+                    },
+                    "volume": "10",
+                    "starting_page": "503",
+                    "ending_page": "508",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "international_conference_proceedings",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1380/ejssnt.2012.503"
+                        ],
+                        "orcid_put_cd": [
+                            "45751837"
+                        ],
+                        "scopus_id": [
+                            "84867215832"
+                        ],
+                        "issn": [
+                            "1348-0391"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1380/ejssnt.2012.503",
+                            "is_downloadable": false
+                        },
+                        {
+                            "@id": "http://www.scopus.com/inward/record.url?eid=2-s2.0-84867215832&partnerID=MN8TOARS",
+                            "is_downloadable": false,
+                            "label": "url"
+                        },
+                        {
+                            "@id": "http://orcid.org/0000-0002-4420-4801",
+                            "is_downloadable": false,
+                            "label": "url"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/m_yasumoto_aist_0298/published_papers/15644664",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/m_yasumoto_aist_0298/published_papers",
+                    "rm:id": "15644664",
+                    "rm:user_id": "0000000992",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000000992",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2018-11-29T05:08:13Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-05-04T19:37:56Z",
+                    "paper_title": {
+                        "en": "Microstructure of Multilayer Fresnel Zone Plate for X-ray Focusing"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "M. Yasumoto"
+                            },
+                            {
+                                "name": "S. Tamura"
+                            },
+                            {
+                                "name": "N. Kamijo"
+                            },
+                            {
+                                "name": "Y. Suzuki"
+                            },
+                            {
+                                "name": "A. Takeuchi"
+                            },
+                            {
+                                "name": "K. Uesugi"
+                            },
+                            {
+                                "name": "Y. Terada"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "We have been fabricated the multilayer Fresnel zone plate (FZP) for hard X-ray focusing. The multilayer FZP consists of a series of concentric multilayer of low-Z (Al) zone and high-Z (Cu) zone, alternatively. The spatial resolution of the multilayer FZP is related with the outermost zone width and the smoothness of the multilayer. In case of the concentric multilayer FZP, the undulations were often observed. The smoothness of the multilayer is strongly related with he optical resolution. In this study we reported the microscopic structure of the multilayer FZP with a scanning transmission electron microscope (STEM) observation and discussed the seed of the undulation. (C) 2012 Published by Elsevier B. V. Selection and/or peer review under responsibility of Chinese Vacuum Society (CVS)."
+                    },
+                    "publisher": {
+                        "en": "ELSEVIER SCIENCE BV"
+                    },
+                    "publication_date": "2012",
+                    "publication_name": {
+                        "en": "18TH INTERNATIONAL VACUUM CONGRESS (IVC-18)"
+                    },
+                    "volume": "32",
+                    "starting_page": "157",
+                    "ending_page": "160",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "international_conference_proceedings",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1016/j.phpro.2012.03.534"
+                        ],
+                        "orcid_put_cd": [
+                            "45751834"
+                        ],
+                        "scopus_id": [
+                            "84893373888"
+                        ],
+                        "issn": [
+                            "1875-3892"
+                        ],
+                        "wos_id": [
+                            "WOS:000310677500022"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1016/j.phpro.2012.03.534",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000310677500022&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        },
+                        {
+                            "@id": "http://www.scopus.com/inward/record.url?eid=2-s2.0-84893373888&partnerID=MN8TOARS",
+                            "is_downloadable": false,
+                            "label": "url"
+                        },
+                        {
+                            "@id": "http://orcid.org/0000-0002-4420-4801",
+                            "is_downloadable": false,
+                            "label": "url"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/m_yasumoto_aist_0298/published_papers/15644733",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/m_yasumoto_aist_0298/published_papers",
+                    "rm:id": "15644733",
+                    "rm:user_id": "0000000992",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000000992",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2018-11-29T05:12:17Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-04-14T08:00:36Z",
+                    "paper_title": {
+                        "en": "Quasi-monochromatic hard X-ray source via laser Compton scattering and its application"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "R. Kuroda"
+                            },
+                            {
+                                "name": "H. Toyokawa"
+                            },
+                            {
+                                "name": "M. Yasumoto"
+                            },
+                            {
+                                "name": "H. Ikeura-Sekiguchi"
+                            },
+                            {
+                                "name": "M. Koike"
+                            },
+                            {
+                                "name": "K. Yamada"
+                            },
+                            {
+                                "name": "T. Yanagida"
+                            },
+                            {
+                                "name": "T. Nakajyo"
+                            },
+                            {
+                                "name": "F. Sakai"
+                            },
+                            {
+                                "name": "K. Mori"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "We have developed a quasi-monochromatic hard X-ray source via laser Compton scattering (LCS) based on an S-band compact electron linac at AIST. The number of total photons and the maximum X-ray energy was 10(7) photons/sec and about 40 keV, respectively, in 15-degree crossing angle between a 42 MeV electron beam and a 800 nm Ti:Sa laser. The biological observation of the human bone with fractures has been successfully demonstrated using the LCS X-ray of 26.4 key with the in-line phase contrast scheme. Good contrast enhancement is clearly observed between the absorption and the phase contrast images. (C) 2010 Elsevier B.V. All rights reserved."
+                    },
+                    "publisher": {
+                        "en": "ELSEVIER SCIENCE BV"
+                    },
+                    "publication_date": "2011-05",
+                    "publication_name": {
+                        "en": "NUCLEAR INSTRUMENTS & METHODS IN PHYSICS RESEARCH SECTION A-ACCELERATORS SPECTROMETERS DETECTORS AND ASSOCIATED EQUIPMENT"
+                    },
+                    "volume": "637",
+                    "number": "1 SUPPL.",
+                    "starting_page": "S183",
+                    "ending_page": "S186",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1016/j.nima.2010.04.001"
+                        ],
+                        "orcid_put_cd": [
+                            "45751887"
+                        ],
+                        "scopus_id": [
+                            "79955861322"
+                        ],
+                        "issn": [
+                            "0168-9002"
+                        ],
+                        "e_issn": [
+                            "1872-9576"
+                        ],
+                        "wos_id": [
+                            "WOS:000291416600045"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1016/j.nima.2010.04.001",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000291416600045&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        },
+                        {
+                            "@id": "http://www.scopus.com/inward/record.url?eid=2-s2.0-79955861322&partnerID=MN8TOARS",
+                            "is_downloadable": false,
+                            "label": "url"
+                        },
+                        {
+                            "@id": "http://orcid.org/0000-0002-4420-4801",
+                            "is_downloadable": false,
+                            "label": "url"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/m_yasumoto_aist_0298/published_papers/15644732",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/m_yasumoto_aist_0298/published_papers",
+                    "rm:id": "15644732",
+                    "rm:user_id": "0000000992",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000000992",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2018-11-29T05:12:17Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-04-14T11:19:19Z",
+                    "paper_title": {
+                        "en": "Development of a coherent THz radiation source based on the ultra-short electron beam and its applications"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "R. Kuroda"
+                            },
+                            {
+                                "name": "M. Yasumoto"
+                            },
+                            {
+                                "name": "H. Toyokawa"
+                            },
+                            {
+                                "name": "N. Sei"
+                            },
+                            {
+                                "name": "M. Koike"
+                            },
+                            {
+                                "name": "K. Yamada"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "At the National Institute of Advanced Industrial Science and Technology (AIST), a coherent terahertz (THz) radiation source has been developed based on an ultra-short electron beam using an S-band compact electron linac. The designed THz pulse has a high peak power of more than 1 kW in the frequency range 0.1-2 THz. The entire system is located in one research room of about 10 m square. The linac consists of a laser photocathode rf gun (BNL type) with a Cs2Te photocathode load-lock system and two 1.5-m-long S-band accelerator tubes. The electron beam can be accelerated up to approximately 42 MeV. The electron bunch was compressed to less than 1 ps (rms) with a magnetic bunch compressor. The coherent synchrotron radiation (CSR) of the THz region was generated from the ultra-short electron bunch at the 90 bending magnet, and it was extracted from a z-cut quartz window for THz applications. In this work, the THz scanning transmission imaging was successfully demonstrated for measuring the freshness of a vegetable leaf over a period of time. (C) 2010 Elsevier B.V. All rights reserved."
+                    },
+                    "publisher": {
+                        "en": "ELSEVIER SCIENCE BV"
+                    },
+                    "publication_date": "2011-05",
+                    "publication_name": {
+                        "en": "NUCLEAR INSTRUMENTS & METHODS IN PHYSICS RESEARCH SECTION A-ACCELERATORS SPECTROMETERS DETECTORS AND ASSOCIATED EQUIPMENT"
+                    },
+                    "volume": "637",
+                    "number": "1 SUPPL.",
+                    "starting_page": "S30",
+                    "ending_page": "S32",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1016/j.nima.2010.02.015"
+                        ],
+                        "orcid_put_cd": [
+                            "45751880"
+                        ],
+                        "scopus_id": [
+                            "79955865465"
+                        ],
+                        "issn": [
+                            "0168-9002"
+                        ],
+                        "e_issn": [
+                            "1872-9576"
+                        ],
+                        "wos_id": [
+                            "WOS:000291416600008"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1016/j.nima.2010.02.015",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000291416600008&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        },
+                        {
+                            "@id": "http://www.scopus.com/inward/record.url?eid=2-s2.0-79955865465&partnerID=MN8TOARS",
+                            "is_downloadable": false,
+                            "label": "url"
+                        },
+                        {
+                            "@id": "http://orcid.org/0000-0002-4420-4801",
+                            "is_downloadable": false,
+                            "label": "url"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/m_yasumoto_aist_0298/published_papers/15644735",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/m_yasumoto_aist_0298/published_papers",
+                    "rm:id": "15644735",
+                    "rm:user_id": "0000000992",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000000992",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2018-11-29T05:12:17Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-05-23T09:37:39Z",
+                    "paper_title": {
+                        "en": "Fabrication and testing of sputtered-sliced kinoform style Fresnel zone plate"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Shigeharu Tamura"
+                            },
+                            {
+                                "name": "Masato Yasumoto"
+                            },
+                            {
+                                "name": "Nagao Kamijo"
+                            },
+                            {
+                                "name": "Akihisa Takeuchi"
+                            },
+                            {
+                                "name": "Kentaro Uesugi"
+                            },
+                            {
+                                "name": "Yasuko Terada"
+                            },
+                            {
+                                "name": "Yoshio Suzuki"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "The Fresnel zone plate (FZP) is a type of lens for focusing X-rays. We have fabricated a kinoform style FZP with a 30-step structure composed of concentric multilayer of alternating Cu layer, Al layer, and 28 composite material (Cu, Al) layers. The multilayer was deposited using a magnetron sputtering apparatus with two DC-sputtering guns. The focusing characteristics were evaluated at the synchrotron radiation beamline of SPring-8, and the focused beam size measured by knife-edge scanning was 0.8 mu m at 40 key. The peak diffraction efficiencies measured using ion chambers for 1st- and 2nd-order diffraction were 42% and 12% at 40 keV and 20 keV, respectively. High-order X-ray diffraction was also examined using the data obtained from a CCD camera. (C) 2009 Elsevier Ltd. All rights reserved."
+                    },
+                    "publisher": {
+                        "en": "PERGAMON-ELSEVIER SCIENCE LTD"
+                    },
+                    "publication_date": "2010-06",
+                    "publication_name": {
+                        "en": "VACUUM"
+                    },
+                    "volume": "84",
+                    "number": "12",
+                    "starting_page": "1457",
+                    "ending_page": "1459",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1016/j.vacuum.2009.11.012"
+                        ],
+                        "orcid_put_cd": [
+                            "45751858"
+                        ],
+                        "scopus_id": [
+                            "77956451087"
+                        ],
+                        "issn": [
+                            "0042-207X"
+                        ],
+                        "wos_id": [
+                            "WOS:000279943700026"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1016/j.vacuum.2009.11.012",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000279943700026&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        },
+                        {
+                            "@id": "http://www.scopus.com/inward/record.url?eid=2-s2.0-77956451087&partnerID=MN8TOARS",
+                            "is_downloadable": false,
+                            "label": "url"
+                        },
+                        {
+                            "@id": "http://orcid.org/0000-0002-4420-4801",
+                            "is_downloadable": false,
+                            "label": "url"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/m_yasumoto_aist_0298/published_papers/15644734",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/m_yasumoto_aist_0298/published_papers",
+                    "rm:id": "15644734",
+                    "rm:user_id": "0000000992",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000000992",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2018-11-29T05:12:17Z",
+                    "rm:modifier_id": "0000000992",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2018-11-29T05:12:17Z",
+                    "paper_title": {
+                        "ja": "Development of advanced quantum radiation source based on s-band compact electron linac",
+                        "en": "Development of advanced quantum radiation source based on s-band compact electron linac"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "Kuroda R"
+                            },
+                            {
+                                "name": "Toyokawa H"
+                            },
+                            {
+                                "name": "Yasumoto M"
+                            },
+                            {
+                                "name": "Ikeura-Sekiguchi H"
+                            },
+                            {
+                                "name": "Sei N"
+                            },
+                            {
+                                "name": "Ogawa H"
+                            },
+                            {
+                                "name": "Koike M"
+                            },
+                            {
+                                "name": "Yamada K"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Kuroda R"
+                            },
+                            {
+                                "name": "Toyokawa H"
+                            },
+                            {
+                                "name": "Yasumoto M"
+                            },
+                            {
+                                "name": "Ikeura-Sekiguchi H"
+                            },
+                            {
+                                "name": "Sei N"
+                            },
+                            {
+                                "name": "Ogawa H"
+                            },
+                            {
+                                "name": "Koike M"
+                            },
+                            {
+                                "name": "Yamada K"
+                            }
+                        ]
+                    },
+                    "publication_date": "2010",
+                    "publication_name": {
+                        "ja": "IPAC 2010 - 1st International Particle Accelerator Conference",
+                        "en": "IPAC 2010 - 1st International Particle Accelerator Conference"
+                    },
+                    "starting_page": "220",
+                    "ending_page": "222",
+                    "referee": true,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "orcid_put_cd": [
+                            "45751809"
+                        ],
+                        "scopus_id": [
+                            "84886925386"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "url",
+                            "@id": "http://www.scopus.com/inward/record.url?eid=2-s2.0-84886925386&partnerID=MN8TOARS",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "http://orcid.org/0000-0002-4420-4801",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/m_yasumoto_aist_0298/published_papers/15644741",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/m_yasumoto_aist_0298/published_papers",
+                    "rm:id": "15644741",
+                    "rm:user_id": "0000000992",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000000992",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2018-11-29T05:12:17Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-05-31T04:29:45Z",
+                    "paper_title": {
+                        "en": "Quasi-blazed type multilayer zone plate for X-rays"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Shigeharu Tamura"
+                            },
+                            {
+                                "name": "Masato Yasumoto"
+                            },
+                            {
+                                "name": "Nagao Kamijo"
+                            },
+                            {
+                                "name": "Akihisa Takeuchi"
+                            },
+                            {
+                                "name": "Kentaro Uesugi"
+                            },
+                            {
+                                "name": "Yasuko Terada"
+                            },
+                            {
+                                "name": "Yoshio Suzuki"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "In order to attain high diffraction efficiency in high-energy X-ray region, we have developed multilevel-type (6-step) multilayer FZPs with the diameter of 70 mu m, which composed of concentric multilayers of alternating high-Z (Cu), low-Z (Al), and four types of composite materials (Cu, Al) layers. Such a multilevel-type FZP with high diffraction efficiency contributes the reduction of the radiation damage to biological specimens, the simplification of the X-ray optical system. Some FZPs are fabricated and their diffraction efficiencies were evaluated at the beamline of SPring-8. For one FZP, the peak efficiency for the 1st-order diffraction of 51% has been obtained at 70 keV. The efficiencies higher than 40% have been achieved in the wide energy range of 70-90 keV. That for the 2nd-order diffraction of 46% has been obtained at 37.5 keV. For another FZP, the peak efficiency for the 1st-order diffraction of 52% has been obtained at 41.3 keV. The efficiencies higher than 45% have been achieved in the wide energy range of 33-49.5 keV. (C) 2009 Elsevier Ltd. All rights reserved."
+                    },
+                    "publisher": {
+                        "en": "PERGAMON-ELSEVIER SCIENCE LTD"
+                    },
+                    "publication_date": "2009-12",
+                    "publication_name": {
+                        "en": "VACUUM"
+                    },
+                    "volume": "84",
+                    "number": "5",
+                    "starting_page": "578",
+                    "ending_page": "580",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1016/j.vacuum.2009.03.037"
+                        ],
+                        "orcid_put_cd": [
+                            "45751843"
+                        ],
+                        "scopus_id": [
+                            "70849104227"
+                        ],
+                        "issn": [
+                            "0042-207X"
+                        ],
+                        "wos_id": [
+                            "WOS:000273129500021"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1016/j.vacuum.2009.03.037",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000273129500021&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        },
+                        {
+                            "@id": "http://www.scopus.com/inward/record.url?eid=2-s2.0-70849104227&partnerID=MN8TOARS",
+                            "is_downloadable": false,
+                            "label": "url"
+                        },
+                        {
+                            "@id": "http://orcid.org/0000-0002-4420-4801",
+                            "is_downloadable": false,
+                            "label": "url"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/m_yasumoto_aist_0298/published_papers/15644740",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/m_yasumoto_aist_0298/published_papers",
+                    "rm:id": "15644740",
+                    "rm:user_id": "0000000992",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000000992",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2018-11-29T05:12:17Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-05-31T08:35:48Z",
+                    "paper_title": {
+                        "en": "Observation of kinoform-style multilayer Fresnel zone plate by scanning ion microscopy"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Masato Yasumoto"
+                            },
+                            {
+                                "name": "Shigeharu Tamura"
+                            },
+                            {
+                                "name": "Nagao Kamijo"
+                            },
+                            {
+                                "name": "Kentaro Uesugi"
+                            },
+                            {
+                                "name": "Akihisa Takeuchi"
+                            },
+                            {
+                                "name": "Yoshio Suzuki"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "We investigated a kinoform-style Fresnel zone plate (FZP) that is a high-efficient optical element for hard X-ray focusing. The Cu/Al kinoform-style FZPs were fabricated with a sputtered-sliced method. The FZP was composed of 450 layers (30 layers, 15 pairs) of Al, Cu/Al composite, and Cu. The microstructure of the Cu/Al composite layer was observed by scanning ion microscopy based on a focused ion beam (FIB). In the Cu/Al composite layer, the SIM images obtained by grain orientation contrast observation indicated that the Cu grains were grown gradually with increasing Cu concentration. (C) 2009 Elsevier Ltd. All rights reserved."
+                    },
+                    "publisher": {
+                        "en": "PERGAMON-ELSEVIER SCIENCE LTD"
+                    },
+                    "publication_date": "2009-12",
+                    "publication_name": {
+                        "en": "VACUUM"
+                    },
+                    "volume": "84",
+                    "number": "5",
+                    "starting_page": "669",
+                    "ending_page": "671",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1016/j.vacuum.2009.06.043"
+                        ],
+                        "orcid_put_cd": [
+                            "45751872"
+                        ],
+                        "scopus_id": [
+                            "70649100164"
+                        ],
+                        "issn": [
+                            "0042-207X"
+                        ],
+                        "wos_id": [
+                            "WOS:000273129500041"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1016/j.vacuum.2009.06.043",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000273129500041&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        },
+                        {
+                            "@id": "http://www.scopus.com/inward/record.url?eid=2-s2.0-70649100164&partnerID=MN8TOARS",
+                            "is_downloadable": false,
+                            "label": "url"
+                        },
+                        {
+                            "@id": "http://orcid.org/0000-0002-4420-4801",
+                            "is_downloadable": false,
+                            "label": "url"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/m_yasumoto_aist_0298/misc",
+            "@type": "misc",
+            "@reverse": "https://api.researchmap.jp/m_yasumoto_aist_0298",
+            "total_items": 76,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/m_yasumoto_aist_0298/misc/37510199",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/m_yasumoto_aist_0298/misc",
+                    "rm:id": "37510199",
+                    "rm:user_id": "0000000992",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2022-06-29T09:28:56Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-06-29T09:28:56Z",
+                    "paper_title": {
+                        "ja": "産総研電子加速器施設の現状"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "木野幸一"
+                            },
+                            {
+                                "name": "木野幸一"
+                            },
+                            {
+                                "name": "池浦広美"
+                            },
+                            {
+                                "name": "大島永康"
+                            },
+                            {
+                                "name": "大島永康"
+                            },
+                            {
+                                "name": "大平俊行"
+                            },
+                            {
+                                "name": "小川博嗣"
+                            },
+                            {
+                                "name": "小川博嗣"
+                            },
+                            {
+                                "name": "O’ROURKE B."
+                            },
+                            {
+                                "name": "O’ROURKE B."
+                            },
+                            {
+                                "name": "柏谷裕美"
+                            },
+                            {
+                                "name": "加藤英俊"
+                            },
+                            {
+                                "name": "黒田隆之助"
+                            },
+                            {
+                                "name": "黒田隆之助"
+                            },
+                            {
+                                "name": "小林慶規"
+                            },
+                            {
+                                "name": "鈴木良一"
+                            },
+                            {
+                                "name": "鈴木良一"
+                            },
+                            {
+                                "name": "清紀弘"
+                            },
+                            {
+                                "name": "清紀弘"
+                            },
+                            {
+                                "name": "平義隆"
+                            },
+                            {
+                                "name": "田中真人"
+                            },
+                            {
+                                "name": "田中真人"
+                            },
+                            {
+                                "name": "豊川弘之"
+                            },
+                            {
+                                "name": "豊川弘之"
+                            },
+                            {
+                                "name": "藤原健"
+                            },
+                            {
+                                "name": "藤原健"
+                            },
+                            {
+                                "name": "三浦永祐"
+                            },
+                            {
+                                "name": "満汐孝治"
+                            },
+                            {
+                                "name": "満汐孝治"
+                            },
+                            {
+                                "name": "安本正人"
+                            },
+                            {
+                                "name": "渡津章"
+                            },
+                            {
+                                "name": "渡津章"
+                            },
+                            {
+                                "name": "宍戸玉緒"
+                            },
+                            {
+                                "name": "林崎規託"
+                            },
+                            {
+                                "name": "林崎規託"
+                            },
+                            {
+                                "name": "林崎規託"
+                            }
+                        ]
+                    },
+                    "publication_date": "2018",
+                    "publication_name": {
+                        "ja": "日本放射光学会年会・放射光科学合同シンポジウム(Web)"
+                    },
+                    "volume": "31st",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "j_global_id": [
+                            "202002277218871934"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "j_global",
+                            "@id": "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=202002277218871934",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/m_yasumoto_aist_0298/misc/37510205",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/m_yasumoto_aist_0298/misc",
+                    "rm:id": "37510205",
+                    "rm:user_id": "0000000992",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2022-06-29T09:28:56Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-06-29T09:28:56Z",
+                    "paper_title": {
+                        "ja": "産総研電子加速器施設の現状"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "藤原健"
+                            },
+                            {
+                                "name": "池浦広美"
+                            },
+                            {
+                                "name": "大平俊行"
+                            },
+                            {
+                                "name": "小川博嗣"
+                            },
+                            {
+                                "name": "大島永康"
+                            },
+                            {
+                                "name": "O’ROURKE B."
+                            },
+                            {
+                                "name": "柏谷裕美"
+                            },
+                            {
+                                "name": "加藤英俊"
+                            },
+                            {
+                                "name": "木野幸一"
+                            },
+                            {
+                                "name": "黒田隆之助"
+                            },
+                            {
+                                "name": "鈴木良一"
+                            },
+                            {
+                                "name": "清紀弘"
+                            },
+                            {
+                                "name": "平義隆"
+                            },
+                            {
+                                "name": "田中真人"
+                            },
+                            {
+                                "name": "豊川弘之"
+                            },
+                            {
+                                "name": "三浦永祐"
+                            },
+                            {
+                                "name": "安本正人"
+                            }
+                        ]
+                    },
+                    "publication_date": "2017",
+                    "publication_name": {
+                        "ja": "日本放射光学会年会・放射光科学合同シンポジウム(Web)"
+                    },
+                    "volume": "30th",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "j_global_id": [
+                            "202002254107002535"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "j_global",
+                            "@id": "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=202002254107002535",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/m_yasumoto_aist_0298/misc/26485997",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/m_yasumoto_aist_0298/misc",
+                    "rm:id": "26485997",
+                    "rm:user_id": "0000000992",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_papers",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-04-18T16:14:45Z",
+                    "rm:modifier_id": "ai:assign_based_papers",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-04-18T16:14:45Z",
+                    "paper_title": {
+                        "ja": "産総研電子加速器施設の現状",
+                        "en": "産総研電子加速器施設の現状"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "豊川弘之"
+                            },
+                            {
+                                "name": "池浦広美"
+                            },
+                            {
+                                "name": "大島永康"
+                            },
+                            {
+                                "name": "大平俊行"
+                            },
+                            {
+                                "name": "小川博嗣"
+                            },
+                            {
+                                "name": "O’ROURKE B"
+                            },
+                            {
+                                "name": "柏谷裕美"
+                            },
+                            {
+                                "name": "加藤英俊"
+                            },
+                            {
+                                "name": "黒田隆之助"
+                            },
+                            {
+                                "name": "小林慶規"
+                            },
+                            {
+                                "name": "鈴木良一"
+                            },
+                            {
+                                "name": "清紀弘"
+                            },
+                            {
+                                "name": "平義隆"
+                            },
+                            {
+                                "name": "田中真人"
+                            },
+                            {
+                                "name": "藤原健"
+                            },
+                            {
+                                "name": "三浦永祐"
+                            },
+                            {
+                                "name": "安本正人"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "豊川弘之"
+                            },
+                            {
+                                "name": "池浦広美"
+                            },
+                            {
+                                "name": "大島永康"
+                            },
+                            {
+                                "name": "大平俊行"
+                            },
+                            {
+                                "name": "小川博嗣"
+                            },
+                            {
+                                "name": "O’ROURKE B"
+                            },
+                            {
+                                "name": "柏谷裕美"
+                            },
+                            {
+                                "name": "加藤英俊"
+                            },
+                            {
+                                "name": "黒田隆之助"
+                            },
+                            {
+                                "name": "小林慶規"
+                            },
+                            {
+                                "name": "鈴木良一"
+                            },
+                            {
+                                "name": "清紀弘"
+                            },
+                            {
+                                "name": "平義隆"
+                            },
+                            {
+                                "name": "田中真人"
+                            },
+                            {
+                                "name": "藤原健"
+                            },
+                            {
+                                "name": "三浦永祐"
+                            },
+                            {
+                                "name": "安本正人"
+                            }
+                        ]
+                    },
+                    "publication_date": "2016-01-09",
+                    "publication_name": {
+                        "ja": "日本放射光学会年会・放射光科学合同シンポジウム予稿集",
+                        "en": "日本放射光学会年会・放射光科学合同シンポジウム予稿集"
+                    },
+                    "volume": "29th",
+                    "starting_page": "48",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "j_global_id": [
+                            "201602216076049653"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "j_global",
+                            "@id": "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=201602216076049653",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "http://jglobal.jst.go.jp/public/201602216076049653",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/m_yasumoto_aist_0298/misc/26486049",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/m_yasumoto_aist_0298/misc",
+                    "rm:id": "26486049",
+                    "rm:user_id": "0000000992",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_papers",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-04-18T16:14:50Z",
+                    "rm:modifier_id": "ai:assign_based_papers",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-04-18T16:14:50Z",
+                    "paper_title": {
+                        "ja": "産総研Sバンド小型リニアック施設の現状",
+                        "en": "産総研Sバンド小型リニアック施設の現状"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "平義隆"
+                            },
+                            {
+                                "name": "黒田隆之助"
+                            },
+                            {
+                                "name": "安本正人"
+                            },
+                            {
+                                "name": "田中真人"
+                            },
+                            {
+                                "name": "池浦広美"
+                            },
+                            {
+                                "name": "清紀弘"
+                            },
+                            {
+                                "name": "小川博嗣"
+                            },
+                            {
+                                "name": "三浦永祐"
+                            },
+                            {
+                                "name": "豊川弘之"
+                            },
+                            {
+                                "name": "山田家和勝"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "平義隆"
+                            },
+                            {
+                                "name": "黒田隆之助"
+                            },
+                            {
+                                "name": "安本正人"
+                            },
+                            {
+                                "name": "田中真人"
+                            },
+                            {
+                                "name": "池浦広美"
+                            },
+                            {
+                                "name": "清紀弘"
+                            },
+                            {
+                                "name": "小川博嗣"
+                            },
+                            {
+                                "name": "三浦永祐"
+                            },
+                            {
+                                "name": "豊川弘之"
+                            },
+                            {
+                                "name": "山田家和勝"
+                            }
+                        ]
+                    },
+                    "publication_date": "2014",
+                    "publication_name": {
+                        "ja": "日本加速器学会年会(Web)",
+                        "en": "日本加速器学会年会(Web)"
+                    },
+                    "volume": "11th",
+                    "starting_page": "FSP002 (WEB ONLY)",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "j_global_id": [
+                            "201502231830197290"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "j_global",
+                            "@id": "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=201502231830197290",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "http://jglobal.jst.go.jp/public/201502231830197290",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/m_yasumoto_aist_0298/misc/26486098",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/m_yasumoto_aist_0298/misc",
+                    "rm:id": "26486098",
+                    "rm:user_id": "0000000992",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_papers",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-04-18T16:14:55Z",
+                    "rm:modifier_id": "ai:assign_based_papers",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-04-18T16:14:55Z",
+                    "paper_title": {
+                        "ja": "産総研Sバンド小型リニアック施設の現状",
+                        "en": "産総研Sバンド小型リニアック施設の現状"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "黒田隆之助"
+                            },
+                            {
+                                "name": "平義隆"
+                            },
+                            {
+                                "name": "立花充章"
+                            },
+                            {
+                                "name": "安本正人"
+                            },
+                            {
+                                "name": "田中正人"
+                            },
+                            {
+                                "name": "池浦宏美"
+                            },
+                            {
+                                "name": "三浦永祐"
+                            },
+                            {
+                                "name": "豊川弘之"
+                            },
+                            {
+                                "name": "山田家和勝"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "黒田隆之助"
+                            },
+                            {
+                                "name": "平義隆"
+                            },
+                            {
+                                "name": "立花充章"
+                            },
+                            {
+                                "name": "安本正人"
+                            },
+                            {
+                                "name": "田中正人"
+                            },
+                            {
+                                "name": "池浦宏美"
+                            },
+                            {
+                                "name": "三浦永祐"
+                            },
+                            {
+                                "name": "豊川弘之"
+                            },
+                            {
+                                "name": "山田家和勝"
+                            }
+                        ]
+                    },
+                    "publication_date": "2013",
+                    "publication_name": {
+                        "ja": "日本加速器学会年会(Web)",
+                        "en": "日本加速器学会年会(Web)"
+                    },
+                    "volume": "10th",
+                    "starting_page": "SSFP10 (WEB ONLY)",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "j_global_id": [
+                            "201502261534294538"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "j_global",
+                            "@id": "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=201502261534294538",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "http://jglobal.jst.go.jp/public/201502261534294538",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/m_yasumoto_aist_0298/misc/37460820",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/m_yasumoto_aist_0298/misc",
+                    "rm:id": "37460820",
+                    "rm:user_id": "0000000992",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2022-06-29T05:47:06Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-06-29T05:47:06Z",
+                    "paper_title": {
+                        "ja": "レーザーコンプトン散乱準単色X線の医療イメージング応用",
+                        "en": "Quasi-Monochromatic X-Ray Via Laser Compton Scattering for Medical Imaging"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "黒田 隆之助"
+                            },
+                            {
+                                "name": "池浦 広美"
+                            },
+                            {
+                                "name": "安本 正人"
+                            },
+                            {
+                                "name": "豊川 弘之"
+                            },
+                            {
+                                "name": "山田 家和勝"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "KURODA Ryunosuke"
+                            },
+                            {
+                                "name": "IKEURA Hiromi"
+                            },
+                            {
+                                "name": "YASUMOTO Masato"
+                            },
+                            {
+                                "name": "TOYOKAWA Hiroyuki"
+                            },
+                            {
+                                "name": "YAMADA Kawakatsu"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "レーザー学会"
+                    },
+                    "publication_date": "2012-11-15",
+                    "publication_name": {
+                        "ja": "レーザー研究"
+                    },
+                    "volume": "40",
+                    "number": "11",
+                    "starting_page": "858",
+                    "ending_page": "862",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "0387-0200"
+                        ],
+                        "cinii_na_id": [
+                            "10031127751"
+                        ],
+                        "cinii_nc_id": [
+                            "AN00255326"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/10031127751",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_books",
+                            "@id": "http://ci.nii.ac.jp/ncid/AN00255326",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "http://id.ndl.go.jp/bib/024105853",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/m_yasumoto_aist_0298/misc/26486126",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/m_yasumoto_aist_0298/misc",
+                    "rm:id": "26486126",
+                    "rm:user_id": "0000000992",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_papers",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-04-18T16:14:57Z",
+                    "rm:modifier_id": "ai:assign_based_papers",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-04-18T16:14:57Z",
+                    "paper_title": {
+                        "ja": "Sバンド小型リニアックを用いたレーザーコンプトン散乱X線源の開発と医療応用の現状",
+                        "en": "Sバンド小型リニアックを用いたレーザーコンプトン散乱X線源の開発と医療応用の現状"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "黒田隆之助"
+                            },
+                            {
+                                "name": "豊川弘之"
+                            },
+                            {
+                                "name": "山口映理子"
+                            },
+                            {
+                                "name": "三浦永祐"
+                            },
+                            {
+                                "name": "熊木雅史"
+                            },
+                            {
+                                "name": "安本正人"
+                            },
+                            {
+                                "name": "池浦広美"
+                            },
+                            {
+                                "name": "小池正記"
+                            },
+                            {
+                                "name": "森浩一"
+                            },
+                            {
+                                "name": "鶴嶋英夫"
+                            },
+                            {
+                                "name": "山田家和勝"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "黒田隆之助"
+                            },
+                            {
+                                "name": "豊川弘之"
+                            },
+                            {
+                                "name": "山口映理子"
+                            },
+                            {
+                                "name": "三浦永祐"
+                            },
+                            {
+                                "name": "熊木雅史"
+                            },
+                            {
+                                "name": "安本正人"
+                            },
+                            {
+                                "name": "池浦広美"
+                            },
+                            {
+                                "name": "小池正記"
+                            },
+                            {
+                                "name": "森浩一"
+                            },
+                            {
+                                "name": "鶴嶋英夫"
+                            },
+                            {
+                                "name": "山田家和勝"
+                            }
+                        ]
+                    },
+                    "publication_date": "2011-03-03",
+                    "publication_name": {
+                        "ja": "日本物理学会講演概要集",
+                        "en": "日本物理学会講演概要集"
+                    },
+                    "volume": "66",
+                    "number": "1",
+                    "starting_page": "139",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "1342-8349"
+                        ],
+                        "j_global_id": [
+                            "201102250139886425"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "j_global",
+                            "@id": "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=201102250139886425",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "http://jglobal.jst.go.jp/public/201102250139886425",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/m_yasumoto_aist_0298/misc/37456838",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/m_yasumoto_aist_0298/misc",
+                    "rm:id": "37456838",
+                    "rm:user_id": "0000000992",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2022-06-29T05:24:14Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-06-29T05:24:14Z",
+                    "paper_title": {
+                        "ja": "28pZB-8 マルチ衝突レーザーコンプトン散乱硬X線発生装置におけるレーザー共振器の開発(28pZB イオントラップ・ビーム-レーザー相互作用・FEL,ビーム物理領域)",
+                        "en": "28pZB-8 Development of laser cavity for multi-collision laser Compton scattering hard X-ray source"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "黒田 隆之助"
+                            },
+                            {
+                                "name": "豊川 弘之"
+                            },
+                            {
+                                "name": "安本 正人"
+                            },
+                            {
+                                "name": "池浦 広美"
+                            },
+                            {
+                                "name": "山田 家和勝"
+                            },
+                            {
+                                "name": "酒井 文雄"
+                            },
+                            {
+                                "name": "Koike Masaki"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Kuroda Ryunosuke"
+                            },
+                            {
+                                "name": "Toyokawa Hiroyuki"
+                            },
+                            {
+                                "name": "Yasumoto Masato"
+                            },
+                            {
+                                "name": "Ikeura Hiromi"
+                            },
+                            {
+                                "name": "Yamada Kawakatsu"
+                            },
+                            {
+                                "name": "Sakai Fumio"
+                            },
+                            {
+                                "name": "Koike Masaki"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "一般社団法人日本物理学会",
+                        "en": "The Physical Society of Japan (JPS)"
+                    },
+                    "publication_date": "2009-03-03",
+                    "publication_name": {
+                        "ja": "日本物理学会講演概要集",
+                        "en": "Meeting abstracts of the Physical Society of Japan"
+                    },
+                    "volume": "64",
+                    "number": "1",
+                    "starting_page": "111",
+                    "ending_page": "111",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "1342-8349"
+                        ],
+                        "cinii_na_id": [
+                            "110007370140"
+                        ],
+                        "cinii_nc_id": [
+                            "AA11439205"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/110007370140",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_books",
+                            "@id": "http://ci.nii.ac.jp/ncid/AA11439205",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/m_yasumoto_aist_0298/misc/35591555",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/m_yasumoto_aist_0298/misc",
+                    "rm:id": "35591555",
+                    "rm:user_id": "0000000992",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2021-10-27T21:28:05Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2021-10-27T21:28:05Z",
+                    "paper_title": {
+                        "ja": "非破壊検査用レーザーコンプトン散乱準単色X線発生装置の開発と利用",
+                        "en": "Development and Application of Quasi-monochromatic X-ray Source via Laser-Compton Scattering for NDT"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "黒田 隆之助"
+                            },
+                            {
+                                "name": "豊川 弘之"
+                            },
+                            {
+                                "name": "安本 正人"
+                            },
+                            {
+                                "name": "池浦 広美"
+                            },
+                            {
+                                "name": "小池 正記"
+                            },
+                            {
+                                "name": "山田家 和勝"
+                            },
+                            {
+                                "name": "酒井 文雄"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "KURODA Ryunosuke"
+                            },
+                            {
+                                "name": "TOYOKAWA Hiroyuki"
+                            },
+                            {
+                                "name": "YASUMOTO Masato"
+                            },
+                            {
+                                "name": "IKEURA Hiromi"
+                            },
+                            {
+                                "name": "KOIKE Masaki"
+                            },
+                            {
+                                "name": "YAMADA Kawakatsu"
+                            },
+                            {
+                                "name": "SAKAI Fumio"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "日本非破壊検査協会"
+                    },
+                    "publication_date": "2008-06-01",
+                    "publication_name": {
+                        "ja": "非破壊検査 = JOURNAL OF THE JAPANESE SOCIETY FOR NON-DESTRUCTIVE INSPECTION"
+                    },
+                    "volume": "57",
+                    "number": "6",
+                    "starting_page": "266",
+                    "ending_page": "269",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "0367-5866"
+                        ],
+                        "cinii_na_id": [
+                            "10021165271"
+                        ],
+                        "cinii_nc_id": [
+                            "AN00208370"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/10021165271",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_books",
+                            "@id": "http://ci.nii.ac.jp/ncid/AN00208370",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "http://id.ndl.go.jp/bib/9529350",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/m_yasumoto_aist_0298/misc/37760689",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/m_yasumoto_aist_0298/misc",
+                    "rm:id": "37760689",
+                    "rm:user_id": "0000000992",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2022-07-01T05:55:23Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-07-01T05:55:23Z",
+                    "paper_title": {
+                        "ja": "23aZL-10 高輝度波長可変光源を用いたフォトカソード表面観察技術の開発(ビームダイナミクス,ビーム源,ビーム物理領域)",
+                        "en": "23aZL-10 Development of surface observation for a photo cathode with a high-brilliance tunable source"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "小川 博嗣"
+                            },
+                            {
+                                "name": "黒田 隆之助"
+                            },
+                            {
+                                "name": "渡辺 一寿"
+                            },
+                            {
+                                "name": "山田 家和勝"
+                            },
+                            {
+                                "name": "清 紀弘"
+                            },
+                            {
+                                "name": "安本 正人"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Ogawa H."
+                            },
+                            {
+                                "name": "Kuroda R."
+                            },
+                            {
+                                "name": "Yagi-Watanabe K."
+                            },
+                            {
+                                "name": "Yamada K."
+                            },
+                            {
+                                "name": "Sei N."
+                            },
+                            {
+                                "name": "Yasumoto M."
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "一般社団法人日本物理学会",
+                        "en": "The Physical Society of Japan (JPS)"
+                    },
+                    "publication_date": "2008-02-29",
+                    "publication_name": {
+                        "ja": "日本物理学会講演概要集",
+                        "en": "Meeting abstracts of the Physical Society of Japan"
+                    },
+                    "volume": "63",
+                    "number": "1",
+                    "starting_page": "119",
+                    "ending_page": "119",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "1342-8349"
+                        ],
+                        "cinii_na_id": [
+                            "110007144051"
+                        ],
+                        "cinii_nc_id": [
+                            "AA11439205"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/110007144051",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_books",
+                            "@id": "http://ci.nii.ac.jp/ncid/AA11439205",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/m_yasumoto_aist_0298/misc/39278569",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/m_yasumoto_aist_0298/misc",
+                    "rm:id": "39278569",
+                    "rm:user_id": "0000000992",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2022-07-29T05:15:08Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-07-29T05:15:08Z",
+                    "paper_title": {
+                        "ja": "生体イメージングを目指した小型リニアックレーザーコンプトン散乱X線源の開発",
+                        "en": "Development of compact linac-based laser Compton scattering x-ray source for biological imaging"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "黒田 隆之助"
+                            },
+                            {
+                                "name": "豊川 弘之"
+                            },
+                            {
+                                "name": "安本 正人"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "日本加速器学会"
+                    },
+                    "publication_date": "2008",
+                    "publication_name": {
+                        "ja": "加速器"
+                    },
+                    "volume": "5",
+                    "number": "2",
+                    "starting_page": "137",
+                    "ending_page": "143",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "1349-3833"
+                        ],
+                        "cinii_na_id": [
+                            "40016192806"
+                        ],
+                        "cinii_nc_id": [
+                            "AA11991514"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/40016192806",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_books",
+                            "@id": "http://ci.nii.ac.jp/ncid/AA11991514",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "http://id.ndl.go.jp/bib/9608781",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/m_yasumoto_aist_0298/misc/37350234",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/m_yasumoto_aist_0298/misc",
+                    "rm:id": "37350234",
+                    "rm:user_id": "0000000992",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2022-06-28T05:55:41Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-06-28T05:55:41Z",
+                    "paper_title": {
+                        "ja": "21pZG-7 Sバンド小型電子リニアックを用いたレーザーコンプトン散乱硬X線源の開発と利用(21pZG 放射光,自由電子レーザー,ビームレーザー相互作用,ビーム物理領域)",
+                        "en": "21pZG-7 Development and Applications of Hard X-ray Source via Laser Compton Scattering using S-band Compact Electron Linac"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "黒田 隆之助"
+                            },
+                            {
+                                "name": "豊川 弘之"
+                            },
+                            {
+                                "name": "安本 正人"
+                            },
+                            {
+                                "name": "池浦 広美"
+                            },
+                            {
+                                "name": "小川 博嗣"
+                            },
+                            {
+                                "name": "清 紀弘"
+                            },
+                            {
+                                "name": "小池 正記"
+                            },
+                            {
+                                "name": "山田 家和勝"
+                            },
+                            {
+                                "name": "中條 晃伸"
+                            },
+                            {
+                                "name": "柳田 達哉"
+                            },
+                            {
+                                "name": "酒井 文雄"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Kuroda Ryunosuke"
+                            },
+                            {
+                                "name": "Toyokawa Hiroyuki"
+                            },
+                            {
+                                "name": "Yasumoto Masato"
+                            },
+                            {
+                                "name": "Ikeura Hiromi"
+                            },
+                            {
+                                "name": "Ogawa Hiroshi"
+                            },
+                            {
+                                "name": "Sei Norihiro"
+                            },
+                            {
+                                "name": "Koike Masaki"
+                            },
+                            {
+                                "name": "Yamada Kawakatsu"
+                            },
+                            {
+                                "name": "Nakajyo Terunobu"
+                            },
+                            {
+                                "name": "Yanagida Tatsuya"
+                            },
+                            {
+                                "name": "Sakai Fumio"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "一般社団法人日本物理学会",
+                        "en": "The Physical Society of Japan (JPS)"
+                    },
+                    "publication_date": "2007-08-21",
+                    "publication_name": {
+                        "ja": "日本物理学会講演概要集",
+                        "en": "Meeting abstracts of the Physical Society of Japan"
+                    },
+                    "volume": "62",
+                    "number": "2",
+                    "starting_page": "122",
+                    "ending_page": "122",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "1342-8349"
+                        ],
+                        "cinii_na_id": [
+                            "110007194076"
+                        ],
+                        "cinii_nc_id": [
+                            "AA11439205"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/110007194076",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_books",
+                            "@id": "http://ci.nii.ac.jp/ncid/AA11439205",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/m_yasumoto_aist_0298/misc/37350201",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/m_yasumoto_aist_0298/misc",
+                    "rm:id": "37350201",
+                    "rm:user_id": "0000000992",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2022-06-28T05:55:29Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-06-28T05:55:29Z",
+                    "paper_title": {
+                        "ja": "21pZG-2 蓄積リングNIJI-IVを用いた近赤外自由電子レーザー発振実験(21pZG 放射光,自由電子レーザー,ビームレーザー相互作用,ビーム物理領域)",
+                        "en": "21pZG-2 Free electron laser experiments in the near-infrared region with the compact storage ring NIJI-IV"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "清 紀弘"
+                            },
+                            {
+                                "name": "山田 家和勝"
+                            },
+                            {
+                                "name": "小川 博嗣"
+                            },
+                            {
+                                "name": "安本 正人"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Sei Norihiro"
+                            },
+                            {
+                                "name": "Yamada Kawakatsu"
+                            },
+                            {
+                                "name": "Ogawa Hiroshi"
+                            },
+                            {
+                                "name": "Yasumoto Masato"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "一般社団法人日本物理学会",
+                        "en": "The Physical Society of Japan (JPS)"
+                    },
+                    "publication_date": "2007-08-21",
+                    "publication_name": {
+                        "ja": "日本物理学会講演概要集",
+                        "en": "Meeting abstracts of the Physical Society of Japan"
+                    },
+                    "volume": "62",
+                    "number": "2",
+                    "starting_page": "121",
+                    "ending_page": "121",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "1342-8349"
+                        ],
+                        "cinii_na_id": [
+                            "110007194081"
+                        ],
+                        "cinii_nc_id": [
+                            "AA11439205"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/110007194081",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_books",
+                            "@id": "http://ci.nii.ac.jp/ncid/AA11439205",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/m_yasumoto_aist_0298/misc/37760434",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/m_yasumoto_aist_0298/misc",
+                    "rm:id": "37760434",
+                    "rm:user_id": "0000000992",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2022-07-01T05:53:56Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-07-01T05:53:56Z",
+                    "paper_title": {
+                        "ja": "28pSH-7 産総研Sバンド小型電子リニアックを用いたレーザーコンプトン散乱硬X線源の開発と現状(28pSH 電磁石,X線源,素粒子実験領域)",
+                        "en": "28pSH-7 Present Status and Development of Laser Compton Scattering Hard X-ray Source using S-band Compact Electron Linac at AIST"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "黒田 隆之助"
+                            },
+                            {
+                                "name": "豊川 弘之"
+                            },
+                            {
+                                "name": "安本 正人"
+                            },
+                            {
+                                "name": "清 紀弘"
+                            },
+                            {
+                                "name": "小川 博嗣"
+                            },
+                            {
+                                "name": "小池 正記"
+                            },
+                            {
+                                "name": "山田 家和勝"
+                            },
+                            {
+                                "name": "中條 晃伸"
+                            },
+                            {
+                                "name": "柳田 達哉"
+                            },
+                            {
+                                "name": "酒井 文雄"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Kuroda Ryunosuke"
+                            },
+                            {
+                                "name": "Toyokawa Hiroyuki"
+                            },
+                            {
+                                "name": "Yasumoto Masato"
+                            },
+                            {
+                                "name": "Sei Norihiro"
+                            },
+                            {
+                                "name": "Ogawa Hiroshi"
+                            },
+                            {
+                                "name": "Koike Masaki"
+                            },
+                            {
+                                "name": "Yamada Kawakatsu"
+                            },
+                            {
+                                "name": "Nakajyo Terunobu"
+                            },
+                            {
+                                "name": "Yanagida Tatsuya"
+                            },
+                            {
+                                "name": "Sakai Fumio"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "一般社団法人日本物理学会",
+                        "en": "The Physical Society of Japan (JPS)"
+                    },
+                    "publication_date": "2007-02-28",
+                    "publication_name": {
+                        "ja": "日本物理学会講演概要集",
+                        "en": "Meeting abstracts of the Physical Society of Japan"
+                    },
+                    "volume": "62",
+                    "number": "1",
+                    "starting_page": "25",
+                    "ending_page": "25",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "1342-8349"
+                        ],
+                        "cinii_na_id": [
+                            "110007140648"
+                        ],
+                        "cinii_nc_id": [
+                            "AA11439205"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/110007140648",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_books",
+                            "@id": "http://ci.nii.ac.jp/ncid/AA11439205",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/m_yasumoto_aist_0298/misc/954881",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/m_yasumoto_aist_0298/misc",
+                    "rm:id": "954881",
+                    "rm:user_id": "0000000992",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000000992",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2011-02-02T15:00:00Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-05-18T03:15:23Z",
+                    "paper_title": {
+                        "en": "New approaches to fabrication of multilayer Fresnel zone plate for high-energy synchrotron radiation X-rays"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "S Tamura"
+                            },
+                            {
+                                "name": "M Yasumoto"
+                            },
+                            {
+                                "name": "N Kamijo"
+                            },
+                            {
+                                "name": "Y Suzuki"
+                            },
+                            {
+                                "name": "M Awaji"
+                            },
+                            {
+                                "name": "A Takeuchi"
+                            },
+                            {
+                                "name": "K Uesugi"
+                            },
+                            {
+                                "name": "Y Terada"
+                            },
+                            {
+                                "name": "H Takano"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "A multilayer (sputtered-sliced) Fresnel zone plate (FZP) is one of the promising focusing optics with high spatial resolution for the high-energy X-ray region. This is because a large \"aspect ratio\" can be realized easily. In addition, it is important that the kinoform FZP (theoretical diffraction efficiency = 100%) can be fabricated by the sputtered-sliced method. This paper presents the experimental results of two new approaches for fabrication of a multilayer FZP for X-rays. (1) To achieve higher diffraction efficiency, a multilevel-type (4-step: quasi-kinoform type) FZP was fabricated. This FZP was composed of concentric multilayers of alternating high-Z, low-Z, and composite materials. The composite material layer was deposited by co-sputtering of high-Z and low-Z materials. (2) To achieve smoother zones (multilayer interfaces) at the conventional-type FZP, each target of a sputtering apparatus with two DC-sputtering guns was surrounded by a cover with an aperture, and At gas was supplied inside the cover, which led to the deposition at lower Ar gas pressure. As a result, for the former, the efficiency was improved markedly as compared with conventional FZP, and for the latter, the zone roughness was reduced, which has resulted in the improvement of the spatial resolution of the FZP. (c) 2005 Elsevier Ltd. All rights reserved."
+                    },
+                    "publisher": {
+                        "en": "PERGAMON-ELSEVIER SCIENCE LTD"
+                    },
+                    "publication_date": "2006-05",
+                    "publication_name": {
+                        "en": "VACUUM"
+                    },
+                    "volume": "80",
+                    "number": "7",
+                    "starting_page": "823",
+                    "ending_page": "827",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1016/j.vacuum.2005.11.004"
+                        ],
+                        "issn": [
+                            "0042-207X"
+                        ],
+                        "wos_id": [
+                            "WOS:000238529300042"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1016/j.vacuum.2005.11.004",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000238529300042&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/m_yasumoto_aist_0298/misc/37475786",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/m_yasumoto_aist_0298/misc",
+                    "rm:id": "37475786",
+                    "rm:user_id": "0000000992",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2022-06-29T07:11:08Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-06-29T07:11:08Z",
+                    "paper_title": {
+                        "ja": "27pRG-4 蓄積リングNIJI-IVを用いた広帯域FELの開発とイメージング技術への応用(27pRG 電子リング・電子ビーム応用,ビーム物理領域)",
+                        "en": "27pRG-4 Development of Free Electron Laser based on the storage-ring NIJI-IV and its application to the imaging"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "小川 博嗣"
+                            },
+                            {
+                                "name": "山田 家和勝"
+                            },
+                            {
+                                "name": "清 紀弘"
+                            },
+                            {
+                                "name": "渡辺 一寿"
+                            },
+                            {
+                                "name": "安本 正人"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Ogawa H."
+                            },
+                            {
+                                "name": "Yamada K."
+                            },
+                            {
+                                "name": "Sei N."
+                            },
+                            {
+                                "name": "Watanabe K."
+                            },
+                            {
+                                "name": "Yasumoto M."
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "一般社団法人日本物理学会",
+                        "en": "The Physical Society of Japan (JPS)"
+                    },
+                    "publication_date": "2006-03-04",
+                    "publication_name": {
+                        "ja": "日本物理学会講演概要集",
+                        "en": "Meeting abstracts of the Physical Society of Japan"
+                    },
+                    "volume": "61",
+                    "number": "1",
+                    "starting_page": "109",
+                    "ending_page": "109",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "1342-8349"
+                        ],
+                        "cinii_na_id": [
+                            "110007181708"
+                        ],
+                        "cinii_nc_id": [
+                            "AA11439205"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/110007181708",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_books",
+                            "@id": "http://ci.nii.ac.jp/ncid/AA11439205",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/m_yasumoto_aist_0298/misc/954886",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/m_yasumoto_aist_0298/misc",
+                    "rm:id": "954886",
+                    "rm:user_id": "0000000992",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000000992",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2011-02-02T15:00:00Z",
+                    "rm:modifier_id": "0000000992",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2011-02-02T15:00:00Z",
+                    "paper_title": {
+                        "ja": "Helical-undulator beamline for soft X-ray spectroscopy at Saga LS"
+                    },
+                    "publication_date": "2006",
+                    "publication_name": {
+                        "ja": "X-ray microscopy (Proceedings of the 8th International Conference)"
+                    },
+                    "volume": "7",
+                    "starting_page": "73",
+                    "ending_page": "75",
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/m_yasumoto_aist_0298/misc/954885",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/m_yasumoto_aist_0298/misc",
+                    "rm:id": "954885",
+                    "rm:user_id": "0000000992",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000000992",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2011-02-02T15:00:00Z",
+                    "rm:modifier_id": "0000000992",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2011-02-02T15:00:00Z",
+                    "paper_title": {
+                        "ja": "X-ray Imaging Microscopy at 82 keV with Sputtered-sliced Fresnel Zone Plate Objective"
+                    },
+                    "publication_date": "2006",
+                    "publication_name": {
+                        "ja": "Proceedings of Institute of pure applied physics"
+                    },
+                    "volume": "7",
+                    "starting_page": "47",
+                    "ending_page": "49",
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/m_yasumoto_aist_0298/misc/954884",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/m_yasumoto_aist_0298/misc",
+                    "rm:id": "954884",
+                    "rm:user_id": "0000000992",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000000992",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2011-02-02T15:00:00Z",
+                    "rm:modifier_id": "0000000992",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2011-02-02T15:00:00Z",
+                    "paper_title": {
+                        "ja": "Practical use of quasi-kinoform zone plate : Towards high-efficiency microbeam for hard /high-energy x-rays"
+                    },
+                    "publication_date": "2006",
+                    "publication_name": {
+                        "ja": "Proceedinds of Institute of pure applied physics"
+                    },
+                    "volume": "7",
+                    "starting_page": "97",
+                    "ending_page": "99",
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/m_yasumoto_aist_0298/misc/954883",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/m_yasumoto_aist_0298/misc",
+                    "rm:id": "954883",
+                    "rm:user_id": "0000000992",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000000992",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2011-02-02T15:00:00Z",
+                    "rm:modifier_id": "0000000992",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2011-02-02T15:00:00Z",
+                    "paper_title": {
+                        "ja": "Diffraction efficiency of multi-level zone plate fabricated by sputtered-sliced method for hard X-ray focusing"
+                    },
+                    "publication_date": "2006",
+                    "publication_name": {
+                        "ja": "Proceedings of Institute of pure applied physics"
+                    },
+                    "volume": "7",
+                    "starting_page": "119",
+                    "ending_page": "120",
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false
+                }
+            ]
+        }
+    ]
+}

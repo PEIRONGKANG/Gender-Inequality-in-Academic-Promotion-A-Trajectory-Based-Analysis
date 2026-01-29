@@ -1,0 +1,3709 @@
+{
+    "@context": "https://api.researchmap.jp/researcher.jsonld",
+    "@id": "https://api.researchmap.jp/read0010159?format=json",
+    "@type": "researchers",
+    "rm:user_id": "1000020752",
+    "rm:creator_id": "1000020752",
+    "rm:creator_type": "myself",
+    "rm:created": "2011-06-05T15:00:00Z",
+    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+    "rm:modifier_type": "institution",
+    "rm:modified": "2024-01-17T05:10:18Z",
+    "permalink": "read0010159",
+    "family_name": {
+        "ja": "杉本",
+        "ja-Kana": "スギモト",
+        "en": "Sugimoto"
+    },
+    "given_name": {
+        "ja": "英彦",
+        "ja-Kana": "ヒデヒコ",
+        "en": "Hidehiko"
+    },
+    "display_name_kana": "disclosed",
+    "display_nickname": "disclosed",
+    "display_image": "disclosed",
+    "display_contact_point": "disclosed",
+    "degrees": [
+        {
+            "degree": {
+                "ja": "工学博士",
+                "en": "工学博士"
+            },
+            "display_degree": "disclosed",
+            "rm:institution_code": "9999999999"
+        },
+        {
+            "degree": {
+                "ja": "工学修士",
+                "en": "工学修士"
+            },
+            "display_degree": "disclosed",
+            "rm:institution_code": "9999999999"
+        }
+    ],
+    "display_profile": "disclosed",
+    "see_also": [
+        {
+            "label": "j_global",
+            "@id": "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=200901088158266248"
+        },
+        {
+            "label": "url",
+            "@id": "http://fuee.u-fukui.ac.jp/~sugimoto/"
+        }
+    ],
+    "display_url": "disclosed",
+    "identifiers": {
+        "j_global_id": [
+            "200901088158266248"
+        ]
+    },
+    "rm:erad_id_verified": false,
+    "rm:orc_id_verified": false,
+    "display_erad_id": "closed",
+    "display_orc_id": "closed",
+    "display_researcher_id": "disclosed",
+    "display_j_global_id": "disclosed",
+    "@graph": [
+        {
+            "@id": "https://api.researchmap.jp/read0010159/research_interests",
+            "@type": "research_interests",
+            "@reverse": "https://api.researchmap.jp/read0010159",
+            "total_items": 2,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0010159/research_interests/6653691",
+                    "@type": "research_interests",
+                    "@reverse": "https://api.researchmap.jp/read0010159/research_interests",
+                    "rm:id": "6653691",
+                    "rm:user_id": "1000020752",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2013-02-08T17:41:35Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2013-02-08T17:41:35Z",
+                    "keyword": {
+                        "ja": "制御工学"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010159/research_interests/6653690",
+                    "@type": "research_interests",
+                    "@reverse": "https://api.researchmap.jp/read0010159/research_interests",
+                    "rm:id": "6653690",
+                    "rm:user_id": "1000020752",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2013-02-08T17:41:34Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2013-02-08T17:41:34Z",
+                    "keyword": {
+                        "en": "Control Engineering"
+                    }
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0010159/research_areas",
+            "@type": "research_areas",
+            "@reverse": "https://api.researchmap.jp/read0010159",
+            "total_items": 1,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0010159/research_areas/5697034",
+                    "@type": "research_areas",
+                    "@reverse": "https://api.researchmap.jp/read0010159/research_areas",
+                    "rm:id": "5697034",
+                    "rm:user_id": "1000020752",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2013-02-08T17:41:34Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2013-02-08T17:41:34Z",
+                    "discipline_number": "A689",
+                    "item_number": "A21040",
+                    "discipline": {
+                        "ja": "ものづくり技術（機械・電気電子・化学工学）",
+                        "en": "Manufacturing technology (mechanical, electrical/electronic, chemical engineering)"
+                    },
+                    "research_field": {
+                        "ja": "制御、システム工学",
+                        "en": "Control and systems engineering"
+                    }
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0010159/research_experience",
+            "@type": "research_experience",
+            "@reverse": "https://api.researchmap.jp/read0010159",
+            "total_items": 1,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0010159/research_experience/15137302",
+                    "@type": "research_experience",
+                    "@reverse": "https://api.researchmap.jp/read0010159/research_experience",
+                    "rm:id": "15137302",
+                    "rm:user_id": "1000020752",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2014-08-07T04:23:25Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2014-08-07T04:23:25Z",
+                    "rm:institution_code": "9999999999",
+                    "affiliation": {
+                        "ja": "福井大学 工学研究科 大学院工学研究科",
+                        "en": "University of Fukui Graduate School of Engineering, Graduate School of Engineering"
+                    },
+                    "job": {
+                        "ja": "特命教授",
+                        "en": "Specially-Assigned Professor"
+                    }
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0010159/education",
+            "@type": "education",
+            "@reverse": "https://api.researchmap.jp/read0010159",
+            "total_items": 4,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0010159/education/13304677",
+                    "@type": "education",
+                    "@reverse": "https://api.researchmap.jp/read0010159/education",
+                    "rm:id": "13304677",
+                    "rm:user_id": "1000020752",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2013-02-08T17:41:35Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2013-02-08T17:41:35Z",
+                    "to_date": "1973",
+                    "rm:institution_code": "0264000000",
+                    "affiliation": {
+                        "ja": "名古屋工業大学",
+                        "en": "Nagoya Institute of Technology"
+                    },
+                    "department": {
+                        "ja": "工学研究科"
+                    },
+                    "course": {
+                        "ja": "電気工学"
+                    },
+                    "address_country": "JPN"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010159/education/13304675",
+                    "@type": "education",
+                    "@reverse": "https://api.researchmap.jp/read0010159/education",
+                    "rm:id": "13304675",
+                    "rm:user_id": "1000020752",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2013-02-08T17:41:34Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2013-02-08T17:41:34Z",
+                    "to_date": "1973",
+                    "rm:institution_code": "0264000000",
+                    "affiliation": {
+                        "ja": "名古屋工業大学",
+                        "en": "Nagoya Institute of Technology"
+                    },
+                    "department": {
+                        "en": "Graduate School, Division of Engineering"
+                    },
+                    "course": {
+                        "en": "電気工学"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010159/education/13304678",
+                    "@type": "education",
+                    "@reverse": "https://api.researchmap.jp/read0010159/education",
+                    "rm:id": "13304678",
+                    "rm:user_id": "1000020752",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2013-02-08T17:41:35Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2013-02-08T17:41:35Z",
+                    "to_date": "1971",
+                    "rm:institution_code": "0264001000",
+                    "affiliation": {
+                        "ja": "名古屋工業大学",
+                        "en": "Nagoya Institute of Technology"
+                    },
+                    "department": {
+                        "ja": "工学部",
+                        "en": "Faculty of Engineering"
+                    },
+                    "course": {
+                        "ja": "電気工学"
+                    },
+                    "address_country": "JPN"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010159/education/13304676",
+                    "@type": "education",
+                    "@reverse": "https://api.researchmap.jp/read0010159/education",
+                    "rm:id": "13304676",
+                    "rm:user_id": "1000020752",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2013-02-08T17:41:34Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2013-02-08T17:41:34Z",
+                    "to_date": "1971",
+                    "rm:institution_code": "0264000000",
+                    "affiliation": {
+                        "ja": "名古屋工業大学",
+                        "en": "Nagoya Institute of Technology"
+                    },
+                    "department": {
+                        "en": "Faculty of Engineering"
+                    },
+                    "course": {
+                        "en": "電気工学"
+                    }
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0010159/committee_memberships",
+            "@type": "committee_memberships",
+            "@reverse": "https://api.researchmap.jp/read0010159",
+            "total_items": 4,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0010159/committee_memberships/2978351",
+                    "@type": "committee_memberships",
+                    "@reverse": "https://api.researchmap.jp/read0010159/committee_memberships",
+                    "rm:id": "2978351",
+                    "rm:user_id": "1000020752",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2013-02-08T17:41:35Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2013-02-08T17:41:35Z",
+                    "to_date": "2002",
+                    "committee_name": {
+                        "ja": "調査専門委員会委員"
+                    },
+                    "association": {
+                        "ja": "電気学会"
+                    },
+                    "description": {
+                        "ja": "電気学会\n1999.00.00-2002.00.00"
+                    },
+                    "committee_type": "society"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010159/committee_memberships/2978350",
+                    "@type": "committee_memberships",
+                    "@reverse": "https://api.researchmap.jp/read0010159/committee_memberships",
+                    "rm:id": "2978350",
+                    "rm:user_id": "1000020752",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2013-02-08T17:41:35Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2013-02-08T17:41:35Z",
+                    "to_date": "2002",
+                    "committee_name": {
+                        "ja": "論文委員会査読委員"
+                    },
+                    "association": {
+                        "ja": "電気学会"
+                    },
+                    "description": {
+                        "ja": "電気学会\n1997.00.00-2002.00.00"
+                    },
+                    "committee_type": "society"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010159/committee_memberships/2978349",
+                    "@type": "committee_memberships",
+                    "@reverse": "https://api.researchmap.jp/read0010159/committee_memberships",
+                    "rm:id": "2978349",
+                    "rm:user_id": "1000020752",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2013-02-08T17:41:35Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2013-02-08T17:41:35Z",
+                    "from_date": "2000",
+                    "committee_name": {
+                        "ja": "評議員"
+                    },
+                    "association": {
+                        "ja": "パワーエレクトロニクス学会"
+                    },
+                    "description": {
+                        "ja": "パワーエレクトロニクス学会"
+                    },
+                    "committee_type": "society"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010159/committee_memberships/2978352",
+                    "@type": "committee_memberships",
+                    "@reverse": "https://api.researchmap.jp/read0010159/committee_memberships",
+                    "rm:id": "2978352",
+                    "rm:user_id": "1000020752",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2013-02-08T17:41:35Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2013-02-08T17:41:35Z",
+                    "to_date": "1999",
+                    "committee_name": {
+                        "ja": "北陸支部幹事"
+                    },
+                    "association": {
+                        "ja": "計測自動制御学会"
+                    },
+                    "description": {
+                        "ja": "計測自動制御学会\n1998.00.00-1999.00.00"
+                    },
+                    "committee_type": "society"
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0010159/awards",
+            "@type": "awards",
+            "@reverse": "https://api.researchmap.jp/read0010159",
+            "total_items": 7,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0010159/awards/1471688",
+                    "@type": "awards",
+                    "@reverse": "https://api.researchmap.jp/read0010159/awards",
+                    "rm:id": "1471688",
+                    "rm:user_id": "1000020752",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2013-02-08T17:41:34Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2013-02-08T17:41:34Z",
+                    "award_name": {
+                        "ja": "2006年日経BP技術賞機械システム部門"
+                    },
+                    "award_date": "2006",
+                    "address_country": "JPN"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010159/awards/1471687",
+                    "@type": "awards",
+                    "@reverse": "https://api.researchmap.jp/read0010159/awards",
+                    "rm:id": "1471687",
+                    "rm:user_id": "1000020752",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2013-02-08T17:41:34Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2013-02-08T17:41:34Z",
+                    "award_name": {
+                        "ja": "第35回日本産業技術大賞文部科学大臣賞"
+                    },
+                    "award_date": "2006",
+                    "address_country": "JPN"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010159/awards/1471686",
+                    "@type": "awards",
+                    "@reverse": "https://api.researchmap.jp/read0010159/awards",
+                    "rm:id": "1471686",
+                    "rm:user_id": "1000020752",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2013-02-08T17:41:34Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2013-02-08T17:41:34Z",
+                    "award_name": {
+                        "ja": "超伝導科学技術賞"
+                    },
+                    "award_date": "2006",
+                    "address_country": "JPN"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010159/awards/1471689",
+                    "@type": "awards",
+                    "@reverse": "https://api.researchmap.jp/read0010159/awards",
+                    "rm:id": "1471689",
+                    "rm:user_id": "1000020752",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2013-02-08T17:41:34Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2013-02-08T17:41:34Z",
+                    "award_name": {
+                        "ja": "福井県科学技術奨励賞"
+                    },
+                    "award_date": "2003",
+                    "address_country": "JPN"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010159/awards/1471685",
+                    "@type": "awards",
+                    "@reverse": "https://api.researchmap.jp/read0010159/awards",
+                    "rm:id": "1471685",
+                    "rm:user_id": "1000020752",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2013-02-08T17:41:34Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2013-02-08T17:41:34Z",
+                    "award_name": {
+                        "ja": "発明協会発明奨励賞"
+                    },
+                    "award_date": "1996",
+                    "address_country": "JPN"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010159/awards/1471684",
+                    "@type": "awards",
+                    "@reverse": "https://api.researchmap.jp/read0010159/awards",
+                    "rm:id": "1471684",
+                    "rm:user_id": "1000020752",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2013-02-08T17:41:34Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2013-02-08T17:41:34Z",
+                    "award_name": {
+                        "ja": "小平記念賞"
+                    },
+                    "award_date": "1989",
+                    "address_country": "JPN"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010159/awards/1471683",
+                    "@type": "awards",
+                    "@reverse": "https://api.researchmap.jp/read0010159/awards",
+                    "rm:id": "1471683",
+                    "rm:user_id": "1000020752",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2013-02-08T17:41:34Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2013-02-08T17:41:34Z",
+                    "award_name": {
+                        "ja": "電気学術振興賞論文賞"
+                    },
+                    "award_date": "1989",
+                    "address_country": "JPN"
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0010159/misc",
+            "@type": "misc",
+            "@reverse": "https://api.researchmap.jp/read0010159",
+            "total_items": 63,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0010159/misc/13622169",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0010159/misc",
+                    "rm:id": "13622169",
+                    "rm:user_id": "1000020752",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2013-02-08T17:41:34Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "system",
+                    "rm:modified": "2013-02-08T17:41:34Z",
+                    "paper_title": {
+                        "ja": "適応同定によるＩＭＰＳＭの電機子巻線抵抗推定機能付き位置センサレスベクトル制御"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "杉本 英彦"
+                            },
+                            {
+                                "name": "能登 泰之"
+                            },
+                            {
+                                "name": "菊地 寿江"
+                            },
+                            {
+                                "name": "松本 康し"
+                            }
+                        ]
+                    },
+                    "publication_date": "2009",
+                    "publication_name": {
+                        "ja": "電学論Ｄ"
+                    },
+                    "volume": "129",
+                    "number": "1",
+                    "starting_page": "77",
+                    "ending_page": "87",
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1541/ieejias.129.77"
+                        ],
+                        "issn": [
+                            "0913-6339",
+                            "1348-8163"
+                        ],
+                        "cinii_na_id": [
+                            "10024000191"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1541/ieejias.129.77",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/10024000191",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010159/misc/13622157",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0010159/misc",
+                    "rm:id": "13622157",
+                    "rm:user_id": "1000020752",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2013-02-08T17:41:34Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-08-30T13:25:53Z",
+                    "paper_title": {
+                        "en": "Position sensorless vector control of stator resistance estimation function of IPMSM using adaptive identification"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Hidehiko Sugimoto"
+                            },
+                            {
+                                "name": "Yasuyuki Noto"
+                            },
+                            {
+                                "name": "Toshie Kikuchi"
+                            },
+                            {
+                                "name": "Yasushi Matsumoto"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "In the position sensorless vector control of IPMSM, the high frequency signals are usually applied at low speed. However, the application of the high frequency signals will cause noise. The decrease of the noise is required in the railways usage. Therefore, the development of the method without the impression of the high frequency signals that even low speed can carry out the accurate estimation of the rotor position and the rotational speed is demanded. This paper proposes the position sensorless vector control method of IPMSM with the following feature. \"Even at low speed, the influence of the stator resistance variation isn't received easily because the proposed method has the stator resistance estimation function.\" The success of the proposed method is demonstrated by experiments. © 2009 The Institute of Electrical Engineers of Japan."
+                    },
+                    "publication_date": "2009",
+                    "publication_name": {
+                        "en": "IEEJ Transactions on Industry Applications"
+                    },
+                    "volume": "129",
+                    "number": "1",
+                    "starting_page": "10",
+                    "ending_page": "87",
+                    "languages": [
+                        "jpn",
+                        "eng"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1541/ieejias.129.77"
+                        ],
+                        "issn": [
+                            "0913-6339",
+                            "1348-8163"
+                        ],
+                        "scopus_id": [
+                            "72449148769"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1541/ieejias.129.77",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010159/misc/13622172",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0010159/misc",
+                    "rm:id": "13622172",
+                    "rm:user_id": "1000020752",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2013-02-08T17:41:34Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "system",
+                    "rm:modified": "2013-02-08T17:41:34Z",
+                    "paper_title": {
+                        "ja": "Development of an HTS motor with Holminum 123 field superconducting coils at liquid nitrogen tempereture"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "H.Sugimoto"
+                            },
+                            {
+                                "name": "Z.Wang"
+                            },
+                            {
+                                "name": "T.Morishita"
+                            },
+                            {
+                                "name": "Y.Hondou"
+                            },
+                            {
+                                "name": "T.Takeda"
+                            },
+                            {
+                                "name": "H.Togawa"
+                            }
+                        ]
+                    },
+                    "publication_date": "2008",
+                    "publication_name": {
+                        "ja": "Journal of Physics: Conference Series"
+                    },
+                    "volume": "97",
+                    "starting_page": "012200: 1-6",
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1088/1742-6596/97/1/012200"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1088/1742-6596/97/1/012200",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010159/misc/13622171",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0010159/misc",
+                    "rm:id": "13622171",
+                    "rm:user_id": "1000020752",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2013-02-08T17:41:34Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-06-07T12:56:57Z",
+                    "paper_title": {
+                        "en": "Development and test of an axial flux type PM synchronous motor with liquid nitrogen cooled HTS armature windings"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "H. Sugimoto"
+                            },
+                            {
+                                "name": "T. Morishita"
+                            },
+                            {
+                                "name": "T. Tsuda"
+                            },
+                            {
+                                "name": "T. Takeda"
+                            },
+                            {
+                                "name": "H. Togawa"
+                            },
+                            {
+                                "name": "T. Oota"
+                            },
+                            {
+                                "name": "K. Ohmatsu"
+                            },
+                            {
+                                "name": "S. Yoshida"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "We developed an axial gap permanent magnet type superconducting synchronous motor cooled by liquid nitrogen (LN2). The motor includes 8 poles and 6 armature windings. The armature windings are made from BSCCO wire operated at the temperature level between 66K similar to 70K. The design of the rated output is 400kW at 250rpm. Because HTS wires produce AC loss, there are few motors developed with a superconducting armature winding. In a large capacity motor, HTS windings need to be connected in parallel way. However, the parallel connection causes different current flowing to each HTS winding. To solve this problem, we connected a current distributor to the motor. As a result, not only the current difference can be suppressed, but also the current of each winding can be adjusted freely. The low frequency and less flux penetrating HTS wire because of current distributor contribute to low AC loss. This motor is an axial gap rotating-field one, the cooling parts are fixed. This directly leads to simple cooling system. The motor is also brushless. This paper presents the structure, the analysis of the motor and the tests."
+                    },
+                    "publisher": {
+                        "en": "IOP PUBLISHING LTD"
+                    },
+                    "publication_date": "2008",
+                    "publication_name": {
+                        "en": "8TH EUROPEAN CONFERENCE ON APPLIED SUPERCONDUCTIVITY (EUCAS'07)"
+                    },
+                    "volume": "97",
+                    "starting_page": "012203: 1-6",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1088/1742-6596/97/1/012203"
+                        ],
+                        "issn": [
+                            "1742-6588"
+                        ],
+                        "wos_id": [
+                            "WOS:000276054100202"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1088/1742-6596/97/1/012203",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000276054100202&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010159/misc/13622170",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0010159/misc",
+                    "rm:id": "13622170",
+                    "rm:user_id": "1000020752",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2013-02-08T17:41:34Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-09-08T00:59:48Z",
+                    "paper_title": {
+                        "ja": "高温超電導体を使用した低速用超電導モータ",
+                        "en": "High-temperature Superconductor Motor for Low-speed Applications"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "SUGIMOTO Hidehiko"
+                            }
+                        ],
+                        "ja": [
+                            {
+                                "name": "杉本 英彦"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "低温工学協会"
+                    },
+                    "publication_date": "2008",
+                    "publication_name": {
+                        "ja": "低温工学",
+                        "en": "Journal of the Cryogenic Society of Japan"
+                    },
+                    "volume": "43",
+                    "number": "11",
+                    "starting_page": "460",
+                    "ending_page": "467",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "0389-2441",
+                            "1880-0408"
+                        ],
+                        "cinii_na_id": [
+                            "10024633605"
+                        ],
+                        "cinii_nc_id": [
+                            "AN00333419"
+                        ],
+                        "doi": [
+                            "10.2221/jcsj.43.460"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/10024633605",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_books",
+                            "@id": "http://ci.nii.ac.jp/ncid/AN00333419",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.2221/jcsj.43.460",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "http://id.ndl.go.jp/bib/9736409",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010159/misc/13622160",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0010159/misc",
+                    "rm:id": "13622160",
+                    "rm:user_id": "1000020752",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2013-02-08T17:41:34Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "system",
+                    "rm:modified": "2013-02-08T17:41:34Z",
+                    "paper_title": {
+                        "en": "Development of an HTS motor with Holminum 123 field superconducting coils at liquid nitrogen tempereture"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "H.Sugimoto"
+                            },
+                            {
+                                "name": "Z.Wang"
+                            },
+                            {
+                                "name": "T.Morishita"
+                            },
+                            {
+                                "name": "Y.Hondou"
+                            },
+                            {
+                                "name": "T.Takeda"
+                            },
+                            {
+                                "name": "H.Togawa"
+                            }
+                        ]
+                    },
+                    "publication_date": "2008",
+                    "publication_name": {
+                        "en": "Journal of Physics: Conference Series"
+                    },
+                    "volume": "97",
+                    "starting_page": "012200: 1-6",
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1088/1742-6596/97/1/012200"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1088/1742-6596/97/1/012200",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010159/misc/13622159",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0010159/misc",
+                    "rm:id": "13622159",
+                    "rm:user_id": "1000020752",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2013-02-08T17:41:34Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-06-07T12:56:57Z",
+                    "paper_title": {
+                        "en": "Development and test of an axial flux type PM synchronous motor with liquid nitrogen cooled HTS armature windings"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "H. Sugimoto"
+                            },
+                            {
+                                "name": "T. Morishita"
+                            },
+                            {
+                                "name": "T. Tsuda"
+                            },
+                            {
+                                "name": "T. Takeda"
+                            },
+                            {
+                                "name": "H. Togawa"
+                            },
+                            {
+                                "name": "T. Oota"
+                            },
+                            {
+                                "name": "K. Ohmatsu"
+                            },
+                            {
+                                "name": "S. Yoshida"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "We developed an axial gap permanent magnet type superconducting synchronous motor cooled by liquid nitrogen (LN2). The motor includes 8 poles and 6 armature windings. The armature windings are made from BSCCO wire operated at the temperature level between 66K similar to 70K. The design of the rated output is 400kW at 250rpm. Because HTS wires produce AC loss, there are few motors developed with a superconducting armature winding. In a large capacity motor, HTS windings need to be connected in parallel way. However, the parallel connection causes different current flowing to each HTS winding. To solve this problem, we connected a current distributor to the motor. As a result, not only the current difference can be suppressed, but also the current of each winding can be adjusted freely. The low frequency and less flux penetrating HTS wire because of current distributor contribute to low AC loss. This motor is an axial gap rotating-field one, the cooling parts are fixed. This directly leads to simple cooling system. The motor is also brushless. This paper presents the structure, the analysis of the motor and the tests."
+                    },
+                    "publisher": {
+                        "en": "IOP PUBLISHING LTD"
+                    },
+                    "publication_date": "2008",
+                    "publication_name": {
+                        "en": "8TH EUROPEAN CONFERENCE ON APPLIED SUPERCONDUCTIVITY (EUCAS'07)"
+                    },
+                    "volume": "97",
+                    "starting_page": "012203: 1-6",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1088/1742-6596/97/1/012203"
+                        ],
+                        "issn": [
+                            "1742-6588"
+                        ],
+                        "wos_id": [
+                            "WOS:000276054100202"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1088/1742-6596/97/1/012203",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000276054100202&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010159/misc/13622158",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0010159/misc",
+                    "rm:id": "13622158",
+                    "rm:user_id": "1000020752",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2013-02-08T17:41:34Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "system",
+                    "rm:modified": "2013-02-08T17:41:34Z",
+                    "paper_title": {
+                        "en": "High-temperature Superconductor Motor for Low-speed Apptications"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Hidehiko Sugimoto"
+                            }
+                        ]
+                    },
+                    "publication_date": "2008",
+                    "publication_name": {
+                        "en": "TION KOGAKU (J. Cryo. Soc.Jpn.)"
+                    },
+                    "volume": "43",
+                    "number": "11",
+                    "starting_page": "460",
+                    "ending_page": "467",
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.2221/jcsj.43.460"
+                        ],
+                        "issn": [
+                            "0389-2441",
+                            "1880-0408"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.2221/jcsj.43.460",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010159/misc/13622175",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0010159/misc",
+                    "rm:id": "13622175",
+                    "rm:user_id": "1000020752",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2013-02-08T17:41:34Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-05-11T02:24:03Z",
+                    "paper_title": {
+                        "en": "Design of an axial flux inductor type synchronous motor with the liquid nitrogen cooled field and armature HTS windings"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Hidehiko Sugimoto"
+                            },
+                            {
+                                "name": "Teppei Tsuda"
+                            },
+                            {
+                                "name": "Takaya Morishita"
+                            },
+                            {
+                                "name": "Yoshinori Hondou"
+                            },
+                            {
+                                "name": "Toshio Takeda"
+                            },
+                            {
+                                "name": "Hiroyuki Togawa"
+                            },
+                            {
+                                "name": "Tomoya Oota"
+                            },
+                            {
+                                "name": "Kazuya Ohmatsu"
+                            },
+                            {
+                                "name": "Shigeru Yoshida"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "A liquid nitrogen cooled axial flux type high temperature superconducting (HTS) synchronous motor was designed. This motor is an eight-pole inductor type synchronous motor with six armature windings. The field windings and armature windings are made of the BSCCO HTS wires. We called it Inductor type Flux Control Superconducting (IFCS) motor, and its output is 400 kW at the rated speed of 250 rpm. Until now, there were few armature windings using HTS wires, because of AC losses generation when the wires are used in the alternating magnetic field. In this motor, we used iron cores to decrease AC loss. Also because of the help of iron cores, it is,possible to make use of armature winding at liquid nitrogen temperature. Furthermore, inductors were employed in the rotor. As a result, the cryostats that contain field HTS windings and armature HTS windings can be fixed; also we do not need the excitation devices such as the brushes and slip ring and the cooling devices such as the rotary joint to offer the path for coolant to flow."
+                    },
+                    "publisher": {
+                        "en": "IEEE-INST ELECTRICAL ELECTRONICS ENGINEERS INC"
+                    },
+                    "publication_date": "2007-06",
+                    "publication_name": {
+                        "en": "IEEE TRANSACTIONS ON APPLIED SUPERCONDUCTIVITY"
+                    },
+                    "volume": "17",
+                    "number": "2",
+                    "starting_page": "1571",
+                    "ending_page": "1574",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1109/TASC.2007.898110"
+                        ],
+                        "issn": [
+                            "1051-8223"
+                        ],
+                        "wos_id": [
+                            "WOS:000248442600132"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1109/TASC.2007.898110",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000248442600132&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010159/misc/13622174",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0010159/misc",
+                    "rm:id": "13622174",
+                    "rm:user_id": "1000020752",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2013-02-08T17:41:34Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-05-12T08:45:16Z",
+                    "paper_title": {
+                        "en": "Development of an axial flux type PM synchronous motor with the liquid nitrogen cooled HTS armature windings"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Hidehiko Sugimoto"
+                            },
+                            {
+                                "name": "Teppei Tsuda"
+                            },
+                            {
+                                "name": "Takaya Morishita"
+                            },
+                            {
+                                "name": "Yoshinori Hondou"
+                            },
+                            {
+                                "name": "Toshio Takeda"
+                            },
+                            {
+                                "name": "Hiroyuki Togawa"
+                            },
+                            {
+                                "name": "Tomoya Oota"
+                            },
+                            {
+                                "name": "Kazuya Ohmatsu"
+                            },
+                            {
+                                "name": "Shigeru Yoshida"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "We developed an axial gap permanent magnet type high temperature superconducting synchronous motor (PMHTSSM) at liquid nitrogen temperature. There are two distinctive differences between this motor and the conventional HTS motors. The permanent magnet is applied to the field, iron cores and HTS wires are used as the armature. The motor has eight field poles, and six armature windings. The armature is put between the two fields. The field composes eight permanent magnets which are arranged as a circle. Four poles share three armature coils and there are two coils for every phase. The BSCCO wires, which are applied to armature windings, work at the temperatures of between 66 K and 70 K. The rated output is 400 kW at 250 rpm. It is known that superconducting wires have AC loss if they are operated at alternating magnetic fields. That is why there are few motors developed with superconducting armature windings. Also, there is no report of motors applying HTS wires such as BSCCO wires to armature windings. Furthermore, this motor adopted the revolving field type structure, so the brushes were not needed and the cooling system can be fixed. Also because of the axial-flux type, the structure of the cryostat can be simplified."
+                    },
+                    "publisher": {
+                        "en": "IEEE-INST ELECTRICAL ELECTRONICS ENGINEERS INC"
+                    },
+                    "publication_date": "2007-06",
+                    "publication_name": {
+                        "en": "IEEE TRANSACTIONS ON APPLIED SUPERCONDUCTIVITY"
+                    },
+                    "volume": "17",
+                    "number": "2",
+                    "starting_page": "1637",
+                    "ending_page": "1640",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1109/TASC.2007.899959"
+                        ],
+                        "issn": [
+                            "1051-8223"
+                        ],
+                        "wos_id": [
+                            "WOS:000248442600148"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1109/TASC.2007.899959",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000248442600148&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010159/misc/13622173",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0010159/misc",
+                    "rm:id": "13622173",
+                    "rm:user_id": "1000020752",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2013-02-08T17:41:34Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-05-13T03:28:12Z",
+                    "paper_title": {
+                        "en": "HTS bulk pole-field magnets motor with a multiple rotor cooled by liquid nitrogen"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Hirohisa Matsuzaki"
+                            },
+                            {
+                                "name": "Yousuke Kimura"
+                            },
+                            {
+                                "name": "Eisuke Morita"
+                            },
+                            {
+                                "name": "Hideaki Ogata"
+                            },
+                            {
+                                "name": "Tetsuya Ida"
+                            },
+                            {
+                                "name": "Mitsuru Izumi"
+                            },
+                            {
+                                "name": "Hidehiko Sugimoto"
+                            },
+                            {
+                                "name": "Motohiro Miki"
+                            },
+                            {
+                                "name": "Masahiro Kitano"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "High-T(c) superconductor (HTS) rotating machine with melt-textured Gd-123 bulk pole-field magnets was assembled and tested. The axial gap type motor with neither brush/slip ring nor iron core was composed of a kind of multiple rotor, i.e., a twinned rotor. On each rotor disk, there are eight Gd-123 HTS bulk magnets. The bulk magnets were cooled down with circulating liquid nitrogen supplied inside the rotors. Separately, triple-layered armature copper coils cooled with liquid nitrogen were fixed for pulsed current magnetization for the bulks. Rotation of the twinned rotor provide a better single-phase waveform in 200 rpm compared to in single rotor operation. Magnetic flux density and its distribution on each bulk are stable with averaged decay of 4% for seven hours continuous synchronous operation. The results give a poof on the realization of strong flux collection motor."
+                    },
+                    "publisher": {
+                        "en": "IEEE-INST ELECTRICAL ELECTRONICS ENGINEERS INC"
+                    },
+                    "publication_date": "2007-06",
+                    "publication_name": {
+                        "en": "IEEE TRANSACTIONS ON APPLIED SUPERCONDUCTIVITY"
+                    },
+                    "volume": "17",
+                    "number": "2",
+                    "starting_page": "1553",
+                    "ending_page": "1556",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1109/TASC.2007.898488"
+                        ],
+                        "issn": [
+                            "1051-8223"
+                        ],
+                        "wos_id": [
+                            "WOS:000248442600128"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1109/TASC.2007.898488",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000248442600128&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010159/misc/13622163",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0010159/misc",
+                    "rm:id": "13622163",
+                    "rm:user_id": "1000020752",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2013-02-08T17:41:34Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-05-11T02:24:03Z",
+                    "paper_title": {
+                        "en": "Design of an axial flux inductor type synchronous motor with the liquid nitrogen cooled field and armature HTS windings"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Hidehiko Sugimoto"
+                            },
+                            {
+                                "name": "Teppei Tsuda"
+                            },
+                            {
+                                "name": "Takaya Morishita"
+                            },
+                            {
+                                "name": "Yoshinori Hondou"
+                            },
+                            {
+                                "name": "Toshio Takeda"
+                            },
+                            {
+                                "name": "Hiroyuki Togawa"
+                            },
+                            {
+                                "name": "Tomoya Oota"
+                            },
+                            {
+                                "name": "Kazuya Ohmatsu"
+                            },
+                            {
+                                "name": "Shigeru Yoshida"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "A liquid nitrogen cooled axial flux type high temperature superconducting (HTS) synchronous motor was designed. This motor is an eight-pole inductor type synchronous motor with six armature windings. The field windings and armature windings are made of the BSCCO HTS wires. We called it Inductor type Flux Control Superconducting (IFCS) motor, and its output is 400 kW at the rated speed of 250 rpm. Until now, there were few armature windings using HTS wires, because of AC losses generation when the wires are used in the alternating magnetic field. In this motor, we used iron cores to decrease AC loss. Also because of the help of iron cores, it is,possible to make use of armature winding at liquid nitrogen temperature. Furthermore, inductors were employed in the rotor. As a result, the cryostats that contain field HTS windings and armature HTS windings can be fixed; also we do not need the excitation devices such as the brushes and slip ring and the cooling devices such as the rotary joint to offer the path for coolant to flow."
+                    },
+                    "publisher": {
+                        "en": "IEEE-INST ELECTRICAL ELECTRONICS ENGINEERS INC"
+                    },
+                    "publication_date": "2007-06",
+                    "publication_name": {
+                        "en": "IEEE TRANSACTIONS ON APPLIED SUPERCONDUCTIVITY"
+                    },
+                    "volume": "17",
+                    "number": "2",
+                    "starting_page": "1571",
+                    "ending_page": "1574",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1109/TASC.2007.898110"
+                        ],
+                        "issn": [
+                            "1051-8223"
+                        ],
+                        "wos_id": [
+                            "WOS:000248442600132"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1109/TASC.2007.898110",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000248442600132&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010159/misc/13622162",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0010159/misc",
+                    "rm:id": "13622162",
+                    "rm:user_id": "1000020752",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2013-02-08T17:41:34Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-05-12T08:45:16Z",
+                    "paper_title": {
+                        "en": "Development of an axial flux type PM synchronous motor with the liquid nitrogen cooled HTS armature windings"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Hidehiko Sugimoto"
+                            },
+                            {
+                                "name": "Teppei Tsuda"
+                            },
+                            {
+                                "name": "Takaya Morishita"
+                            },
+                            {
+                                "name": "Yoshinori Hondou"
+                            },
+                            {
+                                "name": "Toshio Takeda"
+                            },
+                            {
+                                "name": "Hiroyuki Togawa"
+                            },
+                            {
+                                "name": "Tomoya Oota"
+                            },
+                            {
+                                "name": "Kazuya Ohmatsu"
+                            },
+                            {
+                                "name": "Shigeru Yoshida"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "We developed an axial gap permanent magnet type high temperature superconducting synchronous motor (PMHTSSM) at liquid nitrogen temperature. There are two distinctive differences between this motor and the conventional HTS motors. The permanent magnet is applied to the field, iron cores and HTS wires are used as the armature. The motor has eight field poles, and six armature windings. The armature is put between the two fields. The field composes eight permanent magnets which are arranged as a circle. Four poles share three armature coils and there are two coils for every phase. The BSCCO wires, which are applied to armature windings, work at the temperatures of between 66 K and 70 K. The rated output is 400 kW at 250 rpm. It is known that superconducting wires have AC loss if they are operated at alternating magnetic fields. That is why there are few motors developed with superconducting armature windings. Also, there is no report of motors applying HTS wires such as BSCCO wires to armature windings. Furthermore, this motor adopted the revolving field type structure, so the brushes were not needed and the cooling system can be fixed. Also because of the axial-flux type, the structure of the cryostat can be simplified."
+                    },
+                    "publisher": {
+                        "en": "IEEE-INST ELECTRICAL ELECTRONICS ENGINEERS INC"
+                    },
+                    "publication_date": "2007-06",
+                    "publication_name": {
+                        "en": "IEEE TRANSACTIONS ON APPLIED SUPERCONDUCTIVITY"
+                    },
+                    "volume": "17",
+                    "number": "2",
+                    "starting_page": "1637",
+                    "ending_page": "1640",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1109/TASC.2007.899959"
+                        ],
+                        "issn": [
+                            "1051-8223"
+                        ],
+                        "wos_id": [
+                            "WOS:000248442600148"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1109/TASC.2007.899959",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000248442600148&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010159/misc/13622161",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0010159/misc",
+                    "rm:id": "13622161",
+                    "rm:user_id": "1000020752",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2013-02-08T17:41:34Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-05-13T03:28:12Z",
+                    "paper_title": {
+                        "en": "HTS bulk pole-field magnets motor with a multiple rotor cooled by liquid nitrogen"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Hirohisa Matsuzaki"
+                            },
+                            {
+                                "name": "Yousuke Kimura"
+                            },
+                            {
+                                "name": "Eisuke Morita"
+                            },
+                            {
+                                "name": "Hideaki Ogata"
+                            },
+                            {
+                                "name": "Tetsuya Ida"
+                            },
+                            {
+                                "name": "Mitsuru Izumi"
+                            },
+                            {
+                                "name": "Hidehiko Sugimoto"
+                            },
+                            {
+                                "name": "Motohiro Miki"
+                            },
+                            {
+                                "name": "Masahiro Kitano"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "High-T(c) superconductor (HTS) rotating machine with melt-textured Gd-123 bulk pole-field magnets was assembled and tested. The axial gap type motor with neither brush/slip ring nor iron core was composed of a kind of multiple rotor, i.e., a twinned rotor. On each rotor disk, there are eight Gd-123 HTS bulk magnets. The bulk magnets were cooled down with circulating liquid nitrogen supplied inside the rotors. Separately, triple-layered armature copper coils cooled with liquid nitrogen were fixed for pulsed current magnetization for the bulks. Rotation of the twinned rotor provide a better single-phase waveform in 200 rpm compared to in single rotor operation. Magnetic flux density and its distribution on each bulk are stable with averaged decay of 4% for seven hours continuous synchronous operation. The results give a poof on the realization of strong flux collection motor."
+                    },
+                    "publisher": {
+                        "en": "IEEE-INST ELECTRICAL ELECTRONICS ENGINEERS INC"
+                    },
+                    "publication_date": "2007-06",
+                    "publication_name": {
+                        "en": "IEEE TRANSACTIONS ON APPLIED SUPERCONDUCTIVITY"
+                    },
+                    "volume": "17",
+                    "number": "2",
+                    "starting_page": "1553",
+                    "ending_page": "1556",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1109/TASC.2007.898488"
+                        ],
+                        "issn": [
+                            "1051-8223"
+                        ],
+                        "wos_id": [
+                            "WOS:000248442600128"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1109/TASC.2007.898488",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000248442600128&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010159/misc/13622181",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0010159/misc",
+                    "rm:id": "13622181",
+                    "rm:user_id": "1000020752",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2013-02-08T17:41:34Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-05-17T04:09:14Z",
+                    "paper_title": {
+                        "en": "Trial manufacture of liquid nitrogen cooling High Temperature Superconductivity Motor"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "H. Sugimoto"
+                            },
+                            {
+                                "name": "T. Nishikawa"
+                            },
+                            {
+                                "name": "T. Tsuda"
+                            },
+                            {
+                                "name": "Y. Hondou"
+                            },
+                            {
+                                "name": "Y. Akita"
+                            },
+                            {
+                                "name": "T. Takeda"
+                            },
+                            {
+                                "name": "T. Okazaki"
+                            },
+                            {
+                                "name": "S. Ohashi"
+                            },
+                            {
+                                "name": "Y. Yoshida"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "We present a new high temperature superconductivity (HTS) synchronous motor using the liquid nitrogen as the refrigerant in this paper. This motor is designed to be used as the propulsion motor in ship. Because we use the liquid nitrogen as the refrigerant, it is possible to simplify the cooling equipments in the motor. And in our design, we apply the axial flux type of motor to simplify the cryostat of the HTS wires used to make the field coils. Here, the fields using the bismuth HTS wire for the HTS coils are fixed. Moreover, the cores used in the fields are separated from cryostat, and the armature applies the core-less structure. According to various the electromagnetic field analysis results, the new motor was designed and produced. The diameter of the motor is 650mm, and the width of the motor is 360mm. The motor's rated output is 8.8kW at 100rpm, while the overload output is 44kW, and the maximum efficiency is 97.7%. Also, in order to further miniaturize the motor, other magnetic field analysis have been done when the high-current-density type HTS wire was used and the permendur was used instead of magnetic steel plates. In this case, the motor's rated output is 12kW, and the overload output is 60kW."
+                    },
+                    "publisher": {
+                        "en": "IOP PUBLISHING LTD"
+                    },
+                    "publication_date": "2006",
+                    "publication_name": {
+                        "en": "7TH EUROPEAN CONFERENCE ON APPLIED SUPERCONDUCTIVITY (EUCAS'05)"
+                    },
+                    "volume": "43",
+                    "starting_page": "780",
+                    "ending_page": "783",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1088/1742-6596/43/1/190"
+                        ],
+                        "issn": [
+                            "1742-6588"
+                        ],
+                        "wos_id": [
+                            "WOS:000277479400190"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1088/1742-6596/43/1/190",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000277479400190&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010159/misc/13622180",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0010159/misc",
+                    "rm:id": "13622180",
+                    "rm:user_id": "1000020752",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2013-02-08T17:41:34Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-09-14T12:03:39Z",
+                    "paper_title": {
+                        "ja": "高温超伝導溶融バルク体の船舶用モーターへの応用",
+                        "en": "Application of high-temperature superconductor bulk in ship propulsion motor"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "MATSUZAKI Hirohisa"
+                            },
+                            {
+                                "name": "MIKI Motohiro"
+                            },
+                            {
+                                "name": "KIMURA Yousuke"
+                            },
+                            {
+                                "name": "IDA Tetsuya"
+                            },
+                            {
+                                "name": "SUGIMOTO Hidehiko"
+                            },
+                            {
+                                "name": "KITANO Masahiro"
+                            },
+                            {
+                                "name": "IZUMI Mitsuru"
+                            }
+                        ],
+                        "ja": [
+                            {
+                                "name": "松崎 弘久"
+                            },
+                            {
+                                "name": "三木 基寛"
+                            },
+                            {
+                                "name": "木村 洋介"
+                            },
+                            {
+                                "name": "井田 徹哉"
+                            },
+                            {
+                                "name": "杉本 英彦"
+                            },
+                            {
+                                "name": "北野 雅裕"
+                            },
+                            {
+                                "name": "和泉 充"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "応用物理学会"
+                    },
+                    "publication_date": "2006",
+                    "publication_name": {
+                        "ja": "応用物理"
+                    },
+                    "volume": "75",
+                    "number": "1",
+                    "starting_page": "58",
+                    "ending_page": "62",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "0369-8009"
+                        ],
+                        "cinii_na_id": [
+                            "10016960162"
+                        ],
+                        "cinii_nc_id": [
+                            "AN00026679"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/10016960162",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_books",
+                            "@id": "http://ci.nii.ac.jp/ncid/AN00026679",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "http://id.ndl.go.jp/bib/7785128",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010159/misc/13622179",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0010159/misc",
+                    "rm:id": "13622179",
+                    "rm:user_id": "1000020752",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2013-02-08T17:41:34Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2013-02-08T17:41:34Z",
+                    "paper_title": {
+                        "ja": "Low loss passive snubber in push-pull voltage source inverter"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "J.Wu"
+                            },
+                            {
+                                "name": "H.Sugimoto"
+                            }
+                        ]
+                    },
+                    "publication_date": "2006",
+                    "publication_name": {
+                        "ja": "中国電気工程学報"
+                    },
+                    "volume": "26",
+                    "number": "11",
+                    "starting_page": "93",
+                    "ending_page": "101",
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010159/misc/13622178",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0010159/misc",
+                    "rm:id": "13622178",
+                    "rm:user_id": "1000020752",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2013-02-08T17:41:34Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "system",
+                    "rm:modified": "2013-02-08T17:41:34Z",
+                    "paper_title": {
+                        "ja": "インバータで駆動される圧電トランス及び冷陰極管で構成される系の最高効率制御法とその特性"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "杉本 英彦"
+                            },
+                            {
+                                "name": "清水 俊浩"
+                            },
+                            {
+                                "name": "森島 靖之"
+                            }
+                        ]
+                    },
+                    "publication_date": "2006",
+                    "publication_name": {
+                        "ja": "電気学会論文誌Ｄ"
+                    },
+                    "volume": "126",
+                    "number": "7",
+                    "starting_page": "961",
+                    "ending_page": "970",
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1541/ieejias.126.961"
+                        ],
+                        "issn": [
+                            "0913-6339",
+                            "1348-8163"
+                        ],
+                        "cinii_na_id": [
+                            "10018146830"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1541/ieejias.126.961",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/10018146830",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010159/misc/13622177",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0010159/misc",
+                    "rm:id": "13622177",
+                    "rm:user_id": "1000020752",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2013-02-08T17:41:34Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2013-02-08T17:41:34Z",
+                    "paper_title": {
+                        "ja": "The design method based on data visualization technique to optimize performance of T-network filter used in inverter"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "J.Wu"
+                            },
+                            {
+                                "name": "B.Xie, S.Wu"
+                            },
+                            {
+                                "name": "H.Sugimoto"
+                            }
+                        ]
+                    },
+                    "publication_date": "2006",
+                    "publication_name": {
+                        "ja": "中国電気工程学報"
+                    },
+                    "volume": "26",
+                    "number": "22",
+                    "starting_page": "85",
+                    "ending_page": "91",
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010159/misc/13622176",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0010159/misc",
+                    "rm:id": "13622176",
+                    "rm:user_id": "1000020752",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2013-02-08T17:41:34Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2013-02-08T17:41:34Z",
+                    "paper_title": {
+                        "ja": "Indirect estimate method of electronic transformer parameters"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "J.Wu"
+                            },
+                            {
+                                "name": "H.Sugimoto"
+                            }
+                        ]
+                    },
+                    "publication_date": "2006",
+                    "publication_name": {
+                        "ja": "電工技術学報"
+                    },
+                    "volume": "21",
+                    "number": "12",
+                    "starting_page": "26",
+                    "ending_page": "34",
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0010159/books_etc",
+            "@type": "books_etc",
+            "@reverse": "https://api.researchmap.jp/read0010159",
+            "total_items": 4,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0010159/books_etc/9197621",
+                    "@type": "books_etc",
+                    "@reverse": "https://api.researchmap.jp/read0010159/books_etc",
+                    "rm:id": "9197621",
+                    "rm:user_id": "1000020752",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2013-02-08T17:41:35Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2013-02-08T17:41:35Z",
+                    "book_title": {
+                        "ja": "5章 可変速駆動への応用、7章 家電・民生機器への応用, パワーエレクトロニクス入門"
+                    },
+                    "publisher": {
+                        "ja": "株式会社オーム社"
+                    },
+                    "publication_date": "2006",
+                    "referee": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010159/books_etc/9197622",
+                    "@type": "books_etc",
+                    "@reverse": "https://api.researchmap.jp/read0010159/books_etc",
+                    "rm:id": "9197622",
+                    "rm:user_id": "1000020752",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2013-02-08T17:41:35Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2013-02-08T17:41:35Z",
+                    "book_title": {
+                        "ja": "パワーエレクトロニクス"
+                    },
+                    "publisher": {
+                        "ja": "オーム社"
+                    },
+                    "publication_date": "2005",
+                    "referee": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010159/books_etc/9197623",
+                    "@type": "books_etc",
+                    "@reverse": "https://api.researchmap.jp/read0010159/books_etc",
+                    "rm:id": "9197623",
+                    "rm:user_id": "1000020752",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2013-02-08T17:41:35Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2013-02-08T17:41:35Z",
+                    "book_title": {
+                        "ja": "現代交流電動機ベクトル制御理論の設計と実際"
+                    },
+                    "publisher": {
+                        "ja": "航空工業出版社"
+                    },
+                    "publication_date": "2002",
+                    "referee": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010159/books_etc/9197624",
+                    "@type": "books_etc",
+                    "@reverse": "https://api.researchmap.jp/read0010159/books_etc",
+                    "rm:id": "9197624",
+                    "rm:user_id": "1000020752",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2013-02-08T17:41:35Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2013-02-08T17:41:35Z",
+                    "book_title": {
+                        "ja": "電気工学ハンドブック（第6版）"
+                    },
+                    "publisher": {
+                        "ja": "社団法人電気学会, 868-870"
+                    },
+                    "publication_date": "2001",
+                    "referee": false
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0010159/presentations",
+            "@type": "presentations",
+            "@reverse": "https://api.researchmap.jp/read0010159",
+            "total_items": 63,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0010159/presentations/6588636",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0010159/presentations",
+                    "rm:id": "6588636",
+                    "rm:user_id": "1000020752",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2013-02-08T17:41:35Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2013-02-08T17:41:35Z",
+                    "presentation_title": {
+                        "ja": "IPMSMの位置センサレス制御の高効率一制御法"
+                    },
+                    "event": {
+                        "ja": "平成19年電気学会全国大会"
+                    },
+                    "publication_date": "2007",
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010159/presentations/6588635",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0010159/presentations",
+                    "rm:id": "6588635",
+                    "rm:user_id": "1000020752",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2013-02-08T17:41:35Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2013-02-08T17:41:35Z",
+                    "presentation_title": {
+                        "ja": "適応電流オブザーバを用いたIPMSMの電機子巻線抵抗推定器付き位置センサレス制御"
+                    },
+                    "event": {
+                        "ja": "平成19年電気学会全国大会"
+                    },
+                    "publication_date": "2007",
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010159/presentations/6588634",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0010159/presentations",
+                    "rm:id": "6588634",
+                    "rm:user_id": "1000020752",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2013-02-08T17:41:35Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2013-02-08T17:41:35Z",
+                    "presentation_title": {
+                        "ja": "高温超電導バルクを使用した電動機の開発及びパルス着磁法の検討"
+                    },
+                    "event": {
+                        "ja": "平成19年電気学会全国大会"
+                    },
+                    "publication_date": "2007",
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010159/presentations/6588633",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0010159/presentations",
+                    "rm:id": "6588633",
+                    "rm:user_id": "1000020752",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2013-02-08T17:41:35Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2013-02-08T17:41:35Z",
+                    "presentation_title": {
+                        "ja": "高温超電導バルクを使用した電動機の開発及び性能試験に関する報告"
+                    },
+                    "event": {
+                        "ja": "平成19年電気学会産業応用部門大会"
+                    },
+                    "publication_date": "2007",
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010159/presentations/6588632",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0010159/presentations",
+                    "rm:id": "6588632",
+                    "rm:user_id": "1000020752",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2013-02-08T17:41:35Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2013-02-08T17:41:35Z",
+                    "presentation_title": {
+                        "ja": "Development of an HTS motor with Holminum 123 field superconducting coils at liquid nitrogen tempereture"
+                    },
+                    "event": {
+                        "ja": "8th European Conference on Applied Superconductivity"
+                    },
+                    "publication_date": "2007",
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010159/presentations/6588631",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0010159/presentations",
+                    "rm:id": "6588631",
+                    "rm:user_id": "1000020752",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2013-02-08T17:41:35Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2013-02-08T17:41:35Z",
+                    "presentation_title": {
+                        "ja": "Development and test of an axial flux type PM synchronous motor with liquid nitrogen cooled HTS armature windings"
+                    },
+                    "event": {
+                        "ja": "8th European conference on Applied Superconductivity"
+                    },
+                    "publication_date": "2007",
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010159/presentations/6588630",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0010159/presentations",
+                    "rm:id": "6588630",
+                    "rm:user_id": "1000020752",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2013-02-08T17:41:35Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2013-02-08T17:41:35Z",
+                    "presentation_title": {
+                        "ja": "Pulsed-field magnetization study for Gd123 bulk HTS cooled with condensed Neon for axial-gap type synchronous motor"
+                    },
+                    "event": {
+                        "ja": "8th European Conference on Applied Superconductivity"
+                    },
+                    "publication_date": "2007",
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010159/presentations/6588629",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0010159/presentations",
+                    "rm:id": "6588629",
+                    "rm:user_id": "1000020752",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2013-02-08T17:41:35Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2013-02-08T17:41:35Z",
+                    "presentation_title": {
+                        "ja": "適応同定した磁極位置及び電機子巻線抵抗を用いて構成するIPMSMの位置センサレスベクトル制御法とその特性"
+                    },
+                    "event": {
+                        "ja": "平成19年度電気関係学会北陸支部連合大会"
+                    },
+                    "publication_date": "2007",
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010159/presentations/6588628",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0010159/presentations",
+                    "rm:id": "6588628",
+                    "rm:user_id": "1000020752",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2013-02-08T17:41:34Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2013-02-08T17:41:34Z",
+                    "presentation_title": {
+                        "en": "Development of an HTS motor with Holminum 123 field superconducting coils at liquid nitrogen tempereture"
+                    },
+                    "event": {
+                        "en": "8th European Conference on Applied Superconductivity"
+                    },
+                    "publication_date": "2007",
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010159/presentations/6588627",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0010159/presentations",
+                    "rm:id": "6588627",
+                    "rm:user_id": "1000020752",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2013-02-08T17:41:34Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2013-02-08T17:41:34Z",
+                    "presentation_title": {
+                        "en": "Development and test of an axial flux type PM synchronous motor with liquid nitrogen cooled HTS armature windings"
+                    },
+                    "event": {
+                        "en": "8th European conference on Applied Superconductivity"
+                    },
+                    "publication_date": "2007",
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010159/presentations/6588626",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0010159/presentations",
+                    "rm:id": "6588626",
+                    "rm:user_id": "1000020752",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2013-02-08T17:41:34Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2013-02-08T17:41:34Z",
+                    "presentation_title": {
+                        "en": "Pulsed-field magnetization study for Gd123 bulk HTS cooled with condensed Neon for axial-gap type synchronous motor"
+                    },
+                    "event": {
+                        "en": "8th European Conference on Applied Superconductivity"
+                    },
+                    "publication_date": "2007",
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010159/presentations/6588641",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0010159/presentations",
+                    "rm:id": "6588641",
+                    "rm:user_id": "1000020752",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2013-02-08T17:41:35Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2013-02-08T17:41:35Z",
+                    "presentation_title": {
+                        "ja": "高温超電導電動機の試作"
+                    },
+                    "event": {
+                        "ja": "平成17年電気学会全国大会論文集[5]"
+                    },
+                    "publication_date": "2005",
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010159/presentations/6588640",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0010159/presentations",
+                    "rm:id": "6588640",
+                    "rm:user_id": "1000020752",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2013-02-08T17:41:35Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2013-02-08T17:41:35Z",
+                    "presentation_title": {
+                        "ja": "巻線トランスを用いた冷陰極管点灯用高効率電源の開発"
+                    },
+                    "event": {
+                        "ja": "平成17年電気学会産業応用部門大会論文集[Ⅰ]"
+                    },
+                    "publication_date": "2005",
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010159/presentations/6588639",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0010159/presentations",
+                    "rm:id": "6588639",
+                    "rm:user_id": "1000020752",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2013-02-08T17:41:35Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2013-02-08T17:41:35Z",
+                    "presentation_title": {
+                        "ja": "三相電圧形ＰＷＭインバータの出力電圧検出回路の開発"
+                    },
+                    "event": {
+                        "ja": "平成17年電気学会産業応用部門大会論文集[Ⅰ]"
+                    },
+                    "publication_date": "2005",
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010159/presentations/6588638",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0010159/presentations",
+                    "rm:id": "6588638",
+                    "rm:user_id": "1000020752",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2013-02-08T17:41:35Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2013-02-08T17:41:35Z",
+                    "presentation_title": {
+                        "ja": "適応磁束オブザーバを用いた速度センサレスベクトル制御方式の複数台誘導機駆動システムでの基本性能実験結果"
+                    },
+                    "event": {
+                        "ja": "平成17年電気学会産業応用部門大会論文集[Ⅲ]"
+                    },
+                    "publication_date": "2005",
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010159/presentations/6588637",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0010159/presentations",
+                    "rm:id": "6588637",
+                    "rm:user_id": "1000020752",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2013-02-08T17:41:35Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2013-02-08T17:41:35Z",
+                    "presentation_title": {
+                        "ja": "絶縁形ＤＣ－ＤＣコンバータの高効率化"
+                    },
+                    "event": {
+                        "ja": "平成17年度電気関係学会北陸支部連合大会"
+                    },
+                    "publication_date": "2005",
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010159/presentations/6588651",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0010159/presentations",
+                    "rm:id": "6588651",
+                    "rm:user_id": "1000020752",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2013-02-08T17:41:35Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2013-02-08T17:41:35Z",
+                    "presentation_title": {
+                        "ja": "G<SUB>d</SUB>系バルク高温超伝導体の多層渦巻きコイルによるパルス着磁特性の研究"
+                    },
+                    "event": {
+                        "ja": "2004年春期第51回応用物理学関係連合講演会"
+                    },
+                    "publication_date": "2004",
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010159/presentations/6588650",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0010159/presentations",
+                    "rm:id": "6588650",
+                    "rm:user_id": "1000020752",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2013-02-08T17:41:35Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2013-02-08T17:41:35Z",
+                    "presentation_title": {
+                        "ja": "DCDCコンバータの電流不連続モードにおける伝達関数"
+                    },
+                    "event": {
+                        "ja": "平成16年電気学会全国大会"
+                    },
+                    "publication_date": "2004",
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010159/presentations/6588649",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0010159/presentations",
+                    "rm:id": "6588649",
+                    "rm:user_id": "1000020752",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2013-02-08T17:41:35Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2013-02-08T17:41:35Z",
+                    "presentation_title": {
+                        "ja": "複層界磁構造におけるバルク高温超電導体のパルス着磁特性"
+                    },
+                    "event": {
+                        "ja": "2004年電気学会基礎・材料共通部門大会講演論文集"
+                    },
+                    "publication_date": "2004",
+                    "invited": false,
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010159/presentations/6588648",
+                    "@type": "presentations",
+                    "@reverse": "https://api.researchmap.jp/read0010159/presentations",
+                    "rm:id": "6588648",
+                    "rm:user_id": "1000020752",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2013-02-08T17:41:35Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2013-02-08T17:41:35Z",
+                    "presentation_title": {
+                        "ja": "周波数一定化電流リプル制御スイッチングレギュレータの提案"
+                    },
+                    "event": {
+                        "ja": "平成16年度電気学会産業応用部門大会"
+                    },
+                    "publication_date": "2004",
+                    "invited": false,
+                    "rm:is_open_access": false
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0010159/association_memberships",
+            "@type": "association_memberships",
+            "@reverse": "https://api.researchmap.jp/read0010159",
+            "total_items": 3,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0010159/association_memberships/7331970",
+                    "@type": "association_memberships",
+                    "@reverse": "https://api.researchmap.jp/read0010159/association_memberships",
+                    "rm:id": "7331970",
+                    "rm:user_id": "1000020752",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2013-02-08T17:41:35Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2013-02-08T17:41:35Z",
+                    "academic_society_name": {
+                        "ja": "計測自動制御学会"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010159/association_memberships/7331969",
+                    "@type": "association_memberships",
+                    "@reverse": "https://api.researchmap.jp/read0010159/association_memberships",
+                    "rm:id": "7331969",
+                    "rm:user_id": "1000020752",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2013-02-08T17:41:35Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2013-02-08T17:41:35Z",
+                    "academic_society_name": {
+                        "ja": "電気学会"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010159/association_memberships/7331968",
+                    "@type": "association_memberships",
+                    "@reverse": "https://api.researchmap.jp/read0010159/association_memberships",
+                    "rm:id": "7331968",
+                    "rm:user_id": "1000020752",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2013-02-08T17:41:35Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2013-02-08T17:41:35Z",
+                    "academic_society_name": {
+                        "ja": "パワーエレクトロニクス学会"
+                    }
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0010159/works",
+            "@type": "works",
+            "@reverse": "https://api.researchmap.jp/read0010159",
+            "total_items": 16,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0010159/works/5408383",
+                    "@type": "works",
+                    "@reverse": "https://api.researchmap.jp/read0010159/works",
+                    "rm:id": "5408383",
+                    "rm:user_id": "1000020752",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2013-02-08T17:41:35Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2013-02-08T17:41:35Z",
+                    "work_title": {
+                        "ja": "推進動力用高温超電導同期電動機に関する研究（界磁ー電機子構造の確立）"
+                    },
+                    "from_date": "2007",
+                    "to_date": "2008"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010159/works/5408385",
+                    "@type": "works",
+                    "@reverse": "https://api.researchmap.jp/read0010159/works",
+                    "rm:id": "5408385",
+                    "rm:user_id": "1000020752",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2013-02-08T17:41:35Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2013-02-08T17:41:35Z",
+                    "work_title": {
+                        "ja": "Ｙ系綿材のアキシャルギャップ型電動機への適用性の検討"
+                    },
+                    "from_date": "2006",
+                    "to_date": "2007"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010159/works/5408384",
+                    "@type": "works",
+                    "@reverse": "https://api.researchmap.jp/read0010159/works",
+                    "rm:id": "5408384",
+                    "rm:user_id": "1000020752",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2013-02-08T17:41:35Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2013-02-08T17:41:35Z",
+                    "work_title": {
+                        "ja": "超電導技術の風力用発電機適用の検討"
+                    },
+                    "from_date": "2006",
+                    "to_date": "2007"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010159/works/5408392",
+                    "@type": "works",
+                    "@reverse": "https://api.researchmap.jp/read0010159/works",
+                    "rm:id": "5408392",
+                    "rm:user_id": "1000020752",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2013-02-08T17:41:35Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2013-02-08T17:41:35Z",
+                    "work_title": {
+                        "ja": "推進動力用高温超電導同期電動機に関する研究(界磁－電機子構造の確立)"
+                    },
+                    "from_date": "2005",
+                    "to_date": "2006"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010159/works/5408391",
+                    "@type": "works",
+                    "@reverse": "https://api.researchmap.jp/read0010159/works",
+                    "rm:id": "5408391",
+                    "rm:user_id": "1000020752",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2013-02-08T17:41:35Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2013-02-08T17:41:35Z",
+                    "work_title": {
+                        "ja": "自動車駆動用超電導モータの基本設計と出力・効率解析"
+                    },
+                    "from_date": "2005",
+                    "to_date": "2006"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010159/works/5408390",
+                    "@type": "works",
+                    "@reverse": "https://api.researchmap.jp/read0010159/works",
+                    "rm:id": "5408390",
+                    "rm:user_id": "1000020752",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2013-02-08T17:41:35Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2013-02-08T17:41:35Z",
+                    "work_title": {
+                        "ja": "高温超電導バルクを強界磁に用いる船舶推進用小型高効率同期機の研究, 基盤研究(C)一般"
+                    },
+                    "from_date": "2006"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010159/works/5408389",
+                    "@type": "works",
+                    "@reverse": "https://api.researchmap.jp/read0010159/works",
+                    "rm:id": "5408389",
+                    "rm:user_id": "1000020752",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2013-02-08T17:41:35Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2013-02-08T17:41:35Z",
+                    "work_title": {
+                        "ja": "新型モータの研究開発"
+                    },
+                    "from_date": "2006"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010159/works/5408388",
+                    "@type": "works",
+                    "@reverse": "https://api.researchmap.jp/read0010159/works",
+                    "rm:id": "5408388",
+                    "rm:user_id": "1000020752",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2013-02-08T17:41:35Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2013-02-08T17:41:35Z",
+                    "work_title": {
+                        "ja": "超電導電動機に使用するモータ磁気回路の最適設計をするための共同研究"
+                    },
+                    "from_date": "2006"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010159/works/5408387",
+                    "@type": "works",
+                    "@reverse": "https://api.researchmap.jp/read0010159/works",
+                    "rm:id": "5408387",
+                    "rm:user_id": "1000020752",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2013-02-08T17:41:35Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2013-02-08T17:41:35Z",
+                    "work_title": {
+                        "ja": "高効率可変速モータの研究"
+                    },
+                    "from_date": "2006"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010159/works/5408386",
+                    "@type": "works",
+                    "@reverse": "https://api.researchmap.jp/read0010159/works",
+                    "rm:id": "5408386",
+                    "rm:user_id": "1000020752",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2013-02-08T17:41:35Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2013-02-08T17:41:35Z",
+                    "work_title": {
+                        "ja": "超電導モータの構想研究"
+                    },
+                    "from_date": "2006"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010159/works/5408398",
+                    "@type": "works",
+                    "@reverse": "https://api.researchmap.jp/read0010159/works",
+                    "rm:id": "5408398",
+                    "rm:user_id": "1000020752",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2013-02-08T17:41:35Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2013-02-08T17:41:35Z",
+                    "work_title": {
+                        "ja": "推進動力用高温超電導同期電動機に関する研究（界磁-電機子構造の確立）"
+                    },
+                    "from_date": "2004",
+                    "to_date": "2005"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010159/works/5408397",
+                    "@type": "works",
+                    "@reverse": "https://api.researchmap.jp/read0010159/works",
+                    "rm:id": "5408397",
+                    "rm:user_id": "1000020752",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2013-02-08T17:41:35Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2013-02-08T17:41:35Z",
+                    "work_title": {
+                        "ja": "超電導電動機を用いた船舶用ポッド推進装置を開発するための共同研究"
+                    },
+                    "from_date": "2004",
+                    "to_date": "2005"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010159/works/5408396",
+                    "@type": "works",
+                    "@reverse": "https://api.researchmap.jp/read0010159/works",
+                    "rm:id": "5408396",
+                    "rm:user_id": "1000020752",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2013-02-08T17:41:35Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2013-02-08T17:41:35Z",
+                    "work_title": {
+                        "ja": "自動車駆動システムへの超電導モータの応用"
+                    },
+                    "from_date": "2004",
+                    "to_date": "2005"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010159/works/5408395",
+                    "@type": "works",
+                    "@reverse": "https://api.researchmap.jp/read0010159/works",
+                    "rm:id": "5408395",
+                    "rm:user_id": "1000020752",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2013-02-08T17:41:35Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2013-02-08T17:41:35Z",
+                    "work_title": {
+                        "ja": "豊かな活気あふれるまちづくりを目指した美浜の温浴・産業振興施設の研究"
+                    },
+                    "from_date": "2004",
+                    "to_date": "2005"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010159/works/5408394",
+                    "@type": "works",
+                    "@reverse": "https://api.researchmap.jp/read0010159/works",
+                    "rm:id": "5408394",
+                    "rm:user_id": "1000020752",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2013-02-08T17:41:35Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2013-02-08T17:41:35Z",
+                    "work_title": {
+                        "ja": "超電導電動機に使用するフラックスコレクタを開発するための共同研究"
+                    },
+                    "from_date": "2004",
+                    "to_date": "2005"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010159/works/5408393",
+                    "@type": "works",
+                    "@reverse": "https://api.researchmap.jp/read0010159/works",
+                    "rm:id": "5408393",
+                    "rm:user_id": "1000020752",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2013-02-08T17:41:35Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2013-02-08T17:41:35Z",
+                    "work_title": {
+                        "ja": "超電導モータ用コイルの磁場特性評価"
+                    },
+                    "from_date": "2005"
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0010159/research_projects",
+            "@type": "research_projects",
+            "@reverse": "https://api.researchmap.jp/read0010159",
+            "total_items": 12,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0010159/research_projects/10269785",
+                    "@type": "research_projects",
+                    "@reverse": "https://api.researchmap.jp/read0010159/research_projects",
+                    "rm:id": "10269785",
+                    "rm:user_id": "1000020752",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2013-02-08T17:41:35Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2013-02-08T17:41:35Z",
+                    "research_project_title": {
+                        "ja": "液体窒素冷却高温超電導モータ"
+                    },
+                    "overall_grant_amount": {
+                        "indirect_cost": "0",
+                        "total_cost": "0",
+                        "direct_cost": "0"
+                    },
+                    "fund_type": "competitive_research_funding"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010159/research_projects/10269784",
+                    "@type": "research_projects",
+                    "@reverse": "https://api.researchmap.jp/read0010159/research_projects",
+                    "rm:id": "10269784",
+                    "rm:user_id": "1000020752",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2013-02-08T17:41:35Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2013-02-08T17:41:35Z",
+                    "research_project_title": {
+                        "ja": "埋込磁石形永久磁石同期モータの位置センサレス制御"
+                    },
+                    "overall_grant_amount": {
+                        "indirect_cost": "0",
+                        "total_cost": "0",
+                        "direct_cost": "0"
+                    },
+                    "fund_type": "competitive_research_funding"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010159/research_projects/10269783",
+                    "@type": "research_projects",
+                    "@reverse": "https://api.researchmap.jp/read0010159/research_projects",
+                    "rm:id": "10269783",
+                    "rm:user_id": "1000020752",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2013-02-08T17:41:35Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2013-02-08T17:41:35Z",
+                    "research_project_title": {
+                        "ja": "制御電源ＤＳＰ制御"
+                    },
+                    "overall_grant_amount": {
+                        "indirect_cost": "0",
+                        "total_cost": "0",
+                        "direct_cost": "0"
+                    },
+                    "fund_type": "competitive_research_funding"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010159/research_projects/10269782",
+                    "@type": "research_projects",
+                    "@reverse": "https://api.researchmap.jp/read0010159/research_projects",
+                    "rm:id": "10269782",
+                    "rm:user_id": "1000020752",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2013-02-08T17:41:35Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2013-02-08T17:41:35Z",
+                    "research_project_title": {
+                        "ja": "太陽光発電システム"
+                    },
+                    "overall_grant_amount": {
+                        "indirect_cost": "0",
+                        "total_cost": "0",
+                        "direct_cost": "0"
+                    },
+                    "fund_type": "competitive_research_funding"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010159/research_projects/10269781",
+                    "@type": "research_projects",
+                    "@reverse": "https://api.researchmap.jp/read0010159/research_projects",
+                    "rm:id": "10269781",
+                    "rm:user_id": "1000020752",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2013-02-08T17:41:35Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2013-02-08T17:41:35Z",
+                    "research_project_title": {
+                        "ja": "Solar-Light Power Generation System"
+                    },
+                    "overall_grant_amount": {
+                        "indirect_cost": "0",
+                        "total_cost": "0",
+                        "direct_cost": "0"
+                    },
+                    "fund_type": "competitive_research_funding"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010159/research_projects/10269780",
+                    "@type": "research_projects",
+                    "@reverse": "https://api.researchmap.jp/read0010159/research_projects",
+                    "rm:id": "10269780",
+                    "rm:user_id": "1000020752",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2013-02-08T17:41:35Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2013-02-08T17:41:35Z",
+                    "research_project_title": {
+                        "ja": "既約分解表現に基づく高性能制御"
+                    },
+                    "overall_grant_amount": {
+                        "indirect_cost": "0",
+                        "total_cost": "0",
+                        "direct_cost": "0"
+                    },
+                    "fund_type": "competitive_research_funding"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010159/research_projects/10269779",
+                    "@type": "research_projects",
+                    "@reverse": "https://api.researchmap.jp/read0010159/research_projects",
+                    "rm:id": "10269779",
+                    "rm:user_id": "1000020752",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2013-02-08T17:41:35Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2013-02-08T17:41:35Z",
+                    "research_project_title": {
+                        "ja": "High Performance Control System Based on Coprime Factorization Description"
+                    },
+                    "overall_grant_amount": {
+                        "indirect_cost": "0",
+                        "total_cost": "0",
+                        "direct_cost": "0"
+                    },
+                    "fund_type": "competitive_research_funding"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010159/research_projects/10269778",
+                    "@type": "research_projects",
+                    "@reverse": "https://api.researchmap.jp/read0010159/research_projects",
+                    "rm:id": "10269778",
+                    "rm:user_id": "1000020752",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2013-02-08T17:41:35Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2013-02-08T17:41:35Z",
+                    "research_project_title": {
+                        "ja": "リニア誘導モータの高性能制御"
+                    },
+                    "overall_grant_amount": {
+                        "indirect_cost": "0",
+                        "total_cost": "0",
+                        "direct_cost": "0"
+                    },
+                    "fund_type": "competitive_research_funding"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010159/research_projects/10269777",
+                    "@type": "research_projects",
+                    "@reverse": "https://api.researchmap.jp/read0010159/research_projects",
+                    "rm:id": "10269777",
+                    "rm:user_id": "1000020752",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2013-02-08T17:41:35Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2013-02-08T17:41:35Z",
+                    "research_project_title": {
+                        "ja": "High Performance Control of Linear Induction Motor"
+                    },
+                    "overall_grant_amount": {
+                        "indirect_cost": "0",
+                        "total_cost": "0",
+                        "direct_cost": "0"
+                    },
+                    "fund_type": "competitive_research_funding"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010159/research_projects/10269776",
+                    "@type": "research_projects",
+                    "@reverse": "https://api.researchmap.jp/read0010159/research_projects",
+                    "rm:id": "10269776",
+                    "rm:user_id": "1000020752",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2013-02-08T17:41:34Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2013-02-08T17:41:34Z",
+                    "research_project_title": {
+                        "en": "Solar-Light Power Generation System"
+                    },
+                    "overall_grant_amount": {
+                        "indirect_cost": "0",
+                        "total_cost": "0",
+                        "direct_cost": "0"
+                    },
+                    "fund_type": "competitive_research_funding"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010159/research_projects/10269775",
+                    "@type": "research_projects",
+                    "@reverse": "https://api.researchmap.jp/read0010159/research_projects",
+                    "rm:id": "10269775",
+                    "rm:user_id": "1000020752",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2013-02-08T17:41:34Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2013-02-08T17:41:34Z",
+                    "research_project_title": {
+                        "en": "High Performance Control System Based on Coprime Factorization Description"
+                    },
+                    "overall_grant_amount": {
+                        "indirect_cost": "0",
+                        "total_cost": "0",
+                        "direct_cost": "0"
+                    },
+                    "fund_type": "competitive_research_funding"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010159/research_projects/10269774",
+                    "@type": "research_projects",
+                    "@reverse": "https://api.researchmap.jp/read0010159/research_projects",
+                    "rm:id": "10269774",
+                    "rm:user_id": "1000020752",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2013-02-08T17:41:34Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2013-02-08T17:41:34Z",
+                    "research_project_title": {
+                        "en": "High Performance Control of Linear Induction Motor"
+                    },
+                    "overall_grant_amount": {
+                        "indirect_cost": "0",
+                        "total_cost": "0",
+                        "direct_cost": "0"
+                    },
+                    "fund_type": "competitive_research_funding"
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0010159/industrial_property_rights",
+            "@type": "industrial_property_rights",
+            "@reverse": "https://api.researchmap.jp/read0010159",
+            "total_items": 16,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0010159/industrial_property_rights/1068256",
+                    "@type": "industrial_property_rights",
+                    "@reverse": "https://api.researchmap.jp/read0010159/industrial_property_rights",
+                    "rm:id": "1068256",
+                    "rm:user_id": "1000020752",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2013-02-08T17:41:35Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2013-02-08T17:41:35Z",
+                    "industrial_property_right_type": "patent_right",
+                    "industrial_property_right_title": {
+                        "ja": "支持装置"
+                    },
+                    "description": {
+                        "ja": "特許第2741784号(1998.1), 三菱電機株式会社"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010159/industrial_property_rights/1068255",
+                    "@type": "industrial_property_rights",
+                    "@reverse": "https://api.researchmap.jp/read0010159/industrial_property_rights",
+                    "rm:id": "1068255",
+                    "rm:user_id": "1000020752",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2013-02-08T17:41:35Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2013-02-08T17:41:35Z",
+                    "industrial_property_right_type": "patent_right",
+                    "industrial_property_right_title": {
+                        "ja": "給電システム"
+                    },
+                    "description": {
+                        "ja": "特許第2770200号(1998.4), 三菱電機株式会社"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010159/industrial_property_rights/1068254",
+                    "@type": "industrial_property_rights",
+                    "@reverse": "https://api.researchmap.jp/read0010159/industrial_property_rights",
+                    "rm:id": "1068254",
+                    "rm:user_id": "1000020752",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2013-02-08T17:41:35Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2013-02-08T17:41:35Z",
+                    "industrial_property_right_type": "patent_right",
+                    "industrial_property_right_title": {
+                        "ja": "給電システム"
+                    },
+                    "description": {
+                        "ja": "特許第2831734号(1998.9), 三菱電機株式会社"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010159/industrial_property_rights/1068253",
+                    "@type": "industrial_property_rights",
+                    "@reverse": "https://api.researchmap.jp/read0010159/industrial_property_rights",
+                    "rm:id": "1068253",
+                    "rm:user_id": "1000020752",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2013-02-08T17:41:35Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2013-02-08T17:41:35Z",
+                    "industrial_property_right_type": "patent_right",
+                    "industrial_property_right_title": {
+                        "ja": "給電システム"
+                    },
+                    "description": {
+                        "ja": "特許第2853207号(1998.11), 三菱電機株式会社"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010159/industrial_property_rights/1068252",
+                    "@type": "industrial_property_rights",
+                    "@reverse": "https://api.researchmap.jp/read0010159/industrial_property_rights",
+                    "rm:id": "1068252",
+                    "rm:user_id": "1000020752",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2013-02-08T17:41:35Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2013-02-08T17:41:35Z",
+                    "industrial_property_right_type": "patent_right",
+                    "industrial_property_right_title": {
+                        "ja": "Power Appratus"
+                    },
+                    "description": {
+                        "ja": "US5844403(1998.12), Murata Manufacturing Co., Ltd."
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010159/industrial_property_rights/1068251",
+                    "@type": "industrial_property_rights",
+                    "@reverse": "https://api.researchmap.jp/read0010159/industrial_property_rights",
+                    "rm:id": "1068251",
+                    "rm:user_id": "1000020752",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2013-02-08T17:41:35Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2013-02-08T17:41:35Z",
+                    "industrial_property_right_type": "patent_right",
+                    "industrial_property_right_title": {
+                        "ja": "電力装置"
+                    },
+                    "description": {
+                        "ja": "中華民国発明第095925号(1998.12), 村田製作所股?有限公司"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010159/industrial_property_rights/1068250",
+                    "@type": "industrial_property_rights",
+                    "@reverse": "https://api.researchmap.jp/read0010159/industrial_property_rights",
+                    "rm:id": "1068250",
+                    "rm:user_id": "1000020752",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2013-02-08T17:41:35Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2013-02-08T17:41:35Z",
+                    "industrial_property_right_type": "patent_right",
+                    "industrial_property_right_title": {
+                        "ja": "系統連係インバータ装置"
+                    },
+                    "description": {
+                        "ja": "特願平11-198879(1999.7), 三菱重工業株式会社, 杉本 英彦"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010159/industrial_property_rights/1068249",
+                    "@type": "industrial_property_rights",
+                    "@reverse": "https://api.researchmap.jp/read0010159/industrial_property_rights",
+                    "rm:id": "1068249",
+                    "rm:user_id": "1000020752",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2013-02-08T17:41:35Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2013-02-08T17:41:35Z",
+                    "industrial_property_right_type": "patent_right",
+                    "industrial_property_right_title": {
+                        "ja": "リニアモータおよびこれを利用した装置"
+                    },
+                    "description": {
+                        "ja": "特許第3127259号(2000.11), 株式会社エイチアンドエフ"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010159/industrial_property_rights/1068248",
+                    "@type": "industrial_property_rights",
+                    "@reverse": "https://api.researchmap.jp/read0010159/industrial_property_rights",
+                    "rm:id": "1068248",
+                    "rm:user_id": "1000020752",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2013-02-08T17:41:35Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2013-02-08T17:41:35Z",
+                    "industrial_property_right_type": "patent_right",
+                    "industrial_property_right_title": {
+                        "ja": "Piezoelectric Transformer Inverter"
+                    },
+                    "description": {
+                        "ja": "US6144139(2000.11), Murata Manufacturing Co., Ltd"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010159/industrial_property_rights/1068247",
+                    "@type": "industrial_property_rights",
+                    "@reverse": "https://api.researchmap.jp/read0010159/industrial_property_rights",
+                    "rm:id": "1068247",
+                    "rm:user_id": "1000020752",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2013-02-08T17:41:35Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2013-02-08T17:41:35Z",
+                    "industrial_property_right_type": "patent_right",
+                    "industrial_property_right_title": {
+                        "ja": "単相電力変換装置"
+                    },
+                    "description": {
+                        "ja": "特願2001-104868(2001.4), 三菱重工業株式会社"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010159/industrial_property_rights/1068246",
+                    "@type": "industrial_property_rights",
+                    "@reverse": "https://api.researchmap.jp/read0010159/industrial_property_rights",
+                    "rm:id": "1068246",
+                    "rm:user_id": "1000020752",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2013-02-08T17:41:35Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2013-02-08T17:41:35Z",
+                    "industrial_property_right_type": "patent_right",
+                    "industrial_property_right_title": {
+                        "ja": "電源装置"
+                    },
+                    "description": {
+                        "ja": "特許第3209249号(2001.7), 株式会社村田製作所"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010159/industrial_property_rights/1068245",
+                    "@type": "industrial_property_rights",
+                    "@reverse": "https://api.researchmap.jp/read0010159/industrial_property_rights",
+                    "rm:id": "1068245",
+                    "rm:user_id": "1000020752",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2013-02-08T17:41:35Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2013-02-08T17:41:35Z",
+                    "industrial_property_right_type": "patent_right",
+                    "industrial_property_right_title": {
+                        "ja": "抵抗ろう付け方法及び抵抗ろう付け電源装置"
+                    },
+                    "description": {
+                        "ja": "特願2001-360257(2001.11), 杉本 英彦, 藤井 茂, 鷲田 一夫"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010159/industrial_property_rights/1068244",
+                    "@type": "industrial_property_rights",
+                    "@reverse": "https://api.researchmap.jp/read0010159/industrial_property_rights",
+                    "rm:id": "1068244",
+                    "rm:user_id": "1000020752",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2013-02-08T17:41:35Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2013-02-08T17:41:35Z",
+                    "industrial_property_right_type": "patent_right",
+                    "industrial_property_right_title": {
+                        "ja": "圧電トランスインバータ"
+                    },
+                    "description": {
+                        "ja": "特許第3282594号(2002.3), 株式会社村田製作所"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010159/industrial_property_rights/1068243",
+                    "@type": "industrial_property_rights",
+                    "@reverse": "https://api.researchmap.jp/read0010159/industrial_property_rights",
+                    "rm:id": "1068243",
+                    "rm:user_id": "1000020752",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2013-02-08T17:41:35Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2013-02-08T17:41:35Z",
+                    "industrial_property_right_type": "patent_right",
+                    "industrial_property_right_title": {
+                        "ja": "太陽光発電装置"
+                    },
+                    "description": {
+                        "ja": "特願2002-92351(2002.3), 三菱重工業株式会社"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010159/industrial_property_rights/1068242",
+                    "@type": "industrial_property_rights",
+                    "@reverse": "https://api.researchmap.jp/read0010159/industrial_property_rights",
+                    "rm:id": "1068242",
+                    "rm:user_id": "1000020752",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2013-02-08T17:41:35Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2013-02-08T17:41:35Z",
+                    "industrial_property_right_type": "patent_right",
+                    "industrial_property_right_title": {
+                        "ja": "DC-DCコンバータ"
+                    },
+                    "description": {
+                        "ja": "特願2002-265640(2002.9), 株式会社村田製作所"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0010159/industrial_property_rights/1068241",
+                    "@type": "industrial_property_rights",
+                    "@reverse": "https://api.researchmap.jp/read0010159/industrial_property_rights",
+                    "rm:id": "1068241",
+                    "rm:user_id": "1000020752",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2013-02-08T17:41:35Z",
+                    "rm:modifier_id": "client_id:f0YFD7p2O3GIJlhX",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2013-02-08T17:41:35Z",
+                    "industrial_property_right_type": "patent_right",
+                    "industrial_property_right_title": {
+                        "ja": "系統連係インバータ装置"
+                    },
+                    "description": {
+                        "ja": "特許第3615966号"
+                    }
+                }
+            ]
+        }
+    ]
+}

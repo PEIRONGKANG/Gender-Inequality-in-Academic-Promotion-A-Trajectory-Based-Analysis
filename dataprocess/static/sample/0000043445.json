@@ -1,0 +1,3702 @@
+{
+    "@context": "https://api.researchmap.jp/researcher.jsonld",
+    "@id": "https://api.researchmap.jp/fs420410?format=json",
+    "@type": "researchers",
+    "rm:user_id": "0000043445",
+    "rm:creator_id": "0000043445",
+    "rm:creator_type": "myself",
+    "rm:created": "2003-12-14T15:00:00Z",
+    "rm:modifier_id": "0000043445",
+    "rm:modifier_type": "myself",
+    "rm:modified": "2024-01-17T05:10:15Z",
+    "permalink": "fs420410",
+    "family_name": {
+        "ja": "鈴木",
+        "ja-Kana": "スズキ",
+        "en": "Suzuki"
+    },
+    "given_name": {
+        "ja": "文彦",
+        "ja-Kana": "フミヒコ",
+        "en": "Fumihiko"
+    },
+    "display_name_kana": "disclosed",
+    "display_nickname": "disclosed",
+    "display_image": "disclosed",
+    "display_contact_point": "disclosed",
+    "affiliations": [
+        {
+            "display_job": "closed",
+            "affiliation": {
+                "ja": "国立研究開発法人農業・食品産業技術総合研究機構",
+                "en": "National Agriculture and Food Research Organization"
+            },
+            "section": {
+                "ja": "中日本農業研究センター研究推進部事業化推進室"
+            },
+            "display_affiliation": "disclosed",
+            "rm:institution_code": "A107003000"
+        }
+    ],
+    "degrees": [
+        {
+            "degree": {
+                "ja": "農学博士"
+            },
+            "display_degree": "disclosed",
+            "rm:institution_code": "9999999999"
+        }
+    ],
+    "display_profile": "disclosed",
+    "display_url": "disclosed",
+    "identifiers": {
+        "j_global_id": [
+            "200901052523998313"
+        ]
+    },
+    "rm:erad_id_verified": false,
+    "rm:orc_id_verified": false,
+    "display_erad_id": "closed",
+    "display_orc_id": "closed",
+    "display_researcher_id": "disclosed",
+    "display_j_global_id": "disclosed",
+    "see_also": [
+        {
+            "label": "j_global",
+            "@id": "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=200901052523998313"
+        }
+    ],
+    "@graph": [
+        {
+            "@id": "https://api.researchmap.jp/fs420410/research_areas",
+            "@type": "research_areas",
+            "@reverse": "https://api.researchmap.jp/fs420410",
+            "total_items": 2,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/fs420410/research_areas/296193",
+                    "@type": "research_areas",
+                    "@reverse": "https://api.researchmap.jp/fs420410/research_areas",
+                    "rm:id": "296193",
+                    "rm:user_id": "0000043445",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000043445",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2003-12-14T15:00:00Z",
+                    "rm:modifier_id": "0000043445",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2003-12-14T15:00:00Z",
+                    "discipline_number": "A389",
+                    "item_number": "A39040",
+                    "discipline": {
+                        "ja": "環境・農学",
+                        "en": "Environmental science/Agricultural science"
+                    },
+                    "research_field": {
+                        "ja": "植物保護科学",
+                        "en": "Conservation science (plants)"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/fs420410/research_areas/296192",
+                    "@type": "research_areas",
+                    "@reverse": "https://api.researchmap.jp/fs420410/research_areas",
+                    "rm:id": "296192",
+                    "rm:user_id": "0000043445",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000043445",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2003-12-14T15:00:00Z",
+                    "rm:modifier_id": "0000043445",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2003-12-14T15:00:00Z",
+                    "discipline_number": "A189",
+                    "item_number": "A45010",
+                    "discipline": {
+                        "ja": "ライフサイエンス",
+                        "en": "Life sciences"
+                    },
+                    "research_field": {
+                        "ja": "遺伝学",
+                        "en": "Genetics"
+                    }
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/fs420410/published_papers",
+            "@type": "published_papers",
+            "@reverse": "https://api.researchmap.jp/fs420410",
+            "total_items": 41,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/fs420410/published_papers/26327416",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/fs420410/published_papers",
+                    "rm:id": "26327416",
+                    "rm:user_id": "0000043445",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_papers",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-04-12T10:08:11Z",
+                    "rm:modifier_id": "ai:assign_based_papers",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-04-12T10:08:11Z",
+                    "paper_title": {
+                        "ja": "農薬出荷量データに基づくQoI剤耐性イネいもち病菌の発生要因の統計分析",
+                        "en": "Statistical Analysis of Factors Affecting Resistance Development of Rice Blast Fungus to QoI Fungicides Based on Pesticide Shipment Data"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "鈴木 文彦"
+                            },
+                            {
+                                "name": "光永 貴之"
+                            },
+                            {
+                                "name": "芦澤 武人"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "鈴木 文彦"
+                            },
+                            {
+                                "name": "光永 貴之"
+                            },
+                            {
+                                "name": "芦澤 武人"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "関東東山病害虫研究会",
+                        "en": "関東東山病害虫研究会"
+                    },
+                    "publication_date": "2017-12",
+                    "publication_name": {
+                        "ja": "関東東山病害虫研究会報 = Annual report of the Kanto-Tosan Plant Protection Society",
+                        "en": "関東東山病害虫研究会報 = Annual report of the Kanto-Tosan Plant Protection Society"
+                    },
+                    "volume": "64",
+                    "starting_page": "6",
+                    "ending_page": "9",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "1347-1899"
+                        ],
+                        "cinii_na_id": [
+                            "40021421114"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/40021421114",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/fs420410/published_papers/28004453",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/fs420410/published_papers",
+                    "rm:id": "28004453",
+                    "rm:user_id": "0000043445",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-06-29T13:37:33Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-06-29T13:37:33Z",
+                    "paper_title": {
+                        "en": "Multiplex PCR assay for simultaneous detection of MBI-D and Q(o)I resistance in rice blast fungus"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Keiko Hayashi"
+                            },
+                            {
+                                "name": "Fumihiko Suzuki"
+                            },
+                            {
+                                "name": "Yuriko Hayano-Saito"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "For sustainable control of rice blast with fungicides, efficient monitoring of the emergence and spread of fungicide-resistant isolates is needed. We developed simple and reliable PCR-based DNA markers to detect isolates resistant to melanin biosynthesis inhibitor targeting scytalone dehydratase (MBI-D) and quinone outside inhibitor (Q(o)I) fungicides. Through the use of DNA templates prepared from mycelia on filter paper or from infected leaves, these markers enable rapid (a few hours) genotyping of point mutations that confer resistance. The developed multiplex marker detected resistance to both MBI-D and Q(o)I in a single PCR and further reduced the time needed for diagnosis."
+                    },
+                    "publisher": {
+                        "en": "SPRINGER JAPAN KK"
+                    },
+                    "publication_date": "2017-09",
+                    "publication_name": {
+                        "en": "JOURNAL OF GENERAL PLANT PATHOLOGY"
+                    },
+                    "volume": "83",
+                    "number": "5",
+                    "starting_page": "304",
+                    "ending_page": "309",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1007/s10327-017-0725-8"
+                        ],
+                        "issn": [
+                            "1345-2630"
+                        ],
+                        "e_issn": [
+                            "1610-739X"
+                        ],
+                        "wos_id": [
+                            "WOS:000408104500005"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1007/s10327-017-0725-8",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000408104500005&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/fs420410/published_papers/34966584",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/fs420410/published_papers",
+                    "rm:id": "34966584",
+                    "rm:user_id": "0000043445",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2021-10-24T10:07:56Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2021-10-24T10:07:56Z",
+                    "paper_title": {
+                        "ja": "SSR 遺伝子型を用いた圃場のいもち病菌の拡散の評価",
+                        "en": "Evaluation of the Spore Dispersal in Rice Blast Field Population by SSR Genotyping"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "善林 薫"
+                            },
+                            {
+                                "name": "芦澤 武人"
+                            },
+                            {
+                                "name": "鈴木 文彦"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "ZENBAYASHI-SAWATA Kaoru"
+                            },
+                            {
+                                "name": "ASHIZAWA Taketo"
+                            },
+                            {
+                                "name": "SUZUKI Fumihiko"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "ja": "<p>農家水田圃場において，一作期内でのいもち病菌の拡散程度および発病への影響程度を推定するために，SSR マーカーを用いて圃場分離菌株を識別し，伝染源に由来するいもち病菌が検出される距離と検出頻度を調査した．2 箇所の伝染源がある8 筆の圃場について，伝染源からの距離と葉および穂いもち発病程度を調査した結果，伝染源由来と考えられる発病は，葉いもちでおおむね50 m，穂いもちでは10～80 m（方向により異なる）の距離以内で発病が見られ，発病程度は伝染源から遠くなるほど低下した．また，伝染源を構成する主要SSR 遺伝子型菌株検出割合と伝染源からの距離と発病程度の関係から，葉および穂いもちともに伝染源から約100 m までは伝染源由来の菌が拡散し，50 m 以内では発病程度に対する影響が大きいことが明らかとなった．いもち病菌集団を農家別に分けてペアワイズR<sub>ST </sub>を計算したところ，2 箇所の伝染源からの相互の遺伝子流動により，葉いもち集団間に比較して穂いもち集団間での遺伝的距離の方が小さくなる傾向を示した．</p>"
+                    },
+                    "publisher": {
+                        "ja": "北日本病害虫研究会",
+                        "en": "The Society of Plant Protection of North Japan"
+                    },
+                    "publication_date": "2016",
+                    "publication_name": {
+                        "ja": "北日本病害虫研究会報",
+                        "en": "ANNUAL REPORT OF THE SOCIETY OF PLANT PROTECTION OF NORTH JAPAN"
+                    },
+                    "volume": "2016",
+                    "number": "67",
+                    "starting_page": "41",
+                    "ending_page": "47",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "rm:is_open_access": true,
+                    "identifiers": {
+                        "doi": [
+                            "10.11455/kitanihon.2016.67_41"
+                        ],
+                        "issn": [
+                            "0368-623X"
+                        ],
+                        "cinii_na_id": [
+                            "130006341941"
+                        ],
+                        "cinii_nc_id": [
+                            "AN00052373"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.11455/kitanihon.2016.67_41",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/130006341941",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_books",
+                            "@id": "http://ci.nii.ac.jp/ncid/AN00052373",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "http://id.ndl.go.jp/bib/027818214",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "https://agriknowledge.affrc.go.jp/RN/2010910165",
+                            "is_downloadable": true
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/fs420410/published_papers/18406631",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/fs420410/published_papers",
+                    "rm:id": "18406631",
+                    "rm:user_id": "0000043445",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000043445",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2017-08-08T05:02:52Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-04-21T05:30:36Z",
+                    "paper_title": {
+                        "en": "Serotonin attenuates biotic stress and leads to lesion browning caused by a hypersensitive response to Magnaporthe oryzae penetration in rice"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Keiko Hayashi"
+                            },
+                            {
+                                "name": "Yoshikatsu Fujita"
+                            },
+                            {
+                                "name": "Taketo Ashizawa"
+                            },
+                            {
+                                "name": "Fumihiko Suzuki"
+                            },
+                            {
+                                "name": "Yoshiaki Nagamura"
+                            },
+                            {
+                                "name": "Yuriko Hayano-Saito"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "The hypersensitive response (HR) of plants is one of the earliest responses to prevent pathogen invasion. A brown dot lesion on a leaf is visual evidence of the HR against the blast fungus Magnaporthe oryzae in rice, but tracking the browning process has been difficult. In this study, we induced the HR in rice cultivars harboring the blast resistance gene Pit by inoculation of an incompatible M. oryzae strain, which generated a unique resistance lesion with a brown ring (halo) around the brown fungal penetration site. Inoculation analysis using a plant harboring Pit but lacking an enzyme that catalyzes tryptamine to serotonin showed that high accumulation of the oxidized form of serotonin was the cause of the browning at the halo and penetration site. Our analysis of the halo browning process in the rice leaf revealed that abscisic acid enhanced biosynthesis of serotonin under light conditions, and serotonin changed to the oxidized form via hydrogen peroxide produced by light. The dramatic increase in serotonin, which has a high antioxidant activity, suppressed leaf damage outside the halo, blocked expansion of the browning area and attenuated inhibition of plant growth. These results suggest that serotonin helps to reduce biotic stress in the plant by acting as a scavenger of oxygen radicals to protect uninfected tissues from oxidative damage caused by the HR. The deposition of its oxide at the HR lesion is observed as lesion browning."
+                    },
+                    "publisher": {
+                        "en": "WILEY-BLACKWELL"
+                    },
+                    "publication_date": "2016-01",
+                    "publication_name": {
+                        "en": "PLANT JOURNAL"
+                    },
+                    "volume": "85",
+                    "number": "1",
+                    "starting_page": "46",
+                    "ending_page": "56",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1111/tpj.13083"
+                        ],
+                        "issn": [
+                            "0960-7412"
+                        ],
+                        "pm_id": [
+                            "26603141"
+                        ],
+                        "e_issn": [
+                            "1365-313X"
+                        ],
+                        "wos_id": [
+                            "WOS:000368821500004"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1111/tpj.13083",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "pubmed",
+                            "@id": "https://www.ncbi.nlm.nih.gov/pubmed/26603141",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000368821500004&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/fs420410/published_papers/18406634",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/fs420410/published_papers",
+                    "rm:id": "18406634",
+                    "rm:user_id": "0000043445",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000043445",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2017-08-08T05:05:41Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-06-04T03:14:30Z",
+                    "paper_title": {
+                        "en": "Rapid PCR technique to detect Q(o)I-resistant strains of Magnaporthe oryzae"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Keiko Hayashi"
+                            },
+                            {
+                                "name": "Taketo Ashizawa"
+                            },
+                            {
+                                "name": "Takahide Sasaya"
+                            },
+                            {
+                                "name": "Kazuyuki Hirayae"
+                            },
+                            {
+                                "name": "Yuriko Hayano-Saito"
+                            },
+                            {
+                                "name": "Fumihiko Suzuki"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "The emergence of Magnaporthe oryzae strains with resistance to quinone outside inhibitor (Q(o)I) fungicides necessitates the development of easy techniques for the rapid, sensitive monitoring of such strains. A Q(o)I-resistant mutant and a wild-type strain showed a single nucleotide polymorphism (SNP). For simple, fast, low-cost, and reliable detection of this SNP, we developed two types of PCR-based DNA markers that enable easy detection of resistant strains by using DNA templates prepared from filter paper permeated with the fungus. The method enabled us to obtain reliable results by using a detection procedure that takes only a few hours without special kits."
+                    },
+                    "publisher": {
+                        "en": "SPRINGER JAPAN KK"
+                    },
+                    "publication_date": "2015-03",
+                    "publication_name": {
+                        "en": "JOURNAL OF GENERAL PLANT PATHOLOGY"
+                    },
+                    "volume": "81",
+                    "number": "2",
+                    "starting_page": "131",
+                    "ending_page": "135",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1007/s10327-014-0573-8"
+                        ],
+                        "issn": [
+                            "1345-2630"
+                        ],
+                        "wos_id": [
+                            "WOS:000351207700006"
+                        ],
+                        "e_issn": [
+                            "1610-739X"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1007/s10327-014-0573-8",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000351207700006&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/fs420410/published_papers/18406643",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/fs420410/published_papers",
+                    "rm:id": "18406643",
+                    "rm:user_id": "0000043445",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000043445",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2017-08-08T05:20:29Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-09-24T22:09:36Z",
+                    "paper_title": {
+                        "ja": "PCR反応のためのイネいもち病菌DNAの簡易調整法",
+                        "en": "Paper-disc method: A simple DNA preparation for <i>Pyricularia oryzae</i> and PCR."
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "HAYANO-SAITO Y"
+                            },
+                            {
+                                "name": "HAYASHI K"
+                            },
+                            {
+                                "name": "ASHIZAWA T"
+                            },
+                            {
+                                "name": "SUZUKI F"
+                            }
+                        ],
+                        "ja": [
+                            {
+                                "name": "早野 由里子"
+                            },
+                            {
+                                "name": "林 敬子"
+                            },
+                            {
+                                "name": "芦澤 武人"
+                            },
+                            {
+                                "name": "鈴木 文彦"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "ja": "イネいもち病菌(Pyricularia oryzae)の個体識別解析や耐性菌の遺伝子診断などの場面では，polymerase chain reaction(PCR)をベースにした手法が主流となっており，使用するDNAは少量で十分なことが多い。さらに近年は遺伝子増幅酵素の改良が進んだため，PCRの利用に限定すれば，DNA調整において一定の収量と純度が確保できればよい。糸状菌のDNA抽出には以前は多くの工程を要したが，その後より簡易な抽出キットの使用が普及した。さらに近ごろは，キットを用いることなく煮沸処理のみでテンプレート調整するケースもある。既報の方法としては，熱界面活性剤処理，凍結融解の繰り返し処理，ビーズ・ミル乳化処理(Kuske et al.，1998)，マイクロ波を利用した方法(Tendulkar et al.，2003; 高垣・椙原，2003)，PEX法(Nakahara et al.，1999; Saitoh et al.，2006)などがある。イネいもち病菌においても，DNA抽出作業の大幅な省力化が可能になってきている。しかし，本病菌では，菌体や培地成分から溶出されるPCR反応阻害物質の影響などが不明であり，簡便さおよび安定性を備え，かつ，多検体処理に耐えうる調整方法の報告はない。そこで，simple sequence repeat(SSR)マーカー解析や薬剤耐性遺伝子診断を目的としたPCR反応のための簡易で安定ないもち病菌DNAの調整法を開発したので報告する。",
+                        "en": "A simple paper-disc method was developed to prepare DNA from a large number of samples of &lt;i&gt;Pyricularia oryzae&lt;/i&gt; for polymerase chain reaction (PCR)-based analyses such as simple-sequence repeat analysis was developed by testing variables such as culture period, drying the culture, buffer volume and centrifugation for extracting DNA, and stability after storage. Mycelium from a single-spore isolate in the center of a plate of oatmeal–0.5% w/v sucrose–1.6% (w/v) agar is allowed to grow onto paper discs (ø 6 mm) on the plates. After 7 days at 26°C, the mycelium-permeated discs are dried in a dessicator, placed in 200 µl Tris-EDTA buffer (10 mM Tris·HCl, 1 mM EDTA, pH 8.0) in a microtube, and vortexed for ca. 2 s. After the preparation is centrifuged at 21,500×&lt;i&gt;g&lt;/i&gt; for 30 min at 4°C, 1 µl of the supernatant with the fungal DNA can be used as the template to detect genomic and mitochondrial genes using PCR or the preparation can be stably stored at 4°C for 8 weeks."
+                    },
+                    "publisher": {
+                        "ja": "日本植物病理學會",
+                        "en": "日本植物病理學會"
+                    },
+                    "publication_date": "2015",
+                    "publication_name": {
+                        "ja": "日本植物病理学会報",
+                        "en": "Jpn. J. Phytopathol."
+                    },
+                    "volume": "81",
+                    "number": "2",
+                    "starting_page": "141",
+                    "ending_page": "143",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.3186/jjphytopath.81.141"
+                        ],
+                        "issn": [
+                            "0031-9473"
+                        ],
+                        "cinii_na_id": [
+                            "130005087922"
+                        ],
+                        "cinii_nc_id": [
+                            "AN0019269X"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.3186/jjphytopath.81.141",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/130005087922",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_books",
+                            "@id": "http://ci.nii.ac.jp/ncid/AN0019269X",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/fs420410/published_papers/26945237",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/fs420410/published_papers",
+                    "rm:id": "26945237",
+                    "rm:user_id": "0000043445",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_papers",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-04-28T06:17:09Z",
+                    "rm:modifier_id": "ai:assign_based_papers",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-04-28T06:17:09Z",
+                    "paper_title": {
+                        "ja": "栽植密度および耕起・不耕起がコムギ赤かび病の発生とかび毒蓄積に与える影響",
+                        "en": "栽植密度および耕起・不耕起がコムギ赤かび病の発生とかび毒蓄積に与える影響"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "井上博喜"
+                            },
+                            {
+                                "name": "宮坂篤"
+                            },
+                            {
+                                "name": "鈴木文彦"
+                            },
+                            {
+                                "name": "川上顕"
+                            },
+                            {
+                                "name": "笹谷孝英"
+                            },
+                            {
+                                "name": "中島隆"
+                            },
+                            {
+                                "name": "平八重一之"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "井上博喜"
+                            },
+                            {
+                                "name": "宮坂篤"
+                            },
+                            {
+                                "name": "鈴木文彦"
+                            },
+                            {
+                                "name": "川上顕"
+                            },
+                            {
+                                "name": "笹谷孝英"
+                            },
+                            {
+                                "name": "中島隆"
+                            },
+                            {
+                                "name": "平八重一之"
+                            }
+                        ]
+                    },
+                    "publication_date": "2014-11-28",
+                    "publication_name": {
+                        "ja": "九州病害虫研究会報",
+                        "en": "九州病害虫研究会報"
+                    },
+                    "volume": "60",
+                    "starting_page": "99",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "0385-6410"
+                        ],
+                        "j_global_id": [
+                            "201502293525826321"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "j_global",
+                            "@id": "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=201502293525826321",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "http://jglobal.jst.go.jp/public/201502293525826321",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/fs420410/published_papers/18406632",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/fs420410/published_papers",
+                    "rm:id": "18406632",
+                    "rm:user_id": "0000043445",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000043445",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2017-08-08T05:02:52Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-04-02T04:15:25Z",
+                    "paper_title": {
+                        "en": "Quantitative trait locus analysis of resistance to panicle blast in the rice cultivar Miyazakimochi"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Takeaki Ishihara"
+                            },
+                            {
+                                "name": "Yuriko Hayano-Saito"
+                            },
+                            {
+                                "name": "Shinichi Oide"
+                            },
+                            {
+                                "name": "Kaworu Ebana"
+                            },
+                            {
+                                "name": "Nghia Tuan La"
+                            },
+                            {
+                                "name": "Keiko Hayashi"
+                            },
+                            {
+                                "name": "Taketo Ashizawa"
+                            },
+                            {
+                                "name": "Fumihiko Suzuki"
+                            },
+                            {
+                                "name": "Shinzo Koizumi"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "Background: Rice blast is a destructive disease caused by Magnaporthe oryzae, and it has a large impact on rice production worldwide. Compared with leaf blast resistance, our understanding of panicle blast resistance is limited, with only one panicle blast resistance gene, Pb1, isolated so far. The japonica cultivar Miyazakimochi shows resistance to panicle blast, yet the genetic components accounting for this resistance remain to be determined.\nResults: In this study, we evaluated the panicle blast resistance of populations derived from a cross between Miyazakimochi and the Bikei 22 cultivar, which is susceptible to both leaf and panicle blast. The phenotypic analyses revealed no correlation between panicle blast resistance and leaf blast resistance. Quantitative trait locus (QTL) analysis of 158 recombinant inbred lines using 112 developed genome-wide and 35 previously reported polymerase chain reaction (PCR) markers revealed the presence of two QTLs conferring panicle blast resistance in Miyazakimochi: a major QTL, qPbm11, on chromosome 11; and a minor QTL, qPbm9, on chromosome 9. To clarify the contribution of these QTLs to panicle blast resistance, 24 lines homozygous for each QTL were selected from 2,818 progeny of a BC2F7 backcrossed population, and characterized for disease phenotypes. The panicle blast resistance of the lines harboring qPbm11 was very similar to the resistant donor parental cultivar Miyazakimochi, whereas the contribution of qPbm9 to the resistance was small. Genotyping of the BC2F7 individuals highlighted the overlap between the qPbm11 region and a locus of the panicle blast resistance gene, Pb1. Reverse transcriptase PCR analysis revealed that the Pb1 transcript was absent in the panicles of Miyazakimochi, demonstrating that qPbm11 is a novel genetic component of panicle blast resistance.\nConclusions: This study revealed that Miyazakimochi harbors a novel panicle blast resistance controlled mainly by the major QTL qPbm11. qPbm11 is distinct from Pb1 and could be a genetic source for breeding panicle blast resistance, and will improve understanding of the molecular basis of host resistance to panicle blast."
+                    },
+                    "publisher": {
+                        "en": "SPRINGER"
+                    },
+                    "publication_date": "2014-04",
+                    "publication_name": {
+                        "en": "RICE"
+                    },
+                    "volume": "7",
+                    "number": "1",
+                    "starting_page": "2",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1186/s12284-014-0002-9"
+                        ],
+                        "issn": [
+                            "1939-8425"
+                        ],
+                        "pm_id": [
+                            "24920970"
+                        ],
+                        "e_issn": [
+                            "1939-8433"
+                        ],
+                        "wos_id": [
+                            "WOS:000346964500001"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1186/s12284-014-0002-9",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "pubmed",
+                            "@id": "https://www.ncbi.nlm.nih.gov/pubmed/24920970",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000346964500001&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/fs420410/published_papers/26445753",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/fs420410/published_papers",
+                    "rm:id": "26445753",
+                    "rm:user_id": "0000043445",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_papers",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-04-17T23:50:23Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2021-10-21T01:50:15Z",
+                    "paper_title": {
+                        "ja": "SSRマーカーによるいもち病菌圃場分離集団の遺伝的分化の解析",
+                        "en": "Analysis of genetic differentiation in field populations of Pyricularia oryzae by SSR markers."
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "善林薫"
+                            },
+                            {
+                                "name": "鬼頭英樹"
+                            },
+                            {
+                                "name": "鈴木文彦"
+                            }
+                        ],
+                        "ja": [
+                            {
+                                "name": "善林薫"
+                            },
+                            {
+                                "name": "鬼頭英樹"
+                            },
+                            {
+                                "name": "鈴木文彦"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "ja": "近年開発されたイネいもち病菌の12座のSSRマーカーについて，圃場分離集団に対する識別能を明らかにすることを目的とし，「あきたこまち」が栽培されている圃場YA，YAと距離1 kmの「あきたこまち」栽培圃場TA，YAと距離30 mの「ひとめぼれ」栽培圃場YHから菌の世代別に採集したいもち病菌の集団構造をSSRマーカーにより解析した．12マーカーのうち1マーカーは多型がなく，3マーカーは世代経過時に変異する可能性が示唆されたため，中程度のアリル数を示す8マーカーを集団構造解析に用いた．供試した3圃場のいもち病菌集団および世代別分集団のハプロタイプ多様度は0.535～0.904であり，「ひとめぼれ」発生初期集団を除き比較的高い値を示した．圃場別の3集団および世代別の8分集団におけるペアワイズF<sub>ST</sub>およびR<sub>ST</sub>を算出した結果，同一圃場の分集団間では遺伝的分化は検出されなかったが，圃場別の集団はそれぞれ遺伝的に異なることが明らかとなり，8マーカーを用いることで，種子由来を異にする同一品種上や，近接する圃場の異品種上のいもち病菌集団を識別できることが明らかとなった．また，早期に発生した菌の近接圃場への移入の検出にもSSRマーカーが有効であった．さらに，同一品種間と隣接異品種間を比較した場合，SSRハプロタイプに基づき作成した系統樹から，それらの遺伝的分化の方向が異なることが明らかとなった．以上の結果から，本SSRマーカーは従来識別が困難であった同一品種間および近接圃場間のいもち病菌集団の識別に有効であるだけでなく，いもち病菌の移出入率や遺伝的浮動の大きさの推定等，進化的指標の評価にも適用できることが示された．",
+                        "en": "Rice blast, caused by <i>Pyricularia oryzae</i>, is the most prevalent and widespread disease of rice in Japan. In this study, simple sequence repeat (SSR) markers were used to discriminate among three field populations of rice blast, which consisted of isolates collected from three respective plots with two cultivars during the growing seasons. In total, 302 isolates of <i>P. oryzae</i> genotypes were found with 8 SSR markers and used in population genetic analyses. Collected isolates were classified into three populations by field plot, and each population was separated into subpopulations according to the blast epidemic stage. Haplotypic diversity of the populations ranged from 0.535 to 0.904, revealing that genetic diversity in the field populations was high. All three populations were significantly differentiated according to pairwise <i>F</i><sub>ST</sub> and <i>R</i><sub>ST</sub> comparisons, but no differentiation was detected among subpopulations grouped by epidemic stages in the same plot. A migration event was detected by SSR genotyping of the isolates between neighboring plots. A phylogenic tree based on a minimum spanning tree algorithm also suggested migration of the fungus and showed that the direction of evolution differed among populations of the same cultivar located spatially distant from adjacent plants of different cultivars. From these results, SSR markers may enable us not only to discriminate field populations of <i>P. oryzae</i> that are genetically similar, but also to evaluate genetic processes such as gene flow, genetic drift, mutation and natural selection of the populations."
+                    },
+                    "publisher": {
+                        "ja": "日本植物病理學會",
+                        "en": "The Phytopathological Society of Japan"
+                    },
+                    "publication_date": "2014",
+                    "publication_name": {
+                        "ja": "日本植物病理学会報",
+                        "en": "日本植物病理学会報"
+                    },
+                    "volume": "80",
+                    "number": "2",
+                    "starting_page": "81-87 (J-STAGE)",
+                    "ending_page": "87",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.3186/jjphytopath.80.81"
+                        ],
+                        "issn": [
+                            "0031-9473"
+                        ],
+                        "cinii_na_id": [
+                            "130004779409"
+                        ],
+                        "cinii_nc_id": [
+                            "AN0019269X"
+                        ],
+                        "j_global_id": [
+                            "201402206389280266"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.3186/jjphytopath.80.81",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/130004779409",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_books",
+                            "@id": "http://ci.nii.ac.jp/ncid/AN0019269X",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "j_global",
+                            "@id": "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=201402206389280266",
+                            "is_downloadable": false
+                        },
+                        {
+                            "@id": "http://jglobal.jst.go.jp/public/201402206389280266",
+                            "is_downloadable": false,
+                            "label": "url"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/fs420410/published_papers/25522023",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/fs420410/published_papers",
+                    "rm:id": "25522023",
+                    "rm:user_id": "0000043445",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_papers",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-03-31T11:09:45Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-09-24T12:07:14Z",
+                    "paper_title": {
+                        "ja": "六条裸麦における赤かび病とかび毒蓄積を抑制する薬剤散布時期",
+                        "en": "Effective fungicide application period to reduce Fusarium head blight and mycotoxin accumulation in naked six-row barley."
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Miyasaka Atsushi"
+                            },
+                            {
+                                "name": "Yoshida Megumi"
+                            },
+                            {
+                                "name": "Suzuki Fumihiko"
+                            },
+                            {
+                                "name": "Inoue Hiroyoshi"
+                            },
+                            {
+                                "name": "Kawakami Akira"
+                            },
+                            {
+                                "name": "Hirayae Kazuyuki"
+                            },
+                            {
+                                "name": "Nakajima Takashi"
+                            }
+                        ],
+                        "ja": [
+                            {
+                                "name": "宮坂 篤"
+                            },
+                            {
+                                "name": "吉田 めぐみ"
+                            },
+                            {
+                                "name": "鈴木 文彦"
+                            },
+                            {
+                                "name": "井上 博喜"
+                            },
+                            {
+                                "name": "川上 顕"
+                            },
+                            {
+                                "name": "平八重 一之"
+                            },
+                            {
+                                "name": "中島 隆"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "ja": "六条裸麦の赤かび病の発病抑制とかび毒（DON+NIV）蓄積の低減に効果の高い薬剤散布時期を明らかにするため，常に赤かび病菌の胞子が飛散する接種条件下で品種「イチバンボシ」とチオファネートメチル水和剤を供試し，薬剤散布時期（開花0，10，20，30日後）と散布回数（１～2回）を組み合わせた圃場試験を2年間行った。その結果，開花期の薬剤散布は発病抑制効果が最も高かったが，かび毒蓄積の低減効果は低かった。一方，開花20日後の薬剤散布は，発病抑制効果は低かったが，かび毒蓄積の低減効果は最も高かった。六条裸麦の赤かび病の発病を抑制し，さらにかび毒蓄積を低減するためには，開花期散布と開花20日後頃（乳熟後期）の追加散布が最も効果的であることが示唆された。"
+                    },
+                    "publisher": {
+                        "ja": "The Association for Plant Protection of Kyushu",
+                        "en": "The Association for Plant Protection of Kyushu"
+                    },
+                    "publication_date": "2013-11",
+                    "publication_name": {
+                        "ja": "九州病害虫研究会報",
+                        "en": "Kyushu Pl. Prot Res."
+                    },
+                    "volume": "59",
+                    "starting_page": "1",
+                    "ending_page": "6",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.4241/kyubyochu.59.1"
+                        ],
+                        "issn": [
+                            "0385-6410"
+                        ],
+                        "cinii_na_id": [
+                            "130005103117"
+                        ],
+                        "cinii_nc_id": [
+                            "AN00055757"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.4241/kyubyochu.59.1",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/130005103117",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_books",
+                            "@id": "http://ci.nii.ac.jp/ncid/AN00055757",
+                            "is_downloadable": false
+                        },
+                        {
+                            "@id": "https://www.jstage.jst.go.jp/article/kyubyochu/59/0/59_1/_article/-char/ja/",
+                            "is_downloadable": false,
+                            "label": "url"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/fs420410/published_papers/25522020",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/fs420410/published_papers",
+                    "rm:id": "25522020",
+                    "rm:user_id": "0000043445",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_papers",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-03-31T11:09:43Z",
+                    "rm:modifier_id": "ai:assign_based_papers",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-03-31T11:09:43Z",
+                    "paper_title": {
+                        "ja": "オオムギ主要品種の登熟過程における赤かび病病勢進展とかび毒蓄積特性"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "宮坂 篤"
+                            },
+                            {
+                                "name": "吉田 めぐみ"
+                            },
+                            {
+                                "name": "鈴木 文彦"
+                            },
+                            {
+                                "name": "井上 博喜"
+                            },
+                            {
+                                "name": "川上 顕"
+                            },
+                            {
+                                "name": "平八重 一之"
+                            },
+                            {
+                                "name": "中島 隆"
+                            }
+                        ]
+                    },
+                    "publication_date": "2012-11",
+                    "publication_name": {
+                        "ja": "九州病害虫研究会報"
+                    },
+                    "volume": "58",
+                    "referee": true,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.4241/kyubyochu.58.14"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.4241/kyubyochu.58.14",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "https://www.jstage.jst.go.jp/article/kyubyochu/58/0/58_14/_pdf",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/fs420410/published_papers/25522019",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/fs420410/published_papers",
+                    "rm:id": "25522019",
+                    "rm:user_id": "0000043445",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_papers",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-03-31T11:09:43Z",
+                    "rm:modifier_id": "ai:assign_based_papers",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-03-31T11:09:43Z",
+                    "paper_title": {
+                        "ja": "硬質コムギおよび二条オオムギにおける出穂後尿素葉面散布は赤かび病の発病とかび毒蓄積に影響しない"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "中島 隆"
+                            },
+                            {
+                                "name": "吉田 めぐみ"
+                            },
+                            {
+                                "name": "宮坂 篤"
+                            },
+                            {
+                                "name": "鈴木 文彦"
+                            },
+                            {
+                                "name": "平八重 一之"
+                            }
+                        ]
+                    },
+                    "publication_date": "2012-11",
+                    "publication_name": {
+                        "ja": "九州病害虫研究会報"
+                    },
+                    "volume": "58",
+                    "starting_page": "7",
+                    "ending_page": "13",
+                    "referee": true,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.4241/kyubyochu.58.7"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.4241/kyubyochu.58.7",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "https://www.jstage.jst.go.jp/article/kyubyochu/58/0/58_7/_pdf",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/fs420410/published_papers/18406635",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/fs420410/published_papers",
+                    "rm:id": "18406635",
+                    "rm:user_id": "0000043445",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000043445",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2017-08-08T05:05:41Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-05-04T11:31:04Z",
+                    "paper_title": {
+                        "en": "Population structure of rice blast isolates resistant to scytalone dehydratase inhibitors in Mie Prefecture and implications for their origin"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Hirofumi Suzuki"
+                            },
+                            {
+                                "name": "Fumihiko Suzuki"
+                            },
+                            {
+                                "name": "Motoaki Kusaba"
+                            },
+                            {
+                                "name": "Yukio Tosa"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "In Mie Prefecture in Japan, rice blast isolates resistant to melanin biosynthesis inhibitors targeting scytalone dehydratase (SDH) were first observed in 2005. To analyze the distribution of the resistant isolates, 527 isolates were collected from wide areas in this prefecture during 2006 and 2007. Almost half of the isolates collected (233 of 527 isolates) carried a point mutation in the SDH gene conferring the resistant phenotype. To compare population structures of resistant and sensitive isolates, we analyzed the isolates with repetitive-element-based PCR DNA fingerprinting using a single primer complementary to a sequence in the terminal inverted repeat of transposable element Pot2. A majority of the resistant isolates were classified into a single DNA fingerprint haplotype, Mie 1. Despite its prevalence in the resistant isolates, Mie 1 was not found in the sensitive isolates. Furthermore, in a dendrogram constructed from the DNA fingerprint data, Mie 1 and six other haplotypes formed a cluster composed of resistant isolates alone. These results suggest that the resistant isolates that belonged to the Mie 1 haplotype had migrated from regions outside Mie Prefecture and selectively propagated in a short period in this prefecture."
+                    },
+                    "publisher": {
+                        "en": "SPRINGER TOKYO"
+                    },
+                    "publication_date": "2012-03",
+                    "publication_name": {
+                        "en": "JOURNAL OF GENERAL PLANT PATHOLOGY"
+                    },
+                    "volume": "78",
+                    "number": "2",
+                    "starting_page": "106",
+                    "ending_page": "114",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1007/s10327-012-0365-y"
+                        ],
+                        "issn": [
+                            "1345-2630"
+                        ],
+                        "wos_id": [
+                            "WOS:000302040000003"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1007/s10327-012-0365-y",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000302040000003&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/fs420410/published_papers/25699742",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/fs420410/published_papers",
+                    "rm:id": "25699742",
+                    "rm:user_id": "0000043445",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_papers",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-04-01T17:37:15Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-09-11T23:42:32Z",
+                    "paper_title": {
+                        "ja": "イネいもち病における省力的な発生予察調査法",
+                        "en": "Labor-saving Methods for Evaluation of Rice Blast Severity in Paddy Fields"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "KOIZUMI Shinzo"
+                            },
+                            {
+                                "name": "TSUJIMOTO"
+                            },
+                            {
+                                "name": "NOGUCHI Masako"
+                            },
+                            {
+                                "name": "YAMASHITA Toru"
+                            },
+                            {
+                                "name": "YAMADA Masataka"
+                            },
+                            {
+                                "name": "SUZUKI Fumihiko"
+                            }
+                        ],
+                        "ja": [
+                            {
+                                "name": "小泉 信三"
+                            },
+                            {
+                                "name": "野口(辻本) 雅子"
+                            },
+                            {
+                                "name": "山下 亨"
+                            },
+                            {
+                                "name": "山田 真孝"
+                            },
+                            {
+                                "name": "鈴木 文彦"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "ja": "病害虫の発生予察事業を担う組織の縮小等にともない，より省力的な病害虫発生調査実施基準の策定が求められている。そこで，精度が現行調査法と同等以上で，より省力的な上位葉の葉いもちと穂いもちの調査法を2010～2011年に茨城県つくばみらい市の中央農業総合研究センターの試験圃場2筆，長野県小布施町2筆および同飯山市4筆ならびに福島県飯舘村1筆の水田圃場で検討した。省力調査には浅賀 (1981) の基準を用い，1筆あたり2～8箇所，1箇所につき，イネ25株 (ただし，穂いもちの一部では約1m&lt;sup&gt;2&lt;/sup&gt;の面積) について発病調査を行い，現行法と比較した。その結果，浅賀の基準で調査した上位3葉における葉いもちの発病程度 (x) と現行の上位2葉における発病葉率 (y) との間にはy=0.13487x&lt;sup&gt;1.4605&lt;/sup&gt;の関係式が成り立ち，穂いもちでも株毎および約1m&lt;sup&gt;2&lt;/sup&gt;の面積の発病程度と現行の発病穂率との間に直線回帰式が成り立った。また，浅賀の基準による調査は現行法の調査より調査時間を大幅に短縮 (上位葉の葉いもちで約60%，穂いもちの株調査で65%，同1m&lt;sup&gt;2&lt;/sup&gt;の面積調査で99%) でき，危険率5%で誤差を一定の範囲に収めるのに必要な調査株数も現行法と顕著な差はなかった。",
+                        "en": "病害虫の発生予察事業を担う組織の縮小等にともない，より省力的な病害虫発生調査実施基準の策定が求められている。そこで，精度が現行調査法と同等以上で，より省力的な上位葉の葉いもちと穂いもちの調査法を2010～2011年に茨城県つくばみらい市の中央農業総合研究センターの試験圃場2筆，長野県小布施町2筆および同飯山市4筆ならびに福島県飯舘村1筆の水田圃場で検討した。省力調査には浅賀 (1981) の基準を用い，1筆あたり2～8箇所，1箇所につき，イネ25株 (ただし，穂いもちの一部では約1m&lt;sup&gt;2&lt;/sup&gt;の面積) について発病調査を行い，現行法と比較した。その結果，浅賀の基準で調査した上位3葉における葉いもちの発病程度 (x) と現行の上位2葉における発病葉率 (y) との間にはy=0.13487x&lt;sup&gt;1.4605&lt;/sup&gt;の関係式が成り立ち，穂いもちでも株毎および約1m&lt;sup&gt;2&lt;/sup&gt;の面積の発病程度と現行の発病穂率との間に直線回帰式が成り立った。また，浅賀の基準による調査は現行法の調査より調査時間を大幅に短縮 (上位葉の葉いもちで約60%，穂いもちの株調査で65%，同1m&lt;sup&gt;2&lt;/sup&gt;の面積調査で99%) でき，危険率5%で誤差を一定の範囲に収めるのに必要な調査株数も現行法と顕著な差はなかった。"
+                    },
+                    "publisher": {
+                        "ja": "The Kanto-Tosan Plant Protection Society",
+                        "en": "The Kanto-Tosan Plant Protection Society"
+                    },
+                    "publication_date": "2012",
+                    "publication_name": {
+                        "ja": "関東東山病害虫研究会報",
+                        "en": "Proceedings of the Kanto-Tosan Plant Protection Society"
+                    },
+                    "volume": "2012",
+                    "number": "59",
+                    "starting_page": "5",
+                    "ending_page": "10",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.11337/ktpps.2012.5"
+                        ],
+                        "issn": [
+                            "1347-1899"
+                        ],
+                        "cinii_na_id": [
+                            "130003386225"
+                        ],
+                        "cinii_nc_id": [
+                            "AA11497675"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.11337/ktpps.2012.5",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/130003386225",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_books",
+                            "@id": "http://ci.nii.ac.jp/ncid/AA11497675",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/fs420410/published_papers/25522016",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/fs420410/published_papers",
+                    "rm:id": "25522016",
+                    "rm:user_id": "0000043445",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_papers",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-03-31T11:09:37Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-09-01T01:52:50Z",
+                    "paper_title": {
+                        "en": "Effect of the timing of fungicide application on Fusarium head blight and mycotoxin contamination in wheat"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Megumi Yoshida"
+                            },
+                            {
+                                "name": "Takashi Nakajima"
+                            },
+                            {
+                                "name": "Kenta Tomimura"
+                            },
+                            {
+                                "name": "Fumihiko Suzuki"
+                            },
+                            {
+                                "name": "Michiyoshi Arai"
+                            },
+                            {
+                                "name": "Atsushi Miyasaka"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "Fungicide application to control Fusarium head blight (FHB) and accompanying mycotoxin contamination in wheat is generally performed at anthesis because wheat is most susceptible to FHB around this stage. In this study, we evaluated the effect of the timing of fungicide application on FHB and mycotoxin (deoxynivalenol and nivalenol) accumulation in wheat based on our previous finding that the late period of grain development (beyond 20 days after anthesis [DAA]) is important to determine the final toxin contamination level in wheat. Thiophanate-methyl fungicide was tested under artificial inoculation conditions in which moisture and inoculum spores were provided throughout the testing period. Eight treatments differing in application timing (anthesis, 10, 20, and 30 DAA) and in the number of applications (0 to 2) were tested for 2 years. The results indicated that fungicide application timing differentially affects FHB (disease) and mycotoxin concentration. Fungicide application at 20 DAA reduced mycotoxin concentration in matured grain without reducing FHB severity, whereas application at anthesis was crucial for reducing FHB. These results and our previous findings suggest that around 20 DAA (late milk stage) is a potentially critical timing for mycotoxin control in wheat. © 2012 The American Phytopathological Society."
+                    },
+                    "publisher": {
+                        "en": "American Phytopathological Society"
+                    },
+                    "publication_date": "2012",
+                    "publication_name": {
+                        "en": "Plant Disease"
+                    },
+                    "volume": "96",
+                    "number": "6",
+                    "starting_page": "845",
+                    "ending_page": "851",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1094/PDIS-10-11-0819"
+                        ],
+                        "issn": [
+                            "0191-2917"
+                        ],
+                        "scopus_id": [
+                            "84930474656"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1094/PDIS-10-11-0819",
+                            "is_downloadable": false
+                        },
+                        {
+                            "@id": "http://apsjournals.apsnet.org/doi/abs/10.1094/PDIS-10-11-0819",
+                            "is_downloadable": false,
+                            "label": "url"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/fs420410/published_papers/24967039",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/fs420410/published_papers",
+                    "rm:id": "24967039",
+                    "rm:user_id": "0000043445",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_papers",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-03-25T11:14:34Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-08-26T12:44:49Z",
+                    "paper_title": {
+                        "ja": "SSRマーカーによる西日本から分離されたイネいもち病菌の多様性と集団解析",
+                        "en": "Analysis of genetic diversity and population structure in Pyricularia oryzae collected from western Japan using SSR markers."
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "鈴木文彦"
+                            },
+                            {
+                                "name": "藤晋一"
+                            },
+                            {
+                                "name": "古場文子"
+                            },
+                            {
+                                "name": "中島隆"
+                            },
+                            {
+                                "name": "荒井治喜"
+                            }
+                        ],
+                        "ja": [
+                            {
+                                "name": "鈴木文彦"
+                            },
+                            {
+                                "name": "藤晋一"
+                            },
+                            {
+                                "name": "古場文子"
+                            },
+                            {
+                                "name": "中島隆"
+                            },
+                            {
+                                "name": "荒井治喜"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "ja": "日本産のイネいもち病菌を標的に選抜した12種類のSSRマーカーについて,4マーカーずつ3セットのマルチプレックスPCRを開発した。2001年に西日本の16県から採集されたいもち病菌について,12種類のSSRマーカーを用いて遺伝的多様性と集団構造を解析した。供試した293菌株からは,265のハプロタイプが検出され,マーカーあたりのアリル数は2から36(平均14.3)となり,きわめて高い遺伝的多様性が観察された。次に,10県におけるペアワイズF STを算出した結果,0.002から0.275の範囲の値を示し,集団分化のレベルが県間で大きく異なることが明らかになった。Mantel testを実施した結果,遺伝的距離と地理的距離(69～539km)との間に有意な相関が認められた(r2=0.224,P=0.004)。これらの結果から,隣接する県間では活発な胞子飛散や種子の移動などによって遺伝子流動が大きい一方で,離れた県間では,それらが制限されていることが推察された。以上より,選抜したSSRマーカーは,いもち病菌の集団遺伝学的研究に有用であることが示された。"
+                    },
+                    "publisher": {
+                        "ja": "日本植物病理學會"
+                    },
+                    "publication_date": "2012",
+                    "publication_name": {
+                        "ja": "日本植物病理学会報",
+                        "en": "日本植物病理学会報"
+                    },
+                    "volume": "78",
+                    "number": "1",
+                    "starting_page": "10-17 (J-STAGE)",
+                    "ending_page": "17",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "0031-9473"
+                        ],
+                        "cinii_na_id": [
+                            "120005330700"
+                        ],
+                        "cinii_nc_id": [
+                            "AN0019269X"
+                        ],
+                        "doi": [
+                            "10.3186/jjphytopath.78.10"
+                        ],
+                        "j_global_id": [
+                            "201202289363592810"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/120005330700",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_books",
+                            "@id": "http://ci.nii.ac.jp/ncid/AN0019269X",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.3186/jjphytopath.78.10",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "j_global",
+                            "@id": "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=201202289363592810",
+                            "is_downloadable": false
+                        },
+                        {
+                            "@id": "http://jglobal.jst.go.jp/public/201202289363592810",
+                            "is_downloadable": false,
+                            "label": "url"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/fs420410/published_papers/26945239",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/fs420410/published_papers",
+                    "rm:id": "26945239",
+                    "rm:user_id": "0000043445",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_papers",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-04-28T06:17:10Z",
+                    "rm:modifier_id": "ai:assign_based_papers",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-04-28T06:17:10Z",
+                    "paper_title": {
+                        "ja": "飼料用イネ品種の紋枯病発生リスクの評価",
+                        "en": "飼料用イネ品種の紋枯病発生リスクの評価"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "宮坂篤"
+                            },
+                            {
+                                "name": "鈴木文彦"
+                            },
+                            {
+                                "name": "中島隆"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "宮坂篤"
+                            },
+                            {
+                                "name": "鈴木文彦"
+                            },
+                            {
+                                "name": "中島隆"
+                            }
+                        ]
+                    },
+                    "publication_date": "2011-11-25",
+                    "publication_name": {
+                        "ja": "九州病害虫研究会報",
+                        "en": "九州病害虫研究会報"
+                    },
+                    "volume": "57",
+                    "starting_page": "91",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "0385-6410"
+                        ],
+                        "j_global_id": [
+                            "201102261459682889"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "j_global",
+                            "@id": "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=201102261459682889",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "http://jglobal.jst.go.jp/public/201102261459682889",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/fs420410/published_papers/26831326",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/fs420410/published_papers",
+                    "rm:id": "26831326",
+                    "rm:user_id": "0000043445",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_papers",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-04-24T19:31:29Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-08-30T14:56:44Z",
+                    "paper_title": {
+                        "en": "Changes in fungicide resistance frequency and population structure of Pyricularia oryzae after discontinuance of MBI-D fungicides"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "F. Suzuki"
+                            },
+                            {
+                                "name": "J. Yamaguchi"
+                            },
+                            {
+                                "name": "A. Koba"
+                            },
+                            {
+                                "name": "T. Nakajima"
+                            },
+                            {
+                                "name": "M. Arai"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "The changes in fungicide resistance frequency and population structure of the rice blast fungus Pyricularia oryzae were monitored after the discontinuance of melanin biosynthesis inhibitor targeting scytalone dehydratase (MBI-D) fungicides use in Saga Prefecture, Japan. After discontinuance in 2003, the frequency of resistant isolates decreased from 71.8% in 2002 to 25% in 2003, and became undetectable in 2007. The initial marked decrease was due to a decline of isolates possessing the predominant haplotype, although the haplotypic diversity among resistant isolates remained high from 2003 to 2005. These results revealed that resistant isolates were less fit in comparison with sensitive isolates in the absence of MBI-D fungicide pressure under field conditions. Pairwise FST values indicated that the change in population structure after MBI-D discontinuance was explainable by a rapid change in the proportions of resistant and sensitive subpopulations. Depending upon the existence of fitness cost and rapid changes in population structure, it may be possible to reintroduce MBI-D fungicides in areas where resistance has already developed, although we speculate that fitness cost related to MBI-D resistance may be small based on our present results and previous findings. © 2010 The American Phytopathological Society."
+                    },
+                    "publication_date": "2010-03",
+                    "publication_name": {
+                        "en": "Plant Disease"
+                    },
+                    "volume": "94",
+                    "number": "3",
+                    "starting_page": "329",
+                    "ending_page": "334",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "cinii_na_id": [
+                            "80020896985"
+                        ],
+                        "doi": [
+                            "10.1094/PDIS-94-3-0329"
+                        ],
+                        "issn": [
+                            "0191-2917"
+                        ],
+                        "scopus_id": [
+                            "77749273638"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/80020896985",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1094/PDIS-94-3-0329",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/fs420410/published_papers/18406633",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/fs420410/published_papers",
+                    "rm:id": "18406633",
+                    "rm:user_id": "0000043445",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000043445",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2017-08-08T05:05:41Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-05-21T22:45:08Z",
+                    "paper_title": {
+                        "en": "Simultaneous identification of species and trichothecene chemotypes of Fusarium asiaticum and F. graminearum sensu stricto by multiplex PCR"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Fumihiko Suzuki"
+                            },
+                            {
+                                "name": "Ayako Koba"
+                            },
+                            {
+                                "name": "Takashi Nakajima"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "A multiplex PCR assay was developed for simultaneous identification of the species and trichothecene chemotypes for Fusarium asiaticum and F. graminearum sensu stricto based on the genes related to trichothecene biosynthesis. PCR was carried out in a single reaction with three pairs of primers designed for the tri6 region and one pair of primers designed for tri3. We confirmed that the multiplex PCR was able to identify species and chemotypes for all tested strains of F. asiaticum and F. graminearum s. str. isolated in Japan. This technique would be a useful and rapid tool for diagnosis, epidemiology, and population structure studies of the F. graminearum complex in Japan."
+                    },
+                    "publisher": {
+                        "en": "SPRINGER TOKYO"
+                    },
+                    "publication_date": "2010-02",
+                    "publication_name": {
+                        "en": "JOURNAL OF GENERAL PLANT PATHOLOGY"
+                    },
+                    "volume": "76",
+                    "number": "1",
+                    "starting_page": "31",
+                    "ending_page": "36",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "published_paper_type": "scientific_journal",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1007/s10327-009-0206-9"
+                        ],
+                        "issn": [
+                            "1345-2630"
+                        ],
+                        "wos_id": [
+                            "WOS:000273979800004"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1007/s10327-009-0206-9",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000273979800004&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/fs420410/published_papers/26945297",
+                    "@type": "published_papers",
+                    "@reverse": "https://api.researchmap.jp/fs420410/published_papers",
+                    "rm:id": "26945297",
+                    "rm:user_id": "0000043445",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_papers",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-04-28T06:17:18Z",
+                    "rm:modifier_id": "ai:assign_based_papers",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-04-28T06:17:18Z",
+                    "paper_title": {
+                        "ja": "異なる輪作体系における赤かび病菌個体群構造の季節変動",
+                        "en": "異なる輪作体系における赤かび病菌個体群構造の季節変動"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "古場文子"
+                            },
+                            {
+                                "name": "鈴木文彦"
+                            },
+                            {
+                                "name": "大崎美由紀"
+                            },
+                            {
+                                "name": "宮坂篤"
+                            },
+                            {
+                                "name": "吉田めぐみ"
+                            },
+                            {
+                                "name": "荒井治喜"
+                            },
+                            {
+                                "name": "中島隆"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "古場文子"
+                            },
+                            {
+                                "name": "鈴木文彦"
+                            },
+                            {
+                                "name": "大崎美由紀"
+                            },
+                            {
+                                "name": "宮坂篤"
+                            },
+                            {
+                                "name": "吉田めぐみ"
+                            },
+                            {
+                                "name": "荒井治喜"
+                            },
+                            {
+                                "name": "中島隆"
+                            }
+                        ]
+                    },
+                    "publication_date": "2009-11-24",
+                    "publication_name": {
+                        "ja": "九州病害虫研究会報",
+                        "en": "九州病害虫研究会報"
+                    },
+                    "volume": "55",
+                    "starting_page": "182",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "0385-6410"
+                        ],
+                        "j_global_id": [
+                            "200902283202419520"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "j_global",
+                            "@id": "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=200902283202419520",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "http://jglobal.jst.go.jp/public/200902283202419520",
+                            "is_downloadable": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/fs420410/misc",
+            "@type": "misc",
+            "@reverse": "https://api.researchmap.jp/fs420410",
+            "total_items": 64,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/fs420410/misc/37271122",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/fs420410/misc",
+                    "rm:id": "37271122",
+                    "rm:user_id": "0000043445",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2022-06-27T08:17:46Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-06-27T08:17:46Z",
+                    "paper_title": {
+                        "ja": "植物防疫基礎講座 : 植物病原菌の薬剤感受性検定マニュアル2016(3)イネいもち病菌 : QoI剤(遺伝子検定法)",
+                        "en": "Molecular Diagnostic Methods for QoI Fungicide Resistance in the Rice Blast Pathogen"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "鈴木 文彦"
+                            },
+                            {
+                                "name": "早野 由里子"
+                            },
+                            {
+                                "name": "林 敬子"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "日本植物防疫協会"
+                    },
+                    "publication_date": "2016-08",
+                    "publication_name": {
+                        "ja": "植物防疫"
+                    },
+                    "volume": "70",
+                    "number": "8",
+                    "starting_page": "542",
+                    "ending_page": "545",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "0037-4091"
+                        ],
+                        "cinii_na_id": [
+                            "40020926749"
+                        ],
+                        "cinii_nc_id": [
+                            "AN0011802X"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/40020926749",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_books",
+                            "@id": "http://ci.nii.ac.jp/ncid/AN0011802X",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "http://id.ndl.go.jp/bib/027579736",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/fs420410/misc/39730944",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/fs420410/misc",
+                    "rm:id": "39730944",
+                    "rm:user_id": "0000043445",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2022-08-25T03:31:32Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-08-25T03:31:32Z",
+                    "paper_title": {
+                        "ja": "点変異検出技術「1秒PCR」の開発-QoI剤耐性イネいもち病菌の遺伝子診断を例に-"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "早野由里子"
+                            },
+                            {
+                                "name": "林敬子"
+                            },
+                            {
+                                "name": "芦澤武人"
+                            },
+                            {
+                                "name": "鈴木文彦"
+                            }
+                        ]
+                    },
+                    "publication_date": "2015",
+                    "publication_name": {
+                        "ja": "日本植物病理学会大会プログラム・講演要旨予稿集"
+                    },
+                    "volume": "2015",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "j_global_id": [
+                            "201502226790754457"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "j_global",
+                            "@id": "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=201502226790754457",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/fs420410/misc/35115051",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/fs420410/misc",
+                    "rm:id": "35115051",
+                    "rm:user_id": "0000043445",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2021-10-25T00:53:05Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2021-10-25T00:53:05Z",
+                    "paper_title": {
+                        "ja": "SSR遺伝子型を用いた圃場いもち病菌の拡散の評価"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "善林薫"
+                            },
+                            {
+                                "name": "鬼頭英樹"
+                            },
+                            {
+                                "name": "芦澤武人"
+                            },
+                            {
+                                "name": "鈴木文彦"
+                            }
+                        ]
+                    },
+                    "publication_date": "2015",
+                    "publication_name": {
+                        "ja": "日本植物病理学会大会プログラム・講演要旨予稿集"
+                    },
+                    "volume": "2015",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "j_global_id": [
+                            "201502205281064932"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "j_global",
+                            "@id": "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=201502205281064932",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/fs420410/misc/35604590",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/fs420410/misc",
+                    "rm:id": "35604590",
+                    "rm:user_id": "0000043445",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2021-10-27T23:23:53Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2021-10-27T23:23:53Z",
+                    "paper_title": {
+                        "ja": "特集 イネの主要病害 : 発生生態と防除対策 (防除の羅針盤)"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "鈴木 文彦"
+                            },
+                            {
+                                "name": "小泉 信三"
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "日本植物防疫協会"
+                    },
+                    "publication_date": "2014-06",
+                    "publication_name": {
+                        "ja": "植物防疫"
+                    },
+                    "volume": "68",
+                    "number": "6",
+                    "starting_page": "357",
+                    "ending_page": "361",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "0037-4091"
+                        ],
+                        "cinii_na_id": [
+                            "40020115154"
+                        ],
+                        "cinii_nc_id": [
+                            "AN0011802X"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/40020115154",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_books",
+                            "@id": "http://ci.nii.ac.jp/ncid/AN0011802X",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "http://id.ndl.go.jp/bib/025564431",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/fs420410/misc/26945250",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/fs420410/misc",
+                    "rm:id": "26945250",
+                    "rm:user_id": "0000043445",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_papers",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-04-28T06:17:12Z",
+                    "rm:modifier_id": "ai:assign_based_papers",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-04-28T06:17:12Z",
+                    "paper_title": {
+                        "ja": "六条大麦(裸麦)の追加防除によるかび毒蓄積低減",
+                        "en": "六条大麦(裸麦)の追加防除によるかび毒蓄積低減"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "宮坂篤"
+                            },
+                            {
+                                "name": "吉田めぐみ"
+                            },
+                            {
+                                "name": "鈴木文彦"
+                            },
+                            {
+                                "name": "井上博喜"
+                            },
+                            {
+                                "name": "川上顕"
+                            },
+                            {
+                                "name": "中島隆"
+                            },
+                            {
+                                "name": "平八重一之"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "宮坂篤"
+                            },
+                            {
+                                "name": "吉田めぐみ"
+                            },
+                            {
+                                "name": "鈴木文彦"
+                            },
+                            {
+                                "name": "井上博喜"
+                            },
+                            {
+                                "name": "川上顕"
+                            },
+                            {
+                                "name": "中島隆"
+                            },
+                            {
+                                "name": "平八重一之"
+                            }
+                        ]
+                    },
+                    "publication_date": "2014-03-31",
+                    "publication_name": {
+                        "ja": "食品試験研究成果情報",
+                        "en": "食品試験研究成果情報"
+                    },
+                    "number": "26",
+                    "starting_page": "18",
+                    "ending_page": "19",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "0915-6186"
+                        ],
+                        "j_global_id": [
+                            "201402228623295667"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "j_global",
+                            "@id": "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=201402228623295667",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "http://jglobal.jst.go.jp/public/201402228623295667",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/fs420410/misc/26945258",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/fs420410/misc",
+                    "rm:id": "26945258",
+                    "rm:user_id": "0000043445",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_papers",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-04-28T06:17:13Z",
+                    "rm:modifier_id": "ai:assign_based_papers",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-04-28T06:17:13Z",
+                    "paper_title": {
+                        "ja": "麦類における出穂後尿素葉面散布は赤かび病の発病とかび毒蓄積に影響しない",
+                        "en": "麦類における出穂後尿素葉面散布は赤かび病の発病とかび毒蓄積に影響しない"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "吉田めぐみ"
+                            },
+                            {
+                                "name": "中島隆"
+                            },
+                            {
+                                "name": "宮坂篤"
+                            },
+                            {
+                                "name": "鈴木文彦"
+                            },
+                            {
+                                "name": "平八重一之"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "吉田めぐみ"
+                            },
+                            {
+                                "name": "中島隆"
+                            },
+                            {
+                                "name": "宮坂篤"
+                            },
+                            {
+                                "name": "鈴木文彦"
+                            },
+                            {
+                                "name": "平八重一之"
+                            }
+                        ]
+                    },
+                    "publication_date": "2013-03-31",
+                    "publication_name": {
+                        "ja": "食品試験研究成果情報",
+                        "en": "食品試験研究成果情報"
+                    },
+                    "number": "25",
+                    "starting_page": "22",
+                    "ending_page": "23",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "0915-6186"
+                        ],
+                        "j_global_id": [
+                            "201302241847506581"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "j_global",
+                            "@id": "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=201302241847506581",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "http://jglobal.jst.go.jp/public/201302241847506581",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/fs420410/misc/35115064",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/fs420410/misc",
+                    "rm:id": "35115064",
+                    "rm:user_id": "0000043445",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2021-10-25T00:53:10Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2021-10-25T00:53:10Z",
+                    "paper_title": {
+                        "ja": "イネいもち病圃場抵抗性遺伝子がいもち病菌集団に及ぼす選択圧の評価"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "善林薫"
+                            },
+                            {
+                                "name": "鬼頭英樹"
+                            },
+                            {
+                                "name": "芦澤武人"
+                            },
+                            {
+                                "name": "石原岳明"
+                            },
+                            {
+                                "name": "野口雅子"
+                            },
+                            {
+                                "name": "早野由里子"
+                            },
+                            {
+                                "name": "小泉信三"
+                            },
+                            {
+                                "name": "法隆大輔"
+                            },
+                            {
+                                "name": "鈴木文彦"
+                            }
+                        ]
+                    },
+                    "publication_date": "2013",
+                    "publication_name": {
+                        "ja": "日本植物病理学会大会プログラム・講演要旨予稿集"
+                    },
+                    "volume": "2013",
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "j_global_id": [
+                            "201302246586226570"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "j_global",
+                            "@id": "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=201302246586226570",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/fs420410/misc/26945264",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/fs420410/misc",
+                    "rm:id": "26945264",
+                    "rm:user_id": "0000043445",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_papers",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-04-28T06:17:13Z",
+                    "rm:modifier_id": "ai:assign_based_papers",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-04-28T06:17:13Z",
+                    "paper_title": {
+                        "ja": "六条大麦(裸麦)の追加防除によるかび毒蓄積低減",
+                        "en": "六条大麦(裸麦)の追加防除によるかび毒蓄積低減"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "宮坂篤"
+                            },
+                            {
+                                "name": "吉田めぐみ"
+                            },
+                            {
+                                "name": "鈴木文彦"
+                            },
+                            {
+                                "name": "井上博喜"
+                            },
+                            {
+                                "name": "川上顕"
+                            },
+                            {
+                                "name": "中島隆"
+                            },
+                            {
+                                "name": "平八重一之"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "宮坂篤"
+                            },
+                            {
+                                "name": "吉田めぐみ"
+                            },
+                            {
+                                "name": "鈴木文彦"
+                            },
+                            {
+                                "name": "井上博喜"
+                            },
+                            {
+                                "name": "川上顕"
+                            },
+                            {
+                                "name": "中島隆"
+                            },
+                            {
+                                "name": "平八重一之"
+                            }
+                        ]
+                    },
+                    "publication_date": "2013",
+                    "publication_name": {
+                        "ja": "九州沖縄農業試験研究の成果情報(Web)",
+                        "en": "九州沖縄農業試験研究の成果情報(Web)"
+                    },
+                    "volume": "2013",
+                    "starting_page": "WEB ONLY",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "j_global_id": [
+                            "201602215384930810"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "j_global",
+                            "@id": "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=201602215384930810",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "http://jglobal.jst.go.jp/public/201602215384930810",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/fs420410/misc/26894804",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/fs420410/misc",
+                    "rm:id": "26894804",
+                    "rm:user_id": "0000043445",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_papers",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-04-26T10:55:43Z",
+                    "rm:modifier_id": "ai:assign_based_papers",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-04-26T10:55:43Z",
+                    "paper_title": {
+                        "ja": "暖地における飼料用稲等を基軸とした発酵TMR生産・利用技術の開発と広域流通・連携システムの構築 「発酵粗飼料用稲栽培における病害虫の発生リスク評価と総合的管理技術の開発」"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "荒井治喜"
+                            },
+                            {
+                                "name": "鈴木文彦"
+                            },
+                            {
+                                "name": "松村正哉"
+                            },
+                            {
+                                "name": "竹内博昭"
+                            }
+                        ]
+                    },
+                    "publication_date": "2013-01",
+                    "publication_name": {
+                        "ja": "農林水産省農林水産技術会議事務局研究成果"
+                    },
+                    "number": "489",
+                    "starting_page": "148",
+                    "ending_page": "154",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "j_global_id": [
+                            "201302258532170534"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "j_global",
+                            "@id": "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=201302258532170534",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "http://jglobal.jst.go.jp/public/201302258532170534",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/fs420410/misc/26945272",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/fs420410/misc",
+                    "rm:id": "26945272",
+                    "rm:user_id": "0000043445",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_papers",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-04-28T06:17:14Z",
+                    "rm:modifier_id": "ai:assign_based_papers",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-04-28T06:17:14Z",
+                    "paper_title": {
+                        "ja": "麦類のかび毒汚染低減のための生産工程管理マニュアル",
+                        "en": "麦類のかび毒汚染低減のための生産工程管理マニュアル"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "中島隆"
+                            },
+                            {
+                                "name": "吉田めぐみ"
+                            },
+                            {
+                                "name": "河田尚之"
+                            },
+                            {
+                                "name": "川上顕"
+                            },
+                            {
+                                "name": "宮坂篤"
+                            },
+                            {
+                                "name": "鈴木文彦"
+                            },
+                            {
+                                "name": "久保堅司"
+                            },
+                            {
+                                "name": "荒井治喜"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "中島隆"
+                            },
+                            {
+                                "name": "吉田めぐみ"
+                            },
+                            {
+                                "name": "河田尚之"
+                            },
+                            {
+                                "name": "川上顕"
+                            },
+                            {
+                                "name": "宮坂篤"
+                            },
+                            {
+                                "name": "鈴木文彦"
+                            },
+                            {
+                                "name": "久保堅司"
+                            },
+                            {
+                                "name": "荒井治喜"
+                            }
+                        ]
+                    },
+                    "publication_date": "2009-09-18",
+                    "publication_name": {
+                        "ja": "九州沖縄農業研究成果情報",
+                        "en": "九州沖縄農業研究成果情報"
+                    },
+                    "number": "24",
+                    "starting_page": "299",
+                    "ending_page": "300",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "1346-7603"
+                        ],
+                        "j_global_id": [
+                            "200902288325625142"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "j_global",
+                            "@id": "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=200902288325625142",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "http://jglobal.jst.go.jp/public/200902288325625142",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/fs420410/misc/26445762",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/fs420410/misc",
+                    "rm:id": "26445762",
+                    "rm:user_id": "0000043445",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_papers",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-04-17T23:50:27Z",
+                    "rm:modifier_id": "ai:assign_based_papers",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-04-17T23:50:27Z",
+                    "paper_title": {
+                        "ja": "圃場におけるコムギ赤かび病菌個体群の時空間分布と分生胞子による二次伝染"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "大崎美由紀"
+                            },
+                            {
+                                "name": "浦野知"
+                            },
+                            {
+                                "name": "冨村健太"
+                            },
+                            {
+                                "name": "宮坂篤"
+                            },
+                            {
+                                "name": "鈴木文彦"
+                            },
+                            {
+                                "name": "古場文子"
+                            },
+                            {
+                                "name": "吉田政博"
+                            },
+                            {
+                                "name": "中島隆"
+                            }
+                        ]
+                    },
+                    "publication_date": "2008-09",
+                    "publication_name": {
+                        "ja": "第9回赤かび病研究会"
+                    },
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "misc_type": "lecture_materials",
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/fs420410/misc/39087271",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/fs420410/misc",
+                    "rm:id": "39087271",
+                    "rm:user_id": "0000043445",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2022-07-24T06:12:09Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-07-24T06:12:09Z",
+                    "paper_title": {
+                        "ja": "(162) イネ栽培圃場周辺のイネ科牧草類から分離したいもち病菌の病原性と個体群構造(平成20年度日本植物病理学会大会講演要旨)",
+                        "en": "(162) Population Structure and Pathogenicity of Pyricularia grisea on Grasses around Paddy Fields(Abstracts of the Papers Presented at the Annual Meeting of the Society)"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "荒井 治喜"
+                            },
+                            {
+                                "name": "鈴木 文彦"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Arai M."
+                            },
+                            {
+                                "name": "Suzuki F."
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "日本植物病理学会",
+                        "en": "The Phytopathological Society of Japan (PSJ)"
+                    },
+                    "publication_date": "2008-08-25",
+                    "publication_name": {
+                        "ja": "日本植物病理學會報",
+                        "en": "Annals of the Phytopathological Society of Japan"
+                    },
+                    "volume": "74",
+                    "number": "3",
+                    "starting_page": "209",
+                    "ending_page": "210",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "0031-9473"
+                        ],
+                        "cinii_na_id": [
+                            "110006965799"
+                        ],
+                        "cinii_nc_id": [
+                            "AN0019269X"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/110006965799",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_books",
+                            "@id": "http://ci.nii.ac.jp/ncid/AN0019269X",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/fs420410/misc/39086282",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/fs420410/misc",
+                    "rm:id": "39086282",
+                    "rm:user_id": "0000043445",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2022-07-24T06:07:37Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-07-24T06:07:37Z",
+                    "paper_title": {
+                        "ja": "(168) 水田化に伴う赤かび病菌個体群動態の解析(平成20年度日本植物病理学会大会講演要旨)",
+                        "en": "(168) Population Dynamics of Fusarium graminearum Species Complex in Rice Paddy Field Converted after Wheat Harvest(Abstracts of the Papers Presented at the Annual Meeting of the Society)"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "鈴木 文彦"
+                            },
+                            {
+                                "name": "中島 隆"
+                            },
+                            {
+                                "name": "宮坂 篤"
+                            },
+                            {
+                                "name": "吉田 めぐみ"
+                            },
+                            {
+                                "name": "大崎 美由紀"
+                            },
+                            {
+                                "name": "荒井 治喜"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Suzuki F."
+                            },
+                            {
+                                "name": "Nakajima T."
+                            },
+                            {
+                                "name": "Miyasaka A."
+                            },
+                            {
+                                "name": "Yoshida M."
+                            },
+                            {
+                                "name": "Osaki M."
+                            },
+                            {
+                                "name": "Arai M."
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "日本植物病理学会",
+                        "en": "The Phytopathological Society of Japan (PSJ)"
+                    },
+                    "publication_date": "2008-08-25",
+                    "publication_name": {
+                        "ja": "日本植物病理學會報",
+                        "en": "Annals of the Phytopathological Society of Japan"
+                    },
+                    "volume": "74",
+                    "number": "3",
+                    "starting_page": "211",
+                    "ending_page": "211",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "0031-9473"
+                        ],
+                        "cinii_na_id": [
+                            "110006965805"
+                        ],
+                        "cinii_nc_id": [
+                            "AN0019269X"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/110006965805",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_books",
+                            "@id": "http://ci.nii.ac.jp/ncid/AN0019269X",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/fs420410/misc/39086017",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/fs420410/misc",
+                    "rm:id": "39086017",
+                    "rm:user_id": "0000043445",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2022-07-24T06:06:27Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-07-24T06:06:27Z",
+                    "paper_title": {
+                        "ja": "(394) イネ種子消毒によるいもち病育苗期感染苗の本田持ち込み抑制(平成20年度日本植物病理学会大会講演要旨)",
+                        "en": "(394) Control of Bringing in Paddy Fields of Infection Seedling by Seed Disinfection against Rice Blast Fungus(Abstracts of the Papers Presented at the Annual Meeting of the Society)"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "山口 純一郎"
+                            },
+                            {
+                                "name": "稲田 稔"
+                            },
+                            {
+                                "name": "古田 明子"
+                            },
+                            {
+                                "name": "鈴木 文彦"
+                            },
+                            {
+                                "name": "荒井 治喜"
+                            },
+                            {
+                                "name": "武田 敏幸"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Yamaguchi J."
+                            },
+                            {
+                                "name": "Inada M."
+                            },
+                            {
+                                "name": "Furuta A."
+                            },
+                            {
+                                "name": "Suzuki F."
+                            },
+                            {
+                                "name": "Arai M."
+                            },
+                            {
+                                "name": "Takeda T."
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "日本植物病理学会",
+                        "en": "The Phytopathological Society of Japan (PSJ)"
+                    },
+                    "publication_date": "2008-08-25",
+                    "publication_name": {
+                        "ja": "日本植物病理學會報",
+                        "en": "Annals of the Phytopathological Society of Japan"
+                    },
+                    "volume": "74",
+                    "number": "3",
+                    "starting_page": "272",
+                    "ending_page": "272",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "0031-9473"
+                        ],
+                        "cinii_na_id": [
+                            "110006966031"
+                        ],
+                        "cinii_nc_id": [
+                            "AN0019269X"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/110006966031",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_books",
+                            "@id": "http://ci.nii.ac.jp/ncid/AN0019269X",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/fs420410/misc/39085793",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/fs420410/misc",
+                    "rm:id": "39085793",
+                    "rm:user_id": "0000043445",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2022-07-24T06:05:36Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-07-24T06:05:36Z",
+                    "paper_title": {
+                        "ja": "(20) 三重県で分離されたMBI-D耐性イネいもち病菌のレース,Pot2 rep-PCR法およびSSRマーカーによる解析(平成20年度日本植物病理学会大会講演要旨)",
+                        "en": "(20) Characterization of MBI-D Resistant Isolates of Pyricularia oryzae in Mie Prefecture based on Race, Pot2 rep-PCR Fingerprinting and SSR Marker Analysis(Abstracts of the Papers Presented at the Annual Meeting of the Society)"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "鈴木 啓史"
+                            },
+                            {
+                                "name": "黒田 克利"
+                            },
+                            {
+                                "name": "藤 晋一"
+                            },
+                            {
+                                "name": "鈴木 倫子"
+                            },
+                            {
+                                "name": "鈴木 文彦"
+                            },
+                            {
+                                "name": "東 正昭"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Suzuki H."
+                            },
+                            {
+                                "name": "Kuroda K."
+                            },
+                            {
+                                "name": "Fuji S."
+                            },
+                            {
+                                "name": "Suzuki T."
+                            },
+                            {
+                                "name": "Suzuki F."
+                            },
+                            {
+                                "name": "Higashi T."
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "日本植物病理学会",
+                        "en": "The Phytopathological Society of Japan (PSJ)"
+                    },
+                    "publication_date": "2008-08-25",
+                    "publication_name": {
+                        "ja": "日本植物病理學會報",
+                        "en": "Annals of the Phytopathological Society of Japan"
+                    },
+                    "volume": "74",
+                    "number": "3",
+                    "starting_page": "172",
+                    "ending_page": "172",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "0031-9473"
+                        ],
+                        "cinii_na_id": [
+                            "110006965657"
+                        ],
+                        "cinii_nc_id": [
+                            "AN0019269X"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/110006965657",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_books",
+                            "@id": "http://ci.nii.ac.jp/ncid/AN0019269X",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/fs420410/misc/26445763",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/fs420410/misc",
+                    "rm:id": "26445763",
+                    "rm:user_id": "0000043445",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_papers",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2020-04-17T23:50:27Z",
+                    "rm:modifier_id": "ai:assign_based_papers",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-04-17T23:50:27Z",
+                    "paper_title": {
+                        "ja": "二条大麦の赤かび病防除適期は穂揃い10日後頃の葯殻抽出期である"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "吉田めぐみ"
+                            },
+                            {
+                                "name": "中島隆"
+                            },
+                            {
+                                "name": "河田尚之"
+                            },
+                            {
+                                "name": "荒井治喜"
+                            },
+                            {
+                                "name": "鈴木文彦"
+                            },
+                            {
+                                "name": "冨村健太"
+                            }
+                        ]
+                    },
+                    "publication_date": "2008-03",
+                    "publication_name": {
+                        "ja": "農研機構平成19年度研究成果情報（研究・普及）"
+                    },
+                    "languages": [
+                        "jpn"
+                    ],
+                    "referee": true,
+                    "invited": false,
+                    "misc_type": "technical_report",
+                    "rm:is_open_access": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/fs420410/misc/39098758",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/fs420410/misc",
+                    "rm:id": "39098758",
+                    "rm:user_id": "0000043445",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2022-07-24T07:21:51Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-07-24T07:21:51Z",
+                    "paper_title": {
+                        "ja": "(7)コムギ赤かび病に対する各種薬剤のデオキシニバレノール低減効果とニバレノール低減効果の相関分析(九州部会講演要旨,平成19年度地域部会講演要旨)",
+                        "en": "(7)Correlation Analysis of Effects of Fungicide Applications on Reduction in Deoxynivalenol and Nivalenol Contamination by Fusarium Head Blight on Wheat(Abstracts Presented at the Meeting of the Kyushu Division,Abstracts of Papers Presented at the Division Meetings of the Phytopathological Society of Japan, 2007)"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "宮坂 篤"
+                            },
+                            {
+                                "name": "小泉 信三"
+                            },
+                            {
+                                "name": "吉田 めぐみ"
+                            },
+                            {
+                                "name": "鈴木 文彦"
+                            },
+                            {
+                                "name": "荒井 治喜"
+                            },
+                            {
+                                "name": "中島 隆"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Miyasaka A."
+                            },
+                            {
+                                "name": "Koizumi S."
+                            },
+                            {
+                                "name": "Yoshida M."
+                            },
+                            {
+                                "name": "Suzuki F."
+                            },
+                            {
+                                "name": "Arai M"
+                            },
+                            {
+                                "name": "Nakajima T."
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "日本植物病理学会",
+                        "en": "The Phytopathological Society of Japan (PSJ)"
+                    },
+                    "publication_date": "2008-02-20",
+                    "publication_name": {
+                        "ja": "日本植物病理學會報",
+                        "en": "Annals of the Phytopathological Society of Japan"
+                    },
+                    "volume": "74",
+                    "number": "1",
+                    "starting_page": "25",
+                    "ending_page": "26",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "0031-9473"
+                        ],
+                        "cinii_na_id": [
+                            "110006644553"
+                        ],
+                        "cinii_nc_id": [
+                            "AN0019269X"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/110006644553",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_books",
+                            "@id": "http://ci.nii.ac.jp/ncid/AN0019269X",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/fs420410/misc/39098753",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/fs420410/misc",
+                    "rm:id": "39098753",
+                    "rm:user_id": "0000043445",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2022-07-24T07:21:50Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-07-24T07:21:50Z",
+                    "paper_title": {
+                        "ja": "(8)トリコテセン産生遺伝子に基づくMultiplex PCR法を用いたFusarium graminearum種複合体の毒素型および系統の同時判別(九州部会講演要旨,平成19年度地域部会講演要旨)",
+                        "en": "(8)Multiplex PCR Based on Trichothecene Biosynthetic Genes for Rapid Identification of Both Producers of Trichothecene Mycotoxins and Leneages within Fusarium graminearum Species Complex(Abstracts Presented at the Meeting of the Kyushu Division,Abstracts of Papers Presented at the Division Meetings of the Phytopathological Society of Japan, 2007)"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "鈴木 文彦"
+                            },
+                            {
+                                "name": "中島 隆"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Suzuki F."
+                            },
+                            {
+                                "name": "Nakajima T."
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "日本植物病理学会",
+                        "en": "The Phytopathological Society of Japan (PSJ)"
+                    },
+                    "publication_date": "2008-02-20",
+                    "publication_name": {
+                        "ja": "日本植物病理學會報",
+                        "en": "Annals of the Phytopathological Society of Japan"
+                    },
+                    "volume": "74",
+                    "number": "1",
+                    "starting_page": "26",
+                    "ending_page": "26",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "0031-9473"
+                        ],
+                        "cinii_na_id": [
+                            "110006644554"
+                        ],
+                        "cinii_nc_id": [
+                            "AN0019269X"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/110006644554",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_books",
+                            "@id": "http://ci.nii.ac.jp/ncid/AN0019269X",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/fs420410/misc/39098751",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/fs420410/misc",
+                    "rm:id": "39098751",
+                    "rm:user_id": "0000043445",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2022-07-24T07:21:50Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-07-24T07:21:50Z",
+                    "paper_title": {
+                        "ja": "(9)圃場におけるコムギ赤かび病菌個体群の空間分布動態(九州部会講演要旨,平成19年度地域部会講演要旨)",
+                        "en": "(9)Distribution Patterns of Fusarium graminearum in Wheat Fields(Abstracts Presented at the Meeting of the Kyushu Division,Abstracts of Papers Presented at the Division Meetings of the Phytopathological Society of Japan, 2007)"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "大崎 美由紀"
+                            },
+                            {
+                                "name": "浦野 知"
+                            },
+                            {
+                                "name": "冨村 健太"
+                            },
+                            {
+                                "name": "宮坂 篤"
+                            },
+                            {
+                                "name": "鈴木 文彦"
+                            },
+                            {
+                                "name": "吉田 政博"
+                            },
+                            {
+                                "name": "中島 隆"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Ohsaki M."
+                            },
+                            {
+                                "name": "Urano S."
+                            },
+                            {
+                                "name": "Tomimura K."
+                            },
+                            {
+                                "name": "Miyasaka A."
+                            },
+                            {
+                                "name": "Suzuki F."
+                            },
+                            {
+                                "name": "Yoshida M."
+                            },
+                            {
+                                "name": "Nakajima T."
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "日本植物病理学会",
+                        "en": "The Phytopathological Society of Japan (PSJ)"
+                    },
+                    "publication_date": "2008-02-20",
+                    "publication_name": {
+                        "ja": "日本植物病理學會報",
+                        "en": "Annals of the Phytopathological Society of Japan"
+                    },
+                    "volume": "74",
+                    "number": "1",
+                    "starting_page": "26",
+                    "ending_page": "26",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "0031-9473"
+                        ],
+                        "cinii_na_id": [
+                            "110006644555"
+                        ],
+                        "cinii_nc_id": [
+                            "AN0019269X"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/110006644555",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_books",
+                            "@id": "http://ci.nii.ac.jp/ncid/AN0019269X",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/fs420410/misc/39174165",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/fs420410/misc",
+                    "rm:id": "39174165",
+                    "rm:user_id": "0000043445",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "ai:assign_based_internal_feeds",
+                    "rm:creator_type": "ai",
+                    "rm:created": "2022-07-26T03:43:27Z",
+                    "rm:modifier_id": "ai:assign_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-07-26T03:43:27Z",
+                    "paper_title": {
+                        "ja": "(54) ムギ類赤かび病の種子伝染の証明(平成19年度日本植物病理学会大会講演要旨)",
+                        "en": "(54) Evidence of Seed Transmission of Fusarium Head Blight in Wheat and Barley(Abstracts of the Papers Presented at the Annual Meeting of the Society)"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "冨村 健太"
+                            },
+                            {
+                                "name": "鈴木 文彦"
+                            },
+                            {
+                                "name": "中島 隆"
+                            },
+                            {
+                                "name": "吉田 めぐみ"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Tomimura K."
+                            },
+                            {
+                                "name": "Suzuki F."
+                            },
+                            {
+                                "name": "Nakajima T."
+                            },
+                            {
+                                "name": "Yoshida M."
+                            }
+                        ]
+                    },
+                    "publisher": {
+                        "ja": "日本植物病理学会",
+                        "en": "The Phytopathological Society of Japan (PSJ)"
+                    },
+                    "publication_date": "2007-08-25",
+                    "publication_name": {
+                        "ja": "日本植物病理學會報",
+                        "en": "Annals of the Phytopathological Society of Japan"
+                    },
+                    "volume": "73",
+                    "number": "3",
+                    "starting_page": "189",
+                    "ending_page": "189",
+                    "languages": [
+                        "jpn"
+                    ],
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "issn": [
+                            "0031-9473"
+                        ],
+                        "cinii_na_id": [
+                            "110006382912"
+                        ],
+                        "cinii_nc_id": [
+                            "AN0019269X"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/110006382912",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_books",
+                            "@id": "http://ci.nii.ac.jp/ncid/AN0019269X",
+                            "is_downloadable": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/fs420410/association_memberships",
+            "@type": "association_memberships",
+            "@reverse": "https://api.researchmap.jp/fs420410",
+            "total_items": 4,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/fs420410/association_memberships/8687052",
+                    "@type": "association_memberships",
+                    "@reverse": "https://api.researchmap.jp/fs420410/association_memberships",
+                    "rm:id": "8687052",
+                    "rm:user_id": "0000043445",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000043445",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2017-08-08T05:24:18Z",
+                    "rm:modifier_id": "0000043445",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2017-08-08T05:24:18Z",
+                    "academic_society_name": {
+                        "ja": "関東東山病害虫研究会",
+                        "en": "THE KANTO-TOSAN PLANT PROTECTION SOCIETY"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/fs420410/association_memberships/8687051",
+                    "@type": "association_memberships",
+                    "@reverse": "https://api.researchmap.jp/fs420410/association_memberships",
+                    "rm:id": "8687051",
+                    "rm:user_id": "0000043445",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000043445",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2017-08-08T05:24:18Z",
+                    "rm:modifier_id": "0000043445",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2017-08-08T05:24:18Z",
+                    "academic_society_name": {
+                        "ja": "九州病害虫研究会",
+                        "en": "THE ASSOCIATION FOR PLANT PROTECTION OF KYUSHU"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/fs420410/association_memberships/365278",
+                    "@type": "association_memberships",
+                    "@reverse": "https://api.researchmap.jp/fs420410/association_memberships",
+                    "rm:id": "365278",
+                    "rm:user_id": "0000043445",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000043445",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2003-12-14T15:00:00Z",
+                    "rm:modifier_id": "0000043445",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2003-12-14T15:00:00Z",
+                    "academic_society_name": {
+                        "ja": "日本土壌微生物学会"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/fs420410/association_memberships/365277",
+                    "@type": "association_memberships",
+                    "@reverse": "https://api.researchmap.jp/fs420410/association_memberships",
+                    "rm:id": "365277",
+                    "rm:user_id": "0000043445",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "0000043445",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2003-12-14T15:00:00Z",
+                    "rm:modifier_id": "0000043445",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2003-12-14T15:00:00Z",
+                    "academic_society_name": {
+                        "ja": "日本植物病理学会"
+                    }
+                }
+            ]
+        }
+    ]
+}

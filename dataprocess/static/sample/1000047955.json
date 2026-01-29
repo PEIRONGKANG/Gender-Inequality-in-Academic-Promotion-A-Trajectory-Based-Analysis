@@ -1,0 +1,2651 @@
+{
+    "@context": "https://api.researchmap.jp/researcher.jsonld",
+    "@id": "https://api.researchmap.jp/read0018234?format=json",
+    "@type": "researchers",
+    "rm:user_id": "1000047955",
+    "rm:creator_id": "1000047955",
+    "rm:creator_type": "myself",
+    "rm:created": "2011-02-08T15:00:00Z",
+    "rm:modifier_id": "client_id:9999999999",
+    "rm:modifier_type": "institution",
+    "rm:modified": "2024-01-17T05:10:20Z",
+    "permalink": "read0018234",
+    "family_name": {
+        "ja": "加納",
+        "ja-Kana": "カノウ",
+        "en": "Kano"
+    },
+    "given_name": {
+        "ja": "克己",
+        "ja-Kana": "カツミ",
+        "en": "Katsumi"
+    },
+    "display_name_kana": "disclosed",
+    "display_nickname": "disclosed",
+    "display_image": "disclosed",
+    "display_contact_point": "disclosed",
+    "degrees": [
+        {
+            "degree": {
+                "ja": "医学博士",
+                "en": "Doctor of Health Science"
+            },
+            "degree_institution": {
+                "ja": "東京大学",
+                "en": "The University of Tokyo"
+            },
+            "display_degree": "disclosed",
+            "rm:institution_code": "0172000000"
+        },
+        {
+            "degree": {
+                "ja": "保健学博士"
+            },
+            "degree_institution": {
+                "ja": "東京大学"
+            },
+            "display_degree": "disclosed",
+            "rm:institution_code": "0172000000"
+        }
+    ],
+    "display_profile": "disclosed",
+    "display_url": "disclosed",
+    "identifiers": {
+        "j_global_id": [
+            "200901072143395617"
+        ]
+    },
+    "rm:erad_id_verified": false,
+    "rm:orc_id_verified": false,
+    "display_erad_id": "closed",
+    "display_orc_id": "closed",
+    "display_researcher_id": "disclosed",
+    "display_j_global_id": "disclosed",
+    "see_also": [
+        {
+            "label": "j_global",
+            "@id": "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=200901072143395617"
+        }
+    ],
+    "@graph": [
+        {
+            "@id": "https://api.researchmap.jp/read0018234/research_areas",
+            "@type": "research_areas",
+            "@reverse": "https://api.researchmap.jp/read0018234",
+            "total_items": 3,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0018234/research_areas/1052066",
+                    "@type": "research_areas",
+                    "@reverse": "https://api.researchmap.jp/read0018234/research_areas",
+                    "rm:id": "1052066",
+                    "rm:user_id": "1000047955",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000047955",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2011-02-08T15:00:00Z",
+                    "rm:modifier_id": "1000047955",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2011-02-08T15:00:00Z",
+                    "discipline_number": "A189",
+                    "item_number": "A58030",
+                    "discipline": {
+                        "ja": "ライフサイエンス",
+                        "en": "Life sciences"
+                    },
+                    "research_field": {
+                        "ja": "衛生学、公衆衛生学分野：実験系を含まない",
+                        "en": "Hygiene and public health (non-laboratory)"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0018234/research_areas/1052065",
+                    "@type": "research_areas",
+                    "@reverse": "https://api.researchmap.jp/read0018234/research_areas",
+                    "rm:id": "1052065",
+                    "rm:user_id": "1000047955",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000047955",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2011-02-08T15:00:00Z",
+                    "rm:modifier_id": "1000047955",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2011-02-08T15:00:00Z",
+                    "discipline_number": "A189",
+                    "item_number": "A58020",
+                    "discipline": {
+                        "ja": "ライフサイエンス",
+                        "en": "Life sciences"
+                    },
+                    "research_field": {
+                        "ja": "衛生学、公衆衛生学分野：実験系を含む",
+                        "en": "Hygiene and public health (laboratory)"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0018234/research_areas/1052064",
+                    "@type": "research_areas",
+                    "@reverse": "https://api.researchmap.jp/read0018234/research_areas",
+                    "rm:id": "1052064",
+                    "rm:user_id": "1000047955",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000047955",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2011-02-08T15:00:00Z",
+                    "rm:modifier_id": "1000047955",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2011-02-08T15:00:00Z",
+                    "discipline_number": "A189",
+                    "item_number": "A58010",
+                    "discipline": {
+                        "ja": "ライフサイエンス",
+                        "en": "Life sciences"
+                    },
+                    "research_field": {
+                        "ja": "医療管理学、医療系社会学",
+                        "en": "Healthcare management, medical sociology"
+                    }
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0018234/research_experience",
+            "@type": "research_experience",
+            "@reverse": "https://api.researchmap.jp/read0018234",
+            "total_items": 8,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0018234/research_experience/3993198",
+                    "@type": "research_experience",
+                    "@reverse": "https://api.researchmap.jp/read0018234/research_experience",
+                    "rm:id": "3993198",
+                    "rm:user_id": "1000047955",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000047955",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2011-02-08T15:00:00Z",
+                    "rm:modifier_id": "1000047955",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2011-02-08T15:00:00Z",
+                    "from_date": "2009",
+                    "rm:institution_code": "9999999999",
+                    "affiliation": {
+                        "ja": "- 和洋女子大学大学院総合生活研究科特任教授"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0018234/research_experience/3993194",
+                    "@type": "research_experience",
+                    "@reverse": "https://api.researchmap.jp/read0018234/research_experience",
+                    "rm:id": "3993194",
+                    "rm:user_id": "1000047955",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000047955",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2011-02-08T15:00:00Z",
+                    "rm:modifier_id": "1000047955",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2011-02-08T15:00:00Z",
+                    "from_date": "2009",
+                    "rm:institution_code": "9999999999",
+                    "affiliation": {
+                        "en": "- Graduate School of Wayo Women's University"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0018234/research_experience/3993196",
+                    "@type": "research_experience",
+                    "@reverse": "https://api.researchmap.jp/read0018234/research_experience",
+                    "rm:id": "3993196",
+                    "rm:user_id": "1000047955",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000047955",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2011-02-08T15:00:00Z",
+                    "rm:modifier_id": "1000047955",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2011-02-08T15:00:00Z",
+                    "from_date": "1978",
+                    "to_date": "2004",
+                    "rm:institution_code": "0408009000",
+                    "affiliation": {
+                        "ja": "筑波大学社会医学系教授（医学専門学群 大学院医学研究科）",
+                        "en": "University of Tsukuba"
+                    },
+                    "section": {
+                        "en": "Institute of Community Medicine"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0018234/research_experience/3993192",
+                    "@type": "research_experience",
+                    "@reverse": "https://api.researchmap.jp/read0018234/research_experience",
+                    "rm:id": "3993192",
+                    "rm:user_id": "1000047955",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000047955",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2011-02-08T15:00:00Z",
+                    "rm:modifier_id": "1000047955",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2011-02-08T15:00:00Z",
+                    "from_date": "1978",
+                    "to_date": "2004",
+                    "rm:institution_code": "9999999999",
+                    "affiliation": {
+                        "en": "Insititute of Community Medicine,University of tsukuba,Professor"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0018234/research_experience/3993197",
+                    "@type": "research_experience",
+                    "@reverse": "https://api.researchmap.jp/read0018234/research_experience",
+                    "rm:id": "3993197",
+                    "rm:user_id": "1000047955",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000047955",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2011-02-08T15:00:00Z",
+                    "rm:modifier_id": "1000047955",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2011-02-08T15:00:00Z",
+                    "from_date": "2004",
+                    "rm:institution_code": "9999999999",
+                    "affiliation": {
+                        "ja": "- 筑波大学名誉教授"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0018234/research_experience/3993193",
+                    "@type": "research_experience",
+                    "@reverse": "https://api.researchmap.jp/read0018234/research_experience",
+                    "rm:id": "3993193",
+                    "rm:user_id": "1000047955",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000047955",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2011-02-08T15:00:00Z",
+                    "rm:modifier_id": "1000047955",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2011-02-08T15:00:00Z",
+                    "from_date": "2004",
+                    "rm:institution_code": "9999999999",
+                    "affiliation": {
+                        "en": "- University of Tskuba,Emeritus Professor"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0018234/research_experience/3993195",
+                    "@type": "research_experience",
+                    "@reverse": "https://api.researchmap.jp/read0018234/research_experience",
+                    "rm:id": "3993195",
+                    "rm:user_id": "1000047955",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000047955",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2011-02-08T15:00:00Z",
+                    "rm:modifier_id": "1000047955",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2011-02-08T15:00:00Z",
+                    "from_date": "1971",
+                    "to_date": "1974",
+                    "rm:institution_code": "0172503000",
+                    "affiliation": {
+                        "ja": "東京大学医学部助手",
+                        "en": "The University of Tokyo"
+                    },
+                    "section": {
+                        "en": "Faculty of Medicine"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0018234/research_experience/13204308",
+                    "@type": "research_experience",
+                    "@reverse": "https://api.researchmap.jp/read0018234/research_experience",
+                    "rm:id": "13204308",
+                    "rm:user_id": "1000047955",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "client_id:9999999999",
+                    "rm:creator_type": "institution",
+                    "rm:created": "2012-03-31T02:06:35Z",
+                    "rm:modifier_id": "client_id:9999999999",
+                    "rm:modifier_type": "institution",
+                    "rm:modified": "2012-03-31T02:06:35Z",
+                    "rm:institution_code": "2177000000",
+                    "affiliation": {
+                        "ja": "和洋女子大学 和洋女子大学",
+                        "en": "Wayo Women's University Wayo Women's University"
+                    },
+                    "job": {
+                        "ja": "特任教授,筑波大学名誉教授",
+                        "en": "Professors,Ｕｎｉｖｅｒｓｉｔｙ ｏｆ Ｔｓｕｋｕｂａ Professor Emeritus"
+                    }
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0018234/committee_memberships",
+            "@type": "committee_memberships",
+            "@reverse": "https://api.researchmap.jp/read0018234",
+            "total_items": 2,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0018234/committee_memberships/652943",
+                    "@type": "committee_memberships",
+                    "@reverse": "https://api.researchmap.jp/read0018234/committee_memberships",
+                    "rm:id": "652943",
+                    "rm:user_id": "1000047955",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000047955",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2011-02-08T15:00:00Z",
+                    "rm:modifier_id": "1000047955",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2011-02-08T15:00:00Z",
+                    "committee_name": {
+                        "ja": "評議員"
+                    },
+                    "association": {
+                        "ja": "日本民族衛生学会"
+                    },
+                    "description": {
+                        "ja": "日本民族衛生学会"
+                    },
+                    "committee_type": "society"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0018234/committee_memberships/652942",
+                    "@type": "committee_memberships",
+                    "@reverse": "https://api.researchmap.jp/read0018234/committee_memberships",
+                    "rm:id": "652942",
+                    "rm:user_id": "1000047955",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000047955",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2011-02-08T15:00:00Z",
+                    "rm:modifier_id": "1000047955",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2011-02-08T15:00:00Z",
+                    "committee_name": {
+                        "ja": "評議員"
+                    },
+                    "association": {
+                        "ja": "日本衛生学会"
+                    },
+                    "description": {
+                        "ja": "日本衛生学会"
+                    },
+                    "committee_type": "society"
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0018234/misc",
+            "@type": "misc",
+            "@reverse": "https://api.researchmap.jp/read0018234",
+            "total_items": 60,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0018234/misc/14334612",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0018234/misc",
+                    "rm:id": "14334612",
+                    "rm:user_id": "1000047955",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000047955",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2011-02-08T15:00:00Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-08-23T10:07:46Z",
+                    "paper_title": {
+                        "ja": "Relationship between eating habits and obesity among preschool children in Ibaraki Prfecture,Japan",
+                        "en": "Relationship between eating habits and obesity among preschool children in Ibaraki Prefecture, Japan"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "CHEI ChoyLye"
+                            },
+                            {
+                                "name": "TOYOKAWA Satoshi"
+                            },
+                            {
+                                "name": "KANO Katsumi"
+                            }
+                        ],
+                        "ja": [
+                            {
+                                "name": "CHEI ChoyLye"
+                            },
+                            {
+                                "name": "TOYOKAWA Satoshi"
+                            },
+                            {
+                                "name": "KANO Katsumi"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "ja": "The relationship between eating habits and obesity in preschool children remains uncertain . The health of children in relation to eating habits needs to be studied in order to reduce the prevalence of obesity in childhood. This study aims to examine the relationship between eating habits and obesity in preschool children. The subjects consisted of 2408 preschool children (3 to 6 years of age) living in Ibaraki Prefecture, Japan. The prevalence of obesity was based on age and sex-specific cut-off points recently proposed by the Children Obesity Workings Group of the International Obesity Task Force. A logistic regression analysis was performed to examine the association between obesity and eating habits by calculating the odds ratio with 95% confidence interval. Eating habits such as not chewing frequently (OR: 2.55, 95% CI: 1.53-4.26) and rarely playing during mealtime (OR: 3.14, 95% CI: 1.37-7.21) had higher odds of obesity compared to the reference group. Childhood obesity seems to be associated with fewer chews per bite and being less active during mealtime. Particular attention should therefore be paid to these eating habits of preschool children in order to prevent obesity.",
+                        "en": "The relationship between eating habits and obesity in preschool children remains uncertain . The health of children in relation to eating habits needs to be studied in order to reduce the prevalence of obesity in childhood. This study aims to examine the relationship between eating habits and obesity in preschool children. The subjects consisted of 2408 preschool children (3 to 6 years of age) living in Ibaraki Prefecture, Japan. The prevalence of obesity was based on age and sex-specific cut-off points recently proposed by the Children Obesity Workings Group of the International Obesity Task Force. A logistic regression analysis was performed to examine the association between obesity and eating habits by calculating the odds ratio with 95% confidence interval. Eating habits such as not chewing frequently (OR: 2.55, 95% CI: 1.53-4.26) and rarely playing during mealtime (OR: 3.14, 95% CI: 1.37-7.21) had higher odds of obesity compared to the reference group. Childhood obesity seems to be associated with fewer chews per bite and being less active during mealtime. Particular attention should therefore be paid to these eating habits of preschool children in order to prevent obesity."
+                    },
+                    "publisher": {
+                        "ja": "The Japanese Society of Health and Human Ecology",
+                        "en": "The Japanese Society of Health and Human Ecology"
+                    },
+                    "publication_date": "2005",
+                    "publication_name": {
+                        "ja": "Jpn J Health & Human Ecology",
+                        "en": "Japanese Journal of Health and Human Ecology"
+                    },
+                    "volume": "71",
+                    "number": "2",
+                    "starting_page": "73",
+                    "ending_page": "82",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.3861/jshhe.71.73"
+                        ],
+                        "issn": [
+                            "0368-9395",
+                            "1882-868X"
+                        ],
+                        "cinii_na_id": [
+                            "10026951898"
+                        ],
+                        "cinii_nc_id": [
+                            "AN00236886"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.3861/jshhe.71.73",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/10026951898",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_books",
+                            "@id": "http://ci.nii.ac.jp/ncid/AN00236886",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "http://id.ndl.go.jp/bib/7333911",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "https://jlc.jst.go.jp/DN/JALC/00251351883?from=CiNii",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "http://search.jamas.or.jp/link/ui/2006162864",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0018234/misc/14334582",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0018234/misc",
+                    "rm:id": "14334582",
+                    "rm:user_id": "1000047955",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000047955",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2011-02-08T15:00:00Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-08-23T10:07:46Z",
+                    "paper_title": {
+                        "ja": "Relationship between eating habits and obesity among preschool children in Ibaraki Prefecture, Japan",
+                        "en": "Relationship between eating habits and obesity among preschool children in Ibaraki Prfecture,Japan"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "Chei ChoyLye"
+                            },
+                            {
+                                "name": "Toyokawa Satoshi"
+                            },
+                            {
+                                "name": "Kano Katsumi"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "CHEI ChoyLye"
+                            },
+                            {
+                                "name": "TOYOKAWA Satoshi"
+                            },
+                            {
+                                "name": "KANO Katsumi"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "ja": "The relationship between eating habits and obesity in preschool children remains uncertain . The health of children in relation to eating habits needs to be studied in order to reduce the prevalence of obesity in childhood. This study aims to examine the relationship between eating habits and obesity in preschool children. The subjects consisted of 2408 preschool children (3 to 6 years of age) living in Ibaraki Prefecture, Japan. The prevalence of obesity was based on age and sex-specific cut-off points recently proposed by the Children Obesity Workings Group of the International Obesity Task Force. A logistic regression analysis was performed to examine the association between obesity and eating habits by calculating the odds ratio with 95% confidence interval. Eating habits such as not chewing frequently (OR: 2.55, 95% CI: 1.53-4.26) and rarely playing during mealtime (OR: 3.14, 95% CI: 1.37-7.21) had higher odds of obesity compared to the reference group. Childhood obesity seems to be associated with fewer chews per bite and being less active during mealtime. Particular attention should therefore be paid to these eating habits of preschool children in order to prevent obesity.",
+                        "en": "The relationship between eating habits and obesity in preschool children remains uncertain . The health of children in relation to eating habits needs to be studied in order to reduce the prevalence of obesity in childhood. This study aims to examine the relationship between eating habits and obesity in preschool children. The subjects consisted of 2408 preschool children (3 to 6 years of age) living in Ibaraki Prefecture, Japan. The prevalence of obesity was based on age and sex-specific cut-off points recently proposed by the Children Obesity Workings Group of the International Obesity Task Force. A logistic regression analysis was performed to examine the association between obesity and eating habits by calculating the odds ratio with 95% confidence interval. Eating habits such as not chewing frequently (OR: 2.55, 95% CI: 1.53-4.26) and rarely playing during mealtime (OR: 3.14, 95% CI: 1.37-7.21) had higher odds of obesity compared to the reference group. Childhood obesity seems to be associated with fewer chews per bite and being less active during mealtime. Particular attention should therefore be paid to these eating habits of preschool children in order to prevent obesity."
+                    },
+                    "publisher": {
+                        "ja": "The Japanese Society of Health and Human Ecology",
+                        "en": "The Japanese Society of Health and Human Ecology"
+                    },
+                    "publication_date": "2005",
+                    "publication_name": {
+                        "ja": "民族衞生",
+                        "en": "Jpn J Health & Human Ecology"
+                    },
+                    "volume": "71",
+                    "number": "2",
+                    "starting_page": "73",
+                    "ending_page": "82",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.3861/jshhe.71.73"
+                        ],
+                        "issn": [
+                            "0368-9395",
+                            "1882-868X"
+                        ],
+                        "cinii_na_id": [
+                            "10026951898"
+                        ],
+                        "cinii_nc_id": [
+                            "AN00236886"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.3861/jshhe.71.73",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/10026951898",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_books",
+                            "@id": "http://ci.nii.ac.jp/ncid/AN00236886",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "http://id.ndl.go.jp/bib/7333911",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "https://jlc.jst.go.jp/DN/JALC/00251351883?from=CiNii",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "http://search.jamas.or.jp/link/ui/2006162864",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0018234/misc/14334613",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0018234/misc",
+                    "rm:id": "14334613",
+                    "rm:user_id": "1000047955",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000047955",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2011-02-08T15:00:00Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-08-23T10:14:27Z",
+                    "paper_title": {
+                        "ja": "Gender differences in obesity among preschool children in Ibaraki Prefecture",
+                        "en": "Gender differences in obesity among preschool children in Ibaraki prefecture"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "Chei ChoyLye"
+                            },
+                            {
+                                "name": "Toyokawa Satoshi"
+                            },
+                            {
+                                "name": "Kano Katsumi"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "CHEI ChoyLye"
+                            },
+                            {
+                                "name": "TOYOKAWA Satoshi"
+                            },
+                            {
+                                "name": "KANO Katsumi"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "ja": "In Japan, there have been few studies regarding gender differences in obesity in preschool children even though obese children are increasing. This research aims to clarify the gender differences in obesity and BMI (Body Mass Index) distribution among preschool children in Ibaraki Prefecture, Japan. A total of 2408 sets of self-administrated questionnaires answered by the parents were used for statistical analyses. BMI was used to determine the obesity level of children. No significant gender difference was reported in obesity among the subject. As regards cerning to mean BMI, significant gender difference (p<0 .01) was observed only in children of aged 5. The present study showed a possibility of increasing prevalence of obesity with growth and a need for effective prevention efforts in early childhood .",
+                        "en": "In Japan, there have been few studies regarding gender differences in obesity in preschool children even though obese children are increasing. This research aims to clarify the gender differences in obesity and BMI (Body Mass Index) distribution among preschool children in Ibaraki Prefecture, Japan. A total of 2408 sets of self-administrated questionnaires answered by the parents were used for statistical analyses. BMI was used to determine the obesity level of children. No significant gender difference was reported in obesity among the subject. As regards cerning to mean BMI, significant gender difference (p<0 .01) was observed only in children of aged 5. The present study showed a possibility of increasing prevalence of obesity with growth and a need for effective prevention efforts in early childhood ."
+                    },
+                    "publisher": {
+                        "ja": "The Japanese Society of Health and Human Ecology",
+                        "en": "The Japanese Society of Health and Human Ecology"
+                    },
+                    "publication_date": "2004",
+                    "publication_name": {
+                        "ja": "Jpn J Health & Human Ecology",
+                        "en": "Japanese Journal of Health and Human Ecology"
+                    },
+                    "volume": "70",
+                    "number": "2",
+                    "starting_page": "77",
+                    "ending_page": "83",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.3861/jshhe.70.77"
+                        ],
+                        "issn": [
+                            "0368-9395",
+                            "1882-868X"
+                        ],
+                        "cinii_na_id": [
+                            "10026951381"
+                        ],
+                        "cinii_nc_id": [
+                            "AN00236886"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.3861/jshhe.70.77",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/10026951381",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_books",
+                            "@id": "http://ci.nii.ac.jp/ncid/AN00236886",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "http://id.ndl.go.jp/bib/6910802",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "https://jlc.jst.go.jp/DN/JALC/00238451674?from=CiNii",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "http://search.jamas.or.jp/link/ui/2005287081",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0018234/misc/14334583",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0018234/misc",
+                    "rm:id": "14334583",
+                    "rm:user_id": "1000047955",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000047955",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2011-02-08T15:00:00Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-08-23T10:14:27Z",
+                    "paper_title": {
+                        "ja": "Gender differences in obesity among preschool children in Ibaraki prefecture",
+                        "en": "Gender differences in obesity among preschool children in Ibaraki Prefecture"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "Chei ChoyLye"
+                            },
+                            {
+                                "name": "Toyokawa Satoshi"
+                            },
+                            {
+                                "name": "Kano Katsumi"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "ChoyLye CHEI"
+                            },
+                            {
+                                "name": "Satoshi TOYOKAWA"
+                            },
+                            {
+                                "name": "Katsumi KANO"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "ja": "In Japan, there have been few studies regarding gender differences in obesity in preschool children even though obese children are increasing. This research aims to clarify the gender differences in obesity and BMI (Body Mass Index) distribution among preschool children in Ibaraki Prefecture, Japan. A total of 2408 sets of self-administrated questionnaires answered by the parents were used for statistical analyses. BMI was used to determine the obesity level of children. No significant gender difference was reported in obesity among the subject. As regards cerning to mean BMI, significant gender difference (p<0 .01) was observed only in children of aged 5. The present study showed a possibility of increasing prevalence of obesity with growth and a need for effective prevention efforts in early childhood .",
+                        "en": "In Japan, there have been few studies regarding gender differences in obesity in preschool children even though obese children are increasing. This research aims to clarify the gender differences in obesity and BMI (Body Mass Index) distribution among preschool children in Ibaraki Prefecture, Japan. A total of 2408 sets of self-administrated questionnaires answered by the parents were used for statistical analyses. BMI was used to determine the obesity level of children. No significant gender difference was reported in obesity among the subject. As regards cerning to mean BMI, significant gender difference (p<0 .01) was observed only in children of aged 5. The present study showed a possibility of increasing prevalence of obesity with growth and a need for effective prevention efforts in early childhood ."
+                    },
+                    "publisher": {
+                        "ja": "The Japanese Society of Health and Human Ecology",
+                        "en": "The Japanese Society of Health and Human Ecology"
+                    },
+                    "publication_date": "2004",
+                    "publication_name": {
+                        "ja": "民族衞生",
+                        "en": "Jpn J Health & Human Ecology"
+                    },
+                    "volume": "70",
+                    "number": "2",
+                    "starting_page": "77",
+                    "ending_page": "83",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.3861/jshhe.70.77"
+                        ],
+                        "issn": [
+                            "0368-9395",
+                            "1882-868X"
+                        ],
+                        "cinii_na_id": [
+                            "10026951381"
+                        ],
+                        "cinii_nc_id": [
+                            "AN00236886"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.3861/jshhe.70.77",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/10026951381",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_books",
+                            "@id": "http://ci.nii.ac.jp/ncid/AN00236886",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "http://id.ndl.go.jp/bib/6910802",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "https://jlc.jst.go.jp/DN/JALC/00238451674?from=CiNii",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "http://search.jamas.or.jp/link/ui/2005287081",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0018234/misc/14334615",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0018234/misc",
+                    "rm:id": "14334615",
+                    "rm:user_id": "1000047955",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000047955",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2011-02-08T15:00:00Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-08-28T13:10:25Z",
+                    "paper_title": {
+                        "en": "Geographical pattern of malignant neoplasm by cluster analysis using standardized mortality ratios (SMRs) in Ibaraki Prefecture, Japan"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Setsuko Kinoshita"
+                            },
+                            {
+                                "name": "Hideto Takahashi"
+                            },
+                            {
+                                "name": "Masafumi Okada"
+                            },
+                            {
+                                "name": "Hiroaki Nishikawa"
+                            },
+                            {
+                                "name": "Satoshi Toyokawa"
+                            },
+                            {
+                                "name": "Katsumi Kano"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "We investigated the geographical patterns of mortality from eight (males)/ten (females) sites of malignant neoplasm, using cluster analysis with Standardized Mortality Ratios (SMRs), and examined the relationship between the mortality structure and urbanization. To explore the geographical tendencies is important for the prevention of cancers\n such as noticing risk factors associated with regional variance. The death rates, by site, gender and age from 1990 to 1994 in Japan, were obtained from Vital Statistics. The deaths and population in municipalities were obtained from \"Population of Ibaraki Prefecture\". These were represented as averaged values in five-year periods. As an indicator of urbanization and mortality structure, the population density of municipalities and the overall rank scores of SMRs were used, respectively. Cluster analysis formed some distinctive structures. For males, Cluster 1 included four municipalities and three of these were located in the mountainous area in northwest Ibaraki, characterized by high SMRs from bone marrow. Cluster 5 consisted of the mid-south areas, characterized by high SMRs from stomach cancer. For females, the clusters seemed to be characterized by SMRs from esophagus cancer. An association between mortality structure and urbanization was found for females, 0.364(p&lt\n0.01), but not for males, 0.162(p=0.14)."
+                    },
+                    "publisher": {
+                        "en": "Japan Epidemiology Association"
+                    },
+                    "publication_date": "2002",
+                    "publication_name": {
+                        "en": "Journal of Epidemiology"
+                    },
+                    "volume": "12",
+                    "number": "2",
+                    "starting_page": "143",
+                    "ending_page": "152",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "cinii_na_id": [
+                            "130000797524"
+                        ],
+                        "doi": [
+                            "10.2188/jea.12.143"
+                        ],
+                        "issn": [
+                            "1349-9092",
+                            "0917-5040"
+                        ],
+                        "pm_id": [
+                            "12033525"
+                        ],
+                        "scopus_id": [
+                            "0036511469"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/130000797524",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.2188/jea.12.143",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "pubmed",
+                            "@id": "https://www.ncbi.nlm.nih.gov/pubmed/12033525",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0018234/misc/14334614",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0018234/misc",
+                    "rm:id": "14334614",
+                    "rm:user_id": "1000047955",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000047955",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2011-02-08T15:00:00Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-07-05T00:06:48Z",
+                    "paper_title": {
+                        "ja": "Health Behavior and Health Status of Adults in Rural Areas of Sumbawa Prefecture,West Nusa Tenggara Province,Indonesia",
+                        "en": "Health Behavior and Health Status of Adults in Rural Areas of Sumbawa Prefecture, West Nusa Tenggara Province, Indonesia"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "Nagai Keiko"
+                            },
+                            {
+                                "name": "Hirayama Megumi"
+                            },
+                            {
+                                "name": "Toyokawa Satoshi"
+                            },
+                            {
+                                "name": "KANO Katsumi"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "NAGAI Keiko"
+                            },
+                            {
+                                "name": "HIRAYAMA Megumi"
+                            },
+                            {
+                                "name": "TOYOKAWA Satoshi"
+                            },
+                            {
+                                "name": "KANO Katsumi"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "ja": "The aim of the current study was to clarify the general situation of health behavior and health status of adults in rural areas of Sumbawa Prefecture, West Nusa Tenggara Province, Indonesia, and to assess the indirect influence of development assistance. The participants consisted of 200 inhabitants from two villages, with a total of 100 men and 100 women. One village, Maronge, had benefited from a development assistance project and the other, Lesen, served as the control area. A structured interview survey was carried out. The questionnaire included 61 items such as demography, economic status, health-related lifestyle, sanitary conditions, involvement of health-related community activities, health care-seeking behavior, dietary habits, and health status. Forty seven of these were analysed for the study. Adults in rural areas may have a healthy lifestyle. For example, they may exercise regularly, eat breakfast every day, and have a normal body weight. However, they might have diseases that do not appear in health statistics, such as silu. Significant differences were observed in economic status, physical exercise, smoking, dietary habit, obesity, and care-seeking behavior between the two villages. In Maronge, economic status was higher, more cigarette were smoked, and body mass index (BMI) was higher. Diabetes mellitus and hypertension were also seen. In Lesen, frequency of fish or meat intake was lower and fewer women had regular exercises habit. The current study suggests that development assistance influenced health behavior and health status through income generation.",
+                        "en": "The aim of the current study was to clarify the general situation of health behavior and health status of adults in rural areas of Sumbawa Prefecture, West Nusa Tenggara Province, Indonesia, and to assess the indirect influence of development assistance. The participants consisted of 200 inhabitants from two villages, with a total of 100 men and 100 women. One village, Maronge, had benefited from a development assistance project and the other, Lesen, served as the control area. A structured interview survey was carried out. The questionnaire included 61 items such as demography, economic status, health-related lifestyle, sanitary conditions, involvement of health-related community activities, health care-seeking behavior, dietary habits, and health status. Forty seven of these were analysed for the study. Adults in rural areas may have a healthy lifestyle. For example, they may exercise regularly, eat breakfast every day, and have a normal body weight. However, they might have diseases that do not appear in health statistics, such as silu. Significant differences were observed in economic status, physical exercise, smoking, dietary habit, obesity, and care-seeking behavior between the two villages. In Maronge, economic status was higher, more cigarette were smoked, and body mass index (BMI) was higher. Diabetes mellitus and hypertension were also seen. In Lesen, frequency of fish or meat intake was lower and fewer women had regular exercises habit. The current study suggests that development assistance influenced health behavior and health status through income generation."
+                    },
+                    "publisher": {
+                        "ja": "The Japanese Society of Health and Human Ecology",
+                        "en": "The Japanese Society of Health and Human Ecology"
+                    },
+                    "publication_date": "2002",
+                    "publication_name": {
+                        "ja": "Jpn J Health & Human Ecology",
+                        "en": "Japanese Journal of Health and Human Ecology"
+                    },
+                    "volume": "68",
+                    "number": "6",
+                    "starting_page": "202",
+                    "ending_page": "215",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.3861/jshhe.68.202"
+                        ],
+                        "issn": [
+                            "0368-9395",
+                            "1882-868X"
+                        ],
+                        "cinii_na_id": [
+                            "130002038608"
+                        ],
+                        "cinii_nc_id": [
+                            "AN00236886"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.3861/jshhe.68.202",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/130002038608",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_books",
+                            "@id": "http://ci.nii.ac.jp/ncid/AN00236886",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "http://id.ndl.go.jp/bib/6452635",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "https://jlc.jst.go.jp/DN/JALC/00163038896?from=CiNii",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "http://search.jamas.or.jp/link/ui/2003221200",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0018234/misc/14334585",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0018234/misc",
+                    "rm:id": "14334585",
+                    "rm:user_id": "1000047955",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000047955",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2011-02-08T15:00:00Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-08-28T13:10:25Z",
+                    "paper_title": {
+                        "en": "Geographical pattern of malignant neoplasm by cluster analysis using standardized mortality ratios (SMRs) in Ibaraki Prefecture, Japan"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Setsuko Kinoshita"
+                            },
+                            {
+                                "name": "Hideto Takahashi"
+                            },
+                            {
+                                "name": "Masafumi Okada"
+                            },
+                            {
+                                "name": "Hiroaki Nishikawa"
+                            },
+                            {
+                                "name": "Satoshi Toyokawa"
+                            },
+                            {
+                                "name": "Katsumi Kano"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "We investigated the geographical patterns of mortality from eight (males)/ten (females) sites of malignant neoplasm, using cluster analysis with Standardized Mortality Ratios (SMRs), and examined the relationship between the mortality structure and urbanization. To explore the geographical tendencies is important for the prevention of cancers\n such as noticing risk factors associated with regional variance. The death rates, by site, gender and age from 1990 to 1994 in Japan, were obtained from Vital Statistics. The deaths and population in municipalities were obtained from \"Population of Ibaraki Prefecture\". These were represented as averaged values in five-year periods. As an indicator of urbanization and mortality structure, the population density of municipalities and the overall rank scores of SMRs were used, respectively. Cluster analysis formed some distinctive structures. For males, Cluster 1 included four municipalities and three of these were located in the mountainous area in northwest Ibaraki, characterized by high SMRs from bone marrow. Cluster 5 consisted of the mid-south areas, characterized by high SMRs from stomach cancer. For females, the clusters seemed to be characterized by SMRs from esophagus cancer. An association between mortality structure and urbanization was found for females, 0.364(p&lt\n0.01), but not for males, 0.162(p=0.14)."
+                    },
+                    "publisher": {
+                        "en": "Japan Epidemiology Association"
+                    },
+                    "publication_date": "2002",
+                    "publication_name": {
+                        "en": "Journal of Epidemiology"
+                    },
+                    "volume": "12",
+                    "number": "2",
+                    "starting_page": "143",
+                    "ending_page": "152",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "cinii_na_id": [
+                            "130000797524"
+                        ],
+                        "doi": [
+                            "10.2188/jea.12.143"
+                        ],
+                        "issn": [
+                            "1349-9092",
+                            "0917-5040"
+                        ],
+                        "pm_id": [
+                            "12033525"
+                        ],
+                        "scopus_id": [
+                            "0036511469"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/130000797524",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.2188/jea.12.143",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "pubmed",
+                            "@id": "https://www.ncbi.nlm.nih.gov/pubmed/12033525",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0018234/misc/14334584",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0018234/misc",
+                    "rm:id": "14334584",
+                    "rm:user_id": "1000047955",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000047955",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2011-02-08T15:00:00Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-07-05T00:06:48Z",
+                    "paper_title": {
+                        "ja": "Health Behavior and Health Status of Adults in Rural Areas of Sumbawa Prefecture, West Nusa Tenggara Province, Indonesia",
+                        "en": "Health Behavior and Health Status of Adults in Rural Areas of Sumbawa Prefecture,West Nusa Tenggara Province,Indonesia"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "Nagai Keiko"
+                            },
+                            {
+                                "name": "Hirayama Megumi"
+                            },
+                            {
+                                "name": "Toyokawa Satoshi"
+                            },
+                            {
+                                "name": "KANO Katsumi"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Keiko NAGAI"
+                            },
+                            {
+                                "name": "Megumi HIRAYAMA"
+                            },
+                            {
+                                "name": "Satoshi TOYOKAWA"
+                            },
+                            {
+                                "name": "Katsumi KANO"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "ja": "The aim of the current study was to clarify the general situation of health behavior and health status of adults in rural areas of Sumbawa Prefecture, West Nusa Tenggara Province, Indonesia, and to assess the indirect influence of development assistance. The participants consisted of 200 inhabitants from two villages, with a total of 100 men and 100 women. One village, Maronge, had benefited from a development assistance project and the other, Lesen, served as the control area. A structured interview survey was carried out. The questionnaire included 61 items such as demography, economic status, health-related lifestyle, sanitary conditions, involvement of health-related community activities, health care-seeking behavior, dietary habits, and health status. Forty seven of these were analysed for the study. Adults in rural areas may have a healthy lifestyle. For example, they may exercise regularly, eat breakfast every day, and have a normal body weight. However, they might have diseases that do not appear in health statistics, such as silu. Significant differences were observed in economic status, physical exercise, smoking, dietary habit, obesity, and care-seeking behavior between the two villages. In Maronge, economic status was higher, more cigarette were smoked, and body mass index (BMI) was higher. Diabetes mellitus and hypertension were also seen. In Lesen, frequency of fish or meat intake was lower and fewer women had regular exercises habit. The current study suggests that development assistance influenced health behavior and health status through income generation.",
+                        "en": "The aim of the current study was to clarify the general situation of health behavior and health status of adults in rural areas of Sumbawa Prefecture, West Nusa Tenggara Province, Indonesia, and to assess the indirect influence of development assistance. The participants consisted of 200 inhabitants from two villages, with a total of 100 men and 100 women. One village, Maronge, had benefited from a development assistance project and the other, Lesen, served as the control area. A structured interview survey was carried out. The questionnaire included 61 items such as demography, economic status, health-related lifestyle, sanitary conditions, involvement of health-related community activities, health care-seeking behavior, dietary habits, and health status. Forty seven of these were analysed for the study. Adults in rural areas may have a healthy lifestyle. For example, they may exercise regularly, eat breakfast every day, and have a normal body weight. However, they might have diseases that do not appear in health statistics, such as silu. Significant differences were observed in economic status, physical exercise, smoking, dietary habit, obesity, and care-seeking behavior between the two villages. In Maronge, economic status was higher, more cigarette were smoked, and body mass index (BMI) was higher. Diabetes mellitus and hypertension were also seen. In Lesen, frequency of fish or meat intake was lower and fewer women had regular exercises habit. The current study suggests that development assistance influenced health behavior and health status through income generation."
+                    },
+                    "publisher": {
+                        "ja": "The Japanese Society of Health and Human Ecology",
+                        "en": "The Japanese Society of Health and Human Ecology"
+                    },
+                    "publication_date": "2002",
+                    "publication_name": {
+                        "ja": "民族衞生",
+                        "en": "Jpn J Health & Human Ecology"
+                    },
+                    "volume": "68",
+                    "number": "6",
+                    "starting_page": "202",
+                    "ending_page": "215",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.3861/jshhe.68.202"
+                        ],
+                        "issn": [
+                            "0368-9395",
+                            "1882-868X"
+                        ],
+                        "cinii_na_id": [
+                            "130002038608"
+                        ],
+                        "cinii_nc_id": [
+                            "AN00236886"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.3861/jshhe.68.202",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/130002038608",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_books",
+                            "@id": "http://ci.nii.ac.jp/ncid/AN00236886",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "http://id.ndl.go.jp/bib/6452635",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "https://jlc.jst.go.jp/DN/JALC/00163038896?from=CiNii",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "http://search.jamas.or.jp/link/ui/2003221200",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0018234/misc/14334618",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0018234/misc",
+                    "rm:id": "14334618",
+                    "rm:user_id": "1000047955",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000047955",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2011-02-08T15:00:00Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-06-06T12:08:58Z",
+                    "paper_title": {
+                        "en": "Factors related to home discharge of cerebrovascular disease patients: 1-year follow-up interview survey of caregivers of hospitalized patients in 53 acute care hospitals in Japan"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "N Tamiya"
+                            },
+                            {
+                                "name": "Y Kobayashi"
+                            },
+                            {
+                                "name": "S Murakami"
+                            },
+                            {
+                                "name": "J Sasaki"
+                            },
+                            {
+                                "name": "K Yoshizawa"
+                            },
+                            {
+                                "name": "J Otaki"
+                            },
+                            {
+                                "name": "K Kano"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "In Japan, many disabled elderly people remain hospitalized for long periods. Cerebrovascular diseases (CVD) are the most causes responsible for such disability. To examine the predictors of home discharge in CVD patients, we performed a 1-year follow-up interview of the main caregivers of patients hospitalized with a CVD event, The initial cohort consisted of CVD patients hospitalized in all the second level emergency and general hospitals in lbaraki Prefecture in February 1992 (N = 888 patients in 53 hospitals). In the following year, we performed an interview survey of the main caregivers of these CVD patients. The survey items included the characteristics of the patients (including medical and socioeconomic conditions), caregivers, and family members. The final study population included the main caregivers of 187 home patients and 90 institutionalized patients. We compared these two groups in terms of predictors of discharge to home. The results Of Multiple logistic regression analysis showed that the following seven factors were related to home discharge; better baseline activities of daily living (ADL), larger improvement in ADL, larger family size, spouse as the caregiver, caregiver without a full-time job, better economic status of the caregiver, and sources of the patient's income. Our study indicated that the caregiver's conditions were closely related to home discharge of the CVD patients. More attention should, therefore, be centered on the caregiver's well-being and economic aspects as well as the patient's conditions in order to encourage home discharge of stroke patients. (C) 2001 Elsevier Science Ireland Ltd. All rights reserved."
+                    },
+                    "publisher": {
+                        "en": "ELSEVIER SCI IRELAND LTD"
+                    },
+                    "publication_date": "2001-09",
+                    "publication_name": {
+                        "en": "ARCHIVES OF GERONTOLOGY AND GERIATRICS"
+                    },
+                    "volume": "33",
+                    "number": "2",
+                    "starting_page": "109",
+                    "ending_page": "121",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1016/S0167-4943(01)00100-5"
+                        ],
+                        "issn": [
+                            "0167-4943"
+                        ],
+                        "wos_id": [
+                            "WOS:000170840700001"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1016/S0167-4943(01)00100-5",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000170840700001&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0018234/misc/14334588",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0018234/misc",
+                    "rm:id": "14334588",
+                    "rm:user_id": "1000047955",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000047955",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2011-02-08T15:00:00Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-06-06T12:08:58Z",
+                    "paper_title": {
+                        "en": "Factors related to home discharge of cerebrovascular disease patients: 1-year follow-up interview survey of caregivers of hospitalized patients in 53 acute care hospitals in Japan"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "N Tamiya"
+                            },
+                            {
+                                "name": "Y Kobayashi"
+                            },
+                            {
+                                "name": "S Murakami"
+                            },
+                            {
+                                "name": "J Sasaki"
+                            },
+                            {
+                                "name": "K Yoshizawa"
+                            },
+                            {
+                                "name": "J Otaki"
+                            },
+                            {
+                                "name": "K Kano"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "In Japan, many disabled elderly people remain hospitalized for long periods. Cerebrovascular diseases (CVD) are the most causes responsible for such disability. To examine the predictors of home discharge in CVD patients, we performed a 1-year follow-up interview of the main caregivers of patients hospitalized with a CVD event, The initial cohort consisted of CVD patients hospitalized in all the second level emergency and general hospitals in lbaraki Prefecture in February 1992 (N = 888 patients in 53 hospitals). In the following year, we performed an interview survey of the main caregivers of these CVD patients. The survey items included the characteristics of the patients (including medical and socioeconomic conditions), caregivers, and family members. The final study population included the main caregivers of 187 home patients and 90 institutionalized patients. We compared these two groups in terms of predictors of discharge to home. The results Of Multiple logistic regression analysis showed that the following seven factors were related to home discharge; better baseline activities of daily living (ADL), larger improvement in ADL, larger family size, spouse as the caregiver, caregiver without a full-time job, better economic status of the caregiver, and sources of the patient's income. Our study indicated that the caregiver's conditions were closely related to home discharge of the CVD patients. More attention should, therefore, be centered on the caregiver's well-being and economic aspects as well as the patient's conditions in order to encourage home discharge of stroke patients. (C) 2001 Elsevier Science Ireland Ltd. All rights reserved."
+                    },
+                    "publisher": {
+                        "en": "ELSEVIER SCI IRELAND LTD"
+                    },
+                    "publication_date": "2001-09",
+                    "publication_name": {
+                        "en": "ARCHIVES OF GERONTOLOGY AND GERIATRICS"
+                    },
+                    "volume": "33",
+                    "number": "2",
+                    "starting_page": "109",
+                    "ending_page": "121",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1016/S0167-4943(01)00100-5"
+                        ],
+                        "issn": [
+                            "0167-4943"
+                        ],
+                        "wos_id": [
+                            "WOS:000170840700001"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1016/S0167-4943(01)00100-5",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "web_of_science",
+                            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000170840700001&DestApp=WOS_CPL",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0018234/misc/14334622",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0018234/misc",
+                    "rm:id": "14334622",
+                    "rm:user_id": "1000047955",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000047955",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2011-02-08T15:00:00Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-08-28T07:38:13Z",
+                    "paper_title": {
+                        "en": "Assessment of smoking related risks for respiratory symptoms among elderly people"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Kunio Ichimura"
+                            },
+                            {
+                                "name": "Hideto Takahashi"
+                            },
+                            {
+                                "name": "Masaru Ueji"
+                            },
+                            {
+                                "name": "Masafumi Okada"
+                            },
+                            {
+                                "name": "Takahiko Nishijima"
+                            },
+                            {
+                                "name": "Katsumi Kano"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "Disease risk among elderly smokers is considered to be doubled due to their smoking habits and age as compared with elderly non-smokers. The investigators conducted risk assessments of smoking for respiratory symptoms among elderly people. A questionnaire survey on smoking habits and respiratory symptoms was conducted among 3,000 persons of 56 years of age and over who were randomly selected from suburban residents in a prefecture in Japan in October, 1997. A total 1,954 or 65.1% of individuals responded, consisting of 42.8% for men and 57.2% for women, with an average age of 73.6 years. In addition to descriptive analysis, multiple logistic regression analysis was conducted. The results are summarized as follows: Smokers accounted for 28.1% of men and 3.6% of women. Among all age-groups, the highest rate of smokers was observed in men of 56-69 years old (34.7%) which was lower than the national average rate for the 60-69 year-old group (56.1% of men and 14.5% of women in '97). The odds ratios and 95 percent confidence interval (95%CI) for \"having phlegm every day\" and \"having phlegm for more than 4 days a week\" among smokers were 2.06 (95%CI=1.41-3.01) and 2.77(95%CI= 1.80-4.27). Significantly higher odds ratios among smokers were also observed for \"wheezing\" and \"shortness of breath when hurrying\". Odds ratios for some respiratory symptoms including \"having phlegm for more than 4 days per week\" among inhalers were significantly high compared with non-smokers, whereas those among non-inhalers were not significantly different from 1.0. Odds ratios for symptoms of phlegm and wheezing were significantly higher (Odds ratio ≥2.0) among heavy smokers (Brinkman Index [B. I.] &gt\n900) compared to non-smokers, while odds ratios of the same symptoms were not different from 1.0 among light smokers (B. I. ≤500)."
+                    },
+                    "publication_date": "2001",
+                    "publication_name": {
+                        "en": "Environmental Health and Preventive Medicine"
+                    },
+                    "volume": "5",
+                    "number": "4",
+                    "starting_page": "173",
+                    "ending_page": "179",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1265/ehpm.2000.173"
+                        ],
+                        "issn": [
+                            "1342-078X"
+                        ],
+                        "scopus_id": [
+                            "0035084997"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1265/ehpm.2000.173",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0018234/misc/14334621",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0018234/misc",
+                    "rm:id": "14334621",
+                    "rm:user_id": "1000047955",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000047955",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2011-02-08T15:00:00Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-07-16T21:53:53Z",
+                    "paper_title": {
+                        "ja": "An epidemiological study of the relationship between diet in the past and bone mineral density based on a survey of women aged 50 years and over in two public health centers",
+                        "en": "An epidemiological study of the relationship between diet in the past and bone mineral density based on a survey of women aged 50 years and over in two public health centers, Ibaraki Prefecture"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "Motegi Kazuo"
+                            },
+                            {
+                                "name": "Toyokawa Satoshi"
+                            },
+                            {
+                                "name": "Nishikawa Hiroaki"
+                            },
+                            {
+                                "name": "OHKI Kazuko"
+                            },
+                            {
+                                "name": "KANO Katsumi"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "MOTEGI Kazuo"
+                            },
+                            {
+                                "name": "TOYOKAWA Satoshi"
+                            },
+                            {
+                                "name": "NISHIKAWA Hiroaki"
+                            },
+                            {
+                                "name": "OHKI Kazuko"
+                            },
+                            {
+                                "name": "KANO Katsumi"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "ja": "The purpose of this study was to examine the relationship between bone mineral density (BMD) and past dietary habits of middle-aged and elderly women who were hig-risk population of osteoporosis. We examined dietary habits of 713 women aged 50 years and over who underwent a check-up for osteoporosis at two public health centers in Ibaraki Prefecture. Items examined were frequency of intake of milk, cheese, yogurt, small fish, eggs, cooked beans, tofu, natto, vegetables and seaweed in their 20's, 30's and 40's. GS/D values were used as the indicator of BMD. Women with GS/D values less than 2.3 were designated as the low BMD group, and those with GS/D values more than 2.3 were designated as the control group. The differences in the intake frequencies of the aforementioned foods by the two groups were evaluated by chi-square tests. The results of our study showed that each proportion of people who consumed milk, small fish or seaweed every day in their 30's and 40's, and also in their 20's for the case of milk, was higher in the control group significantly. It was also indicated that each proportion of people who consumed tofu or vegetable more than three times in a week was higher in the control group. Those who consumed little of each kind of food little were seen in the low BMD group. It was concluded that there was a relationship between BMD and dietary habits related to calcium intake.",
+                        "en": "The purpose of this study was to examine the relationship between bone mineral density (BMD) and past dietary habits of middle-aged and elderly women who were hig-risk population of osteoporosis. We examined dietary habits of 713 women aged 50 years and over who underwent a check-up for osteoporosis at two public health centers in Ibaraki Prefecture. Items examined were frequency of intake of milk, cheese, yogurt, small fish, eggs, cooked beans, tofu, natto, vegetables and seaweed in their 20's, 30's and 40's. GS/D values were used as the indicator of BMD. Women with GS/D values less than 2.3 were designated as the low BMD group, and those with GS/D values more than 2.3 were designated as the control group. The differences in the intake frequencies of the aforementioned foods by the two groups were evaluated by chi-square tests. The results of our study showed that each proportion of people who consumed milk, small fish or seaweed every day in their 30's and 40's, and also in their 20's for the case of milk, was higher in the control group significantly. It was also indicated that each proportion of people who consumed tofu or vegetable more than three times in a week was higher in the control group. Those who consumed little of each kind of food little were seen in the low BMD group. It was concluded that there was a relationship between BMD and dietary habits related to calcium intake."
+                    },
+                    "publisher": {
+                        "ja": "The Japanese Society of Health and Human Ecology",
+                        "en": "The Japanese Society of Health and Human Ecology"
+                    },
+                    "publication_date": "2001",
+                    "publication_name": {
+                        "ja": "Japanese Journal of Health and Human Ecology",
+                        "en": "Japanese Journal of Health and Human Ecology"
+                    },
+                    "volume": "67",
+                    "number": "3",
+                    "starting_page": "116",
+                    "ending_page": "126",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.3861/jshhe.67.116"
+                        ],
+                        "issn": [
+                            "0368-9395",
+                            "1882-868X"
+                        ],
+                        "cinii_na_id": [
+                            "10010338171"
+                        ],
+                        "cinii_nc_id": [
+                            "AN00236886"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.3861/jshhe.67.116",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/10010338171",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_books",
+                            "@id": "http://ci.nii.ac.jp/ncid/AN00236886",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "http://id.ndl.go.jp/bib/5799076",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "https://jlc.jst.go.jp/DN/JALC/00091328755?from=CiNii",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "http://search.jamas.or.jp/link/ui/2001266861",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0018234/misc/14334620",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0018234/misc",
+                    "rm:id": "14334620",
+                    "rm:user_id": "1000047955",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000047955",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2011-02-08T15:00:00Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-08-30T00:47:11Z",
+                    "paper_title": {
+                        "en": "A necessary and sufficient condition of comparability for using standardized mortality ratio (SMR)"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Hideto Takahashi"
+                            },
+                            {
+                                "name": "Masafumi Okada"
+                            },
+                            {
+                                "name": "Lukman Thalib"
+                            },
+                            {
+                                "name": "Satoshi Toyokawa"
+                            },
+                            {
+                                "name": "Katsumi Kano"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "A necessary and sufficient condition of comparability for using SMR was studied mathematically by considering the equivalence between SMR and CMF, as CMF was a perfectly comparable index. This condition was expressed by either proportionality of mortality vectors or proportionality of projected person-years to the plane spanned by mortality vectors of reference and index groups. We could obtain another expression of the condition, in which affect of distortions were easily understood, which consist of three factors: distortion of proportionality of mortality, distortion of person-years and similarity of distortions. Our results were applied to study the mortality of biliary tract cancer in Ibaraki Prefecture. Places where absolute difference between CMF and SMR exceeds some criterion (say, 0.15) were Satomi, Ushiboiri, Nihari in males and Gozenyama, Suifu and Asahi in females. All three distortion indices exceeded their upper 95% percentiles in Satomi in males. SMR, CMF, comparability, distortion of proportionality."
+                    },
+                    "publisher": {
+                        "en": "Japan Epidemiology Association"
+                    },
+                    "publication_date": "2001",
+                    "publication_name": {
+                        "en": "Journal of Epidemiology"
+                    },
+                    "volume": "11",
+                    "number": "1",
+                    "starting_page": "24",
+                    "ending_page": "28",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "cinii_na_id": [
+                            "130000797350"
+                        ],
+                        "doi": [
+                            "10.2188/jea.11.24"
+                        ],
+                        "issn": [
+                            "0917-5040"
+                        ],
+                        "pm_id": [
+                            "11253907"
+                        ],
+                        "scopus_id": [
+                            "37849187924"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/130000797350",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.2188/jea.11.24",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "pubmed",
+                            "@id": "https://www.ncbi.nlm.nih.gov/pubmed/11253907",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0018234/misc/14334619",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0018234/misc",
+                    "rm:id": "14334619",
+                    "rm:user_id": "1000047955",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000047955",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2011-02-08T15:00:00Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-08-28T07:19:56Z",
+                    "paper_title": {
+                        "en": "Structural equation modeling of the relationship of bone mineral density and its risk factors in Japanese women"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Satoshi Toyokawa"
+                            },
+                            {
+                                "name": "Hiroaki Nishikawa"
+                            },
+                            {
+                                "name": "Masaru Ueji"
+                            },
+                            {
+                                "name": "Kazuo Motegi"
+                            },
+                            {
+                                "name": "Katsumi Kano"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "Several factors have been reported as risk factors for the development of osteoporosis. In this study, we aimed to examine the relationship among lifestyle factors, biologic factors, and bone mineral density (BMD) using structural equation modeling (SEM). The subjects in the present study consisted of 866 postmenopausal Japanese women aged between 40 and 80 years old. In the analysis by the SEM, we employed a multiple basic model. As the structural variables, lifestyle factors and biologic factors were selected. The goodness of fit index (GFI) of the final model was 0.991 and the Akaike's information criteria (AIC) showed the lowest value in the peripheral models. The degree of association between biologic factors and BMD was -0.576 (direct association), 0.012 (indirect association), and -0.564 (total association). With regard to the correlation between lifestyle factors and BMD, the degrees of association were 0.085, -0.084, and 0.001, respectively. This study defined a pilot model for factors influencing BMD. Although is remains necessary to conduct further analyses with more valid measurements and constructs, this model indicated that the correlation between BMD and lifestyle factors was lower than that between BMD and biologic factors."
+                    },
+                    "publication_date": "2001",
+                    "publication_name": {
+                        "en": "Environmental Health and Preventive Medicine"
+                    },
+                    "volume": "6",
+                    "number": "1",
+                    "starting_page": "41",
+                    "ending_page": "46",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "cinii_na_id": [
+                            "110002694730"
+                        ],
+                        "doi": [
+                            "10.1265/ehpm.2001.41"
+                        ],
+                        "issn": [
+                            "1342-078X"
+                        ],
+                        "scopus_id": [
+                            "0035043596"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/110002694730",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1265/ehpm.2001.41",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0018234/misc/14334617",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0018234/misc",
+                    "rm:id": "14334617",
+                    "rm:user_id": "1000047955",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000047955",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2011-02-08T15:00:00Z",
+                    "rm:modifier_id": "B000000004",
+                    "rm:modifier_type": "system",
+                    "rm:modified": "2011-02-08T15:00:00Z",
+                    "paper_title": {
+                        "ja": "Issues of intervention aimed at preventing prospective surplus of physicians in Japan"
+                    },
+                    "publication_date": "2001",
+                    "publication_name": {
+                        "ja": "Medical Education"
+                    },
+                    "volume": "32",
+                    "starting_page": "488",
+                    "ending_page": "494",
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1046/j.1365-2923.2001.00937.x"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1046/j.1365-2923.2001.00937.x",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0018234/misc/14334616",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0018234/misc",
+                    "rm:id": "14334616",
+                    "rm:user_id": "1000047955",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000047955",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2011-02-08T15:00:00Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-08-29T20:18:09Z",
+                    "paper_title": {
+                        "en": "Age-period-cohort analysis of lung cancer mortality in Japan, 1960-1995"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Hideto Takahashi"
+                            },
+                            {
+                                "name": "Masafumi Okada"
+                            },
+                            {
+                                "name": "Katsumi Kano"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "The mortality data on lung cancer in Japan from 1960 to 1995 was analysed based on an ageperiod-cohort (APC) model. Though the APC model has an 'identifiable problem' caused by the relationship of age, period and cohort parameters, non-linear components of them revealed their original (separated) effects. They were: (1) non-linear age effects had a peak in 55-59 and 60-64 years old in males and 50-54 in females, (2) non-linear period effects were very small in both genders, (3) non-linear age and period effects were small enough to neglect compared with their linear effects, and (4) there were five parts of trends in Japanese lung cancer mortality in both genders in the non-linear birth cohort effects. The 1961-65 birth cohort effect seemed to increase differently from previous birth years. This trend should be monitored carefully."
+                    },
+                    "publisher": {
+                        "en": "Japan Epidemiology Association"
+                    },
+                    "publication_date": "2001",
+                    "publication_name": {
+                        "en": "Journal of Epidemiology"
+                    },
+                    "volume": "11",
+                    "number": "4",
+                    "starting_page": "151",
+                    "ending_page": "159",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "cinii_na_id": [
+                            "130000797435"
+                        ],
+                        "doi": [
+                            "10.2188/jea.11.151"
+                        ],
+                        "issn": [
+                            "0917-5040"
+                        ],
+                        "pm_id": [
+                            "11512571"
+                        ],
+                        "scopus_id": [
+                            "34247578930"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/130000797435",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.2188/jea.11.151",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "pubmed",
+                            "@id": "https://www.ncbi.nlm.nih.gov/pubmed/11512571",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0018234/misc/14334592",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0018234/misc",
+                    "rm:id": "14334592",
+                    "rm:user_id": "1000047955",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000047955",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2011-02-08T15:00:00Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-08-28T07:38:13Z",
+                    "paper_title": {
+                        "en": "Assessment of smoking related risks for respiratory symptoms among elderly people"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Kunio Ichimura"
+                            },
+                            {
+                                "name": "Hideto Takahashi"
+                            },
+                            {
+                                "name": "Masaru Ueji"
+                            },
+                            {
+                                "name": "Masafumi Okada"
+                            },
+                            {
+                                "name": "Takahiko Nishijima"
+                            },
+                            {
+                                "name": "Katsumi Kano"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "Disease risk among elderly smokers is considered to be doubled due to their smoking habits and age as compared with elderly non-smokers. The investigators conducted risk assessments of smoking for respiratory symptoms among elderly people. A questionnaire survey on smoking habits and respiratory symptoms was conducted among 3,000 persons of 56 years of age and over who were randomly selected from suburban residents in a prefecture in Japan in October, 1997. A total 1,954 or 65.1% of individuals responded, consisting of 42.8% for men and 57.2% for women, with an average age of 73.6 years. In addition to descriptive analysis, multiple logistic regression analysis was conducted. The results are summarized as follows: Smokers accounted for 28.1% of men and 3.6% of women. Among all age-groups, the highest rate of smokers was observed in men of 56-69 years old (34.7%) which was lower than the national average rate for the 60-69 year-old group (56.1% of men and 14.5% of women in '97). The odds ratios and 95 percent confidence interval (95%CI) for \"having phlegm every day\" and \"having phlegm for more than 4 days a week\" among smokers were 2.06 (95%CI=1.41-3.01) and 2.77(95%CI= 1.80-4.27). Significantly higher odds ratios among smokers were also observed for \"wheezing\" and \"shortness of breath when hurrying\". Odds ratios for some respiratory symptoms including \"having phlegm for more than 4 days per week\" among inhalers were significantly high compared with non-smokers, whereas those among non-inhalers were not significantly different from 1.0. Odds ratios for symptoms of phlegm and wheezing were significantly higher (Odds ratio ≥2.0) among heavy smokers (Brinkman Index [B. I.] &gt\n900) compared to non-smokers, while odds ratios of the same symptoms were not different from 1.0 among light smokers (B. I. ≤500)."
+                    },
+                    "publication_date": "2001",
+                    "publication_name": {
+                        "en": "Environmental Health and Preventive Medicine"
+                    },
+                    "volume": "5",
+                    "number": "4",
+                    "starting_page": "173",
+                    "ending_page": "179",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.1265/ehpm.2000.173"
+                        ],
+                        "issn": [
+                            "1342-078X"
+                        ],
+                        "scopus_id": [
+                            "0035084997"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1265/ehpm.2000.173",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0018234/misc/14334591",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0018234/misc",
+                    "rm:id": "14334591",
+                    "rm:user_id": "1000047955",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000047955",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2011-02-08T15:00:00Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2022-07-16T21:53:53Z",
+                    "paper_title": {
+                        "ja": "An epidemiological study of the relationship between diet in the past and bone mineral density based on a survey of women aged 50 years and over in two public health centers, Ibaraki Prefecture",
+                        "en": "An epidemiological study of the relationship between diet in the past and bone mineral density based on a survey of women aged 50 years and over in two public health centers"
+                    },
+                    "authors": {
+                        "ja": [
+                            {
+                                "name": "Motegi Kazuo"
+                            },
+                            {
+                                "name": "Toyokawa Satoshi"
+                            },
+                            {
+                                "name": "Nishikawa Hiroaki"
+                            },
+                            {
+                                "name": "OHKI Kazuko"
+                            },
+                            {
+                                "name": "KANO Katsumi"
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Kazuo MOTEGI"
+                            },
+                            {
+                                "name": "Satoshi TOYOKAWA"
+                            },
+                            {
+                                "name": "Hiroaki NISHIKAWA"
+                            },
+                            {
+                                "name": "Kazuko OHKI"
+                            },
+                            {
+                                "name": "Katsumi KANO"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "ja": "The purpose of this study was to examine the relationship between bone mineral density (BMD) and past dietary habits of middle-aged and elderly women who were hig-risk population of osteoporosis. We examined dietary habits of 713 women aged 50 years and over who underwent a check-up for osteoporosis at two public health centers in Ibaraki Prefecture. Items examined were frequency of intake of milk, cheese, yogurt, small fish, eggs, cooked beans, tofu, natto, vegetables and seaweed in their 20's, 30's and 40's. GS/D values were used as the indicator of BMD. Women with GS/D values less than 2.3 were designated as the low BMD group, and those with GS/D values more than 2.3 were designated as the control group. The differences in the intake frequencies of the aforementioned foods by the two groups were evaluated by chi-square tests. The results of our study showed that each proportion of people who consumed milk, small fish or seaweed every day in their 30's and 40's, and also in their 20's for the case of milk, was higher in the control group significantly. It was also indicated that each proportion of people who consumed tofu or vegetable more than three times in a week was higher in the control group. Those who consumed little of each kind of food little were seen in the low BMD group. It was concluded that there was a relationship between BMD and dietary habits related to calcium intake.",
+                        "en": "The purpose of this study was to examine the relationship between bone mineral density (BMD) and past dietary habits of middle-aged and elderly women who were hig-risk population of osteoporosis. We examined dietary habits of 713 women aged 50 years and over who underwent a check-up for osteoporosis at two public health centers in Ibaraki Prefecture. Items examined were frequency of intake of milk, cheese, yogurt, small fish, eggs, cooked beans, tofu, natto, vegetables and seaweed in their 20's, 30's and 40's. GS/D values were used as the indicator of BMD. Women with GS/D values less than 2.3 were designated as the low BMD group, and those with GS/D values more than 2.3 were designated as the control group. The differences in the intake frequencies of the aforementioned foods by the two groups were evaluated by chi-square tests. The results of our study showed that each proportion of people who consumed milk, small fish or seaweed every day in their 30's and 40's, and also in their 20's for the case of milk, was higher in the control group significantly. It was also indicated that each proportion of people who consumed tofu or vegetable more than three times in a week was higher in the control group. Those who consumed little of each kind of food little were seen in the low BMD group. It was concluded that there was a relationship between BMD and dietary habits related to calcium intake."
+                    },
+                    "publisher": {
+                        "ja": "The Japanese Society of Health and Human Ecology",
+                        "en": "The Japanese Society of Health and Human Ecology"
+                    },
+                    "publication_date": "2001",
+                    "publication_name": {
+                        "ja": "民族衞生",
+                        "en": "Japanese Journal of Health and Human Ecology"
+                    },
+                    "volume": "67",
+                    "number": "3",
+                    "starting_page": "116",
+                    "ending_page": "126",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "doi": [
+                            "10.3861/jshhe.67.116"
+                        ],
+                        "issn": [
+                            "0368-9395",
+                            "1882-868X"
+                        ],
+                        "cinii_na_id": [
+                            "10010338171"
+                        ],
+                        "cinii_nc_id": [
+                            "AN00236886"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.3861/jshhe.67.116",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/10010338171",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "cinii_books",
+                            "@id": "http://ci.nii.ac.jp/ncid/AN00236886",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "http://id.ndl.go.jp/bib/5799076",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "https://jlc.jst.go.jp/DN/JALC/00091328755?from=CiNii",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "url",
+                            "@id": "http://search.jamas.or.jp/link/ui/2001266861",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0018234/misc/14334590",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0018234/misc",
+                    "rm:id": "14334590",
+                    "rm:user_id": "1000047955",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000047955",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2011-02-08T15:00:00Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-08-30T00:47:11Z",
+                    "paper_title": {
+                        "en": "A necessary and sufficient condition of comparability for using standardized mortality ratio (SMR)"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Hideto Takahashi"
+                            },
+                            {
+                                "name": "Masafumi Okada"
+                            },
+                            {
+                                "name": "Lukman Thalib"
+                            },
+                            {
+                                "name": "Satoshi Toyokawa"
+                            },
+                            {
+                                "name": "Katsumi Kano"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "A necessary and sufficient condition of comparability for using SMR was studied mathematically by considering the equivalence between SMR and CMF, as CMF was a perfectly comparable index. This condition was expressed by either proportionality of mortality vectors or proportionality of projected person-years to the plane spanned by mortality vectors of reference and index groups. We could obtain another expression of the condition, in which affect of distortions were easily understood, which consist of three factors: distortion of proportionality of mortality, distortion of person-years and similarity of distortions. Our results were applied to study the mortality of biliary tract cancer in Ibaraki Prefecture. Places where absolute difference between CMF and SMR exceeds some criterion (say, 0.15) were Satomi, Ushiboiri, Nihari in males and Gozenyama, Suifu and Asahi in females. All three distortion indices exceeded their upper 95% percentiles in Satomi in males. SMR, CMF, comparability, distortion of proportionality."
+                    },
+                    "publisher": {
+                        "en": "Japan Epidemiology Association"
+                    },
+                    "publication_date": "2001",
+                    "publication_name": {
+                        "en": "Journal of Epidemiology"
+                    },
+                    "volume": "11",
+                    "number": "1",
+                    "starting_page": "24",
+                    "ending_page": "28",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "cinii_na_id": [
+                            "130000797350"
+                        ],
+                        "doi": [
+                            "10.2188/jea.11.24"
+                        ],
+                        "issn": [
+                            "0917-5040"
+                        ],
+                        "pm_id": [
+                            "11253907"
+                        ],
+                        "scopus_id": [
+                            "37849187924"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/130000797350",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.2188/jea.11.24",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "pubmed",
+                            "@id": "https://www.ncbi.nlm.nih.gov/pubmed/11253907",
+                            "is_downloadable": false
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0018234/misc/14334589",
+                    "@type": "misc",
+                    "@reverse": "https://api.researchmap.jp/read0018234/misc",
+                    "rm:id": "14334589",
+                    "rm:user_id": "1000047955",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000047955",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2011-02-08T15:00:00Z",
+                    "rm:modifier_id": "ai:identify_based_internal_feeds",
+                    "rm:modifier_type": "ai",
+                    "rm:modified": "2020-08-28T07:19:56Z",
+                    "paper_title": {
+                        "en": "Structural equation modeling of the relationship of bone mineral density and its risk factors in Japanese women"
+                    },
+                    "authors": {
+                        "en": [
+                            {
+                                "name": "Satoshi Toyokawa"
+                            },
+                            {
+                                "name": "Hiroaki Nishikawa"
+                            },
+                            {
+                                "name": "Masaru Ueji"
+                            },
+                            {
+                                "name": "Kazuo Motegi"
+                            },
+                            {
+                                "name": "Katsumi Kano"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "en": "Several factors have been reported as risk factors for the development of osteoporosis. In this study, we aimed to examine the relationship among lifestyle factors, biologic factors, and bone mineral density (BMD) using structural equation modeling (SEM). The subjects in the present study consisted of 866 postmenopausal Japanese women aged between 40 and 80 years old. In the analysis by the SEM, we employed a multiple basic model. As the structural variables, lifestyle factors and biologic factors were selected. The goodness of fit index (GFI) of the final model was 0.991 and the Akaike's information criteria (AIC) showed the lowest value in the peripheral models. The degree of association between biologic factors and BMD was -0.576 (direct association), 0.012 (indirect association), and -0.564 (total association). With regard to the correlation between lifestyle factors and BMD, the degrees of association were 0.085, -0.084, and 0.001, respectively. This study defined a pilot model for factors influencing BMD. Although is remains necessary to conduct further analyses with more valid measurements and constructs, this model indicated that the correlation between BMD and lifestyle factors was lower than that between BMD and biologic factors."
+                    },
+                    "publication_date": "2001",
+                    "publication_name": {
+                        "en": "Environmental Health and Preventive Medicine"
+                    },
+                    "volume": "6",
+                    "number": "1",
+                    "starting_page": "41",
+                    "ending_page": "46",
+                    "languages": [
+                        "eng"
+                    ],
+                    "referee": false,
+                    "invited": false,
+                    "rm:is_open_access": false,
+                    "identifiers": {
+                        "cinii_na_id": [
+                            "110002694730"
+                        ],
+                        "doi": [
+                            "10.1265/ehpm.2001.41"
+                        ],
+                        "issn": [
+                            "1342-078X"
+                        ],
+                        "scopus_id": [
+                            "0035043596"
+                        ]
+                    },
+                    "see_also": [
+                        {
+                            "label": "cinii_articles",
+                            "@id": "http://ci.nii.ac.jp/naid/110002694730",
+                            "is_downloadable": false
+                        },
+                        {
+                            "label": "doi",
+                            "@id": "https://doi.org/10.1265/ehpm.2001.41",
+                            "is_downloadable": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0018234/books_etc",
+            "@type": "books_etc",
+            "@reverse": "https://api.researchmap.jp/read0018234",
+            "total_items": 8,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0018234/books_etc/2140493",
+                    "@type": "books_etc",
+                    "@reverse": "https://api.researchmap.jp/read0018234/books_etc",
+                    "rm:id": "2140493",
+                    "rm:user_id": "1000047955",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000047955",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2011-02-08T15:00:00Z",
+                    "rm:modifier_id": "1000047955",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2011-02-08T15:00:00Z",
+                    "book_title": {
+                        "ja": "公衆衛生学"
+                    },
+                    "publisher": {
+                        "ja": "文光堂"
+                    },
+                    "publication_date": "2002",
+                    "referee": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0018234/books_etc/2140489",
+                    "@type": "books_etc",
+                    "@reverse": "https://api.researchmap.jp/read0018234/books_etc",
+                    "rm:id": "2140489",
+                    "rm:user_id": "1000047955",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000047955",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2011-02-08T15:00:00Z",
+                    "rm:modifier_id": "1000047955",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2011-02-08T15:00:00Z",
+                    "book_title": {
+                        "en": "Public Health"
+                    },
+                    "publisher": {
+                        "en": "BUNKOUDO"
+                    },
+                    "publication_date": "2002",
+                    "referee": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0018234/books_etc/2140495",
+                    "@type": "books_etc",
+                    "@reverse": "https://api.researchmap.jp/read0018234/books_etc",
+                    "rm:id": "2140495",
+                    "rm:user_id": "1000047955",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000047955",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2011-02-08T15:00:00Z",
+                    "rm:modifier_id": "1000047955",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2011-02-08T15:00:00Z",
+                    "book_title": {
+                        "ja": "HANDBOOK OF Nutrition in the Aged"
+                    },
+                    "publisher": {
+                        "ja": "CRC Press"
+                    },
+                    "publication_date": "2001",
+                    "referee": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0018234/books_etc/2140491",
+                    "@type": "books_etc",
+                    "@reverse": "https://api.researchmap.jp/read0018234/books_etc",
+                    "rm:id": "2140491",
+                    "rm:user_id": "1000047955",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000047955",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2011-02-08T15:00:00Z",
+                    "rm:modifier_id": "1000047955",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2011-02-08T15:00:00Z",
+                    "book_title": {
+                        "en": "HANDBOOK OF Nutrition in the Aged"
+                    },
+                    "publisher": {
+                        "en": "CRC Press"
+                    },
+                    "publication_date": "2001",
+                    "referee": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0018234/books_etc/2140492",
+                    "@type": "books_etc",
+                    "@reverse": "https://api.researchmap.jp/read0018234/books_etc",
+                    "rm:id": "2140492",
+                    "rm:user_id": "1000047955",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000047955",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2011-02-08T15:00:00Z",
+                    "rm:modifier_id": "1000047955",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2011-02-08T15:00:00Z",
+                    "book_title": {
+                        "ja": "疫学概論－理論と方法－"
+                    },
+                    "publisher": {
+                        "ja": "朝倉書店"
+                    },
+                    "publication_date": "2000",
+                    "referee": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0018234/books_etc/2140488",
+                    "@type": "books_etc",
+                    "@reverse": "https://api.researchmap.jp/read0018234/books_etc",
+                    "rm:id": "2140488",
+                    "rm:user_id": "1000047955",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000047955",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2011-02-08T15:00:00Z",
+                    "rm:modifier_id": "1000047955",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2011-02-08T15:00:00Z",
+                    "book_title": {
+                        "en": "Introduction to Epidemiology:Theory and Methods"
+                    },
+                    "publisher": {
+                        "en": "ASAKURA SHOTEN"
+                    },
+                    "publication_date": "2000",
+                    "referee": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0018234/books_etc/2140494",
+                    "@type": "books_etc",
+                    "@reverse": "https://api.researchmap.jp/read0018234/books_etc",
+                    "rm:id": "2140494",
+                    "rm:user_id": "1000047955",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000047955",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2011-02-08T15:00:00Z",
+                    "rm:modifier_id": "1000047955",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2011-02-08T15:00:00Z",
+                    "book_title": {
+                        "ja": "公衆衛生学"
+                    },
+                    "publisher": {
+                        "ja": "講談社サイエンティフィク"
+                    },
+                    "publication_date": "1999",
+                    "referee": false
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0018234/books_etc/2140490",
+                    "@type": "books_etc",
+                    "@reverse": "https://api.researchmap.jp/read0018234/books_etc",
+                    "rm:id": "2140490",
+                    "rm:user_id": "1000047955",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000047955",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2011-02-08T15:00:00Z",
+                    "rm:modifier_id": "1000047955",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2011-02-08T15:00:00Z",
+                    "book_title": {
+                        "en": "Public Health"
+                    },
+                    "publisher": {
+                        "en": "KOUDANSHIYA SCIENTIFIC"
+                    },
+                    "publication_date": "1999",
+                    "referee": false
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0018234/association_memberships",
+            "@type": "association_memberships",
+            "@reverse": "https://api.researchmap.jp/read0018234",
+            "total_items": 4,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0018234/association_memberships/1547806",
+                    "@type": "association_memberships",
+                    "@reverse": "https://api.researchmap.jp/read0018234/association_memberships",
+                    "rm:id": "1547806",
+                    "rm:user_id": "1000047955",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000047955",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2011-02-08T15:00:00Z",
+                    "rm:modifier_id": "1000047955",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2011-02-08T15:00:00Z",
+                    "academic_society_name": {
+                        "ja": "日本民族衛生学会"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0018234/association_memberships/1547805",
+                    "@type": "association_memberships",
+                    "@reverse": "https://api.researchmap.jp/read0018234/association_memberships",
+                    "rm:id": "1547805",
+                    "rm:user_id": "1000047955",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000047955",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2011-02-08T15:00:00Z",
+                    "rm:modifier_id": "1000047955",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2011-02-08T15:00:00Z",
+                    "academic_society_name": {
+                        "ja": "日本衛生学会"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0018234/association_memberships/1547804",
+                    "@type": "association_memberships",
+                    "@reverse": "https://api.researchmap.jp/read0018234/association_memberships",
+                    "rm:id": "1547804",
+                    "rm:user_id": "1000047955",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000047955",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2011-02-08T15:00:00Z",
+                    "rm:modifier_id": "1000047955",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2011-02-08T15:00:00Z",
+                    "academic_society_name": {
+                        "en": "THE JAPANESE SOCIETY OF HEALTH AND HUMAN ECOLOGY"
+                    }
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0018234/association_memberships/1547803",
+                    "@type": "association_memberships",
+                    "@reverse": "https://api.researchmap.jp/read0018234/association_memberships",
+                    "rm:id": "1547803",
+                    "rm:user_id": "1000047955",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000047955",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2011-02-08T15:00:00Z",
+                    "rm:modifier_id": "1000047955",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2011-02-08T15:00:00Z",
+                    "academic_society_name": {
+                        "en": "THE JAPNESE SOCIETY FOR HYGIENE"
+                    }
+                }
+            ]
+        },
+        {
+            "@id": "https://api.researchmap.jp/read0018234/research_projects",
+            "@type": "research_projects",
+            "@reverse": "https://api.researchmap.jp/read0018234",
+            "total_items": 2,
+            "items": [
+                {
+                    "@id": "https://api.researchmap.jp/read0018234/research_projects/2274316",
+                    "@type": "research_projects",
+                    "@reverse": "https://api.researchmap.jp/read0018234/research_projects",
+                    "rm:id": "2274316",
+                    "rm:user_id": "1000047955",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000047955",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2011-02-08T15:00:00Z",
+                    "rm:modifier_id": "1000047955",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2011-02-08T15:00:00Z",
+                    "research_project_title": {
+                        "ja": "生活習慣・生活環境が健康に及ぼす影響に関する疫学研究"
+                    },
+                    "overall_grant_amount": {
+                        "indirect_cost": "0",
+                        "total_cost": "0",
+                        "direct_cost": "0"
+                    },
+                    "fund_type": "competitive_research_funding"
+                },
+                {
+                    "@id": "https://api.researchmap.jp/read0018234/research_projects/2274315",
+                    "@type": "research_projects",
+                    "@reverse": "https://api.researchmap.jp/read0018234/research_projects",
+                    "rm:id": "2274315",
+                    "rm:user_id": "1000047955",
+                    "display": "disclosed",
+                    "major_achievement": false,
+                    "rm:creator_id": "1000047955",
+                    "rm:creator_type": "myself",
+                    "rm:created": "2011-02-08T15:00:00Z",
+                    "rm:modifier_id": "1000047955",
+                    "rm:modifier_type": "myself",
+                    "rm:modified": "2011-02-08T15:00:00Z",
+                    "research_project_title": {
+                        "en": "Epidemiological Study on Health Related to Lifestyle and Envioroment"
+                    },
+                    "overall_grant_amount": {
+                        "indirect_cost": "0",
+                        "total_cost": "0",
+                        "direct_cost": "0"
+                    },
+                    "fund_type": "competitive_research_funding"
+                }
+            ]
+        }
+    ]
+}
