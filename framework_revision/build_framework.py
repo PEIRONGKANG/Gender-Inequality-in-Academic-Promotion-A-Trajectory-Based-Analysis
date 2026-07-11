@@ -11,8 +11,8 @@ BASE = Path(__file__).resolve().parents[1] / "proposal_revision" / "build_propos
 spec = importlib.util.spec_from_file_location("proposal_builder", BASE)
 b = importlib.util.module_from_spec(spec); spec.loader.exec_module(b)
 
-RQ1 = "Where do gender differences appear in observed academic promotion timelines in Japan?"
-RQ2 = "How is the number of institutional moves associated with promotion timing, and does this association differ between women and men?"
+RQ1 = "Where do gender differences appear in the observed academic promotion timeline in Japan?"
+RQ2 = "How is the number of institutional moves associated with the promotion timeline, and does this association differ between women and men?"
 RQ3 = "How is access to KAKEN-related academic resources associated with promotion across different career stages, and do these associations differ between women and men?"
 
 def h(d, text, level=1): b.add_heading(d, text, level)
@@ -34,7 +34,7 @@ def title(d, logo):
     for text,size,bold,color in [
         ("Graduate School of Arts and Letters",11,False,b.GRAY),("TOHOKU UNIVERSITY",16,True,b.BLUE),
         ("Identifying Gendered Patterns in Japanese Academic Careers",19,True,RGBColor(0,0,0)),
-        ("Promotion Timing, Institutional Mobility, and KAKEN-Related Academic Resources",14,False,b.GRAY),
+        ("Promotion Timeline, Institutional Mobility, and KAKEN-Related Academic Resources",14,False,b.GRAY),
         ("Doctoral Dissertation Framework",14,False,b.GRAY),("PEI Rongkang",14,True,RGBColor(0,0,0))]:
         q=d.add_paragraph(); q.alignment=WD_ALIGN_PARAGRAPH.CENTER; q.paragraph_format.space_after=Pt(6)
         r=q.add_run(text); r.font.name="Arial"; r.font.size=Pt(size); r.bold=bold; r.font.color.rgb=color
@@ -45,39 +45,39 @@ def title(d, logo):
 
 def front(d):
     h(d,"Abstract")
-    p(d,"Gender inequality in academic careers is visible not only in who reaches senior rank, but also in when advancement occurs and in the organizational and scholarly resources available along the way. This dissertation uses longitudinal researchmap career histories linked to KAKEN project records to examine academic careers in Japan. It brings promotion timing, institutional mobility, and access to academic resources into a common career-course framework while keeping the three empirical studies analytically distinct.")
-    p(d,"Study 1 identifies where gender differences appear in observed promotion timelines from the PhD to Associate Professor and from Associate Professor to Full Professor. Study 2 asks whether the number of institutional moves is associated with promotion timing and whether that relationship differs by gender. Sequence analysis provides a secondary account of recurring patterns of institutional stability and movement. Study 3 examines KAKEN-related academic resources across two career stages. It considers participation, project leadership, funding, and project-based network position before promotion.")
+    p(d,"Gender inequality in academic careers is visible not only in who reaches senior rank, but also in when advancement occurs and in the organizational and scholarly resources available along the way. This dissertation uses longitudinal researchmap career histories linked to KAKEN project records to examine academic careers in Japan. It brings the promotion timeline, institutional mobility, and access to academic resources into a common career-course framework while keeping the three empirical studies analytically distinct.")
+    p(d,"Study 1 identifies where gender differences appear in the observed promotion timeline from the PhD to Associate Professor and from Associate Professor to Full Professor. Study 2 asks whether the number of institutional moves is associated with the promotion timeline and whether that relationship differs by gender. Sequence analysis provides a secondary account of recurring patterns of institutional stability and movement. Study 3 examines KAKEN-related academic resources across two career stages. It considers participation, project leadership, funding, and project-based network position before promotion.")
     p(d,"The dissertation contributes to research on gendered organizations and academic careers by treating the ability to move and the accumulation of research resources as career conditions that may be unequally distributed. Researcher-year event-history models preserve right-censoring and temporal order, while the sequence analysis describes longer career pathways. The evidence is descriptive and associational; the observational design does not establish causal effects.")
     h(d,"Acknowledgements"); p(d,"I am grateful to my supervisor, committee members, colleagues, and collaborators for their guidance. This section will be completed in the final dissertation.")
     h(d,"Table of Contents")
-    for x in ["Chapter 1. Introduction","Chapter 2. Gender Inequality in Japanese Academic Careers","Chapter 3. Data and Methods","Chapter 4. Study 1: Gendered Promotion Timelines","Chapter 5. Study 2: Institutional Mobility and Promotion Timing","Chapter 6. Study 3: KAKEN Resources and Stage-Specific Promotion","Chapter 7. General Discussion","Chapter 8. Conclusion","Appendices","References"]:
+    for x in ["Chapter 1. Introduction","Chapter 2. Gender Inequality in Japanese Academic Careers","Chapter 3. Data and Methods","Chapter 4. Study 1: Gendered Promotion Timeline","Chapter 5. Study 2: Institutional Mobility and the Promotion Timeline","Chapter 6. Study 3: KAKEN Resources and Stage-Specific Promotion","Chapter 7. General Discussion","Chapter 8. Conclusion","Appendices","References"]:
         q=d.add_paragraph(x); q.paragraph_format.space_after=Pt(1)
     h(d,"List of Tables"); p(d,"Table 3.1. Core measures and analytical roles\nTable A.1. Variable construction and validation\n[Additional tables will be inserted as empirical chapters are completed]")
-    h(d,"List of Figures"); p(d,"Figure 1.1. Dissertation logic\nFigure 4.1. Study 1 analytic samples\nFigure 4.2. Study 1 observed promotion timelines\n[Additional figures will be inserted as empirical chapters are completed]")
+    h(d,"List of Figures"); p(d,"Figure 1.1. Dissertation logic\nFigure 4.1. Study 1 analytic samples\nFigure 4.2. Study 1 observed promotion timeline\n[Additional figures will be inserted as empirical chapters are completed]")
     h(d,"List of Abbreviations"); p(d,"AP — Associate Professor\nFP — Full Professor\nKAKEN — Grants-in-Aid for Scientific Research\nPI — Principal Investigator\nCo-I — Co-Investigator\nJST — Japan Science and Technology Agency")
     d.add_page_break()
 
 def chapter1(d):
     h(d,"Chapter 1. Introduction")
     h(d,"1.1 Background",2); p(d,"Academic careers unfold through a series of appointments, promotions, institutional moves, and opportunities to secure research support. In Japan, women remain underrepresented at senior academic ranks even as participation in doctoral education and research has expanded. Cross-sectional rank distributions show the outcome of this process, but they reveal little about when inequalities emerge or how careers develop before promotion.")
-    h(d,"1.2 Research Problem",2); p(d,"Three gaps guide the dissertation. Promotion timing is often studied only among people whose transitions are observed. Institutional mobility is commonly treated as individual choice even though the capacity to move depends on organizational opportunity and private circumstances. Research funding is frequently measured as an outcome rather than as a career resource that may have different relevance at different stages.")
+    h(d,"1.2 Research Problem",2); p(d,"Three gaps guide the dissertation. The promotion timeline is often studied only among people whose transitions are observed. Institutional mobility is commonly treated as individual choice even though the capacity to move depends on organizational opportunity and private circumstances. Research funding is frequently measured as an outcome rather than as a career resource that may have different relevance at different stages.")
     h(d,"1.3 Research Questions",2)
     for n,rq in [("RQ1",RQ1),("RQ2",RQ2),("RQ3",RQ3)]: p(d,f"{n}. {rq}")
     h(d,"1.4 Theoretical Orientation",2); p(d,"The argument draws on gendered organizations, linked lives, status attainment, and cumulative advantage. Organizational rules can appear neutral while rewarding career patterns that are easier for some researchers to sustain. Institutional mobility may open opportunities, but the ability to move may itself be an unequally distributed career resource. Likewise, access to academic resources and the career value attached to those resources may vary by gender and career stage.")
-    h(d,"1.5 Data and Methodological Overview",2); p(d,"The dissertation links researchmap career records to KAKEN project data and organizes them by fiscal year. Study 1 compares observed promotion timelines. Studies 2 and 3 use researcher-year risk sets that retain researchers who have not yet experienced promotion. Study 2 also uses multichannel sequence analysis to describe recurring mobility pathways.")
-    h(d,"1.6 Dissertation Structure",2); p(d,"The empirical sequence is straightforward: timing, mobility, and academic resources. Chapter 4 establishes where gender differences appear. Chapter 5 examines institutional movement. Chapter 6 turns to KAKEN-related resources across career stages.")
-    h(d,"1.7 Contribution",2); p(d,"The dissertation connects career timing to the organizational and scholarly conditions under which promotion occurs. It also extends completed-transition comparisons by retaining right-censored careers in the later studies.")
+    h(d,"1.5 Data and Methodological Overview",2); p(d,"The dissertation links researchmap career records to KAKEN project data and organizes them by fiscal year. Study 1 compares the observed promotion timeline across career stages. Studies 2 and 3 use researcher-year risk sets that retain researchers who have not yet experienced promotion. Study 2 also uses multichannel sequence analysis to describe recurring mobility pathways.")
+    h(d,"1.6 Dissertation Structure",2); p(d,"The empirical sequence is straightforward: promotion timeline, mobility, and academic resources. Chapter 4 establishes where gender differences appear. Chapter 5 examines institutional movement. Chapter 6 turns to KAKEN-related resources across career stages.")
+    h(d,"1.7 Contribution",2); p(d,"The dissertation connects the promotion timeline to the organizational and scholarly conditions under which promotion occurs. It also extends completed-transition comparisons by retaining right-censored careers in the later studies.")
 
 def chapter2(d):
     h(d,"Chapter 2. Gender Inequality in Japanese Academic Careers")
     sections=[
     ("2.1 Japanese Academic Career Structure","Japanese academic careers combine rank progression with substantial variation across fields and institutions. The PhD-to-Associate-Professor transition marks entry into a more secure and organizationally recognized position; the later transition to Full Professor reflects a different stage of evaluation and opportunity."),
-    ("2.2 Promotion and Rank Inequality","Gender gaps in rank can arise through unequal entry into promotion, different timing among those promoted, or differential observation. These processes should not be collapsed into a single measure of advancement (Allison and Long, 1987; Pei et al., 2026)."),
+    ("2.2 Promotion and Rank Inequality","Gender gaps in rank can arise through unequal entry into promotion, differences in the promotion timeline among those promoted, or differential observation. These processes should not be collapsed into a single measure of advancement (Allison and Long, 1987; Pei et al., 2026)."),
     ("2.3 Institutional Mobility","Institutional moves can reflect career strategy and constraint. Their meaning depends on when they occur and where they lead. Status-attainment research suggests that mobility can improve organizational position, while segmented labour markets limit the opportunities available to different groups (Bielby and Bielby, 1992; Cañibano et al., 2016)."),
     ("2.4 KAKEN and Academic Resources","KAKEN participation provides access to project resources and collaboration. PI and Co-I roles mark different forms of project responsibility. These roles are project-specific rather than permanent researcher attributes (JSPS, 2026a; Sato et al., 2021)."),
     ("2.5 Gendered Organizations and Career Constraints","Gendered-organization theory directs attention from individual preference to organizational practices (Acker, 1990). Linked-lives research adds that career decisions are coordinated with partners and family responsibilities. The same institutional move may therefore carry different career implications for women and men."),
     ("2.6 Cumulative Advantage","Early access to funding, leadership, and collaboration can shape later opportunities. Cumulative advantage need not imply an automatic process; it identifies a mechanism through which initially modest differences may grow across career stages (Merton, 1968; DiPrete and Eirich, 2006; Bol et al., 2018)."),
-    ("2.7 Research Gap","Existing work rarely examines promotion timing, institutional movement, and project-based academic resources with the same longitudinal population. The dissertation addresses this gap without treating mobility or funding as exogenous interventions.")]
+    ("2.7 Research Gap","Existing work rarely examines the promotion timeline, institutional movement, and project-based academic resources with the same longitudinal population. The dissertation addresses this gap without treating mobility or funding as exogenous interventions.")]
     for title_,text in sections: h(d,title_,2); p(d,text)
 
 def chapter3(d):
@@ -96,21 +96,21 @@ def chapter3(d):
     for title_,text in sections: h(d,title_,2); p(d,text)
 
 def chapter4(d,media):
-    h(d,"Chapter 4. Study 1: Gendered Promotion Timelines")
+    h(d,"Chapter 4. Study 1: Gendered Promotion Timeline")
     h(d,"4.1 Introduction",2); p(d,"Study 1 provides the diagnostic starting point by locating gender differences across two observed promotion transitions.")
     h(d,"4.2 Research Question",2); p(d,"RQ1. "+RQ1)
     h(d,"4.3 Data and Measures",2); p(d,"The completed study uses 74,344 discipline-mapped PhD holders. The observed-transition samples contain 20,808 researchers for PhD to AP and 10,747 for AP to FP; positive-duration samples contain 18,794 and 10,416 researchers, respectively.")
     b.add_picture(d,media/"image3.png",6.5); b.add_caption(d,"Figure 4.1. Study 1 official analytic and observed-transition samples. Source: Pei et al. (2026).")
-    h(d,"4.4 Analytical Strategy",2); p(d,"Promotion timing is measured between validated milestones. Completed-transition comparisons are interpreted alongside survival-based checks that retain right-censoring.")
+    h(d,"4.4 Analytical Strategy",2); p(d,"The promotion timeline is measured between validated milestones. Completed-transition comparisons are interpreted alongside survival-based checks that retain right-censoring.")
     h(d,"4.5 Results",2); p(d,"The completed analysis identifies the PhD-to-Associate-Professor transition as the main site of observed heterogeneity. Among positive-duration completed transitions, mean timelines are 7.83 years for women and 8.77 years for men from PhD to AP, and 8.22 years for women and 8.60 years for men from AP to FP. These conditional means do not imply that women have a higher probability of promotion.")
-    b.add_picture(d,media/"image4.png",6.5); b.add_caption(d,"Figure 4.2. Study 1 mean observed promotion timelines by gender and career stage. Source: Pei et al. (2026).")
-    h(d,"4.6 Discussion",2); p(d,"The early-career transition deserves closer attention, but timing alone cannot reveal how organizational opportunities shape advancement. The distinction between transition duration and entry into promotion motivates the risk-set designs that follow.")
-    h(d,"4.7 Chapter Summary",2); p(d,"Study 1 shows where observed timing differences appear. Chapter 5 asks whether institutional movement is related to those promotion timelines.")
+    b.add_picture(d,media/"image4.png",6.5); b.add_caption(d,"Figure 4.2. Study 1 mean observed promotion timeline by gender and career stage. Source: Pei et al. (2026).")
+    h(d,"4.6 Discussion",2); p(d,"The early-career transition deserves closer attention, but the promotion timeline alone cannot reveal how organizational opportunities shape advancement. The distinction between transition duration and entry into promotion motivates the risk-set designs that follow.")
+    h(d,"4.7 Chapter Summary",2); p(d,"Study 1 shows where differences in the observed promotion timeline appear. Chapter 5 asks whether institutional movement is related to that timeline.")
 
 def chapter5(d):
-    h(d,"Chapter 5. Study 2: Institutional Mobility and Promotion Timing")
+    h(d,"Chapter 5. Study 2: Institutional Mobility and the Promotion Timeline")
     h(d,"5.1 Introduction",2); p(d,"Institutional mobility may offer career opportunities, but the capacity to move is not equally distributed. Study 2 therefore centers on the number of institutional moves rather than treating every feature of mobility as a separate question.")
-    h(d,"5.2 Theoretical Expectations",2); p(d,"H2.1 More institutional moves are associated with promotion timing.\nH2.2 The association between move count and promotion timing differs between women and men.\nH2.3 Upward moves are more strongly associated with promotion than lateral or downward moves.")
+    h(d,"5.2 Theoretical Expectations",2); p(d,"H2.1 More institutional moves are associated with the promotion timeline.\nH2.2 The association between move count and the promotion timeline differs between women and men.\nH2.3 Upward moves are more strongly associated with promotion than lateral or downward moves.")
     h(d,"5.3 Research Question",2); p(d,"RQ2. "+RQ2)
     h(d,"5.4 Variables and Measures",2); p(d,"The primary predictor is cumulative institutional move count before year t. Secondary measures distinguish upward, lateral, and downward moves, internal and external promotion, time since the last move, and mobility per observed career year. Prestige percentiles and institution size provide context rather than separate theoretical centers.")
     h(d,"5.5 Analytical Strategy",2); p(d,"The main analysis models time to first Associate Professor appointment. Where coverage permits, the AP-to-FP transition is examined separately. Gender-by-move-count interactions are interpreted through predicted probabilities and marginal effects. Sequence analysis provides a secondary typology of institutional stability and movement.")
@@ -128,7 +128,7 @@ def chapter6(d):
     h(d,"6.5 Stage 1: PhD/Early Career to Associate Professor",2); p(d,"The primary Stage 1 risk set begins in the first fiscal year after PhD completion. Researchers remain at risk until their first validated Associate Professor appointment or the observation endpoint. Researchers who are not observed as AP remain as right-censored cases, and post-event person-years are excluded.")
     p(d,"Where postdoctoral appointments can be identified reliably, postdoctoral status is constructed as a time-varying career state. A secondary Postdoc-to-Associate-Professor analysis will examine promotion after entry into an observed postdoctoral appointment. An observed postdoc is not an inclusion requirement for the primary Stage 1 analysis: some researchers move directly into faculty or other academic positions, and postdoctoral histories may be incomplete.")
     placeholder(d)
-    h(d,"6.6 Stage 2: Associate Professor to Full Professor",2); p(d,"The Stage 2 risk set begins in the first fiscal year after the validated Associate Professor appointment and ends at first observed Full Professor appointment or censoring. Researchers already observed as Full Professor when AP timing first becomes observable are excluded or flagged for chronology review.")
+    h(d,"6.6 Stage 2: Associate Professor to Full Professor",2); p(d,"The Stage 2 risk set begins in the first fiscal year after the validated Associate Professor appointment and ends at first observed Full Professor appointment or censoring. Researchers already observed as Full Professor when the AP appointment year first becomes observable are excluded or flagged for chronology review.")
     p(d,"KAKEN predictors in this stage are measured after the AP appointment and before the FP transition year. Pre-AP resources may be retained as baseline career history, but they are not substituted for the post-AP resource measures that define the core Stage 2 analysis. This separation ensures that the stage comparison concerns resources accumulated while researchers are at risk for the relevant promotion.")
     placeholder(d)
     h(d,"6.7 Gender Differences Across Career Stages",2); p(d,"Separate stage-specific model families are primary. Gender-by-resource terms are estimated within each stage, and stage-by-resource comparisons are made across aligned specifications. A pooled model with gender-by-stage-by-resource interactions will be used only when the data provide adequate events and common support."); placeholder(d,False)
@@ -140,7 +140,7 @@ def chapter6(d):
 
 def ending(d):
     h(d,"Chapter 7. General Discussion")
-    for s in ["7.1 Summary of Findings","7.2 Promotion Timing","7.3 Mobility as a Gendered Career Strategy","7.4 Gendered Access to Academic Resources","7.5 Career-Stage Differences","7.6 Theoretical Contributions","7.7 Policy Implications","7.8 Limitations","7.9 Future Research"]:
+    for s in ["7.1 Summary of Findings","7.2 Promotion Timeline","7.3 Mobility as a Gendered Career Strategy","7.4 Gendered Access to Academic Resources","7.5 Career-Stage Differences","7.6 Theoretical Contributions","7.7 Policy Implications","7.8 Limitations","7.9 Future Research"]:
         h(d,s,2); p(d,"[Insert synthesis after the relevant empirical chapters are completed]")
     h(d,"Chapter 8. Conclusion"); p(d,"[Insert concise conclusion after all empirical chapters and the General Discussion are complete]")
     h(d,"Appendices")

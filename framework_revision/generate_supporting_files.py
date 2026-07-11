@@ -8,8 +8,8 @@ def write(name,header,rows):
         w=csv.writer(f); w.writerow(header); w.writerows(rows)
 
 write("research_question_mapping.csv",["study","formal_research_question","chapter","former_questions_relocated_to"],[
- ["Study 1","Where do gender differences appear in observed academic promotion timelines in Japan?","Chapter 4","Stage and discipline comparisons in measures and analysis"],
- ["Study 2","How is the number of institutional moves associated with promotion timing, and does this association differ between women and men?","Chapter 5","H2.1-H2.3; secondary mobility measures; sequence analysis; robustness checks"],
+ ["Study 1","Where do gender differences appear in the observed academic promotion timeline in Japan?","Chapter 4","Stage and discipline comparisons in measures and analysis"],
+ ["Study 2","How is the number of institutional moves associated with the promotion timeline, and does this association differ between women and men?","Chapter 5","H2.1-H2.3; secondary mobility measures; sequence analysis; robustness checks"],
  ["Study 3","How is access to KAKEN-related academic resources associated with promotion across different career stages, and do these associations differ between women and men?","Chapter 6","H3.1-H3.3; core PhD/early-career-to-AP and AP-to-FP risk sets; secondary Postdoc-to-AP analysis; selected interactions; supplementary post-AP trajectories"],
 ])
 terms=[
@@ -17,7 +17,7 @@ terms=[
  ("Associate Professor","title case; AP after definition","Academic rank"),("Full Professor","title case; FP after definition","Academic rank"),
  ("PI","PI","Project-specific Principal Investigator role"),("Co-I","hyphenated","Project-specific Co-Investigator role"),
  ("institutional mobility","preferred broad term","Changes between institutions"),("institutional move","countable event","Change in canonical primary institution"),
- ("promotion timing","preferred general term","Elapsed timing of promotion"),("promotion risk","event-history interpretation only","Conditional probability/hazard"),
+ ("promotion timeline","preferred general term; do not use promotion timing","Elapsed interval between validated promotion milestones"),("promotion risk","event-history interpretation only","Conditional probability/hazard"),
  ("researcher-year","hyphenated","Panel unit"),("event-history analysis","hyphenated","Risk-set model family"),
  ("multichannel sequence analysis","full term","Secondary pathway analysis"),("KAKEN-related academic resources","hyphenated","Access, leadership, funding, and network position"),
  ("project-based collaboration networks","hyphenated","Networks derived from shared KAKEN projects"),("career stage","two words","PhD-to-AP or AP-to-FP"),
@@ -52,7 +52,7 @@ The former RQ2a-RQ2e and RQ3a-RQ3d labels were removed. Each study now has one f
 
 ## Study 2
 
-Study 2 now centers on cumulative institutional move count before year t and promotion timing. Move direction, internal versus external promotion, prestige, size, and sequence analysis are secondary. The chapter emphasizes that mobility can be both opportunity and constraint, and that the capacity to move is unequally distributed.
+Study 2 now centers on cumulative institutional move count before year t and the promotion timeline. Move direction, internal versus external promotion, prestige, size, and sequence analysis are secondary. The chapter emphasizes that mobility can be both opportunity and constraint, and that the capacity to move is unequally distributed.
 
 ## Study 3
 
@@ -64,7 +64,7 @@ Repeated causal disclaimers, symmetrical variable catalogues, generic transition
 
 ## Unfinished empirical sections
 
-Study 1 retains only the previously reported sample counts and promotion-timeline results. Study 2, Study 3, the General Discussion, and the Conclusion contain explicit structured placeholders. No empirical values were created for unfinished analyses.
+Study 1 retains only the previously reported sample counts and promotion timeline results. Study 2, Study 3, the General Discussion, and the Conclusion contain explicit structured placeholders. No empirical values were created for unfinished analyses.
 """,encoding="utf-8")
 
 (ROOT/"unresolved_issues.md").write_text("""# Unresolved Issues

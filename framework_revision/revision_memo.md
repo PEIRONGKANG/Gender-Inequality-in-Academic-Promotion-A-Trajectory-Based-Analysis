@@ -10,7 +10,7 @@ The former RQ2a-RQ2e and RQ3a-RQ3d labels were removed. Each study now has one f
 
 ## Study 2
 
-Study 2 now centers on cumulative institutional move count before year t and promotion timing. Move direction, internal versus external promotion, prestige, size, and sequence analysis are secondary. The chapter emphasizes that mobility can be both opportunity and constraint, and that the capacity to move is unequally distributed.
+Study 2 now centers on cumulative institutional move count before year t and the promotion timeline. Move direction, internal versus external promotion, prestige, size, and sequence analysis are secondary. The chapter emphasizes that mobility can be both opportunity and constraint, and that the capacity to move is unequally distributed.
 
 ## Study 3
 
@@ -22,4 +22,4 @@ Repeated causal disclaimers, symmetrical variable catalogues, generic transition
 
 ## Unfinished empirical sections
 
-Study 1 retains only the previously reported sample counts and promotion-timeline results. Study 2, Study 3, the General Discussion, and the Conclusion contain explicit structured placeholders. No empirical values were created for unfinished analyses.
+Study 1 retains only the previously reported sample counts and promotion timeline results. Study 2, Study 3, the General Discussion, and the Conclusion contain explicit structured placeholders. No empirical values were created for unfinished analyses.
