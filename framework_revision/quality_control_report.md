@@ -12,17 +12,22 @@ Date: 2026-07-11 (Asia/Shanghai)
 - Formal research questions: one for Study 1, one for Study 2, and one for Study 3.
 - Old `RQ2a`-`RQ2e` and `RQ3a`-`RQ3d` labels detected: 0.
 - Study 2 primary explanatory variable: cumulative institutional move count before year t.
-- Study 3 organization: KAKEN access, leadership, funding, and project-based network position across PhD-to-AP and AP-to-FP stages.
+- Study 3 organization: KAKEN access, leadership, funding, and project-based network position across two core risk sets.
+- Stage 1 begins in the first fiscal year after PhD and ends at first observed AP or censoring.
+- Observed postdoctoral status is time varying and supports a secondary Postdoc-to-AP analysis; it is not required for the primary Stage 1 population.
+- Stage 2 begins in the first fiscal year after validated AP and ends at first observed FP or censoring.
+- Stage 2 KAKEN predictors are measured after AP and before the FP transition year.
+- Post-AP event-time trajectories are supplementary and do not replace the AP-to-FP promotion model.
 - Study 1 reported sample counts and promotion timelines were preserved.
 - Structured results-placeholder sections: 4.
-- Explicit `[Insert ...]` markers: 40.
+- Explicit placeholders are retained for every unfinished Stage 1, Stage 2, gender-comparison, robustness, discussion, and supplementary-trajectory result.
 - No new empirical estimates were introduced for Studies 2 or 3.
 - Raw fields, linkage status codes, ranking formulas, detailed sequence alternatives, and diagnostic inventories were moved out of conceptual prose.
 
 ## DOCX integrity
 
 - Clean copy revisions: 0 insertions / 0 deletions.
-- Tracked copy revisions: 239 insertions / 0 deletions.
+- Tracked copy revisions: 245 insertions / 0 deletions.
 - Accepting tracked changes reproduces the clean paragraph text: yes.
 - Comments in final files: none.
 
@@ -34,8 +39,8 @@ Date: 2026-07-11 (Asia/Shanghai)
 
 ## Rendering check
 
-- Clean DOCX: 13 pages, visually inspected.
-- Tracked DOCX: 13 pages, visually inspected.
+- Clean DOCX: 14 pages, visually inspected.
+- Tracked DOCX: 14 pages, visually inspected.
 - No clipping, overlap, missing figures, broken headings, unreadable content, or unintended blank pages were observed.
 
 ## Result
