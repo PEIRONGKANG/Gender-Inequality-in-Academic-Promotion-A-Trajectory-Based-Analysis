@@ -4,13 +4,19 @@
 
 The proposal has been restructured as an eight-chapter dissertation framework. Proposal milestones and workflow catalogues were removed from the main body. Front matter now includes a dissertation-style contents list, lists of tables and figures, and abbreviations. The source DOCX was not overwritten.
 
+The Word layout follows the supplied Tohoku University LaTeX book template where its rules can be translated reliably: Executive page dimensions, 1.25-inch side margins, 1.1-inch top and bottom margins, chapters beginning on new pages, no chapter-name running heads, and page numbers at the outside edge of alternating headers. The title page retains the correct Graduate School of Arts and Letters identity while using the university logo supplied with the template.
+
 ## Research questions
 
 The former RQ2a-RQ2e and RQ3a-RQ3d labels were removed. Each study now has one formal question. Their useful analytical content was retained as hypotheses, secondary measures, model choices, or robustness checks.
 
 ## Study 2
 
-Study 2 now centers on cumulative institutional move count before year t and the promotion timeline. Move direction, internal versus external promotion, prestige, size, and sequence analysis are secondary. The chapter emphasizes that mobility can be both opportunity and constraint, and that the capacity to move is unequally distributed.
+Study 2 now uses an explicit hierarchy. Cumulative institutional move count before year t is the primary explanatory variable. Move direction, internal versus external promotion, time since last move, and mobility rate are secondary. Institutional ranking and size are contextual or robustness measures. Sequence analysis is supplementary and does not replace the event-history model. The chapter emphasizes that mobility can be both opportunity and constraint, and that the capacity to move is unequally distributed.
+
+## Theoretical argument
+
+Chapter 2 no longer proceeds as a catalogue of concepts. It develops three connected arguments: Study 1 locates gender differences in the promotion timeline; Study 2 examines institutional mobility as an organizational pathway; and Study 3 examines KAKEN-related resources as an accumulation pathway. Gendered organizations provide the cross-cutting theoretical link.
 
 ## Study 3
 
