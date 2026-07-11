@@ -18,7 +18,8 @@ Date: 2026-07-11 (Asia/Shanghai)
 - Stage 2 begins in the first fiscal year after validated AP and ends at first observed FP or censoring.
 - Stage 2 KAKEN predictors are measured after AP and before the FP transition year.
 - Post-AP event-time trajectories are supplementary and do not replace the AP-to-FP promotion model.
-- Study 1 reported sample counts and promotion timelines were preserved.
+- Study 1 reported sample counts and promotion timeline results were preserved.
+- Preferred term audit: `promotion timeline`; `promotion timing` is prohibited in the dissertation framework.
 - Structured results-placeholder sections: 4.
 - Explicit placeholders are retained for every unfinished Stage 1, Stage 2, gender-comparison, robustness, discussion, and supplementary-trajectory result.
 - No new empirical estimates were introduced for Studies 2 or 3.
