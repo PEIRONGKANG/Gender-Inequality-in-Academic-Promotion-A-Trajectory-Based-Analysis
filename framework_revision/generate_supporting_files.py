@@ -10,7 +10,7 @@ def write(name,header,rows):
 write("research_question_mapping.csv",["study","formal_research_question","chapter","former_questions_relocated_to"],[
  ["Study 1","Where do gender differences appear in observed academic promotion timelines in Japan?","Chapter 4","Stage and discipline comparisons in measures and analysis"],
  ["Study 2","How is the number of institutional moves associated with promotion timing, and does this association differ between women and men?","Chapter 5","H2.1-H2.3; secondary mobility measures; sequence analysis; robustness checks"],
- ["Study 3","How is access to KAKEN-related academic resources associated with promotion across different career stages, and do these associations differ between women and men?","Chapter 6","H3.1-H3.3; stage-specific models; selected interactions; robustness checks"],
+ ["Study 3","How is access to KAKEN-related academic resources associated with promotion across different career stages, and do these associations differ between women and men?","Chapter 6","H3.1-H3.3; core PhD/early-career-to-AP and AP-to-FP risk sets; secondary Postdoc-to-AP analysis; selected interactions; supplementary post-AP trajectories"],
 ])
 terms=[
  ("researchmap","lowercase except at sentence start","Researcher database"),("KAKEN","uppercase","Funding system"),
@@ -56,7 +56,7 @@ Study 2 now centers on cumulative institutional move count before year t and pro
 
 ## Study 3
 
-Study 3 groups KAKEN-related academic resources into access, project leadership, funding, and project-based network position. Separate model families cover PhD-to-AP and AP-to-FP promotion. Interactions are selective rather than exhaustive.
+Study 3 groups KAKEN-related academic resources into access, project leadership, funding, and project-based network position. Its two core analyses are PhD/early-career-to-AP and AP-to-FP promotion. The first risk set begins after PhD; the second begins after validated AP appointment and uses KAKEN predictors observed after AP but before FP. Observed postdoctoral status supports a secondary Postdoc-to-AP analysis without becoming a primary-sample requirement. Post-AP event-time trajectories are supplementary and do not replace the AP-to-FP model. Interactions are selective rather than exhaustive.
 
 ## Humanisation
 
@@ -70,12 +70,13 @@ Study 1 retains only the previously reported sample counts and promotion-timelin
 (ROOT/"unresolved_issues.md").write_text("""# Unresolved Issues
 
 1. Study 2 descriptive, event-history, interaction, sequence, robustness, and discussion sections await empirical results.
-2. Study 3 requires separate AP and FP risk-set analyses; no Stage 2 results are currently available.
-3. General Discussion and Conclusion must be completed only after the empirical chapters are finalized.
-4. Institution prestige and size coverage require validation before substantive interpretation.
-5. Official institution properties should replace temporary affiliation-string heuristics when the institution property table becomes available.
-6. KAKEN non-participation must remain distinct from unresolved linkage and limited source coverage.
-7. Family and dual-career constraints are theoretically relevant but not directly observed.
-8. The final dissertation should replace static front-matter lists with Word-generated page-numbered lists after chapter pagination stabilizes.
-9. Citation records are inherited from the verified proposal audit; any new literature added later requires a fresh Zotero or authoritative-source check.
+2. Study 3 requires separate early-career-to-AP and AP-to-FP risk-set analyses; no Stage 2 results are currently available.
+3. Postdoctoral status requires title and appointment validation. Missing postdoctoral history must not be interpreted as evidence that no postdoctoral appointment occurred.
+4. General Discussion and Conclusion must be completed only after the empirical chapters are finalized.
+5. Institution prestige and size coverage require validation before substantive interpretation.
+6. Official institution properties should replace temporary affiliation-string heuristics when the institution property table becomes available.
+7. KAKEN non-participation must remain distinct from unresolved linkage and limited source coverage.
+8. Family and dual-career constraints are theoretically relevant but not directly observed.
+9. The final dissertation should replace static front-matter lists with Word-generated page-numbered lists after chapter pagination stabilizes.
+10. Citation records are inherited from the verified proposal audit; any new literature added later requires a fresh Zotero or authoritative-source check.
 """,encoding="utf-8")

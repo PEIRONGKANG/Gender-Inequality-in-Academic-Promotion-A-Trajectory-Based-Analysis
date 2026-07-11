@@ -14,7 +14,7 @@ Study 2 now centers on cumulative institutional move count before year t and pro
 
 ## Study 3
 
-Study 3 groups KAKEN-related academic resources into access, project leadership, funding, and project-based network position. Separate model families cover PhD-to-AP and AP-to-FP promotion. Interactions are selective rather than exhaustive.
+Study 3 groups KAKEN-related academic resources into access, project leadership, funding, and project-based network position. Its two core analyses are PhD/early-career-to-AP and AP-to-FP promotion. The first risk set begins after PhD; the second begins after validated AP appointment and uses KAKEN predictors observed after AP but before FP. Observed postdoctoral status supports a secondary Postdoc-to-AP analysis without becoming a primary-sample requirement. Post-AP event-time trajectories are supplementary and do not replace the AP-to-FP model. Interactions are selective rather than exhaustive.
 
 ## Humanisation
 
