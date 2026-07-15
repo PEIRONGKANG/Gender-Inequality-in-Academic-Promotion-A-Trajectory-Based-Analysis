@@ -1,0 +1,25 @@
+field_name,data_type,value_definition,null_or_unresolved_rate,example_value,join_key,data_source,status
+researcher_id,String,JPR/researchmap researcher identifier,0.000000,hashed researcher ID,user_id,jp_researchers.user_id,available_alias
+researchmap_user_id,String,Native researchmap user identifier,0.000000,hashed researcher ID,user_id,jp_researchers.user_id,available
+gender,Nullable(String),M/F in current source,0.072466,M,user_id,jp_researchers_extra.gender,available
+gender_source,String,Proposed provenance label for gender,1.000000,jp_researchers_extra,user_id,derived,not_native
+phd_year,Nullable(Int32),Year parsed and validated from doctoral degree date,0.699072,2020,researcher_user_id,v_jp_researchers_degree_of_doctor_detail.degree_date,derived_view
+degree_type,String,Doctoral degree type marker within doctor-detail population,0.699072,degree,researcher_user_id,v_jp_researchers_degree_of_doctor_detail.degreeType,available_in_doctor_population
+field,Nullable(String),Doctoral discipline; research areas available separately,0.700184,社会科学,researcher_user_id,v_jp_researchers_degree_of_doctor_detail.discipline,derived_view
+career_record_id,String,researchmap career-record identifier,0.000000,hashed record ID,researcher_user_id,jp_researchers_research_experience.rm_id,available
+institution_name_raw,String,Japanese affiliation with English fallback,0.000000,redacted institution,researcher_user_id,jp_researchers_research_experience.affiliation_ja/affiliation_en,available
+institution_name_standardized,Nullable(String),Exact mapping from raw institution to property-table college,0.506545,redacted standardized institution,raw institution string,jp_researchers_institute_property.college,partial
+institution_id,Nullable(String),researchmap institution code; 9999999999 treated as unknown,0.356553,0172000000,researcher_user_id,jp_researchers_research_experience.rm_institution_code,partial
+job_title_raw,Nullable(String),Combined Japanese and English job-title fields,0.408285,准教授,researcher_user_id,jp_researchers_research_experience.job_ja/job_en,available_but_incomplete
+rank_standardized,Nullable(String),Conservative rank derived from job and affiliation text,0.465104,ASSOCIATE_PROFESSOR,career_record_id,derived_from_research_experience,derived
+start_year,Nullable(Int32),First four digits of from_date after range validation,0.047723,2018,career_record_id,jp_researchers_research_experience.from_date,derived
+start_month,Nullable(Int32),Month parsed when from_date has month/day precision,0.302693,4,career_record_id,jp_researchers_research_experience.from_date,derived
+end_year,Nullable(Int32),First four digits of to_date; 9999 treated as current,0.129731,2024,career_record_id,jp_researchers_research_experience.to_date,derived
+end_month,Nullable(Int32),Month parsed when to_date has month/day precision and is not 9999,0.491776,3,career_record_id,jp_researchers_research_experience.to_date,derived
+is_current,UInt8,to_date empty or starts with 9999,0.000000,1,career_record_id,derived_from_to_date,derived
+primary_affiliation_flag,Nullable(UInt8),Structured primary-versus-secondary affiliation indicator,1.000000,,career_record_id,not_available,not_available
+full_time_flag,Nullable(UInt8),Structured full-time indicator,1.000000,,career_record_id,not_available,not_available
+country,Nullable(String),Country code recorded on career row,0.903776,JPN,career_record_id,jp_researchers_research_experience.address_country,available_but_sparse
+prefecture,Nullable(String),Japanese prefecture of institution,1.000000,,institution_id,not_available,not_available
+institution_type,Nullable(String),Official college type or operation type,1.000000,,raw institution string,jp_researchers_institute_property.college_type/operation_type,columns_exist_but_all_empty
+record_updated_at,DateTime,Last modification timestamp for career record,0.000000,2024-12-13 14:07:10,career_record_id,jp_researchers_research_experience.modified,available

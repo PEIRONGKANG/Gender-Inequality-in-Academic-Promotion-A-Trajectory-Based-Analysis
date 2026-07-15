@@ -1,0 +1,22 @@
+metric,value,definition
+researchers_total,259889,Unique jp_researchers.user_id
+researchers_with_gender,241056,Unique users with nonempty jp_researchers_extra.gender
+researchers_with_phd_year,78208,Unique users with degree_date between 1900 and 2026 in doctor detail view
+researchers_with_career,162275,Unique users in research_experience
+researchers_with_2plus_career_records,139567,Researchers with at least two career records
+researchers_with_valid_first_ap_year,59262,AP title pattern and valid career start year
+researchers_with_any_ap_title,61200,AP title pattern regardless of start-year availability
+first_observed_already_ap,5375,Earliest dated career record is AP or tied with AP
+researchers_without_valid_ap_year_all_roster,200627,Total unique researchers minus valid first-AP researchers
+career_researchers_without_valid_ap_year,103013,Career researchers without valid first AP year
+career_records,905306,Rows in research_experience
+unknown_institution_code_rate,0.356553,rm_institution_code equals 9999999999
+raw_job_fields_missing_rate,0.408285,Both job_ja and job_en empty
+broad_rank_unresolved_rate,0.465104,No conservative AP/professor/assistant/lecturer/postdoc mapping from combined text
+start_year_missing_rate,0.047723,from_date empty
+end_year_missing_rate,0.129731,to_date empty
+overlapping_career_researchers_year_level,134652,At least two distinct career records active in same year; upper-bound diagnostic
+multi_institution_researchers_year_level,115781,At least two institution keys active in same year; upper-bound diagnostic
+preliminary_linked_population,58610,Valid PhD year gender M/F and career record
+preliminary_usable_ap_events,21860,AP after PhD and not AP at first observed career date
+preliminary_censored_without_ap,32025,Linked population with no valid AP and at least one dated career record
