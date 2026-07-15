@@ -20,3 +20,11 @@ multi_institution_researchers_year_level,115781,At least two institution keys ac
 preliminary_linked_population,58610,Valid PhD year gender M/F and career record
 preliminary_usable_ap_events,21860,AP after PhD and not AP at first observed career date
 preliminary_censored_without_ap,32025,Linked population with no valid AP and at least one dated career record
+phd_population_with_dated_career,61735,Researchers among 78208 valid-PhD population with at least one dated career record
+phd_population_year_overlap_researchers,57099,At least two career records active in same calendar year; upper bound
+phd_population_year_multi_institution_researchers,54361,At least two institution keys active in same calendar year; upper bound
+phd_population_closed_month_interval_researchers,42463,Researchers with month-precise closed career intervals usable for strict overlap check
+phd_population_closed_month_overlap_researchers,18761,At least two closed month-precise career intervals overlap
+phd_population_closed_month_multi_institution_researchers,17548,Closed month-precise overlapping intervals have different institution keys
+phd_population_same_year_sequential_move_researchers,34274,Consecutive different-institution records end and start in different months of the same year
+phd_population_exact_duplicate_researchers,278,Researchers with exact duplicate career-record content

@@ -50,3 +50,11 @@ FROM cna.jp_researchers_research_experience;
 -- The report records additional CTE-based aggregate queries for first AP,
 -- preliminary risk-set linkage, same-year ordering, and year-level overlaps.
 -- All overlap figures are diagnostics before canonical primary-affiliation selection.
+
+-- Follow-up overlap audit for the 78,208-researcher valid-PhD population:
+-- 1. Expand valid career intervals to calendar years for an upper-bound overlap count.
+-- 2. Restrict to month-precise, closed intervals and expand to months for a stricter count.
+-- 3. Identify consecutive different-institution records where the previous record ends
+--    before the next begins within the same year; these are sequential moves, not concurrency.
+-- 4. Count exact duplicate content separately. Results are recorded in the summary CSV
+--    and the report section “重叠职业记录具体指什么”.
