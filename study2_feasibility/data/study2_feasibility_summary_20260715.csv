@@ -28,3 +28,21 @@ phd_population_closed_month_overlap_researchers,18761,At least two closed month-
 phd_population_closed_month_multi_institution_researchers,17548,Closed month-precise overlapping intervals have different institution keys
 phd_population_same_year_sequential_move_researchers,34274,Consecutive different-institution records end and start in different months of the same year
 phd_population_exact_duplicate_researchers,278,Researchers with exact duplicate career-record content
+phd_population_with_gender,72475,Valid-PhD researchers with gender M or F
+phd_population_without_gender,5733,Valid-PhD researchers without gender M or F
+phd_population_with_any_career,63227,Valid-PhD researchers with at least one career row
+phd_population_without_career,14981,Valid-PhD researchers with no career row
+phd_population_career_but_no_dated_record,1492,Valid-PhD researchers with career rows but no valid start year
+phd_population_career_rows,396707,Career rows belonging to valid-PhD researchers
+phd_population_unknown_institution_rate,0.359711,Institution code equals 9999999999
+phd_population_raw_job_missing_rate,0.416438,Both job_ja and job_en empty
+phd_population_broad_rank_unresolved_rate,0.462979,No conservative broad-rank mapping from combined text
+phd_population_start_missing_rate,0.040945,from_date empty
+phd_population_end_missing_rate,0.121556,to_date empty
+phd_population_country_missing_rate,0.891406,address_country empty
+phd_population_exact_institution_property_match_rate,0.522196,Raw institution string exactly matches institution-property table
+phd_population_any_ap_text,27476,AP pattern appears anywhere in combined career text
+phd_population_valid_ap_year,26805,AP pattern with valid start year
+phd_population_ap_without_valid_year,671,AP text but no valid AP start year
+phd_population_ap_outside_job_fields,7829,AP pattern appears in affiliation text for at least one AP record
+phd_population_first_observed_ap_or_tied,1837,Earliest dated career record is AP or tied with AP
