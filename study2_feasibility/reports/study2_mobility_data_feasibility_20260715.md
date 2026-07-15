@@ -33,6 +33,7 @@ Study 2 在数据规模上可行。博士年份、性别与职业记录的初步
 
 完整字段字典见 `data/study2_field_dictionary_20260715.csv`。
 13 个相关表/视图的实时完整字段结构见 `data/study2_live_source_schema_20260715.csv`。
+逐数据段的问题、缺失、复核事项和补充数据见 `reports/study2_data_problems_and_required_supplements_20260715.md` 及 `data/study2_data_gap_action_register_20260715.csv`。
 
 ## 三、日期、排序和职业史解释
 
