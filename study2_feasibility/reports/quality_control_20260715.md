@@ -15,5 +15,8 @@
 - Empirical promotion model estimated: no.
 - Data-gap/action register: 21 data segments with problem, missing data, reconfirmation, supplementation, impact, action, and priority fields.
 - Valid-PhD-specific coverage metrics added: gender, career history, dates, institution linkage, rank mapping, country, and AP quality.
+- Study 2/Study 3 narrative field map added from the 2026-07-18 live schema.
+- Current institution-property schema change recorded: `admin1` and `admin2` are present; `college_type` remains entirely empty.
+- Project-role linkage counts recorded without dropping unlinked KAKEN members from team denominators.
 
 Result: **PASS**.
